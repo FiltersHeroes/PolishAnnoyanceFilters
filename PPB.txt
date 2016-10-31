@@ -1,7 +1,7 @@
 ! Title: PopupBlocker(PL)
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 26 Oct 2016
-! Version: 2016102601
+! Last modified: 31 Oct 2016
+! Version: 2016103101
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -17,16 +17,19 @@
 ###backgroundFade
 ###bodyWrapper > .nlpwContainer
 ###bodyWrapper > .pwShade
+###boxpopup
 ###cityModal
 ###cloud_delivery
 ###cloud_order_status > .cloud-logo
 ###clpp_299309941 > .contentPopupContainer
 ###communication_in > .info.msg
+###container > .popup_news
 ###container > .scrollToTop > .fa-chevron-circle-up.fa
 ###contentWrapper > .borders.clearfix > .pright2.pright > .bgblack
 ###ctk_np_popup
 ###dialog
 ###div-gpt-ad-1452685730425-0-after > .dfp-db-wallpaper > .dfp-db-wallpaper__bg
+###div-gpt-ad-1452685730425-0-after > .dfp-db-wallpaper > .dfp-db-wallpaper__top
 ###dontGoModal
 ###dvrs-newsletter-popup-body
 ###edodatki_popup_box-fixed
@@ -51,13 +54,13 @@
 ###header > .active.arrow-up
 ###homeBanners
 ###InfoNewsletter
+###InfoNewsletterOkno
 ###iucn50dhblockingLayer
 ###iucn50dhframeWrap
 ###js-newsletterPopup > .m-contentBox
 ###js-scrollTop
 ###js-sis_menu
 ###last_buy_pop
-###last_buy_pop > .popover-content
 ###last-watched
 ###logo2a
 ###lpl-layer-1
@@ -89,7 +92,6 @@
 ###newsletter-popup
 ###newsletter-popup-26
 ###news-suggest
-###news-suggest
 ###ngdialog1
 ###nlPopup
 ###nspopup_wrapper
@@ -100,7 +102,6 @@
 ###onesignal-popover-dialog
 ###opiniac_blk > a[href="#"]
 ###out-popup
-###out-popup > .popup-scroll
 ###overlay
 ###overlayDesktop
 ###owl-modal-two > .owl-modal-inner
@@ -108,10 +109,9 @@
 ###page-foot > .scrollers > .container > .all.scroll
 ###pageMainContainerRight
 ###PilneAktualnosciBox
-###PilneAktualnosciBoxIcon > a[href="#PilneAktualnosciBox"]
-###place3_v2 > a[href^="http://www.mycenter.pl/ad.php"] > div
+###PilneAktualnosciBoxIcon > a
+###place3_v2 > a
 ###place3_v3 > a > div
-###place3_v3 > a[href^="http://www.mycenter.pl/ad.php"] > div
 ###popup
 ###popup_prettyone
 ###popupEmailPhone
@@ -120,7 +120,7 @@
 ###popupNewsletterWrap
 ###popup-overlay
 ###PopupSignupForm_0 > .mc-modal > .mc-closeModal
-###PopupSignupForm_0 > .mc-modal > .mc-layout__modalContent > 
+###PopupSignupForm_0 > .mc-modal > .mc-layout__modalContent 
 ###PopupSignupForm_0 > .mc-modal-bg
 ###posts-progress > .body
 ###pp1
@@ -138,11 +138,11 @@
 ###sc_wrapper
 ###scroll-top
 ###simplemodal-container
+###simplemodal-overlay
 ###spu-845
 ###spu-bg-845
 ###strefa-marek > a
 ###strefa-marek > h4
-###swim_box
 ###swim_box
 ###taplc_pcb_branding_interstitial_rollout_p1_0 > .price_wins.interstitial_brand_p1
 ###test-modal
@@ -152,7 +152,6 @@
 ###topLayerBackDrop
 ###tws_c_1 > .tln3
 ###tws_c_100000 > div
-###tws_c_100002 > div
 ###tws_c_2 > div
 ###tws_s_0
 ###twsshadow2_bg
@@ -166,10 +165,10 @@
 ###welcome_overlay > .row
 ###widgets-bar
 ###window
-###window > div
 ###wrap-inner > .login-tooltip
 ###wrapper > .fixed.wr-header > .common-header
 ###wrapper > .scrollup
+##.abtlikebox
 ##.b_leaving_users_light_box_mask.modal-mask
 ##.b-reportFault > a[href="/zglos-blad.html"]
 ##.cc-FloatingButtonBarContainer-right.cc-FloatingButtonBarContainer > .cc-FloatingButtonBarContainer-button-scroll-show.cc-FloatingButtonBarContainer-button-scroll > a[href="javascript:void(0);"] > span
@@ -182,14 +181,10 @@
 ##.fancybox-opened.fancybox-type-inline.fancybox-desktop.fancybox-wrap > .f
 ##.fixwidth.featherlight
 ##.guide-popup
-##.in.fade.modal-backdrop
-##.in.modal-backdrop
 ##.insider-opt-in-notification > .insider-opt-in-notification-inner-container
 ##.is-open.js-ajax-modal.dm-modal
 ##.is-ready.dm-flyout--roost.dm-flyout--right.dm-flyout
-##.is-ready.dm-flyout--roost.dm-flyout--right.dm-flyout > .dm-roost-flyout
 ##.js_lb_overlay.lb_overlay
-##.js--nl-baner-close.pop-up-overlay
 ##.layerBooking-mask
 ##.lfinder__widget-reponsive.lfinder__animation-turn-on.lfinder__global-container.lfinder__orange > .lfinder__popup-container-outer > .lfinder__popup-container-inner
 ##.main-footer > .container > .arrow-visible.go-to-top
@@ -222,13 +217,9 @@
 ##.tiny.header
 ##.wf2-bg-light.grwf2_backdrop
 ##.wrapper > .fixed.wr-header
-##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
-##boxpopup
+##body > div:nth-of-type(1) > div > .formk > .formkontaktowy
 ##container > .popup_news
-##InfoNewsletterOkno
-##news_popup
-##Overlay
-##simplemodal-overlay
+##iframe[src="about:blank"]
 /common/images/sprite.png?v2el$image
 /common6/images/scrollTop.png$image
 /common9/images/scrollTop.png$image
@@ -241,10 +232,8 @@
 ||dailycredit.pl/images/bg-ear.png$image
 ||e-saving.pl/userfiles/ywl-baner.png$image
 ||i.cdn.nrholding.net/32690503$image
+||sgs.iplsc.com/fail/landing-bg.png$image
 ||www.electro.pl/temp/filemanager_up/ELECTRO_1200x90_dzielony_lewy_2.png$image
-bezbank.pl##body > div:nth-of-type(3)
-iframe[src="about:blank"]
-pol-nor.com###overlay
-pol-nor.com##body > div:nth-of-type(1) > div > .formk > .formkontaktowy
-www.mixmedia.pl###place3_v2 > a[href^="http://www.mixmedia.pl/ad.php"] > div
-www.olx.pl###div-gpt-ad-1452685730425-0-after > .dfp-db-wallpaper > .dfp-db-wallpaper__top
+||www.nocanka.pl/szablony/nocanka/obrazki/newsletter.jpg$image
+aligoo.pl##.remodal-wrapper
+aligoo.pl##html.remodal-is-locked:style(overflow: auto !important;)
