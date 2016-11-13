@@ -1,7 +1,7 @@
 ! Title: PopupBlocker(PL)
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 09 Nov 2016
-! Version: 2016110901
+! Last modified: 12 Nov 2016
+! Version: 2016111201
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -20,6 +20,7 @@
 .pl###bodyWrapper.pl>.pl.pwShade
 .pl###boxpopup
 .pl###bxAnnouncementsStartPage
+.pl###cboxLoadedContent
 .pl###cityModal
 .pl###cloud_delivery
 .pl###cloud_order_status > .cloud-logo
@@ -37,7 +38,7 @@
 .pl###edodatki_popup_box-fixed
 .pl###esns_background_layer
 .pl###exit-intent-modal
-.pl###exit-newsletter-cboxay
+.pl###exit-newsletter-overlay
 .pl###facebook_gb > .orange_strong.out-mod > .in-mod > .module
 .pl###facebook_gb.pl>.pl.orange_strong.out-mod.pl>.pl.in-mod.pl>.pl.module
 .pl###fanback
@@ -106,8 +107,8 @@
 .pl###onesignal-popover-dialog
 .pl###opiniac_blk > a[href="#"]
 .pl###out-popup
-.pl###Overlay
 .pl###overlay
+.pl###Overlay
 .pl###overlayDesktop
 .pl###owl-modal-two > .owl-modal-inner
 .pl###owl-modal-two > .underlay
@@ -147,8 +148,6 @@
 .pl###scroll-top
 .pl###simplemodal-container
 .pl###simplemodal-overlay
-.pl###spon_left
-.pl###spon_right
 .pl###spu-845
 .pl###spu-bg-845
 .pl###sr-advert-container
@@ -200,7 +199,6 @@
 .pl##.dark.ui_backdrop
 .pl##.ear
 .pl##.fancybox-close.fancybox-item
-.pl##.fancybox-overlay-fixed.fancybox-overlay
 .pl##.fixwidth.featherlight
 .pl##.gb_g.gb_ga
 .pl##.guide-popup
@@ -214,15 +212,17 @@
 .pl##.lfinder__widget-reponsive.lfinder__animation-turn-on.lfinder__global-container.lfinder__orange > .lfinder__popup-container-outer > .lfinder__popup-container-inner
 .pl##.main-footer > .container > .arrow-visible.go-to-top
 .pl##.menuTopSticky
-.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap > .mfp-inline-holder.mfp-s-ready.mfp-container
+.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 .pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap > .mfp-inline-holder.mf
 .pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap.pl>.pl.mfp-inline-holder.mf
+.pl##.mfp-ready.mfp-bg
 .pl##.modal-backdrop
 .pl##.modalbox--has-closebtn.modalbox
 .pl##.modal-mask-class
 .pl##.modal-visible.modal
 .pl##.m-visible.m-block.modal-glass.modal-0.modal > .modal-body
 .pl##.notification-lightbox-container.modal-wrapper
+.pl##.overlay
 .pl##.p5.mainContent > .f0.container > .resp768hAuto.resp768w100.w66.p5.box > .news > .z1
 .pl##.p5.mainContent.pl>.pl.f0.container.pl>.pl.resp768hAuto.resp768w100.w66.p5.box.pl>.pl.news.pl>.pl.z1
 .pl##.plusAd > .rightRail
@@ -233,6 +233,9 @@
 .pl##.pushcrew-chrome-style-notification-safari.pushcrew-chrome-style-notification.pl>.pl.pushcrew-safari-notification-inner-wrapper
 .pl##.pushcrew-chrome-style-notification-safari.pushcrew-chrome-style-notification > .pushcrew-safari-notification-inner-wrapper
 .pl##.QS-container > .QS-container
+.pl##.remodal-overlay
+.pl##.remodal-wrapper
+.pl##.reveal-modal-bg
 .pl##.running_banner_land
 .pl##.scrollUp
 .pl##.sitebar-advert-fake
@@ -246,19 +249,19 @@
 .pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
 .pl##container.pl>.pl.popup_news
 .pl##html.remodal-is-locked:style(overflow: auto !important;)
+.pl/images/bg-ear.png$image
 ||paczuchy.inpost.pl/?=undefined$subdocument
 ||paczuchy.inpost.pl/?parcel=523000014164980002580015$subdocument
 aligoo.pl##.remodal-wrapper
 aligoo.pl##html.remodal-is-locked:style(overflow: auto !important;)
 d24h.pl###fancybox-wrap
 dayli.com.pl##.fancybox-inner
+dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
 eurobank.pl##.reviews
-oleole.pl##.container
 partneragdrtv.com.pl###js-sis_menu
 teleguru.pl##.sumome-animated-default.sumome-animated.sumome-popup-has-optout.sumome-popup-content-default.sumome-popup-template-default.sumome-popup-res-medium.sumome-popup-content.sumome-vex-content
 teleguru.pl##.sumome-popup-form
 teleguru.pl##.sumome-popup-mode-subscribe.sumome-popup.sumome-vex
 teleguru.pl##.sumome-popup-overlay.sumome-vex-overlay
-wearmedicine.com###cboxLoadedContent
