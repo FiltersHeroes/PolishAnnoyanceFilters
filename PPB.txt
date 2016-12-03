@@ -1,7 +1,7 @@
 ! Title: PopupBlocker(PL)
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 30 Nov 2016
-! Version: 2016113001
+! Last modified: 03 Dec 2016
+! Version: 2016110301
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -16,6 +16,7 @@
 .pl###amsocial_dark
 .pl###backgroundFade
 .pl###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
+.pl###bann
 .pl###bodyWrapper > .nlpwContainer
 .pl###bodyWrapper > .pwShade
 .pl###bodyWrapper.pl>.pl.nlpwContainer
@@ -25,7 +26,9 @@
 .pl###cityModal
 .pl###cloud_delivery
 .pl###cloud_order_status > .cloud-logo
+.pl###ClPanel
 .pl###clpp_299309941 > .contentPopupContainer
+.pl###colorbox
 .pl###communication_in > .info.msg
 .pl###container > .lastollToTop > .fa-chevron-circle-up.fa
 .pl###container > .popup_news
@@ -65,10 +68,13 @@
 .pl###grwf2_6565603_dfd0d
 .pl###header > .active.arrow-up
 .pl###homeBanners
+.pl###hurtownia-box
 .pl###InfoNewsletter
 .pl###InfoNewsletterOkno
 .pl###iucn50dhblockingLayer
 .pl###iucn50dhframeWrap
+.pl###js-ban_bottom_left
+.pl###js-ban_bottom_right
 .pl###js-newsletterPopup > .m-contentBox
 .pl###js-ollTop
 .pl###js-scrollTop
@@ -112,12 +118,12 @@
 .pl###nspopup_wrapper
 .pl###nspopup_wrapper_bg
 .pl###oiTab
-.pl###oiTab
 .pl###om-nmhj2lo9jrkfl2hn
 .pl###om-tc9eyhkigbzbjvxb
 .pl###om-zwmbbwgam5p7tl8v
 .pl###onesignal-popover-dialog
 .pl###opiniac_blk > a[href="#"]
+.pl###opinieIkona
 .pl###out-popup
 .pl###overlay
 .pl###Overlay
@@ -166,6 +172,7 @@
 .pl###side-ribbons
 .pl###simplemodal-container
 .pl###simplemodal-overlay
+.pl###sklep-box
 .pl###slide_panel40_h > .slide_img
 .pl###spu-845
 .pl###spu-bg-845
@@ -214,7 +221,9 @@
 .pl###wysuwany_div_g
 .pl###x13popup
 .pl###x13popup-cover
+.pl##.addax-cs_ip_reportsurvey.addax.popoverShow.icon-comment.hide768.hidden-print.surveySendButton
 .pl##.b_leaving_users_light_box_mask.modal-mask
+.pl##.bann
 .pl##.banner-special-content
 .pl##.b-reportFault > a[href="/zglos-blad.html"]
 .pl##.cc-FloatingButtonBarContainer-right.cc-FloatingButtonBarContainer > .cc-FloatingButtonBarContainer-button-scroll-show.cc-FloatingButtonBarContainer-button-scroll > a[href="javascript:void(0);"] > span
@@ -236,6 +245,7 @@
 .pl##.is-open.js-ajax-modal.dm-modal
 .pl##.is-ready.dm-flyout--roost.dm-flyout--right.dm-flyout
 .pl##.js_lb_overlay.lb_overlay
+.pl##.js-emblemPositioner.emblem_area > .emblem.js-emblemItem
 .pl##.layerBooking-mask
 .pl##.lfinder__widget-reponsive.lfinder__animation-turn-on.lfinder__global-container.lfinder__orange > .lfinder__popup-container-outer > .lfinder__popup-container-inner
 .pl##.main-footer > .container > .arrow-visible.go-to-top
@@ -253,6 +263,7 @@
 .pl##.overlay
 .pl##.p5.mainContent > .f0.container > .resp768hAuto.resp768w100.w66.p5.box > .news > .z1
 .pl##.p5.mainContent.pl>.pl.f0.container.pl>.pl.resp768hAuto.resp768w100.w66.p5.box.pl>.pl.news.pl>.pl.z1
+.pl##.phone.text-uppercase.col-xs-12.col-md-4
 .pl##.plusAd > .rightRail
 .pl##.pop-up
 .pl##.popup_newsletter
@@ -277,6 +288,7 @@
 .pl##.smaller
 .pl##.smPopupContainer
 .pl##.sweet-overlay
+.pl##.textCenter
 .pl##.tiny.header
 .pl##.up
 .pl##.wf2-bg-light.grwf2_backdrop
@@ -286,6 +298,7 @@
 .pl##container.pl>.pl.popup_news
 .pl##html.remodal-is-locked:style(overflow: auto !important;)
 .pl/images/bg-ear.png$image
+@@mediaexpert.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 @@www.flashscore.pl##.selected.registration
 ||paczuchy.inpost.pl/?=undefined$subdocument
 ||paczuchy.inpost.pl/?parcel=523000014164980002580015$subdocument
@@ -298,7 +311,12 @@ dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
 eurobank.pl##.reviews
+newholland.biz.pl##a[href="https://www.facebook.com/NewHollandAgriculturePolska/"]
 partneragdrtv.com.pl###js-sis_menu
+sklep.techrol.com###infobox_icon
+sklep-rolnicze.eu###_opineo_label
+sklep-rolnicze.eu###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
+sklep-rolnicze.eu###oiTab
 teleguru.pl##.sumome-animated-default.sumome-animated.sumome-popup-has-optout.sumome-popup-content-default.sumome-popup-template-default.sumome-popup-res-medium.sumome-popup-content.sumome-vex-content
 teleguru.pl##.sumome-popup-form
 teleguru.pl##.sumome-popup-mode-subscribe.sumome-popup.sumome-vex
@@ -306,6 +324,6 @@ teleguru.pl##.sumome-popup-overlay.sumome-vex-overlay
 wearmedicine.com###cboxLoadedContent
 www.bikecs.com##.bcs_footer2_div
 www.bikecs.com##.bcs_site > div
+www.caseih.com.pl###cboxOverlay
 www.cyklotur.com###_opineo_label
 www.rowertour.com###fixed_strefa_marek
-@@mediaexpert.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
