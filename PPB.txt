@@ -1,7 +1,7 @@
 ! Title: PopupBlocker(PL)
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 15 Dec 2016
-! Version: 2016121501
+! Version: 2016121502
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -39,7 +39,6 @@
 .pl###ClPanel
 .pl###clpp_299309941 > .contentPopupContainer
 .pl###colorbox
-.pl###colorbox
 .pl###communication_in > .info.msg
 .pl###container > .lastollToTop > .fa-chevron-circle-up.fa
 .pl###container > .popup_news
@@ -54,6 +53,7 @@
 .pl###doGory
 .pl###dontGoModal
 .pl###dvrs-newsletter-popup-body
+.pl###ear-box > .list
 .pl###edodatki_popup_box-fixed
 .pl###esns_background_layer
 .pl###exit-intent-modal
@@ -119,6 +119,7 @@
 .pl###maxt-d892d4f1d2a31cb2 > div
 .pl###maxt-ea963ae3101b0b51 > div
 .pl###m-content
+.pl###menu-product
 .pl###message_dialog_source
 .pl###messageContainer
 .pl###modalBack
@@ -183,6 +184,7 @@
 .pl###post.format_post.nudziara.masonry-brick
 .pl###posts-progress > .body
 .pl###pp1
+.pl###product-for-sale-box
 .pl###promotion-popup
 .pl###przesuwany_tekst
 .pl###przyklad6
@@ -213,6 +215,7 @@
 .pl###spu-845
 .pl###spu-bg-845
 .pl###sr-advert-container
+.pl###sticky-promo
 .pl###strefa-marek > a
 .pl###strefa-marek > h4
 .pl###sub_dlg
@@ -272,6 +275,7 @@
 .pl##.b_750
 .pl##.b_leaving_users_light_box_mask.modal-mask
 .pl##.babanner
+.pl##.background-container
 .pl##.ban-fp-970x200
 .pl##.bann
 .pl##.banner-special-content
@@ -289,6 +293,7 @@
 .pl##.closeTsExitIntentPopup.darker.visible.tscard_db8d3657bdbe440c985ae127463eaad4_lightbox
 .pl##.comperiaFooter > .rkoScroll
 .pl##.contact.widget
+.pl##.container
 .pl##.ct-fullsize-overlay
 .pl##.czytaj_dalej
 .pl##.dark.ui_backdrop
@@ -296,8 +301,9 @@
 .pl##.ear
 .pl##.eCommerce
 .pl##.fancybox-close.fancybox-item
+.pl##.fancybox-skin
+.pl##.fixed.menus
 .pl##.fixwidth.featherlight
-.pl##.flt-bnr
 .pl##.four.columns.hide-for-small
 .pl##.g.g-16
 .pl##.gb_g.gb_ga
@@ -316,6 +322,7 @@
 .pl##.lfinder__widget-reponsive.lfinder__animation-turn-on.lfinder__global-container.lfinder__orange > .lfinder__popup-container-outer > .lfinder__popup-container-inner
 .pl##.main-footer > .container > .arrow-visible.go-to-top
 .pl##.menuTopSticky
+.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 .pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap > .mfp-inline-holder.mf
 .pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap.pl>.pl.mfp-inline-holder.mf
 .pl##.mfp-ready.mfp-bg
@@ -392,6 +399,7 @@
 .pl,radomsport.pl###skyscraper2
 .pl,wyborcza.biz##.mod_cpCommerce
 .pl/images/bg-ear.png$image
+@@mediaexpert.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 @@www.flashscore.pl##.selected.registration
 ||paczuchy.inpost.pl/?=undefined$subdocument
 ||paczuchy.inpost.pl/?parcel=523000014164980002580015$subdocument
@@ -420,4 +428,4 @@ www.bikecs.com##.bcs_site > div
 www.caseih.com.pl###cboxOverlay
 www.cyklotur.com###_opineo_label
 www.rowertour.com###fixed_strefa_marek
-Shared/widgets/small-widget
+
