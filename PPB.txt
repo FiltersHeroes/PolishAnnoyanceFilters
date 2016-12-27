@@ -1,7 +1,8 @@
+[Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 27 Dec 2016
-! Version: 2016122701
+! Version: 2016122702
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -19,7 +20,6 @@ flashscore.pl#@#.selected.registration
 ~wykop.pl,pl##.overlay
 ~wykop.pl,pl##.popup
 4fun.tv##.open.app-popup
-aligoo.pl##html.remodal-is-locked:style(overflow: auto !important;)
 d24h.pl###fancybox-wrap
 dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
@@ -50,13 +50,13 @@ pl###bodyWrapper > .pwShade
 pl###box_r
 pl###boxpopup
 pl###bxAnnouncementsStartPage
-pl###cboxOverlay
+~purepc.pl,pl###cboxOverlay
 pl###cityModal
 pl###cloud_delivery
 pl###cloud_order_status > .cloud-logo
 pl###ClPanel
 pl###clpp_299309941 > .contentPopupContainer
-pl###colorbox
+~purepc.pl,pl###colorbox
 pl###communication_in > .info.msg
 pl###container > .lastollToTop > .fa-chevron-circle-up.fa
 pl###container > .popup_news
@@ -197,7 +197,6 @@ pl###popupNL
 pl###popupOverlay
 pl###popup-overlay
 pl###PopupSignupForm_0 > .mc-modal > .mc-closeModal
-pl###PopupSignupForm_0 > .mc-modal > .mc-layout__modalContent > 
 pl###PopupSignupForm_0 > .mc-modal-bg
 pl###post.format_post.nudziara.masonry-brick
 pl###posts-progress > .body
@@ -297,7 +296,6 @@ pl##.bxAdv
 pl##.bxbanner
 ~polska-zbrojna.pl,pl##.c1
 pl##.cc-FloatingButtonBarContainer-right.cc-FloatingButtonBarContainer > .cc-FloatingButtonBarContainer-button-scroll-show.cc-FloatingButtonBarContainer-button-scroll > a[href="javascript:void(0);"] > span
-~wykop.pl,pl##.center
 pl##.centered.spaced
 pl##.circle.scrollToTop
 pl##.closeTsExitIntentPopup.darker.visible.tscard_db8d3657bdbe440c985ae127463eaad4_lightbox
@@ -383,7 +381,6 @@ pl##.tiny.header
 pl##.tplAds
 pl##.twelve.columns.hide-for-small.text-center
 pl##.twoElHeader
-pl##.up
 pl##.viking_intro
 pl##.WelcomeScreen
 pl##.wf2-bg-light.grwf2_backdrop
@@ -393,7 +390,6 @@ pl##.wrapper > .fixed.wr-header
 pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
 pl##.zpr_sky
 pl##container.pl>.pl.popup_news
-pl##html.remodal-is-locked:style(overflow: auto !important;)
 ~loteriaparagonowa.gov.pl,pl##.popup
 ~radomsport.pl,pl###skyscraper
 ~radomsport.pl,pl###skyscraper2
