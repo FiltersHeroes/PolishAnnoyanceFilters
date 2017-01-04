@@ -1,25 +1,23 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 03 Jan 2017
-! Version: 2017010301
+! Last modified: 04 Jan 2017
+! Version: 2017010401
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
 ! Kontakt, zgloszenia i informacje: https://azet12.github.io/KAD/informacje.html
 ! Licencja: CC BY-SA 4.0.
 !
+
 ||paczuchy.inpost.pl/?=undefined$subdocument
 ||paczuchy.inpost.pl/?parcel=523000014164980002580015$subdocument
-~loteriaparagonowa.gov.pl,pl##.popup
 ~polska-zbrojna.pl,pl##.c1
 ~purepc.pl,pl###cboxOverlay
 ~purepc.pl,pl###colorbox
 ~radomsport.pl,pl###skyscraper
 ~radomsport.pl,pl###skyscraper2
 ~wykop.pl,pl##.overlay
-~wykop.pl,pl##.popup
-© 2017 GitHub, Inc. Terms Privacy Security
 4fun.tv##.open.app-popup
 aligoo.pl#@#.remodal-wrapper
 angolia.co.uk###fancybox-content
@@ -29,7 +27,6 @@ byinsomnia.com###window-side-button
 byinsomnia.com##.remodal-overlay
 byinsomnia.com##.remodal-wrapper
 caseih.com.pl#@##cboxOverlay
-Contact GitHub API Training Shop Blog About
 cubus.com##.shown.to-top
 cubus.com##.site-container > .site-footer
 d24h.pl###fancybox-wrap
@@ -123,6 +120,7 @@ pl###gz_dso_scroll
 pl###header > .active.arrow-up
 pl###headerBanner
 pl###help-arrow
+pl###hiwModalTrigger
 pl###homeBanners
 pl###homeBar1-pl_PL
 pl###how-to-button
@@ -148,6 +146,7 @@ pl###logo2a
 pl###logregLead
 pl###lpl-layer-1
 pl###lpl-overlay
+pl###mail_zapisz
 pl###main_content > .overlay_container > .background_overlay
 pl###makingdifferentpopup
 pl###mask
@@ -206,7 +205,6 @@ pl###Overlay
 pl###overlayDesktop
 pl###owl-modal-two > .owl-modal-inner
 pl###owl-modal-two > .underlay
-pl###page-foot > .faollers > .container > .all.scroll
 pl###pageMainContainerRight
 pl###payu-installment-dock
 pl###PilneAktualnosciBox
@@ -244,6 +242,7 @@ pl###sbox-overlay
 pl###sbox-window
 pl###sc_behind
 pl###sc_wrapper
+pl###scroll-page
 pl###scroll-top
 pl###scroll-up
 pl###shelterHelp-box
@@ -335,6 +334,7 @@ pl##.centered.spaced
 pl##.closeTsExitIntentPopup.darker.visible.tscard_db8d3657bdbe440c985ae127463eaad4_lightbox
 pl##.comperiaFooter > .rkoScroll
 pl##.contact.widget
+pl##.control
 pl##.ct-fullsize-overlay
 pl##.czytaj_dalej
 pl##.dark.ui_backdrop
@@ -378,6 +378,7 @@ pl##.modalbox--has-closebtn.modalbox
 pl##.modal-mask-class
 pl##.modal-visible.modal
 pl##.m-visible.m-block.modal-glass.modal-0.modal > .modal-body
+pl##.navigate-to-top
 pl##.new_adbanners
 pl##.new_adtaily
 pl##.newsletter_inner
@@ -390,6 +391,7 @@ pl##.pagetools
 pl##.phone.text-uppercase.col-xs-12.col-md-4
 pl##.plusAd > .rightRail
 pl##.policyLink
+pl##.popup
 pl##.popup_newsletter
 pl##.popup-cl.ppup.js_popup
 pl##.pop-up-overlay
@@ -415,6 +417,7 @@ pl##.reverie-header-banner
 pl##.ribbon
 pl##.rstboxes
 pl##.running_banner_land
+pl##.scroll
 pl##.scroll_top
 pl##.scrollToTop
 pl##.scrollUp
@@ -462,3 +465,4 @@ www.bikecs.com##.bcs_site > div
 www.cyklotur.com###_opineo_label
 www.pakolorente.com###tws_a_1
 www.rowertour.com###fixed_strefa_marek
+wykop.pl,loteriaparagonowa.gov.pl#@#.popup
