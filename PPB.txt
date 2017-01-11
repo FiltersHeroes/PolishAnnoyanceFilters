@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 10 Jan 2017
-! Version: 2017011002
+! Last modified: 11 Jan 2017
+! Version: 2017011101
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -11,11 +11,15 @@
 !
 ||paczuchy.inpost.pl/?=undefined$subdocument
 ||paczuchy.inpost.pl/?parcel=523000014164980002580015$subdocument
+~ekino-tv.pl,~google.pl,pl##center
+~niezalezna.pl,pl###content-left
+~orange.pl,pl##.box:nth-of-type(2)
 ~polska-zbrojna.pl,pl##.c1
 ~purepc.pl,pl###cboxOverlay
 ~purepc.pl,pl###colorbox
 ~radomsport.pl,pl###skyscraper
 ~radomsport.pl,pl###skyscraper2
+~wykop.pl,~wprost.pl,pl###lightbox
 ~wykop.pl,pl##.overlay
 4fun.tv##.open.app-popup
 aligoo.pl#@#.remodal-wrapper
@@ -46,8 +50,10 @@ pl###ab5793095750e7d8deaf0a68309dec76e
 pl###ad4sc
 pl###adblock-info
 pl###adcontainer3
+pl###AdTaily_Widget_Container
 pl###ad-top
 pl###adv
+pl###airangAv
 pl###al_main_inviter_div
 pl###allegro_ikona
 pl###amsocial_dark
@@ -77,6 +83,7 @@ pl###cloud_order_status > .cloud-logo
 pl###ClPanel
 pl###clpp_299309941 > .contentPopupContainer
 pl###cntAdsOfferBottom
+pl###coins-banner
 pl###communication_in > .info.msg
 pl###container > .lastollToTop > .fa-chevron-circle-up.fa
 pl###container > .popup_news
@@ -101,6 +108,7 @@ pl###facebook_gb > .orange_strong.out-mod > .in-mod > .module
 pl###fanback
 pl###fbinvite > .fbinvite-body
 pl###feedback
+pl###feedbackButton
 pl###ffbp-bg
 pl###ffbp-body
 pl###ffbp-close
@@ -136,6 +144,7 @@ pl###homeBar1-pl_PL
 pl###how-to-button
 pl###hurtownia-box
 pl###id_A
+pl###id_B
 pl###InfoNewsletter
 pl###InfoNewsletterOkno
 pl###ips-popup
@@ -154,6 +163,7 @@ pl###last_buy_pop
 pl###last-watched
 pl###layer_top
 pl###lightboxCover
+pl###link_przewin
 pl###logo2a
 pl###logregLead
 pl###lpl-layer-1
@@ -174,12 +184,14 @@ pl###message
 pl###message_dialog_source
 pl###messageContainer
 pl###messagetop
+pl###mobileAppsbadgeClose
 pl###modalBack
 pl###modalNewsletter
 pl###modal-newsletter
 pl###modalNL
 pl###modalOverlay
 pl###mon-AdsAdsDetailsTop
+pl###multitab
 pl###musli
 pl###nav-customer > .ng-scope.nav-customer-inset > .ng-scope.nav-customer-account.nav-customer-item > .ng-isolate-scope.hidden-mobile.nav-customer-item--account.caret--down--after.nav-customer-item-region
 pl###news_lokaleEcom
@@ -188,6 +200,7 @@ pl###news-bar
 pl###news-gallery-overlay
 pl###newsletter_main
 pl###newsletter_main_cover
+pl###newsletter_panel
 pl###newsletter_popup
 pl###newsletterBox
 pl###newsletterBoxLeft
@@ -221,6 +234,7 @@ pl###out-popup
 pl###overlay
 pl###Overlay
 pl###overlayDesktop
+pl###overlayJS_holder
 pl###owl-modal-two > .owl-modal-inner
 pl###owl-modal-two > .underlay
 pl###pageMainContainerRight
@@ -251,6 +265,7 @@ pl###product-for-sale-box
 pl###promotion-popup
 pl###przesuwany_tekst
 pl###przyklad6
+pl###PSH-Bar
 pl###PushangoAlert
 pl###push-message > .p-m > span
 pl###pushpushgo-container > .ppg-form-center.ppg-form.app-template > .bac
@@ -277,6 +292,7 @@ pl###sklep
 pl###sklep-box
 pl###slide_panel40_h > .slide_img
 pl###slide_panel59
+pl###slider_dol_box
 pl###slider300Wrapper
 pl###slideText
 pl###smPopupBackground
@@ -298,6 +314,7 @@ pl###tln3_bg
 pl###tln3_wrap
 pl###tloPopUp
 pl###topBanner
+pl###top-banner
 pl###toplayer_newsletter
 pl###topLayerBackDrop
 pl###top-promotion-bar
@@ -343,6 +360,7 @@ pl##.addedbymobile
 pl##.adsbygoogle
 pl##.adunit-rectangle.article-body
 pl##.advertisement2
+pl##.arts-box-wrapper
 pl##.b_750
 pl##.b_leaving_users_light_box_mask.modal-mask
 pl##.babanner
@@ -352,10 +370,13 @@ pl##.backToTopButton-active.backToTopButton
 pl##.ban-fp-970x200
 pl##.bann
 pl##.banner-special-content
+pl##.bg
 pl##.bg-pop-over
 pl##.billboard
+pl##.bookingaff
 pl##.box:nth-of-type(1) > section
-pl##.box:nth-of-type(2)
+pl##.box-banners:nth-of-type(2)
+pl##.box-banners:nth-of-type(4)
 pl##.box-promofixed
 pl##.b-reportFault > a[href="/zglos-blad.html"]
 pl##.bx.ST-skorzystaj
@@ -383,6 +404,7 @@ pl##.fancybox-skin
 pl##.feedback
 pl##.fixed.menus
 pl##.fixwidth.featherlight
+pl##.flip
 pl##.float-box-info
 pl##.flt-bnr
 pl##.four.columns.hide-for-small
@@ -393,6 +415,7 @@ pl##.header_210
 pl##.hektor-container--close.hektor-container
 pl##.hot_three.promo_box
 pl##.hot-info-slider
+pl##.icon-mobile.circle
 pl##.in.fade.modal.newsletter-modal
 pl##.insider-opt-in-notification > .insider-opt-in-notification-inner-container
 pl##.introFirst.introjs-tooltip
@@ -426,6 +449,7 @@ pl##.newsletter-layer
 pl##.nomarg.bottom-content-newsletter
 pl##.notices
 pl##.notification-lightbox-container.modal-wrapper
+pl##.onesignal-bell-svg
 pl##.otokredytbox-ing.otokredytbox
 pl##.p5.mainContent > .f0.container > .resp768hAuto.resp768w100.w66.p5.box > .news > .z1
 pl##.pagetools
@@ -457,6 +481,7 @@ pl##.reveal-modal-bg
 pl##.reverie-header-banner
 pl##.ribbon
 pl##.right > div:nth-of-type(3)
+pl##.rightColumn
 pl##.rstboxes
 pl##.running_banner_land
 pl##.scroll
@@ -475,8 +500,11 @@ pl##.smPopupContainer
 pl##.social-float-bar
 pl##.special
 pl##.sweet-overlay
+pl##.td-scroll-up-visible.td-scroll-up
 pl##.textCenter
+pl##.text-right.col-xs-2
 pl##.tiny.header
+pl##.top
 pl##.totop
 pl##.tplAds
 pl##.twelve.columns.hide-for-small.text-center
@@ -492,9 +520,9 @@ pl##.widget.widget_text
 pl##.wrapper > .fixed.wr-header
 pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
 pl##.zpr_sky
-~ekino-tv.pl,~google.pl,pl##center
 pl##container.pl>.pl.popup_news
 pl##div:nth-of-type(14) > .banner
+pl##tqwidget
 pl,wyborcza.biz##.mod_cpCommerce
 pl/images/bg-ear.png$image
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
@@ -513,4 +541,3 @@ www.cyklotur.com###_opineo_label
 www.pakolorente.com###tws_a_1
 www.rowertour.com###fixed_strefa_marek
 wykop.pl,loteriaparagonowa.gov.pl#@#.popup
-~wykop.pl,~wprost.pl,pl###lightbox
