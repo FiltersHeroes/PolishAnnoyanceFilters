@@ -2,7 +2,7 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 11 Jan 2017
-! Version: 2017011101
+! Version: 2017011102
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -13,7 +13,6 @@
 ||paczuchy.inpost.pl/?parcel=523000014164980002580015$subdocument
 ~ekino-tv.pl,~google.pl,pl##center
 ~niezalezna.pl,pl###content-left
-~orange.pl,pl##.box:nth-of-type(2)
 ~polska-zbrojna.pl,pl##.c1
 ~purepc.pl,pl###cboxOverlay
 ~purepc.pl,pl###colorbox
@@ -26,6 +25,7 @@ aligoo.pl#@#.remodal-wrapper
 angolia.co.uk###fancybox-content
 angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
+bazarek.net.pl##div:nth-of-type(14) > .banner
 byinsomnia.com###window-side-button
 byinsomnia.com##.remodal-overlay
 byinsomnia.com##.remodal-wrapper
@@ -374,9 +374,6 @@ pl##.bg
 pl##.bg-pop-over
 pl##.billboard
 pl##.bookingaff
-pl##.box:nth-of-type(1) > section
-pl##.box-banners:nth-of-type(2)
-pl##.box-banners:nth-of-type(4)
 pl##.box-promofixed
 pl##.b-reportFault > a[href="/zglos-blad.html"]
 pl##.bx.ST-skorzystaj
@@ -407,6 +404,7 @@ pl##.fixwidth.featherlight
 pl##.flip
 pl##.float-box-info
 pl##.flt-bnr
+pl##.formbox
 pl##.four.columns.hide-for-small
 pl##.g.g-16
 pl##.gb_g.gb_ga
@@ -480,7 +478,6 @@ pl##.repository.side_widget > .label
 pl##.reveal-modal-bg
 pl##.reverie-header-banner
 pl##.ribbon
-pl##.right > div:nth-of-type(3)
 pl##.rightColumn
 pl##.rstboxes
 pl##.running_banner_land
@@ -518,10 +515,8 @@ pl##.wf2-bg-light.grwf2_backdrop
 pl##.wiadomosci_lista_div
 pl##.widget.widget_text
 pl##.wrapper > .fixed.wr-header
-pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
 pl##.zpr_sky
 pl##container.pl>.pl.popup_news
-pl##div:nth-of-type(14) > .banner
 pl##tqwidget
 pl,wyborcza.biz##.mod_cpCommerce
 pl/images/bg-ear.png$image
@@ -535,9 +530,12 @@ teleguru.pl##.sumome-popup-form
 teleguru.pl##.sumome-popup-mode-subscribe.sumome-popup.sumome-vex
 teleguru.pl##.sumome-popup-overlay.sumome-vex-overlay
 wearmedicine.com###cboxLoadedContent
+wszystkotujest.pl##.box:nth-of-type(2)
+wszystkotujest.pl##.box-banners:nth-of-type(4)
 www.bikecs.com##.bcs_footer2_div
 www.bikecs.com##.bcs_site > div
 www.cyklotur.com###_opineo_label
 www.pakolorente.com###tws_a_1
 www.rowertour.com###fixed_strefa_marek
+www.zaimo.pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
 wykop.pl,loteriaparagonowa.gov.pl#@#.popup
