@@ -1,22 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 13 Jan 2017
-! Version: 2017011301
+! Last modified: 14 Jan 2017
+! Version: 2017011401
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
 ! Kontakt, zgloszenia i informacje: https://azet12.github.io/KAD/informacje.html
 ! Licencja: CC BY-SA 4.0.
 !
-||paczuchy.inpost.pl/?=undefined$subdocument
-||paczuchy.inpost.pl/?parcel=523000014164980002580015$subdocument
 ~ekino-tv.pl,pl##.top
-~play.pl,pl##.flip
-~poczta.interia.pl,pl##.overlay
 ~orange.pl,~kalendarz.toolix.pl,pl##.popup
-~play.pl,pl##.flip
-~poczta.interia.pl,pl##.overlay
 ~policja.pl,pl##.bg
 ~polska-zbrojna.pl,pl##.c1
 ~purepc.pl,pl###cboxOverlay
@@ -46,6 +40,7 @@ ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
 eurobank.pl##.reviews
 flashscore.pl#@#.selected.registration
+forsal.pl##.tresc:nth-of-type(6)
 ibiznes.biz###text-2
 newholland.biz.pl##a[href="https://www.facebook.com/NewHollandAgriculturePolska/"]
 partneragdrtv.com.pl###js-sis_menu
@@ -64,6 +59,7 @@ pl###allegro_ikona
 pl###amsocial_dark
 pl###article_promo
 pl###ARTICLE_STREAM_PATH
+pl###aswift_0_expand
 pl###backgroundFade
 pl###back-top
 pl###backtotop
@@ -216,6 +212,7 @@ pl###NewsletterPopup
 pl###newsletter-popup
 pl###newsletter-popup-26
 pl###news-suggest
+pl###nextArticleWidget
 pl###ngdialog1
 pl###nitro-block
 pl###nlPopup
@@ -233,7 +230,9 @@ pl###om-tc9eyhkigbzbjvxb
 pl###om-zwmbbwgam5p7tl8v
 pl###onesignal-popover-dialog
 pl###openUserSuggestionWindowBtn
+pl###opiniac_bg
 pl###opiniac_blk > a[href="#"]
+pl###opiniac_layer
 pl###opinieIkona
 pl###out-popup
 pl###Overlay
@@ -264,6 +263,7 @@ pl###PopupSignupForm_0 > .mc-modal-bg
 pl###post.format_post.nudziara.masonry-brick
 pl###posts-progress > .body
 pl###pp1
+pl###prevArticleWidget
 pl###priceBoxLink
 pl###product-for-sale-box
 pl###promotion-popup
@@ -413,6 +413,7 @@ pl##.gb_g.gb_ga
 pl##.guide-popup
 pl##.header_210
 pl##.hektor-container--close.hektor-container
+pl##.hideOnResize.switcher-boxContainer
 pl##.hot_three.promo_box
 pl##.hot-info-slider
 pl##.icon-mobile.circle
