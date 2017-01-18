@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 14 Jan 2017
-! Version: 2017011401
+! Last modified: 18 Jan 2017
+! Version: 2017011801
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -17,14 +17,12 @@
 ~purepc.pl,pl###colorbox
 ~radomsport.pl,pl###skyscraper
 ~radomsport.pl,pl###skyscraper2
-~wykop.pl,~wprost.pl,pl###lightbox
 ~wykop.pl,pl##.overlay
 4fun.tv##.open.app-popup
 aligoo.pl#@#.remodal-wrapper
 angolia.co.uk###fancybox-content
 angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
-bazarek.net.pl##div:nth-of-type(14) > .banner
 byinsomnia.com###window-side-button
 byinsomnia.com##.remodal-overlay
 byinsomnia.com##.remodal-wrapper
@@ -36,7 +34,6 @@ dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 dukapolska.com###exit--popup--box
 dukapolska.com###exit--popup--wrapper
-ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
 eurobank.pl##.reviews
 flashscore.pl#@#.selected.registration
@@ -60,6 +57,7 @@ pl###amsocial_dark
 pl###article_promo
 pl###ARTICLE_STREAM_PATH
 pl###aswift_0_expand
+pl###back_top
 pl###backgroundFade
 pl###back-top
 pl###backtotop
@@ -86,6 +84,7 @@ pl###clpp_299309941 > .contentPopupContainer
 pl###cntAdsOfferBottom
 pl###coins-banner
 pl###communication_in > .info.msg
+pl###contactable
 pl###container > .lastollToTop > .fa-chevron-circle-up.fa
 pl###container > .popup_news
 pl###content_banner
@@ -246,6 +245,7 @@ pl###PilneAktualnosciBox
 pl###PilneAktualnosciBoxIcon > a[href="#PilneAktualnosciBox"]
 pl###place3_v2 > a > div
 pl###place3_v3 > a > div
+pl###Player0
 pl###pop-slap
 pl###popup
 pl###popup_box
@@ -287,6 +287,7 @@ pl###scroll-to-top
 pl###scroll-up
 pl###shareOpinionSticker
 pl###shelterHelp-box
+pl###showMoreButton
 pl###sidebar-boxes
 pl###side-ribbons
 pl###similarads
@@ -352,10 +353,14 @@ pl###wrap-inner > .login-tooltip
 pl###wrapper > .fixed.wr-header > .common-header
 pl###wrapper > .scrollup
 pl###wt_overlay
+pl###wyskakujaca
 pl###wysuwany_div_g
 pl###x13popup
 pl###x13popup-cover
+pl###z6621j6z667
+pl###zajawka
 pl###zone-24
+pl##._1b86Rja._1CJk4lf.desktop.article > span
 pl##.active.mraty-widget.widget
 pl##.ad750
 pl##.adblock
@@ -515,6 +520,7 @@ pl##.wf2-bg-light.grwf2_backdrop
 pl##.wiadomosci_lista_div
 pl##.widget.widget_text
 pl##.wrapper > .fixed.wr-header
+pl##.zpr_combo
 pl##.zpr_sky
 pl##container.pl>.pl.popup_news
 pl##tqwidget
@@ -530,7 +536,6 @@ teleguru.pl##.sumome-popup-form
 teleguru.pl##.sumome-popup-mode-subscribe.sumome-popup.sumome-vex
 teleguru.pl##.sumome-popup-overlay.sumome-vex-overlay
 wearmedicine.com###cboxLoadedContent
-wszystkotujest.pl##.box:nth-of-type(2)
 wszystkotujest.pl##.box-banners:nth-of-type(4)
 www.bikecs.com##.bcs_footer2_div
 www.bikecs.com##.bcs_site > div
