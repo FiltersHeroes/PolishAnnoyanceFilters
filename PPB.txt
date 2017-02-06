@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 04 Feb 2017
-! Version: 2017020402
+! Last modified: 06 Feb 2017
+! Version: 2017020601
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -11,7 +11,7 @@
 !
 ~ekino-tv.pl,~poczta.wp.pl, ~wemen.pl,pl##.top
 ~orange.pl,~kalendarz.toolix.pl,pl##.popup
-~policja.pl,pl##.bg
+~policja.pl,~dziennik.pl,pl##.bg
 ~polska-zbrojna.pl,pl##.c1
 ~purepc.pl,pl###cboxOverlay
 ~purepc.pl,pl###colorbox
@@ -547,3 +547,11 @@ www.pakolorente.com###tws_a_1
 www.rowertour.com###fixed_strefa_marek
 www.zaimo.pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
 wykop.pl,loteriaparagonowa.gov.pl#@#.popup
+pl##.switcher-area
+pl##.switcher-button
+pl##.hideOnResize.rightFloatingBox
+pl##.switcher-button
+pl##.socialIco.socialLeftPopup
+pl###nextArticleWidget
+pl##.hideOnResize.switcher-boxContainer
+pl##.adexonModule
