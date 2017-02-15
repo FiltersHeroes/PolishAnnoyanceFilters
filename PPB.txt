@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 06 Feb 2017
-! Version: 2017020601
+! Last modified: 15 Feb 2017
+! Version: 2017021501
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -328,6 +328,7 @@ pl###top-promotion-bar
 pl###totop
 pl###toTop
 pl###to-top
+pl###trigger
 pl###tws_c_1 > .tln3
 pl###tws_c_100000 > div
 pl###tws_c_100000.pl>.pldiv
@@ -353,7 +354,6 @@ pl###widgets-bar
 pl###window
 pl###wrap-inner > .login-tooltip
 pl###wrapper > .fixed.wr-header > .common-header
-pl###wrapper > .scrollup
 pl###wt_overlay
 pl###wyskakujaca
 pl###wysuwany_div_g
@@ -361,6 +361,7 @@ pl###x13popup
 pl###x13popup-cover
 pl###z6621j6z667
 pl###zajawka
+pl###zglos
 pl###zone-24
 pl##._1b86Rja._1CJk4lf.desktop.article > span
 pl##.active.mraty-widget.widget
@@ -368,6 +369,7 @@ pl##.ad750
 pl##.adblock
 pl##.addax-cs_ip_reportsurvey.addax.popoverShow.icon-comment.hide768.hidden-print.surveySendButton
 pl##.addedbymobile
+pl##.adexonModule
 pl##.adsbygoogle
 pl##.adunit-rectangle.article-body
 pl##.advertisement2
@@ -397,6 +399,7 @@ pl##.clr.offer-titlebox__buttons
 pl##.comperiaFooter > .rkoScroll
 pl##.contact.widget
 pl##.container > .col-md-offset-3.col-sm-offset-4.col-xs-offset-0.col-sm-8.col-md-9.text-center
+pl##.content
 pl##.control
 pl##.ct-fullsize-overlay
 pl##.czytaj_dalej
@@ -420,6 +423,7 @@ pl##.gb_g.gb_ga
 pl##.guide-popup
 pl##.header_210
 pl##.hektor-container--close.hektor-container
+pl##.hideOnResize.rightFloatingBox
 pl##.hideOnResize.switcher-boxContainer
 pl##.hot_three.promo_box
 pl##.hot-info-slider
@@ -432,6 +436,7 @@ pl##.is-active.js-scroll-top.dm-go-up.dm-icon-arrow-up.dm-icon
 pl##.is-open.js-ajax-modal.dm-modal
 pl##.is-ready.dm-flyout--roost.dm-flyout--right.dm-flyout
 pl##.is-visible.js-return-to-top.return-to-top
+pl##.is-visible.mod_ddbox.mod
 pl##.js_lb_overlay.lb_overlay
 pl##.js-emblemPositioner.emblem_area > .emblem.js-emblemItem
 pl##.layerBooking-mask
@@ -454,6 +459,7 @@ pl##.new_adbanners
 pl##.new_adtaily
 pl##.newsletter_inner
 pl##.newsletter-layer
+pl##.next-page-a
 pl##.nomarg.bottom-content-newsletter
 pl##.notices
 pl##.notification-lightbox-container.modal-wrapper
@@ -493,6 +499,7 @@ pl##.scroll
 pl##.scroll_top
 pl##.scrollToTop
 pl##.scrollUp
+pl##.scrollup
 pl##.self_rectangle
 pl##.show.go-to-top
 pl##.side-menu
@@ -503,18 +510,23 @@ pl##.smaller
 pl##.small-info
 pl##.smPopupContainer
 pl##.social-float-bar
+pl##.socialIco.socialLeftPopup
 pl##.special
 pl##.sweet-overlay
+pl##.switcher-area
+pl##.switcher-button
 pl##.td-scroll-up-visible.td-scroll-up
 pl##.textCenter
 pl##.text-note
 pl##.text-right.col-xs-2
 pl##.tiny.header
+pl##.topbar
 pl##.totop
 pl##.tplAds
 pl##.twelve.columns.hide-for-small.text-center
 pl##.twoElHeader
 pl##.up
+pl##.utrigger-open.utriggerbtn
 pl##.viking_intro
 pl##.visible.desktop-native-app-banner
 pl##.visible.text-center.col-xs-12.pasek-right
@@ -547,11 +559,3 @@ www.pakolorente.com###tws_a_1
 www.rowertour.com###fixed_strefa_marek
 www.zaimo.pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
 wykop.pl,loteriaparagonowa.gov.pl#@#.popup
-pl##.switcher-area
-pl##.switcher-button
-pl##.hideOnResize.rightFloatingBox
-pl##.switcher-button
-pl##.socialIco.socialLeftPopup
-pl###nextArticleWidget
-pl##.hideOnResize.switcher-boxContainer
-pl##.adexonModule
