@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 24 Mar 2017
-! Version: 2017032401
+! Last modified: 31 Mar 2017
+! Version: 2017033101
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -17,6 +17,7 @@
 ~radomsport.pl,pl###skyscraper2
 ~telepolis.pl,pl###message
 ~wykop.pl,pl##.overlay
+!
 4fun.tv##.open.app-popup
 aligoo.pl#@#.remodal-wrapper
 angolia.co.uk###fancybox-content
@@ -35,35 +36,78 @@ dukapolska.com###exit--popup--box
 dukapolska.com###exit--popup--wrapper
 ebuty.pl###fancybox-overlay
 eurobank.pl##.reviews
-facebook.com###pagelet_growth_expanding_cta
+facebook.com###dialog_0
+facebook.com###headerArea
 flashscore.pl#@#.selected.registration
 forsal.pl##.tresc:nth-of-type(6)
 ibiznes.biz###text-2
-newholland.biz.pl##a[href="https://www.facebook.com/NewHollandAgriculturePolska/"]
+newholland.biz.pl##a[href=\\\\\\\"https://www.facebook.com/NewHollandAgriculturePolska/\\\\\\\"]
 partneragdrtv.com.pl###js-sis_menu
+pl##img[src=\\\\\\\"http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png\\\\\\\"]
+pl##img[src=\\\\\\\"http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg\\\\\\\"]
+pl,wyborcza.biz##.mod_cpCommerce
+pl/files/background/tapeta2poprawka.jpg$image
+pl/images/bg-ear.png$image
+pl/images/kontent/dzienkobiet17/tlo.jpg$image
+pl/skins/user/home_blue_5/07918045eddeccc51d18a1eb0afdf9f8.jpg$image
+simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
+sjp.pwn.pl###floater
+sklep-rolnicze.eu###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
+sklep-rolnicze.eu###_opineo_label
+sklep-rolnicze.eu###oiTab
+sklep.techrol.com###infobox_icon
+teleguru.pl##.sumome-animated-default.sumome-animated.sumome-popup-has-optout.sumome-popup-content-default.sumome-popup-template-default.sumome-popup-res-medium.sumome-popup-content.sumome-vex-content
+teleguru.pl##.sumome-popup-form
+teleguru.pl##.sumome-popup-mode-subscribe.sumome-popup.sumome-vex
+teleguru.pl##.sumome-popup-overlay.sumome-vex-overlay
+wearmedicine.com###cboxLoadedContent
+wszystkotujest.pl##.box-banners:nth-of-type(4)
+www.bikecs.com##.bcs_footer2_div
+www.bikecs.com##.bcs_site > div
+www.cyklotur.com###_opineo_label
+www.dobreprogramy.pl##.forum-help-cta.no-mobile.block
+www.dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
+www.harpersbazaar.com###campaign_237772_container_overlay
+www.harpersbazaar.com###share-sticky-bar > .share-module > .share-module--buttons > .share-module--button-wrap-email.share-module--button-wrap
+www.instyle.co.uk##.pw-button-pinterest.pw-button
+www.pakolorente.com###tws_a_1
+www.rowertour.com###fixed_strefa_marek
+www.sfinks.info###go_to_top
+www.sfinks.info##.d_xs_none.social_widgets
+www.zaimo.pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
+wykop.pl,loteriaparagonowa.gov.pl#@#.popup
+||static.gazetaprawna.pl/img/pit2016_169x167.jpg$image
+!
+pl###ARTICLE_STREAM_PATH
+pl###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
+pl###ClPanel
+pl###FlyingLayer
+pl###InfoNewsletter
+pl###InfoNewsletterOkno
+pl###NewsletterPopup
+pl###Overlay
+pl###PSH-Bar
+pl###PilneAktualnosciBox
+pl###PilneAktualnosciBoxIcon > a[href=\\\"#PilneAktualnosciBox\\\"]
+pl###Player0
+pl###PopupSignupForm_0 > .mc-modal > .mc-closeModal
+pl###PopupSignupForm_0 > .mc-modal-bg
+pl###PushangoAlert
 pl###__ceneo-widgets > div > .__ceneo-widget > .widgetTab
 pl###_opineo_label
 pl###ab5793095750e7d8deaf0a68309dec76e
 pl###ad4sc
 pl###adblock-info
-pl###adcontainer3
-pl###AdTaily_Widget_Container
-pl###ad-top
 pl###adv
 pl###airangAv
 pl###al_main_inviter_div
 pl###allegro_ikona
 pl###amsocial_dark
 pl###article_promo
-pl###ARTICLE_STREAM_PATH
 pl###aswift_0_expand
+pl###backToTopBtn
 pl###back_top
 pl###backgroundFade
-pl###back-top
-pl###backtotop
-pl###back-to-top
-pl###backToTopBtn
-pl###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
 pl###baner_300_250
 pl###baner_rog
 pl###bann
@@ -79,7 +123,6 @@ pl###bxAnnouncementsStartPage
 pl###cityModal
 pl###cloud_delivery
 pl###cloud_order_status > .cloud-logo
-pl###ClPanel
 pl###clpp_299309941 > .contentPopupContainer
 pl###cntAdsOfferBottom
 pl###coins-banner
@@ -87,14 +130,14 @@ pl###communication_in > .info.msg
 pl###contactable
 pl###container > .lastollToTop > .fa-chevron-circle-up.fa
 pl###container > .popup_news
-pl###content_banner
 pl###contentWrapper > .borders.clearfix > .pright2.pright > .bgblack
+pl###content_banner
 pl###cover
 pl###ctk_np_popup
 pl###dialog
-pl###divadv346_1483621154472
 pl###div-gpt-ad-1452685730425-0-after > .dfp-db-wallpaper > .dfp-db-wallpaper__bg
 pl###div-gpt-ad-1452685730425-0-after > .dfp-db-wallpaper > .dfp-db-wallpaper__top
+pl###divadv346_1483621154472
 pl###doGory
 pl###dontGoModal
 pl###dvrs-newsletter-popup-body
@@ -104,7 +147,6 @@ pl###esns_background_layer
 pl###exit-intent-modal
 pl###exit-newsletter-overlay
 pl###facebook_gb > .orange_strong.out-mod > .in-mod > .module
-pl###fanback
 pl###fbinvite > .fbinvite-body
 pl###feedback
 pl###feedbackButton
@@ -117,18 +159,16 @@ pl###float-posts-nav > .nextPostBox.postNavigation
 pl###float-posts-nav > .prevPostBox.postNavigation
 pl###flyCart
 pl###flyHelp
-pl###FlyingLayer
 pl###footer_toppage
 pl###formAcymailing1 > .acymailing_module_form
 pl###forum-box
 pl###freshwidget-button
 pl###gad-02
 pl###get-loan-header-button
+pl###go-top
 pl###go_top
 pl###gold-header
 pl###google-ads-container3
-pl###gotop
-pl###go-top
 pl###gototop
 pl###grwf2_3453105_fiiif
 pl###grwf2_6564003_tut7h
@@ -144,8 +184,6 @@ pl###how-to-button
 pl###hurtownia-box
 pl###id_A
 pl###id_B
-pl###InfoNewsletter
-pl###InfoNewsletterOkno
 pl###ips-popup
 pl###ips-popup-wrapper
 pl###iucn50dhblockingLayer
@@ -158,8 +196,8 @@ pl###js-newsletterPopup > .m-contentBox
 pl###js-ollTop
 pl###js-scrollTop
 pl###ks_bezpieczenstwo_podaj_dalej_1048x100
-pl###last_buy_pop
 pl###last-watched
+pl###last_buy_pop
 pl###layer_top
 pl###lightboxCover
 pl###link_przewin
@@ -167,6 +205,7 @@ pl###logo2a
 pl###logregLead
 pl###lpl-layer-1
 pl###lpl-overlay
+pl###m-content
 pl###mail_zapisz
 pl###main_content > .overlay_container > .background_overlay
 pl###makingdifferentpopup
@@ -177,41 +216,34 @@ pl###maxt-a0139281fe4bfda2 > div
 pl###maxt-ac60e49627a8fe5a > div
 pl###maxt-d892d4f1d2a31cb2 > div
 pl###maxt-ea963ae3101b0b51 > div
-pl###m-content
 pl###menu-product
-pl###message_dialog_source
 pl###messageContainer
+pl###message_dialog_source
 pl###messagetop
 pl###mobileAppsbadgeClose
-pl###modalBack
-pl###modalNewsletter
 pl###modal-newsletter
+pl###modalBack
 pl###modalNL
+pl###modalNewsletter
 pl###modalOverlay
 pl###mon-AdsAdsDetailsTop
 pl###multitab
 pl###musli
 pl###nav-customer > .ng-scope.nav-customer-inset > .ng-scope.nav-customer-account.nav-customer-item > .ng-isolate-scope.hidden-mobile.nav-customer-item--account.caret--down--after.nav-customer-item-region
-pl###news_lokaleEcom
-pl###news_popup
 pl###news-bar
 pl###news-gallery-overlay
+pl###news-suggest
+pl###news_lokaleEcom
+pl###news_popup
+pl###newsletter-lightbox-holder
+pl###newsletter-modal
+pl###newsletter-popup-26
+pl###newsletterBoxLeft
+pl###newsletterMsg
 pl###newsletter_main
 pl###newsletter_main_cover
 pl###newsletter_panel
-pl###newsletter_popup
-pl###newsletterBox
-pl###newsletterBoxLeft
-pl###newsletter-lightbox-holder
-pl###newsletter-modal
-pl###newsletterMsg
-pl###newsletter-overlay
-pl###NewsletterPopup
-pl###newsletter-popup
-pl###newsletter-popup-26
-pl###news-suggest
 pl###ngdialog1
-pl###nitro-block
 pl###nlPopup
 pl###nlt_popup
 pl###notificationbar
@@ -228,36 +260,30 @@ pl###om-zwmbbwgam5p7tl8v
 pl###onesignal-popover-dialog
 pl###openUserSuggestionWindowBtn
 pl###opiniac_bg
-pl###opiniac_blk > a[href="#"]
+pl###opiniac_blk > a[href=\\\"#\\\"]
 pl###opiniac_layer
 pl###opinieIkona
 pl###out-popup
-pl###Overlay
 pl###overlayDesktop
 pl###overlayJS_holder
 pl###owl-modal-two > .owl-modal-inner
 pl###owl-modal-two > .underlay
 pl###pageMainContainerRight
 pl###payu-installment-dock
-pl###PilneAktualnosciBox
-pl###PilneAktualnosciBoxIcon > a[href="#PilneAktualnosciBox"]
 pl###place3_v2 > a > div
 pl###place3_v3 > a > div
-pl###Player0
 pl###pop-slap
 pl###popup
-pl###popup_box
-pl###popup_prettyone
+pl###popup-new
+pl###popup-overlay
 pl###popupAdv
 pl###popupEmailPhone
-pl###popup-new
+pl###popupNL
 pl###popupNewsletter
 pl###popupNewsletterWrap
-pl###popupNL
 pl###popupOverlay
-pl###popup-overlay
-pl###PopupSignupForm_0 > .mc-modal > .mc-closeModal
-pl###PopupSignupForm_0 > .mc-modal-bg
+pl###popup_box
+pl###popup_prettyone
 pl###post.format_post.nudziara.masonry-brick
 pl###posts-progress > .body
 pl###pp1
@@ -267,8 +293,6 @@ pl###product-for-sale-box
 pl###promotion-popup
 pl###przesuwany_tekst
 pl###przyklad6
-pl###PSH-Bar
-pl###PushangoAlert
 pl###push-message > .p-m > span
 pl###pushpushgo-container > .ppg-form-center.ppg-form.app-template > .bac
 pl###pushpushgo-container > .ppg-form-top > .subscribe-form
@@ -280,24 +304,22 @@ pl###sbox-window
 pl###sc_behind
 pl###sc_wrapper
 pl###scroll-page
-pl###scroll-top
-pl###scroll-to-top
 pl###scroll-up
 pl###shareOpinionSticker
 pl###shelterHelp-box
 pl###showMoreButton
-pl###sidebar-boxes
 pl###side-ribbons
+pl###sidebar-boxes
 pl###similarads
 pl###simplemodal-container
 pl###simplemodal-overlay
 pl###sklep
 pl###sklep-box
+pl###slideText
 pl###slide_panel40_h > .slide_img
 pl###slide_panel59
-pl###slider_dol_box
 pl###slider300Wrapper
-pl###slideText
+pl###slider_dol_box
 pl###smPopupBackground
 pl###snatch
 pl###spotlight
@@ -316,14 +338,14 @@ pl###text-3
 pl###tln3_bg
 pl###tln3_wrap
 pl###tloPopUp
-pl###topBanner
-pl###top-banner
-pl###toplayer_newsletter
-pl###topLayerBackDrop
-pl###top-promotion-bar
-pl###totop
-pl###toTop
 pl###to-top
+pl###toTop
+pl###top-banner
+pl###top-promotion-bar
+pl###topBanner
+pl###topLayerBackDrop
+pl###toplayer_newsletter
+pl###totop
 pl###trigger
 pl###tws_c_1 > .tln3
 pl###tws_c_100000 > div
@@ -335,7 +357,6 @@ pl###tws_c_2.pl>.pldiv
 pl###tws_s_0
 pl###twsshadow2_bg
 pl###underArtAdv
-pl###upprev_box
 pl###uszy_left
 pl###uszy_right
 pl###ve-panel-iframe-overlay
@@ -359,35 +380,35 @@ pl###z6621j6z667
 pl###zajawka
 pl###zglos
 pl###zone-24
+pl##.QS-container > .QS-container
+pl##.WelcomeScreen
 pl##._1b86Rja._1CJk4lf.desktop.article > span
 pl##.active.mraty-widget.widget
 pl##.ad750
 pl##.adblock
 pl##.addax-cs_ip_reportsurvey.addax.popoverShow.icon-comment.hide768.hidden-print.surveySendButton
 pl##.addedbymobile
-pl##.adexonModule
 pl##.adunit-rectangle.article-body
 pl##.advertisement2
 pl##.arts-box-wrapper
+pl##.b-reportFault > a[href=\\\"/zglos-blad.html\\\"]
 pl##.b_750
 pl##.b_leaving_users_light_box_mask.modal-mask
 pl##.babanner
-pl##.background-container
-pl##.back-to-top
 pl##.backToTopButton-active.backToTopButton
+pl##.background-container
 pl##.ban-fp-970x200
 pl##.bann
 pl##.banner-special-content
 pl##.bg-pop-over
 pl##.billboard
 pl##.bookingaff
-pl##.boxClose
 pl##.box-promofixed
-pl##.b-reportFault > a[href="/zglos-blad.html"]
+pl##.boxClose
 pl##.bx.ST-skorzystaj
 pl##.bxAdv
 pl##.bxbanner
-pl##.cc-FloatingButtonBarContainer-right.cc-FloatingButtonBarContainer > .cc-FloatingButtonBarContainer-button-scroll-show.cc-FloatingButtonBarContainer-button-scroll > a[href="javascript:void(0);"] > span
+pl##.cc-FloatingButtonBarContainer-right.cc-FloatingButtonBarContainer > .cc-FloatingButtonBarContainer-button-scroll-show.cc-FloatingButtonBarContainer-button-scroll > a[href=\\\"javascript:void(0);\\\"] > span
 pl##.cd-is-visible.cd-top
 pl##.centered.spaced
 pl##.closeTsExitIntentPopup.darker.visible.tscard_db8d3657bdbe440c985ae127463eaad4_lightbox
@@ -401,8 +422,8 @@ pl##.czytaj_dalej
 pl##.dark.ui_backdrop
 pl##.dm-sticky-toggle--large.dm-sticky-toggle
 pl##.dostepne_mobile
-pl##.ear
 pl##.eCommerce
+pl##.ear
 pl##.et-visible.et-pb-icon.et_pb_scroll_top
 pl##.fancybox-close.fancybox-item
 pl##.fancybox-skin
@@ -420,8 +441,8 @@ pl##.header_210
 pl##.hektor-container--close.hektor-container
 pl##.hideOnResize.rightFloatingBox
 pl##.hideOnResize.switcher-boxContainer
-pl##.hot_three.promo_box
 pl##.hot-info-slider
+pl##.hot_three.promo_box
 pl##.icon-mobile.circle
 pl##.in.fade.modal.newsletter-modal
 pl##.insider-opt-in-notification > .insider-opt-in-notification-inner-container
@@ -432,28 +453,28 @@ pl##.is-open.js-ajax-modal.dm-modal
 pl##.is-ready.dm-flyout--roost.dm-flyout--right.dm-flyout
 pl##.is-visible.js-return-to-top.return-to-top
 pl##.is-visible.mod_ddbox.mod
-pl##.js_lb_overlay.lb_overlay
 pl##.js-emblemPositioner.emblem_area > .emblem.js-emblemItem
+pl##.js_lb_overlay.lb_overlay
 pl##.layerBooking-mask
 pl##.left_adv
 pl##.lfinder__widget-reponsive.lfinder__animation-turn-on.lfinder__global-container.lfinder__orange > .lfinder__popup-container-outer > .lfinder__popup-container-inner
 pl##.livechat
 pl##.logo_float
+pl##.m-visible.m-block.modal-glass.modal-0.modal > .modal-body
 pl##.main-footer > .container > .arrow-visible.go-to-top
 pl##.menuTopSticky
 pl##.merchant-trust-signal
 pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap > .mfp-inline-holder.mf
 pl##.mfp-ready.mfp-bg
 pl##.modal-backdrop
-pl##.modalbox--has-closebtn.modalbox
 pl##.modal-mask-class
 pl##.modal-visible.modal
-pl##.m-visible.m-block.modal-glass.modal-0.modal > .modal-body
+pl##.modalbox--has-closebtn.modalbox
 pl##.navigate-to-top
 pl##.new_adbanners
 pl##.new_adtaily
-pl##.newsletter_inner
 pl##.newsletter-layer
+pl##.newsletter_inner
 pl##.next-page-a
 pl##.nomarg.bottom-content-newsletter
 pl##.notices
@@ -464,16 +485,15 @@ pl##.pagetools
 pl##.phone.text-uppercase.col-xs-12.col-md-4
 pl##.plusAd > .rightRail
 pl##.policyLink
-pl##.popup_newsletter
-pl##.popup-cl.ppup.js_popup
 pl##.pop-up-overlay
+pl##.popup-cl.ppup.js_popup
+pl##.popup_newsletter
 pl##.portlet.portletCeneo
 pl##.portletReklama
 pl##.portletWrapper.kssattr-portlethash-706c6f6e652e7269676874636f6c756d6e7468656d6174696373657276696365730a636f6e746578740a2f636869700a637573746f6d2d626f782d31
 pl##.post_banner
 pl##.promoted-products.vertical
 pl##.pushcrew-chrome-style-notification-safari.pushcrew-chrome-style-notification.pl>.pl.pushcrew-safari-notification-inner-wrapper
-pl##.QS-container > .QS-container
 pl##.radius.othersBtn.sec_btn
 pl##.raty-sygma.custom
 pl##.rectangleWrapper
@@ -491,19 +511,18 @@ pl##.rightColumn
 pl##.rstboxes
 pl##.running_banner_land
 pl##.scroll
-pl##.scroll_top
-pl##.scrollToTop
 pl##.scrollUp
+pl##.scroll_top
 pl##.scrollup
 pl##.self_rectangle
 pl##.show.go-to-top
 pl##.side-menu
 pl##.sitebar-advert-fake
 pl##.sliderpack_r
-pl##.small-12.columns.textC.nieSkacz
-pl##.smaller
-pl##.small-info
 pl##.smPopupContainer
+pl##.small-12.columns.textC.nieSkacz
+pl##.small-info
+pl##.smaller
 pl##.social-float-bar
 pl##.socialIco.socialLeftPopup
 pl##.special
@@ -511,12 +530,11 @@ pl##.sweet-overlay
 pl##.switcher-area
 pl##.switcher-button
 pl##.td-scroll-up-visible.td-scroll-up
-pl##.textCenter
 pl##.text-note
 pl##.text-right.col-xs-2
+pl##.textCenter
 pl##.tiny.header
 pl##.topbar
-pl##.totop
 pl##.tplAds
 pl##.twelve.columns.hide-for-small.text-center
 pl##.twoElHeader
@@ -524,7 +542,6 @@ pl##.utrigger-open.utriggerbtn
 pl##.viking_intro
 pl##.visible.desktop-native-app-banner
 pl##.visible.text-center.col-xs-12.pasek-right
-pl##.WelcomeScreen
 pl##.wf2-bg-light.grwf2_backdrop
 pl##.wiadomosci_lista_div
 pl##.widget.widget_text
@@ -533,67 +550,3 @@ pl##.zpr_combo
 pl##.zpr_sky
 pl##container.pl>.pl.popup_news
 pl##tqwidget
-pl,wyborcza.biz##.mod_cpCommerce
-pl/images/bg-ear.png$image
-simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
-sklep.techrol.com###infobox_icon
-sklep-rolnicze.eu###_opineo_label
-sklep-rolnicze.eu###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
-sklep-rolnicze.eu###oiTab
-teleguru.pl##.sumome-animated-default.sumome-animated.sumome-popup-has-optout.sumome-popup-content-default.sumome-popup-template-default.sumome-popup-res-medium.sumome-popup-content.sumome-vex-content
-teleguru.pl##.sumome-popup-form
-teleguru.pl##.sumome-popup-mode-subscribe.sumome-popup.sumome-vex
-teleguru.pl##.sumome-popup-overlay.sumome-vex-overlay
-wearmedicine.com###cboxLoadedContent
-wszystkotujest.pl##.box-banners:nth-of-type(4)
-www.bikecs.com##.bcs_footer2_div
-www.bikecs.com##.bcs_site > div
-www.cyklotur.com###_opineo_label
-www.pakolorente.com###tws_a_1
-www.rowertour.com###fixed_strefa_marek
-www.zaimo.pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
-wykop.pl,loteriaparagonowa.gov.pl#@#.popup
-||static.gazetaprawna.pl/img/pit2016_169x167.jpg$image
-www.instyle.co.uk##.pw-button-pinterest.pw-button
-www.harpersbazaar.com###share-sticky-bar > .share-module > .share-module--buttons > .share-module--button-wrap-email.share-module--button-wrap
-www.harpersbazaar.com###campaign_237772_container_overlay
-facebook.com###dialog_0
-www.dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
-pl###ceneoWidget
-pl###ceneo-widget
-pl###check_order
-pl###div_przechowalnia
-pl###doDolu
-pl###elements
-pl###flcart
-pl###goup
-pl###newsletter-popup-30
-pl###pomockl
-pl##.bok4
-pl##.fixed-below-container
-pl##.hidden-phone.mypresta_scrollup
-pl##.mytaxi-widget_label
-pl##.scroll-up-button
-pl##img[src="http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png"]
-pl##img[src="http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg"]
-pl/files/background/tapeta2poprawka.jpg$image
-pl/images/kontent/dzienkobiet17/tlo.jpg$image
-pl/skins/user/home_blue_5/07918045eddeccc51d18a1eb0afdf9f8.jpg$image
-pl##.leftIndexBanner
-pl##.rightIndexBanner
-pl##.noir-link
-pl##.close-banner-special
-www.sfinks.info###go_to_top
-www.sfinks.info##.d_xs_none.social_widgets
-pl##.mask
-pl##.widget-front
-pl###newsletter_link
-pl###order-box
-pl##.o-window.windowTop
-pl##.report-a-bug-container
-pl###right_toolbar
-pl###yt-totop
-pl##.slidingbasket
-facebook.com###headerArea
-www.dobreprogramy.pl##.forum-help-cta.no-mobile.block
-sjp.pwn.pl###floater
