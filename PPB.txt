@@ -2,7 +2,7 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 28 June 2017
-! Version: 2017280601
+! Version: 2017280602
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -14,7 +14,6 @@ aligoo.pl#@#.remodal-wrapper
 angolia.co.uk###fancybox-content
 angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
-at-outlet.pl##.in.fade.modal.newsletter-desktop.newsletter-modal
 at-outlet.pl##.in.fade.modal.newsletter-desktop.newsletter-modal
 at-outlet3.pl##.in.fade.modal-backdrop
 bikecs.com##.bcs_footer2_div
@@ -93,10 +92,8 @@ wp.pl##._2RqGnLN
 wp.pl##._3LBxcT._2owDzX
 wp.pl##._8nrC5j
 wp.pl##.txYCS2B._2Coc2I_
-wszystkotujest.pl##.box-banners:nth-of-type(4)
 wyborcza.biz##.is-visible.mod_ddbox.mod
 wykop.pl,loteriaparagonowa.gov.pl#@#.popup
-zaimo.pl##.wrapper > .landing.static:nth-of-type(1) > .fixed.wr-header
 !
 pl/files/background/tapeta2poprawka.jpg$image
 pl/images/bg-ear.png$image
@@ -177,7 +174,6 @@ pl###ear-box > .list
 pl###edodatki_popup_box-fixed
 pl###esns_background_layer
 pl###exit--popup--box
-pl###exit--popup--box
 pl###exit-intent-modal
 pl###exit-newsletter-overlay
 pl###facebook_gb > .orange_strong.out-mod > .in-mod > .module
@@ -233,7 +229,6 @@ pl###js-scrollTop
 pl###ks_bezpieczenstwo_podaj_dalej_1048x100
 pl###last-watched
 pl###last_buy_pop
-pl###layer_top
 pl###layer_top
 pl###lightboxCover
 pl###link_przewin
@@ -611,9 +606,11 @@ pl##.zpr_sky
 ~telepolis.pl,pl###message
 ~wykop.pl,pl##.overlay
 !
-
-
 pl##a[href^=\"http://grupazwierciadlo.com/reklama/\"]
 pl##container.pl>.pl.popup_news
 pl##img[src=\\\\\\\\\\\\\\\"http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png\\\\\\\\\\\\\\\"]
 pl##img[src=\\\\\\\\\\\\\\\"http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg\\\\\\\\\\\\\\\"]
+!
+pl###gotop
+pl##.small.help
+pl##.help-desk
