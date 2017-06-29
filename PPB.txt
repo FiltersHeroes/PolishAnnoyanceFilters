@@ -2,7 +2,7 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 29 June 2017
-! Version: 2017290601
+! Version: 2017290602
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -57,7 +57,7 @@ myjki.com###_opineo_label
 myjki.com###widget-handler
 myjki.com###widget-prokonsumencki
 myphone.pl###trig_pop_news
-newholland.biz.pl##a[href=\\\\\\\\\\\\\\\"https://www.facebook.com/NewHollandAgriculturePolska/\\\\\\\\\\\\\\\"]
+newholland.biz.pl##a[href=\"https://www.facebook.com/NewHollandAgriculturePolska/"]
 notebookcheck.pl##a[href=\"http://www.notebookcheck.pl/Pliki-cookies-tzw-ciasteczka.3486.0.html\"]
 ogloszeniowa.net###ad-left
 olx.pl##.gtm-survey--in-arrow.js-gtm-survey.gtm-survey
@@ -193,6 +193,7 @@ pl###go-top
 pl###go_top
 pl###gold-header
 pl###google-ads-container3
+pl###gotop
 pl###gototop
 pl###grwf2_3453105_fiiif
 pl###grwf2_6564003_tut7h
@@ -472,6 +473,7 @@ pl##.g.g-16
 pl##.gb_g.gb_ga
 pl##.guide-popup
 pl##.header_210
+pl##.help-desk
 pl##.hektor-container--close.hektor-container
 pl##.hideOnResize.rightFloatingBox
 pl##.hideOnResize.switcher-boxContainer
@@ -495,7 +497,7 @@ pl##.left_adv
 pl##.lfinder__widget-reponsive.lfinder__animation-turn-on.lfinder__global-container.lfinder__orange > .lfinder__popup-container-outer > .lfinder__popup-container-inner
 pl##.livechat
 pl##.logo_float
-pl##.m-visible.m-block.modal-glass.modal-0.modal > .modal-body
+pl##.m-visible
 pl##.main-footer > .container > .arrow-visible.go-to-top
 pl##.mainArrowBackToTop
 pl##.menuTopSticky
@@ -509,6 +511,7 @@ pl##.modalbox--has-closebtn.modalbox
 pl##.my-open.side-banner
 pl##.navigate-to-top
 pl##.new_adbanners
+pl##.new-prenumerata
 pl##.new_adtaily
 pl##.newsFixedBtn
 pl##.newsletter-layer
@@ -558,6 +561,7 @@ pl##.sitebar-advert-fake
 pl##.sliderpack_r
 pl##.smPopupContainer
 pl##.small-12.columns.textC.nieSkacz
+pl##.small.help
 pl##.small-info
 pl##.smaller
 pl##.social-float-bar
@@ -600,9 +604,5 @@ pl##.zpr_sky
 !
 pl##a[href^=\"http://grupazwierciadlo.com/reklama/\"]
 pl##container.pl>.pl.popup_news
-pl##img[src=\\\\\\\\\\\\\\\"http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png\\\\\\\\\\\\\\\"]
-pl##img[src=\\\\\\\\\\\\\\\"http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg\\\\\\\\\\\\\\\"]
-!
-pl###gotop
-pl##.small.help
-pl##.help-desk
+pl##img[src=\"http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png\"]
+pl##img[src=\"http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg\"]
