@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 30 June 2017
-! Version: 2017300602
+! Last modified: 01 July 2017
+! Version: 2017010701
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -479,7 +479,6 @@ pl##.remodal-wrapper
 pl##.reportbug_btn
 pl##.reveal-modal-bg
 pl##.reverie-header-banner
-pl##.rightColumn
 pl##.rstboxes
 pl##.running_banner_land
 pl##.scroll
@@ -523,15 +522,16 @@ pl##.zpr_sky
 !
 ~benchmark.pl,pl##.ribbon
 ~ekino-tv.pl,~poczta.wp.pl, ~wemen.pl,pl##.top
-~myphone.pl,pl###top
+~.dobreprogramy.pl,~myphone.pl,pl###top
 ~orange.pl,~kalendarz.toolix.pl,pl##.popup
 ~purepc.pl,pl###cboxOverlay
 ~purepc.pl,pl###colorbox
 ~radomsport.pl,pl###skyscraper
 ~radomsport.pl,pl###skyscraper2
 ~telepolis.pl,pl###message
+~telepolis.pl,pl##.rightColumn
 ~wykop.pl,pl##.overlay
 !
-pl##a[href^=\"http://grupazwierciadlo.com/reklama/\"]
+pl##a[href^="http://grupazwierciadlo.com/reklama/"]
 pl##img[src=\"http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png\"]
 pl##img[src=\"http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg\"]
