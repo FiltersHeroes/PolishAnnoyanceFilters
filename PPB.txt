@@ -2,7 +2,7 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 03 July 2017
-! Version: 2017030701
+! Version: 2017030702
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -522,7 +522,7 @@ pl##.zpr_sky
 !
 ~benchmark.pl,pl##.ribbon
 ~ekino-tv.pl,~poczta.wp.pl, ~wemen.pl,pl##.top
-~.dobreprogramy.pl,~myphone.pl,pl###top
+~zprp.pl,~dobreprogramy.pl,~myphone.pl,pl###top
 ~orange.pl,~kalendarz.toolix.pl,pl##.popup
 ~purepc.pl,pl###cboxOverlay
 ~purepc.pl,pl###colorbox
@@ -535,3 +535,8 @@ pl##.zpr_sky
 pl##a[href^="http://grupazwierciadlo.com/reklama/"]
 pl##img[src=\"http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png\"]
 pl##img[src=\"http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg\"]
+!
+pcsupport.lenovo.com###oo_tab
+pl##.is-sticky.btn--top.btn
+pl##.bottom-popup.gag
+pl##.fbinvite-body
