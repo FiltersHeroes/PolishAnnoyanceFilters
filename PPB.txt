@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 20 Aug 2017
-! Version: 2017082001
+! Last modified: 21 Aug 2017
+! Version: 2017082101
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
@@ -660,10 +660,10 @@ wec.com.pl##.go2top
 yes.pl##.footer-middle
 teletorium.pl###pop
 teletorium.pl##body.pop_open:style(overflow: visible!important;)
-habys.pl###cp-widget
-habys.pl##html > body:style(overflow: visible!important;)
-habys.pl##html.fancybox-lock:style(overflow: visible!important;)
-habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
+amso.pl,habys.pl###cp-widget
+amso.plhabys.pl##html > body:style(overflow: visible!important;)
+amso.pl,habys.pl##html.fancybox-lock:style(overflow: visible!important;)
+amso.pl,habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
 habys.pl##.fancybox-overlay-fixed
 habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 rooader.pl###nicePopupWrapper
@@ -707,3 +707,20 @@ bartek.com.pl##.mfp-ready
 bartek.com.pl##.mfp-bg
 twojapogoda.pl###cboxOverlay
 twojapogoda.pl###colorbox
+amracing.pl##img[src=\\\"/images/dealers_button.png\\\"]
+amracing.pl##img[src=\\\"/images/files_button.png\\\"]
+amracing.pl##img[src=\\\"/images/partners_button.png\\\"]
+amracing.pl##img[src=\\\"/images/players_button.png\\\"]
+gmoto.pl##.well-sm.well
+maxmoto.pl###newsletter-form
+maxmoto.pl##.allegro-icon
+motor-x.pl###top
+racing-planet.pl###contactable_inner
+scooterkingz.com.pl##.newsletter_form
+sklep.batcar.pl###ceneo-widget
+sklep.batcar.pl###cp-widget
+sklep.mieloch.pl###gotop
+sklep.motor-land.com.pl###side_header_newsletter
+wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
+wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
+wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
