@@ -1,22 +1,47 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 05 Aug 2017
-! Version: 2017070501
+! Last modified: 22 Aug 2017
+! Version: 2017082204
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 !
 ! Kontakt, zgloszenia i informacje: https://azet12.github.io/KAD/informacje.html
 ! Licencja: CC BY-SA 4.0.
+! v.2017082204 aktualizacja: wt, 22 sierpnia 2017, 22:50:00
+!
+
+!
+/btn-newsletter
 !
 4fun.tv##.open.app-popup
+agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
+agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
+alget.pl###jOverlay
+alget.pl###jOverlayContent
+alget.pl###news_box
+alget.pl##.top_button
+amracing.pl##img[src=\\\\\\\"/images/dealers_button.png\\\\\\\"]
+amracing.pl##img[src=\\\\\\\"/images/files_button.png\\\\\\\"]
+amracing.pl##img[src=\\\\\\\"/images/partners_button.png\\\\\\\"]
+amracing.pl##img[src=\\\\\\\"/images/players_button.png\\\\\\\"]
+amso.pl,habys.pl###cp-widget
+amso.pl,habys.pl##html > body:style(overflow: visible!important;)
+amso.pl,habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
+amso.pl,habys.pl##html.fancybox-lock:style(overflow: visible!important;)
 angolia.co.uk###fancybox-content
 angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
 answear.com###popupNewsletter
 answear.com###popupNewsletterWrap
-autofakty.pl###\\\\31 odjc
+autofakty.pl###\\\\\\\\31 odjc
+bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
+bank-wbs.pl###wrapperSectionStickyIcons
+bartek.com.pl##.journal-popup
+bartek.com.pl##.mfp-bg
+bartek.com.pl##.mfp-ready
+bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 bikecs.com##.bcs_akcja_div
 bikecs.com##.bcs_footer2_div
 byinsomnia.com###modal-newsletter
@@ -26,7 +51,11 @@ byinsomnia.com##.remodal-wrapper
 caseih.com.pl###cboxOverlay 
 caseih.com.pl###colorbox
 chrzypsko.pl###facebook_side
+coccodrillo.eu###homeNewsletter
+coccodrillo.eu###livechat-compact-view
 coccodrillo.eu###sc_behind
+coccodrillo.eu###socialFlyBox
+coccodrillo.eu##.newsletterWrap
 cubus.com##.shown.to-top
 cyklotur.com###_opineo_label
 d24h.pl###fancybox-wrap
@@ -49,94 +78,230 @@ ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
 ekologia.pl##.bg-p
 ekologia.pl##.promote
+electro-outlet.pl###tws_a_1
+electro-outlet.pl###tws_a_2
+emag.pl###newsletter-widget
 eporady24.pl##.zaczekaj
 ergokantor.pl##.mfp-ready
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0px!important)
+euro.com.pl###footer-shops > .column:nth-of-type(1)
+euro.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 eurobank.pl##.reviews
 facebook.com###pagelet_growth_expanding_cta
 fasardi.com##.back-to-top
+fashionata.pl###bodyWrapper
+fashionata.pl##.nlpwContainer
+fashionata.pl##.pwShade
+ferratum.pl##.icc.ic-chat
+ferratum.pl##.icc.ic-mail
+ferratum.pl##.icc.ic-phone
 forpro.pl###message
 forsal.pl##.tresc:nth-of-type(6)
 forum.optymalizacja.com###ipsLayout_sidebar
 forum.optymalizacja.com##.back-to-top
+galeria-warminska.pl##.nwsltr.box
+galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
+gazetapraca.pl###nlt_overlay
 gazetaprawna.pl###boxSubscr2016
 gazetaprawna.pl###miejsce104
+gdzie-na-sylwestra.pl###go-top
+gemre.com.pl###backTop
+gemre.com.pl###tws_a_100001
+gemre.com.pl###tws_c_100002
+getinbank.pl###scroll_top
+getinbank.pl##.quickMenuRow.row
+gmoto.pl##.well-sm.well
 google.pl###_L8b
+habys.pl##.fancybox-overlay-fixed
+habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 harpersbazaar.com###campaign_237772_container_overlay
 hbo.pl##.ribbon
+hitbank.pl###scrollbarbox
+hitbank.pl###upprev_box
+homebook.pl##.is-active.js-go-top.go-top
+homebook.pl##.popup-overlay
+homebook.pl##body.has-open-popup:style(overflow: visible!important;)
 ibiznes.biz###text-2
 iitv.pl##.popup.overlay
 innpoland.pl###post-134373 > .art__social-footer__container > .art__social-footer > .row > .art__social-footer__link--comment.art__social-footer__link.col-xs-4
 instyle.co.uk##.pw-button-pinterest.pw-button
+interia.pl##.error-page-layer
 jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_div
+jooble.org###popup
+jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible!important; width: 100%!important;)
 kisiel24.pl###cboxOverlay
 kisiel24.pl###colorbox
 kisiel24.pl###toTop
 kisiel24.pl##.top
+kombo.krakow.pl##body > div:nth-of-type(4)
+kombo.krakow.pl##body > div:nth-of-type(6)
+komputronik.pl##.avia-post-next
+komputronik.pl##.avia-post-prev
+komputronik.pl##.show.screen-only.rollup
+konicaminolta.info.pl###\\\\\\\\34 NmqO
+konicaminolta.info.pl##.kontakt-slide
+kredito24.pl##.btn-apply
+kupbuty.com###topLayerBackDrop
 kupbuty.com###tws_c_1 > .tln3
-linuxiarze.pl##img[src=\\\"https://linuxiarze.pl/obrazy/images/baner5c.png\\\"]
+kupbuty.com###twsshadow2_bg
+kupbuty.com##.newsletter_input
+kupbuty.com##.newsletter_title
+kwiaciarnia-rikka.pl##.has-popup.no-scroll,body:style(overflow: visible!important;)
+kwiaciarnia-rikka.pl##.wdpu-container
+limango.pl##.js_welcome_background.background_overlay
+limango.pl##.modal
+limango.pl##body.welcome_main.modal-open:style(overflow: visible!important;padding-right: 0px!important;)
+linuxiarze.pl##img[src=\\\\\\\"https://linuxiarze.pl/obrazy/images/baner5c.png\\\\\\\"]
 mac-world.pl##.et_bloom_animated.et_bloom_visible.et_bloom_auto_close.et_bloom_trigger_bottom.et_bloom_auto_popup.et_bloom_optin_1.et_bloom_resize.et_bloom_optin.et_bloom_popup
+macris.com.pl###newsletter-popup
+macris.com.pl##.noscroll:style(overflow: visible!important; position: relative!important;)
+maxmoto.pl###newsletter-form
+maxmoto.pl##.allegro-icon
+mbank.pl###push-message
+mbank.pl##.covered.edge-menu
+meble.pl##.footer-subscription
 media2.pl###news-readmore
+mediaexpert.pl###go_top
+mediaexpert.pl##.newsletter_bar
+mediaexpert.pl##.nletter_popup
+mediaexpert.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 mediarun.com##.vc_row-has-fill
+mixmedia.pl###place3_v2
+mixmedia.pl###place3_v3
+mixmedia.pl,mycenter.pl###js-newsletterPopup
+mixmedia.pl,mycenter.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
+monashe.pl###fancybox-overlay
+monedo.pl##.small.help
+motor-x.pl###top
+multikino.pl###qb
+multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
+muve.pl###exit--popup--container
 myjki.com###_opineo_label
 myjki.com###widget-handler
 myjki.com###widget-prokonsumencki
 myphone.pl###trig_pop_news
 nachwilke.com###container > .scrollToTop > .fa-chevron-circle-up.fa
 nafrontendzie.pl###popup-box-gfcr-1
-newholland.biz.pl##a[href=\\\\\\\"https://www.facebook.com/NewHollandAgriculturePolska/\\\"]
+nawozy.eu##.newsletterPopup
+nawozy.eu##script:inject(setTimeout-defuser.js, $(document).lockscroll(true);)
+ncplus.pl###button-call
+ncplus.pl###button-lead
+neonet.pl##.active.arrow-up
+neonet.pl##.snrs-modal-show.snrs-modal-wrapper
+nestbank.pl##.fixed-label
+newholland.biz.pl##a[href=\\\\\\\\\\\\\\\"https://www.facebook.com/NewHollandAgriculturePolska/\\\\\\\"]
+newsweek.pl##.wrapper
+niemarkowe.pl###totop
+nowa.tv##.sticky_boxes
+nowosci-mp3.eu###toTop
+nowosci-mp3.eu##.clr.center > .short-story
 ogloszenia24.info###fancybox-overlay
 ogloszeniowa.net###ad-left
+ogryzek.pl##.add_shop
+olicom.com.pl###ouibounce-modal
 olx.pl##.js-gtm-survey.gtm-survey
 opiw.pl###backtotop
 orange.pl##.usabilla__overlay
 pakolorente.com###tws_a_1
-parabanki.jimdo.com##.cc-FloatingButtonBarContainer-right.cc-FloatingButtonBarContainer > .cc-FloatingButtonBarContainer-button-scroll-show.cc-FloatingButtonBarContainer-button-scroll > a[href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"javascript:void(0);\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"] > span
+parabanki.jimdo.com##.cc-FloatingButtonBarContainer-right.cc-FloatingButtonBarContainer > .cc-FloatingButtonBarContainer-button-scroll-show.cc-FloatingButtonBarContainer-button-scroll > a[href=\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"javascript:void(0);\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"] > span
 partneragdrtv.com.pl###js-sis_menu
 pcsupport.lenovo.com###oo_tab
 pepco.pl##.in.modal-newsletter.fade.modal
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
+pkobp.pl###scrollie
 play.pl###optimonk-holder-campaign-59
+player.pl##body > div:nth-of-type(3)
+poczta.int.pl##.maximized-wrapper.ng-isolate-scope
 poczta.interia.pl###side-ad
+pol-nor.com###popforfirma
 pol-nor.com##.formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
+pomorski-bs.pl###s5_scrolltop_a
+pracuj.pl###scrollTop
+pracuj.pl##.mobile-desktop-badge
+programtv.naziemna.info###my-fb-panel
+programuje.net###content
+programuje.net##.ecIaBtfeSkzD-bg
+programuje.net##.ecIaBtfeSkzD-default
+prostozmostu.pl###column-right
+prostozmostu.pl##.contentsystem-slide-link
 ptakmoda.com###edrone--push--box
 ptakmoda.com###edrone_push--bubble
+pytamy.pl##.tabZB
+quiosque.pl##.nl-container
+racing-planet.pl###contactable_inner
+redcoon.pl###j-newsletterForm
+reklama.pl##.curl
+renee.pl##.js--scroll-top.scroll__top
+renee.pl##.newsletter__section
 romantycznyweekend.eu###article-finished
 romantycznyweekend.eu###fancybox-overlay
 romantycznyweekend.eu###fancybox-wrap
+rooader.pl###nicePopupWrapper
+rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com###fixed_strefa_marek
+rp.pl##.arrow-to-top.toolbar-icon
+rp.pl##tqwidget
 rylko.com###modal-newsletter
 rylko.com##.in.fade.modal-backdrop
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
+salon24.pl##.article-bookstore
+scooterkingz.com.pl##.newsletter_form
 sfinks.info###go_to_top
 sfinks.info##.d_xs_none.social_widgets
+silesiasem.pl###newsletterwidget-3
+silesiasem.pl##.mc-modal
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sjp.pwn.pl###floater
 sklep-rolnicze.eu###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
 sklep-rolnicze.eu###_opineo_label
 sklep-rolnicze.eu###oiTab
+sklep.batcar.pl###ceneo-widget
+sklep.batcar.pl###cp-widget
+sklep.eltron.pl##.menu_suggestion
+sklep.mieloch.pl###gotop
+sklep.motor-land.com.pl###side_header_newsletter
 sklep.techrol.com###infobox_icon
+smartpozyczka.pl##.toTop
+sowafinansowa.pl###owl-modal-two
+sowafinansowa.pl##.circle.scrollToTop
 sprzedajemy.pl###scrollToTopBtn
 sprzedajemy.pl##.newest_offers
 sprzedajemy.pl##.offerDetailsRightBlueBox
 stokrotka.pl##.fancybox-overlay-fixed.fancybox-overlay
 stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: auto!important;)
+stylowebuty.pl##.banner-newsletter
+stylowebuty.pl##.facebook-wrap-top
+taniaksiazka.pl##.newsletter-popup
 teleguru.pl##.fancybox-overlay-fixed.fancybox-overlay
+teletorium.pl###pop
+teletorium.pl##body.pop_open:style(overflow: visible!important;)
 telewizja-cyfrowa.com###ppsPopupBgOverlay
+twojapogoda.pl###cboxOverlay
+twojapogoda.pl###colorbox
+tygertenis.pl###overlay
+tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
+univision24.pl##.fa-angle-up
+vexel-fashion.pl###side-block-421733907
 vivus.pl##.videochat-iframe-holder
 wearmedicine.com###cboxLoadedContent
 wearmedicine.com###cboxOverlay
 wearmedicine.com###nlPopup
+wearmedicine.com###nlThanks
+wearmedicine.com##.newsletter
+wec.com.pl##.go2top
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
 wirtualnemedia.pl##.clearfix.tvn-box
 wispol.eu###_opineo_container
 wispol.eu###container > .popup_news
 wispol.eu###pushAdClicker
-wp.pl###\\\\\\\\36 6b2be7d94cc
+wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
+wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
+wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
+wp.pl###\\\\\\\\\\\\\\\\36 6b2be7d94cc
 wp.pl###newsfeed-player-column
 wp.pl##._1ngc8hM
 wp.pl##._2RqGnLN
@@ -144,7 +309,12 @@ wp.pl##._3LBxcT._2owDzX
 wp.pl##._8nrC5j
 wp.pl##.txYCS2B._2Coc2I_
 wyborcza.biz##.is-visible.mod_ddbox.mod
+yes.pl##.footer-middle
 yoy.tv###notice
+zalando.pl##.overflow.firstLine:nth-of-type(2)
+zapytaj.onet.pl###plista_widget_belowArticle_598b2fcbac7a370
+!
+||merlin.pl/bundles/topmallfrontendnew/images/centrum/birthday/birthday_bg.png$image
 !
 pl###ClPanel
 pl###FlyingLayer
@@ -155,6 +325,8 @@ pl###Overlay
 pl###PSH-Bar
 pl###PilneAktualnosciBox
 pl###PushangoAlert
+pl###Uprod_img
+pl###__ceneo-widgets
 pl###_hj_poll_container
 pl###_opineo_label
 pl###ad4sc
@@ -176,6 +348,7 @@ pl###banner-side
 pl###bannerTop
 pl###banner_left
 pl###bblbrd_outer
+pl###box_newsletter
 pl###boxpopup
 pl###bxAnnouncementsStartPage
 pl###cityModal
@@ -188,6 +361,8 @@ pl###content_banner
 pl###cover
 pl###ctk_np_popup
 pl###dialog
+pl###divGoTop2Mob
+pl###divLogoTeksty
 pl###divadv346_1483621154472
 pl###doGory
 pl###dontGoModal
@@ -227,6 +402,7 @@ pl###how-to-button
 pl###hurtownia-box
 pl###id_A
 pl###id_B
+pl###imgPopImp
 pl###ips-popup
 pl###ips-popup-wrapper
 pl###iucn50dhblockingLayer
@@ -252,6 +428,7 @@ pl###m-content
 pl###mail_zapisz
 pl###makingdifferentpopup
 pl###mask
+pl###menu_newsletter
 pl###messageContainer
 pl###message_dialog_source
 pl###messagetop
@@ -271,11 +448,14 @@ pl###news-gallery-overlay
 pl###news-suggest
 pl###news_lokaleEcom
 pl###news_popup
+pl###newsletter
 pl###newsletter-lightbox-holder
 pl###newsletter-modal
+pl###newsletter-pane
 pl###newsletter-popup-26
 pl###newsletterBoxLeft
 pl###newsletterMsg
+pl###newsletter_content_box
 pl###newsletter_main
 pl###newsletter_main_cover
 pl###newsletter_panel
@@ -330,6 +510,7 @@ pl###sc_wrapper
 pl###scroll-page
 pl###scroll-top-link
 pl###scroll-up
+pl###scrollUp
 pl###shareOpinionSticker
 pl###shelterHelp-box
 pl###showMoreButton
@@ -374,7 +555,7 @@ pl###uszy_left
 pl###uszy_right
 pl###ve-panel-iframe-overlay
 pl###videoModal
-pl###warning
+pl###welcome_newsletter
 pl###welcomescreen_background
 pl###wideSidebar
 pl###widgets-bar
@@ -477,10 +658,14 @@ pl##.my-open.side-banner
 pl##.new-prenumerata
 pl##.new_adbanners
 pl##.new_adtaily
+pl##.news-promo
 pl##.newsFixedBtn
 pl##.newsletter
+pl##.newsletter-btn
+pl##.newsletter-form
 pl##.newsletter-layer
 pl##.newsletter_inner
+pl##.newsletter_wrapper
 pl##.newslettert
 pl##.next-page-a
 pl##.nomarg.bottom-content-newsletter
@@ -497,6 +682,7 @@ pl##.portlet.portletCeneo
 pl##.portletReklama
 pl##.post_banner
 pl##.promoted-products.vertical
+pl##.przyczep
 pl##.radius.othersBtn.sec_btn
 pl##.raty-sygma.custom
 pl##.rectangleWrapper
@@ -507,6 +693,7 @@ pl##.remodal-overlay
 pl##.reportbug_btn
 pl##.reveal-modal-bg
 pl##.reverie-header-banner
+pl##.right-news
 pl##.rstboxes
 pl##.running_banner_land
 pl##.scrollUp
@@ -519,7 +706,6 @@ pl##.smPopupContainer
 pl##.small-12.columns.textC.nieSkacz
 pl##.social-float-bar
 pl##.socialIco.socialLeftPopup
-pl##.special
 pl##.sweet-overlay
 pl##.switcher-area
 pl##.switcher-button
@@ -536,11 +722,11 @@ pl##.wiadomosci_lista_div
 pl##.zpr_combo
 pl##.zpr_sky
 !
-pl##a[href^=\\\"http://grupazwierciadlo.com/reklama/\\\"]
-pl##img[src=\\\\\\\"http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png\\\\\\\"]
-pl##img[src=\\\\\\\"http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg\\\\\\\"]
+pl##a[href^="http://grupazwierciadlo.com/reklama/"]
+pl##img[src="http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png"]
+pl##img[src="http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg"]
+!
 pl/files/background/tapeta2poprawka.jpg$image
 pl/images/bg-ear.png$image
 pl/images/kontent/dzienkobiet17/tlo.jpg$image
 pl/skins/user/home_blue_5/07918045eddeccc51d18a1eb0afdf9f8.jpg$image
-||merlin.pl/bundles/topmallfrontendnew/images/centrum/birthday/birthday_bg.png$image
