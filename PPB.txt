@@ -1,16 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 22 Aug 2017
-! Version: 2017082204
+! Last modified: 26 Aug 2017
+! Version: 2017082601
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
-!
 ! Kontakt, zgloszenia i informacje: https://azet12.github.io/KAD/informacje.html
 ! Licencja: CC BY-SA 4.0.
-! v.2017082204 aktualizacja: wt, 22 sierpnia 2017, 22:50:00
+! v.2017082601 aktualizacja: sob, 26 sierpnia 2017, 22:37:00
 !
-
 !
 /btn-newsletter
 !
@@ -26,7 +24,7 @@ amracing.pl##img[src=\\\\\\\"/images/dealers_button.png\\\\\\\"]
 amracing.pl##img[src=\\\\\\\"/images/files_button.png\\\\\\\"]
 amracing.pl##img[src=\\\\\\\"/images/partners_button.png\\\\\\\"]
 amracing.pl##img[src=\\\\\\\"/images/players_button.png\\\\\\\"]
-amso.pl,habys.pl###cp-widget
+domzagadek.pl,sklep.batcar.pl,amso.pl,habys.pl###cp-widget
 amso.pl,habys.pl##html > body:style(overflow: visible!important;)
 amso.pl,habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
 amso.pl,habys.pl##html.fancybox-lock:style(overflow: visible!important;)
@@ -66,9 +64,11 @@ diagnozainternetu.pl##.top
 diversesystem.com###dvrs-newsletter-popup-body
 dobreprogramy.pl##.forum-help-cta.no-mobile.block
 domsary.eu###widget-handler
+domzagadek.pl##.voucher-widget
 doxa.fm###spu-77018
 doxa.fm###spu-bg-77018
 dukapolska.com###exit--popup--box
+dukapolska.com###exit--popup--container
 dukapolska.com###exit--popup--wrapper
 dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
 e-ciucholand.com###ctk_np_popup
@@ -260,7 +260,6 @@ sklep-rolnicze.eu###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
 sklep-rolnicze.eu###_opineo_label
 sklep-rolnicze.eu###oiTab
 sklep.batcar.pl###ceneo-widget
-sklep.batcar.pl###cp-widget
 sklep.eltron.pl##.menu_suggestion
 sklep.mieloch.pl###gotop
 sklep.motor-land.com.pl###side_header_newsletter
@@ -275,6 +274,7 @@ stokrotka.pl##.fancybox-overlay-fixed.fancybox-overlay
 stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: auto!important;)
 stylowebuty.pl##.banner-newsletter
 stylowebuty.pl##.facebook-wrap-top
+swinoujskie.info###snppopup-welcome
 taniaksiazka.pl##.newsletter-popup
 teleguru.pl##.fancybox-overlay-fixed.fancybox-overlay
 teletorium.pl###pop
@@ -316,16 +316,6 @@ zapytaj.onet.pl###plista_widget_belowArticle_598b2fcbac7a370
 !
 ||merlin.pl/bundles/topmallfrontendnew/images/centrum/birthday/birthday_bg.png$image
 !
-pl###ClPanel
-pl###FlyingLayer
-pl###InfoNewsletter
-pl###InfoNewsletterOkno
-pl###NewsletterPopup
-pl###Overlay
-pl###PSH-Bar
-pl###PilneAktualnosciBox
-pl###PushangoAlert
-pl###Uprod_img
 pl###__ceneo-widgets
 pl###_hj_poll_container
 pl###_opineo_label
@@ -345,8 +335,8 @@ pl###baner_rog
 pl###bann
 pl###banner
 pl###banner-side
-pl###bannerTop
 pl###banner_left
+pl###bannerTop
 pl###bblbrd_outer
 pl###box_newsletter
 pl###boxpopup
@@ -354,6 +344,7 @@ pl###bxAnnouncementsStartPage
 pl###cityModal
 pl###close-site-channel
 pl###cloud_delivery
+pl###ClPanel
 pl###cntAdsOfferBottom
 pl###coins-banner
 pl###contactable
@@ -361,9 +352,9 @@ pl###content_banner
 pl###cover
 pl###ctk_np_popup
 pl###dialog
+pl###divadv346_1483621154472
 pl###divGoTop2Mob
 pl###divLogoTeksty
-pl###divadv346_1483621154472
 pl###doGory
 pl###dontGoModal
 pl###dvrs-newsletter-popup-body
@@ -382,6 +373,7 @@ pl###ffbp-msg-cont
 pl###flashcontent3
 pl###flyCart
 pl###flyHelp
+pl###FlyingLayer
 pl###footer_toppage
 pl###forum-box
 pl###freshwidget-button
@@ -403,6 +395,8 @@ pl###hurtownia-box
 pl###id_A
 pl###id_B
 pl###imgPopImp
+pl###InfoNewsletter
+pl###InfoNewsletterOkno
 pl###ips-popup
 pl###ips-popup-wrapper
 pl###iucn50dhblockingLayer
@@ -429,16 +423,16 @@ pl###mail_zapisz
 pl###makingdifferentpopup
 pl###mask
 pl###menu_newsletter
-pl###messageContainer
 pl###message_dialog_source
+pl###messageContainer
 pl###messagetop
 pl###mktz_container
 pl###mobile
 pl###mobileAppsbadgeClose
 pl###modal-newsletter
 pl###modalBack
-pl###modalNL
 pl###modalNewsletter
+pl###modalNL
 pl###modalOverlay
 pl###mon-AdsAdsDetailsTop
 pl###multitab
@@ -453,12 +447,13 @@ pl###newsletter-lightbox-holder
 pl###newsletter-modal
 pl###newsletter-pane
 pl###newsletter-popup-26
-pl###newsletterBoxLeft
-pl###newsletterMsg
 pl###newsletter_content_box
 pl###newsletter_main
 pl###newsletter_main_cover
 pl###newsletter_panel
+pl###newsletterBoxLeft
+pl###newsletterMsg
+pl###NewsletterPopup
 pl###ngdialog1
 pl###nlPopup
 pl###nlt_popup
@@ -476,24 +471,26 @@ pl###opiniac_bg
 pl###opiniac_layer
 pl###opinieIkona
 pl###out-popup
+pl###Overlay
 pl###overlayDesktop
 pl###overlayJS_holder
 pl###pageMainContainerRight
 pl###payu-installment-dock
+pl###PilneAktualnosciBox
 pl###plywak
 pl###plywak_close
 pl###pop-slap
 pl###popup
 pl###popup-new
 pl###popup-overlay
-pl###popupAdv
-pl###popupEmailPhone
-pl###popupNL
-pl###popupNewsletter
-pl###popupNewsletterWrap
-pl###popupOverlay
 pl###popup_box
 pl###popup_prettyone
+pl###popupAdv
+pl###popupEmailPhone
+pl###popupNewsletter
+pl###popupNewsletterWrap
+pl###popupNL
+pl###popupOverlay
 pl###post.format_post.nudziara.masonry-brick
 pl###pp1
 pl###prevArticleWidget
@@ -502,6 +499,8 @@ pl###product-for-sale-boxw
 pl###promotion-popup
 pl###przesuwany_tekst
 pl###przyklad6
+pl###PSH-Bar
+pl###PushangoAlert
 pl###returnToTopButton
 pl###sb-desktop-push
 pl###sbox-window
@@ -521,10 +520,10 @@ pl###simplemodal-container
 pl###simplemodal-overlay
 pl###sklep
 pl###sklep-box
-pl###slideText
 pl###slide_panel59
 pl###slider300Wrapper
 pl###slider_dol_box
+pl###slideText
 pl###smPopupBackground
 pl###spotlight
 pl###spu-5003
@@ -545,12 +544,13 @@ pl###tloPopUp
 pl###top-banner
 pl###top-promotion-bar
 pl###topBanner
-pl###topLayerBackDrop
 pl###toplayer_newsletter
+pl###topLayerBackDrop
 pl###trigger
 pl###tws_s_0
 pl###twsshadow2_bg
 pl###underArtAdv
+pl###Uprod_img
 pl###uszy_left
 pl###uszy_right
 pl###ve-panel-iframe-overlay
@@ -569,7 +569,6 @@ pl###z6621j6z667
 pl###zajawka
 pl###zglos
 pl###zone-24
-pl##.WelcomeScreen
 pl##.active.mraty-widget.widget
 pl##.ad750
 pl##.addedbymobile
@@ -604,14 +603,14 @@ pl##.ct-fullsize-overlay
 pl##.dark.ui_backdrop
 pl##.dm-sticky-toggle--large.dm-sticky-toggle
 pl##.dostepne_mobile
-pl##.eCommerce
 pl##.ear
+pl##.eCommerce
 pl##.et-visible.et-pb-icon.et_pb_scroll_top
 pl##.fancybox-close.fancybox-item
 pl##.fancybox-skin
-pl##.fbTab
 pl##.fbinvite
 pl##.fbinvite-body
+pl##.fbTab
 pl##.feedback
 pl##.fixed.menus
 pl##.fixwidth.featherlight
@@ -702,8 +701,8 @@ pl##.self_rectangle
 pl##.side-menu
 pl##.sitebar-advert-fake
 pl##.sliderpack_r
-pl##.smPopupContainer
 pl##.small-12.columns.textC.nieSkacz
+pl##.smPopupContainer
 pl##.social-float-bar
 pl##.socialIco.socialLeftPopup
 pl##.sweet-overlay
@@ -717,6 +716,7 @@ pl##.utrigger-open.utriggerbtn
 pl##.viking_intro
 pl##.visible.desktop-native-app-banner
 pl##.visible.text-center.col-xs-12.pasek-right
+pl##.WelcomeScreen
 pl##.wf2-bg-light.grwf2_backdrop
 pl##.wiadomosci_lista_div
 pl##.zpr_combo
