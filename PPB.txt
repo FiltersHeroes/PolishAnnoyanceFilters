@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 26 Aug 2017
-! Version: 2017082601
+! Version: 2017082701
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Kontakt, zgloszenia i informacje: https://azet12.github.io/KAD/informacje.html
 ! Licencja: CC BY-SA 4.0.
-! v.2017082601 aktualizacja: sob, 26 sierpnia 2017, 22:37:00
+! v.2017082701 aktualizacja: nd, 27 sierpnia 2017, 17:31:00
 !
 !
 /btn-newsletter
@@ -24,7 +24,7 @@ amracing.pl##img[src=\\\\\\\"/images/dealers_button.png\\\\\\\"]
 amracing.pl##img[src=\\\\\\\"/images/files_button.png\\\\\\\"]
 amracing.pl##img[src=\\\\\\\"/images/partners_button.png\\\\\\\"]
 amracing.pl##img[src=\\\\\\\"/images/players_button.png\\\\\\\"]
-domzagadek.pl,sklep.batcar.pl,amso.pl,habys.pl###cp-widget
+amso.pl,domzagadek.pl,habys.pl,sklep.batcar.pl###cp-widget
 amso.pl,habys.pl##html > body:style(overflow: visible!important;)
 amso.pl,habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
 amso.pl,habys.pl##html.fancybox-lock:style(overflow: visible!important;)
@@ -110,6 +110,10 @@ gemre.com.pl###tws_a_100001
 gemre.com.pl###tws_c_100002
 getinbank.pl###scroll_top
 getinbank.pl##.quickMenuRow.row
+gminamoszczenica.eu###sbox-window
+gminamoszczenica.eu###sbox-overlay
+gminamoszczenica.eu##body.body-overlayed:style(overflow: visible!important;)
+gminamoszczenica.eu##script:inject(addEventListener-defuser.js, mousewheel)
 gmoto.pl##.well-sm.well
 google.pl###_L8b
 habys.pl##.fancybox-overlay-fixed
