@@ -2,15 +2,16 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 13 September 2017
-! Version: 2017091302
+! Version: 2017091303
 ! Expires: 7 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Kontakt, zgloszenia i informacje: https://azet12.github.io/KAD/informacje.html
 ! Licencja: CC BY-SA 4.0
-! v.2017091302 aktualizacja: śr 13 września 2017, 15:58:00
+! Aktualizacja: śr 13 września 2017, 22:15
 !
 /btn-newsletter
 !
+4fun.tv##.app-popup
 agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
 agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
@@ -28,15 +29,17 @@ amso.pl,habys.pl##html.fancybox-lock:style(overflow: visible!important;)
 angolia.co.uk###fancybox-content
 angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
+answear.com###popupNewsletter, #popupNewsletterWrap
+autofakty.pl,konicaminolta.info.pl##.yel-popup-main-wrapper
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
-bank-wbs.pl###wrapperSectionStickyIcons
-bartek.com.pl##.mfp-bg
-bartek.com.pl##.mfp-ready
+bank-wbs.pl###wrapperSectionStickyIcon
+bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bikecs.com##.bcs_akcja_div
 bikecs.com##.bcs_footer2_div
 bluecity.pl###cboxOverlay
+bluecity.pl##.popupContent
 bluerank.pl##.shown.exit
 byinsomnia.com###modal-newsletter
 byinsomnia.com###window-side-button
@@ -52,8 +55,10 @@ coccodrillo.eu###socialFlyBox
 coccodrillo.eu##.newsletterWrap
 cyklotur.com###_opineo_label
 d24h.pl###fancybox-wrap
+dailyweb.pl###snppopup-welcome
 dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
+diversesystem.com###dvrs-newsletter-popup-body
 dogry.pl##.register-overlayer--game.register-overlayer
 dogry.pl##.register-modal
 dobreprogramy.pl##.forum-help-cta.no-mobile.block
@@ -62,7 +67,9 @@ domzagadek.pl##.voucher-widget
 doxa.fm###spu-77018
 doxa.fm###spu-bg-77018
 drlaptop.pl###load
+dukapolska.com###exit--popup--box, #exit--popup--container, #exit--popup--wrapper
 dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
+e-ciucholand.com###ctk_np_popup
 e-ciucholand.com##.reveal-modal-bg
 ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
@@ -100,17 +107,22 @@ gminamoszczenica.eu###sbox-overlay
 gminamoszczenica.eu##body.body-overlayed:style(overflow: visible!important;)
 gminamoszczenica.eu##script:inject(addEventListener-defuser.js, mousewheel)
 gmoto.pl##.well-sm.well
+goldenline.pl##.ui-widget-overlay, .invitationDialog, .blog-tab, #slidebox
 google.pl###_L8b
 habys.pl##.fancybox-overlay-fixed
 habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 harpersbazaar.com###campaign_237772_container_overlay
 hbo.pl##.ribbon
+homebook.pl##.popup-overlay
+homebook.pl##body.has-open-popup:style(overflow: visible!important;)
 ibiznes.biz###text-2
 innpoland.pl###post-134373 > .art__social-footer__container > .art__social-footer > .row > .art__social-footer__link--comment.art__social-footer__link.col-xs-4
 instyle.co.uk##.pw-button-pinterest.pw-button
 interia.pl##.error-page-layer
 jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_div
+jooble.org###popup
+jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible!important; width: 100%!important;)
 kisiel24.pl###cboxOverlay
 kisiel24.pl###colorbox
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position:static!important;)
@@ -120,32 +132,43 @@ komputronik.pl##.avia-post-next
 komputronik.pl##.avia-post-prev
 konicaminolta.info.pl##.kontakt-slide
 kredito24.pl##.btn-apply
+kwiaciarnia-rikka.pl##.has-popup.no-scroll,body:style(overflow: visible!important;)
 kwiaciarnia-rikka.pl##.wdpu-container
 limango.pl##.js_welcome_background.background_overlay
 limango.pl##.modal
 limango.pl##body.welcome_main.modal-open:style(overflow: visible!important;padding-right: 0px!important;)
 linuxiarze.pl##img[src="https://linuxiarze.pl/obrazy/images/baner5c.png"]
+mac-world.pl##.et_bloom_popup
+macris.com.pl###newsletter-popup
+macris.com.pl##.noscroll:style(overflow: visible!important; position: relative!important;)
 maxmoto.pl###newsletter-form
 maxmoto.pl##.allegro-icon
 mbank.pl###push-message
 mbank.pl##.covered.edge-menu
 meble.pl##.footer-subscription
 media2.pl###news-readmore
-mediaexpert.pl##.newsletter_bar
+mediaexpert.pl##.newsletter_bar, .nletter_popup
 mediaexpert.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 mediarun.com##.vc_row-has-fill
+merlin.pl##.promotion-widget
 mixmedia.pl###place3_v2
 mixmedia.pl###place3_v3
+mixmedia.pl,mycenter.pl###js-newsletterPopup
 mixmedia.pl,mycenter.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
 monedo.pl##.small.help
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
+muve.pl###exit--popup--container
 myjki.com###_opineo_label
 myjki.com###widget-handler
 myjki.com###widget-prokonsumencki
 myphone.pl###trig_pop_news
+nafrontendzie.pl###popup-box-gfcr-1
+nawozy.eu##.newsletterPopup
+nawozy.eu##script:inject(setTimeout-defuser.js, $(document).lockscroll(true);)
 ncplus.pl###button-call
 ncplus.pl###button-lead
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
@@ -190,6 +213,7 @@ renee.pl##.newsletter__section
 romantycznyweekend.eu###article-finished
 romantycznyweekend.eu###fancybox-overlay
 romantycznyweekend.eu###fancybox-wrap
+rooader.pl###nicePopupWrapper
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com###fixed_strefa_marek
 rp.pl##tqwidget
@@ -217,9 +241,12 @@ sprzedajemy.pl##.offerDetailsRightBlueBox
 stokrotka.pl##.fancybox-overlay-fixed.fancybox-overlay
 stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: auto!important;)
 stylowebuty.pl##.banner-newsletter
+swinoujskie.info###snppopup-welcome
 teleguru.pl##.fancybox-overlay-fixed.fancybox-overlay
+taniaksiazka.pl##.newsletter-popup
 teletorium.pl###pop
 teletorium.pl##body.pop_open:style(overflow: visible!important;)
+ttv.pl###specialPopupModal
 ttv.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
 twojapogoda.pl###cboxOverlay
 twojapogoda.pl###colorbox
@@ -228,12 +255,12 @@ tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 vexel-fashion.pl###side-block-421733907
 vivus.pl##.videochat-iframe-holder
 wanika.pl###cloudBox
-wearmedicine.com###cboxLoadedContent
-wearmedicine.com###cboxOverlay
-wearmedicine.com###nlThanks
+wearmedicine.com###cboxLoadedContent, #cboxOverlay, #nlPopup, #nlThanks
 wearmedicine.com##.newsletter
+wiadomoscihandlowe.pl###newsletter-popup-wrapper
 wirtualnemedia.pl##.clearfix.tvn-box
 wispol.eu###_opineo_container
+wispol.eu##.popup_news
 wispol.eu###pushAdClicker
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
@@ -310,7 +337,6 @@ pl###grwf2_3453105_fiiif
 pl###grwf2_6564003_tut7h
 pl###grwf2_6565603_dfd0d
 pl###headerBanner
-pl###help-arrow
 pl###hiwModalTrigger
 pl###homeBanners
 pl###homeBar1-pl_PL
