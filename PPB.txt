@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 17 September 2017
-! Version: 2017091701
+! Version: 2017091702
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: nd, 17 września 2017, 18:25
+! Aktualizacja: nd, 17 września 2017, 23:29
 !
 /btn-newsletter
 !
@@ -105,6 +105,7 @@ galeriaveneda.com.pl###popup
 gazetapraca.pl###nlt_overlay
 gazetaprawna.pl###boxSubscr2016
 gazetaprawna.pl###miejsce104
+gazetaprawna.pl,~www.gazetaprawna.pl###nextArticleWidget
 gemre.com.pl###tws_a_100001
 gemre.com.pl###tws_c_100002
 gemre.com.pl###topLayerBackDrop
@@ -140,8 +141,8 @@ komputronik.pl##.avia-post-next
 komputronik.pl##.avia-post-prev
 konicaminolta.info.pl##.kontakt-slide
 kredito24.pl##.btn-apply
-kupbuty.com###tidio-chat
-kurierlubelski.pl###poza-szkieletem
+kupbuty.com###tidio-chat, #tws_i_1, #topLayerBackDrop
+kurierlubelski.pl,gazetalubuska.pl,gp24.pl###poza-szkieletem
 kwiaciarnia-rikka.pl##.has-popup.no-scroll,body:style(overflow: visible!important;)
 kwiaciarnia-rikka.pl##.wdpu-container
 limango.pl##.js_welcome_background.background_overlay
@@ -217,7 +218,7 @@ ptakmoda.com###edrone_push--bubble
 pytamy.pl##.tabZB
 quiosque.pl##.nl-container
 racing-planet.pl###contactable_inner
-racing-planet.pl##.zopim:nth-of-type(1)
+myownconference.pl,racing-planet.pl##.zopim:nth-of-type(1)
 redcoon.pl###j-newsletterForm
 reklama.pl##.curl
 renee.pl##.newsletter__section
