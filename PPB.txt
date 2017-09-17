@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 16 September 2017
-! Version: 2017091602
+! Last modified: 17 September 2017
+! Version: 2017091701
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: sob, 16 września 2017, 23:45
+! Aktualizacja: nd, 17 września 2017, 18:25
 !
 /btn-newsletter
 !
@@ -30,6 +30,7 @@ angolia.co.uk###fancybox-content
 angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
 answear.com###popupNewsletter, #popupNewsletterWrap
+asport.pl##.hit-tygodnia
 autofakty.pl,konicaminolta.info.pl##.yel-popup-main-wrapper
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
@@ -38,9 +39,11 @@ bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!importa
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bikecs.com##.bcs_akcja_div
 bikecs.com##.bcs_footer2_div
+bikecs.com##.bcs_site, .bcs_switch
 bluecity.pl###cboxOverlay
 bluecity.pl##.popupContent
 bluerank.pl##.shown.exit
+butylukow.pl###tws_i_2
 byinsomnia.com###modal-newsletter
 byinsomnia.com###window-side-button
 byinsomnia.com##.remodal-overlay
@@ -57,6 +60,7 @@ d24h.pl###fancybox-wrap
 dailyweb.pl###snppopup-welcome
 dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
+dellpoint.pl###chat-application
 diversesystem.com###dvrs-newsletter-popup-body
 dogry.pl##.register-overlayer--game.register-overlayer
 dogry.pl##.register-modal
@@ -70,6 +74,7 @@ dukapolska.com###exit--popup--box, #exit--popup--container, #exit--popup--wrappe
 dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
 e-ciucholand.com###ctk_np_popup
 e-ciucholand.com##.reveal-modal-bg
+e-zikoapteka.pl##.recommend.side_widget
 ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
 ekologia.pl##.bg-p
@@ -102,6 +107,7 @@ gazetaprawna.pl###boxSubscr2016
 gazetaprawna.pl###miejsce104
 gemre.com.pl###tws_a_100001
 gemre.com.pl###tws_c_100002
+gemre.com.pl###topLayerBackDrop
 getinbank.pl##.quickMenuRow.row
 gminamoszczenica.eu###sbox-window
 gminamoszczenica.eu###sbox-overlay
@@ -110,6 +116,7 @@ gminamoszczenica.eu##script:inject(addEventListener-defuser.js, mousewheel)
 gmoto.pl##.well-sm.well
 goldenline.pl##.ui-widget-overlay, .invitationDialog, .blog-tab, #slidebox
 google.pl###_L8b
+guzik.konin.pl##.fab-action-button
 habys.pl##.fancybox-overlay-fixed
 habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 harpersbazaar.com###campaign_237772_container_overlay
@@ -119,6 +126,7 @@ homebook.pl##body.has-open-popup:style(overflow: visible!important;)
 ibiznes.biz###text-2
 instyle.co.uk##.pw-button-pinterest.pw-button
 interia.pl##.error-page-layer
+inwestujwmyjnie.pl###czater-contener
 jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_div
 jooble.org###popup
@@ -132,6 +140,8 @@ komputronik.pl##.avia-post-next
 komputronik.pl##.avia-post-prev
 konicaminolta.info.pl##.kontakt-slide
 kredito24.pl##.btn-apply
+kupbuty.com###tidio-chat
+kurierlubelski.pl###poza-szkieletem
 kwiaciarnia-rikka.pl##.has-popup.no-scroll,body:style(overflow: visible!important;)
 kwiaciarnia-rikka.pl##.wdpu-container
 limango.pl##.js_welcome_background.background_overlay
@@ -171,6 +181,7 @@ nawozy.eu##.newsletterPopup
 nawozy.eu##script:inject(setTimeout-defuser.js, $(document).lockscroll(true);)
 ncplus.pl###button-call
 ncplus.pl###button-lead
+ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nestbank.pl##.fixed-label
 newsweek.pl##.wrapper
@@ -206,9 +217,11 @@ ptakmoda.com###edrone_push--bubble
 pytamy.pl##.tabZB
 quiosque.pl##.nl-container
 racing-planet.pl###contactable_inner
+racing-planet.pl##.zopim:nth-of-type(1)
 redcoon.pl###j-newsletterForm
 reklama.pl##.curl
 renee.pl##.newsletter__section
+rmf.fm###loteria-footer
 romantycznyweekend.eu###article-finished
 romantycznyweekend.eu###fancybox-overlay
 romantycznyweekend.eu###fancybox-wrap
@@ -216,6 +229,7 @@ rooader.pl###nicePopupWrapper
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com###fixed_strefa_marek
 rp.pl##tqwidget
+rylko.com###ls-float-element-cnt
 rylko.com###modal-newsletter
 rylko.com##.in.fade.modal-backdrop
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
@@ -225,14 +239,16 @@ silesiasem.pl###newsletterwidget-3
 silesiasem.pl##.mc-modal
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sjp.pwn.pl###floater
-sklep-rolnicze.eu###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
 sklep-rolnicze.eu###_opineo_label
+sklep-rolnicze.eu###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
 sklep-rolnicze.eu###oiTab
 sklep.eltron.pl##.menu_suggestion
+sklep.mieloch.pl###nicePopupWrapper
 sklep.motor-land.com.pl###side_header_newsletter
 sklep.techrol.com###infobox_icon
 smaker.pl###overlay, #popup
 smaker.pl##html > body.scrollingDisabled:style(overflow:visible!important;)
+soczewki24.pl##.ui-dialog
 sowafinansowa.pl###owl-modal-two
 spidersweb.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 spidersweb.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
@@ -258,6 +274,7 @@ wanika.pl###cloudBox
 wearmedicine.com###cboxLoadedContent, #cboxOverlay, #nlPopup, #nlThanks
 wearmedicine.com##.newsletter
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
+winiary.pl###kwit_brandwidget_btn
 wirtualnemedia.pl##.clearfix.tvn-box
 wispol.eu###_opineo_container
 wispol.eu##.popup_news
@@ -377,7 +394,6 @@ pl###news-bar
 pl###news-gallery-overlay
 pl###news-suggest
 pl###news_lokaleEcom
-pl###newsletter
 pl###newsletter-lightbox-holder
 pl###newsletter-modal
 pl###newsletter-pane
@@ -385,6 +401,8 @@ pl###newsletter_content_box
 pl###newsletter_main
 pl###newsletter_main_cover
 pl###newsletter_panel
+pl###newsletter_popup
+pl###newsletter_popup_overlay
 pl###newsletterBoxLeft
 pl###newsletterMsg
 pl###ngdialog1
@@ -542,7 +560,6 @@ pl##.new_adbanners
 pl##.new_adtaily
 pl##.news-promo
 pl##.newsFixedBtn
-pl##.newsletter
 pl##.newsletter-btn
 pl##.newsletter-form
 pl##.newsletter-layer
