@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 17 September 2017
-! Version: 2017091702
+! Last modified: 18 September 2017
+! Version: 2017091801
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: nd, 17 września 2017, 23:29
+! Aktualizacja: pon, 18 września 2017, 18:22
 !
 /btn-newsletter
 !
@@ -67,6 +67,8 @@ dogry.pl##.register-modal
 dobreprogramy.pl##.forum-help-cta.no-mobile.block
 domsary.eu###widget-handler
 domzagadek.pl##.voucher-widget
+doruchow.pl###div_loader
+doruchow.pl,krosnice.pl##.div_menu_prawe_wysuwane:style(position: absolute!important;)
 doxa.fm###spu-77018
 doxa.fm###spu-bg-77018
 drlaptop.pl###load
@@ -166,6 +168,7 @@ mixmedia.pl###place3_v2
 mixmedia.pl###place3_v3
 mixmedia.pl,mycenter.pl###js-newsletterPopup
 mixmedia.pl,mycenter.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+mmarocks.pl##.smPopupContainer, #smPopupBackground
 mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
@@ -184,6 +187,7 @@ ncplus.pl###button-call
 ncplus.pl###button-lead
 ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
+nerwica.com###telemedicoWidget
 nestbank.pl##.fixed-label
 newsweek.pl##.wrapper
 nowa.tv##.sticky_boxes
@@ -208,7 +212,7 @@ poczta.interia.pl###side-ad
 pol-nor.com###popforfirma
 pol-nor.com##.formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
-programuje.net###content
+prawdaobiektywna.pl##.theiaStickySidebar:style(position: static!important;)
 programuje.net##.ecIaBtfeSkzD-bg
 programuje.net##.ecIaBtfeSkzD-default
 prostozmostu.pl###column-right
@@ -241,8 +245,8 @@ silesiasem.pl##.mc-modal
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sjp.pwn.pl###floater
 sklep-rolnicze.eu###_opineo_label
-sklep-rolnicze.eu###BadgeContainer_db8d3657bdbe440c985ae127463eaad4
 sklep-rolnicze.eu###oiTab
+sklep-rolnicze.eu##div[id^=BadgeContainer]
 sklep.eltron.pl##.menu_suggestion
 sklep.mieloch.pl###nicePopupWrapper
 sklep.motor-land.com.pl###side_header_newsletter
@@ -274,6 +278,8 @@ vivus.pl##.videochat-iframe-holder
 wanika.pl###cloudBox
 wearmedicine.com###cboxLoadedContent, #cboxOverlay, #nlPopup, #nlThanks
 wearmedicine.com##.newsletter
+wesolakraina.pl##.div_czcionka:style(position: absolute!important;)
+wesolakraina.pl##.div_kontrast:style(position: absolute!important;)
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
 winiary.pl###kwit_brandwidget_btn
 wirtualnemedia.pl##.clearfix.tvn-box
