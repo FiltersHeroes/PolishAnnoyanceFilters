@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 18 September 2017
-! Version: 2017091804
+! Version: 2017091805
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 18 września 2017, 22:45
+! Aktualizacja: pon, 18 września 2017, 23:13
 !
 /btn-newsletter
 !
@@ -264,6 +264,8 @@ stylowebuty.pl##.banner-newsletter
 swinoujskie.info###snppopup-welcome
 teleguru.pl##.fancybox-overlay-fixed.fancybox-overlay
 taniaksiazka.pl##.newsletter-popup
+telemedi.co###notifications-pop, #ue_widget, .sidebar-links
+telemedi.co##.header__navbar:style(position: absolute!important;)
 teletorium.pl###pop
 teletorium.pl##body.pop_open:style(overflow: visible!important;)
 ttv.pl###specialPopupModal
