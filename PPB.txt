@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 18 September 2017
-! Version: 2017091903
+! Version: 2017091904
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 19 września 2017, 14:56
+! Aktualizacja: pon, 19 września 2017, 17:16
 !
 /btn-newsletter
 !
@@ -15,9 +15,7 @@
 agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
 agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
-alget.pl###jOverlay
-alget.pl###jOverlayContent
-alget.pl###news_box
+alget.pl###jOverlay, #jOverlayContent, .top_button, #chat-application
 amracing.pl##img[src="/images/dealers_button.png"]
 amracing.pl##img[src="/images/files_button.png"]
 amracing.pl##img[src="/images/partners_button.png"]
@@ -32,6 +30,7 @@ angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
 answear.com###popupNewsletter, #popupNewsletterWrap
 asport.pl##.hit-tygodnia
 autofakty.pl,konicaminolta.info.pl##.yel-popup-main-wrapper
+avdotia.kotkowicz.pl###catcher
 avdotia.kotkowicz.pl###header:style(position: static!important;)
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
@@ -53,7 +52,7 @@ byinsomnia.com##.remodal-overlay
 byinsomnia.com##.remodal-wrapper
 caseih.com.pl###cboxOverlay 
 caseih.com.pl###colorbox
-chrzypsko.pl##.biegacz
+chrzypsko.pl##.biegacz, #facebook_side
 coccodrillo.eu###homeNewsletter
 coccodrillo.eu###livechat-compact-view
 coccodrillo.eu###sc_behind
@@ -64,6 +63,7 @@ dailyweb.pl###snppopup-welcome
 dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 dellpoint.pl###chat-application
+diagnozainternetu.pl##.top
 diversesystem.com###dvrs-newsletter-popup-body
 dogry.pl##.register-overlayer--game.register-overlayer
 dogry.pl##.register-modal
@@ -79,6 +79,7 @@ dukapolska.com###exit--popup--box, #exit--popup--container, #exit--popup--wrappe
 dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
 e-ciucholand.com###ctk_np_popup
 e-ciucholand.com##.reveal-modal-bg
+e-saving.pl##.scroll
 e-zikoapteka.pl##.recommend.side_widget
 ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
@@ -111,10 +112,10 @@ gazetapraca.pl###nlt_overlay
 gazetaprawna.pl###boxSubscr2016
 gazetaprawna.pl###miejsce104
 gazetaprawna.pl,~www.gazetaprawna.pl###nextArticleWidget
-gemre.com.pl###tws_a_100001
-gemre.com.pl###tws_c_100002
-gemre.com.pl###topLayerBackDrop
+gdzie-na-sylwestra.pl###go-top
+gemre.com.pl###tws_a_100001, #tws_c_100002, #topLayerBackDrop, #backTop
 getinbank.pl##.quickMenuRow.row
+getinbank.pl###scroll_top
 gminamoszczenica.eu###sbox-window
 gminamoszczenica.eu###sbox-overlay
 gminamoszczenica.eu##body.body-overlayed:style(overflow: visible!important;)
@@ -127,9 +128,11 @@ habys.pl##.fancybox-overlay-fixed
 habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 harpersbazaar.com###campaign_237772_container_overlay
 hbo.pl##.ribbon
-homebook.pl##.popup-overlay
+hitbank.pl###scrollbarbox
+homebook.pl##.popup-overlay, #go-top
 homebook.pl##body.has-open-popup:style(overflow: visible!important;)
 ibiznes.biz###text-2
+innpoland.pl###fbinvite
 instyle.co.uk##.pw-button-pinterest.pw-button
 interia.pl##.error-page-layer
 inwestujwmyjnie.pl,vexel-fashion.pl###czater-contener
@@ -137,16 +140,14 @@ jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_div
 jooble.org###popup
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible!important; width: 100%!important;)
-kisiel24.pl###cboxOverlay
-kisiel24.pl###colorbox
+kisiel24.pl###cboxOverlay, #colorbox, #toTop
+kodiwpigulce.pl###totop
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position:static!important;)
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
-komputronik.pl##.avia-post-next
-komputronik.pl##.avia-post-prev
+komputronik.pl##.avia-post-next, .avia-post-prev, .rollup
 konicaminolta.info.pl##.kontakt-slide
-kotkowicz.pl###sticky_header
-kotkowicz.pl##.vce-sticky:style(position: static!important;)
+kotkowicz.pl###sticky_header, .vce-sticky
 kredito24.pl##.btn-apply
 kupbuty.com###tidio-chat, #tws_i_1, #topLayerBackDrop
 kurierlubelski.pl,gazetalubuska.pl,gp24.pl###poza-szkieletem
@@ -165,7 +166,7 @@ mbank.pl###push-message
 mbank.pl##.covered.edge-menu
 meble.pl##.footer-subscription
 media2.pl###news-readmore
-mediaexpert.pl##.newsletter_bar, .nletter_popup
+mediaexpert.pl##.newsletter_bar, .nletter_popup, #go_top
 mediaexpert.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 mediarun.com##.vc_row-has-fill
 merlin.pl##.promotion-widget
@@ -179,6 +180,7 @@ mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
 monedo.pl##.small.help
+motor-x.pl##.scrollup
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
@@ -192,10 +194,13 @@ nawozy.eu##script:inject(setTimeout-defuser.js, $(document).lockscroll(true);)
 ncplus.pl###button-call
 ncplus.pl###button-lead
 ncplus.pl###fancybox-overlay, #fancybox-wrap
+neonet.pl##.arrow-up
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nestbank.pl##.fixed-label
 newsweek.pl##.wrapper
+niemarkowe.pl###totop
 nowa.tv##.sticky_boxes
+nowosci-mp3.eu###toTop
 nowosci-mp3.eu##.clr.center > .short-story
 ogloszenia24.info###fancybox-overlay
 ogloszeniowa.net###ad-left
@@ -208,6 +213,7 @@ partneragdrtv.com.pl###js-sis_menu
 pb.pl##.smPopupContainer, #smPopupBackground
 pepco.pl##.in.modal-newsletter.fade.modal
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
+pkobp.pl###scrollie
 play.pl###optimonk-holder-campaign-59
 player.pl##body > iframe:nth-of-type(1)
 player.pl##body > div:nth-of-type(3)
@@ -217,7 +223,10 @@ poczta.interia.pl###side-ad
 pol-nor.com###popforfirma
 pol-nor.com##.formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
+pomorski-bs.pl###s5_scrolltop_a
+pracuj.pl###scrollTop
 prawdaobiektywna.pl##.theiaStickySidebar:style(position: static!important;)
+programtv.naziemna.info###my-fb-panel
 programuje.net##.ecIaBtfeSkzD-bg
 programuje.net##.ecIaBtfeSkzD-default
 prostozmostu.pl###column-right
@@ -230,7 +239,7 @@ racing-planet.pl###contactable_inner
 myownconference.pl,racing-planet.pl##.zopim:nth-of-type(1)
 redcoon.pl###j-newsletterForm
 reklama.pl##.curl
-renee.pl##.newsletter__section
+renee.pl##.newsletter__section, .scroll__top
 rmf.fm###loteria-footer
 romantycznyweekend.eu###article-finished
 romantycznyweekend.eu###fancybox-overlay
@@ -238,13 +247,14 @@ romantycznyweekend.eu###fancybox-wrap
 rooader.pl###nicePopupWrapper
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com###fixed_strefa_marek
-rp.pl##tqwidget
+rp.pl##.arrow-to-top, #tqwidget
 rylko.com###ls-float-element-cnt
 rylko.com###modal-newsletter
 rylko.com##.in.fade.modal-backdrop
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
 salon24.pl##.article-bookstore
 scooterkingz.com.pl##.newsletter_form
+sfinks.info##.d_xs_none.social_widgets, #go_to_top
 silesiasem.pl###newsletterwidget-3
 silesiasem.pl##.mc-modal
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
@@ -258,6 +268,7 @@ sklep.motor-land.com.pl###side_header_newsletter
 sklep.techrol.com###infobox_icon
 smaker.pl###overlay, #popup
 smaker.pl##html > body.scrollingDisabled:style(overflow:visible!important;)
+smartpozyczka.pl##.toTop
 soczewki24.pl##.ui-dialog
 sowafinansowa.pl###owl-modal-two
 spidersweb.pl##html:style(overflow: visible!important; margin-right: 0px!important)
@@ -282,11 +293,14 @@ twojezaglebie.pl##.td-more-articles-box
 twojezaglebie.pl##.td-ss-main-sidebar:style(position: static!important;)
 tygertenis.pl###overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
+univision24.pl##.up
 vexel-fashion.pl##.side-block-icon, #czater-contener
 vivus.pl##.videochat-iframe-holder
 wanika.pl###cloudBox
 wearmedicine.com###cboxLoadedContent, #cboxOverlay, #nlPopup, #nlThanks
 wearmedicine.com##.newsletter
+wec.com.pl##.go2top
+wec.com.pl##div[id*=BadgeContainer]
 wesolakraina.pl##.div_czcionka:style(position: absolute!important;)
 wesolakraina.pl##.div_kontrast:style(position: absolute!important;)
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
@@ -307,6 +321,127 @@ yoy.tv###notice
 zalando.pl##.overflow.firstLine:nth-of-type(2)
 zapytaj.onet.pl###header.mini:style(position: absolute!important;)
 zpozdrowieniem.pl##.header_fixed
+! Scroll to top from Fanboy's Annoyance List (License: http://creativecommons.org/licenses/by/3.0/) 
+###BackToTop
+###ScrollToTopContainer
+###WidgetScrollToTop
+###back-to-top
+###back-to-top-scroll
+###back-top
+###backToTop
+###back_to_top
+###back_to_top_now
+###backtotop
+###backtotop-scroll
+###backtotopbutton
+###backtotoplink
+###bktotopbtn
+###bt-scroll-top
+###btn-scroll-up
+###cb-to-top
+###dynamic-to-top
+###footer-back-to-top
+###g1-back-to-top
+###go-to-top
+###goDownFooter
+###goTop
+###goTopFooter
+###gotop
+###img_goTop
+###int-btn-top
+###jm-back-top
+###jump-to-top
+###ktz-backtotop
+###mainToTopAnchor
+###move-to-top
+###scroll-to-top
+###scroll-top
+###scroll-top-link
+###scrollToTop
+###scroll_back_to_top
+###scrolltotop_button
+###to-the-top
+###to_top
+###totopBtn
+###tweScrollTop
+###uix_jumpToFixed
+###uix_jumpToTopFixed
+###w2b-StoTop
+###wpfront-scroll-top-container
+##.BackToTop
+##.TopGoTop
+##.axScrollToTop
+##.back-to-top
+##.back-to-top-button
+##.back-to-top-link
+##.back-to-top-wrap
+##.backToTop
+##.backTopLink
+##.back_to_top
+##.backtopbutton
+##.backtotop
+##.block_to_top
+##.btn-back-to-top
+##.btn-go-top
+##.btn-return-top
+##.btn2top
+##.btn_gototop
+##.cScrollIndicatorContainer
+##.dc-go-top
+##.enigma_scrollup
+##.et_pb_scroll_top
+##.fk-ui-goTop
+##.footer-button-top
+##.footer-top-of-page
+##.go2top
+##.goTop
+##.go_to_top
+##.gototop
+##.js-back-to-top
+##.js-persistent-nav-top
+##.js-scroll-to-top
+##.link_to_top
+##.mk-go-top
+##.mod-totop
+##.newsletterSignup-wrapper
+##.os-back-to-top
+##.pi-scroll-top-arrow
+##.rh-footer-back-to-top
+##.s5_scrolltotop
+##.scroll-back-to-top-wrapper
+##.scroll-to-top
+##.scroll-top
+##.scroll-top-inner
+##.scroll-top-wrapper
+##.scroll2top
+##.scrollToTop
+##.scrollToTopButton
+##.scrollTo_top
+##.scrollTop
+##.scrolltop
+##.td-scroll-up
+##.to-the-top
+##.to-top
+##.toTopBtn
+##.toTopButton
+##.top-of-page
+##.top-of-page-link
+##.topofpage
+##.totop
+##.totop_button
+##.ui-fixed-panel-go-top
+##.ui-go-top
+##.w-toplink
+##a[title="Back To Top"]
+##a[title="Back to Top"]
+##a[title="Back to top of page"]
+##a[title="Scroll To Top"]
+##a[title="Scroll to Top"]
+##a[title="Scroll to top"]
+##div[title="Scroll Back to Top"]
+##div[title="Scroll To Top"]
+##img[alt="Scroll to top"]
+##img[alt="go to Top"]
 !
 ###newsletter_popup
 ###newsletter_popup_overlay
