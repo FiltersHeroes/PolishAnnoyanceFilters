@@ -7,7 +7,7 @@
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 19 września 2017, 13:56
+! Aktualizacja: pon, 19 września 2017, 14:42
 !
 /btn-newsletter
 !
@@ -32,6 +32,7 @@ angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
 answear.com###popupNewsletter, #popupNewsletterWrap
 asport.pl##.hit-tygodnia
 autofakty.pl,konicaminolta.info.pl##.yel-popup-main-wrapper
+avdotia.kotkowicz.pl###header:style(position: absolute!important;)
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
@@ -131,7 +132,7 @@ homebook.pl##body.has-open-popup:style(overflow: visible!important;)
 ibiznes.biz###text-2
 instyle.co.uk##.pw-button-pinterest.pw-button
 interia.pl##.error-page-layer
-inwestujwmyjnie.pl###czater-contener
+inwestujwmyjnie.pl,vexel-fashion.pl###czater-contener
 jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_div
 jooble.org###popup
@@ -144,6 +145,8 @@ kombo.krakow.pl##body > div:nth-of-type(6)
 komputronik.pl##.avia-post-next
 komputronik.pl##.avia-post-prev
 konicaminolta.info.pl##.kontakt-slide
+kotkowicz.pl###sticky_header
+kotkowicz.pl##.vce-sticky:style(position: static!important;)
 kredito24.pl##.btn-apply
 kupbuty.com###tidio-chat, #tws_i_1, #topLayerBackDrop
 kurierlubelski.pl,gazetalubuska.pl,gp24.pl###poza-szkieletem
@@ -279,7 +282,7 @@ twojezaglebie.pl##.td-more-articles-box
 twojezaglebie.pl##.td-ss-main-sidebar:style(position: static!important;)
 tygertenis.pl###overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
-vexel-fashion.pl###side-block-421733907
+vexel-fashion.pl##.side-block-icon, #czater-contener
 vivus.pl##.videochat-iframe-holder
 wanika.pl###cloudBox
 wearmedicine.com###cboxLoadedContent, #cboxOverlay, #nlPopup, #nlThanks
@@ -302,7 +305,7 @@ yes.pl##.footer-middle
 yoy.tv###notice
 zalando.pl##.overflow.firstLine:nth-of-type(2)
 zapytaj.onet.pl###header.mini:style(position: absolute!important;)
-zapytaj.onet.pl###plista_widget_belowArticle_598b2fcbac7a370
+zpozdrowieniem.pl##.header_fixed
 !
 ###newsletter_popup
 ###newsletter_popup_overlay
