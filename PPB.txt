@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 19 September 2017
-! Version: 2017091905
+! Version: 2017091906
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 19 września 2017, 18:11
+! Aktualizacja: pon, 19 września 2017, 23:08
 !
 /btn-newsletter
 !
@@ -60,6 +60,7 @@ coccodrillo.eu##.newsletterWrap
 cyklotur.com###_opineo_label
 d24h.pl###fancybox-wrap
 dailyweb.pl###snppopup-welcome
+dany-meble.pl##body > .hidden-sm.hidden-xs, #gototop
 dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 dellpoint.pl###chat-application
@@ -141,7 +142,7 @@ jednoslad.pl###custom_fan_gate_overlay_div
 jooble.org###popup
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible!important; width: 100%!important;)
 kisiel24.pl###cboxOverlay, #colorbox, #toTop
-kodiwpigulce.pl###totop
+kodiwpigulce.pl,niemarkowe.pl###totop
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position:static!important;)
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
@@ -180,7 +181,7 @@ mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
 monedo.pl##.small.help
-motor-x.pl##.scrollup
+motor-x.pl,polki.pl##.scrollup
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
@@ -198,7 +199,6 @@ neonet.pl##.arrow-up
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nestbank.pl##.fixed-label
 newsweek.pl##.wrapper
-niemarkowe.pl###totop
 nowa.tv##.sticky_boxes
 nowosci-mp3.eu###toTop
 nowosci-mp3.eu##.clr.center > .short-story
@@ -220,6 +220,7 @@ player.pl##body > div:nth-of-type(3)
 player.pl##body > div:nth-of-type(19)
 poczta.int.pl##.maximized-wrapper.ng-isolate-scope
 poczta.interia.pl###side-ad
+polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 pol-nor.com###popforfirma
 pol-nor.com##.formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
@@ -317,6 +318,9 @@ wp.pl###home-page-button
 wp.pl###newsfeed-player-column
 wyborcza.biz##.is-visible.mod_ddbox.mod
 wypiska.pl##.fixed.site-header:style(position: static!important;)
+www.ceneo.pl##.header-container:style(position: static!important;)
+www.elblag.net##.nextarticle.allpadding
+www.mdm.elblag.pl###toTop
 yes.pl##.footer-middle
 yoy.tv###notice
 zalando.pl##.overflow.firstLine:nth-of-type(2)
