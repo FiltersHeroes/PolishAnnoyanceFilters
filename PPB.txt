@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 19 September 2017
-! Version: 2017091906
+! Last modified: 20 September 2017
+! Version: 2017092001
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 19 września 2017, 23:08
+! Aktualizacja: pon, 20 września 2017, 17:07
 !
 /btn-newsletter
 !
@@ -32,6 +32,7 @@ asport.pl##.hit-tygodnia
 autofakty.pl,konicaminolta.info.pl##.yel-popup-main-wrapper
 avdotia.kotkowicz.pl###catcher
 avdotia.kotkowicz.pl###header:style(position: static!important;)
+bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
@@ -44,7 +45,7 @@ bluecity.pl###cboxOverlay
 bluecity.pl##.popupContent
 bluerank.pl##.shown.exit
 brainly.pl##.js-another-ask-question-box
-brainly.pl##.sg-header--fixed:style(position: absolute!important;)
+brainly.pl##.sg-header--fixed
 butylukow.pl###tws_i_2
 byinsomnia.com###modal-newsletter
 byinsomnia.com###window-side-button
@@ -124,6 +125,7 @@ gminamoszczenica.eu##script:inject(addEventListener-defuser.js, mousewheel)
 gmoto.pl##.well-sm.well
 goldenline.pl##.ui-widget-overlay, .invitationDialog, .blog-tab, #slidebox
 google.pl###_L8b
+gram.pl##.dashBoard:style(position: absolute!important;)
 guzik.konin.pl##.fab-action-button
 habys.pl##.fancybox-overlay-fixed
 habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
@@ -146,6 +148,8 @@ kodiwpigulce.pl,niemarkowe.pl###totop
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position:static!important;)
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
+komorkomania.pl##.btn-comments
+komorkomania.pl##.fixed-header--display:style(position: absolute!important;)
 komputronik.pl##.avia-post-next, .avia-post-prev, .rollup
 konicaminolta.info.pl##.kontakt-slide
 kotkowicz.pl###sticky_header, .vce-sticky
@@ -161,6 +165,7 @@ linuxiarze.pl##img[src="https://linuxiarze.pl/obrazy/images/baner5c.png"]
 mac-world.pl##.et_bloom_popup
 macris.com.pl###newsletter-popup
 macris.com.pl##.noscroll:style(overflow: visible!important; position: relative!important;)
+manjaro.pl##.generate-back-to-top
 maxmoto.pl###newsletter-form
 maxmoto.pl##.allegro-icon
 mbank.pl###push-message
@@ -214,6 +219,7 @@ pb.pl##.smPopupContainer, #smPopupBackground
 pepco.pl##.in.modal-newsletter.fade.modal
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
 pkobp.pl###scrollie
+play.google.com##.sticky
 play.pl###optimonk-holder-campaign-59
 player.pl##body > iframe:nth-of-type(1)
 player.pl##body > div:nth-of-type(3)
@@ -224,6 +230,8 @@ polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 pol-nor.com###popforfirma
 pol-nor.com##.formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
+polskaracja.com##.g1-back-to-top
+polygamia.pl###mobileMenuButtons:style(position: absolute!important;)
 pomorski-bs.pl###s5_scrolltop_a
 pracuj.pl###scrollTop
 prawdaobiektywna.pl##.theiaStickySidebar:style(position: static!important;)
@@ -254,6 +262,7 @@ rylko.com###modal-newsletter
 rylko.com##.in.fade.modal-backdrop
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
 salon24.pl##.article-bookstore
+satkurier.pl##.navbar-fixed-top
 scooterkingz.com.pl##.newsletter_form
 sfinks.info##.d_xs_none.social_widgets, #go_to_top
 silesiasem.pl###newsletterwidget-3
@@ -264,6 +273,7 @@ sklep-rolnicze.eu###_opineo_label
 sklep-rolnicze.eu###oiTab
 sklep-rolnicze.eu##div[id^=BadgeContainer]
 sklep.eltron.pl##.menu_suggestion
+sklep.gram.pl###dashboard:style(position: absolute!important;)
 sklep.mieloch.pl###nicePopupWrapper
 sklep.motor-land.com.pl###side_header_newsletter
 sklep.techrol.com###infobox_icon
@@ -278,6 +288,7 @@ sprzedajemy.pl##.newest_offers
 sprzedajemy.pl##.offerDetailsRightBlueBox
 stokrotka.pl##.fancybox-overlay-fixed.fancybox-overlay
 stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: auto!important;)
+store.playstation.com###pageNavigator:style(position: absolute!important;)
 stylowebuty.pl##.banner-newsletter
 swinoujskie.info###snppopup-welcome
 teleguru.pl##.fancybox-overlay-fixed.fancybox-overlay
@@ -322,9 +333,10 @@ www.ceneo.pl##.header-container:style(position: static!important;)
 www.elblag.net##.nextarticle.allpadding
 www.mdm.elblag.pl###toTop
 yes.pl##.footer-middle
+youtube.com###masthead-container:style(position: absolute!important;)
 yoy.tv###notice
 zalando.pl##.overflow.firstLine:nth-of-type(2)
-zapytaj.onet.pl###header.mini:style(position: absolute!important;)
+zapytaj.onet.pl###header.mini
 zpozdrowieniem.pl###scroller:style(position: static!important;)
 zpozdrowieniem.pl##.header_fixed
 !
