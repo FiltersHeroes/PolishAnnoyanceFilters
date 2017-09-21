@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 20 September 2017
-! Version: 2017092002
+! Last modified: 21 September 2017
+! Version: 2017092101
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 20 września 2017, 23:27
+! Aktualizacja: wt, 21 września 2017, 12:28
 !
 /btn-newsletter
 !
@@ -155,7 +155,6 @@ konicaminolta.info.pl##.kontakt-slide
 kotkowicz.pl###sticky_header, .vce-sticky
 kredito24.pl##.btn-apply
 kupbuty.com###tidio-chat, #tws_i_1, #topLayerBackDrop
-kurierlubelski.pl,gazetalubuska.pl,gp24.pl,www.gloswielkopolski.pl###poza-szkieletem
 kwiaciarnia-rikka.pl##.has-popup.no-scroll,body:style(overflow: visible!important;)
 kwiaciarnia-rikka.pl##.wdpu-container
 limango.pl##.js_welcome_background.background_overlay
@@ -225,8 +224,6 @@ play.pl###optimonk-holder-campaign-59
 player.pl##body > iframe:nth-of-type(1)
 player.pl##body > div:nth-of-type(3)
 player.pl##body > div:nth-of-type(19)
-plus.gloswielkopolski.pl,plus.gazetawroclawska.pl##.media-bar:style(position: static!important;)
-plus.gloswielkopolski.pl,plus.gazetawroclawska.pl##.media-services:style(position: static!important;)
 poczta.int.pl##.maximized-wrapper.ng-isolate-scope
 poczta.interia.pl###side-ad
 polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
@@ -337,11 +334,6 @@ wypiska.pl##.fixed.site-header:style(position: static!important;)
 www.ceneo.pl##.header-container:style(position: static!important;)
 www.cozadzien.pl###error_widget, #recom_widget
 www.elblag.net##.nextarticle.allpadding
-www.gazetawroclawska.pl###kontener-wideo:style(position: static!important;)
-www.gloswielkopolski.pl##.autopromocja.motofaktyAutopromocja:style(position: static!important;)
-www.gloswielkopolski.pl##.mod-mini-header.mod:style(position: absolute!important;)
-www.gloswielkopolski.pl,www.gazetawroclawska.pl###pasek-regionalny-plus:style(position: static!important;)
-www.gloswielkopolski.pl,www.gazetawroclawska.pl,plus.gloswielkopolski.pl,plus.gazetawroclawska.pl##html > body.widokDesktop:style(margin-top: 0px!important;)
 www.mdm.elblag.pl###toTop
 www.rp.pl##.show.popup-next.art-box
 yes.pl##.footer-middle
@@ -351,6 +343,17 @@ zalando.pl##.overflow.firstLine:nth-of-type(2)
 zapytaj.onet.pl###header.mini
 zpozdrowieniem.pl###scroller:style(position: static!important;)
 zpozdrowieniem.pl##.header_fixed
+!
+!
+! Grupa Polska Press
+gloswielkopolski.pl,gazetawroclawska.pl,gazetakrakowska.pl,dzienniklodzki.pl,nowosci.com.pl##html > body.widokDesktop:style(margin-top: 0px!important;)
+plus.gloswielkopolski.pl,plus.gazetawroclawska.pl,plus.gazetakrakowska.pl,plus.dzienniklodzki.pl,plus.nowosci.com.pl,plus.kurierlubelski.pl,plus.gazetalubuska.pl,plus.gp24.pl,plus.nowosci.com.pl##.media-bar:style(position: static!important;)
+plus.gloswielkopolski.pl,plus.gazetawroclawska.pl,plus.gazetakrakowska.pl,plus.dzienniklodzki.pl,plus.nowosci.com.pl,plus.kurierlubelski.pl,plus.gazetalubuska.pl,plus.gp24.pl,plus.nowosci.com.pl##.media-services:style(position: static!important;)
+www.gazetawroclawska.pl,www.gazetakrakowska.pl,www.kurierlubelski.pl###kontener-wideo:style(position: static!important;)
+www.gloswielkopolski.pl##.autopromocja.motofaktyAutopromocja:style(position: static!important;)
+www.gloswielkopolski.pl##.mod-mini-header.mod:style(position: absolute!important;)
+www.gloswielkopolski.pl,www.gazetawroclawska.pl,www.gazetakrakowska.pl,www.dzienniklodzki.pl,www.kurierlubelski.pl###pasek-regionalny-plus:style(position: static!important;)
+www.kurierlubelski.pl,www.gazetalubuska.pl,www.gp24.pl,www.gloswielkopolski.pl,www.gazetakrakowska.pl,www.nowosci.com.pl###poza-szkieletem
 !
 !
 ! Scroll to top from Fanboy's Annoyance List (License: http://creativecommons.org/licenses/by/3.0/) 
