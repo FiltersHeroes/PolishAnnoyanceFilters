@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 23 September 2017
-! Version: 2017092302
+! Version: 2017092303
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: sr, 23 września 2017, 16:11
+! Aktualizacja: sob, 23 września 2017, 20:06
 !
 /btn-newsletter
 !
@@ -348,15 +348,19 @@ www.tvnmedia.pl##.hamburger-wrapper:style(position: static!important;)
 ! Gremi Media
 beta.rp.pl###mk-paywall-footer
 beta.rp.pl##.-sticky.main-menu:style(position: static!important;)
+bloombergbusinessweek.pl###floatingFrameSales:style(top: 0px!important;)
 prenumerata.rp.pl###header:style(position: absolute!important;)
 rp.pl##.arrow-to-top, #collapseButton, .show.popup-next.art-box
 rp.pl##tqwidget
+www.kariera.pl###drift-widget-container
+www.kariera.pl##.listbuilder-popup.me.o.m.u.s
 www.rp.pl###header-apla:style(position: absolute!important;)
 www.rp.pl###header-search:style(position: absolute!important;)
 www.rp.pl###main-header:style(position: absolute!important;)
 www.rp.pl##.search.modal-fix-search:style(position: absolute!important;)
 www.rp.pl##.show.modal-fix-toolbar-showmenu.toolbar-showmenu.toolbar-icon:style(position: absolute!important;)
 www.rp.pl##.stuck.sticker-enabled.mostreadArticlesSticker:style(position: static!important;)
+www.rp.pl##.toolbar:style(position: absolute!important;)
 www.rp.pl##body:style(position: static!important;)
 !
 !
@@ -370,6 +374,7 @@ gram.pl##.dashBoard:style(position: absolute!important;)
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position:static!important;)
 komorkomania.pl##.btn-comments
 komorkomania.pl##.fixed-header--display:style(position: absolute!important;)
+m.telewizjarepublika.pl##header:style(position: static!important;)
 play.google.com##.sticky
 polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 polygamia.pl###mobileMenuButtons:style(position: absolute!important;)
@@ -379,6 +384,7 @@ sjp.pwn.pl###search-bar:style(position: static!important;)
 sklep.gram.pl###dashboard:style(position: absolute!important;)
 store.playstation.com###pageNavigator:style(position: absolute!important;)
 telemedi.co##.header__navbar:style(position: absolute!important;)
+telewizjarepublika.pl###header-top:style(position: static!important;)
 twojezaglebie.pl##.td-ss-main-sidebar:style(position: static!important;)
 wesolakraina.pl##.div_czcionka:style(position: absolute!important;)
 wesolakraina.pl##.div_kontrast:style(position: absolute!important;)
