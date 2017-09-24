@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 23 September 2017
-! Version: 2017092306
+! Last modified: 24 September 2017
+! Version: 2017092401
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: sob, 23 września 2017, 21:55
+! Aktualizacja: sob, 24 września 2017, 21:56
 !
 /btn-newsletter
 !
@@ -64,9 +64,11 @@ dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 dellpoint.pl###chat-application
 diagnozainternetu.pl##.top
 diversesystem.com###dvrs-newsletter-popup-body
+dorzeczy.pl,superhistoria.pl###header:style(position: static!important;)
+dorzeczy.pl,superhistoria.pl###content:style(padding-top: 0px!important)
+dobreprogramy.pl##.forum-help-cta.no-mobile.block
 dogry.pl##.register-overlayer--game.register-overlayer
 dogry.pl##.register-modal
-dobreprogramy.pl##.forum-help-cta.no-mobile.block
 domsary.eu###widget-handler
 domzagadek.pl##.voucher-widget
 doruchow.pl###div_loader
@@ -221,6 +223,7 @@ poczta.interia.pl###side-ad
 pol-nor.com###popforfirma
 pol-nor.com##.formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
+policja.pl,policja.gov.pl##[id^="popup-"], #likebox
 polsatnews.pl###fab
 polskaracja.com##.g1-back-to-top
 pomorski-bs.pl###s5_scrolltop_a
@@ -289,6 +292,7 @@ ttv.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!import
 twojapogoda.pl###cboxOverlay
 twojapogoda.pl###colorbox
 twojezaglebie.pl##.td-more-articles-box
+tustolica.pl###innermenu:style(position: static!important;)
 tygertenis.pl###overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 univision24.pl##.up
@@ -860,3 +864,4 @@ pl###ceneo-widget
 sklep.hyperbook.pl###bossbyte_slide
 sklep.hyperbook.pl###floatingTotals
 galileo.krakow.pl###text-2 > .textwidget
+!
