@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 25 September 2017
-! Version: 2017092501
+! Version: 2017092502
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 25 września 2017, 17:53
+! Aktualizacja: pon, 25 września 2017, 19:06
 !
 /btn-newsletter
 !
@@ -64,9 +64,6 @@ dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 dellpoint.pl###chat-application
 diagnozainternetu.pl##.top
 diversesystem.com###dvrs-newsletter-popup-body
-dorzeczy.pl###element-header
-dorzeczy.pl,superhistoria.pl###header:style(position: static!important;)
-dorzeczy.pl,superhistoria.pl###content:style(padding-top: 0px!important)
 dobreprogramy.pl##.forum-help-cta.no-mobile.block
 dogry.pl##.register-overlayer--game.register-overlayer
 dogry.pl##.register-modal
@@ -293,7 +290,6 @@ ttv.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!import
 twojapogoda.pl###cboxOverlay
 twojapogoda.pl###colorbox
 twojezaglebie.pl##.td-more-articles-box
-tustolica.pl###innermenu:style(position: static!important;)
 tygertenis.pl###overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 univision24.pl##.up
@@ -302,7 +298,6 @@ vivus.pl##.videochat-iframe-holder
 wanika.pl###cloudBox
 wearmedicine.com###cboxLoadedContent, #cboxOverlay, #nlPopup, #nlThanks
 wearmedicine.com##.newsletter
-wec.com.pl##.go2top
 wec.com.pl##div[id*=BadgeContainer]
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
 winiary.pl###kwit_brandwidget_btn
@@ -326,28 +321,26 @@ zalando.pl##.overflow.firstLine:nth-of-type(2)
 !
 !
 ! Polska Press
-pl###kontener-wideo:style(position: static!important;)
-pl###poza-szkieletem
-www.dziennikbaltycki.pl,www.dzienniklodzki.pl,www.dziennikzachodni.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,www.kurierlubelski.pl,www.nto.pl,www.wspolczesna.pl,www.poranny.pl,www.pomorska.pl,www.gp24.pl,www.gazetalubuska.pl,www.echodnia.eu,www.to.com.pl,www.nowiny24.pl,www.polskatimes.pl,www.gs24.pl,www.gk24.pl###pasek-regionalny-plus:style(position: static!important;)
-www.dziennikbaltycki.pl,plus.dziennikbaltycki.pl,www.dzienniklodzki.pl,plus.dzienniklodzki.pl,www.dziennikzachodni.pl,plus.dziennikzachodni.pl,plus.expressilustrowany.pl,www.gazetakrakowska.pl,plus.gazetakrakowska.pl,www.gazetawroclawska.pl,plus.gazetawroclawska.pl,www.gloswielkopolski.pl,plus.gloswielkopolski.pl,www.kurierlubelski.pl,plus.kurierlubelski.pl,www.nto.pl,plus.nto.pl,www.wspolczesna.pl,plus.wspolczesna.pl,www.poranny.pl,plus.poranny.pl,www.pomorska.pl,plus.pomorska.pl,www.gp24.pl,plus.gp24.pl,www.gazetalubuska.pl,plus.gazetalubuska.pl,www.echodnia.eu,plus.echodnia.eu,www.to.com.pl,plus.to.com.pl,www.nowiny24.pl,plus.nowiny24.pl,www.lubietubyc.pomorska.pl,www.polskatimes.pl,plus.polskatimes.pl,www.gs24.pl,plus.gs24.pl,www.gk24.pl,plus.gk24.pl##html > body.widokDesktop:style(margin-top: 0px!important;)
+naszemiasto.pl###naglowek:style(position: absolute!important;)
 plus.dziennikbaltycki.pl,plus.dzienniklodzki.pl,plus.dziennikzachodni.pl,plus.expressilustrowany.pl,plus.gazetakrakowska.pl,plus.gazetawroclawska.pl,plus.gloswielkopolski.pl,plus.kurierlubelski.pl,plus.nto.pl,plus.wspolczesna.pl,plus.poranny.pl,plus.pomorska.pl,plus.gp24.pl,plus.gazetalubuska.pl,plus.echodnia.eu,plus.to.com.pl,plus.nowiny24.pl,plus.polskatimes.pl,plus.gs24.pl,plus.gk24.pl##.media-bar:style(position: static!important;)
 plus.dziennikbaltycki.pl,plus.dzienniklodzki.pl,plus.dziennikzachodni.pl,plus.expressilustrowany.pl,plus.gazetakrakowska.pl,plus.gazetawroclawska.pl,plus.gloswielkopolski.pl,plus.kurierlubelski.pl,plus.nto.pl,plus.wspolczesna.pl,plus.poranny.pl,plus.pomorska.pl,plus.gp24.pl,plus.gazetalubuska.pl,plus.echodnia.eu,plus.to.com.pl,plus.nowiny24.pl,plus.polskatimes.pl,plus.gs24.pl,plus.gk24.pl##.media-services:style(position: static!important;)
-www.gloswielkopolski.pl,www.strefabiznesu.pl,www.polskatimes.pl,www.dziennikbaltycki.pl,www.dziennikzachodni.pl,www.dzienniklodzki.pl,www.kurierlubelski.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,www.echodnia.eu,www.gazetalubuska.pl,www.pomorska.pl,www.gp24.pl,www.nowiny24.pl,www.nto.pl,www.poranny.pl,to.com.pl,www.gs24.pl,www.gk24.pl,www.strefaagro.pl,www.wspolczesna.pl##.mod-mini-header.mod:style(position: absolute!important;)
-www.gloswielkopolski.pl##.autopromocja.motofaktyAutopromocja:style(position: static!important;)
+www.dziennikbaltycki.pl,plus.dziennikbaltycki.pl,www.dzienniklodzki.pl,plus.dzienniklodzki.pl,www.dziennikzachodni.pl,plus.dziennikzachodni.pl,plus.expressilustrowany.pl,www.gazetakrakowska.pl,plus.gazetakrakowska.pl,www.gazetawroclawska.pl,plus.gazetawroclawska.pl,www.gloswielkopolski.pl,plus.gloswielkopolski.pl,www.kurierlubelski.pl,plus.kurierlubelski.pl,www.nto.pl,plus.nto.pl,www.wspolczesna.pl,plus.wspolczesna.pl,www.poranny.pl,plus.poranny.pl,www.pomorska.pl,plus.pomorska.pl,www.gp24.pl,plus.gp24.pl,www.gazetalubuska.pl,plus.gazetalubuska.pl,www.echodnia.eu,plus.echodnia.eu,www.to.com.pl,plus.to.com.pl,www.nowiny24.pl,plus.nowiny24.pl,www.lubietubyc.pomorska.pl,www.polskatimes.pl,plus.polskatimes.pl,www.gs24.pl,plus.gs24.pl,www.gk24.pl,plus.gk24.pl##html > body.widokDesktop:style(margin-top: 0px!important;)
+www.dziennikbaltycki.pl,www.dzienniklodzki.pl,www.dziennikzachodni.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,www.kurierlubelski.pl,www.nto.pl,www.wspolczesna.pl,www.poranny.pl,www.pomorska.pl,www.gp24.pl,www.gazetalubuska.pl,www.echodnia.eu,www.to.com.pl,www.nowiny24.pl,www.polskatimes.pl,www.gs24.pl,www.gk24.pl###pasek-regionalny-plus:style(position: static!important;)
 www.dziennikpolski24.pl###pasek-media-plywajacy:style(position: static!important;)
-www.expressilustrowany.pl###menu-kontener:style(position: static!important;)
-www.expressilustrowany.pl##html > body:style(margin-top: 0px!important;)
-naszemiasto.pl###naglowek:style(position: absolute!important;)
-www.telemagazyn.pl###gora:style(position: absolute!important;)
-www.telemagazyn.pl###plywajacy-pasek:style(position: absolute!important;)
-www.lubietubyc.pomorska.pl##.pasek:style(position: absolute!important;)
-www.strefabiznesu.pl,www.polskatimes.pl,www.dziennikbaltycki.pl,www.dziennikzachodni.pl,www.dzienniklodzki.pl,www.kurierlubelski.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,www.echodnia.eu,www.gazetalubuska.pl,www.pomorska.pl,www.gp24.pl,www.nowiny24.pl,www.nto.pl,www.poranny.pl,to.com.pl,www.gs24.pl,www.gk24.pl###rightColumn:style(position: static!important;)
-www.strefabiznesu.pl,www.polskatimes.pl,www.dziennikbaltycki.pl,www.dziennikzachodni.pl,www.dzienniklodzki.pl,www.kurierlubelski.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,www.echodnia.eu,www.gazetalubuska.pl,www.pomorska.pl,www.gp24.pl,www.nowiny24.pl,www.nto.pl,www.poranny.pl,to.com.pl,www.gs24.pl,www.gk24.pl###fixed-1:style(position: static!important;)
-www.sportowy24.pl###prawa-kolumna:style(position: static!important;)
-www.sportowy24.pl##.blok:style(position: static!important;)
+www.dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
 www.dziennikpolski24.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,naszemiasto.pl,www.kurierlubelski.pl,www.wspolczesna.pl,www.poranny.pl,www.pomorska.pl,www.gp24.pl,www.gazetalubuska.pl,www.echodnia.eu,www.to.com.pl,www.nowiny24.pl,www.polskatimes.pl,www.gs24.pl,www.gk24.pl,www.sportowy24.pl,www.dziennikzachodni.pl###kontener-wideo:style(position: static!important;)
 www.dziennikzachodni.pl,www.gazetakrakowska.pl,www.gloswielkopolski.pl,www.wspolczesna.pl,www.poranny.pl,www.pomorska.pl,www.gazetalubuska.pl,www.polskatimes.pl,www.gk24.pl###poza-szkieletem
-www.dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
+www.expressilustrowany.pl###menu-kontener:style(position: static!important;)
+www.expressilustrowany.pl##html > body:style(margin-top: 0px!important;)
+www.gloswielkopolski.pl##.autopromocja.motofaktyAutopromocja:style(position: static!important;)
+www.gloswielkopolski.pl,www.strefabiznesu.pl,www.polskatimes.pl,www.dziennikbaltycki.pl,www.dziennikzachodni.pl,www.dzienniklodzki.pl,www.kurierlubelski.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,www.echodnia.eu,www.gazetalubuska.pl,www.pomorska.pl,www.gp24.pl,www.nowiny24.pl,www.nto.pl,www.poranny.pl,to.com.pl,www.gs24.pl,www.gk24.pl,www.strefaagro.pl,www.wspolczesna.pl##.mod-mini-header.mod:style(position: absolute!important;)
+www.lubietubyc.pomorska.pl##.pasek:style(position: absolute!important;)
+www.sportowy24.pl###prawa-kolumna:style(position: static!important;)
+www.sportowy24.pl##.blok:style(position: static!important;)
+www.strefabiznesu.pl,www.polskatimes.pl,www.dziennikbaltycki.pl,www.dziennikzachodni.pl,www.dzienniklodzki.pl,www.kurierlubelski.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,www.echodnia.eu,www.gazetalubuska.pl,www.pomorska.pl,www.gp24.pl,www.nowiny24.pl,www.nto.pl,www.poranny.pl,to.com.pl,www.gs24.pl,www.gk24.pl###fixed-1:style(position: static!important;)
+www.strefabiznesu.pl,www.polskatimes.pl,www.dziennikbaltycki.pl,www.dziennikzachodni.pl,www.dzienniklodzki.pl,www.kurierlubelski.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,www.echodnia.eu,www.gazetalubuska.pl,www.pomorska.pl,www.gp24.pl,www.nowiny24.pl,www.nto.pl,www.poranny.pl,to.com.pl,www.gs24.pl,www.gk24.pl###rightColumn:style(position: static!important;)
+www.telemagazyn.pl###gora:style(position: absolute!important;)
+www.telemagazyn.pl###plywajacy-pasek:style(position: absolute!important;)
 www.wiadomosci24.pl##.przeprowadzka-plywak
 !
 !
@@ -397,6 +390,9 @@ avdotia.kotkowicz.pl###header:style(position: static!important;)
 bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
 brainly.pl##.sg-header--fixed
 doruchow.pl,krosnice.pl##.div_menu_prawe_wysuwane:style(position: absolute!important;)
+dorzeczy.pl###element-header
+dorzeczy.pl,superhistoria.pl###content:style(padding-top: 0px!important)
+dorzeczy.pl,superhistoria.pl###header:style(position: static!important;)
 gram.pl##.dashBoard:style(position: absolute!important;)
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position:static!important;)
 komorkomania.pl##.btn-comments
@@ -415,6 +411,7 @@ sklep.gram.pl###dashboard:style(position: absolute!important;)
 store.playstation.com###pageNavigator:style(position: absolute!important;)
 telemedi.co##.header__navbar:style(position: absolute!important;)
 telewizjarepublika.pl###header-top:style(position: static!important;)
+tustolica.pl###innermenu:style(position: static!important;)
 twojezaglebie.pl##.td-ss-main-sidebar:style(position: static!important;)
 tygodniksiedlecki.com##.avoid-print-this.bottom-bar:style(position: static!important;)
 tygodniksiedlecki.com##.sticky.avoid-print-this.on.bootsnav.navbar-mobile.navbar-default.navbar:style(position: static!important;)
