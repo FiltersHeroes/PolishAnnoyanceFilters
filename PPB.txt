@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 26 September 2017
-! Version: 2017092602
+! Version: 2017092603
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: wto, 26 września 2017, 18:54
+! Aktualizacja: wto, 26 września 2017, 20:46
 !
 /btn-newsletter
 !
@@ -392,8 +392,33 @@ www.rp.pl##.stuck.sticker-enabled.mostreadArticlesSticker:style(position: static
 www.rp.pl##.toolbar:style(position: absolute!important;)
 www.rp.pl##body:style(position: static!important;)
 !
+ Agora
+ams.com.pl###back2top
+gazetapraca.pl##.js-offer-suggested-offer-btn.next-offer-box
+kulturalnysklep.pl##.detached.topnav-categories.row:style(position: absolute!important;)
+ladnydom.pl,avanti24.pl,www.bryla.pl###page-top:style(position: static!important;)
+outdoortrack.pl##.to-top-container
+polskabiega.sport.pl,www.junior.sport.pl###embed_iframe
+reklama.gazeta.pl###menu:style(position: absolute!important;)
+reklamaczasopisma.agora.pl##.fixed.top:style(position: absolute!important;)
+wiadomosci.gazeta.pl,kobieta.gazeta.pl,zdrowie.gazeta.pl,podroze.gazeta.pl,www.edziecko.pl,ugotuj.to,weekend.gazeta.pl,polskabiega.sport.pl,www.sport.pl,myfitness.pl,www.junior.sport.pl,www.plotek.pl,deser.gazeta.pl,moto.pl,ladnydom.pl,www.logo24.pl,magazyn-kuchnia.pl,www.swiatmotocykli.pl,rockradio.tuba.pl,zloteprzeboje.tuba.pl,radiopogoda.tuba.pl##.hpFeed.mod_hat2014.mod:style(position: absolute!important;)
+www.autotrader.pl##.is_stuck.basic-info-heading--sticky
+www.autotrader.pl##.is_stuck.section--navbar.section
+www.autotrader.pl##.section--navbar.section:style(position: absolute!important;)
+www.domiporta.pl##.fixed.page-header:style(position: absolute!important;)
+www.goldenline.pl##.main-header.symfony:style(position: absolute!important;)
+www.helios.pl##.openSuggestionFormButton
+www.komunikaty.pl###rwdHat:style(position: absolute!important;)
+www.trader.pl###main-header:style(position: absolute!important;)
+wyborcza.pl,wyborcza.biz,www.wysokieobcasy.pl###wyborczaHat:style(position: absolute!important;)
+yieldbird.com###header:style(position: absolute!important;)
+yieldbird.com##.hidden-widget.float-widget
+yieldbird.com##.newsletter-modal
+yieldbird.com##.overlay-layer
+zdrowie.gazeta.pl###bottom_wrap
 !
 ! Movable elements
+!
 allegro.pl##.sticky
 avdotia.kotkowicz.pl###catcher
 avdotia.kotkowicz.pl###header:style(position: static!important;)
@@ -897,26 +922,3 @@ sklep.hyperbook.pl###bossbyte_slide
 sklep.hyperbook.pl###floatingTotals
 galileo.krakow.pl###text-2 > .textwidget
 !
-wiadomosci.gazeta.pl,kobieta.gazeta.pl,zdrowie.gazeta.pl,podroze.gazeta.pl,www.edziecko.pl,ugotuj.to,weekend.gazeta.pl,polskabiega.sport.pl,www.sport.pl,myfitness.pl,www.junior.sport.pl,www.plotek.pl,deser.gazeta.pl,moto.pl,ladnydom.pl,www.logo24.pl,magazyn-kuchnia.pl,www.swiatmotocykli.pl,rockradio.tuba.pl,zloteprzeboje.tuba.pl,radiopogoda.tuba.pl##.hpFeed.mod_hat2014.mod:style(position: absolute!important;)
-www.komunikaty.pl###rwdHat:style(position: absolute!important;)
-wyborcza.pl,wyborcza.biz,www.wysokieobcasy.pl###wyborczaHat:style(position: absolute!important;)
-www.goldenline.pl##.main-header.symfony:style(position: absolute!important;)
-kulturalnysklep.pl##.detached.topnav-categories.row:style(position: absolute!important;)
-www.trader.pl###main-header:style(position: absolute!important;)
-yieldbird.com###header:style(position: absolute!important;)
-www.domiporta.pl##.fixed.page-header:style(position: absolute!important;)
-reklama.gazeta.pl###menu:style(position: absolute!important;)
-reklamaczasopisma.agora.pl##.fixed.top:style(position: absolute!important;)
-ladnydom.pl,avanti24.pl,www.bryla.pl###page-top:style(position: static!important;)
-www.autotrader.pl##.is_stuck.basic-info-heading--sticky
-www.autotrader.pl##.is_stuck.section--navbar.section
-www.autotrader.pl##.section--navbar.section:style(position: absolute!important;)
-polskabiega.sport.pl,www.junior.sport.pl###embed_iframe
-gazetapraca.pl##.js-offer-suggested-offer-btn.next-offer-box
-zdrowie.gazeta.pl###bottom_wrap
-yieldbird.com##.newsletter-modal
-yieldbird.com##.overlay-layer
-yieldbird.com##.hidden-widget.float-widget
-www.helios.pl##.openSuggestionFormButton
-ams.com.pl###back2top
-outdoortrack.pl##.to-top-container
