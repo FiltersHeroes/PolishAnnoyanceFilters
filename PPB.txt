@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 25 September 2017
-! Version: 2017092505
+! Last modified: 26 September 2017
+! Version: 2017092601
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 25 września 2017, 21:06
+! Aktualizacja: wto, 26 września 2017, 16:14
 !
 /btn-newsletter
 !
@@ -81,6 +81,10 @@ e-saving.pl##.scroll
 e-zikoapteka.pl##.recommend.side_widget
 ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
+ekai.pl##.infoBarTopContainer:style(position: static!important;)
+ekai.pl##.nav-toggle:style(position: absolute!important;)
+ekai.pl##html > body:style(overflow: auto!important;)
+ekai.pl##.newsletter-popup, .show.extra-article
 ekologia.pl##.bg-p
 ekologia.pl##.promote
 electro-outlet.pl###tws_a_1
