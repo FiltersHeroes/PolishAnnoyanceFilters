@@ -1,17 +1,19 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 26 September 2017
-! Version: 2017092604
+! Last modified: 27 September 2017
+! Version: 2017092701
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: wto, 26 września 2017, 22:03
+! Aktualizacja: śr, 27 września 2017, 23:15
 !
 /btn-newsletter
 !
 4fun.tv##.app-popup
+6krokow.pl###header:style(position: absolute!important;)
+6krokow.pl##progress:style(position: absolute!important;)
 agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
 agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
@@ -138,6 +140,9 @@ innpoland.pl###fbinvite
 instyle.co.uk##.pw-button-pinterest.pw-button
 interia.pl##.error-page-layer
 inwestujwmyjnie.pl,vexel-fashion.pl###czater-contener
+www.jakonatorobi.pl###sidebar > .is-sticked.ruby-sidebar-sticky:style(position: static!important;)
+www.jakonatorobi.pl##.header-nav-inner:style(position: static!important;)
+www.jakonatorobi.pl###ruby-back-top
 jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_div
 jooble.org###popup
@@ -216,6 +221,7 @@ pb.pl##.smPopupContainer, #smPopupBackground
 pepco.pl##.in.modal-newsletter.fade.modal
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
 pkobp.pl###scrollie
+pl.000webhost.com##div[style="cursor: pointer;"]
 play.pl###optimonk-holder-campaign-59
 player.pl##body > iframe:nth-of-type(1)
 player.pl##body > div:nth-of-type(3)
@@ -279,6 +285,7 @@ spidersweb.pl##html:style(overflow: visible!important; margin-right: 0px!importa
 spidersweb.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 sprzedajemy.pl##.newest_offers
 sprzedajemy.pl##.offerDetailsRightBlueBox
+sprzedambiznes.pl###intercom-container
 stokrotka.pl##.fancybox-overlay-fixed.fancybox-overlay
 stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: auto!important;)
 stylowebuty.pl##.banner-newsletter
