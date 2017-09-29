@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 29 September 2017
-! Version: 2017092901
+! Version: 2017092902
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: czw, 29 września 2017, 16:58
+! Aktualizacja: czw, 29 września 2017, 17:32
 !
 /btn-newsletter
 !
@@ -17,7 +17,7 @@
 agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
 agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
-alget.pl###jOverlay, #jOverlayContent, .top_button, #chat-application
+alget.pl###jOverlay, #jOverlayContent, .top_button
 allegro.pl##.sticky
 amracing.pl##img[src="/images/dealers_button.png"]
 amracing.pl##img[src="/images/files_button.png"]
@@ -68,7 +68,6 @@ dailyweb.pl###snppopup-welcome
 dany-meble.pl##body > .hidden-sm.hidden-xs, #gototop
 dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
-dellpoint.pl###chat-application
 diagnozainternetu.pl##.top
 diversesystem.com###dvrs-newsletter-popup-body
 dobreprogramy.pl##.forum-help-cta.no-mobile.block
@@ -226,7 +225,7 @@ neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nestbank.pl##.fixed-label
 newsweek.pl##.wrapper
 nowa.tv##.sticky_boxes
-nowafarmacja.pl###chat-application, #newsletter-overlay, #freshmail-form
+nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowosci-mp3.eu###toTop
 nowosci-mp3.eu##.clr.center > .short-story
 ogloszenia24.info###fancybox-overlay
@@ -402,7 +401,8 @@ zapytaj.onet.pl###header.mini
 zjoplock.pl###popup_overlay
 zpozdrowieniem.pl###scroller:style(position: static!important;)
 zpozdrowieniem.pl##.header_fixed
-||embed.tawk.to^$script,domain=kotrak.pl
+||embed.tawk.to^$script
+||smartsuppchat.com/loader.js
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
 !
 !
