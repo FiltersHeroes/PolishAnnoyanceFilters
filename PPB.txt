@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 2 October 2017
-! Version: 2017100201
+! Version: 2017100203
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 2 pazdziernika 2017, 13:22
+! Aktualizacja: pon, 2 pazdziernika 2017, 14:02
 !
 /btn-newsletter
 !
@@ -58,7 +58,6 @@ caseih.com.pl###cboxOverlay
 caseih.com.pl###colorbox
 chrzypsko.pl##.biegacz, #facebook_side
 coccodrillo.eu###homeNewsletter
-coccodrillo.eu###livechat-compact-view
 coccodrillo.eu###sc_behind
 coccodrillo.eu##.newsletterWrap
 context.reverso.net###register-popup-bottom, .lock.icon, .go-up.icon
@@ -112,7 +111,6 @@ facebook.com###pagelet_growth_expanding_cta
 fashionata.pl###bodyWrapper
 fashionata.pl##.nlpwContainer
 fashionata.pl##.pwShade
-ferratum.pl##.icc.ic-chat
 ferratum.pl##.icc.ic-mail
 ferratum.pl##.icc.ic-phone
 forpro.pl###message
@@ -150,7 +148,6 @@ ibiznes.biz###text-2
 innpoland.pl###fbinvite
 instyle.co.uk##.pw-button-pinterest.pw-button
 interia.pl##.error-page-layer
-inwestujwmyjnie.pl,vexel-fashion.pl###czater-contener
 jakzarabiaconline.blogspot.com###top
 jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_div
@@ -169,7 +166,7 @@ konicaminolta.info.pl##.kontakt-slide
 kotkowicz.pl###sticky_header, .vce-sticky
 kotrak.pl##.kotrak_infobox_button
 kredito24.pl##.btn-apply
-kupbuty.com###tidio-chat, #tws_i_1, #topLayerBackDrop
+kupbuty.com###tws_i_1, #topLayerBackDrop
 kwiaciarnia-rikka.pl##.has-popup.no-scroll,body:style(overflow: visible!important;)
 kwiaciarnia-rikka.pl##.wdpu-container
 limango.pl##.js_welcome_background.background_overlay
@@ -181,7 +178,6 @@ mac-world.pl##.et_bloom_popup
 macris.com.pl###newsletter-popup
 macris.com.pl##.noscroll:style(overflow: visible!important; position: relative!important;)
 majsterpol.pl###jm-logo-djmenu-bg:style(position: absolute!important;)
-majsterpol.pl###livechat-full
 manjaro.pl##.generate-back-to-top
 maxmoto.pl###newsletter-form
 maxmoto.pl##.allegro-icon
@@ -350,8 +346,7 @@ ursus.com.pl###optionbar:style(position: static!important;)
 ursus.com.pl###topline:style(position: absolute!important;)
 ursus.com.pl##.opacity1.flexslider-container
 ursus.com.pl##html:style(overflow: visible!important;)
-vexel-fashion.pl##.side-block-icon, #czater-contener
-vivus.pl##.videochat-iframe-holder
+vexel-fashion.pl##.side-block-icon
 wanika.pl###cloudBox
 wearmedicine.com###cboxLoadedContent, #cboxOverlay, #nlPopup, #nlThanks
 wearmedicine.com##.newsletter
@@ -383,6 +378,8 @@ www.jakonatorobi.pl###ruby-back-top
 www.jakonatorobi.pl###sidebar > .is-sticked.ruby-sidebar-sticky:style(position: static!important;)
 www.jakonatorobi.pl##.header-nav-inner:style(position: static!important;)
 www.mdm.elblag.pl###toTop
+www.mila.pl##.header:style(position: absolute!important;)
+www.mila.pl##.scroll-arrow
 www.ozog.pl###homeModal
 www.ozog.pl###navbar-background:style(position: absolute!important; height: 110px!important;)
 www.ozog.pl###navbar-brand:style(width: 100%!important;)
@@ -410,9 +407,13 @@ zapytaj.onet.pl###header.mini
 zjoplock.pl###popup_overlay
 zpozdrowieniem.pl###scroller:style(position: static!important;)
 zpozdrowieniem.pl##.header_fixed
+||chat.4finance.com^$third-party
+||code.tidio.co^$third-party
 ||embed.tawk.to^$script
+||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
+||www.czater.pl/assets/modules/chat/js/chat.js$script
 !
 !
 ! Polska Press
@@ -480,7 +481,8 @@ www.rp.pl##.search.modal-fix-search:style(position: absolute!important;)
 www.rp.pl##.show.modal-fix-toolbar-showmenu.toolbar-showmenu.toolbar-icon:style(position: absolute!important;)
 www.rp.pl##.stuck.sticker-enabled.mostreadArticlesSticker:style(position: static!important;)
 www.rp.pl##.toolbar:style(position: absolute!important;)
-www.rp.pl##body:style(position: static!important;)!
+www.rp.pl##body:style(position: static!important;)
+!
 !
 ! Bauer Media
 cyfrowypolsat.interia.pl##.fixed.doNotResize.v7header:style(position: relative!important;)
@@ -506,7 +508,7 @@ teletydzien.interia.pl###channels-wrapper:style(position: absolute!important; to
 tipy.interia.pl##.tbar:style(position: absolute!important; top: -40px!important;)
 tube.ad##.go-top, .nav
 uroda.swiatkobiety.pl###articleObjectSeeAlso1
-www.artefakt.pl###tidio-chat, #scrollUp
+www.artefakt.pl###scrollUp
 www.artefakt.pl##header:style(position: absolute!important;)
 www.bryk.pl##.header-wrapper:style(position: static!important;)
 www.bryk.pl##.sticky.col-wrapper:style(position: relative!important;)
@@ -524,10 +526,10 @@ www.rmfclassic.pl##.header:style(position: absolute!important;)
 www.rmfclassic.pl##html > body:style(padding: 0px!important;)
 www.sunrisesystem.pl##.head:style(position: absolute!important;)
 www.sunrisesystem.pl##.messages
-www.topsolutions.pl###Top_bar:style(position: absolute!important;)
 www.topsolutions.pl###back_to_top:style(position: absolute!important;)
 www.topsolutions.pl###cp-widget
 www.topsolutions.pl###popup_contact:style(position: absolute!important;)
+www.topsolutions.pl###Top_bar:style(position: absolute!important;)
 www.widzialni.pl###cp-widget, #toTop
 www.widzialni.pl##.toggle-contact:style(position: absolute!important;)
 ||ebrokerpartner.pl/js/frontend/modules/popup.js$script
@@ -861,7 +863,6 @@ pl###sub_dlg
 pl###sugester_widget
 pl###swim_box
 pl###test-modal
-pl###tidio-chat
 pl###tln3_bg
 pl###tln3_wrap
 pl###trigger
