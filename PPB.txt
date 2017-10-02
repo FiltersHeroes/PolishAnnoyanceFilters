@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 2 October 2017
-! Version: 2017100203
+! Version: 2017100204
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 2 pazdziernika 2017, 14:12
+! Aktualizacja: pon, 2 pazdziernika 2017, 14:37
 !
 /btn-newsletter
 !
@@ -411,7 +411,8 @@ zpozdrowieniem.pl##.header_fixed
 ||chat.4finance.com^$third-party
 ||code.tidio.co^$third-party
 ||embed.tawk.to^$script
-||secure.livechatinc.com^$third-party
+||secure.livechatinc.com^$third-party
+
 ||smartsuppchat.com/loader.js
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
 ||www.czater.pl/assets/modules/chat/js/chat.js$script
@@ -572,6 +573,12 @@ stopcafe.pl##header:style(position: absolute!important;)
 stopcafe.pl##.app-widget
 www.ekoterm.pl###stopka:style(position: static!important;)
 www.vitay.pl###serviceRatingBox
+!
+!
+! Grupa PTWP
+www.portalspozywczy.pl###strefaPremiumMenu:style(position: static!important;)
+www.portalspozywczy.pl,wnp.pl###axn
+www.portalspozywczy.pl,wnp.pl##.nlOpen:style(overflow: visible!important;)
 !
 !
 ! Scroll to top from Fanboy's Annoyance List (License: http://creativecommons.org/licenses/by/3.0/) 
