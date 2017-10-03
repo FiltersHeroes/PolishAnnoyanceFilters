@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 2 October 2017
-! Version: 2017100205
+! Last modified: 3 October 2017
+! Version: 2017100301
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 2 pazdziernika 2017, 15:26
+! Aktualizacja: wt, 3 pazdziernika 2017, 19:16
 !
 /btn-newsletter
 !
@@ -363,8 +363,6 @@ wispol.eu##.popup_news
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
 wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
-wp.pl###home-page-button
-wp.pl###newsfeed-player-column
 wprost.pl###element-header
 wprost.pl###header:style(position: absolute!important;)
 www.biofarm.pl##header:style(position: absolute!important;)
@@ -396,6 +394,7 @@ www.reeco.info.pl###menu:style(position: static!important;)
 www.reeco.info.pl###toTop
 www.ravelo.pl##.searchRow:style(position: absolute!important; margin-top: 0px!important;)
 www.ravelo.pl###modalAlertMethodNL
+www.wp.pl###home-page-button, #newsfeed-player-column
 www.zatrzymujacczas.pl###ffbp-bg, #ffbp
 www.zatrzymujacczas.pl###top-bar:style(position: static!important;)
 wyborcza.biz##.is-visible.mod_ddbox.mod
