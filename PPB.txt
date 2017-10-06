@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 6 October 2017
-! Version: 2017100601
+! Version: 2017100602
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: ptk, 6 pazdziernika 2017, 10:43
+! Aktualizacja: ptk, 6 pazdziernika 2017, 11:49
 !
 /btn-newsletter
 !
@@ -251,7 +251,7 @@ poczta.interia.pl###side-ad
 pol-nor.com###popforfirma
 pol-nor.com##.formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
-policja.pl,policja.gov.pl##[id^="popup-"]
+policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 polsatnews.pl###fab
 polsatnews.pl###urgent:style(position: static!important;)
