@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 6 October 2017
-! Version: 2017100604
+! Version: 2017100605
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pt, 6 pazdziernika 2017, 20:31
+! Aktualizacja: pt, 6 pazdziernika 2017, 21:30
 !
 /btn-newsletter
 !
@@ -568,6 +568,14 @@ www.pulshr.pl##.progress-bar
 m.r.pl##.navbar-fixed-top.navbar-default.navbar:style(position: absolute!important;)
 parkingi.r.pl##.navbar-fixed-top.naglowek.navbar-default.navbar:style(margin-top: -54px!important;)
 r.pl,~biletyczarterowe.r.pl,~charterflights.r.pl,~ir.r.pl,~media.r.pl,~taniroaming.r.pl##.navbar-fixed-top.naglowek.navbar-default.navbar:style(position: absolute!important;)
+!
+!
+! Ringier Axel Springer
+literia.pl##.main-header:style(position: absolute!important;)
+www.auto-swiat.pl###facebook_slider_widget
+www.fakt.pl##.headFixed
+www.newsweek.pl###m7_menu_4097 > .inside:style(position: static!important;)
+www.ofeminin.pl##header:style(position: absolute!important;)
 !
 !
 ! TVN
