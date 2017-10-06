@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 6 October 2017
-! Version: 2017100603
+! Version: 2017100604
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pt, 6 pazdziernika 2017, 18:28
+! Aktualizacja: pt, 6 pazdziernika 2017, 20:31
 !
 /btn-newsletter
 !
@@ -623,6 +623,7 @@ reklama.wp.pl##.headerLinks > .fixed.in:style(position: absolute!important;)
 reklama.wp.pl##.main > .fixed.in:style(position: absolute!important;)
 sportowybar.wp.pl###stgCol300:style(position: absolute!important;)
 tv.wp.pl###Slider
+wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
 wp.tv###stgHeader:style(position: static!important;)
 wp.tv##body:style(padding-top: 0px!important;)
 www.dobreprogramy.pl###header:style(position: absolute!important;)
