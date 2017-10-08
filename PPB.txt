@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 6 October 2017
-! Version: 2017100606
+! Last modified: 8 October 2017
+! Version: 2017100801
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pt, 6 pazdziernika 2017, 21:40
+! Aktualizacja: nd, 8 pazdziernika 2017, 21:15
 !
 /btn-newsletter
 !
@@ -19,6 +19,7 @@ agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
 alget.pl###jOverlay, #jOverlayContent, .top_button
 allegro.pl##.sticky
+alles-bhp.pl,greattrade.pl,szkolnaspizarnia.pl##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute!important;)
 amracing.pl##img[src="/images/dealers_button.png"]
 amracing.pl##img[src="/images/files_button.png"]
 amracing.pl##img[src="/images/partners_button.png"]
@@ -124,6 +125,7 @@ gazetapraca.pl###nlt_overlay
 gazetaprawna.pl###boxSubscr2016
 gazetaprawna.pl###miejsce104
 gazetaprawna.pl,~www.gazetaprawna.pl###nextArticleWidget
+gazetatrybunalska.pl###scroll-up
 gdzie-na-sylwestra.pl###go-top
 gemre.com.pl###tws_a_100001, #tws_c_100002, #topLayerBackDrop, #backTop
 getinbank.pl###scroll_top
@@ -148,6 +150,7 @@ ibiznes.biz###text-2
 innpoland.pl###fbinvite
 instyle.co.uk##.pw-button-pinterest.pw-button
 interia.pl##.error-page-layer
+istotne.pl###main_navigation:style(position: static!important;)
 izbadruku.org.pl###jslikeboxsidebarleft
 jakzarabiaconline.blogspot.com###top
 jednoslad.pl###custom_fan_gate_overlay
@@ -223,6 +226,7 @@ neonet.pl##.arrow-up
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nestbank.pl##.fixed-label
 newsweek.pl##.wrapper
+noizz.pl###stickyMenu:style(position: absolute!important;)
 nowa.tv##.sticky_boxes
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowosci-mp3.eu###toTop
@@ -365,12 +369,15 @@ wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
 wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
 wprost.pl###element-header
 wprost.pl###header:style(position: absolute!important;)
+www.akademiareklamy.edu.pl###ppm:style(position: absolute!important;)
+www.akademiareklamy.edu.pl###topscroller
 www.biofarm.pl##header:style(position: absolute!important;)
 www.bs-legal.pl###icon_wrapper
 www.bs-legal.pl##.fl-page-bar, .fl-page-header:style(position: absolute!important;)
 www.ceneo.pl##.header-container:style(position: static!important;)
 www.ckm.pl##.fixed-active.clearfix.nav-fixed.nav:style(position: static!important;)
 www.cozadzien.pl###error_widget, #recom_widget
+www.eglobalcentral.pl###hs-beacon
 www.elblag.net##.nextarticle.allpadding
 www.enea.pl##.cx-theme-blue.cx-window-manager.cx-widget
 www.jakonatorobi.pl###ruby-back-top
@@ -397,6 +404,8 @@ www.reeco.info.pl###menu:style(position: static!important;)
 www.reeco.info.pl###toTop
 www.ravelo.pl##.searchRow:style(position: absolute!important; margin-top: 0px!important;)
 www.ravelo.pl###modalAlertMethodNL
+www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
+www.systim.pl###top:style(position: absolute!important;)
 www.zatrzymujacczas.pl###ffbp-bg, #ffbp
 www.zatrzymujacczas.pl###top-bar:style(position: static!important;)
 wyborcza.biz##.is-visible.mod_ddbox.mod
