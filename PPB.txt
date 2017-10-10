@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 10 October 2017
-! Version: 2017101001
+! Version: 2017101002
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: wt, 10 pazdziernika 2017, 21:35
+! Aktualizacja: wt, 10 pazdziernika 2017, 22:43
 !
 /btn-newsletter
 !
@@ -226,7 +226,6 @@ neonet.pl##.arrow-up
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nestbank.pl##.fixed-label
 newsweek.pl##.wrapper
-noizz.pl###stickyMenu:style(position: absolute!important;)
 nowa.tv##.sticky_boxes
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowosci-mp3.eu###toTop
@@ -415,7 +414,6 @@ yes.pl##.footer-middle
 youtube.com###masthead-container:style(position: absolute!important;)
 yoy.tv###notice
 zalando.pl##.overflow.firstLine:nth-of-type(2)
-zapytaj.onet.pl###header.mini
 zjoplock.pl###popup_overlay
 zpozdrowieniem.pl###scroller:style(position: static!important;)
 zpozdrowieniem.pl##.header_fixed
@@ -655,6 +653,7 @@ fotoblogia.pl##.btn-comments.btn
 fotoblogia.pl##.fixed-header--display.adsize_header.x-header.main-header-small.agregator-header:style(position: absolute!important;)
 hosting.wp.pl##.navbar-fixed-top.navbar:style(position: absolute!important;)
 inwestor.wp.pl##.desktop-fixed.jq-header-height:style(position: absolute!important;)
+komediowo.pl###adv03
 m.money.pl###header:style(position: absolute!important;)
 m.sportowefakty.wp.pl###mainheader:style(position: absolute!important;)
 misioweopowiesci.o2.pl##.playlist__wrapper
@@ -667,7 +666,6 @@ reklama.wp.pl##.headerLinks > .fixed.in:style(position: absolute!important;)
 reklama.wp.pl##.main > .fixed.in:style(position: absolute!important;)
 sportowybar.wp.pl###stgCol300:style(position: absolute!important;)
 tv.wp.pl###Slider
-wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
 wp.tv###stgHeader:style(position: static!important;)
 wp.tv##body:style(padding-top: 0px!important;)
 www.dobreprogramy.pl###header:style(position: absolute!important;)
