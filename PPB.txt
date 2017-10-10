@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 8 October 2017
-! Version: 2017100801
+! Last modified: 10 October 2017
+! Version: 2017101001
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: nd, 8 pazdziernika 2017, 21:15
+! Aktualizacja: wt, 10 pazdziernika 2017, 21:35
 !
 /btn-newsletter
 !
@@ -396,6 +396,7 @@ www.ozog.pl##body:style(overflow: auto!important;)
 www.pekabex.pl##.top-header.row:style(position: absolute!important;)
 www.phnsa.pl###header-container:style(position: absolute!important;)
 www.pruszynski.com.pl###order-outbox
+www.polityka.pl##.md-pc-access-menu.pc-access-menu_no-access:style(position: static!important;)
 www.polskieradio.pl###prMenu:style(position: relative!important;)
 www.purepc.pl##.mtotop
 www.purepc.pl##.navbox:style(position: static!important; margin-left: auto!important;)
@@ -524,6 +525,13 @@ www.rp.pl##.toolbar:style(position: absolute!important;)
 www.rp.pl##body:style(position: static!important;)
 !
 !
+! IDG
+seminaria.idg.pl,e-seminaria.pl##.scrollup
+www.idg.com.pl##.menu:style(position: absolute!important;)
+www.idg.pl###body-page:style(margin-top: 0px!important;)
+www.idg.pl###top-header:style(position: static!important;)
+!
+!
 ! Orlen
 dlakierowcow.orlen.pl###header:style(position: absolute!important;)
 dlakierowcow.orlen.pl###mainMenu:style(position: absolute!important;)
@@ -580,11 +588,29 @@ r.pl,~biletyczarterowe.r.pl,~charterflights.r.pl,~ir.r.pl,~media.r.pl,~taniroami
 !
 !
 ! Ringier Axel Springer
-literia.pl##.main-header:style(position: absolute!important;)
+aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
+biznes.onet.pl,facet.onet.pl,film.onet.pl,finanse.onet.pl,gry.onet.pl,ksiazki.onet.pl,magia.onet.pl,moto.onet.pl,motocykle.onet.pl,muzyka.onet.pl,ofsajd.onet.pl,podroze.onet.pl,poznajpolske.onet.pl,strefatajemnic.onet.pl,technowinki.onet.pl###pageHeader:style(position: absolute!important;)
+gameplanet.onet.pl##.button--play-sticky.thm-gui-button-gamma.u-f_right.button--play-big.button--play.button.detail-layout-lead__play, .scroll-active.js-scroll-top.thm-icon-arrow-top.thm-gui-icon-alfa.scroll-top--absolute.scroll-top, .is-visible-bar.js-special-bar.thm-gui-special-bar.special-bar
+gameplanet.onet.pl##.header--sticky:style(position: absolute!important;)
+absolute.scroll-top
+kielce.onet.pl,kobieta.onet.pl,krakow.onet.pl,lodz.onet.pl,lublin.onet.pl,lubuskie.onet.pl,olsztyn.onet.pl,opole.onet.pl,poznan.onet.pl,rzeszow.onet.pl,slask.onet.pl,sport.onet.pl,szczecin.onet.pl,trojmiasto.onet.pl,warszawa.onet.pl,wbi.onet.pl,wiadomosci.onet.pl,wroclaw.onet.pl,www.onet.pl##.pageHeader:style(position: absolute!important;)
+konto.onet.pl###navright
+literia.pl##.main-header:style(position: absolute!important;) 
+magia.onet.pl###facebook_button
+noclegi.onet.pl##.feedback-button
+noizz.pl###stickyMenu:style(position: absolute!important;)
+plejada.pl###goback
+sympatia.onet.pl###iconsBar
+vod.pl###limitedCatalogInfo
+wbi.onet.pl###content-share-top
 www.auto-swiat.pl###facebook_slider_widget
-www.fakt.pl##.headFixed
-www.newsweek.pl###m7_menu_4097 > .inside:style(position: static!important;)
-www.ofeminin.pl##header:style(position: absolute!important;)
+www.fakt.pl##.headFixed 
+www.forbes.pl##.slideToTop
+www.newsweek.pl###m7_menu_4097 > .inside:style(position: static!important;) 
+www.ofeminin.pl##header:style(position: absolute!important;) 
+www.t-mobile-trendy.pl##.menuBox:style(position: absolute!important;)
+www.zumi.pl##.mainHeader:style(position: absolute!important;)
+zapytaj.onet.pl###header.mini
 !
 !
 ! TVN
