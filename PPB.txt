@@ -1,15 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 102 October 2017
-! Version: 2017101201
+! Last modified: 15 October 2017
+! Version: 2017101501
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: wt, 12 pazdziernika 2017, 19:28
+! Aktualizacja: nd, 15 pazdziernika 2017, 13:39
 !
 /btn-newsletter
+/plugins/facebook-fanbox-popup/
 !
 4fun.tv##.app-popup
 6krokow.pl###header:style(position: absolute!important;)
@@ -287,7 +288,7 @@ romantycznyweekend.eu###fancybox-overlay
 romantycznyweekend.eu###fancybox-wrap
 rooader.pl###nicePopupWrapper
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
-www.rossmann.pl###FreePopUp
+www.politykainsight.pl##.start-v3-nav:style(position: absolute!important;)
 www.rossmann.pl###header_mobile:style(position: absolute!important;)
 rowertour.com###fixed_strefa_marek
 rylko.com###ls-float-element-cnt
@@ -415,7 +416,7 @@ www.ravelo.pl##.searchRow:style(position: absolute!important; margin-top: 0px!im
 www.ravelo.pl###modalAlertMethodNL
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.systim.pl###top:style(position: absolute!important;)
-www.zatrzymujacczas.pl###ffbp-bg, #ffbp
+www.zatrzymujacczas.pl,kuchniawedwoje.pl###ffbp
 www.zatrzymujacczas.pl###top-bar:style(position: static!important;)
 wyborcza.biz##.is-visible.mod_ddbox.mod
 wypiska.pl##.fixed.site-header:style(position: static!important;)
@@ -434,6 +435,7 @@ zpozdrowieniem.pl##.header_fixed
 ||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js$script,domain=www.kupbilet.pl
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
 ||www.czater.pl/assets/modules/chat/js/chat.js$script
+||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js$script
 !
 !
 ! Agora
@@ -676,6 +678,7 @@ reklama.wp.pl##.headerLinks > .fixed.in:style(position: absolute!important;)
 reklama.wp.pl##.main > .fixed.in:style(position: absolute!important;)
 sportowybar.wp.pl###stgCol300:style(position: absolute!important;)
 tv.wp.pl###Slider
+wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
 wp.tv###stgHeader:style(position: static!important;)
 wp.tv##body:style(padding-top: 0px!important;)
 www.dobreprogramy.pl###header:style(position: absolute!important;)
