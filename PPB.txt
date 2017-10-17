@@ -1,15 +1,17 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 15 October 2017
-! Version: 2017101501
+! Last modified: 17 October 2017
+! Version: 2017101701
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: nd, 15 pazdziernika 2017, 13:39
+! Aktualizacja: wt, 17 pazdziernika 2017, 22:52
 !
 /btn-newsletter
+/common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
+/common/js/enp/modules/scrollTop.js$script,domain=mixmedia.pl|mycenter.pl
 /plugins/facebook-fanbox-popup/
 !
 4fun.tv##.app-popup
@@ -25,10 +27,6 @@ amracing.pl##img[src="/images/dealers_button.png"]
 amracing.pl##img[src="/images/files_button.png"]
 amracing.pl##img[src="/images/partners_button.png"]
 amracing.pl##img[src="/images/players_button.png"]
-amso.pl,domzagadek.pl,habys.pl,sklep.batcar.pl###cp-widget
-amso.pl,habys.pl##html > body:style(overflow: visible!important;)
-amso.pl,habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
-amso.pl,habys.pl##html.fancybox-lock:style(overflow: visible!important;)
 angolia.co.uk###fancybox-content
 angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
@@ -75,7 +73,7 @@ dobreprogramy.pl##.forum-help-cta.no-mobile.block
 dogry.pl##.register-modal
 dogry.pl##.register-overlayer--game.register-overlayer
 domsary.eu###widget-handler
-domzagadek.pl##.voucher-widget
+domzagadek.pl##.voucher-widget, #scroll_strz
 doruchow.pl###div_loader
 doruchow.pl,krosnice.pl##.div_menu_prawe_wysuwane:style(position: absolute!important;)
 dorzeczy.pl###element-header
@@ -131,16 +129,16 @@ gdzie-na-sylwestra.pl###go-top
 gemre.com.pl###tws_a_100001, #tws_c_100002, #topLayerBackDrop, #backTop
 getinbank.pl###scroll_top
 getinbank.pl##.quickMenuRow.row
-gminamoszczenica.eu###sbox-overlay
-gminamoszczenica.eu###sbox-window
-gminamoszczenica.eu##body.body-overlayed:style(overflow: visible!important;)
 gminamoszczenica.eu##script:inject(addEventListener-defuser.js, mousewheel)
 gmoto.pl##.well-sm.well
 goldenline.pl##.ui-widget-overlay, .invitationDialog, .blog-tab, #slidebox
 google.pl###_L8b
 gram.pl##.dashBoard:style(position: absolute!important;)
 guzik.konin.pl##.fab-action-button
-habys.pl##.fancybox-overlay-fixed
+habys.pl###cp-widget, .fancybox-overlay-fixed
+habys.pl##html > body:style(overflow: visible!important;)
+habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
+habys.pl##html.fancybox-lock:style(overflow: visible!important;)
 habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 harpersbazaar.com###campaign_237772_container_overlay
 hbo.pl##.ribbon
@@ -172,8 +170,6 @@ kotkowicz.pl###sticky_header, .vce-sticky
 kotrak.pl##.kotrak_infobox_button
 kredito24.pl##.btn-apply
 kupbuty.com###tws_i_1, #topLayerBackDrop
-kwiaciarnia-rikka.pl##.has-popup.no-scroll,body:style(overflow: visible!important;)
-kwiaciarnia-rikka.pl##.wdpu-container
 limango.pl##.js_welcome_background.background_overlay
 limango.pl##.modal
 limango.pl##body.welcome_main.modal-open:style(overflow: visible!important;padding-right: 0px!important;)
@@ -190,15 +186,11 @@ mbank.pl###push-message
 mbank.pl##.covered.edge-menu
 meble.pl##.footer-subscription
 media2.pl###news-readmore
-mediaexpert.pl##.newsletter_bar, .nletter_popup, #go_top
-mediaexpert.pl##html:style(overflow: visible!important; margin-right: 0px!important)
+mediaexpert.pl###go_top
 mediarun.com##.vc_row-has-fill
 merlin.pl##.promotion-widget
 misjonarska.com###myModal, .reveal-modal-bg
-mixmedia.pl###place3_v2
-mixmedia.pl###place3_v3
-mixmedia.pl,mycenter.pl###js-newsletterPopup
-mixmedia.pl,mycenter.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+mixmedia.pl###place3_v2, #place3_v3, #last-viewed, #fb_likebox
 mmaniak.pl###x13popup, #x13popup-cover
 mmarocks.pl##.smPopupContainer, #smPopupBackground
 mojeauto.pl###ma-top-layer
@@ -291,7 +283,6 @@ rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 www.politykainsight.pl##.start-v3-nav:style(position: absolute!important;)
 www.rossmann.pl###header_mobile:style(position: absolute!important;)
 rowertour.com###fixed_strefa_marek
-rylko.com###ls-float-element-cnt
 rylko.com###modal-newsletter
 rylko.com##.in.fade.modal-backdrop
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
@@ -427,9 +418,15 @@ zalando.pl##.overflow.firstLine:nth-of-type(2)
 zjoplock.pl###popup_overlay
 zpozdrowieniem.pl###scroller:style(position: static!important;)
 zpozdrowieniem.pl##.header_fixed
+||cdn-widget.callpage.io/build/js/callpage.js$script
 ||chat.4finance.com^$third-party
 ||code.tidio.co^$third-party
 ||embed.tawk.to^$script
+||gminamoszczenica.eu/media/system/js/modal.js$script
+||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js$script
+||livesupport.pl/chat/createBottom*.js$script
+||livesupport.pl/chat/createFloat*.js$script
+||mediaexpert.pl/js/popup.js$script
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
 ||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js$script,domain=www.kupbilet.pl
