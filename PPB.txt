@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS ( PL )
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 17 October 2017
-! Version: 2017101701
+! Last modified: 20 October 2017
+! Version: 2017102001
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: wt, 17 pazdziernika 2017, 22:52
+! Aktualizacja: pt, 20 pazdziernika 2017, 16:42
 !
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
@@ -621,12 +621,14 @@ zapytaj.onet.pl###header.mini
 !
 !
 ! TVN
+fakty.tvn24.pl##.headerStickyContainer
 faktypofaktach.tvn24.pl,szklokontaktowe.tvn24.pl##.bgHeaderMain:style(position: absolute!important;)
 faktypofaktach.tvn24.pl,szklokontaktowe.tvn24.pl##.small.headerContainer:style(position: absolute!important;)
 faktypofaktach.tvn24.pl,szklokontaktowe.tvn24.pl##header:style(position: static!important;)
 kontakt24.tvn24.pl##.menu-main:style(position: absolute!important; top: 28px!important)
 kulinarni.tvn.pl##.bgHolder > header:style(position: absolute!important;)
 kulinarni.tvn.pl##.fbWidget
+nawspolnej.tvn.pl###nextItem
 player.pl##.navbar-wrapper.js-navbar-scroll.navbar-wrapper--sticky:style(position: static!important;)
 toteraz.pl###footer-bar:style(position: static!important;)
 tvn24bis.pl###navigation-main:style(position: static!important;)
@@ -635,12 +637,15 @@ tvn24bis.pl##.stock-exchange:style(position: static!important;)
 tvnmeteo.tvn24.pl,tvnwarszawa.tvn24.pl##.shareContainerTop
 www.mango.pl###newsletterModal, #chat-toggle, #smSubscriptonBox
 www.mango.pl##.modal-open:style(overflow: visible!important;)
+www.tvn.pl##.text-nav-container:style(position: absolute!important;)
+www.tvn.pl##.top:style(position: absolute!important;)
 www.tvn24.pl##.main-header:style(position: static!important;)
 www.tvn24.pl##.side-info
 www.tvn24.pl,sport.tvn24.pl###GemiusXYMap\:nav:style(position: absolute!important; top: 128px!important)
 www.tvn24.pl,sport.tvn24.pl##.headerTop:style(position: absolute!important;)
 www.tvn24.pl,sport.tvn24.pl##.sticky.shareContainerTop.headerShareContainer:style(position: absolute!important;)
 www.tvnmedia.pl##.hamburger-wrapper:style(position: static!important;)
+zdrowie.tvn.pl##.l-page__header-content:style(position: absolute!important;)
 !
 !
 ! WP
@@ -678,7 +683,6 @@ tv.wp.pl###Slider
 wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
 wp.tv###stgHeader:style(position: static!important;)
 wp.tv##body:style(padding-top: 0px!important;)
-www.dobreprogramy.pl###header:style(position: absolute!important;)
 www.foto.wp.pl##.main-container
 www.homebook.pl##.hbk-page-header__container:style(position: absolute!important;)
 www.homebook.pl##.is-active.js-go-top.go-top
