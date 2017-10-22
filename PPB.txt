@@ -1,14 +1,12 @@
-[uBlock Origin 1.14]
-[AdGuard 2.7]
 ! Title: Popup Blocker PLUS dla uBlocka i AdGuarda
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 22 October 2017
-! Version: 2017102202
+! Version: 2017102203
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: nd, 22 pazdziernika 2017, 19:22
+! Aktualizacja: nd, 22 pazdziernika 2017, 21:56
 !
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
@@ -292,9 +290,6 @@ sfinks.info##.d_xs_none.social_widgets, #go_to_top
 silesiasem.pl###newsletterwidget-3
 silesiasem.pl##.mc-modal
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
-sjp.pwn.pl###content.container:style(margin-top: 0px!important;)
-sjp.pwn.pl###floater
-sjp.pwn.pl###search-bar:style(position: static!important;)
 sklep-rolnicze.eu###_opineo_label
 sklep-rolnicze.eu###oiTab
 sklep-rolnicze.eu##div[id^=BadgeContainer]
@@ -403,8 +398,6 @@ www.purepc.pl##.navbox:style(position: static!important; margin-left: auto!impor
 www.pwc.pl###menuBarWrapper:style(position: absolute!important;)
 www.reeco.info.pl###menu:style(position: static!important;)
 www.reeco.info.pl###toTop
-www.ravelo.pl##.searchRow:style(position: absolute!important; margin-top: 0px!important;)
-www.ravelo.pl###modalAlertMethodNL
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.systim.pl###top:style(position: absolute!important;)
 www.zatrzymujacczas.pl,kuchniawedwoje.pl###ffbp
@@ -578,14 +571,27 @@ www.telemagazyn.pl###plywajacy-pasek:style(position: absolute!important;)
 www.wiadomosci24.pl##.przeprowadzka-plywak
 !
 !
+! PTWP
+/axnewsletter.js$script
+www.dobrzemieszkaj.pl###header:style(position: absolute!important;)
+www.fachowywykonawca.pl###fb_slider
+www.housemarket.pl,www.lazienka.pl,www.mamkuchnie.pl,www.propertydesign.pl###nav.stick
+www.najlepszedomy.pl##.fixed-bar
+www.portalsamorzadowy.pl,www.portalspozywczy.pl###bottom_slider
+www.portalspozywczy.pl###strefaPremiumMenu:style(position: static!important;)
+www.pulshr.pl##.progress-bar
+!
+!
 ! PWN
+/theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
 beztajemnic.pwn.pl###undefined-sticky-wrapper:style(display: block!important; opacity: 1!important;)
 beztajemnic.pwn.pl##.top-bar:style(position: static!important;)
 encyklopedia.pwn.pl,sjp.pwn.pl,slowniki.pwn.pl,translatica.pl###content:style(margin-top: 0px!important;)
 encyklopedia.pwn.pl,sjp.pwn.pl,slowniki.pwn.pl,translatica.pl###search-bar:style(position: static!important;)
-encyklopedia.pwn.pl,sjp.pwn.pl,translatica.pl###topcontrol
 ksiegarnia.pwn.pl,www.pwn.pl##.navbar-fixed-top:style(position: absolute!important;)
 oxford.pwn.pl###header:style(position: static!important;)
+sjp.pwn.pl###content.container:style(margin-top: 0px!important;)
+sjp.pwn.pl###search-bar:style(position: static!important;)
 sjp.pwn.pl,slowniki.pwn.pl###floater
 tlumaczenia-pwn.pl##.header_2.header_wrapper:style(position: static!important;)
 www.forumzdrowia.pl###face-slider
@@ -601,17 +607,6 @@ www.rozpisani.pl##[class^="menuboth floatingmenu"]:style(width: auto!important; 
 www.vulcan.edu.pl###b_gora
 www.vulcan.edu.pl###overHomeSlider:style(position: absolute!important; height: 345px!important;)
 www.vulcan.edu.pl##header:style(position: absolute!important;)
-!
-!
-! PTWP
-www.dobrzemieszkaj.pl###header:style(position: absolute!important;)
-www.fachowywykonawca.pl###fb_slider
-www.housemarket.pl,www.lazienka.pl,www.mamkuchnie.pl,www.propertydesign.pl###nav.stick
-www.najlepszedomy.pl##.fixed-bar
-www.portalspozywczy.pl###strefaPremiumMenu:style(position: static!important;)
-www.portalsamorzadowy.pl,www.portalspozywczy.pl###bottom_slider
-www.pulshr.pl##.progress-bar
-/axnewsletter.js$script
 !
 !
 ! Rainbow
@@ -721,7 +716,7 @@ www.pudelek.pl##body > div:nth-of-type(7)
 www.pudelek.tv###header:style(position: absolute!important;)
 www.wakacje.pl###searchBox:style(position: absolute!important;)
 www.wp.pl##header.header:style(position: absolute!important;)
-www.wp.pl###home-page-button, #newsfeed-player-column
+www.wp.pl###home-page-button
 !
 !
 ! Scroll to top from Fanboy's Annoyance List (License: http://creativecommons.org/licenses/by/3.0/) 
