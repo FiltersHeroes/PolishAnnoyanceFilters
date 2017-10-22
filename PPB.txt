@@ -3,12 +3,12 @@
 ! Title: Popup Blocker PLUS dla uBlocka i AdGuarda
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 22 October 2017
-! Version: 2017102201
+! Version: 2017102202
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: nd, 22 pazdziernika 2017, 13:14
+! Aktualizacja: nd, 22 pazdziernika 2017, 19:22
 !
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
@@ -576,6 +576,31 @@ www.strefabiznesu.pl,www.polskatimes.pl,www.dziennikbaltycki.pl,www.dziennikzach
 www.telemagazyn.pl###gora:style(position: absolute!important;)
 www.telemagazyn.pl###plywajacy-pasek:style(position: absolute!important;)
 www.wiadomosci24.pl##.przeprowadzka-plywak
+!
+!
+! PWN
+beztajemnic.pwn.pl###undefined-sticky-wrapper:style(display: block!important; opacity: 1!important;)
+beztajemnic.pwn.pl##.top-bar:style(position: static!important;)
+encyklopedia.pwn.pl,sjp.pwn.pl,slowniki.pwn.pl,translatica.pl###content:style(margin-top: 0px!important;)
+encyklopedia.pwn.pl,sjp.pwn.pl,slowniki.pwn.pl,translatica.pl###search-bar:style(position: static!important;)
+encyklopedia.pwn.pl,sjp.pwn.pl,translatica.pl###topcontrol
+ksiegarnia.pwn.pl,www.pwn.pl##.navbar-fixed-top:style(position: absolute!important;)
+oxford.pwn.pl###header:style(position: static!important;)
+sjp.pwn.pl,slowniki.pwn.pl###floater
+tlumaczenia-pwn.pl##.header_2.header_wrapper:style(position: static!important;)
+www.forumzdrowia.pl###face-slider
+www.forumzdrowia.pl###search-panel:style(position: static!important;)
+www.forumzdrowia.pl##.header-v4:style(position: static!important;)
+www.ibuk.pl###login_box_placeholder
+www.lideria.pl##.slidingbasket
+www.pwn.pl###menu_rozwijane:style(position: absolute!important;)
+www.ravelo.pl###modalAlertMethodNL 
+www.ravelo.pl##.mobileHiden
+www.ravelo.pl##.searchRow:style(position: absolute!important; margin-top: 0px!important;) 
+www.rozpisani.pl##[class^="menuboth floatingmenu"]:style(width: auto!important; position: absolute!important; top: auto!important;)
+www.vulcan.edu.pl###b_gora
+www.vulcan.edu.pl###overHomeSlider:style(position: absolute!important; height: 345px!important;)
+www.vulcan.edu.pl##header:style(position: absolute!important;)
 !
 !
 ! PTWP
