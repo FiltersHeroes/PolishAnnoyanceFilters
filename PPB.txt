@@ -1,13 +1,14 @@
-[Adblock Plus 2.0]
-! Title: Popup Blocker PLUS ( PL )
+[uBlock Origin 1.14]
+[AdGuard 2.7]
+! Title: Popup Blocker PLUS dla uBlocka i AdGuarda
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 20 October 2017
-! Version: 2017102001
+! Last modified: 22 October 2017
+! Version: 2017102201
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://raw.githubusercontent.com/azet12/PopupBlocker/master/PPB.txt
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pt, 20 pazdziernika 2017, 16:42
+! Aktualizacja: nd, 22 pazdziernika 2017, 13:14
 !
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
@@ -50,10 +51,8 @@ bluerank.pl##.shown.exit
 brainly.pl##.js-another-ask-question-box
 brainly.pl##.sg-header--fixed
 butylukow.pl###tws_i_2
-byinsomnia.com###modal-newsletter
-byinsomnia.com###window-side-button
-byinsomnia.com##.remodal-overlay
-byinsomnia.com##.remodal-wrapper
+byinsomnia.com###modal-newsletter, #window-side-button, .remodal-overlay, .remodal-wrapper
+byinsomnia.com##.remodal-is-locked:style(overflow: visible!important;)
 caseih.com.pl###cboxOverlay 
 caseih.com.pl###colorbox
 chrzypsko.pl##.biegacz, #facebook_side
@@ -105,6 +104,7 @@ epoznan.pl###main_menu_fixed
 ergokantor.pl##.mfp-ready
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 euro.com.pl###footer-shops > .column:nth-of-type(1)
+euro.com.pl##.remodal-overlay
 euro.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 eurobank.pl##.reviews
 facebook.com###pagelet_growth_expanding_cta
@@ -210,7 +210,6 @@ myownconference.pl,racing-planet.pl##.zopim:nth-of-type(1)
 myphone.pl###trig_pop_news
 nafrontendzie.pl###popup-box-gfcr-1
 nawozy.eu##.newsletterPopup
-nawozy.eu##script:inject(setTimeout-defuser.js, $(document).lockscroll(true);)
 ncplus.pl###button-call
 ncplus.pl###button-lead
 ncplus.pl###fancybox-overlay, #fancybox-wrap
@@ -309,7 +308,7 @@ smaker.pl##html > body.scrollingDisabled:style(overflow:visible!important;)
 smartpozyczka.pl##.toTop
 soczewki24.pl##.ui-dialog
 sowafinansowa.pl###owl-modal-two
-spidersweb.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
+spidersweb.pl##.mfp-ready
 spidersweb.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 sprzedajemy.pl##.newest_offers
 sprzedajemy.pl##.offerDetailsRightBlueBox
@@ -345,6 +344,7 @@ tymbark.com###kwit_brandwidget_btn
 univision24.pl##.up
 ursus.com.pl###optionbar:style(position: static!important;)
 ursus.com.pl###topline:style(position: absolute!important;)
+ursus.com.pl##.mfp-ready
 ursus.com.pl##.opacity1.flexslider-container
 ursus.com.pl##html:style(overflow: visible!important;)
 vexel-fashion.pl##.side-block-icon
@@ -427,9 +427,10 @@ zpozdrowieniem.pl##.header_fixed
 ||livesupport.pl/chat/createBottom*.js$script
 ||livesupport.pl/chat/createFloat*.js$script
 ||mediaexpert.pl/js/popup.js$script
+||nawozy.eu/js/jquery.lockscroll.min.js$script
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
-||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js$script,domain=www.kupbilet.pl
+||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js$script
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
 ||www.czater.pl/assets/modules/chat/js/chat.js$script
 ||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js$script
@@ -508,7 +509,7 @@ www.topsolutions.pl###back_to_top:style(position: absolute!important;)
 www.topsolutions.pl###cp-widget
 www.topsolutions.pl###popup_contact:style(position: absolute!important;)
 www.topsolutions.pl###Top_bar:style(position: absolute!important;)
-www.widzialni.pl###cp-widget, #toTop
+www.widzialni.pl###toTop
 www.widzialni.pl##.toggle-contact:style(position: absolute!important;)
 ||ebrokerpartner.pl/js/frontend/modules/popup.js$script
 !
@@ -913,7 +914,6 @@ pl###messageContainer
 pl###mktz_container
 pl###mobile
 pl###mobileAppsbadgeClose
-pl###modal-newsletter
 pl###modalBack
 pl###modalNewsletter
 pl###modalNL
@@ -1075,7 +1075,6 @@ pl##.livechat
 pl##.logo_float
 pl##.m-visible
 pl##.merchant-trust-signal
-pl##.mfp-ready.mfp-bg
 pl##.modal-backdrop
 pl##.modal-mask-class
 pl##.modal-visible.modal
@@ -1110,7 +1109,6 @@ pl##.rectangleWrapper
 pl##.red_timer
 pl##.region-header-ad-space
 pl##.relative.iplaParent
-pl##.remodal-overlay
 pl##.reportbug_btn
 pl##.reveal-modal-bg
 pl##.reverie-header-banner
