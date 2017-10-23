@@ -1,11 +1,11 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
 ! Last modified: 23 October 2017
-! Version: 2017102301
+! Version: 2017102302
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 23 pazdziernika 2017, 12:34
+! Aktualizacja: pon, 23 pazdziernika 2017, 14:40
 !
 6krokow.pl###header:style(position: absolute!important;)
 6krokow.pl##progress:style(position: absolute!important;)
@@ -40,12 +40,12 @@ istotne.pl###main_navigation:style(position: static!important;)
 jooble.org###popup
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible!important; width: 100%!important;)
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position:static!important;)
-komorkomania.pl##.fixed-header--display:style(position: absolute!important;)
 limango.pl##.js_welcome_background.background_overlay, .modal
 limango.pl##body.welcome_main.modal-open:style(overflow: visible!important;padding-right: 0px!important;)
 m.telewizjarepublika.pl##header:style(position: static!important;)
 macris.com.pl###newsletter-popup
 macris.com.pl##.noscroll:style(overflow: visible!important; position: relative!important;)
+majsterpol.pl###jm-logo-djmenu-bg:style(position: absolute!important;)
 mrcbroker.pl###top:style(position: static!important;)
 ncplus.pl##.navigation:style(position: static!important;)
 pepco.pl##.in.modal-newsletter.fade.modal
@@ -95,6 +95,7 @@ www.ckm.pl##.fixed-active.clearfix.nav-fixed.nav:style(position: static!importan
 www.cosmopolitan.pl##.clearfix.navigation-box-wrapper:style(position: static!important;)
 www.jakonatorobi.pl###sidebar > .is-sticked.ruby-sidebar-sticky:style(position: static!important;)
 www.jakonatorobi.pl##.header-nav-inner:style(position: static!important;)
+www.mila.pl##.header:style(position: absolute!important;)
 www.myphone.pl##.topBlock:style(position: absolute!important;)
 www.ozog.pl###homeModal
 www.ozog.pl###navbar-background:style(position: absolute!important; height: 110px!important;)
@@ -115,6 +116,85 @@ www.zatrzymujacczas.pl###top-bar:style(position: static!important;)
 wypiska.pl##.fixed.site-header:style(position: static!important;)
 youtube.com###masthead-container:style(position: absolute!important;)
 zpozdrowieniem.pl###scroller:style(position: static!important;)
+!
+!
+! Agora
+kulturalnysklep.pl##.detached.topnav-categories.row:style(position: absolute!important;)
+ladnydom.pl,avanti24.pl,www.bryla.pl###page-top:style(position: static!important;)
+reklama.gazeta.pl###menu:style(position: absolute!important;)
+reklamaczasopisma.agora.pl##.fixed.top:style(position: absolute!important;)
+wiadomosci.gazeta.pl,kobieta.gazeta.pl,zdrowie.gazeta.pl,podroze.gazeta.pl,www.edziecko.pl,ugotuj.to,weekend.gazeta.pl,polskabiega.sport.pl,www.sport.pl,myfitness.pl,www.junior.sport.pl,www.plotek.pl,deser.gazeta.pl,moto.pl,ladnydom.pl,www.logo24.pl,magazyn-kuchnia.pl,www.swiatmotocykli.pl,rockradio.tuba.pl,zloteprzeboje.tuba.pl,radiopogoda.tuba.pl##.mod_hat2014:style(position: static!important;)
+wiadomosci.gazeta.pl,kobieta.gazeta.pl,zdrowie.gazeta.pl,podroze.gazeta.pl,www.edziecko.pl,ugotuj.to,weekend.gazeta.pl,polskabiega.sport.pl,www.sport.pl,myfitness.pl,www.junior.sport.pl,www.plotek.pl,deser.gazeta.pl,moto.pl,ladnydom.pl,www.logo24.pl,magazyn-kuchnia.pl,www.swiatmotocykli.pl,rockradio.tuba.pl,zloteprzeboje.tuba.pl,radiopogoda.tuba.pl##body:style(padding-top: 0px!important;)
+www.autotrader.pl##.is_stuck.section--navbar.section
+www.autotrader.pl##.section--navbar.section:style(position: absolute!important;)
+www.domiporta.pl##.fixed.page-header:style(position: absolute!important;)
+www.goldenline.pl##.main-header.symfony:style(position: absolute!important;)
+www.komunikaty.pl###rwdHat:style(position: absolute!important;)
+www.trader.pl###main-header:style(position: absolute!important;)
+wyborcza.pl,wyborcza.biz,www.wysokieobcasy.pl###wyborczaHat:style(position: absolute!important;)
+yieldbird.com###header:style(position: absolute!important;)
+yieldbird.com##.home:style(overflow: visible!important;)
+yieldbird.com##.overlay-layer, .default-modal
+!
+!
+! Bauer Media
+cyfrowypolsat.interia.pl##.fixed.doNotResize.v7header:style(position: relative!important;)
+deccoria.pl##.sidebar-container:style(position: static!important;)
+dzikikraj.interia.pl###RankingTopicsUsers:style(position: absolute!important;)
+ebrokerpartner.pl###top-page:style(position: absolute!important;)
+forum.interia.pl##.f3-sidebar-container:style(position: static!important;)
+grupaebroker.pl##body > .skrollable:style(position: absolute!important;)
+opinie24.pl##.fixed.mobile:style(position: static!important;)
+pogoda.interia.pl##.weather-forecast-longterm-list-head-entry:style(position: static!important;)
+pogoda.interia.pl##.weather-head-entry:style(position: static!important;)
+programtv.interia.pl##.hour-select:style(top: auto!important;)
+programtv.interia.pl##.slider-wrapper-bar1:style(top: auto!important;)
+programtv.interia.pl##.time-list:style(top: auto!important;)
+smaker.pl,www.styl.pl,www.pcformat.pl,www.cdaction.pl,www.grazia.pl,uroda.swiatkobiety.pl,www.swiatkobiety.pl,www.pomponik.pl,teksciory.interia.pl,deccoria.pl,porady.swiatkobiety.pl,przepisy.swiatkobiety.pl,finanse.swiatkobiety.pl,podroze.swiatkobiety.pl,rodzina.swiatkobiety.pl,interia.tv,magazynauto.interia.pl##.topbar:style(position: absolute!important;)
+swiatseriali.interia.pl,pogoda.interia.pl,lotto.interia.pl,film.interia.pl,programtv.interia.pl,encyklopedia.interia.pl,fakty.interia.pl,biznes.interia.pl,mojeinwestycje.interia.pl,praca.interia.pl,sport.interia.pl,motoryzacja.interia.pl,nowahistoria.interia.pl,nt.interia.pl,mobtech.interia.pl,gry.interia.pl,kobieta.interia.pl,mamdziecko.interia.pl,on.interia.pl,muzyka.interia.pl,forum.interia.pl,ding.interia.pl,kartki.interia.pl,dzikikraj.interia.pl,zkarnego.interia.pl,wideo.interia.pl,funduszeue.interia.pl,raportdrogowy.interia.pl##.portal-bar:style(position: absolute!important;)
+swiatseriali.interia.pl,pogoda.interia.pl,lotto.interia.pl,film.interia.pl,programtv.interia.pl,encyklopedia.interia.pl,fakty.interia.pl,biznes.interia.pl,mojeinwestycje.interia.pl,praca.interia.pl,sport.interia.pl,motoryzacja.interia.pl,nowahistoria.interia.pl,nt.interia.pl,mobtech.interia.pl,gry.interia.pl,kobieta.interia.pl,mamdziecko.interia.pl,on.interia.pl,muzyka.interia.pl,forum.interia.pl,ding.interia.pl,kartki.interia.pl,dzikikraj.interia.pl,zkarnego.interia.pl,wideo.interia.pl,funduszeue.interia.pl,raportdrogowy.interia.pl,www.interia.pl##.account:style(position: absolute!important;)
+teletydzien.interia.pl###channels-wrapper:style(position: absolute!important; top: auto!important;)
+tipy.interia.pl##.tbar:style(position: absolute!important; top: -40px!important;)
+www.artefakt.pl##header:style(position: absolute!important;)
+www.bryk.pl##.header-wrapper:style(position: static!important;)
+www.bryk.pl##.sticky.col-wrapper:style(position: relative!important;)
+www.gruparmf.pl##.chaser:style(position: absolute!important;)
+www.interia.pl##[id^="pasek_"]:style(position: absolute!important;)
+www.maxmodels.pl###moreArticles, .right:style(position: static!important;)
+www.promocyjni.pl###main-nav:style(position: absolute!important; top: 0px!important;)
+www.promocyjni.pl##.new-dymek-holder
+www.promocyjni.pl##.rebate-codes-main.rebate-toggling:style(top: 20px!important;)
+www.promocyjni.pl##.scroll-up, .socials-float
+www.promocyjni.pl##.show-main-logo:style(display: block!important;)
+www.promocyjni.pl##.show-mini-logo:style(display: none!important;)
+www.rmfclassic.pl##.header:style(position: absolute!important;)
+www.rmfclassic.pl##html > body:style(padding: 0px!important;)
+www.sunrisesystem.pl##.head:style(position: absolute!important;)
+www.topsolutions.pl###back_to_top:style(position: absolute!important;)
+www.topsolutions.pl###popup_contact:style(position: absolute!important;)
+www.topsolutions.pl###Top_bar:style(position: absolute!important;)
+www.widzialni.pl##.toggle-contact:style(position: absolute!important;)
+!
+!
+! Gremi Media
+bloombergbusinessweek.pl###floatingFrameSales:style(top: 0px!important;)
+prenumerata.rp.pl###header:style(position: absolute!important;)
+www.rp.pl##.-sticky.main-menu:style(position: static!important;)
+www.rp.pl###mk-paywall-footer:style(position: static!important;)
+!
+!
+! IDG
+www.idg.com.pl##.menu:style(position: absolute!important;)
+www.idg.pl###body-page:style(margin-top: 0px!important;)
+www.idg.pl###top-header:style(position: static!important;)
+!
+!
+! Orlen
+dlakierowcow.orlen.pl###header:style(position: absolute!important;)
+dlakierowcow.orlen.pl###mainMenu:style(position: absolute!important;)
+qgaz.pl###nav-global:style(position: static!important;)
+stopcafe.pl##header:style(position: absolute!important;)
+www.ekoterm.pl###stopka:style(position: static!important;)
 !
 !
 ! Polska Press
@@ -142,6 +222,47 @@ www.telemagazyn.pl###gora:style(position: absolute!important;)
 www.telemagazyn.pl###plywajacy-pasek:style(position: absolute!important;)
 !
 !
+! PTWP
+www.dobrzemieszkaj.pl###header:style(position: absolute!important;)
+www.portalspozywczy.pl###strefaPremiumMenu:style(position: static!important;)
+!
+!
+! PWN
+beztajemnic.pwn.pl###undefined-sticky-wrapper:style(display: block!important; opacity: 1!important;)
+beztajemnic.pwn.pl##.top-bar:style(position: static!important;)
+encyklopedia.pwn.pl,sjp.pwn.pl,slowniki.pwn.pl,translatica.pl###content:style(margin-top: 0px!important;)
+encyklopedia.pwn.pl,sjp.pwn.pl,slowniki.pwn.pl,translatica.pl###search-bar:style(position: static!important;)
+ksiegarnia.pwn.pl,www.pwn.pl##.navbar-fixed-top:style(position: absolute!important;)
+oxford.pwn.pl###header:style(position: static!important;)
+tlumaczenia-pwn.pl##.header_2.header_wrapper:style(position: static!important;)
+www.forumzdrowia.pl###search-panel:style(position: static!important;)
+www.forumzdrowia.pl##.header-v4:style(position: static!important;)
+www.pwn.pl###menu_rozwijane:style(position: absolute!important;)
+www.ravelo.pl##.searchRow:style(position: absolute!important; margin-top: 0px!important;) 
+www.rozpisani.pl##[class^="menuboth floatingmenu"]:style(width: auto!important; position: absolute!important; top: auto!important;)
+www.vulcan.edu.pl###overHomeSlider:style(position: absolute!important; height: 345px!important;)
+www.vulcan.edu.pl##header:style(position: absolute!important;)
+!
+!
+! Rainbow
+m.r.pl##.navbar-fixed-top.navbar-default.navbar:style(position: absolute!important;)
+parkingi.r.pl##.navbar-fixed-top.naglowek.navbar-default.navbar:style(margin-top: -54px!important;)
+r.pl,~biletyczarterowe.r.pl,~charterflights.r.pl,~ir.r.pl,~media.r.pl,~taniroaming.r.pl##.navbar-fixed-top.naglowek.navbar-default.navbar:style(position: absolute!important;)
+!
+!
+! Ringier Axel Springer
+biznes.onet.pl,facet.onet.pl,film.onet.pl,finanse.onet.pl,gry.onet.pl,ksiazki.onet.pl,magia.onet.pl,moto.onet.pl,motocykle.onet.pl,muzyka.onet.pl,ofsajd.onet.pl,podroze.onet.pl,poznajpolske.onet.pl,strefatajemnic.onet.pl,technowinki.onet.pl###pageHeader:style(position: absolute!important;)
+gameplanet.onet.pl##.button--play-sticky.thm-gui-button-gamma.u-f_right.button--play-big.button--play.button.detail-layout-lead__play, .scroll-active.js-scroll-top.thm-icon-arrow-top.thm-gui-icon-alfa.scroll-top--absolute.scroll-top, .is-visible-bar.js-special-bar.thm-gui-special-bar.special-bar
+gameplanet.onet.pl##.header--sticky:style(position: absolute!important;)
+kielce.onet.pl,kobieta.onet.pl,krakow.onet.pl,lodz.onet.pl,lublin.onet.pl,lubuskie.onet.pl,olsztyn.onet.pl,opole.onet.pl,poznan.onet.pl,rzeszow.onet.pl,slask.onet.pl,sport.onet.pl,szczecin.onet.pl,trojmiasto.onet.pl,warszawa.onet.pl,wbi.onet.pl,wiadomosci.onet.pl,wroclaw.onet.pl,www.onet.pl##.pageHeader:style(position: absolute!important;)
+literia.pl##.main-header:style(position: absolute!important;) 
+noizz.pl###stickyMenu:style(position: absolute!important;)
+www.newsweek.pl###m7_menu_4097 > .inside:style(position: static!important;) 
+www.ofeminin.pl##header:style(position: absolute!important;) 
+www.t-mobile-trendy.pl##.menuBox:style(position: absolute!important;)
+www.zumi.pl##.mainHeader:style(position: absolute!important;)
+!
+!
 ! TVN
 faktypofaktach.tvn24.pl,szklokontaktowe.tvn24.pl##.bgHeaderMain:style(position: absolute!important;)
 faktypofaktach.tvn24.pl,szklokontaktowe.tvn24.pl##.small.headerContainer:style(position: absolute!important;)
@@ -163,6 +284,40 @@ www.tvn24.pl,sport.tvn24.pl##.headerTop:style(position: absolute!important;)
 www.tvn24.pl,sport.tvn24.pl##.sticky.shareContainerTop.headerShareContainer:style(position: absolute!important;)
 www.tvnmedia.pl##.hamburger-wrapper:style(position: static!important;)
 zdrowie.tvn.pl##.l-page__header-content:style(position: absolute!important;)
+!
+!
+! WP
+blomedia.pl##.agregator-haeder:style(position: absolute!important;)
+direct.money.pl###main-menu:style(position: static!important;)
+direct.money.pl##.stick.col-10:style(position: absolute!important;)
+dom.wp.pl,facet.wp.pl,film.wp.pl,finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,kuchnia.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,teleshow.wp.pl,turystyka.wp.pl,wiadomosci.wp.pl##div[data-reactid="11"]:style(position: relative!important;)
+domodi.pl##.js-header.dm-header:style(position: absolute!important;)
+fitness.wp.pl##.fixed-header--display.adsize_header.x-header.main-header-small.agregator-header:style(position: static!important;)
+fitness.wp.pl##.wpfitness.homepage:style(padding-top: 0px!important;)
+fotoblogia.pl##.btn-comments.btn
+fotoblogia.pl##.fixed-header--display.adsize_header.x-header.main-header-small.agregator-header:style(position: absolute!important;)
+hosting.wp.pl##.navbar-fixed-top.navbar:style(position: absolute!important;)
+inwestor.wp.pl##.desktop-fixed.jq-header-height:style(position: absolute!important;)
+komorkomania.pl##.fixed-header--display:style(position: absolute!important;)
+m.money.pl###header:style(position: absolute!important;)
+m.sportowefakty.wp.pl###mainheader:style(position: absolute!important;)
+misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close, 
+misioweopowiesci.o2.pl##.site-nav:style(position: absolute!important;)
+misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible!important;)
+parenting.pl##.top-header.header:style(position: absolute!important;)
+pytamy.pl###Main:style(position: absolute!important;)
+ranking.abczdrowie.pl##.group.page-header--new-nav.page-header-2013.page-header.stickypanel:style(position: absolute!important;)
+reklama.wp.pl##.headerLinks > .fixed.in:style(position: absolute!important;)
+reklama.wp.pl##.main > .fixed.in:style(position: absolute!important;)
+sportowybar.wp.pl###stgCol300:style(position: absolute!important;)
+wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
+wp.tv###stgHeader:style(position: static!important;)
+wp.tv##body:style(padding-top: 0px!important;)
+www.homebook.pl##.hbk-page-header__container:style(position: absolute!important;)
+www.multikurs.pl##.topbar-discount.row:style(position: absolute!important;)
+www.pudelek.tv###header:style(position: absolute!important;)
+www.wakacje.pl###searchBox:style(position: absolute!important;)
+www.wp.pl##header.header:style(position: absolute!important;)
 !
 !
 ! Reguły, które działają tylko na uBlocku
