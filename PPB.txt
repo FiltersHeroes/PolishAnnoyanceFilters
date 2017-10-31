@@ -2,17 +2,18 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 31 October 2017
-! Version: 2017103101
+! Version: 2017103102
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: wt, 31 pazdziernika 2017, 11:34
+! Aktualizacja: wt, 31 pazdziernika 2017, 12:10
 !
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
 /common/js/enp/modules/scrollTop.js$script,domain=mixmedia.pl|mycenter.pl
 /plugins/facebook-fanbox-popup/
+/wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 !
 4fun.tv##.app-popup
 agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
@@ -194,6 +195,7 @@ olx.pl##.js-gtm-survey.gtm-survey
 opensubtitles.org###fade
 orange.pl##.usabilla__overlay
 pakolorente.com###tws_a_1
+parenting.pl##.parenting-tv-latest
 partneragdrtv.com.pl###js-sis_menu
 pato.pl###nasza_klasa_side_bar
 pb.pl##.smPopupContainer, #smPopupBackground
