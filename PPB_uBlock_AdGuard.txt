@@ -1,11 +1,11 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
-! Last modified: 23 October 2017
-! Version: 2017102304
+! Last modified: 31 October 2017
+! Version: 2017103101
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: pon, 23 pazdziernika 2017, 22:15
+! Aktualizacja: wt, 31 pazdziernika 2017, 11:34
 !
 6krokow.pl###header:style(position: absolute!important;)
 6krokow.pl##progress:style(position: absolute!important;)
@@ -16,6 +16,8 @@ bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 byinsomnia.com###modal-newsletter, remodal-overlay, .remodal-wrapper
 byinsomnia.com##.remodal-is-locked:style(overflow: visible!important;)
+defence24.pl###newsletter-modal
+defence24.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
 doruchow.pl,krosnice.pl##.div_menu_prawe_wysuwane:style(position: absolute!important;)
 dorzeczy.pl###element-header
 dorzeczy.pl,superhistoria.pl###content:style(padding-top: 0px!important)
