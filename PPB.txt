@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 31 October 2017
-! Version: 2017103102
+! Version: 2017103103
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: wt, 31 pazdziernika 2017, 12:10
+! Aktualizacja: wt, 31 pazdziernika 2017, 13:53
 !
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
@@ -52,9 +52,10 @@ coccodrillo.eu###homeNewsletter
 coccodrillo.eu###sc_behind
 coccodrillo.eu##.newsletterWrap
 context.reverso.net###register-popup-bottom, .lock.icon, .go-up.icon
+cyfrowypolsatnews.pl##.cd-top
 cyklotur.com###_opineo_label
 d24h.pl###fancybox-wrap
-dailyweb.pl###snppopup-welcome
+dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
 dany-meble.pl##body > .hidden-sm.hidden-xs, #gototop
 dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
@@ -260,7 +261,6 @@ sprzedajemy.pl##.newest_offers
 sprzedajemy.pl##.offerDetailsRightBlueBox
 sprzedambiznes.pl###intercom-container
 stylowebuty.pl##.banner-newsletter
-swinoujskie.info###snppopup-welcome
 tabletowo.pl###topcontrol
 taniaksiazka.pl##.newsletter-popup
 targsmaku.pl##.active.page-bottom-bar, .fb-flayout-box-trigger.flayout-box-trigger
@@ -295,6 +295,7 @@ www.eglobalcentral.pl###hs-beacon
 www.elblag.net##.nextarticle.allpadding
 www.enea.pl##.cx-theme-blue.cx-window-manager.cx-widget
 www.faktmobile.pl##.isStuck
+www.google.com##.gb_g, .loaded.dot
 www.jakonatorobi.pl###ruby-back-top
 www.kupbilet.pl##[class^="tabslide"]
 www.mdm.elblag.pl###toTop
