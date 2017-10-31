@@ -1,11 +1,11 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
 ! Last modified: 31 October 2017
-! Version: 2017103101
+! Version: 2017103102
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-SA 4.0
-! Aktualizacja: wt, 31 pazdziernika 2017, 11:34
+! Aktualizacja: wt, 31 pazdziernika 2017, 17:20
 !
 6krokow.pl###header:style(position: absolute!important;)
 6krokow.pl##progress:style(position: absolute!important;)
@@ -41,6 +41,8 @@ homebook.pl##body.has-open-popup:style(overflow: visible!important;)
 istotne.pl###main_navigation:style(position: static!important;)
 jooble.org###popup
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible!important; width: 100%!important;)
+kiep.pl##.popup
+kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1!important;)
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position:static!important;)
 limango.pl##.js_welcome_background.background_overlay, .modal
 limango.pl##body.welcome_main.modal-open:style(overflow: visible!important;padding-right: 0px!important;)
