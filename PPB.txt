@@ -1,23 +1,22 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 02 Nowember 2017
-! Version: 2017110201
+! Last modified: 2 November 2017
+! Version: 2017110202
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
-! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
-! Licencja: CC BY-SA 4.0
-! Aktualizacja: czw, 02 listopada 2017, 13:22
+! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
+! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
+! Aktualizacja: czw, 2 listopada 2017, 17:23
 !
+/bb_fbslider.js$script
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
 /common/js/enp/modules/scrollTop.js$script,domain=mixmedia.pl|mycenter.pl
-/files/background/tapeta2poprawka.jpg$image
-/images/bg-ear.png$image
-/images/kontent/dzienkobiet17/tlo.jpg$image
-/plugins/facebook-fanbox-popup/
-/skins/user/home_blue_5/07918045eddeccc51d18a1eb0afdf9f8.jpg$image
+/livezillachat//script.php$script
+/plugins/facebook-fanbox-popup
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
+/wp-content/plugins/FLM-Social-Sidebar
 !
 4fun.tv##.app-popup
 agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
@@ -25,6 +24,7 @@ agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
 alget.pl###jOverlay, #jOverlayContent, .top_button
 allegro.pl##.sticky
+amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 amracing.pl##img[src="/images/dealers_button.png"]
 amracing.pl##img[src="/images/files_button.png"]
 amracing.pl##img[src="/images/partners_button.png"]
@@ -56,6 +56,7 @@ coccodrillo.eu###homeNewsletter
 coccodrillo.eu###sc_behind
 coccodrillo.eu##.newsletterWrap
 context.reverso.net###register-popup-bottom, .lock.icon, .go-up.icon
+cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
 cyfrowypolsatnews.pl##.cd-top
 cyklotur.com###_opineo_label
 d24h.pl###fancybox-wrap
@@ -112,6 +113,7 @@ gazetaprawna.pl###miejsce104
 gazetaprawna.pl,~www.gazetaprawna.pl###nextArticleWidget
 gazetatrybunalska.pl,www.marihuana.info.pl###scroll-up
 gdzie-na-sylwestra.pl###go-top
+gemre.com.pl###tws_c_100002, #topLayerBackDrop, #backTop
 getinbank.pl###scroll_top
 getinbank.pl##.quickMenuRow.row
 gminamoszczenica.eu##.fejs
@@ -143,7 +145,6 @@ kotkowicz.pl###sticky_header, .vce-sticky
 kotrak.pl##.kotrak_infobox_button
 kredito24.pl##.btn-apply
 kupbuty.com###tws_i_1, #topLayerBackDrop
-linuxiarze.pl##img[src=\"https://linuxiarze.pl/obrazy/images/baner5c.png\"]
 lolmania.pl##.g1-back-to-top
 mac-world.pl##.et_bloom_popup
 manjaro.pl##.generate-back-to-top
@@ -163,6 +164,7 @@ mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
 monedo.pl##.small.help
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl##.scrollup 
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
@@ -239,6 +241,7 @@ rowertour.com###fixed_strefa_marek
 salon24.pl##.article-bookstore
 scooterkingz.com.pl##.newsletter_form
 se.pl###social-widget
+selkar.pl##.my-open.side-banner, .my-icon-facebook-widget
 sfinks.info##.d_xs_none.social_widgets, #go_to_top
 silesiasem.pl###newsletterwidget-3
 silesiasem.pl##.mc-modal
@@ -269,6 +272,7 @@ twojezaglebie.pl##.td-more-articles-box
 tygertenis.pl###overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 tymbark.com###kwit_brandwidget_btn
+univision24.pl##.up 
 vexel-fashion.pl##.side-block-icon
 wakai.pl###sod-drawer-handle
 wanika.pl###cloudBox
@@ -310,6 +314,7 @@ yoy.tv###notice
 zalando.pl##.overflow.firstLine:nth-of-type(2)
 zjoplock.pl###popup_overlay
 zpozdrowieniem.pl##.header_fixed
+zrobisztosam.com###topLink
 zszywka.pl###inv-request-popup
 ||cdn-widget.callpage.io/build/js/callpage.js$script
 ||chat.4finance.com^$third-party
@@ -326,13 +331,11 @@ zszywka.pl###inv-request-popup
 ||st.chatango.com/js/gz/emb.js$script
 ||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js$script
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
+||v2.zopim.com/bin/v/widget_v2.220.js$script
 ||widget.userengage.com/widget.js$script
 ||widget.userengage.io/widget.js$script
 ||www.czater.pl/assets/modules/chat/js/chat.js$script
 ||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js$script
-!
-pl##img[src=\\\"http://selkar.pl/img/imagecache/190x171_pictures_darmowa_dostawa2.png\\\"]
-pl##img[src=\\\"http://www.taniaksiazka.pl/images/eventy/TK_WIETRZENIEMAGAZYNU_920_55.jpg\\\"]
 !
 !
 ! Agora
@@ -376,6 +379,7 @@ www.vitay.pl###serviceRatingBox
 !
 ! Polska Press
 www.dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
+www.dziennikzachodni.pl,www.gazetakrakowska.pl,www.gloswielkopolski.pl,www.wspolczesna.pl,www.poranny.pl,www.pomorska.pl,www.gazetalubuska.pl,www.polskatimes.pl,www.gk24.pl###poza-szkieletem
 www.wiadomosci24.pl##.przeprowadzka-plywak
 !
 !
@@ -438,9 +442,138 @@ www.nocowanie.pl##.is-sticky.btn--top.btn
 www.o2.pl##div[data-st-area="ST-CrnrML-main-area"]
 www.pudelek.pl###o2FBFanbox
 www.wp.pl###home-page-button
-
 !
-amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
+!
+! Scroll to top from Fanboy's Annoyance List (License: http://creativecommons.org/licenses/by/3.0/) 
+###BackToTop
+###ScrollToTopContainer
+###WidgetScrollToTop
+###back-to-top
+###back-to-top-scroll
+###back-top
+###backToTop
+###back_to_top
+###back_to_top_now
+###backtotop
+###backtotop-scroll
+###backtotopbutton
+###backtotoplink
+###bktotopbtn
+###bt-scroll-top
+###btn-scroll-up
+###cb-to-top
+###dynamic-to-top
+###footer-back-to-top
+###g1-back-to-top
+###goDownFooter
+###goTop
+###goTopFooter
+###gotop
+###img_goTop
+###int-btn-top
+###jm-back-top
+###jump-to-top
+###ktz-backtotop
+###mainToTopAnchor
+###move-to-top
+###scroll-to-top
+###scroll-top
+###scroll-top-link
+###scrollToTop
+###scroll_back_to_top
+###scroll_top_div
+###scroll_top_wrap
+###scrolltotop_button
+###to-the-top
+###to_top
+###totopBtn
+###tweScrollTop
+###uix_jumpToFixed
+###uix_jumpToTopFixed
+###w2b-StoTop
+###wpfront-scroll-top-container
+##.BackToTop
+##.TopGoTop
+##.axScrollToTop
+##.back-to-top
+##.back-to-top-button
+##.back-to-top-link
+##.back-to-top-wrap
+##.backToTop
+##.backTopLink
+##.back_to_top
+##.backtopbutton
+##.backtotop
+##.block_to_top
+##.btn-back-to-top
+##.btn-go-top
+##.btn-return-top
+##.btn2top
+##.btn_gototop
+##.cScrollIndicatorContainer
+##.dc-go-top
+##.enigma_scrollup
+##.et_pb_scroll_top
+##.fk-ui-goTop
+##.footer-button-top
+##.footer-top-of-page
+##.go2top
+##.goTop
+##.go_to_top
+##.gototop
+##.js-back-to-top
+##.js-persistent-nav-top
+##.js-scroll-to-top
+##.link_to_top
+##.mk-go-top
+##.mod-totop
+##.newsletterSignup-wrapper
+##.os-back-to-top
+##.pi-scroll-top-arrow
+##.rh-footer-back-to-top
+##.s5_scrolltotop
+##.scroll-back-to-top-wrapper
+##.scroll-to-top
+##.scroll-top
+##.scroll-top-inner
+##.scroll-top-wrapper
+##.scroll2top
+##.scrollToTop
+##.scrollToTopButton
+##.scrollTo_top
+##.scrollTop
+##.scrolltop
+##.td-scroll-up
+##.to-the-top
+##.to-top
+##.toTopBtn
+##.toTopButton
+##.top-of-page
+##.top-of-page-link
+##.topofpage
+##.totop
+##.totop_button
+##.ui-fixed-panel-go-top
+##.ui-go-top
+##.w-toplink
+##a[title="Back To Top"]
+##a[title="Back to Top"]
+##a[title="Back to top of page"]
+##a[title="Scroll To Top"]
+##a[title="Scroll to Top"]
+##a[title="Scroll to top"]
+##div[title="Scroll Back to Top"]
+##div[title="Scroll To Top"]
+##img[alt="Scroll to top"]
+##img[alt="go to Top"]
+!
+!
+###newsletter_popup
+###newsletter_popup_overlay
+###telemedicoWidget
+##.socialContainerRrssb.fixed
+!
+!
 pl###ClPanel
 pl###FlyingLayer
 pl###InfoNewsletter
@@ -459,7 +592,6 @@ pl###allegro_ikona
 pl###article_promo
 pl###aswift_0_expand
 pl###at-cv-lightbox-win
-pl###backTop
 pl###backgroundFade
 pl###baner_300_250
 pl###baner_rog
@@ -467,13 +599,10 @@ pl###bann
 pl###banner-side
 pl###banner_left
 pl###bblbrd_outer
-pl###bossbyte_slide
 pl###box-newsletter
 pl###box_newsletter
 pl###bxAnnouncementsStartPage
 pl###ceneo-widget
-pl###chat-application
-pl###chat-application-iframe
 pl###cityModal
 pl###close-site-channel
 pl###cloud_delivery
@@ -482,13 +611,10 @@ pl###coins-banner
 pl###contactable
 pl###content_banner
 pl###cover
-pl###cp-widget
 pl###divLogoTeksty
-pl###divadv346_1483621154472
 pl###doDolu
 pl###doGory
 pl###dontGoModal
-pl###e3D18r_czater
 pl###esns_background_layer
 pl###exit-intent-modal
 pl###exit-newsletter-overlay
@@ -535,7 +661,6 @@ pl###last-watched
 pl###last_buy_pop
 pl###lightboxCover
 pl###link_przewin
-pl###livechat-full-view
 pl###logo2a
 pl###logregLead
 pl###lpl-layer-1
@@ -543,7 +668,7 @@ pl###lpl-overlay
 pl###m-content
 pl###mail_zapisz
 pl###mask
-pl###menu_newsletter
+pl###menu_newsletter
 pl###messageContainer
 pl###message_dialog_source
 pl###mktz_container
@@ -551,7 +676,6 @@ pl###mobile
 pl###mobileAppsbadgeClose
 pl###modalBack
 pl###modalNL
-pl###modalNewsletter
 pl###modalOverlay
 pl###multitab
 pl###musli
@@ -564,7 +688,6 @@ pl###newsletter-box
 pl###newsletter-footer
 pl###newsletter-form
 pl###newsletter-lightbox-holder
-pl###newsletter-modal
 pl###newsletter-pane
 pl###newsletterBoxLeft
 pl###newsletterMsg
@@ -575,8 +698,6 @@ pl###newsletter_link
 pl###newsletter_main
 pl###newsletter_main_cover
 pl###newsletter_panel
-pl###newsletter_popup
-pl###newsletter_popup_overlay
 pl###newsletterform
 pl###ngdialog1
 pl###notificationbar
@@ -635,12 +756,10 @@ pl###sticky-promo
 pl###sub_dlg
 pl###sugester_widget
 pl###swim_box
-pl###telemedicoWidget
 pl###test-modal
 pl###tln3_bg
 pl###tln3_wrap
 pl###topLayerBackDrop
-pl###topSocial
 pl###trigger
 pl###twitter2_2
 pl###tws_s_0
@@ -668,14 +787,12 @@ pl###zglos
 pl###zone-24
 pl##.ModulNewsletter
 pl##.WelcomeScreen
-pl##.ad750
 pl##.addedbymobile
 pl##.adunit-rectangle.article-body
 pl##.advertisement2
 pl##.arts-box-wrapper
 pl##.at-cv-lightbox-background
 pl##.b-header-decoration
-pl##.b_750
 pl##.b_leaving_users_light_box_mask.modal-mask
 pl##.babanner
 pl##.ban-fp-970x200
@@ -728,7 +845,6 @@ pl##.hideOnResize.switcher-boxContainer
 pl##.hot-info-slider
 pl##.hot_three.promo_box
 pl##.icon-mobile.circle
-pl##.in.fade.modal.newsletter-modal
 pl##.infoliniaBoxMini
 pl##.introFirst.introjs-tooltip
 pl##.introjs-overlay
@@ -748,7 +864,6 @@ pl##.modal-mask-class
 pl##.modal-visible.modal
 pl##.modalbox--has-closebtn.modalbox
 pl##.mraty-widget
-pl##.my-open.side-banner
 pl##.new-prenumerata
 pl##.new_adbanners
 pl##.new_adtaily
@@ -788,11 +903,9 @@ pl##.reportbug_btn
 pl##.reveal-modal-bg
 pl##.reverie-header-banner
 pl##.right-news
-pl##.rrssb-buttons
 pl##.rstboxes
 pl##.running_banner_land
 pl##.scroll_to_top
-pl##.scrollup
 pl##.self_rectangle
 pl##.side-menu
 pl##.side_widget
@@ -806,7 +919,6 @@ pl##.switcher-button
 pl##.tab_bg
 pl##.tplAds
 pl##.twoElHeader
-pl##.up
 pl##.utrigger-open.utriggerbtn
 pl##.viking_intro
 pl##.visible.text-center.col-xs-12.pasek-right
@@ -814,6 +926,5 @@ pl##.wf2-bg-light.grwf2_backdrop
 pl##.wiadomosci_lista_div
 pl##.widget_newsletterwidget
 pl##.widget_serwisy
-pl##.zopim
 pl##.zpr_combo
 pl##.zpr_sky
