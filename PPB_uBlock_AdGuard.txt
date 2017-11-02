@@ -1,11 +1,11 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
-! Last modified: 31 October 2017
-! Version: 2017103102
+! Last modified: 2 November 2017
+! Version: 2017110201
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
-! Zgloszenia: https://github.com/azet12/PopupBlocker/issues
-! Licencja: CC BY-SA 4.0
-! Aktualizacja: wt, 31 pazdziernika 2017, 17:20
+! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
+! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
+! Aktualizacja: czw, 2 listopada 2017, 17:23
 !
 6krokow.pl###header:style(position: absolute!important;)
 6krokow.pl##progress:style(position: absolute!important;)
@@ -52,7 +52,7 @@ macris.com.pl##.noscroll:style(overflow: visible!important; position: relative!i
 majsterpol.pl###jm-logo-djmenu-bg:style(position: absolute!important;)
 mrcbroker.pl###top:style(position: static!important;)
 ncplus.pl##.navigation:style(position: static!important;)
-pepco.pl##.in.modal-newsletter.fade.modal
+pepco.pl##.modal-newsletter
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
 polsatnews.pl###urgent:style(position: static!important;)
 polsatnews.pl##.body:style(margin-top: auto!important;)
@@ -60,8 +60,10 @@ polsatnews.pl##header[id="header"]:style(position: static!important;top: 0px!imp
 polygamia.pl###mobileMenuButtons:style(position: absolute!important;)
 prawdaobiektywna.pl##.theiaStickySidebar:style(position: static!important;)
 przepisyjoli.com###navigation:style(position: static!important;)
-rylko.com###modal-newsletter, .in.fade.modal-backdrop
+rylko.com###modal-newsletter
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
+selkar.pl##.newsletter-modal
+selkar.pl##.modal-open:style(overflow: visible!important;)
 shinden.pl##.btn.przycisk:style(position: absolute!important;)
 shinden.pl##.pasek:style(position: absolute!important;)
 sklep.gram.pl###dashboard:style(position: absolute!important;)
@@ -123,6 +125,7 @@ www.zatrzymujacczas.pl###top-bar:style(position: static!important;)
 wypiska.pl##.fixed.site-header:style(position: static!important;)
 youtube.com###masthead-container:style(position: absolute!important;)
 zpozdrowieniem.pl###scroller:style(position: static!important;)
+zrobisztosam.com##.navbar-fixed-top:style(position: absolute!important;)
 !
 !
 ! Agora
