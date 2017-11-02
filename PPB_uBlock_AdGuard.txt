@@ -1,11 +1,11 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
 ! Last modified: 2 November 2017
-! Version: 2017110204
+! Version: 2017110205
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 2 listopada 2017, 21:39
+! Aktualizacja: czw, 2 listopada 2017, 23:52
 !
 6krokow.pl###header:style(position: absolute!important;)
 6krokow.pl##progress:style(position: absolute!important;)
@@ -340,3 +340,5 @@ www.wp.pl##header.header:style(position: absolute!important;)
 ! Reguły, które działają tylko na uBlocku
 niezalezna.pl##script:inject(abort-on-property-read.js, onscroll)
 polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
+www.igbbaltica.pl##script:inject(abort-current-inline-script.js, $, fixed_header)
+www.polskieradio.pl##script:inject(setTimeout-defuser.js, scrolling, 25)

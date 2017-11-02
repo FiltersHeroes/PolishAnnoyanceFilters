@@ -2,11 +2,14 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 2 November 2017
-! Version: 20171102034! Expires: 2 days
+! Version: 2017110205
+! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 2 listopada 2017, 22:24
+! Aktualizacja: czw, 2 listopada 2017, 23:50
+!
+!
 /bb_fbslider.js$script
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
@@ -15,6 +18,7 @@
 /plugins/facebook-fanbox-popup
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 /wp-content/plugins/FLM-Social-Sidebar
+!
 !
 4fun.tv##.app-popup
 agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
@@ -33,6 +37,7 @@ angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
 answear.com###popupNewsletter, #popupNewsletterWrap
 asport.pl##.hit-tygodnia
 autofakty.pl,konicaminolta.info.pl##.yel-popup-main-wrapper
+avast.com###slide-top
 bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
@@ -86,6 +91,7 @@ ekologia.pl##.bg-p
 ekologia.pl##.promote
 electro-outlet.pl###tws_a_1
 electro-outlet.pl###tws_a_2
+elektroda.pl##.button_open
 emag.pl###newsletter-widget
 enel.pl##.widgets
 eporady24.pl##.zaczekaj
@@ -133,6 +139,7 @@ jakzarabiaconline.blogspot.com###top
 jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_divs
 katowice-airport.com###carwash-banner, #carwash-banner-c
+kaufland.pl##.a-back-to-top__button
 kisiel24.pl###cboxOverlay, #colorbox, #toTop
 klonowypark.pl,misjonarska.com###right_info2
 kodiwpigulce.pl,niemarkowe.pl###totop
@@ -163,8 +170,8 @@ mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
 monedo.pl##.small.help
+morele.net###back_to_top
 motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl##.scrollup
- 
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
@@ -207,6 +214,7 @@ play.pl###optimonk-holder-campaign-59
 player.pl##body > div:nth-of-type(19)
 player.pl##body > div:nth-of-type(3)
 player.pl##body > iframe:nth-of-type(1)
+playstation.com###back-to-top
 poczta.int.pl##.maximized-wrapper.ng-isolate-scope
 poczta.interia.pl###side-ad
 pol-nor.com###popforfirma
@@ -273,8 +281,7 @@ twojezaglebie.pl##.td-more-articles-box
 tygertenis.pl###overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 tymbark.com###kwit_brandwidget_btn
-univision24.pl,ogrzewania.pl##.up
- 
+univision24.pl,ogrzewania.pl##.up 
 vagczesci.pl###backTop
 vexel-fashion.pl##.side-block-icon
 wakai.pl###sod-drawer-handle
@@ -299,6 +306,7 @@ www.elblag.net##.nextarticle.allpadding
 www.enea.pl##.cx-theme-blue.cx-window-manager.cx-widget
 www.faktmobile.pl##.isStuck
 www.google.com##.gb_g, .loaded.dot
+www.igbbaltica.pl###jj_sl_navigation
 www.jakonatorobi.pl###ruby-back-top
 www.kupbilet.pl##[class^="tabslide"]
 www.mdm.elblag.pl###toTop
@@ -317,6 +325,7 @@ yes.pl##.footer-middle
 yoy.tv###notice
 zalando.pl##.overflow.firstLine:nth-of-type(2)
 zjoplock.pl###popup_overlay
+zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 zpozdrowieniem.pl##.header_fixed
 zrobisztosam.com###topLink
 zszywka.pl###inv-request-popup
@@ -467,7 +476,10 @@ pl###allegro_ikona
 pl###article_promo
 pl###aswift_0_expand
 pl###at-cv-lightbox-win
+pl###back_to_top
 pl###backgroundFade
+pl###backtotop
+pl###backToTop
 pl###baner_300_250
 pl###baner_rog
 pl###bann
@@ -544,7 +556,6 @@ pl###m-content
 pl###mail_zapisz
 pl###mask
 pl###menu_newsletter
-
 pl###messageContainer
 pl###message_dialog_source
 pl###mktz_container
@@ -565,6 +576,8 @@ pl###newsletter-footer
 pl###newsletter-form
 pl###newsletter-lightbox-holder
 pl###newsletter-pane
+pl###newsletter_popup
+pl###newsletter_popup_overlay
 pl###newsletterBoxLeft
 pl###newsletterMsg
 pl###newsletter_block_left
@@ -634,6 +647,7 @@ pl###sub_dlg
 pl###sugester-chat
 pl###sugester_widget
 pl###swim_box
+pl###telemedicoWidget
 pl###test-modal
 pl###tln3_bg
 pl###tln3_wrap
