@@ -2,13 +2,11 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 2 November 2017
-! Version: 2017110203
-! Expires: 2 days
+! Version: 20171102034! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 2 listopada 2017, 19:49
-!
+! Aktualizacja: czw, 2 listopada 2017, 22:24
 /bb_fbslider.js$script
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
@@ -165,7 +163,8 @@ mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
 monedo.pl##.small.help
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl##.scrollup 
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl##.scrollup
+ 
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
@@ -274,7 +273,8 @@ twojezaglebie.pl##.td-more-articles-box
 tygertenis.pl###overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 tymbark.com###kwit_brandwidget_btn
-univision24.pl,ogrzewania.pl##.up 
+univision24.pl,ogrzewania.pl##.up
+ 
 vagczesci.pl###backTop
 vexel-fashion.pl##.side-block-icon
 wakai.pl###sod-drawer-handle
@@ -448,135 +448,6 @@ www.pudelek.pl###o2FBFanbox
 www.wp.pl###home-page-button
 !
 !
-! Scroll to top from Fanboy's Annoyance List (License: http://creativecommons.org/licenses/by/3.0/) 
-###BackToTop
-###ScrollToTopContainer
-###WidgetScrollToTop
-###back-to-top
-###back-to-top-scroll
-###back-top
-###backToTop
-###back_to_top
-###back_to_top_now
-###backtotop
-###backtotop-scroll
-###backtotopbutton
-###backtotoplink
-###bktotopbtn
-###bt-scroll-top
-###btn-scroll-up
-###cb-to-top
-###dynamic-to-top
-###footer-back-to-top
-###g1-back-to-top
-###goDownFooter
-###goTop
-###goTopFooter
-###gotop
-###img_goTop
-###int-btn-top
-###jm-back-top
-###jump-to-top
-###ktz-backtotop
-###mainToTopAnchor
-###move-to-top
-###scroll-to-top
-###scroll-top
-###scroll-top-link
-###scrollToTop
-###scroll_back_to_top
-###scroll_top_div
-###scroll_top_wrap
-###scrolltotop_button
-###to-the-top
-###to_top
-###totopBtn
-###tweScrollTop
-###uix_jumpToFixed
-###uix_jumpToTopFixed
-###w2b-StoTop
-###wpfront-scroll-top-container
-##.BackToTop
-##.TopGoTop
-##.axScrollToTop
-##.back-to-top
-##.back-to-top-button
-##.back-to-top-link
-##.back-to-top-wrap
-##.backToTop
-##.backTopLink
-##.back_to_top
-##.backtopbutton
-##.backtotop
-##.block_to_top
-##.btn-back-to-top
-##.btn-go-top
-##.btn-return-top
-##.btn2top
-##.btn_gototop
-##.cScrollIndicatorContainer
-##.dc-go-top
-##.enigma_scrollup
-##.et_pb_scroll_top
-##.fk-ui-goTop
-##.footer-button-top
-##.footer-top-of-page
-##.go2top
-##.goTop
-##.go_to_top
-##.gototop
-##.js-back-to-top
-##.js-persistent-nav-top
-##.js-scroll-to-top
-##.link_to_top
-##.mk-go-top
-##.mod-totop
-##.newsletterSignup-wrapper
-##.os-back-to-top
-##.pi-scroll-top-arrow
-##.rh-footer-back-to-top
-##.s5_scrolltotop
-##.scroll-back-to-top-wrapper
-##.scroll-to-top
-##.scroll-top
-##.scroll-top-inner
-##.scroll-top-wrapper
-##.scroll2top
-##.scrollToTop
-##.scrollToTopButton
-##.scrollTo_top
-##.scrollTop
-##.scrolltop
-##.td-scroll-up
-##.to-the-top
-##.to-top
-##.toTopBtn
-##.toTopButton
-##.top-of-page
-##.top-of-page-link
-##.topofpage
-##.totop
-##.totop_button
-##.ui-fixed-panel-go-top
-##.ui-go-top
-##.w-toplink
-##a[title="Back To Top"]
-##a[title="Back to Top"]
-##a[title="Back to top of page"]
-##a[title="Scroll To Top"]
-##a[title="Scroll to Top"]
-##a[title="Scroll to top"]
-##div[title="Scroll Back to Top"]
-##div[title="Scroll To Top"]
-##img[alt="Scroll to top"]
-##img[alt="go to Top"]
-!
-!
-###newsletter_popup
-###newsletter_popup_overlay
-###telemedicoWidget
-##.socialContainerRrssb.fixed
-!
 !
 pl###ClPanel
 pl###FlyingLayer
@@ -672,7 +543,8 @@ pl###lpl-overlay
 pl###m-content
 pl###mail_zapisz
 pl###mask
-pl###menu_newsletter
+pl###menu_newsletter
+
 pl###messageContainer
 pl###message_dialog_source
 pl###mktz_container
