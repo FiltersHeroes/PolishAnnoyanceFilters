@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 3 November 2017
-! Version: 2017110301
+! Last modified: 4 November 2017
+! Version: 2017110401
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pt, 3 listopada 2017, 11:55
+! Aktualizacja: sob, 4 listopada 2017, 00:26
 !
 !
 /bb_fbslider.js$script
@@ -45,6 +45,7 @@ biegambolubie.com.pl##.cp-info-bar-wrapper
 bikecs.com##.bcs_akcja_div
 bikecs.com##.bcs_footer2_div
 bikecs.com##.bcs_site, .bcs_switch
+biznesalert.pl##.toolbar
 bluecity.pl###cboxOverlay
 bluecity.pl##.popupContent
 bluerank.pl##.shown.exit
@@ -299,6 +300,7 @@ wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
 wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
 www.akademiareklamy.edu.pl###topscroller
+www.brw.com.pl##.blok-newsletter
 www.bs-legal.pl###icon_wrapper
 www.cozadzien.pl###error_widget, #recom_widget
 www.eglobalcentral.pl###hs-beacon
@@ -314,10 +316,12 @@ www.mila.pl##.scroll-arrow
 www.mojanorwegia.pl###goUp
 www.myphone.pl##.trans.mainArrowBackToTop
 www.oszustwo.net##div[id^="ulp-"]
+www.pielegniarki.info.pl##.toTheTop
 www.pruszynski.com.pl###order-outbox
 www.purepc.pl##.mtotop
 www.reeco.info.pl###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
+www.wizytowka.be###back-to-top
 www.zatrzymujacczas.pl,kuchniawedwoje.pl###ffbp
 wyborcza.biz##.is-visible.mod_ddbox.mod
 wykop.pl##.big.button
@@ -472,6 +476,7 @@ pl###allegro_ikona
 pl###article_promo
 pl###aswift_0_expand
 pl###at-cv-lightbox-win
+pl###back-to-top
 pl###back_to_top
 pl###backgroundFade
 pl###backtotop
@@ -615,6 +620,7 @@ pl###sbox-overlay
 pl###sbox-window
 pl###sc_behind
 pl###sc_wrapper
+pl###scroll-to-top
 pl###shareOpinionSticker
 pl###shelterHelp-box
 pl###showMoreButton
