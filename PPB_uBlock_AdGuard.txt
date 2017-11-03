@@ -1,11 +1,11 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
-! Last modified: 3 November 2017
-! Version: 2017110301
+! Last modified: 4 November 2017
+! Version: 2017110401
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pt, 3 listopada 2017, 11:55
+! Aktualizacja: sob, 4 listopada 2017, 00:24
 !
 6krokow.pl###header:style(position: absolute!important;)
 6krokow.pl##progress:style(position: absolute!important;)
@@ -14,10 +14,14 @@ avdotia.kotkowicz.pl###catcher
 avdotia.kotkowicz.pl###header:style(position: static!important;)
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+biznesalert.pl##.mfp-ready
+biznesalert.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 byinsomnia.com###modal-newsletter, remodal-overlay, .remodal-wrapper
 byinsomnia.com##.remodal-is-locked:style(overflow: visible!important;)
 defence24.pl###newsletter-modal
 defence24.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
+dopobrania.pwn.pl##.navbar-fixed-top:style(position: absolute!important;)
+dopobrania.pwn.pl##.side-nav:style(position: absolute!important; bottom: auto!important;)
 doruchow.pl,krosnice.pl##.div_menu_prawe_wysuwane:style(position: absolute!important;)
 dorzeczy.pl###element-header
 dorzeczy.pl,superhistoria.pl###content:style(padding-top: 0px!important)
@@ -104,9 +108,13 @@ wprost.pl###header:style(position: absolute!important;)
 wykop.pl###nav:style(position: absolute!important;)
 www.akademiareklamy.edu.pl###ppm:style(position: absolute!important;)
 www.biofarm.pl##header:style(position: absolute!important;)
+www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
+www.brw.com.pl##.js:style(overflow-y: visible!important;)
 www.bs-legal.pl##.fl-page-bar, .fl-page-header:style(position: absolute!important;)
 www.ceneo.pl##.header-container:style(position: static!important;)
 www.ckm.pl##.fixed-active.clearfix.nav-fixed.nav:style(position: static!important;)
+www.ckm.pl##.nav.fixed-active ul:style(padding: 11px 0!important; margin: auto!important; )
+www.ckm.pl##.nav.fixed-active:style(height: auto!important; )
 www.cosmopolitan.pl##.clearfix.navigation-box-wrapper:style(position: static!important;)
 www.jakonatorobi.pl###sidebar > .is-sticked.ruby-sidebar-sticky:style(position: static!important;)
 www.jakonatorobi.pl##.header-nav-inner:style(position: static!important;)
@@ -128,6 +136,7 @@ www.pwc.pl###menuBarWrapper:style(position: absolute!important;)
 www.reeco.info.pl###menu:style(position: static!important;)
 www.rossmann.pl###header_mobile:style(position: absolute!important;)
 www.systim.pl###top:style(position: absolute!important;)
+www.wizytowka.be###nav-topbar:style(position: absolute!important;)
 www.zatrzymujacczas.pl###top-bar:style(position: static!important;)
 wypiska.pl##.fixed.site-header:style(position: static!important;)
 youtube.com###masthead-container:style(position: absolute!important;)
@@ -145,6 +154,7 @@ wiadomosci.gazeta.pl,kobieta.gazeta.pl,zdrowie.gazeta.pl,podroze.gazeta.pl,www.e
 www.autotrader.pl##.is_stuck.section--navbar.section
 www.autotrader.pl##.section--navbar.section:style(position: absolute!important;)
 www.domiporta.pl##.fixed.page-header:style(position: absolute!important;)
+www.gazeta.pl##.hat_dark.page_top > .container-fluid:style(position: static!important;)
 www.goldenline.pl##.main-header.symfony:style(position: absolute!important;)
 www.komunikaty.pl###rwdHat:style(position: absolute!important;)
 www.trader.pl###main-header:style(position: absolute!important;)
