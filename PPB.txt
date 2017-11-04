@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 4 November 2017
-! Version: 2017110401
+! Last modified: 4 Nov 2017 14:44 UTC+1
+! Version: 2017110402
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 4 listopada 2017, 00:26
+! Aktualizacja: sob, 4 listopada 2017, 14:44
 !
 !
 /bb_fbslider.js$script
@@ -25,7 +25,6 @@ agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
 agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
 alget.pl###jOverlay, #jOverlayContent, .top_button
-allegro.pl##.sticky
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 amracing.pl##img[src="/images/dealers_button.png"]
 amracing.pl##img[src="/images/files_button.png"]
@@ -100,6 +99,7 @@ epoznan.pl###main_menu_fixed
 euro.com.pl###footer-shops > .column:nth-of-type(1)
 eurobank.pl##.reviews
 facebook.com###pagelet_growth_expanding_cta
+fakty.plportal.pl##.block:-abp-contains(FACEBOOK)
 fashionata.pl###bodyWrapper
 fashionata.pl##.nlpwContainer
 fashionata.pl##.pwShade
@@ -131,6 +131,7 @@ hbo.pl##.ribbon
 hitbank.pl###scrollbarbox
 homebook.pl###go-top
 ibiznes.biz###text-2
+infogram.com###launcher
 innpoland.pl###fbinvite
 instyle.co.uk##.pw-button-pinterest.pw-button
 interia.pl##.error-page-layer
@@ -154,6 +155,7 @@ kredito24.pl##.btn-apply
 kupbuty.com###tws_i_1, #topLayerBackDrop
 lolmania.pl##.g1-back-to-top
 mac-world.pl##.et_bloom_popup
+magazynfakty.pl##.mf-plugin-stickymenu-wrapper
 manjaro.pl##.generate-back-to-top
 maxmoto.pl##.allegro-icon
 mbank.pl###push-message
@@ -167,12 +169,13 @@ misjonarska.com###myModal, .reveal-modal-bg
 mixmedia.pl###place3_v2, #place3_v3, #last-viewed, #fb_likebox
 mmaniak.pl###x13popup, #x13popup-cover
 mmarocks.pl##.smPopupContainer, #smPopupBackground
+mpolska24.pl###before-leave-window
 mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
 monedo.pl##.small.help
 morele.net###back_to_top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl##.scrollup
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl##.scrollup
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
@@ -190,6 +193,7 @@ neonet.pl##.arrow-up
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nestbank.pl##.fixed-label
 newsweek.pl##.wrapper
+nietylkopasta.pl###dbx_light
 nowa.tv##.sticky_boxes
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowosci-mp3.eu###toTop
@@ -224,6 +228,7 @@ polemi.co.uk###formAcymailing1 > .acymailing_module_form
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 polsatnews.pl###fab
 polskaracja.com##.g1-back-to-top
+polskiautohandel.pl##.backtopbutton
 polskihurtworld.eu##.ggu-widget-launcher, .tgtop
 pomorski-bs.pl###s5_scrolltop_a
 pracuj.pl###scrollTop
@@ -241,6 +246,7 @@ racing-planet.pl###contactable_inner
 redcoon.pl###j-newsletterForm
 reklama.pl##.curl
 renee.pl##.newsletter__section, .scroll__top
+reporters.pl##.boxzilla-najczesciej-czytacie, .wpsr-followbar
 rmf.fm###loteria-footer
 romantycznyweekend.eu###article-finished
 romantycznyweekend.eu###fancybox-overlay
@@ -285,6 +291,7 @@ tymbark.com###kwit_brandwidget_btn
 univision24.pl,ogrzewania.pl##.up 
 vagczesci.pl###backTop
 vexel-fashion.pl##.side-block-icon
+viralz.pl,obcasy.pl##.spu-bg, .spu-box
 wakai.pl###sod-drawer-handle
 wanika.pl###cloudBox
 wearmedicine.com###cboxLoadedContent, #cboxOverlay, #nlPopup, #nlThanks
@@ -312,15 +319,18 @@ www.igbbaltica.pl###jj_sl_navigation
 www.jakonatorobi.pl###ruby-back-top
 www.kupbilet.pl##[class^="tabslide"]
 www.mdm.elblag.pl###toTop
+www.mgsm.pl##.show-for-large-up.row
 www.mila.pl##.scroll-arrow
 www.mojanorwegia.pl###goUp
 www.myphone.pl##.trans.mainArrowBackToTop
 www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
+www.politycznyislam.info###subscribe
 www.pruszynski.com.pl###order-outbox
 www.purepc.pl##.mtotop
 www.reeco.info.pl###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
+www.spidersweb.pl##.havetoread
 www.wizytowka.be###back-to-top
 www.zatrzymujacczas.pl,kuchniawedwoje.pl###ffbp
 wyborcza.biz##.is-visible.mod_ddbox.mod
@@ -811,6 +821,7 @@ pl##.sweet-overlay
 pl##.switcher-area
 pl##.switcher-button
 pl##.tab_bg
+pl##.td-scroll-up
 pl##.tplAds
 pl##.twoElHeader
 pl##.utrigger-open.utriggerbtn
