@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 4 Nov 2017 17:18 UTC+1
-! Version: 2017110403
+! Last modified: 5 Nov 2017 00:17 UTC+1
+! Version: 2017110501
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 4 listopada 2017, 17:18
+! Aktualizacja: nd, 5 listopada 2017, 00:17
 !
 !
 /bb_fbslider.js$script
@@ -142,7 +142,7 @@ jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_divs
 katowice-airport.com###carwash-banner, #carwash-banner-c
 kaufland.pl##.a-back-to-top__button
-kisiel24.pl###cboxOverlay, #colorbox, #toTop
+kisiel24.pl###cboxOverlay, #colorbox
 klonowypark.pl,misjonarska.com###right_info2
 kodiwpigulce.pl,niemarkowe.pl###totop
 kombo.krakow.pl##body > div:nth-of-type(4)
@@ -152,6 +152,7 @@ konicaminolta.info.pl##.kontakt-slide
 kotkowicz.pl###sticky_header, .vce-sticky
 kotrak.pl##.kotrak_infobox_button
 kredito24.pl##.btn-apply
+kresy.pl##.ls-popup
 kupbuty.com###tws_i_1, #topLayerBackDrop
 lolmania.pl##.g1-back-to-top
 mac-world.pl##.et_bloom_popup
@@ -196,7 +197,6 @@ newsweek.pl##.wrapper
 nietylkopasta.pl###dbx_light
 nowa.tv##.sticky_boxes
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
-nowosci-mp3.eu###toTop
 nowosci-mp3.eu##.clr.center > .short-story
 o.pl###email-bar, #nl-icon
 ogloszenia24.info###fancybox-overlay
@@ -320,17 +320,16 @@ www.google.com##.gb_g, .loaded.dot
 www.igbbaltica.pl###jj_sl_navigation
 www.jakonatorobi.pl###ruby-back-top
 www.kupbilet.pl##[class^="tabslide"]
-www.mdm.elblag.pl###toTop
 www.mgsm.pl##.show-for-large-up.row
 www.mila.pl##.scroll-arrow
 www.mojanorwegia.pl###goUp
 www.myphone.pl##.trans.mainArrowBackToTop
 www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
-www.politycznyislam.info###subscribe
+www.politycznyislam.info, biznesalert.pl###subscribe
 www.pruszynski.com.pl###order-outbox
 www.purepc.pl##.mtotop
-www.reeco.info.pl###toTop
+www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.spidersweb.pl##.havetoread
 www.wizytowka.be###back-to-top
@@ -388,7 +387,6 @@ uroda.swiatkobiety.pl###articleObjectSeeAlso1
 www.artefakt.pl###scrollUp
 www.gruparmf.pl###totop
 www.sunrisesystem.pl##.messages
-www.widzialni.pl###toTop
 ||ebrokerpartner.pl/js/frontend/modules/popup.js$script
 !
 !
@@ -633,6 +631,7 @@ pl###sbox-window
 pl###sc_behind
 pl###sc_wrapper
 pl###scroll-to-top
+pl###scroll-top-link
 pl###shareOpinionSticker
 pl###shelterHelp-box
 pl###showMoreButton
