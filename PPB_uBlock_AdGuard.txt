@@ -1,14 +1,15 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
-! Last modified: 4 November 2017
-! Version: 2017110401
+! Last modified: 4 Nov 2017 14:45 UTC+1
+! Version: 2017110402
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 4 listopada 2017, 00:24
+! Aktualizacja: sob, 4 listopada 2017, 14:45
 !
 6krokow.pl###header:style(position: absolute!important;)
 6krokow.pl##progress:style(position: absolute!important;)
+allegro.pl##.opbox-metrum-header:style(position: static!important;)
 alles-bhp.pl,greattrade.pl,szkolnaspizarnia.pl##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute!important;)
 avdotia.kotkowicz.pl###catcher
 avdotia.kotkowicz.pl###header:style(position: static!important;)
@@ -42,6 +43,7 @@ habys.pl##html.fancybox-lock:style(overflow: visible!important;)
 habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 homebook.pl##.popup-overlay
 homebook.pl##body.has-open-popup:style(overflow: visible!important;)
+infogram.com###top_nav:style(position: absolute!important;)
 istotne.pl###main_navigation:style(position: static!important;)
 jooble.org###popup
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible!important; width: 100%!important;)
@@ -67,6 +69,7 @@ polsatnews.pl##header[id="header"]:style(position: static!important;top: 0px!imp
 polygamia.pl###mobileMenuButtons:style(position: absolute!important;)
 prawdaobiektywna.pl##.theiaStickySidebar:style(position: static!important;)
 przepisyjoli.com###navigation:style(position: static!important;)
+reporters.pl###header:style(position: absolute!important;)
 rylko.com###modal-newsletter
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
 satkurier.pl###menuContainer:style(position: static!important;)
@@ -128,6 +131,7 @@ www.ozog.pl##.container.navbar-fixed-top.navbar-inverse.navbar:style(position: a
 www.ozog.pl##body:style(overflow: auto!important;)
 www.pekabex.pl##.top-header.row:style(position: absolute!important;)
 www.phnsa.pl###header-container:style(position: absolute!important;)
+www.politycznyislam.info##.bka_menu:style(position: absolute!important;)
 www.polityka.pl##.md-pc-access-menu.pc-access-menu_no-access:style(position: static!important;)
 www.politykainsight.pl##.start-v3-nav:style(position: absolute!important;)
 www.polskieradio.pl###prMenu:style(position: relative!important;)
