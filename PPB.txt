@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 5 Nov 2017 11:42 UTC+1
-! Version: 2017110502
+! Last modified: 5 Nov 2017 23:07 UTC+1
+! Version: 2017110503
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 5 listopada 2017, 11:42
+! Aktualizacja: nd, 5 listopada 2017, 23:07
 !
 !
 /bb_fbslider.js$script
@@ -310,6 +310,7 @@ wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
 www.akademiareklamy.edu.pl###topscroller
 www.brw.com.pl##.blok-newsletter
 www.bs-legal.pl###icon_wrapper
+www.chip.pl##.bottombar
 www.cozadzien.pl###error_widget, #recom_widget
 www.eglobalcentral.pl###hs-beacon
 www.elblag.net##.nextarticle.allpadding
@@ -323,6 +324,7 @@ www.kupbilet.pl##[class^="tabslide"]
 www.mgsm.pl##.show-for-large-up.row
 www.mila.pl##.scroll-arrow
 www.mojanorwegia.pl###goUp
+www.my-mobile.pl##img[src="http://www.my-mobile.pl/html/fb.jpg"]
 www.myphone.pl##.trans.mainArrowBackToTop
 www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
@@ -362,6 +364,7 @@ zszywka.pl###inv-request-popup
 ||v2.zopim.com/bin/v/widget_v2.220.js$script
 ||widget.userengage.com/widget.js$script
 ||widget.userengage.io/widget.js$script
+||widgets.trustedshops.com/js/*$script
 ||www.czater.pl/assets/modules/chat/js/chat.js$script
 ||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js$script
 !
