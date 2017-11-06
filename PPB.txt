@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 6 Nov 2017
-! Version: 2017110602
+! Version: 2017110603
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 6 listopada 2017, 14:33
+! Aktualizacja: pon, 6 listopada 2017, 15:19
 !
 !
 /bb_fbslider.js$script
@@ -18,6 +18,7 @@
 /plugins/facebook-fanbox-popup
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 /wp-content/plugins/FLM-Social-Sidebar
+/wp-content/plugins/yeloni-free-exit-popup/common/loader.js$script
 !
 !
 4fun.tv##.app-popup
@@ -36,7 +37,6 @@ angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
 answear.com###popupNewsletter, #popupNewsletterWrap
 asport.pl##.hit-tygodnia
-autofakty.pl,konicaminolta.info.pl##.yel-popup-main-wrapper
 avast.com###slide-top
 bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
@@ -179,7 +179,7 @@ mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
 monedo.pl##.small.help
 morele.net###back_to_top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl##.scrollup
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl##.scrollup
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
@@ -322,13 +322,14 @@ www.faktmobile.pl##.isStuck
 www.focus.pl##.box-obserwuj-newsletter
 www.google.com##.gb_g, .loaded.dot
 www.igbbaltica.pl###jj_sl_navigation
-www.jakonatorobi.pl###ruby-back-top
+www.jakonatorobi.pl,www.autofakty.pl###ruby-back-top
 www.kupbilet.pl##[class^="tabslide"]
 www.mgsm.pl##.show-for-large-up.row
 www.mila.pl##.scroll-arrow
 www.mojanorwegia.pl###goUp
 www.my-mobile.pl##img[src="http://www.my-mobile.pl/html/fb.jpg"]
 www.myphone.pl##.trans.mainArrowBackToTop
+www.neon24.pl###div_up_arrow
 www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
 www.politycznyislam.info, biznesalert.pl###subscribe
