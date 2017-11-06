@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 6 Nov 2017
-! Version: 2017110603
+! Version: 2017110604
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 6 listopada 2017, 15:19
+! Aktualizacja: pon, 6 listopada 2017, 21:50
 !
 !
 /bb_fbslider.js$script
@@ -231,7 +231,7 @@ polemi.co.uk###formAcymailing1 > .acymailing_module_form
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 polsatnews.pl###fab
 polskaracja.com##.g1-back-to-top
-polskiautohandel.pl##.backtopbutton
+polskiautohandel.pl,optyczne.pl##.backtopbutton
 polskihurtworld.eu##.ggu-widget-launcher, .tgtop
 pomorski-bs.pl###s5_scrolltop_a
 pracuj.pl###scrollTop
@@ -321,6 +321,7 @@ www.enea.pl##.cx-theme-blue.cx-window-manager.cx-widget
 www.faktmobile.pl##.isStuck
 www.focus.pl##.box-obserwuj-newsletter
 www.google.com##.gb_g, .loaded.dot
+www.hebe.pl##.splash
 www.igbbaltica.pl###jj_sl_navigation
 www.jakonatorobi.pl,www.autofakty.pl###ruby-back-top
 www.kupbilet.pl##[class^="tabslide"]
@@ -330,12 +331,13 @@ www.mojanorwegia.pl###goUp
 www.my-mobile.pl##img[src="http://www.my-mobile.pl/html/fb.jpg"]
 www.myphone.pl##.trans.mainArrowBackToTop
 www.neon24.pl###div_up_arrow
+www.nportal.no###fb-overlay
 www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
 www.politycznyislam.info, biznesalert.pl###subscribe
 www.pruszynski.com.pl###order-outbox
 www.purepc.pl##.mtotop
-www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl###toTop
+www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.spidersweb.pl##.havetoread
 www.wizytowka.be###back-to-top
@@ -473,6 +475,7 @@ www.nocowanie.pl##.is-sticky.btn--top.btn
 www.o2.pl##div[data-st-area="ST-CrnrML-main-area"]
 www.pudelek.pl###o2FBFanbox
 www.wp.pl###home-page-button
+||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js$script
 !
 !
 pl###ClPanel
