@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 5 Nov 2017 23:07 UTC+1
-! Version: 2017110503
+! Last modified: 6 Nov 2017
+! Version: 2017110601
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 5 listopada 2017, 23:07
+! Aktualizacja: pon, 6 listopada 2017, 11:10
 !
 !
 /bb_fbslider.js$script
@@ -25,6 +25,7 @@ agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
 agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
 alget.pl###jOverlay, #jOverlayContent, .top_button
+allegro.pl##.with-bottom-link.card.opbox-sheet
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 amracing.pl##img[src="/images/dealers_button.png"]
 amracing.pl##img[src="/images/files_button.png"]
@@ -105,6 +106,8 @@ fashionata.pl##.nlpwContainer
 fashionata.pl##.pwShade
 ferratum.pl##.icc.ic-mail
 ferratum.pl##.icc.ic-phone
+fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
+fokusfashion.com##form > input:nth-of-type(2)
 forpro.pl###message
 forsal.pl##.tresc:nth-of-type(6)
 forum.optymalizacja.com###ipsLayout_sidebar
