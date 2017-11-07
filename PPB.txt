@@ -1,24 +1,24 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 6 Nov 2017
-! Version: 2017110604
+! Last modified: 7 Nov 2017
+! Version: 2017110701
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 6 listopada 2017, 21:50
+! Aktualizacja: wt, 7 listopada 2017, 19:56
 !
 !
-/bb_fbslider.js$script
+/bb_fbslider.js
 /btn-newsletter
-/common/js/enp/modules/newsletterPopup/newsletterPopup.js$script,domain=mixmedia.pl|mycenter.pl
-/common/js/enp/modules/scrollTop.js$script,domain=mixmedia.pl|mycenter.pl
-/livezillachat//script.php$script
+/common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
+/common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
+/livezillachat//script.php
 /plugins/facebook-fanbox-popup
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 /wp-content/plugins/FLM-Social-Sidebar
-/wp-content/plugins/yeloni-free-exit-popup/common/loader.js$script
+/wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 !
 !
 4fun.tv##.app-popup
@@ -72,6 +72,7 @@ dbpolska.net,ampolska.net###panel
 diagnozainternetu.pl##.top
 diversesystem.com###dvrs-newsletter-popup-body
 dobreprogramy.pl##.forum-help-cta.no-mobile.block
+dobrymechanik.pl###appWidget
 dogry.pl##.register-modal
 dogry.pl##.register-overlayer--game.register-overlayer
 domsary.eu###widget-handler
@@ -337,7 +338,7 @@ www.pielegniarki.info.pl##.toTheTop
 www.politycznyislam.info, biznesalert.pl###subscribe
 www.pruszynski.com.pl###order-outbox
 www.purepc.pl##.mtotop
-www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl###toTop
+www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl,www.marco.kielce.com###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.spidersweb.pl##.havetoread
 www.wizytowka.be###back-to-top
@@ -352,27 +353,27 @@ zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 zpozdrowieniem.pl##.header_fixed
 zrobisztosam.com###topLink
 zszywka.pl###inv-request-popup
-||cdn-widget.callpage.io/build/js/callpage.js$script
+||cdn-widget.callpage.io/build/js/callpage.js
 ||chat.4finance.com^$third-party
 ||code.tidio.co^$third-party
 ||embed.tawk.to^$script
-||gminamoszczenica.eu/media/system/js/modal.js$script
-||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js$script
-||livesupport.pl/chat/createBottom*.js$script
-||livesupport.pl/chat/createFloat*.js$script
-||mediaexpert.pl/js/popup.js$script
-||nawozy.eu/js/jquery.lockscroll.min.js$script
+||gminamoszczenica.eu/media/system/js/modal.js
+||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js
+||livesupport.pl/chat/createBottom*.js
+||livesupport.pl/chat/createFloat*.js
+||mediaexpert.pl/js/popup.js
+||nawozy.eu/js/jquery.lockscroll.min.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
-||st.chatango.com/js/gz/emb.js$script
-||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js$script
+||st.chatango.com/js/gz/emb.js
+||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
-||v2.zopim.com/bin/v/widget_v2.220.js$script
-||widget.userengage.com/widget.js$script
-||widget.userengage.io/widget.js$script
+||v2.zopim.com/bin/v/widget_v2.220.js
+||widget.userengage.com/widget.js
+||widget.userengage.io/widget.js
 ||widgets.trustedshops.com/js/*.js$third-party
-||www.czater.pl/assets/modules/chat/js/chat.js$script
-||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js$script
+||www.czater.pl/assets/modules/chat/js/chat.js
+||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 !
 !
 ! Agora
@@ -465,7 +466,7 @@ domodi.pl###acc-alert
 domodi.pl##.dm-sticky-buttons, .is-active.js-scroll-top.dm-go-up
 e-prawnik.pl##.o-window.windowTop
 fantasyliga.wp.pl##.show-chat
-komorkomania.pl##.btn-comments
+komorkomania.pl,autokult.pl##.btn-comments
 misioweopowiesci.o2.pl##.playlist__header
 tv.wp.pl###Slider
 www.foto.wp.pl##.main-container
@@ -475,7 +476,8 @@ www.nocowanie.pl##.is-sticky.btn--top.btn
 www.o2.pl##div[data-st-area="ST-CrnrML-main-area"]
 www.pudelek.pl###o2FBFanbox
 www.wp.pl###home-page-button
-||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js$script
+||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
+||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js
 !
 !
 pl###ClPanel
