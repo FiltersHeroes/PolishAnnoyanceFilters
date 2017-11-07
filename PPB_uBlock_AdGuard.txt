@@ -1,11 +1,12 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
-! Last modified: 6 Nov 2017
-! Version: 2017110602
+! Last modified: 7 Nov 2017
+! Version: 2017110701
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 6 listopada 2017, 21:41
+! Aktualizacja: wt, 7 listopada 2017, 19:48
+!
 !
 6krokow.pl###header:style(position: absolute!important;)
 6krokow.pl##progress:style(position: absolute!important;)
@@ -35,6 +36,8 @@ ergokantor.pl##.mfp-ready
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 euro.com.pl##.remodal-overlay
 euro.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+fokusfashion.com###menu_additional_wrapper:style(position: static!important; top: 0px!important; right: 0px!important; background: none!important; border: 0px!important; margin-right: 0px!important; margin-top: 0px!important; box-shadow: none!important; border-radius: 0px!important;)
+fokusfashion.com###menu_basket_box:style(position: absolute!important; top: 0px!important; right: 0px!important; background: none!important; border: 0px!important; margin-right: 0px!important; margin-top: 0px!important; width: auto!important; height: auto!important; box-shadow: none!important; border-radius: 0px!important;)
 gram.pl##.dashBoard:style(position: absolute!important;)
 habys.pl###cp-widget, .fancybox-overlay-fixed
 habys.pl##html > body:style(overflow: visible!important;)
@@ -354,8 +357,6 @@ www.wp.pl##header.header:style(position: absolute!important;)
 !
 !
 ! Reguły, które działają tylko na uBlocku
-fokusfashion.com##script:inject(abort-on-property-read.js, init_basket_scroll)
-fokusfashion.com##script:inject(abort-on-property-read.js, init_login_scroll)
 niezalezna.pl##script:inject(abort-on-property-read.js, onscroll)
 polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 sport.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
