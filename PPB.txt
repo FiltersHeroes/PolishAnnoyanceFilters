@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 7 Nov 2017
-! Version: 2017110701
+! Last modified: 10 Nov 2017
+! Version: 2017111001
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wt, 7 listopada 2017, 19:56
+! Aktualizacja: pt, 10 listopada 2017, 16:14
 !
 !
 /bb_fbslider.js
@@ -41,6 +41,7 @@ avast.com###slide-top
 bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
+bankobranie.blogspot.com###overlay, #topNewsletter, #sideSocial
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bikecs.com##.bcs_akcja_div
 bikecs.com##.bcs_footer2_div
@@ -69,6 +70,7 @@ dany-meble.pl##body > .hidden-sm.hidden-xs, #gototop
 dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 dbpolska.net,ampolska.net###panel
+ddz.doba.pl###bannersstickright
 diagnozainternetu.pl##.top
 diversesystem.com###dvrs-newsletter-popup-body
 dobreprogramy.pl##.forum-help-cta.no-mobile.block
@@ -135,6 +137,7 @@ hbo.pl##.ribbon
 hitbank.pl###scrollbarbox
 homebook.pl###go-top
 ibiznes.biz###text-2
+info.elblag.pl###nastepnyArtykul
 infogram.com###launcher
 innpoland.pl###fbinvite
 instyle.co.uk##.pw-button-pinterest.pw-button
@@ -180,7 +183,7 @@ mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
 monedo.pl##.small.help
 morele.net###back_to_top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl##.scrollup
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl##.scrollup
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
@@ -190,6 +193,7 @@ myjki.com###widget-prokonsumencki
 mylomza.pl###codeboxrfeedbackbuttonfvfbj5showb1
 myphone.pl###trig_pop_news
 nafrontendzie.pl###popup-box-gfcr-1
+natemat.pl###fbinvite, #posts-progress
 nawozy.eu##.newsletterPopup
 ncplus.pl###button-call
 ncplus.pl###button-lead
@@ -211,6 +215,7 @@ olicom.com.pl###ouibounce-modal
 olx.pl##.js-gtm-survey.gtm-survey
 opensubtitles.org###fade
 orange.pl##.usabilla__overlay
+p2mforum.info###uix_jumpToFixed
 pakolorente.com###tws_a_1
 parenting.pl##.parenting-tv-latest
 partneragdrtv.com.pl###js-sis_menu
@@ -235,6 +240,7 @@ polskaracja.com##.g1-back-to-top
 polskiautohandel.pl,optyczne.pl##.backtopbutton
 polskihurtworld.eu##.ggu-widget-launcher, .tgtop
 pomorski-bs.pl###s5_scrolltop_a
+pomyslnawszystko.pl##div[class^="go-top"]
 pracuj.pl###scrollTop
 programtv.naziemna.info###my-fb-panel
 programuje.net##.ecIaBtfeSkzD-bg
@@ -259,6 +265,7 @@ rooader.pl###nicePopupWrapper
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com###fixed_strefa_marek
 salon24.pl##.article-bookstore
+scie24.pl###up
 scooterkingz.com.pl##.newsletter_form
 se.pl###social-widget
 selkar.pl##.my-open.side-banner, .my-icon-facebook-widget
@@ -308,6 +315,7 @@ wirtualnemedia.pl##.clearfix.tvn-box
 wispol.eu###_opineo_container
 wispol.eu###pushAdClicker
 wispol.eu##.popup_news
+wlaczoszczedzanie.pl##.fm-icon
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
 wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
@@ -324,27 +332,33 @@ www.focus.pl##.box-obserwuj-newsletter
 www.google.com##.gb_g, .loaded.dot
 www.hebe.pl##.splash
 www.igbbaltica.pl###jj_sl_navigation
+www.inowroclaw.info.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 www.jakonatorobi.pl,www.autofakty.pl###ruby-back-top
 www.kupbilet.pl##[class^="tabslide"]
+www.meczyki.pl##.scroll-up
 www.mgsm.pl##.show-for-large-up.row
 www.mila.pl##.scroll-arrow
 www.mojanorwegia.pl###goUp
 www.my-mobile.pl##img[src="http://www.my-mobile.pl/html/fb.jpg"]
 www.myphone.pl##.trans.mainArrowBackToTop
 www.neon24.pl###div_up_arrow
+www.noweinfo.pl##.td-affix
 www.nportal.no###fb-overlay
 www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
 www.politycznyislam.info, biznesalert.pl###subscribe
+www.poradnikzdrowie.pl##.fixed.font_lower.menubar
 www.pruszynski.com.pl###order-outbox
+www.publio.pl##.widget-button
 www.purepc.pl##.mtotop
-www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl,www.marco.kielce.com###toTop
+www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl,www.marco.kielce.com,wlaczoszczedzanie.pl,prostaekonomia.pl###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.spidersweb.pl##.havetoread
 www.wizytowka.be###back-to-top
 www.zatrzymujacczas.pl,kuchniawedwoje.pl###ffbp
 wyborcza.biz##.is-visible.mod_ddbox.mod
 wykop.pl##.big.button
+xboxforum.pl##.primary.floatingItem
 yes.pl##.footer-middle
 yoy.tv###notice
 zalando.pl##.overflow.firstLine:nth-of-type(2)
@@ -563,6 +577,7 @@ pl###imgPopImp
 pl###iucn50dhblockingLayer
 pl###iucn50dhframeWrap
 pl###jHotInfosC
+pl###jqmCookieMonster:not(body):not(html)
 pl###js-annoy-layer
 pl###js-ban_bottom_left
 pl###js-ban_bottom_right
@@ -787,6 +802,7 @@ pl##.new_adtaily
 pl##.news-promo
 pl##.newsFixedBtn
 pl##.newsletter
+pl##.newsletter-block
 pl##.newsletter-box
 pl##.newsletter-btn
 pl##.newsletter-form
@@ -823,6 +839,7 @@ pl##.right-news
 pl##.rstboxes
 pl##.running_banner_land
 pl##.scroll_to_top
+pl##.scrollToTop
 pl##.self_rectangle
 pl##.side-menu
 pl##.side_widget

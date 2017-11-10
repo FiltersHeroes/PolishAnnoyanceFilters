@@ -1,11 +1,11 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
-! Last modified: 7 Nov 2017
-! Version: 2017110701
+! Last modified: 10 Nov 2017
+! Version: 2017111001
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wt, 7 listopada 2017, 19:48
+! Aktualizacja: pt, 10 listopada 2017, 16:14
 !
 !
 6krokow.pl###header:style(position: absolute!important;)
@@ -14,6 +14,7 @@ allegro.pl##.opbox-metrum-header:style(position: static!important;)
 alles-bhp.pl,greattrade.pl,szkolnaspizarnia.pl##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute!important;)
 avdotia.kotkowicz.pl###catcher
 avdotia.kotkowicz.pl###header:style(position: static!important;)
+bankobranie.blogspot.com##.tabs-outer:style(position: static!important; display: inline-block!important;)
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 biznesalert.pl##.mfp-ready
@@ -72,6 +73,7 @@ polsatnews.pl##.body:style(margin-top: auto!important;)
 polsatnews.pl##header[id="header"]:style(position: static!important;top: 0px!important;)
 polygamia.pl###mobileMenuButtons:style(position: absolute!important;)
 prawdaobiektywna.pl##.theiaStickySidebar:style(position: static!important;)
+prostaekonomia.pl##.fusion-secondary-main-menu:style(position: static!important;)
 przepisyjoli.com###navigation:style(position: static!important;)
 reporters.pl###header:style(position: absolute!important;)
 rylko.com###modal-newsletter
@@ -88,6 +90,8 @@ smaker.pl###overlay, #popup
 smaker.pl##html > body.scrollingDisabled:style(overflow:visible!important;)
 spidersweb.pl##.mfp-ready
 spidersweb.pl##html:style(overflow: visible!important; margin-right: 0px!important)
+stacja7.pl##.navbar-brand
+stacja7.pl##.navbar-fixed-top:style(position: absolute!important;)
 stokrotka.pl##.fancybox-overlay-fixed.fancybox-overlay
 stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: auto!important;)
 store.playstation.com###pageNavigator:style(position: absolute!important;)
@@ -123,6 +127,13 @@ www.ckm.pl##.fixed-active.clearfix.nav-fixed.nav:style(position: static!importan
 www.ckm.pl##.nav.fixed-active ul:style(padding: 11px 0!important; margin: auto!important; )
 www.ckm.pl##.nav.fixed-active:style(height: auto!important; )
 www.cosmopolitan.pl##.clearfix.navigation-box-wrapper:style(position: static!important;)
+www.hebe.pl###main:style(margin-top: 0px!important;)
+www.hebe.pl##.main-belt:style(position: static!important; padding-left: 0px!important;)
+www.hebe.pl##.main-content:style(padding-top: 0px!important;)
+www.hebe.pl##body > aside:style(top: 100px!important;)
+www.hebe.pl##body > header:style(position: static!important;)
+www.inowroclaw.info.pl###main_nav:style(position: static!important;)
+www.inowroclaw.info.pl##.container:style(margin-top: 0px!important;)
 www.jakonatorobi.pl###sidebar > .is-sticked.ruby-sidebar-sticky:style(position: static!important;)
 www.jakonatorobi.pl##.header-nav-inner:style(position: static!important;)
 www.marihuana.info.pl##nav[id="site-navigation"]:style(position: static!important;)
@@ -139,6 +150,7 @@ www.politycznyislam.info##.bka_menu:style(position: absolute!important;)
 www.polityka.pl##.md-pc-access-menu.pc-access-menu_no-access:style(position: static!important;)
 www.politykainsight.pl##.start-v3-nav:style(position: absolute!important;)
 www.polskieradio.pl###prMenu:style(position: relative!important;)
+www.publio.pl##.header-menu-bar:style(position: static!important;)
 www.purepc.pl##.navbox:style(position: static!important; margin-left: auto!important;)
 www.pwc.pl###menuBarWrapper:style(position: absolute!important;)
 www.reeco.info.pl###menu:style(position: static!important;)
@@ -241,7 +253,7 @@ plus.dziennikbaltycki.pl,plus.dzienniklodzki.pl,plus.dziennikzachodni.pl,plus.ex
 www.dziennikbaltycki.pl,plus.dziennikbaltycki.pl,www.dzienniklodzki.pl,plus.dzienniklodzki.pl,www.dziennikzachodni.pl,plus.dziennikzachodni.pl,plus.expressilustrowany.pl,www.gazetakrakowska.pl,plus.gazetakrakowska.pl,www.gazetawroclawska.pl,plus.gazetawroclawska.pl,www.gloswielkopolski.pl,plus.gloswielkopolski.pl,www.kurierlubelski.pl,plus.kurierlubelski.pl,www.nto.pl,plus.nto.pl,www.wspolczesna.pl,plus.wspolczesna.pl,www.poranny.pl,plus.poranny.pl,www.pomorska.pl,plus.pomorska.pl,www.gp24.pl,plus.gp24.pl,www.gazetalubuska.pl,plus.gazetalubuska.pl,www.echodnia.eu,plus.echodnia.eu,www.to.com.pl,plus.to.com.pl,www.nowiny24.pl,plus.nowiny24.pl,www.lubietubyc.pomorska.pl,www.polskatimes.pl,plus.polskatimes.pl,www.gs24.pl,plus.gs24.pl,www.gk24.pl,plus.gk24.pl,www.expressbydgoski.pl,www.ekstramagazyn.pl##html > body.widokDesktop:style(margin-top: 0px!important;)
 www.dziennikbaltycki.pl,www.dzienniklodzki.pl,www.dziennikzachodni.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,www.kurierlubelski.pl,www.nto.pl,www.wspolczesna.pl,www.poranny.pl,www.pomorska.pl,www.gp24.pl,www.gazetalubuska.pl,www.echodnia.eu,www.to.com.pl,www.nowiny24.pl,www.polskatimes.pl,www.gs24.pl,www.gk24.pl###pasek-regionalny-plus:style(position: static!important;)
 www.dziennikpolski24.pl###pasek-media-plywajacy:style(position: static!important;)
-www.dziennikpolski24.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,naszemiasto.pl,www.kurierlubelski.pl,www.wspolczesna.pl,www.poranny.pl,www.pomorska.pl,www.gp24.pl,www.gazetalubuska.pl,www.echodnia.eu,www.to.com.pl,www.nowiny24.pl,www.polskatimes.pl,www.gs24.pl,www.gk24.pl,www.sportowy24.pl,www.dziennikzachodni.pl###kontener-wideo:style(position: static!important;)
+www.dziennikpolski24.pl,www.gazetakrakowska.pl,www.gazetawroclawska.pl,www.gloswielkopolski.pl,naszemiasto.pl,www.kurierlubelski.pl,www.wspolczesna.pl,www.poranny.pl,www.pomorska.pl,www.gp24.pl,www.gazetalubuska.pl,www.echodnia.eu,www.to.com.pl,www.nowiny24.pl,www.polskatimes.pl,www.gs24.pl,www.gk24.pl,www.sportowy24.pl,www.dziennikzachodni.pl,www.expressbydgoski.pl###kontener-wideo:style(position: static!important;)
 www.expressbydgoski.pl##.media-seo:style(position: static!important;)
 www.expressbydgoski.pl##html > body.widokDesktop:style(padding-top: 0px!important;)
 www.expressilustrowany.pl###menu-kontener:style(position: static!important;)
