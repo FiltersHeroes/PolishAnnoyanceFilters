@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 10 Nov 2017
-! Version: 2017111001
+! Last modified: 12 Nov 2017
+! Version: 2017111201
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pt, 10 listopada 2017, 16:14
+! Aktualizacja: nd, 12 listopada 2017, 11:31
 !
 !
 /bb_fbslider.js
@@ -15,7 +15,9 @@
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /livezillachat//script.php
+/media/mod_social_slider
 /plugins/facebook-fanbox-popup
+/plugins/system/screenreader/screenreader
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 /wp-content/plugins/FLM-Social-Sidebar
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
@@ -25,6 +27,7 @@
 agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
 agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
+ajgroup-pros.pl##.SocialBoard
 alget.pl###jOverlay, #jOverlayContent, .top_button
 allegro.pl##.with-bottom-link.card.opbox-sheet
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
@@ -62,6 +65,7 @@ coccodrillo.eu###sc_behind
 coccodrillo.eu##.newsletterWrap
 context.reverso.net###register-popup-bottom, .lock.icon, .go-up.icon
 cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
+cud.rzeszow.pl###pwebbox104
 cyfrowypolsatnews.pl##.cd-top
 cyklotur.com###_opineo_label
 d24h.pl###fancybox-wrap
@@ -123,7 +127,7 @@ gazetaprawna.pl###boxSubscr2016
 gazetaprawna.pl###miejsce104
 gazetaprawna.pl,~www.gazetaprawna.pl###nextArticleWidget
 gazetatrybunalska.pl,www.marihuana.info.pl###scroll-up
-gdzie-na-sylwestra.pl###go-top
+gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
 gemre.com.pl###tws_c_100002, #topLayerBackDrop, #backTop
 getinbank.pl###scroll_top
 getinbank.pl##.quickMenuRow.row
@@ -131,11 +135,13 @@ gminamoszczenica.eu##.fejs
 gmoto.pl##.well-sm.well
 goldenline.pl##.ui-widget-overlay, .invitationDialog, .blog-tab, #slidebox
 google.pl###_L8b
+grawerowanie.org.pl##.signup
 guzik.konin.pl##.fab-action-button
 harpersbazaar.com###campaign_237772_container_overlay
 hbo.pl##.ribbon
+historyk.eu###newsletter
 hitbank.pl###scrollbarbox
-homebook.pl###go-top
+hubkolektyw.pl##.panel-boczny
 ibiznes.biz###text-2
 info.elblag.pl###nastepnyArtykul
 infogram.com###launcher
@@ -143,15 +149,15 @@ innpoland.pl###fbinvite
 instyle.co.uk##.pw-button-pinterest.pw-button
 interia.pl##.error-page-layer
 izbadruku.org.pl###jslikeboxsidebarleft
-jablonka.info###accessibility-links
 jakzarabiaconline.blogspot.com###top
 jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_divs
+kantorekspert.pl###wys2
 katowice-airport.com###carwash-banner, #carwash-banner-c
 kaufland.pl##.a-back-to-top__button
 kisiel24.pl###cboxOverlay, #colorbox
 klonowypark.pl,misjonarska.com###right_info2
-kodiwpigulce.pl,niemarkowe.pl###totop
+kodiwpigulce.pl,niemarkowe.pl,cwninja.pl###totop
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
 komputronik.pl##.avia-post-next, .avia-post-prev, .rollup
@@ -178,6 +184,7 @@ mixmedia.pl###place3_v2, #place3_v3, #last-viewed, #fb_likebox
 mmaniak.pl###x13popup, #x13popup-cover
 mmarocks.pl##.smPopupContainer, #smPopupBackground
 mpolska24.pl###before-leave-window
+mobbingwpracy.com###pwebbox784
 mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay
@@ -241,6 +248,7 @@ polskiautohandel.pl,optyczne.pl##.backtopbutton
 polskihurtworld.eu##.ggu-widget-launcher, .tgtop
 pomorski-bs.pl###s5_scrolltop_a
 pomyslnawszystko.pl##div[class^="go-top"]
+pozyczkomat-lodz.pl##.hm_go_top
 pracuj.pl###scrollTop
 programtv.naziemna.info###my-fb-panel
 programuje.net##.ecIaBtfeSkzD-bg
@@ -319,10 +327,12 @@ wlaczoszczedzanie.pl##.fm-icon
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
 wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
+www.adwokatgdynia.com##nav.fixed
 www.akademiareklamy.edu.pl###topscroller
 www.brw.com.pl##.blok-newsletter
 www.bs-legal.pl###icon_wrapper
 www.chip.pl##.bottombar
+www.contuus.pl##.isStuck.stuck_container
 www.cozadzien.pl###error_widget, #recom_widget
 www.eglobalcentral.pl###hs-beacon
 www.elblag.net##.nextarticle.allpadding
@@ -335,8 +345,10 @@ www.igbbaltica.pl###jj_sl_navigation
 www.inowroclaw.info.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 www.jakonatorobi.pl,www.autofakty.pl###ruby-back-top
 www.kupbilet.pl##[class^="tabslide"]
+www.lodzkie.pl##.newsletterTop
 www.meczyki.pl##.scroll-up
 www.mgsm.pl##.show-for-large-up.row
+www.m-handel.pl##.bookmark
 www.mila.pl##.scroll-arrow
 www.mojanorwegia.pl###goUp
 www.my-mobile.pl##img[src="http://www.my-mobile.pl/html/fb.jpg"]
@@ -351,9 +363,10 @@ www.poradnikzdrowie.pl##.fixed.font_lower.menubar
 www.pruszynski.com.pl###order-outbox
 www.publio.pl##.widget-button
 www.purepc.pl##.mtotop
-www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl,www.marco.kielce.com,wlaczoszczedzanie.pl,prostaekonomia.pl###toTop
+www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl,www.marco.kielce.com,wlaczoszczedzanie.pl,prostaekonomia.pl,www.brif.pl###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.spidersweb.pl##.havetoread
+www.tygodnikprzeglad.pl###sidebar > .widget.widget-2
 www.wizytowka.be###back-to-top
 www.zatrzymujacczas.pl,kuchniawedwoje.pl###ffbp
 wyborcza.biz##.is-visible.mod_ddbox.mod
@@ -367,11 +380,13 @@ zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 zpozdrowieniem.pl##.header_fixed
 zrobisztosam.com###topLink
 zszywka.pl###inv-request-popup
+||a.mailmunch.co/app/$script,third-party
 ||cdn-widget.callpage.io/build/js/callpage.js
 ||chat.4finance.com^$third-party
 ||code.tidio.co^$third-party
 ||embed.tawk.to^$script
 ||gminamoszczenica.eu/media/system/js/modal.js
+||grawerowanie.org.pl/wp-content/uploads/2012/12/tlo17.gif
 ||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
@@ -382,12 +397,13 @@ zszywka.pl###inv-request-popup
 ||st.chatango.com/js/gz/emb.js
 ||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
-||v2.zopim.com/bin/v/widget_v2.220.js
+||v2.zopim.com/bin/v/widget_v2.*.js
 ||widget.userengage.com/widget.js
 ||widget.userengage.io/widget.js
 ||widgets.trustedshops.com/js/*.js$third-party
 ||www.czater.pl/assets/modules/chat/js/chat.js
 ||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
+||www.tygodnikprzeglad.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 !
 !
 ! Agora
@@ -658,6 +674,7 @@ pl###sbox-window
 pl###sc_behind
 pl###sc_wrapper
 pl###scroll-to-top
+pl###scroll-top
 pl###scroll-top-link
 pl###shareOpinionSticker
 pl###shelterHelp-box
@@ -783,6 +800,7 @@ pl##.introjs-overlay
 pl##.is-open.js-ajax-modal.dm-modal
 pl##.is-ready.dm-flyout--roost.dm-flyout--right.dm-flyout
 pl##.is-visible.mod_ddbox.mod
+pl##.jj_sl_navigation
 pl##.js_lb_overlay.lb_overlay
 pl##.layerBooking-mask
 pl##.left_adv
@@ -810,6 +828,7 @@ pl##.newsletter-layer
 pl##.newsletter_footer
 pl##.newsletter_inner
 pl##.newsletter_link
+pl##.newsletter-signup
 pl##.newsletter_wrapper
 pl##.newslettert
 pl##.next-page-a
