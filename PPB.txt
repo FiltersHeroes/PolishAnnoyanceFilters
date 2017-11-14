@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 12 Nov 2017
-! Version: 2017111201
+! Last modified: 14 Nov 2017
+! Version: 2017111401
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 12 listopada 2017, 11:31
+! Aktualizacja: wt, 14 listopada 2017, 21:56
 !
 !
 /bb_fbslider.js
@@ -57,7 +57,7 @@ brainly.pl##.js-another-ask-question-box
 brainly.pl##.sg-header--fixed
 butylukow.pl###tws_i_2
 byinsomnia.com###window-side-button
-caseih.com.pl###cboxOverlay 
+caseih.com.pl###cboxOverlay
 caseih.com.pl###colorbox
 chrzypsko.pl##.biegacz, #facebook_side
 coccodrillo.eu###homeNewsletter
@@ -218,6 +218,8 @@ ogloszenia24.info###fancybox-overlay
 ogloszeniowa.net###ad-left
 ogryzek.pl##.add_shop
 ogrzewania.pl##.modFBWidget
+okazik.pl###btn-scrollup
+okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
 olicom.com.pl###ouibounce-modal
 olx.pl##.js-gtm-survey.gtm-survey
 opensubtitles.org###fade
@@ -308,8 +310,8 @@ twojezaglebie.pl##.td-more-articles-box
 tygertenis.pl###overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 tymbark.com###kwit_brandwidget_btn
-univision24.pl,ogrzewania.pl##.up 
-vagczesci.pl###backTop
+univision24.pl,ogrzewania.pl,fabrykasypialni##.up
+vagczesci.pl,elmedico.pl###backTop
 vexel-fashion.pl##.side-block-icon
 viralz.pl,obcasy.pl##.spu-bg, .spu-box
 wakai.pl###sod-drawer-handle
@@ -358,14 +360,17 @@ www.noweinfo.pl##.td-affix
 www.nportal.no###fb-overlay
 www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
-www.politycznyislam.info, biznesalert.pl###subscribe
+www.politycznyislam.info,biznesalert.pl###subscribe
 www.poradnikzdrowie.pl##.fixed.font_lower.menubar
 www.pruszynski.com.pl###order-outbox
+www.pssite.com##.cell4.cell, .scrolltop
 www.publio.pl##.widget-button
 www.purepc.pl##.mtotop
 www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl,www.marco.kielce.com,wlaczoszczedzanie.pl,prostaekonomia.pl,www.brif.pl###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.spidersweb.pl##.havetoread
+www.sportbazar.pl###cart_tt, #cart_tt_bg, #moveTop
+www.tapeciarnia.pl###div_okienko_shoutbox_schowane
 www.tygodnikprzeglad.pl###sidebar > .widget.widget-2
 www.wizytowka.be###back-to-top
 www.zatrzymujacczas.pl,kuchniawedwoje.pl###ffbp
@@ -381,12 +386,14 @@ zpozdrowieniem.pl##.header_fixed
 zrobisztosam.com###topLink
 zszywka.pl###inv-request-popup
 ||a.mailmunch.co/app/$script,third-party
+||app.sugester.pl/tpbocian/widget.js
 ||cdn-widget.callpage.io/build/js/callpage.js
 ||chat.4finance.com^$third-party
 ||code.tidio.co^$third-party
 ||embed.tawk.to^$script
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||grawerowanie.org.pl/wp-content/uploads/2012/12/tlo17.gif
+||helponclick.com^$third-party,script
 ||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
@@ -396,12 +403,14 @@ zszywka.pl###inv-request-popup
 ||smartsuppchat.com/loader.js
 ||st.chatango.com/js/gz/emb.js
 ||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js
+||tapeciarnia.pl/img/do_gory.png
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
 ||v2.zopim.com/bin/v/widget_v2.*.js
 ||widget.userengage.com/widget.js
 ||widget.userengage.io/widget.js
 ||widgets.trustedshops.com/js/*.js$third-party
 ||www.czater.pl/assets/modules/chat/js/chat.js
+||www.dostawy-wody-zywiec.pl/img/kontakt_box.png
 ||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||www.tygodnikprzeglad.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 !
@@ -461,7 +470,7 @@ www.pulshr.pl##.progress-bar
 sjp.pwn.pl,slowniki.pwn.pl###floater
 www.ibuk.pl###login_box_placeholder
 www.lideria.pl##.slidingbasket
-www.ravelo.pl###modalAlertMethodNL 
+www.ravelo.pl###modalAlertMethodNL
 www.ravelo.pl##.promo-mark
 www.vulcan.edu.pl###b_gora
 !
@@ -475,7 +484,7 @@ plejada.pl###goback
 sympatia.onet.pl###iconsBar
 vod.pl###limitedCatalogInfo
 wbi.onet.pl###content-share-top
-www.fakt.pl##.headFixed 
+www.fakt.pl##.headFixed
 www.forbes.pl##.slideToTop
 zapytaj.onet.pl###header.mini
 !
@@ -626,6 +635,7 @@ pl###news-suggest
 pl###news_lokaleEcom
 pl###newsletter
 pl###newsletter-box
+pl###newsletter-container
 pl###newsletter-footer
 pl###newsletter-form
 pl###newsletter-lightbox-holder
@@ -858,6 +868,7 @@ pl##.right-news
 pl##.rstboxes
 pl##.running_banner_land
 pl##.scroll_to_top
+pl##.scrolltop
 pl##.scrollToTop
 pl##.self_rectangle
 pl##.side-menu
