@@ -1,11 +1,11 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
-! Last modified: 14 Nov 2017
-! Version: 2017111401
+! Last modified: 15 Nov 2017
+! Version: 2017111501
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wt, 14 listopada 2017, 21:55
+! Aktualizacja: śr, 15 listopada 2017, 18:38
 !
 !
 6krokow.pl###header:style(position: absolute!important;)
@@ -65,6 +65,7 @@ majsterpol.pl###jm-logo-djmenu-bg:style(position: absolute!important;)
 ministerstwonaukijazdy.pl###site-navigation:style(position: static!important;)
 mojaholandia.nl##.footer-fixed:style(position: static!important;)
 mrcbroker.pl###top:style(position: static!important;)
+myjki.com###top-fixed:style(position: absolute!important;)
 ncplus.pl##.navigation:style(position: static!important;)
 niezalezna.pl###header:style(position: absolute!important;)
 niezalezna.pl###pageWrapper:style(top: 0!important;)
@@ -94,7 +95,7 @@ spidersweb.pl##.mfp-ready
 spidersweb.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 stacja7.pl##.navbar-brand
 stacja7.pl##.navbar-fixed-top:style(position: absolute!important;)
-stokrotka.pl##.fancybox-overlay-fixed.fancybox-overlay
+stokrotka.pl##.fancybox-overlay-fixed
 stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: auto!important;)
 store.playstation.com###pageNavigator:style(position: absolute!important;)
 szerokiej-drogi.pl###head:style(position: absolute!important;)
@@ -372,6 +373,7 @@ www.wp.pl##header.header:style(position: absolute!important;)
 !
 !
 ! Reguły, które działają tylko na uBlocku
+neon24.pl##script:inject(abort-on-property-read.js, Service.cookieMonster)
 niezalezna.pl##script:inject(abort-on-property-read.js, onscroll)
 polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 sport.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)

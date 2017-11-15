@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 14 Nov 2017
-! Version: 2017111401
+! Last modified: 15 Nov 2017
+! Version: 2017111501
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wt, 14 listopada 2017, 21:56
+! Aktualizacja: śr, 15 listopada 2017, 18:38
 !
 !
 /bb_fbslider.js
@@ -45,6 +45,7 @@ bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
 bankobranie.blogspot.com###overlay, #topNewsletter, #sideSocial
+bestcena.pl##div[class^=newsletter-box]
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bikecs.com##.bcs_akcja_div
 bikecs.com##.bcs_footer2_div
@@ -67,7 +68,7 @@ context.reverso.net###register-popup-bottom, .lock.icon, .go-up.icon
 cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
 cud.rzeszow.pl###pwebbox104
 cyfrowypolsatnews.pl##.cd-top
-cyklotur.com###_opineo_label
+cyklotur.com##.musli-left.musli
 d24h.pl###fancybox-wrap
 dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
 dany-meble.pl##body > .hidden-sm.hidden-xs, #gototop
@@ -118,6 +119,7 @@ fokusfashion.com##form > input:nth-of-type(2)
 forpro.pl###message
 forsal.pl##.tresc:nth-of-type(6)
 forum.optymalizacja.com###ipsLayout_sidebar
+funtech.pl###mSliderMsg
 galeria-warminska.pl##.nwsltr.box
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriabursztynowa.com.pl##.ui-dialog, .ui-widget-overlay
@@ -135,10 +137,12 @@ gminamoszczenica.eu##.fejs
 gmoto.pl##.well-sm.well
 goldenline.pl##.ui-widget-overlay, .invitationDialog, .blog-tab, #slidebox
 google.pl###_L8b
+goral.info.pl##.showup.btn.contact-button
 grawerowanie.org.pl##.signup
 guzik.konin.pl##.fab-action-button
 harpersbazaar.com###campaign_237772_container_overlay
 hbo.pl##.ribbon
+hegos.eu##.newsletter, .popup, .popup-bg
 historyk.eu###newsletter
 hitbank.pl###scrollbarbox
 hubkolektyw.pl##.panel-boczny
@@ -194,9 +198,7 @@ motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
-myjki.com###_opineo_label
-myjki.com###widget-handler
-myjki.com###widget-prokonsumencki
+myjki.com###scrollTop
 mylomza.pl###codeboxrfeedbackbuttonfvfbj5showb1
 myphone.pl###trig_pop_news
 nafrontendzie.pl###popup-box-gfcr-1
@@ -284,10 +286,9 @@ silesiasem.pl###newsletterwidget-3
 silesiasem.pl##.mc-modal
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sklep-muzyczny.com.pl##.widgets
-sklep-rolnicze.eu###_opineo_label
 sklep-rolnicze.eu###oiTab
-sklep-rolnicze.eu##div[id^=BadgeContainer]
 sklep.eltron.pl##.menu_suggestion
+sklep.hart-metale.pl##.kac-sm-panel
 sklep.mieloch.pl###nicePopupWrapper
 sklep.milicon.eu###fbBox, #instaBox, #cartBox, #contactBox
 sklep.motor-land.com.pl###side_header_newsletter
@@ -311,7 +312,7 @@ tygertenis.pl###overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 tymbark.com###kwit_brandwidget_btn
 univision24.pl,ogrzewania.pl,fabrykasypialni##.up
-vagczesci.pl,elmedico.pl###backTop
+vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl###backTop
 vexel-fashion.pl##.side-block-icon
 viralz.pl,obcasy.pl##.spu-bg, .spu-box
 wakai.pl###sod-drawer-handle
@@ -322,9 +323,8 @@ wec.com.pl##div[id*=BadgeContainer]
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
 winiary.pl###kwit_brandwidget_btn
 wirtualnemedia.pl##.clearfix.tvn-box
-wispol.eu###_opineo_container
 wispol.eu###pushAdClicker
-wispol.eu##.popup_news
+wispol.eu##.popup_news, .newsletter
 wlaczoszczedzanie.pl##.fm-icon
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
@@ -333,6 +333,7 @@ www.adwokatgdynia.com##nav.fixed
 www.akademiareklamy.edu.pl###topscroller
 www.brw.com.pl##.blok-newsletter
 www.bs-legal.pl###icon_wrapper
+www.butyraj.pl##.hidden-phone.top_toplayer
 www.chip.pl##.bottombar
 www.contuus.pl##.isStuck.stuck_container
 www.cozadzien.pl###error_widget, #recom_widget
@@ -366,13 +367,14 @@ www.pruszynski.com.pl###order-outbox
 www.pssite.com##.cell4.cell, .scrolltop
 www.publio.pl##.widget-button
 www.purepc.pl##.mtotop
-www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl,www.marco.kielce.com,wlaczoszczedzanie.pl,prostaekonomia.pl,www.brif.pl###toTop
+www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl,www.marco.kielce.com,wlaczoszczedzanie.pl,prostaekonomia.pl,www.brif.pl,robizoo.pl###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.spidersweb.pl##.havetoread
 www.sportbazar.pl###cart_tt, #cart_tt_bg, #moveTop
 www.tapeciarnia.pl###div_okienko_shoutbox_schowane
 www.tygodnikprzeglad.pl###sidebar > .widget.widget-2
 www.wizytowka.be###back-to-top
+www.youtube.com##.ytp-ce-element
 www.zatrzymujacczas.pl,kuchniawedwoje.pl###ffbp
 wyborcza.biz##.is-visible.mod_ddbox.mod
 wykop.pl##.big.button
@@ -401,6 +403,7 @@ zszywka.pl###inv-request-popup
 ||nawozy.eu/js/jquery.lockscroll.min.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
+||ssl.ceneo.pl/shops/sw.js$third-party
 ||st.chatango.com/js/gz/emb.js
 ||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js
 ||tapeciarnia.pl/img/do_gory.png
@@ -411,6 +414,8 @@ zszywka.pl###inv-request-popup
 ||widgets.trustedshops.com/js/*.js$third-party
 ||www.czater.pl/assets/modules/chat/js/chat.js
 ||www.dostawy-wody-zywiec.pl/img/kontakt_box.png
+||www.opineo.pl/gfx/frontend/side_slider_gfx.png
+||www.opineo.pl/shop/slider.js.php$third-party
 ||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||www.tygodnikprzeglad.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 !
@@ -528,7 +533,6 @@ pl###PSH-Bar
 pl###PilneAktualnosciBox
 pl###PushangoAlert
 pl###_hj_poll_container
-pl###_opineo_container
 pl###ad4sc
 pl###adblock-info
 pl###airangAv
@@ -537,6 +541,7 @@ pl###allegro_ikona
 pl###article_promo
 pl###aswift_0_expand
 pl###at-cv-lightbox-win
+pl###back-top
 pl###back-to-top
 pl###back_to_top
 pl###backgroundFade
@@ -551,7 +556,6 @@ pl###bblbrd_outer
 pl###box-newsletter
 pl###box_newsletter
 pl###bxAnnouncementsStartPage
-pl###ceneo-widget
 pl###cityModal
 pl###close-site-channel
 pl###cloud_delivery
@@ -587,6 +591,7 @@ pl###get-loan-header-button
 pl###gold-header
 pl###google-ads-container3
 pl###googleplus2_2
+pl###gotop
 pl###grwf2_3453105_fiiif
 pl###grwf2_6564003_tut7h
 pl###grwf2_6565603_dfd0d
@@ -839,6 +844,7 @@ pl##.newsletter_footer
 pl##.newsletter_inner
 pl##.newsletter_link
 pl##.newsletter-signup
+pl##.newsletter-subscribe
 pl##.newsletter_wrapper
 pl##.newslettert
 pl##.next-page-a
