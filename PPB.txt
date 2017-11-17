@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 17 Nov 2017
-! Version: 2017111701
+! Version: 2017111702
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pt, 17 listopada 2017, 13:07
+! Aktualizacja: pt, 17 listopada 2017, 22:16
 !
 !
 /bb_fbslider.js
@@ -325,6 +325,7 @@ wec.com.pl##div[id*=BadgeContainer]
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
 winiary.pl###kwit_brandwidget_btn
 wirtualnemedia.pl##.clearfix.tvn-box
+wirtualnemedia.pl##.extra_news > .header_blue
 wispol.eu###pushAdClicker
 wispol.eu##.popup_news, .newsletter
 wlaczoszczedzanie.pl##.fm-icon
@@ -333,6 +334,7 @@ wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
 wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
 www.adwokatgdynia.com##nav.fixed
 www.akademiareklamy.edu.pl###topscroller
+www.biedronka.pl##.newsletter-tile
 www.brw.com.pl##.blok-newsletter
 www.bs-legal.pl###icon_wrapper
 www.butyraj.pl##.hidden-phone.top_toplayer
@@ -416,6 +418,8 @@ zszywka.pl###inv-request-popup
 ||widget.userengage.com/widget.js
 ||widget.userengage.io/widget.js
 ||widgets.trustedshops.com/js/*.js$third-party
+||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
+||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
 ||www.czater.pl/assets/modules/chat/js/chat.js
 ||www.dostawy-wody-zywiec.pl/img/kontakt_box.png
 ||www.opineo.pl/gfx/frontend/side_slider_gfx.png
@@ -517,6 +521,7 @@ fantasyliga.wp.pl##.show-chat
 komorkomania.pl,autokult.pl##.btn-comments
 misioweopowiesci.o2.pl##.playlist__header
 tv.wp.pl###Slider
+www.bankier.pl###boxNewsletterFlyfooter
 www.foto.wp.pl##.main-container
 www.homebook.pl##.is-active.js-go-top.go-top
 www.money.pl##.float.more-news
