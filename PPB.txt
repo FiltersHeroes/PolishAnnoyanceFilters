@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 18 Nov 2017
-! Version: 2017111801
+! Version: 2017111802
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 18 listopada 2017, 15:22
+! Aktualizacja: sob, 18 listopada 2017, 20:29
 !
 !
 /bb_fbslider.js
@@ -66,6 +66,7 @@ coccodrillo.eu###sc_behind
 coccodrillo.eu##.newsletterWrap
 context.reverso.net###register-popup-bottom, .lock.icon, .go-up.icon
 cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
+cryptoweb.pl###single-sticky, #sticky-header
 cud.rzeszow.pl###pwebbox104
 cyfrowypolsatnews.pl##.cd-top
 cyklotur.com##.musli-left.musli
@@ -341,6 +342,7 @@ www.biedronka.pl##.newsletter-tile
 www.brw.com.pl##.blok-newsletter
 www.bs-legal.pl###icon_wrapper
 www.butyraj.pl##.hidden-phone.top_toplayer
+www.chamskie.pl###widget-back-to-top
 www.chip.pl##.bottombar
 www.contuus.pl##.isStuck.stuck_container
 www.cozadzien.pl###error_widget, #recom_widget
@@ -424,6 +426,8 @@ zszywka.pl###inv-request-popup
 ||widgets.trustedshops.com/js/*.js$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
+||www.chamskie.pl/compress/popupFacebook.js
+||www.chamskie.pl/compress/popups/popupFacebook_normal.css
 ||www.czater.pl/assets/modules/chat/js/chat.js
 ||www.dostawy-wody-zywiec.pl/img/kontakt_box.png
 ||www.opineo.pl/gfx/frontend/side_slider_gfx.png
