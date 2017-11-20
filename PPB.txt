@@ -1,15 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 18 Nov 2017
-! Version: 2017111802
+! Last modified: 20 Nov 2017
+! Version: 2017112001
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 18 listopada 2017, 20:29
+! Aktualizacja: pon, 20 listopada 2017, 13:19
 !
 !
+.facebooklikepopup.
 /bb_fbslider.js
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
@@ -123,6 +124,7 @@ forum.optymalizacja.com###ipsLayout_sidebar
 funtech.pl###mSliderMsg
 galeria-warminska.pl##.nwsltr.box
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
+galeriabronowice.pl##.news
 galeriabursztynowa.com.pl##.ui-dialog, .ui-widget-overlay
 galeriaveneda.com.pl###popup
 gazetapraca.pl###nlt_overlay
@@ -196,7 +198,7 @@ mpolska24.pl###before-leave-window
 mobbingwpracy.com###pwebbox784
 mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
-monashe.pl###fancybox-overlay
+monashe.pl###fancybox-overlay, #popup
 monedo.pl##.small.help
 morele.net###back_to_top
 motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl##.scrollup
@@ -309,7 +311,6 @@ stylowebuty.pl##.banner-newsletter
 tabletowo.pl###topcontrol
 taniaksiazka.pl##.newsletter-popup
 targsmaku.pl##.active.page-bottom-bar, .fb-flayout-box-trigger.flayout-box-trigger
-teleguru.pl##.fancybox-overlay-fixed.fancybox-overlay
 telemedi.co###notifications-pop, #ue_widget, .sidebar-links
 twojapogoda.pl###cboxOverlay
 twojapogoda.pl###colorbox
@@ -368,7 +369,7 @@ www.movieway.pl###tc-footer-btt-wrapper
 www.my-mobile.pl##img[src="http://www.my-mobile.pl/html/fb.jpg"]
 www.myphone.pl##.trans.mainArrowBackToTop
 www.neon24.pl###div_up_arrow
-www.noweinfo.pl,ndie.pl,www.theillest.pl##.td-affix
+www.noweinfo.pl,ndie.pl,www.theillest.pl,expresselblag.pl##.td-affix
 www.nportal.no###fb-overlay
 www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
