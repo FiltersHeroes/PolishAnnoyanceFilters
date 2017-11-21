@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 20 Nov 2017
-! Version: 2017112002
+! Version: 2017112101
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 20 listopada 2017, 21:15
+! Aktualizacja: pon, 21 listopada 2017, 17:48
 !
 !
 .facebooklikepopup.
@@ -65,6 +65,7 @@ chrzypsko.pl##.biegacz, #facebook_side
 coccodrillo.eu###homeNewsletter
 coccodrillo.eu###sc_behind
 coccodrillo.eu##.newsletterWrap
+comperia.pl##.comperiaFooter
 context.reverso.net###register-popup-bottom, .lock.icon, .go-up.icon
 cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
 cryptoweb.pl###single-sticky, #sticky-header
@@ -185,6 +186,7 @@ mbank.pl###push-message
 mbank.pl##.covered.edge-menu
 meble.pl##.footer-subscription
 media2.pl###news-readmore
+media2.pl###news-suggest
 mediaexpert.pl###go_top
 medianarodowe.com###gototop, .art__social-footer__link--comment, #fbinvite, .widget_radium_newsletter
 mediarun.com##.vc_row-has-fill
@@ -285,6 +287,7 @@ rooader.pl###nicePopupWrapper
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com###fixed_strefa_marek
 salon24.pl##.article-bookstore
+satkurier.pl,podrozezantena.pl,digi-tv.pl,solarkurier.pl,bochniaisol.pl###newsletterMsg
 scie24.pl###up
 scooterkingz.com.pl##.newsletter_form
 se.pl###social-widget
@@ -333,6 +336,8 @@ wirtualnemedia.pl##.clearfix.tvn-box
 wirtualnemedia.pl##.extra_news > .header_blue
 wispol.eu###pushAdClicker
 wispol.eu##.popup_news, .newsletter
+wirtualnemedia.pl###swim_box
+wirtualnemedia.pl##.header_blue
 wlaczoszczedzanie.pl##.fm-icon
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
@@ -645,7 +650,6 @@ pl###multitab
 pl###musli
 pl###news-bar
 pl###news-gallery-overlay
-pl###news-suggest
 pl###news_lokaleEcom
 pl###newsletter
 pl###newsletter-box
@@ -657,7 +661,6 @@ pl###newsletter-pane
 pl###newsletter_popup
 pl###newsletter_popup_overlay
 pl###newsletterBoxLeft
-pl###newsletterMsg
 pl###newsletter_block_left
 pl###newsletter_box
 pl###newsletter_content_box
@@ -722,7 +725,6 @@ pl###sticky-promo
 pl###sub_dlg
 pl###sugester-chat
 pl###sugester_widget
-pl###swim_box
 pl###telemedicoWidget
 pl###test-modal
 pl###tln3_bg
