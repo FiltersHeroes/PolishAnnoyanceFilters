@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 22 Nov 2017
-! Version: 2017112201
+! Last modified: 23 Nov 2017
+! Version: 2017112301
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 22 listopada 2017, 21:58
+! Aktualizacja: czw, 23 listopada 2017, 10:45
 !
 !
 .facebooklikepopup.
@@ -41,10 +41,10 @@ allani.pl##.back-to-top
 allani.pl##.visible.desktop-native-app-banner
 allegro.pl##.with-bottom-link.card.opbox-sheet
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
-amracing.pl##img[src=\"/images/dealers_button.png\"]
-amracing.pl##img[src=\"/images/files_button.png\"]
-amracing.pl##img[src=\"/images/partners_button.png\"]
-amracing.pl##img[src=\"/images/players_button.png\"]
+amracing.pl##img[src="/images/dealers_button.png"]		 
+amracing.pl##img[src="/images/files_button.png"]		 
+amracing.pl##img[src="/images/partners_button.png"]		 
+amracing.pl##img[src="/images/players_button.png"]
 angolia.co.uk###fancybox-content
 angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
@@ -334,7 +334,7 @@ partneragdrtv.com.pl###js-sis_menu
 pato.pl###nasza_klasa_side_bar
 pb.pl##.smPopupContainer, #smPopupBackground
 pkobp.pl###scrollie
-pl.000webhost.com##div[style=\"cursor: pointer;\"]
+pl.000webhost.com##div[style="cursor: pointer;"]
 pl.pokerstrategy.com##.js_lb_overlay.lb_overlay
 pl.tripadvisor.com##.dark.ui_backdrop
 play.google.com##.sticky
@@ -352,13 +352,13 @@ pol-nor.com###overlay
 pol-nor.com###popforfirma
 pol-nor.com##.formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
-policja.pl,policja.gov.pl##[id^=\"popup-\"], #krajowa_mapa_zagrozen
+policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 polsatnews.pl###fab
 polskaracja.com##.g1-back-to-top
 polskiautohandel.pl,optyczne.pl##.backtopbutton
 polskihurtworld.eu##.ggu-widget-launcher, .tgtop
 pomorski-bs.pl###s5_scrolltop_a
-pomyslnawszystko.pl##div[class^=\"go-top\"]
+pomyslnawszystko.pl##div[class^="go-top"]
 portalenieruchomosci.pl##.text-right.col-xs-2
 pozyczkaportal.pl##.tiny.header
 pozyczkomat-lodz.pl##.hm_go_top
@@ -460,7 +460,6 @@ wiadomoscihandlowe.pl###newsletter-popup-wrapper
 winiary.pl###kwit_brandwidget_btn
 wirtualnemedia.pl###swim_box
 wirtualnemedia.pl##.clearfix.tvn-box
-wirtualnemedia.pl##.extra_news > .header_blue
 wirtualnemedia.pl##.header_blue
 wispol.eu###pushAdClicker
 wispol.eu##.popup_news, .newsletter
@@ -490,7 +489,7 @@ www.igbbaltica.pl###jj_sl_navigation
 www.inowroclaw.info.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 www.jakonatorobi.pl,www.autofakty.pl###ruby-back-top
 www.komputerswiat.pl###ks_breaking_news
-www.kupbilet.pl##[class^=\"tabslide\"]
+www.kupbilet.pl##[class^="tabslide"]
 www.lodzkie.pl##.newsletterTop
 www.m-handel.pl##.bookmark
 www.meczyki.pl##.scroll-up
@@ -498,12 +497,12 @@ www.mgsm.pl##.show-for-large-up.row
 www.mila.pl##.scroll-arrow
 www.mojanorwegia.pl###goUp
 www.movieway.pl###tc-footer-btt-wrapper
-www.my-mobile.pl##img[src=\"http://www.my-mobile.pl/html/fb.jpg\"]
+www.my-mobile.pl##img[src="http://www.my-mobile.pl/html/fb.jpg"]
 www.myphone.pl##.trans.mainArrowBackToTop
 www.neon24.pl###div_up_arrow
 www.noweinfo.pl,ndie.pl,www.theillest.pl,expresselblag.pl##.td-affix
 www.nportal.no###fb-overlay
-www.oszustwo.net##div[id^=\"ulp-\"]
+www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
 www.politycznyislam.info,biznesalert.pl###subscribe
 www.poradnikzdrowie.pl##.fixed.font_lower.menubar
