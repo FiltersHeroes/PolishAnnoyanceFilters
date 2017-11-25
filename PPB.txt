@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 25 Nov 2017
-! Version: 2017112501
+! Version: 2017112502
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 25 listopada 2017, 12:31
+! Aktualizacja: sob, 25 listopada 2017, 17:17
 !
 !
 .facebooklikepopup.
@@ -35,9 +35,7 @@ agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
 ajgroup-pros.pl##.SocialBoard
 alget.pl###jOverlay, #jOverlayContent, .top_button
-aligoo.pl##.remodal-overlay
-aligoo.pl##.remodal-wrapper
-allani.pl##.back-to-top
+aligoo.pl##.remodal-overlay, .remodal-wrapper
 allani.pl##.visible.desktop-native-app-banner
 allegro.pl##.with-bottom-link.card.opbox-sheet
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
@@ -63,7 +61,6 @@ bikecs.com##.bcs_akcja_div
 bikecs.com##.bcs_footer2_div
 bikecs.com##.bcs_site, .bcs_switch
 biznesalert.pl##.toolbar
-bluecity.pl###cboxOverlay
 bluecity.pl##.popupContent
 bluerank.pl##.shown.exit
 booking.com##.b_leaving_users_light_box_mask.modal-mask
@@ -74,12 +71,8 @@ brilu.pl##.popup__overlay
 butosklep.pl###toplayer_newsletter
 butyibuty.pl###news_popup
 butylukow.pl###tws_i_2
-byinsomnia.com###modal-newsletter
-byinsomnia.com###window-side-button
-byinsomnia.com##.remodal-overlay
 bylola.pl###popup
-caseih.com.pl###cboxOverlay
-caseih.com.pl###colorbox
+caseih.com.pl,kisiel24.pl,bluecity.pl,word.czest.pl,twojapogoda.pl,wearmedicine.com,otmuchow.pl###cboxOverlay, #colorbox
 casu.pl###amsocial_dark
 ceneo.pl##.popup-cl.popup.js_popup
 chrzypsko.pl##.biegacz, #facebook_side
@@ -94,20 +87,16 @@ cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
 cryptoweb.pl###single-sticky, #sticky-header
 cud.rzeszow.pl###pwebbox104
 cyfrowypolsatnews.pl##.cd-top
-cyklotur.com###_opineo_label
 cyklotur.com##.musli-left.musli
 d24h.pl###fancybox-overlay
 d24h.pl###fancybox-wrap
 dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
 dany-meble.pl##body > .hidden-sm.hidden-xs, #gototop
-darmoweogłoszenia.pl##center
 dayli.com.pl##.fancybox-inner
 dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 dbpolska.net,ampolska.net###panel
 ddz.doba.pl###bannersstickright
-decathlon.pl###messagetop
-deezee.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
-deezee.pl##.mfp-ready.mfp-bg
+decathlon.pl##a[href="#top"]
 diagnozainternetu.pl##.top
 diversesystem.com###dvrs-newsletter-popup-body
 dobreprogramy.pl##.forum-help-cta.no-mobile.block
@@ -118,8 +107,7 @@ dogry.pl##.register-overlayer--game.register-overlayer
 domsary.eu###widget-handler
 domzagadek.pl##.voucher-widget, #scroll_strz
 doruchow.pl###div_loader
-doubletreewarsaw.pl###fancybox-overlay
-doubletreewarsaw.pl###fancybox-wrap
+doubletreewarsaw.pl##.popout__container
 doxa.fm###spu-77018
 doxa.fm###spu-bg-77018
 drlaptop.pl###load
@@ -128,12 +116,7 @@ dukapolska.com###exit--popup--box, #exit--popup--container, #exit--popup--wrappe
 dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
 e-ciucholand.com###ctk_np_popup
 e-ciucholand.com##.reveal-modal-bg
-e-przepisykulinarne.pl###ffbp-bg
-e-przepisykulinarne.pl###ffbp-body
-e-przepisykulinarne.pl###ffbp-close
-e-przepisykulinarne.pl###ffbp-msg-cont
-e-saving.pl##.overlay
-e-saving.pl##.scroll
+e-saving.pl##.overlay, .scroll
 ebuty.pl###fancybox-outer
 ebuty.pl###fancybox-overlay
 ekai.pl##.show.extra-article
@@ -148,16 +131,10 @@ enel.pl##.widgets
 eporady24.pl##.zaczekaj
 epoznan.pl###main_menu_fixed
 euro.com.pl###footer-shops > .column:nth-of-type(1)
-euro.com.pl###menu-product
 euro.com.pl###product-for-sale-box
-euro.com.pl###uszy_left
-euro.com.pl###uszy_right
-euro.com.pl##.background-container
 eurobank.pl##.reviews
 extraportfel.pl###om-zwmbbwgam5p7tl8v
-facebook.com###dialog_0
-facebook.com###pagelet_growth_expanding_cta
-facebook.com###u_0_*..
+facebook.com###dialog_0, #pagelet_growth_expanding_cta, #u_0_*..
 fakty.plportal.pl###block-block-10
 fasardi.com##.back-to-top
 fashionata.pl###bodyWrapper
@@ -189,10 +166,7 @@ gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
 gemre.com.pl###tws_c_100002, #topLayerBackDrop, #backTop
 getinbank.pl###scroll_top
 getinbank.pl##.quickMenuRow.row
-gg.pl###ext-gen1144
-gg.pl###ext-gen1162
-gg.pl###sr-base-window
-gg.pl###sr-window-cover
+gg.pl###ext-gen1144, #ext-gen1162, #sr-base-window, #sr-window-cover
 gizchina.com.pl##.vw-more-articles, .vw-scroll-to-top
 gminamoszczenica.eu##.fejs
 gmoto.pl##.well-sm.well
@@ -201,8 +175,7 @@ google.pl###_L8b
 goral.info.pl##.showup.btn.contact-button
 grawerowanie.org.pl##.signup
 guzik.konin.pl##.fab-action-button
-halens.pl###popup-overlay
-halens.pl###promotion-popup
+halens.pl###popup-overlay, #promotion-popup
 handkate.com###iucn50dhblockingLayer
 handkate.com###iucn50dhframeWrap
 harpersbazaar.com###campaign_237772_container_overlay
@@ -210,8 +183,7 @@ hbo.pl###popupAdv
 hbo.pl##.ribbon
 hegos.eu##.newsletter, .popup, .popup-bg
 historyk.eu###newsletter
-hitbank.pl###scrollbarbox
-hitbank.pl###upprev_box
+hitbank.pl###scrollbarbox, #upprev_box
 hubkolektyw.pl##.panel-boczny
 ibiznes.biz###text-2
 idream.pl##.wf2-bg-light.grwf2_backdrop
@@ -222,19 +194,16 @@ instyle.co.uk##.pw-button-pinterest.pw-button
 inter-kop.pl##.phone.text-uppercase.col-xs-12.col-md-4
 interia.pl##.error-page-layer
 internetowykantor.pl###grwf2_6565603_dfd0d
-intershoe.com.pl###news_popup
 izbadruku.org.pl###jslikeboxsidebarleft
 jadisco.pl##.gramytatywnie
 jakzarabiaconline.blogspot.com###top
 jednoslad.pl###custom_fan_gate_overlay
 jednoslad.pl###custom_fan_gate_overlay_divs
-jubilerbogart.pl###spu-845
-jubilerbogart.pl###spu-bg-845
+jubilerbogart.pl###spu-845, #spu-bg-845, #facebook-left
 kantorekspert.pl###wys2
 katowice-airport.com###carwash-banner, #carwash-banner-c
 kaufland.pl##.a-back-to-top__button
 kazar.com##.slide-contact
-kisiel24.pl###cboxOverlay, #colorbox
 kliknijwzdrowie.pl###scroll_totop
 klonowypark.pl,misjonarska.com###right_info2
 kodiwpigulce.pl,niemarkowe.pl,cwninja.pl###totop
@@ -242,21 +211,16 @@ kombo.krakow.pl###divGoTop2Mob
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
 komputronik.pl##.avia-post-next, .avia-post-prev, .rollup
-konicaminolta.info.pl###\\\\\\\\\\\\\\\\34 NmqO
 konicaminolta.info.pl##.kontakt-slide
-kosmetykomania.pl###overlayDesktop
-kosmetykomania.pl###sb-desktop-push
+kosmetykomania.pl###overlayDesktop, #sb-desktop-push
 kotkowicz.pl###sticky_header, .vce-sticky
 kotrak.pl##.kotrak_infobox_button
 krakusik.pl###id_B
 kredito24.pl##.btn-apply
 kresy.pl##.ls-popup
 kupbuty.com###tws_i_1, #topLayerBackDrop
-kwiaciarnia-olivia.pl###logo2a
-kwiaciarnia-rikka.pl###ab5793095750e7d8deaf0a68309dec76e
-lamoda.pl##.is-visible.js-return-to-top.return-to-top
-lendon.pl###om-tc9eyhkigbzbjvxb
-loando.pl##.intro-wrapper
+kwiaciarnia-olivia.pl###logo2a, #tlo2a, #wysuwane
+lamoda.pl##.js-return-to-top
 lolmania.pl##.g1-back-to-top
 lp.travelist.pl###returnToTopButton
 mac-world.pl##.et_bloom_popup
@@ -283,7 +247,6 @@ mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay, #popup
 monedo.pl##.small.help
-moneyguru.com.pl###om-nmhj2lo9jrkfl2hn
 morele.net###back_to_top
 motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl##.scrollup
 mpolska24.pl###before-leave-window
@@ -293,7 +256,7 @@ muve.pl###exit--popup--container
 myjki.com###scrollTop
 mylomza.pl###codeboxrfeedbackbuttonfvfbj5showb1
 myphone.pl###trig_pop_news
-mysize.com.pl###popup_box
+mysize.com.pl###popup_box, #overlay
 nafrontendzie.pl###popup-box-gfcr-1
 najlepsze-chwilowki.pl###edodatki_popup_box-fixed
 natemat.pl###fbinvite, #posts-progress
@@ -304,9 +267,7 @@ ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.arrow-up
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nestbank.pl##.fixed-label
-newsweek.pl###ARTICLE_STREAM_PATH
-newsweek.pl###nitro-block
-newsweek.pl##.wrapper
+newsweek.pl###ARTICLE_STREAM_PATH, #nitro-block, .wrapper
 nietylkopasta.pl###dbx_light
 nowa.tv##.sticky_boxes
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
@@ -318,16 +279,13 @@ ogryzek.pl##.add_shop
 ogrzewania.pl##.modFBWidget
 okazik.pl###btn-scrollup
 okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
-okmoneta.pl
+okmoneta.pl###popupEmailPhone
 oleole.pl###popup-new
 olicom.com.pl###ouibounce-modal
-olika.com.pl##.pop-up
-olika.com.pl##.pop-up-overlay
+olika.com.pl##.pop-up, .pop-up-overlay
 olx.pl##.js-gtm-survey.gtm-survey
 opensubtitles.org###fade
 orange.pl##.usabilla__overlay
-otmuchow.pl###cboxOverlay
-otmuchow.pl###colorbox
 otomoto.pl##.social-float-bar
 p2mforum.info###uix_jumpToFixed
 pakolorente.com###tws_a_1
@@ -350,10 +308,7 @@ playstation.com###back-to-top
 poczta.int.pl##.maximized-wrapper.ng-isolate-scope
 poczta.interia.pl###side-ad
 pogotowiegotowkowe.info###out-popup
-pol-nor.com###boxpopup
-pol-nor.com###overlay
-pol-nor.com###popforfirma
-pol-nor.com##.formk
+pol-nor.com###boxpopup, #overlay, #popforfirma, .formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 polsatnews.pl###fab
@@ -381,23 +336,16 @@ pytamy.pl##.fixFooter
 pytamy.pl##.tabZB
 quiosque.pl##.nl-container
 racing-planet.pl###contactable_inner
-redcoon.pl###j-newsletterForm
-redcoon.pl##.scrollUp
-reklama.pl###top-banner
-reklama.pl##.curl
-reklama.pl##.flip
+redcoon.pl###j-newsletterForm, .scrollUp
+reklama.pl###top-banner, .curl, .flip
 renee.pl##.newsletter__section, .scroll__top
 reporters.pl##.boxzilla-najczesciej-czytacie, .wpsr-followbar
 resortpro.ht-int.com###i-username, .newsletter-overall
 rmf.fm###loteria-footer
-romantycznyweekend.eu###article-finished
-romantycznyweekend.eu###fancybox-overlay
-romantycznyweekend.eu###fancybox-wrap
+romantycznyweekend.eu###article-finished, #fancybox-overlay, #fancybox-wrap
 rooader.pl###nicePopupWrapper
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com###fixed_strefa_marek
-rp.pl##tqwidget
-rylko.com###modal-newsletter
 sakolife.pl###nspopup_wrapper_bg
 salesandshopping.pl###fanback
 salon24.pl##.article-bookstore
@@ -412,7 +360,6 @@ silesiasem.pl###newsletterwidget-3
 silesiasem.pl##.mc-modal
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sklep-muzyczny.com.pl##.widgets
-sklep-rolnicze.eu###_opineo_label
 sklep-rolnicze.eu###oiTab
 sklep.eltron.pl##.menu_suggestion
 sklep.hart-metale.pl##.kac-sm-panel
@@ -441,8 +388,6 @@ targsmaku.pl##.active.page-bottom-bar, .fb-flayout-box-trigger.flayout-box-trigg
 telemedi.co###notifications-pop, #ue_widget, .sidebar-links
 telepolis.pl##.rightColumn
 telewizja-cyfrowa.com###ppsPopupBgOverlay
-twojapogoda.pl###cboxOverlay
-twojapogoda.pl###colorbox
 twojezaglebie.pl##.td-more-articles-box
 tygertenis.pl###dialog
 tygertenis.pl###overlay
@@ -455,8 +400,7 @@ viralz.pl,obcasy.pl##.spu-bg, .spu-box
 wakai.pl###sod-drawer-handle
 walutomat.pl###grwf2_6564003_tut7h
 wanika.pl###cloudBox
-wearmedicine.com###cboxLoadedContent, #cboxOverlay, #nlPopup, #nlThanks
-wearmedicine.com##.newsletter
+wearmedicine.com###nlPopup, #nlThanks, .newsletter
 wec.com.pl##div[id*=BadgeContainer]
 welafashion.pl##.up
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
@@ -470,8 +414,6 @@ wlaczoszczedzanie.pl##.fm-icon
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
 wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
-word.czest.pl###cboxOverlay
-word.czest.pl###colorbox
 wszystkotujest.pl##.box-banners:nth-of-type(4)
 www.adwokatgdynia.com##nav.fixed
 www.akademiareklamy.edu.pl###topscroller
@@ -515,7 +457,6 @@ www.pruszynski.com.pl###order-outbox
 www.pssite.com##.cell4.cell, .scrolltop
 www.publio.pl##.widget-button
 www.purepc.pl##.mtotop
-www.pyszne.pl,www.reeco.info.pl,www.mdm.elblag.pl,nowosci-mp3.eu,www.widzialni.pl,kisiel24.pl,www.motociler.pl,www.marco.kielce.com,wlaczoszczedzanie.pl,prostaekonomia.pl,www.brif.pl,robizoo.pl###toTop
 www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.spidersweb.pl##.havetoread
 www.sportbazar.pl###cart_tt, #cart_tt_bg, #moveTop
@@ -523,7 +464,7 @@ www.tapeciarnia.pl###div_okienko_shoutbox_schowane
 www.tygodnikprzeglad.pl###sidebar > .widget.widget-2
 www.wizytowka.be###back-to-top
 www.youtube.com##.ytp-ce-element
-www.zatrzymujacczas.pl,kuchniawedwoje.pl###ffbp
+www.zatrzymujacczas.pl,kuchniawedwoje.pl,e-przepisykulinarne.pl###ffbp
 wyborcza.biz##.is-visible.mod_ddbox.mod
 wykop.pl##.big.button
 xboxforum.pl##.primary.floatingItem
@@ -857,6 +798,7 @@ pl###test-modal
 pl###tln3_bg
 pl###tln3_wrap
 pl###topLayerBackDrop
+pl###toTop
 pl###trigger
 pl###twitter2_2
 pl###twsshadow2_bg
@@ -887,6 +829,7 @@ pl##.arts-box-wrapper
 pl##.at-cv-lightbox-background
 pl##.b-header-decoration
 pl##.babanner
+pl##.back-to-top
 pl##.bann
 pl##.banner-special-content
 pl##.bg-pop-over
