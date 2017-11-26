@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 26 Nov 2017
-! Version: 2017112601
+! Version: 2017112602
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 26 listopada 2017, 10:48
+! Aktualizacja: nd, 26 listopada 2017, 12:41
 !
 !
 .facebooklikepopup.
@@ -287,7 +287,7 @@ olika.com.pl##.pop-up, .pop-up-overlay
 olx.pl##.js-gtm-survey.gtm-survey
 opensubtitles.org###fade
 orange.pl##.usabilla__overlay
-otmuchow.pl,word.czest.pl###colorbox:has(#komunikaty)
+otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 otmuchow.pl##script ~ #cboxOverlay
 otomoto.pl##.social-float-bar
 p2mforum.info###uix_jumpToFixed
@@ -500,6 +500,7 @@ zszywka.pl###inv-request-popup
 ||ssl.ceneo.pl/shops/sw.js$third-party
 ||st.chatango.com/js/gz/emb.js
 ||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js
+||static.whatshelp.io/widget-send-button/js/init.js
 ||tapeciarnia.pl/img/do_gory.png
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
 ||v2.zopim.com/bin/v/widget_v2.*.js
