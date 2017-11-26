@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 25 Nov 2017
-! Version: 2017112502
+! Last modified: 26 Nov 2017
+! Version: 2017112601
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 25 listopada 2017, 17:17
+! Aktualizacja: nd, 26 listopada 2017, 10:48
 !
 !
 .facebooklikepopup.
@@ -72,7 +72,8 @@ butosklep.pl###toplayer_newsletter
 butyibuty.pl###news_popup
 butylukow.pl###tws_i_2
 bylola.pl###popup
-caseih.com.pl,kisiel24.pl,bluecity.pl,word.czest.pl,twojapogoda.pl,wearmedicine.com,otmuchow.pl###cboxOverlay, #colorbox
+caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
+caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 casu.pl###amsocial_dark
 ceneo.pl##.popup-cl.popup.js_popup
 chrzypsko.pl##.biegacz, #facebook_side
@@ -286,6 +287,8 @@ olika.com.pl##.pop-up, .pop-up-overlay
 olx.pl##.js-gtm-survey.gtm-survey
 opensubtitles.org###fade
 orange.pl##.usabilla__overlay
+otmuchow.pl,word.czest.pl###colorbox:has(#komunikaty)
+otmuchow.pl##script ~ #cboxOverlay
 otomoto.pl##.social-float-bar
 p2mforum.info###uix_jumpToFixed
 pakolorente.com###tws_a_1
