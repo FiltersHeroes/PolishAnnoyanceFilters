@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 27 Nov 2017
-! Version: 2017112701
+! Last modified: 29 Nov 2017
+! Version: 2017112901
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 26 listopada 2017, 23:30
+! Aktualizacja: śr, 29 listopada 2017, 18:46
 !
 !
 .facebooklikepopup.
@@ -50,11 +50,11 @@ answear.com###popupNewsletter, #popupNewsletterWrap
 asport.pl##.hit-tygodnia
 avans.pl###js-scrollTop
 avast.com###slide-top
-bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
 bank-life.pl###message
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
 bankobranie.blogspot.com###overlay, #topNewsletter, #sideSocial
+belzyce.edu.pl,www.waszepodroze.eu,pl##.jj_sl_navigation
 bestcena.pl##div[class^=newsletter-box]
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bikecs.com##.bcs_akcja_div
@@ -135,7 +135,7 @@ eurobank.pl##.reviews
 extraportfel.pl###om-zwmbbwgam5p7tl8v
 facebook.com###dialog_0, #pagelet_growth_expanding_cta, #u_0_*..
 fakty.plportal.pl###block-block-10
-fasardi.com##.back-to-top
+fasardi.com,pl.bab.la##.back-to-top
 fashionata.pl###bodyWrapper
 fashionata.pl##.nlpwContainer
 fashionata.pl##.pwShade
@@ -217,6 +217,7 @@ kotrak.pl##.kotrak_infobox_button
 krakusik.pl###id_B
 kredito24.pl##.btn-apply
 kresy.pl##.ls-popup
+kulturawplot.pl##.infinite-back-top
 kupbuty.com###tws_i_1, #topLayerBackDrop
 kwiaciarnia-olivia.pl###logo2a, #tlo2a, #wysuwane
 lamoda.pl##.js-return-to-top
@@ -247,7 +248,7 @@ mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay, #popup
 monedo.pl##.small.help
 morele.net###back_to_top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl##.scrollup
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl##.scrollup
 mpolska24.pl###before-leave-window
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
@@ -297,6 +298,7 @@ pato.pl###nasza_klasa_side_bar
 pb.pl##.smPopupContainer, #smPopupBackground
 pkobp.pl###scrollie
 pl.000webhost.com##div[style="cursor: pointer;"]
+pl.bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
 pl.pokerstrategy.com##.js_lb_overlay.lb_overlay
 pl.tripadvisor.com##.dark.ui_backdrop
 play.google.com##.sticky
@@ -434,7 +436,8 @@ www.focus.pl##.box-obserwuj-newsletter
 www.godealla.pl##.overlay, #.playfair.facebook
 www.google.com##.gb_g, .loaded.dot
 www.hebe.pl##.splash
-www.igbbaltica.pl###jj_sl_navigation
+www.hoteladler.com###gotop
+www.hoteladler.com##.span4.moduletable:nth-of-type(3)
 www.inowroclaw.info.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 www.jakonatorobi.pl,www.autofakty.pl###ruby-back-top
 www.komputerswiat.pl###ks_breaking_news
@@ -454,12 +457,13 @@ www.nportal.no###fb-overlay
 www.oszustwo.net##div[id^="ulp-"]
 www.pielegniarki.info.pl##.toTheTop
 www.politycznyislam.info,biznesalert.pl###subscribe
+www.polska.travel##.fixed-elements
+www.polska.travel,lechia.net,konopczynski.com,www.skimaniak.org,pl###jj_sl_navigation
 www.poradnikzdrowie.pl##.fixed.font_lower.menubar
 www.pruszynski.com.pl###order-outbox
 www.pssite.com##.cell4.cell, .scrolltop
 www.publio.pl##.widget-button
 www.purepc.pl##.mtotop
-www.risreklamy.pl##.left.jj_transition.jj_sl_navigation
 www.spidersweb.pl##.havetoread
 www.sportbazar.pl###cart_tt, #cart_tt_bg, #moveTop
 www.tapeciarnia.pl###div_okienko_shoutbox_schowane
@@ -489,6 +493,7 @@ zszywka.pl###inv-request-popup
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||grawerowanie.org.pl/wp-content/uploads/2012/12/tlo17.gif
 ||helponclick.com^$third-party,script
+||kulturawplot.pl/wp-content/plugins/exit-popup/js/exit-popup.js
 ||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
@@ -698,6 +703,7 @@ pl###how-to-button
 pl###hurtownia-box
 pl###imgPopImp
 pl###jHotInfosC
+pl###jm-back-top
 pl###jqmCookieMonster:not(body):not(html)
 pl###js-annoy-layer
 pl###js-ban_bottom_left
