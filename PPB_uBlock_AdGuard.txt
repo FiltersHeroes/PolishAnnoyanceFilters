@@ -1,11 +1,11 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
-! Last modified: 29 Nov 2017
-! Version: 2017112901
+! Last modified: 1 Dec 2017
+! Version: 2017120101
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śr, 29 listopada 2017, 21:38
+! Aktualizacja: pt, 1 grudnia 2017, 13:19
 !
 !
 6krokow.pl###header:style(position: absolute!important;)
@@ -14,6 +14,9 @@ activ-investment.eu###newsletter-content
 activ-investment.eu##.fancybox-overlay:has(.newsletter-fancybox-wrapper)
 activ-investment.eu##.fancybox-overlay:style(overflow: hidden!important;)
 activ-investment.eu##html.fancybox-lock:style(overflow: visible!important;)
+akademiaversum.pl###newsletter-pp, .sticky.header
+akademiaversum.pl##.header:style(position: absolute!important;)
+akademiaversum.pl##body.with-overlay:style(overflow: auto!important;)
 allegro.pl##.opbox-metrum-header:style(position: static!important;)
 alles-bhp.pl,greattrade.pl,szkolnaspizarnia.pl##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute!important;)
 avdotia.kotkowicz.pl###catcher
@@ -78,6 +81,8 @@ myjki.com###top-fixed:style(position: absolute!important;)
 ncplus.pl##.navigation:style(position: static!important;)
 niezalezna.pl###header:style(position: absolute!important;)
 niezalezna.pl###pageWrapper:style(top: 0!important;)
+oleole.pl###modalContainer
+oleole.pl##html:style(overflow: auto!important;)
 pepco.pl##.modal-newsletter
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
 polsatnews.pl###urgent:style(position: static!important;)
