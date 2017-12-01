@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 29 Nov 2017
-! Version: 2017112902
+! Last modified: 1 Dec 2017
+! Version: 2017120101
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śr, 29 listopada 2017, 21:38
+! Aktualizacja: pt, 1 grudnia 2017, 13:26
 !
 !
 .facebooklikepopup.
@@ -107,6 +107,7 @@ dogry.pl##.register-modal
 dogry.pl##.register-overlayer--game.register-overlayer
 domsary.eu###widget-handler
 domzagadek.pl##.voucher-widget, #scroll_strz
+doradcasmaku.pl##.side-widget, .visible.lastest-news-wrapper
 doruchow.pl###div_loader
 doubletreewarsaw.pl##.popout__container
 drlaptop.pl###load
@@ -203,7 +204,7 @@ kantorekspert.pl###wys2
 katowice-airport.com###carwash-banner, #carwash-banner-c
 kaufland.pl##.a-back-to-top__button
 kazar.com##.slide-contact
-kliknijwzdrowie.pl###scroll_totop
+kliknijwzdrowie.pl,tasteandtravel.pl###scroll_totop
 klonowypark.pl,misjonarska.com###right_info2
 kodiwpigulce.pl,niemarkowe.pl,cwninja.pl###totop
 kombo.krakow.pl###divGoTop2Mob
@@ -280,7 +281,6 @@ ogrzewania.pl##.modFBWidget
 okazik.pl###btn-scrollup
 okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
 okmoneta.pl###popupEmailPhone
-oleole.pl###popup-new
 olicom.com.pl###ouibounce-modal
 olika.com.pl##.pop-up, .pop-up-overlay
 olx.pl##.js-gtm-survey.gtm-survey
@@ -487,6 +487,7 @@ zszywka.pl###inv-request-popup
 ||app.sugester.pl/tpbocian/widget.js
 ||cdn-widget.callpage.io/build/js/callpage.js
 ||chat.4finance.com^$third-party
+||chat.freshdesk.com^$third-party,xmlhttprequest
 ||code.tidio.co^$third-party
 ||doxa.fm/wp-content/plugins/sn-facebook-like/js/retioSlider.min.js
 ||embed.tawk.to^$script
@@ -516,6 +517,7 @@ zszywka.pl###inv-request-popup
 ||www.chamskie.pl/compress/popupFacebook.js
 ||www.chamskie.pl/compress/popups/popupFacebook_normal.css
 ||www.czater.pl/assets/modules/chat/js/chat.js
+||www.doradcasmaku.pl/index/get-popup$xmlhttprequest
 ||www.dostawy-wody-zywiec.pl/img/kontakt_box.png
 ||www.opineo.pl/gfx/frontend/side_slider_gfx.png
 ||www.opineo.pl/shop/slider.js.php$third-party
@@ -716,7 +718,6 @@ pl###link_przewinco
 pl###logregLead
 pl###lpl-layer-1
 pl###lpl-overlay
-pl###m-content
 pl###mail_zapisz
 pl###mask
 pl###menu_newsletter
