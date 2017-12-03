@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 1 Dec 2017
-! Version: 2017120101
+! Last modified: 3 Dec 2017
+! Version: 2017120301
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pt, 1 grudnia 2017, 13:26
+! Aktualizacja: nd, 3 grudnia 2017, 13:09
 !
 !
 .facebooklikepopup.
@@ -91,6 +91,7 @@ cyfrowypolsatnews.pl##.cd-top
 cyklotur.com##.musli-left.musli
 d24h.pl###fancybox-overlay
 d24h.pl###fancybox-wrap
+dailyvibes.pl##div[class*=unavailableMessageOverlaycontent]
 dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
 dany-meble.pl##body > .hidden-sm.hidden-xs, #gototop
 dayli.com.pl##.fancybox-inner
@@ -156,6 +157,7 @@ galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriabronowice.pl##.news
 galeriabursztynowa.com.pl##.ui-dialog, .ui-widget-overlay
 galeriaveneda.com.pl###popup
+gametrade.pl###facebox, #facebox_overlay
 gazetapraca.pl###nlt_overlay
 gazetapraca.pl##.bg
 gazetaprawna.pl###boxSubscr2016
@@ -182,6 +184,7 @@ harpersbazaar.com###campaign_237772_container_overlay
 hbo.pl###popupAdv
 hbo.pl##.ribbon
 hegos.eu##.newsletter, .popup, .popup-bg
+historiasportu.info##.et_pb_scroll_top, .et_pb_side_nav
 historyk.eu###newsletter
 hitbank.pl###scrollbarbox, #upprev_box
 hubkolektyw.pl##.panel-boczny
@@ -221,6 +224,7 @@ kresy.pl##.ls-popup
 kulturawplot.pl##.infinite-back-top
 kupbuty.com###tws_i_1, #topLayerBackDrop
 kwiaciarnia-olivia.pl###logo2a, #tlo2a, #wysuwane
+laczynaspilka.pl##.box-standard.social-side
 lamoda.pl##.js-return-to-top
 lolmania.pl,polskaracja.com,viralz.pl##.g1-back-to-top
 lp.travelist.pl###returnToTopButton
@@ -244,6 +248,7 @@ mixmedia.pl###place3_v2, #place3_v3, #last-viewed, #fb_likebox
 mmaniak.pl###x13popup, #x13popup-cover
 mmarocks.pl##.smPopupContainer, #smPopupBackground
 mobbingwpracy.com###pwebbox784
+mobilitynews.pl##.swiper-wrapper
 mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay, #popup
@@ -274,6 +279,7 @@ nowa.tv##.sticky_boxes
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowosci-mp3.eu##.clr.center > .short-story
 o.pl###email-bar, #nl-icon
+obserwatorfinansowy.pl###newsletterForm
 ogloszenia24.info###fancybox-overlay
 ogloszeniowa.net###ad-left
 ogryzek.pl##.add_shop
@@ -281,6 +287,7 @@ ogrzewania.pl##.modFBWidget
 okazik.pl###btn-scrollup
 okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
 okmoneta.pl###popupEmailPhone
+olgasmile.com##.scroll-top
 olicom.com.pl###ouibounce-modal
 olika.com.pl##.pop-up, .pop-up-overlay
 olx.pl##.js-gtm-survey.gtm-survey
@@ -324,6 +331,7 @@ pozyczkaportal.pl##.tiny.header
 pozyczkomat-lodz.pl##.hm_go_top
 pracuj.pl###lightbox
 pracuj.pl###scrollTop
+prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
 programtv.naziemna.info###my-fb-panel
 programuje.net##.ecIaBtfeSkzD-bg
 programuje.net##.ecIaBtfeSkzD-default
@@ -369,6 +377,7 @@ sklep.mieloch.pl###nicePopupWrapper
 sklep.milicon.eu###fbBox, #instaBox, #cartBox, #contactBox
 sklep.motor-land.com.pl###side_header_newsletter
 sklep.techrol.com###infobox_icon
+sklep.zawiszabydgoszcz.eu###newsletter_block_left
 sklepkamil.pl###NewsletterPopup
 sky-shop.pl##.guide-popup
 slaskiecentrumkomputerowe.pl##.popup_newsletter
@@ -478,6 +487,7 @@ yes.pl##.footer-middle
 yoy.tv###notice
 zalando.pl##.backToTopButton-active.backToTopButton
 zalando.pl##.overflow.firstLine:nth-of-type(2)
+zblogowani.pl###more-posts-modal
 zjoplock.pl###popup_overlay
 zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 zpozdrowieniem.pl##.header_fixed
@@ -494,6 +504,7 @@ zszywka.pl###inv-request-popup
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||grawerowanie.org.pl/wp-content/uploads/2012/12/tlo17.gif
 ||helponclick.com^$third-party,script
+||inffuse-fbpopup.appspot.com/widget.html
 ||kulturawplot.pl/wp-content/plugins/exit-popup/js/exit-popup.js
 ||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js
 ||livesupport.pl/chat/createBottom*.js
@@ -511,6 +522,8 @@ zszywka.pl###inv-request-popup
 ||tapeciarnia.pl/img/do_gory.png
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
 ||v2.zopim.com/bin/v/widget_v2.*.js
+||webfrik.pl/script/popup-fb$third-party
+||webfrik.pl/widgets/popup/popup.min.js$third-party
 ||widget.userengage.com/widget.js
 ||widget.userengage.io/widget.js
 ||widgets.trustedshops.com/js/*.js$third-party
@@ -533,6 +546,7 @@ gazetapraca.pl##.js-offer-suggested-offer-btn.next-offer-box
 outdoortrack.pl##.to-top-container
 polskabiega.sport.pl,www.junior.sport.pl###embed_iframe
 www.autotrader.pl##.is_stuck.basic-info-heading--sticky
+www.gazeta.pl##div[data-alias="weekend"]
 www.helios.pl##.openSuggestionFormButton
 yieldbird.com##.hidden-widget.float-widget
 zdrowie.gazeta.pl###bottom_wrap
