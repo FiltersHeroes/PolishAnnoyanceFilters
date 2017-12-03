@@ -2,12 +2,12 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 3 Dec 2017
-! Version: 2017120301
+! Version: 2017120302
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 3 grudnia 2017, 13:09
+! Aktualizacja: nd, 3 grudnia 2017, 23:43
 !
 !
 .facebooklikepopup.
@@ -278,6 +278,7 @@ nietylkopasta.pl###dbx_light
 nowa.tv##.sticky_boxes
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowosci-mp3.eu##.clr.center > .short-story
+nslowo.pl##.itemBackToTop
 o.pl###email-bar, #nl-icon
 obserwatorfinansowy.pl###newsletterForm
 ogloszenia24.info###fancybox-overlay
@@ -293,6 +294,7 @@ olika.com.pl##.pop-up, .pop-up-overlay
 olx.pl##.js-gtm-survey.gtm-survey
 opensubtitles.org###fade
 orange.pl##.usabilla__overlay
+oscarrak.pl##.cb-to-top
 otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 otmuchow.pl##script ~ #cboxOverlay
 otomoto.pl##.social-float-bar
@@ -483,6 +485,7 @@ www.zatrzymujacczas.pl,kuchniawedwoje.pl,e-przepisykulinarne.pl###ffbp
 wyborcza.biz##.is-visible.mod_ddbox.mod
 wykop.pl##.big.button
 xboxforum.pl##.primary.floatingItem
+xlomza.pl##.uk-totop
 yes.pl##.footer-middle
 yoy.tv###notice
 zalando.pl##.backToTopButton-active.backToTopButton
@@ -510,6 +513,7 @@ zszywka.pl###inv-request-popup
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
 ||losyziemi.pl/?spu_action=spu_load&lang=
+||mailerlite.com^$third-party
 ||mediaexpert.pl/js/popup.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js
@@ -538,6 +542,7 @@ zszywka.pl###inv-request-popup
 ||www.tygodnikprzeglad.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
+||zd24.pl/modules/mod_susnet_likebox/css/style.css
 !
 !
 ! Agora
