@@ -1,13 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 5 Dec 2017
-! Version: 2017120501
+! Last modified: 6 Dec 2017
+! Version: 2017120601
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
-! Zgłoszenia: https://github.com/azet12/PopupBlocker/issues
+! Zgłoszenia: 
+!   GitHub -> https://github.com/azet12/PopupBlocker/issues
+!   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wt, 5 grudnia 2017, 21:39
+! Aktualizacja: sr, 6 grudnia 2017, 15:22
 !
 !
 .facebooklikepopup.
@@ -38,6 +40,7 @@ alget.pl###jOverlay, #jOverlayContent, .top_button
 aligoo.pl##.remodal-overlay, .remodal-wrapper
 allani.pl##.visible.desktop-native-app-banner
 allegro.pl##.with-bottom-link.card.opbox-sheet
+alltube.tv###message-user, .fa-angle-double-up
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 amracing.pl##img[src="/images/dealers_button.png"]		 
 amracing.pl##img[src="/images/files_button.png"]		 
@@ -47,6 +50,8 @@ angolia.co.uk###fancybox-content
 angolia.co.uk###sugestiepl
 angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
 answear.com###popupNewsletter, #popupNewsletterWrap
+applemobile.pl##.post-suggestion-content
+applemobile.pl##.vc_row-fluid.wpb_row.vc_row:nth-of-type(3)
 asport.pl##.hit-tygodnia
 avans.pl###js-scrollTop
 avast.com###slide-top
@@ -61,6 +66,7 @@ bikecs.com##.bcs_akcja_div
 bikecs.com##.bcs_footer2_div
 bikecs.com##.bcs_site, .bcs_switch
 biznesalert.pl##.toolbar
+blogspot.com##.scrollToTop
 bluecity.pl##.popupContent
 bluerank.pl##.shown.exit
 booking.com##.b_leaving_users_light_box_mask.modal-mask
@@ -157,6 +163,7 @@ galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriabronowice.pl##.news
 galeriabursztynowa.com.pl##.ui-dialog, .ui-widget-overlay
 galeriaveneda.com.pl###popup
+gamedot.pl##.footer-top-container-item:nth-of-type(4)
 gametrade.pl###facebox, #facebox_overlay
 gazetapraca.pl###nlt_overlay
 gazetapraca.pl##.bg
@@ -192,6 +199,7 @@ ibiznes.biz###text-2
 idream.pl##.wf2-bg-light.grwf2_backdrop
 info.elblag.pl###nastepnyArtykul
 infogram.com###launcher
+informacjenews.pl##.popmake
 innpoland.pl###fbinvite
 instyle.co.uk##.pw-button-pinterest.pw-button
 inter-kop.pl##.phone.text-uppercase.col-xs-12.col-md-4
@@ -401,6 +409,7 @@ targsmaku.pl##.active.page-bottom-bar, .fb-flayout-box-trigger.flayout-box-trigg
 telemedi.co###notifications-pop, #ue_widget, .sidebar-links
 telepolis.pl##.rightColumn
 telewizja-cyfrowa.com###ppsPopupBgOverlay
+testhub.pl##.sh-back-to-top
 twojezaglebie.pl##.td-more-articles-box
 tygertenis.pl###dialog
 tygertenis.pl###overlay
@@ -497,6 +506,7 @@ zpozdrowieniem.pl##.header_fixed
 zrobisztosam.com###topLink
 zszywka.pl###inv-request-popup
 ||a.mailmunch.co/app/$script,third-party
+||api.traq.li^$third-party
 ||app.sugester.pl/tpbocian/widget.js
 ||cdn-widget.callpage.io/build/js/callpage.js
 ||chat.4finance.com^$third-party
@@ -525,6 +535,7 @@ zszywka.pl###inv-request-popup
 ||static.whatshelp.io/widget-send-button/js/init.js
 ||tapeciarnia.pl/img/do_gory.png
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
+||upolujebooka.pl/_visual/_b/b_newsletter.jpg
 ||v2.zopim.com/bin/v/widget_v2.*.js
 ||webfrik.pl/script/popup-fb$third-party
 ||webfrik.pl/widgets/popup/popup.min.js$third-party
@@ -571,7 +582,8 @@ www.sunrisesystem.pl##.messages
 !
 !
 ! Gremi Media
-www.rp.pl##.arrow-to-top, #collapseButton, .show.popup-next.art-box, #tqwidget, .addon
+www.rp.pl##.arrow-to-top, #collapseButton, .show.popup-next.art-box, #tqwidget, .addon, .page-footer__mk
+www.rp.pl###containerBestOfWeek > .row > .col-xs-12.col-md-4.col-lg-3
 www.kariera.pl###drift-widget-container
 www.kariera.pl##.listbuilder-popup.me.o.m.u.s
 !
