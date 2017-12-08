@@ -1,13 +1,13 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
 ! Last modified: 6 Dec 2017
-! Version: 2017120601
+! Version: 2017120801
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sr, 6 grudnia 2017, 15:10
+! Aktualizacja: pt, 8 grudnia 2017, 11:06
 !
 !
 6krokow.pl###header:style(position: absolute!important;)
@@ -90,6 +90,11 @@ oleole.pl###modalContainer
 oleole.pl##html:style(overflow: auto!important;)
 pepco.pl##.modal-newsletter
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
+polona.pl##body > .dark
+polona.pl##cbn-footer:style(position: static !important;)
+polona.pl##cbn-header:style(position: absolute !important;)
+polona.pl##cbn-item-panel-toolbar:style(position: static !important;)
+polona.pl##cbn-page-drawer
 polsatnews.pl###urgent:style(position: static!important;)
 polsatnews.pl##.body:style(margin-top: auto!important;)
 polsatnews.pl##header[id="header"]:style(position: static!important;top: 0px!important;)

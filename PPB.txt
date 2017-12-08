@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 6 Dec 2017
-! Version: 2017120601
+! Last modified: 8 Dec 2017
+! Version: 2017120801
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sr, 6 grudnia 2017, 15:22
+! Aktualizacja: pt, 8 grudnia 2017, 11:06
 !
 !
 .facebooklikepopup.
@@ -22,6 +22,7 @@
 /plugins/facebook-fanbox-popup
 /plugins/system/screenreader/screenreader
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
+/wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans/
 /wp-content/plugins/FLM-Social-Sidebar
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 !
@@ -83,7 +84,6 @@ caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity
 casu.pl###amsocial_dark
 ceneo.pl##.popup-cl.popup.js_popup
 chrzypsko.pl##.biegacz, #facebook_side
-chwileczka.pl###scroll-up
 chwilowkomat.pl##.smaller
 coccodrillo.eu###homeNewsletter
 coccodrillo.eu###sc_behind
@@ -142,6 +142,9 @@ euro.com.pl###product-for-sale-box
 eurobank.pl##.reviews
 extraportfel.pl###om-zwmbbwgam5p7tl8v
 facebook.com###dialog_0, #pagelet_growth_expanding_cta, #u_0_*..
+facetemjestem.pl##.bgt-single-classic-content.uk-width > center:nth-of-type(1)
+facetemjestem.pl##.bgt-top-banner, .sidebar-sticky
+fachowydekarz.pl##.flyfooter
 fakty.plportal.pl###block-block-10
 fasardi.com,pl.bab.la##.back-to-top
 fashionata.pl###bodyWrapper
@@ -170,7 +173,7 @@ gazetapraca.pl##.bg
 gazetaprawna.pl###boxSubscr2016
 gazetaprawna.pl###miejsce104
 gazetaprawna.pl,~www.gazetaprawna.pl###nextArticleWidget
-gazetatrybunalska.pl,www.marihuana.info.pl###scroll-up
+gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl###scroll-up
 gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
 gemre.com.pl###tws_c_100002, #topLayerBackDrop, #backTop
 getinbank.pl###scroll_top
@@ -331,11 +334,13 @@ pogotowiegotowkowe.info###out-popup
 pol-nor.com###boxpopup, #overlay, #popforfirma, .formk
 polemi.co.uk###formAcymailing1 > .acymailing_module_form
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
+polona.pl##.js-to-top
 polsatnews.pl###fab
 polskiautohandel.pl,optyczne.pl##.backtopbutton
 polskihurtworld.eu##.ggu-widget-launcher, .tgtop
 pomorski-bs.pl###s5_scrolltop_a
 pomyslnawszystko.pl##div[class^="go-top"]
+poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 portalenieruchomosci.pl##.text-right.col-xs-2
 pozyczkaportal.pl##.tiny.header
 pozyczkomat-lodz.pl##.hm_go_top
@@ -357,6 +362,7 @@ pytamy.pl##.tabZB
 quiosque.pl##.nl-container
 racing-planet.pl###contactable_inner
 redcoon.pl###j-newsletterForm, .scrollUp
+regionfan.pl##a[href="#top"]
 reklama.pl###top-banner, .curl, .flip
 renee.pl##.newsletter__section, .scroll__top
 reporters.pl##.boxzilla-najczesciej-czytacie, .wpsr-followbar
@@ -391,8 +397,10 @@ sklep.zawiszabydgoszcz.eu###newsletter_block_left
 sklepkamil.pl###NewsletterPopup
 sky-shop.pl##.guide-popup
 slaskiecentrumkomputerowe.pl##.popup_newsletter
+smartpage.pl##.right_top_scroll
 smartpozyczka.pl##.toTop
 soczewki24.pl##.ui-dialog
+soton24.pl##.td-more-articles-box
 sowafinansowa.pl###owl-modal-two
 spidersweb.pl##.fancybox-skin
 sprzedajemy.pl###mon-AdsAdsDetailsTop
@@ -437,6 +445,7 @@ wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
 wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
 wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
 wszystkotujest.pl##.box-banners:nth-of-type(4)
+wwsi.edu.pl###adsdialog
 www.adwokatgdynia.com##nav.fixed
 www.akademiareklamy.edu.pl###topscroller
 www.biedronka.pl##.newsletter-tile
@@ -500,6 +509,7 @@ yoy.tv###notice
 zalando.pl##.backToTopButton-active.backToTopButton
 zalando.pl##.overflow.firstLine:nth-of-type(2)
 zblogowani.pl###more-posts-modal
+zdrowyportal.org###topcontrol
 zjoplock.pl###popup_overlay
 zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 zpozdrowieniem.pl##.header_fixed
@@ -658,6 +668,8 @@ www.money.pl##.float.more-news
 www.nocowanie.pl##.is-sticky.btn--top.btn
 www.o2.pl##div[data-st-area="ST-CrnrML-main-area"]
 www.pudelek.pl###o2FBFanbox
+www.wp.pl##div[data-st-area="Ciekawostki-gry"]
+www.wp.pl##div[data-st-area="Stream-naglowek"]
 www.wp.pl###home-page-button
 ||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js
