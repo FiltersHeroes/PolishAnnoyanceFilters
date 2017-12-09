@@ -1,13 +1,13 @@
-! Title: Popup Blocker PLUS - uzupełnienie do uBlocka i AdGuarda
-! Last modified: 6 Dec 2017
-! Version: 2017120803
+! Title: Popup Blocker PLUS - uzupełnienie do uBlocka
+! Last modified: 9 Dec 2017
+! Version: 2017120901
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pt, 8 grudnia 2017, 22:12
+! Aktualizacja: sob, 9 grudnia 2017, 22:24
 !
 !
 6krokow.pl###header:style(position: absolute!important;)
@@ -51,8 +51,6 @@ ergokantor.pl##.mfp-ready
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 euro.com.pl##.remodal-overlay, .remodal-wrapper
 euro.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
-fokusfashion.com###menu_additional_wrapper:style(position: static!important; top: 0px!important; right: 0px!important; background: none!important; border: 0px!important; margin-right: 0px!important; margin-top: 0px!important; box-shadow: none!important; border-radius: 0px!important;)
-fokusfashion.com###menu_basket_box:style(position: absolute!important; top: 0px!important; right: 0px!important; background: none!important; border: 0px!important; margin-right: 0px!important; margin-top: 0px!important; width: auto!important; height: auto!important; box-shadow: none!important; border-radius: 0px!important;)
 gamedot.pl##.header:style(position: absolute !important;)
 gram.pl##.dashBoard:style(position: absolute!important;)
 grawerowanie.org.pl##body:style(background: none!important;)
@@ -381,6 +379,7 @@ dom.wp.pl,facet.wp.pl,film.wp.pl,finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.w
 domodi.pl##.js-header.dm-header:style(position: absolute!important;)
 fitness.wp.pl##.fixed-header--display.adsize_header.x-header.main-header-small.agregator-header:style(position: static!important;)
 fitness.wp.pl##.wpfitness.homepage:style(padding-top: 0px!important;)
+forum.abczdrowie.pl##.stickypanel:style(position: absolute !important;)
 fotoblogia.pl##.btn-comments.btn
 fotoblogia.pl##.fixed-header--display.adsize_header.x-header.main-header-small.agregator-header:style(position: absolute!important;)
 hosting.wp.pl##.navbar-fixed-top.navbar:style(position: absolute!important;)
@@ -408,6 +407,8 @@ www.wp.pl##header.header:style(position: absolute!important;)
 !
 !
 ! Reguły, które działają tylko na uBlocku
+fokusfashion.com##script:inject(abort-on-property-read.js, init_basket_scroll)
+fokusfashion.com##script:inject(abort-on-property-read.js, init_login_scroll)
 neon24.pl##script:inject(abort-on-property-read.js, Service.cookieMonster)
 niezalezna.pl##script:inject(abort-on-property-read.js, onscroll)
 polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
