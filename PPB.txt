@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 9 Dec 2017
-! Version: 2017120903
+! Last modified: 10 Dec 2017
+! Version: 2017121001
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 9 grudnia 2017, 23:48
+! Aktualizacja: nd, 10 grudnia 2017, 12:43
 !
 !
 .facebooklikepopup.
@@ -24,6 +24,7 @@
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans/
 /wp-content/plugins/FLM-Social-Sidebar
+/wp-content/plugins/wysija-newsletters
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 !
 !
@@ -82,6 +83,7 @@ caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
 caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 casu.pl###amsocial_dark
 ceneo.pl##.popup-cl.popup.js_popup
+centrumdruku3d.pl##.cd-top
 chrzypsko.pl##.biegacz, #facebook_side
 chwilowkomat.pl##.smaller
 ciekawostkihistoryczne.pl###alt-header
@@ -266,7 +268,7 @@ mojeauto.pl##.pdr-contener.ui-helper-clearfix
 monashe.pl###fancybox-overlay, #popup
 monedo.pl##.small.help
 morele.net###back_to_top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl##.scrollup
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl##.scrollup
 mpolska24.pl###before-leave-window
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
@@ -282,6 +284,7 @@ nawozy.eu##.newsletterPopup
 ncplus.pl###button-call
 ncplus.pl###button-lead
 ncplus.pl###fancybox-overlay, #fancybox-wrap
+nczas.com##.td-scroll-up
 neonet.pl##.arrow-up
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nestbank.pl##.fixed-label
@@ -345,6 +348,7 @@ poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 portalenieruchomosci.pl##.text-right.col-xs-2
 pozyczkaportal.pl##.tiny.header
 pozyczkomat-lodz.pl##.hm_go_top
+ppe.pl##.fixedMenu, .nextbox
 pracuj.pl###lightbox
 pracuj.pl###scrollTop
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
@@ -497,6 +501,7 @@ www.pruszynski.com.pl###order-outbox
 www.pssite.com##.cell4.cell, .scrolltop
 www.publio.pl##.widget-button
 www.purepc.pl##.mtotop
+www.rp.pl###mk-paywall
 www.spidersweb.pl##.havetoread
 www.sportbazar.pl###cart_tt, #cart_tt_bg, #moveTop
 www.tapeciarnia.pl###div_okienko_shoutbox_schowane
