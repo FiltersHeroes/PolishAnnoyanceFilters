@@ -1,13 +1,13 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka
-! Last modified: 10 Dec 2017
-! Version: 2017121001
+! Last modified: 12 Dec 2017
+! Version: 2017121201
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 10 grudnia 2017, 12:40
+! Aktualizacja: wt, 12 grudnia 2017, 11:31
 !
 !
 6krokow.pl###header:style(position: absolute!important;)
@@ -110,8 +110,9 @@ shinden.pl##.pasek:style(position: absolute!important;)
 sklep.gram.pl###dashboard:style(position: absolute!important;)
 smaker.pl###overlay, #popup
 smaker.pl##html > body.scrollingDisabled:style(overflow:visible!important;)
-spidersweb.pl##.mfp-ready
-spidersweb.pl##html:style(overflow: visible!important; margin-right: 0px!important)
+spidersweb.pl##.mfp-bg
+spidersweb.pl##.mfp-ready:has(.popoup-content)
+spidersweb.pl##html:style(overflow: visible !important; margin-right: 0px !important;)
 stacja7.pl##.navbar-brand
 stacja7.pl##.navbar-fixed-top:style(position: absolute!important;)
 stokrotka.pl##.fancybox-overlay-fixed
