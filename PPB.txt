@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 10 Dec 2017
-! Version: 2017121001
+! Last modified: 12 Dec 2017
+! Version: 2017121201
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 10 grudnia 2017, 12:43
+! Aktualizacja: wt, 12 grudnia 2017, 11:31
 !
 !
 .facebooklikepopup.
@@ -18,12 +18,10 @@
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /livezillachat//script.php
-/media/mod_social_slider
 /plugins/facebook-fanbox-popup
 /plugins/system/screenreader/screenreader
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans/
-/wp-content/plugins/FLM-Social-Sidebar
 /wp-content/plugins/wysija-newsletters
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 !
@@ -573,6 +571,12 @@ zszywka.pl###inv-request-popup
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
 ||zd24.pl/modules/mod_susnet_likebox/css/style.css
+!
+!
+! Ruchome przyciski serwisów społecznościowych
+/media/mod_social_slider
+/wp-content/plugins/FLM-Social-Sidebar
+biotechnologia.pl###facebook-trigger
 !
 !
 ! Agora
