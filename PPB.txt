@@ -2,26 +2,24 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 13 Dec 2017
-! Version: 2017121301
+! Version: 2017121302
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śr, 13 grudnia 2017, 10:29
+! Aktualizacja: śr, 13 grudnia 2017, 12:03
 !
 !
 .facebooklikepopup.
 /bb_fbslider.js
 /btn-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
-/livezillachat//script.php
 /plugins/facebook-fanbox-popup
 /plugins/system/screenreader/screenreader
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans/
-/wp-content/plugins/wysija-newsletters
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 !
 !
@@ -191,7 +189,6 @@ idream.pl##.wf2-bg-light.grwf2_backdrop
 info.elblag.pl###nastepnyArtykul
 infogram.com###launcher
 informacjenews.pl##.popmake
-innpoland.pl###fbinvite
 instyle.co.uk##.pw-button-pinterest.pw-button
 inter-kop.pl##.phone.text-uppercase.col-xs-12.col-md-4
 interia.pl##.error-page-layer
@@ -222,7 +219,6 @@ laczynaspilka.pl##.box-standard.social-side
 lp.travelist.pl###returnToTopButton
 mac-world.pl##.et_bloom_popup
 magazynfakty.pl##.mf-plugin-stickymenu-wrapper
-mamadu.pl###fbinvite
 markizasklep.pl###pp1
 maxmoto.pl##.allegro-icon
 mbank.pl###push-message
@@ -230,7 +226,7 @@ mbank.pl##.covered.edge-menu
 meble.pl##.footer-subscription
 media2.pl###news-readmore
 media2.pl###news-suggest
-medianarodowe.com###.art__social-footer__link--comment, #fbinvite, .widget_radium_newsletter
+medianarodowe.com###.art__social-footer__link--comment, .widget_radium_newsletter
 mediarun.com##.vc_row-has-fill
 merlin.pl##.promotion-widget
 misjonarska.com###myModal, .reveal-modal-bg
@@ -252,7 +248,7 @@ myphone.pl###trig_pop_news
 mysize.com.pl###popup_box, #overlay
 nafrontendzie.pl###popup-box-gfcr-1
 najlepsze-chwilowki.pl###edodatki_popup_box-fixed
-natemat.pl###fbinvite, #posts-progress
+natemat.pl###posts-progress
 nawozy.eu##.newsletterPopup
 ncplus.pl###button-call
 ncplus.pl###button-lead
@@ -293,7 +289,6 @@ pl.bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
 pl.pokerstrategy.com##.js_lb_overlay.lb_overlay
 pl.tripadvisor.com##.dark.ui_backdrop
 play.google.com##.sticky
-play.pl###livechat-compact-container
 play.pl###optimonk-holder-campaign-59
 player.pl##body > div:nth-of-type(19)
 player.pl##body > div:nth-of-type(3)
@@ -470,28 +465,18 @@ zszywka.pl###inv-request-popup
 ||api.traq.li^$third-party
 ||app.sugester.pl/tpbocian/widget.js
 ||cdn-widget.callpage.io/build/js/callpage.js
-||chat.4finance.com^$third-party
-||chat.freshdesk.com^$third-party,xmlhttprequest
-||code.tidio.co^$third-party
 ||doxa.fm/wp-content/plugins/sn-facebook-like/js/retioSlider.min.js
-||embed.tawk.to^$script
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||grawerowanie.org.pl/wp-content/uploads/2012/12/tlo17.gif
-||helponclick.com^$third-party,script
 ||inffuse-fbpopup.appspot.com/widget.html
 ||kulturawplot.pl/wp-content/plugins/exit-popup/js/exit-popup.js
 ||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js
-||livesupport.pl/chat/createBottom*.js
-||livesupport.pl/chat/createFloat*.js
 ||losyziemi.pl/?spu_action=spu_load&lang=
 ||mailerlite.com^$third-party
 ||mediaexpert.pl/js/popup.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js
-||secure.livechatinc.com^$third-party
-||smartsuppchat.com/loader.js
 ||ssl.ceneo.pl/shops/sw.js$third-party
-||st.chatango.com/js/gz/emb.js
 ||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js
 ||static.whatshelp.io/widget-send-button/js/init.js
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
@@ -504,7 +489,6 @@ zszywka.pl###inv-request-popup
 ||widgets.trustedshops.com/js/*.js$third-party
 ||www.chamskie.pl/compress/popupFacebook.js
 ||www.chamskie.pl/compress/popups/popupFacebook_normal.css
-||www.czater.pl/assets/modules/chat/js/chat.js
 ||www.doradcasmaku.pl/index/get-popup$xmlhttprequest
 ||www.dostawy-wody-zywiec.pl/img/kontakt_box.png
 ||www.opineo.pl/gfx/frontend/side_slider_gfx.png
@@ -592,7 +576,7 @@ fakty.tvn24.pl##.headerStickyContainer
 kulinarni.tvn.pl##.fbWidget
 nawspolnej.tvn.pl###nextItem
 tvnmeteo.tvn24.pl,tvnwarszawa.tvn24.pl##.shareContainerTop
-www.mango.pl###chat-toggle, #smSubscriptonBox
+www.mango.pl###smSubscriptonBox
 www.tvn24.pl##.side-info
 !
 !
@@ -602,7 +586,6 @@ direct.money.pl,www.totalmoney.pl###widget-fc-mobile-button
 domodi.pl###acc-alert
 domodi.pl##.dm-sticky-buttons
 e-prawnik.pl##.o-window.windowTop
-fantasyliga.wp.pl##.show-chat
 komorkomania.pl,autokult.pl##.btn-comments
 misioweopowiesci.o2.pl##.playlist__header
 tv.wp.pl###Slider
@@ -787,7 +770,9 @@ biotechnologia.pl###facebook-trigger
 nexto.pl###social
 !
 !
-! Like boxy
+! Ruchome stopki social
+fonplace.pl##.herald-single-sticky
+innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
 twojahistoria.pl##.footer-fixed
 !
 !
@@ -795,31 +780,45 @@ twojahistoria.pl##.footer-fixed
 pl###poza-szkieletem
 !
 !
-! Czaty
-pl###livechat-compact-view
+! Widgety - czaty
+/livezillachat//script.php
+fantasyliga.wp.pl##.show-chat
 pl###chat-application-iframe
 pl##.fb-messengermessageus
-pl###livechat-full-view
 pl##.ggu-bot-snapped-launcher
+www.mango.pl###chat-toggle
+||chat.4finance.com^$third-party
+||chat.freshdesk.com^$third-party,xmlhttprequest
+||code.tidio.co^$third-party
+||embed.tawk.to^$script
+||helponclick.com^$third-party,script
+||livesupport.pl/chat/createBottom*.js
+||livesupport.pl/chat/createFloat*.js
+||secure.livechatinc.com^$third-party
+||smartsuppchat.com/loader.js
+||st.chatango.com/js/gz/emb.js
+||www.czater.pl/assets/modules/chat/js/chat.js
 !
 ! 
 ! Newslettery
-pl###newsletter_block_left
-pl###newsletter
-pl##.newsletter
-pl##.box-newsletter
+/wp-content/plugins/wysija-newsletters
 pl###box-newsletter
-pl###newsletter_box
-pl##.newsletter-box
-pl###newsletter-form
-pl##.footer-newsletter
 pl###footer_newsletter
-pl###newsletter-footer
-pl##.newsletter_footer
-pl##.footer-block--newsletter
 pl###menu_newsletter
+pl###newsletter
 pl###newsletter-box
+pl###newsletter-footer
+pl###newsletter-form
+pl###newsletter_block_left
+pl###newsletter_box
 pl###newsletterform
+pl##.box-newsletter
+pl##.footer-block--newsletter
+pl##.footer-newsletter
+pl##.newsletter
+pl##.newsletter-box
+pl##.newsletter_footer
+pl##.widget_wysija
 !
 ! 
 ! Przyciski
