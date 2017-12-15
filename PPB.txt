@@ -2,14 +2,14 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 15 Dec 2017
-! Version: 2017121501
+! Version: 2017121502
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 15 grudnia 2017, 16:36
+! Aktualizacja: czw, 15 grudnia 2017, 22:31
 !
 !
 .facebooklikepopup.
@@ -63,12 +63,8 @@ booking.com##.b_leaving_users_light_box_mask.modal-mask
 booking.com##.notification-lightbox-container.modal-wrapper
 brainly.pl##.js-another-ask-question-box
 brainly.pl##.sg-header--fixed
-butosklep.pl###toplayer_newsletter
-butyibuty.pl###news_popup
 butylukow.pl###tws_i_2
 bylola.pl###popup
-caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
-caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 casu.pl###amsocial_dark
 ceneo.pl##.popup-cl.popup.js_popup
 chrzypsko.pl##.biegacz, #facebook_side
@@ -91,7 +87,6 @@ dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 dbpolska.net,ampolska.net###panel
 ddz.doba.pl###bannersstickright
 discordapp.com##.notice
-diversesystem.com###dvrs-newsletter-popup-body
 dobreprogramy.pl##.forum-help-cta.no-mobile.block, .notifyjs-corner
 dobrerowery.pl##.in.fade.modal.newsletter-modal
 dobrymechanik.pl###appWidget
@@ -105,7 +100,7 @@ drlaptop.pl###load
 dstreet.pl###tws_s_0
 dukapolska.com###exit--popup--box, #exit--popup--container, #exit--popup--wrapper
 dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
-e-ciucholand.com###ctk_np_popup
+e-ciucholand.com#opl##ctk_np_popup
 e-ciucholand.com##.reveal-modal-bg
 e-saving.pl##.overlay, .scroll
 ebuty.pl###fancybox-outer
@@ -118,7 +113,6 @@ electro-outlet.pl###tws_a_2
 elektroda.pl##.button_open
 emag.pl###newsletter-widget
 enel.pl##.widgets
-eporady24.pl##.zaczekaj
 epoznan.pl###main_menu_fixed
 euro.com.pl###footer-shops > .column:nth-of-type(1)
 euro.com.pl###product-for-sale-box
@@ -142,7 +136,6 @@ forsal.pl##.tresc:nth-of-type(6)
 forum.ebiznesy.pl###AdTaily_Widget_Container
 forum.optymalizacja.com###ipsLayout_sidebar
 funtech.pl###mSliderMsg
-galeria-kaskada.pl###modalNewsletter
 galeria-warminska.pl##.nwsltr.box
 galeriabronowice.pl##.news
 galeriabursztynowa.com.pl##.ui-dialog, .ui-widget-overlay
@@ -205,8 +198,8 @@ kotrak.pl##.kotrak_infobox_button
 krakusik.pl###id_B
 kredito24.pl##.btn-apply
 kresy.pl##.ls-popup
-kupbuty.com###tws_i_1, #topLayerBackDrop
-kwiaciarnia-olivia.pl###logo2a, #tlo2a, #wysuwane
+kupbuty.com###tws_i_1
+kwiaciarnia-olivia.pl#3#wysuwane
 laczynaspilka.pl##.box-standard.social-side
 lp.travelist.pl###returnToTopButton
 mac-world.pl##.et_bloom_popup
@@ -221,7 +214,6 @@ media2.pl###news-suggest
 medianarodowe.com###.art__social-footer__link--comment, .widget_radium_newsletter
 mediarun.com##.vc_row-has-fill
 merlin.pl##.promotion-widget
-misjonarska.com###myModal, .reveal-modal-bg
 mixmedia.pl###place3_v2, #place3_v3, #last-viewed, #fb_likebox
 mmaniak.pl###x13popup, #x13popup-cover
 mmarocks.pl##.smPopupContainer, #smPopupBackground
@@ -842,17 +834,28 @@ stopklatka.pl##.platforms_adfloor
 ! Popupy
 pl###esns_background_layer
 pl###logregLead
-pl###topLayerBackDrop
 pl###mail_zapisz
+pl###topLayerBackDrop
 alget.pl###jOverlay, #jOverlayContent
+bankobranie.blogspot.com###overlay
 bluecity.pl##.popupContent
 brilu.pl##.popup__overlay
-doubletreewarsaw.pl##.popout__container
-galeriaveneda.com.pl###popup
-bankobranie.blogspot.com###overlay
+butosklep.pl###toplayer_newsletter
+butyibuty.pl###news_popup
+caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
+caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 d24h.pl###fancybox-overlay
 d24h.pl###fancybox-wrap
+diversesystem.com###dvrs-newsletter-popup-body
+doubletreewarsaw.pl##.popout__container
+eporady24.pl##.zaczekaj
+galeria-kaskada.pl###modalNewsletter
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
+galeriaveneda.com.pl###popup
+kwiaciarnia-olivia.pl###logo2a, #tlo2a
+mediarun.com##.fancybox-outer
+mediarun.com##.snp-pop-146835-overlay.fancybox-overlay-fixed.fancybox-overlay
+misjonarska.com###myModal, .reveal-modal-bg
 !
 !
 ! Popupy - newslettery
