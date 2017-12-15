@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 14 Dec 2017
-! Version: 2017121401
+! Last modified: 15 Dec 2017
+! Version: 2017121501
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 14 grudnia 2017, 21:48
+! Aktualizacja: czw, 15 grudnia 2017, 16:36
 !
 !
 .facebooklikepopup.
@@ -51,7 +51,6 @@ asport.pl##.hit-tygodnia
 bank-life.pl###message
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
-bankobranie.blogspot.com###overlay, #topNewsletter, #sideSocial
 belzyce.edu.pl,www.waszepodroze.eu,pl##.jj_sl_navigation
 bestcena.pl##div[class^=newsletter-box]
 biegambolubie.com.pl##.cp-info-bar-wrapper
@@ -59,13 +58,11 @@ bikecs.com##.bcs_akcja_div
 bikecs.com##.bcs_footer2_div
 bikecs.com##.bcs_site, .bcs_switch
 biznesalert.pl##.toolbar
-bluecity.pl##.popupContent
 bluerank.pl##.shown.exit
 booking.com##.b_leaving_users_light_box_mask.modal-mask
 booking.com##.notification-lightbox-container.modal-wrapper
 brainly.pl##.js-another-ask-question-box
 brainly.pl##.sg-header--fixed
-brilu.pl##.popup__overlay
 butosklep.pl###toplayer_newsletter
 butyibuty.pl###news_popup
 butylukow.pl###tws_i_2
@@ -86,8 +83,6 @@ cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
 cryptoweb.pl###single-sticky, #sticky-header
 cud.rzeszow.pl###pwebbox104
 cyklotur.com##.musli-left.musli
-d24h.pl###fancybox-overlay
-d24h.pl###fancybox-wrap
 dailyvibes.pl##div[class*=unavailableMessageOverlaycontent]
 dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
 dany-meble.pl##body > .hidden-sm.hidden-xs
@@ -106,7 +101,6 @@ domsary.eu###widget-handler
 domzagadek.pl##.voucher-widget
 doradcasmaku.pl##.side-widget, .visible.lastest-news-wrapper
 doruchow.pl###div_loader
-doubletreewarsaw.pl##.popout__container
 drlaptop.pl###load
 dstreet.pl###tws_s_0
 dukapolska.com###exit--popup--box, #exit--popup--container, #exit--popup--wrapper
@@ -150,10 +144,8 @@ forum.optymalizacja.com###ipsLayout_sidebar
 funtech.pl###mSliderMsg
 galeria-kaskada.pl###modalNewsletter
 galeria-warminska.pl##.nwsltr.box
-galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriabronowice.pl##.news
 galeriabursztynowa.com.pl##.ui-dialog, .ui-widget-overlay
-galeriaveneda.com.pl###popup
 gamedot.pl##.footer-top-container-item:nth-of-type(4)
 gametrade.pl###facebox, #facebox_overlay
 gazetapraca.pl###nlt_overlay
@@ -650,6 +642,7 @@ pl##.zpr_sky
 ! Strzałki
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
+alltube.tv## .fa-angle-double-up
 alget.pl##.top_button
 ams.com.pl###back2top
 avans.pl###js-scrollTop
@@ -765,6 +758,8 @@ pl###socialwidget
 pl###topSocial
 /media/mod_social_slider
 /wp-content/plugins/FLM-Social-Sidebar
+||d24h.pl/img/fb-ico.png$image
+ajgroup-pros.pl##.SocialBoard
 biotechnologia.pl###facebook-trigger
 nexto.pl###social
 !
@@ -777,6 +772,10 @@ twojahistoria.pl##.footer-fixed
 !
 ! Widgety
 pl###poza-szkieletem
+4fun.tv##.app-popup
+hbo.pl##.ribbon
+media2.pl###news-readmore
+media2.pl###news-suggest
 !
 !
 ! Widgety - czaty
@@ -785,6 +784,7 @@ fantasyliga.wp.pl##.show-chat
 pl###chat-application-iframe
 pl##.fb-messengermessageus
 pl##.ggu-bot-snapped-launcher
+d24h.pl###chat_container
 www.mango.pl###chat-toggle
 ||chat.4finance.com^$third-party
 ||chat.freshdesk.com^$third-party,xmlhttprequest
@@ -818,6 +818,7 @@ pl##.newsletter
 pl##.newsletter-box
 pl##.newsletter_footer
 pl##.widget_wysija
+bankobranie.blogspot.com###topNewsletter
 !
 ! 
 ! Przyciski
@@ -831,6 +832,9 @@ pl##.side_widget
 pl###side_widget_newsletter
 pl##.slideout-widget
 pl###feedbackButton
+bankobranie.blogspot.com###sideSocial
+d24h.pl###zaufane_opinie_widget
+d24h.pl###zapytaj_kosmetyczke
 echodnia.eu###toolbar
 stopklatka.pl##.platforms_adfloor
 !
@@ -840,6 +844,15 @@ pl###esns_background_layer
 pl###logregLead
 pl###topLayerBackDrop
 pl###mail_zapisz
+alget.pl###jOverlay, #jOverlayContent
+bluecity.pl##.popupContent
+brilu.pl##.popup__overlay
+doubletreewarsaw.pl##.popout__container
+galeriaveneda.com.pl###popup
+bankobranie.blogspot.com###overlay
+d24h.pl###fancybox-overlay
+d24h.pl###fancybox-wrap
+galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 !
 !
 ! Popupy - newslettery
