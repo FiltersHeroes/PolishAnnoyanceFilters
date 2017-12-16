@@ -2,14 +2,14 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 16 Dec 2017
-! Version: 2017121601
+! Version: 2017121602
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 16 grudnia 2017, 11:19
+! Aktualizacja: sob, 16 grudnia 2017, 12:56
 !
 !
 .facebooklikepopup.
@@ -169,7 +169,6 @@ historiasportu.info##.et_pb_side_nav
 historyk.eu###newsletter
 hitbank.pl###scrollbarbox, #upprev_box
 hubkolektyw.pl##.panel-boczny
-ibiznes.biz###text-2
 idream.pl##.wf2-bg-light.grwf2_backdrop
 info.elblag.pl###nastepnyArtykul
 infogram.com###launcher
@@ -446,7 +445,6 @@ zszywka.pl###inv-request-popup
 ||www.chamskie.pl/compress/popupFacebook.js
 ||www.chamskie.pl/compress/popups/popupFacebook_normal.css
 ||www.doradcasmaku.pl/index/get-popup$xmlhttprequest
-||www.dostawy-wody-zywiec.pl/img/kontakt_box.png
 ||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||www.tygodnikprzeglad.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
@@ -602,6 +600,7 @@ pl##.zpr_sky
 ! Strzałki
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
+agrobex.pl###top-link
 alget.pl##.top_button
 alltube.tv## .fa-angle-double-up
 ams.com.pl###back2top
@@ -625,7 +624,8 @@ historiasportu.info##.et_pb_scroll_top
 jakzarabiaconline.blogspot.com###top
 kaufland.pl##.a-back-to-top__button
 kliknijwzdrowie.pl,tasteandtravel.pl###scroll_totop
-kodiwpigulce.pl,niemarkowe.pl,cwninja.pl,gruparmf.pl###totop
+kmziz.pl##.scrollup
+kodiwpigulce.pl,niemarkowe.pl,gruparmf.pl###totop
 kulturawplot.pl##.infinite-back-top
 lamoda.pl##.js-return-to-top
 lolmania.pl,polskaracja.com,viralz.pl##.g1-back-to-top
@@ -686,6 +686,7 @@ smartpozyczka.pl##.toTop
 tabletowo.pl,zdrowyportal.org###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
+turek.net.pl###back-top
 univision24.pl,ogrzewania.pl,fabrykasypialni, welafashion.pl##.up
 vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl###backTop
 www.akademiareklamy.edu.pl###topscroller
@@ -709,6 +710,7 @@ zrobisztosam.com###topLink
 ! Ruchome elementy sieci społecznościowych
 /media/mod_social_slider
 /wp-content/plugins/FLM-Social-Sidebar
+agrobex.pl##.fb-tab
 ajgroup-pros.pl##.SocialBoard
 biotechnologia.pl,neonet.pl###facebook-trigger
 fonplace.pl##.herald-single-sticky
@@ -780,6 +782,7 @@ www.mango.pl###chat-toggle
 /wp-content/plugins/wysija-newsletters
 bankobranie.blogspot.com###topNewsletter
 cefarm24.pl##.nws > form > .newsletter
+kmziz.pl##.newsletter
 o.pl###email-bar, #nl-icon, #cs-newsletter
 obserwatorfinansowy.pl###newsletterForm
 ogloszenia24.info###newsletter_section
@@ -809,6 +812,7 @@ bankobranie.blogspot.com###sideSocial
 d24h.pl###zapytaj_kosmetyczke
 d24h.pl###zaufane_opinie_widget
 echodnia.eu###toolbar
+miedziowe.pl###showhidecart
 ncplus.pl###button-call, #button-lead
 o.pl###codemanipulator-tools
 pl###__ceneo-widgets
@@ -826,6 +830,7 @@ stopklatka.pl##.platforms_adfloor
 !
 ! 
 ! Popupy
+agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
 alget.pl###jOverlay, #jOverlayContent
 bankobranie.blogspot.com###overlay
 bluecity.pl##.popupContent
@@ -838,6 +843,7 @@ d24h.pl###fancybox-overlay
 d24h.pl###fancybox-wrap
 diversesystem.com###dvrs-newsletter-popup-body
 doubletreewarsaw.pl##.popout__container
+eluban.pl###popup
 eporady24.pl##.zaczekaj
 eswinoujscie.pl##.ulp-layer, .ulp-overlay
 galeria-kaskada.pl###modalNewsletter
@@ -853,12 +859,15 @@ nawozy.eu##.newsletterPopup
 ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
+swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 pl###esns_background_layer
 pl###logregLead
 pl###mail_zapisz
 pl###topLayerBackDrop
 ||cdn-widget.callpage.io/build/js/callpage.js
+||gdanskstrefa.com/wp-content/plugins/boxzilla/assets/js/script.min.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
+||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js

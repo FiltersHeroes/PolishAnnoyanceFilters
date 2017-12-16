@@ -1,13 +1,13 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka
-! Last modified: 14 Dec 2017
-! Version: 2017121401
+! Last modified: 16 Dec 2017
+! Version: 2017121601
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 14 grudnia 2017, 21:48
+! Aktualizacja: sob, 16 grudnia 2017, 12:57
 !
 !
 6krokow.pl###header:style(position: absolute!important;)
@@ -74,6 +74,8 @@ jooble.org###popup
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible!important; width: 100%!important;)
 kiep.pl##.popup
 kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1!important;)
+kmziz.pl###full_newsletter_modal, .modal-backdrop
+kmziz.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position:static!important;)
 limango.pl##.js_welcome_background.background_overlay, .modal
 limango.pl##body.welcome_main.modal-open:style(overflow: visible!important;padding-right: 0px!important;)
@@ -132,6 +134,8 @@ teletorium.pl##body.pop_open:style(overflow: visible!important;)
 telewizjarepublika.pl###header-top:style(position: static!important;)
 ttv.pl###specialPopupModal
 ttv.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
+turek.net.pl##.mfp-ready
+turek.net.pl##html:style(overflow: visible !important; margin-right: 0px !important;)
 tustolica.pl###innermenu:style(position: static!important;)
 twojezaglebie.pl##.td-ss-main-sidebar:style(position: static!important;)
 tychy.info##.menu-left-side
