@@ -1,13 +1,13 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka
 ! Last modified: 16 Dec 2017
-! Version: 2017121602
+! Version: 2017121603
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 16 grudnia 2017, 13:11
+! Aktualizacja: sob, 16 grudnia 2017, 23:32
 !
 !
 6krokow.pl###header:style(position: absolute!important;)
@@ -92,6 +92,9 @@ niezalezna.pl###header:style(position: absolute!important;)
 niezalezna.pl###pageWrapper:style(top: 0!important;)
 oleole.pl###modalContainer
 oleole.pl##html:style(overflow: auto!important;)
+partneragdrtv.com.pl##.mfp-bg
+partneragdrtv.com.pl##.mfp-ready:has(.newsletter-box)
+partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
 pepco.pl##.modal-newsletter
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
 polona.pl##cbn-header:style(position: absolute !important;)

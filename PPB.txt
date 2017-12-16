@@ -2,14 +2,14 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 16 Dec 2017
-! Version: 2017121603
+! Version: 2017121604
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 16 grudnia 2017, 16:15
+! Aktualizacja: sob, 16 grudnia 2017, 23:26
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -220,30 +220,6 @@ muve.pl###exit--popup--container
 mylomza.pl###codeboxrfeedbackbuttonfvfbj5showb1
 myphone.pl###trig_pop_news
 mysize.com.pl###popup_box, #overlay
-panoramafirm.pl##.textCenter
-parenting.pl##.parenting-tv-latest
-partneragdrtv.com.pl###js-sis_menu
-pato.pl###nasza_klasa_side_bar
-pb.pl##.smPopupContainer, #smPopupBackground
-pl.000webhost.com##div[style="cursor: pointer;"]
-pl.bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
-pl.pokerstrategy.com##.js_lb_overlay.lb_overlay
-pl.tripadvisor.com##.dark.ui_backdrop
-play.google.com##.sticky
-play.pl###optimonk-holder-campaign-59
-player.pl##body > div:nth-of-type(19)
-player.pl##body > div:nth-of-type(3)
-player.pl##body > iframe:nth-of-type(1)
-poczta.int.pl##.maximized-wrapper.ng-isolate-scope
-poczta.interia.pl###side-ad
-pogotowiegotowkowe.info###out-popup
-pol-nor.com###boxpopup, #overlay, #popforfirma, .formk
-polemi.co.uk###formAcymailing1 > .acymailing_module_form
-policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
-polsatnews.pl###fab
-polskihurtworld.eu##.ggu-widget-launcher
-poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
-portalenieruchomosci.pl##.text-right.col-xs-2
 pozyczkaportal.pl##.tiny.header
 ppe.pl##.fixedMenu, .nextbox
 pracuj.pl###lightbox
@@ -624,6 +600,7 @@ olgasmile.com##.scroll-top
 outdoortrack.pl##.to-top-container
 p2mforum.info###uix_jumpToFixed
 pense.pl###go-top, .arrow
+polsatnews.pl###fab
 pl###back-top
 pl###backtotop
 pl###BackToTop
@@ -649,6 +626,7 @@ pl##.scrolltop
 pl##.scrollToTop
 pl##.td-scroll-up
 pl##.totop
+player.pl##.footer-panel-toggle
 playstation.com,www.wizytowka.be,pl###back-to-top
 polona.pl##.js-to-top
 polskiautohandel.pl,optyczne.pl##.backtopbutton
@@ -702,6 +680,8 @@ nowa.tv##.sticky_boxes
 nowafarmacja.pl##.fb-widget
 ogrzewania.pl##.modFBWidget
 otomoto.pl##.social-float-bar
+pato.pl###nasza_klasa_side_bar, #facebook_side_bar
+policja.pl###likebox
 pl###bossbyte_slide
 pl###facebook-slider
 pl###facebook2_2
@@ -732,6 +712,10 @@ natemat.pl###posts-progress
 nestbank.pl##.fixed-label
 newsweek.pl###nitro-block, .wrapper, #ARTICLE_STREAM_PATH
 nietylkopasta.pl###dbx_light, #upprev_box
+panoramafirm.pl##.container.pt-1.card.blog-box
+parenting.pl##.parenting-tv-latest
+poczta.interia.pl###createaccount2
+poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 pl###poza-szkieletem
 ||ssl.ceneo.pl/shops/sw.js$third-party
 ||sucuri.net/monitoring/badge.js
@@ -744,10 +728,12 @@ pl###poza-szkieletem
 /livezillachat//script.php
 d24h.pl###chat_container
 fantasyliga.wp.pl##.show-chat
+mango.pl###chat-toggle
 pl###chat-application-iframe
 pl##.fb-messengermessageus
 pl##.ggu-bot-snapped-launcher
-www.mango.pl###chat-toggle
+pl.000webhost.com##div[style="cursor: pointer;"]
+polskihurtworld.eu##.ggu-widget-launcher
 ||chat.4finance.com^$third-party
 ||chat.freshdesk.com^$third-party,xmlhttprequest
 ||code.tidio.co^$third-party
@@ -767,8 +753,8 @@ www.mango.pl###chat-toggle
 ! Newslettery (nie popupy)
 /wp-content/plugins/wysija-newsletters
 bankobranie.blogspot.com###topNewsletter
-biegambolubie.com.pl##.cp-info-bar-wrapper
-bluerank.pl##.shown.exit
+biegambolubie.com.pl##.cp-info-bar-wrapper
+bluerank.pl##.shown.exit
 cefarm24.pl##.nws > form > .newsletter
 kmziz.pl##.newsletter
 o.pl###email-bar, #nl-icon, #cs-newsletter
@@ -794,22 +780,26 @@ pl##.newsletter
 pl##.newsletter-box
 pl##.newsletter_footer
 pl##.widget_wysija
+pol-nor.com##.formk
+pol-nor.com##.mtz > form
+polemi.co.uk###dropin
 !
 ! 
 ! Przyciski
-asport.pl##.hit-tygodnia
-bank-wbs.pl###wrapperSectionStickyIcon 
+asport.pl##.hit-tygodnia
+bank-wbs.pl###wrapperSectionStickyIcon
 bankobranie.blogspot.com###sideSocial
-belzyce.edu.pl,www.waszepodroze.eu,pl##.jj_sl_navigation
+belzyce.edu.pl,www.waszepodroze.eu,pl##.jj_sl_navigation
 d24h.pl###zapytaj_kosmetyczke
 d24h.pl###zaufane_opinie_widget
 echodnia.eu###toolbar
-electro-outlet.pl###tws_a_2 
+electro-outlet.pl###tws_a_2
 miedziowe.pl###showhidecart
 ncplus.pl###button-call, #button-lead
 o.pl###codemanipulator-tools
 orange.pl###bugTrackTag, .payback-floating-sidebar__trigger
 pakolorente.com###ri-widget
+partneragdrtv.com.pl###js-sis_menu
 pl###__ceneo-widgets
 pl###feedbackButton
 pl###oiOpinionWidget
@@ -832,7 +822,7 @@ bluecity.pl##.popupContent
 brilu.pl##.popup__overlay
 butosklep.pl,pakolorente.com###toplayer_newsletter
 butyibuty.pl###news_popup
-butylukow.pl###tws_i_2
+butylukow.pl###tws_i_2
 caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
 caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 chrzypsko.pl###dhtml_popup
@@ -843,7 +833,7 @@ doubletreewarsaw.pl##.popout__container
 eluban.pl###popup
 eporady24.pl##.zaczekaj
 eswinoujscie.pl##.ulp-layer, .ulp-overlay
-fashionata.pl##.nlpwContainer, .pwShade 
+fashionata.pl##.nlpwContainer, .pwShade
 galeria-kaskada.pl###modalNewsletter
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriaveneda.com.pl###popup
@@ -861,6 +851,10 @@ okmoneta.pl###popupEmailPhone
 opensubtitles.org###fadeSub, #lightSub
 otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 otmuchow.pl##script ~ #cboxOverlay
+player.pl##.__ipPerunElement
+poczta.int.pl##.maximized-wrapper
+policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
+pol-nor.com###boxpopup, #overlay, #popforfirma
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 pl###esns_background_layer
 pl###logregLead
@@ -875,3 +869,8 @@ pl###topLayerBackDrop
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
+!
+!
+! Ruchome nagłówki, panele, menu
+play.google.com##.sticky
+pl.bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
