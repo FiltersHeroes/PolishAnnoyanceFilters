@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 15 Dec 2017
-! Version: 2017121503
+! Last modified: 16 Dec 2017
+! Version: 2017121601
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 15 grudnia 2017, 23:52
+! Aktualizacja: sob, 16 grudnia 2017, 11:19
 !
 !
 .facebooklikepopup.
@@ -230,18 +230,6 @@ muve.pl###exit--popup--container
 mylomza.pl###codeboxrfeedbackbuttonfvfbj5showb1
 myphone.pl###trig_pop_news
 mysize.com.pl###popup_box, #overlay
-nietylkopasta.pl###dbx_light
-nowa.tv##.sticky_boxes
-nowafarmacja.pl###newsletter-overlay, #freshmail-form
-nowosci-mp3.eu##.clr.center > .short-story
-nslowo.pl##.itemBackToTop
-o.pl###email-bar, #nl-icon
-obserwatorfinansowy.pl###newsletterForm
-ogloszenia24.info###fancybox-overlay
-ogloszeniowa.net###ad-left
-ogryzek.pl##.add_shop
-ogrzewania.pl##.modFBWidget
-okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
 okmoneta.pl###popupEmailPhone
 olicom.com.pl###ouibounce-modal
 olika.com.pl##.pop-up, .pop-up-overlay
@@ -438,7 +426,6 @@ zszywka.pl###inv-request-popup
 ||a.mailmunch.co/app/$script,third-party
 ||api.traq.li^$third-party
 ||app.sugester.pl/tpbocian/widget.js
-||cdn-widget.callpage.io/build/js/callpage.js
 ||doxa.fm/wp-content/plugins/sn-facebook-like/js/retioSlider.min.js
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||grawerowanie.org.pl/wp-content/uploads/2012/12/tlo17.gif
@@ -448,25 +435,18 @@ zszywka.pl###inv-request-popup
 ||losyziemi.pl/?spu_action=spu_load&lang=
 ||mailerlite.com^$third-party
 ||mediaexpert.pl/js/popup.js
-||nawozy.eu/js/jquery.lockscroll.min.js
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js
-||ssl.ceneo.pl/shops/sw.js$third-party
 ||static.kupbilet.pl/__Lang/PL/Grafika/ver42_jquery.tabSlideOut.v1.3.js
 ||static.whatshelp.io/widget-send-button/js/init.js
 ||tygodniksiedlecki.com/assets/mobile/js/ts.js$script,first-party
 ||upolujebooka.pl/_visual/_b/b_newsletter.jpg
-||v2.zopim.com/bin/v/widget_v2.*.js
-||webfrik.pl/script/popup-fb$third-party
-||webfrik.pl/widgets/popup/popup.min.js$third-party
 ||widget.userengage.com/widget.js
 ||widget.userengage.io/widget.js
-||widgets.trustedshops.com/js/*.js$third-party
+||widgets.trustedshops.com/js/*.js
 ||www.chamskie.pl/compress/popupFacebook.js
 ||www.chamskie.pl/compress/popups/popupFacebook_normal.css
 ||www.doradcasmaku.pl/index/get-popup$xmlhttprequest
 ||www.dostawy-wody-zywiec.pl/img/kontakt_box.png
-||www.opineo.pl/gfx/frontend/side_slider_gfx.png
-||www.opineo.pl/shop/slider.js.php$third-party
 ||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||www.tygodnikprzeglad.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
@@ -658,6 +638,8 @@ motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl
 myjki.com###scrollTop
 nczas.com##.td-scroll-up
 neonet.pl##.arrow-up
+nowosci-mp3.eu###toTop
+nslowo.pl##.itemBackToTop
 okazik.pl###btn-scrollup
 olgasmile.com##.scroll-top
 outdoortrack.pl##.to-top-container
@@ -704,9 +686,8 @@ smartpozyczka.pl##.toTop
 tabletowo.pl,zdrowyportal.org###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
-univision24.pl,ogrzewania.pl,fabrykasypialni##.up
+univision24.pl,ogrzewania.pl,fabrykasypialni, welafashion.pl##.up
 vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl###backTop
-welafashion.pl##.up
 www.akademiareklamy.edu.pl###topscroller
 www.artefakt.pl###scrollUp
 www.chamskie.pl###widget-back-to-top
@@ -725,7 +706,7 @@ zrobisztosam.com###topLink
 ||tapeciarnia.pl/img/do_gory.png
 !
 !
-! Ruchome elementy social
+! Ruchome elementy sieci społecznościowych
 /media/mod_social_slider
 /wp-content/plugins/FLM-Social-Sidebar
 ajgroup-pros.pl##.SocialBoard
@@ -734,6 +715,9 @@ fonplace.pl##.herald-single-sticky
 innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
 instalacjebudowlane.pl###fb
 nexto.pl###social
+nowa.tv##.sticky_boxes
+nowafarmacja.pl##.fb-widget
+ogrzewania.pl##.modFBWidget
 pl###bossbyte_slide
 pl###facebook-slider
 pl###facebook2_2
@@ -741,6 +725,7 @@ pl###facebook_slider_widget
 pl###fb-slider
 pl###fbSlider
 pl###googleplus2_2
+pl###side_widget
 pl###socialwidget
 pl###topSocial
 pl###twitter2_2
@@ -761,7 +746,9 @@ miastons.pl##.stckbottom.cms_see_more
 natemat.pl###posts-progress
 nestbank.pl##.fixed-label
 newsweek.pl###nitro-block, .wrapper, #ARTICLE_STREAM_PATH
+nietylkopasta.pl###dbx_light, #upprev_box
 pl###poza-szkieletem
+||ssl.ceneo.pl/shops/sw.js$third-party
 ||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js
 !
@@ -777,19 +764,26 @@ www.mango.pl###chat-toggle
 ||chat.4finance.com^$third-party
 ||chat.freshdesk.com^$third-party,xmlhttprequest
 ||code.tidio.co^$third-party
-||embed.tawk.to^$script
+||embed.tawk.to^$script,third-party
 ||helponclick.com^$third-party,script
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
+||salesmanago.pl/dynamic/*/popups.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
 ||st.chatango.com/js/gz/emb.js
+||v2.zopim.com/bin/v/widget_v2.*.js
 ||www.czater.pl/assets/modules/chat/js/chat.js
 !
 ! 
-! Newslettery
+! Newslettery (nie popupy)
 /wp-content/plugins/wysija-newsletters
 bankobranie.blogspot.com###topNewsletter
+cefarm24.pl##.nws > form > .newsletter
+o.pl###email-bar, #nl-icon, #cs-newsletter
+obserwatorfinansowy.pl###newsletterForm
+ogloszenia24.info###newsletter_section
+okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
 pl###box-newsletter
 pl###footer_newsletter
 pl###menu_newsletter
@@ -800,6 +794,7 @@ pl###newsletter-form
 pl###newsletter_block_left
 pl###newsletter_box
 pl###newsletterform
+pl###side_widget_newsletter
 pl##.box-newsletter
 pl##.footer-block--newsletter
 pl##.footer-newsletter
@@ -815,17 +810,19 @@ d24h.pl###zapytaj_kosmetyczke
 d24h.pl###zaufane_opinie_widget
 echodnia.eu###toolbar
 ncplus.pl###button-call, #button-lead
+o.pl###codemanipulator-tools
 pl###__ceneo-widgets
-pl###_opineo_label
 pl###feedbackButton
 pl###oiOpinionWidget
-pl###side_widget_newsletter
 pl###widget-allegro
 pl##.mraty-widget
+pl##.no_print.toplayerSpecialClass
 pl##.pwebbox-container-outset
 pl##.side_widget
 pl##.slideout-widget
 stopklatka.pl##.platforms_adfloor
+||opineo.pl/gfx/frontend/side_slider_gfx.png
+||opineo.pl/shop/slider.js.php$third-party
 !
 ! 
 ! Popupy
@@ -846,21 +843,22 @@ eswinoujscie.pl##.ulp-layer, .ulp-overlay
 galeria-kaskada.pl###modalNewsletter
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriaveneda.com.pl###popup
+instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
 limanowa.in##.ad_popup
-mediarun.com##.fancybox-outer
-mediarun.com##.snp-pop-146835-overlay.fancybox-overlay-fixed.fancybox-overlay
+mediarun.com##.fancybox-outer, .fancybox-overlay
 misjonarska.com###myModal, .reveal-modal-bg
+mlodytechnik.pl###newsletterContainer
+nawozy.eu##.newsletterPopup
 ncplus.pl###fancybox-overlay, #fancybox-wrap
+neonet.pl##.snrs-modal-show.snrs-modal-wrapper
+nowafarmacja.pl###newsletter-overlay, #freshmail-form
 pl###esns_background_layer
 pl###logregLead
 pl###mail_zapisz
 pl###topLayerBackDrop
-!
-!
-! Popupy - newslettery
-instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
-mlodytechnik.pl###newsletterContainer
-nawozy.eu##.newsletterPopup
-neonet.pl##.snrs-modal-show.snrs-modal-wrapper
+||cdn-widget.callpage.io/build/js/callpage.js
+||nawozy.eu/js/jquery.lockscroll.min.js
+||webfrik.pl/script/popup-fb
+||webfrik.pl/widgets/popup/popup.min.js
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
