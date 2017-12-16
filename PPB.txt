@@ -2,14 +2,18 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 16 Dec 2017
-! Version: 2017121602
+! Version: 2017121603
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 16 grudnia 2017, 15:57
+! Aktualizacja: sob, 16 grudnia 2017, 16:15
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
+!#include PPB_uBlock_AdGuard.txt
 !
 !
 .facebooklikepopup.
@@ -216,17 +220,6 @@ muve.pl###exit--popup--container
 mylomza.pl###codeboxrfeedbackbuttonfvfbj5showb1
 myphone.pl###trig_pop_news
 mysize.com.pl###popup_box, #overlay
-okmoneta.pl###popupEmailPhone
-olicom.com.pl###ouibounce-modal
-olika.com.pl##.pop-up, .pop-up-overlay
-olx.pl##.js-gtm-survey.gtm-survey
-opensubtitles.org###fade
-orange.pl##.usabilla__overlay
-otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
-otmuchow.pl##script ~ #cboxOverlay
-otomoto.pl##.social-float-bar
-p2mforum.info###uix_jumpToFixed
-pakolorente.com###tws_a_1
 panoramafirm.pl##.textCenter
 parenting.pl##.parenting-tv-latest
 partneragdrtv.com.pl###js-sis_menu
@@ -428,7 +421,6 @@ zszywka.pl###inv-request-popup
 ||upolujebooka.pl/_visual/_b/b_newsletter.jpg
 ||widget.userengage.com/widget.js
 ||widget.userengage.io/widget.js
-||widgets.trustedshops.com/js/*.js
 ||www.chamskie.pl/compress/popupFacebook.js
 ||www.chamskie.pl/compress/popups/popupFacebook_normal.css
 ||www.doradcasmaku.pl/index/get-popup$xmlhttprequest
@@ -630,6 +622,7 @@ nslowo.pl##.itemBackToTop
 okazik.pl###btn-scrollup
 olgasmile.com##.scroll-top
 outdoortrack.pl##.to-top-container
+p2mforum.info###uix_jumpToFixed
 pense.pl###go-top, .arrow
 pl###back-top
 pl###backtotop
@@ -700,6 +693,7 @@ zrobisztosam.com###topLink
 agrobex.pl##.fb-tab
 ajgroup-pros.pl##.SocialBoard
 biotechnologia.pl,neonet.pl###facebook-trigger
+chrzypsko.pl###facebook_side
 fonplace.pl##.herald-single-sticky
 innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
 instalacjebudowlane.pl###fb
@@ -707,6 +701,7 @@ nexto.pl###social
 nowa.tv##.sticky_boxes
 nowafarmacja.pl##.fb-widget
 ogrzewania.pl##.modFBWidget
+otomoto.pl##.social-float-bar
 pl###bossbyte_slide
 pl###facebook-slider
 pl###facebook2_2
@@ -739,8 +734,10 @@ newsweek.pl###nitro-block, .wrapper, #ARTICLE_STREAM_PATH
 nietylkopasta.pl###dbx_light, #upprev_box
 pl###poza-szkieletem
 ||ssl.ceneo.pl/shops/sw.js$third-party
+||sucuri.net/monitoring/badge.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js
+||widgets.trustedshops.com/js/*.js
 !
 !
 ! Widgety - czaty
@@ -758,6 +755,7 @@ www.mango.pl###chat-toggle
 ||helponclick.com^$third-party,script
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
+||orange.binaries.pl/ui/20171116/gnwidget/config/site-iframe.html
 ||salesmanago.pl/dynamic/*/popups.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
@@ -769,15 +767,15 @@ www.mango.pl###chat-toggle
 ! Newslettery (nie popupy)
 /wp-content/plugins/wysija-newsletters
 bankobranie.blogspot.com###topNewsletter
-biegambolubie.com.pl##.cp-info-bar-wrapper
-bluerank.pl##.shown.exit
+biegambolubie.com.pl##.cp-info-bar-wrapper
+bluerank.pl##.shown.exit
 cefarm24.pl##.nws > form > .newsletter
-electro-outlet.pl###tws_a_1
 kmziz.pl##.newsletter
 o.pl###email-bar, #nl-icon, #cs-newsletter
 obserwatorfinansowy.pl###newsletterForm
 ogloszenia24.info###newsletter_section
 okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
+orange.pl###newsletterSkipLink
 pl###box-newsletter
 pl###footer_newsletter
 pl###menu_newsletter
@@ -799,18 +797,19 @@ pl##.widget_wysija
 !
 ! 
 ! Przyciski
-asport.pl##.hit-tygodnia
-bank-wbs.pl###wrapperSectionStickyIcon
+asport.pl##.hit-tygodnia
+bank-wbs.pl###wrapperSectionStickyIcon 
 bankobranie.blogspot.com###sideSocial
-belzyce.edu.pl,www.waszepodroze.eu,pl##.jj_sl_navigation
-chrzypsko.pl##.biegacz
+belzyce.edu.pl,www.waszepodroze.eu,pl##.jj_sl_navigation
 d24h.pl###zapytaj_kosmetyczke
 d24h.pl###zaufane_opinie_widget
 echodnia.eu###toolbar
-electro-outlet.pl###tws_a_2
+electro-outlet.pl###tws_a_2 
 miedziowe.pl###showhidecart
 ncplus.pl###button-call, #button-lead
 o.pl###codemanipulator-tools
+orange.pl###bugTrackTag, .payback-floating-sidebar__trigger
+pakolorente.com###ri-widget
 pl###__ceneo-widgets
 pl###feedbackButton
 pl###oiOpinionWidget
@@ -831,11 +830,12 @@ alget.pl###jOverlay, #jOverlayContent
 bankobranie.blogspot.com###overlay
 bluecity.pl##.popupContent
 brilu.pl##.popup__overlay
-butosklep.pl###toplayer_newsletter
+butosklep.pl,pakolorente.com###toplayer_newsletter
 butyibuty.pl###news_popup
-butylukow.pl###tws_i_2
+butylukow.pl###tws_i_2
 caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
 caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
+chrzypsko.pl###dhtml_popup
 d24h.pl###fancybox-overlay
 d24h.pl###fancybox-wrap
 diversesystem.com###dvrs-newsletter-popup-body
@@ -843,8 +843,7 @@ doubletreewarsaw.pl##.popout__container
 eluban.pl###popup
 eporady24.pl##.zaczekaj
 eswinoujscie.pl##.ulp-layer, .ulp-overlay
-fashionata.pl##.nlpwContainer
-fashionata.pl##.pwShade
+fashionata.pl##.nlpwContainer, .pwShade 
 galeria-kaskada.pl###modalNewsletter
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriaveneda.com.pl###popup
@@ -858,15 +857,21 @@ nawozy.eu##.newsletterPopup
 ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
+okmoneta.pl###popupEmailPhone
+opensubtitles.org###fadeSub, #lightSub
+otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
+otmuchow.pl##script ~ #cboxOverlay
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 pl###esns_background_layer
 pl###logregLead
 pl###mail_zapisz
 pl###topLayerBackDrop
 ||cdn-widget.callpage.io/build/js/callpage.js
+||gazetagazeta.com/wp-content/plugins/popupally/resource/frontend/popup.min.js
 ||gdanskstrefa.com/wp-content/plugins/boxzilla/assets/js/script.min.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
+||usabilla.com^$third-party,script
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
