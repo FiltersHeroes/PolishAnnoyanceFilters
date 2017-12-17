@@ -2,22 +2,20 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 17 Dec 2017
-! Version: 201712170
+! Version: 2017121704
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 17 grudnia 2017, 23:33
+! Aktualizacja: nd, 17 grudnia 2017, 23:45
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
 !#include PPB_uBlock_AdGuard.txt
 !
 !
-auchandirect.pl ##. prehomepage.featherlight
-auchandirect.pl ## html> body.modalOpen: style (przepełnienie: widoczne! ważne; pozycja: statyczne! ważne;)
 3i-store.com###backgroundFade
 4f.com.pl###footer_toppage
 4fun.tv##.app-popup
@@ -659,8 +657,7 @@ getinbank.pl##.quickMenuRow.row
 hbo.pl##.ribbon
 kresy.pl##.ls-popup
 l24.lt###scr
-media2.pl###news-readmore
-media2.pl###news-suggest
+media2.pl###news-readmore, #news-suggest
 miastons.pl##.stckbottom.cms_see_more
 natemat.pl###posts-progress
 nestbank.pl##.fixed-label
@@ -718,8 +715,7 @@ bankobranie.blogspot.com###topNewsletter
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bluerank.pl##.shown.exit
 cefarm24.pl##.nws > form > .newsletter
-coccodrillo.eu###homeNewsletter
-coccodrillo.eu##.newsletterWrap
+coccodrillo.eu###homeNewsletter, .newsletterWrap
 erp-view.pl###top-mod
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 fokusfashion.com##form > input:nth-of-type(2)
@@ -897,7 +893,7 @@ ptakmoda.com###edrone--push--container
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=dobreprogramy.pl|fotka.com|player.pl
 ||mxapis.com^
 ||proxy.synerise.com/*/web-push/get-public-config
-||push-ad.com^$third-party
+||push-ad.com^$script
 ||pushad.io^
 ||pushalert.co^
 ||pushango.com^$script,domain=~pushango.com
