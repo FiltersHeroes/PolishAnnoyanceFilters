@@ -1,13 +1,13 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka
 ! Last modified: 17 Dec 2017
-! Version: 2017121702
+! Version: 2017121703
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 17 grudnia 2017, 19:43
+! Aktualizacja: nd, 17 grudnia 2017, 23:03
 !
 !
 activ-investment.eu###newsletter-content
@@ -16,6 +16,8 @@ activ-investment.eu##.fancybox-overlay:style(overflow: hidden!important;)
 activ-investment.eu##html.fancybox-lock:style(overflow: visible!important;)
 akademiaversum.pl###newsletter-pp
 akademiaversum.pl##body.with-overlay:style(overflow: auto!important;)
+auchandirect.pl##.prehomepage.featherlight
+auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 biznesalert.pl##.mfp-ready

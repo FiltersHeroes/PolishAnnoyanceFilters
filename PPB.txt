@@ -2,14 +2,14 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 17 Dec 2017
-! Version: 2017121702
+! Version: 2017121703
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 17 grudnia 2017, 19:43
+! Aktualizacja: nd, 17 grudnia 2017, 23:03
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -730,6 +730,7 @@ polskihurtworld.eu##.ggu-widget-launcher
 /btn-newsletter
 /wp-content/plugins/wysija-newsletters
 akademiaversum.pl##.newsletter-form
+auchandirect.pl###formNewslettersFooter
 bankobranie.blogspot.com###topNewsletter
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bluerank.pl##.shown.exit
@@ -904,7 +905,7 @@ ptakmoda.com###edrone--push--container
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=dobreprogramy.pl|fotka.com|player.pl
 ||mxapis.com^
 ||proxy.synerise.com/*/web-push/get-public-config
-||push-ad.com^$third-party
+||push-ad.com^$script
 ||pushad.io^
 ||pushalert.co^
 ||pushango.com^$script,domain=~pushango.com
