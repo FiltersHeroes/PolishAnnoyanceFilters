@@ -2,20 +2,22 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 17 Dec 2017
-! Version: 2017121703
+! Version: 201712170
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 17 grudnia 2017, 23:03
+! Aktualizacja: nd, 17 grudnia 2017, 23:33
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
 !#include PPB_uBlock_AdGuard.txt
 !
 !
+auchandirect.pl ##. prehomepage.featherlight
+auchandirect.pl ## html> body.modalOpen: style (przepełnienie: widoczne! ważne; pozycja: statyczne! ważne;)
 3i-store.com###backgroundFade
 4f.com.pl###footer_toppage
 4fun.tv##.app-popup
@@ -55,9 +57,6 @@ casu.pl###amsocial_dark
 ceneo.pl##.popup-cl.popup.js_popup
 chwilowkomat.pl##.smaller
 ciekawostkihistoryczne.pl###alt-header
-coccodrillo.eu###homeNewsletter
-coccodrillo.eu###sc_behind
-coccodrillo.eu##.newsletterWrap
 comperia.pl##.comperiaFooter
 context.reverso.net###register-popup-bottom, .lock.icon, .go-up.icon
 cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
@@ -109,8 +108,6 @@ fakty.plportal.pl###block-block-10
 ferratum.pl##.icc.ic-mail
 ferratum.pl##.icc.ic-phone
 filarum.pl##.menuTopSticky
-fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
-fokusfashion.com##form > input:nth-of-type(2)
 forpro.pl###message
 forsal.pl##.tresc:nth-of-type(6)
 forum.ebiznesy.pl###AdTaily_Widget_Container
@@ -123,12 +120,7 @@ gamedot.pl##.footer-top-container-item:nth-of-type(4)
 gametrade.pl###facebox, #facebox_overlay
 gazetapraca.pl###nlt_overlay
 gazetapraca.pl##.bg
-gazetaprawna.pl###boxSubscr2016
-gazetaprawna.pl###miejsce104
-gazetaprawna.pl,~www.gazetaprawna.pl###nextArticleWidget
 gemre.com.pl###tws_c_100002, #topLayerBackDrop
-getinbank.pl###scroll_top
-getinbank.pl##.quickMenuRow.row
 gg.pl###ext-gen1144, #ext-gen1162, #sr-base-window, #sr-window-cover
 gizchina.com.pl##.vw-more-articles
 gminamoszczenica.eu##.fejs
@@ -166,9 +158,6 @@ kantorekspert.pl###wys2
 katowice-airport.com###carwash-banner, #carwash-banner-c
 kazar.com##.slide-contact
 klonowypark.pl,misjonarska.com###right_info2
-kombo.krakow.pl###divGoTop2Mob
-kombo.krakow.pl##body > div:nth-of-type(4)
-kombo.krakow.pl##body > div:nth-of-type(6)
 komputronik.pl##.avia-post-next, .avia-post-prev, .rollup
 konicaminolta.info.pl##.kontakt-slide
 kosmetykomania.pl###overlayDesktop, #sb-desktop-push
@@ -180,23 +169,15 @@ kresy.pl##.ls-popup
 kupbuty.com###tws_i_1
 kwiaciarnia-olivia.pl#3#wysuwane
 laczynaspilka.pl##.box-standard.social-side
-lp.travelist.pl###returnToTopButton
 mac-world.pl##.et_bloom_popup
 magazynfakty.pl##.mf-plugin-stickymenu-wrapper
 markizasklep.pl###pp1
-maxmoto.pl##.allegro-icon
-mbank.pl###push-message
-mbank.pl##.covered.edge-menu
-meble.pl##.footer-subscription
-media2.pl###news-readmore
-media2.pl###news-suggest
 medianarodowe.com###.art__social-footer__link--comment, .widget_radium_newsletter
 mediarun.com##.vc_row-has-fill
 merlin.pl##.promotion-widget
 mixmedia.pl###place3_v2, #place3_v3, #last-viewed, #fb_likebox
 mmaniak.pl###x13popup, #x13popup-cover
 mmarocks.pl##.smPopupContainer, #smPopupBackground
-mobbingwpracy.com###pwebbox784
 mobilitynews.pl##.swiper-wrapper
 mojeauto.pl###ma-top-layer
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
@@ -541,6 +522,7 @@ kodiwpigulce.pl,niemarkowe.pl,gruparmf.pl###totop
 kulturawplot.pl##.infinite-back-top
 lamoda.pl##.js-return-to-top
 lolmania.pl,polskaracja.com,viralz.pl##.g1-back-to-top
+lp.travelist.pl###returnToTopButton
 manjaro.pl##.generate-back-to-top
 matfiz24.pl##a[href="#header"]
 mediaexpert.pl###go_top
@@ -671,7 +653,9 @@ twojahistoria.pl##.footer-fixed
 ! Widgety
 4fun.tv##.app-popup
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
-forsal.pl###boxSubscr2016
+forsal.pl,gazetaprawna.pl###boxSubscr2016
+gazetaprawna.pl###nextArticleWidget
+getinbank.pl##.quickMenuRow.row
 hbo.pl##.ribbon
 kresy.pl##.ls-popup
 l24.lt###scr
@@ -730,12 +714,15 @@ polskihurtworld.eu##.ggu-widget-launcher
 /btn-newsletter
 /wp-content/plugins/wysija-newsletters
 akademiaversum.pl##.newsletter-form
-auchandirect.pl###formNewslettersFooter
 bankobranie.blogspot.com###topNewsletter
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bluerank.pl##.shown.exit
 cefarm24.pl##.nws > form > .newsletter
+coccodrillo.eu###homeNewsletter
+coccodrillo.eu##.newsletterWrap
 erp-view.pl###top-mod
+fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
+fokusfashion.com##form > input:nth-of-type(2)
 kmziz.pl##.newsletter
 nettg.pl##.input-newsletter1
 nettg.pl##.section-content > .heading
@@ -790,6 +777,8 @@ d24h.pl###zaufane_opinie_widget
 echodnia.eu###toolbar
 electro-outlet.pl###tws_a_2
 fotoblogia.pl##.btn-comments.btn
+mbank.pl##.covered.edge-menu
+mobbingwpracy.com###pwebbox784
 miedziowe.pl###showhidecart
 ncplus.pl###button-call, #button-lead
 nettg.pl##.side-panel
@@ -851,6 +840,9 @@ galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriaveneda.com.pl###popup
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
+kombo.krakow.pl###divGoTop2Mob
+kombo.krakow.pl##body > div:nth-of-type(4)
+kombo.krakow.pl##body > div:nth-of-type(6)
 limanowa.in##.ad_popup
 mediarun.com##.fancybox-outer, .fancybox-overlay
 misjonarska.com###myModal, .reveal-modal-bg
@@ -905,7 +897,7 @@ ptakmoda.com###edrone--push--container
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=dobreprogramy.pl|fotka.com|player.pl
 ||mxapis.com^
 ||proxy.synerise.com/*/web-push/get-public-config
-||push-ad.com^$script
+||push-ad.com^$third-party
 ||pushad.io^
 ||pushalert.co^
 ||pushango.com^$script,domain=~pushango.com
