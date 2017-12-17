@@ -2,14 +2,14 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 17 Dec 2017
-! Version: 2017121701
+! Version: 2017121702
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 17 grudnia 2017, 16:33
+! Aktualizacja: nd, 17 grudnia 2017, 19:43
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -519,7 +519,7 @@ avans.pl,redcoon.pl###js-scrollTop
 avast.com###slide-top
 blogspot.com##.scrollToTop
 centrumdruku3d.pl,cyfrowypolsatnews.pl##.cd-top
-dany-meble.pl###gototop
+dany-meble.pl,medianarodowe.com,matfiz24.pl###gototop
 decathlon.pl##a[href="#top"]
 diagnozainternetu.pl##.top
 domodi.pl##.is-active.js-scroll-top.dm-go-up
@@ -542,8 +542,8 @@ kulturawplot.pl##.infinite-back-top
 lamoda.pl##.js-return-to-top
 lolmania.pl,polskaracja.com,viralz.pl##.g1-back-to-top
 manjaro.pl##.generate-back-to-top
+matfiz24.pl##a[href="#header"]
 mediaexpert.pl###go_top
-medianarodowe.com###gototop
 meizupolska.pl##.toup
 morele.net,pl###back_to_top
 motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl##.scrollup
@@ -673,6 +673,7 @@ twojahistoria.pl##.footer-fixed
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 forsal.pl###boxSubscr2016
 hbo.pl##.ribbon
+kresy.pl##.ls-popup
 l24.lt###scr
 media2.pl###news-readmore
 media2.pl###news-suggest
@@ -890,9 +891,33 @@ zlotemysli.pl##._form_show._form-wrapper
 !
 !
 ! Powiadomienia Push
+bzwbk.pl###pushwoosh-pop
+pomponik.pl##.ppg__signin
 ptakmoda.com###edrone--push--container
+||cdn.gravitec.net/sites/*/client.js
+||cdn.gravitec.net/storage/*/client.js
+||cdn.onesignal.com/sdks/OneSignalSDK.js
+||cdn.pushassist.com/account/assets/psa-swp.js
+||cdn.pushpushgo.com/scripts/$script
+||cdn.pushwoosh.com/webpush/*.js
+||cdn.sendpulse.com$script
+||gstatic.com/firebasejs/*/firebase*.js$script,domain=dobreprogramy.pl|fotka.com|player.pl
+||mxapis.com^
+||proxy.synerise.com/*/web-push/get-public-config
 ||push-ad.com^$third-party
+||pushad.io^
+||pushalert.co^
+||pushango.com^$script,domain=~pushango.com
+||pushcrew.com$script
+||pushengage.com/script.js
+||pushify.com$script
 ||renee.pl/javascript/push_add.js
+||salesmanago.pl/api/push/$xmlhttprequest
+||savecart.pl/*/script.php
+||wp.pl/*.webpush-desktop.chunk.js
+||wp.pl/webpush/static/js/webpush.desktop.js
+||wp.pl/webpush/static/js/webpush.js
+||youtubersi.pl/themes/default/js/notify.js
 !
 !
 ! Ruchome nagłówki, panele, menu
