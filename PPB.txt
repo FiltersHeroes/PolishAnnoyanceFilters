@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 17 Dec 2017
-! Version: 2017121704
+! Last modified: 18 Dec 2017
+! Version: 2017121801
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nd, 17 grudnia 2017, 23:45
+! Aktualizacja: pon, 18 grudnia 2017, 12:03
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -188,22 +188,6 @@ muve.pl###exit--popup--container
 mylomza.pl###codeboxrfeedbackbuttonfvfbj5showb1
 myphone.pl###trig_pop_news
 mysize.com.pl###popup_box, #overlay
-salesandshopping.pl###fanback
-salon24.pl##.article-bookstore
-satkurier.pl,podrozezantena.pl,digi-tv.pl,solarkurier.pl,bochniaisol.pl###newsletterMsg
-scie24.pl###up
-scooterkingz.com.pl##.newsletter_form
-se.pl###social-widget
-selkar.pl##.my-open.side-banner, .my-icon-facebook-widget
-serialomaniak.pl##.join-us
-sfinks.info##.d_xs_none.social_widgets
-shop.prettyone.pl###popup_prettyone
-silesiasem.pl###newsletterwidget-3
-silesiasem.pl##.mc-modal
-simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
-sklep-muzyczny.com.pl##.widgets
-sklep-rolnicze.eu###oiTab
-sklep.eltron.pl##.menu_suggestion
 sklep.hart-metale.pl##.kac-sm-panel
 sklep.mieloch.pl###nicePopupWrapper
 sklep.milicon.eu###fbBox, #instaBox, #cartBox, #contactBox
@@ -508,7 +492,6 @@ fasardi.com,pl.bab.la##.back-to-top
 gameplanet.onet.pl##.scroll-top
 gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl###scroll-up
 gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
-gemre.com.pl###backTop
 getinbank.pl###scroll_top
 gizchina.com.pl##.vw-scroll-to-top
 historiasportu.info##.et_pb_scroll_top
@@ -561,6 +544,7 @@ pl##.go-to-top
 pl##.scroll-top
 pl##.scroll_to_top
 pl##.scrolltop
+pl##.scrollTop
 pl##.scrollToTop
 pl##.td-scroll-up
 pl##.totop
@@ -577,6 +561,7 @@ redcoon.pl##.scrollUp
 regionfan.pl##a[href="#top"]
 renee.pl##.scroll__top
 sakolife.pl###powrot-do-gory
+scie24.pl###up
 sfinks.info###go_to_top
 smartpage.pl##.right_top_scroll
 smartpozyczka.pl##.toTop
@@ -584,7 +569,7 @@ tabletowo.pl,zdrowyportal.org###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
 univision24.pl,ogrzewania.pl,fabrykasypialni, welafashion.pl##.up
-vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl###backTop
+vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl,gemre.com.pl###backTop
 www.akademiareklamy.edu.pl###topscroller
 www.artefakt.pl###scrollUp
 www.chamskie.pl###widget-back-to-top
@@ -615,6 +600,7 @@ chrzypsko.pl###facebook_side
 fonplace.pl##.herald-single-sticky
 innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
 instalacjebudowlane.pl###fb
+mobbingwpracy.com###pwebbox784s
 naszamlawa.pl##.facebook-messenger-avatar.circle
 nexto.pl###social
 nowa.tv##.sticky_boxes
@@ -643,6 +629,10 @@ przegladbaltycki.pl###rum_sst_tab
 racing-planet.pl##.sliding_likebox
 rmf.fm###fbSlider
 romantycznyweekend.eu##.musli
+scooterkingz.com.pl##.w2bslikebox
+sfinks.info##.d_xs_none.social_widgets
+se.pl###social-widget
+selkar.pl##.my-open.side-banner, .my-icon-facebook-widget
 twojahistoria.pl##.footer-fixed
 ||belchatow.bai.pl/js/facebook.js
 ||d24h.pl/img/fb-ico.png
@@ -671,10 +661,15 @@ poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 ppe.pl##.nextbox
 promocyjni.pl##.new-dymek-holder
 reporters.pl##.boxzilla-najczesciej-czytacie
+salon24.pl##.article-bookstore
+selkar.pl##.my-open.side-banner
+sklep-muzyczny.com.pl##.widgets
+sklep-rolnicze.eu###oiTab
 ||ssl.ceneo.pl/shops/sw.js$third-party
 ||sucuri.net/monitoring/badge.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js
+||widgets.okazje.info.pl^$third-party
 ||widgets.trustedshops.com/js/*.js
 !
 !
@@ -744,6 +739,7 @@ pl##.footer-newsletter
 pl##.newsletter
 pl##.newsletter-box
 pl##.newsletter_footer
+pl##.widget_newsletterwidget
 pl##.widget_wysija
 pol-nor.com##.formk
 pol-nor.com##.mtz > form
@@ -757,6 +753,10 @@ renee.pl##.newsletter__section
 resortpro.ht-int.com###i-username
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com##.newsletter
+satkurier.pl,podrozezantena.pl,digi-tv.pl,solarkurier.pl,bochniaisol.pl###newsletterMsg
+scooterkingz.com.pl##.newsletter_form
+shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
+sklep.eltron.pl###newsletter
 yieldbird.com##.hidden-widget.float-widget
 ||simple.erp-view.pl/images/newslettersimple.jpg
 !
@@ -774,7 +774,6 @@ echodnia.eu###toolbar
 electro-outlet.pl###tws_a_2
 fotoblogia.pl##.btn-comments.btn
 mbank.pl##.covered.edge-menu
-mobbingwpracy.com###pwebbox784
 miedziowe.pl###showhidecart
 ncplus.pl###button-call, #button-lead
 nettg.pl##.side-panel
@@ -799,6 +798,8 @@ pytamy.pl##.tabZB, .fixFooter
 racing-planet.pl###contactable_inner
 renee.pl###yourcx_blk
 reporters.pl##.wpsr-followbar
+scooterkingz.com.pl##.sqterybox
+serialomaniak.pl##.join-us
 stopklatka.pl##.platforms_adfloor
 wesolakraina.pl##.kontrast_tlo
 widzewlodz.pl###boxNavi
@@ -859,10 +860,15 @@ player.pl##.__ipPerunElement
 poczta.int.pl##.maximized-wrapper
 pol-nor.com###boxpopup, #overlay, #popforfirma
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
+prettyone.pl##.modal-backdrop, .pwebbox-modal
 resortpro.ht-int.com##.newsletter-overall
 rooader.pl###nicePopupWrapper
 romantycznyweekend.eu###fancybox-overlay, #fancybox-wrap
 sakolife.pl###nspopup_wrapper, #nspopup_wrapper_bg
+scooterkingz.com.pl###promo_popup, #promo_popup_bg
+silesiasem.pl###PopupSignupForm_0, .mc-modal-bg
+shop.prettyone.pl###popup_prettyone
+simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 swiatdronow.cupsell.pl###shop_newsletter, #simplemodal-overlay
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 zlotemysli.pl##._form_show._form-wrapper
