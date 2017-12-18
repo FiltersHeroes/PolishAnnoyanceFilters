@@ -2,14 +2,14 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 18 Dec 2017
-! Version: 2017121803
+! Version: 2017121804
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 18 grudnia 2017, 15:44
+! Aktualizacja: pon, 18 grudnia 2017, 23:06
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -416,6 +416,46 @@ www.smsapi.pl###intercom-container
 www.smyk.com##.shade--green-2.footer__newsletter
 ||otmuchow.pl/szablon/otmuchow.pl/mod/layout/img/bg.png$image
 ||www.jednoslad.pl/content/give-me-a-like0D2F7E1D8BF5EDCBC9C069EAE1587028.jpg$image
+!
+bigstar.pl##.info:nth-of-type(2)
+goodlookin.pl###backTop
+goodlookin.pl###newsletter_wrapper
+home-you.com###toTop
+home-you.com##.reveal-modal-bg
+kosmetykizameryki.pl##.hidden-xs.insta-top
+mojeokazje.com##.column-margin-.column_column.one-third.mcb-column.column > .clearfix.column_attr
+mosquito-sklep.pl###ui-to-top
+okazje.eholiday.pl###bottom-newsletter
+ozonee.pl###left > .menu_newsletter_m
+poznan.factory.pl###block-views-cmspl-front-popup-block
+poznan.factory.pl##.open.region-popup.region
+txm.pl##.b-footer_newsletter
+varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
+www.agatameble.pl##.clearfix2.b-footer_newsletter
+www.audioforte.com.pl###wysuwane_fb
+www.audioforte.com.pl##.christmas-popup
+www.ebeactive.pl###dc-tab-button
+www.ebeactive.pl###fixed-cart
+www.ekobieca.pl###backTop
+www.ekobieca.pl###ceneo-widget
+www.emonnari.pl##.js--nl-baner-close.pop-up-overlay
+www.emonnari.pl##.js--scroll-top.scroll_top
+www.hitobuwie.pl##.footer__newsletter.col-sm-6
+www.iperfumy.pl###pd-box-overlay
+www.iperfumy.pl###pd-box-window
+www.missguided.com##.footer__newsletter.col1-set
+www.olika.com.pl###backTop
+www.piotripawel.pl##.affix.fx-menu
+www.showroom.pl##.news-signup--two-buttons.news-signup--pagewidth.news-signup.\\/.js-news-signup
+www.tvokazje.pl###phone-webcallback
+www.tvokazje.pl###tvo-newsletter-popup-new-year
+www.tvokazje.pl##.fa-gift.fa-4x.fa.call-popup-newslater
+www.tvokazje.pl##.in.fade.modal-backdrop
+www.wittchen.com##.widget-newsletter
+www.wyjatkowyprezent.pl###footerNewsletter
+www.zalando.pl##.z-navigation-footer_backToTop-show.z-navigation-footer_backToTop
+www.znak.com.pl###footer-newsletter
+zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 ! Agora
 gazetapraca.pl##.js-offer-suggested-offer-btn.next-offer-box
 polskabiega.sport.pl,www.junior.sport.pl###embed_iframe
