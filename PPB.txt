@@ -2,14 +2,14 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 18 Dec 2017
-! Version: 2017121801
+! Version: 2017121802
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 18 grudnia 2017, 12:03
+! Aktualizacja: pon, 18 grudnia 2017, 12:43
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -149,8 +149,6 @@ interia.pl##.error-page-layer
 internetowykantor.pl###grwf2_6565603_dfd0d
 izbadruku.org.pl###jslikeboxsidebarleft
 jadisco.pl##.gramytatywnie
-jednoslad.pl###custom_fan_gate_overlay
-jednoslad.pl###custom_fan_gate_overlay_divs
 jubilerbogart.pl###spu-845, #spu-bg-845, #facebook-left
 kantorekspert.pl###wys2
 katowice-airport.com###carwash-banner, #carwash-banner-c
@@ -836,10 +834,10 @@ galeria-kaskada.pl###modalNewsletter
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriaveneda.com.pl###popup
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
-kwiaciarnia-olivia.pl###logo2a, #tlo2a
 kombo.krakow.pl###divGoTop2Mob
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
+kwiaciarnia-olivia.pl###logo2a, #tlo2a
 limanowa.in##.ad_popup
 mediarun.com##.fancybox-outer, .fancybox-overlay
 misjonarska.com###myModal, .reveal-modal-bg
@@ -862,12 +860,12 @@ pol-nor.com###boxpopup, #overlay, #popforfirma
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 prettyone.pl##.modal-backdrop, .pwebbox-modal
 resortpro.ht-int.com##.newsletter-overall
-rooader.pl###nicePopupWrapper
 romantycznyweekend.eu###fancybox-overlay, #fancybox-wrap
+rooader.pl###nicePopupWrapper
 sakolife.pl###nspopup_wrapper, #nspopup_wrapper_bg
 scooterkingz.com.pl###promo_popup, #promo_popup_bg
-silesiasem.pl###PopupSignupForm_0, .mc-modal-bg
 shop.prettyone.pl###popup_prettyone
+silesiasem.pl###PopupSignupForm_0, .mc-modal-bg
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 swiatdronow.cupsell.pl###shop_newsletter, #simplemodal-overlay
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
@@ -877,6 +875,8 @@ zlotemysli.pl##._form_show._form-wrapper
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/js/popups.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
 ||gdanskstrefa.com/wp-content/plugins/boxzilla/assets/js/script.min.js
+||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
+||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
 ||usabilla.com^$third-party,script
