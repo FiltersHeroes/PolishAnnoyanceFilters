@@ -1,15 +1,16 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka
-! Last modified: 18 Dec 2017
-! Version: 2017121801
+! Last modified: 19 Dec 2017
+! Version: 2017121901
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 18 grudnia 2017, 12:43
+! Aktualizacja: wt, 19 grudnia 2017, 19:37
 !
 !
+! Popupy
 activ-investment.eu###newsletter-content
 activ-investment.eu##.fancybox-overlay:has(.newsletter-fancybox-wrapper)
 activ-investment.eu##.fancybox-overlay:style(overflow: hidden!important;)
@@ -70,6 +71,8 @@ partneragdrtv.com.pl##.mfp-ready:has(.newsletter-box)
 partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
 pepco.pl##.modal-newsletter
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
+poznan.factory.pl##.region-popup
+poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 quiosque.pl###newsletter-popup, .modal-backdrop
 quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0px !important;)
 rylko.com###modal-newsletter

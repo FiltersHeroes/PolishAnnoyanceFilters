@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 18 Dec 2017
-! Version: 2017121805
+! Last modified: 19 Dec 2017
+! Version: 2017121901
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 18 grudnia 2017, 23:40
+! Aktualizacja: wt, 19 grudnia 2017, 19:36
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -116,7 +116,7 @@ gamedot.pl##.footer-top-container-item:nth-of-type(4)
 gametrade.pl###facebox, #facebox_overlay
 gazetapraca.pl###nlt_overlay
 gazetapraca.pl##.bg
-gemre.com.pl###tws_c_100002, #topLayerBackDrop
+gemre.com.pl###tws_c_100002
 gg.pl###ext-gen1144, #ext-gen1162, #sr-base-window, #sr-window-cover
 gizchina.com.pl##.vw-more-articles
 gminamoszczenica.eu##.fejs
@@ -466,7 +466,6 @@ pl##.zpr_sky
 ! Strzałki
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
-3i-store.com###toTop
 agrobex.pl###top-link
 alget.pl##.top_button
 ams.com.pl###back2top
@@ -496,7 +495,6 @@ jakzarabiaconline.blogspot.com###top
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
 kliknijwzdrowie.pl,tasteandtravel.pl###scroll_totop
-kmziz.pl##.scrollup
 kodiwpigulce.pl,niemarkowe.pl,gruparmf.pl###totop
 kulturawplot.pl##.infinite-back-top
 lamoda.pl##.js-return-to-top
@@ -507,13 +505,15 @@ matfiz24.pl##a[href="#header"]
 mediaexpert.pl###go_top
 meizupolska.pl##.toup
 morele.net,pl###back_to_top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl##.scrollup
+mosquito-sklep.pl###ui-to-top
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl##.scrollup
 myjki.com###scrollTop
 nczas.com##.td-scroll-up
 neonet.pl##.arrow-up
-nowosci-mp3.eu,pozyczkaportal.pl,strzelecopolski.pl###toTop
+nowosci-mp3.eu,pozyczkaportal.pl,strzelecopolski.pl,3i-store.com###toTop
 nslowo.pl##.itemBackToTop
 okazik.pl###btn-scrollup
+okazje.eholiday.pl###bottom-newsletter
 olgasmile.com##.scroll-top
 outdoortrack.pl##.to-top-container
 p2mforum.info###uix_jumpToFixed
@@ -568,7 +568,7 @@ tabletowo.pl,zdrowyportal.org###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
 univision24.pl,ogrzewania.pl,fabrykasypialni, welafashion.pl##.up
-vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl,gemre.com.pl###backTop
+vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl,gemre.com.pl,goodlookin.pl###backTop
 www.akademiareklamy.edu.pl###topscroller
 www.artefakt.pl###scrollUp
 www.chamskie.pl###widget-back-to-top
@@ -600,6 +600,7 @@ fonplace.pl##.herald-single-sticky
 innpoland.pl,mamadu.pl,medianarodowe.com,natemat.pl###fbinvite
 instalacjebudowlane.pl###fb
 kfc.pl##.social-side
+kosmetykizameryki.pl##.insta-top
 mobbingwpracy.com###pwebbox784s, .jj_sl_navigation
 naszamlawa.pl##.facebook-messenger-avatar.circle
 nexto.pl###social
@@ -705,9 +706,9 @@ polskihurtworld.eu##.ggu-widget-launcher
 ! Newslettery (nie popupy)
 /btn-newsletter
 /wp-content/plugins/wysija-newsletters
-3i-store.com,casu.pl##.block-subscribe.block
 3i-store.com##.footer-address-block > p:nth-of-type(4)
 3i-store.com##.footer-address-block > p:nth-of-type(5)
+3i-store.com,casu.pl##.block-subscribe.block
 50style.pl##.footer-item-wide
 akademiaversum.pl##.newsletter-form
 aligoo.pl###footer > .col-sm-6
@@ -715,6 +716,7 @@ answear.com###footerTopBar
 avaro.pl##.smsapi-sidetitle
 bankobranie.blogspot.com###topNewsletter
 biegambolubie.com.pl##.cp-info-bar-wrapper
+bigstar.pl##.info:nth-of-type(2)
 bluecity.pl##.col-newsletter.col
 bluerank.pl##.shown.exit
 booking.com##.newsletter_subscribe
@@ -730,13 +732,16 @@ kotkowicz.pl###wp-subscribe
 krakusik.pl##.mini-newsletter
 kupony.mydeal.pl###newsletter-foot
 merlin.pl##.b-footer__icons-list
+mojeokazje.com##.column-margin-.column_column.one-third.mcb-column.column
 nettg.pl##.input-newsletter1
 nettg.pl##.section-content > .heading
 o.pl###email-bar, #nl-icon, #cs-newsletter
 obserwatorfinansowy.pl###newsletterForm
 ogloszenia24.info###newsletter_section
 okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
+okazje.eholiday.pl##.newsletter-link
 orange.pl###newsletterSkipLink
+ozonee.pl###menu_newsletter
 picodi.com##.newsletterContainer
 pl###box-newsletter
 pl###footer_newsletter
@@ -747,6 +752,7 @@ pl###newsletter-footer
 pl###newsletter-form
 pl###newsletter_block_left
 pl###newsletter_box
+pl###newsletter_wrapper
 pl###newsletterform
 pl###side_widget_newsletter
 pl##.box-newsletter
@@ -754,13 +760,14 @@ pl##.footer-block--newsletter
 pl##.footer-newsletter
 pl##.newsletter
 pl##.newsletter-box
-pl##.newsletter_footer
 pl##.newsletter-subscribe
+pl##.newsletter_footer
 pl##.widget_newsletterwidget
 pl##.widget_wysija
 pol-nor.com##.formk
 pol-nor.com##.mtz > form
 polemi.co.uk###dropin
+poznan.factory.pl##.pane-2.pane-custom.panel-pane
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
 ptakmoda.com###newsletter_block_bottom
 quiosque.pl##.nl-container, .mini-banner
@@ -773,6 +780,8 @@ rowertour.com##.newsletter
 satkurier.pl,podrozezantena.pl,digi-tv.pl,solarkurier.pl,bochniaisol.pl###newsletterMsg
 scooterkingz.com.pl##.newsletter_form
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
+txm.pl##.b-footer_newsletter
+varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
 yieldbird.com##.hidden-widget.float-widget
 ||simple.erp-view.pl/images/newslettersimple.jpg
 !
@@ -840,7 +849,7 @@ widzewlodz.pl###boxNavi
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 3i-store.com###exit--popup--container
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
-avaro.pl###topLayerBackDrop, #tln4_wrap
+avaro.pl###tln4_wrap
 bankobranie.blogspot.com###overlay
 bluecity.pl##.popupContent
 brilu.pl##.popup__overlay
@@ -879,7 +888,7 @@ okmoneta.pl###popupEmailPhone
 opensubtitles.org###fadeSub, #lightSub
 otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 otmuchow.pl##script ~ #cboxOverlay
-ozonee.pl###tln2_wrap
+ozonee.pl###tln2_wrap, #twsshadow2_bg
 picodi.com##.special-modal, .modal-backdrop
 pl###esns_background_layer
 pl###logregLead
@@ -901,12 +910,14 @@ simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 swiatdronow.cupsell.pl###shop_newsletter, #simplemodal-overlay
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 travelist.pl###logregLead, #modalOverlay
+txm.pl##.mfp-bg, .sp-fancybox-overlay
 zlotemysli.pl##._form_show._form-wrapper
 ||cdn-widget.callpage.io/build/js/callpage.js
 ||gazetagazeta.com/wp-content/plugins/popupally/resource/frontend/popup.min.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/js/popups.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
 ||gdanskstrefa.com/wp-content/plugins/boxzilla/assets/js/script.min.js
+||home-you.com/themes/hy/popup/jquery.popup.js
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
 ||mailerlite.com^$third-party
@@ -944,6 +955,7 @@ ptakmoda.com,3i-store.com###edrone--push--container
 ||renee.pl/javascript/push_add.js
 ||salesmanago.pl/api/push/$xmlhttprequest
 ||savecart.pl/*/script.php
+||txm.api.sociaplus.com/views/push/js/sdk/insider-push-native-sdk.js
 ||wp.pl/*.webpush-desktop.chunk.js
 ||wp.pl/webpush/static/js/webpush.desktop.js
 ||wp.pl/webpush/static/js/webpush.js
