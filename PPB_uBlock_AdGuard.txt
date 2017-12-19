@@ -1,13 +1,13 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka
 ! Last modified: 19 Dec 2017
-! Version: 2017121901
+! Version: 2017121902
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wt, 19 grudnia 2017, 19:37
+! Aktualizacja: wt, 19 grudnia 2017, 22:01
 !
 !
 ! Popupy
@@ -95,6 +95,8 @@ ttv.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!import
 turek.net.pl##.mfp-bg
 turek.net.pl##.mfp-ready:has(.mfp-iframe-holder)
 turek.net.pl##html:style(overflow: visible !important; margin-right: 0px !important;)
+tvokazje.pl###tvo-newsletter-popup-new-year, .modal-backdrop
+tvokazje.pl##.modal-open:style(overflow: visible !important;)
 upolujebooka.pl###myModalExit
 upolujebooka.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
 ursus.com.pl##.mfp-ready

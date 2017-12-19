@@ -2,14 +2,14 @@
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
 ! Last modified: 19 Dec 2017
-! Version: 2017121901
+! Version: 2017121902
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wt, 19 grudnia 2017, 19:36
+! Aktualizacja: wt, 19 grudnia 2017, 22:00
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -302,7 +302,6 @@ zszywka.pl###inv-request-popup
 ||doxa.fm/wp-content/plugins/sn-facebook-like/js/retioSlider.min.js
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||grawerowanie.org.pl/wp-content/uploads/2012/12/tlo17.gif
-||inffuse-fbpopup.appspot.com/widget.html
 ||kulturawplot.pl/wp-content/plugins/exit-popup/js/exit-popup.js
 ||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js
 ||losyziemi.pl/?spu_action=spu_load&lang=
@@ -491,6 +490,7 @@ gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
 getinbank.pl###scroll_top
 gizchina.com.pl##.vw-scroll-to-top
 historiasportu.info##.et_pb_scroll_top
+iperfumy.pl##.btn-scroll-top
 jakzarabiaconline.blogspot.com###top
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
@@ -515,6 +515,7 @@ nslowo.pl##.itemBackToTop
 okazik.pl###btn-scrollup
 okazje.eholiday.pl###bottom-newsletter
 olgasmile.com##.scroll-top
+olika.com.pl###backTop
 outdoortrack.pl##.to-top-container
 p2mforum.info###uix_jumpToFixed
 pense.pl###go-top, .arrow
@@ -562,13 +563,15 @@ renee.pl##.scroll__top
 sakolife.pl###powrot-do-gory
 scie24.pl###up
 sfinks.info###go_to_top
+sklepbaterie.pl###topLink
 smartpage.pl##.right_top_scroll
 smartpozyczka.pl##.toTop
-tabletowo.pl,zdrowyportal.org###topcontrol
+tabletowo.pl,zdrowyportal.org,tvokazje.pl###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
 univision24.pl,ogrzewania.pl,fabrykasypialni, welafashion.pl##.up
-vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl,gemre.com.pl,goodlookin.pl###backTop
+vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl,gemre.com.pl,goodlookin.pl,ekobieca.pl###backTop
+witchen.com##.btn-goto-top
 www.akademiareklamy.edu.pl###topscroller
 www.artefakt.pl###scrollUp
 www.chamskie.pl###widget-back-to-top
@@ -582,6 +585,7 @@ www.pssite.com##.scrolltop
 www.purepc.pl##.mtotop
 www.rp.pl##.arrow-to-top
 xlomza.pl##.uk-totop
+zalando.pl##.z-navigation-footer_backToTop
 zrobisztosam.com###topLink
 ||tapeciarnia.pl/img/do_gory.png
 ||turek.net.pl/js/default/scroll_to_top.js
@@ -592,6 +596,7 @@ zrobisztosam.com###topLink
 /media/mod_social_slider
 /wp-content/plugins/FLM-Social-Sidebar
 agrobex.pl##.fb-tab
+audioforte.com.pl###wysuwane_fb
 avaro.pl###widget_facebook
 biotechnologia.pl,neonet.pl###facebook-trigger
 chrzypsko.pl###facebook_side
@@ -610,6 +615,7 @@ ogrzewania.pl##.modFBWidget
 otomoto.pl##.social-float-bar
 pato.pl###nasza_klasa_side_bar, #facebook_side_bar
 pionki24.pl###like-box
+piotripawel.pl##.affix.fx-menu
 pl###bossbyte_slide
 pl###facebook-slider
 pl###facebook2_2
@@ -648,9 +654,11 @@ facetemjestem.pl##.uk-hidden-small, .sidebar-sticky
 forsal.pl,gazetaprawna.pl###boxSubscr2016
 gazetaprawna.pl###nextArticleWidget
 getinbank.pl##.quickMenuRow.row
+hitobuwie.pl##.fixedBaners__container
 l24.lt###scr
 media2.pl###news-readmore, #news-suggest
 miastons.pl##.stckbottom.cms_see_more
+myedenred.pl##.overtop-banner__image
 natemat.pl###posts-progress
 nestbank.pl##.fixed-label
 newsweek.pl###nitro-block, .wrapper, #ARTICLE_STREAM_PATH
@@ -667,6 +675,7 @@ salon24.pl##.article-bookstore
 sklep-muzyczny.com.pl##.widgets
 sklep-rolnicze.eu###oiTab
 ||ssl.ceneo.pl/shops/sw.js$third-party
+||ssl.ceneo.pl/shops/v3/script.js$third-party
 ||sucuri.net/monitoring/badge.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js
@@ -677,6 +686,7 @@ sklep-rolnicze.eu###oiTab
 ! Widgety - czaty
 /livezillachat//script.php
 d24h.pl###chat_container
+ebeactive.pl###iw-tab-label
 fantasyliga.wp.pl##.show-chat
 mango.pl###chat-toggle
 pl###chat-application-iframe
@@ -698,6 +708,7 @@ polskihurtworld.eu##.ggu-widget-launcher
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
 ||st.chatango.com/js/gz/emb.js
+||widget.intercom.io/widget/*$script
 ||widget.userengage.com/widget.js
 ||widget.userengage.io/widget.js
 ||zopim.com^$third-party
@@ -710,6 +721,7 @@ polskihurtworld.eu##.ggu-widget-launcher
 3i-store.com##.footer-address-block > p:nth-of-type(5)
 3i-store.com,casu.pl##.block-subscribe.block
 50style.pl##.footer-item-wide
+agatameble.pl##.b-footer_newsletter
 akademiaversum.pl##.newsletter-form
 aligoo.pl###footer > .col-sm-6
 answear.com###footerTopBar
@@ -723,10 +735,12 @@ booking.com##.newsletter_subscribe
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 domodi.pl##.dm-footer-newsletter
 e-ciucholand.com###newsletter_block_left
+ebeactive.pl##.newsletter
 empik.com##.footerNewsletter__form-wrap
 erp-view.pl###top-mod
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 fokusfashion.com##form > input:nth-of-type(2)
+hitobuwie.pl,www.missguided.com,www.smyk.com##.footer__newsletter
 kodyrabatowe.interia.pl###newsletter_footer
 kotkowicz.pl###wp-subscribe
 krakusik.pl##.mini-newsletter
@@ -771,6 +785,7 @@ poznan.factory.pl##.pane-2.pane-custom.panel-pane
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
 ptakmoda.com###newsletter_block_bottom
 quiosque.pl##.nl-container, .mini-banner
+recman.pl##.col-md-8.col-sm-7.col-xs-12
 redcoon.pl###j-newsletterForm
 renee.pl##.newsletter__section
 resortpro.ht-int.com###i-username
@@ -780,9 +795,15 @@ rowertour.com##.newsletter
 satkurier.pl,podrozezantena.pl,digi-tv.pl,solarkurier.pl,bochniaisol.pl###newsletterMsg
 scooterkingz.com.pl##.newsletter_form
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
+showroom.pl##.news-signup
+smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
 txm.pl##.b-footer_newsletter
 varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
+wittchen.com##.widget-newsletter
+wyjatkowyprezent.pl###footerNewsletter
 yieldbird.com##.hidden-widget.float-widget
+zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
+znak.com.pl###footer-newsletter
 ||simple.erp-view.pl/images/newslettersimple.jpg
 !
 ! 
@@ -791,6 +812,7 @@ yieldbird.com##.hidden-widget.float-widget
 50style.pl###help-arrow
 amracing.pl##.sale-contact-box
 asport.pl##.hit-tygodnia
+audioforte.com.pl##.floating-menu
 bank-wbs.pl###wrapperSectionStickyIcon
 bankobranie.blogspot.com###sideSocial
 belzyce.edu.pl,www.waszepodroze.eu,pl##.jj_sl_navigation
@@ -833,7 +855,9 @@ renee.pl###yourcx_blk
 reporters.pl##.wpsr-followbar
 scooterkingz.com.pl##.sqterybox
 serialomaniak.pl##.join-us
+sklepbaterie.pl##.naskroty
 stopklatka.pl##.platforms_adfloor
+tvokazje.pl##.call-popup-newslater, #phone-webcallback
 wesolakraina.pl##.kontrast_tlo
 widzewlodz.pl###boxNavi
 ||opineo.pl/gfx/frontend/side_slider_gfx.png
@@ -849,6 +873,7 @@ widzewlodz.pl###boxNavi
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 3i-store.com###exit--popup--container
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
+audioforte.com.pl##.christmas-popup
 avaro.pl###tln4_wrap
 bankobranie.blogspot.com###overlay
 bluecity.pl##.popupContent
@@ -865,6 +890,7 @@ diversesystem.com###dvrs-newsletter-popup-body
 domodi.pl##.dm-modal
 doubletreewarsaw.pl##.popout__container
 eluban.pl###popup
+emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
 eporady24.pl##.zaczekaj
 eswinoujscie.pl##.ulp-layer, .ulp-overlay
 fashionata.pl##.nlpwContainer, .pwShade
@@ -872,6 +898,7 @@ galeria-kaskada.pl###modalNewsletter
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriaveneda.com.pl###popup
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
+iperfumy.pl###pd-box-overlay, #pd-box-window, #pd-box-HideSelect
 kombo.krakow.pl###divGoTop2Mob
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
@@ -918,6 +945,7 @@ zlotemysli.pl##._form_show._form-wrapper
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
 ||gdanskstrefa.com/wp-content/plugins/boxzilla/assets/js/script.min.js
 ||home-you.com/themes/hy/popup/jquery.popup.js
+||inffuse-fbpopup.appspot.com/widget.html
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
 ||mailerlite.com^$third-party
@@ -927,6 +955,7 @@ zlotemysli.pl##._form_show._form-wrapper
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
+||znak.com.pl/popupNewsletter$xmlhttprequest
 !
 !
 ! Powiadomienia Push
@@ -946,12 +975,12 @@ ptakmoda.com,3i-store.com###edrone--push--container
 ||push-ad.com^$script
 ||push.domodi.pl/pushweb/assets/init.js
 ||pushad.io^
-||pushalert.co^
-||pushango.com^$script,domain=~pushango.com
+||pushalert.co^$third-party
+||pushango.com^$script,third-party
 ||pushapp.pro^$third-party
-||pushcrew.com$script
+||pushcrew.com$script,third-party
 ||pushengage.com/script.js
-||pushify.com$script
+||pushify.com$script,third-party
 ||renee.pl/javascript/push_add.js
 ||salesmanago.pl/api/push/$xmlhttprequest
 ||savecart.pl/*/script.php
