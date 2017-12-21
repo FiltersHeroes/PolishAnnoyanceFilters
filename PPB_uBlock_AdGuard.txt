@@ -1,13 +1,13 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka
-! Last modified: 19 Dec 2017
-! Version: 2017121902
+! Last modified: 21 Dec 2017
+! Version: 2017122101
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wt, 19 grudnia 2017, 22:01
+! Aktualizacja: czw, 21 grudnia 2017, 23:34
 !
 !
 ! Popupy
@@ -29,8 +29,8 @@ byinsomnia.com###modal-newsletter, remodal-overlay, .remodal-wrapper
 byinsomnia.com##.remodal-is-locked:style(overflow: visible!important;)
 deezee.pl##.mfp-ready
 deezee.pl##html:style(overflow: visible!important;padding-right: 0px!important;)
-defence24.pl,defence24.com###newsletter-modal
-defence24.pl,defence24.com##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
+defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl###newsletter-modal
+defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
 ekai.pl##.newsletter-popup
 ekai.pl##html > body:style(overflow: auto!important;)
 ergokantor.pl##.mfp-ready
@@ -60,6 +60,8 @@ limango.pl##.js_welcome_background.background_overlay, .modal
 limango.pl##body.welcome_main.modal-open:style(overflow: visible!important;padding-right: 0px!important;)
 macris.com.pl###newsletter-popup
 macris.com.pl##.noscroll:style(overflow: visible!important; position: relative!important;)
+medycznamarihuana.com##.mfp-ready
+medycznamarihuana.com##html:style(margin-right: 0px !important; overflow: visible !important;)
 miastakobiet.pl###newsletterModal
 miastakobiet.pl##.modal-open:style(overflow: visible!important;)
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
@@ -102,6 +104,8 @@ upolujebooka.pl##.modal-open:style(overflow: visible!important; padding-right: 0
 ursus.com.pl##.mfp-ready
 ursus.com.pl##.opacity1.flexslider-container
 ursus.com.pl##html:style(overflow: visible!important;)
+wirtualnygarwolin.pl###sbox-overlay, #sbox-window
+wirtualnygarwolin.pl##.body-overlayed:style(overflow: visible !important;)
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 www.brw.com.pl##.js:style(overflow-y: visible!important;)
 www.e-biurowce.pl###raport_info
