@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 19 Dec 2017
-! Version: 2017121902
+! Last modified: 21 Dec 2017
+! Version: 2017122101
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wt, 19 grudnia 2017, 22:00
+! Aktualizacja: czw, 21 grudnia 2017, 23:33
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -476,7 +476,7 @@ blip.pl###totop
 blogspot.com##.scrollToTop
 centrumdruku3d.pl,cyfrowypolsatnews.pl##.cd-top
 cud.rzeszow.pl##.bd-backtotop-1
-dany-meble.pl,medianarodowe.com,matfiz24.pl###gototop
+dany-meble.pl,medianarodowe.com,matfiz24.pl,wirtualnygarwolin.pl###gototop
 decathlon.pl##a[href="#top"]
 diagnozainternetu.pl##.top
 dobrekupony.pl###to-top
@@ -489,6 +489,7 @@ gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl#
 gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
 getinbank.pl###scroll_top
 gizchina.com.pl##.vw-scroll-to-top
+gosc.pl##.GoToTop
 historiasportu.info##.et_pb_scroll_top
 iperfumy.pl##.btn-scroll-top
 jakzarabiaconline.blogspot.com###top
@@ -650,6 +651,7 @@ bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 booking.com##.header-signin-prompt
 e-ciucholand.com##.extraBox
 eobuwie.com.pl##.header-callout
+elka.pl###bannerBanderolaTlo, #bannerBanderolaPozycja
 facetemjestem.pl##.uk-hidden-small, .sidebar-sticky
 forsal.pl,gazetaprawna.pl###boxSubscr2016
 gazetaprawna.pl###nextArticleWidget
@@ -688,6 +690,7 @@ sklep-rolnicze.eu###oiTab
 d24h.pl###chat_container
 ebeactive.pl###iw-tab-label
 fantasyliga.wp.pl##.show-chat
+influentiq.pl##.facebook-messenger-avatar
 mango.pl###chat-toggle
 pl###chat-application-iframe
 pl##.fb-messengermessageus
@@ -741,6 +744,7 @@ erp-view.pl###top-mod
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 fokusfashion.com##form > input:nth-of-type(2)
 hitobuwie.pl,www.missguided.com,www.smyk.com##.footer__newsletter
+influentiq.pl###text-14
 kodyrabatowe.interia.pl###newsletter_footer
 kotkowicz.pl###wp-subscribe
 krakusik.pl##.mini-newsletter
@@ -797,6 +801,8 @@ scooterkingz.com.pl##.newsletter_form
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
 showroom.pl##.news-signup
 smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
+stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of-type(3)
+subiektywnieofinansach.pl##.et_pb_cta_0.et_pb_text_align_center.et_pb_bg_layout_light.et_pb_module.et_pb_promos
 txm.pl##.b-footer_newsletter
 varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
 wittchen.com##.widget-newsletter
@@ -827,7 +833,7 @@ empik.com##.scroll-to-top
 fotoblogia.pl##.btn-comments.btn
 godealla.pl##.feedback, #top-offers, .hand
 mbank.pl##.covered.edge-menu
-miedziowe.pl###showhidecart
+miedziowe.pl,elka.pl###showhidecart
 monedo.pl###satellite
 ncplus.pl###button-call, #button-lead
 nettg.pl##.side-panel
@@ -878,7 +884,7 @@ avaro.pl###tln4_wrap
 bankobranie.blogspot.com###overlay
 bluecity.pl##.popupContent
 brilu.pl##.popup__overlay
-butosklep.pl,pakolorente.com###toplayer_newsletter
+butosklep.pl,pakolorente.com,cafeborowka.pl###toplayer_newsletter
 butyibuty.pl###news_popup
 butylukow.pl###tws_i_2
 caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
@@ -899,6 +905,7 @@ galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriaveneda.com.pl###popup
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
 iperfumy.pl###pd-box-overlay, #pd-box-window, #pd-box-HideSelect
+jaslo4u.pl###popup
 kombo.krakow.pl###divGoTop2Mob
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
@@ -907,6 +914,7 @@ limanowa.in##.ad_popup
 mediarun.com##.fancybox-outer, .fancybox-overlay
 misjonarska.com###myModal, .reveal-modal-bg
 mlodytechnik.pl###newsletterContainer
+muratordom.pl###nlt_popup
 nawozy.eu##.newsletterPopup
 ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
@@ -934,6 +942,7 @@ scooterkingz.com.pl###promo_popup, #promo_popup_bg
 shop.prettyone.pl###popup_prettyone
 silesiasem.pl###PopupSignupForm_0, .mc-modal-bg
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
+subiektywnieofinansach.pl##.et_bloom_popup
 swiatdronow.cupsell.pl###shop_newsletter, #simplemodal-overlay
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 travelist.pl###logregLead, #modalOverlay
@@ -946,11 +955,13 @@ zlotemysli.pl##._form_show._form-wrapper
 ||gdanskstrefa.com/wp-content/plugins/boxzilla/assets/js/script.min.js
 ||home-you.com/themes/hy/popup/jquery.popup.js
 ||inffuse-fbpopup.appspot.com/widget.html
+||influentiq.pl/wp-content/plugins/layered-popups/js/script.min.js
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
 ||mailerlite.com^$third-party
 ||nawozy.eu/js/jquery.lockscroll.min.js
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
+||stressfree.pl/wp-content/plugins/popup-maker/assets/js/site.min.js
 ||usabilla.com^$third-party,script
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
@@ -989,11 +1000,3 @@ ptakmoda.com,3i-store.com###edrone--push--container
 ||wp.pl/webpush/static/js/webpush.desktop.js
 ||wp.pl/webpush/static/js/webpush.js
 ||youtubersi.pl/themes/default/js/notify.js
-!
-!
-! Ruchome nagłówki, panele, menu
-play.google.com##.sticky
-pl.bab.la##.branded.scroll-to-fixed-fixed.action-wrapper
-pozyczkaportal.pl##.tiny.header
-ppe.pl##.fixedMenu
-przepisyjoli.com##.side-panel
