@@ -1,13 +1,13 @@
 ! Title: Popup Blocker PLUS - uzupełnienie do uBlocka
-! Last modified: 21 Dec 2017
-! Version: 2017122101
+! Last modified: 22 Dec 2017
+! Version: 2017122201
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 21 grudnia 2017, 23:34
+! Aktualizacja: pt, 22 grudnia 2017, 12:47
 !
 !
 ! Popupy
@@ -79,8 +79,8 @@ quiosque.pl###newsletter-popup, .modal-backdrop
 quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0px !important;)
 rylko.com###modal-newsletter
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
-selkar.pl##.modal-open:style(overflow: visible!important;)
-selkar.pl##.newsletter-modal
+selkar.pl,sklepkamil.pl##.modal-open:style(overflow: visible!important;)
+selkar.pl,sklepkamil.pl##.newsletter-modal, .modal-backdrop
 smaker.pl###overlay, #popup
 smaker.pl##html > body.scrollingDisabled:style(overflow:visible!important;)
 spidersweb.pl##.mfp-bg
@@ -120,3 +120,7 @@ yieldbird.com##.overlay-layer, .default-modal
 !
 ! Przyciski
 wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
+!
+!
+! Tła
+www.znak.com.pl##body:style(background: none !important;)
