@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 22 Dec 2017
-! Version: 2017122201
+! Last modified: 23 Dec 2017 17:28 UTC+01
+! Version: 201723121728
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pt, 22 grudnia 2017, 12:48
+! Aktualizacja: sob, 23 gru 2017, 17:28 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -78,6 +78,7 @@ domsary.eu###widget-handler
 domzagadek.pl##.voucher-widget
 doradcasmaku.pl##.side-widget, .visible.lastest-news-wrapper
 doruchow.pl###div_loader
+dowbit.pl##.mcwidget-overlay
 drlaptop.pl###load
 dstreet.pl###tws_s_0
 dukapolska.com###exit--popup--box, #exit--popup--container, #exit--popup--wrapper
@@ -275,7 +276,6 @@ zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 zpozdrowieniem.pl##.header_fixed
 zszywka.pl###inv-request-popup
 ||a.mailmunch.co/app/$script,third-party
-||api.traq.li^$third-party
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||grawerowanie.org.pl/wp-content/uploads/2012/12/tlo17.gif
 ||kulturawplot.pl/wp-content/plugins/exit-popup/js/exit-popup.js
@@ -449,6 +449,7 @@ bluecity.pl##.col-newsletter.col
 bluerank.pl##.shown.exit
 booking.com##.newsletter_subscribe
 coccodrillo.eu###homeNewsletter, .newsletterWrap
+d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 domodi.pl##.dm-footer-newsletter
 e-ciucholand.com###newsletter_block_left
 ebeactive.pl##.newsletter
@@ -512,6 +513,7 @@ rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com##.newsletter
 satkurier.pl,podrozezantena.pl,digi-tv.pl,solarkurier.pl,bochniaisol.pl###newsletterMsg
 scooterkingz.com.pl##.newsletter_form
+sfinks.info##.t_align_r.m_xs_bottom_30.m_bottom_20.m_xs_top_0.m_top_40.col-sm-6.col-md-6.col-lg-6
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
 showroom.pl##.news-signup
 sklep.motor-land.com.pl###side_header_newsletter
@@ -527,6 +529,7 @@ wyjatkowyprezent.pl###footerNewsletter
 yieldbird.com##.hidden-widget.float-widget
 zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 znak.com.pl###footer-newsletter
+||api.traq.li^$third-party
 ||simple.erp-view.pl/images/newslettersimple.jpg
 !
 ! 
@@ -552,6 +555,7 @@ d24h.pl###fancybox-overlay, #fancybox-wrap
 diversesystem.com###dvrs-newsletter-popup-body
 domodi.pl##.dm-modal
 doubletreewarsaw.pl##.popout__container
+dowbit.pl##.mcwidget-overlay
 eluban.pl###popup
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
 eporady24.pl##.zaczekaj
@@ -577,6 +581,7 @@ ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 okmoneta.pl###popupEmailPhone
+ono24.info##.bts-popup
 opensubtitles.org###fadeSub, #lightSub
 otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 otmuchow.pl##script ~ #cboxOverlay
@@ -595,10 +600,12 @@ prettyone.pl##.modal-backdrop, .pwebbox-modal
 resortpro.ht-int.com##.newsletter-overall
 romantycznyweekend.eu###fancybox-overlay, #fancybox-wrap
 rooader.pl###nicePopupWrapper
+rynek-kolejowy.pl##.popupElement, #popupMain
 rzeszowairport.pl###infoPopup
 sakolife.pl###nspopup_wrapper, #nspopup_wrapper_bg
 scooterkingz.com.pl###promo_popup, #promo_popup_bg
 shop.prettyone.pl###popup_prettyone
+siatka.org##.scroll-top-wr
 silesiasem.pl###PopupSignupForm_0, .mc-modal-bg
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sklep.mieloch.pl###nicePopupWrapper
@@ -616,6 +623,7 @@ zlotemysli.pl##._form_show._form-wrapper
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
 ||gdanskstrefa.com/wp-content/plugins/boxzilla/assets/js/script.min.js
 ||home-you.com/themes/hy/popup/jquery.popup.js
+||hotjar.com^$third-party
 ||influentiq.pl/wp-content/plugins/layered-popups/js/script.min.js
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
@@ -673,6 +681,7 @@ audioforte.com.pl##.floating-menu
 bank-wbs.pl###wrapperSectionStickyIcon
 bankobranie.blogspot.com###sideSocial
 belzyce.edu.pl,www.waszepodroze.eu,pl##.jj_sl_navigation
+chrzypsko.pl##.biegacz
 czasnadmorze.pl###rum_sst_tab
 d24h.pl###zapytaj_kosmetyczke
 d24h.pl###zaufane_opinie_widget
@@ -683,6 +692,7 @@ electro-outlet.pl###tws_a_2
 empik.com##.scroll-to-top
 fotoblogia.pl##.btn-comments.btn
 godealla.pl##.feedback, #top-offers, .hand
+kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
 mbank.pl##.covered.edge-menu
 miedziowe.pl,elka.pl###showhidecart
 monedo.pl###satellite
@@ -712,10 +722,13 @@ renee.pl###yourcx_blk
 reporters.pl##.wpsr-followbar
 scooterkingz.com.pl##.sqterybox
 serialomaniak.pl##.join-us
+siatka.org##.rss
 sklep.milicon.eu###cartBox, #contactBox
 sklepbaterie.pl##.naskroty
+sluzby-ur.pl##.gotologowanie
 sprzedajemy.pl###openUserSuggestionWindowBtn
 stopklatka.pl##.platforms_adfloor
+tugazeta.pl###sort_button,#koment_button
 tvokazje.pl##.call-popup-newslater, #phone-webcallback
 wesolakraina.pl##.kontrast_tlo
 widzewlodz.pl###boxNavi
@@ -735,7 +748,7 @@ avaro.pl###arrow_top
 avast.com###slide-top
 blip.pl###totop
 blogspot.com##.scrollToTop
-centrumdruku3d.pl,cyfrowypolsatnews.pl##.cd-top
+centrumdruku3d.pl,cyfrowypolsatnews.pl,tugazeta.pl##.cd-top
 cud.rzeszow.pl##.bd-backtotop-1
 dany-meble.pl,medianarodowe.com,matfiz24.pl,wirtualnygarwolin.pl###gototop
 decathlon.pl##a[href="#top"]
@@ -746,10 +759,11 @@ domzagadek.pl###scroll_strz
 electro.pl###go_top
 eobuwie.com.pl###scroll-top
 fasardi.com,pl.bab.la##.back-to-top
-gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl###scroll-up
+gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl,testergier.pl###scroll-up
 gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
 getinbank.pl###scroll_top
 gizchina.com.pl##.vw-scroll-to-top
+gniezno24.com##.g24-topbutton
 gosc.pl##.GoToTop
 historiasportu.info##.et_pb_scroll_top
 iperfumy.pl##.btn-scroll-top
@@ -768,7 +782,7 @@ mediaexpert.pl###go_top
 meizupolska.pl##.toup
 morele.net,pl###back_to_top
 mosquito-sklep.pl###ui-to-top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl##.scrollup
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl,mobbingwpracy.com##.scrollup
 myjki.com###scrollTop
 nczas.com##.td-scroll-up
 neonet.pl##.arrow-up
@@ -778,6 +792,7 @@ okazik.pl###btn-scrollup
 okazje.eholiday.pl###bottom-newsletter
 olgasmile.com##.scroll-top
 olika.com.pl###backTop
+ono24.info###backtotop
 outdoortrack.pl##.to-top-container
 p2mforum.info###uix_jumpToFixed
 pense.pl###go-top, .arrow
@@ -836,7 +851,7 @@ univision24.pl,ogrzewania.pl,fabrykasypialni, welafashion.pl,soczewki24.pl##.up
 vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl,gemre.com.pl,goodlookin.pl,ekobieca.pl###backTop
 witchen.com##.btn-goto-top
 www.akademiareklamy.edu.pl###topscroller
-www.artefakt.pl###scrollUp
+www.artefakt.pl,joemonster.org###scrollUp
 www.chamskie.pl###widget-back-to-top
 www.homebook.pl##.is-active.js-go-top.go-top
 www.hoteladler.com###gotop
@@ -862,9 +877,11 @@ elka.pl###bannerBanderolaTlo, #bannerBanderolaPozycja
 eobuwie.com.pl##.header-callout
 facetemjestem.pl##.uk-hidden-small, .sidebar-sticky
 forsal.pl,gazetaprawna.pl###boxSubscr2016
+fronda.pl##.slided-article
 gazetaprawna.pl###nextArticleWidget
 getinbank.pl##.quickMenuRow.row
 hitobuwie.pl##.fixedBaners__container
+insomnia.pl##.ptw-articles.ptw-widget
 l24.lt###scr
 media2.pl###news-readmore, #news-suggest
 miastons.pl##.stckbottom.cms_see_more
@@ -903,6 +920,7 @@ sprzedajemy.pl##.newest_offers, .offerDetailsRightBlueBox
 d24h.pl###chat_container
 ebeactive.pl###iw-tab-label
 fantasyliga.wp.pl##.show-chat
+kawaly.tja.pl###div_okienko_shoutbox_schowane
 mango.pl###chat-toggle
 pl###chat-application-iframe
 pl##.fb-messengermessageus
