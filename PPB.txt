@@ -1,41 +1,29 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 27 Dec 2017 11:38 UTC+01
-! Version: 2017271201
+! Last modified: 27 Dec 2017 16:02 UTC+01
+! Version: 2017271202
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 27 gru 2017, 11:38 UTC+01
+! Aktualizacja: śro, 27 gru 2017, 16:02 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
 !#include PPB_uBlock_AdGuard.txt
 !
 !
-agro-tech.truck.pl###foot
-ajgroup-pros.pl##.SocialBoard
-alget.pl###jOverlay, #jOverlayContent
-aligoo.pl##.remodal-overlay, .remodal-wrapper
-allani.pl##.visible.desktop-native-app-banner
 allegro.pl##.with-bottom-link.card.opbox-sheet
 alltube.tv###message-user, .fa-angle-double-up
 answear.com###popupNewsletter, #popupNewsletterWrap
 applemobile.pl##.post-suggestion-content
 bestcena.pl##div[class^=newsletter-box]
-brainly.pl##.js-another-ask-question-box
-bylola.pl###popup
-ceneo.pl##.popup-cl.popup.js_popup
-chwilowkomat.pl##.smaller
 ciekawostkihistoryczne.pl###alt-header
-comperia.pl##.comperiaFooter
-context.reverso.net###register-popup-bottom, .lock.icon, .go-up.icon
 cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
 cryptoweb.pl###single-sticky, #sticky-header
-cud.rzeszow.pl###pwebbox104
 cyklotur.com##.musli-left.musli
 dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
 dany-meble.pl##body > .hidden-sm.hidden-xs
@@ -394,6 +382,7 @@ pl##.why-us-content
 agatameble.pl##.b-footer_newsletter
 akademiaversum.pl##.newsletter-form
 aligoo.pl###footer > .col-sm-6
+allani.pl##.footer__newsletter
 answear.com###footerTopBar
 avaro.pl##.smsapi-sidetitle
 bankobranie.blogspot.com###topNewsletter
@@ -402,6 +391,7 @@ bigstar.pl##.info:nth-of-type(2)
 bluecity.pl##.col-newsletter.col
 bluerank.pl##.shown.exit
 booking.com##.newsletter_subscribe
+bylola.pl###box_newsletter
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 domodi.pl##.dm-footer-newsletter
@@ -595,6 +585,8 @@ zlotemysli.pl##._form_show._form-wrapper
 !
 ! Powiadomienia Push
 bzwbk.pl###pushwoosh-pop
+
+bylola.pl###box_newsletter
 pomponik.pl##.ppg__signin
 ||cdn.gravitec.net/sites/*/client.js
 ||cdn.gravitec.net/storage/*/client.js
@@ -636,6 +628,7 @@ audioforte.com.pl##.floating-menu
 bank-wbs.pl###wrapperSectionStickyIcon
 bankobranie.blogspot.com###sideSocial
 belzyce.edu.pl,www.waszepodroze.eu,pl##.jj_sl_navigation
+bylola.pl,pakolorente.com,###ri-widget
 chrzypsko.pl##.biegacz
 czasnadmorze.pl###rum_sst_tab
 d24h.pl###zapytaj_kosmetyczke
@@ -656,7 +649,6 @@ nettg.pl##.side-panel
 o.pl###codemanipulator-tools
 orange.pl###bugTrackTag, .payback-floating-sidebar__trigger
 ozonee.pl###free_shiping_info
-pakolorente.com###ri-widget
 partneragdrtv.com.pl###js-sis_menu
 pl###__ceneo-widgets
 pl###feedbackButton
@@ -703,6 +695,7 @@ avaro.pl###arrow_top
 avast.com###slide-top
 blip.pl###totop
 blogspot.com##.scrollToTop
+bylola.pl##.up
 centrumdruku3d.pl,cyfrowypolsatnews.pl,tugazeta.pl##.cd-top
 cud.rzeszow.pl##.bd-backtotop-1
 dany-meble.pl,medianarodowe.com,matfiz24.pl,wirtualnygarwolin.pl###gototop
