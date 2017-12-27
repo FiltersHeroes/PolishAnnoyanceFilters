@@ -1,28 +1,21 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 23 Dec 2017 20:19 UTC+01
-! Version: 201723122019
+! Last modified: 27 Dec 2017 11:38 UTC+01
+! Version: 2017271201
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 23 gru 2017, 20:19 UTC+01
+! Aktualizacja: śro, 27 gru 2017, 11:38 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
 !#include PPB_uBlock_AdGuard.txt
 !
 !
-3i-store.com###backgroundFade
-4f.com.pl###footer_toppage
-4fun.tv##.app-popup
-50style.pl###help-arrow
-51015kids.eu###newsletter_popup
-agdhome.pl##.fancybox-overlay-fixed.fancybox-overlay
-agdhome.pl##body > div:nth-of-type(6)
 agro-tech.truck.pl###foot
 ajgroup-pros.pl##.SocialBoard
 alget.pl###jOverlay, #jOverlayContent
@@ -30,28 +23,11 @@ aligoo.pl##.remodal-overlay, .remodal-wrapper
 allani.pl##.visible.desktop-native-app-banner
 allegro.pl##.with-bottom-link.card.opbox-sheet
 alltube.tv###message-user, .fa-angle-double-up
-amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
-amracing.pl##img[src="/images/dealers_button.png"]		 
-amracing.pl##img[src="/images/files_button.png"]		 
-amracing.pl##img[src="/images/partners_button.png"]		 
-amracing.pl##img[src="/images/players_button.png"]
-angolia.co.uk###fancybox-content
-angolia.co.uk###sugestiepl
-angolia.co.uk##.jcarousel-container-horizontal.jcarousel-container
 answear.com###popupNewsletter, #popupNewsletterWrap
 applemobile.pl##.post-suggestion-content
-bank-life.pl###message
 bestcena.pl##div[class^=newsletter-box]
-bikecs.com##.bcs_akcja_div
-bikecs.com##.bcs_footer2_div
-bikecs.com##.bcs_site, .bcs_switch
-biznesalert.pl##.toolbar
-booking.com##.b_leaving_users_light_box_mask.modal-mask
-booking.com##.notification-lightbox-container.modal-wrapper
 brainly.pl##.js-another-ask-question-box
-brainly.pl##.sg-header--fixed
 bylola.pl###popup
-casu.pl###amsocial_dark
 ceneo.pl##.popup-cl.popup.js_popup
 chwilowkomat.pl##.smaller
 ciekawostkihistoryczne.pl###alt-header
@@ -61,11 +37,8 @@ cosslodkiego.com.pl###tws_c_1, .sm-panel-prawe
 cryptoweb.pl###single-sticky, #sticky-header
 cud.rzeszow.pl###pwebbox104
 cyklotur.com##.musli-left.musli
-dailyvibes.pl##div[class*=unavailableMessageOverlaycontent]
 dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
 dany-meble.pl##body > .hidden-sm.hidden-xs
-dayli.com.pl##.fancybox-inner
-dayli.com.pl##.fancybox-overlay-fixed.fancybox-overlay
 dbpolska.net,ampolska.net###panel
 ddz.doba.pl###bannersstickright
 discordapp.com##.notice
@@ -83,11 +56,7 @@ drlaptop.pl###load
 dstreet.pl###tws_s_0
 dukapolska.com###exit--popup--box, #exit--popup--container, #exit--popup--wrapper
 dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
-e-ciucholand.com#opl##ctk_np_popup
-e-ciucholand.com##.reveal-modal-bg
 e-saving.pl##.overlay, .scroll
-ebuty.pl###fancybox-outer
-ebuty.pl###fancybox-overlay
 ekai.pl##.show.extra-article
 ekologia.pl##.bg-p
 ekologia.pl##.promote
@@ -95,15 +64,11 @@ elektroda.pl##.button_open
 emag.pl###newsletter-widget
 enel.pl##.widgets
 epoznan.pl###main_menu_fixed
-euro.com.pl###footer-shops > .column:nth-of-type(1)
-euro.com.pl###product-for-sale-box
 eurobank.pl##.reviews
 extraportfel.pl###om-zwmbbwgam5p7tl8v
 facebook.com###dialog_0, #pagelet_growth_expanding_cta, #u_0_*..
 fachowydekarz.pl##.flyfooter
 fakty.plportal.pl###block-block-10
-ferratum.pl##.icc.ic-mail
-ferratum.pl##.icc.ic-phone
 filarum.pl##.menuTopSticky
 forpro.pl###message
 forsal.pl##.tresc:nth-of-type(6)
@@ -115,21 +80,15 @@ galeriabronowice.pl##.news
 galeriabursztynowa.com.pl##.ui-dialog, .ui-widget-overlay
 gamedot.pl##.footer-top-container-item:nth-of-type(4)
 gametrade.pl###facebox, #facebox_overlay
-gazetapraca.pl###nlt_overlay
-gazetapraca.pl##.bg
-gemre.com.pl###tws_c_100002
 gg.pl###ext-gen1144, #ext-gen1162, #sr-base-window, #sr-window-cover
 gizchina.com.pl##.vw-more-articles
 gminamoszczenica.eu##.fejs
 gmoto.pl##.well-sm.well
 goldenline.pl##.ui-widget-overlay, .invitationDialog, .blog-tab, #slidebox
-google.pl###_L8b
 goral.info.pl##.showup.btn.contact-button
 grawerowanie.org.pl##.signup
 guzik.konin.pl##.fab-action-button
 halens.pl###popup-overlay, #promotion-popup
-handkate.com###iucn50dhblockingLayer
-handkate.com###iucn50dhframeWrap
 harpersbazaar.com###campaign_237772_container_overlay
 hbo.pl###popupAdv
 hbo.pl##.ribbon
@@ -158,19 +117,14 @@ konicaminolta.info.pl##.kontakt-slide
 kosmetykomania.pl###overlayDesktop, #sb-desktop-push
 kotkowicz.pl###sticky_header, .vce-sticky
 kotrak.pl##.kotrak_infobox_button
-krakusik.pl###id_B
-kredito24.pl##.btn-apply
 kresy.pl##.ls-popup
 kupbuty.com###tws_i_1
 kwiaciarnia-olivia.pl#3#wysuwane
 laczynaspilka.pl##.box-standard.social-side
 mac-world.pl##.et_bloom_popup
-magazynfakty.pl##.mf-plugin-stickymenu-wrapper
-markizasklep.pl###pp1
 medianarodowe.com###.art__social-footer__link--comment, .widget_radium_newsletter
 mediarun.com##.vc_row-has-fill
 merlin.pl##.promotion-widget
-mixmedia.pl###place3_v2, #place3_v3, #last-viewed, #fb_likebox
 mmaniak.pl###x13popup, #x13popup-cover
 mmarocks.pl##.smPopupContainer, #smPopupBackground
 mobilitynews.pl##.swiper-wrapper
@@ -182,7 +136,6 @@ mpolska24.pl###before-leave-window
 multikino.pl###qb
 multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.container
 muve.pl###exit--popup--container
-mylomza.pl###codeboxrfeedbackbuttonfvfbj5showb1
 myphone.pl###trig_pop_news
 mysize.com.pl###popup_box, #overlay
 taniaksiazka.pl##.newsletter-popup
@@ -437,6 +390,7 @@ pl##.why-us-content
 3i-store.com##.footer-address-block > p:nth-of-type(5)
 3i-store.com,casu.pl##.block-subscribe.block
 50style.pl##.footer-item-wide
+51015kids.eu##.newsletter
 agatameble.pl##.b-footer_newsletter
 akademiaversum.pl##.newsletter-form
 aligoo.pl###footer > .col-sm-6
@@ -675,6 +629,7 @@ pomponik.pl##.ppg__signin
 ! Przyciski
 /plugins/system/screenreader/screenreader
 50style.pl###help-arrow
+51015kids.eu##.sp-custom-19-1.insBlueWidget
 amracing.pl##.sale-contact-box
 asport.pl##.hit-tygodnia
 audioforte.com.pl##.floating-menu
@@ -870,6 +825,8 @@ zrobisztosam.com###topLink
 !
 !
 ! Widgety
+4fun.tv##.app-popup
+amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 booking.com##.header-signin-prompt
 e-ciucholand.com##.extraBox
