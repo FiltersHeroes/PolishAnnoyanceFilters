@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Popup Blocker PLUS
 ! Description: Polski filtr typu annoyances. Blokuje natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 27 Dec 2017 16:02 UTC+01
-! Version: 2017271202
+! Last modified: 28 Dec 2017 15:55 UTC+01
+! Version: 2017281201
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 27 gru 2017, 16:02 UTC+01
+! Aktualizacja: czw, 28 gru 2017, 15:55 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -31,30 +31,19 @@ dbpolska.net,ampolska.net###panel
 ddz.doba.pl###bannersstickright
 discordapp.com##.notice
 dobreprogramy.pl##.forum-help-cta.no-mobile.block, .notifyjs-corner
-dobrerowery.pl##.in.fade.modal.newsletter-modal
-dobrymechanik.pl###appWidget
-dogry.pl##.register-modal
-dogry.pl##.register-overlayer--game.register-overlayer
-domsary.eu###widget-handler
-domzagadek.pl##.voucher-widget
 doradcasmaku.pl##.side-widget, .visible.lastest-news-wrapper
-doruchow.pl###div_loader
 dowbit.pl##.mcwidget-overlay
 drlaptop.pl###load
 dstreet.pl###tws_s_0
-dukapolska.com###exit--popup--box, #exit--popup--container, #exit--popup--wrapper
 dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
 e-saving.pl##.overlay, .scroll
 ekai.pl##.show.extra-article
 ekologia.pl##.bg-p
 ekologia.pl##.promote
 elektroda.pl##.button_open
-emag.pl###newsletter-widget
-enel.pl##.widgets
 epoznan.pl###main_menu_fixed
 eurobank.pl##.reviews
 extraportfel.pl###om-zwmbbwgam5p7tl8v
-facebook.com###dialog_0, #pagelet_growth_expanding_cta, #u_0_*..
 fachowydekarz.pl##.flyfooter
 fakty.plportal.pl###block-block-10
 filarum.pl##.menuTopSticky
@@ -397,6 +386,7 @@ d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 domodi.pl##.dm-footer-newsletter
 e-ciucholand.com###newsletter_block_left
 ebeactive.pl##.newsletter
+emag.pl##.widget-newsletter
 empik.com##.footerNewsletter__form-wrap
 erp-view.pl###top-mod
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
@@ -496,6 +486,8 @@ caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity
 casu.pl###freshmail-main-wrapper, #freshmail_backdrop
 chrzypsko.pl###dhtml_popup
 d24h.pl###fancybox-overlay, #fancybox-wrap
+dany-meble.pl###myPopModal
+dany-meble.pl##.in.fade.modal-backdrop
 diversesystem.com###dvrs-newsletter-popup-body
 domodi.pl##.dm-modal
 doubletreewarsaw.pl##.popout__container
@@ -585,8 +577,8 @@ zlotemysli.pl##._form_show._form-wrapper
 !
 ! Powiadomienia Push
 bzwbk.pl###pushwoosh-pop
-
 bylola.pl###box_newsletter
+mbank.pl###push-message
 pomponik.pl##.ppg__signin
 ||cdn.gravitec.net/sites/*/client.js
 ||cdn.gravitec.net/storage/*/client.js
@@ -638,6 +630,7 @@ doradcasmaku.pl##.side-widget
 echodnia.eu###toolbar
 electro-outlet.pl###tws_a_2
 empik.com##.scroll-to-top
+eurobank.pl###labelElements
 fotoblogia.pl##.btn-comments.btn
 godealla.pl##.feedback, #top-offers, .hand
 kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
@@ -706,6 +699,7 @@ domodi.pl##.dm-go-up
 domzagadek.pl###scroll_strz
 electro.pl###go_top
 eobuwie.com.pl###scroll-top
+extraportfel.pl###toTop
 fasardi.com,pl.bab.la##.back-to-top
 gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl,testergier.pl###scroll-up
 gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
@@ -822,9 +816,11 @@ zrobisztosam.com###topLink
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 booking.com##.header-signin-prompt
+dobrymechanik.pl###mfind-fixed
 e-ciucholand.com##.extraBox
 elka.pl###bannerBanderolaTlo, #bannerBanderolaPozycja
 eobuwie.com.pl##.header-callout
+facebook.com###pagelet_growth_expanding_cta
 facetemjestem.pl##.uk-hidden-small, .sidebar-sticky
 forsal.pl,gazetaprawna.pl###boxSubscr2016
 fronda.pl##.slided-article
@@ -870,6 +866,7 @@ sprzedajemy.pl##.newest_offers, .offerDetailsRightBlueBox
 /livezillachat//script.php
 d24h.pl###chat_container
 ebeactive.pl###iw-tab-label
+e-saving.pl###contact
 fantasyliga.wp.pl##.show-chat
 kawaly.tja.pl###div_okienko_shoutbox_schowane
 mango.pl###chat-toggle
