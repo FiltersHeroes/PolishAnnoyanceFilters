@@ -3,15 +3,15 @@
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 28 Dec 2017 15:55 UTC+01
-! Version: 2017281201
+! Last modified: 29 Dec 2017 01:11:27 UTC+01
+! Version: 201712290111
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/azet12/PopupBlocker/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 28 gru 2017, 15:55 UTC+01
+! Aktualizacja: pią, 29 gru 2017, 01:11:27 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -579,9 +579,9 @@ zlotemysli.pl##._form_show._form-wrapper
 !
 ! Powiadomienia Push
 bzwbk.pl###pushwoosh-pop
-bylola.pl###box_newsletter
 mbank.pl###push-message
 pomponik.pl##.ppg__signin
+||api.sociaplus.com^$third-party
 ||cdn.gravitec.net/sites/*/client.js
 ||cdn.gravitec.net/storage/*/client.js
 ||cdn.onesignal.com/sdks/OneSignalSDK.js
