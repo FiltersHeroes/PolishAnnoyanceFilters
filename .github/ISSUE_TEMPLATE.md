@@ -1,5 +1,5 @@
 <!--
-Dziękujemy za zgłoszenie do Popup Blockera!
+Dziękujemy za zgłoszenie do Polskich filtrów elementów irytujących!
 -->
 ### Co trzeba zrobić, aby pojawił się irytujący element?
 1. <!--Pogapić się w prawo.--> 
@@ -15,7 +15,7 @@ Dziękujemy za zgłoszenie do Popup Blockera!
 **Bloker:** 
 
 **Używane filtry:**
-1. Popup Blocker PLUS
+1. Polskie filtry elementów irytujących
 2. 
 3. 
 4. 
