@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: 8k2ilHBA4CMrJJxUyXtHwQ
+! Checksum: Wm9bUgH6Mae7521pLS5Uqw
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 29 Dec 2017 13:43:13 UTC+01
-! Version: 201712291343
+! Last modified: 29 Dec 2017 18:26:30 UTC+01
+! Version: 201712291826
 ! Expires: 2 days
-! Najnowsza wersja zawsze na: https://github.com/azet12/PopupBlocker
+! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
-!   GitHub -> https://github.com/azet12/PopupBlocker/issues
+!   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 29 gru 2017, 13:43:13 UTC+01
+! Aktualizacja: pią, 29 gru 2017, 18:26:30 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -118,22 +118,6 @@ multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.
 muve.pl###exit--popup--container
 myphone.pl###trig_pop_news
 mysize.com.pl###popup_box, #overlay
-taniaksiazka.pl##.newsletter-popup
-targsmaku.pl##.active.page-bottom-bar, .fb-flayout-box-trigger.flayout-box-trigger
-telemedi.co###notifications-pop, #ue_widget, .sidebar-links
-telepolis.pl##.rightColumn
-telewizja-cyfrowa.com###ppsPopupBgOverlay
-tygertenis.pl###dialog
-tygertenis.pl###overlay
-tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
-tymbark.com###kwit_brandwidget_btn
-vexel-fashion.pl##.side-block-icon
-viralz.pl,obcasy.pl,doxa.fm##.spu-bg, .spu-box
-vivaldi.com###footer-signup
-wakai.pl###sod-drawer-handle
-walutomat.pl###grwf2_6564003_tut7h
-wanika.pl###cloudBox
-wearmedicine.com###nlPopup, #nlThanks, .newsletter
 wec.com.pl##div[id*=BadgeContainer]
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
 winiary.pl###kwit_brandwidget_btn
@@ -430,6 +414,7 @@ pl##.footer-newsletter
 pl##.footer-newsletter-box
 pl##.newsletter
 pl##.newsletter-box
+pl##.newsletter-container
 pl##.newsletter-subscribe
 pl##.newsletter_footer
 pl##.widget_newsletterwidget
@@ -459,8 +444,12 @@ slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
 smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
 stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of-type(3)
 subiektywnieofinansach.pl##.et_pb_cta_0.et_pb_text_align_center.et_pb_bg_layout_light.et_pb_module.et_pb_promos
+telewizja-cyfrowa.com##.textwidget > form
+telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 txm.pl##.b-footer_newsletter
 varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
+vivaldi.com###footer-signup
+wearmedicine.com##.newsletter, #nlThanks
 wittchen.com##.widget-newsletter
 wyjatkowyprezent.pl###footerNewsletter
 yieldbird.com##.hidden-widget.float-widget
@@ -468,6 +457,7 @@ zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 znak.com.pl###footer-newsletter
 ||api.traq.li^$third-party
 ||simple.erp-view.pl/images/newslettersimple.jpg
+||telewizja-cyfrowa.com/wp-content/uploads/2016/01/newsletter.png
 !
 ! 
 ! Popupy
@@ -553,10 +543,15 @@ subiektywnieofinansach.pl##.et_bloom_popup
 swiatdronow.cupsell.pl###shop_newsletter, #simplemodal-overlay
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 szybka-moneta.pl###moneta_popup
+taniaksiazka.pl##.newsletter-popup
 travelist.pl###logregLead, #modalOverlay
 txm.pl##.mfp-bg, .sp-fancybox-overlay
+tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
+wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
+wearmedicine.com###cboxOverlay
 zlotemysli.pl##._form_show._form-wrapper
 ||cdn-widget.callpage.io/build/js/callpage.js
+||daily.pl/modal/get/sticker-text
 ||gazetagazeta.com/wp-content/plugins/popupally/resource/frontend/popup.min.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/js/popups.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
@@ -671,8 +666,12 @@ sklepbaterie.pl##.naskroty
 sluzby-ur.pl##.gotologowanie
 sprzedajemy.pl###openUserSuggestionWindowBtn
 stopklatka.pl##.platforms_adfloor
+telemedi.co##.sidebar-links
 tugazeta.pl###sort_button,#koment_button
 tvokazje.pl##.call-popup-newslater, #phone-webcallback
+tymbark.com###kwit_brandwidget_btn
+wakai.pl###sod-drawer-handle
+wanika.pl###cloudBox
 wesolakraina.pl##.kontrast_tlo
 widzewlodz.pl###boxNavi
 ||opineo.pl/gfx/frontend/side_slider_gfx.png
@@ -843,6 +842,7 @@ nietylkopasta.pl###dbx_light, #upprev_box
 panoramafirm.pl##.container.pt-1.card.blog-box
 parenting.pl##.parenting-tv-latest
 pl###poza-szkieletem
+pl###telemedicoWidget
 pl###sugester_widget
 poczta.interia.pl###createaccount2
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
@@ -855,6 +855,8 @@ sklep-muzyczny.com.pl##.widgets
 sklep-rolnicze.eu###oiTab
 soton24.pl,twojezaglebie.pl##.td-more-articles-box
 sprzedajemy.pl##.newest_offers, .offerDetailsRightBlueBox
+targsmaku.pl##.active.page-bottom-bar
+telemedi.co###notifications-pop
 ||app.sugester.pl/tpbocian/widget.js
 ||ssl.ceneo.pl/shops/sw.js$third-party
 ||ssl.ceneo.pl/shops/v3/script.js$third-party
