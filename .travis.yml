@@ -1,0 +1,13 @@
+sudo: false
+dist: trusty
+addons:
+  apt:
+    packages:
+    - libtypes-path-tiny-perl
+    - locales
+    - language-pack-pl
+script:
+- "./scripts/version_checksum_update_Travis.sh ./PPB.txt"
+env:
+  global:
+    secure: cp66FhER0t0G994GdWV9T8kjm0eq/4sf3H2h0eS/UEAD2/7Jbbbo+e8fhl4qcFhMBmwNE+GFIw49P10Eo4A8FGyJN/3tJryirtRy6Wou6h71Te+nEGCZC6e45L5K+2KAdTnE0EygjevR4Uu/7PT4KO5djw2HLrag6P7z6REedICGiG4BgO2UgZevy4+ngwv16p8rfJFzyG3iwmwaW3VHyiM+dGU10W5o5MbJzz4RRHidVTXTMlebxTOwlRRIBxSqUA2Z/44NoCbFUcg6rREGD9B/IRQyYl2H+P/JdFfNetJ4gcazbGws3FKwITDRO3tpu9gmpnXdeHbYKaGozqPsXlTF9yd2OW++S5yW4Bbr5jQjgW0Pu5cdI9SddKgaxYDrtgvI3yK425HPRc1siHVo25FAKLZvUN0f5g1hcfcvP/4zEBFdUVVYima5I3Z2MbaC0fkF2UQWppkJFmg16qpWdQTXVqOE/MVBT0L0POn0EpJZTzj/CHrm4xDkQkkooT0GQCVv4gFz7tw5XMKskg1tJwQ4FuXmaxk4FxbdGU5egNwBb59EeKtLkJmMX3Rhvh1Rn8Wvi+4iIzzcTy27SPINMCRnPcNMAsxHII7xRC+8eVlfaIsM1Lm4xhNfrT3ksBUmhALMU0n1T9VcUXAengza4IauebGcbzMTdvQXg2YsX3g=
