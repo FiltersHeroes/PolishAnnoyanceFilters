@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: 35Q+iiWX5preJDwk22+DwA
+! Checksum: SuKHSke9pXCxuTuE5uWrfQ
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 30 Dec 2017 13:47:50 UTC+01
-! Version: 201712301347
+! Last modified: 30 Dec 2017 17:02:20 UTC+01
+! Version: 201712301702
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 30 gru 2017, 13:47:50 UTC+01
+! Aktualizacja: sob, 30 gru 2017, 17:02:20 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
@@ -619,6 +619,7 @@ fotoblogia.pl##.btn-comments.btn
 godealla.pl##.feedback, #top-offers, .hand
 hubkolektyw.pl##.panel-boczny
 kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
+lubimyczytac.pl##.report-a-bug-container
 mbank.pl##.covered.edge-menu
 miedziowe.pl,elka.pl###showhidecart
 monedo.pl###satellite
@@ -668,6 +669,7 @@ widzewlodz.pl###boxNavi
 ! Strzałki
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
+/wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
 agrobex.pl###top-link
 alget.pl##.top_button
 ams.com.pl###back2top
@@ -831,8 +833,9 @@ nietylkopasta.pl###dbx_light, #upprev_box
 panoramafirm.pl##.container.pt-1.card.blog-box
 parenting.pl##.parenting-tv-latest
 pl###poza-szkieletem
-pl###telemedicoWidget
 pl###sugester_widget
+pl###telemedicoWidget
+pl###upprev_box
 poczta.interia.pl###createaccount2
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 ppe.pl##.nextbox
