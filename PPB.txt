@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: UIT5TfcaiXHBgxqgNwLDEA
+! Checksum: UA6I7UErTM4BAJIt6aQqRQ
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 30 Dec 2017 19:40:44 UTC+01
-! Version: 201712301940
+! Last modified: 30 Dec 2017 21:13:08 UTC+01
+! Version: 201712302113
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 30 gru 2017, 19:40:44 UTC+01
+! Aktualizacja: sob, 30 gru 2017, 21:13:08 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -100,24 +100,6 @@ multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.
 muve.pl###exit--popup--container
 myphone.pl###trig_pop_news
 mysize.com.pl###popup_box, #overlay
-www.adwokatgdynia.com##nav.fixed
-www.biedronka.pl##.newsletter-tile
-www.black-friday.pl###ffbp, #ffbp-bg
-www.brw.com.pl##.blok-newsletter
-www.bs-legal.pl###icon_wrapper
-www.butyraj.pl##.hidden-phone.top_toplayer
-www.chip.pl##.bottombar
-www.contuus.pl##.isStuck.stuck_container
-www.cozadzien.pl###error_widget, #recom_widget
-www.eglobalcentral.pl###hs-beacon
-www.elblag.net##.nextarticle.allpadding
-www.enea.pl##.cx-theme-blue.cx-window-manager.cx-widget
-www.faktmobile.pl##.isStuck
-www.focus.pl##.box-obserwuj-newsletter
-www.godealla.pl##.overlay
-www.google.com##.gb_g, .loaded.dot
-www.hebe.pl##.splash
-www.hoteladler.com##.span4.moduletable:nth-of-type(3)
 www.inowroclaw.info.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 www.komputerswiat.pl###ks_breaking_news
 www.kupbilet.pl##[class^="tabslide"]
@@ -216,7 +198,6 @@ www.wiadomosci24.pl##.przeprowadzka-plywak
 !
 !
 ! PTWP
-/axnewsletter.js
 www.fachowywykonawca.pl###fb_slider
 www.housemarket.pl,www.lazienka.pl,www.mamkuchnie.pl,www.propertydesign.pl###nav.stick
 www.najlepszedomy.pl##.fixed-bar
@@ -256,7 +237,6 @@ www.tvn24.pl##.side-info
 !
 !
 ! WP
-biztok.money.pl,dom.money.pl,manager.money.pl,moto.money.pl,msp.money.pl,pogoda.money.pl,praca.money.pl,prawo.money.pl,przetargi.money.pl,tech.money.pl,www.money.pl###fixedHeader
 direct.money.pl,www.totalmoney.pl###widget-fc-mobile-button
 e-prawnik.pl##.o-window.windowTop
 komorkomania.pl,autokult.pl##.btn-comments
@@ -328,12 +308,15 @@ allani.pl##.footer__newsletter
 answear.com###footerTopBar
 avaro.pl##.smsapi-sidetitle
 bankobranie.blogspot.com###topNewsletter
+biedronka.pl##.newsletter-tile
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bigstar.pl##.info:nth-of-type(2)
 bluecity.pl##.col-newsletter.col
 bluerank.pl##.shown.exit
 booking.com##.newsletter_subscribe
+brw.com.pl##.blok-newsletter
 businesstraveller.pl##.widget:nth-of-type(2) > h4
+butyraj.pl##.hidden-phone.top_toplayer
 bylola.pl###box_newsletter
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
@@ -346,6 +329,7 @@ fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #t
 fokusfashion.com##form > input:nth-of-type(2)
 historyk.eu###newsletter 
 hitobuwie.pl,www.missguided.com,www.smyk.com##.footer__newsletter
+hoteladler.com##.span4.moduletable:nth-of-type(3)
 influentiq.pl###text-14
 kodyrabatowe.interia.pl###newsletter_footer
 kotkowicz.pl###wp-subscribe
@@ -431,6 +415,7 @@ znak.com.pl###footer-newsletter
 !
 ! 
 ! Popupy
+/axnewsletter.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 /wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=tygodnikprzeglad.pl|plportal.pl
@@ -602,11 +587,14 @@ d24h.pl###zaufane_opinie_widget
 domodi.pl##.dm-sticky-buttons
 doradcasmaku.pl##.side-widget
 echodnia.eu###toolbar
+eglobalcentral.pl###hs-beacon
 electro-outlet.pl###tws_a_2
 empik.com##.scroll-to-top
+enea.pl##.fixed-form__trigger-button
 eurobank.pl###labelElements
 fotoblogia.pl##.btn-comments.btn
 godealla.pl##.feedback, #top-offers, .hand
+hoteladler.com##.bookingfixedtop.book-online-button
 hubkolektyw.pl##.panel-boczny
 kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
 lubimyczytac.pl##.report-a-bug-container
@@ -707,7 +695,7 @@ mediaexpert.pl###go_top
 meizupolska.pl##.toup
 morele.net,pl###back_to_top
 mosquito-sklep.pl###ui-to-top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl,mobbingwpracy.com##.scrollup
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl,mobbingwpracy.com,eglobalcentral.pl##.scrollup
 myjki.com###scrollTop
 nczas.com##.td-scroll-up
 neonet.pl##.arrow-up
@@ -804,10 +792,12 @@ booking.com##.header-signin-prompt
 discordapp.com##.notice
 dobrymechanik.pl###mfind-fixed
 e-ciucholand.com##.extraBox
+elblag.net##.nextarticle.allpadding
 elka.pl###bannerBanderolaTlo, #bannerBanderolaPozycja
 eobuwie.com.pl##.header-callout
 facebook.com###pagelet_growth_expanding_cta
 facetemjestem.pl##.uk-hidden-small, .sidebar-sticky
+focus.pl##.box-obserwuj-newsletter
 forsal.pl,gazetaprawna.pl###boxSubscr2016
 fronda.pl##.slided-article
 gazetaprawna.pl###nextArticleWidget
