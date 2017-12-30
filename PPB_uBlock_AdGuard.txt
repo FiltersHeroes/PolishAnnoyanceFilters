@@ -1,17 +1,17 @@
 []
-! Checksum: BlZZA9ffoeMg+e0GgCSYBA
+! Checksum: QpOh9JpAwZGC6/nRTaMV/w
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 29 Dec 2017 18:26:13 UTC+01
-! Version: 201712291826
+! Last modified: 30 Dec 2017 21:13:22 UTC+01
+! Version: 201712302113
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 29 gru 2017, 18:26:13 UTC+01
+! Aktualizacja: sob, 30 gru 2017, 21:13:22 UTC+01
 !
 !
 ! Popupy
@@ -128,5 +128,6 @@ yieldbird.com##.overlay-layer, .default-modal
 wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
 !
 !
-! Tła
-www.znak.com.pl##body:style(background: none !important;)
+! Tła zawierające reklamy wewnętrzne
+eglobalcentral.pl##.helper-container:style(background: none !important;)
+znak.com.pl##body:style(background: none !important;)
