@@ -1,21 +1,21 @@
 [Adblock Plus 2.0]
-! Checksum: SuKHSke9pXCxuTuE5uWrfQ
+! Checksum: UIT5TfcaiXHBgxqgNwLDEA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 30 Dec 2017 17:02:20 UTC+01
-! Version: 201712301702
+! Last modified: 30 Dec 2017 19:40:44 UTC+01
+! Version: 201712301940
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 30 gru 2017, 17:02:20 UTC+01
+! Aktualizacja: sob, 30 gru 2017, 19:40:44 UTC+01
 !
 !
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+)
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
 !#include PPB_uBlock_AdGuard.txt
 !
 !
@@ -32,7 +32,6 @@ dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
 dany-meble.pl##body > .hidden-sm.hidden-xs
 dbpolska.net,ampolska.net###panel
 ddz.doba.pl###bannersstickright
-discordapp.com##.notice
 dobreprogramy.pl##.forum-help-cta.no-mobile.block, .notifyjs-corner
 doradcasmaku.pl##.side-widget, .visible.lastest-news-wrapper
 dowbit.pl##.mcwidget-overlay
@@ -101,20 +100,6 @@ multikino.pl##.lp_container:nth-of-type(4) > .whats-on-subtitle.container-small.
 muve.pl###exit--popup--container
 myphone.pl###trig_pop_news
 mysize.com.pl###popup_box, #overlay
-wec.com.pl##div[id*=BadgeContainer]
-wiadomoscihandlowe.pl###newsletter-popup-wrapper
-winiary.pl###kwit_brandwidget_btn
-wirtualnemedia.pl###swim_box
-wirtualnemedia.pl##.clearfix.tvn-box
-wirtualnemedia.pl##.header_blue
-wispol.eu###pushAdClicker
-wispol.eu##.popup_news, .newsletter
-wlaczoszczedzanie.pl##.fm-icon
-wmmotor.pl##body > table > tbody > tr > td:nth-of-type(1)
-wmmotor.pl##body > table > tbody > tr > td:nth-of-type(3)
-wmmotor.pl##td:nth-of-type(2) > table:nth-of-type(1)
-wszystkotujest.pl##.box-banners:nth-of-type(4)
-wwsi.edu.pl###adsdialog
 www.adwokatgdynia.com##nav.fixed
 www.biedronka.pl##.newsletter-tile
 www.black-friday.pl###ffbp, #ffbp-bg
@@ -162,7 +147,6 @@ www.tapeciarnia.pl###div_okienko_shoutbox_schowane
 www.topsolutions.pl###popup_contact
 www.tygodnikprzeglad.pl###sidebar > .widget.widget-2
 www.youtube.com##.ytp-ce-element
-www.zatrzymujacczas.pl,kuchniawedwoje.pl,e-przepisykulinarne.pl###ffbp
 wyborcza.biz##.is-visible.mod_ddbox.mod
 wykop.pl##.big.button
 xboxforum.pl##.primary.floatingItem
@@ -189,7 +173,6 @@ zszywka.pl###inv-request-popup
 ||upolujebooka.pl/_visual/_b/b_newsletter.jpg
 ||www.doradcasmaku.pl/index/get-popup$xmlhttprequest
 ||www.rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
-||www.tygodnikprzeglad.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
 ||zd24.pl/modules/mod_susnet_likebox/css/style.css
@@ -350,13 +333,13 @@ bigstar.pl##.info:nth-of-type(2)
 bluecity.pl##.col-newsletter.col
 bluerank.pl##.shown.exit
 booking.com##.newsletter_subscribe
+businesstraveller.pl##.widget:nth-of-type(2) > h4
 bylola.pl###box_newsletter
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 domodi.pl##.dm-footer-newsletter
 e-ciucholand.com###newsletter_block_left
 ebeactive.pl##.newsletter
-emag.pl##.widget-newsletter
 empik.com##.footerNewsletter__form-wrap
 erp-view.pl###top-mod
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
@@ -402,6 +385,7 @@ pl##.newsletter-box
 pl##.newsletter-container
 pl##.newsletter-subscribe
 pl##.newsletter_footer
+pl##.widget-newsletter
 pl##.widget_newsletterwidget
 pl##.widget_wysija
 pol-nor.com##.formk
@@ -435,6 +419,7 @@ txm.pl##.b-footer_newsletter
 varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
 vivaldi.com###footer-signup
 wearmedicine.com##.newsletter, #nlThanks
+wispol.eu##.newsletter
 wittchen.com##.widget-newsletter
 wyjatkowyprezent.pl###footerNewsletter
 yieldbird.com##.hidden-widget.float-widget
@@ -448,6 +433,7 @@ znak.com.pl###footer-newsletter
 ! Popupy
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
+/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=tygodnikprzeglad.pl|plportal.pl
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 3i-store.com###exit--popup--container
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
@@ -535,7 +521,11 @@ txm.pl##.mfp-bg, .sp-fancybox-overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 wearmedicine.com###cboxOverlay
+wiadomoscihandlowe.pl###newsletter-popup-wrapper
+wispol.eu##.popup_news
+wwsi.edu.pl###adsdialog
 zlotemysli.pl##._form_show._form-wrapper
+||businesstraveller.pl/wp-content/plugins/popups/public/assets/js/min/public-min.js
 ||cdn-widget.callpage.io/build/js/callpage.js
 ||daily.pl/modal/get/sticker-text
 ||gazetagazeta.com/wp-content/plugins/popupally/resource/frontend/popup.min.js
@@ -653,6 +643,7 @@ sklep.milicon.eu###cartBox, #contactBox
 sklepbaterie.pl##.naskroty
 sluzby-ur.pl##.gotologowanie
 sprzedajemy.pl###openUserSuggestionWindowBtn
+stolicazdrowia.pl##.mashicon-mail
 stopklatka.pl##.platforms_adfloor
 telemedi.co##.sidebar-links
 tugazeta.pl###sort_button,#koment_button
@@ -662,6 +653,7 @@ wakai.pl###sod-drawer-handle
 wanika.pl###cloudBox
 wesolakraina.pl##.kontrast_tlo
 widzewlodz.pl###boxNavi
+wlaczoszczedzanie.pl##.fm-icon
 ||opineo.pl/gfx/frontend/side_slider_gfx.png
 ||opineo.pl/shop/slider.js.php$third-party
 !
@@ -692,7 +684,7 @@ electro.pl###go_top
 eobuwie.com.pl###scroll-top
 extraportfel.pl###toTop
 fasardi.com,pl.bab.la##.back-to-top
-gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl,testergier.pl###scroll-up
+gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl,testergier.pl,koszalininfo.pl###scroll-up
 gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
 getinbank.pl###scroll_top
 gizchina.com.pl##.vw-scroll-to-top
@@ -751,6 +743,7 @@ pl###scrollToTop
 pl##.back-to-top
 pl##.dogory
 pl##.go-to-top
+pl##.mh-back-to-top
 pl##.scroll-top
 pl##.scroll_to_top
 pl##.scrolltop
@@ -780,8 +773,9 @@ sprzedambiznes.pl##.js-go-to
 tabletowo.pl,zdrowyportal.org,tvokazje.pl###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
-univision24.pl,ogrzewania.pl,fabrykasypialni, welafashion.pl,soczewki24.pl##.up
+univision24.pl,ogrzewania.pl,fabrykasypialni.pl,welafashion.pl,soczewki24.pl##.up
 vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl,gemre.com.pl,goodlookin.pl,ekobieca.pl###backTop
+wec.com.pl##.go2top
 witchen.com##.btn-goto-top
 www.akademiareklamy.edu.pl###topscroller
 www.artefakt.pl,joemonster.org###scrollUp
@@ -789,7 +783,7 @@ www.chamskie.pl###widget-back-to-top
 www.homebook.pl##.is-active.js-go-top.go-top
 www.hoteladler.com###gotop
 www.jakonatorobi.pl,www.autofakty.pl###ruby-back-top
-www.meczyki.pl,promocyjni.pl##.scroll-up
+www.meczyki.pl,promocyjni.pl,mtb-xc.pl##.scroll-up
 www.mila.pl##.scroll-arrow
 www.nocowanie.pl##.is-sticky.btn--top.btn
 www.pssite.com##.scrolltop
@@ -807,6 +801,7 @@ zrobisztosam.com###topLink
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 booking.com##.header-signin-prompt
+discordapp.com##.notice
 dobrymechanik.pl###mfind-fixed
 e-ciucholand.com##.extraBox
 elka.pl###bannerBanderolaTlo, #bannerBanderolaPozycja
@@ -849,6 +844,8 @@ soton24.pl,twojezaglebie.pl##.td-more-articles-box
 sprzedajemy.pl##.newest_offers, .offerDetailsRightBlueBox
 targsmaku.pl##.active.page-bottom-bar
 telemedi.co###notifications-pop
+winiary.pl###kwit_brandwidget_btn
+wirtualnemedia.pl###swim_box
 ||app.sugester.pl/tpbocian/widget.js
 ||ssl.ceneo.pl/shops/sw.js$third-party
 ||ssl.ceneo.pl/shops/v3/script.js$third-party
