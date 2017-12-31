@@ -7,7 +7,7 @@ for i in "$@"; do
 
     # Aktualizacja daty i godziny w polu „Last modified"
     export LC_ALL=en_US.UTF-8
-    data=$(date +"%d %b %Y %H:%M:%S UTC%:::z")
+    data=$(date +"%d %b %Y %H:%M UTC%:::z")
     sed -i '/! Last modified:/c\'"! Last modified: $data" $i
 
     # Aktualizacja wersji
@@ -16,7 +16,7 @@ for i in "$@"; do
 
     # Aktualizacja pola „aktualizacja"
     export LC_ALL=pl_PL.UTF-8
-    aktualizacja=$(date +"%a, %d %b %Y, %H:%M:%S UTC%:::z")
+    aktualizacja=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
     sed -i '/! Aktualizacja:/c\'"! Aktualizacja: $aktualizacja" $i
 
     # Sciezka to miejsce, w którym znajduje się skrypt
