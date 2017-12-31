@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: cmNqrVt3WrnCr2dm3rD10g
+! Checksum: 6a6cwK3gQjrr/uTP6vX0Pw
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 31 Dec 2017 16:53 UTC+01
-! Version: 201712311653
+! Last modified: 31 Dec 2017 21:52 UTC+01
+! Version: 201712312152
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nie, 31 gru 2017, 16:53 UTC+01
+! Aktualizacja: nie, 31 gru 2017, 21:52 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -332,6 +332,7 @@ butylukow.pl###tws_i_2
 caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
 caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 casu.pl###freshmail-main-wrapper, #freshmail_backdrop
+cdp.pl###footer-newsletter
 chrzypsko.pl###dhtml_popup
 d24h.pl###fancybox-overlay, #fancybox-wrap
 dany-meble.pl###myPopModal
@@ -370,9 +371,10 @@ nowafarmacja.pl###newsletter-overlay, #freshmail-form
 okmoneta.pl###popupEmailPhone
 ono24.info##.bts-popup
 opensubtitles.org###fadeSub, #lightSub
-otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 otmuchow.pl##script ~ #cboxOverlay
+otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 ozonee.pl###tln2_wrap, #twsshadow2_bg
+papilot.pl###keys-info-bg
 picodi.com##.special-modal, .modal-backdrop
 pl###esns_background_layer
 pl###logregLead
@@ -407,8 +409,8 @@ taniaksiazka.pl##.newsletter-popup
 travelist.pl###logregLead, #modalOverlay
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
-wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 wearmedicine.com###cboxOverlay
+wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
 wispol.eu##.popup_news
 wwsi.edu.pl###adsdialog
@@ -801,9 +803,9 @@ zdrowie.gazeta.pl###bottom_wrap
 ! Widgety - czaty
 /livezillachat//script.php
 d24h.pl###chat_container
-ebeactive.pl###iw-tab-label
 e-prawnik.pl##.o-window.windowTop
 e-saving.pl###contact
+ebeactive.pl###iw-tab-label
 fantasyliga.wp.pl##.show-chat
 kawaly.tja.pl###div_okienko_shoutbox_schowane
 mango.pl###chat-toggle
@@ -814,8 +816,8 @@ pl.000webhost.com##div[style="cursor: pointer;"]
 polskihurtworld.eu##.ggu-widget-launcher
 ||chat.4finance.com^$third-party
 ||chat.freshdesk.com^$third-party,xmlhttprequest
-||czater.pl/assets/modules/chat/js/chat.js
 ||code.tidio.co^$third-party
+||czater.pl/assets/modules/chat/js/chat.js
 ||embed.tawk.to^$script,third-party
 ||helponclick.com^$third-party,script
 ||livesupport.pl/chat/createBottom*.js
