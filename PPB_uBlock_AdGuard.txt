@@ -1,17 +1,17 @@
 []
-! Checksum: FR+wxI0IC1+Lm1xhJjnLNA
+! Checksum: 633OtismrXuxePmIXnikeQ
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 31 Dec 2017 16:28 UTC+01
-! Version: 201712311628
+! Last modified: 01 sty 2018 19:20 UTC+01
+! Version: 201801011920
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nie, 31 gru 2017, 16:28 UTC+01
+! Aktualizacja: pon, 01 sty 2018, 19:20 UTC+01
 !
 !
 ! Popupy
@@ -79,6 +79,7 @@ partneragdrtv.com.pl##.mfp-ready:has(.newsletter-box)
 partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
 pepco.pl##.modal-newsletter
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
+playstation.com##script:inject(abort-current-inline-script.js, $, PDC.PopupManager)
 poznan.factory.pl##.region-popup
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 quiosque.pl###newsletter-popup, .modal-backdrop
