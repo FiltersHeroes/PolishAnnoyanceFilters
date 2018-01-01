@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: 6a6cwK3gQjrr/uTP6vX0Pw
+! Checksum: lUsghCSVToDwBYuLZ7Z7ng
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 31 Dec 2017 21:52 UTC+01
-! Version: 201712312152
+! Last modified: 01 Jan 2018 16:11 UTC+01
+! Version: 201801011611
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nie, 31 gru 2017, 21:52 UTC+01
+! Aktualizacja: pon, 01 sty 2018, 16:11 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -218,6 +218,7 @@ e-ciucholand.com###newsletter_block_left
 ebeactive.pl##.newsletter
 empik.com##.footerNewsletter__form-wrap
 erp-view.pl###top-mod
+euro.com.pl###footer-shops > .column:nth-of-type(1)
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 fokusfashion.com##form > input:nth-of-type(2)
 historyk.eu###newsletter 
@@ -234,6 +235,7 @@ mango.pl###smSubscriptonBox
 merlin.pl##.b-footer__icons-list
 mixmedia.pl##.b-footerNewsletter
 mojeokazje.com##.column-margin-.column_column.one-third.mcb-column.column
+morele.net##.col-md-9.col-sm-7 > .row > .col-md-6s
 nettg.pl##.input-newsletter1
 nettg.pl##.section-content > .heading
 o.pl###email-bar, #nl-icon, #cs-newsletter
@@ -260,6 +262,7 @@ pl##.box-newsletter
 pl##.footer-block--newsletter
 pl##.footer-newsletter
 pl##.footer-newsletter-box
+pl##.m-newsletter
 pl##.newsletter
 pl##.newsletter-box
 pl##.newsletter-container
@@ -326,6 +329,7 @@ avaro.pl###tln4_wrap
 bankobranie.blogspot.com###overlay
 bluecity.pl##.popupContent
 brilu.pl##.popup__overlay
+bssztum.pl###fireworks
 butosklep.pl,pakolorente.com,cafeborowka.pl###toplayer_newsletter
 butyibuty.pl###news_popup
 butylukow.pl###tws_i_2
@@ -619,6 +623,7 @@ lp.travelist.pl###returnToTopButton
 manjaro.pl##.generate-back-to-top
 matfiz24.pl##a[href="#header"]
 mediaexpert.pl###go_top
+mediamarkt.pl###js-scrollTopDesktop
 meizupolska.pl##.toup
 morele.net,pl###back_to_top
 mosquito-sklep.pl###ui-to-top
@@ -802,6 +807,7 @@ zdrowie.gazeta.pl###bottom_wrap
 !
 ! Widgety - czaty
 /livezillachat//script.php
+bssztum.pl###widget_social2
 d24h.pl###chat_container
 e-prawnik.pl##.o-window.windowTop
 e-saving.pl###contact
