@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: 5kHRLmPMa1TGlGZ5F8C2Vg
+! Checksum: tloBZRUlk4fswpqcwbdNgA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 01 sty 2018 19:20 UTC+01
-! Version: 201801011920
+! Last modified: 01 sty 2018 23:02 UTC+01
+! Version: 201801012302
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 01 sty 2018, 19:20 UTC+01
+! Aktualizacja: pon, 01 sty 2018, 23:02 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -311,7 +311,6 @@ wyjatkowyprezent.pl###footerNewsletter
 yieldbird.com##.hidden-widget.float-widget
 zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 znak.com.pl###footer-newsletter
-||api.traq.li^$third-party
 ||simple.erp-view.pl/images/newslettersimple.jpg
 ||telewizja-cyfrowa.com/wp-content/uploads/2016/01/newsletter.png
 ||upolujebooka.pl/_visual/_b/b_newsletter.jpg
@@ -350,6 +349,7 @@ dowbit.pl##.mcwidget-overlay
 eluban.pl###popup
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
 eporady24.pl##.zaczekaj
+eska.pl###_hj_survey_invite_container
 eswinoujscie.pl##.ulp-layer, .ulp-overlay
 fashionata.pl##.nlpwContainer, .pwShade
 funtech.pl##.dylematy
@@ -433,7 +433,6 @@ zlotemysli.pl##._form_show._form-wrapper
 ||gdanskstrefa.com/wp-content/plugins/boxzilla/assets/js/script.min.js
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||home-you.com/themes/hy/popup/jquery.popup.js
-||hotjar.com^$third-party
 ||ibuk.pl/public/desktop/js/contentJs/aapopup.js
 ||influentiq.pl/wp-content/plugins/layered-popups/js/script.min.js
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
@@ -450,7 +449,6 @@ zlotemysli.pl##._form_show._form-wrapper
 ||salesmanago.pl/dynamic/*/popups.js
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
 ||stressfree.pl/wp-content/plugins/popup-maker/assets/js/site.min.js
-||usabilla.com^$third-party,script
 ||webfrik.pl/widgets/popup/popup.min.js
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
 ||znak.com.pl/popupNewsletter$xmlhttprequest
