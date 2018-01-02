@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: Hv0Ye2reXMGBy8RITE0W1A
+! Checksum: ReQHFtINMuZTL4Qg8PWUMQ
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 02 Jan 2018 17:39 UTC+01
-! Version: 201801021739
+! Last modified: 02 Jan 2018 21:43 UTC+01
+! Version: 201801022143
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wto, 02 sty 2018, 17:39 UTC+01
+! Aktualizacja: wto, 02 sty 2018, 21:43 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -210,7 +210,7 @@ booking.com##.newsletter_subscribe
 brw.com.pl##.blok-newsletter
 businesstraveller.pl##.widget:nth-of-type(2) > h4
 butyraj.pl##.hidden-phone.top_toplayer
-bylola.pl###box_newsletter
+bylola.pl,planszostrefa.pl,militarialodz.pl###box_newsletter
 cgm.pl##.footerNewsletter
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
@@ -273,7 +273,6 @@ pl##.newsletter_footer
 pl##.widget-newsletter
 pl##.widget_newsletterwidget
 pl##.widget_wysija
-planszostrefa.pl###box_newsletter
 pol-nor.com##.formk
 pol-nor.com##.mtz > form
 polemi.co.uk###dropin
@@ -372,6 +371,7 @@ komorkomania.pl###exit-intent-modal
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
 limanowa.in##.ad_popup
 mediarun.com##.fancybox-outer, .fancybox-overlay
+militarialodz.pl###popup-scademy1
 misjonarska.com###myModal, .reveal-modal-bg
 mlodytechnik.pl###newsletterContainer
 muratordom.pl###nlt_popup
@@ -526,6 +526,7 @@ hoteladler.com##.bookingfixedtop.book-online-button
 hubkolektyw.pl##.panel-boczny
 kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
 komorkomania.pl,autokult.pl##.btn-comments
+ledfarmer.pl,artbud.pl,aze.com.pl##.modal-visible.modal, .mask
 lubimyczytac.pl##.report-a-bug-container
 majsterkowo.pl##.feedback
 mbank.pl##.covered.edge-menu
@@ -617,6 +618,7 @@ groupon.pl###ls-back-to-top
 historiasportu.info##.et_pb_scroll_top
 iperfumy.pl##.btn-scroll-top
 jakzarabiaconline.blogspot.com###top
+jastrzabpost.pl##.up
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
 kliknijwzdrowie.pl,tasteandtravel.pl###scroll_totop
@@ -667,6 +669,7 @@ pl###scroll-top-link
 pl###scrollToTop
 pl##.back-to-top
 pl##.dogory
+pl##.fa-angle-up
 pl##.go-to-top
 pl##.mh-back-to-top
 pl##.scroll-top
@@ -701,7 +704,6 @@ tabletowo.pl,zdrowyportal.org,tvokazje.pl###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
 tui.pl##.jump-top-btn
-univision24.pl,ogrzewania.pl,fabrykasypialni.pl,welafashion.pl,soczewki24.pl,bylola.pl,jastrzabpost.pl,planszostrefa.pl,ledfarmer.pl,czarodziej.eu,bitmat.pl,mapy.net.pl##.up
 vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl,gemre.com.pl,goodlookin.pl,ekobieca.pl###backTop
 vulcan.edu.pl###b_gora
 wec.com.pl##.go2top
