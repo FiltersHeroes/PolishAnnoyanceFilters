@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: tloBZRUlk4fswpqcwbdNgA
+! Checksum: Hv0Ye2reXMGBy8RITE0W1A
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 01 sty 2018 23:02 UTC+01
-! Version: 201801012302
+! Last modified: 02 Jan 2018 17:39 UTC+01
+! Version: 201801021739
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 01 sty 2018, 23:02 UTC+01
+! Aktualizacja: wto, 02 sty 2018, 17:39 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -273,9 +273,12 @@ pl##.newsletter_footer
 pl##.widget-newsletter
 pl##.widget_newsletterwidget
 pl##.widget_wysija
+planszostrefa.pl###box_newsletter
 pol-nor.com##.formk
 pol-nor.com##.mtz > form
 polemi.co.uk###dropin
+polskacanada.com##.boxzilla-zaproszenie, #alo_easymail_widget_form
+polskacanada.com##.footer-4.footer-widget:nth-of-type(2)
 poznan.factory.pl##.pane-2.pane-custom.panel-pane
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
 ptakmoda.com###newsletter_block_bottom
@@ -310,6 +313,7 @@ www.rp.pl##.page-footer__mk
 wyjatkowyprezent.pl###footerNewsletter
 yieldbird.com##.hidden-widget.float-widget
 zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
+zielonyogrodek.pl###newsletterBoxLeft, .acymailing_module_form
 znak.com.pl###footer-newsletter
 ||simple.erp-view.pl/images/newslettersimple.jpg
 ||telewizja-cyfrowa.com/wp-content/uploads/2016/01/newsletter.png
@@ -357,6 +361,7 @@ galeria-kaskada.pl###modalNewsletter
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 galeriaveneda.com.pl###popup
 gazetapraca.pl###overlayJS
+hafija.pl##.dgd_overlay, .dgd_stb_box
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
 iperfumy.pl###pd-box-overlay, #pd-box-window, #pd-box-HideSelect
 jaslo4u.pl###popup
@@ -420,6 +425,7 @@ wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
 wispol.eu##.popup_news
 wwsi.edu.pl###adsdialog
+zielonyogrodek.pl##.mod_avt_alert
 zlotemysli.pl##._form_show._form-wrapper
 ||a.mailmunch.co/app/$script,third-party
 ||businesstraveller.pl/wp-content/plugins/popups/public/assets/js/min/public-min.js
@@ -514,6 +520,7 @@ enea.pl##.fixed-form__trigger-button
 eurobank.pl###labelElements
 fotoblogia.pl##.btn-comments.btn
 godealla.pl##.feedback, #top-offers, .hand
+hafija.pl##.bonfire-slideout-button, .bonfire-slideout-button-triangle-background
 helios.pl##.openSuggestionFormButton
 hoteladler.com##.bookingfixedtop.book-online-button
 hubkolektyw.pl##.panel-boczny
@@ -586,7 +593,6 @@ avaro.pl###arrow_top
 avast.com###slide-top
 blip.pl###totop
 blogspot.com##.scrollToTop
-bylola.pl##.up
 centrumdruku3d.pl,cyfrowypolsatnews.pl,tugazeta.pl##.cd-top
 cud.rzeszow.pl##.bd-backtotop-1
 dany-meble.pl,medianarodowe.com,matfiz24.pl,wirtualnygarwolin.pl###gototop
@@ -611,7 +617,6 @@ groupon.pl###ls-back-to-top
 historiasportu.info##.et_pb_scroll_top
 iperfumy.pl##.btn-scroll-top
 jakzarabiaconline.blogspot.com###top
-jastrzabpost.pl##.up
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
 kliknijwzdrowie.pl,tasteandtravel.pl###scroll_totop
@@ -696,7 +701,7 @@ tabletowo.pl,zdrowyportal.org,tvokazje.pl###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
 tui.pl##.jump-top-btn
-univision24.pl,ogrzewania.pl,fabrykasypialni.pl,welafashion.pl,soczewki24.pl##.up
+univision24.pl,ogrzewania.pl,fabrykasypialni.pl,welafashion.pl,soczewki24.pl,bylola.pl,jastrzabpost.pl,planszostrefa.pl,ledfarmer.pl,czarodziej.eu,bitmat.pl,mapy.net.pl##.up
 vagczesci.pl,elmedico.pl,butyraj.pl,funtech.pl,barbersupply.pl,gemre.com.pl,goodlookin.pl,ekobieca.pl###backTop
 vulcan.edu.pl###b_gora
 wec.com.pl##.go2top
