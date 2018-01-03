@@ -1,17 +1,17 @@
 []
-! Checksum: 633OtismrXuxePmIXnikeQ
+! Checksum: 4Y2hJxWS8/v7jm0Syx/aqA
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 01 sty 2018 19:20 UTC+01
-! Version: 201801011920
+! Last modified: 03 Jan 2018 17:18 UTC+01
+! Version: 201801031718
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 01 sty 2018, 19:20 UTC+01
+! Aktualizacja: śro, 03 sty 2018, 17:18 UTC+01
 !
 !
 ! Popupy
@@ -123,6 +123,10 @@ www.ozog.pl###homeModal
 www.ozog.pl##body:style(overflow: auto!important;)
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
+!
+!
+! Powiadomienia Push
+meczyki.pl##script:inject(abort-on-property-read.js, Notification.requestPermission)
 !
 !
 ! Przyciski
