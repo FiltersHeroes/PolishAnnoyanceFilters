@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: rHJEgcz3xcPreSt3cOFzcA
+! Checksum: GYV7tGPt4XQB4u3W3OZjgA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 02 Jan 2018 22:47 UTC+01
-! Version: 201801022247
+! Last modified: 03 Jan 2018 18:48 UTC+01
+! Version: 201801031848
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wto, 02 sty 2018, 22:47 UTC+01
+! Aktualizacja: śro, 03 sty 2018, 18:48 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -239,6 +239,7 @@ pl###newsletter_box
 pl###newsletter_wrapper
 pl###newsletterform
 pl###side_widget_newsletter
+pl##.block-simplenews
 pl##.box-newsletter
 pl##.footer-block--newsletter
 pl##.footer-newsletter
@@ -257,6 +258,7 @@ pol-nor.com##.mtz > form
 polemi.co.uk###dropin
 polskacanada.com##.boxzilla-zaproszenie, #alo_easymail_widget_form
 polskacanada.com##.footer-4.footer-widget:nth-of-type(2)
+polskieradio.com##.post-widget.widget:nth-of-type(4) > .post-widget.widget
 poznan.factory.pl##.pane-2.pane-custom.panel-pane
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
 ptakmoda.com###newsletter_block_bottom
@@ -277,8 +279,11 @@ sklep.motor-land.com.pl###side_header_newsletter
 sklep.zawiszabydgoszcz.eu###newsletter_block_left
 slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
 smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
+sportslaski.pl##.containerright5
 stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of-type(3)
 subiektywnieofinansach.pl##.et_pb_cta_0.et_pb_text_align_center.et_pb_bg_layout_light.et_pb_module.et_pb_promos
+suwalki24.pl##.box:nth-of-type(5)
+swiatoze.pl##.widget_newsletterwidgetminimal
 telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 txm.pl##.b-footer_newsletter
@@ -429,6 +434,7 @@ zlotemysli.pl##._form_show._form-wrapper
 ||mailerlite.com^$third-party
 ||mediaexpert.pl/js/popup.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
+||nowawrzesnia.pl/media/system/js/modal.js
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
 ||rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js
@@ -551,6 +557,7 @@ sympatia.onet.pl###iconsBar
 telemedi.co##.sidebar-links
 tugazeta.pl###sort_button,#koment_button
 tvokazje.pl##.call-popup-newslater, #phone-webcallback
+tygodnik-krapkowicki.info###tabsix
 tymbark.com###kwit_brandwidget_btn
 wakai.pl###sod-drawer-handle
 wanika.pl###cloudBox
@@ -566,7 +573,7 @@ www.wp.pl###home-page-button
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
-agrobex.pl###top-link
+agrobex.pl,macademiangirl.com###top-link
 alget.pl##.top_button
 ams.com.pl###back2top
 answear.com###scrollTop
@@ -690,7 +697,7 @@ vulcan.edu.pl###b_gora
 wec.com.pl##.go2top
 witchen.com##.btn-goto-top
 www.akademiareklamy.edu.pl###topscroller
-www.artefakt.pl,joemonster.org###scrollUp
+www.artefakt.pl###scrollUp
 www.chamskie.pl###widget-back-to-top
 www.homebook.pl##.is-active.js-go-top.go-top
 www.hoteladler.com###gotop
@@ -705,6 +712,8 @@ xlomza.pl##.uk-totop
 zalando.pl##.z-navigation-footer_backToTop
 zrobisztosam.com###topLink
 zyczenia-noworoczne.eu###back_top
+||greencanoe.pl/wp-content/themes/cookbook/js/jquery.scrollUp.min.js
+||joemonster.org/js/jquery.scrollUp.min.js
 ||tapeciarnia.pl/img/do_gory.png
 ||turek.net.pl/js/default/scroll_to_top.js
 !
@@ -713,6 +722,7 @@ zyczenia-noworoczne.eu###back_top
 4fun.tv##.app-popup
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
+artefakt.pl##._5d1e_container
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 booking.com##.header-signin-prompt
 direct.money.pl,totalmoney.pl###widget-fc-mobile-button
@@ -770,6 +780,7 @@ sklep-rolnicze.eu###oiTab
 soton24.pl,twojezaglebie.pl##.td-more-articles-box
 sprzedajemy.pl##.newest_offers, .offerDetailsRightBlueBox
 stopcafe.pl##.app-widget
+suwalki24.pl###sideCard
 targsmaku.pl##.active.page-bottom-bar
 telemedi.co###notifications-pop
 tube.ad##.nav
