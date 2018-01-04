@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: sVvM2QO7JwovjCYIJDnC7Q
+! Checksum: zCI/QUkYitx1SrSgxHIrCg
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 04 Jan 2018 18:05 UTC+01
-! Version: 201801041805
+! Last modified: 05 Jan 2018 00:12 UTC+01
+! Version: 201801050012
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 04 sty 2018, 18:05 UTC+01
+! Aktualizacja: pią, 05 sty 2018, 00:12 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -300,6 +300,7 @@ caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity
 casu.pl###freshmail-main-wrapper, #freshmail_backdrop
 cdp.pl###footer-newsletter
 chrzypsko.pl###dhtml_popup
+colian.pl##.home-popup
 cosslodkiego.com.pl###tws_i_1
 d24h.pl###fancybox-overlay, #fancybox-wrap
 dany-meble.pl###myPopModal, .modal-backdrop
@@ -346,6 +347,7 @@ nowafarmacja.pl###newsletter-overlay, #freshmail-form
 okmoneta.pl###popupEmailPhone
 ono24.info##.bts-popup
 opensubtitles.org###fadeSub, #lightSub
+orange.pl###advertslice
 otmuchow.pl##script ~ #cboxOverlay
 otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 ozonee.pl###tln2_wrap, #twsshadow2_bg
@@ -798,6 +800,7 @@ zdrowie.gazeta.pl###bottom_wrap
 !
 !
 ! Widgety - czaty
+/gnwidget/config/site-iframe.html$domain=orange.pl
 /livezillachat//script.php
 bssztum.pl###widget_social2
 d24h.pl###chat_container
@@ -820,7 +823,6 @@ polskihurtworld.eu##.ggu-widget-launcher
 ||helponclick.com^$third-party,script
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
-||orange.binaries.pl/ui/20171116/gnwidget/config/site-iframe.html
 ||salesmanago.pl/static/chunk/chat.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
