@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: /PLHzogypibWanAEFF5PRg
+! Checksum: oiQqjrSPfVTrNDR2g+hetA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 05 Jan 2018 22:20 UTC+01
-! Version: 201801052220
+! Last modified: 06 Jan 2018 00:29 UTC+01
+! Version: 201801060029
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 05 sty 2018, 22:20 UTC+01
+! Aktualizacja: sob, 06 sty 2018, 00:29 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -566,7 +566,6 @@ dobrekupony.pl###to-top
 domodi.pl##.dm-go-up
 domzagadek.pl###scroll_strz
 electro.pl###go_top
-eobuwie.com.pl###scroll-top
 extraportfel.pl###toTop
 fasardi.com,pl.bab.la##.back-to-top
 forbes.pl##.slideToTop
@@ -823,3 +822,7 @@ polskihurtworld.eu##.ggu-widget-launcher
 ||widget.userengage.com/widget.js
 ||widget.userengage.io/widget.js
 ||zopim.com^$third-party
+!
+!
+! Wyjątki
+ms.gov.pl#@##scroll-top
