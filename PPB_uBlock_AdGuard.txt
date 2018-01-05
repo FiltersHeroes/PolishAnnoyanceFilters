@@ -1,17 +1,17 @@
 []
-! Checksum: 4Y2hJxWS8/v7jm0Syx/aqA
+! Checksum: WPCalSo6onB9c58CQY95UQ
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 03 Jan 2018 17:18 UTC+01
-! Version: 201801031718
+! Last modified: 05 Jan 2018 17:07 UTC+01
+! Version: 201801051707
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 03 sty 2018, 17:18 UTC+01
+! Aktualizacja: pią, 05 sty 2018, 17:07 UTC+01
 !
 !
 ! Popupy
@@ -46,7 +46,6 @@ euro.com.pl##html:style(overflow: visible!important; margin-right: 0px!important
 fpiec.pl##.full-screen-overlay 
 fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
 fpiec.pl##body.no-scroll:style(overflow: visible !important;) 
-grawerowanie.org.pl##body:style(background: none!important;)
 habys.pl###cp-widget, .fancybox-overlay-fixed
 habys.pl##html > body:style(overflow: visible!important;)
 habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
@@ -88,13 +87,9 @@ rylko.com###modal-newsletter
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
 selkar.pl,sklepkamil.pl##.modal-open:style(overflow: visible!important;)
 selkar.pl,sklepkamil.pl##.newsletter-modal, .modal-backdrop
-smaker.pl###overlay, #popup
-smaker.pl##html > body.scrollingDisabled:style(overflow:visible!important;)
 spidersweb.pl##.mfp-bg
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 spidersweb.pl##html:style(overflow: visible !important; margin-right: 0px !important;)
-sprawnymarketing.pl###pop_facebook
-sprawnymarketing.pl##.blur:style(filter: none !important;)
 stokrotka.pl##.fancybox-overlay-fixed
 stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: auto!important;)
 teletorium.pl###pop
@@ -125,6 +120,18 @@ yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
 !
 !
+! Popupy społecznościowe
+galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
+galeriabronowice.pl##html > body:style(overflow: auto!important;)
+galeriabronowice.pl##html.fancybox-lock > body:style(overflow: auto!important;)
+galeriabronowice.pl##html.fancybox-lock:style(overflow: auto!important;)
+galeriabronowice.pl##html.fancybox-margin:style(margin-right: 0px!important;)
+smaker.pl###overlay, #popup
+smaker.pl##html > body.scrollingDisabled:style(overflow:visible!important;)
+sprawnymarketing.pl###pop_facebook
+sprawnymarketing.pl##.blur:style(filter: none !important;)
+!
+!
 ! Powiadomienia Push
 meczyki.pl##script:inject(abort-on-property-read.js, Notification.requestPermission)
 !
@@ -135,4 +142,5 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !
 ! Tła zawierające reklamy wewnętrzne
 eglobalcentral.pl##.helper-container:style(background: none !important;)
+grawerowanie.org.pl##body:style(background: none!important;)
 znak.com.pl##body:style(background: none !important;)
