@@ -1,17 +1,17 @@
 []
-! Checksum: WPCalSo6onB9c58CQY95UQ
+! Checksum: GhiydQholc/cLEN87ZaamA
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 05 Jan 2018 17:07 UTC+01
-! Version: 201801051707
+! Last modified: 06 Jan 2018 23:29 UTC+01
+! Version: 201801062329
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 05 sty 2018, 17:07 UTC+01
+! Aktualizacja: sob, 06 sty 2018, 23:29 UTC+01
 !
 !
 ! Popupy
@@ -29,6 +29,7 @@ bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 biznesalert.pl##.mfp-ready
 biznesalert.pl##html:style(overflow: visible!important; margin-right: 0px!important)
+bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
 byinsomnia.com###modal-newsletter, remodal-overlay, .remodal-wrapper
 byinsomnia.com##.remodal-is-locked:style(overflow: visible!important;)
 comperia.pl###modal_woman, .modal-backdrop
@@ -37,6 +38,7 @@ deezee.pl##.mfp-ready
 deezee.pl##html:style(overflow: visible!important;padding-right: 0px!important;)
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl###newsletter-modal
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
+domodi.pl##script:inject(set-constant.js, PWA_adbd, 2)
 ekai.pl##.newsletter-popup
 ekai.pl##html > body:style(overflow: auto!important;)
 ergokantor.pl##.mfp-ready
