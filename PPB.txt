@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: MEnPKx70nH3nxtNsIriieQ
+! Checksum: P49dXaQx80GRs37aKiJLnw
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 06 Jan 2018 17:38 UTC+01
-! Version: 201801061738
+! Last modified: 06 Jan 2018 23:27 UTC+01
+! Version: 201801062327
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 06 sty 2018, 17:38 UTC+01
+! Aktualizacja: sob, 06 sty 2018, 23:27 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -103,6 +103,7 @@ bigstar.pl##.info:nth-of-type(2)
 biznesalert.pl##.subscribe
 bluecity.pl##.col-newsletter.col
 bluerank.pl##.shown.exit
+bodypak.pl###pts-newsletter
 booking.com##.newsletter_subscribe
 brw.com.pl##.blok-newsletter
 businesstraveller.pl##.widget:nth-of-type(2) > h4
@@ -221,6 +222,7 @@ wearmedicine.com##.newsletter, #nlThanks
 wispol.eu##.newsletter
 wittchen.com##.widget-newsletter
 www.rp.pl##.page-footer__mk
+wakacje.pl###mainFootNewsletter
 wyjatkowyprezent.pl###footerNewsletter
 yes.pl##.footer-middle
 yieldbird.com##.hidden-widget.float-widget
@@ -297,6 +299,7 @@ mysize.com.pl###popup_box, #overlay
 nawozy.eu##.newsletterPopup
 ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
+nocowanie.pl##.fancybox-overlay-fixed.fancybox-overlay, .fancybox-type-html
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 okmoneta.pl###popupEmailPhone
 ono24.info##.bts-popup
@@ -342,6 +345,7 @@ taniaksiazka.pl##.newsletter-popup
 travelist.pl###logregLead, #modalOverlay
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
+wakacje.pl##.curtainFull, #newsletterLb
 wearmedicine.com###cboxOverlay
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
@@ -370,6 +374,7 @@ zszywka.pl###inv-request-popup
 ||losyziemi.pl/?spu_action=spu_load&lang=
 ||mailerlite.com^$third-party
 ||mediaexpert.pl/js/popup.js
+||multikurs.pl/Framework/Graphics/js/popup.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
 ||nowawrzesnia.pl/media/system/js/modal.js
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
@@ -464,6 +469,7 @@ monedo.pl###satellite
 myphone.pl##.newsFixedBtn
 ncplus.pl###button-call, #button-lead
 nettg.pl##.side-panel
+nocowanie.pl##.btn--signup
 o.pl###codemanipulator-tools
 orange.pl###bugTrackTag, .payback-floating-sidebar__trigger
 ozonee.pl###free_shiping_info
@@ -503,6 +509,7 @@ tugazeta.pl###sort_button,#koment_button
 tvokazje.pl##.call-popup-newslater, #phone-webcallback
 tygodnik-krapkowicki.info###tabsix
 tymbark.com###kwit_brandwidget_btn
+wakacje.pl##.rightClipboard, .rightSpeech
 wakai.pl###sod-drawer-handle
 wanika.pl###cloudBox
 wesolakraina.pl##.kontrast_tlo
@@ -719,6 +726,7 @@ mobilitynews.pl##.swiper-wrapper
 money.pl##.float.more-news
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 multikino.pl###qb
+multikurs.pl##.topbar-discount.row
 myedenred.pl##.overtop-banner__image
 natemat.pl###posts-progress
 nawspolnej.tvn.pl###nextItem
