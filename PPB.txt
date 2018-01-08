@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: Hdfju7a9WmftX4CuJdjdyw
+! Checksum: KO3Bc8hIMZ2w6udK51KW3Q
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 08 Jan 2018 12:18 UTC+01
-! Version: 201801081218
+! Last modified: 08 Jan 2018 13:29 UTC+01
+! Version: 201801081329
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 08 sty 2018, 12:18 UTC+01
+! Aktualizacja: pon, 08 sty 2018, 13:29 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -29,49 +29,6 @@ dstreet.pl###tws_s_0
 dziennik.pl##.hidden-xs.col-xs-off.hidden-sm.col-sm-off.tpl_static_html.tpl_std_module
 ekologia.pl##.bg-p
 komputronik.pl##.avia-post-next, .avia-post-prev
-!
-!
-pl###article_promo
-pl###aswift_0_expand
-pl###baner_rog
-pl###banner-side
-pl###cloud_delivery
-pl###ClPanel
-pl###coins-banner
-pl###content_banner
-pl###contactable
-pl###favouritesBar
-pl###feedback
-pl###flashcontent3
-pl###flyCart
-pl###flyHelp
-pl###get-loan-header-button
-pl###hurtownia-box
-pl###link_przewin
-pl###mobileAppsbadgeClose
-pl###multitab
-pl###news-bar
-pl###oglmetka
-pl###oipinionWidget
-pl###installment-dock-panel
-pl###plywak
-pl###plywak_close
-pl###przyklad6
-pl###SliderPrzycisk
-pl###slide_panel59
-pl###window
-pl###wyskakujaca
-pl###wysuwany_div_g
-pl###zajawka
-pl###zglos
-pl###zone-24
-pl##.hejhej.visible-md
-pl##.logo_float
-pl##.m-visible
-pl##.news-promo
-pl##.slideout-widget-handler
-pl##.switcher-button
-pl##.why-us-content
 !
 !
 ! Newslettery (nie popupy)
@@ -104,9 +61,11 @@ businesstraveller.pl##.widget:nth-of-type(2) > h4
 butyraj.pl##.hidden-phone.top_toplayer
 bylola.pl,planszostrefa.pl,militarialodz.pl###box_newsletter
 cgm.pl##.footerNewsletter
+cobi.pl##.block-DefaultSubskrypcja
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
+dobiegania.pl##.superMailing
 domodi.pl##.dm-footer-newsletter
 e-ciucholand.com###newsletter_block_left
 empik.com##.footerNewsletter__form-wrap
@@ -256,9 +215,11 @@ cosslodkiego.com.pl###tws_i_1
 d24h.pl###fancybox-overlay, #fancybox-wrap
 dany-meble.pl###myPopModal, .modal-backdrop
 diversesystem.com###dvrs-newsletter-popup-body
+dobiegania.pl###colorbox, #cboxOverlay
 domodi.pl##.dm-modal
 doubletreewarsaw.pl##.popout__container
 dowbit.pl##.mcwidget-overlay
+ekologia.pl##.parent-nlr
 eluban.pl###popup
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
 eporady24.pl##.zaczekaj
@@ -271,8 +232,8 @@ galeriaveneda.com.pl###popup
 gazetapraca.pl###overlayJS
 hafija.pl##.dgd_overlay, .dgd_stb_box
 hegos.eu##.popup, .popup-bg
-interia.pl##.error-page-layer
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
+interia.pl##.error-page-layer
 iperfumy.pl###pd-box-overlay, #pd-box-window, #pd-box-HideSelect
 jaslo4u.pl###popup
 katowice-airport.com###carwash-banner-c
@@ -450,6 +411,8 @@ hafija.pl##.bonfire-slideout-button, .bonfire-slideout-button-triangle-backgroun
 helios.pl##.openSuggestionFormButton
 hoteladler.com##.bookingfixedtop.book-online-button
 hubkolektyw.pl##.panel-boczny
+impel.pl###multitab_right > .multitab_box:nth-of-type(6)
+impel.pl,impelfm.pl###multitab_right > .multitab_box:nth-of-type(1)
 inter-kop.pl##.phone.text-uppercase.col-xs-12.col-md-4
 kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
 klonowypark.pl,misjonarska.com###right_info2
@@ -460,6 +423,7 @@ lodzkie.pl##.jj_sl_custom1, .jj_sl_rss, .jj_sl_custom2
 lubimyczytac.pl##.report-a-bug-container
 majsterkowo.pl##.feedback
 mbank.pl##.covered.edge-menu
+meteor-turystyka.pl##.feedback-button
 miedziowe.pl,elka.pl###showhidecart
 monedo.pl###satellite
 myphone.pl##.newsFixedBtn
@@ -468,11 +432,15 @@ nettg.pl##.side-panel
 nocowanie.pl##.btn--signup
 o.pl###codemanipulator-tools
 orange.pl###bugTrackTag, .payback-floating-sidebar__trigger
+otodom.pl###feedbackButton
 ozonee.pl###free_shiping_info
 partneragdrtv.com.pl###js-sis_menu
 pl###__ceneo-widgets
 pl###feedbackButton
+pl###mobileAppsbadge
+pl###oglmetka
 pl###oiOpinionWidget
+pl###SliderPrzycisk
 pl###widget-allegro
 pl##.feedback-button
 pl##.mraty-widget
@@ -499,6 +467,7 @@ stolicazdrowia.pl##.mashicon-mail
 stopklatka.pl##.platforms_adfloor
 swiatseriali.interia.pl##.recommend-flybar-button
 sympatia.onet.pl###iconsBar
+telekarma.pl###flyCart, #flyHelp
 telemedi.co##.sidebar-links
 topsolutions.pl###popup_contact
 tugazeta.pl###sort_button,#koment_button
@@ -539,7 +508,6 @@ dobrekupony.pl###to-top
 domodi.pl##.dm-go-up
 domzagadek.pl###scroll_strz
 electro.pl###go_top
-extraportfel.pl###toTop
 fasardi.com,pl.bab.la##.back-to-top
 forbes.pl##.slideToTop
 gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl,testergier.pl,koszalininfo.pl###scroll-up
@@ -580,7 +548,7 @@ myphone.pl##.mainArrowBackToTop
 nczas.com##.td-scroll-up
 neon24.pl###div_up_arrow
 neonet.pl,rankomat.pl##.arrow-up
-nowosci-mp3.eu,pozyczkaportal.pl,strzelecopolski.pl,3i-store.com,slaskiecentrumkomputerowe.pl###toTop
+nowosci-mp3.eu,pozyczkaportal.pl,strzelecopolski.pl,3i-store.com,slaskiecentrumkomputerowe.pl,extraportfel.pl###toTop
 nslowo.pl##.itemBackToTop
 okazik.pl###btn-scrollup
 okazje.eholiday.pl###bottom-newsletter
@@ -605,12 +573,14 @@ pl###go-to-top
 pl###gotop
 pl###goTop
 pl###jm-back-top
+pl###link_przewin
 pl###move-to-top
 pl###scroll-to-top
 pl###scroll-top
 pl###scroll-top-link
 pl###scrollToTop
 pl##.back-to-top
+pl##.back_to_top
 pl##.dogory
 pl##.fa-angle-up
 pl##.go-to-top
@@ -676,15 +646,18 @@ zyczenia-noworoczne.eu###back_top
 !
 ! Widgety
 4fun.tv##.app-popup
+agdrtv24.pl###baner_rog
 allegro.pl##.with-bottom-link.card.opbox-sheet
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
 artefakt.pl##[data-module="phone_popup"]
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 booking.com##.header-signin-prompt
+cdaction.pl##.topbar
 direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
 dobrymechanik.pl###mfind-fixed
+dziennik.pl##.switcher-button
 dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
 e-ciucholand.com##.extraBox
 e-saving.pl##.scroll
@@ -713,6 +686,7 @@ komputerswiat.pl###ks_breaking_newss
 konto.onet.pl###navright
 kresy.pl##.ls-popup
 kupbilet.pl##.slider-arrowMPass, .slider-arrow
+kuzniewski.pl###banner_left
 l24.lt###scr
 lideria.pl##.slidingbasket
 media2.pl###news-readmore, #news-suggest
@@ -732,10 +706,12 @@ newsweek.pl###nitro-block, .wrapper, #ARTICLE_STREAM_PATH
 nietylkopasta.pl###dbx_light, #upprev_box
 panoramafirm.pl##.container.pt-1.card.blog-box
 parenting.pl##.parenting-tv-latest
+pl###ClPanel
 pl###poza-szkieletem
 pl###sugester_widget
 pl###telemedicoWidget
 pl###upprev_box
+pl##.hejhej
 poczta.interia.pl###createaccount2
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 portalsamorzadowy.pl,portalspozywczy.pl###bottom_slider
