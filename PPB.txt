@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: nBGjLI0MM6aAw9txdltzzg
+! Checksum: Jy8b0ZuB4sFjkxJOeYD/Kw
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 10 Jan 2018 19:24 UTC+01
-! Version: 201801101924
+! Last modified: 12 Jan 2018 19:25 UTC+01
+! Version: 201801121925
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 10 sty 2018, 19:24 UTC+01
+! Aktualizacja: pią, 12 sty 2018, 19:25 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -49,6 +49,7 @@ businesstraveller.pl##.widget:nth-of-type(2) > h4
 butyraj.pl##.hidden-phone.top_toplayer
 bylola.pl,planszostrefa.pl,militarialodz.pl###box_newsletter
 cgm.pl##.footerNewsletter
+chinytolubie.pl###fm_form_1
 cobi.pl##.block-DefaultSubskrypcja
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
@@ -129,6 +130,7 @@ polskacanada.com##.footer-4.footer-widget:nth-of-type(2)
 polskieradio.com##.post-widget.widget:nth-of-type(4) > .post-widget.widget
 poznan.factory.pl##.pane-2.pane-custom.panel-pane
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
+proto.pl###block-entityform-block-newsletter
 pssite.com##.cell4.cell
 ptakmoda.com###newsletter_block_bottom
 quiosque.pl##.nl-container, .mini-banner
@@ -170,6 +172,7 @@ yieldbird.com##.hidden-widget.float-widget
 zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 zielonyogrodek.pl###newsletterBoxLeft, .acymailing_module_form
 znak.com.pl###footer-newsletter
+||forms2.fcc-online.pl/public/static/js/sitecall.js
 ||simple.erp-view.pl/images/newslettersimple.jpg
 ||telewizja-cyfrowa.com/wp-content/uploads/2016/01/newsletter.png
 ||upolujebooka.pl/_visual/_b/b_newsletter.jpg
@@ -208,11 +211,10 @@ dobiegania.pl###colorbox, #cboxOverlay
 domodi.pl##.dm-modal
 doubletreewarsaw.pl##.popout__container
 dowbit.pl##.mcwidget-overlay
-ekologia.pl##.parent-nlr
+ekologia.pl##.parent-nlr, .parent-promote
 eluban.pl###popup
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
-entelo.pl##.__b-popup1__.b-modal
-entelo.pl###bpopup107
+entelo.pl##.b-modal, .bpopup
 eporady24.pl##.zaczekaj
 eska.pl###_hj_survey_invite_container
 eswinoujscie.pl##.ulp-layer, .ulp-overlay
@@ -325,6 +327,7 @@ zszywka.pl###inv-request-popup
 ||nawozy.eu/js/jquery.lockscroll.min.js
 ||nowawrzesnia.pl/media/system/js/modal.js
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
+||proto.pl/popup_newsletter/settings
 ||rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js
 ||salesmanago.pl/dynamic/*/popups.js
@@ -397,7 +400,6 @@ elektroda.pl##.button_open
 empik.com##.scroll-to-top
 enea.pl##.fixed-form__trigger-button
 eurobank.pl###labelElements
-fotoblogia.pl##.btn-comments.btn
 godealla.pl##.feedback, #top-offers, .hand
 hafija.pl##.bonfire-slideout-button, .bonfire-slideout-button-triangle-background
 helios.pl##.openSuggestionFormButton
@@ -409,7 +411,7 @@ inter-kop.pl##.phone.text-uppercase.col-xs-12.col-md-4
 kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
 klonowypark.pl,misjonarska.com###right_info2
 konicaminolta.info.pl##.kontakt-slide
-komorkomania.pl,autokult.pl##.btn-comments
+komorkomania.pl,autokult.pl,fotoblogia.pl##.btn-comments
 ledfarmer.pl,artbud.pl,aze.com.pl##.modal-visible.modal, .mask
 lodzkie.pl##.jj_sl_custom1, .jj_sl_rss, .jj_sl_custom2
 lubimyczytac.pl##.report-a-bug-container
@@ -419,6 +421,8 @@ meteor-turystyka.pl##.feedback-button
 miedziowe.pl,elka.pl###showhidecart
 monedo.pl###satellite
 myphone.pl##.newsFixedBtn
+naukawpolsce.pap.pl###social > ul > .mail
+naukawpolsce.pap.pl###social > ul > .rss
 ncplus.pl###button-call, #button-lead
 nettg.pl##.side-panel
 nocowanie.pl##.btn--signup
@@ -493,7 +497,7 @@ blip.pl###totop
 blogspot.com##.scrollToTop
 centrumdruku3d.pl,cyfrowypolsatnews.pl,tugazeta.pl##.cd-top
 cud.rzeszow.pl##.bd-backtotop-1
-dany-meble.pl,medianarodowe.com,matfiz24.pl,wirtualnygarwolin.pl###gototop
+dany-meble.pl,medianarodowe.com,matfiz24.pl,wirtualnygarwolin.pl,entelo.pl###gototop
 decathlon.pl##a[href="#top"]
 diagnozainternetu.pl##.top
 dobrekupony.pl###to-top
@@ -573,6 +577,7 @@ pl###scroll-top-link
 pl###scrollToTop
 pl##.back-to-top
 pl##.back_to_top
+pl##.backToTop
 pl##.dogory
 pl##.fa-angle-up
 pl##.go-to-top
@@ -649,6 +654,7 @@ cdaction.pl##.topbar
 direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
 dobrymechanik.pl###mfind-fixed
+doradcasmaku.pl##.helper.side-widget
 dziennik.pl##.switcher-button
 dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
 e-ciucholand.com##.extraBox
@@ -674,6 +680,7 @@ hitobuwie.pl##.fixedBaners__container
 home.pl###bottom-box
 insomnia.pl##.ptw-articles.ptw-widget
 joemonster.org###mtv_main_swf.popup
+ki24.info##.hejhej
 komputerswiat.pl###ks_breaking_newss
 konto.onet.pl###navright
 kresy.pl##.ls-popup
@@ -766,6 +773,7 @@ tapeciarnia.pl###div_okienko_shoutbox_schowane
 ||chat.4finance.com^$third-party
 ||chat.freshdesk.com^$third-party,xmlhttprequest
 ||code.tidio.co^$third-party
+||cxel.fcc-online.pl/chat/widget.js
 ||czater.pl/assets/modules/chat/js/chat.js
 ||embed.tawk.to^$script,third-party
 ||helponclick.com^$third-party,script
