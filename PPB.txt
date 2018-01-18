@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: wMUTbwMVpp4EmgwCcKWUYA
+! Checksum: K3xlrvLva6Bzpq6h/w0jrA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 15 Jan 2018 11:41 UTC+01
-! Version: 201801151141
+! Last modified: 19 Jan 2018 00:50 UTC+01
+! Version: 201801190050
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 15 sty 2018, 11:41 UTC+01
+! Aktualizacja: pią, 19 sty 2018, 00:50 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -52,10 +52,12 @@ cgm.pl##.footerNewsletter
 chinytolubie.pl###fm_form_1
 cobi.pl##.block-DefaultSubskrypcja
 coccodrillo.eu###homeNewsletter, .newsletterWrap
+cryptodemy.pl##.optin-monster-api.widget.td_block_template_1
 d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
 dobiegania.pl##.superMailing
 domodi.pl##.dm-footer-newsletter
+drewno.pl###nl_sticky
 e-ciucholand.com###newsletter_block_left
 empik.com##.footerNewsletter__form-wrap
 erp-view.pl###top-mod
@@ -186,6 +188,7 @@ znak.com.pl###footer-newsletter
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 3i-store.com###exit--popup--container
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
+arimr.gov.pl###kiwi_popup_layer
 audioforte.com.pl##.christmas-popup
 avaro.pl###tln4_wrap
 bankobranie.blogspot.com###overlay
@@ -271,6 +274,7 @@ portel.pl###closeTL
 prettyone.pl##.modal-backdrop, .pwebbox-modal
 ravelo.pl###modalAlertMethodNL
 resortpro.ht-int.com##.newsletter-overall
+rms.pl##.sj-popup-container
 romantycznyweekend.eu###fancybox-overlay, #fancybox-wrap
 rooader.pl###nicePopupWrapper
 rynek-kolejowy.pl##.popupElement, #popupMain
@@ -598,6 +602,7 @@ pracuj.pl###scrollTop
 redcoon.pl##.scrollUp
 regionfan.pl##a[href="#top"]
 renee.pl##.scroll__top
+rms.pl###jsn-gotoplink
 sakolife.pl###powrot-do-gory
 scie24.pl###up
 sfinks.info###go_to_top
@@ -642,6 +647,7 @@ agdrtv24.pl###baner_rog
 allegro.pl##.with-bottom-link.card.opbox-sheet
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
+aprmedia.pl##.et_bloom_header_outer
 artefakt.pl##[data-module="phone_popup"]
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 booking.com##.header-signin-prompt
@@ -650,7 +656,7 @@ direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
 dobrymechanik.pl###mfind-fixed
 doradcasmaku.pl##.helper.side-widget
-dziennik.pl##.switcher-button
+dziennik.pl##.switcher-button, #nextArticleWidget
 dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
 e-ciucholand.com##.extraBox
 e-saving.pl##.scroll
@@ -698,6 +704,8 @@ nawspolnej.tvn.pl###nextItem
 nestbank.pl##.fixed-label
 newsweek.pl###nitro-block, .wrapper, #ARTICLE_STREAM_PATH
 nietylkopasta.pl###dbx_light, #upprev_box
+nocowanie.pl##.hidden-sm.hidden-xs.tc:nth-of-type(3)
+nocowanie.pl##.js-nav-prev-next, .sticky__element
 panoramafirm.pl##.container.pt-1.card.blog-box
 parenting.pl##.parenting-tv-latest
 pl###ClPanel
