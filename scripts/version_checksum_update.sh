@@ -1,5 +1,4 @@
 #!/bin/bash
-# Skrypt został zrobiony przez hawkeye116477
 
 for i in "$@"; do
     # Ustawienie polskiej strefy czasowej
@@ -23,7 +22,14 @@ for i in "$@"; do
     sciezka=$(dirname "$0")
     
     # Aktualizacja sumy kontrolnej
-    perl $sciezka/addChecksum.pl $i
+    # Założenie: kodowanie UTF-8 i styl końca linii Unix
+    # Usuwanie starej sumy kontrolnej i pustych linii
+    grep -v '! Checksum: ' $i | grep -v '^$' > $i.chk
+    # Pobieranie sumy kontrolnej... Binarny MD5 zakodowany w Base64
+    CHKSUM=`cat $i | openssl dgst -md5 -binary | openssl enc -base64 | cut -d "=" -f 1`
+    # Zamiana sumy kontrolnej-atrapy na prawdziwą
+    sed -i "/! Checksum: /c\! Checksum: $CHKSUM" $i
+    rm -r $i.chk
 
     # Przejście do katalogu, w którym znajduje się lokalne repozytorium git
     cd $sciezka/..
