@@ -25,9 +25,9 @@ for i in "$@"; do
     # Usuwanie starej sumy kontrolnej i pustych linii
     grep -v '! Checksum: ' $i | grep -v '^$' > $i.chk
     # Pobieranie sumy kontrolnej... Binarny MD5 zakodowany w Base64
-    CHKSUM=`cat $i | openssl dgst -md5 -binary | openssl enc -base64 | cut -d "=" -f 1`
-    # Zamiana sumy kontrolnej-atrapy na prawdziwą
-    sed -i "/! Checksum: /c\! Checksum: $CHKSUM" $i
+    suma_k=`cat $i.chk | openssl dgst -md5 -binary | openssl enc -base64 | cut -d "=" -f 1`
+    # Zamiana atrapy sumy kontrolnej na prawdziwą
+    sed -i "/! Checksum: /c\! Checksum: $suma_k" $i
     rm -r $i.chk
 
     # Przejście do katalogu, w którym znajduje się lokalne repozytorium git
