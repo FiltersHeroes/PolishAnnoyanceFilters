@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: hCRSqc9lvKr6X7KLKxrglw
+! Checksum: WjG6MBw82Z4jdF8TjPbKDA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 19 Jan 2018 21:12 UTC+01
-! Version: 201801192112
+! Last modified: 21 Jan 2018 22:52 UTC+01
+! Version: 201801212253
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 19 sty 2018, 21:12 UTC+01
+! Aktualizacja: nie, 21 sty 2018, 22:53 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -330,6 +330,7 @@ zszywka.pl###inv-request-popup
 ||multikurs.pl/Framework/Graphics/js/popup.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
 ||nowawrzesnia.pl/media/system/js/modal.js
+||phf-bosch.pl/kartki/kartki.js
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
 ||proto.pl/popup_newsletter/settings
 ||rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
@@ -371,7 +372,6 @@ pomponik.pl##.ppg__signin
 ||renee.pl/javascript/push_add.js
 ||salesmanago.pl/api/push/$xmlhttprequest
 ||savecart.pl/*/script.php
-||txm.api.sociaplus.com/views/push/js/sdk/insider-push-native-sdk.js
 ||wp.pl/*.webpush-desktop.chunk.js
 ||wp.pl/webpush/static/js/webpush.desktop.js
 ||wp.pl/webpush/static/js/webpush.js
@@ -572,6 +572,7 @@ pl###goTop
 pl###jm-back-top
 pl###link_przewin
 pl###move-to-top
+pl###return-to-top
 pl###scroll-to-top
 pl###scroll-top
 pl###scroll-top-link
@@ -796,3 +797,8 @@ tapeciarnia.pl###div_okienko_shoutbox_schowane
 !
 ! Wyjątki
 ms.gov.pl#@##scroll-top
+!
+!
+! Bugi Fanboy's Annoyance List
+@@||s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js$script,domain=kliknijwzdrowie.pl
+radiogra.pl#@##to-top
