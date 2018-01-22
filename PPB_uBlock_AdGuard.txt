@@ -1,16 +1,16 @@
-! Checksum: j83FJWaLDoBsNtHmBJ78JQ
+! Checksum: 3bjHrhjEvw7b/mIk+y3QEg
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 19 Jan 2018 11:44 UTC+01
-! Version: 201801191144
+! Last modified: 22 Jan 2018 22:49 UTC+01
+! Version: 201801222249
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 19 sty 2018, 11:44 UTC+01
+! Aktualizacja: pon, 22 sty 2018, 22:49 UTC+01
 !
 !
 ! Popupy
@@ -38,6 +38,8 @@ deezee.pl##html:style(overflow: visible!important;padding-right: 0px!important;)
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl###newsletter-modal
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
 domodi.pl##script:inject(set-constant.js, PWA_adbd, 2)
+ebroker.pl##.ngdialog-theme-popup-ebroker
+ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ekai.pl##.newsletter-popup
 ekai.pl##html > body:style(overflow: auto!important;)
 ergokantor.pl##.mfp-ready
