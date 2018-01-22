@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: WjG6MBw82Z4jdF8TjPbKDA
+! Checksum: UAmZH5B+IOQr6ub/JUBh1g
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 21 Jan 2018 22:52 UTC+01
-! Version: 201801212253
+! Last modified: 22 Jan 2018 22:49 UTC+01
+! Version: 201801222249
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nie, 21 sty 2018, 22:53 UTC+01
+! Aktualizacja: pon, 22 sty 2018, 22:49 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -52,13 +52,18 @@ cgm.pl##.footerNewsletter
 chinytolubie.pl###fm_form_1
 cobi.pl##.block-DefaultSubskrypcja
 coccodrillo.eu###homeNewsletter, .newsletterWrap
+cortland.pl##.letter
 cryptodemy.pl##.optin-monster-api.widget.td_block_template_1
 d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
+di.com.pl##.footcol:nth-of-type(5) > .footnag:nth-of-type(1)
+di.com.pl##.footcol:nth-of-type(5) > form
+di.com.pl##.footcol:nth-of-type(5) > p
 dobiegania.pl##.superMailing
 domodi.pl##.dm-footer-newsletter
 drewno.pl###nl_sticky
 e-ciucholand.com###newsletter_block_left
+ebroker.pl###ft_t_in
 empik.com##.footerNewsletter__form-wrap
 erp-view.pl###top-mod
 euro.com.pl###footer-shops > .column:nth-of-type(1)
@@ -78,6 +83,7 @@ kodyrabatowe.interia.pl###newsletter_footer
 kotkowicz.pl###wp-subscribe
 krakusik.pl##.mini-newsletter
 kupony.mydeal.pl###newsletter-foot
+lampy.pl###newsletterbox_1
 lideria.pl###box_newsletter_text_books
 majsterkowo.pl###text-9
 mango.pl###smSubscriptonBox
@@ -119,6 +125,7 @@ pl##.newsletter-box
 pl##.newsletter-container
 pl##.newsletter-subscribe
 pl##.newsletter_footer
+pl##.newsletterbox
 pl##.widget-newsletter
 pl##.widget_newsletterwidget
 pl##.widget_wysija
@@ -147,6 +154,7 @@ scooterkingz.com.pl##.newsletter_form
 sfinks.info##.t_align_r.m_xs_bottom_30.m_bottom_20.m_xs_top_0.m_top_40.col-sm-6.col-md-6.col-lg-6
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
 showroom.pl##.news-signup
+silesion.pl##.pageFooter__newsletter
 sklep.motor-land.com.pl###side_header_newsletter
 sklep.zawiszabydgoszcz.eu###newsletter_block_left
 slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
@@ -156,10 +164,12 @@ stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of
 subiektywnieofinansach.pl##.et_pb_cta_0.et_pb_text_align_center.et_pb_bg_layout_light.et_pb_module.et_pb_promos
 suwalki24.pl##.box:nth-of-type(5)
 swiatoze.pl##.widget_newsletterwidgetminimal
+tapenda.pl##a[href="/newsletter/"]
 telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 txm.pl##.b-footer_newsletter
 tygodnikprzeglad.pl###sidebar > .widget.widget-2
+urbancity.pl##.box2
 varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
 vivaldi.com###footer-signup
 wearmedicine.com##.newsletter, #nlThanks
@@ -302,6 +312,7 @@ tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
 wakacje.pl##.curtainFull, #newsletterLb
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
+willsoor.pl###newsletter_popup
 wispol.eu##.popup_news
 wwsi.edu.pl###adsdialog
 zblogowani.pl###more-posts-modal
@@ -419,6 +430,7 @@ ledfarmer.pl,artbud.pl,aze.com.pl##.modal-visible.modal, .mask
 lodzkie.pl##.jj_sl_custom1, .jj_sl_rss, .jj_sl_custom2
 lubimyczytac.pl##.report-a-bug-container
 majsterkowo.pl##.feedback
+materace-dla-ciebie.pl##.outlet-btn
 mbank.pl##.covered.edge-menu
 miedziowe.pl,elka.pl###showhidecart
 monedo.pl###satellite
@@ -456,6 +468,7 @@ reporters.pl##.wpsr-followbar
 scooterkingz.com.pl##.sqterybox
 serialomaniak.pl##.join-us
 siatka.org##.rss
+silesion.pl##.is_stuck.js-sticky.floatingSocials > ul > li:nth-of-type(5)
 sklep.milicon.eu###cartBox, #contactBox
 sklepbaterie.pl##.naskroty
 sluzby-ur.pl##.gotologowanie
@@ -471,6 +484,7 @@ tugazeta.pl###sort_button,#koment_button
 tvokazje.pl##.call-popup-newslater, #phone-webcallback
 tygodnik-krapkowicki.info###tabsix
 tymbark.com###kwit_brandwidget_btn
+urbancity.pl###helpBox
 wakacje.pl##.rightClipboard, .rightSpeech
 wakai.pl###sod-drawer-handle
 wanika.pl###cloudBox
@@ -521,6 +535,7 @@ jakzarabiaconline.blogspot.com###top
 jastrzabpost.pl##.up
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
+klasykami.pl###totopLink
 kliknijwzdrowie.pl,tasteandtravel.pl###scroll_totop
 kodiwpigulce.pl,niemarkowe.pl,gruparmf.pl###totop
 komputronik.pl##.rollup
@@ -623,7 +638,7 @@ vulcan.edu.pl###b_gora
 wec.com.pl##.go2top
 witchen.com##.btn-goto-top
 www.akademiareklamy.edu.pl###topscroller
-www.artefakt.pl###scrollUp
+www.artefakt.pl,unibep.pl###scrollUp
 www.chamskie.pl###widget-back-to-top
 www.homebook.pl##.is-active.js-go-top.go-top
 www.hoteladler.com###gotop
@@ -687,6 +702,7 @@ joemonster.org###mtv_main_swf.popup
 ki24.info##.hejhej
 komputerswiat.pl###ks_breaking_newss
 konto.onet.pl###navright
+krainaksiazek.pl###div_przechowalnia
 kresy.pl##.ls-popup
 kupbilet.pl##.slider-arrowMPass, .slider-arrow
 kuzniewski.pl###banner_left
@@ -775,6 +791,7 @@ pl##.fb-messengermessageus
 pl##.ggu-bot-snapped-launcher
 pl.000webhost.com##div[style="cursor: pointer;"]
 polskihurtworld.eu##.ggu-widget-launcher
+swiss.com.pl###lhc_status_container
 tapeciarnia.pl###div_okienko_shoutbox_schowane
 ||chat.4finance.com^$third-party
 ||chat.freshdesk.com^$third-party,xmlhttprequest
@@ -800,5 +817,4 @@ ms.gov.pl#@##scroll-top
 !
 !
 ! Bugi Fanboy's Annoyance List
-@@||s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js$script,domain=kliknijwzdrowie.pl
-radiogra.pl#@##to-top
+@@||s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js$domain=kliknijwzdrowie.pl
