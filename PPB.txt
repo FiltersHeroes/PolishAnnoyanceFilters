@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: UAmZH5B+IOQr6ub/JUBh1g
+! Checksum: +y+HU4msbd3JnNOvw88mSw
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 22 Jan 2018 22:49 UTC+01
-! Version: 201801222249
+! Last modified: 24 Jan 2018 22:50 UTC+01
+! Version: 201801242250
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 22 sty 2018, 22:49 UTC+01
+! Aktualizacja: śro, 24 sty 2018, 22:50 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -500,6 +500,7 @@ www.wp.pl###home-page-button
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
+80dni.pl###backtotop_wpv
 agrobex.pl,macademiangirl.com###top-link
 alget.pl##.top_button
 alltube.tv##.fa-angle-double-up
@@ -617,6 +618,7 @@ pomorski-bs.pl###s5_scrolltop_a
 pomyslnawszystko.pl##div[class^="go-top"]
 pozyczkomat-lodz.pl##.hm_go_top
 pracuj.pl###scrollTop
+pssite.com##.scrolltop
 redcoon.pl##.scrollUp
 regionfan.pl##a[href="#top"]
 renee.pl##.scroll__top
@@ -646,7 +648,6 @@ www.jakonatorobi.pl,www.autofakty.pl###ruby-back-top
 www.meczyki.pl,promocyjni.pl,mtb-xc.pl##.scroll-up
 www.mila.pl##.scroll-arrow
 www.nocowanie.pl##.is-sticky.btn--top.btn
-www.pssite.com##.scrolltop
 www.purepc.pl##.mtotop
 www.rp.pl##.arrow-to-top
 xlomza.pl##.uk-totop
