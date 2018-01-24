@@ -1,16 +1,16 @@
-! Checksum: 3bjHrhjEvw7b/mIk+y3QEg
+! Checksum: FiJwHapjk2Weu83z0uyRVQ
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 22 Jan 2018 22:49 UTC+01
-! Version: 201801222249
+! Last modified: 24 Jan 2018 22:51 UTC+01
+! Version: 201801242251
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 22 sty 2018, 22:49 UTC+01
+! Aktualizacja: śro, 24 sty 2018, 22:51 UTC+01
 !
 !
 ! Popupy
@@ -74,6 +74,7 @@ miastakobiet.pl###newsletterModal
 miastakobiet.pl##.modal-open:style(overflow: visible!important;)
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
+motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
 oleole.pl###modalContainer
 oleole.pl##html:style(overflow: auto!important;)
 partneragdrtv.com.pl##.mfp-bg
