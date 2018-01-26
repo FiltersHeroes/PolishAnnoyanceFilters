@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: +y+HU4msbd3JnNOvw88mSw
+! Checksum: ZnKrIzLwzTsuYX/t2EwYwg
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 24 Jan 2018 22:50 UTC+01
-! Version: 201801242250
+! Last modified: 26 Jan 2018 13:28 UTC+01
+! Version: 201801261328
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 24 sty 2018, 22:50 UTC+01
+! Aktualizacja: pią, 26 sty 2018, 13:28 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -44,6 +44,7 @@ bluecity.pl##.col-newsletter.col
 bluerank.pl##.shown.exit
 bodypak.pl###pts-newsletter
 booking.com##.newsletter_subscribe
+bosonamacie.pl##.newsletter-header, #widget-text-3
 brw.com.pl##.blok-newsletter
 businesstraveller.pl##.widget:nth-of-type(2) > h4
 butyraj.pl##.hidden-phone.top_toplayer
@@ -54,12 +55,16 @@ cobi.pl##.block-DefaultSubskrypcja
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 cortland.pl##.letter
 cryptodemy.pl##.optin-monster-api.widget.td_block_template_1
+cryptonews.pl###text-7
+ctpartners.pl##.ftresc2
 d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
+danko.pl##.nl-holder
 di.com.pl##.footcol:nth-of-type(5) > .footnag:nth-of-type(1)
 di.com.pl##.footcol:nth-of-type(5) > form
 di.com.pl##.footcol:nth-of-type(5) > p
 dobiegania.pl##.superMailing
+dobredomy.pl###footerForm
 domodi.pl##.dm-footer-newsletter
 drewno.pl###nl_sticky
 e-ciucholand.com###newsletter_block_left
@@ -69,6 +74,7 @@ erp-view.pl###top-mod
 euro.com.pl###footer-shops > .column:nth-of-type(1)
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 fokusfashion.com##form > input:nth-of-type(2)
+frenchtouchlabellevie.pl##.newsletter-mail
 galeria-warminska.pl##.nwsltr.box
 galeriabronowice.pl##.news
 gamedot.pl##.footer-top-container-item:nth-of-type(4)
@@ -77,7 +83,11 @@ hegos.eu##.newsletter
 historyk.eu###newsletter 
 hitobuwie.pl,www.missguided.com,www.smyk.com##.footer__newsletter
 hoteladler.com##.span4.moduletable:nth-of-type(3)
+hurtowniateleinformatyczna.pl##.rc-box-newsletter.box
+hurtowniateleinformatyczna.pl##ul:nth-of-type(3)
 influentiq.pl###text-14
+joannaceplin.pl##.nsl_glowna, .panel-row-style-for-6-3.panel-row-style.siteorigin-panels-stretch
+kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
 kariera.pl##.article-newsletter
 kodyrabatowe.interia.pl###newsletter_footer
 kotkowicz.pl###wp-subscribe
@@ -89,6 +99,7 @@ majsterkowo.pl###text-9
 mango.pl###smSubscriptonBox
 mediarun.com##.vc_row-has-fill
 merlin.pl##.b-footer__icons-list
+miastodzieci.pl##.pull-left > a[href="/zapisz"]
 mixmedia.pl##.b-footerNewsletter
 mojeokazje.com##.column-margin-.column_column.one-third.mcb-column.column
 morele.net##.col-md-9.col-sm-7 > .row > .col-md-6s
@@ -160,8 +171,10 @@ sklep.zawiszabydgoszcz.eu###newsletter_block_left
 slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
 smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
 sportslaski.pl##.containerright5
+sprawnymarketing.pl###post-newsletter
 stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of-type(3)
 subiektywnieofinansach.pl##.et_pb_cta_0.et_pb_text_align_center.et_pb_bg_layout_light.et_pb_module.et_pb_promos
+subiektywnieofinansach.pl##.et_pb_row_4.et_pb_row
 suwalki24.pl##.box:nth-of-type(5)
 swiatoze.pl##.widget_newsletterwidgetminimal
 tapenda.pl##a[href="/newsletter/"]
@@ -169,6 +182,7 @@ telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 txm.pl##.b-footer_newsletter
 tygodnikprzeglad.pl###sidebar > .widget.widget-2
+ulicaekologiczna.pl###newsletter_wrap, .sidebar.columns.large-5.small-15
 urbancity.pl##.box2
 varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
 vivaldi.com###footer-signup
@@ -191,12 +205,18 @@ znak.com.pl###footer-newsletter
 !
 ! 
 ! Popupy
+.facebooklikepopup.
 /axnewsletter.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
+/plugins/facebook-fanbox-popup
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
-/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=tygodnikprzeglad.pl|plportal.pl
+/wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans/
+/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl
+/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=tygodnikprzeglad.pl|plportal.pl|bobbyburger.pl
+/wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 3i-store.com###exit--popup--container
+80dni.pl##.spu-bg, .spu-box
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
 arimr.gov.pl###kiwi_popup_layer
 audioforte.com.pl##.christmas-popup
@@ -216,6 +236,7 @@ cdp.pl###footer-newsletter
 chrzypsko.pl###dhtml_popup
 colian.pl##.home-popup
 cosslodkiego.com.pl###tws_i_1
+czarymary.pl/NewsletterPopup
 d24h.pl###fancybox-overlay, #fancybox-wrap
 dany-meble.pl###myPopModal, .modal-backdrop
 dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
@@ -240,6 +261,7 @@ gazetapraca.pl###overlayJS
 hafija.pl##.dgd_overlay, .dgd_stb_box
 hegos.eu##.popup, .popup-bg
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
+instytutlogopedyczny.pl##.pytajnik
 interia.pl##.error-page-layer
 iperfumy.pl###pd-box-overlay, #pd-box-window, #pd-box-HideSelect
 jaslo4u.pl###popup
@@ -309,6 +331,7 @@ taniaksiazka.pl##.newsletter-popup
 travelist.pl###logregLead, #modalOverlay
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
+uzdrowisko-wieniec.pl###special_offer
 wakacje.pl##.curtainFull, #newsletterLb
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 wiadomoscihandlowe.pl###newsletter-popup-wrapper
@@ -321,6 +344,8 @@ zlotemysli.pl##._form_show._form-wrapper
 zszywka.pl###inv-request-popup
 ||a.mailmunch.co/app/$script,third-party
 ||businesstraveller.pl/wp-content/plugins/popups/public/assets/js/min/public-min.js
+||chamskie.pl/compress/popupFacebook.js
+||chamskie.pl/compress/popups/popupFacebook_normal.css
 ||cdn-widget.callpage.io/build/js/callpage.js
 ||daily.pl/modal/get/sticker-text
 ||doradcasmaku.pl/index/get-popup$xmlhttprequest
@@ -332,7 +357,10 @@ zszywka.pl###inv-request-popup
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||home-you.com/themes/hy/popup/jquery.popup.js
 ||ibuk.pl/public/desktop/js/contentJs/aapopup.js
+||inffuse-fbpopup.appspot.com/widget.html
 ||influentiq.pl/wp-content/plugins/layered-popups/js/script.min.js
+||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
+||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
 ||kulturawplot.pl/wp-content/plugins/exit-popup/js/exit-popup.js
 ||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js
 ||losyziemi.pl/?spu_action=spu_load&lang=
@@ -343,12 +371,14 @@ zszywka.pl###inv-request-popup
 ||nowawrzesnia.pl/media/system/js/modal.js
 ||phf-bosch.pl/kartki/kartki.js
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
+||prohibita.pl/addons/welcome/welcome.js
 ||proto.pl/popup_newsletter/settings
 ||rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js
 ||salesmanago.pl/dynamic/*/popups.js
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
 ||stressfree.pl/wp-content/plugins/popup-maker/assets/js/site.min.js
+||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
 ||widget.contactleader.pl^$third-party,script
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
@@ -370,6 +400,7 @@ pomponik.pl##.ppg__signin
 ||cloudfront.net/edrone_2_0.js
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=dobreprogramy.pl|fotka.com|player.pl
 ||mxapis.com^
+||o2.pl/static/1.js
 ||proxy.synerise.com/*/web-push/get-public-config
 ||push-ad.com^$script
 ||push.domodi.pl/pushweb/assets/init.js
@@ -384,6 +415,7 @@ pomponik.pl##.ppg__signin
 ||salesmanago.pl/api/push/$xmlhttprequest
 ||savecart.pl/*/script.php
 ||wp.pl/*.webpush-desktop.chunk.js
+||wp.pl/*.webpush-desktop.legacy.chunk.js
 ||wp.pl/webpush/static/js/webpush.desktop.js
 ||wp.pl/webpush/static/js/webpush.js
 ||youtubersi.pl/themes/default/js/notify.js
@@ -406,6 +438,7 @@ d24h.pl###zapytaj_kosmetyczke
 d24h.pl###zaufane_opinie_widget
 dany-meble.pl##body > .hidden-sm.hidden-xs
 dbpolska.net,ampolska.net###panel
+dobredomy.pl##.right.sidemenu
 domodi.pl##.dm-sticky-buttons
 echodnia.eu###toolbar
 eglobalcentral.pl###hs-beacon
@@ -470,6 +503,7 @@ serialomaniak.pl##.join-us
 siatka.org##.rss
 silesion.pl##.is_stuck.js-sticky.floatingSocials > ul > li:nth-of-type(5)
 sklep.milicon.eu###cartBox, #contactBox
+sklep.wodna-kraina.pl###widget_shop4
 sklepbaterie.pl##.naskroty
 sluzby-ur.pl##.gotologowanie
 sprzedajemy.pl###openUserSuggestionWindowBtn
@@ -516,13 +550,13 @@ cud.rzeszow.pl##.bd-backtotop-1
 dany-meble.pl,medianarodowe.com,matfiz24.pl,wirtualnygarwolin.pl,entelo.pl###gototop
 decathlon.pl##a[href="#top"]
 diagnozainternetu.pl##.top
-dobrekupony.pl###to-top
+dobrekupony.pl,bobbyburger.pl###to-top
 domodi.pl##.dm-go-up
 domzagadek.pl###scroll_strz
 electro.pl###go_top
 fasardi.com,pl.bab.la##.back-to-top
 forbes.pl##.slideToTop
-gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl,testergier.pl,koszalininfo.pl###scroll-up
+gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl,testergier.pl,koszalininfo.pl,banitamaxx.pl###scroll-up
 gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
 getinbank.pl###scroll_top
 gizchina.com.pl##.vw-scroll-to-top
@@ -530,6 +564,8 @@ gniezno24.com##.g24-topbutton
 gorzow.com###dogory
 gosc.pl##.GoToTop
 groupon.pl###ls-back-to-top
+gsbk.pl##.scroll-link
+helloangielski.pl###topcontrol
 historiasportu.info##.et_pb_scroll_top
 iperfumy.pl##.btn-scroll-top
 jakzarabiaconline.blogspot.com###top
@@ -544,6 +580,7 @@ kulturawplot.pl##.infinite-back-top
 kwestiasmaku.com##.do_gory
 lamoda.pl##.js-return-to-top
 lechia.net###gkBackToTop
+loktech.com.pl###toTop
 lolmania.pl,polskaracja.com,viralz.pl##.g1-back-to-top
 lp.travelist.pl###returnToTopButton
 manjaro.pl##.generate-back-to-top
@@ -554,7 +591,7 @@ meizupolska.pl##.toup
 mojanorwegia.pl###goUp
 morele.net###back_to_top
 mosquito-sklep.pl###ui-to-top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl,mobbingwpracy.com,eglobalcentral.pl##.scrollup
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl,mobbingwpracy.com,eglobalcentral.pl,joannaceplin.pl##.scrollup
 movieway.pl###tc-footer-btt-wrapper
 myjki.com###scrollTop
 myphone.pl##.mainArrowBackToTop
@@ -640,7 +677,7 @@ vulcan.edu.pl###b_gora
 wec.com.pl##.go2top
 witchen.com##.btn-goto-top
 www.akademiareklamy.edu.pl###topscroller
-www.artefakt.pl,unibep.pl###scrollUp
+www.artefakt.pl,unibep.pl,ulicaekologiczna.pl###scrollUp
 www.chamskie.pl###widget-back-to-top
 www.homebook.pl##.is-active.js-go-top.go-top
 www.hoteladler.com###gotop
@@ -658,6 +695,10 @@ zyczenia-noworoczne.eu###back_top
 ||joemonster.org/js/jquery.scrollUp.min.js
 ||tapeciarnia.pl/img/do_gory.png
 ||turek.net.pl/js/default/scroll_to_top.js
+!
+!
+! Tła zawierające autoreklamy
+czarymary.pl###checkWidthFullMain1
 !
 !
 ! Widgety
@@ -699,6 +740,7 @@ hbo.pl##.ribbon
 hitobuwie.pl##.fixedBaners__container
 home.pl###bottom-box
 insomnia.pl##.ptw-articles.ptw-widget
+jednoslad.pl##.popnav, .bottom-reached
 joemonster.org###mtv_main_swf.popup
 ki24.info##.hejhej
 komputerswiat.pl###ks_breaking_newss
@@ -750,10 +792,12 @@ spidersweb.pl##.havetoread
 sprzedajemy.pl##.newest_offers, .offerDetailsRightBlueBox
 stopcafe.pl##.app-widget
 suwalki24.pl###sideCard
+swiat-laptopow.pl###superOfferCallUs
 targsmaku.pl##.active.page-bottom-bar
 telemedi.co###notifications-pop
 tube.ad##.nav
 uroda.swiatkobiety.pl##.articleObjectSeeAlso
+uzdrowisko-wieniec.pl##.sfl-widget--ribbon, .hidden-xs
 vitay.pl###serviceRatingBox
 winiary.pl###kwit_brandwidget_btn
 wirtualnemedia.pl###swim_box
@@ -764,6 +808,7 @@ yoy.tv###notice
 zdrowie.gazeta.pl###bottom_wrap
 zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 ||app.sugester.pl/tpbocian/widget.js
+||helloangielski.pl/rozmowki/wp-content/plugins/icegram/assets/js/main.min.js
 ||images.fm.tuba.pl/tuba3/_js/plugin.min.js$domain=polskabiega.sport.pl|junior.sport.pl
 ||ssl.ceneo.pl/shops/sw.js$third-party
 ||ssl.ceneo.pl/shops/v3/script.js$third-party
@@ -799,6 +844,7 @@ tapeciarnia.pl###div_okienko_shoutbox_schowane
 ||code.tidio.co^$third-party
 ||cxel.fcc-online.pl/chat/widget.js
 ||czater.pl/assets/modules/chat/js/chat.js
+||ebok.kierus.com.pl/scripts/button.php
 ||embed.tawk.to^$script,third-party
 ||helponclick.com^$third-party,script
 ||livesupport.pl/chat/createBottom*.js
