@@ -1,16 +1,16 @@
-! Checksum: LIWka95tm+YxElF0oYs2+Q
+! Checksum: jt2MhhkgbZ21mh+J8GZwZQ
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 27 Jan 2018 14:36 UTC+01
-! Version: 201801271436
+! Last modified: 27 Jan 2018 18:21 UTC+01
+! Version: 201801271821
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 27 sty 2018, 14:36 UTC+01
+! Aktualizacja: sob, 27 sty 2018, 18:21 UTC+01
 !
 !
 ! Popupy
@@ -52,14 +52,10 @@ fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
 !
 !+ PLATFORM(ext_ublock, ext_ff, ext_edge)
-galeriabronowice.pl##html.fancybox-lock > body:style(overflow: auto !important;)
-!+ PLATFORM(ext_ublock, ext_ff, ext_edge)
 galeriabronowice.pl##html.fancybox-lock:style(overflow: auto !important;)
 !+ PLATFORM(ext_ublock, ext_ff, ext_edge)
 galeriabronowice.pl##html.fancybox-margin:style(margin-right: 0px !important;)
 !
-!+ NOT_PLATFORM(ext_ublock, ext_ff, ext_edge)
-galeriabronowice.pl#$#html.fancybox-lock:has(>body) > body { overflow: auto !important; }
 !+ NOT_PLATFORM(ext_ublock, ext_ff, ext_edge)
 galeriabronowice.pl#$#html.fancybox-lock:has(>body) { overflow: auto !important; }
 !+ NOT_PLATFORM(ext_ublock, ext_ff, ext_edge)
@@ -114,8 +110,8 @@ smaker.pl###overlay, #popup
 !+ PLATFORM(ext_ublock)
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
 !
-! Reguła tylko dla AdGuarda
-smaker.pl##body.scrollingDisabled:style(overflow: visible !important;)
+!+ NOT_PLATFORM(ext_ublock)
+smaker.pl#$#body.scrollingDisabled { overflow: visible !important; }
 !
 spidersweb.pl##.mfp-bg
 spidersweb.pl##.mfp-ready:has(.popoup-content)
