@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: ZnKrIzLwzTsuYX/t2EwYwg
+! Checksum: oTmFEQoU3XvWXW5Mtxy0Zg
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 26 Jan 2018 13:28 UTC+01
-! Version: 201801261328
+! Last modified: 27 Jan 2018 14:35 UTC+01
+! Version: 201801271435
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 26 sty 2018, 13:28 UTC+01
+! Aktualizacja: sob, 27 sty 2018, 14:35 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -86,6 +86,7 @@ hoteladler.com##.span4.moduletable:nth-of-type(3)
 hurtowniateleinformatyczna.pl##.rc-box-newsletter.box
 hurtowniateleinformatyczna.pl##ul:nth-of-type(3)
 influentiq.pl###text-14
+infogmina.com##.aside-articles-button
 joannaceplin.pl##.nsl_glowna, .panel-row-style-for-6-3.panel-row-style.siteorigin-panels-stretch
 kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
 kariera.pl##.article-newsletter
@@ -110,7 +111,9 @@ obserwatorfinansowy.pl###newsletterForm
 ogloszenia24.info###newsletter_section
 okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
 okazje.eholiday.pl##.newsletter-link
+onebid.pl##.leftmainmenu.hidden-sm.hidden-xs.col-lg-3.col-md-3.col-xs-12 > .hidden-xs.hidden-sm
 orange.pl###newsletterSkipLink
+pch24.pl##.NewsletterBox
 picodi.com##.newsletterContainer
 pl###box-newsletter
 pl###footer_newsletter
@@ -183,6 +186,7 @@ telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 txm.pl##.b-footer_newsletter
 tygodnikprzeglad.pl###sidebar > .widget.widget-2
 ulicaekologiczna.pl###newsletter_wrap, .sidebar.columns.large-5.small-15
+unileverfoodsolutions.pl##.newsletter-signup
 urbancity.pl##.box2
 varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
 vivaldi.com###footer-signup
@@ -210,7 +214,9 @@ znak.com.pl###footer-newsletter
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /plugins/facebook-fanbox-popup
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
-/wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans/
+/wp-content/plugins/boxzilla/assets/js/script.min.js$domain=gdanskstrefa.com|ciekawe.org
+/wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
+/wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl
 /wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=tygodnikprzeglad.pl|plportal.pl|bobbyburger.pl
 /wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
@@ -258,8 +264,10 @@ funtech.pl##.dylematy
 galeria-kaskada.pl###modalNewsletter
 galeriaveneda.com.pl###popup
 gazetapraca.pl###overlayJS
+godealla.pl###coupon-groupon, #coupon-groupon-overlay
 hafija.pl##.dgd_overlay, .dgd_stb_box
 hegos.eu##.popup, .popup-bg
+informacjenews.pl##.popmake
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
 instytutlogopedyczny.pl##.pytajnik
 interia.pl##.error-page-layer
@@ -270,6 +278,7 @@ kombo.krakow.pl###divGoTop2Mob
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
 komorkomania.pl###exit-intent-modal
+kuchniawedwoje.pl,black-friday.pl,zatrzymujacczas.pl,e-przepisykulinarne.pl,funfashion.pl###ffbp, #ffbp-bg
 kupbuty.com###tws_i_1
 kupbuty.com###topLayerBackDrop
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
@@ -286,6 +295,8 @@ ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 nocowanie.pl##.fancybox-overlay-fixed.fancybox-overlay, .fancybox-type-html
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
+nowosci-mp3.eu###pop-slap, .bg-pop-over
+nportal.no###fb-overlay
 okmoneta.pl###popupEmailPhone
 ono24.info##.bts-popup
 opensubtitles.org###fadeSub, #lightSub
@@ -295,11 +306,19 @@ otmuchow.pl##script ~ #cboxOverlay
 otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 ozonee.pl###tln2_wrap, #twsshadow2_bg
 papilot.pl###keys-info-bg
+pch24.pl##.popupWesp, .popupWespImgContainer
 picodi.com##.special-modal, .modal-backdrop
 pl###esns_background_layer
+pl###facebook-popup
+pl###fb-fan-pop
+pl###fb-fan-pop-background
+pl###fb_like_pop
+pl###like_popup
 pl###logregLead
 pl###mail_zapisz
+pl###popup-social-media
 pl###topLayerBackDrop
+pl##.facebook-popup
 player.pl##.__ipPerunElement
 poczta.int.pl##.maximized-wrapper
 pol-nor.com###boxpopup, #overlay, #popforfirma
@@ -323,11 +342,11 @@ sjp.pwn.pl,slowniki.pwn.pl###floater
 sklep.mieloch.pl###nicePopupWrapper
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
 sportbazar.pl###cart_tt, #cart_tt_bg
-subiektywnieofinansach.pl##.et_bloom_popup
 swiatdronow.cupsell.pl###shop_newsletter, #simplemodal-overlay
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 szybka-moneta.pl###moneta_popup
 taniaksiazka.pl##.newsletter-popup
+telewizja-cyfrowa.com##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 travelist.pl###logregLead, #modalOverlay
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
@@ -353,7 +372,6 @@ zszywka.pl###inv-request-popup
 ||gazetagazeta.com/wp-content/plugins/popupally/resource/frontend/popup.min.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/js/popups.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
-||gdanskstrefa.com/wp-content/plugins/boxzilla/assets/js/script.min.js
 ||gminamoszczenica.eu/media/system/js/modal.js
 ||home-you.com/themes/hy/popup/jquery.popup.js
 ||ibuk.pl/public/desktop/js/contentJs/aapopup.js
@@ -378,6 +396,7 @@ zszywka.pl###inv-request-popup
 ||salesmanago.pl/dynamic/*/popups.js
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
 ||stressfree.pl/wp-content/plugins/popup-maker/assets/js/site.min.js
+||subiektywnieofinansach.pl/wp-content/plugins/bloom/js/custom.js
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
 ||widget.contactleader.pl^$third-party,script
@@ -399,6 +418,7 @@ pomponik.pl##.ppg__signin
 ||cdn.sendpulse.com$script,third-party
 ||cloudfront.net/edrone_2_0.js
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=dobreprogramy.pl|fotka.com|player.pl
+||kosmicznapropaganda.pl/OneSignalSDK.js
 ||mxapis.com^
 ||o2.pl/static/1.js
 ||proxy.synerise.com/*/web-push/get-public-config
@@ -429,7 +449,7 @@ amracing.pl##.sale-contact-box
 asport.pl##.hit-tygodnia
 audioforte.com.pl##.floating-menu
 bank-wbs.pl###wrapperSectionStickyIcon
-bankobranie.blogspot.com###sideSocial
+bankobranie.blogspot.com##.social > li:nth-child(n+5)
 biznesalert.pl##.toolbar
 bylola.pl,pakolorente.com,###ri-widget
 chrzypsko.pl##.biegacz
@@ -557,7 +577,7 @@ electro.pl###go_top
 fasardi.com,pl.bab.la##.back-to-top
 forbes.pl##.slideToTop
 gazetatrybunalska.pl,www.marihuana.info.pl,chwileczka.pl,mieszkaniectargowka.pl,testergier.pl,koszalininfo.pl,banitamaxx.pl###scroll-up
-gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl###go-top
+gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl,bezpiecznapodroz.org###go-top
 getinbank.pl###scroll_top
 gizchina.com.pl##.vw-scroll-to-top
 gniezno24.com##.g24-topbutton
@@ -567,6 +587,7 @@ groupon.pl###ls-back-to-top
 gsbk.pl##.scroll-link
 helloangielski.pl###topcontrol
 historiasportu.info##.et_pb_scroll_top
+infogmina.com##.goup-container
 iperfumy.pl##.btn-scroll-top
 jakzarabiaconline.blogspot.com###top
 jastrzabpost.pl##.up
@@ -785,6 +806,7 @@ rankomat.pl##.searching-cheap-oc
 reporters.pl##.boxzilla-najczesciej-czytacie
 salon24.pl##.article-bookstore
 selkar.pl##.my-open.side-banner
+shareinfo.pl###install-button
 sklep-muzyczny.com.pl##.widgets
 sklep-rolnicze.eu###oiTab
 soton24.pl,twojezaglebie.pl##.td-more-articles-box
