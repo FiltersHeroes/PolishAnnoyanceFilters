@@ -1,16 +1,16 @@
-! Checksum: T7uLnhmAH3dV1aza4NssDw
+! Checksum: LIWka95tm+YxElF0oYs2+Q
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 26 Jan 2018 13:28 UTC+01
-! Version: 201801261328
+! Last modified: 27 Jan 2018 14:36 UTC+01
+! Version: 201801271436
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 26 sty 2018, 13:28 UTC+01
+! Aktualizacja: sob, 27 sty 2018, 14:36 UTC+01
 !
 !
 ! Popupy
@@ -50,10 +50,21 @@ fpiec.pl##.full-screen-overlay
 fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
 fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 galeriabronowice.pl##.fancybox-overlay-fixed.fancybox-overlay
-galeriabronowice.pl##html > body:style(overflow: auto!important;)
-galeriabronowice.pl##html.fancybox-lock > body:style(overflow: auto!important;)
-galeriabronowice.pl##html.fancybox-lock:style(overflow: auto!important;)
-galeriabronowice.pl##html.fancybox-margin:style(margin-right: 0px!important;)
+!
+!+ PLATFORM(ext_ublock, ext_ff, ext_edge)
+galeriabronowice.pl##html.fancybox-lock > body:style(overflow: auto !important;)
+!+ PLATFORM(ext_ublock, ext_ff, ext_edge)
+galeriabronowice.pl##html.fancybox-lock:style(overflow: auto !important;)
+!+ PLATFORM(ext_ublock, ext_ff, ext_edge)
+galeriabronowice.pl##html.fancybox-margin:style(margin-right: 0px !important;)
+!
+!+ NOT_PLATFORM(ext_ublock, ext_ff, ext_edge)
+galeriabronowice.pl#$#html.fancybox-lock:has(>body) > body { overflow: auto !important; }
+!+ NOT_PLATFORM(ext_ublock, ext_ff, ext_edge)
+galeriabronowice.pl#$#html.fancybox-lock:has(>body) { overflow: auto !important; }
+!+ NOT_PLATFORM(ext_ublock, ext_ff, ext_edge)
+galeriabronowice.pl#$#html.fancybox-margin:has(>body) { margin-right: 0px !important; )
+!
 habys.pl###cp-widget, .fancybox-overlay-fixed
 habys.pl##html > body:style(overflow: visible!important;)
 habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
@@ -99,7 +110,13 @@ rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!im
 selkar.pl,sklepkamil.pl##.modal-open:style(overflow: visible!important;)
 selkar.pl,sklepkamil.pl##.newsletter-modal, .modal-backdrop
 smaker.pl###overlay, #popup
-smaker.pl##html > body.scrollingDisabled:style(overflow:visible!important;)
+!
+!+ PLATFORM(ext_ublock)
+smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
+!
+! Reguła tylko dla AdGuarda
+smaker.pl##body.scrollingDisabled:style(overflow: visible !important;)
+!
 spidersweb.pl##.mfp-bg
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 spidersweb.pl##html:style(overflow: visible !important; margin-right: 0px !important;)
