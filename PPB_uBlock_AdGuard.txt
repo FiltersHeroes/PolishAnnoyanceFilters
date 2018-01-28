@@ -1,16 +1,16 @@
-! Checksum: jt2MhhkgbZ21mh+J8GZwZQ
+! Checksum: GEBx9kaVROiBPtXFfwlSqw
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 27 Jan 2018 18:21 UTC+01
-! Version: 201801271821
+! Last modified: 28 Jan 2018 23:22 UTC+01
+! Version: 201801282322
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 27 sty 2018, 18:21 UTC+01
+! Aktualizacja: nie, 28 sty 2018, 23:22 UTC+01
 !
 !
 ! Popupy
@@ -111,7 +111,7 @@ smaker.pl###overlay, #popup
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
 !
 !+ NOT_PLATFORM(ext_ublock)
-smaker.pl#$#body.scrollingDisabled { overflow: visible !important; }
+!smaker.pl#$#body.scrollingDisabled { overflow: visible !important; }
 !
 spidersweb.pl##.mfp-bg
 spidersweb.pl##.mfp-ready:has(.popoup-content)
@@ -146,6 +146,8 @@ www.ozog.pl###homeModal
 www.ozog.pl##body:style(overflow: auto!important;)
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
+zaufanekliniki.pl###modalMain, .modal-backdrop
+zaufanekliniki.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important)
 !
 !
 ! Powiadomienia Push
@@ -153,6 +155,7 @@ meczyki.pl##script:inject(abort-on-property-read.js, Notification.requestPermiss
 !
 !
 ! Przyciski
+bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
 !
 !
