@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: vtrM3tlCqd3VKolIBAcs2g
+! Checksum: CSaIuuCSUxnt1GpYeq68oA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 31 Jan 2018 13:25 UTC+01
-! Version: 201801311325
+! Last modified: 31 Jan 2018 16:34 UTC+01
+! Version: 201801311634
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 31 sty 2018, 13:25 UTC+01
+! Aktualizacja: śro, 31 sty 2018, 16:34 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -127,6 +127,7 @@ okazje.eholiday.pl##.newsletter-link
 onebid.pl##.leftmainmenu.hidden-sm.hidden-xs.col-lg-3.col-md-3.col-xs-12 > .hidden-xs.hidden-sm
 orange.pl###newsletterSkipLink
 pasja-informatyki.pl##.widget_1
+pcaction.pl##.CalyBox:nth-of-type(4)
 pcomp3000.pl###LewaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
 polishexpress.co.uk##.ng-scope.peSection--news
 pch24.pl##.NewsletterBox
@@ -165,6 +166,8 @@ pl##.widget_wysija
 pol-nor.com##.formk
 pol-nor.com##.mtz > form
 polemi.co.uk###dropin
+polnox.pl##ul:nth-of-type(3)
+polokomputery.pl###mailing
 polska.travel##.fixed-elements
 polskacanada.com##.boxzilla-zaproszenie, #alo_easymail_widget_form
 polskacanada.com##.footer-4.footer-widget:nth-of-type(2)
@@ -321,6 +324,7 @@ mysize.com.pl###popup_box, #overlay
 nawozy.eu##.newsletterPopup
 ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
+netlandcomputers.pl###cboxOverlay, #colorbox
 nocowanie.pl##.fancybox-overlay-fixed.fancybox-overlay, .fancybox-type-html
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowosci-mp3.eu###pop-slap, .bg-pop-over
@@ -355,6 +359,7 @@ pol-nor.com###boxpopup, #overlay, #popforfirma
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 portel.pl###closeTL
 prettyone.pl##.modal-backdrop, .pwebbox-modal
+przetargi.egospodarka.pl###js_popup_przetargi
 ravelo.pl###modalAlertMethodNL
 resortpro.ht-int.com##.newsletter-overall
 rms.pl##.sj-popup-container
@@ -590,6 +595,7 @@ www.wp.pl###home-page-button
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
 80dni.pl###backtotop_wpv
 agrobex.pl,macademiangirl.com###top-link
+akma.pl###scroll_to_top
 alget.pl##.top_button
 alltube.tv##.fa-angle-double-up
 ams.com.pl###back2top
@@ -600,6 +606,7 @@ avast.com###slide-top
 blogspot.com##.scrollToTop
 centrumdruku3d.pl,cyfrowypolsatnews.pl,tugazeta.pl##.cd-top
 comel-it.com##.g-totop
+ctb.com.pl###tc-footer-btt-wrapper
 cud.rzeszow.pl##.bd-backtotop-1
 dany-meble.pl,medianarodowe.com,matfiz24.pl,wirtualnygarwolin.pl,entelo.pl###gototop
 decathlon.pl##a[href="#top"]
@@ -646,7 +653,7 @@ meizupolska.pl##.toup
 mojanorwegia.pl###goUp
 morele.net###back_to_top
 mosquito-sklep.pl###ui-to-top
-motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl,mobbingwpracy.com,eglobalcentral.pl,joannaceplin.pl,sztab.org##.scrollup
+motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl,mobbingwpracy.com,eglobalcentral.pl,joannaceplin.pl,sztab.org,font2.pl##.scrollup
 movieway.pl###tc-footer-btt-wrapper
 mpolski.pl##.arrow
 myjki.com###scrollTop
@@ -691,6 +698,7 @@ pl##.back-to-top
 pl##.back_to_top
 pl##.backToTop
 pl##.dogory
+pl##.et_pb_scroll_top
 pl##.fa-angle-up
 pl##.go-to-top
 pl##.mh-back-to-top
@@ -768,6 +776,7 @@ allegro.pl##.with-bottom-link.card.opbox-sheet
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
 aprmedia.pl##.et_bloom_header_outer
+apsdata.pl###slide_box
 artefakt.pl##[data-module="phone_popup"]
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bitland-b2c.platforma.ab.pl###rightBoxes
@@ -798,7 +807,7 @@ gazetapraca.pl##.js-offer-suggested-offer-btn.next-offer-box
 gazetaprawna.pl###nextArticleWidget
 getinbank.pl##.quickMenuRow.row
 goral.info.pl##.showup.btn.contact-button
-guzik.konin.pl##.fab-action-button
+guzik.konin.pl,cebit.pl##.fab
 hbo.pl##.ribbon
 hitobuwie.pl##.fixedBaners__container
 home.pl###bottom-box
@@ -903,6 +912,7 @@ d24h.pl###chat_container
 e-prawnik.pl##.o-window.windowTop
 e-saving.pl###contact
 ebeactive.pl###iw-tab-label
+etcomputers.pl##a[href*="widget.gg.pl"]
 fantasyliga.wp.pl##.show-chat
 kawaly.tja.pl###div_okienko_shoutbox_schowane
 mango.pl###chat-toggle
@@ -924,6 +934,8 @@ tapeciarnia.pl###div_okienko_shoutbox_schowane
 ||helponclick.com^$third-party,script
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
+||pcaction.pl/inne/allegro_komentarze.php
+||pcaction.pl/szablony/standardowy.rwd/obrazki/zakladki/allegro.png
 ||salesmanago.pl/static/chunk/chat.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
