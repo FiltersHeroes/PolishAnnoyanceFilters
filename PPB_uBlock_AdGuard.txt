@@ -1,16 +1,16 @@
-! Checksum: GEBx9kaVROiBPtXFfwlSqw
+! Checksum: Z7AiW6fLRJsFsfvGti44gA
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 28 Jan 2018 23:22 UTC+01
-! Version: 201801282322
+! Last modified: 31 Jan 2018 16:34 UTC+01
+! Version: 201801311634
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nie, 28 sty 2018, 23:22 UTC+01
+! Aktualizacja: śro, 31 sty 2018, 16:34 UTC+01
 !
 !
 ! Popupy
@@ -31,6 +31,8 @@ biznesalert.pl##html:style(overflow: visible!important; margin-right: 0px!import
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
 byinsomnia.com###modal-newsletter, remodal-overlay, .remodal-wrapper
 byinsomnia.com##.remodal-is-locked:style(overflow: visible!important;)
+cashbackworld.com###modal-cbw-intro-pl, .modal-backdrop
+cashbackworld.com##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 comperia.pl###modal_woman, .modal-backdrop
 comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
 deezee.pl##.mfp-ready
