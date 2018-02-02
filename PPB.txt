@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: y+pbQlOa7Ak0/xj6fM4lEA
+! Checksum: 6NPviS3G4Ze831CK0bVZsw
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 02 Feb 2018 11:03 UTC+01
-! Version: 201802021103
+! Last modified: 02 Feb 2018 11:30 UTC+01
+! Version: 201802021130
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 02 lut 2018, 11:03 UTC+01
+! Aktualizacja: pią, 02 lut 2018, 11:30 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -76,6 +76,8 @@ drewno.pl###nl_sticky
 e-ciucholand.com###newsletter_block_left
 ebroker.pl###ft_t_in
 egospodarka.pl##.ego-newsletter
+ekomercyjnie.pl##.clearfix.main-menu > li:nth-of-type(1)
+ekomercyjnie.pl##.home-newsletter, .blog-newsletter, #bottom-newsletter
 empik.com##.footerNewsletter__form-wrap
 erp-view.pl###top-mod
 euro.com.pl###footer-shops > .column:nth-of-type(1)
@@ -102,8 +104,9 @@ jg.com.pl###footer > .container
 joannaceplin.pl##.nsl_glowna, .panel-row-style-for-6-3.panel-row-style.siteorigin-panels-stretch
 kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
 kariera.pl##.article-newsletter
+kim.elblag.pl##p > table > tbody > tr > td:nth-of-type(2)
 km-net.pl###wysuwane
-km-net.pl##a[href=\"/kontakt\"]
+km-net.pl##a[href="kontakt"]
 komp.tech##.stoka_newsletter
 kotkowicz.pl###wp-subscribe
 krakusik.pl##.mini-newsletter
@@ -113,12 +116,12 @@ lideria.pl###box_newsletter_text_books
 majsterkowo.pl###text-9
 mango.pl###smSubscriptonBox
 mediaarena.pl###fx-newsletter-freshmail
-mediamarkt.pl##a[href^=\"https://mediamarkt.pl/newsletter\"]
+mediamarkt.pl##a[href^="https://mediamarkt.pl/newsletter"]
 mediamarkt.pl,saturn.pl##.m-newsletterBox
 mediarun.com##.vc_row-has-fill
 meritum.gda.pl##.w234.fleft:nth-of-type(6)
 merlin.pl##.b-footer__icons-list
-miastodzieci.pl##.pull-left > a[href=\"/zapisz\"]
+miastodzieci.pl##.pull-left > a[href="zapisz"]
 midar.net.pl##.pomaranczowy.boks:nth-of-type(4)
 mixmedia.pl##.b-footerNewsletter
 mojeokazje.com##.column-margin-.column_column.one-third.mcb-column.column
@@ -192,7 +195,7 @@ recman.pl##.col-md-8.col-sm-7.col-xs-12
 redcoon.pl###j-newsletterForm
 renee.pl##.newsletter__section
 resortpro.ht-int.com###i-username
-romantycznyweekend.eu##img[src=\"gfx/newsletter1.gif\"]
+romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com##.newsletter
 satkurier.pl,podrozezantena.pl,digi-tv.pl,solarkurier.pl,bochniaisol.pl###newsletterMsg
@@ -217,7 +220,7 @@ subiektywnieofinansach.pl##.et_pb_row_4.et_pb_row
 supertydzien.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 suwalki24.pl##.box:nth-of-type(5)
 swiatoze.pl##.widget_newsletterwidgetminimal
-tapenda.pl##a[href=\"/newsletter/\"]
+tapenda.pl##a[href="/newsletter/"]
 telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 tygodnikprzeglad.pl###sidebar > .widget.widget-2
@@ -230,6 +233,7 @@ wakacje.pl###mainFootNewsletter
 wearmedicine.com##.newsletter, #nlThanks
 wispol.eu##.newsletter
 wittchen.com##.widget-newsletter
+wndcomp.pl###PrawaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
 wolkom.pl##.footer_newsletter
 www.rp.pl##.page-footer__mk
 wyjatkowyprezent.pl###footerNewsletter
@@ -329,6 +333,7 @@ militarialodz.pl###popup-scademy1
 misjonarska.com###myModal, .reveal-modal-bg
 mlodytechnik.pl###newsletterContainer
 mmaniak.pl###x13popup, #x13popup-cover
+moovitapp.com##.md-dialog-backdrop, .md-dialog-container
 muratordom.pl###nlt_popup
 mysize.com.pl###popup_box, #overlay
 nawozy.eu##.newsletterPopup
@@ -527,6 +532,7 @@ impel.pl,impelfm.pl###multitab_right > .multitab_box:nth-of-type(1)
 inter-kop.pl##.phone.text-uppercase.col-xs-12.col-md-4
 kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
 klonowypark.pl,misjonarska.com###right_info2
+komputery.cieszyn.pl###serwisbok
 konicaminolta.info.pl##.kontakt-slide
 komp.tech###launcher
 komorkomania.pl,autokult.pl,fotoblogia.pl##.btn-comments
@@ -565,6 +571,7 @@ pl##.no_print.toplayerSpecialClass
 pl##.pwebbox-container-outset
 pl##.side_widget
 pl##.slideout-widget
+plastcom.pl###test
 polanki.pl##.PamphletWidget
 portalzp.pl###start-tour
 pracuj.pl###shareOpinionSticker
@@ -605,6 +612,8 @@ wesolakraina.pl##.kontrast_tlo
 widzewlodz.pl###boxNavi
 wlaczoszczedzanie.pl##.fm-icon
 www.wp.pl###home-page-button
+||leaselink.pl/js/slide-button.js
+||leaselink.pl/js/slide-button-shoper.js
 ||opineo.pl/gfx/frontend/side_slider_gfx.png
 ||opineo.pl/shop/slider.js.php$third-party
 !
@@ -614,6 +623,10 @@ kajakom.pl###help
 pasland.pl###panel
 sck.pl###popupTest
 sferis.pl##.help__title
+!
+!
+! Scrollujące filmiki
+||s-pt.ppstatic.pl/p/js/regionalne/plywajace_wideo.js
 !
 !
 ! Strzałki
@@ -628,27 +641,28 @@ akma.pl###scroll_to_top
 alget.pl##.top_button
 alltube.tv##.fa-angle-double-up
 ams.com.pl###back2top
-answear.com###scrollTop
+answear.com,myjki.com,pracuj.pl,sagito.pl###scrollTop
 avans.pl,redcoon.pl###js-scrollTop
 avaro.pl###arrow_top
 avast.com###slide-top
+bitserwis.com.pl##.flaticon-home
 blogspot.com##.scrollToTop
 centrumdruku3d.pl,cyfrowypolsatnews.pl,tugazeta.pl##.cd-top
 ckz.pl##.wpv-scroll-to-top
 comel-it.com##.g-totop
-ctb.com.pl###tc-footer-btt-wrapper
+ctb.com.pl,movieway.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
 cud.rzeszow.pl##.bd-backtotop-1
 dany-meble.pl,medianarodowe.com,matfiz24.pl,wirtualnygarwolin.pl,entelo.pl###gototop
-decathlon.pl##a[href=\\\\\\\"#top\\\\\\\"]
+decathlon.pl###messagetop
 diagnozainternetu.pl##.top
 digitech.pl###toTop
 dobrekupony.pl,bobbyburger.pl,hykker.com###to-top
 domodi.pl##.dm-go-up
 domzagadek.pl###scroll_strz
-dskomp.pl##.clearfix.back-top
+dskomp.pl##.back-top 
 electro.pl###go_top
+etroniks.pl###to_top 
 enigmatech.eu###top-link
-etroniks.pl###to_top
 fasardi.com,pl.bab.la##.back-to-top
 felixcom.net###scrollup
 forbes.pl##.slideToTop
@@ -667,7 +681,7 @@ historiasportu.info##.et_pb_scroll_top
 hurtowniarolnicza.pl###toTop
 infogmina.com##.goup-container
 infores.net###icon-mobile-scroll-top
-insoft.net.pl##.show.go-top
+insoft.net.pl##.go-top
 ip-serwis.pl##.mk-go-top
 iperfumy.pl##.btn-scroll-top
 jakzarabiaconline.blogspot.com###top
@@ -676,7 +690,7 @@ kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
 klasykami.pl###totopLink
 kliknijwzdrowie.pl,tasteandtravel.pl###scroll_totop
-kodiwpigulce.pl,niemarkowe.pl,gruparmf.pl,blip.pl,grillmix.pl,e-horyzont.pl###totop
+kodiwpigulce.pl,niemarkowe.pl,gruparmf.pl,blip.pl,grillmix.pl,e-horyzont.pl,mediasystem-tdi.pl###totop
 komputronik.pl##.rollup
 kulturawplot.pl##.infinite-back-top
 kwestiasmaku.com##.do_gory
@@ -687,19 +701,16 @@ loktech.com.pl###toTop
 lolmania.pl,polskaracja.com,viralz.pl##.g1-back-to-top
 lp.travelist.pl###returnToTopButton
 manjaro.pl##.generate-back-to-top
-matfiz24.pl##a[href=\\\\\\\"#header\\\\\\\"]
+matfiz24.pl##a[href="#header"]
 mediaexpert.pl###go_top
 mediamarkt.pl###js-scrollTopDesktop
-mediasystem-tdi.pl###totop
 meizupolska.pl##.toup
 mojanorwegia.pl###goUp
 morele.net###back_to_top
 mosquito-sklep.pl###ui-to-top
 motor-x.pl,polki.pl,seminaria.idg.pl,e-seminaria.pl,multikurs.pl,magazynfakty.pl,rynekinwestycji.pl,www.dps-software.pl,bitcoin-online.pl,camdivision.pl,technowinki24.pl,kmziz.pl,mobbingwpracy.com,eglobalcentral.pl,joannaceplin.pl,sztab.org,font2.pl##.scrollup
-movieway.pl###tc-footer-btt-wrapper
 mpcnet.pl##.scrollup
 mpolski.pl##.arrow
-myjki.com###scrollTop
 myphone.pl##.mainArrowBackToTop
 nczas.com##.td-scroll-up
 neon24.pl###div_up_arrow
@@ -765,22 +776,17 @@ polsatnews.pl###fab
 polskiautohandel.pl,optyczne.pl##.backtopbutton
 polskihurtworld.eu##.tgtop
 pomorski-bs.pl###s5_scrolltop_a
-pomyslnawszystko.pl##div[class^=\\\\\\\"go-top\\\\\\\"]
-portal.sklep.pl###tc-footer-btt-wrapper
+pomyslnawszystko.pl##div[class^="go-top"]
 pozyczkomat-lodz.pl##.hm_go_top
-pracuj.pl###scrollTop
 proinfosc.com.pl###scrollUp:nth-of-type(2)
-prokomp-bochnia.pl###tc-footer-btt-wrapper
-przyloga.pl###scrollUp
 pssite.com##.scrolltop
 puck.naszemiasto.pl###kotwica
 racjonalista.tv##.gotop
 redcoon.pl##.scrollUp
-regionfan.pl##a[href=\\\\\\\"#top\\\\\\\"]
+regionfan.pl##a[href="#top"]
 renee.pl##.scroll__top
 rms.pl###jsn-gotoplink
 rolkom.net##.fa-angle-up.fa-2x.fa.btn
-sagito.pl###scrollTop
 sakolife.pl###powrot-do-gory
 samsung.com##.s-btn-gotop
 scie24.pl###up
@@ -793,6 +799,7 @@ smartpage.pl##.right_top_scroll
 smartpozyczka.pl##.toTop
 sportbazar.pl###moveTop
 sprzedambiznes.pl##.js-go-to
+support-it.com.pl###toTop
 tabletowo.pl,zdrowyportal.org,tvokazje.pl,helloangielski.pl,tvwlodawa.pl###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
@@ -803,7 +810,7 @@ wec.com.pl##.go2top
 witchen.com##.btn-goto-top
 wolkom.pl###toTop
 www.akademiareklamy.edu.pl###topscroller
-www.artefakt.pl,unibep.pl,ulicaekologiczna.pl###scrollUp
+www.artefakt.pl,unibep.pl,ulicaekologiczna.pl,przyloga.pl###scrollUp
 www.chamskie.pl###widget-back-to-top
 www.homebook.pl##.is-active.js-go-top.go-top
 www.hoteladler.com###gotop
@@ -950,7 +957,6 @@ zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 ||app.sugester.pl/tpbocian/widget.js
 ||helloangielski.pl/rozmowki/wp-content/plugins/icegram/assets/js/main.min.js
 ||images.fm.tuba.pl/tuba3/_js/plugin.min.js$domain=polskabiega.sport.pl|junior.sport.pl
-||leaselink.pl/js/slide-button.js
 ||morele.unifiedfactory.com/widget/config.js
 ||ssl.ceneo.pl/shops/sw.js$third-party
 ||ssl.ceneo.pl/shops/v3/script.js$third-party
