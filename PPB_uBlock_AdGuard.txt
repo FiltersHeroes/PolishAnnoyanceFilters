@@ -1,16 +1,16 @@
-! Checksum: Z7AiW6fLRJsFsfvGti44gA
+! Checksum: SQvhGrdIRHZAJp58GaOzxA
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 31 Jan 2018 16:34 UTC+01
-! Version: 201801311634
+! Last modified: 02 Feb 2018 11:31 UTC+01
+! Version: 201802021131
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 31 sty 2018, 16:34 UTC+01
+! Aktualizacja: pią, 02 lut 2018, 11:31 UTC+01
 !
 !
 ! Popupy
@@ -159,6 +159,11 @@ meczyki.pl##script:inject(abort-on-property-read.js, Notification.requestPermiss
 ! Przyciski
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
+!
+!
+! Scrollujące filmiki
+mamotoja.pl,polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
+sport.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
 !
 !
 ! Tła zawierające autoreklamy
