@@ -1,18 +1,18 @@
 [Adblock Plus 2.0]
-! Checksum: 3vrQnJQzlwaLwzgW3RSOVg
+! Checksum: /bUspdMn/eKhPcJ11X/ghg
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
-! Description: Flitry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 04 Feb 2018 18:56 UTC+01
-! Version: 201802041856
+! Description: Filtry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
+! Last modified: 04 Feb 2018 23:06 UTC+01
+! Version: 201802042306
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nie, 04 lut 2018, 18:56 UTC+01
+! Aktualizacja: nie, 04 lut 2018, 23:06 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
@@ -24,9 +24,10 @@
 /wp-content/plugins/wysija-newsletters
 3i-store.com##.footer-address-block > p:nth-of-type(4)
 3i-store.com##.footer-address-block > p:nth-of-type(5)
-3i-store.com,casu.pl##.block-subscribe.block
+3i-store.com##.block-subscribe
 50style.pl##.footer-item-wide
 51015kids.eu##.newsletter
+adwokat-gostkowski.pl###footer_news
 agatameble.pl,txm.pl,bdsklep.pl,zadowolenie.pl##.b-footer_newsletter
 akademiaversum.pl##.newsletter-form
 aligoo.pl###footer > .col-sm-6
@@ -161,7 +162,9 @@ pl###newsletter_wrapper
 pl###newsletterBox
 pl###newsletterform
 pl###side_widget_newsletter
+pl###site-scroll-top
 pl##.block-simplenews
+pl##.block-subscribe
 pl##.box-newsletter
 pl##.footer-block--newsletter
 pl##.footer-newsletter
@@ -402,6 +405,7 @@ sjp.pwn.pl,slowniki.pwn.pl###floater
 sklep.mieloch.pl###nicePopupWrapper
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
 sportbazar.pl###cart_tt, #cart_tt_bg
+sumiennyksiegowy.pl###ilosc-zapytan
 swiatdronow.cupsell.pl###shop_newsletter, #simplemodal-overlay
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 swiato-podglad.pl###popup-background
@@ -424,6 +428,7 @@ zlotemysli.pl##._form_show._form-wrapper
 zszywka.pl###inv-request-popup
 zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||a.mailmunch.co/app/$script,third-party
+||akademia-internetu.pl/wp-content/plugins/layered-popups/js/script.min.js
 ||cdn-widget.callpage.io/build/js/callpage.js
 ||chamskie.pl/compress/popupFacebook.js
 ||chamskie.pl/compress/popups/popupFacebook_normal.css
@@ -479,8 +484,10 @@ pomponik.pl##.ppg__signin
 ||cdn.pushwoosh.com/webpush/*.js
 ||cdn.sendpulse.com$script,third-party
 ||cloudfront.net/edrone_2_0.js
+||dobreprogramy.pl/Providers/WebPushHelper.ashx
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=dobreprogramy.pl|fotka.com|player.pl
 ||kosmicznapropaganda.pl/OneSignalSDK.js
+||kreskoweczki.pl/js/pushNotification.js
 ||mxapis.com^
 ||o2.pl/static/1.js
 ||proxy.synerise.com/*/web-push/get-public-config
@@ -595,8 +602,7 @@ scooterkingz.com.pl##.sqterybox
 serialomaniak.pl##.join-us
 siatka.org##.rss
 silesion.pl##.is_stuck.js-sticky.floatingSocials > ul > li:nth-of-type(5)
-siligan.pl##.widget_left_wrapper
-siligan.pl##.widget_right_wrapper
+siligan.pl##.widget_contact, .widget_cartbox, #widget_5, #widget_6, .widget_left_wrapper
 sklep.milicon.eu###cartBox, #contactBox
 sklep.wodna-kraina.pl###widget_shop4
 sklepbaterie.pl##.naskroty
@@ -629,10 +635,13 @@ www.wp.pl###home-page-button
 !
 !
 ! Przyciski - kontakt
+grafcraft.pl###wpcs_tab_745
 kajakom.pl###help
+kserokopiarki-netcan.pl##.pwebbox_toggler
 pasland.pl###panel
 sck.pl###popupTest
 sferis.pl##.help__title
+sumiennyksiegowy.pl##.kontakt-vert-button
 !
 !
 ! Scrollujące filmiki
@@ -668,8 +677,8 @@ decathlon.pl###messagetop
 diagnozainternetu.pl##.top
 dobrekupony.pl,bobbyburger.pl,hykker.com###to-top
 domodi.pl##.dm-go-up
+domtuiteraz.eu##.back-top
 domzagadek.pl###scroll_strz
-dskomp.pl##.back-top 
 electro.pl###go_top
 enigmatech.eu###top-link
 esc.belchatow.com##.scrollup
@@ -727,7 +736,6 @@ neonet.pl,rankomat.pl##.arrow-up
 netkom.pruszcz.com###gantry-totop
 netz.pl##.w-toplink
 nowosci-mp3.eu,3i-store.com###toTop
-nslowo.pl##.itemBackToTop
 okazik.pl###btn-scrollup
 okazje.eholiday.pl###bottom-newsletter
 okazje.info.pl##.up
@@ -764,9 +772,11 @@ pl###scroll-top-link
 pl###scroll-up[href="#masthead"]
 pl###scrollToTop
 pl###toTop
+pl###topcontrol
 pl##.back-to-top
 pl##.back_to_top
 pl##.backToTop
+pl##.back-top
 pl##.dogory
 pl##.et_pb_scroll_top
 pl##.fa-angle-up
@@ -812,7 +822,6 @@ smartpage.pl##.right_top_scroll
 smartpozyczka.pl##.toTop
 sportbazar.pl###moveTop
 sprzedambiznes.pl##.js-go-to
-tabletowo.pl,zdrowyportal.org,tvokazje.pl,helloangielski.pl,tvwlodawa.pl###topcontrol
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
 tui.pl##.jump-top-btn
@@ -834,6 +843,7 @@ www.purepc.pl##.mtotop
 www.rp.pl##.arrow-to-top
 xlomza.pl##.uk-totop
 zalando.pl##.z-navigation-footer_backToTop
+zdrowyportal.org###topcontrol
 zrobisztosam.com###topLink
 zumiko.pl###scrollUp
 zyczenia-noworoczne.eu###back_top
@@ -861,6 +871,8 @@ bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bitland-b2c.platforma.ab.pl###rightBoxes
 booking.com##.header-signin-prompt
 cdaction.pl##.topbar
+chojnow.pl###login-box
+comarch.pl##.widget-detach-right-bar-container
 conner.pl##.allegro
 direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
@@ -900,6 +912,7 @@ krainaksiazek.pl###div_przechowalnia
 kresy.pl##.ls-popup
 kupbilet.pl##.slider-arrowMPass, .slider-arrow
 kuzniewski.pl###banner_left
+kwark.com.pl###order-products-widget
 l24.lt###scr
 lideria.pl##.slidingbasket
 media2.pl###news-readmore, #news-suggest
@@ -942,7 +955,6 @@ robobat.pl###ReferenceBox
 rudaslaska.com.pl###next_prev_news
 salon24.pl##.article-bookstore
 samsung.com###oo_tab
-sck.com.pl###popupTest
 selkar.pl##.my-open.side-banner
 shareinfo.pl###install-button
 sklep-muzyczny.com.pl##.widgets
@@ -973,6 +985,9 @@ zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 ||helloangielski.pl/rozmowki/wp-content/plugins/icegram/assets/js/main.min.js
 ||images.fm.tuba.pl/tuba3/_js/plugin.min.js$domain=polskabiega.sport.pl|junior.sport.pl
 ||morele.unifiedfactory.com/widget/config.js
+||niszczarki.org/templates/standard/images/jestesmy_na_allegro.jpg
+||pcaction.pl/inne/allegro_komentarze.php
+||pcaction.pl/szablony/standardowy.rwd/obrazki/zakladki/allegro.png
 ||ssl.ceneo.pl/shops/sw.js$third-party
 ||ssl.ceneo.pl/shops/v3/script.js$third-party
 ||static.whatshelp.io/widget-send-button/js/init.js
@@ -992,7 +1007,7 @@ d24h.pl###chat_container
 e-prawnik.pl##.o-window.windowTop
 e-saving.pl###contact
 ebeactive.pl###iw-tab-label
-etcomputers.pl##a[href*="widget.gg.pl"]
+etcomputers.pl,koszulkiznadrukiem.biz##a[href*="widget.gg.pl"]
 fantasyliga.wp.pl##.show-chat
 kawaly.tja.pl###div_okienko_shoutbox_schowane
 mango.pl###chat-toggle
@@ -1001,6 +1016,7 @@ pl##.fb-messengermessageus
 pl##.ggu-bot-snapped-launcher
 pl.000webhost.com##div[style="cursor: pointer;"]
 polskihurtworld.eu##.ggu-widget-launcher
+rainbowzoom.pl###lz_overlay_chat
 swiss.com.pl###lhc_status_container
 tapeciarnia.pl###div_okienko_shoutbox_schowane
 ||chat.4finance.com^$third-party
@@ -1011,11 +1027,11 @@ tapeciarnia.pl###div_okienko_shoutbox_schowane
 ||czater.pl/assets/modules/chat/js/chat.js
 ||ebok.kierus.com.pl/scripts/button.php
 ||embed.tawk.to^$script,third-party
+||formilla.com/formilla-chat.asmx/LoadFormillaChatButton$third-party
 ||helponclick.com^$third-party,script
+||hubtalk.com/widgets/*/chat.js
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
-||pcaction.pl/inne/allegro_komentarze.php
-||pcaction.pl/szablony/standardowy.rwd/obrazki/zakladki/allegro.png
 ||salesmanago.pl/static/chunk/chat.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
