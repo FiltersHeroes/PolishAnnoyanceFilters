@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: tXaW4Tn2sENEd7y6YLIXNA
+! Checksum: mQsfwgiBRCV55KRysn8RdA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 06 Feb 2018 12:54 UTC+01
-! Version: 201802061254
+! Last modified: 06 Feb 2018 21:50 UTC+01
+! Version: 201802062150
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wto, 06 lut 2018, 12:54 UTC+01
+! Aktualizacja: wto, 06 lut 2018, 21:50 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -56,6 +56,7 @@ bosonamacie.pl##.newsletter-header, #widget-text-3
 brw.com.pl##.blok-newsletter
 businesstraveller.pl##.widget:nth-of-type(2) > h4
 butyraj.pl##.hidden-phone.top_toplayer
+c-and-a.com##.util-visible-sm.util-add-margin-bottom-full.row
 cebit.pl##a[href="http://net.cebit.pl/newsletter/"]
 cgm.pl##.footerNewsletter
 chinytolubie.pl###fm_form_1
@@ -100,6 +101,7 @@ frenchtouchlabellevie.pl##.newsletter-mail
 galeria-warminska.pl##.nwsltr.box
 galeriabronowice.pl##.news
 gamedot.pl##.footer-top-container-item:nth-of-type(4)
+geekwork.pl###newsletter-head
 grawerowanie.org.pl##.signup
 grillmix.pl##.col-sm-3:nth-of-type(5)
 hart.pl###_ctl0_NewsLetterInitC_NewsletterForm
@@ -127,7 +129,9 @@ kupony.mydeal.pl###newsletter-foot
 ladnydom.pl,myfitness.pl##.nlt
 lampy.pl###newsletterbox_1
 lideria.pl###box_newsletter_text_books
+lidl.pl##.form--newsletter
 majsterkowo.pl###text-9
+mamstartup.pl##.hb-right.submitClearInput
 mango.pl###smSubscriptonBox
 marbo-sport.pl###top_newsletter
 masterlease.pl##.blue-green.section
@@ -151,6 +155,7 @@ niedzwiedz.lento.pl##tbody > .notify-save
 niezlomni.com###text-10
 o.pl###email-bar, #nl-icon, #cs-newsletter
 obserwatorfinansowy.pl###newsletterForm
+ofertatorun.pl##.content_bottom.row
 oficynafk.pl##.col-md-4 > .row:nth-of-type(3)
 ogloszenia24.info###newsletter_section
 okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
@@ -372,6 +377,7 @@ militarialodz.pl###popup-scademy1
 misjonarska.com###myModal, .reveal-modal-bg
 mlodytechnik.pl###newsletterContainer
 mmaniak.pl###x13popup, #x13popup-cover
+moneygrabbing.co.uk##.mcwidget-overlay
 moovitapp.com##.md-dialog-backdrop, .md-dialog-container
 muratordom.pl###nlt_popup
 mysize.com.pl###popup_box, #overlay
@@ -462,6 +468,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||a-masterlease.youlead.pl/api/query/popup/SettingsForPopups$script,domain=master1.pl
 ||a.mailmunch.co/app/$script,third-party
 ||akademia-internetu.pl/wp-content/plugins/layered-popups/js/script.min.js
+||app.leadreactor.io/api/widget
 ||cdn-widget.callpage.io/build/js/callpage.js
 ||chamskie.pl/compress/popupFacebook.js
 ||chamskie.pl/compress/popups/popupFacebook_normal.css
@@ -483,6 +490,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||kwiaciarnia-rikka.pl/wp-content/plugins/wordpress-popup/js/public.min.js
 ||losyziemi.pl/?spu_action=spu_load&lang=
 ||mailerlite.com^$third-party
+||mamstartup.pl/newsletter/popup
 ||mediaexpert.pl/js/popup.js
 ||multikurs.pl/Framework/Graphics/js/popup.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
@@ -585,6 +593,7 @@ hubkolektyw.pl##.panel-boczny
 impel.pl###multitab_right > .multitab_box:nth-of-type(6)
 impel.pl,impelfm.pl###multitab_right > .multitab_box:nth-of-type(1)
 inter-kop.pl##.phone.text-uppercase.col-xs-12.col-md-4
+jakwyjsczdlugow.pl##.btn-info
 kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
 klonowypark.pl,misjonarska.com###right_info2
 komorkomania.pl,autokult.pl,fotoblogia.pl##.btn-comments
@@ -608,6 +617,7 @@ naukawpolsce.pap.pl###social > ul > .mail
 naukawpolsce.pap.pl###social > ul > .rss
 ncplus.pl###button-call, #button-lead
 nettg.pl##.side-panel
+netto.pl##.leaflet-sticky-btn
 nocowanie.pl##.btn--signup
 o.pl###codemanipulator-tools
 omega.om.pl##.right.ecp-button
@@ -709,6 +719,7 @@ answear.com,myjki.com,pracuj.pl,sagito.pl,sport-shop.pl###scrollTop
 avans.pl,redcoon.pl###js-scrollTop
 avaro.pl###arrow_top
 avast.com###slide-top
+bettingexpert.com##.slideInUp
 bitserwis.com.pl##.flaticon-home
 blogspot.com##.scrollToTop
 citroen.pl###scrolltop
@@ -761,6 +772,7 @@ kwestiasmaku.com##.do_gory
 lamoda.pl##.js-return-to-top
 lechia.net###gkBackToTop
 lento.pl###scroller
+lidl.pl##.totopbutton
 lolmania.pl,polskaracja.com,viralz.pl##.g1-back-to-top
 lp.travelist.pl###returnToTopButton
 manjaro.pl##.generate-back-to-top
@@ -772,6 +784,7 @@ medianarodowe.com###gototop
 meizupolska.pl##.toup
 mobbingwpracy.com,sztab.org,koniec-swiata.org##.scrollup
 mojanorwegia.pl###goUp
+moneygrabbing.co.uk##.kleo-go-top
 morele.net###back_to_top
 mosquito-sklep.pl###ui-to-top
 mpolski.pl##.arrow
@@ -838,6 +851,7 @@ pl##.scrolltop
 pl##.scrollToTop
 pl##.scrollup
 pl##.td-scroll-up
+pl##.to-the-top
 pl##.totop
 player.pl##.footer-panel-toggle
 playstation.com,www.wizytowka.be###back-to-top
@@ -849,6 +863,7 @@ polskihurtworld.eu##.tgtop
 pomorski-bs.pl###s5_scrolltop_a
 pomyslnawszystko.pl##div[class^="go-top"]
 pozyczkomat-lodz.pl##.hm_go_top
+pracawsieci.net###ruby-back-top
 programyzadarmo.net.pl###sticky_gototop
 proinfosc.com.pl###scrollUp:nth-of-type(2)
 pssite.com##.scrolltop
@@ -888,7 +903,7 @@ www.chamskie.pl###widget-back-to-top
 www.homebook.pl##.is-active.js-go-top.go-top
 www.hoteladler.com###gotop
 www.jakonatorobi.pl,www.autofakty.pl###ruby-back-top
-www.meczyki.pl,promocyjni.pl,mtb-xc.pl##.scroll-up
+www.meczyki.pl,promocyjni.pl,mtb-xc.pl,websitestyle.pl##.scroll-up
 www.mila.pl##.scroll-arrow
 www.nocowanie.pl##.is-sticky.btn--top.btn
 www.purepc.pl##.mtotop
