@@ -1,21 +1,22 @@
 [Adblock Plus 2.0]
-! Checksum: 5YfUHLbjxus/uTlSvzKQyQ
+! Checksum: tXaW4Tn2sENEd7y6YLIXNA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
-! Description: Filtry blokujące natrętne lub wprowadzające w błąd widżety i okienka.
-! Last modified: 05 Feb 2018 22:59 UTC+01
-! Version: 201802052259
+! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
+! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
+! Last modified: 06 Feb 2018 12:54 UTC+01
+! Version: 201802061254
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 05 lut 2018, 22:59 UTC+01
+! Aktualizacja: wto, 06 lut 2018, 12:54 UTC+01
 !
 !
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować (obecnie to działa tylko w uBlock Origin dev 1.14.23b0+ i Nano Adblockerze)
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
 !#include PPB_uBlock_AdGuard.txt
 !
 !
@@ -28,6 +29,7 @@
 50style.pl##.footer-item-wide
 51015kids.eu##.newsletter
 9design.pl##.top_newsletter
+99rent.pl###block-block-7
 adwokat-gostkowski.pl###footer_news
 agatameble.pl,txm.pl,bdsklep.pl,zadowolenie.pl##.b-footer_newsletter
 akademiaversum.pl##.newsletter-form
@@ -84,13 +86,16 @@ ebroker.pl###ft_t_in
 egospodarka.pl##.ego-newsletter
 ekomercyjnie.pl##.clearfix.main-menu > li:nth-of-type(1)
 ekomercyjnie.pl##.home-newsletter, .blog-newsletter, #bottom-newsletter
+eloblog.pl##a[href="https://eloblog.pl/newsletter/"]
 emaks.pl###newsletter-validate-detail
 empik.com##.footerNewsletter__form-wrap
 erp-view.pl###top-mod
+eszkola24.pl##.news-letter
 euro.com.pl###footer-shops > .column:nth-of-type(1)
 felixcom.net##.ftop > .container > .right
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 fokusfashion.com##form > input:nth-of-type(2)
+forbot.pl###powiadomieniaMailowe
 frenchtouchlabellevie.pl##.newsletter-mail
 galeria-warminska.pl##.nwsltr.box
 galeriabronowice.pl##.news
@@ -140,7 +145,10 @@ mojeokazje.com##.column-margin-.column_column.one-third.mcb-column.column
 morele.net##.col-md-9.col-sm-7
 nettg.pl##.input-newsletter1
 nettg.pl##.section-content > .heading
+niebezpiecznik.pl###text-3 > .widgettitle
+niebezpiecznik.pl##.textwidget > form
 niedzwiedz.lento.pl##tbody > .notify-save
+niezlomni.com###text-10
 o.pl###email-bar, #nl-icon, #cs-newsletter
 obserwatorfinansowy.pl###newsletterForm
 oficynafk.pl##.col-md-4 > .row:nth-of-type(3)
@@ -199,6 +207,8 @@ polska.travel##.fixed-elements
 polskacanada.com##.boxzilla-zaproszenie, #alo_easymail_widget_form
 polskacanada.com##.footer-4.footer-widget:nth-of-type(2)
 polskieradio.com##.post-widget.widget:nth-of-type(4) > .post-widget.widget
+polszczyzna.pl##.eltdf-column:nth-of-type(4)
+polszczyzna.pl##.widget_yikes_easy_mc_widget
 portalspozywczy.pl###socialBox
 portalzp.pl##.bottom-newsletter
 poznan.factory.pl##.pane-2.pane-custom.panel-pane
@@ -236,6 +246,7 @@ sport-shop.pl##.newsletter_fotter
 sportplus.pl##.KolumnaNewsletter
 sportslaski.pl##.containerright5
 sprawnymarketing.pl###post-newsletter
+strefainwestorow.pl###newsletter-ipo
 stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of-type(3)
 subiektywnieofinansach.pl##.et_pb_cta_0.et_pb_text_align_center.et_pb_bg_layout_light.et_pb_module.et_pb_promos
 subiektywnieofinansach.pl##.et_pb_row_4.et_pb_row
@@ -245,6 +256,8 @@ swiatoze.pl##.widget_newsletterwidgetminimal
 tapenda.pl##a[href="/newsletter/"]
 telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
+temi.pl##.module:nth-of-type(8) > div > div > div
+tustolica.pl###menumini > li:nth-of-type(3)
 tygodnikprzeglad.pl###sidebar > .widget.widget-2
 ulicaekologiczna.pl###newsletter_wrap, .sidebar.columns.large-5.small-15
 unileverfoodsolutions.pl##.newsletter-signup
@@ -380,6 +393,7 @@ otmuchow.pl##script ~ #cboxOverlay
 otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 ozonee.pl###tln2_wrap, #twsshadow2_bg
 papilot.pl###keys-info-bg
+papis.pl###exitpopup, #exitpopup_bg
 pb.pl##.smPopupContainer, #smPopupBackground
 pch24.pl##.popupWesp, .popupWespImgContainer
 picodi.com##.special-modal, .modal-backdrop
@@ -420,6 +434,7 @@ siligan.pl###contentWindow
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sjp.pwn.pl,slowniki.pwn.pl###floater
 sklep.mieloch.pl###nicePopupWrapper
+sldc.eu###popup-over, #popup-overlay
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
 sportbazar.pl###cart_tt, #cart_tt_bg
 sumiennyksiegowy.pl###ilosc-zapytan
@@ -452,6 +467,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||chamskie.pl/compress/popups/popupFacebook_normal.css
 ||daily.pl/modal/get/sticker-text
 ||doradcasmaku.pl/index/get-popup$xmlhttprequest
+||downloads.mailchimp.com/js/signup-forms/popup/embed.js
 ||ebrokerpartner.pl/js/frontend/modules/popup.js
 ||gazetagazeta.com/wp-content/plugins/popupally/resource/frontend/popup.min.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/js/popups.js
@@ -542,6 +558,8 @@ b365.pl###panel-pro
 bank-wbs.pl###wrapperSectionStickyIcon
 bankobranie.blogspot.com##.social > li:nth-child(n+5)
 biznesalert.pl##.toolbar
+biznes2biznes.com###zakladki > div:nth-child(-n+4)
+biznes2biznes.com###zakladki > div:nth-of-type(6)
 bylola.pl,pakolorente.com,###ri-widget
 chrzypsko.pl##.biegacz
 czasnadmorze.pl###rum_sst_tab
@@ -763,6 +781,7 @@ neon24.pl###div_up_arrow
 neonet.pl,rankomat.pl##.arrow-up
 netkom.pruszcz.com###gantry-totop
 netz.pl##.w-toplink
+niezlomni.com###backtotop
 nowosci-mp3.eu,3i-store.com###toTop
 okazik.pl###btn-scrollup
 okazje.eholiday.pl###bottom-newsletter
@@ -830,6 +849,7 @@ polskihurtworld.eu##.tgtop
 pomorski-bs.pl###s5_scrolltop_a
 pomyslnawszystko.pl##div[class^="go-top"]
 pozyczkomat-lodz.pl##.hm_go_top
+programyzadarmo.net.pl###sticky_gototop
 proinfosc.com.pl###scrollUp:nth-of-type(2)
 pssite.com##.scrolltop
 puck.naszemiasto.pl###kotwica
@@ -848,6 +868,7 @@ skantech.com.pl###dynamic-to-top
 sklep-agrohandel.pl##.scroll_top.sidebar_fixed_btn
 sklep-presto.pl##.desktop.pageToTop
 sklepbaterie.pl###topLink
+sklepdlaplastykow.pl###go-top
 smartninja.pl##.back-to-top-btn
 smartpage.pl##.right_top_scroll
 smartpozyczka.pl##.toTop
@@ -979,6 +1000,7 @@ poczta.interia.pl###createaccount2
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 portalsamorzadowy.pl,portalspozywczy.pl###bottom_slider
 ppe.pl##.nextbox
+programyzadarmo.net.pl##.dark.floatingItem
 promocyjni.pl##.new-dymek-holder
 rankomat.pl##.searching-cheap-oc
 reddit.com##.read-next
@@ -1065,6 +1087,7 @@ tapeciarnia.pl###div_okienko_shoutbox_schowane
 ||lellek.callcenter.pl/static/chat_snippets/*.js$domain=lellek.pl
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
+||papis.pl/livechat/php/app.php
 ||salesmanago.pl/static/chunk/chat.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
