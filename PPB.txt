@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: mQsfwgiBRCV55KRysn8RdA
+! Checksum: HEw6zva6qsPsVg4DY1rQXw
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 06 Feb 2018 21:50 UTC+01
-! Version: 201802062150
+! Last modified: 06 Feb 2018 23:22 UTC+01
+! Version: 201802062322
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wto, 06 lut 2018, 21:50 UTC+01
+! Aktualizacja: wto, 06 lut 2018, 23:22 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -468,8 +468,8 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||a-masterlease.youlead.pl/api/query/popup/SettingsForPopups$script,domain=master1.pl
 ||a.mailmunch.co/app/$script,third-party
 ||akademia-internetu.pl/wp-content/plugins/layered-popups/js/script.min.js
+||api.callpage.io/v2/widgets/
 ||app.leadreactor.io/api/widget
-||cdn-widget.callpage.io/build/js/callpage.js
 ||chamskie.pl/compress/popupFacebook.js
 ||chamskie.pl/compress/popups/popupFacebook_normal.css
 ||daily.pl/modal/get/sticker-text
@@ -1050,6 +1050,7 @@ www.youtube.com##.ytp-ce-element
 yoy.tv###notice
 zdrowie.gazeta.pl###bottom_wrap
 zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
+||api.repuso.com/v1/widgets/posts/*$domain=zbitaszybka.pl
 ||app.sugester.pl/tpbocian/widget.js
 ||helloangielski.pl/rozmowki/wp-content/plugins/icegram/assets/js/main.min.js
 ||images.fm.tuba.pl/tuba3/_js/plugin.min.js$domain=polskabiega.sport.pl|junior.sport.pl
