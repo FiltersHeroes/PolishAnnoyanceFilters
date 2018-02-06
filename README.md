@@ -1,5 +1,5 @@
 # Polskie filtry elementów irytujących
-Filtry blokujące okienka zachęcające do rejestracji lub z newsami, promocjami i rabatami. Blokują one widżety  które dezinformują i odwracają uwagę, próbując na siłe wcisnąć swój produkt.
+Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 
 UWAGA!!! Filtry nie blokują elementów społecznościowych ani komunikatów dot. ciasteczek i polityki prywatności.
 
