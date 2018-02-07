@@ -1,16 +1,16 @@
-! Checksum: SQvhGrdIRHZAJp58GaOzxA
+! Checksum: DlT/03P3d+8GgbiakdWckQ
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 02 Feb 2018 11:31 UTC+01
-! Version: 201802021131
+! Last modified: 07 Feb 2018 19:20 UTC+01
+! Version: 201802071920
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 02 lut 2018, 11:31 UTC+01
+! Aktualizacja: śro, 07 lut 2018, 19:20 UTC+01
 !
 !
 ! Popupy
@@ -48,6 +48,8 @@ ergokantor.pl##.mfp-ready
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 euro.com.pl##.remodal-overlay, .remodal-wrapper
 euro.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+forum.gofin.pl###KW_Tlo, #KW_Okno
+forum.gofin.pl##body:style(overflow: auto !important;)
 fpiec.pl##.full-screen-overlay 
 fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
 fpiec.pl##body.no-scroll:style(overflow: visible !important;)
