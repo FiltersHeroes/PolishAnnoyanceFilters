@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: FXdV2eOjClK4zlIUY7LJZA
+! Checksum: +vTbZcebYbg/ouLOKRbOzQ
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 07 Feb 2018 13:08 UTC+01
-! Version: 201802071308
+! Last modified: 07 Feb 2018 19:19 UTC+01
+! Version: 201802071919
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 07 lut 2018, 13:08 UTC+01
+! Aktualizacja: śro, 07 lut 2018, 19:19 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -26,6 +26,7 @@
 3i-store.com##.block-subscribe
 3i-store.com##.footer-address-block > p:nth-of-type(4)
 3i-store.com##.footer-address-block > p:nth-of-type(5)
+3kropki.pl##.nwltMR
 50style.pl##.footer-item-wide
 51015kids.eu##.newsletter
 9design.pl##.top_newsletter
@@ -97,6 +98,7 @@ erp-view.pl###top-mod
 eszkola24.pl##.news-letter
 euro.com.pl###footer-shops > .column:nth-of-type(1)
 felixcom.net##.ftop > .container > .right
+fish24.pl##.newsletter_foot
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 fokusfashion.com##form > input:nth-of-type(2)
 forbot.pl###powiadomieniaMailowe
@@ -148,8 +150,10 @@ miastodzieci.pl##.pull-left > a[href="/zapisz"]
 midar.net.pl##.pomaranczowy.boks:nth-of-type(4)
 mixmedia.pl##.b-footerNewsletter
 mmo.pl###newsletter_subscriber
+modbis.pl###menu_newsletter2
 mojeokazje.com##.column-margin-.column_column.one-third.mcb-column.column
 morele.net##.col-md-9.col-sm-7
+moneygrabbing.co.uk##.ml-block-form
 nettg.pl##.input-newsletter1
 nettg.pl##.section-content > .heading
 niebezpiecznik.pl###text-3 > .widgettitle
@@ -243,6 +247,7 @@ sck.pl###ms-newsletter-box
 scooterkingz.com.pl##.newsletter_form
 selgros24.pl###formNewsletter
 selgros24.pl##.box-last.box > h2
+sephora.pl###newsletterForm
 sfinks.info##.t_align_r.m_xs_bottom_30.m_bottom_20.m_xs_top_0.m_top_40.col-sm-6.col-md-6.col-lg-6
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
 showroom.pl##.news-signup
@@ -269,6 +274,7 @@ tapenda.pl##a[href="/newsletter/"]
 telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 temi.pl##.module:nth-of-type(8) > div > div > div
+topfish.pl##.n56467_container
 tustolica.pl###menumini > li:nth-of-type(3)
 tygodnikprzeglad.pl###sidebar > .widget.widget-2
 ulicaekologiczna.pl###newsletter_wrap, .sidebar.columns.large-5.small-15
@@ -340,7 +346,7 @@ colian.pl##.home-popup
 cosslodkiego.com.pl###tws_i_1
 czarymary.pl/NewsletterPopup
 d24h.pl###fancybox-overlay, #fancybox-wrap
-dailyweb.pl,probasket.pl,swinoujskie.info###snppopup-welcome
+dailyweb.pl,probasket.pl,swinoujskie.info,moneygrabbing.co.uk###snppopup-welcome
 dany-meble.pl###myPopModal, .modal-backdrop
 diversesystem.com###dvrs-newsletter-popup-body
 dobiegania.pl###colorbox, #cboxOverlay
@@ -476,6 +482,7 @@ zszywka.pl###inv-request-popup
 zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||a-masterlease.youlead.pl/api/query/popup/SettingsForPopups$script,domain=master1.pl
 ||a.mailmunch.co/app/$script,third-party
+||account.dzinga.com/callback/?callback*$script,domain=topfish.pl
 ||akademia-internetu.pl/wp-content/plugins/layered-popups/js/script.min.js
 ||api.callpage.io/v2/widgets/
 ||app.leadreactor.io/api/widget
@@ -622,6 +629,7 @@ meritum.gda.pl###rightBoxes
 miedziowe.pl,elka.pl###showhidecart
 mmo.pl##.sliderpakiet
 monedo.pl###satellite
+moneygrabbing.co.uk###older-nav
 multilampy.pl##.ceneo, .opineo
 myphone.pl##.newsFixedBtn
 naukawpolsce.pap.pl###social > ul > .mail
@@ -727,6 +735,7 @@ alget.pl##.top_button
 alltube.tv##.fa-angle-double-up
 ams.com.pl###back2top
 answear.com,myjki.com,pracuj.pl,sagito.pl,sport-shop.pl###scrollTop
+athleticsport.pl###goToTop
 avans.pl,redcoon.pl###js-scrollTop
 avaro.pl###arrow_top
 avast.com###slide-top
@@ -740,6 +749,7 @@ comel-it.com##.g-totop
 ctb.com.pl,movieway.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
 cud.rzeszow.pl##.bd-backtotop-1
 decathlon.pl###messagetop
+deon.pl##.strzalka
 diagnozainternetu.pl##.top
 dobrekupony.pl,bobbyburger.pl,hykker.com###to-top
 domodi.pl##.dm-go-up
@@ -750,6 +760,7 @@ electro.pl###go_top
 enigmatech.eu###top-link
 esc.belchatow.com##.scrollup
 etroniks.pl###to_top 
+faltusdesign.wordpress.com##.tothetop
 fasardi.com,pl.bab.la##.back-to-top
 felixcom.net###scrollup
 forbes.pl##.slideToTop
@@ -795,6 +806,7 @@ mediaexpert.pl###go_top
 mediamarkt.pl###js-scrollTopDesktop
 medianarodowe.com###gototop
 meizupolska.pl##.toup
+metaloweszafkigrzewcze.eu###scroll-up
 mobbingwpracy.com,sztab.org,koniec-swiata.org##.scrollup
 mojanorwegia.pl###goUp
 moneygrabbing.co.uk##.kleo-go-top
@@ -1005,8 +1017,10 @@ miastons.pl##.stckbottom.cms_see_more
 misioweopowiesci.o2.pl##.playlist__header
 mixmedia.pl###place3_v3
 mobilitynews.pl##.swiper-wrapper
+modbis.pl##.n67021_out
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 money.pl##.float.more-news
+moneygrabbing.co.uk##.related-wrap
 multikino.pl###qb
 multikurs.pl##.topbar-discount.row
 myedenred.pl##.overtop-banner__image
@@ -1121,6 +1135,7 @@ tapeciarnia.pl###div_okienko_shoutbox_schowane
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
 ||papis.pl/livechat/php/app.php
+||s3-eu-west-1.amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
 ||salesmanago.pl/static/chunk/chat.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
