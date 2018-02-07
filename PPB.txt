@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: HEw6zva6qsPsVg4DY1rQXw
+! Checksum: FXdV2eOjClK4zlIUY7LJZA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 06 Feb 2018 23:22 UTC+01
-! Version: 201802062322
+! Last modified: 07 Feb 2018 13:08 UTC+01
+! Version: 201802071308
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wto, 06 lut 2018, 23:22 UTC+01
+! Aktualizacja: śro, 07 lut 2018, 13:08 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -74,9 +74,11 @@ d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
 danko.pl##.nl-holder
 defence24.pl##.header-bottom-newsletter
+deon.pl##.sl > li:nth-of-type(5)
 di.com.pl##.footcol:nth-of-type(5) > .footnag:nth-of-type(1)
 di.com.pl##.footcol:nth-of-type(5) > form
 di.com.pl##.footcol:nth-of-type(5) > p
+disport.pl##.boxNewsletter
 dobiegania.pl##.superMailing
 dobredomy.pl###footerForm
 dobry-kon.pl##.col-sm-3:nth-of-type(4)
@@ -85,6 +87,7 @@ drewno.pl###nl_sticky
 e-ciucholand.com###newsletter_block_left
 ebroker.pl###ft_t_in
 egospodarka.pl##.ego-newsletter
+ehurt.eu###menu_newsletter
 ekomercyjnie.pl##.clearfix.main-menu > li:nth-of-type(1)
 ekomercyjnie.pl##.home-newsletter, .blog-newsletter, #bottom-newsletter
 eloblog.pl##a[href="https://eloblog.pl/newsletter/"]
@@ -126,7 +129,7 @@ komp.tech##.stoka_newsletter
 kotkowicz.pl###wp-subscribe
 krakusik.pl##.mini-newsletter
 kupony.mydeal.pl###newsletter-foot
-ladnydom.pl,myfitness.pl##.nlt
+ladnydom.pl,myfitness.pl,wyborcza.biz##.nlt
 lampy.pl###newsletterbox_1
 lideria.pl###box_newsletter_text_books
 lidl.pl##.form--newsletter
@@ -162,6 +165,7 @@ okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
 okazje.eholiday.pl##.newsletter-link
 onebid.pl##.leftmainmenu.hidden-sm.hidden-xs.col-lg-3.col-md-3.col-xs-12 > .hidden-xs.hidden-sm
 orange.pl###newsletterSkipLink
+outsourcingportal.eu##.newsletterbox
 pantabletka.pl##.ds-newsletter
 pasja-informatyki.pl##.widget_1
 pcaction.pl##.CalyBox:nth-of-type(4)
@@ -198,6 +202,7 @@ pl##.newsletter-box
 pl##.newsletter-container
 pl##.newsletter-subscribe
 pl##.newsletter_footer
+pl##.newsletterBox
 pl##.newsletterbox
 pl##.widget-newsletter
 pl##.widget_newsletterwidget
@@ -231,6 +236,7 @@ rfbenchmark.pl##.col-lg-3.col-md-3.col-sm-4.col-xs-12
 romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rowertour.com##.newsletter
+rynek-kolejowy.pl##.sledzNasStopkaContainer > .zawartoscBox > .ok
 satkurier.pl,podrozezantena.pl,digi-tv.pl,solarkurier.pl,bochniaisol.pl###newsletterMsg
 sck.com.pl###ms-newsletter-box
 sck.pl###ms-newsletter-box
@@ -258,6 +264,7 @@ subiektywnieofinansach.pl##.et_pb_row_4.et_pb_row
 supertydzien.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 suwalki24.pl##.box:nth-of-type(5)
 swiatoze.pl##.widget_newsletterwidgetminimal
+szachownica.com.pl##.square-newsletter
 tapenda.pl##a[href="/newsletter/"]
 telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
@@ -276,6 +283,7 @@ wittchen.com##.widget-newsletter
 wndcomp.pl###PrawaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
 wolkom.pl##.footer_newsletter
 www.rp.pl##.page-footer__mk
+wyborcza.biz##.foot-summary-buttons-share-newsletter
 wyjatkowyprezent.pl###footerNewsletter
 yes.pl##.footer-middle
 yieldbird.com##.hidden-widget.float-widget
@@ -444,6 +452,7 @@ sldc.eu###popup-over, #popup-overlay
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
 sportbazar.pl###cart_tt, #cart_tt_bg
 sumiennyksiegowy.pl###ilosc-zapytan
+superksiegowa.pl###mksiegowosc-overlay, #mksiegowosc-popup-wrapper
 swiatdronow.cupsell.pl###shop_newsletter, #simplemodal-overlay
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 swiato-podglad.pl###popup-background
@@ -530,6 +539,7 @@ pomponik.pl##.ppg__signin
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=dobreprogramy.pl|fotka.com|player.pl
 ||kosmicznapropaganda.pl/OneSignalSDK.js
 ||kreskoweczki.pl/js/pushNotification.js
+||moneygrabbingcouk.foxpush.net/http_native.html
 ||mxapis.com^
 ||o2.pl/static/1.js
 ||proxy.synerise.com/*/web-push/get-public-config
@@ -612,6 +622,7 @@ meritum.gda.pl###rightBoxes
 miedziowe.pl,elka.pl###showhidecart
 mmo.pl##.sliderpakiet
 monedo.pl###satellite
+multilampy.pl##.ceneo, .opineo
 myphone.pl##.newsFixedBtn
 naukawpolsce.pap.pl###social > ul > .mail
 naukawpolsce.pap.pl###social > ul > .rss
@@ -734,6 +745,7 @@ dobrekupony.pl,bobbyburger.pl,hykker.com###to-top
 domodi.pl##.dm-go-up
 domtuiteraz.eu##.back-top
 domzagadek.pl###scroll_strz
+ehurt.eu###backTop
 electro.pl###go_top
 enigmatech.eu###top-link
 esc.belchatow.com##.scrollup
@@ -746,6 +758,7 @@ gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl,bezpiecznapodroz.org###go-top
 getinbank.pl###scroll_top
 gizchina.com.pl##.vw-scroll-to-top
 gniezno24.com##.g24-topbutton
+gol24.pl##.doGory
 gorzow.com###dogory
 gosc.pl##.GoToTop
 gra-com.pl##.scroll-to-top
@@ -841,6 +854,7 @@ pl##.backToTop
 pl##.back-top
 pl##.dogory
 pl##.et_pb_scroll_top
+pl##.fa-angle-double-up
 pl##.fa-angle-up
 pl##.go-to-top
 pl##.mh-back-to-top
@@ -889,6 +903,7 @@ smartpage.pl##.right_top_scroll
 smartpozyczka.pl##.toTop
 sportbazar.pl###moveTop
 sprzedambiznes.pl##.js-go-to
+tajemnice-swiata.pl###m7-go-top
 testhub.pl##.sh-back-to-top
 tube.ad##.go-top
 tui.pl##.jump-top-btn
@@ -914,6 +929,7 @@ zdrowyportal.org###topcontrol
 zrobisztosam.com###topLink
 zumiko.pl###scrollUp
 zyczenia-noworoczne.eu###back_top
+||back-to-top.appspot.com/app/index.html
 ||greencanoe.pl/wp-content/themes/cookbook/js/jquery.scrollUp.min.js
 ||joemonster.org/js/jquery.scrollUp.min.js
 ||tapeciarnia.pl/img/do_gory.png
@@ -1044,6 +1060,7 @@ vitay.pl###serviceRatingBox
 wiadomosci.olsztyn.pl###bdCheckAlso
 winiary.pl###kwit_brandwidget_btn
 wirtualnemedia.pl###swim_box
+wyborcza.biz##.mod_swimmer
 www.gazeta.pl##div[data-alias="weekend"]
 www.rp.pl###mk-paywall
 www.youtube.com##.ytp-ce-element
