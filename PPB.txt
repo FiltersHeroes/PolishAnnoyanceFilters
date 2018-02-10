@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: +vTbZcebYbg/ouLOKRbOzQ
+! Checksum: zt6X+mmGgp+1wXgkudPDRA
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 07 Feb 2018 19:19 UTC+01
-! Version: 201802071919
+! Last modified: 10 Feb 2018 20:09 UTC+01
+! Version: 201802102009
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 07 lut 2018, 19:19 UTC+01
+! Aktualizacja: sob, 10 lut 2018, 20:09 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -42,6 +42,7 @@ apollo.pl##.newsletter-block-container
 avaro.pl##.smsapi-sidetitle
 bankier.pl###boxNewsletterFlyfooter, #articleNewsletter
 bankobranie.blogspot.com###topNewsletter
+bass-sklep.pl###box-5
 bestcena.pl##div[class^=newsletter-box]
 biedronka.pl##.newsletter-tile
 biegambolubie.com.pl##.cp-info-bar-wrapper
@@ -270,6 +271,7 @@ supertydzien.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 suwalki24.pl##.box:nth-of-type(5)
 swiatoze.pl##.widget_newsletterwidgetminimal
 szachownica.com.pl##.square-newsletter
+tamaj.pl##.lof-block.lofadva-block-4 > .lof-block-wrap > h4
 tapenda.pl##a[href="/newsletter/"]
 telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
@@ -453,6 +455,7 @@ siligan.pl###blackout
 siligan.pl###contentWindow
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sjp.pwn.pl,slowniki.pwn.pl###floater
+sklepdrapieznik.pl###backgroundPopup, #toPopup
 sklep.mieloch.pl###nicePopupWrapper
 sldc.eu###popup-over, #popup-overlay
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
@@ -593,6 +596,7 @@ d24h.pl###zaufane_opinie_widget
 dany-meble.pl##body > .hidden-sm.hidden-xs
 dbpolska.net,ampolska.net###panel
 dobredomy.pl##.right.sidemenu
+domiogrod.e-sas.pl###zmien_dzial
 domodi.pl##.dm-sticky-buttons
 echodnia.eu###toolbar
 eglobalcentral.pl###hs-beacon
@@ -669,6 +673,7 @@ renee.pl###yourcx_blk
 reporters.pl##.wpsr-followbar
 scooterkingz.com.pl##.sqterybox
 serialomaniak.pl##.join-us
+shark.sklep.pl###cartBox, #contactBox
 siatka.org##.rss
 silesion.pl##.is_stuck.js-sticky.floatingSocials > ul > li:nth-of-type(5)
 siligan.pl##.widget_contact, .widget_cartbox, #widget_5, #widget_6, .widget_left_wrapper
@@ -682,6 +687,7 @@ stolicazdrowia.pl##.mashicon-mail
 stopklatka.pl##.platforms_adfloor
 swiatseriali.interia.pl##.recommend-flybar-button
 sympatia.onet.pl###iconsBar
+tamaj.pl###allwidget
 telekarma.pl###flyCart, #flyHelp
 telemedi.co##.sidebar-links
 topsolutions.pl###popup_contact
@@ -694,6 +700,7 @@ vida.pl##.home
 wakacje.pl##.rightClipboard, .rightSpeech
 wakai.pl###sod-drawer-handle
 wanika.pl###cloudBox
+wedkarz.pro##.ikonkiw.hidden-xs > a[href="/koszyk"]
 wesolakraina.pl##.kontrast_tlo
 widzewlodz.pl###boxNavi
 wlaczoszczedzanie.pl##.fm-icon
@@ -743,7 +750,6 @@ bettingexpert.com##.slideInUp
 bitserwis.com.pl##.flaticon-home
 blogspot.com##.scrollToTop
 citroen.pl###scrolltop
-centrumdruku3d.pl,cyfrowypolsatnews.pl,tugazeta.pl##.cd-top
 ckz.pl##.wpv-scroll-to-top
 comel-it.com##.g-totop
 ctb.com.pl,movieway.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
@@ -765,7 +771,6 @@ fasardi.com,pl.bab.la##.back-to-top
 felixcom.net###scrollup
 forbes.pl##.slideToTop
 gchmanhattan.pl###slide_top
-gdzie-na-sylwestra.pl,www.witanet.net,homebook.pl,bezpiecznapodroz.org###go-top
 getinbank.pl###scroll_top
 gizchina.com.pl##.vw-scroll-to-top
 gniezno24.com##.g24-topbutton
@@ -787,7 +792,6 @@ jastrzabpost.pl##.up
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
 klasykami.pl###totopLink
-kliknijwzdrowie.pl,tasteandtravel.pl###scroll_totop
 kodiwpigulce.pl,niemarkowe.pl,gruparmf.pl,blip.pl,grillmix.pl,e-horyzont.pl,mediasystem-tdi.pl###totop
 komp.tech##.scrolltop
 komputronik.pl##.rollup
@@ -797,7 +801,6 @@ lamoda.pl##.js-return-to-top
 lechia.net###gkBackToTop
 lento.pl###scroller
 lidl.pl##.totopbutton
-lolmania.pl,polskaracja.com,viralz.pl##.g1-back-to-top
 lp.travelist.pl###returnToTopButton
 manjaro.pl##.generate-back-to-top
 marbo-sport.pl##.upArrow
@@ -831,7 +834,7 @@ optinex.pl###btn_up
 osram.pl##.jump-to-top
 outdoortrack.pl##.to-top-container
 p2mforum.info###uix_jumpToFixed
-pense.pl###go-top, .arrow
+pense.pl##.arrow
 picodi.com###scroll-top
 pielegniarki.info.pl##.toTheTop
 pl###back-to-top
@@ -846,6 +849,7 @@ pl###doGory
 pl###footer-back-to-top
 pl###g1-back-to-top
 pl###go-to-top
+pl###go-top
 pl###goTop
 pl###gotop
 pl###gototop
@@ -857,17 +861,21 @@ pl###scroll-to-top
 pl###scroll-top
 pl###scroll-top-link
 pl###scroll-up[href="#masthead"]
+pl###scroll_totop
 pl###scrollToTop
-pl###toTop
+pl###scrollUp
 pl###topcontrol
+pl###toTop
 pl##.back-to-top
 pl##.back_to_top
 pl##.backToTop
 pl##.back-top
+pl##.cd-top
 pl##.dogory
 pl##.et_pb_scroll_top
 pl##.fa-angle-double-up
 pl##.fa-angle-up
+pl##.g1-back-to-top
 pl##.go-to-top
 pl##.mh-back-to-top
 pl##.scroll-top
@@ -884,6 +892,7 @@ playstation.com,www.wizytowka.be###back-to-top
 plejada.pl###goback
 polona.pl##.js-to-top
 polsatnews.pl###fab
+polskaracja.com##.g1-back-to-top
 polskiautohandel.pl,optyczne.pl##.backtopbutton
 polskihurtworld.eu##.tgtop
 pomorski-bs.pl###s5_scrolltop_a
@@ -891,7 +900,6 @@ pomyslnawszystko.pl##div[class^="go-top"]
 pozyczkomat-lodz.pl##.hm_go_top
 pracawsieci.net###ruby-back-top
 programyzadarmo.net.pl###sticky_gototop
-proinfosc.com.pl###scrollUp:nth-of-type(2)
 pssite.com##.scrolltop
 puck.naszemiasto.pl###kotwica
 racjonalista.tv##.gotop
@@ -909,7 +917,6 @@ skantech.com.pl###dynamic-to-top
 sklep-agrohandel.pl##.scroll_top.sidebar_fixed_btn
 sklep-presto.pl##.desktop.pageToTop
 sklepbaterie.pl###topLink
-sklepdlaplastykow.pl###go-top
 smartninja.pl##.back-to-top-btn
 smartpage.pl##.right_top_scroll
 smartpozyczka.pl##.toTop
@@ -923,9 +930,9 @@ vmc.org.pl##.anchor
 volkswagen.pl##.container-fluid.vw_m520_topbar
 vulcan.edu.pl###b_gora
 wec.com.pl##.go2top
+witanet.net,bezpiecznapodroz.org###go-top
 witchen.com##.btn-goto-top
 www.akademiareklamy.edu.pl###topscroller
-www.artefakt.pl,unibep.pl,ulicaekologiczna.pl,przyloga.pl###scrollUp
 www.chamskie.pl###widget-back-to-top
 www.homebook.pl##.is-active.js-go-top.go-top
 www.hoteladler.com###gotop
@@ -939,7 +946,6 @@ xlomza.pl##.uk-totop
 zalando.pl##.z-navigation-footer_backToTop
 zdrowyportal.org###topcontrol
 zrobisztosam.com###topLink
-zumiko.pl###scrollUp
 zyczenia-noworoczne.eu###back_top
 ||back-to-top.appspot.com/app/index.html
 ||greencanoe.pl/wp-content/themes/cookbook/js/jquery.scrollUp.min.js
@@ -972,6 +978,7 @@ conner.pl##.allegro
 direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
 dobrymechanik.pl###mfind-fixed
+domiogrod.e-sas.pl###ri-widget
 doradcasmaku.pl##.helper.side-widget
 dziennik.pl##.switcher-button, #nextArticleWidget
 dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
@@ -1089,6 +1096,7 @@ zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 ||niszczarki.org/templates/standard/images/jestesmy_na_allegro.jpg
 ||pcaction.pl/inne/allegro_komentarze.php
 ||pcaction.pl/szablony/standardowy.rwd/obrazki/zakladki/allegro.png
+||prokonsumencki.pl/certyfikat/widget/*$script,third-party
 ||ssl.ceneo.pl/shops/sw.js$third-party
 ||ssl.ceneo.pl/shops/v3/script.js$third-party
 ||static.whatshelp.io/widget-send-button/js/init.js
