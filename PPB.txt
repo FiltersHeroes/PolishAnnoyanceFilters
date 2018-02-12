@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: zt6X+mmGgp+1wXgkudPDRA
+! Checksum: i46ZQczz2hsxh5TdMMqBsg
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 10 Feb 2018 20:09 UTC+01
-! Version: 201802102009
+! Last modified: 12 Feb 2018 22:12 UTC+01
+! Version: 201802122212
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 10 lut 2018, 20:09 UTC+01
+! Aktualizacja: pon, 12 lut 2018, 22:12 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -47,6 +47,7 @@ bestcena.pl##div[class^=newsletter-box]
 biedronka.pl##.newsletter-tile
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bigstar.pl##.info:nth-of-type(2)
+bitcoin-online.pl#?#.block-title:-abp-contains(Newsletter)
 biznesalert.pl##.subscribe
 blip.pl###salesmanagoIframe
 bluecity.pl##.col-newsletter.col
@@ -368,10 +369,12 @@ funtech.pl##.dylematy
 galeria-kaskada.pl###modalNewsletter
 galeriaveneda.com.pl###popup
 gazetapraca.pl###overlayJS
+gizchina.com.pl##.popmake
 godealla.pl###coupon-groupon, #coupon-groupon-overlay
 gymeltoro.pl##.popup
 hafija.pl##.dgd_overlay, .dgd_stb_box
 hegos.eu##.popup, .popup-bg
+hipp.pl##.m-promo
 informacjenews.pl##.popmake
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
 instytutlogopedyczny.pl##.pytajnik
@@ -1000,6 +1003,7 @@ fronda.pl##.slided-article
 gazetapraca.pl##.js-offer-suggested-offer-btn.next-offer-box
 gazetaprawna.pl###nextArticleWidget
 getinbank.pl##.quickMenuRow.row
+gizchina.com.pl##.vw-more-articles
 goral.info.pl##.showup.btn.contact-button
 guzik.konin.pl,cebit.pl##.fab
 hbo.pl##.ribbon
@@ -1130,6 +1134,7 @@ swiss.com.pl###lhc_status_container
 tapeciarnia.pl###div_okienko_shoutbox_schowane
 ||chat.4finance.com^$third-party
 ||chat.freshdesk.com^$third-party,xmlhttprequest
+||chatbro.com/embed.js$third-party
 ||cloud.limdesk.com/widget/js/widget.js
 ||code.tidio.co^$third-party
 ||cxel.fcc-online.pl/chat/widget.js
