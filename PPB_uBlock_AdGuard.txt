@@ -1,16 +1,16 @@
-! Checksum: DlT/03P3d+8GgbiakdWckQ
+! Checksum: +wP9jxzn+8CK+XWmTX5fZg
 ! Title: Polskie filtry elementów irytujących - uzupełnienie do uBlocka
 ! Polish Annoyance Filters - supplement for uBlock
 ! Codename: Annoyance - supplement
-! Last modified: 07 Feb 2018 19:20 UTC+01
-! Version: 201802071920
+! Last modified: 13 Feb 2018 17:33 UTC+01
+! Version: 201802131733
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: śro, 07 lut 2018, 19:20 UTC+01
+! Aktualizacja: wto, 13 lut 2018, 17:33 UTC+01
 !
 !
 ! Popupy
@@ -93,6 +93,14 @@ miastodzieci.pl##.modal-open:style(overflow: auto !important; padding-right: 0px
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
+odczasudoczasu.pl##.popmake-overlay
+!
+!+ PLATFORM(ext_ublock, ext_ff, ext_edge)
+odczasudoczasu.pl##html.pum-open:style(overflow: auto !important;)
+!
+!+ NOT_PLATFORM(ext_ublock, ext_ff, ext_edge)
+odczasudoczasu.pl#$#html.pum-open:has(>body) {overflow: auto !important; }
+!
 oleole.pl###modalContainer
 oleole.pl##html:style(overflow: auto!important;)
 partneragdrtv.com.pl##.mfp-bg
