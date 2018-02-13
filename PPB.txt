@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: i46ZQczz2hsxh5TdMMqBsg
+! Checksum: dck5qR8+KcObBt4zE1qRzw
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 12 Feb 2018 22:12 UTC+01
-! Version: 201802122212
+! Last modified: 13 Feb 2018 17:32 UTC+01
+! Version: 201802131732
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 12 lut 2018, 22:12 UTC+01
+! Aktualizacja: wto, 13 lut 2018, 17:32 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -100,6 +100,7 @@ erp-view.pl###top-mod
 eszkola24.pl##.news-letter
 euro.com.pl###footer-shops > .column:nth-of-type(1)
 felixcom.net##.ftop > .container > .right
+flies-stepbystep.com###widget-7
 fish24.pl##.newsletter_foot
 fokusfashion.com###menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 fokusfashion.com##form > input:nth-of-type(2)
@@ -109,6 +110,7 @@ galeria-warminska.pl##.nwsltr.box
 galeriabronowice.pl##.news
 gamedot.pl##.footer-top-container-item:nth-of-type(4)
 geekwork.pl###newsletter-head
+gofin.pl##img[src="https://www.gofin.pl/images/newslettery_gofin_dzial.png"]
 grawerowanie.org.pl##.signup
 grillmix.pl##.col-sm-3:nth-of-type(5)
 hart.pl###_ctl0_NewsLetterInitC_NewsletterForm
@@ -138,10 +140,12 @@ lampy.pl###newsletterbox_1
 lideria.pl###box_newsletter_text_books
 lidl.pl##.form--newsletter
 majsterkowo.pl###text-9
+mamotoja.pl##.nlt-footer
 mamstartup.pl##.hb-right.submitClearInput
 mango.pl###smSubscriptonBox
 marbo-sport.pl###top_newsletter
 masterlease.pl##.blue-green.section
+meblohaus.pl##.moduletable_left
 mediaarena.pl###fx-newsletter-freshmail
 mediamarkt.pl##.b-header_metaItem:nth-of-type(3)
 mediamarkt.pl,saturn.pl##.m-newsletterBox
@@ -164,6 +168,7 @@ niedzwiedz.lento.pl##tbody > .notify-save
 niezlomni.com###text-10
 o.pl###email-bar, #nl-icon, #cs-newsletter
 obserwatorfinansowy.pl###newsletterForm
+odczasudoczasu.pl##.vc_row-has-fill:-abp-has(.form_subscribe)
 ofertatorun.pl##.content_bottom.row
 oficynafk.pl##.col-md-4 > .row:nth-of-type(3)
 ogloszenia24.info###newsletter_section
@@ -225,10 +230,12 @@ polskacanada.com##.footer-4.footer-widget:nth-of-type(2)
 polskieradio.com##.post-widget.widget:nth-of-type(4) > .post-widget.widget
 polszczyzna.pl##.eltdf-column:nth-of-type(4)
 polszczyzna.pl##.widget_yikes_easy_mc_widget
+portalpszczelarski.pl##.element.col-3-7
 portalspozywczy.pl###socialBox
 portalzp.pl##.bottom-newsletter
 poznan.factory.pl##.pane-2.pane-custom.panel-pane
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
+proline.pl##td:nth-of-type(2) > .cell-round-title:nth-of-type(2)
 propaganda24h.pl###fx-before-footer
 proto.pl###block-entityform-block-newsletter
 pssite.com##.cell4.cell
@@ -277,6 +284,7 @@ tapenda.pl##a[href="/newsletter/"]
 telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 temi.pl##.module:nth-of-type(8) > div > div > div
+tokfm.pl##.container > ul > li:nth-of-type(3)
 topfish.pl##.n56467_container
 tustolica.pl###menumini > li:nth-of-type(3)
 tygodnikprzeglad.pl###sidebar > .widget.widget-2
@@ -290,6 +298,9 @@ wearmedicine.com##.newsletter, #nlThanks
 wispol.eu##.newsletter
 wittchen.com##.widget-newsletter
 wndcomp.pl###PrawaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
+wnp.pl###socialBox > .wrapper
+wnp.pl##.mail
+wnp.pl##.social > li:nth-of-type(1)
 wolkom.pl##.footer_newsletter
 www.rp.pl##.page-footer__mk
 wyborcza.biz##.foot-summary-buttons-share-newsletter
@@ -365,6 +376,7 @@ eporady24.pl##.zaczekaj
 eska.pl###_hj_survey_invite_container
 eswinoujscie.pl##.ulp-layer, .ulp-overlay
 fashionata.pl##.nlpwContainer, .pwShade
+francuskie.pl##.greensboro-optin-visible
 funtech.pl##.dylematy
 galeria-kaskada.pl###modalNewsletter
 galeriaveneda.com.pl###popup
@@ -440,6 +452,7 @@ pol-nor.com###boxpopup, #overlay, #popforfirma
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 portel.pl###closeTL
 prettyone.pl##.modal-backdrop, .pwebbox-modal
+proline.pl##div[style*="visibility: visible; display: block;"]
 przetargi.egospodarka.pl###js_popup_przetargi
 ravelo.pl###modalAlertMethodNL
 resortpro.ht-int.com##.newsletter-overall
@@ -471,6 +484,7 @@ swiato-podglad.pl###popup-background
 szybka-moneta.pl###moneta_popup
 taniaksiazka.pl##.newsletter-popup
 telewizja-cyfrowa.com##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
+tokfm.pl###komunikat_dla_player3
 travelist.pl###logregLead, #modalOverlay
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
@@ -513,6 +527,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||losyziemi.pl/?spu_action=spu_load&lang=
 ||mailerlite.com^$third-party
 ||mamstartup.pl/newsletter/popup
+||meblohaus.pl/templates/meblohaus/js/popup.js
 ||mediaexpert.pl/js/popup.js
 ||multikurs.pl/Framework/Graphics/js/popup.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
@@ -631,6 +646,7 @@ majsterkowo.pl##.feedback
 marbo-sport.pl###menu_basket_widget
 materace-dla-ciebie.pl##.outlet-btn
 mbank.pl##.covered.edge-menu
+meblohaus.pl##.big-link
 mediasystem-tdi.pl##.right.ltr.a11y-toolbar
 meritum.gda.pl###rightBoxes
 miedziowe.pl,elka.pl###showhidecart
@@ -870,9 +886,9 @@ pl###scrollUp
 pl###topcontrol
 pl###toTop
 pl##.back-to-top
+pl##.back-top
 pl##.back_to_top
 pl##.backToTop
-pl##.back-top
 pl##.cd-top
 pl##.dogory
 pl##.et_pb_scroll_top
@@ -890,6 +906,7 @@ pl##.scrollup
 pl##.td-scroll-up
 pl##.to-the-top
 pl##.totop
+pl##a[href="#top"]
 player.pl##.footer-panel-toggle
 playstation.com,www.wizytowka.be###back-to-top
 plejada.pl###goback
@@ -900,6 +917,7 @@ polskiautohandel.pl,optyczne.pl##.backtopbutton
 polskihurtworld.eu##.tgtop
 pomorski-bs.pl###s5_scrolltop_a
 pomyslnawszystko.pl##div[class^="go-top"]
+portalpszczelarski.pl###APPliftPageUp
 pozyczkomat-lodz.pl##.hm_go_top
 pracawsieci.net###ruby-back-top
 programyzadarmo.net.pl###sticky_gototop
@@ -999,6 +1017,7 @@ facetemjestem.pl##.uk-hidden-small, .sidebar-sticky
 focus.pl##.box-obserwuj-newsletter
 forpro.pl###message
 forsal.pl,gazetaprawna.pl###boxSubscr2016
+francuskie.pl##.td-more-articles-box
 fronda.pl##.slided-article
 gazetapraca.pl##.js-offer-suggested-offer-btn.next-offer-box
 gazetaprawna.pl###nextArticleWidget
@@ -1043,6 +1062,7 @@ newsweek.pl###nitro-block, .wrapper, #ARTICLE_STREAM_PATH
 nietylkopasta.pl###dbx_light, #upprev_box
 nocowanie.pl##.hidden-sm.hidden-xs.tc:nth-of-type(3)
 nocowanie.pl##.js-nav-prev-next, .sticky__element
+odczasudoczasu.pl##.fixed-nav
 panoramafirm.pl##.container.pt-1.card.blog-box
 parenting.pl##.parenting-tv-latest
 pl###ClPanel
