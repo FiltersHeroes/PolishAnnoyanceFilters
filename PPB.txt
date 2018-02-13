@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: dck5qR8+KcObBt4zE1qRzw
+! Checksum: u9BKOLxY9YOW7L5CB0sPNw
 ! Title: Polskie filtry elementów irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 13 Feb 2018 17:32 UTC+01
-! Version: 201802131732
+! Last modified: 13 Feb 2018 17:35 UTC+01
+! Version: 201802131735
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wto, 13 lut 2018, 17:32 UTC+01
+! Aktualizacja: wto, 13 lut 2018, 17:35 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -168,7 +168,7 @@ niedzwiedz.lento.pl##tbody > .notify-save
 niezlomni.com###text-10
 o.pl###email-bar, #nl-icon, #cs-newsletter
 obserwatorfinansowy.pl###newsletterForm
-odczasudoczasu.pl##.vc_row-has-fill:-abp-has(.form_subscribe)
+odczasudoczasu.pl#?#.vc_row-has-fill:-abp-has(.form_subscribe)
 ofertatorun.pl##.content_bottom.row
 oficynafk.pl##.col-md-4 > .row:nth-of-type(3)
 ogloszenia24.info###newsletter_section
