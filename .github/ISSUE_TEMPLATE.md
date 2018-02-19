@@ -1,5 +1,5 @@
 <!--
-Dziękujemy za zgłoszenie do Polskich filtrów elementów irytujących!
+Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
 -->
 ### Co trzeba zrobić, aby pojawił się irytujący element?
 1. <!--Pogapić się w prawo.--> 
@@ -15,10 +15,12 @@ Dziękujemy za zgłoszenie do Polskich filtrów elementów irytujących!
 **Bloker:** 
 
 **Używane filtry:**
-1. Polskie filtry elementów irytujących
-2. 
-3. 
-4. 
+1. EasyList
+2. Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
+3. Polskie Filtry Ciasteczkowe
+4. Polskie Filtry Elementów Irytujących
+5. 
+6. 
 
 ### Zrzut ekranu
 <!--
