@@ -1,19 +1,20 @@
 [Adblock Plus 2.0]
-! Checksum: mFBYaDg9Fnywov+PR+rH+Q
+! Checksum: 0xxbDu+TuPVZXrB7Mc+2dw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 22 Feb 2018 14:00 UTC+01
-! Version: 201802221400
+! Last modified: 22 Feb 2018 20:40 UTC+01
+! Version: 201802222040
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
+!   Formularz (nie wymaga rejestracji) -> https://polishannoyancefilters.netlify.com/issues
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 22 lut 2018, 14:00 UTC+01
+! Aktualizacja: czw, 22 lut 2018, 20:40 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -47,6 +48,8 @@ bestcena.pl##div[class^=newsletter-box]
 biedronka.pl##.newsletter-tile
 biegambolubie.com.pl##.cp-info-bar-wrapper
 bigstar.pl##.info:nth-of-type(2)
+bissole.pl###text-6
+bissole.pl##a[href="#newsletter"]
 bitcoin-online.pl#?#.block-title:-abp-contains(Newsletter)
 biznesalert.pl##.subscribe
 blip.pl###salesmanagoIframe
@@ -94,6 +97,8 @@ egospodarka.pl##.ego-newsletter
 ehurt.eu###menu_newsletter
 ekomercyjnie.pl##.clearfix.main-menu > li:nth-of-type(1)
 ekomercyjnie.pl##.home-newsletter, .blog-newsletter, #bottom-newsletter
+eksperymentalnie.com##.form.ck-column, .widget_mailchimpsf_widget
+eksperymentalnie.com##a[href="https://www.eksperymentalnie.com/zapisz-sie-do-newslettera/"]
 eloblog.pl##a[href="https://eloblog.pl/newsletter/"]
 emaks.pl###newsletter-validate-detail
 empik.com##.footerNewsletter__form-wrap
@@ -101,6 +106,7 @@ erp-view.pl###top-mod
 evertiq.pl##.register.index.news
 eszkola24.pl##.news-letter
 euro.com.pl###footer-shops > .column:nth-of-type(1)
+fandroid.com.pl##.widget-incredibbble-mailchimp-form
 felixcom.net##.ftop > .container > .right
 flies-stepbystep.com###widget-7
 fish24.pl##.newsletter_foot
@@ -113,6 +119,7 @@ galeriabronowice.pl##.news
 gamedot.pl##.footer-top-container-item:nth-of-type(4)
 geekwork.pl###newsletter-head
 gofin.pl##img[src="https://www.gofin.pl/images/newslettery_gofin_dzial.png"]
+gospodarz.pl###bucia > div:nth-of-type(2)
 grawerowanie.org.pl##.signup
 grillmix.pl##.col-sm-3:nth-of-type(5)
 hart.pl###_ctl0_NewsLetterInitC_NewsletterForm
@@ -140,6 +147,7 @@ krakusik.pl##.mini-newsletter
 kupony.mydeal.pl###newsletter-foot
 ladnydom.pl,myfitness.pl,wyborcza.biz##.nlt
 lampy.pl###newsletterbox_1
+languagetool.org###newsletter_reg
 lideria.pl###box_newsletter_text_books
 lidl.pl##.form--newsletter
 majsterkowo.pl###text-9
@@ -179,6 +187,7 @@ okazik.pl##.container:nth-of-type(1) > .row-wrap.row > .col-md-3:nth-of-type(2)
 okazje.eholiday.pl##.newsletter-link
 onebid.pl##.leftmainmenu.hidden-sm.hidden-xs.col-lg-3.col-md-3.col-xs-12 > .hidden-xs.hidden-sm
 orange.pl###newsletterSkipLink
+ostatniatawerna.pl###custom_html-2
 outsourcingportal.eu##.newsletterbox
 pantabletka.pl##.ds-newsletter
 pasja-informatyki.pl##.widget_1
@@ -264,6 +273,7 @@ satkurier.pl,podrozezantena.pl,digi-tv.pl,solarkurier.pl,bochniaisol.pl###newsle
 sck.com.pl###ms-newsletter-box
 sck.pl###ms-newsletter-box
 scooterkingz.com.pl##.newsletter_form
+selectivv.com###text-2
 selgros24.pl###formNewsletter
 selgros24.pl##.box-last.box > h2
 sephora.pl###newsletterForm
@@ -307,6 +317,8 @@ vivaldi.com###footer-signup
 wakacje.pl###mainFootNewsletter
 waszaturystyka.pl##.platform-content:nth-of-type(2)
 wearmedicine.com##.newsletter, #nlThanks
+widzialni.pl##.widget_widzialni_newsletter
+wirtualnemedia.pl##.extra_news > .header_blue
 wispol.eu##.newsletter
 wittchen.com##.widget-newsletter
 wndcomp.pl###PrawaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
@@ -317,6 +329,8 @@ wolkom.pl##.footer_newsletter
 www.rp.pl##.page-footer__mk
 wyborcza.biz##.foot-summary-buttons-share-newsletter
 wyjatkowyprezent.pl###footerNewsletter
+wylecz.to##.portlet-box:nth-of-type(4) 
+wylecz.to##.portlet-newsletter 
 yes.pl##.footer-middle
 yieldbird.com##.hidden-widget.float-widget
 zadowolenie.pl##.b-adZone_wide:nth-of-type(7)
@@ -386,21 +400,22 @@ eluban.pl###popup
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
 entelo.pl##.b-modal, .bpopup
 eporady24.pl##.zaczekaj
+esensja.pl###FBox
 eska.pl###_hj_survey_invite_container
 eswinoujscie.pl##.ulp-layer, .ulp-overlay
 fashionata.pl##.nlpwContainer, .pwShade
+forgeofempires.com###offer-diamonds
 francuskie.pl##.greensboro-optin-visible
 funtech.pl##.dylematy
 galeria-kaskada.pl###modalNewsletter
 galeriaveneda.com.pl###popup
 gazetapraca.pl###overlayJS
-gizchina.com.pl##.popmake
+gizchina.com.pl,informacjenews.pl,selectivv.com##.popmake
 godealla.pl###coupon-groupon, #coupon-groupon-overlay
 gymeltoro.pl##.popup
 hafija.pl##.dgd_overlay, .dgd_stb_box
 hegos.eu##.popup, .popup-bg
 hipp.pl##.m-promo
-informacjenews.pl##.popmake
 instalacjebudowlane.pl###simplemodal-overlay, #simplemodal-container
 instytutlogopedyczny.pl##.pytajnik
 interia.pl##.error-page-layer
@@ -498,7 +513,7 @@ swiato-podglad.pl###popup-background
 szkolycelne.infoserwis.elk.pl###scyscraper
 szybka-moneta.pl###moneta_popup
 taniaksiazka.pl##.newsletter-popup
-telewizja-cyfrowa.com##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
+telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 tokfm.pl###komunikat_dla_player3
 travelist.pl###logregLead, #modalOverlay
 txm.pl##.mfp-bg, .sp-fancybox-overlay
@@ -949,6 +964,7 @@ rolkom.net##.fa-angle-up.fa-2x.fa.btn
 sakolife.pl###powrot-do-gory
 samsung.com##.s-btn-gotop
 scie24.pl###up
+selectivv.com##.scroll-top-button
 setcomp.net###back_to_top
 sfinks.info###go_to_top
 skantech.com.pl###dynamic-to-top
@@ -970,6 +986,7 @@ vulcan.edu.pl###b_gora
 wec.com.pl##.go2top
 witanet.net,bezpiecznapodroz.org###go-top
 witchen.com##.btn-goto-top
+wylecz.to##.btn-top-page 
 www.akademiareklamy.edu.pl###topscroller
 www.chamskie.pl###widget-back-to-top
 www.homebook.pl##.is-active.js-go-top.go-top
@@ -1025,8 +1042,7 @@ e-ciucholand.com##.extraBox
 e-saving.pl##.scroll
 egospodarka.pl##.ego-okienko
 ekai.pl##.show.extra-article
-eksperymentalnie.com##.clear.main-bar.row
-eksperymentalnie.com###menu-item-9803
+eksperymentalnie.com###upprev_box
 elblag.net##.nextarticle.allpadding
 elka.pl###bannerBanderolaTlo, #bannerBanderolaPozycja
 eobuwie.com.pl##.header-callout
@@ -1080,7 +1096,7 @@ natemat.pl###posts-progress
 nawspolnej.tvn.pl###nextItem
 nestbank.pl##.fixed-label
 newsweek.pl###nitro-block, .wrapper, #ARTICLE_STREAM_PATH
-nietylkopasta.pl###dbx_light, #upprev_box
+nietylkopasta.pl###dbx_light
 nocowanie.pl##.hidden-sm.hidden-xs.tc:nth-of-type(3)
 nocowanie.pl##.js-nav-prev-next, .sticky__element
 odczasudoczasu.pl##.fixed-nav
