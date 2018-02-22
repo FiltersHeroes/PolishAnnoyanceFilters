@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 0xxbDu+TuPVZXrB7Mc+2dw
+! Checksum: tL3dHZQAInUHQPXJmCULYw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie filtry ciasteczkowe!
-! Last modified: 22 Feb 2018 20:40 UTC+01
-! Version: 201802222040
+! Last modified: 22 Feb 2018 22:36 UTC+01
+! Version: 201802222236
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia: 
@@ -14,7 +14,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 22 lut 2018, 20:40 UTC+01
+! Aktualizacja: czw, 22 lut 2018, 22:36 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -297,6 +297,7 @@ subiektywnieofinansach.pl##.et_pb_cta_0.et_pb_text_align_center.et_pb_bg_layout_
 subiektywnieofinansach.pl##.et_pb_row_4.et_pb_row
 supertydzien.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 suwalki24.pl##.box:nth-of-type(5)
+swiatdronow.pl##.widget_mailpoet_form
 swiatoze.pl##.widget_newsletterwidgetminimal
 szachownica.com.pl##.square-newsletter
 tamaj.pl##.lof-block.lofadva-block-4 > .lof-block-wrap > h4
@@ -526,6 +527,7 @@ willsoor.pl###newsletter_popup
 wispol.eu##.popup_news
 wwsi.edu.pl###adsdialog
 wylecz.to##.popupBackground
+wysokienapiecie.pl##.modal-overlay
 zblogowani.pl###more-posts-modal
 zielonyogrodek.pl##.mod_avt_alert
 zlotemysli.pl##._form_show._form-wrapper
@@ -885,6 +887,7 @@ optinex.pl###btn_up
 osram.pl##.jump-to-top
 outdoortrack.pl##.to-top-container
 p2mforum.info###uix_jumpToFixed
+pebx.pl###uix_jumpToFixed
 pense.pl##.arrow
 picodi.com###scroll-top
 pielegniarki.info.pl##.toTheTop
@@ -1221,6 +1224,7 @@ tapeciarnia.pl###div_okienko_shoutbox_schowane
 !
 !
 ! Wyjątki
+dron.pl#@#.widget_wysija
 ms.gov.pl#@##scroll-top
 rmf24.pl#@##backTop
 !
