@@ -1,16 +1,17 @@
-! Checksum: 7mbx6u/Atn1aMCI9y8hPMg
-! Title: Polskie Filtry Elementów Irytujących - uzupełnienie do uBlocka
-! Polish Annoyance Filters - supplement for uBlock
-! Codename: Annoyance - supplement
-! Last modified: 22 Feb 2018 20:40 UTC+01
-! Version: 201802222040
+! Checksum: 2P5pvZV2e3ZJRN27lvwNQQ
+! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
+! Polish Annoyance Filters - Supplement for uBlock & AdGuard
+! Codename: Annoyance - Supplement
+! Last modified: 24 Feb 2018 23:35 UTC+01
+! Version: 201802242335
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
-! Zgłoszenia: 
+! Zgłoszenia:
+!   Formularz (nie wymaga rejestracji) -> https://polishannoyancefilters.netlify.com/issues
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 22 lut 2018, 20:40 UTC+01
+! Aktualizacja: sob, 24 lut 2018, 23:35 UTC+01
 !
 !
 ! Newslettery
@@ -27,6 +28,8 @@ akademiaversum.pl###newsletter-pp
 akademiaversum.pl##body.with-overlay:style(overflow: auto!important;)
 alerabat.com##.jquery-modal
 alerabat.com##body:style(overflow: auto !important;)
+apynews.pl###fb-modal, .modal-backdrop
+apynews.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
