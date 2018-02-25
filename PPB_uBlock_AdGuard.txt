@@ -1,9 +1,9 @@
-! Checksum: 2P5pvZV2e3ZJRN27lvwNQQ
+! Checksum: CLtSpMtP7h3ckW1hmv8+Yg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: 24 Feb 2018 23:35 UTC+01
-! Version: 201802242335
+! Last modified: 25 Feb 2018 21:52 UTC+01
+! Version: 201802252152
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -11,7 +11,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 24 lut 2018, 23:35 UTC+01
+! Aktualizacja: nie, 25 lut 2018, 21:52 UTC+01
 !
 !
 ! Newslettery
@@ -107,7 +107,7 @@ odczasudoczasu.pl##.popmake-overlay
 odczasudoczasu.pl##html.pum-open:style(overflow: auto !important;)
 !
 !+ NOT_PLATFORM(ext_ublock, ext_ff, ext_edge)
-odczasudoczasu.pl#$#html.pum-open:has(>body) {overflow: auto !important; }
+odczasudoczasu.pl#$#html.pum-open:has(>body) { overflow: auto !important; }
 !
 oleole.pl###modalContainer
 oleole.pl##html:style(overflow: auto!important;)
@@ -180,6 +180,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !
 !
 ! Scrollujące filmiki
+forsal.pl##script:inject(abort-on-property-read.js, parseFloat)
 mamotoja.pl,polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 sport.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
 !
