@@ -1,9 +1,9 @@
-! Checksum: CLtSpMtP7h3ckW1hmv8+Yg
+! Checksum: zEDW4yZ28Q8CSVe7aBqgPg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: 25 Feb 2018 21:52 UTC+01
-! Version: 201802252152
+! Last modified: 01 Mar 2018 21:43 UTC+01
+! Version: 201803012143
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -11,7 +11,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nie, 25 lut 2018, 21:52 UTC+01
+! Aktualizacja: czw, 01 mar 2018, 21:43 UTC+01
 !
 !
 ! Newslettery
@@ -172,6 +172,7 @@ zaufanekliniki.pl##.modal-open:style(overflow: visible !important; padding-right
 !
 ! Powiadomienia Push
 meczyki.pl##script:inject(abort-on-property-read.js, Notification.requestPermission)
+mpcforum.pl##script:inject(set-constant.js, ips.utils.notification.supported, false)
 !
 !
 ! Przyciski
