@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 136kNKdYpx0TeTMLuB8DUQ
+! Checksum: XqZmpHKDuBuW246+UHmqoA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie Filtry Ciasteczkowe!
-! Last modified: 01 Mar 2018 21:43 UTC+01
-! Version: 201803012143
+! Last modified: 03 Mar 2018 11:42 UTC+01
+! Version: 201803031142
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 01 mar 2018, 21:43 UTC+01
+! Aktualizacja: sob, 03 mar 2018, 11:42 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -98,6 +98,7 @@ dobreprogramy.pl###phContent_SubscriptionsControl_lnkNewsletter
 dobry-kon.pl##.col-sm-3:nth-of-type(4)
 domodi.pl##.dm-footer-newsletter
 drewno.pl###nl_sticky
+dts24.pl##.widget_mailpoet_form
 e-ciucholand.com###newsletter_block_left
 ebroker.pl###ft_t_in
 egospodarka.pl##.ego-newsletter
@@ -307,6 +308,8 @@ sfinks.info##.t_align_r.m_xs_bottom_30.m_bottom_20.m_xs_top_0.m_top_40.col-sm-6.
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
 showroom.pl##.news-signup
 silesion.pl##.pageFooter__newsletter
+skionline.pl##.boks_tytul_out_cp:nth-of-type(3)
+skionline.pl##td:nth-of-type(2) > .boks:nth-of-type(3) > tbody
 sklep.motor-land.com.pl###side_header_newsletter
 sklep.zawiszabydgoszcz.eu###newsletter_block_left
 slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
@@ -548,6 +551,7 @@ siligan.pl###blackout
 siligan.pl###contentWindow
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sjp.pwn.pl,slowniki.pwn.pl###floater
+skionline.pl###popup_newsletter, #popup_tlo
 sklepdrapieznik.pl###backgroundPopup, #toPopup
 sklep.mieloch.pl###nicePopupWrapper
 sldc.eu###popup-over, #popup-overlay
@@ -877,6 +881,7 @@ dobrekupony.pl,bobbyburger.pl,hykker.com###to-top
 domodi.pl##.dm-go-up
 domtuiteraz.eu##.back-top
 domzagadek.pl###scroll_strz
+dts24.pl##.nav-btn
 ehurt.eu###backTop
 electro.pl###go_top
 enigmatech.eu###top-link
@@ -1120,6 +1125,7 @@ discordapp.com##.notice
 dobrymechanik.pl###mfind-fixed
 domiogrod.e-sas.pl###ri-widget
 doradcasmaku.pl##.helper.side-widget
+dts24.pl##.recommend-box
 dziennik.pl##.switcher-button, #nextArticleWidget
 dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
 e-ciucholand.com##.extraBox
