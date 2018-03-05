@@ -1,9 +1,9 @@
-! Checksum: zEDW4yZ28Q8CSVe7aBqgPg
+! Checksum: g/yH/WbYoYPWcBBmvCJMhQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: 01 Mar 2018 21:43 UTC+01
-! Version: 201803012143
+! Last modified: 05 Mar 2018 17:23 UTC+01
+! Version: 201803051723
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -11,7 +11,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 01 mar 2018, 21:43 UTC+01
+! Aktualizacja: pon, 05 mar 2018, 17:23 UTC+01
 !
 !
 ! Newslettery
@@ -177,6 +177,8 @@ mpcforum.pl##script:inject(set-constant.js, ips.utils.notification.supported, fa
 !
 ! Przyciski
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
+lubimyczytac.pl##.report-a-bug-container:style(position: absolute !important; top: 0 !important;)
+strimi.pl##.bugs:style(position: absolute !important;)
 wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
 !
 !
