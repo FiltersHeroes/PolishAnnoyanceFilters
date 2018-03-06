@@ -1,9 +1,9 @@
-! Checksum: z+/EcoG5HpJA9QKZfW9fpA
+! Checksum: xiJsiw/o502AA6Tth2Psww
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: 06 Mar 2018 19:59 UTC+01
-! Version: 201803061959
+! Last modified: 06 Mar 2018 23:25 UTC+01
+! Version: 201803062325
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -11,7 +11,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: wto, 06 mar 2018, 19:59 UTC+01
+! Aktualizacja: wto, 06 mar 2018, 23:25 UTC+01
 !
 !
 ! Newslettery
@@ -120,6 +120,8 @@ partneragdrtv.com.pl##.mfp-ready:has(.newsletter-box)
 partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
 pepco.pl##.modal-newsletter
 pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
+pewex.pl###popupStart
+pewex.pl##body,html:style(overflow: auto !important; margin-right: 0px !important;)
 playstation.com##script:inject(abort-current-inline-script.js, $, PDC.PopupManager)
 poznan.factory.pl##.region-popup
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
@@ -180,10 +182,16 @@ mpcforum.pl##script:inject(set-constant.js, ips.utils.notification.supported, fa
 !
 !
 ! Przyciski
+4free.waw.pl###spolecznosci:style(height: auto !important;)
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 lubimyczytac.pl##.report-a-bug-container:style(position: absolute !important; top: 0 !important;)
 strimi.pl##.bugs:style(position: absolute !important;)
 wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
+!
+!
+! Przyciski - kontakt
+brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !important; top: 40px !important; right: 0 !important;)
+brief.pl##body > .da0156dfc57b9ef01669068861c5cb38 > .fab-wrapper > .fab:style(position: absolute !important; top: 40px !important; right: 0 !important;)
 !
 !
 ! Scrollujące filmiki
