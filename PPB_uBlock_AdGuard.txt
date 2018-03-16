@@ -1,9 +1,9 @@
-! Checksum: ajZRnGTWplBXVMR1T0M2kQ
+! Checksum: uSP3mumU5ktfsBCuGdfe3w
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: 15 Mar 2018 23:24 UTC+01
-! Version: 201803152324
+! Last modified: 16 Mar 2018 11:26 UTC+01
+! Version: 201803161126
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -11,7 +11,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: czw, 15 mar 2018, 23:24 UTC+01
+! Aktualizacja: pią, 16 mar 2018, 11:26 UTC+01
 !
 !
 ! Newslettery
@@ -131,6 +131,9 @@ rylko.com###modal-newsletter
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
 selkar.pl,sklepkamil.pl##.modal-open:style(overflow: visible!important;)
 selkar.pl,sklepkamil.pl##.newsletter-modal, .modal-backdrop
+sferis.pl##.fancybox-margin:style(margin-left: 0px !important;)
+sferis.pl##.fancybox-overlay:has(#newsletter-popup)
+sferis.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0px !important;)
 smaker.pl###overlay, #popup
 !
 !+ PLATFORM(ext_ublock)
