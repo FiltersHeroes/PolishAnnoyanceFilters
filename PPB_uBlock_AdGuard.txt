@@ -1,9 +1,9 @@
-! Checksum: uSP3mumU5ktfsBCuGdfe3w
+! Checksum: nu4Bm840Xv7G7FrspGfGZQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: 16 Mar 2018 11:26 UTC+01
-! Version: 201803161126
+! Last modified: 16 Mar 2018 21:47 UTC+01
+! Version: 201803162147
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -11,7 +11,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pią, 16 mar 2018, 11:26 UTC+01
+! Aktualizacja: pią, 16 mar 2018, 21:47 UTC+01
 !
 !
 ! Newslettery
@@ -58,8 +58,9 @@ ekai.pl##.newsletter-popup
 ekai.pl##html > body:style(overflow: auto!important;)
 ergokantor.pl##.mfp-ready
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0px!important)
-euro.com.pl##.remodal-overlay, .remodal-wrapper
-euro.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+euro.com.pl##.remodal-overlay
+euro.com.pl##.remodal-wrapper:has(.nllContainer)
+euro.com.pl##html:style(overflow: auto !important; margin-right: 0px !important;)
 forum.gofin.pl###KW_Tlo, #KW_Okno
 forum.gofin.pl##body:style(overflow: auto !important;)
 fpiec.pl##.full-screen-overlay 
