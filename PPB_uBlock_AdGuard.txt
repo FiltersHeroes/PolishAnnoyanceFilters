@@ -1,9 +1,9 @@
-! Checksum: CH1TjRPMzvAo+B7OarXxKw
+! Checksum: MvxAG0ky1Xjs0mUMSZ1hkg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: 17 Mar 2018 12:32 UTC+01
-! Version: 201803171232
+! Last modified: 18 Mar 2018 12:43 UTC+01
+! Version: 201803181243
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -11,7 +11,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: sob, 17 mar 2018, 12:32 UTC+01
+! Aktualizacja: nie, 18 mar 2018, 12:43 UTC+01
 !
 !
 ! Newslettery
@@ -214,3 +214,7 @@ sport.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlay
 eglobalcentral.pl##.helper-container:style(background: none !important;)
 grawerowanie.org.pl##body:style(background: none!important;)
 znak.com.pl##body:style(background: none !important;)
+!
+!
+! Widgety
+rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !important;)
