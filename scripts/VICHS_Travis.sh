@@ -52,11 +52,18 @@ for i in "$@"; do
     # Przejście do katalogu, w którym znajduje się lokalne repozytorium git
     cd $sciezka/..
     
+    # Ustawianie nazwy kodowej (krótszej nazwy listy filtrów) do opisu commita w zależności od tego, co jest wpisane w polu „Codename:". Jeśli nie ma takiego pola, to codename=nazwa_pliku.
+    if grep -q "! Codename" $i; then
+        filtr=$(grep -oP '! Codename: \K.*' $i);
+    else
+        filtr=$(basename $i);
+    fi
+    
     # Dodawanie zmienionych sekcji do repozytorium git
     git config --global user.email "PolishJarvis@int.pl"
     git config --global user.name "PolishJarvis"
     git add $SEKCJE_KAT/*
-    git commit -m "Update sections of $FILTR [ci skip]"
+    git commit -m "Update sections of $filtr [ci skip]"
     
     # Ustawienie polskiej strefy czasowej
     export TZ=":Poland"
@@ -83,13 +90,6 @@ for i in "$@"; do
     # Zamiana atrapy sumy kontrolnej na prawdziwą
     sed -i "/! Checksum: /c\! Checksum: $suma_k" $i
     rm -r $i.chk
-    
-    # Ustawianie nazwy kodowej (krótszej nazwy listy filtrów) do opisu commita w zależności od tego, co jest wpisane w polu „Codename:". Jeśli nie ma takiego pola, to codename=nazwa_pliku.
-    if grep -q "! Codename" $i; then
-        filtr=$(grep -oP '! Codename: \K.*' $i);
-    else
-        filtr=$(basename $i);
-    fi
     
     # Dodawanie zmienionych plików do repozytorium git
     git add $i
