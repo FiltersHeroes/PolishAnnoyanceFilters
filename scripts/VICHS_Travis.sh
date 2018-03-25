@@ -56,7 +56,7 @@ for i in "$@"; do
     git config --global user.email "PolishJarvis@int.pl"
     git config --global user.name "PolishJarvis"
     git add $SEKCJE_KAT/*
-    git commit -S -m "Update sections of $FILTR [ci skip]"
+    git commit -m "Update sections of $FILTR [ci skip]"
     
     # Ustawienie polskiej strefy czasowej
     export TZ=":Poland"
