@@ -52,6 +52,12 @@ for i in "$@"; do
     # Przejście do katalogu, w którym znajduje się lokalne repozytorium git
     cd $sciezka/..
     
+    # Dodawanie zmienionych sekcji do repozytorium git
+    git config --global user.email "PolishJarvis@int.pl"
+    git config --global user.name "PolishJarvis"
+    git add $SEKCJE_KAT/*
+    git commit -S -m "Update sections of $FILTR [ci skip]"
+    
     # Ustawienie polskiej strefy czasowej
     export TZ=":Poland"
 
@@ -86,8 +92,6 @@ for i in "$@"; do
     fi
     
     # Dodawanie zmienionych plików do repozytorium git
-    git config --global user.email "PolishJarvis@int.pl"
-    git config --global user.name "PolishJarvis"
     git add $i
     git commit -m "Update $filtr to version $wersja [ci skip]"
     git push https://PolishJarvis:${GH_TOKEN}@github.com/PolishFiltersTeam/PolishAnnoyanceFilters.git HEAD:master
