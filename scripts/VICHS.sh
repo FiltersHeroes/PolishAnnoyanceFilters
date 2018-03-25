@@ -109,4 +109,3 @@ select yn in "Tak" "Nie"; do
         Nie ) break;;
 esac
 done
-done
