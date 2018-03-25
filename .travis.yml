@@ -4,7 +4,7 @@ addons:
     - locales
     - language-pack-pl
 script:
-- "./scripts/version_checksum_update_Travis.sh ./PPB.txt"
+- "./scripts/VICHS_Travis.sh $(dirname $(git diff-tree --no-commit-id --name-only -r master)).txt"
 env:
   global:
     secure: Ca2wYpDbZ5pu5uBzBHxxpVwIEjkWUt2CdwWe5gIWZpuDuokjMiwu2bJhVfsAz2RfQV4wyu7kRbRReqvddExgdfbteP310nUwBTJKq60IOZSHDd0UN7V3Xpze/lD6V7MIYn6bdfq1Bpy9xfpe5c1/QlxaEAyOxEg4aFk/aGpMr/pYodrW3gLwS1EHU9SD4FpN7zyUu3g/0v2fH1G1Ve+NVJycuJROALmKZiwDSd7rfg0opzOEh6WCRaAdq54eTXIXukT9e/3EeNmKobLxGUdGihJxyUpxBzNhMjSzIR8QEFwwwY3f2fgv8E85/id9EdTbNT3Cf5I3sCkQLx63I+gwm9q3p1Wk1KrWYeqtHacx27qUgEQIQjX8p+VHlSJZGLm7DzwRFtP1+uNG4iZK4oe+cWjUkdfgsJ0L/nmnI0Sd1cVUD5rxbJJX2FsRF/XqmrDGPCXoAy51Gk/Mjm0Zo7P87UXZna39CEw+et1B+nxYPB106IQdYhoroUt6G1QpHUlDp+ftyQkhRk4BAq4JLt4QBraOhz4CcXzAbB33rT/kGbkYZgnpAsOHx+gIWb2DElZ3u9BTrU87UxP7KGngiUjz8gyYJtvpaXD1MjwndaHSm7Y1XNn3pMwzrelU0zdQAhu/7Icg03eygjkrt0SsRnzhifaaOD2vILCV5jsPsb28Tow=
