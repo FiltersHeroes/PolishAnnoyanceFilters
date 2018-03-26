@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: lOypqptNT0BUdTtZh1ZZLg
+! Checksum: yM7YAGyGn6KVODrbXRTXNg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie Filtry Ciasteczkowe!
-! Last modified: 26 Mar 2018 16:13 UTC+02
-! Version: 201803261613
+! Last modified: 26 Mar 2018 21:29 UTC+02
+! Version: 201803262129
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: pon, 26 mar 2018, 16:13 UTC+02
+! Aktualizacja: pon, 26 mar 2018, 21:29 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -970,6 +970,7 @@ bitserwis.com.pl##.flaticon-home
 biznesomania.com.pl##.goto-top
 blasty.pl###widget-back-to-top
 blogspot.com##.scrollToTop
+bludshop.com###backTop
 bonprix.pl###slide-up
 citroen.pl,allegro.pl###scrolltop
 ckz.pl##.wpv-scroll-to-top
@@ -984,12 +985,14 @@ diagnozainternetu.pl##.top
 dobrekupony.pl,bobbyburger.pl,hykker.com,samequizy.pl###to-top
 domodi.pl##.dm-go-up
 domtuiteraz.eu##.back-top
+domusmater.pl###sttotop
 domzagadek.pl###scroll_strz
 dopracowani.pl###pulse_to_top
 dts24.pl##.nav-btn
 ehurt.eu###backTop
 electro.pl###go_top
 enigmatech.eu###top-link
+etroniks.pl###to_top
 etroniks.pl###to_top 
 extraswiecie.pl###vscroll_to_top
 faltusdesign.wordpress.com##.tothetop
@@ -1008,14 +1011,20 @@ groupon.pl###ls-back-to-top
 gsbk.pl##.scroll-link
 heronews.pl##.gotop
 historiasportu.info##.et_pb_scroll_top
+home-you.com###toTop
 honda.pl##.buttonWrap
+hotelbania.pl##.js-scroll-to.return-top
+hotelbristolwarsaw.pl##.footer-backtotop
+hotelpegaz.eu###back_to_top
 infogmina.com##.goup-container
 infores.net###icon-mobile-scroll-top
+infotydzien.info###jm-back-top
 insoft.net.pl,tube.ad,jakzrobicwexcelu.pl##.go-top
 iperfumy.pl##.btn-scroll-top
 ip-serwis.pl##.mk-go-top
 jakzarabiaconline.blogspot.com###top
 jastrzabpost.pl##.up
+karmello.pl###gotoTop
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
 klasykami.pl###totopLink
@@ -1044,6 +1053,7 @@ meizupolska.pl##.toup
 metaloweszafkigrzewcze.eu,gdanskstrefa.com###scroll-up
 mobbingwpracy.com,sztab.org,koniec-swiata.org,esc.belchatow.com,halogorlice.info,lvlup.pro##.scrollup
 mojanorwegia.pl###goUp
+mojewypieki.com###jumpup
 mok.olsztyn.pl###neko-to-top
 moneygrabbing.co.uk,wolnekonopie.org##.kleo-go-top
 morele.net###back_to_top
@@ -1052,6 +1062,7 @@ motormag.pl##.prev-arrow, .next-arrow
 mpolski.pl##.arrow
 myphone.pl##.mainArrowBackToTop, .scroller
 napisy24.pl###smoothtop
+nat.pl##.page-scroll-up
 nbportal.pl###go-up
 nczas.com,cryptoacademy.club##.td-scroll-up
 neon24.pl###div_up_arrow
@@ -1070,6 +1081,7 @@ ono24.info###backtotop
 optinex.pl###btn_up
 osram.pl##.jump-to-top
 outdoortrack.pl##.to-top-container
+outlook.live.com##.rootIsFixed_0ca640de.ms-Layer--fixed.ms-Layer
 p2mforum.info###uix_jumpToFixed
 pastebin.com##.cd-top
 pebx.pl###uix_jumpToFixed
@@ -1145,6 +1157,7 @@ potplayerclub.pl##.ir-arriba
 pozyczkomat-lodz.pl##.hm_go_top
 ppe.pl##.toTop, .toTopRWD
 pracawsieci.net###ruby-back-top
+programtv.naziemna.info###toTop
 programyzadarmo.net.pl###sticky_gototop
 pssite.com##.scrolltop
 puck.naszemiasto.pl###kotwica
@@ -1159,10 +1172,12 @@ rolkom.net##.fa-angle-up.fa-2x.fa.btn
 sadeczanin.info###page-scrollup
 sakolife.pl###powrot-do-gory
 samsung.com##.s-btn-gotop
+sandraspa.pl###scrollTop
 scie24.pl###up
 selectivv.com,itcontent.eu##.scroll-top-button
 setcomp.net###back_to_top
 sfinks.info###go_to_top
+sheratonsopot.pl##.footer-backtotop
 skantech.com.pl###dynamic-to-top
 sklepbaterie.pl###topLink
 sklep-agrohandel.pl##.scroll_top.sidebar_fixed_btn
@@ -1176,6 +1191,7 @@ sprzedambiznes.pl##.js-go-to
 stacmnienato.pl###return-top
 superekspress.pl,prostozmostu24.pl,yggdrasil.pl,wsieci24.pl##.nnc-scroll-top
 tajemnice-swiata.pl###m7-go-top
+telepolis.pl##.footer-top
 testhub.pl##.sh-back-to-top
 tui.pl##.jump-top-btn
 tygodnikbydgoski.pl###jumpTop
