@@ -20,7 +20,7 @@ for i in "$@"; do
     cp -R $TEMPLATE $KONCOWY
 
     # Sortowanie sekcji
-    find ${SEKCJE_KAT} -type f -exec sort -V -o {} {} \;
+    find ${SEKCJE_KAT} -type f -exec sort -uV -o {} {} \;
 
     # Obliczanie ilości sekcji (wystąpień słowa @include w template'cie
     END=$(grep -o -i '@include' ${TEMPLATE} | wc -l)
