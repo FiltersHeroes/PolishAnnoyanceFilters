@@ -49,6 +49,20 @@ for i in "$@"; do
         rm -r $SEKCJE_KAT/external.temp
     done
     
+    
+    # Obliczanie ilości sekcji, w których ma zostać dokonana konwersja reguł na kompatybilne z AdGuardem
+    END_AG=$(grep -o -i '@AGinclude' ${TEMPLATE} | wc -l)
+    
+    for (( n=1; n<=$END_AG; n++ ))
+    do
+        AG=$(grep -oP -m 1 '@AGinclude \K.*' $KONCOWY)
+        cp -R ${sciezka}/../${AG}.txt ${SEKCJE_KAT}/
+        AG2REPLACE=$(basename ${AG})
+        sed -i '/script:inject/d' ${SEKCJE_KAT}/${AG2REPLACE}.txt
+        sed -e '0,/^@AGinclude/!b; /@AGinclude/{ r '${SEKCJE_KAT}/${AG}.txt'' -e 'd }' $KONCOWY > $TYMCZASOWY
+        cp -R $TYMCZASOWY $KONCOWY
+    done
+    
     # Usuwanie tymczasowego pliku
     rm -r $TYMCZASOWY
 
