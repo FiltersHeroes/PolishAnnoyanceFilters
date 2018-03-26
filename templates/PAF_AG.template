@@ -18,10 +18,66 @@
 !
 !
 !
+! Newslettery (nie popupy)
+@AGinclude PPB/newslettery
+!
+!
 ! Popupy
-@AGinclude PPB_uBlock_AdGuard/popupy
+@AGinclude PPB/popupy
 !
 !
-! Popupy z głównej
-@include ../PPB/popupy
+! Popupy - ciąg dalszy (reguły zmieniające CSS i inne usprawnienia)
+@AGinclude PAF_uBO/popupy_uBO
+!
+!
+! Powiadomienia push
+@AGinclude PPB/push
+!
+!
+! Przyciski
+@AGinclude PPB/przyciski
+!
+!
+! Przyciski - ciąg dalszy (reguły zmieniające CSS i inne usprawnienia)
+@AGinclude PAF_uBO/przyciski_uBO
+!
+!
+! Przyciski - kontakt
+@AGinclude PPB/przyciski_kontakt
+!
+!
+! Przyciski - kontakt - ciąg dalszy (reguły zmieniające CSS i inne usprawnienia)
+@AGinclude PAF_uBO/przyciski_kontakt_uBO
+!
+!
+! Scrollujące filmiki
+@AGinclude PPB/scroll_film
+!
+!
+! Strzałki
+@AGinclude PPB/strzalki
+!
+!
+! Tła zawierające autoreklamy
+@AGinclude PPB/tla_autoreklamy
+!
+!
+! Tła zawierające autoreklamy - ciąg dalszy (reguły zmieniające CSS i inne usprawnienia)
+@AGinclude PAF_uBO/tla_autoreklamy_uBO
+!
+!
+! Widgety
+@AGinclude PPB/widgety
+!
+!
+! Widgety - ciąg dalszy (reguły zmieniające CSS i inne usprawnienia)
+@AGinclude PAF_uBO/widgety_uBO
+!
+!
+! Widgety - czaty
+@AGinclude PPB/widgety_czaty
+!
+!
+! Wyjątki
+@AGinclude PPB/wyjatki
  

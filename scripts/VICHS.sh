@@ -19,11 +19,14 @@ for i in "$@"; do
     # Podmienianie zawartości pliku końcowego na zawartość template'u
     cp -R $TEMPLATE $KONCOWY
 
+    # SEKCJA_NS to sekcja, której zawartości nie chcemy sortować
+    SEKCJA_NS=$(grep -oP '@NOSORTinclude \K.*' $KONCOWY)
+        
     # Usuwanie pustych linii z sekcji
-    find ${SEKCJE_KAT} -type f -exec sed -i '/^$/d' {} \;
+    find ${SEKCJE_KAT} -type f ! -iname ${SEKCJA_NS}.txt -exec sed -i '/^$/d' {} \;
     
     # Sortowanie sekcji
-    find ${SEKCJE_KAT} -type f -exec sort -uV -o {} {} \;
+    find ${SEKCJE_KAT} -type f ! -iname ${SEKCJA_NS}.txt -exec sort -uV -o {} {} \;
     
     # Obliczanie ilości sekcji (wystąpień słowa @include w template'cie
     END=$(grep -o -i '@include' ${TEMPLATE} | wc -l)
@@ -49,17 +52,36 @@ for i in "$@"; do
         rm -r $SEKCJE_KAT/external.temp
     done
     
-    
     # Obliczanie ilości sekcji, w których ma zostać dokonana konwersja reguł na kompatybilne z AdGuardem
     END_AG=$(grep -o -i '@AGinclude' ${TEMPLATE} | wc -l)
     
+    # Konwersja reguł na kompatybilne z AdGuardem
     for (( n=1; n<=$END_AG; n++ ))
     do
         AG=$(grep -oP -m 1 '@AGinclude \K.*' $KONCOWY)
         cp -R ${sciezka}/../${AG}.txt ${SEKCJE_KAT}/
         AG2REPLACE=$(basename ${AG})
+        sed -i '/##html/d' ${SEKCJE_KAT}/${AG2REPLACE}.txt
         sed -i '/script:inject/d' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -e '0,/^@AGinclude/!b; /@AGinclude/{ r '${SEKCJE_KAT}/${AG}.txt'' -e 'd }' $KONCOWY > $TYMCZASOWY
+        sed -i 's|#?#|##|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
+        sed -i 's|-abp-has|has|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
+        sed -i 's|-abp-contains|contains|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
+        sed -i 's|has-text|contains|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
+        sed -i '/:style/s/##/#$#/g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
+        sed -i '/:style/s/)/ }/g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
+        sed -i 's|:style(| { |g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
+        sed -e '0,/^@AGinclude/!b; /@AGinclude/{ r '${SEKCJE_KAT}/${AG2REPLACE}.txt'' -e 'd }' $KONCOWY > $TYMCZASOWY
+        cp -R $TYMCZASOWY $KONCOWY
+    done
+    
+    # Obliczanie ilości niesortowalnych sekcji
+    END_NS=$(grep -o -i '@NOSORTinclude' ${TEMPLATE} | wc -l)
+    
+    # Doklejanie niesortowalnych sekcji w odpowiednie miejsca
+    for (( n=1; n<=$END_NS; n++ ))
+    do
+        SEKCJA_NS=$(grep -oP -m 1 '@NOSORTinclude \K.*' $KONCOWY)
+        sed -e '0,/^@NOSORTinclude/!b; /@NOSORTinclude/{ r '${SEKCJE_KAT}/${SEKCJA_NS}.txt'' -e 'd }' $KONCOWY > $TYMCZASOWY
         cp -R $TYMCZASOWY $KONCOWY
     done
     
