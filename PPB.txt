@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: TPRb4bpgVb6iDrdH2Zbx9g
+! Checksum: lOypqptNT0BUdTtZh1ZZLg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie Filtry Ciasteczkowe!
-! Last modified: 25 Mar 2018 14:27 UTC+02
-! Version: 201803251427
+! Last modified: 26 Mar 2018 16:13 UTC+02
+! Version: 201803261613
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub -> https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
-! Aktualizacja: nie, 25 mar 2018, 14:27 UTC+02
+! Aktualizacja: pon, 26 mar 2018, 16:13 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -245,6 +245,8 @@ outsourcingportal.eu##.newsletterbox
 o.pl###email-bar, #nl-icon, #cs-newsletter
 panoptykon.org##.social_n
 pantabletka.pl##.ds-newsletter
+pasazer.com##.section:nth-of-type(4)
+pasazer.com##.\].slidein.\[.box
 pasja-informatyki.pl##.widget_1
 pcaction.pl##.CalyBox:nth-of-type(4)
 pch24.pl##.NewsletterBox
@@ -852,6 +854,7 @@ osw.olsztyn.pl##.a11y-toolbar-list
 ozonee.pl###free_shiping_info
 o.pl###codemanipulator-tools
 partneragdrtv.com.pl###js-sis_menu
+pasazer.com##.fixed-search-tabs
 pccentre.pl###zak_error
 planeta.fm##.grecaptcha-badge
 plastcom.pl###test
@@ -914,8 +917,7 @@ wesolakraina.pl##.kontrast_tlo
 widzewlodz.pl###boxNavi
 wlaczoszczedzanie.pl##.fm-icon
 wroclaw.pl##.btn-report
-www.wp.pl###home-page-button
- 
+www.wp.pl###home-page-button 
 /plugins/system/screenreader/screenreader
 ||leaselink.pl/js/slide-button.js
 ||leaselink.pl/js/slide-button-shoper.js
@@ -1256,6 +1258,7 @@ doradcasmaku.pl##.helper.side-widget
 download.komputerswiat.pl###breadcrumbs_floating, #dl_breaking_news
 dts24.pl##.recommend-box
 dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
+dziennikzbrojny.pl###slidebox 
 dziennik.pl##.switcher-button, #nextArticleWidget
 egospodarka.pl##.ego-okienko
 ekai.pl##.show.extra-article
