@@ -10,7 +10,7 @@ for i in "$@"; do
     # Sciezka to miejsce, w którym znajduje się skrypt
     sciezka=$(dirname "$0")
 
-
+    
     TEMPLATE=$sciezka/../templates/${FILTR}.template
     KONCOWY=$i
     TYMCZASOWY=$sciezka/../${FILTR}.temp
@@ -19,9 +19,12 @@ for i in "$@"; do
     # Podmienianie zawartości pliku końcowego na zawartość template'u
     cp -R $TEMPLATE $KONCOWY
 
+    # Usuwanie pustych linii z sekcji
+    find ${SEKCJE_KAT} -type f -exec sed -i '/^$/d' {} \;
+    
     # Sortowanie sekcji
     find ${SEKCJE_KAT} -type f -exec sort -uV -o {} {} \;
-
+    
     # Obliczanie ilości sekcji (wystąpień słowa @include w template'cie
     END=$(grep -o -i '@include' ${TEMPLATE} | wc -l)
 
@@ -32,7 +35,6 @@ for i in "$@"; do
         sed -e '0,/^@include/!b; /@include/{ r '${SEKCJE_KAT}/${SEKCJA}.txt'' -e 'd }' $KONCOWY > $TYMCZASOWY
         cp -R $TYMCZASOWY $KONCOWY
     done
-
 
     # Obliczanie ilości sekcji/list filtrów, które zostaną pobrane ze źródeł zewnętrznych
     END_URL=$(grep -o -i '@URLinclude' ${TEMPLATE} | wc -l)
