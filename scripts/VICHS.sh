@@ -23,7 +23,7 @@ for i in "$@"; do
     SEKCJA_NS=$(grep -oP '@NOSORTinclude \K.*' $KONCOWY)
         
     # Usuwanie pustych linii z sekcji
-    find ${SEKCJE_KAT} -type f ! -iname ${SEKCJA_NS}.txt -exec sed -i '/^$/d' {} \;
+    find ${SEKCJE_KAT} -type f -exec sed -i '/^$/d' {} \;
     
     # Sortowanie sekcji
     find ${SEKCJE_KAT} -type f ! -iname ${SEKCJA_NS}.txt -exec sort -uV -o {} {} \;
