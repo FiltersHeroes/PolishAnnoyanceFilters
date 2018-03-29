@@ -1,9 +1,9 @@
-! Checksum: t6wfMr0FVNG4g8qLHOaEPg
+! Checksum: V6dRUS4GoqXoG0XbBl0Htw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka
 ! Polish Annoyance Filters - Supplement for uBlock
 ! Codename: Annoyance - Supplement
-! Last modified: 29 Mar 2018 15:15 UTC+02
-! Version: 201803291515
+! Last modified: 29 Mar 2018 16:09 UTC+02
+! Version: 201803291609
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 29 mar 2018, 15:15 UTC+02
+! Aktualizacja: czw, 29 mar 2018, 16:09 UTC+02
 !
 !
 ! Newslettery
@@ -185,7 +185,7 @@ mpcforum.pl##script:inject(set-constant.js, ips.utils.notification.supported, fa
 !
 ! Scrollujące filmiki
 forsal.pl##script:inject(abort-on-property-read.js, parseFloat)
-mamotoja.pl,polki.pl,viva.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
+mamotoja.pl,polki.pl,viva.pl,party.pl,wizaz.pl,gotujmy.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 sport.pl,wiadomosci.gazeta.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
 !
 !
