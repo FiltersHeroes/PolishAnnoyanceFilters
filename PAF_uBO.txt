@@ -1,9 +1,9 @@
-! Checksum: h69t6UG7/+R46dFF8/Ghow
+! Checksum: t6wfMr0FVNG4g8qLHOaEPg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka
 ! Polish Annoyance Filters - Supplement for uBlock
 ! Codename: Annoyance - Supplement
-! Last modified: 27 Mar 2018 11:04 UTC+02
-! Version: 201803271104
+! Last modified: 29 Mar 2018 15:15 UTC+02
+! Version: 201803291515
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord -> https://discord.me/polskiefiltry
 ! Licencja: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pl)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 27 mar 2018, 11:04 UTC+02
+! Aktualizacja: czw, 29 mar 2018, 15:15 UTC+02
 !
 !
 ! Newslettery
@@ -57,7 +57,7 @@ ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
 ekai.pl##html > body:style(overflow: auto!important;)
 ekai.pl##.newsletter-popup
-ergokantor.pl##html:style(overflow: visible!important; margin-right: 0px!important)
+ergokantor.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
 ergokantor.pl##.mfp-ready
 euro.com.pl##html:style(overflow: auto !important; margin-right: 0px !important;)
 euro.com.pl##.remodal-overlay
@@ -185,8 +185,8 @@ mpcforum.pl##script:inject(set-constant.js, ips.utils.notification.supported, fa
 !
 ! Scrollujące filmiki
 forsal.pl##script:inject(abort-on-property-read.js, parseFloat)
-mamotoja.pl,polki.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
-sport.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
+mamotoja.pl,polki.pl,viva.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
+sport.pl,wiadomosci.gazeta.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
 !
 !
 ! Tła zawierające autoreklamy
