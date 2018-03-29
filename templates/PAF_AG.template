@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 ! Checksum: 
 ! Title: Polskie Filtry Elementów Irytujących do AdGuarda
 ! Polish Annoyance Filters for AdGuard
@@ -29,6 +28,10 @@
 !
 ! Popupy - ciąg dalszy (reguły zmieniające CSS i inne usprawnienia)
 @AGinclude PAF_uBO/popupy_uBO
+!
+!
+! Popupy - ciąg dalszy (specyficzne reguły w zależności od przeglądarki)
+@NOSORTinclude popupy_AG
 !
 !
 ! Powiadomienia push

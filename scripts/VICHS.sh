@@ -62,6 +62,7 @@ for i in "$@"; do
         cp -R ${sciezka}/../${AG}.txt ${SEKCJE_KAT}/
         AG2REPLACE=$(basename ${AG})
         sed -i '/##html/d' ${SEKCJE_KAT}/${AG2REPLACE}.txt
+        sed -i '/##body,html/d' ${SEKCJE_KAT}/${AG2REPLACE}.txt
         sed -i '/script:inject/d' ${SEKCJE_KAT}/${AG2REPLACE}.txt
         sed -i 's|#?#|##|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
         sed -i 's|-abp-has|has|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
