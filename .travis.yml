@@ -3,8 +3,13 @@ addons:
     packages:
     - locales
     - language-pack-pl
+notifications:
+  email:
+    on_success: never
+    on_failure: always
 script:
-- "./scripts/VICHS_Travis.sh $(dirname $(git diff-tree --no-commit-id --name-only -r master)).txt"
+- "./scripts/VICHS_Travis.sh $(dirname $(git diff-tree --no-commit-id --name-only
+  -r master)).txt"
 env:
   global:
-    secure: Ca2wYpDbZ5pu5uBzBHxxpVwIEjkWUt2CdwWe5gIWZpuDuokjMiwu2bJhVfsAz2RfQV4wyu7kRbRReqvddExgdfbteP310nUwBTJKq60IOZSHDd0UN7V3Xpze/lD6V7MIYn6bdfq1Bpy9xfpe5c1/QlxaEAyOxEg4aFk/aGpMr/pYodrW3gLwS1EHU9SD4FpN7zyUu3g/0v2fH1G1Ve+NVJycuJROALmKZiwDSd7rfg0opzOEh6WCRaAdq54eTXIXukT9e/3EeNmKobLxGUdGihJxyUpxBzNhMjSzIR8QEFwwwY3f2fgv8E85/id9EdTbNT3Cf5I3sCkQLx63I+gwm9q3p1Wk1KrWYeqtHacx27qUgEQIQjX8p+VHlSJZGLm7DzwRFtP1+uNG4iZK4oe+cWjUkdfgsJ0L/nmnI0Sd1cVUD5rxbJJX2FsRF/XqmrDGPCXoAy51Gk/Mjm0Zo7P87UXZna39CEw+et1B+nxYPB106IQdYhoroUt6G1QpHUlDp+ftyQkhRk4BAq4JLt4QBraOhz4CcXzAbB33rT/kGbkYZgnpAsOHx+gIWb2DElZ3u9BTrU87UxP7KGngiUjz8gyYJtvpaXD1MjwndaHSm7Y1XNn3pMwzrelU0zdQAhu/7Icg03eygjkrt0SsRnzhifaaOD2vILCV5jsPsb28Tow=
+    secure: ygWMc3tuXjG1X3ybDTv8vWcUxWmdWY/tNqJqU21730gzJeqLd8bcA0x5NnN1XAxL5pp6E9/rTq1GJQOip/gqjMrGPKLqfFXkB8sOF6kSWN/fXNPz5xs5DcJRRxBoILS0biXBkIyEvEtwppB+GRm+FroELamX6GtAkr1KfthOZN8I1XIeiefgc3EOPPf/I1KO2RUvia+Iq2Rk3Ai+LVm2dyddwBzgU0L0b8MHEOxzESct8jiZDICzFFbjRaXLc9kOwPZD1TdiXQmhfaAZcyIHjS4YY1BHHiK4GVUbVPMCEc9CvgClvzubZvrka0UzxnhVITjHhZjhNT7hQPT15JaKAhhMzsFMwzXKGD28prG8GIWA1g2PEbmp8Uf3tfoIvchNwbchretB3ocrprXsPsgVKV2w63Px1pXO+rR1JpvMM5h5mjbJbSzpEunOTLZ7yrrfweeuK0wql/jX2hWityxCBxMspG49nrty4tgqg7bJPATfAB3JHkOXVqPpZaB8RWlRJ8dmOdvnaXolAkPx2a24MiUsnq1OX4EFKusmQ5cyFz0tnehA6i92UYn4rPgj+mS34uhRtaw+N3I9z1IpGopy3pXyiGw1UjtZZwH1KzuQ+KyEt0TrhbnIHi/PcV1S+n2cEKDBII9Yu/7WAYj19T/yoH7gj7KMyAKDiSrgJLT8IsI=
