@@ -1,11 +1,6 @@
 <!--
 Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
 -->
-### Co trzeba zrobić, aby pojawił się irytujący element?
-1. <!--Pogapić się w prawo.--> 
-2. 
-3. 
-
 
 ### Moja konfiguracja
 **Przeglądarka internetowa:** 
@@ -22,8 +17,17 @@ Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
 5. 
 6. 
 
+### Link bezpośredni
+<!--
+Wstaw tutaj link bezpośredni do strony, na której występuje element albo błąd.
+-->
+
 ### Zrzut ekranu
 <!--
 Przeciągnij tutaj swój zrzut lub zamieść do niego link.
-https://orig00.deviantart.net/77e8/f/2011/214/7/4/linux_penguins_wallpaper_by_masterkira009-d42hhiw.png
+-->
+
+### Inne ważne informacje mogące mieć znaczenie (opcjonalne):
+<!--
+Coś co nie da się opisać wizualnie, etapy odtworzenia problemu (co doprowadziło do błędu) albo twoja metoda rozwiązania problemu.
 -->
