@@ -47,6 +47,7 @@ for i in "$@"; do
     do
         ZEWNETRZNY=$(grep -oP -m 1 '@URLinclude \K.*' $KONCOWY)
         wget -O $SEKCJE_KAT/external.temp "${ZEWNETRZNY}"
+        sed -i '/! Checksum:/d' $SEKCJE_KAT/external.temp
         sed -e '0,/^@URLinclude/!b; /@URLinclude/{ r '$SEKCJE_KAT/external.temp'' -e 'd }' $KONCOWY > $TYMCZASOWY
         cp -R $TYMCZASOWY $KONCOWY
         rm -r $SEKCJE_KAT/external.temp
@@ -94,7 +95,7 @@ for i in "$@"; do
     
     # Ustawianie nazwy kodowej (krótszej nazwy listy filtrów) do opisu commita w zależności od tego, co jest wpisane w polu „Codename:". Jeśli nie ma takiego pola, to trzeba podać nazwę kodową dla listy filtrów.
     if grep -q "! Codename" $i; then
-        filtr=$(grep -oP '! Codename: \K.*' $i);
+        filtr=$(grep -oP -m 1 '! Codename: \K.*' $i);
     else
         printf "Podaj nazwę kodową dla listy filtrów $(basename $i): "
         read filtr
@@ -109,17 +110,17 @@ for i in "$@"; do
 
     # Aktualizacja daty i godziny w polu „Last modified"
     export LC_ALL=en_US.UTF-8
-    data=$(date +"%d %b %Y %H:%M UTC%:::z")
-    sed -i '/! Last modified:/c\'"! Last modified: $data" $i
+    data=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
+    sed -i "s|@data|$data|g" $i
 
     # Aktualizacja wersji
     wersja=$(date +"%Y%m%d%H%M")
-    sed -i '/! Version:/c\'"! Version: $wersja" $i
+    sed -i "s|@wersja|$wersja|g" $i
 
     # Aktualizacja pola „aktualizacja"
     export LC_ALL=pl_PL.UTF-8
     aktualizacja=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
-    sed -i '/! Aktualizacja:/c\'"! Aktualizacja: $aktualizacja" $i
+    sed -i "s|@aktualizacja|$aktualizacja|g" $i
     
     # Aktualizacja sumy kontrolnej
     # Założenie: kodowanie UTF-8 i styl końca linii Unix
