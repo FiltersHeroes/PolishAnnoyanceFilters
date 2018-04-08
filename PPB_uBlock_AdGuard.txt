@@ -1,9 +1,9 @@
-! Checksum: fhmx3ZyNHT+GGFF9vs/Low
+! Checksum: /4pViqLOMf4+bt5XrxFO9g
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 08 Apr 2018, 00:27 UTC+02
-! Version: 201804080027
+! Last modified: Sun, 08 Apr 2018, 15:56 UTC+02
+! Version: 201804081556
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 08 kwi 2018, 00:27 UTC+02
+! Aktualizacja: nie, 08 kwi 2018, 15:56 UTC+02
 !
 !
 ! Newslettery
@@ -102,6 +102,8 @@ odczasudoczasu.pl##html.pum-open:style(overflow: auto !important;)
 odczasudoczasu.pl##.popmake-overlay
 oleole.pl##html:style(overflow: auto!important;)
 oleole.pl###modalContainer
+online.citibank.pl###AdventPopup, .modal-backdrop
+online.citibank.pl##.modal-open:style(padding-right: 0px !important; overflow: auto !important;)
 partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
 partneragdrtv.com.pl##.mfp-bg
 partneragdrtv.com.pl##.mfp-ready:has(.newsletter-box)
