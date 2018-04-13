@@ -109,8 +109,8 @@ for i in "$@"; do
     export TZ=":Poland"
 
     # Aktualizacja daty i godziny w polu „Last modified"
-    data=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
-    sed -i "s|@data|$data|g" $i
+    modified=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
+    sed -i "s|@modified|$modified|g" $i
 
     # Aktualizacja wersji
     wersja=$(date +"%Y%m%d%H%M")
