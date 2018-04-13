@@ -110,8 +110,8 @@ for i in "$@"; do
 
     # Aktualizacja daty i godziny w polu „Last modified"
     export LC_ALL=en_US.UTF-8
-    data=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
-    sed -i "s|@data|$data|g" $i
+    modified=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
+    sed -i "s|@modified|$modified|g" $i
 
     # Aktualizacja wersji
     wersja=$(date +"%Y%m%d%H%M")
