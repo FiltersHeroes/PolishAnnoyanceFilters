@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: qTbcuBIIxxfEnPyu8H7hdw
+! Checksum: uGlolvzeCcE4Yyfrs5ITKw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie Filtry Ciasteczkowe!
-! Last modified: Sat, 14 Apr 2018, 13:19 UTC+02
-! Version: 201804141319
+! Last modified: Sat, 14 Apr 2018, 15:05 UTC+02
+! Version: 201804141505
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 14 kwi 2018, 13:19 UTC+02
+! Aktualizacja: sob, 14 kwi 2018, 15:05 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -574,9 +574,11 @@ zyciepabianic.pl###widget-newsletter
 3i-store.com###exit--popup--container
 24hurt.pl##.wt-popup, #overlay
 80dni.pl##.spu-bg, .spu-box
+accent-bikes.com###lang_popup
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
 airport.com.pl###fancybox-overlay, #fancybox-wrap
 akademos.pl###myModal, .reveal-modal-bg
+ap-goal.pl##.spu-box, .spu-bg
 arimr.gov.pl###kiwi_popup_layer
 arslege.pl###smoothbox_container
 audioforte.com.pl##.christmas-popup
@@ -651,6 +653,7 @@ kameshop.pl##.background, #tws_s_100001, #tws_i_100001
 kataloog.info###mask, #lorem
 katowice-airport.com###carwash-banner-c
 kfd.pl###popupslider, #dimBackgrnd
+kodano.pl###cboxOverlay, .bg_orange_popup, .i-am-new
 kombo.krakow.pl##body > div:nth-of-type(4)
 kombo.krakow.pl##body > div:nth-of-type(6)
 kombo.krakow.pl###divGoTop2Mob
@@ -663,6 +666,7 @@ kwiaciarnia-olivia.pl###logo2a, #tlo2a
 limanowa.in##.ad_popup
 malopolska.pl###newsletter-popover
 mandrivalinux.eu##.guestwarn
+mango.pl##.popup-mango, #sm_ext_floater-bg
 meblejedrus.eu##.popup
 mecze24.pl##.ui-front
 mediarun.com##.fancybox-outer, .fancybox-overlay
@@ -670,6 +674,7 @@ metin2list.pl###news_popup
 mieszkaniowi.pl##.event_info
 militarialodz.pl###popup-scademy1
 misjonarska.com###myModal, .reveal-modal-bg
+miyomakeup.com###esns_background_layer
 mlodytechnik.pl###newsletterContainer
 mmaniak.pl###x13popup, #x13popup-cover
 moneygrabbing.co.uk##.mcwidget-overlay
@@ -719,6 +724,7 @@ pl###topLayerBackDrop
 pl##.facebook-popup
 pl.aleteia.org##.newsletter-popups
 poczta.int.pl##.maximized-wrapper
+podrywaj.org##.modal_wrapper
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 pol-nor.com###boxpopup, #overlay, #popforfirma
 portel.pl###closeTL
@@ -728,6 +734,7 @@ proline.pl##div[style*="visibility: visible; display: block;"]
 przepisy.pl##.modal, .modal-backdrop
 przetargi.egospodarka.pl###js_popup_przetargi
 pulsmedycyny.pl###smPopupBackground, .smPopupContainer
+pup.sosnowiec.pl###topbaner
 ravelo.pl###modalAlertMethodNL
 resortpro.ht-int.com##.newsletter-overall
 rms.pl##.sj-popup-container
@@ -808,9 +815,11 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 ||account.dzinga.com/callback/?callback*$script,domain=topfish.pl
 ||api.callpage.io/v2/widgets/
+||app.generatorpopup.pl/embed/popup/*$script,domain=poznajtesty.blogspot.de|poznaj-testy.pl
 ||app.leadreactor.io/api/widget
 ||a-masterlease.youlead.pl/api/query/popup/SettingsForPopups$script,domain=master1.pl
 ||a.mailmunch.co/app/$script,third-party
+||back.marketing^$script,domain=softx.pl
 ||centrumprasowe.pap.pl/cp/pl/ajax/popup/*$xmlhttprequest
 ||chamskie.pl/compress/popupFacebook.js
 ||chamskie.pl/compress/popups/popupFacebook_normal.css
@@ -827,6 +836,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||inffuse-fbpopup.appspot.com/widget.html
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
+||kbhakord.pl/sites/all/modules/popup_announcement/popup_announcement.js
 ||kulturawplot.pl/wp-content/plugins/exit-popup/js/exit-popup.js
 ||losyziemi.pl/?spu_action=spu_load&lang=
 ||mailerlite.com^$third-party
@@ -995,6 +1005,7 @@ morele.net##.why-us-widget
 motormag.pl##.fa-th-large
 mpec.olsztyn.pl###bip, #widget-btn
 multilampy.pl##.ceneo, .opineo
+myfitnessplace.pl##.app-ico
 myphone.pl##.newsFixedBtn
 nafciarze.info###suggest-news
 naukawpolsce.pap.pl###social > ul > .mail
@@ -1083,6 +1094,8 @@ wroclaw.pl##.btn-report
 www.wp.pl###home-page-button 
 ztm.gda.pl###mobile
 /plugins/system/screenreader/screenreader
+||cdn.pup.sosnowiec.pl/themes/default/pics/ico/ico_klawisze.png
+||cdn.pup.sosnowiec.pl/themes/default/pics/ico/ico_sugestia.png
 ||leaselink.pl/js/slide-button.js
 ||leaselink.pl/js/slide-button-shoper.js
 ||opineo.pl/gfx/frontend/side_slider_gfx.png
@@ -1208,7 +1221,7 @@ iautomatyka.pl##.pf-up-but
 infogmina.com##.goup-container
 infores.net###icon-mobile-scroll-top
 infotydzien.info###jm-back-top
-insoft.net.pl,tube.ad,jakzrobicwexcelu.pl,zabki24.pl,nomoresecrets.pl##.go-top
+insoft.net.pl,tube.ad,jakzrobicwexcelu.pl,zabki24.pl,nomoresecrets.pl,ap-goal.pl##.go-top
 iperfumy.pl##.btn-scroll-top
 ip-serwis.pl##.mk-go-top
 jakzarabiaconline.blogspot.com###top
