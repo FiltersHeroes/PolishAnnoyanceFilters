@@ -5,7 +5,20 @@ Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
 ### Typ elementu/problemu
 <!--
 Co mamy schować, zablokować albo w czym jest problem, może pojawił się jakiś błąd?
+Proszę wstawić x pomiędzy znakami [] obok typu/typów, którego/których to zgłoszenie dotyczy,
 -->
+- [] bład
+- [] chat
+- [] newsletter
+- [] popup
+- [] prawy klik
+- [] przycisk
+- [] push
+- [] pytanie
+- [] scrollujący filmik
+- [] strzałka
+- [] ulepszenie
+- [] widżet
 
 ### Moja konfiguracja
 **Przeglądarka internetowa:** 
