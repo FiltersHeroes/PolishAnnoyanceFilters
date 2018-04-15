@@ -7,7 +7,7 @@ Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
 Co mamy schować, zablokować albo w czym jest problem, może pojawił się jakiś błąd?
 Proszę wstawić x pomiędzy znakami [] obok typu/typów, którego/których to zgłoszenie dotyczy,
 -->
-- [] bład
+- [] błąd
 - [] chat
 - [] newsletter
 - [] popup
