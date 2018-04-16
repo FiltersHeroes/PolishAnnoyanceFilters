@@ -1,9 +1,9 @@
-! Checksum: zTA8hJsthnZxu1nPK0TeKw
+! Checksum: FczH6Am2pOyGrL7i8lqd6Q
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 14 Apr 2018, 15:05 UTC+02
-! Version: 201804141505
+! Last modified: Mon, 16 Apr 2018, 18:40 UTC+02
+! Version: 201804161840
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 14 kwi 2018, 15:05 UTC+02
+! Aktualizacja: pon, 16 kwi 2018, 18:40 UTC+02
 !
 !
 ! Newslettery
@@ -75,7 +75,7 @@ habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
 habys.pl##html.fancybox-lock:style(overflow: visible!important;)
 habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 habys.pl###cp-widget, .fancybox-overlay-fixed
-homebook.pl##body.has-open-popup:style(overflow: visible!important;)
+homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-right: 0px!important;)
 homebook.pl##.popup-overlay
 intershoe.com.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
 intershoe.com.pl###news_popup, .modal-backdrop
@@ -198,4 +198,5 @@ znak.com.pl##body:style(background: none !important;)
 !
 !
 ! Widgety
+bithub.pl##.st-post-share:style(position: static !important;)
 rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !important;)
