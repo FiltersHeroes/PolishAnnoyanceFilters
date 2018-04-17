@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: LqB1AVN9caSrH+6JCDYe1A
+! Checksum: jKTL1NssSWJNfFHlyAvlpg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie Filtry Ciasteczkowe!
-! Last modified: Mon, 16 Apr 2018, 18:40 UTC+02
-! Version: 201804161840
+! Last modified: Tue, 17 Apr 2018, 18:45 UTC+02
+! Version: 201804171845
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 16 kwi 2018, 18:40 UTC+02
+! Aktualizacja: wto, 17 kwi 2018, 18:45 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -530,6 +530,7 @@ timetrend.pl##.block_newsletter
 tokfm.pl##.container > ul > li:nth-of-type(3)
 topagrar.pl##.sidebar__box--newletter
 topfish.pl##.n56467_container
+travelplanet.pl##.col-footer-newsletter-block
 trojmiejskaperfumeria.pl###st_news_letter_1
 tuelblag.pl##.moduletable
 tustolica.pl###menumini > li:nth-of-type(3)
@@ -880,7 +881,6 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||app.leadreactor.io/api/widget
 ||a-masterlease.youlead.pl/api/query/popup/SettingsForPopups$script,domain=master1.pl
 ||a.mailmunch.co/app/$script,third-party
-||back.marketing^$script,domain=softx.pl
 ||centrumprasowe.pap.pl/cp/pl/ajax/popup/*$xmlhttprequest
 ||chamskie.pl/compress/popupFacebook.js
 ||chamskie.pl/compress/popups/popupFacebook_normal.css
@@ -920,6 +920,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
 ||stressfree.pl/wp-content/plugins/popup-maker/assets/js/site.min.js
 ||superkoszyk.pl/media/nl_modal/js/delay1page.js
+||timeandwatches.pl/modules/mod_onscreen_facebook_likebox_popup/assets/js/jquery.colorbox-min.js
 ||v2.getall.pl/modules/popup/*$domain=skladaniekomputera.pl
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
@@ -941,6 +942,7 @@ bzwbk.pl###pushwoosh-pop
 kryminalka.pl###Process0
 mbank.pl###push-message
 pomponik.pl##.ppg__signin
+travelplanet.pl##.fcx-push-modal
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.fm
 ||api.sociaplus.com^$third-party
 ||cdn.gravitec.net/sites/*/client.js
@@ -1351,6 +1353,7 @@ neonet.pl,rankomat.pl##.arrow-up
 netkom.pruszcz.com###gantry-totop
 netz.pl##.w-toplink
 niezlomni.com###backtotop
+njumobile.pl###back-to-top-of-page
 nowiny.com.pl###scroolTOP
 nowosci-mp3.eu,3i-store.com,programtv.naziemna.info,home-you.com,szklodokuchni.com###toTop
 okazik.pl###btn-scrollup
@@ -1458,6 +1461,7 @@ sadeczanin.info###page-scrollup
 sakolife.pl###powrot-do-gory
 salko.pl##.mypresta_scrollup
 samsung.com##.s-btn-gotop
+saturn.pl##.m-scrollTop
 scie24.pl###up
 selectivv.com,itcontent.eu##.scroll-top-button
 sfinks.info###go_to_top
@@ -1510,6 +1514,7 @@ yerbanot.com##.to-top
 zalando.pl##.z-navigation-footer_backToTop
 zaliniamety.pl##.icn-up-small
 zdrowyportal.org###topcontrol
+zooplus.pl###btn-goTop
 zyczenia-noworoczne.eu###back_top
 /MrScrollUp.js
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
@@ -1710,6 +1715,8 @@ swiat-laptopow.pl###superOfferCallUs
 targsmaku.pl##.active.page-bottom-bar
 techpedia.pl##.border_header2
 telemedi.co###notifications-pop
+timeandwatches.pl###polecane_right
+travelplanet.pl##.livecall-callback-v1-overlay
 tube.ad##.nav
 tukan24.pl###opinieIkona
 unia.pl###bottom7, #bottom8, #bottom9
@@ -1761,6 +1768,7 @@ zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 ahe.lodz.pl###chat-invite
 airport.com.pl##a[href^="javascript:void(window.open('http://airport.com.pl/livezilla/chat.php"]
 apteline.pl##.chat-fixed__wrapper
+born2be.pl##.helpButton
 bssztum.pl###widget_social2
 d24h.pl###chat_container
 darmowyskin.pl###open_czat
