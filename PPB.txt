@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: GraV1OI6vU4gDjw8FEZFiA
+! Checksum: lHITqqFa0c7pdhbVElN6oQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie Filtry Ciasteczkowe!
-! Last modified: Tue, 17 Apr 2018, 22:11 UTC+02
-! Version: 201804172211
+! Last modified: Tue, 17 Apr 2018, 22:41 UTC+02
+! Version: 201804172241
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 17 kwi 2018, 22:11 UTC+02
+! Aktualizacja: wto, 17 kwi 2018, 22:41 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -82,7 +82,7 @@ blog.kurasinski.com##.right-col, .newsletter
 bluecity.pl##.col-newsletter.col
 bluerank.pl##.shown.exit
 bodypak.pl###pts-newsletter
-bonprix.pl##.container > .col-md-4:nth-of-type(3)
+bonprix.pl##a[href="/serwis/newsletter"]
 bonprix.pl##.contrast.container-fluid > .container > .row > .col-xs-12.col-sm-6
 bonvoyage.pl##.box_newsletter
 booking.com##.newsletter_subscribe
@@ -113,7 +113,6 @@ comtrade.pl##.n56467_container
 conet.pl###text-4
 cortland.pl##.letter
 crolove.pl###text-28
-cropp.com##.anim3.static-height.box-md.newsletter
 cryptodemy.pl##.optin-monster-api.widget.td_block_template_1
 cryptonews.pl###text-7
 ctpartners.pl##.ftresc2
@@ -151,9 +150,7 @@ dziennikzbrojny.pl##.columns.four
 ebroker.pl###ft_t_in
 eduksiazka.pl###newsletter-subscribe-block, .getintouch.col-xs-12.col-sm-3 > h3
 edunews.pl##.moduleacy-email
-edziecko.pl##.nlt.spr
-egospodarka.pl##.ego-ico3
-egospodarka.pl##.ego-newsletter
+egospodarka.pl##.ego-ico3, .ego-newsletter
 ehurt.eu###menu_newsletter
 ekomercyjnie.pl##.clearfix.main-menu > li:nth-of-type(1)
 ekomercyjnie.pl##.home-newsletter, .blog-newsletter, #bottom-newsletter
@@ -233,7 +230,7 @@ influentiq.pl###text-14
 infogmina.com##.aside-articles-button
 instalki.pl###Mod286 > div > div > div
 inwestycje.pl###footNL
-iparts.pl##.newsletter-blok.column.end.medium-3.small-12
+iparts.pl##.newsletter-blok
 ip.pl###left > div:nth-of-type(11)
 itcontent.eu##.mc4wp-form-fields
 iwanowice.pl##.col-lg-3.col-md-4.col-sm-6.col-xs-12:nth-of-type(2)
@@ -259,7 +256,7 @@ krasiczyn.com.pl##.side_newsletter
 kryptopomocnik.pl###custom_html-2
 kuchnialidla.pl##.home_newsletter_col1
 kupony.mydeal.pl###newsletter-foot
-ladnydom.pl,myfitness.pl,wyborcza.biz##.nlt
+ladnydom.pl,myfitness.pl,wyborcza.biz,edziecko.pl##.nlt
 lampy.pl###newsletterbox_1
 lancut4u.pl##.lsvr-mailchimp-subscribe
 languagetool.org###newsletter_reg
@@ -273,7 +270,7 @@ luszczyce.pl###custom_html-4
 luxmed-diagnostyka.pl##.newesletter-box
 maciej.je##p:nth-of-type(47)
 magazif.com##.newsletter-form
-magnapolonia.org##.newsletter
+magnapolonia.org,cropp.com##.newsletter
 majsterkowo.pl###text-9
 makita.sklep.pl##.ModulNewsletterDol
 malacukierenka.pl###mc4wp_form_widget-3
@@ -543,7 +540,7 @@ travelplanet.pl##.col-footer-newsletter-block
 trojmiejskaperfumeria.pl###st_news_letter_1
 tuelblag.pl##.moduletable
 tustolica.pl###menumini > li:nth-of-type(3)
-tvn.pl##.footer-col:nth-of-type(4)
+tvn.pl##.btn-newsletter, .footer-col:nth-of-type(4) > .footer-heading:nth-of-type(2)
 twojahistoria.pl###content > .columns.large-12
 tygodnikdzialdowski.pl##.size-33.g-block:nth-of-type(3)
 tygodnikprzeglad.pl###sidebar > .widget.widget-2
@@ -1018,6 +1015,7 @@ biznesalert.pl##.toolbar
 bonnum.pl##.xi-rht
 businessinsider.com.pl###goback
 bylola.pl,pakolorente.com,###ri-widget
+canon.pl##.feedback-btn
 chrzypsko.pl##.biegacz
 citroen.pl##.sidebarToolsDesktopReview
 coinroom.com##.news-block
@@ -1027,6 +1025,7 @@ d24h.pl###zapytaj_kosmetyczke
 d24h.pl###zaufane_opinie_widget
 dany-meble.pl##body > .hidden-sm.hidden-xs
 dbpolska.net,ampolska.net###panel
+decathlon.pl###yourcx_blk
 dekavit.pl##.dekavit-kids-button
 dobredomy.pl##.right.sidemenu
 dolsat.pl##.migowyButton, .niedowidzButton
@@ -1046,6 +1045,7 @@ forsal.pl##.psavWideoPlay
 forum.muratordom.pl###left_circus > .dostepne_mobile
 gaia.com.pl###smAddonSizes
 gdzietymrazem.pl##.td-icon-mail-1
+getinbank.pl##.sticky-buttons__wrapper
 godealla.pl##.feedback, #top-offers, .hand
 hafija.pl##.bonfire-slideout-button, .bonfire-slideout-button-triangle-background
 helios.pl##.openSuggestionFormButton
@@ -1107,6 +1107,7 @@ o.pl###codemanipulator-tools
 partneragdrtv.com.pl###js-sis_menu
 pasazer.com##.fixed-search-tabs
 pccentre.pl###zak_error
+pcformat.pl##.topbar > .container
 planeta.fm##.grecaptcha-badge
 plastcom.pl###test
 pl###SliderPrzycisk
@@ -1179,6 +1180,7 @@ wkret-met.com###fastcall
 wlaczoszczedzanie.pl##.fm-icon
 wroclaw.pl##.btn-report
 www.wp.pl###home-page-button 
+x-kom.pl##.why-us-content
 ztm.gda.pl###mobile
 /plugins/system/screenreader/screenreader
 ||cdn.pup.sosnowiec.pl/themes/default/pics/ico/ico_klawisze.png
@@ -1781,8 +1783,6 @@ airport.com.pl##a[href^="javascript:void(window.open('http://airport.com.pl/live
 apteline.pl##.chat-fixed__wrapper
 born2be.pl##.helpButton
 bssztum.pl###widget_social2
-canon.pl##.feedback-btn
-canon.pl##.wrap-sharer--white.hidden-lg-down.pl-nav__item--share.pl-nav__item
 d24h.pl###chat_container
 darmowyskin.pl###open_czat
 dressinn.com##.chat_icono
@@ -1807,7 +1807,6 @@ swiss.com.pl###lhc_status_container
 tapeciarnia.pl###div_okienko_shoutbox_schowane
 velux.pl##.LPMcontainer
 wspieram.to###staff-chat-button
-x-kom.pl##.why-us-content
 zwirex.pl###shoutbox
 /gnwidget/config/site-iframe.html$domain=orange.pl
 /livezillachat//script.php
