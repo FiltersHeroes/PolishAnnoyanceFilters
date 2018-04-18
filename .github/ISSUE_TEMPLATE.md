@@ -8,9 +8,8 @@ Proszę wstawić x pomiędzy znakami [] obok typu/typów, którego/których to z
 
 ### Typ elementu/problemu
 - [] błąd
-- [] chat
+- [] czat
 - [] newsletter
-- [] popup
 - [] prawy klik
 - [] przycisk
 - [] push
@@ -19,6 +18,7 @@ Proszę wstawić x pomiędzy znakami [] obok typu/typów, którego/których to z
 - [] strzałka
 - [] ulepszenie
 - [] widżet
+- [] wyskakujące okienko
 -->
 
 ### Moja konfiguracja
