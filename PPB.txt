@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: lHITqqFa0c7pdhbVElN6oQ
+! Checksum: 3StL7s8L/ez9Yqyi/4BXYg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
 ! Required: Do poprawnego działania wymagana jest lista Polskie Filtry Ciasteczkowe!
-! Last modified: Tue, 17 Apr 2018, 22:41 UTC+02
-! Version: 201804172241
+! Last modified: Wed, 18 Apr 2018, 19:18 UTC+02
+! Version: 201804181918
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 17 kwi 2018, 22:41 UTC+02
+! Aktualizacja: śro, 18 kwi 2018, 19:18 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -61,6 +61,7 @@ answear.com###bottomNewsletter
 apollo.pl##.newsletter-block-container
 asta24.pl##.columns.small-12.medium-6.large-3:nth-of-type(4)
 auchandirect.pl###newsletterFooterContent
+auchan.pl##a[href="/newsletter/ref/box"]
 autodoc.pl##.subscribe_us
 autogaleria.pl##.col-lg-5.col-md-5.col-sm-6.col-xs-12
 automatyka.pl###newsletterSideBox
@@ -127,6 +128,7 @@ danko.pl##.nl-holder
 deon.pl###region4 > .clear:nth-of-type(6)
 deon.pl###region12 > .clear:nth-of-type(1)
 deon.pl##.sl > li:nth-of-type(5)
+diag.pl##.last > form, .last.col-md-3 > h3
 digikids.pl##.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(3)
 disport.pl##.boxNewsletter
 di.com.pl##.footcol:nth-of-type(5) > form
@@ -141,6 +143,7 @@ dobrzemieszkaj.pl##.box-22
 domodi.pl##.dm-footer-newsletter
 donuj.pl##div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(2)
 dopestore.pl##.bottom-footer
+douglas.pl##.rd__footer__block--newsletter
 drewno.pl###nl_sticky
 dts24.pl,swiatdronow.pl##.widget_mailpoet_form
 dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
@@ -547,6 +550,7 @@ tygodnikprzeglad.pl###sidebar > .widget.widget-2
 ubierzfona.pl##.medium--one-half.large--one-half.grid__item:nth-of-type(2)
 ugotuj.to##.nlt
 ulicaekologiczna.pl###newsletter_wrap, .sidebar.columns.large-5.small-15
+um24.pl##.jsNewsletter
 um.jaslo.pl##.Newsletter
 unia.pl###bottom1, #bottom2
 unileverfoodsolutions.pl##.newsletter-signup
@@ -610,6 +614,7 @@ zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 zarzadcy.com.pl##.menu_right > div:nth-of-type(1)
 zaufanatrzeciastrona.pl##.sidebar-box-wrap:nth-of-type(3)
 zegarkiipasja.pl###contactBoxForm
+zhp.pl##.static-area.mh-el:nth-of-type(5)
 zielonearkady.com.pl#?#.col-sm-4:-abp-contains(Newsletter)
 zielonyogrodek.pl###newsletterBoxLeft, .acymailing_module_form
 zlotoryjska.pl##a[href="/newsletter.html"]
@@ -649,6 +654,7 @@ akademos.pl###myModal, .reveal-modal-bg
 ap-goal.pl##.spu-box, .spu-bg
 arimr.gov.pl###kiwi_popup_layer
 arslege.pl###smoothbox_container
+auchan.pl###popupbox, #exposeMask
 audioforte.com.pl##.christmas-popup
 avaro.pl###tln4_wrap
 bananki.pl###exitpopup
@@ -679,6 +685,7 @@ dailyweb.pl,probasket.pl,swinoujskie.info,moneygrabbing.co.uk###snppopup-welcome
 dany-meble.pl###myPopModal, .modal-backdrop
 dekoria.pl##.newsletter_popup
 dementuj.pl###ips-popup, #ips-popup-wrapper
+diag.pl###popUp, .modal-backdrop
 diversesystem.com###dvrs-newsletter-popup-body
 dobiegania.pl###colorbox, #cboxOverlay
 dogry.pl##.register-overlayer--game, .register-modal
@@ -1025,7 +1032,7 @@ d24h.pl###zapytaj_kosmetyczke
 d24h.pl###zaufane_opinie_widget
 dany-meble.pl##body > .hidden-sm.hidden-xs
 dbpolska.net,ampolska.net###panel
-decathlon.pl###yourcx_blk
+decathlon.pl,eltrox.pl,renee.pl###yourcx_blk
 dekavit.pl##.dekavit-kids-button
 dobredomy.pl##.right.sidemenu
 dolsat.pl##.migowyButton, .niedowidzButton
@@ -1060,6 +1067,7 @@ intel.pl##.right-rail-tab.support
 inter-kop.pl##.phone.text-uppercase.col-xs-12.col-md-4
 jakwyjsczdlugow.pl##.btn-info
 kawaly.tja.pl###div_wysuwany_opinia, #div_wysuwany_pomoc
+kinghome.pl##.menu
 klodzko24.eu###tomeknr_ads_custom
 klonowypark.pl,misjonarska.com###right_info2
 komorkomania.pl,autokult.pl,fotoblogia.pl##.btn-comments
@@ -1132,7 +1140,6 @@ ptakoutlet.pl###kp, .pasek-right
 puplegnica.pl,pup.gliwice.pl###accessKeys, #sugestiaForm
 pytamy.pl##.tabZB, .fixFooter
 racing-planet.pl###contactable_inner
-renee.pl###yourcx_blk
 reporters.pl##.wpsr-followbar
 roztocze.net###guzik_edukacja2
 scooterkingz.com.pl##.sqterybox
@@ -1156,6 +1163,7 @@ sympatia.onet.pl###iconsBar
 tamaj.pl###allwidget
 telekarma.pl###flyCart, #flyHelp
 telemedi.co##.sidebar-links
+tim.pl##.toolkit-box
 topshop.pl###slider_k2c
 topsolutions.pl###popup_contact
 trojmiejskaperfumeria.pl###rightbar
@@ -1232,6 +1240,7 @@ tvp.info##.mini-player-container
 ! Strzałki
 24hurt.pl###wt_scroll_top
 80dni.pl###backtotop_wpv
+51015kids.eu##.js--scroll-to-top
 a1komputery.pl,wp-piast.pl##.sp-totop
 agroalex.pl##.mypresta_scrollup
 agrobex.pl,macademiangirl.com###top-link
@@ -1256,7 +1265,7 @@ blogspot.com##.scrollToTop
 bludshop.com,ehurt.eu###backTop
 bonprix.pl###slide-up
 budujzdrewna.pl##.scroll-btn
-citroen.pl,allegro.pl###scrolltop
+citroen.pl,allegro.pl,zhp.pl###scrolltop
 ckz.pl##.wpv-scroll-to-top
 clivio.pl,mecze24.pl###btt
 cnc.info.pl##.scroll-btn
@@ -1273,6 +1282,7 @@ domtuiteraz.eu##.back-top
 domusmater.pl,kryptoraport.pl###sttotop
 domzagadek.pl###scroll_strz
 dopracowani.pl###pulse_to_top
+douglas.pl##.rd__back-to-top
 dts24.pl##.nav-btn
 durszlak.pl##.button-icon-goup
 ecoflores.eu,jastrzabpost.pl,okazje.info.pl,agora.pl##.up
@@ -1362,7 +1372,7 @@ nat.pl##.page-scroll-up
 nbportal.pl###go-up
 nczas.com,cryptoacademy.club##.td-scroll-up
 neon24.pl###div_up_arrow
-neonet.pl,rankomat.pl##.arrow-up
+neonet.pl,rankomat.pl,audio.com.pl##.arrow-up
 netkom.pruszcz.com###gantry-totop
 netz.pl##.w-toplink
 niezlomni.com###backtotop
@@ -1493,6 +1503,7 @@ superekspress.pl,prostozmostu24.pl,yggdrasil.pl,wsieci24.pl,wpolityce24.pl##.nnc
 tajemnice-swiata.pl###m7-go-top
 telepolis.pl##.footer-top
 testhub.pl##.sh-back-to-top
+tim.pl##.btn-scroll
 tui.pl##.jump-top-btn
 tygodnikbydgoski.pl###jumpTop
 tygodnik.szczytno.pl##.gotop
@@ -1565,6 +1576,7 @@ aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
 aprmedia.pl##.et_bloom_header_outer
 apsdata.pl###slide_box
 artefakt.pl##[data-module="phone_popup"]
+audio.com.pl##.float-content, .mod_avt_fixed_bar
 auto-motor-i-sport.pl##.genewa-roll
 bagan.pl###info-float
 bankier.pl###pit2017_explorer, #boxInsFlyfooter
@@ -1603,6 +1615,7 @@ eobuwie.com.pl##.header-callout
 eurobank.pl##.reviews
 eurogamer.pl##.in-article-search, .language-bar
 eurosport-fitness.pl##.nks_metro
+ezebra.pl###dostawa_widget
 e-b4b.pl##.livecall-widget-container
 e-ciucholand.com##.extraBox
 e-kolo.pl###slidenews
