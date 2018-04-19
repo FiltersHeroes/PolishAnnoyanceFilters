@@ -1,9 +1,9 @@
-! Checksum: iAWbBQc9nJS80I8ctPy43w
+! Checksum: 6O6qi0MkqnaMxVlQbTw+5w
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Wed, 18 Apr 2018, 18:57 UTC+02
-! Version: 201804181857
+! Last modified: Thu, 19 Apr 2018, 10:05 UTC+02
+! Version: 201804191005
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 18 kwi 2018, 18:57 UTC+02
+! Aktualizacja: czw, 19 kwi 2018, 10:05 UTC+02
 !
 !
 ! Newslettery
@@ -176,6 +176,7 @@ open.fm##script:inject(addEventListener-defuser.js, unload)
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 lento.pl##.btn-suggest:style(position: static !important;)
 lubimyczytac.pl##.report-a-bug-container:style(position: absolute !important; top: 0 !important;)
+meczelive.tv###task:style(position: absolute !important;)
 strimi.pl##.bugs:style(position: absolute !important;)
 wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(display: inline-block):matches-css(vertical-align: -11px)
 !
