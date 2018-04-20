@@ -41,7 +41,7 @@ on('issues.opened', 'issues.edited')
 
 on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[ ]] popup/))
-  .unlabel('popup);
+  .unlabel('popup');
   
 on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[xX]] prawy klik/))
