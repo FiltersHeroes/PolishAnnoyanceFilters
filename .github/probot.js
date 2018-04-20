@@ -16,7 +16,7 @@ on('issues.opened', 'issues.edited')
   .label('błąd');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] błąd/ && context.payload.label.name === 'błąd'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] błąd/))
   .unlabel('błąd');
 
 on('issues.opened', 'issues.edited')
@@ -24,7 +24,7 @@ on('issues.opened', 'issues.edited')
   .label('czat');
   
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[\]] czat/ && context.payload.label.name === 'czat'))
+  .filter(context => context.payload.issue.body.match(/- \[[\]] czat/))
   .unlabel('czat');
   
 on('issues.opened', 'issues.edited')
@@ -32,7 +32,7 @@ on('issues.opened', 'issues.edited')
   .label('newsletter');
   
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] newsletter/ && context.payload.label.name === 'newsletter'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] newsletter/))
   .unlabel('newsletter');
 
 on('issues.opened', 'issues.edited')
@@ -40,7 +40,7 @@ on('issues.opened', 'issues.edited')
   .label('popup');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] popup/ && context.payload.label.name === 'popup'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] popup/))
   .unlabel('popup);
   
 on('issues.opened', 'issues.edited')
@@ -48,7 +48,7 @@ on('issues.opened', 'issues.edited')
   .label('prawy klik');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] prawy klik/ && context.payload.label.name === 'prawy klik'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] prawy klik/))
   .unlabel('prawy klik');
   
 on('issues.opened', 'issues.edited')
@@ -56,7 +56,7 @@ on('issues.opened', 'issues.edited')
   .label('przycisk');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] przycisk/ && context.payload.label.name === 'przycisk'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] przycisk/))
   .unlabel('przycisk');
   
 on('issues.opened', 'issues.edited')
@@ -64,7 +64,7 @@ on('issues.opened', 'issues.edited')
   .label('push');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] push/ && context.payload.label.name === 'push'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] push/))
   .unlabel('push');
   
 on('issues.opened', 'issues.edited')
@@ -72,7 +72,7 @@ on('issues.opened', 'issues.edited')
   .label('pytanie');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] pytanie/ && context.payload.label.name === 'pytanie'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] pytanie/))
   .unlabel('pytanie');
 
 on('issues.opened', 'issues.edited')
@@ -80,7 +80,7 @@ on('issues.opened', 'issues.edited')
   .label('scrollujący filmik');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] scrollujący filmik/ && context.payload.label.name === 'scrollujący filmik'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] scrollujący filmik/))
   .unlabel('scrollujący filmik');
 
 on('issues.opened', 'issues.edited')
@@ -88,7 +88,7 @@ on('issues.opened', 'issues.edited')
   .label('strzałka');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] strzałka/ && context.payload.label.name === 'strzałka'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] strzałka/))
   .unlabel('strzałka');  
 
 on('issues.opened', 'issues.edited')
@@ -96,7 +96,7 @@ on('issues.opened', 'issues.edited')
   .label('ulepszenie');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] ulepszenie/ && context.payload.label.name === 'ulepszenie'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] ulepszenie/))
   .unlabel('ulepszenie');
   
 on('issues.opened', 'issues.edited')
@@ -104,5 +104,5 @@ on('issues.opened', 'issues.edited')
   .label('widżet');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] widżet/ && context.payload.label.name === 'widżet'))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] widżet/))
   .unlabel('widżet');
