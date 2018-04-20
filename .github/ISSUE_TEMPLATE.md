@@ -4,7 +4,8 @@ Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
 
 <!--
 Co mamy schować, zablokować albo w czym jest problem, może pojawił się jakiś błąd?
-Proszę wstawić x pomiędzy znakami [] obok typu/typów, którego/których to zgłoszenie dotyczy,
+Proszę wstawić x pomiędzy znakami [] obok typu/typów, którego/których to zgłoszenie dotyczy.
+W przypadku pomyłki co do typu, proszę usunąć x i zamiast niego - wstawić spację.
 
 ### Typ elementu/problemu
 - [] błąd
