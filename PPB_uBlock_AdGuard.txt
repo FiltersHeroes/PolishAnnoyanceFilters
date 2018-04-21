@@ -1,9 +1,9 @@
-! Checksum: H2S6TpbHsqflOxfrx4xImg
+! Checksum: kPbdzTceP2GLdERxuwFCmg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 19 Apr 2018, 22:48 UTC+02
-! Version: 201804192248
+! Last modified: Sat, 21 Apr 2018, 23:58 UTC+02
+! Version: 201804212358
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 19 kwi 2018, 22:48 UTC+02
+! Aktualizacja: sob, 21 kwi 2018, 23:58 UTC+02
 !
 !
 ! Newslettery
@@ -157,7 +157,7 @@ wirtualnygarwolin.pl,cud.rzeszow.pl###sbox-overlay, #sbox-window
 wirtualnygarwolin.pl,cud.rzeszow.pl##.body-overlayed:style(overflow: visible !important;)
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 www.brw.com.pl##.js:style(overflow-y: visible!important;)
-www.e-biurowce.pl###raport_info
+www.e-biurowce.pl###raport_info, .modal-backdrop
 www.e-biurowce.pl##.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
 www.ozog.pl##body:style(overflow: auto!important;)
 www.ozog.pl###homeModal
