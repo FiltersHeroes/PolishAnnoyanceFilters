@@ -9,6 +9,7 @@ on('issues.labeled')
 on('issues.opened')
   .filter(context => !context.payload.issue.body.match(/### Typ elementu/) || context.payload.issue.body.includes('- [ ]'))
   .comment(contents('.github/MISSING_ISSUE_TEMPLATE_AUTOREPLY.md'))
+  .label('odrzucone')
   .close();
 
 on('issues.opened', 'issues.edited')
