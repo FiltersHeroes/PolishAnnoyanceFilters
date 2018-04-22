@@ -1,15 +1,14 @@
+on('issues.opened')
+  .filter(context => !context.payload.issue.body.match(/### Typ elementu/) || context.payload.issue.body.includes('- [ ]'))
+  .comment(contents('.github/MISSING_ISSUE_TEMPLATE_AUTOREPLY.md'))
+  .label('odrzucone');
+  
 on('issues.labeled')
   .filter(context => context.payload.label.name === 'zatwierdzone')
   .close();
 
 on('issues.labeled')
   .filter(context => context.payload.label.name === 'odrzucone')
-  .close();
-  
-on('issues.opened')
-  .filter(context => !context.payload.issue.body.match(/### Typ elementu/) || context.payload.issue.body.includes('- [ ]'))
-  .comment(contents('.github/MISSING_ISSUE_TEMPLATE_AUTOREPLY.md'))
-  .label('odrzucone')
   .close();
 
 on('issues.opened', 'issues.edited')
@@ -25,7 +24,7 @@ on('issues.opened', 'issues.edited')
   .label('czat');
   
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[\]] czat/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] czat/))
   .unlabel('czat');
   
 on('issues.opened', 'issues.edited')
