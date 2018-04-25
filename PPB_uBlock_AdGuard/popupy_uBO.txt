@@ -14,6 +14,7 @@ bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!importa
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 biznesalert.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 biznesalert.pl##.mfp-ready
+biznes-host.pl###myModalPromo, .modal-backdrop
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
 byinsomnia.com###modal-newsletter, remodal-overlay, .remodal-wrapper
 byinsomnia.com##.remodal-is-locked:style(overflow: visible!important;)
@@ -35,6 +36,8 @@ ergokantor.pl##.mfp-ready
 euro.com.pl##html:style(overflow: auto !important; margin-right: 0px !important;)
 euro.com.pl##.remodal-overlay
 euro.com.pl##.remodal-wrapper:has(.nllContainer)
+farmer.pl###nowa_strona
+farmer.pl##.windowOpen:style(overflow: auto !important;)
 forum.gofin.pl##body:style(overflow: auto !important;)
 forum.gofin.pl###KW_Tlo, #KW_Okno
 fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
@@ -70,6 +73,8 @@ miastodzieci.pl###startModal
 miastodzieci.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 minecraft.org.pl##.modal, .modal-backdrop
 minecraft.org.pl##.modal-open:style(overflow: auto !important;)
+mintshost.pl###myModal, .modal-backdrop
+mintshost.pl,biznes-host.pl##.modal-open:style(overflow: auto !important;)
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
