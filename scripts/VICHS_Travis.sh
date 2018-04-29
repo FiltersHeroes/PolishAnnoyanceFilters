@@ -47,32 +47,13 @@ for i in "$@"; do
     do
         ZEWNETRZNY=$(grep -oP -m 1 '@URLinclude \K.*' $KONCOWY)
         wget -O $SEKCJE_KAT/external.temp "${ZEWNETRZNY}"
-        sed -i '/! Checksum:/d' $SEKCJE_KAT/external.temp
+        sed -i '/! Checksum/d' $SEKCJE_KAT/external.temp
+        sed -i '/!#include /d' $SEKCJE_KAT/external.temp
+        sed -i '/[Adblock Plus 2.0] /d' $SEKCJE_KAT/external.temp
+        sed -i '/! Dołączenie listy/d' $SEKCJE_KAT/external.temp
         sed -e '0,/^@URLinclude/!b; /@URLinclude/{ r '$SEKCJE_KAT/external.temp'' -e 'd }' $KONCOWY > $TYMCZASOWY
         cp -R $TYMCZASOWY $KONCOWY
         rm -r $SEKCJE_KAT/external.temp
-    done
-    
-    # Obliczanie ilości sekcji, w których ma zostać dokonana konwersja reguł na kompatybilne z AdGuardem
-    END_AG=$(grep -o -i '@AGinclude' ${TEMPLATE} | wc -l)
-    
-    # Konwersja reguł na kompatybilne z AdGuardem
-    for (( n=1; n<=$END_AG; n++ ))
-    do
-        AG=$(grep -oP -m 1 '@AGinclude \K.*' $KONCOWY)
-        cp -R ${sciezka}/../${AG}.txt ${SEKCJE_KAT}/
-        AG2REPLACE=$(basename ${AG})
-        sed -i '/##html/d' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -i '/script:inject/d' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -i 's|#?#|##|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -i 's|-abp-has|has|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -i 's|-abp-contains|contains|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -i 's|has-text|contains|g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -i '/:style/s/##/#$#/g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -i '/:style/s/)/ }/g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -i 's|:style(| { |g' ${SEKCJE_KAT}/${AG2REPLACE}.txt
-        sed -e '0,/^@AGinclude/!b; /@AGinclude/{ r '${SEKCJE_KAT}/${AG2REPLACE}.txt'' -e 'd }' $KONCOWY > $TYMCZASOWY
-        cp -R $TYMCZASOWY $KONCOWY
     done
     
     # Obliczanie ilości niesortowalnych sekcji

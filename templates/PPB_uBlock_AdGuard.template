@@ -35,10 +35,6 @@
 @include przyciski_uBO
 !
 !
-! Przyciski - kontakt
-@include przyciski_kontakt_uBO
-!
-!
 ! Powiadomienia Push
 @include push_uBO
 !
@@ -53,3 +49,12 @@
 !
 ! Widgety
 @include widgety_uBO
+!
+!
+! Widgety kontaktowe
+@include widgety_kontaktowe_uBO
+!
+!
+!@POCZĄTEK DOŁĄCZONYCH POLSKICH FILTRÓW CIASTECZKOWYCH
+@URLinclude https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/cookies_uB_AG.txt
+!@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW CIASTECZKOWYCH

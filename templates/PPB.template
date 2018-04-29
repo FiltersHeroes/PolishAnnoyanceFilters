@@ -3,8 +3,7 @@
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
-! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy.
-! Required: Do poprawnego działania wymagana jest lista Polskie Filtry Ciasteczkowe!
+! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy (Polskie Filtry Ciasteczkowe są już w nich zawarte).
 ! Last modified: @modified
 ! Version: @wersja
 ! Expires: 2 days
@@ -38,9 +37,6 @@
 @include przyciski
 !
 !
-! Przyciski - kontakt
-@include przyciski_kontakt
-!
 !
 ! Scrollujące filmiki
 @include scroll_film
@@ -58,9 +54,14 @@
 @include widgety
 !
 !
-! Widgety - czaty
-@include widgety_czaty
+! Widgety kontaktowe
+@include widgety_kontaktowe
 !
 !
 ! Wyjątki
 @include wyjatki
+!
+!
+!@POCZĄTEK DOŁĄCZONYCH POLSKICH FILTRÓW CIASTECZKOWYCH
+@URLinclude https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt
+!@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW CIASTECZKOWYCH
