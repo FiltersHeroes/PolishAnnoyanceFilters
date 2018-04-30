@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: fmdcW+Ka8g917UK7/ru84Q
+! Checksum: SgpD8FEk6+neAiLNQeuffQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy (Polskie Filtry Ciasteczkowe są już w nich zawarte).
-! Last modified: Sun, 29 Apr 2018, 15:03 UTC+02
-! Version: 201804291503
+! Last modified: Mon, 30 Apr 2018, 15:49 UTC+02
+! Version: 201804301549
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 29 kwi 2018, 15:03 UTC+02
+! Aktualizacja: pon, 30 kwi 2018, 15:49 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -906,7 +906,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 /plugins/facebook-fanbox-popup
 /plugins/facebook-page-promoter-$~stylesheet
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
-/wp-content/plugins/bloom/js/custom.js$domain=subiektywnieofinansach.pl|webinsider.pl
+/wp-content/plugins/bloom/js/custom.js$domain=subiektywnieofinansach.pl|webinsider.pl|majsterkowo.pl
 /wp-content/plugins/boxzilla/assets/js/script.min.js$domain=gdanskstrefa.com|ciekawe.org
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl|magnapolonia.org
@@ -1926,8 +1926,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności
 !@Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201804261733
-!@Last modified: Thu, 26 Apr 2018, 17:33:30 UTC+02
+!@Version: 201804301533
+!@Last modified: Mon, 30 Apr 2018, 15:33:12 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -1936,7 +1936,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201804261733 aktualizacja: czw, 26 kwi 2018, 17:33:30 UTC+02
+!@v.201804301533 aktualizacja: pon, 30 kwi 2018, 15:33:13 UTC+02
 !
 !
 !
@@ -2922,6 +2922,7 @@ www.wiedzakontrowersyjna.pl###ad-bg-transparent
 www.youtube.com##.clearfix.yt-consent-banner.yt-consent
 wydruki-wroclaw.pl##div.activebar-container
 wykopoczta.pl###noty_top_layout_container
+wzory-cv.com##.gatewayBar
 xaa.pl###ic
 yogenfruz.pl##.shotimoo
 youtube.com###ticker
@@ -3051,6 +3052,7 @@ pl##[id^="polityka-prywatnosci"]
 ###amp-user-notification1:not(body):not(html)
 ###barritaloca:not(body):not(html)
 ###blockPopupInformation
+###catapult-cookie-bar:not(body):not(html)
 ###ca_banner:not(body):not(html)
 ###cc-notification:not(body):not(html)
 ###cewe-accept-cookies:not(body):not(html)
@@ -3200,6 +3202,7 @@ pl##[id^="polityka-prywatnosci"]
 ##.cookie-disclaimer:not(body):not(html)
 ##.cookie-info:not(body):not(html)
 ##.cookie-law:not(body):not(html):not(.post-content)
+##.cookie-message:not(body):not(html)
 ##.cookie-msg-box:not(body):not(html)
 ##.cookie-msg:not(body):not(html)
 ##.cookie-notice:not(body):not(html)
@@ -3295,6 +3298,7 @@ tychy.geminipark.pl#@#.privacy-policy
 applemobile.pl###cookies-message
 filmweb.pl##.cookieInfo
 gryonline.wp.pl##.js-cookie-info
+kolobrzeg.webcamera.pl###catapult-cookie-bar
 ksplus.komputerswiat.pl###cookies
 kwejk.pl###cookies-politics
 minecraftpolska.net##.cookieinfo
