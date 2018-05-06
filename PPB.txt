@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MA9+nD8aIfJ2Qwmi8NGXtg
+! Checksum: XKq6onR/6ObAnMrkg2b0FQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy (Polskie Filtry Ciasteczkowe są już w nich zawarte).
-! Last modified: Sun, 06 May 2018, 13:31 UTC+02
-! Version: 201805061331
+! Last modified: Sun, 06 May 2018, 14:04 UTC+02
+! Version: 201805061404
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 06 maj 2018, 13:31 UTC+02
+! Aktualizacja: nie, 06 maj 2018, 14:04 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1945,8 +1945,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności
 !@Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201805061331
-!@Last modified: Sun, 06 May 2018, 13:31:19 UTC+02
+!@Version: 201805061402
+!@Last modified: Sun, 06 May 2018, 14:02:53 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -1955,7 +1955,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201805061331 aktualizacja: nie, 06 maj 2018, 13:31:19 UTC+02
+!@v.201805061402 aktualizacja: nie, 06 maj 2018, 14:02:53 UTC+02
 !
 !
 !
@@ -2227,7 +2227,6 @@ goclever.com##div#cp-wrap
 goclever.pl##div#cp-wrap
 goldenline.pl##section[class*="cookiesInfo"]
 goldenline.pl###topReminder
-google.com#?#div>div>div>div>div>div>div>div>div>div>div:-abp-contains(Przypomnienie o polityce prywatności Google)
 google.com,google.pl##.widget-consent-dialog
 google.pl###cnsh
 google.pl###dialog_uid_0
@@ -2913,6 +2912,7 @@ www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
 www.ea.com##ea-truste-consent-bar
+www.google.com,www.google.pl#?#div>div>div>div>div>div>div>div>div>div>div:-abp-contains(Przypomnienie o polityce prywatności Google)
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl###header-msg
 www.hertz.com.pl##[class^="lb-"]
