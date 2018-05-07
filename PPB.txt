@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: +kjJY+cvBc+ECiiXn0sRbA
+! Checksum: RPU+F4lMxi1zoAEYeABmRg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy (Polskie Filtry Ciasteczkowe są już w nich zawarte).
-! Last modified: Mon, 07 May 2018, 11:22 UTC+02
-! Version: 201805071122
+! Last modified: Mon, 07 May 2018, 13:19 UTC+02
+! Version: 201805071319
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 07 maj 2018, 11:22 UTC+02
+! Aktualizacja: pon, 07 maj 2018, 13:19 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -252,6 +252,8 @@ jagodnik.pl##.widget_text > .block-title
 jakrobicmarketing.pl###\31 -2
 jg.com.pl###footer > .container
 joannaceplin.pl##.nsl_glowna, .panel-row-style-for-6-3.panel-row-style.siteorigin-panels-stretch
+jobs.pl##.invitation
+jobs.pl##.notification-submit-box
 joga.org.pl###col2 > .module:nth-of-type(2)
 jsystems.pl###zapisz-sie-newsletter
 jsystems.pl##[href="newsletter.do"]
@@ -329,6 +331,7 @@ mojbytom.pl,mojchorzow.pl,mojegliwice.pl,laziska.com.pl,mojekatowice.pl,mojmikol
 mojegotowanie.pl##.sidebar-box-newsletter
 mojeokazje.com##.column-margin-.column_column.one-third.mcb-column.column
 moneygrabbing.co.uk##.ml-block-form
+monsterpolska.pl###jsa-top
 monsterpolska.pl###twoColumnEmailWidget
 morele.net##.col-md-9.col-sm-7
 motobanda.pl###bottom-msg, .text-center.row.card
@@ -361,6 +364,7 @@ nowiny.com.pl##.col-md-3:nth-of-type(7) > .info > .bottom > ul > li:nth-of-type(
 nowyoutsourcing.pl##.g1-row-mailchimp, #mc-embedded-subscribe-form
 obzarciuch.pl###HTML6
 odczasudoczasu.pl#?#.vc_row-has-fill:-abp-has(.form_subscribe)
+ofertapracy.monsterpolska.pl###liteRegDiv
 ofertatorun.pl##.content_bottom.row
 oficynafk.pl##.col-md-4 > .row:nth-of-type(3)
 ogloszenia24.info,publiczne.net###newsletter_section
@@ -551,6 +555,7 @@ swobodnie.eu,histografy.pl###wysija-2
 szachownica.com.pl##.square-newsletter
 szczecin.eu##.newsletter
 szerokadroga.pl##.gum_footer_widget.widget:nth-of-type(3)
+szukampracownika.monsterpolska.pl###mailreg_cont
 tamaj.pl##.lof-block.lofadva-block-4 > .lof-block-wrap > h4
 tapenda.pl##a[href="/newsletter/"]
 teamviewer.com##.footerNewsletterArea
