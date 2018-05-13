@@ -3,12 +3,12 @@ kryminalka.pl###Process0
 mbank.pl###push-message
 pomponik.pl##.ppg__signin
 travelplanet.pl##.fcx-push-modal
+/OneSignalSDK.js$domain=onesignal.com|kosmicznapropaganda.pl|wp.pl
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.fm
 /sw.js$domain=zippyshare.com|youtube.com|a-o.ninja|openload.co
-||api.sociaplus.com^$third-party
+||api.sociaplus.com/views/push/js/sdk/insider-push-native-sdk.js
 ||cdn.gravitec.net/sites/*/client.js
 ||cdn.gravitec.net/storage/*/client.js
-||cdn.onesignal.com/sdks/OneSignalSDK.js
 ||cdn.pushassist.com/account/assets/psa-*.js
 ||cdn.pushpushgo.com/scripts/$script
 ||cdn.pushwoosh.com/webpush/*.js
@@ -17,7 +17,6 @@ travelplanet.pl##.fcx-push-modal
 ||cloudfront.net/edrone_2_0.js
 ||dobreprogramy.pl/Providers/WebPushHelper.ashx
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=dobreprogramy.pl|fotka.com|player.pl
-||kosmicznapropaganda.pl/OneSignalSDK.js
 ||kreskoweczki.pl/js/pushNotification.js
 ||moneygrabbingcouk.foxpush.net/http_native.html
 ||mxapis.com^
@@ -35,6 +34,7 @@ travelplanet.pl##.fcx-push-modal
 ||renee.pl/javascript/push_add.js
 ||salesmanago.pl/api/push/$xmlhttprequest
 ||savecart.pl/*/script.php
+||static.api.sociaplus.com/css/web-push-popup.css
 ||topagrar.pl/static_tap/pushServiceWorker.js
 ||webpush.interia.pl/scripts/*/push.js
 ||wp.pl/webpush/static/js/webpush.desktop.js
