@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: VG8Q8AFUZwJ/pbibr0Fk5A
+! Checksum: AeV1KezsD8Qc0SczJOn+lg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy (Polskie Filtry Ciasteczkowe są już w nich zawarte).
-! Last modified: Mon, 21 May 2018, 17:50 UTC+02
-! Version: 201805211750
+! Last modified: Tue, 22 May 2018, 21:19 UTC+02
+! Version: 201805222119
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 21 maj 2018, 17:50 UTC+02
+! Aktualizacja: wto, 22 maj 2018, 21:19 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -822,6 +822,7 @@ nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowosci-mp3.eu###pop-slap, .bg-pop-over
 nowymarketing.pl###overlay-campaign
 nportal.no###fb-overlay
+obi.pl##.open.ankieta
 obtkarma.pl##.fancybox-overlay[style="display: block; width: auto; height: auto; background: rgba(255, 255, 255, 0.4);"]
 obtkarma.pl#?#.fancybox-wrap:-abp-has(#popupnews-form)
 okmoneta.pl###popupEmailPhone
