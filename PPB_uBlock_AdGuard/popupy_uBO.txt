@@ -81,7 +81,7 @@ motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
 odczasudoczasu.pl##html.pum-open:style(overflow: auto !important;)
 odczasudoczasu.pl##.popmake-overlay
 oleole.pl##html:style(overflow: auto!important;)
-oleole.pl###modalContainer
+oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 online.citibank.pl###AdventPopup, .modal-backdrop
 online.citibank.pl##.modal-open:style(padding-right: 0px !important; overflow: auto !important;)
 partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
@@ -113,6 +113,8 @@ sklepmartes.pl##.modalbox-is-visible:style(overflow: auto !important;)
 sklepmartes.pl##.modalbox--has-closebtn
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
 smaker.pl###overlay, #popup
+socialpress.pl##body:style(overflow: auto !important;)
+socialpress.pl##.bottom-content-newsletter
 spidersweb.pl##html:style(overflow: visible !important; margin-right: 0px !important;)
 spidersweb.pl##.mfp-bg
 spidersweb.pl##.mfp-ready:has(.popoup-content)
