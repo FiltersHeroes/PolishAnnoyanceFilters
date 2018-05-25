@@ -1,9 +1,9 @@
-! Checksum: Nu7ysZnwiO4AAm02kelpSw
+! Checksum: sOWKj9WJeWww5iAeyKaXkg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 25 May 2018, 09:51 UTC+02
-! Version: 201805250951
+! Last modified: Fri, 25 May 2018, 16:38 UTC+02
+! Version: 201805251638
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 25 maj 2018, 09:51 UTC+02
+! Aktualizacja: pią, 25 maj 2018, 16:38 UTC+02
 !
 !
 ! Newslettery
@@ -108,7 +108,7 @@ motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
 odczasudoczasu.pl##html.pum-open:style(overflow: auto !important;)
 odczasudoczasu.pl##.popmake-overlay
 oleole.pl##html:style(overflow: auto!important;)
-oleole.pl###modalContainer
+oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 online.citibank.pl###AdventPopup, .modal-backdrop
 online.citibank.pl##.modal-open:style(padding-right: 0px !important; overflow: auto !important;)
 partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
@@ -140,6 +140,8 @@ sklepmartes.pl##.modalbox-is-visible:style(overflow: auto !important;)
 sklepmartes.pl##.modalbox--has-closebtn
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
 smaker.pl###overlay, #popup
+socialpress.pl##body:style(overflow: auto !important;)
+socialpress.pl##.bottom-content-newsletter
 spidersweb.pl##html:style(overflow: visible !important; margin-right: 0px !important;)
 spidersweb.pl##.mfp-bg
 spidersweb.pl##.mfp-ready:has(.popoup-content)
@@ -225,8 +227,8 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201805242337
-!@Last modified: Thu, 24 May 2018, 23:37:57 UTC+02
+!@Version: 201805251030
+!@Last modified: Fri, 25 May 2018, 10:30:17 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -235,7 +237,7 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201805242337 aktualizacja: czw, 24 maj 2018, 23:37:57 UTC+02 
+!@v.201805251030 aktualizacja: pią, 25 maj 2018, 10:30:17 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -290,6 +292,8 @@ unileverfoodsolutions.pl##.js-cookie-wall
 !@Popupy - polityka prywatności
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 alltube.tv,alltube.pl##.modal-open:style(overflow: auto !important;)
+morele.net##html:style(overflow: auto !important; padding-right: 0px !important;)
+morele.net###content_info_popup
 zeropln.antyweb.pl##body:style(overflow: auto !important;)
 zeropln.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
 !@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW CIASTECZKOWYCH
