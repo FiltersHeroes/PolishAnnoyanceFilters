@@ -1,9 +1,9 @@
-! Checksum: sOWKj9WJeWww5iAeyKaXkg
+! Checksum: Qq5Xz4aUbj+2iChCGMLXyA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 25 May 2018, 16:38 UTC+02
-! Version: 201805251638
+! Last modified: Sun, 27 May 2018, 20:57 UTC+02
+! Version: 201805272057
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 25 maj 2018, 16:38 UTC+02
+! Aktualizacja: nie, 27 maj 2018, 20:57 UTC+02
 !
 !
 ! Newslettery
@@ -195,7 +195,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !
 !
 ! Powiadomienia Push
-meczyki.pl##script:inject(abort-on-property-read.js, Notification.requestPermission)
+meczyki.pl,epoznan.pl##script:inject(abort-on-property-read.js, Notification.requestPermission)
 mpcforum.pl##script:inject(set-constant.js, ips.utils.notification.supported, false)
 !
 !
@@ -227,8 +227,8 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201805251030
-!@Last modified: Fri, 25 May 2018, 10:30:17 UTC+02
+!@Version: 201805272024
+!@Last modified: Sun, 27 May 2018, 20:24:21 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -237,7 +237,7 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201805251030 aktualizacja: pią, 25 maj 2018, 10:30:17 UTC+02 
+!@v.201805272024 aktualizacja: nie, 27 maj 2018, 20:24:21 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -291,9 +291,18 @@ unileverfoodsolutions.pl##.js-cookie-wall
 !
 !@Popupy - polityka prywatności
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
-alltube.tv,alltube.pl##.modal-open:style(overflow: auto !important;)
+alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
+eobuwie.com.pl##body:style(overflow: auto !important;)
+eobuwie.com.pl###permissions-popup
+fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
+lovekrakow.pl###modal-rodo, .modal-backdrop
+lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 morele.net##html:style(overflow: auto !important; padding-right: 0px !important;)
 morele.net###content_info_popup
+obywatel.gov.pl###modal-rodo, .modal-backdrop
+oko.press##.is-reveal-open:style(overflow: auto !important;)
+oko.press##.reveal-overlay
+zakopane.info,tuwroclaw.com###pd-modal, .modal-backdrop
 zeropln.antyweb.pl##body:style(overflow: auto !important;)
 zeropln.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
 !@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW CIASTECZKOWYCH
