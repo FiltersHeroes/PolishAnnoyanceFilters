@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /s9vOpbE5dN1pMSJB+jXZw
+! Checksum: pPRSIjN6wvKWiJih2KhtuQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy (Polskie Filtry Ciasteczkowe są już w nich zawarte).
-! Last modified: Mon, 28 May 2018, 14:27 UTC+02
-! Version: 201805281427
+! Last modified: Mon, 28 May 2018, 14:35 UTC+02
+! Version: 201805281435
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 28 maj 2018, 14:27 UTC+02
+! Aktualizacja: pon, 28 maj 2018, 14:35 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -2010,8 +2010,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO
 !@Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201805281425
-!@Last modified: Mon, 28 May 2018, 14:25:24 UTC+02
+!@Version: 201805281431
+!@Last modified: Mon, 28 May 2018, 14:31:06 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2020,7 +2020,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201805281425 aktualizacja: pon, 28 maj 2018, 14:25:25 UTC+02
+!@v.201805281431 aktualizacja: pon, 28 maj 2018, 14:31:06 UTC+02
 !
 !
 !
@@ -3144,6 +3144,27 @@ www.dobreprogramy.pl##body>div[id]
 !
 !
 !@Ogólne reguły blokujące
+/CookieAlert-latest.min.js
+/CookieLaw$script
+/cookieDisclaimer.js$script
+/cookieMonster.min.js
+/cookiealert.
+/cookies.smartgroup.min.js
+/cookiesWidget/widget.js$script
+/cookieser.js$script
+/cookies-legal-
+/cookiewarning*.js
+/cookie-terms.
+/cookie.js$script
+/cookie_msg.js$script
+/cookie_notify/*
+/informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
+/js/cookieinfo.js
+/js/info_o_cookie.js
+/js/jquery.cookie.min.js$script,domain=~rozklad-pkp.pl|~telepizza.pl|~uplayconnect.ubi.com
+/js/polityka_cookies.js$script
+/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script
+/savecookie.js$script 
 !
 !
 !@Ogólne reguły ukrywające
