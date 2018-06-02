@@ -1,9 +1,9 @@
-! Checksum: xjW4N3ciwoewDDga7OMbfg
+! Checksum: nELSaCeCB6xFcmgcGryPAg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 01 Jun 2018, 23:34 UTC+02
-! Version: 201806012334
+! Last modified: Sat, 02 Jun 2018, 11:37 UTC+02
+! Version: 201806021137
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 01 cze 2018, 23:34 UTC+02
+! Aktualizacja: sob, 02 cze 2018, 11:37 UTC+02
 !
 !
 ! Newslettery
@@ -227,8 +227,8 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806012134
-!@Last modified: Fri, 01 Jun 2018, 21:34:11 UTC+02
+!@Version: 201806021136
+!@Last modified: Sat, 02 Jun 2018, 11:36:40 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -237,7 +237,7 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806012134 aktualizacja: pią, 01 cze 2018, 21:34:11 UTC+02 
+!@v.201806021136 aktualizacja: sob, 02 cze 2018, 11:36:40 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -294,11 +294,14 @@ alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
-eobuwie.com.pl##body:style(overflow: auto !important;)
 eobuwie.com.pl###permissions-popup
+eobuwie.com.pl,zeropln.antyweb.pl##body:style(overflow: auto !important;)
+e-sochaczew.pl###RODOCOOKIE, .modal-backdrop
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl##.rodo, .modal-backdrop
 gokf.gda.pl##.rodo, .modal-backdrop
+hbogo.pl##.banner-overlay
+hbogo.pl,e-sochaczew.pl##body:style(overflow: auto !important; padding-right: 0px !important;)
 infoplanet.pl###rodo, .modal-backdrop
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
@@ -312,6 +315,5 @@ portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,property
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
-zeropln.antyweb.pl##body:style(overflow: auto !important;)
 zeropln.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
 !@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW CIASTECZKOWYCH
