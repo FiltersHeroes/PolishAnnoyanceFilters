@@ -1,5 +1,5 @@
 # Polskie Filtry Elementów Irytujących
-Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy (Polskie Filtry Ciasteczkowe są już w nich zawarte).
+Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe są już w nich zawarte).
 
 Jeżeli nie posiadasz konta na GitHubie, a znalazłeś jakiś irytujący element, którego nasza lista nie blokuje/ukrywa, to w celu zgłoszenia, wypełnij formularz na https://polishannoyancefilters.netlify.com/issues.
 
