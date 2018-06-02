@@ -1,9 +1,9 @@
-! Checksum: nELSaCeCB6xFcmgcGryPAg
+! Checksum: W+cfDPSUiqVKCgC90zxKFg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 02 Jun 2018, 11:37 UTC+02
-! Version: 201806021137
+! Last modified: Sat, 02 Jun 2018, 23:23 UTC+02
+! Version: 201806022323
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 02 cze 2018, 11:37 UTC+02
+! Aktualizacja: sob, 02 cze 2018, 23:23 UTC+02
 !
 !
 ! Newslettery
@@ -22,6 +22,10 @@ eksperymentalnie.com##script:inject(setTimeout-defuser.js, CodeKingdomBox)
 ! Odblokowanie prawego przycisku myszy
 cryptoacademy.club##script:inject(abort-on-property-write.js, document.oncontextmenu)
 skionline.pl##script:inject(remove-attr.js, oncontextmenu)
+!
+!
+! Otagowane linki wewnętrzne w artykułach
+gazeta.pl,sport.pl,gazeta.biz,tokfm.pl,gazetapraca.pl,moto.pl,wyborcza.pl,wyborcza.biz,wysokieobcasy.pl##.external_link:style(pointer-events: none !important;) 
 !
 !
 ! Popupy
@@ -221,14 +225,14 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38 > .fab-wrapper > .fab:style(p
 brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !important; top: 40px !important; right: 0 !important;)
 !
 !
-!@POCZĄTEK DOŁĄCZONYCH POLSKICH FILTRÓW CIASTECZKOWYCH
+!@POCZĄTEK DOŁĄCZONYCH POLSKICH FILTRÓW RODO-CIASTECZKOWYCH
 !@Title: Polskie Filtry RODO-Ciasteczkowe - uzupełnienie do uBlocka i AdGuarda
 !@Polish GDPR-Cookies Filters - Supplement for uBlock & AdGuard
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806021136
-!@Last modified: Sat, 02 Jun 2018, 11:36:40 UTC+02
+!@Version: 201806022241
+!@Last modified: Sat, 02 Jun 2018, 22:41:51 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -237,7 +241,7 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806021136 aktualizacja: sob, 02 cze 2018, 11:36:40 UTC+02 
+!@v.201806022241 aktualizacja: sob, 02 cze 2018, 22:41:51 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -291,23 +295,25 @@ unileverfoodsolutions.pl##.js-cookie-wall
 !
 !@Popupy - polityka prywatności/RODO
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
-alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
+alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,hbogo.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 eobuwie.com.pl###permissions-popup
 eobuwie.com.pl,zeropln.antyweb.pl##body:style(overflow: auto !important;)
-e-sochaczew.pl###RODOCOOKIE, .modal-backdrop
+e-sochaczew.pl,pultusk24.pl###RODOCOOKIE, .modal-backdrop
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
+gazetabilgoraj.pl##.popmake-overlay
+gazetabilgoraj.pl##.pum-open:style(overflow: auto !important;)
 gdansk.pl##.rodo, .modal-backdrop
 gokf.gda.pl##.rodo, .modal-backdrop
 hbogo.pl##.banner-overlay
-hbogo.pl,e-sochaczew.pl##body:style(overflow: auto !important; padding-right: 0px !important;)
 infoplanet.pl###rodo, .modal-backdrop
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 morele.net##html:style(overflow: auto !important; padding-right: 0px !important;)
 morele.net###content_info_popup
 obywatel.gov.pl###modal-rodo, .modal-backdrop
+ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl##.rodo
@@ -316,4 +322,4 @@ wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zeropln.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
-!@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW CIASTECZKOWYCH
+!@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW RODO-CIASTECZKOWYCH
