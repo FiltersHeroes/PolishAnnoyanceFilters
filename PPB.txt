@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9fhG+bPiPNnJ+cLq9eofXA
+! Checksum: 6SEjU6DHE6mCfYxDGgu8Vg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki i inne drażniące elementy (Polskie Filtry Ciasteczkowe są już w nich zawarte).
-! Last modified: Sat, 02 Jun 2018, 11:37 UTC+02
-! Version: 201806021137
+! Last modified: Sat, 02 Jun 2018, 11:41 UTC+02
+! Version: 201806021141
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 02 cze 2018, 11:37 UTC+02
+! Aktualizacja: sob, 02 cze 2018, 11:41 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -145,8 +145,7 @@ dobredomy.pl###footerForm
 dobreprogramy.pl###phContent_SubscriptionsControl_lnkNewsletter
 dobry-kon.pl##.col-sm-3:nth-of-type(4)
 dobrzemieszkaj.pl##.box-22
-domodi.pl##.dm-box--newsletter
-domodi.pl##.dm-footer-newsletter
+domodi.pl##.dm-box--newsletter, .dm-footer-newsletter
 donuj.pl##div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(2)
 dopestore.pl##.bottom-footer
 douglas.pl##.rd__footer__block--newsletter
@@ -1056,7 +1055,7 @@ travelplanet.pl##.fcx-push-modal
 ||cdn.pushassist.com/account/assets/psa-*.js
 ||cdn.pushpushgo.com/scripts/$script
 ||cdn.pushwoosh.com/webpush/*.js
-||cdn.qgraph.io/v3/r/qgraph.v2.js$domain=homebook.pl,domodi.pl
+||cdn.qgraph.io/v3/r/qgraph.v2.js$domain=homebook.pl|domodi.pl
 ||cdn.sendpulse.com$script,third-party
 ||cloudfront.net/edrone_2_0.js
 ||dobreprogramy.pl/Providers/WebPushHelper.ashx
@@ -2018,8 +2017,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806021136
-!@Last modified: Sat, 02 Jun 2018, 11:36:38 UTC+02
+!@Version: 201806021140
+!@Last modified: Sat, 02 Jun 2018, 11:40:28 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2028,7 +2027,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806021136 aktualizacja: sob, 02 cze 2018, 11:36:39 UTC+02
+!@v.201806021140 aktualizacja: sob, 02 cze 2018, 11:40:28 UTC+02
 !
 !
 !
@@ -3130,7 +3129,7 @@ homebook.pl##body > div:not(body):not(id)[style*="position: fixed;"]
 imagazine.pl##.overlay-rules
 instagram.com#?#div>div>div:-abp-contains(cookie)
 ipla.tv##.rodo-rules-modal
-jarocinska.pl,gostynska.pl,zpleszewa.pl,.rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
+jarocinska.pl,gostynska.pl,zpleszewa.pl,rawicz24.pl,zwielkopolski24.pl##.backdrop, .lightbox-modal
 jelonka.com##.prywatnosc
 kochamwroclaw.pl###tfade, #cwv3_dialog, #tlight, .dialog-overlay, #surbma-yes-no-popup
 londynek.net##.jd-rodo
