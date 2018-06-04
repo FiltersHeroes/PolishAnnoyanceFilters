@@ -36,6 +36,14 @@ on('issues.opened', 'issues.edited')
   .unlabel('newsletter');
 
 on('issues.opened', 'issues.edited')
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] otagowany link wewnętrzny/))
+  .label('otagowany link wewnętrzny');
+
+on('issues.opened', 'issues.edited')
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] otagowany link wewnętrzny/))
+  .unlabel('otagowany link wewnętrzny');
+  
+on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[xX]] popup/))
   .label('popup');
 

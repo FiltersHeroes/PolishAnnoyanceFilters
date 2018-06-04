@@ -11,6 +11,7 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 - [] błąd
 - [] czat
 - [] newsletter
+- [] otagowany link wewnętrzny
 - [] popup
 - [] prawy klik
 - [] przycisk
