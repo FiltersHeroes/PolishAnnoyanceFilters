@@ -1,9 +1,9 @@
-! Checksum: WVwhHW+Qm5ROXyB0/KwIuA
+! Checksum: igddvTf8SroB8EtCPM+39Q
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 08 Jun 2018, 21:57 UTC+02
-! Version: 201806082157
+! Last modified: Sat, 09 Jun 2018, 14:12 UTC+02
+! Version: 201806091412
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 08 cze 2018, 21:57 UTC+02
+! Aktualizacja: sob, 09 cze 2018, 14:12 UTC+02
 !
 !
 ! Newslettery
@@ -233,8 +233,8 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806061142
-!@Last modified: Wed, 06 Jun 2018, 11:42:42 UTC+02
+!@Version: 201806091356
+!@Last modified: Sat, 09 Jun 2018, 13:56:54 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -243,11 +243,12 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806061142 aktualizacja: śro, 06 cze 2018, 11:42:42 UTC+02 
+!@v.201806091356 aktualizacja: sob, 09 cze 2018, 13:56:54 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
 4lomza.pl##body.polityka-cookies:style(margin-top: 0px !important;)
+abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
 archiwum.rp.pl,info.rp.pl##body:style(margin-top: 0px!important;)
 bbcpolska.com###home:style(padding-top: 0px !important;)
 beko.pl##.cookies-margin:style(top: 0px!important;)
@@ -297,7 +298,7 @@ unileverfoodsolutions.pl##.js-cookie-wall
 !
 !@Popupy - polityka prywatności/RODO
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
-alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
+alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl##.modal-open:style(overflow: auto !important;)
 dobrzemieszkaj.pl###axn
@@ -322,6 +323,7 @@ obywatel.gov.pl###modal-rodo, .modal-backdrop
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
+polski-tenis.pl###rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl##.rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl##.windowOpen:style(overflow: auto !important;)
 tuzdrowie.pl###popupModal, .modal-backdrop
