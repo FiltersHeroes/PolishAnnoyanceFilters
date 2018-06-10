@@ -6,3 +6,5 @@ Jeżeli nie posiadasz konta na GitHubie, a znalazłeś jakiś irytujący element
 
 Nasza lista filtrów nie zajmuje się elementami społecznościowymi. Od tego są [Polskie Filtry Społecznościowe](https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/adblock_social_filters/adblock_social_list.txt) i [Fanboy's Social Blocking List](https://easylist-downloads.adblockplus.org/fanboy-social.txt).
 
+
+Jeżeli irytuje was autoplay, to polecamy poradnik pt. „[Jak zablokować autoodtwarzanie filmików?](https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/wiki/Blokada-autoodtwarzania-filmik%C3%B3w)".
