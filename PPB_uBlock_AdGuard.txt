@@ -1,9 +1,9 @@
-! Checksum: l3cMS8ISnCs1Thvw8arNzQ
+! Checksum: YT57o3zramWanHh68RDpuQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 12 Jun 2018, 13:53 UTC+02
-! Version: 201806121353
+! Last modified: Tue, 12 Jun 2018, 18:20 UTC+02
+! Version: 201806121820
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 12 cze 2018, 13:53 UTC+02
+! Aktualizacja: wto, 12 cze 2018, 18:20 UTC+02
 !
 !
 ! Newslettery
@@ -132,6 +132,8 @@ pl.aleteia.org##html.fancybox-lock:style(overflow: auto !important; margin-right
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
+prnews.pl###myModal, .modal-backdrop
+prnews.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 quiosque.pl###newsletter-popup, .modal-backdrop
 quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0px !important;)
 rekinfinansow.pl##.cp-custom-viewport:style(overflow: auto !important;)
