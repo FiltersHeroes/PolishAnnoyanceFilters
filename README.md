@@ -2,7 +2,7 @@
 
 Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, niezgodne z tematem artykułów otagowane linki wewnętrzne i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe są już w nich zawarte).
 
-Do poprawnego działania listy wymagane są [EasyList](https://easylist.to/easylist/easylist.txt) i [Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda](https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt).
+Do poprawnego działania listy wymagane są [EasyList](https://subscribe.adblockplus.org/?location=https://easylist.to/easylist/easylist.txt&title=EasyList) i [Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt&title=Officjalne%20Polskie%20Filtry%20do%20AdBlocka,%20uBlocka%20Origin%20i%20AdGuarda).
 
 Najlepszy efekt uzyskasz, importując listę do [uBlocka Origin](https://github.com/gorhill/uBlock/releases) lub [Nano Adblockera](https://github.com/NanoAdblocker/NanoCore/releases).
 
