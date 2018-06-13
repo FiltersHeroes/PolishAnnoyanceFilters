@@ -8,6 +8,8 @@ Jeżeli nie posiadasz konta na GitHubie, a znalazłeś jakiś irytujący element
 
 Do poprawnego działania listy wymagane są [EasyList](https://easylist.to/easylist/easylist.txt) & [Oficjalne polskie filtry do AdBlocka, uBlocka Origin i AdGuarda](https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-adblock-filters/adblock.txt)
 
+Najlepszy efekt uzyskasz instalując listę na [uBlock Origin](https://github.com/gorhill/uBlock/releases) lub [Nano Adblocker](https://github.com/NanoAdblocker/NanoCore/releases)
+
 Nasza lista filtrów nie zajmuje się elementami społecznościowymi. Od tego są [Polskie Filtry Społecznościowe](https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/adblock_social_filters/adblock_social_list.txt) & [Fanboy's Social Blocking List](https://easylist-downloads.adblockplus.org/fanboy-social.txt).
 
 
