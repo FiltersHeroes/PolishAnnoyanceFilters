@@ -1,9 +1,9 @@
-! Checksum: HWY+FNUmD7WUSBZDKu65eA
+! Checksum: 8F/QcfzZ8XNY4qzuRD6iYw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 14 Jun 2018, 20:22 UTC+02
-! Version: 201806142022
+! Last modified: Fri, 15 Jun 2018, 20:16 UTC+02
+! Version: 201806152016
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 14 cze 2018, 20:22 UTC+02
+! Aktualizacja: pią, 15 cze 2018, 20:16 UTC+02
 !
 !
 ! Newslettery
@@ -136,6 +136,8 @@ prnews.pl###myModal, .modal-backdrop
 prnews.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 quiosque.pl###newsletter-popup, .modal-backdrop
 quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0px !important;)
+reaktor.pwn.pl##.is-reveal-open:style(overflow: auto !important;)
+reaktor.pwn.pl##.reveal-overlay
 rekinfinansow.pl##.cp-custom-viewport:style(overflow: auto !important;)
 rekinfinansow.pl##.cp-visited-popup
 rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
@@ -237,8 +239,8 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806131611
-!@Last modified: Wed, 13 Jun 2018, 16:11:56 UTC+02
+!@Version: 201806151950
+!@Last modified: Fri, 15 Jun 2018, 19:50:47 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -247,7 +249,7 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806131611 aktualizacja: śro, 13 cze 2018, 16:11:56 UTC+02 
+!@v.201806151950 aktualizacja: pią, 15 cze 2018, 19:50:47 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -311,12 +313,16 @@ dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 eobuwie.com.pl###permissions-popup
 eobuwie.com.pl,zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl##body:style(overflow: auto !important;)
 e-sochaczew.pl,pultusk24.pl###RODOCOOKIE, .modal-backdrop
+filmweb.pl##.rodo:style(overflow: auto !important; position: static !important;)
+filmweb.pl##.rodo__overlay
 fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gazetabilgoraj.pl##.popmake-overlay
 gazetabilgoraj.pl##.pum-open:style(overflow: auto !important;)
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
 hbogo.pl##body:style(overflow: auto !important; padding-right: 0px !important;)
 hbogo.pl##.banner-overlay
+hm.com##.modal-open, .modal-open body:style(overflow-y: auto !important; position: static !important;)
+hm.com#?#.modaloverlay:-abp-has(#gdpr-modal)
 infoplanet.pl###rodo, .modal-backdrop
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
@@ -328,8 +334,8 @@ ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
 polski-tenis.pl###rodo
-portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl##.rodo
-portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl##.windowOpen:style(overflow: auto !important;)
+portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.rodo
+portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
 prawdaobiektywna.pl##body:style(overflow: auto !important;)
 prawdaobiektywna.pl##.qc-cmp-ui-container
 tabletowo.pl###disqus_thread:style(display: initial !important;)
