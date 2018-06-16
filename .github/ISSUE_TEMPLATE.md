@@ -6,6 +6,7 @@ Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
 Co mamy schować, zablokować albo w czym jest problem, może pojawił się jakiś błąd?
 Proszę wstawić x pomiędzy znakami [] obok typu/typów, którego/których to zgłoszenie dotyczy.
 W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) lub usunąć x i zamiast niego - wstawić spację.
+-->
 
 ### Typ elementu/problemu
 - [] błąd
@@ -21,7 +22,6 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 - [] strzałka
 - [] ulepszenie
 - [] widżet
--->
 
 ### Moja konfiguracja
 **Przeglądarka internetowa:** 
@@ -33,8 +33,7 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 **Używane filtry:**
 1. EasyList
 2. Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
-3. Polskie Filtry Ciasteczkowe
-4. Polskie Filtry Elementów Irytujących
+3. Polskie Filtry Elementów Irytujących
 5. 
 6. 
 
