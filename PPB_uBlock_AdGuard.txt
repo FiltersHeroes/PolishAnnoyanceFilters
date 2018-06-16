@@ -1,9 +1,9 @@
-! Checksum: 8F/QcfzZ8XNY4qzuRD6iYw
+! Checksum: d98CeAlP6aNUNbg6YEx2ZA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 15 Jun 2018, 20:16 UTC+02
-! Version: 201806152016
+! Last modified: Sat, 16 Jun 2018, 12:33 UTC+02
+! Version: 201806161233
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 15 cze 2018, 20:16 UTC+02
+! Aktualizacja: sob, 16 cze 2018, 12:33 UTC+02
 !
 !
 ! Newslettery
@@ -57,8 +57,8 @@ comperia.pl###modal_woman, .modal-backdrop
 comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
 deezee.pl##html:style(overflow: visible!important;padding-right: 0px!important;)
 deezee.pl##.mfp-ready
-defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl###newsletter-modal
-defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
+defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com###newsletter-modal
+defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
 domodi.pl##script:inject(set-constant.js, PWA_adbd, 2)
 ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
@@ -239,8 +239,8 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806151950
-!@Last modified: Fri, 15 Jun 2018, 19:50:47 UTC+02
+!@Version: 201806161209
+!@Last modified: Sat, 16 Jun 2018, 12:09:47 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -249,7 +249,7 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806151950 aktualizacja: pią, 15 cze 2018, 19:50:47 UTC+02 
+!@v.201806161209 aktualizacja: sob, 16 cze 2018, 12:09:47 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -303,8 +303,9 @@ unileverfoodsolutions.pl##.js-cookie-wall
 !
 !
 !@Popupy - polityka prywatności/RODO
+4fun.tv###cModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
-alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl,craftserve.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
+alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl,craftserve.pl,ustawmundial.weszlo.com,4fun.tv##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl##.modal-open:style(overflow: auto !important;)
 craftserve.pl###rodo, .modal-backdrop
@@ -341,6 +342,7 @@ prawdaobiektywna.pl##.qc-cmp-ui-container
 tabletowo.pl###disqus_thread:style(display: initial !important;)
 tabletowo.pl##.ginger_banner-wrapper
 tuzdrowie.pl###popupModal, .modal-backdrop
+ustawmundial.weszlo.com###privacy-modal, .modal-backdrop
 wagrowczanie.pl##.showRodo
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
