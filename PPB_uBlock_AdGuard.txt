@@ -1,9 +1,9 @@
-! Checksum: D6fQkVaU3iuWxsh0P15/ug
+! Checksum: 4o3gnMaSyUWcECmmXS1ABQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 19 Jun 2018, 21:49 UTC+02
-! Version: 201806192149
+! Last modified: Tue, 19 Jun 2018, 22:01 UTC+02
+! Version: 201806192201
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 19 cze 2018, 21:49 UTC+02
+! Aktualizacja: wto, 19 cze 2018, 22:01 UTC+02
 !
 !
 ! Newslettery
@@ -239,8 +239,8 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806192014
-!@Last modified: Tue, 19 Jun 2018, 20:14:32 UTC+02
+!@Version: 201806192200
+!@Last modified: Tue, 19 Jun 2018, 22:00:34 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -249,7 +249,7 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806192014 aktualizacja: wto, 19 cze 2018, 20:14:32 UTC+02 
+!@v.201806192200 aktualizacja: wto, 19 cze 2018, 22:00:34 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -355,11 +355,12 @@ zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
 !
 !
 !@Popupy dot. polityki prywatności/RODO - specjalne instrukcje
+!#if !cap_html_filtering
 publikator.com.pl##.layer
 publikator.com.pl##body>*:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
-publikator.com.pl##^body script:has-text(polityka|zaufani)
 !#endif
 !#if cap_html_filtering
-!#if !cap_html_filtering
+publikator.com.pl##^body script:has-text(polityka|zaufani)
+!#endif
 !@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW RODO-CIASTECZKOWYCH
