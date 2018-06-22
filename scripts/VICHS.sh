@@ -14,7 +14,13 @@ for i in "$@"; do
     TEMPLATE=$sciezka/../templates/${FILTR}.template
     KONCOWY=$i
     TYMCZASOWY=$sciezka/../${FILTR}.temp
-    SEKCJE_KAT=$sciezka/../${FILTR}
+    
+    # Jeżeli nie jest to plik PPB ani PPB_uBlock_AdGuard, to oznacza, że mamy do czynienia z modułem/modułami, a więc ścieżka zawsze będzie prowadzić do sekcji głównej listy, a includowanie supplementów zostawimy dla uBO i AG :-)
+    if [ "${FILTR}" == 'PPB' ] || [ "${FILTR}" == 'PPB_uBlock_AdGuard' ]; then
+        SEKCJE_KAT=$sciezka/../${FILTR}
+    else
+        SEKCJE_KAT=$sciezka/../PPB
+    fi
 
     # Podmienianie zawartości pliku końcowego na zawartość template'u
     cp -R $TEMPLATE $KONCOWY

@@ -8,8 +8,7 @@ notifications:
     on_success: never
     on_failure: always
 script:
-- "./scripts/VICHS_Travis.sh $(dirname $(git diff-tree --no-commit-id --name-only
-  -r master)).txt"
+- "./scripts/TRAVIS_LETS_DO_THIS.sh"
 env:
   global:
     secure: ygWMc3tuXjG1X3ybDTv8vWcUxWmdWY/tNqJqU21730gzJeqLd8bcA0x5NnN1XAxL5pp6E9/rTq1GJQOip/gqjMrGPKLqfFXkB8sOF6kSWN/fXNPz5xs5DcJRRxBoILS0biXBkIyEvEtwppB+GRm+FroELamX6GtAkr1KfthOZN8I1XIeiefgc3EOPPf/I1KO2RUvia+Iq2Rk3Ai+LVm2dyddwBzgU0L0b8MHEOxzESct8jiZDICzFFbjRaXLc9kOwPZD1TdiXQmhfaAZcyIHjS4YY1BHHiK4GVUbVPMCEc9CvgClvzubZvrka0UzxnhVITjHhZjhNT7hQPT15JaKAhhMzsFMwzXKGD28prG8GIWA1g2PEbmp8Uf3tfoIvchNwbchretB3ocrprXsPsgVKV2w63Px1pXO+rR1JpvMM5h5mjbJbSzpEunOTLZ7yrrfweeuK0wql/jX2hWityxCBxMspG49nrty4tgqg7bJPATfAB3JHkOXVqPpZaB8RWlRJ8dmOdvnaXolAkPx2a24MiUsnq1OX4EFKusmQ5cyFz0tnehA6i92UYn4rPgj+mS34uhRtaw+N3I9z1IpGopy3pXyiGw1UjtZZwH1KzuQ+KyEt0TrhbnIHi/PcV1S+n2cEKDBII9Yu/7WAYj19T/yoH7gj7KMyAKDiSrgJLT8IsI=
