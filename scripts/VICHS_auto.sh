@@ -22,7 +22,9 @@ for i in $ost_zmieniony_plik; do
     fi
     
     if [[ "$i" == "PPB_uBlock_AdGuard"* ]]; then
-        glowna_lista+=" "PPB_uBlock_AdGuard.txt
+        if [[ "$glowna_lista" != *" PPB_uBlock_AdGuard.txt"* ]] ;then
+            glowna_lista+=" "PPB_uBlock_AdGuard.txt
+        fi
     fi
 
 done
