@@ -8,8 +8,6 @@ cd $sciezka/..
 
 ost_zmieniony_plik=$(git diff -z --name-only | xargs -0)
 
-katalog=$(dirname $ost_zmieniony_plik)
-
 for i in $ost_zmieniony_plik; do
     if [ "$i" == "PPB/push.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/push_uBO.txt" ]; then
         if [[ "$modul" != *" PAF_push.txt"* ]] ;then
