@@ -1,9 +1,9 @@
-! Checksum: PIJXcF0yXJj6jloydRjQnA
+! Checksum: zs/5e2R/PpptYpKY4GJwLw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 24 Jun 2018, 12:12 UTC+02
-! Version: 201806241212
+! Last modified: Sun, 24 Jun 2018, 14:07 UTC+02
+! Version: 201806241407
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 24 cze 2018, 12:12 UTC+02
+! Aktualizacja: nie, 24 cze 2018, 14:07 UTC+02
 !
 !
 ! Newslettery
@@ -236,8 +236,8 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806241129
-!@Last modified: Sun, 24 Jun 2018, 11:29:58 UTC+02
+!@Version: 201806241359
+!@Last modified: Sun, 24 Jun 2018, 13:59:23 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -246,7 +246,7 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806241129 aktualizacja: nie, 24 cze 2018, 11:29:59 UTC+02 
+!@v.201806241359 aktualizacja: nie, 24 cze 2018, 13:59:23 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -270,12 +270,12 @@ sephora.pl##.bandeBody:style(top: 0px !important;)
 serwis.currenda.pl##div:style(margin-top: auto!important;)
 sonymobile.com##.bnw-module.header[style="margin-top: 80px;"]:style(margin-top: 0px!important;)
 telepizza.pl##.navbar:style(margin-top: 0px!important;)
+twitter.com##.topbar-spacer:style(padding-top: 0px !important;)
 webhelp.pl###wrapper:style(margin-top: auto !important;)
 wykop.pl##.cookie
 wykop.pl##.type-permanent+#nav+div:style(padding-top: 49px !important;)
 wykop.pl##.type-permanent+#nav:style(top: 0px !important;) 
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px!important;)
-twitter.com##.topbar-spacer:style(padding-top: 0px !important;)
 !
 !
 !@Komunikaty ciasteczkowe i dziury - specjalne instrukcje
@@ -321,11 +321,14 @@ fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gazetabilgoraj.pl,koleje-wielkopolskie.com.pl##.popmake-overlay
 gazetabilgoraj.pl,koleje-wielkopolskie.com.pl##.pum-open:style(overflow: auto !important;)
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
+generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0px !important;)
 hbogo.pl##body:style(overflow: auto !important; padding-right: 0px !important;)
 hbogo.pl##.banner-overlay
 hm.com##.modal-open, .modal-open body:style(overflow-y: auto !important; position: static !important;)
 hm.com#?#.modaloverlay:-abp-has(#gdpr-modal)
 infoplanet.pl###rodo, .modal-backdrop
+ipla.tv##.no-scroll:style(overflow: auto !important;)
+ipla.tv##.rodo-rules-modal
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 mazury.travel##.popup, .popup-overlay
@@ -349,11 +352,8 @@ wagrowczanie.pl##.showRodo
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
-ztm.poznan.pl###PopUP, .modal-backdrop
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
-ipla.tv##.rodo-rules-modal
-ipla.tv##.no-scroll:style(overflow: auto !important;)
-generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0px !important;)
+ztm.poznan.pl###PopUP, .modal-backdrop
 !
 !
 !@Popupy dot. polityki prywatności/RODO - specjalne instrukcje
