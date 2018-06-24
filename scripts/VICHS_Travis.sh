@@ -24,15 +24,12 @@ for i in "$@"; do
 
     # Podmienianie zawartości pliku końcowego na zawartość template'u
     cp -R $TEMPLATE $KONCOWY
-
-    # SEKCJA_NS to sekcja, której zawartości nie chcemy sortować
-    SEKCJA_NS=$(grep -oP '@NOSORTinclude \K.*' $KONCOWY)
     
     # Usuwanie pustych linii z sekcji
     find ${SEKCJE_KAT} -type f -exec sed -i '/^$/d' {} \;
     
-    # Sortowanie sekcji
-    find ${SEKCJE_KAT} -type f ! -iname ${SEKCJA_NS}.txt -exec sort -uV -o {} {} \;
+    # Sortowanie sekcji z pominięciem tych, które zawierają specjalne instrukcje
+    find ${SEKCJE_KAT} -type f ! -iname ""*_specjalne_instrukcje.txt"" -exec sort -uV -o {} {} \;
 
     # Obliczanie ilości sekcji (wystąpień słowa @include w template'cie
     END=$(grep -o -i '@include' ${TEMPLATE} | wc -l)
@@ -61,17 +58,6 @@ for i in "$@"; do
         sed -e '0,/^@URLinclude/!b; /@URLinclude/{ r '$SEKCJE_KAT/external.temp'' -e 'd }' $KONCOWY > $TYMCZASOWY
         cp -R $TYMCZASOWY $KONCOWY
         rm -r $SEKCJE_KAT/external.temp
-    done
-    
-    # Obliczanie ilości niesortowalnych sekcji
-    END_NS=$(grep -o -i '@NOSORTinclude' ${TEMPLATE} | wc -l)
-    
-    # Doklejanie niesortowalnych sekcji w odpowiednie miejsca
-    for (( n=1; n<=$END_NS; n++ ))
-    do
-        SEKCJA_NS=$(grep -oP -m 1 '@NOSORTinclude \K.*' $KONCOWY)
-        sed -e '0,/^@NOSORTinclude/!b; /@NOSORTinclude/{ r '${SEKCJE_KAT}/${SEKCJA_NS}.txt'' -e 'd }' $KONCOWY > $TYMCZASOWY
-        cp -R $TYMCZASOWY $KONCOWY
     done
     
     # Usuwanie tymczasowego pliku
