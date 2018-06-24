@@ -1,9 +1,9 @@
-! Checksum: 9Rldhpre50tK/Th47uDRzg
+! Checksum: PIJXcF0yXJj6jloydRjQnA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 21 Jun 2018, 23:25 UTC+02
-! Version: 201806212325
+! Last modified: Sun, 24 Jun 2018, 12:12 UTC+02
+! Version: 201806241212
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 21 cze 2018, 23:25 UTC+02
+! Aktualizacja: nie, 24 cze 2018, 12:12 UTC+02
 !
 !
 ! Newslettery
@@ -119,6 +119,7 @@ oleole.pl##html:style(overflow: auto!important;)
 oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 online.citibank.pl###AdventPopup, .modal-backdrop
 online.citibank.pl##.modal-open:style(padding-right: 0px !important; overflow: auto !important;)
+open.fm##script:inject(addEventListener-defuser.js, unload)
 partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
 partneragdrtv.com.pl##.mfp-bg
 partneragdrtv.com.pl##.mfp-ready:has(.newsletter-box)
@@ -193,10 +194,6 @@ zegarkiipasja.pl##body:style(overflow: auto !important;)
 zegarkiipasja.pl##.emelu-lightbox-target
 !
 !
-! Potwierdzenia opuszczenia strony
-open.fm##script:inject(addEventListener-defuser.js, unload)
-!
-!
 ! Przyciski
 4free.waw.pl###spolecznosci:style(height: auto !important;)
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
@@ -239,8 +236,8 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@Codename: Cookies - supplement
 !@Collaborators: F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806212139
-!@Last modified: Thu, 21 Jun 2018, 21:39:21 UTC+02
+!@Version: 201806241129
+!@Last modified: Sun, 24 Jun 2018, 11:29:58 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -249,7 +246,7 @@ brief.pl##body > .da0156dfc57b9ef01669068861c5cb38:style(position: absolute !imp
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806212139 aktualizacja: czw, 21 cze 2018, 21:39:21 UTC+02 
+!@v.201806241129 aktualizacja: nie, 24 cze 2018, 11:29:59 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -278,6 +275,7 @@ wykop.pl##.cookie
 wykop.pl##.type-permanent+#nav+div:style(padding-top: 49px !important;)
 wykop.pl##.type-permanent+#nav:style(top: 0px !important;) 
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px!important;)
+twitter.com##.topbar-spacer:style(padding-top: 0px !important;)
 !
 !
 !@Komunikaty ciasteczkowe i dziury - specjalne instrukcje
@@ -353,6 +351,9 @@ wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 ztm.poznan.pl###PopUP, .modal-backdrop
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
+ipla.tv##.rodo-rules-modal
+ipla.tv##.no-scroll:style(overflow: auto !important;)
+generator.blulink.pl##.body--privatepolicy:style(padding-bottom: 0px !important;)
 !
 !
 !@Popupy dot. polityki prywatności/RODO - specjalne instrukcje
