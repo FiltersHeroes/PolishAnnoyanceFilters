@@ -1,12 +1,12 @@
-[Adblock Plus 2.0]
+[uBlock Origin]
 ! Checksum: 
-! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
-! Polish Annoyance Filters - Web Push Notifications
-! Codename: Web Push
-! Description: Filtry ukrywające i blokujące powiadomienia web push.
+! Title: Polskie Filtry Elementów Irytujących - Odblokowanie Kliknięcia Prawym Przyciskiem Myszy
+! Polish Annoyance Filters - Unlocking Right Click
+! Codename: Right Click
+! Description: Filtry odblokowujące kliknięcie prawym przyciskiem myszy.
 ! Last modified: @modified
 ! Version: @wersja
-! Expires: 3 days
+! Expires: 6 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.com/issues
@@ -17,8 +17,4 @@
 ! Aktualizacja: @aktualizacja
 !
 !
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#include PPB_uBlock_AdGuard/push_uBO.txt
-!
-!
-@include push
+@include ../PPB_uBlock_AdGuard/odblokuj_prawy_uBO

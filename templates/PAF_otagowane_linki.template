@@ -1,12 +1,12 @@
-[Adblock Plus 2.0]
+[uBlock Origin]
 ! Checksum: 
-! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
-! Polish Annoyance Filters - Web Push Notifications
-! Codename: Web Push
-! Description: Filtry ukrywające i blokujące powiadomienia web push.
+! Title: Polskie Filtry Elementów Irytujących - Otagowane Linki Wewnętrzne
+! Polish Annoyance Filters - Tagged Internal Links
+! Codename: Tagged Internal Links
+! Description: Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.
 ! Last modified: @modified
 ! Version: @wersja
-! Expires: 3 days
+! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.com/issues
@@ -17,8 +17,4 @@
 ! Aktualizacja: @aktualizacja
 !
 !
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#include PPB_uBlock_AdGuard/push_uBO.txt
-!
-!
-@include push
+@include ../PPB_uBlock_AdGuard/otagowane_linki_supplement

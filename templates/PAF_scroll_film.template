@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
 ! Checksum: 
-! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
-! Polish Annoyance Filters - Web Push Notifications
-! Codename: Web Push
-! Description: Filtry ukrywające i blokujące powiadomienia web push.
+! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
+! Polish Annoyance Filters - Scrolling Videos
+! Codename: Scrolling videos
+! Description: Filtry zatrzymujące scrollujące filmiki.
 ! Last modified: @modified
 ! Version: @wersja
-! Expires: 3 days
+! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.com/issues
@@ -17,8 +17,8 @@
 ! Aktualizacja: @aktualizacja
 !
 !
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#include PPB_uBlock_AdGuard/push_uBO.txt
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
+!#include PPB_uBlock_AdGuard/scroll_film_uBO.txt
 !
 !
-@include push
+@include scroll_film
