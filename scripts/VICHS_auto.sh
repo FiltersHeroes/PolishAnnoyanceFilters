@@ -33,6 +33,12 @@ for i in $ost_zmieniony_plik; do
         fi
     fi
     
+    if [ "$i" == "PPB/newslettery_nie_popupy.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/newslettery_uBO.txt" ]; then
+        if [[ "$modul" != *" PAF_newslettery.txt"* ]] ;then
+            modul+=" "PAF_newslettery.txt
+        fi
+    fi
+    
     if [ "$i" == "PPB_uBlock_AdGuard/otagowane_linki_supplement.txt" ]; then
         if [[ "$modul" != *" PAF_otagowane_linki.txt"* ]] ;then
             modul+=" "PAF_otagowane_linki.txt
