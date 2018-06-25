@@ -50,6 +50,12 @@ for i in $ost_commit_plik; do
             modul+=" "PAF_odblokuj_prawy.txt
         fi
     fi
+    
+    if [ "$i" == "PPB/newslettery_nie_popupy.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/newslettery_uBO.txt" ]; then
+        if [[ "$modul" != *" PAF_newslettery.txt"* ]] ;then
+            modul+=" "PAF_newslettery.txt
+        fi
+    fi
 
 done
 
