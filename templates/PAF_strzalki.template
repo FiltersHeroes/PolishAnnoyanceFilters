@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Checksum: 
-! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
-! Polish Annoyance Filters - Web Push Notifications
-! Codename: Web Push
-! Description: Filtry ukrywające i blokujące powiadomienia web push.
+! Title: Polskie Filtry Elementów Irytujących - Strzałki
+! Polish Annoyance Filters - Arrows
+! Codename: Arrows
+! Description: Filtry ukrywające i blokujące strzałki.
 ! Last modified: @modified
 ! Version: @wersja
 ! Expires: 3 days
@@ -17,8 +17,8 @@
 ! Aktualizacja: @aktualizacja
 !
 !
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#include PPB_uBlock_AdGuard/push_uBO.txt
+@include strzalki
 !
 !
-@include push
+! Wyjątki
+@include wyjatki 
