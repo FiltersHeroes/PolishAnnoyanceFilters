@@ -1,0 +1,20 @@
+[uBlock Origin]
+! Checksum: kq70OI99g9C0qV2cC1I4Gw
+! Title: Polskie Filtry Elementów Irytujących - Otagowane Linki Wewnętrzne
+! Polish Annoyance Filters - Tagged Internal Links
+! Codename: Tagged Internal Links
+! Description: Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.
+! Last modified: Mon, 25 Jun 2018, 20:38 UTC+02
+! Version: 201806252038
+! Expires: 5 days
+! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
+! Zgłoszenia:
+!   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.com/issues
+!   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
+!   Discord => https://discord.me/polskiefiltry
+! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
+! Copyright © 2018 Polish Filters Team
+! Aktualizacja: pon, 25 cze 2018, 20:38 UTC+02
+!
+!
+gazeta.pl,sport.pl,gazeta.biz,tokfm.pl,gazetapraca.pl,moto.pl,wyborcza.pl,wyborcza.biz,wysokieobcasy.pl##.external_link:style(pointer-events: none; position: unset !important;)
