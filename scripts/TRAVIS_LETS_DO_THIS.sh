@@ -52,8 +52,8 @@ for i in $ost_commit_plik; do
     fi
     
     if [ "$i" == "PPB_uBlock_AdGuard/odblokuj_prawy_uBO.txt" ]; then
-        if [[ "$modul" != *" PAF_odblokuj_prawy.txt"* ]] ;then
-            modul+=" "PAF_odblokuj_prawy.txt
+        if [[ "$modul" != *" PAF_unlocking_right_click.txt"* ]] ;then
+            modul+=" "PAF_unlocking_right_click.txt
         fi
     fi
 
