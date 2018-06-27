@@ -1,11 +1,11 @@
 | MODUŁ  | OPIS  | LINKI  | ZGODNOŚĆ  |
 |:-:|---|---|---|
-|Newslettery (bez pop-upów) |Filtry ukrywające i blokujące newslettery (bez pop-upów).  |[Subskrybuj][Newslettery] [Podgląd][N_Podgląd] |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]  |
+|Newslettery |Filtry ukrywające i blokujące newslettery (bez pop-upów).  |[Subskrybuj][Newslettery] [Podgląd][N_Podgląd] |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]  |
 |Odblokowanie Kliknięcia Prawym Przyciskiem Myszy  |Filtry odblokowujące kliknięcie prawym przyciskiem myszy.  |[Subskrybuj][Prawy Klik] [Podgląd][PK_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
 |Otagowane Linki Wewnętrzne  |Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.   |[Subskrybuj][Tag Link] [Podgląd][TL_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
-|Wyskakujące okienka   |Filtry ukrywające i blokujące wyskakujące okienka.   |[Subskrybuj][Pop] [Podgląd][Pop_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Wyskakujące Okienka   |Filtry ukrywające i blokujące wyskakujące okienka.   |[Subskrybuj][Pop] [Podgląd][Pop_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Powiadomienia Web Push   |Filtry ukrywające i blokujące powiadomienia web push.   |[Subskrybuj][Push] [Podgląd][Push_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
-|Scrollujące filmiki   |Filtry zatrzymujące scrollujące filmiki.   |[Subskrybuj][Scroll Film] [Podgląd][SF_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Scrollujące Filmiki   |Filtry zatrzymujące scrollujące filmiki.   |[Subskrybuj][Scroll Film] [Podgląd][SF_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Strzałki   |Filtry ukrywające i blokujące strzałki.   |[Subskrybuj][Strzałki] [Podgląd][Strzałki_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 
 [Newslettery]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt&title=PFEI%20-%20Newslettery
