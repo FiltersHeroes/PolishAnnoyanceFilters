@@ -16,32 +16,32 @@ for i in $ost_zmieniony_plik; do
     fi
     
     if [ "$i" == "PPB/popupy.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/popupy_uBO.txt" ]; then
-        if [[ "$modul" != *" PAF_popupy.txt"* ]] ;then
-            modul+=" "PAF_popupy.txt
+        if [[ "$modul" != *" PAF_pop-ups.txt"* ]] ;then
+            modul+=" "PAF_pop-ups.txt
         fi
     fi
     
     if [ "$i" == "PPB/strzalki.txt" ]; then
-        if [[ "$modul" != *" PAF_strzalki.txt"* ]] ;then
-            modul+=" "PAF_strzalki.txt
+        if [[ "$modul" != *" PAF_arrows.txt"* ]] ;then
+            modul+=" "PAF_arrows.txt
         fi
     fi
     
     if [ "$i" == "PPB/scroll_film.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/scroll_film_uBO.txt" ]; then
-        if [[ "$modul" != *" PAF_scroll_film.txt"* ]] ;then
-            modul+=" "PAF_scroll_film.txt
+        if [[ "$modul" != *" PAF_scrolling_videos.txt"* ]] ;then
+            modul+=" "PAF_scrolling_videos.txt
         fi
     fi
     
     if [ "$i" == "PPB/newslettery_nie_popupy.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/newslettery_uBO.txt" ]; then
-        if [[ "$modul" != *" PAF_newslettery.txt"* ]] ;then
-            modul+=" "PAF_newslettery.txt
+        if [[ "$modul" != *" PAF_newsletters.txt"* ]] ;then
+            modul+=" "PAF_newsletters.txt
         fi
     fi
     
     if [ "$i" == "PPB_uBlock_AdGuard/otagowane_linki_supplement.txt" ]; then
-        if [[ "$modul" != *" PAF_otagowane_linki.txt"* ]] ;then
-            modul+=" "PAF_otagowane_linki.txt
+        if [[ "$modul" != *" PAF_tagged_internal_links.txt"* ]] ;then
+            modul+=" "PAF_tagged_internal_links.txt
         fi
     fi
     
