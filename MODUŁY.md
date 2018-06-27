@@ -30,4 +30,4 @@
 [ABP]: https://www.certyficate.it/adblock/adblock_plus.png
 [NANO]: https://www.certyficate.it/adblock/nano.png
 
-**UWAGA**: Żaden z w/w modułów nie zawiera Polskich Filtrów RODO-Ciasteczkowych, więc jeżeli przeszkadzają ci te elementy, to musisz je zasubskrybować.
+**UWAGA!!** Żaden z w/w modułów nie zawiera Polskich Filtrów RODO-Ciasteczkowych, więc jeżeli przeszkadzają ci te elementy, to musisz je zasubskrybować.
