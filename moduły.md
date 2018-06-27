@@ -1,0 +1,31 @@
+| MODUŁ  | OPIS  | LINKI  | ZGODNOŚĆ  |
+|:-:|---|---|---|
+|Newslettery (bez pop-upów) |Filtry ukrywające i blokujące newslettery (bez pop-upów).  |[Subskrybuj][Newslettery] [Podgląd][N_Podgląd] |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]  |
+|Odblokowanie Kliknięcia Prawym Przyciskiem Myszy  |Filtry odblokowujące kliknięcie prawym przyciskiem myszy.  |[Subskrybuj][Prawy Klik] [Podgląd][PK_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
+|Otagowane Linki Wewnętrzne  |Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.   |[Subskrybuj][Tag Link] [Podgląd][TL_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
+|Wyskakujące okienka   |Filtry ukrywające i blokujące wyskakujące okienka.   |[Subskrybuj][Pop] [Podgląd][Pop_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Powiadomienia Web Push   |Filtry ukrywające i blokujące powiadomienia web push.   |[Subskrybuj][Push] [Podgląd][Push_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Scrollujące filmiki   |Filtry zatrzymujące scrollujące filmiki.   |[Subskrybuj][Scroll Film] [Podgląd][SF_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Strzałki   |Filtry ukrywające i blokujące strzałki.   |[Subskrybuj][Strzałki] [Podgląd][Strzałki_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+
+[Newslettery]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newslettery.txt&title=PFEI%20-%20Newslettery
+[N_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newslettery.txt
+[Prawy Klik]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_odblokuj_prawy.txt&title=PFEI%20-%20Odblokuj%20Prawy%20Klik
+[PK_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_odblokuj_prawy.txt
+[Tag Link]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_otagowane_linki.txt&title=PFEI%20-%20Otagowane%20Linki%20Wewnętrzne
+[TL_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_otagowane_linki.txt
+[Pop]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_popupy.txt&title=PFEI%20-%20Pop-upy
+[Pop_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_popupy.txt
+[Push]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_push.txt&title=PFEI%20-%20Powiadomienia%20Web%20Push
+[Push_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_push.txt
+[Scroll Film]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_scroll_film.txt&title=PFEI%20-%20Scrollujące%20Filmiki
+[SF_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_scroll_film.txt
+[Strzałki]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_strzalki.txt&title=PFEI%20-%20Strzałki
+[Strzałki_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_strzalki.txt
+
+
+[uBO]: https://www.certyficate.it/adblock/ublock.png
+[AG]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters.netlify.com/master/assets/images/AdGuard_logo_32.png
+[ADB]: https://www.certyficate.it/adblock/adblock.png
+[ABP]: https://www.certyficate.it/adblock/adblock_plus.png
+[NANO]: https://www.certyficate.it/adblock/nano.png
