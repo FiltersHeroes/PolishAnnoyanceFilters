@@ -83,6 +83,7 @@ for i in "$@"; do
     export TZ=":Poland"
 
     # Aktualizacja daty i godziny w polu „Last modified"
+    export LC_ALL=C
     modified=$(date +"%a, %d %b %Y, %H:%M UTC%:::z")
     sed -i "s|@modified|$modified|g" $i
 
