@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
 ! Checksum: 
-! Title: Polskie Filtry Elementów Irytujących - Newslettery
-! Polish Annoyance Filters - Newsletters
-! Codename: Newsletters
-! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
+! Title: Polskie Filtry Elementów Irytujących - Tła Zawierające Autoreklamy
+! Polish Annoyance Filters - Backgrounds Containing Self-Advertising
+! Codename: Backgrounds
+! Description: Filtry ukrywające i blokujące tła zawierające autoreklamy.
 ! Last modified: @modified
 ! Version: @wersja
-! Expires: 3 days
+! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.com/issues
@@ -18,7 +18,7 @@
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
-!#include PPB_uBlock_AdGuard/newslettery_uBO.txt
+!#include PPB_uBlock_AdGuard/tla_autoreklamy_uBO.txt
 !
 !
-@include newslettery_nie_popupy
+@include tla_autoreklamy

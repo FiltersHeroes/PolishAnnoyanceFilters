@@ -56,6 +56,12 @@ for i in $ost_commit_plik; do
             modul+=" "PAF_unlocking_right_click.txt
         fi
     fi
+    
+    if [ "$i" == "PPB/tla_autoreklamy.txt" ]; then
+        if [[ "$modul" != *" PAF_backgrounds_self-advertising.txt"* ]] ;then
+            modul+=" "PAF_backgrounds_self-advertising.txt
+        fi
+    fi
 
 done
 

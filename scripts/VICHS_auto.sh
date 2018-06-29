@@ -51,6 +51,12 @@ for i in $ost_zmieniony_plik; do
         fi
     fi
     
+    if [ "$i" == "PPB/tla_autoreklamy.txt" ]; then
+        if [[ "$modul" != *" PAF_backgrounds_self-advertising.txt"* ]] ;then
+            modul+=" "PAF_backgrounds_self-advertising.txt
+        fi
+    fi
+    
     if [[ "$i" == "PPB"* ]]; then
         if [[ "$glowna_lista" != *" PPB.txt"* ]] ;then
             glowna_lista+=" "PPB.txt
