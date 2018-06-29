@@ -1,1 +1,144 @@
- 
+[Adblock Plus 2.0]
+! Checksum: yXmu+0HpGM0L5n/a88uXLw
+! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe
+! Polish Annoyance Filters - Contact Widgets
+! Codename: Contact Widgets
+! Description: Filtry ukrywające i blokujące widżety kontaktowe.
+! Last modified: Fri, 29 Jun 2018, 23:15 UTC+02
+! Version: 201806292315
+! Expires: 3 days
+! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
+! Zgłoszenia:
+!   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.com/issues
+!   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
+!   Discord => https://discord.me/polskiefiltry
+! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
+! Copyright © 2018 Polish Filters Team
+! Aktualizacja: pią, 29 cze 2018, 23:15 UTC+02
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
+!#include PPB_uBlock_AdGuard/widgety_kontaktowe_uBO.txt
+!
+!
+agroalex.pl###x13callback_button
+ahe.lodz.pl###chat-invite
+airport.com.pl##a[href^="javascript:void(window.open('http://airport.com.pl/livezilla/chat.php"]
+amracing.pl##.sale-contact-box
+apteline.pl##.chat-fixed__wrapper
+artefakt.pl##[data-module="phone_popup"]
+bankobranie.blogspot.com##.social > li:nth-child(n+6)
+born2be.pl##.helpButton
+bssztum.pl###widget_social2
+cosinus.pl###dc-tab-button
+d24h.pl###chat_container
+darmowyskin.pl###open_czat
+dekoracjascian.com##.quick-contact
+domesta.com.pl##.ask
+dressinn.com##.chat_icono
+drukarniawolf.pl##.binotelHide, #bingc-phone-button-tooltip, #bingc-active, #bingc-phone-button
+ebeactive.pl###iw-tab-label
+etcomputers.pl,koszulkiznadrukiem.biz##a[href*="widget.gg.pl"]
+expressit.pl###lz_eye_catcher, #lz_overlay_wm
+e-prawnik.pl##.o-window.windowTop
+e-saving.pl###contact
+fantasyliga.wp.pl##.show-chat
+gandalf.com.pl##.fb_dialog_advanced
+goral.info.pl##.btn.contact-button
+grafcraft.pl###wpcs_tab_745
+gromar.eu##.contact-widget
+iautomatyka.pl###chatContentHolder
+instalhurt.sklep.pl###widget_shop5
+itlab.pl##.id-14.side-tab-widget
+jsystems.pl##.metka
+kajakom.pl###help
+kawaly.tja.pl###div_okienko_shoutbox_schowane
+konicaminolta.info.pl##.kontakt-slide
+kserokopiarki-netcan.pl##.pwebbox_toggler
+lexus-krakow.com.pl###dzingaCallbackWidget
+lincoln.edu.pl##.s_kontakt
+mango.pl###chat-toggle
+masterlease.pl##.contact-form
+mediaexpert.pl###InteliwiseSaaSModule_win_wrapper
+militaria.pl###golivechat
+ncplus.pl###button-call, #button-lead
+niebieski.net##.slidebar, #livesite_engage_button
+odnowa.jezuici.pl##.tab-contact
+oneskyapp.com###launcher
+open.pl##div[class^="kodabots-widget"]
+pasland.pl###panel
+pl###chat-application-iframe
+pl##.fb-messengermessageus
+pl##.ggu-bot-snapped-launcher
+pl.000webhost.com##div[style="cursor: pointer;"]
+polskihurtworld.eu##.ggu-widget-launcher
+portal.lellek.pl###contact-img
+puch-kotlowski.pl##.side-tab-widget > a[href="kontakt.html"]
+pzu.pl###baner-doradcy, #metka-przycisk
+racing-planet.pl###contactable_inner
+rainbowzoom.pl###lz_overlay_chat
+reaktor.pwn.pl##.tab.mail, .tab.phone
+sck.pl###popupTest
+sferis.pl##.help__title
+siligan.pl##.widget_contact
+sklep-agrohandel.pl##.contact_email
+strefawystawcy.pl##.contact-button, .contact-message
+sumiennyksiegowy.pl##.kontakt-vert-button
+swiat-laptopow.pl###superOfferCallUs
+swiss.com.pl###lhc_status_container
+szklodokuchni.com##.ui--animation.btn-primary.ui--side-panel.btn-icon-left.btn-normal.btn
+tapeciarnia.pl###div_okienko_shoutbox_schowane
+teamviewer.com##.userlike
+the-first.pl###side_social_icons > ul > li:nth-of-type(2)
+trans.info##.wall-add-news
+travelplanet.pl##.livecall-callback-v1-overlay
+treningkrakow.pl##.side-tab-widget > a[href="kontakt.html"]
+tvokazje.pl###phone-webcallback
+tylkostylowe.pl###widget_shop2
+velux.pl##.LPMcontainer
+viralka.pl##.widget_boombox_social
+wkret-met.com###fastcall
+wolnekonopie.org##.kleo-quick-contact-link
+wspieram.to###staff-chat-button
+wzp.pl###rslider-write
+zizako.pl,dbcenter.pl###widget_shop3
+zwirex.pl###shoutbox
+/gnwidget/config/site-iframe.html$domain=orange.pl
+/livezillachat//script.php
+||airport.com.pl/livezilla/server.php
+||cdn.inbox.shoplo.com/chat.html$third-party
+||chatbro.com/embed.js$third-party
+||chat.4finance.com^$third-party
+||chat.freshdesk.com^$third-party,xmlhttprequest
+||client.crisp.chat/static/stylesheets/client_default.css$domain=www.fabrykawafelkow.pl
+||clivio.pl/wp-content/themes/clivio/img/cursor.png
+||clivio.pl/wp-content/themes/clivio/img/cursorhover.png
+||cloud.limdesk.com/widget/js/widget.js
+||code.tidio.co^$third-party
+||cxel.fcc-online.pl/chat/widget.js
+||czater.pl/assets/modules/chat/js/chat.js
+||ebok.kierus.com.pl/scripts/button.php
+||embed.tawk.to^$script,third-party
+||formilla.com/formilla-chat.asmx/LoadFormillaChatButton$third-party
+||helponclick.com^$third-party,script
+||hubtalk.com/widgets/*/chat.js
+||jivosite.com^$third-party,domain=pl
+||lellek.callcenter.pl/static/chat_snippets/*.js$domain=lellek.pl
+||livesupport.pl/chat/createBottom*.js
+||livesupport.pl/chat/createFloat*.js
+||mylivechat.com/livechat2/livechat2.aspx$third-party
+||papis.pl/livechat/php/app.php
+||s3-eu-west-1.amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
+||salesmanago.pl/static/chunk/chat.js
+||secure.livechatinc.com^$third-party
+||smartsuppchat.com/loader.js
+||static.zotabox.com/*/widgets.js
+||st.chatango.com/js/gz/emb.js
+||tm-serwis.pomorze.pl/chat/php/app.php?widget-init.js
+||vobis.callcenter.pl/static/chat_snippets/*$script
+||widget.intercom.io/widget/*$script
+||widget.userengage.com/widget.js
+||widget.userengage.io/widget.js
+||www.facebook.com/v*/plugins/customerchat.php$third-party
+||znamibezpiecznie.pl/images/kontakt.png
+||zopim.com^$third-party,domain=~nordvpn.com|~egb.com|~apteline.pl
