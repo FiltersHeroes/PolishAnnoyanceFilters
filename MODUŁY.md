@@ -7,7 +7,7 @@
 |Powiadomienia Web Push   |Filtry ukrywające i blokujące powiadomienia web push.   |[Subskrybuj][Push] [Podgląd][Push_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Scrollujące Filmiki   |Filtry zatrzymujące scrollujące filmiki.   |[Subskrybuj][Scroll Film] [Podgląd][SF_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Strzałki   |Filtry ukrywające i blokujące strzałki.   |[Subskrybuj][Strzałki] [Podgląd][Strzałki_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
-|Strzałki   |Filtry ukrywające i blokujące tła zawierające autoreklamy.   |[Subskrybuj][Tła_Autoreklamy] [Podgląd][Tła_Autoreklamy_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Tła Zawierające Autoreklamy   |Filtry ukrywające i blokujące tła zawierające autoreklamy.   |[Subskrybuj][Tła_Autoreklamy] [Podgląd][Tła_Autoreklamy_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 
 [Newslettery]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt&title=PFEI%20-%20Newslettery
 [N_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt
