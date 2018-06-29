@@ -7,6 +7,7 @@
 |Powiadomienia Web Push   |Filtry ukrywające i blokujące powiadomienia web push.   |[Subskrybuj][Push] [Podgląd][Push_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Scrollujące Filmiki   |Filtry zatrzymujące scrollujące filmiki.   |[Subskrybuj][Scroll Film] [Podgląd][SF_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Strzałki   |Filtry ukrywające i blokujące strzałki.   |[Subskrybuj][Strzałki] [Podgląd][Strzałki_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Strzałki   |Filtry ukrywające i blokujące tła zawierające autoreklamy.   |[Subskrybuj][Tła_Autoreklamy] [Podgląd][Tła_Autoreklamy_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 
 [Newslettery]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt&title=PFEI%20-%20Newslettery
 [N_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt
@@ -22,7 +23,8 @@
 [SF_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_scrolling_videos.txt
 [Strzałki]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_arrows.txt&title=PFEI%20-%20Strzałki
 [Strzałki_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_arrows.txt
-
+[Tła_Autoreklamy]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_backgrounds_self-advertising.txt&title=PFEI%20-%20Tła%20Zawierające%20Autoreklamy
+[Tła_Autoreklamy_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_backgrounds_self-advertising.txt
 
 [uBO]: https://www.certyficate.it/adblock/ublock.png
 [AG]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters.netlify.com/master/assets/images/AdGuard_logo_32.png
