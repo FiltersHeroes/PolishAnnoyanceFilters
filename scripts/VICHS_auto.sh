@@ -71,4 +71,4 @@ for i in $ost_zmieniony_plik; do
 
 done
 
-$sciezka/VICHS.sh $modul $glowna_lista
+$sciezka/VICHS.sh $glowna_lista $modul
