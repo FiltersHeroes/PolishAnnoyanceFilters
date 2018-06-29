@@ -51,9 +51,15 @@ for i in $ost_zmieniony_plik; do
         fi
     fi
     
-    if [ "$i" == "PPB/tla_autoreklamy.txt" ]; then
+    if [ "$i" == "PPB/tla_autoreklamy.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/tla_autoreklamy_uBO.txt" ]; then
         if [[ "$modul" != *" PAF_backgrounds_self-advertising.txt"* ]] ;then
             modul+=" "PAF_backgrounds_self-advertising.txt
+        fi
+    fi
+    
+    if [ "$i" == "PPB/widgety_kontaktowe.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/widgety_kontaktowe_uBO.txt" ]; then
+        if [[ "$modul" != *" PAF_contact_widgets.txt"* ]] ;then
+            modul+=" "PAF_contact_widgets.txt
         fi
     fi
     
