@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rMiDqMG3tw6GbKMP5hqsIQ
+! Checksum: Vhb+KQVL39lB2Vn5cFWbsA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 30 Jun 2018, 18:21 UTC+02
-! Version: 201806301821
+! Last modified: Sat, 30 Jun 2018, 20:46 UTC+02
+! Version: 201806302046
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 30 cze 2018, 18:21 UTC+02
+! Aktualizacja: sob, 30 cze 2018, 20:46 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -92,7 +92,7 @@ bonvoyage.pl##.box_newsletter
 booking.com##.newsletter_subscribe
 born2be.pl##[href="/newsletter/sign-in"]
 bosonamacie.pl##.newsletter-header, #widget-text-3
-bricomarche.pl##.newsletter_box
+bricomarche.pl,doradcasmaku.pl##.newsletter_box
 brw.com.pl##.blok-newsletter
 btcpolska.com###text-12
 budujemydom.pl,zielonyogrodek.pl,czasnawnetrze.pl###newsletterBoxLeft
@@ -614,6 +614,7 @@ teatropole.pl###footer > .container > .el_before_av_one_fourth.flex_column:nth-o
 teatropole.pl###wp-flybox_tab1
 teatrslaski.art.pl##.row:nth-of-type(14)
 techformator.pl###text-9
+telekarma.pl###footerInfo-newsletter
 telewizja-cyfrowa.com##.textwidget > form
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 telix.pl###mailster_signup-3
@@ -736,5 +737,6 @@ zyciepabianic.pl###widget-newsletter
 ||tygodnik-rolniczy.pl/static/tpr/images/newsletter.png
 ||upolujebooka.pl/_visual/_b/b_newsletter.jpg
 ||www.eventim.pl/obj/media/PL-eventim/teaser//pl/marketingTeaser/newsletter-new-2016.jpg
+||www.gofin.pl/images/newslettery_swl.png
 ||www.pulshr.pl/images/newsletter/newsletter.png 
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
