@@ -33,10 +33,6 @@
 @include push
 !
 !
-! Przyciski
-@include przyciski
-!
-!
 ! Scrollujące filmiki
 @include scroll_film
 !
@@ -49,12 +45,12 @@
 @include tla_autoreklamy
 !
 !
-! Widgety
+! Widżety kontaktowe/informacji zwrotnej
+@include widgety_kontaktowe_informacji_zwrotnej
+!
+!
+! Inne widżety
 @include widgety
-!
-!
-! Widgety kontaktowe
-@include widgety_kontaktowe
 !
 !
 ! Wyjątki
