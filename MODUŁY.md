@@ -8,7 +8,7 @@
 |Scrollujące Filmiki   |Filtry zatrzymujące scrollujące filmiki.   |[Subskrybuj][Scroll Film] [Podgląd][SF_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Strzałki   |Filtry ukrywające i blokujące strzałki.   |[Subskrybuj][Strzałki] [Podgląd][Strzałki_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Tła Zawierające Autoreklamy   |Filtry ukrywające i blokujące tła zawierające autoreklamy.   |[Subskrybuj][Tła_Autoreklamy] [Podgląd][Tła_Autoreklamy_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
-|Widżety Kontaktowe   |Filtry ukrywające i blokujące widżety kontaktowe.   |[Subskrybuj][Widżety_Kontaktowe] [Podgląd][Widżety_Kontaktowe_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Widżety Kontaktowe/Informacji Zwrotnej   |Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.   |[Subskrybuj][Widżety_Kontaktowe] [Podgląd][Widżety_Kontaktowe_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 
 [Newslettery]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt&title=PFEI%20-%20Newslettery
 [N_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt
@@ -26,8 +26,8 @@
 [Strzałki_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_arrows.txt
 [Tła_Autoreklamy]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_backgrounds_self-advertising.txt&title=PFEI%20-%20Tła%20Zawierające%20Autoreklamy
 [Tła_Autoreklamy_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_backgrounds_self-advertising.txt
-[Widżety_Kontaktowe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_contact_widgets.txt&title=PFEI%20-%20Widżety%20Kontaktowe
-[Widżety_Kontaktowe_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_contact_widgets.txt
+[Widżety_Kontaktowe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_contact_feedback_widgets.txt&title=PFEI%20-%20Widżety%20Kontaktowe/Informacji%20Zwrotnej
+[Widżety_Kontaktowe_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_contact_feedback_widgets.txt
 
 
 [uBO]: https://www.certyficate.it/adblock/ublock.png
