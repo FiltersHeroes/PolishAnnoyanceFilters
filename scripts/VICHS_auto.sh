@@ -57,9 +57,15 @@ for i in $ost_zmieniony_plik; do
         fi
     fi
     
-    if [ "$i" == "PPB/widgety_kontaktowe.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/widgety_kontaktowe_uBO.txt" ]; then
-        if [[ "$modul" != *" PAF_contact_widgets.txt"* ]] ;then
-            modul+=" "PAF_contact_widgets.txt
+    if [ "$i" == "PPB/widgety_kontaktowe_informacji_zwrotnej.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/widgety_kontaktowe_informacji_zwrotnej_uBO.txt" ]; then
+        if [[ "$modul" != *" PAF_contact_feedback_widgets.txt"* ]] ;then
+            modul+=" "PAF_contact_feedback_widgets.txt
+        fi
+    fi
+    
+    if [ "$i" == "PPB/widgety.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/widgety_uBO.txt" ]; then
+        if [[ "$modul" != *" PAF_other_widgets.txt"* ]] ;then
+            modul+=" "PAF_other_widgets.txt
         fi
     fi
     
