@@ -1,9 +1,9 @@
-! Checksum: Sr9+F70MHq8BkrjAWIn7Lg
+! Checksum: 8iffDPSkp+dvZ3zlwtKzmw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 30 Jun 2018, 18:21 UTC+02
-! Version: 201806301821
+! Last modified: Sat, 30 Jun 2018, 21:25 UTC+02
+! Version: 201806302125
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 30 cze 2018, 18:21 UTC+02
+! Aktualizacja: sob, 30 cze 2018, 21:25 UTC+02
 !
 !
 ! Newslettery
@@ -229,8 +229,8 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806292319
-!@Last modified: Fri, 29 Jun 2018, 23:19:12 UTC+02
+!@Version: 201806302043
+!@Last modified: Sat, 30 Jun 2018, 20:43:18 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -239,7 +239,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806292319 aktualizacja: pią, 29 cze 2018, 23:19:12 UTC+02 
+!@v.201806302043 aktualizacja: sob, 30 cze 2018, 20:43:18 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -296,8 +296,8 @@ unileverfoodsolutions.pl##.js-cookie-wall
 !@Popupy dot. polityki prywatności/RODO
 4fun.tv###cModal, .modal-backdrop
 alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
-alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl,craftserve.pl,ustawmundial.weszlo.com,4fun.tv,m.24jgora.pl,ztm.poznan.pl,roztoczanskipn.pl,born2be.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
-born2be.pl##.rules-modal, .modal-backdrop
+alltube.tv,alltube.pl,zakopane.info,fryzomania.pl,obywatel.gov.pl,tuwroclaw.com,infoplanet.pl,tulodz.com,gokf.gda.pl,gdansk.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl,craftserve.pl,ustawmundial.weszlo.com,4fun.tv,m.24jgora.pl,ztm.poznan.pl,roztoczanskipn.pl,born2be.pl,renee.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
+born2be.pl,renee.pl##.rules-modal, .modal-backdrop
 budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl##.modal-open:style(overflow: auto !important;)
 craftserve.pl###rodo, .modal-backdrop
