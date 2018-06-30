@@ -9,6 +9,7 @@
 |Strzałki   |Filtry ukrywające i blokujące strzałki.   |[Subskrybuj][Strzałki] [Podgląd][Strzałki_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Tła Zawierające Autoreklamy   |Filtry ukrywające i blokujące tła zawierające autoreklamy.   |[Subskrybuj][Tła_Autoreklamy] [Podgląd][Tła_Autoreklamy_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 |Widżety Kontaktowe/Informacji Zwrotnej   |Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.   |[Subskrybuj][Widżety_Kontaktowe] [Podgląd][Widżety_Kontaktowe_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Inne Widżety   |Filtry ukrywające i blokujące różne inne widżety.   |[Subskrybuj][Inne_Widżety] [Podgląd][Inne_Widżety_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 
 [Newslettery]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt&title=PFEI%20-%20Newslettery
 [N_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt
@@ -28,7 +29,8 @@
 [Tła_Autoreklamy_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_backgrounds_self-advertising.txt
 [Widżety_Kontaktowe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_contact_feedback_widgets.txt&title=PFEI%20-%20Widżety%20Kontaktowe/Informacji%20Zwrotnej
 [Widżety_Kontaktowe_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_contact_feedback_widgets.txt
-
+[Inne_Widżety]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_other_widgets.txt&title=PFEI%20-%20Inne%20Widżety
+[Inne_Widżety_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_other_widgets.txt
 
 [uBO]: https://www.certyficate.it/adblock/ublock.png
 [AG]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters.netlify.com/master/assets/images/AdGuard_logo_32.png
