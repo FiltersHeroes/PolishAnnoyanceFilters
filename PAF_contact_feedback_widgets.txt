@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yXmu+0HpGM0L5n/a88uXLw
-! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe
-! Polish Annoyance Filters - Contact Widgets
+! Checksum: YoaXNvCKZgmFgXzZcvEElA
+! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
+! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
-! Description: Filtry ukrywające i blokujące widżety kontaktowe.
-! Last modified: Fri, 29 Jun 2018, 23:15 UTC+02
-! Version: 201806292315
+! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
+! Last modified: Sat, 30 Jun 2018, 18:21 UTC+02
+! Version: 201806301821
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,11 +14,11 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 29 cze 2018, 23:15 UTC+02
+! Aktualizacja: sob, 30 cze 2018, 18:21 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
-!#include PPB_uBlock_AdGuard/widgety_kontaktowe_uBO.txt
+!#include PPB_uBlock_AdGuard/widgety_kontaktowe_informacji_zwrotnej_uBO.txt
 !
 !
 agroalex.pl###x13callback_button
@@ -27,86 +27,156 @@ airport.com.pl##a[href^="javascript:void(window.open('http://airport.com.pl/live
 amracing.pl##.sale-contact-box
 apteline.pl##.chat-fixed__wrapper
 artefakt.pl##[data-module="phone_popup"]
+avans.pl##.b-reportFault
 bankobranie.blogspot.com##.social > li:nth-child(n+6)
 born2be.pl##.helpButton
 bssztum.pl###widget_social2
+canon.pl##.feedback-btn
 cosinus.pl###dc-tab-button
 d24h.pl###chat_container
+d24h.pl###zapytaj_kosmetyczke
+d24h.pl###zaufane_opinie_widget
 darmowyskin.pl###open_czat
+decathlon.pl,eltrox.pl,renee.pl###yourcx_blk
 dekoracjascian.com##.quick-contact
 domesta.com.pl##.ask
 dressinn.com##.chat_icono
 drukarniawolf.pl##.binotelHide, #bingc-phone-button-tooltip, #bingc-active, #bingc-phone-button
 ebeactive.pl###iw-tab-label
+eglobalcentral.pl###hs-beacon
 etcomputers.pl,koszulkiznadrukiem.biz##a[href*="widget.gg.pl"]
+eurobank.pl##.reviews
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
 e-prawnik.pl##.o-window.windowTop
 e-saving.pl###contact
 fantasyliga.wp.pl##.show-chat
+farmer.pl##.box-40
+fly.pl##.btn-sticky-feedback
+fm.tuba.pl###feed
 gandalf.com.pl##.fb_dialog_advanced
+gdzietymrazem.pl##.td-icon-mail-1
+godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
 goral.info.pl##.btn.contact-button
 grafcraft.pl###wpcs_tab_745
 gromar.eu##.contact-widget
+guzik.konin.pl,cebit.pl##.fab
+hafija.pl##.bonfire-slideout-button, .bonfire-slideout-button-triangle-background
+helios.pl##.openSuggestionFormButton
+hes.pl##.indywidual-offer
 iautomatyka.pl###chatContentHolder
+ilewazy.pl##.utriggerbtn
+impel.pl###multitab_right > .multitab_box:nth-of-type(2)
+impel.pl,impelfm.pl###multitab_right > .multitab_box:nth-of-type(1)
 instalhurt.sklep.pl###widget_shop5
+inter-kop.pl##.phone
 itlab.pl##.id-14.side-tab-widget
+jakwyjsczdlugow.pl##.btn-info
 jsystems.pl##.metka
 kajakom.pl###help
+kammar24.pl###druga_ikona
 kawaly.tja.pl###div_okienko_shoutbox_schowane
+kawaly.tja.pl###div_wysuwany_opinia
+klonowypark.pl,misjonarska.com###belka_phone2, #belka_mail2, #belka_map2, #belka_form2
 konicaminolta.info.pl##.kontakt-slide
 kserokopiarki-netcan.pl##.pwebbox_toggler
+lento.pl##.btn-suggest
 lexus-krakow.com.pl###dzingaCallbackWidget
+ligamistrzow.com###sugester_widget
 lincoln.edu.pl##.s_kontakt
+lodzkie.pl##.jj_sl_custom1
+lubimyczytac.pl##.report-a-bug-container
 mango.pl###chat-toggle
 masterlease.pl##.contact-form
+meczelive.tv###task
 mediaexpert.pl###InteliwiseSaaSModule_win_wrapper
 militaria.pl###golivechat
+monedo.pl###satellite
+multilampy.pl##.ceneo, .opineo
+nafciarze.info###suggest-news
+naukawpolsce.pap.pl###social > ul > .mail, .social > .mail
 ncplus.pl###button-call, #button-lead
 niebieski.net##.slidebar, #livesite_engage_button
+nuzle.pl###btn-suggest
 odnowa.jezuici.pl##.tab-contact
 oneskyapp.com###launcher
 open.pl##div[class^="kodabots-widget"]
+outside.com.pl##.bonfire-slideout-button
 pasland.pl###panel
+pccentre.pl###zak_error
 pl###chat-application-iframe
+pl###feedbackButton
+pl###oiOpinionWidget
+pl###sugester_widget
+pl###telemedicoWidget
+pl###__ceneo-widgets
 pl##.fb-messengermessageus
+pl##.feedback-button
 pl##.ggu-bot-snapped-launcher
 pl.000webhost.com##div[style="cursor: pointer;"]
+pl.pons.com###hj-feedback
+polanki.pl##.PamphletWidget
 polskihurtworld.eu##.ggu-widget-launcher
 portal.lellek.pl###contact-img
+pracatobie.pl###ankieta1
+pracuj.pl###shareOpinionSticker
 puch-kotlowski.pl##.side-tab-widget > a[href="kontakt.html"]
+pup.gliwice.pl###sugestiaForm
+pytamy.pl##.tabZB
 pzu.pl###baner-doradcy, #metka-przycisk
 racing-planet.pl###contactable_inner
 rainbowzoom.pl###lz_overlay_chat
 reaktor.pwn.pl##.tab.mail, .tab.phone
+sawataxi.pl###zamow
 sck.pl###popupTest
 sferis.pl##.help__title
+shark.sklep.pl,sklep.milicon.eu###contactBox
+shopalike.pl###feedback-btn
+siligan.pl###widget_5, #widget_6
 siligan.pl##.widget_contact
+sklepmaniek.pl###opinieIkona
 sklep-agrohandel.pl##.contact_email
+sklep-muzyczny.com.pl###widget_shop9
+sla.pl###clickdesk-appendable-bubble
+specialfitness.pl###allegro-widget
+sprzedajemy.pl###openUserSuggestionWindowBtn
 strefawystawcy.pl##.contact-button, .contact-message
+strimi.pl##.bugs
 sumiennyksiegowy.pl##.kontakt-vert-button
 swiat-laptopow.pl###superOfferCallUs
 swiss.com.pl###lhc_status_container
 szklodokuchni.com##.ui--animation.btn-primary.ui--side-panel.btn-icon-left.btn-normal.btn
 tapeciarnia.pl###div_okienko_shoutbox_schowane
 teamviewer.com##.userlike
+telekarma.pl###flyHelp
 the-first.pl###side_social_icons > ul > li:nth-of-type(2)
+tim.pl##[data-toolkit="toolkit-page-bugs"]
+topshop.pl###slider_k2c
+topsolutions.pl###popup_contact
 trans.info##.wall-add-news
 travelplanet.pl##.livecall-callback-v1-overlay
 treningkrakow.pl##.side-tab-widget > a[href="kontakt.html"]
+tukan24.pl###opinieIkona
 tvokazje.pl###phone-webcallback
 tylkostylowe.pl###widget_shop2
+unia.pl###opiniac_blk
 velux.pl##.LPMcontainer
 viralka.pl##.widget_boombox_social
+vitay.pl###serviceRatingBox
+wakacje.pl##.rightSpeech
 wkret-met.com###fastcall
 wolnekonopie.org##.kleo-quick-contact-link
 wspieram.to###staff-chat-button
 wzp.pl###rslider-write
+xn--usugi24-ojb.pl###zglos_awarie
+zegarki-online.pl,sklepmaniek.pl###allegro_ikona
 zizako.pl,dbcenter.pl###widget_shop3
 zwirex.pl###shoutbox
 /gnwidget/config/site-iframe.html$domain=orange.pl
 /livezillachat//script.php
 ||airport.com.pl/livezilla/server.php
+||app.sugester.pl/tpbocian/widget.js
 ||cdn.inbox.shoplo.com/chat.html$third-party
+||cdn.pup.sosnowiec.pl/themes/default/pics/ico/ico_sugestia.png
 ||chatbro.com/embed.js$third-party
 ||chat.4finance.com^$third-party
 ||chat.freshdesk.com^$third-party,xmlhttprequest
@@ -127,15 +197,26 @@ zwirex.pl###shoutbox
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
 ||mylivechat.com/livechat2/livechat2.aspx$third-party
+||niszczarki.org/templates/standard/images/jestesmy_na_allegro.jpg
+||opineo.pl/gfx/frontend/side_slider_gfx.png
+||opineo.pl/shop/slider.js.php$third-party
 ||papis.pl/livechat/php/app.php
+||pcaction.pl/inne/allegro_komentarze.php
+||pcaction.pl/szablony/standardowy.rwd/obrazki/zakladki/allegro.png
+||qdecor.pl/img/ceneo-widget.png
 ||s3-eu-west-1.amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
 ||salesmanago.pl/static/chunk/chat.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
+||ssl.ceneo.pl/shops/sw.js$third-party
+||ssl.ceneo.pl/shops/v3/script.js$third-party
 ||static.zotabox.com/*/widgets.js
 ||st.chatango.com/js/gz/emb.js
+||terazteatr.pl/img/sugestie.jpg
 ||tm-serwis.pomorze.pl/chat/php/app.php?widget-init.js
 ||vobis.callcenter.pl/static/chat_snippets/*$script
+||widgets.trustedshops.com/js/*.js
+||widget.customer-alliance.com/reviews/js/standard/*$script,domain=excelsior.com.pl
 ||widget.intercom.io/widget/*$script
 ||widget.userengage.com/widget.js
 ||widget.userengage.io/widget.js
