@@ -18,7 +18,8 @@ Jeżeli irytuje was autoplay, to polecamy poradnik pt. „[Jak zablokować autoo
 
 [Subskrybuj Polskie Filtry EI]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PPB.txt&title=Polskie%20Filtry%20Elementów%20Irytujących
 
-**Zgłoszenia**:
+
+### Zgłoszenia:
 
 Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.com/issues
 
