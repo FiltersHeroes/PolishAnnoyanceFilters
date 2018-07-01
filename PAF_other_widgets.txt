@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Vf+zqNZ3wg0sxlbIYEsY3Q
+! Checksum: PghHYH4x0W+NTEfI9o6TtQ
 ! Title: Polskie Filtry Elementów Irytujących - Inne Widżety
 ! Polish Annoyance Filters - Other Widgets
 ! Codename: Other Widgets
 ! Description: Filtry ukrywające i blokujące różne inne widżety.
-! Last modified: Sun, 01 Jul 2018, 12:07 UTC+02
-! Version: 201807011207
+! Last modified: Sun, 01 Jul 2018, 20:49 UTC+02
+! Version: 201807012049
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 01 lip 2018, 12:07 UTC+02
+! Aktualizacja: nie, 01 lip 2018, 20:49 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -243,8 +243,10 @@ nestbank.pl##.fixed-label
 nettg.pl##.side-panel
 netto.pl##.leaflet-sticky-btn
 newsweek.pl###nitro-block, #ARTICLE_STREAM_PATH
+newsweek.pl###rgn_679, #ARTICLE_NEWSWEEK_PLUS_PROMO
 niedziela.pl###scrollMenu
 nietylkopasta.pl###dbx_light
+niezlasztuka.net##.baner-fixed-bottom
 nocowanie.pl##.btn--signup
 nocowanie.pl##.hidden-sm.hidden-xs.tc:nth-of-type(3)
 nocowanie.pl##.js-nav-prev-next, .sticky__element
@@ -269,7 +271,7 @@ partneragdrtv.com.pl###js-sis_menu
 pasazer.com##.fixed-search-tabs
 pcformat.pl##.topbar > .container
 pkobp.pl###smartbanner-desktop
-planeta.fm##.grecaptcha-badge
+planeta.fm,skionline.pl,niezlasztuka.net##.grecaptcha-badge
 plastcom.pl###test
 pl##.hejhej
 pl###ClPanel
@@ -320,7 +322,6 @@ shareinfo.pl###install-button
 shark.sklep.pl,sklep.milicon.eu###cartBox
 silesion.pl##.art-tripwire-big
 siligan.pl##.widget_cartbox, .widget_left_wrapper
-skionline.pl##.grecaptcha-badge
 sklepbaterie.pl##.naskroty
 sklephormann.pl###widget_shop3
 sklep-muzyczny.com.pl###widget_shop4
