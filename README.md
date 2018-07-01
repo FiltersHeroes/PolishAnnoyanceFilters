@@ -8,18 +8,20 @@ Najlepszy efekt uzyskasz, importując listę do [uBlocka Origin](https://github.
 
 ## [Kliknij, aby subskrybować Polskie Filtry Elementów Irytujących][Subskrybuj Polskie Filtry EI].
 
-**Nowość!!!** Jeżeli lubisz jakieś elementy i nie chcesz by były blokowane lub ukrywane, to mamy dla ciebie dobrą wiadomość - od teraz Polskie Filtry Elementów Irytujących są modularne, a to oznacza, że nie musisz aktywować pełnego pakietu, możesz wybrać co chcesz, by było blokowane lub ukrywane. A listę aktualnie dostępnych modułów znajdziesz na [https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/blob/master/MODULES.md](https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/blob/master/MODULES.md).
-
+## Uwagi
 Nasza lista filtrów nie zajmuje się elementami społecznościowymi. Od tego są [Polskie Filtry Społecznościowe](https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/adblock_social_filters/adblock_social_list.txt) i [Fanboy's Social Blocking List](https://easylist-downloads.adblockplus.org/fanboy-social.txt).
 
+## Moduły
+**Nowość!!!** Jeżeli lubisz jakieś elementy i nie chcesz by były blokowane lub ukrywane, to mamy dla ciebie dobrą wiadomość - od teraz Polskie Filtry Elementów Irytujących są modularne, a to oznacza, że nie musisz aktywować pełnego pakietu, możesz wybrać co chcesz, by było blokowane lub ukrywane. A listę aktualnie dostępnych modułów znajdziesz na [https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/blob/master/MODULES.md](https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/blob/master/MODULES.md).
 
+## Polecane
 Jeżeli irytuje was autoplay, to polecamy poradnik pt. „[Jak zablokować autoodtwarzanie filmików?](https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/wiki/Jak-zablokowa%C4%87-autoodtwarzanie-filmik%C3%B3w%3F)".
 
 
 [Subskrybuj Polskie Filtry EI]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PPB.txt&title=Polskie%20Filtry%20Elementów%20Irytujących
 
 
-### Zgłoszenia:
+## Zgłoszenia
 
 Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.com/issues
 
