@@ -1,4 +1,4 @@
-| MODUŁ  | SUBSKRYBUJ  | PODGLĄÐ  | ZGODNOŚĆ  |
+| MODUŁ  | SUBSKRYBUJ  | PODGLĄD  | ZGODNOŚĆ  |
 |:-:|---|---|---|
 |Newslettery (bez wyskakujących okienek)|[Subskrybuj][Newslettery]  | [Podgląd][N_Podgląd] |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]  |
 |Odblokowanie Kliknięcia Prawym Przyciskiem Myszy  |[Subskrybuj][Prawy Klik]  | [Podgląd][PK_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
