@@ -1,15 +1,15 @@
-| MODUŁ  | OPIS  | LINKI  | ZGODNOŚĆ  |
+| MODUŁ  | SUBSKRYBUJ  | PODGLĄÐ  | ZGODNOŚĆ  |
 |:-:|---|---|---|
-|Newslettery |Filtry ukrywające i blokujące newslettery (bez pop-upów).  |[Subskrybuj][Newslettery] [Podgląd][N_Podgląd] |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]  |
-|Odblokowanie Kliknięcia Prawym Przyciskiem Myszy  |Filtry odblokowujące kliknięcie prawym przyciskiem myszy.  |[Subskrybuj][Prawy Klik] [Podgląd][PK_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
-|Otagowane Linki Wewnętrzne  |Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.   |[Subskrybuj][Tag Link] [Podgląd][TL_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
-|Wyskakujące Okienka   |Filtry ukrywające i blokujące wyskakujące okienka.   |[Subskrybuj][Pop] [Podgląd][Pop_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
-|Powiadomienia Web Push   |Filtry ukrywające i blokujące powiadomienia web push.   |[Subskrybuj][Push] [Podgląd][Push_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
-|Scrollujące Filmiki   |Filtry zatrzymujące scrollujące filmiki.   |[Subskrybuj][Scroll Film] [Podgląd][SF_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
-|Strzałki   |Filtry ukrywające i blokujące strzałki.   |[Subskrybuj][Strzałki] [Podgląd][Strzałki_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
-|Tła Zawierające Autoreklamy   |Filtry ukrywające i blokujące tła zawierające autoreklamy.   |[Subskrybuj][Tła_Autoreklamy] [Podgląd][Tła_Autoreklamy_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
-|Widżety Kontaktowe/Informacji Zwrotnej   |Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.   |[Subskrybuj][Widżety_Kontaktowe] [Podgląd][Widżety_Kontaktowe_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
-|Inne Widżety   |Filtry ukrywające i blokujące różne inne widżety.   |[Subskrybuj][Inne_Widżety] [Podgląd][Inne_Widżety_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Newslettery (bez wyskakujących okienek)|[Subskrybuj][Newslettery]  | [Podgląd][N_Podgląd] |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]  |
+|Odblokowanie Kliknięcia Prawym Przyciskiem Myszy  |[Subskrybuj][Prawy Klik]  | [Podgląd][PK_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
+|Niezgodne z Tematem Artykułów Otagowane Linki Wewnętrzne  |[Subskrybuj][Tag Link]   | [Podgląd][TL_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
+|Wyskakujące Okienka   |[Subskrybuj][Pop]   | [Podgląd][Pop_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Powiadomienia Web Push   |[Subskrybuj][Push]   | [Podgląd][Push_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Scrollujące Filmiki   |[Subskrybuj][Scroll Film]   | [Podgląd][SF_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Strzałki   |[Subskrybuj][Strzałki]   | [Podgląd][Strzałki_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Tła Zawierające Autoreklamy   |[Subskrybuj][Tła_Autoreklamy]   | [Podgląd][Tła_Autoreklamy_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Widżety Kontaktowe/Informacji Zwrotnej   |[Subskrybuj][Widżety_Kontaktowe]   | [Podgląd][Widżety_Kontaktowe_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
+|Inne Widżety   |[Subskrybuj][Inne_Widżety]   | [Podgląd][Inne_Widżety_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]   |
 
 [Newslettery]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt&title=PFEI%20-%20Newslettery
 [N_Podgląd]: https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PAF_newsletters.txt
