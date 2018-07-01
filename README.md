@@ -10,8 +10,6 @@ Najlepszy efekt uzyskasz, importując listę do [uBlocka Origin](https://github.
 
 **Nowość!!!** Jeżeli lubisz jakieś elementy i nie chcesz by były blokowane lub ukrywane, to mamy dla ciebie dobrą wiadomość - od teraz Polskie Filtry Elementów Irytujących są modularne, a to oznacza, że nie musisz aktywować pełnego pakietu, możesz wybrać co chcesz, by było blokowane lub ukrywane. A listę aktualnie dostępnych modułów znajdziesz na [https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/blob/master/MODULES.md](https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/blob/master/MODULES.md).
 
-Jeżeli nie posiadasz konta na GitHubie, a znalazłeś jakiś irytujący element, którego nasza lista nie blokuje/ukrywa, to w celu zgłoszenia, wypełnij formularz na https://polishannoyancefilters.netlify.com/issues.
-
 Nasza lista filtrów nie zajmuje się elementami społecznościowymi. Od tego są [Polskie Filtry Społecznościowe](https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/adblock_social_filters/adblock_social_list.txt) i [Fanboy's Social Blocking List](https://easylist-downloads.adblockplus.org/fanboy-social.txt).
 
 
@@ -19,3 +17,11 @@ Jeżeli irytuje was autoplay, to polecamy poradnik pt. „[Jak zablokować autoo
 
 
 [Subskrybuj Polskie Filtry EI]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/PolishFiltersTeam/PolishAnnoyanceFilters/master/PPB.txt&title=Polskie%20Filtry%20Elementów%20Irytujących
+
+**Zgłoszenia**:
+
+Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.com/issues
+
+GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
+
+Discord => https://discord.me/polskiefiltry
