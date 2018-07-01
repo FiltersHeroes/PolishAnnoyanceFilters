@@ -1,9 +1,9 @@
-! Checksum: 8iffDPSkp+dvZ3zlwtKzmw
+! Checksum: /ECjBgz9VR1ZMV6Zp9XijQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 30 Jun 2018, 21:25 UTC+02
-! Version: 201806302125
+! Last modified: Sun, 01 Jul 2018, 20:35 UTC+02
+! Version: 201807012035
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 30 cze 2018, 21:25 UTC+02
+! Aktualizacja: nie, 01 lip 2018, 20:35 UTC+02
 !
 !
 ! Newslettery
@@ -24,6 +24,7 @@ nowymarketing.pl##.blured:style(filter: none !important;)
 ! Odblokowanie prawego przycisku myszy
 roztoczanskipn.pl##script:inject(addEventListener-defuser.js, contextmenu)
 skionline.pl##script:inject(remove-attr.js, oncontextmenu)
+/no-right-click-images-plugin/*$script
 !
 !
 ! Otagowane linki wewnętrzne w artykułach
@@ -229,8 +230,8 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201806302043
-!@Last modified: Sat, 30 Jun 2018, 20:43:18 UTC+02
+!@Version: 201807011651
+!@Last modified: Sun, 01 Jul 2018, 16:51:18 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -239,7 +240,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201806302043 aktualizacja: sob, 30 cze 2018, 20:43:18 UTC+02 
+!@v.201807011651 aktualizacja: nie, 01 lip 2018, 16:51:18 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -251,6 +252,8 @@ beko.pl##.cookies-margin:style(top: 0px!important;)
 biuletyn.net##body > table:style(margin-top: 0px!important;)
 biuletyn.net##.urzad_mini > div:style(top: 225px!important;)
 bloombergbusinessweek.pl##body:style(margin-top: 0px!important;)
+domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
+domisad.pl##.show-message #top-nav:style(height: auto !important;)
 echo24.tv##.on-top:style(top: 0px!important;)
 fiskars.pl##.desktop:style(top: 0px!important;)
 kalisz.info.pl###all:style(top: 0px !important;)
@@ -341,6 +344,8 @@ portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,property
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
 prawdaobiektywna.pl##body:style(overflow: auto !important;)
 prawdaobiektywna.pl##.qc-cmp-ui-container
+przydomu.pl###popup_25
+przydomu.pl##.container:style(filter: none !important;)
 roztoczanskipn.pl###rodo-modal, .modal-backdrop
 tabletowo.pl###disqus_thread:style(display: initial !important;)
 tabletowo.pl##.ginger_banner-wrapper
