@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: fQ9EtiUEJ1/Bjt3O2+wOkQ
+! Checksum: DR7plaqBERrhO8VR8Ka0zQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 01 Jul 2018, 15:48 UTC+02
-! Version: 201807011548
+! Last modified: Sun, 01 Jul 2018, 16:30 UTC+02
+! Version: 201807011630
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 01 lip 2018, 15:48 UTC+02
+! Aktualizacja: nie, 01 lip 2018, 16:30 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -742,3 +742,12 @@ zyciepabianic.pl###widget-newsletter
 ||www.gofin.pl/images/newslettery_swl.png
 ||www.pulshr.pl/images/newsletter/newsletter.png 
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
+!
+!
+! Wyjątki
+dron.pl#@#.widget_wysija
+ifirma.pl#@#.dogory
+ms.gov.pl#@##scroll-top
+poznajsienatluszczach.pl#@#.scroll-top
+rmf24.pl#@##backTop
+spolka.cda.pl#@#.scrolltop
