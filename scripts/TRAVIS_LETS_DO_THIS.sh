@@ -78,4 +78,4 @@ for i in $ost_commit_plik; do
 done
 
 
-$sciezka/VICHS_Travis.sh $modul $glowna_lista
+$sciezka/VICHS_Travis.sh $glowna_lista $modul
