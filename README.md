@@ -6,7 +6,7 @@ Do poprawnego działania listy wymagane są [EasyList](https://subscribe.adblock
 
 Najlepszy efekt uzyskasz, importując listę do [uBlocka Origin](https://github.com/gorhill/uBlock/releases) lub [Nano Adblockera](https://github.com/NanoAdblocker/NanoCore/releases).
 
-[Kliknij, aby subskrybować Polskie Filtry Elementów Irytujących][Subskrybuj Polskie Filtry EI].
+## [Kliknij, aby subskrybować Polskie Filtry Elementów Irytujących][Subskrybuj Polskie Filtry EI].
 
 **Nowość!!!** Jeżeli lubisz jakieś elementy i nie chcesz by były blokowane lub ukrywane, to mamy dla ciebie dobrą wiadomość - od teraz Polskie Filtry Elementów Irytujących są modularne, a to oznacza, że nie musisz aktywować pełnego pakietu, możesz wybrać co chcesz, by było blokowane lub ukrywane. A listę aktualnie dostępnych modułów znajdziesz na [https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/blob/master/MODULES.md](https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/blob/master/MODULES.md).
 
