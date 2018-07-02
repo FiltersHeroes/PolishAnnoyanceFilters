@@ -1,5 +1,5 @@
 | MODUŁ  | SUBSKRYBUJ  | PODGLĄD  | ZGODNOŚĆ  |
-|:-:|---|---|---|
+|:-:|:-:|:-:|---|
 |Newslettery (bez wyskakujących okienek)|[Subskrybuj][Newslettery]  | [Podgląd][N_Podgląd] |![uBO][uBO] ![NANO][NANO] ![AG][AG] ![ADB][ADB] ![ABP][ABP]  |
 |Odblokowanie Kliknięcia Prawym Przyciskiem Myszy  |[Subskrybuj][Prawy Klik]  | [Podgląd][PK_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
 |Niezgodne z Tematem Artykułów Otagowane Linki Wewnętrzne  |[Subskrybuj][Tag Link]   | [Podgląd][TL_Podgląd]   |![uBO][uBO] ![NANO][NANO] ![AG][AG]  |
@@ -38,4 +38,6 @@
 [ABP]: https://www.certyficate.it/adblock/adblock_plus.png
 [NANO]: https://www.certyficate.it/adblock/nano.png
 
-**UWAGA!!** Żaden z w/w modułów nie zawiera Polskich Filtrów RODO-Ciasteczkowych, więc jeżeli przeszkadzają ci te elementy, to musisz je zasubskrybować.
+**UWAGA!!** Żaden z w/w modułów nie zawiera Polskich Filtrów [RODO-Ciasteczkowych](https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt), więc jeżeli przeszkadzają ci te elementy, to możesz je [zasubskrybować][Polskie Filtry RODO-Ciasteczkowe Subscribe].
+
+[Polskie Filtry RODO-Ciasteczkowe Subscribe]: https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/adblock_cookies.txt&title=Polskie%20Filtry%20RODO-Ciasteczkowe
