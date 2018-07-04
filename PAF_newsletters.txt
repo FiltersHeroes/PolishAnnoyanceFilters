@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Ch9yXTp46zK1U3Xe4zqgVg
+! Checksum: YIulzzmglPU3BFUMdLjJyg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 04 Jul 2018, 16:05 UTC+02
-! Version: 201807041605
+! Last modified: Wed, 04 Jul 2018, 17:27 UTC+02
+! Version: 201807041727
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 04 lip 2018, 16:05 UTC+02
+! Aktualizacja: śro, 04 lip 2018, 17:27 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -401,6 +401,7 @@ nowiny.com.pl##.col-md-3:nth-of-type(7) > .info > .bottom > ul > li:nth-of-type(
 nowymarketing.pl##.footTools > li:nth-of-type(5)
 nowyolechow.pl##.newsletter_signup
 nowyoutsourcing.pl##.g1-row-mailchimp, #mc-embedded-subscribe-form
+nvidia.pl##.subscribe-container
 obzarciuch.pl###HTML6
 odczasudoczasu.pl#?#.vc_row-has-fill:-abp-has(.form_subscribe)
 ofertapracy.monsterpolska.pl###liteRegDiv
@@ -669,6 +670,8 @@ waldtour.pl##.mailpoet-newsletter
 waszaturystyka.pl##.platform-content:nth-of-type(2)
 wearmedicine.com##.newsletter, #nlThanks
 webcamera.pl###footer-newsletter-box
+webinsider.pl##.gofollow[onclick*=Newsletter]
+webinsider.pl#?#h5:-abp-contains(Newsletter)
 widzialni.pl##.widget_widzialni_newsletter
 wierchomla.com.pl##.footer-top > .center-wrap > .footer-left
 wiescirolnicze.pl###hp-newsletter
