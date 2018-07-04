@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: G1XKpYoTZM9/ojlLdb1Xlw
+! Checksum: 6xoCCC7Mg6H+mHWjvjbuxw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Wed, 04 Jul 2018, 17:12 UTC+02
-! Version: 201807041712
+! Last modified: Wed, 04 Jul 2018, 17:27 UTC+02
+! Version: 201807041727
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 04 lip 2018, 17:12 UTC+02
+! Aktualizacja: śro, 04 lip 2018, 17:27 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -402,6 +402,7 @@ nowiny.com.pl##.col-md-3:nth-of-type(7) > .info > .bottom > ul > li:nth-of-type(
 nowymarketing.pl##.footTools > li:nth-of-type(5)
 nowyolechow.pl##.newsletter_signup
 nowyoutsourcing.pl##.g1-row-mailchimp, #mc-embedded-subscribe-form
+nvidia.pl##.subscribe-container
 obzarciuch.pl###HTML6
 odczasudoczasu.pl#?#.vc_row-has-fill:-abp-has(.form_subscribe)
 ofertapracy.monsterpolska.pl###liteRegDiv
@@ -670,6 +671,8 @@ waldtour.pl##.mailpoet-newsletter
 waszaturystyka.pl##.platform-content:nth-of-type(2)
 wearmedicine.com##.newsletter, #nlThanks
 webcamera.pl###footer-newsletter-box
+webinsider.pl##.gofollow[onclick*=Newsletter]
+webinsider.pl#?#h5:-abp-contains(Newsletter)
 widzialni.pl##.widget_widzialni_newsletter
 wierchomla.com.pl##.footer-top > .center-wrap > .footer-left
 wiescirolnicze.pl###hp-newsletter
@@ -2150,8 +2153,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 201807041711
-!@Last modified: Wed, 04 Jul 2018, 17:11:04 UTC+02
+!@Version: 201807041726
+!@Last modified: Wed, 04 Jul 2018, 17:26:22 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2160,7 +2163,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201807041711 aktualizacja: śro, 04 lip 2018, 17:11:04 UTC+02
+!@v.201807041726 aktualizacja: śro, 04 lip 2018, 17:26:22 UTC+02
 !
 !
 !
@@ -3381,6 +3384,7 @@ trakt.tv##.sncmp-app_gdpr
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tygodnikpowszechny.pl###top_head
 tygodnikzamojski.pl###rodo-message
+ulub.pl###rodo_all
 umowycywilnoprawne.pl###formalAgreementModal, #modalBackdrop
 virustotal.com###euConsent
 wakacyjnipiraci.pl###tarteaucitronAlertBig
