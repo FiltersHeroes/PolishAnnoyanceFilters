@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HK0pxayz2d9s9IRgbSkbUw
+! Checksum: 1ngbxp5zoJy7DjHjhvfDtQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Sun, 08 Jul 2018, 22:39 UTC+02
-! Version: 201807082239
+! Last modified: Mon, 09 Jul 2018, 20:07 UTC+02
+! Version: 201807092007
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 08 lip 2018, 22:39 UTC+02
+! Aktualizacja: pon, 09 lip 2018, 20:07 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -1431,6 +1431,7 @@ polskihurtworld.eu##.tgtop
 polszczyzna.pl###eltdf-back-to-top
 pomorski-bs.pl###s5_scrolltop_a
 pomyslnawszystko.pl##div[class^="go-top"]
+poradnikbudowlany.eu##.footer-up > .col-md-1.col-xs-12
 porady.org##.td-scroll-up-visible
 portalprzemyski.pl##.footer-scroll-to-top
 portalpszczelarski.pl###APPliftPageUp
@@ -2160,8 +2161,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 201807081736
-!@Last modified: Sun, 08 Jul 2018, 17:36:28 UTC+02
+!@Version: 201807091942
+!@Last modified: Mon, 09 Jul 2018, 19:42:27 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2170,7 +2171,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201807081736 aktualizacja: nie, 08 lip 2018, 17:36:28 UTC+02
+!@v.201807091942 aktualizacja: pon, 09 lip 2018, 19:42:27 UTC+02
 !
 !
 !
@@ -2204,6 +2205,7 @@ am.gdynia.pl##div#infoCiasteczek
 animesub.info##div.appriseOuter
 animesub.info##div#aOverlay
 apdmarket.pl###popup
+apkpure.com###policy-info
 apsdata.pl###alert
 aptekadyzurna.pl##div[style="padding: 10px 70px 10px 50px; font-family: arial, sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 9px; line-height: normal; background-color: rgb(153, 153, 153); display: block; position: relative; color: white; width: 99%; "]
 aptekagemini.pl##div#kukiz
@@ -3283,6 +3285,7 @@ autodna.pl##.privacy_policy-info
 autogielda.pl##.modal-backdrop
 automo.pl,autobaza.pl###rodo, .rodoButtonUp
 auto-swiat.pl###termsPopup
+biznesistyl.pl##.popup_overlay, .box_popup
 bryk.pl,interia.pl,pokazywarka.pl##.rodo-mini
 certum.pl##.spu-bg, .spu-box
 chomikuj.pl###acceptChomikujTermsOverlay, #acceptChomikujTermsContainer
@@ -3387,6 +3390,7 @@ speedtest.net###_evidon-barrier-wrapper
 spidersweb.pl###moove_gdpr_cookie_info_bar
 store.playstation.com###privacy-header
 szlot.pl##.spu-bg, .spu-total-
+tanie-loty.com.pl###rodo_info_placeholder
 tcz.pl###dynamic-load-rodo, #dynamic-loading-rodo
 telegazeta.pl##.tvp-covl-bg, .tvp-covl
 telewizjarepublika.pl###swsmodal, #swsoverlay
@@ -3754,7 +3758,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !
 !
 !@Wyjątki
-digitaltrends.com#@#[id*="cookie-"]
+digitaltrends.com,php.net#@#[id*="cookie-"]
 foxnews.com#@#.cookies
 gdansk.pl,gokf.gda.pl,orteil.dashnet.org#@##cookies:not(body):not(html):not(.section)
 iculture.nl#@#[id*="cookie_"]
@@ -3766,7 +3770,7 @@ naekranie.pl#@#[id^="polityka-prywatnosci"]
 norauto.pl,orange.pl,orteil.dashnet.org#@#:not(input)[id*="Cookie"]
 opencraft.pl#@#[id^="topInfo"]
 orange.pl#@##cookies-info
-orange.pl,taat.pl,bskrasnosielc.pl,iculture.nl,interhotel.pl,puma.com,bestcena.pl,gokf.gda.pl,orteil.dashnet.org,gdansk.pl,naekranie.pl,digitaltrends.com#@#:not(input)[id*="cookie"]
+orange.pl,taat.pl,bskrasnosielc.pl,iculture.nl,interhotel.pl,puma.com,bestcena.pl,gokf.gda.pl,orteil.dashnet.org,gdansk.pl,naekranie.pl,digitaltrends.com,php.net#@#:not(input)[id*="cookie"]
 orteil.dashnet.org#@#div[class*="Cookie"]
 pokemon.com#@#.cookies
 redbullmobilecollect.pl#@#[id^="polityka-prywatnosci"]
