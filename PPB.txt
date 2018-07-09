@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1ngbxp5zoJy7DjHjhvfDtQ
+! Checksum: GwRUfD+IXWjKdWNcBqatJQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Mon, 09 Jul 2018, 20:07 UTC+02
-! Version: 201807092007
+! Last modified: Mon, 09 Jul 2018, 22:12 UTC+02
+! Version: 201807092212
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 09 lip 2018, 20:07 UTC+02
+! Aktualizacja: pon, 09 lip 2018, 22:12 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -129,6 +129,7 @@ cryptodemy.pl##.optin-monster-api.widget.td_block_template_1
 cryptonews.pl###text-7
 ctpartners.pl##.ftresc2
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.block-newsletter, .header-bottom-newsletter
+cyfrowynauczyciel.pl###mab-widget-2
 czasdzieci.pl###id_boxNews
 czasnawnetrze.pl###contentRight > div.module:nth-of-type(4)
 czaszegarkow.pl##.subscribe
@@ -211,6 +212,7 @@ forbot.pl###powiadomieniaMailowe
 forsal.pl##div > a[href="http://forsal.pl/newsletter"]
 forsal.pl##.forsalHeaderLinks > .col-sm-off.col-xs-off:nth-of-type(1)
 forumgliwice.pl###text-7
+forum.android.com.pl##[data-blockid="app_core_newsletter_newsletter"]
 fotelik.info##.subskrypcja
 fotokoszyk.pl##.follow_news:nth-of-type(4)
 foto.auchan.pl##.cw_newsletter
@@ -527,6 +529,7 @@ pulshr.pl##h2 > a[href="http://www.pulshr.pl/newsletter.html"]
 pulshr.pl##.box-1 > p:nth-of-type(1)
 pulshr.pl##.form-1
 pulsmedycyny.pl###id-newsletter-box
+pzlsedziszow.pl###newsletter_pzl-2
 qdecor.pl##.box:nth-of-type(4)
 qr-online.pl##div.col-md-4:nth-of-type(1) > form, div.col-md-4:nth-of-type(1) > p, h3.footer-widget-title:nth-of-type(2)
 questus.pl##.newslett-main
@@ -710,6 +713,7 @@ yerbanot.com###email-subscribers-3
 yes.pl##.footer-middle
 yieldbird.com##.hidden-widget.float-widget
 youtubersi.pl##.newsletter.container, .click_news
+yt360.pl###text-4
 yves-rocher.pl##.service__column:nth-of-type(2) > .service__box:nth-of-type(1)
 zadowolenie.pl##.b-adZone_wide:nth-of-type(7)
 zadowolenie.pl##.image_widget.widget > .js-imageWidget
@@ -945,6 +949,7 @@ pl.aleteia.org##.newsletter-popups
 poczta.int.pl##.maximized-wrapper
 podrywaj.org##.modal_wrapper
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
+poloniawroclaw.pl##.spu-bg, .spu-box
 pol-nor.com###boxpopup, #overlay, #popforfirma
 poradniktransportowy.pl###wbounce-modal
 portel.pl###closeTL
@@ -1020,10 +1025,11 @@ wwsi.edu.pl###adsdialog
 wyborcza.pl##.mod_ddbox
 wylecz.to##.popupBackground
 wysokienapiecie.pl##.modal-overlay
+yt360.pl###ouibounce-modal
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zblogowani.pl###more-posts-modal
 zegarki-online.pl###InfoNewsletter, #InfoNewsletterOkno
-zielonyogrodek.pl,mlodytechnik.pl,czasnawnetrze.p##.mod_avt_alert
+zielonyogrodek.pl,mlodytechnik.pl,czasnawnetrze.pl##.mod_avt_alert
 zimorodek.pl##.body-layer
 zlotemysli.pl##._form_show._form-wrapper
 zszywka.pl###inv-request-popup
@@ -1036,7 +1042,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 /wp-content/plugins/bloom/js/custom.js$domain=subiektywnieofinansach.pl|webinsider.pl|majsterkowo.pl|mojmac.pl
 /wp-content/plugins/boxzilla/assets/js/script.min.js$domain=gdanskstrefa.com|ciekawe.org
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
-/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl|magnapolonia.org
+/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl|magnapolonia.org|shareinfo.pl
 /wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
 /wp-content/plugins/layered-popups/js/script.min.js$domain=akademia-internetu.pl|influentiq.pl|dih.pl
 /wp-content/plugins/popups/public/assets/js/min/public-min.js$domain=businesstraveller.pl|hykker.com|adrenalina-kielce.pl
@@ -1118,6 +1124,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ! Powiadomienia push
 antyweb.pl###pushAdUpBanner
 autocentrum.pl##.web-push-box
+businessinsider.com.pl##.pushBell
 bzwbk.pl###pushwoosh-pop
 kryminalka.pl###Process0
 mbank.pl###push-message
@@ -1224,6 +1231,7 @@ coinpaprika.com##.cp-footer-scroll-top
 comel-it.com##.g-totop
 ctb.com.pl,movieway.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
 cud.rzeszow.pl##.bd-backtotop-1
+czescidobmw.pl##.pageToTop, .closegg
 decathlon.pl###messagetop
 dekoracjascian.com###backToTop
 deon.pl##.strzalka
@@ -1441,6 +1449,7 @@ ppe.pl##.toTop, .toTopRWD
 programyzadarmo.net.pl###sticky_gototop
 pro-beauty.pl##.ui-to-top
 puck.naszemiasto.pl###kotwica
+pzlsedziszow.pl##.scroll-top-wr
 questus.pl###wpfront-scroll-top-container
 racjonalista.tv##.gotop
 radiopik.pl##.scrollsoft
@@ -1568,6 +1577,7 @@ dressinn.com##.chat_icono
 drukarniawolf.pl##.binotelHide, #bingc-phone-button-tooltip, #bingc-active, #bingc-phone-button
 ebeactive.pl###iw-tab-label
 eglobalcentral.pl###hs-beacon
+elektrozysk.pl###report_error_box_button, #ceneo-widget
 etcomputers.pl,koszulkiznadrukiem.biz##a[href*="widget.gg.pl"]
 eurobank.pl##.reviews
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
@@ -1642,6 +1652,7 @@ pl##.mtp-contact-message
 pl.000webhost.com##div[style="cursor: pointer;"]
 pl.pons.com###hj-feedback
 polanki.pl##.PamphletWidget
+poloniawroclaw.pl##body > iframe:nth-of-type(1)
 polskihurtworld.eu##.ggu-widget-launcher
 portal.lellek.pl###contact-img
 pracatobie.pl###ankieta1
@@ -2028,6 +2039,7 @@ pmi24.info###newsDiv
 poczta.interia.pl###createaccount2
 podlaska.policja.gov.pl##div:nth-of-type(5)
 polityka.pl##.commentArt
+poloniawroclaw.pl##.sfl-widget--ribbon__fixed, .ys-sidebar-btn-2
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 portalsamorzadowy.pl,portalspozywczy.pl###bottom_slider
 portalzp.pl###start-tour
@@ -2091,6 +2103,7 @@ tugazeta.pl###sort_button, #koment_button
 tvokazje.pl##.call-popup-newslater
 tylkostylowe.pl,sklephormann.pl,instalhurt.sklep.pl,moto125.pl###widget_shop3
 tymbark.com###kwit_brandwidget_btn
+uml.lodz.pl##.sticked-widgets__widget-trigger
 um.jaslo.pl###wp_access_helper_container
 unia.pl###bottom7, #bottom8, #bottom9
 univ.rzeszow.pl,ur.edu.pl###interreg, #radio-feniks, #wspolpraca-miedzynarodowa
@@ -2161,8 +2174,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 201807091942
-!@Last modified: Mon, 09 Jul 2018, 19:42:27 UTC+02
+!@Version: 201807092203
+!@Last modified: Mon, 09 Jul 2018, 22:03:09 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2171,7 +2184,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201807091942 aktualizacja: pon, 09 lip 2018, 19:42:27 UTC+02
+!@v.201807092203 aktualizacja: pon, 09 lip 2018, 22:03:09 UTC+02
 !
 !
 !
@@ -3338,7 +3351,7 @@ kiep.pl###rodo-pop
 kochamwroclaw.pl###tfade, #cwv3_dialog, #tlight, .dialog-overlay, #surbma-yes-no-popup
 koleje-wielkopolskie.com.pl##.spu-bg, .spu-box
 kreskoweczki.pl###rodo-block
-londynek.net##.jd-rodo
+londynek.net##.jd-rodo, .jd-rodo-2
 lotto.pl###klauzula_informacyjna_nakladka
 lubimyczytac.pl###TB_window, #TB_overlay
 lublin112.pl###privacy_info_content, #privacy_info_overlay
