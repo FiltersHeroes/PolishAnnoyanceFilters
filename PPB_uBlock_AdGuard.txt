@@ -1,9 +1,9 @@
-! Checksum: p7h6laSzqL0LG6OKsWHH2Q
+! Checksum: DlrcYYYuOBnLzNo+9Y7S0w
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 06 Jul 2018, 19:54 UTC+02
-! Version: 201807061954
+! Last modified: Mon, 09 Jul 2018, 22:52 UTC+02
+! Version: 201807092252
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 06 lip 2018, 19:54 UTC+02
+! Aktualizacja: pon, 09 lip 2018, 22:52 UTC+02
 !
 !
 ! Newslettery
@@ -113,6 +113,8 @@ mintshost.pl,biznes-host.pl##.modal-open:style(overflow: auto !important;)
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
+newtech.com.pl###vq-popup-cnt
+newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##script:inject(abort-on-property-read.js, window.onbeforeunload)
 odczasudoczasu.pl##html.pum-open:style(overflow: auto !important;)
 odczasudoczasu.pl##.popmake-overlay
