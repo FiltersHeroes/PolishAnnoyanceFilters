@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2XJlXTCCWWDdg1hW6+C8Ow
+! Checksum: 7V+GV66tE2/phvU2XtxrpA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 04 Jul 2018, 15:20 UTC+02
-! Version: 201807041520
+! Last modified: Mon, 09 Jul 2018, 22:12 UTC+02
+! Version: 201807092212
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 04 lip 2018, 15:20 UTC+02
+! Aktualizacja: pon, 09 lip 2018, 22:12 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -214,6 +214,7 @@ pl.aleteia.org##.newsletter-popups
 poczta.int.pl##.maximized-wrapper
 podrywaj.org##.modal_wrapper
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
+poloniawroclaw.pl##.spu-bg, .spu-box
 pol-nor.com###boxpopup, #overlay, #popforfirma
 poradniktransportowy.pl###wbounce-modal
 portel.pl###closeTL
@@ -289,10 +290,11 @@ wwsi.edu.pl###adsdialog
 wyborcza.pl##.mod_ddbox
 wylecz.to##.popupBackground
 wysokienapiecie.pl##.modal-overlay
+yt360.pl###ouibounce-modal
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zblogowani.pl###more-posts-modal
 zegarki-online.pl###InfoNewsletter, #InfoNewsletterOkno
-zielonyogrodek.pl,mlodytechnik.pl,czasnawnetrze.p##.mod_avt_alert
+zielonyogrodek.pl,mlodytechnik.pl,czasnawnetrze.pl##.mod_avt_alert
 zimorodek.pl##.body-layer
 zlotemysli.pl##._form_show._form-wrapper
 zszywka.pl###inv-request-popup
@@ -305,7 +307,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 /wp-content/plugins/bloom/js/custom.js$domain=subiektywnieofinansach.pl|webinsider.pl|majsterkowo.pl|mojmac.pl
 /wp-content/plugins/boxzilla/assets/js/script.min.js$domain=gdanskstrefa.com|ciekawe.org
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
-/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl|magnapolonia.org
+/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl|magnapolonia.org|shareinfo.pl
 /wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
 /wp-content/plugins/layered-popups/js/script.min.js$domain=akademia-internetu.pl|influentiq.pl|dih.pl
 /wp-content/plugins/popups/public/assets/js/min/public-min.js$domain=businesstraveller.pl|hykker.com|adrenalina-kielce.pl
