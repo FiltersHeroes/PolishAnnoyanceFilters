@@ -1,9 +1,9 @@
-! Checksum: DlrcYYYuOBnLzNo+9Y7S0w
+! Checksum: TOro8ISd1W59Ln5ap1ySeg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Mon, 09 Jul 2018, 22:52 UTC+02
-! Version: 201807092252
+! Last modified: Wed, 11 Jul 2018, 18:09 UTC+02
+! Version: 201807111809
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 09 lip 2018, 22:52 UTC+02
+! Aktualizacja: śro, 11 lip 2018, 18:09 UTC+02
 !
 !
 ! Newslettery
@@ -23,6 +23,7 @@ nowymarketing.pl##.blured:style(filter: none !important;)
 !
 !
 ! Odblokowanie prawego przycisku myszy
+romet.pl##script:inject(remove-attr.js, oncontextmenu)
 roztoczanskipn.pl##script:inject(addEventListener-defuser.js, contextmenu)
 skionline.pl##script:inject(remove-attr.js, oncontextmenu)
 /no-right-click-images-plugin/*$script
@@ -233,8 +234,8 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201807061951
-!@Last modified: Fri, 06 Jul 2018, 19:51:39 UTC+02
+!@Version: 201807111758
+!@Last modified: Wed, 11 Jul 2018, 17:58:27 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -243,7 +244,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201807061951 aktualizacja: pią, 06 lip 2018, 19:51:39 UTC+02 
+!@v.201807111758 aktualizacja: śro, 11 lip 2018, 17:58:27 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -273,7 +274,7 @@ twitter.com##.topbar-spacer:style(padding-top: 0 !important;)
 webhelp.pl###wrapper:style(margin-top: auto !important;)
 wykop.pl##.cookie
 wykop.pl##.type-permanent+#nav+div:style(padding-top: 49px !important;)
-wykop.pl##.type-permanent+#nav:style(top: 0 !important;) 
+wykop.pl##.type-permanent+#nav:style(top: 0 !important;)
 youtube.com##div#masthead-positioner-height-offset:style(height: 80px!important;)
 !
 !
@@ -284,19 +285,19 @@ fotoblogia.pl,gadzetomania.pl,komorkomania.pl##.cookie-disclaimer:style(visibili
 !
 !
 !@Popupy
-auto-czesci-lipiec.pl###mAll 
-auto-czesci-lipiec.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;) 
+auto-czesci-lipiec.pl###mAll
+auto-czesci-lipiec.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 etransport.pl##.modals.dimmer
 etransport.pl##body.dimmed:style(overflow: auto !important;)
 kobietymedycyny.pl##script:inject(abort-current-inline-script.js, $, cookies)
-mkidn.gov.pl###myModal 
-mkidn.gov.pl,puma.com##.modal-open:style(padding-right: 0px!important; overflow: visible!important;) 
+mkidn.gov.pl###myModal
+mkidn.gov.pl,puma.com##.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
 multimediago.pl##.modal-cookie
 multimediago.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
-puma.com###modal-geoip-cookies, .modal-backdrop 
-unileverfoodsolutions.pl##body.blurred>*:style(box-shadow: none!important; filter: none!important;) 
-unileverfoodsolutions.pl##body:style(overflow: auto!important;) 
-unileverfoodsolutions.pl##.js-cookie-wall 
+puma.com###modal-geoip-cookies, .modal-backdrop
+unileverfoodsolutions.pl##body.blurred>*:style(box-shadow: none!important; filter: none!important;)
+unileverfoodsolutions.pl##body:style(overflow: auto!important;)
+unileverfoodsolutions.pl##.js-cookie-wall
 !
 !
 !@Popupy dot. polityki prywatności/RODO
@@ -330,6 +331,7 @@ infoplanet.pl###rodo, .modal-backdrop
 ipla.tv##.no-scroll:style(overflow: auto !important;)
 ipla.tv##.rodo-rules-modal
 kaliszak.pl##.rodo, .rodo_layer
+kruger.pl###rodo, .fader
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 mazury.travel##.popup, .popup-overlay
@@ -345,8 +347,8 @@ otwarteklatki.pl##.popup-visible:style(overflow: auto !important;)
 polski-tenis.pl###rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.rodo
 portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,propertynews.pl,portalsamorzadowy.pl,rynekaptek.pl,infodent24.pl,housemarket.pl,pulshr.pl,propertydesign.pl,rynekseniora.pl,ckl.pl,ptwp.pl,promocjada.pl,wnp.pl,frsih.pl,eecpoland.eu,mckkatowice.pl,spodekkatowice.pl##.windowOpen:style(overflow: auto !important;)
-prawdaobiektywna.pl##body:style(overflow: auto !important;)
 prawdaobiektywna.pl##.qc-cmp-ui-container
+prawdaobiektywna.pl,kruger.pl##body:style(overflow: auto !important;)
 pro-sprzet.pl###myWorning, .modal-backdrop
 przydomu.pl###popup_25
 przydomu.pl##.container:style(filter: none !important;)
