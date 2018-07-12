@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4sScVoCAdGEPNh8MJ3S8ZA
+! Checksum: 34BOkQEizonVMK+89rlw+Q
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Wed, 11 Jul 2018, 18:29 UTC+02
-! Version: 201807111829
+! Last modified: Thu, 12 Jul 2018, 17:39 UTC+02
+! Version: 201807121739
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 11 lip 2018, 18:29 UTC+02
+! Aktualizacja: czw, 12 lip 2018, 17:39 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -59,6 +59,7 @@ amparts24.pl###i258
 amrest.eu###block-simplenews-1
 anna-urbanska.pl###text-7, .ml-block-form
 answear.com###bottomNewsletter
+apetete.pl##.footer__block__payment.footer__block > .footer_container
 apollo.pl##.newsletter-block-container
 arystoteles.pl###dozapi
 asta24.pl##.columns.small-12.medium-6.large-3:nth-of-type(4)
@@ -246,7 +247,7 @@ hart.pl###_ctl0_NewsLetterInitC_NewsletterForm
 helloangielski.pl##.subscribe-form
 herki.pl###_ctl0_NewsLetterInitC_NewsletterForm
 historykon.pl###text-4
-historyk.eu,dobremiejsce.org,mimowszystko.org,pl.dawanda.com,blachotrapez.eu###newsletter 
+historyk.eu,dobremiejsce.org,mimowszystko.org,pl.dawanda.com,blachotrapez.eu###newsletter
 hitobuwie.pl,www.missguided.com,www.smyk.com,villeroy-boch.pl,allani.pl,wakacyjnipiraci.pl##.footer__newsletter
 homebook.pl##.newsletter-form
 homebook.pl#?#div>div>div>div:-abp-contains(newsletter)
@@ -707,8 +708,8 @@ wyczesani.com###box_newsletter
 wydajnykomputer.pl##.entry > form > p:nth-child(-n+2)
 wydawnictwoliterackie.pl##.newsletter_bcg
 wyjatkowyprezent.pl,house.pl###footerNewsletter
-wylecz.to##.portlet-box:nth-of-type(4) 
-wylecz.to##.portlet-newsletter 
+wylecz.to##.portlet-box:nth-of-type(4)
+wylecz.to##.portlet-newsletter
 wymarzonyogrod.pl###contactable, #newsletter_ajax
 yerbanot.com###email-subscribers-3
 yes.pl##.footer-middle
@@ -752,7 +753,7 @@ zyciepabianic.pl###widget-newsletter
 ||upolujebooka.pl/_visual/_b/b_newsletter.jpg
 ||www.eventim.pl/obj/media/PL-eventim/teaser//pl/marketingTeaser/newsletter-new-2016.jpg
 ||www.gofin.pl/images/newslettery_swl.png
-||www.pulshr.pl/images/newsletter/newsletter.png 
+||www.pulshr.pl/images/newsletter/newsletter.png
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
 !
 !
@@ -1047,7 +1048,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl|magnapolonia.org|shareinfo.pl
 /wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
 /wp-content/plugins/layered-popups/js/script.min.js$domain=akademia-internetu.pl|influentiq.pl|dih.pl
-/wp-content/plugins/popups/public/assets/js/min/public-min.js$domain=businesstraveller.pl|hykker.com|adrenalina-kielce.pl
+/wp-content/plugins/popups/public/assets/js/min/public-min.js$domain=businesstraveller.pl|hykker.com|adrenalina-kielce.pl|instalnet.pl
 /wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=tygodnikprzeglad.pl|plportal.pl|bobbyburger.pl|fenixmotors.com
 /wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
 /wp-content/plugins/wordpress-popup/js/public.min.js$domain=kwiaciarnia-rikka.pl|dobremiejsce.org
@@ -1375,7 +1376,7 @@ pielegniarki.info.pl##.toTheTop
 piib.org.pl##a[href="#up"]
 pkobp.pl###scrollie
 player.pl##.footer-panel-toggle
-playstation.com,www.wizytowka.be###back-to-top
+playstation.com,www.wizytowka.be,solojuve.com###back-to-top
 plejada.pl###goback
 pl##.backToTop
 pl##.dogory
@@ -1475,7 +1476,6 @@ sloworegionu.pl##.fa-angle-left, .fa-angle-right
 smartninja.pl##.back-to-top-btn
 smartpage.pl##.right_top_scroll
 smartpozyczka.pl##.toTop
-solojuve.com###back-to-top
 spidersonline.pl##.mypresta_scrollup
 sportbazar.pl###moveTop
 sportisimo.pl###jumptop
@@ -1522,7 +1522,7 @@ www.nocowanie.pl##.is-sticky.btn--top.btn
 www.purepc.pl##.mtotop
 www.rp.pl##.arrow-to-top
 wykop.pl##.big.button
-wylecz.to##.btn-top-page 
+wylecz.to##.btn-top-page
 xlomza.pl##.uk-totop
 zalando.pl##.z-navigation-footer_backToTop
 zaliniamety.pl##.icn-up-small
