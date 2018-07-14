@@ -1,9 +1,9 @@
-! Checksum: FU6U3xCM5yOA6VJM8iyWZg
+! Checksum: l40cPbB0SXsqxd8EKP1ARw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 12 Jul 2018, 21:23 UTC+02
-! Version: 201807122123
+! Last modified: Sat, 14 Jul 2018, 17:24 UTC+02
+! Version: 201807141724
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 12 lip 2018, 21:23 UTC+02
+! Aktualizacja: sob, 14 lip 2018, 17:24 UTC+02
 !
 !
 ! Newslettery
@@ -233,8 +233,8 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201807121739
-!@Last modified: Thu, 12 Jul 2018, 17:39:28 UTC+02
+!@Version: 201807141709
+!@Last modified: Sat, 14 Jul 2018, 17:09:18 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -243,7 +243,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201807121739 aktualizacja: czw, 12 lip 2018, 17:39:29 UTC+02 
+!@v.201807141709 aktualizacja: sob, 14 lip 2018, 17:09:18 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -350,6 +350,8 @@ portalspozywczy.pl,sadyogrody.pl,rynekzdrowia.pl,farmer.pl,dlahandlu.pl,property
 prawdaobiektywna.pl##body:style(overflow: auto !important;)
 prawdaobiektywna.pl##.qc-cmp-ui-container
 pro-sprzet.pl###myWorning, .modal-backdrop
+przegladpolityczny.pl##.popmake-overlay
+przegladpolityczny.pl##.pum-open:style(overflow: auto !important;)
 przydomu.pl###popup_25
 przydomu.pl##.container:style(filter: none !important;)
 roztoczanskipn.pl###rodo-modal, .modal-backdrop
