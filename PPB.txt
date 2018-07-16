@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lHXbJDDPaYRwZutHGiSy6w
+! Checksum: fXKRmBsIkcHzEGhQeCsYYg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Mon, 16 Jul 2018, 13:02 UTC+02
-! Version: 201807161302
+! Last modified: Mon, 16 Jul 2018, 14:52 UTC+02
+! Version: 201807161452
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 16 lip 2018, 13:02 UTC+02
+! Aktualizacja: pon, 16 lip 2018, 14:52 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -450,6 +450,7 @@ perfectfitness.pl###MailIndexForm
 pewex.pl##.footerBanner:nth-of-type(1)
 picodi.com##.newsletterContainer
 pixel-box.pl##.footer-newsletter-new
+plumeria.sklep.pl###footer_newsletters
 pl##.newsletter
 pl##.newsletterBox
 pl##.newsletterbox
@@ -921,6 +922,7 @@ nportal.no###fb-overlay
 obi.pl##.open.ankieta
 obtkarma.pl##.fancybox-overlay[style="display: block; width: auto; height: auto; background: rgba(255, 255, 255, 0.4);"]
 obtkarma.pl#?#.fancybox-wrap:-abp-has(#popupnews-form)
+ogrodnictwo.expert###popup-box-gfcr-1
 okmoneta.pl###popupEmailPhone
 ono24.info##.bts-popup
 opensubtitles.org###fadeSub, #lightSub
@@ -1304,6 +1306,7 @@ infotydzien.info###jm-back-top
 insoft.net.pl,tube.ad,jakzrobicwexcelu.pl,zabki24.pl,nomoresecrets.pl,ap-goal.pl,pragma.pl##.go-top
 iperfumy.pl##.btn-scroll-top
 ip-serwis.pl,chocholowskietermy.pl##.mk-go-top
+i-apteka.pl##.n60972_main_cop_right
 jakzarabiaconline.blogspot.com###top
 karmello.pl###gotoTop
 kaufland.pl##.a-back-to-top__button
@@ -1596,6 +1599,8 @@ eurobank.pl##.reviews
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
 e-prawnik.pl##.o-window.windowTop
 e-saving.pl###contact
+fachowcy.pl###fav-callback-wrapper
+fachowcy.pl###liveChatContainer
 fantasyliga.wp.pl##.show-chat
 farmer.pl##.box-40
 fly.pl##.btn-sticky-feedback
@@ -1932,6 +1937,7 @@ insomnia.pl##.ptw-articles.ptw-widget
 instalki.pl##.plista_widget_slide
 intel.pl##.right-rail-tab.support
 interia.pl###sticker, .topbar
+i-apteka.pl###menu_hotspot_zone3
 jednoslad.pl##.popnav, .bottom-reached
 jezykiobce.pl###top-bar-promotions, #top_nav
 joemonster.org###mtv_main_swf.popup
@@ -2016,6 +2022,7 @@ nocowanie.pl##.btn--signup
 nocowanie.pl##.hidden-sm.hidden-xs.tc:nth-of-type(3)
 nocowanie.pl##.js-nav-prev-next, .sticky__element
 nomoresecrets.pl###glt-translate-trigger
+nowiny24.pl##.article-inset
 nowiny.com.pl##.slide-right
 nowodworskiestates.pl###asystent
 odczasudoczasu.pl##.fixed-nav
