@@ -1,9 +1,9 @@
-! Checksum: oRzv19va4Yh4LK099s/xBw
+! Checksum: n7/D3amIWCX5wNeiRuWNjA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 17 Jul 2018, 10:14 UTC+02
-! Version: 201807171014
+! Last modified: Tue, 17 Jul 2018, 22:35 UTC+02
+! Version: 201807172235
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 17 lip 2018, 10:14 UTC+02
+! Aktualizacja: wto, 17 lip 2018, 22:35 UTC+02
 !
 !
 ! Newslettery
@@ -23,7 +23,7 @@ nowymarketing.pl##.blured:style(filter: none !important;)
 !
 !
 ! Odblokowanie prawego przycisku myszy
-romet.pl,skionline.pl##script:inject(remove-attr.js, oncontextmenu)
+romet.pl,skionline.pl,sat-charts.eu##script:inject(remove-attr.js, oncontextmenu)
 roztoczanskipn.pl##script:inject(addEventListener-defuser.js, contextmenu)
 /no-right-click-images-plugin/*$script
 !
