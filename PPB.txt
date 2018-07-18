@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: CDm8Lx5zZebUeEsjNWEn8A
+! Checksum: UJekeCz8fk9qkI3QqCOQfw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Tue, 17 Jul 2018, 10:14 UTC+02
-! Version: 201807171014
+! Last modified: Wed, 18 Jul 2018, 12:42 UTC+02
+! Version: 201807181242
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 17 lip 2018, 10:14 UTC+02
+! Aktualizacja: śro, 18 lip 2018, 12:42 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -56,6 +56,7 @@ alkoholeswiata.com###newsletter-validate-detail
 alsen.pl,kakto.pl##.m-footer_nsl
 amparts24.pl###i258
 amrest.eu###block-simplenews-1
+analizy.pl##.nl-wrapper
 anna-urbanska.pl###text-7, .ml-block-form
 answear.com###bottomNewsletter
 apetete.pl##.footer__block__payment.footer__block > .footer_container
@@ -143,7 +144,7 @@ deon.pl###region12 > .clear:nth-of-type(1)
 deon.pl##.sl > li:nth-of-type(5)
 diag.pl##.last > form, .last.col-md-3 > h3
 digikids.pl##.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(3)
-disport.pl,koelnerpolska.pl##.boxNewsletter
+disport.pl,koelnerpolska.pl,wiedza3g.pl##.boxNewsletter
 di.com.pl##.footcol:nth-of-type(5) > form
 di.com.pl##.footcol:nth-of-type(5) > p
 di.com.pl##.footcol:nth-of-type(5) > .footnag:nth-of-type(1)
@@ -436,6 +437,7 @@ palacmierzecin.pl##.newsletter-hld
 paleosmak.pl###emailSub-form
 panoptykon.org##.social_n
 pantabletka.pl##.ds-newsletter
+paranormalium.pl##div.mt.menus-right:nth-of-type(8), div.th:nth-of-type(7)
 parkiet.com##.site-footer__newsletter
 pasazer.com##.section:nth-of-type(4)
 pasazer.com##.\].slidein.\[.box
@@ -601,6 +603,7 @@ sportplus.pl##.KolumnaNewsletter
 sportslaski.pl##.containerright5
 sport-shop.pl##.newsletter_fotter
 sprawnymarketing.pl###post-newsletter
+spreadshirt.pl##.ft-newsletter
 starkl.pl##li:nth-of-type(3) > h2:nth-of-type(2)
 stopnop.com.pl##div.col:nth-of-type(1) > .footer-widget
 stosunki-miedzynarodowe.pl##.art-sidebar1 > .art-block
@@ -813,7 +816,6 @@ dobiegania.pl###colorbox, #cboxOverlay
 dobredomy.pl###pop_promocja
 dogry.pl##.register-overlayer--game, .register-modal
 domisad.pl###banner-subs
-domodi.pl##.dm-modal
 doubletreewarsaw.pl##.popout__container
 dowbit.pl##.mcwidget-overlay
 ekologia.pl##.parent-nlr, .parent-promote
@@ -1003,6 +1005,7 @@ sldc.eu###popup-over, #popup-overlay
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
 spodiglyinitki.pl###popup
 sportbazar.pl###cart_tt, #cart_tt_bg
+spreadshirt.pl##.show.js-promo-layer
 stopfermom.eu##.special-popup
 sumiennyksiegowy.pl###ilosc-zapytan
 superksiegowa.pl###mksiegowosc-overlay, #mksiegowosc-popup-wrapper
@@ -1111,6 +1114,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js
 ||salesmanago.pl/dynamic/*/popups.js
+||sat-charts.eu/js/fcbkpopup.js
 ||sklep.rms.pl/js/rms_copy_copy/popup.js
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
 ||stressfree.pl/wp-content/plugins/popup-maker/assets/js/site.min.js
@@ -1987,6 +1991,7 @@ meritum.gda.pl####smallCart
 mgotuje.pl###ajaxsearchpro2_1
 miastons.pl##.stckbottom.cms_see_more
 miedziowe.pl,elka.pl###showhidecart
+mikroporady.pl##.fundrising-info, .rstbox, .footer_przekaz, #info, .juris_img > .krsinfo, .boxAkademia, .acs
 misioweopowiesci.o2.pl##.playlist__header
 mixmedia.pl###place3_v3
 mobilitynews.pl##.swiper-wrapper
@@ -2148,6 +2153,7 @@ wedkarz.pro##.ikonkiw.hidden-xs > a[href="/koszyk"]
 wesolakraina.pl##.kontrast_tlo
 wiadomosci.olsztyn.pl###bdCheckAlso
 wiadomosci.wp.pl,finanse.wp.pl,kobieta.wp.pl,gry.wp.pl,gwiazdy.wp.pl,moto.wp.pl,tech.wp.pl,opinie.wp.pl,turystyka.wp.pl#?#div>div>div>div>div>div>div>div>div>div:-abp-has(aside:-abp-contains(następny artykuł))
+wiedza3g.pl###info, .krsinfo, .wesprzyjNas
 winiary.pl###kwit_brandwidget_btn
 wirtualnemedia.pl###swim_box
 wlaczoszczedzanie.pl##.fm-icon
@@ -2204,8 +2210,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 201807171012
-!@Last modified: Tue, 17 Jul 2018, 10:12:56 UTC+02
+!@Version: 201807181233
+!@Last modified: Wed, 18 Jul 2018, 12:33:22 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2214,7 +2220,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201807171012 aktualizacja: wto, 17 lip 2018, 10:12:56 UTC+02
+!@v.201807181233 aktualizacja: śro, 18 lip 2018, 12:33:22 UTC+02
 !
 !
 !
@@ -2405,6 +2411,7 @@ eskago.pl###mpc_cookie_intro
 esklep-sbs.pl###cibMessage
 eteacher.pl###info_container
 eternityproject.pl##div.newsbar
+etipolam.com.pl##.ico-wrapper
 everhome.pl##div.shotimoo
 expansa.pl##.ui-resizable
 expozdrowie.pl###alert_popup
@@ -3411,6 +3418,7 @@ niezalezna.pl,gpcodziennie.pl###swsoverlay, #swsmodal
 ninateka.pl##.popup--festival
 nj24.pl###rodo
 nokaut.pl###GDPRModal
+obpon.pl###rodo-notice, #shadow-overlay
 odo24.pl##.rodo-body
 optyczne.pl###id01
 otolaryngolodzy24.pl,prow.lubelskie.pl###rodo-policy
@@ -3823,7 +3831,7 @@ digitaltrends.com,php.net#@#[id*="cookie-"]
 foxnews.com#@#.cookies
 gdansk.pl,gokf.gda.pl,orteil.dashnet.org#@##cookies:not(body):not(html):not(.section)
 iculture.nl#@#[id*="cookie_"]
-letsplej.pl,telepizza.pl,orange.pl,google.pl,topics.nl,przenosne.pl#@#div[class*="cookie"]
+letsplej.pl,telepizza.pl,orange.pl,google.pl,topics.nl,przenosne.pl,spreadshirt.pl#@#div[class*="cookie"]
 lomza.pl#@##komunikat-cookie
 lycos.de,lycos.com#@#.cookies
 naekranie.pl#@##polityka-cookies:not(body):not(html)
