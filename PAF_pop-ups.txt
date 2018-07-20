@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 8P92jokb4qOnTz1nmVXKZA
+! Checksum: C9GIkti/is95Rw7fXoE6Gg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 19 Jul 2018, 18:10 UTC+02
-! Version: 201807191810
+! Last modified: Fri, 20 Jul 2018, 17:05 UTC+02
+! Version: 201807201705
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 19 lip 2018, 18:10 UTC+02
+! Aktualizacja: pią, 20 lip 2018, 17:05 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -71,6 +71,7 @@ diversesystem.com###dvrs-newsletter-popup-body
 dobiegania.pl###colorbox, #cboxOverlay
 dobredomy.pl###pop_promocja
 dogry.pl##.register-overlayer--game, .register-modal
+dominospizza.pl##.popup_exit, .overlay, #jsNewsletterLayer
 domisad.pl###banner-subs
 doubletreewarsaw.pl##.popout__container
 dowbit.pl##.mcwidget-overlay
@@ -337,6 +338,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||czarymary.pl/NewsletterPopup
 ||daily.pl/modal/get/sticker-text
 ||dobrywybor.eu/wp-content/themes/dobrywybor/assets/vendors/magnific/magnific-popup.min.js
+||dominospizza.pl/js-libraries/bioep.min.js
 ||doradcasmaku.pl/index/get-popup$xmlhttprequest
 ||downloads.mailchimp.com/js/signup-forms/popup/embed.js
 ||ebrokerpartner.pl/js/frontend/modules/popup.js
