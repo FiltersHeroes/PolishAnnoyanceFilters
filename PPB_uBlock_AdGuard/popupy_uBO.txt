@@ -89,6 +89,7 @@ oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 online.citibank.pl###AdventPopup, .modal-backdrop
 online.citibank.pl##.modal-open:style(padding-right: 0px !important; overflow: auto !important;)
 open.fm##script:inject(addEventListener-defuser.js, unload)
+pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
 partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
 partneragdrtv.com.pl##.mfp-bg
 partneragdrtv.com.pl##.mfp-ready:has(.newsletter-box)
@@ -97,9 +98,9 @@ pepco.pl##.modal-newsletter
 pewex.pl##body,html:style(overflow: auto !important; margin-right: 0px !important;)
 pewex.pl###popupStart
 playstation.com##script:inject(abort-current-inline-script.js, $, PopupManager)
-pl.aleteia.org##html.fancybox-lock > body:style(overflow: auto !important;)
-pl.aleteia.org##html.fancybox-lock:style(overflow: auto !important; margin-right: 0px !important;)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
+pl.aleteia.org,pakamera.pl##html.fancybox-lock > body:style(overflow: auto !important;)
+pl.aleteia.org,pakamera.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0px !important;)
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
 prnews.pl###myModal, .modal-backdrop
