@@ -1,9 +1,9 @@
-! Checksum: jQ97FnDZ17QOmMdt5niFUg
+! Checksum: bxw6hwk5Wx3lSmV+2Oq5QQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 20 Jul 2018, 14:34 UTC+02
-! Version: 201807201434
+! Last modified: Sat, 21 Jul 2018, 11:45 UTC+02
+! Version: 201807211145
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 20 lip 2018, 14:34 UTC+02
+! Aktualizacja: sob, 21 lip 2018, 11:45 UTC+02
 !
 !
 ! Newslettery
@@ -124,6 +124,7 @@ oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 online.citibank.pl###AdventPopup, .modal-backdrop
 online.citibank.pl##.modal-open:style(padding-right: 0px !important; overflow: auto !important;)
 open.fm##script:inject(addEventListener-defuser.js, unload)
+pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
 partneragdrtv.com.pl##html:style(overflow: visible !important; padding-right: 0px !important;)
 partneragdrtv.com.pl##.mfp-bg
 partneragdrtv.com.pl##.mfp-ready:has(.newsletter-box)
@@ -132,9 +133,9 @@ pepco.pl##.modal-newsletter
 pewex.pl##body,html:style(overflow: auto !important; margin-right: 0px !important;)
 pewex.pl###popupStart
 playstation.com##script:inject(abort-current-inline-script.js, $, PopupManager)
-pl.aleteia.org##html.fancybox-lock > body:style(overflow: auto !important;)
-pl.aleteia.org##html.fancybox-lock:style(overflow: auto !important; margin-right: 0px !important;)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
+pl.aleteia.org,pakamera.pl##html.fancybox-lock > body:style(overflow: auto !important;)
+pl.aleteia.org,pakamera.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0px !important;)
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
 prnews.pl###myModal, .modal-backdrop
@@ -235,8 +236,8 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201807201426
-!@Last modified: Fri, 20 Jul 2018, 14:26:32 UTC+02
+!@Version: 201807211143
+!@Last modified: Sat, 21 Jul 2018, 11:43:19 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -245,7 +246,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201807201426 aktualizacja: pią, 20 lip 2018, 14:26:32 UTC+02 
+!@v.201807211143 aktualizacja: sob, 21 lip 2018, 11:43:19 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -261,6 +262,8 @@ domisad.pl##.show-message #shop-info:style(padding: 60px 0 15px 0 !important;)
 domisad.pl##.show-message #top-nav:style(height: auto !important;)
 echo24.tv##.on-top:style(top: 0 !important;)
 fiskars.pl##.desktop:style(top: 0 !important;)
+indbuildcraft.pl##body:style(overflow: auto !important;)
+indbuildcraft.pl##.modal-overlay, #modal_cookies
 kalisz.info.pl###all:style(top: 0 !important;)
 lafe.pl##.cinfo:style(padding-bottom: 0 !important;)
 lomza.pl##html > body.polityka-cookies:style(margin-top: 0 !important; background-position: center 120px !important;)
