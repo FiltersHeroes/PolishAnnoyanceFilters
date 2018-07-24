@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: hlkeUinT2yOCRxfxHkA8mQ
+! Checksum: ZoH+0C5OtoHNdeAa8yuWjg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 22 Jul 2018, 12:16 UTC+02
-! Version: 201807221216
+! Last modified: Tue, 24 Jul 2018, 17:24 UTC+02
+! Version: 201807241724
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 22 lip 2018, 12:16 UTC+02
+! Aktualizacja: wto, 24 lip 2018, 17:24 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -25,6 +25,7 @@
 3i-store.com###exit--popup--container
 24hurt.pl##.wt-popup, #overlay
 80dni.pl##.spu-bg, .spu-box
+1000dni.pl###news-popup
 accent-bikes.com###lang_popup
 addons.opera.com###overlay
 adeste.eu##.cp-direct-download-container
@@ -143,6 +144,8 @@ linuxportal.pl###wyskakujaca_plansza_tlo, #wyskakujaca_plansza_srodek
 malopolska.pl###newsletter-popover
 mandrivalinux.eu##.guestwarn
 mango.pl##.popup-mango, #sm_ext_floater-bg
+marenaspa.pl###fancybox-overlay[style^="background-color: rgb(0, 0, 0); opacity: 0.6; cursor: pointer;"]
+marenaspa.pl#?##fancybox-wrap:-abp-has(#popup-box)
 mazovia.pl##.blok-DefaultSubskrypcja
 meblejedrus.eu##.popup
 mecze24.pl##.ui-front
@@ -321,7 +324,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl|magnapolonia.org|shareinfo.pl
 /wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
 /wp-content/plugins/layered-popups/js/script.min.js$domain=akademia-internetu.pl|influentiq.pl|dih.pl
-/wp-content/plugins/popups/public/assets/js/min/public-min.js$domain=businesstraveller.pl|hykker.com|adrenalina-kielce.pl|instalnet.pl
+/wp-content/plugins/popups/public/assets/js/min/public-min.js$domain=businesstraveller.pl|hykker.com|adrenalina-kielce.pl|instalnet.pl|portal.nysa.pl
 /wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=tygodnikprzeglad.pl|plportal.pl|bobbyburger.pl|fenixmotors.com
 /wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
 /wp-content/plugins/wordpress-popup/js/public.min.js$domain=kwiaciarnia-rikka.pl|dobremiejsce.org
@@ -388,6 +391,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||widget.contactleader.pl^$third-party,script
 ||wszystkookotach.pl/wp-content/plugins/popslide/assets/js/front.js
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
+||www.brytol.com/wp-content/plugins/auto-fb-popup/assets/remodal.min.js
 ||www.fakro.pl/css/jquery.fancybox.css
 ||www.kuchenny.com.pl/popup/js/jquery.simplemodal.js
 ||www.makita.sklep.pl/szablony/standardowy.rwd/exit-popup/scripts/main.js
