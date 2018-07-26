@@ -1,9 +1,9 @@
-! Checksum: bxw6hwk5Wx3lSmV+2Oq5QQ
+! Checksum: olpcqTPXM811hG6SdSSSsw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 21 Jul 2018, 11:45 UTC+02
-! Version: 201807211145
+! Last modified: Thu, 26 Jul 2018, 10:40 UTC+02
+! Version: 201807261040
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 21 lip 2018, 11:45 UTC+02
+! Aktualizacja: czw, 26 lip 2018, 10:40 UTC+02
 !
 !
 ! Newslettery
@@ -236,8 +236,8 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201807211143
-!@Last modified: Sat, 21 Jul 2018, 11:43:19 UTC+02
+!@Version: 201807261033
+!@Last modified: Thu, 26 Jul 2018, 10:33:20 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -246,7 +246,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201807211143 aktualizacja: sob, 21 lip 2018, 11:43:19 UTC+02 
+!@v.201807261033 aktualizacja: czw, 26 lip 2018, 10:33:20 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -306,8 +306,9 @@ multimediago.pl##.modal-cookie
 multimediago.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 puma.com###modal-geoip-cookies, .modal-backdrop
 unileverfoodsolutions.pl##body.blurred>*:style(box-shadow: none!important; filter: none!important;)
-unileverfoodsolutions.pl##body:style(overflow: auto!important;)
 unileverfoodsolutions.pl##.js-cookie-wall
+unileverfoodsolutions.pl,wikia.com##body:style(overflow: auto!important;)
+wikia.com##div[data-tracking-opt-in-overlay]
 !
 !
 !@Popupy dot. polityki prywatności/RODO
