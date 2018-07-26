@@ -1,9 +1,9 @@
-! Checksum: olpcqTPXM811hG6SdSSSsw
+! Checksum: vhMjY5gRDpStQVjRQCXpeA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 26 Jul 2018, 10:40 UTC+02
-! Version: 201807261040
+! Last modified: Thu, 26 Jul 2018, 14:28 UTC+02
+! Version: 201807261428
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 26 lip 2018, 10:40 UTC+02
+! Aktualizacja: czw, 26 lip 2018, 14:28 UTC+02
 !
 !
 ! Newslettery
@@ -236,8 +236,8 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201807261033
-!@Last modified: Thu, 26 Jul 2018, 10:33:20 UTC+02
+!@Version: 201807261146
+!@Last modified: Thu, 26 Jul 2018, 11:46:28 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -246,7 +246,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201807261033 aktualizacja: czw, 26 lip 2018, 10:33:20 UTC+02 
+!@v.201807261146 aktualizacja: czw, 26 lip 2018, 11:46:33 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -289,7 +289,7 @@ youtube.com##div#masthead-positioner-height-offset:style(height: 80px!important;
 !
 !@Komunikaty ciasteczkowe i dziury - specjalne instrukcje
 !#if !cap_user_stylesheet
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl##.cookie-disclaimer:style(visibility: hidden !important;)
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,autokult.pl##.cookie-disclaimer:style(visibility: hidden !important;)
 purepc.pl##script:inject(nano-remove-elements-onready.js, .cookiesinfo)
 !#endif
 !
