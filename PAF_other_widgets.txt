@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: N14wLAEmqdVaFlxKlOIvjQ
+! Checksum: JP4ZWK5RqYlTjwc8YRhkFg
 ! Title: Polskie Filtry Elementów Irytujących - Inne Widżety
 ! Polish Annoyance Filters - Other Widgets
 ! Codename: Other Widgets
 ! Description: Filtry ukrywające i blokujące różne inne widżety.
-! Last modified: Thu, 26 Jul 2018, 10:40 UTC+02
-! Version: 201807261040
+! Last modified: Thu, 26 Jul 2018, 14:30 UTC+02
+! Version: 201807261430
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 26 lip 2018, 10:40 UTC+02
+! Aktualizacja: czw, 26 lip 2018, 14:30 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -430,4 +430,14 @@ ztm.gda.pl###mobile
 ||widgets.okazje.info.pl^$third-party
 ||www.windowsmania.pl/images/bar/portal.jpg
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
- 
+!
+!
+! Wyjątki
+dron.pl#@#.widget_wysija
+forum.komputerswiat.pl#@##ks_breaking_news
+ifirma.pl#@#.dogory
+ms.gov.pl#@##scroll-top
+poznajsienatluszczach.pl#@#.scroll-top
+rmf24.pl#@##backTop
+spolka.cda.pl#@#.scrolltop
+@@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
