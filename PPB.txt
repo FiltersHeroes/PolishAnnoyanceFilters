@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: hhRQDzKRFJa2xwezIZ4ytg
+! Checksum: Us+kTUOsIONEYrHwsGUeew
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Fri, 03 Aug 2018, 13:12 UTC+02
-! Version: 201808031312
+! Last modified: Fri, 03 Aug 2018, 16:29 UTC+02
+! Version: 201808031629
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 03 sie 2018, 13:12 UTC+02
+! Aktualizacja: pią, 03 sie 2018, 16:29 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -493,7 +493,9 @@ pl##.widget_mailerlite_widget
 pl##.widget_newsletterwidget
 pl##.widget_wysija
 pl,mazury.travel###newsletter_box
+pl-eu.puma.com##.footer-logo-email
 pl.aleteia.org###logo-newsletter-follow, .module-newsletter-form
+pl.aliexpress.com###alert-subscribe-form
 pl.malwarebytes.com###newsletter-signup
 pl.sportsdirect.com##.signup-wrapper
 podrywaj.org###block-block-34
@@ -597,10 +599,11 @@ skionline.pl##.boks_tytul_out_cs, .okno_gl_s > .boks
 sklepmartes.pl##.site-footer__newsletter
 sklep-agrohandel.pl##.footer_top_area
 sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
-sklep.cosplayworld.pl,venezia.pl,wolkom.pl,garneczki.pl##.footer_newsletter
+sklep.cosplayworld.pl,venezia.pl,wolkom.pl,garneczki.pl,reebok.pl,adidas.pl##.footer_newsletter
 sklep.motor-land.com.pl###side_header_newsletter
 sklep.polityka.pl###sidebar1 > div:nth-of-type(2)
 slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
+slowhop.com###newsletter
 smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
 sniadaniezkadra.onet.pl##.footerMenuBoxNewsletter
 snowbitch.pl###emailNewsForm
@@ -1608,6 +1611,7 @@ czarymary.pl###checkWidthFullMain1
 !
 !
 ! Widżety kontaktowe/informacji zwrotnej
+adidas.pl,reebok.pl##.QSISlider
 agroalex.pl###x13callback_button
 ahe.lodz.pl###chat-invite
 airport.com.pl##a[href^="javascript:void(window.open('http://airport.com.pl/livezilla/chat.php"]
