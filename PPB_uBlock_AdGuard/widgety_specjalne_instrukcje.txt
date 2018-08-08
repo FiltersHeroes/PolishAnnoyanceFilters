@@ -1,0 +1,9 @@
+!#if cap_html_filtering
+komputerswiat.pl##^#ks_breaking_news
+!#endif
+!#if !cap_html_filtering
+komputerswiat.pl###ks_breaking_news:style(position: absolute!important; left: -3000px!important;)
+!#endif
+!#if !ext_ublock
+komputerswiat.pl$$#ks_breaking_news
+!#endif
