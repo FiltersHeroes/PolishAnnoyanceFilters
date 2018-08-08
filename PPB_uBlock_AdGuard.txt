@@ -1,9 +1,9 @@
-! Checksum: jNBhSc+ZymS/Akavxq/HyA
+! Checksum: KsZQ9e3tU6QPlWrqK06hnw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Wed, 08 Aug 2018, 21:59 UTC+02
-! Version: 201808082159
+! Last modified: Thu, 09 Aug 2018, 00:08 UTC+02
+! Version: 201808090008
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 08 sie 2018, 21:59 UTC+02
+! Aktualizacja: czw, 09 sie 2018, 00:08 UTC+02
 !
 !
 ! Newslettery
@@ -250,8 +250,8 @@ komputerswiat.pl$$#ks_breaking_news
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201808081849
-!@Last modified: Wed, 08 Aug 2018, 18:49:25 UTC+02
+!@Version: 201808082357
+!@Last modified: Wed, 08 Aug 2018, 23:57:37 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -260,7 +260,7 @@ komputerswiat.pl$$#ks_breaking_news
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201808081849 aktualizacja: śro, 08 sie 2018, 18:49:25 UTC+02 
+!@v.201808082357 aktualizacja: śro, 08 sie 2018, 23:57:37 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -341,7 +341,7 @@ dobrzemieszkaj.pl###axn
 dobrzemieszkaj.pl##.nlOpen:style(overflow: auto !important;)
 eobuwie.com.pl###permissions-popup
 eobuwie.com.pl,zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl,kaliszak.pl##body:style(overflow: auto !important;)
-e-sochaczew.pl,pultusk24.pl##script:inject(abort-current-inline-script.js, $, #RODOCOOKIE)
+e-sochaczew.pl,pultusk24.pl###RODOCOOKIE, .modal-backdrop
 farmacja.net##.blur:style(filter: none !important;)
 farmacja.net##.noscroll:style(overflow: auto !important;)
 farmacja.net##.zgoda-popup-wrapper, .popup-overlay
@@ -366,7 +366,7 @@ morele.net##html:style(overflow: auto !important; padding-right: 0 !important;)
 morele.net###content_info_popup
 m.24jgora.pl###rodoModal, .modal-backdrop
 obywatel.gov.pl###modal-rodo, .modal-backdrop
-obywatel.gov.pl,m.24jgora.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+obywatel.gov.pl,m.24jgora.pl,e-sochaczew.pl,pultusk24.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 oko.press##.is-reveal-open:style(overflow: auto !important;)
 oko.press##.reveal-overlay
 otwarteklatki.pl###popup-gdpr, .popup-overlay
@@ -397,26 +397,28 @@ zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
 !
 !@Popupy dot. polityki prywatności/RODO - specjalne instrukcje
 !#if !cap_html_filtering
-4fun.tv##script:inject(abort-current-inline-script.js, $, #cModal)
-alltube.tv,alltube.pl##script:inject(abort-current-inline-script.js, $, #rodo-popup)
+4fun.tv###cModal, .modal-backdrop
+alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 belsat.eu##.popmake-overlay
 belsat.eu##.pum-open:style(overflow: auto !important;)
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
-born2be.pl,renee.pl,roztoczanskipn.pl,zakopane.info,tuwroclaw.com,tulodz.com,infoplanet.pl,gokf.gda.pl,gdansk.pl,craftserve.pl,ustawmundial.weszlo.com,ustawlige.com,ztm.poznan.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+born2be.pl,renee.pl,roztoczanskipn.pl,zakopane.info,tuwroclaw.com,tulodz.com,infoplanet.pl,gokf.gda.pl,gdansk.pl,craftserve.pl,ustawmundial.weszlo.com,ustawlige.com,ztm.poznan.pl,4fun.tv,alltube.tv,alltube.pl,infostrow.pl,fryzomania.pl,tuzdrowie.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl##.modal-open:style(overflow: auto !important;)
-fryzomania.pl##script:inject(setTimeout-defuser.js, #myWorningNewsletterPopUp)
+fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 gdansk.pl,gokf.gda.pl##.rodo, .modal-backdrop
 infoplanet.pl,craftserve.pl###rodo, .modal-backdrop
-infostrow.pl##script:inject(abort-current-inline-script.js, $, #rodo-modal)
-lovekrakow.pl##script:inject(abort-current-inline-script.js, $, #modal-rodo)
-ogloszenia.plock.pl,polski-tenis.pl##script:inject(abort-current-inline-script.js, $, rodo)
-pro-sprzet.pl##script:inject(setTimeout-defuser.js, #myWorning)
+infostrow.pl###rodo-modal
+lovekrakow.pl###modal-rodo, .modal-backdrop
+lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
+ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
+polski-tenis.pl###rodo
+pro-sprzet.pl###myWorning, .modal-backdrop
 publikator.com.pl##.layer
 publikator.com.pl##body>*:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
 roztoczanskipn.pl###rodo-modal, .modal-backdrop
-tuzdrowie.pl##script:inject(abort-current-inline-script.js, $, #popupModal)
+tuzdrowie.pl###popupModal, .modal-backdrop
 ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 ztm.poznan.pl###PopUP, .modal-backdrop
@@ -442,30 +444,18 @@ zakopane.info,tuwroclaw.com,tulodz.com##^#pd-modal
 ztm.poznan.pl##^#PopUP
 !#endif
 !#if !ext_ublock
-4fun.tv###cModal, .modal-backdrop
 4fun.tv$$#cModal
-alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 alltube.tv,alltube.pl$$#rodo-popup
-alltube.tv,alltube.pl,infostrow.pl,fryzomania.pl,e-sochaczew.pl,pultusk24.pl,ogloszenia.plock.pl,tuzdrowie.pl,polski-tenis.pl,4fun.tv,pro-sprzet.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 belsat.eu$$.popmake-overlay
-e-sochaczew.pl,pultusk24.pl###RODOCOOKIE, .modal-backdrop
 ferguson-digital.eu$$#cookie-notice
-fryzomania.pl###myWorningNewsletterPopUp, .modal-backdrop
 fryzomania.pl$$#myWorningNewsletterPopUp
 gdansk.pl,gokf.gda.pl$$.rodo
 infoplanet.pl,polski-tenis.pl,craftserve.pl$$#rodo
-infostrow.pl###rodo-modal
 infostrow.pl$$#rodo-modal
-lovekrakow.pl###modal-rodo, .modal-backdrop
-lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
 lovekrakow.pl$$#modal-rodo
-ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 ogloszenia.plock.pl$$#dialog-rodo
-polski-tenis.pl###rodo
-pro-sprzet.pl###myWorning, .modal-backdrop
 pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
-tuzdrowie.pl###popupModal, .modal-backdrop
 tuzdrowie.pl$$#popupModal
 ustawmundial.weszlo.com,ustawlige.com$$#privacy-modal
 zakopane.info,tuwroclaw.com,tulodz.com$$#pd-modal
