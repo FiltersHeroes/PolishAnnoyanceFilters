@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lhymPxB5W3+nEPdw8YCL7g
+! Checksum: +RC4cHxpuh3+viIId5yQQA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 06 Aug 2018, 19:59 UTC+02
-! Version: 201808061959
+! Last modified: Thu, 09 Aug 2018, 16:23 UTC+02
+! Version: 201808091623
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 06 sie 2018, 19:59 UTC+02
+! Aktualizacja: czw, 09 sie 2018, 16:23 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -83,6 +83,7 @@ bigstar.pl##.info:nth-of-type(2)
 bissole.pl##a[href="#newsletter"]
 bissole.pl###text-6
 bitcoin-online.pl#?#.block-title:-abp-contains(Newsletter)
+bithub.pl##.widget_bs-newsletter-mailchimp
 biznesalert.pl##.subscribe
 blip.pl###salesmanagoIframe
 blogmtb.pl##.kalais-newsletter
@@ -196,6 +197,7 @@ euro.com.pl###footer-shops > .column:nth-of-type(1)
 evertiq.pl##.register.index.news
 e-ciucholand.com,diagcar.eu,sklep.zawiszabydgoszcz.eu###newsletter_block_left
 e-insportline.pl##.lastbox
+e-kiosk.pl##.form-newsletter
 e-korepetycje.net##.offer-sidebar-banner
 e-prawnik.pl##.boxA2
 fandroid.com.pl##.manohara-mailchimp--aligned-center
@@ -613,6 +615,7 @@ sniadaniezkadra.onet.pl##.footerMenuBoxNewsletter
 snowbitch.pl###emailNewsForm
 socialpress.pl###fm_form_1
 softekspert.pl##.left-block:nth-of-type(3)
+soniadraga.pl##.nl_bot
 sopot.naszemiasto.pl###dodaj-newsletter
 sorbenty.pl##.footer_nls
 spidersonline.pl##.st_news_letter_container
@@ -691,6 +694,7 @@ vemini.pl,mamopracuj.pl##.newsletters
 verdykt.pl##.contact.item
 vidaxl.pl##.newsletter-item
 viralka.pl###mc4wp_form_widget-3
+virtualo.pl##.banner-newsletter-wrapper
 virtualo.pl##.newsletter-bottom-wrapper
 vistula.pl##.three_footer__single--newsletter
 vivaldi.com###newsletterpromo
@@ -698,10 +702,13 @@ wakacje-hiszpania.pl###newsletterteaser
 wakacje.pl###mainFootNewsletter
 waldtour.pl##.mailpoet-newsletter
 waszaturystyka.pl##.platform-content:nth-of-type(2)
+wbpg.org.pl###block-freshmail-freshmail-block, #home_newsletter
 wearmedicine.com##.newsletter, #nlThanks
 webcamera.pl###footer-newsletter-box
 webinsider.pl##.gofollow[onclick*=Newsletter]
 webinsider.pl#?#h5:-abp-contains(Newsletter)
+werandacountry.pl##div.gkmod-3.box:nth-of-type(1) > .header
+werandaweekend.pl##.right > div.title:nth-of-type(1)
 widzialni.pl##.widget_widzialni_newsletter
 wierchomla.com.pl##.footer-top > .center-wrap > .footer-left
 wiescirolnicze.pl###hp-newsletter
@@ -785,7 +792,6 @@ zyciepabianic.pl###widget-newsletter
 !
 ! Wyjątki
 dron.pl#@#.widget_wysija
-forum.komputerswiat.pl#@##ks_breaking_news
 ifirma.pl#@#.dogory
 ms.gov.pl#@##scroll-top
 poznajsienatluszczach.pl#@#.scroll-top
