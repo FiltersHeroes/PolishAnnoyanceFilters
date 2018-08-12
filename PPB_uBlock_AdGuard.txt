@@ -1,9 +1,9 @@
-! Checksum: PbJif0CIsMqf6sTXw3raRg
+! Checksum: aNoE0CcCrHlK7tyKWSPNJQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 12 Aug 2018, 14:57 UTC+02
-! Version: 201808121457
+! Last modified: Sun, 12 Aug 2018, 15:30 UTC+02
+! Version: 201808121530
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 12 sie 2018, 14:57 UTC+02
+! Aktualizacja: nie, 12 sie 2018, 15:30 UTC+02
 !
 !
 ! Newslettery
@@ -251,8 +251,8 @@ komputerswiat.pl$$#ks_breaking_news
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201808121455
-!@Last modified: Sun, 12 Aug 2018, 14:55:04 UTC+02
+!@Version: 201808121527
+!@Last modified: Sun, 12 Aug 2018, 15:27:37 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -261,7 +261,7 @@ komputerswiat.pl$$#ks_breaking_news
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201808121455 aktualizacja: nie, 12 sie 2018, 14:55:04 UTC+02 
+!@v.201808121527 aktualizacja: nie, 12 sie 2018, 15:27:37 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -413,6 +413,7 @@ infoplanet.pl,craftserve.pl###rodo, .modal-backdrop
 infostrow.pl###rodo-modal
 lovekrakow.pl###modal-rodo, .modal-backdrop
 lovekrakow.pl##.modal-open:style(overflow: auto !important; position: static !important;)
+money.pl##script:inject(nano-remove-elements-onready.js, .rodo-popup)
 ogloszenia.plock.pl###dialog-rodo, .modal-backdrop
 polski-tenis.pl###rodo
 pro-sprzet.pl###myWorning, .modal-backdrop
