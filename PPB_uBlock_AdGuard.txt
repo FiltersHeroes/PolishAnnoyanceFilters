@@ -1,9 +1,9 @@
-! Checksum: aNoE0CcCrHlK7tyKWSPNJQ
+! Checksum: 0oCsX7xi1Kb4i4KxZfmWsw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 12 Aug 2018, 15:30 UTC+02
-! Version: 201808121530
+! Last modified: Thu, 16 Aug 2018, 11:12 UTC+02
+! Version: 201808161112
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 12 sie 2018, 15:30 UTC+02
+! Aktualizacja: czw, 16 sie 2018, 11:12 UTC+02
 !
 !
 ! Newslettery
@@ -197,6 +197,15 @@ zaufanekliniki.pl###modalMain, .modal-backdrop
 zaufanekliniki.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
 zegarkiipasja.pl##body:style(overflow: auto !important;)
 zegarkiipasja.pl##.emelu-lightbox-target
+!
+!
+! Popupy - specjalne instrukcje
+!#if !cap_html_filtering
+sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
+!#endif
+!#if cap_html_filtering
+sportowefakty.wp.pl##^#exitpopup
+!#endif
 !
 !
 ! Powiadomienia Push
