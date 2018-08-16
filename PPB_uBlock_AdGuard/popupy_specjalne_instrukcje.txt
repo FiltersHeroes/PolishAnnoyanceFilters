@@ -1,0 +1,6 @@
+!#if !cap_html_filtering
+sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
+!#endif
+!#if cap_html_filtering
+sportowefakty.wp.pl##^#exitpopup
+!#endif
