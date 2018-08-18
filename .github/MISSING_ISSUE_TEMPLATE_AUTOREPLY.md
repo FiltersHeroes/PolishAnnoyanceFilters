@@ -1,1 +1,1 @@
-Witaj @{{ sender.login }}, dzięki za zamieszczenie zgłoszenia. Niestety nie podałeś wymaganych informacji z szablonu zgłoszeniowego. Utwórz nowe zgłoszenie ze wszystkimi wymaganymi informacjami z szablonu, a to ułatwi nam pomoc w rozwiązaniu twojego problemu.
+Witaj @{{ sender.login }}, dzięki za zamieszczenie zgłoszenia. Niestety nie podałeś wymaganych informacji z szablonu zgłoszeniowego. Utwórz nowe zgłoszenie ze wszystkimi wymaganymi informacjami z szablonu (szczególnie ważny jest **###Typ elementu**), a to ułatwi nam pomoc w rozwiązaniu twojego problemu.
