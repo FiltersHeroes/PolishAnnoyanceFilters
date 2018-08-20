@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: bLxIuGAX1P4ibN8Gr5XR8w
+! Checksum: c0xkpvCcdvIwtTyoZ5UkDA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 19 Aug 2018, 11:09 UTC+02
-! Version: 201808191109
+! Last modified: Mon, 20 Aug 2018, 21:11 UTC+02
+! Version: 201808202111
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 19 sie 2018, 11:09 UTC+02
+! Aktualizacja: pon, 20 sie 2018, 21:11 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -559,6 +559,7 @@ pulshr.pl##h2 > a[href="http://www.pulshr.pl/newsletter.html"]
 pulshr.pl##.box-1 > p:nth-of-type(1)
 pulshr.pl##.form-1
 pulsmedycyny.pl###id-newsletter-box
+pzl24.pl##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 pzlsedziszow.pl###newsletter_pzl-2
 qdecor.pl##.box:nth-of-type(4)
 qr-online.pl##div.col-md-4:nth-of-type(1) > form, div.col-md-4:nth-of-type(1) > p, h3.footer-widget-title:nth-of-type(2)
