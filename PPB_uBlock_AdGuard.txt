@@ -1,9 +1,9 @@
-! Checksum: lfdYaraKwyZ5PVQ1SzXSVg
+! Checksum: Pe1ifnQZszpy/1tOvAzyUg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 21 Aug 2018, 12:24 UTC+02
-! Version: 201808211224
+! Last modified: Wed, 22 Aug 2018, 20:48 UTC+02
+! Version: 201808222048
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 21 sie 2018, 12:24 UTC+02
+! Aktualizacja: śro, 22 sie 2018, 20:48 UTC+02
 !
 !
 ! Newslettery
@@ -260,8 +260,8 @@ komputerswiat.pl$$#ks_breaking_news
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201808172120
-!@Last modified: Fri, 17 Aug 2018, 21:20:55 UTC+02
+!@Version: 201808222041
+!@Last modified: Wed, 22 Aug 2018, 20:41:57 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -270,7 +270,7 @@ komputerswiat.pl$$#ks_breaking_news
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201808172120 aktualizacja: pią, 17 sie 2018, 21:20:55 UTC+02 
+!@v.201808222041 aktualizacja: śro, 22 sie 2018, 20:41:57 UTC+02 
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -430,7 +430,7 @@ publikator.com.pl##.layer
 publikator.com.pl##body>*:style(filter: none !important;)
 publikator.com.pl##html > body:style(overflow: auto !important;)
 roztoczanskipn.pl###rodo-modal, .modal-backdrop
-rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl##.modal-open:style(padding-right: 0 !important;)
+rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,pulawy.eu##.modal-open:style(padding-right: 0 !important;)
 styl.fm###rodo-info, .modal-backdrop
 tuzdrowie.pl###popupModal, .modal-backdrop
 tuzory.pl,tujastrzebie.pl###pd-modal, .modal-backdrop
@@ -453,6 +453,7 @@ infostrow.pl,roztoczanskipn.pl##^#rodo-modal
 lovekrakow.pl,djoles.pl,muzyczneradio.com.pl##^#modal-rodo
 ogloszenia.plock.pl##^#dialog-rodo
 publikator.com.pl##^body script:has-text(polityka|zaufani)
+pulawy.eu##^#modalRodo
 pro-sprzet.pl##^#myWorning
 styl.fm##^.rodo-info
 tuzdrowie.pl##^#popupModal
@@ -477,6 +478,7 @@ lovekrakow.pl,djoles.pl,muzyczneradio.com.pl$$#modal-rodo
 ogloszenia.plock.pl$$#dialog-rodo
 pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
+pulawy.eu$$#modalRodo
 styl.fm$$.rodo-info
 tuzdrowie.pl$$#popupModal
 ustawmundial.weszlo.com,ustawlige.com$$#privacy-modal
