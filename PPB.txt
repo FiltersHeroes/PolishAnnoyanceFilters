@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 6rdwNjN3YForLVHvn688CA
+! Checksum: 4icj7KYfpLz1ppLWDRmHhQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Sun, 26 Aug 2018, 10:12 UTC+02
-! Version: 201808261012
+! Last modified: Sun, 26 Aug 2018, 17:18 UTC+02
+! Version: 201808261718
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 26 sie 2018, 10:12 UTC+02
+! Aktualizacja: nie, 26 sie 2018, 17:18 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -811,7 +811,7 @@ zyciepabianic.pl###widget-newsletter
 .facebooklikepopup.
 3i-store.com###exit--popup--container
 24hurt.pl##.wt-popup, #overlay
-80dni.pl##.spu-bg, .spu-box
+80dni.pl,ap-goal.pl,faktykonopne.pl,poloniawroclaw.pl,programistanaswoim.pl,studiosante.pl##.spu-bg, .spu-box
 1000dni.pl###news-popup
 accent-bikes.com###lang_popup
 addons.opera.com###overlay
@@ -819,7 +819,6 @@ adeste.eu##.cp-direct-download-container
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
 airport.com.pl###fancybox-overlay, #fancybox-wrap
 akademos.pl###myModal, .reveal-modal-bg
-ap-goal.pl##.spu-box, .spu-bg
 arimr.gov.pl###kiwi_popup_layer
 arslege.pl###smoothbox_container
 auchan.pl###popupbox, #exposeMask
@@ -877,7 +876,6 @@ eswinoujscie.pl,arturjablonski.com##.ulp-layer, .ulp-overlay
 e-insportline.pl###vivpopup-collapsed
 fabrykawafelkow.pl###someone-purchased
 fakro.pl#?#.fancybox-overlay:-abp-has([id^="fancybox-frame"])
-faktykonopne.pl##.spu-bg, .spu-box
 fashionata.pl##.nlpwContainer, .pwShade
 forgeofempires.com###offer-diamonds
 forumpediatryczne.pl##.ui-widget-overlay, [aria-describedby*="ajaxDialoghttpwwwforumpediatryczneplzobacztakze"]
@@ -1021,14 +1019,12 @@ poczta.int.pl##.maximized-wrapper
 podaj.to###popupbottom
 podrywaj.org##.modal_wrapper
 policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
-poloniawroclaw.pl##.spu-bg, .spu-box
 pol-nor.com###boxpopup, #overlay, #popforfirma
 poradniktransportowy.pl###wbounce-modal
 portel.pl###closeTL
 poznaj-swiat.pl###popup, #overlay
 pracatobie.pl###Ankieta1PopupContent, #Ankieta1PopupBackground
 prettyone.pl##.modal-backdrop, .pwebbox-modal
-programistanaswoim.pl##.spu-box, .spu-bg
 proline.pl##div[style*="visibility: visible; display: block;"]
 pruszynski.com.pl###p_layer
 przekroj.pl##.is-shown.js-modal.modal__content--offset.modal__content
