@@ -1,6 +1,17 @@
 !#if !cap_html_filtering
+ogrodosfera.pl###NewsletterExit, .modal-backdrop
+ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
 sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
+zoo.bydgoszcz.com###NewsShow, .modal-backdrop
+zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
 !#endif
 !#if cap_html_filtering
+ogrodosfera.pl##^#NewsletterExit
 sportowefakty.wp.pl##^#exitpopup
+zoo.bydgoszcz.com##^#NewsShow
+!#endif
+!#if !ext_ublock
+ogrodosfera.pl$$#NewsletterExit
+sportowefakty.wp.pl$$#exitpopup
+zoo.bydgoszcz.com$$#NewsShow
 !#endif
