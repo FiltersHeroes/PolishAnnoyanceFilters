@@ -1,9 +1,9 @@
-! Checksum: 8NUBCpLa5D1ht4RHWW/qDg
+! Checksum: s98TC8jm5PHxjlLx4jwgFQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Mon, 27 Aug 2018, 14:27 UTC+02
-! Version: 201808271427
+! Last modified: Tue, 28 Aug 2018, 15:11 UTC+02
+! Version: 201808281511
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 27 sie 2018, 14:27 UTC+02
+! Aktualizacja: wto, 28 sie 2018, 15:11 UTC+02
 !
 !
 ! Newslettery
@@ -169,6 +169,8 @@ stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: au
 stokrotka.pl##.fancybox-overlay-fixed
 teletorium.pl##body.pop_open:style(overflow: visible!important;)
 teletorium.pl###pop
+termyszaflary.com##.fancybox-lock:style(overflow: auto !important; margin-right: 0px !important;)
+termyszaflary.com##.fancybox-overlay
 ttv.pl###specialPopupModal
 ttv.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
 turek.net.pl##html:style(overflow: visible !important; margin-right: 0px !important;)
@@ -201,10 +203,21 @@ zegarkiipasja.pl##.emelu-lightbox-target
 !
 ! Popupy - specjalne instrukcje
 !#if !cap_html_filtering
+ogrodosfera.pl###NewsletterExit, .modal-backdrop
+ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
 sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
+zoo.bydgoszcz.com###NewsShow, .modal-backdrop
+zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
 !#endif
 !#if cap_html_filtering
+ogrodosfera.pl##^#NewsletterExit
 sportowefakty.wp.pl##^#exitpopup
+zoo.bydgoszcz.com##^#NewsShow
+!#endif
+!#if !ext_ublock
+ogrodosfera.pl$$#NewsletterExit
+sportowefakty.wp.pl$$#exitpopup
+zoo.bydgoszcz.com$$#NewsShow
 !#endif
 !
 !
@@ -255,8 +268,8 @@ komputerswiat.pl$$#ks_breaking_news
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201808271426
-!@Last modified: Mon, 27 Aug 2018, 14:26:43 UTC+02
+!@Version: 201808281433
+!@Last modified: Tue, 28 Aug 2018, 14:33:05 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -265,13 +278,14 @@ komputerswiat.pl$$#ks_breaking_news
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201808271426 aktualizacja: pon, 27 sie 2018, 14:26:43 UTC+02
+!@v.201808281433 aktualizacja: wto, 28 sie 2018, 14:33:05 UTC+02
 !
 !
 !@Komunikaty ciasteczkowe i dziury
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important;)
 abcalkoholu.pl##.cookielaw:style(padding-top: 0 !important;)
 appsource.microsoft.com##.cookieBanner:style(visibility: hidden !important;)
+aquapark.wroc.pl###header:style(top: 0 !important;)
 archiwum.rp.pl,info.rp.pl##body:style(margin-top: 0 !important;)
 bbcpolska.com###home:style(padding-top: 0 !important;)
 beko.pl##.cookies-margin:style(top: 0 !important;)
