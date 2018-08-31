@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2bWXHgGjlliPfqqq9KNmmw
+! Checksum: NSE11yGS/QukvryudmY85w
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Wed, 29 Aug 2018, 23:32 UTC+02
-! Version: 201808292332
+! Last modified: Fri, 31 Aug 2018, 19:15 UTC+02
+! Version: 201808311915
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 29 sie 2018, 23:32 UTC+02
+! Aktualizacja: pią, 31 sie 2018, 19:15 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -34,7 +34,7 @@
 99rent.pl###block-block-7
 365dowolnosci.pl###getall_widget-3
 1000dni.pl##.newsletter-mod
-51015kids.eu,hegos.eu,legalmarketday.com##.newsletter
+51015kids.eu,hegos.eu,legalmarketday.com,airkiosk.lot.com,byinsomnia.com##.newsletter
 aboutyou.pl##[class*="styles__footerContainer"] > div:nth-of-type(2)
 active.fibrain.pl##.newsletterWithFacebook
 adequate.pl##.hidden-xs.col-sm-4.col-md-4.col-lg-4
@@ -341,6 +341,7 @@ linguajob.pl###zamow-link
 lokalnatelewizja.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 lomza.pl###s-blok3 > form, #s-blok3 > h4:nth-of-type(2)
 longevitas.pl##.left.sign-up-home
+lot.com##.is-newsletter
 luminosfera.pl##.container > .row > .col-sm-4
 luszczyce.pl###custom_html-4
 luxmed-diagnostyka.pl##.newesletter-box
@@ -840,6 +841,7 @@ budujemydom.pl###byebye
 butosklep.pl,pakolorente.com,cafeborowka.pl###toplayer_newsletter, #topLayerBackDrop
 butyibuty.pl###news_popup
 butylukow.pl###tws_i_2
+byinsomnia.com###esns_background_layer
 cafago.com##.freePointWrap
 caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
 caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
@@ -1148,6 +1150,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||downloads.mailchimp.com/js/signup-forms/popup/embed.js
 ||ebrokerpartner.pl/js/frontend/modules/popup.js
 ||forum-oddluzanie.pl/wp-content/plugins/popupally/resource/frontend/popup.min.js
+||galeriabronowice.pl/templates/gb/js/fancybox/jquery.fancybox.js
 ||gazetagazeta.com/wp-content/plugins/popupally/resource/frontend/popup.min.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/js/popups.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
@@ -1314,6 +1317,7 @@ blog.bloomboard.co##.go-to-top-wrap
 bludshop.com,ehurt.eu,pakolorente.com###backTop
 bonprix.pl###slide-up
 budujzdrewna.pl##.scroll-btn
+byinsomnia.com###top-link
 centrumdruku3d.pl##.cd-top
 citroen.pl,allegro.pl,zhp.pl,infocrypto.pl,ipon.pl###scrolltop
 ckz.pl##.wpv-scroll-to-top
@@ -1477,9 +1481,11 @@ pastebin.com##.cd-top
 pebx.pl###uix_jumpToFixed
 pecetowicz.pl##.scroll-top-inner
 pense.pl##.arrow
+peperossolomza.pl##.w-toplink
 picodi.com###scroll-top
 pielegniarki.info.pl##.toTheTop
 piib.org.pl##a[href="#up"]
+pizzeriapaccino.pl###goto-top
 pkobp.pl###scrollie
 player.pl##.footer-panel-toggle
 playstation.com,www.wizytowka.be,solojuve.com,szkolymedyczne.eu###back-to-top
@@ -1743,6 +1749,7 @@ lento.pl##.btn-suggest
 lexus-krakow.com.pl###dzingaCallbackWidget
 ligamistrzow.com###sugester_widget
 lincoln.edu.pl##.s_kontakt
+linuxpl.com###phplive_automatic_chat_invite_wrapper
 lodzkie.pl##.jj_sl_custom1
 lubimyczytac.pl##.report-a-bug-container
 mango.pl###chat-toggle
@@ -2168,6 +2175,7 @@ partneragdrtv.com.pl###js-sis_menu
 pasazer.com##.fixed-search-tabs
 pcformat.pl,poboczem.pl,pomponik.pl##.topbar > .container
 pieknojestwtobie.com##.more-stories
+pizzapelati.pl###musli
 pkobp.pl###smartbanner-desktop
 planeta.fm,skionline.pl,niezlasztuka.net,greasyfork.org##.grecaptcha-badge
 plastcom.pl###test
@@ -2341,8 +2349,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 201808292332
-!@Last modified: Wed, 29 Aug 2018, 23:32:15 UTC+02
+!@Version: 201808311845
+!@Last modified: Fri, 31 Aug 2018, 18:45:29 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2352,7 +2360,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201808292332 aktualizacja: śro, 29 sie 2018, 23:32:15 UTC+02
+!@v.201808311845 aktualizacja: pią, 31 sie 2018, 18:45:29 UTC+02
 !
 !
 !@Specyficzne reguły ukrywające
@@ -2414,7 +2422,6 @@ avast.com##.cookie-bar
 avioner.pl##.alert
 azure.microsoft.com###cookie-prompt
 a-o.ninja,e-niemcy.de,independentdigital.com,ferguson-digital.eu,roztocze.net,etychy.org,ekspedyt.org,genesis-zone.com,kropka.audio###cookie-notice
-baje.pl,traftu.pl##.unconfirmed.opt-in-splash
 bankmillennium.pl##WC-COOKIES, .bmp-cookies
 bankmillennium.pl,zus.pl#@#.cookies-info
 bardotti.pl##.wpmui-popup
@@ -2457,6 +2464,7 @@ buliba.pl###tooltip-hook
 business.mytaxi.com#?#body > div > span > div:-abp-contains(🍪)
 buty-smile.pl###closePopUp
 buziak.pl###cffc
+byinsomnia.com###v-cookielaw
 bytzbiorowy.pl###easyNotification
 bywajtu.pl###co15ie87a
 bzwbk.pl##.cookie-btn
@@ -2864,7 +2872,7 @@ logistics.dhl##.c-cookie-disclaimer
 loktech.com.pl###comm_info
 lotnictwo.net.pl###navbar_notice_123
 lotplay.pl##.ui-corner-all
-lot.com##div#cc
+lot.com###cookies
 loveair.pl###ci-rodo
 lovekrakow.pl###new-policy
 lovela.pl##body > div:not([id]):not([class])
@@ -3321,6 +3329,7 @@ torun.pl###comm_info
 totaaltv.nl##div#sanoma-consent-bar
 totalmoney.pl##div#right_widget
 tp-link.com.pl###noticeBox
+traftu.pl##.unconfirmed.opt-in-splash
 translate.google.pl#?#.gb_g:-abp-contains(polityce)
 travelist.pl###mwFormBlackout, #mwFormContainer
 trello.com##.gdpr-cookie-consent-banner
@@ -3525,6 +3534,7 @@ cookie-law-popup.js$script
 ||radiopoznan.fm//homepage/privacyPolicy
 ||revolweb.pl/api/flash_msg.js$script
 ||rolpetrol.com.pl/cookies.js$script
+||satelita.phorum.pl/cookiebanner.js
 ||skryptcookies.pl^$third-party
 ||tinder.com/static/build/chunks/CookiePolicyBanner-*.js
 ||www.e-drewno.pl/stock/javascript/browser.js
@@ -3541,6 +3551,7 @@ cookie-law-popup.js$script
 adm-media.pl,kociadolina.pl##.policy
 agencjagazeta.pl###rodoLayer
 agropolska.pl##.ui-widget-overlay, .ui-widget-content
+airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
 airport.gdansk.pl,r.pl###rodoAlert
 alerabat.com###popup-rodo
 alga-shop.pl##.top.infobar_wrap
@@ -3725,6 +3736,7 @@ wzp.pl###myrodoinfo
 yes.pl##.reveal-modal-bg, #info-modal
 zara.com###popup-announcements
 zepsute.pl###overlay_uv, #uv_box_data
+zomato.com##.gdbr_banner_wrapper
 zywiec.com.pl,heineken.com.pl###infobx
 !fora.pl##.pp-t-a-c
 !helion.pl,ebookpoint.pl,onepress.pl,sensus.pl,septem.pl,editio.pl,dlabystrzakow.pl,videopoint.pl##.rodo-accept
