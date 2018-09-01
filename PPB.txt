@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Z1rDcXZGfd5giSKXUF0Cnw
+! Checksum: Z4WlugxGJDPfvkZJtkooNg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Sat, 01 Sep 2018, 18:06 UTC+02
-! Version: 201809011806
+! Last modified: Sat, 01 Sep 2018, 21:31 UTC+02
+! Version: 201809012131
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 01 wrz 2018, 18:06 UTC+02
+! Aktualizacja: sob, 01 wrz 2018, 21:31 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1723,6 +1723,7 @@ gandalf.com.pl##.fb_dialog_advanced
 gdzietymrazem.pl##.td-icon-mail-1
 germany.travel##.btn-feedback
 godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
+google.pl,google.com##.gws-flights__feedback
 goral.info.pl##.btn.contact-button
 gothaer.pl##.callClickBar
 grafcraft.pl###wpcs_tab_745
@@ -2352,8 +2353,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 201809011726
-!@Last modified: Sat, 01 Sep 2018, 17:26:15 UTC+02
+!@Version: 201809012130
+!@Last modified: Sat, 01 Sep 2018, 21:30:38 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2363,7 +2364,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201809011726 aktualizacja: sob, 01 wrz 2018, 17:26:15 UTC+02
+!@v.201809012130 aktualizacja: sob, 01 wrz 2018, 21:30:38 UTC+02
 !
 !
 !@Specyficzne reguły ukrywające
@@ -2674,12 +2675,6 @@ goldenline.pl##section[class*="cookiesInfo"]
 goldenline.pl###topReminder
 goodie.pl##.bp_br
 google.com,google.pl##.widget-consent-dialog
-google.pl###cnsh
-google.pl###dialog_uid_0
-google.pl##[class$="_overlay"]
-google.pl,google.com##div#epbar
-google.pl,google.com###gb > .gb_g.gb_ac.gb_bc
-google.pl,google.com##.vk_c._Udi
 gosc.pl###l-overlay
 gostynin.info##.cookies-message-wrapper
 gov.pl##.informationBar, .JSWrapper
@@ -3087,7 +3082,7 @@ pks.zary.pl##div#infobar
 pk.benefitsystems.pl##.ui-itbs-effect-border.bg-color-gray-light.center.oneCol.aPad
 player.pl##.cBox
 playtube.pl##.alert-success
-play.google.com#?#.gb_g:-abp-contains(cookie)
+play.google.com,translate.google.pl,books.google.pl###gb > div[style*="background-color"]
 plotowanie.com##div#howdydo-wrapper
 pl.chili.tv###_evh-ric
 pl.depositphotos.com##._notification
@@ -3113,6 +3108,7 @@ poligraf.com.pl###modal_wrap
 polomarket.pl##body > div:not([id]):not([class])
 polona.pl##cbn-cookies
 polskawoda.pl,dourody.pl##[style="width: 100%;float: left;background: #fff;padding: 15px 0;position: fixed;bottom: 0px;left: 0px;text-align: center;color: #000;border-top: 1px #000 solid;z-index: 100;"]
+polska.googleblog.com###cookieChoiceInfo
 polskiprawnik.pl##.reveal-modal-bg, #popup3
 popkorn.pl##body > div:not([id]):not([class])
 popoznaniu.pl##div#divcook
@@ -3232,6 +3228,7 @@ siemens.pl##.PopupDiv
 siemianowice.pl##body > div:not([id]):not([class])
 sieradz.com.pl,zdunskawola24.pl###polityka-2
 simba.com.pl###cContainer
+sin-say.com###display_cookie_message
 sitn.pl#?#body > div:-abp-has(#cookie-close)
 skapiec.pl##div#uclaInfo
 sklepdlaplastykow.pl###popup
@@ -3333,7 +3330,6 @@ totaaltv.nl##div#sanoma-consent-bar
 totalmoney.pl##div#right_widget
 tp-link.com.pl###noticeBox
 traftu.pl##.unconfirmed.opt-in-splash
-translate.google.pl#?#.gb_g:-abp-contains(polityce)
 travelist.pl###mwFormBlackout, #mwFormContainer
 trello.com##.gdpr-cookie-consent-banner
 trovit.pl###welcomebar-wrapper
@@ -3436,7 +3432,7 @@ www.cmcmarkets.com###cmc-tracking-consent-form-step1
 www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
 www.ea.com##ea-truste-consent-bar
-www.google.com,www.google.pl#?#div>div>div>div>div>div>div>div>div>div>div:-abp-contains(Przypomnienie o polityce prywatności Google)
+www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hays.pl###header-msg
 www.hertz.com.pl##[class^="lb-"]
