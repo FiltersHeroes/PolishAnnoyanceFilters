@@ -1,9 +1,9 @@
-! Checksum: GbEpVvvQLoA2M5EVHmsrog
+! Checksum: vfUKpvu2H6nRbSNwBrqUlw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 01 Sep 2018, 17:09 UTC+02
-! Version: 201809011709
+! Last modified: Sun, 02 Sep 2018, 13:22 UTC+02
+! Version: 201809021322
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 01 wrz 2018, 17:09 UTC+02
+! Aktualizacja: nie, 02 wrz 2018, 13:22 UTC+02
 !
 !
 ! Newslettery
@@ -236,7 +236,7 @@ mpcforum.pl,winclub.pl##script:inject(set-constant.js, ips.utils.notification.su
 ! Scrollujące filmiki
 forsal.pl##script:inject(abort-on-property-read.js, parseFloat)
 mamotoja.pl,polki.pl,viva.pl,party.pl,wizaz.pl,gotujmy.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
-sport.pl,wiadomosci.gazeta.pl,plotek.pl,kultura.gazeta.pl,next.gazeta.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
+sport.pl,wiadomosci.gazeta.pl,plotek.pl,kultura.gazeta.pl,next.gazeta.pl,buzz.gazeta.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
 !
 !
 ! Tła zawierające autoreklamy
@@ -275,8 +275,8 @@ komputerswiat.pl$$#ks_breaking_news
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201809011708
-!@Last modified: Sat, 01 Sep 2018, 17:08:36 UTC+02
+!@Version: 201809021155
+!@Last modified: Sun, 02 Sep 2018, 11:55:44 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -285,7 +285,7 @@ komputerswiat.pl$$#ks_breaking_news
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201809011708 aktualizacja: sob, 01 wrz 2018, 17:08:36 UTC+02
+!@v.201809021155 aktualizacja: nie, 02 wrz 2018, 11:55:44 UTC+02
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -412,13 +412,13 @@ tabletowo.pl###disqus_thread:style(display: initial !important;)
 tabletowo.pl##.ginger_banner-wrapper
 tuzdrowie.pl###popupModal, .modal-backdrop
 wagrowczanie.pl##.showRodo
+wp.pl,komorkomania.pl,gadzetomania.pl,fotoblogia.pl,open.fm,money.pl,abczdrowie.pl,parenting.pl,pudelek.pl,domodi.pl,autokult.pl##script:inject(set-constant.js, wp_no_consent_screen, true)
 wsensie.pl,wsensie.tv###policy
 wsensie.pl,wsensie.tv##.policy-open section:style(filter: none !important;)
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 zdmikp.bydgoszcz.pl###customModal, .modal-backdrop
 zeropln.antyweb.pl,mazury.travel,wagrowczanie.pl,praca.antyweb.pl,kaliszak.pl##body:style(overflow: auto !important;)
 zeropln.antyweb.pl,praca.antyweb.pl##.justify-end.flex-col.flex.z-50.fixed.pin
-!wp.pl##script:inject(abort-on-property-write.js, window.WP.cookie)
 !
 !
 !@Popupy dot. polityki prywatności/RODO - specjalne instrukcje
@@ -512,8 +512,8 @@ zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw
 ztm.poznan.pl$$#PopUP
 !#endif
 !#if cap_user_stylesheet
-open.fm,dobreprogramy.pl,wp.pl,money.pl,abczdrowie.pl,parenting.pl,komorkomania.pl,gadzetomania.pl,fotoblogia.pl,pudelek.pl,domodi.pl,o2.pl,autokult.pl##body > *:style(filter: none !important;)
-open.fm,dobreprogramy.pl,wp.pl,money.pl,abczdrowie.pl,parenting.pl,komorkomania.pl,gadzetomania.pl,fotoblogia.pl,pudelek.pl,domodi.pl,o2.pl,autokult.pl##html > body > div[class]:last-of-type:has-text("RODO")
-open.fm,dobreprogramy.pl,wp.pl,money.pl,abczdrowie.pl,parenting.pl,komorkomania.pl,gadzetomania.pl,fotoblogia.pl,pudelek.pl,domodi.pl,o2.pl,autokult.pl##html:style(overflow-y: visible !important; height: auto !important;)
+o2.pl##body > *:style(filter: none !important;)
+o2.pl##html > body > div[class]:last-of-type:has-text("RODO")
+o2.pl##html:style(overflow-y: visible !important; height: auto !important;)
 !#endif
 !@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW RODO-CIASTECZKOWYCH
