@@ -1,9 +1,9 @@
-! Checksum: UxW3aMekwN5cuBTK1QL8iA
+! Checksum: uUuAK7IHtc7nrKqQHUrMfg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Mon, 03 Sep 2018, 13:29 UTC+02
-! Version: 201809031329
+! Last modified: Tue, 04 Sep 2018, 15:02 UTC+02
+! Version: 201809041502
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 03 wrz 2018, 13:29 UTC+02
+! Aktualizacja: wto, 04 wrz 2018, 15:02 UTC+02
 !
 !
 ! Newslettery
@@ -105,8 +105,8 @@ motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##script:inject(abort-on-property-read.js, window.onbeforeunload)
-odczasudoczasu.pl##html.pum-open:style(overflow: auto !important;)
-odczasudoczasu.pl##.popmake-overlay
+odczasudoczasu.pl,masher.pl##html.pum-open:style(overflow: auto !important;)
+odczasudoczasu.pl,masher.pl##.popmake-overlay
 oleole.pl##html:style(overflow: auto!important;)
 oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 online.citibank.pl###AdventPopup, .modal-backdrop
