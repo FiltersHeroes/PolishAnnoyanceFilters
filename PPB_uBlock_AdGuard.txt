@@ -1,9 +1,9 @@
-! Checksum: RBFc3CEzN8RUQbPMt6J8EA
+! Checksum: sr94cT/2Cyw6ibem+k3oxQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 06 Sep 2018, 18:48 UTC+02
-! Version: 201809061848
+! Last modified: Sat, 08 Sep 2018, 13:25 UTC+02
+! Version: 201809081325
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 06 wrz 2018, 18:48 UTC+02
+! Aktualizacja: sob, 08 wrz 2018, 13:25 UTC+02
 !
 !
 ! Newslettery
@@ -276,8 +276,8 @@ komputerswiat.pl$$#ks_breaking_news
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 201809061847
-!@Last modified: Thu, 06 Sep 2018, 18:47:47 UTC+02
+!@Version: 201809081324
+!@Last modified: Sat, 08 Sep 2018, 13:24:58 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -286,7 +286,7 @@ komputerswiat.pl$$#ks_breaking_news
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201809061847 aktualizacja: czw, 06 wrz 2018, 18:47:47 UTC+02
+!@v.201809081324 aktualizacja: sob, 08 wrz 2018, 13:24:58 UTC+02
 !
 !
 !@Komunikaty ciasteczkowe i dziury
@@ -426,7 +426,7 @@ alltube.tv,alltube.pl###rodo-popup, .modal-backdrop
 belsat.eu##.popmake-overlay
 belsat.eu##.pum-open:style(overflow: auto !important;)
 born2be.pl,renee.pl##.rules-modal, .modal-backdrop
-born2be.pl,renee.pl,roztoczanskipn.pl,zakopane.info,tuwroclaw.com,tulodz.com,infoplanet.pl,gokf.gda.pl,gdansk.pl,craftserve.pl,ustawmundial.weszlo.com,ustawlige.com,ztm.poznan.pl,4fun.tv,alltube.tv,alltube.pl,infostrow.pl,fryzomania.pl,tuzdrowie.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,muzyczneradio.com.pl,tuzory.pl,tujastrzebie.pl,djoles.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+born2be.pl,renee.pl,roztoczanskipn.pl,zakopane.info,tuwroclaw.com,tulodz.com,infoplanet.pl,gokf.gda.pl,gdansk.pl,craftserve.pl,ustawmundial.weszlo.com,ustawlige.com,ztm.poznan.pl,4fun.tv,alltube.tv,alltube.pl,infostrow.pl,fryzomania.pl,tuzdrowie.pl,ogloszenia.plock.pl,polski-tenis.pl,pro-sprzet.pl,muzyczneradio.com.pl,tuzory.pl,tujastrzebie.pl,djoles.pl,tvasta.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 budownictwo.pl###rodoLayer, .modal-backdrop
 budownictwo.pl,zdmikp.bydgoszcz.pl,styl.fm##.modal-open:style(overflow: auto !important;)
 eobuwie.com.pl##.popup
@@ -454,6 +454,7 @@ rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,pulawy.eu##.modal-open:style(paddin
 styl.fm###rodo-info, .modal-backdrop
 tuzdrowie.pl###popupModal, .modal-backdrop
 tuzory.pl,tujastrzebie.pl###pd-modal, .modal-backdrop
+tvasta.pl##.modal-backdrop
 ustawmundial.weszlo.com,ustawlige.com###privacy-modal, .modal-backdrop
 zakopane.info,tuwroclaw.com,tulodz.com###pd-modal, .modal-backdrop
 ztm.poznan.pl###PopUP, .modal-backdrop
@@ -479,6 +480,7 @@ pulawy.eu##^#modalRodo
 pro-sprzet.pl##^#myWorning
 styl.fm##^.rodo-info
 tuzdrowie.pl##^#popupModal
+tvasta.pl##^#infoModal
 ustawmundial.weszlo.com,ustawlige.com##^#privacy-modal
 zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl##^#pd-modal
 ztm.poznan.pl##^#PopUP
@@ -505,6 +507,7 @@ publikator.com.pl$$script[tag-content="polityka|zaufani"]
 pulawy.eu$$#modalRodo
 styl.fm$$.rodo-info
 tuzdrowie.pl$$#popupModal
+tvasta.pl$$#infoModal
 ustawmundial.weszlo.com,ustawlige.com$$#privacy-modal
 zakopane.info,tuwroclaw.com,tulodz.com,rybnik.com.pl,slaskibiznes.pl,tuwodzislaw.pl,tuzory.pl,tujastrzebie.pl$$#pd-modal
 ztm.poznan.pl$$#PopUP
