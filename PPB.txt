@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: N0PgEPgdn16lKC8Y10IRsQ
+! Checksum: ofIkeZ8uLhbTQTWRRT2VmA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Wed, 12 Sep 2018, 14:27 UTC+02
-! Version: 201809121427
+! Last modified: Wed, 12 Sep 2018, 20:24 UTC+02
+! Version: 201809122024
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 12 wrz 2018, 14:27 UTC+02
+! Aktualizacja: śro, 12 wrz 2018, 20:24 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1214,6 +1214,7 @@ zus.pox.pl###fancybox-overlay, #fancybox-wrap
 ||wszystkookotach.pl/wp-content/plugins/popslide/assets/js/front.js
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
 ||www.brytol.com/wp-content/plugins/auto-fb-popup/assets/remodal.min.js
+||www.claritine.pl/static/js/image_gallery/jquery.colorbox.js
 ||www.fakro.pl/css/jquery.fancybox.css
 ||www.kuchenny.com.pl/popup/js/jquery.simplemodal.js
 ||www.makita.sklep.pl/szablony/standardowy.rwd/exit-popup/scripts/main.js
@@ -2380,8 +2381,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 201809121427
-!@Last modified: Wed, 12 Sep 2018, 14:27:13 UTC+02
+!@Version: 201809122024
+!@Last modified: Wed, 12 Sep 2018, 20:24:01 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2391,7 +2392,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201809121427 aktualizacja: śro, 12 wrz 2018, 14:27:13 UTC+02
+!@v.201809122024 aktualizacja: śro, 12 wrz 2018, 20:24:01 UTC+02
 !
 !
 !@Specyficzne reguły ukrywające
@@ -2519,6 +2520,7 @@ cke.edu.pl##div[style="top:0;left:0;right:0;width:100%;margin:0px auto;backgroun
 ckiw-dobieszkow.ohp.pl###eDcPopupBox
 ckmir.com.pl#?#p:-abp-contains(cookie)
 clarias.pl###InfoCookie
+claritine.pl##.cc-grower
 codziennikfeministyczny.pl###bazinga-muffin-container
 coinroom.com##.cookie-warning
 cookielaw.org##div.optanon-alert-box-wrapper
