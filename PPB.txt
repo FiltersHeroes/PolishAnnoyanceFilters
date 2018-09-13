@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: NYQrkj4JOUb7JSlGhLfYLg
+! Checksum: n3/i3FbPeAF5mV/7vvmXdw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Wed, 12 Sep 2018, 22:42 UTC+02
-! Version: 201809122242
+! Last modified: Thu, 13 Sep 2018, 15:57 UTC+02
+! Version: 201809131557
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 12 wrz 2018, 22:42 UTC+02
+! Aktualizacja: czw, 13 wrz 2018, 15:57 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1404,6 +1404,7 @@ gralandia.tv##[src="http://www.gralandia.tv/images/arrow.png"]
 gra-com.pl,hotpay.pl,praca.pl,winclub.pl,empik.com##.scroll-to-top
 groupon.pl###ls-back-to-top
 gsbk.pl##.scroll-link
+habys.pl##.return-top
 herbapol.com.pl##.to_top
 herbapol.krakow.pl###but_st_gora
 heronews.pl,racjonalista.tv,tygodnik.szczytno.pl,strefapsx.pl##.gotop
@@ -2387,8 +2388,8 @@ spolka.cda.pl#@#.scrolltop
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 201809122229
-!@Last modified: Wed, 12 Sep 2018, 22:29:24 UTC+02
+!@Version: 201809131453
+!@Last modified: Thu, 13 Sep 2018, 14:53:06 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2398,7 +2399,7 @@ spolka.cda.pl#@#.scrolltop
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.201809122229 aktualizacja: śro, 12 wrz 2018, 22:29:24 UTC+02
+!@v.201809131453 aktualizacja: czw, 13 wrz 2018, 14:53:06 UTC+02
 !
 !
 !@Specyficzne reguły ukrywające
@@ -3324,6 +3325,7 @@ wiem-to.pl###notice_visitor
 wiif.nowybip.pl###jGrowl
 wikar.com.pl##.popupContent
 wirtualis.pl###info_container, #info_content
+wirtualnygarwolin.pl###zaslona
 wislaportal.pl###cook, .cook
 wisport.com.pl###DIVnasz
 wiz.pl###menu
@@ -3635,6 +3637,7 @@ trakt.tv##.sncmp-app_gdpr
 transfergo.com##.gdpr-consent
 trentino.pl###popup_rodo, #popup_tlo
 trojmiasto.pl###rodo_info
+turek.net.pl##.popup
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
 twitch.tv##.gdpr-consent-banner, .butterBar
