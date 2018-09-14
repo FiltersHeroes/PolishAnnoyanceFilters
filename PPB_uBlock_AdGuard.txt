@@ -1,9 +1,9 @@
-! Checksum: 9g2YTi5kLpQ+vtjOSNnuLw
+! Checksum: m6G81aulEcEyoPXmLiFv8w
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 13 Sep 2018, 15:57 UTC+02
-! Version: 201809131557
+! Last modified: Fri, 14 Sep 2018, 17:13 UTC+02
+! Version: 201809141713
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 13 wrz 2018, 15:57 UTC+02
+! Aktualizacja: pią, 14 wrz 2018, 17:13 UTC+02
 !
 !
 ! Newslettery
@@ -46,6 +46,7 @@ biznesalert.pl##.mfp-ready
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
 deezee.pl##html:style(overflow: visible!important;padding-right: 0px!important;)
 deezee.pl##.mfp-ready
+deezer.com##script:inject(abort-on-property-write.js, onbeforeunload)
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com###newsletter-modal
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
 domodi.pl##script:inject(set-constant.js, PWA_adbd, 2)
