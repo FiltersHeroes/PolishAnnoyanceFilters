@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MYBuWQjxxCviOtdwl17Fag
+! Checksum: aJ6xKZstE6zxrXdqDDXHeg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 14 Sep 2018, 17:13 UTC+02
-! Version: 201809141713
+! Last modified: Fri, 14 Sep 2018, 19:13 UTC+02
+! Version: 201809141913
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 14 wrz 2018, 17:13 UTC+02
+! Aktualizacja: pią, 14 wrz 2018, 19:13 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -409,7 +409,7 @@ mydevil.net##body > .white-bg
 myloview.pl###submitMe
 nadrapaku.pl###HTML3
 namyslow.pl##.footerBoxNewsletter
-narew.info##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
+narew.info,e-widuchowa.pl,telewizjazary.pl,kociewiak.pl,tvobiektyw.pl,echotygodnik.info,damitv.pl,ct.jaworzno.pl,pzl24.pl,tvsudecka.pl,bydgoszcz.com,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 naszebialeblota.pl###text-3
 naszerecenzje.wordpress.com###blog_subscription-4
 naszhandel.pl##.box_02:nth-of-type(2) > .box_cnt
@@ -575,7 +575,6 @@ pulshr.pl##h2 > a[href="http://www.pulshr.pl/newsletter.html"]
 pulshr.pl##.box-1 > p:nth-of-type(1)
 pulshr.pl##.form-1
 pulsmedycyny.pl###id-newsletter-box
-pzl24.pl##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 pzlsedziszow.pl###newsletter_pzl-2
 qdecor.pl##.box:nth-of-type(4)
 qr-online.pl##div.col-md-4:nth-of-type(1) > form, div.col-md-4:nth-of-type(1) > p, h3.footer-widget-title:nth-of-type(2)
@@ -743,6 +742,7 @@ webinsider.pl#?#h5:-abp-contains(Newsletter)
 wefix.pl##.block_newsletter
 werandacountry.pl##div.gkmod-3.box:nth-of-type(1) > .header
 werandaweekend.pl##.right > div.title:nth-of-type(1)
+wiara.pl##.nsl
 widzialni.pl##.widget_widzialni_newsletter
 wierchomla.com.pl##.footer-top > .center-wrap > .footer-left
 wiescirolnicze.pl###hp-newsletter
