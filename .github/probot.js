@@ -20,11 +20,11 @@ on('issues.opened', 'issues.edited')
   .unlabel('błąd');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] widżet kontaktowy\/informacji zwrotnej/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] widżet kontaktowy\/feedback/))
   .label('widżet kontaktowy/informacji zwrotnej');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] widżet kontaktowy\/informacji zwrotnej/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] widżet kontaktowy\/feedback/))
   .unlabel('widżet kontaktowy/informacji zwrotnej');
 
 on('issues.opened', 'issues.edited')
