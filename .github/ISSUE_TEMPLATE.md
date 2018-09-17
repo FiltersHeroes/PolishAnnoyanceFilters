@@ -9,13 +9,13 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 -->
 
 ### Typ elementu/problemu
-- [] Newsletter
+- [] Newsletter (nie popup)
 - [] Otagowany link wewnętrzny (niezgodny z tematem artykułu)
 - [] Powiadomienie push
 - [] Scrollujący filmik
 - [] Strzałka
 - [] Widżet kontaktowy/informacji zwrotnej
-- [] Wyskakujące okienko
+- [] Wyskakujące okienko (popup)
 - [] Zablokowane kliknięcie prawym przyciskiem myszy
 - [] Inny widżet
 - [] Błąd
