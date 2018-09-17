@@ -100,9 +100,9 @@ on('issues.opened', 'issues.edited')
   .unlabel('ulepszenie');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] Inny widżet/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Inny element/))
   .label('widżet');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] Inny widżet/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Inny element/))
   .unlabel('widżet');
