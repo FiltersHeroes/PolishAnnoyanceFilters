@@ -20,12 +20,12 @@ on('issues.opened', 'issues.edited')
   .unlabel('błąd');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] czat/))
-  .label('czat');
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] widżet kontaktowy\/informacji zwrotnej/))
+  .label('widżet kontaktowy/informacji zwrotnej');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] czat/))
-  .unlabel('czat');
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] widżet kontaktowy\/informacji zwrotnej/))
+  .unlabel('widżet kontaktowy/informacji zwrotnej');
 
 on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[xX]] newsletter/))
@@ -108,9 +108,9 @@ on('issues.opened', 'issues.edited')
   .unlabel('ulepszenie');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] widżet/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] inny widżet/))
   .label('widżet');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] widżet/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] inny widżet/))
   .unlabel('widżet');

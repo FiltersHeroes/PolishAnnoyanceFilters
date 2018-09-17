@@ -10,7 +10,6 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 
 ### Typ elementu/problemu
 - [] błąd
-- [] czat
 - [] newsletter
 - [] otagowany link wewnętrzny
 - [] popup
@@ -21,21 +20,22 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 - [] scrollujący filmik
 - [] strzałka
 - [] ulepszenie
-- [] widżet
+- [] widżet kontaktowy/informacji zwrotnej
+- [] inny widżet
 
 ### Moja konfiguracja
-**Przeglądarka internetowa:** 
+**Przeglądarka internetowa:**
 
-**System operacyjny:** 
+**System operacyjny:**
 
-**Bloker:** 
+**Bloker:**
 
 **Używane filtry:**
 1. EasyList
 2. Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
 3. Polskie Filtry Elementów Irytujących
-4. 
-5. 
+4.
+5.
 
 ### Link bezpośredni (opcjonalny)
 <!--
