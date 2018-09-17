@@ -9,18 +9,18 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 -->
 
 ### Typ elementu/problemu
-- [] newsletter
-- [] otagowany link wewnętrzny
-- [] prawy klik
-- [] powiadomienie push
-- [] scrollujący filmik
-- [] strzałka
-- [] widżet kontaktowy/informacji zwrotnej
-- [] wyskakujące okienko
-- [] inny widżet
-- [] błąd
-- [] pytanie
-- [] ulepszenie
+- [] Newsletter
+- [] Otagowany link wewnętrzny (niezgodny z tematem artykułu)
+- [] Powiadomienie push
+- [] Scrollujący filmik
+- [] Strzałka
+- [] Widżet kontaktowy/informacji zwrotnej
+- [] Wyskakujące okienko
+- [] Zablokowane kliknięcie prawym przyciskiem myszy
+- [] Inny widżet
+- [] Błąd
+- [] Pytanie
+- [] Ulepszenie
 
 ### Moja konfiguracja
 **Przeglądarka internetowa:**

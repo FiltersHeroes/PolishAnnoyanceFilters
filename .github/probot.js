@@ -12,105 +12,97 @@ on('issues.labeled')
   .close();
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] błąd/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Błąd/))
   .label('błąd');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] błąd/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Błąd/))
   .unlabel('błąd');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] widżet kontaktowy\/feedback/))
-  .label('widżet kontaktowy/informacji zwrotnej');
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Widżet kontaktowy\/informacji zwrotnej/))
+  .label('widżet kontaktowy/feedback');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] widżet kontaktowy\/feedback/))
-  .unlabel('widżet kontaktowy/informacji zwrotnej');
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Widżet kontaktowy\/informacji zwrotnej/))
+  .unlabel('widżet kontaktowy/feedback');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] newsletter/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Newsletter/))
   .label('newsletter');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] newsletter/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Newsletter/))
   .unlabel('newsletter');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] otagowany link wewnętrzny/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Otagowany link wewnętrzny/))
   .label('otagowany link wewnętrzny');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] otagowany link wewnętrzny/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Otagowany link wewnętrzny/))
   .unlabel('otagowany link wewnętrzny');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] wyskakujące okienko/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Wyskakujące okienko/))
   .label('popup');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] wyskakujące okienko/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Wyskakujące okienko/))
   .unlabel('popup');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] prawy klik/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Zablokowane kliknięcie prawym przyciskiem myszy/))
   .label('prawy klik');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] prawy klik/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Zablokowane kliknięcie prawym przyciskiem myszy/))
   .unlabel('prawy klik');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] przycisk/))
-  .label('przycisk');
-
-on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] przycisk/))
-  .unlabel('przycisk');
-
-on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] powiadomienie push/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Powiadomienie push/))
   .label('push');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] powiadomienie push/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Powiadomienie push/))
   .unlabel('push');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] pytanie/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Pytanie/))
   .label('pytanie');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] pytanie/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Pytanie/))
   .unlabel('pytanie');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] scrollujący filmik/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Scrollujący filmik/))
   .label('scrollujący filmik');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] scrollujący filmik/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Scrollujący filmik/))
   .unlabel('scrollujący filmik');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] strzałka/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Strzałka/))
   .label('strzałka');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] strzałka/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Strzałka/))
   .unlabel('strzałka');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] ulepszenie/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Ulepszenie/))
   .label('ulepszenie');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] ulepszenie/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Ulepszenie/))
   .unlabel('ulepszenie');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] inny widżet/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Inny widżet/))
   .label('widżet');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] inny widżet/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Inny widżet/))
   .unlabel('widżet');
