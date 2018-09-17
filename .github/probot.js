@@ -44,11 +44,11 @@ on('issues.opened', 'issues.edited')
   .unlabel('otagowany link wewnętrzny');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] popup/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] wyskakujące okienko/))
   .label('popup');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] popup/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] wyskakujące okienko/))
   .unlabel('popup');
 
 on('issues.opened', 'issues.edited')
@@ -68,11 +68,11 @@ on('issues.opened', 'issues.edited')
   .unlabel('przycisk');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] push/))
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] powiadomienie push/))
   .label('push');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] push/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] powiadomienie push/))
   .unlabel('push');
 
 on('issues.opened', 'issues.edited')

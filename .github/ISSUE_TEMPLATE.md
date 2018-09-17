@@ -9,19 +9,18 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 -->
 
 ### Typ elementu/problemu
-- [] błąd
 - [] newsletter
 - [] otagowany link wewnętrzny
-- [] popup
 - [] prawy klik
-- [] przycisk
-- [] push
-- [] pytanie
+- [] powiadomienie push
 - [] scrollujący filmik
 - [] strzałka
-- [] ulepszenie
 - [] widżet kontaktowy/informacji zwrotnej
+- [] wyskakujące okienko
 - [] inny widżet
+- [] błąd
+- [] pytanie
+- [] ulepszenie
 
 ### Moja konfiguracja
 **Przeglądarka internetowa:**
