@@ -1,5 +1,7 @@
 !#if !cap_html_filtering
 activ-investment.eu##script:inject(abort-current-inline-script.js, openNewsletter)
+alemeksyk.eu##.pwebbox-modal, .modal-backdrop
+alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 apynews.pl###fb-modal, .modal-backdrop
 apynews.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
 bartek.com.pl##script:inject(abort-current-inline-script.js, $, popupNewsletter)
@@ -10,6 +12,8 @@ homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-right: 0px!important;)
 linuxpl.com###myModalDomenowy, .modal-backdrop
 linuxpl.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+lookcam.com###lookcam-fb-modal, .modal-backdrop
+lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 ogrodosfera.pl###NewsletterExit, .modal-backdrop
 ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
 sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
@@ -18,12 +22,14 @@ zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
 !#endif
 !#if cap_html_filtering
 activ-investment.eu##^script:has-text(openNewsletter)
+alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
 apynews.pl##^#fb-modal
 bartek.com.pl##^script:has-text(popupNewsletter)
 biznes-host.pl##^#myModalPromo
 comperia.pl##^#modal_woman
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 linuxpl.com##^#myModalDomenowy
+lookcam.com##^#lookcam-fb-modal
 ogrodosfera.pl##^#NewsletterExit
 sportowefakty.wp.pl##^#exitpopup
 zoo.bydgoszcz.com##^#NewsShow
@@ -34,6 +40,7 @@ activ-investment.eu##.fancybox-overlay:has(.newsletter-fancybox-wrapper)
 activ-investment.eu##.fancybox-overlay:style(overflow: hidden!important;)
 activ-investment.eu##html.fancybox-lock:style(overflow: visible!important;)
 activ-investment.eu$$script[tag-content="openNewsletter"]
+alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
 apynews.pl$$#fb-modal
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
@@ -44,6 +51,7 @@ biznes-host.pl$$#myModalPromo
 comperia.pl$$#modal_woman
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 linuxpl.com$$#myModalDomenowy
+lookcam.com$$#lookcam-fb-modal
 ogrodosfera.pl$$#NewsletterExit
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
