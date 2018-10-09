@@ -7,3 +7,17 @@ komputerswiat.pl###ks_breaking_news:style(position: absolute!important; left: -3
 !#if !ext_ublock
 komputerswiat.pl$$#ks_breaking_news
 !#endif
+!#if !cap_html_filtering
+alemeksyk.eu##.pwebbox-modal, .modal-backdrop
+alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
+lookcam.com###lookcam-fb-modal, .modal-backdrop
+lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+!#endif
+!#if cap_html_filtering
+alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
+lookcam.com##^#lookcam-fb-modal
+!#endif
+!#if !ext_ublock
+alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
+lookcam.com$$#lookcam-fb-modal
+!#endif
