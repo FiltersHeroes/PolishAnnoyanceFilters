@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MZ5p/AI3frp7BgzH4SmAmQ
+! Checksum: aL5o7eE7foCUeXzp9OhDJg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 08 Oct 2018, 14:52 UTC+02
-! Version: 201810081452
+! Last modified: Wed, 10 Oct 2018, 12:39 UTC+02
+! Version: 201810101239
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 08 paź 2018, 14:52 UTC+02
+! Aktualizacja: śro, 10 paź 2018, 12:39 UTC+02
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -122,7 +122,7 @@ centrumprasowe.pap.pl##a[href="/cp/pl/newsletter/"]
 cgm.pl##.footerNewsletter
 channel9.msdn.com##.mouseClick.mediumIcon.email
 checiny.pl###div_newsletter
-chinytolubie.pl###fm_form_1
+chinytolubie.pl,przewodnikmp.pl###fm_form_1
 chlodnictwoiklimatyzacja.pl###left-in > .moduletable:nth-of-type(1)
 chocholowskietermy.pl##.wdform_section
 chocolissimo.pl##a[href="javascript:showNewsletterLayer();"]
@@ -834,6 +834,7 @@ zyciepabianic.pl###widget-newsletter
 !
 ! Wyjątki
 dron.pl#@#.widget_wysija
+forum.dobreprogramy.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
 ms.gov.pl#@##scroll-top
 poznajsienatluszczach.pl#@#.scroll-top
