@@ -1,9 +1,9 @@
-! Checksum: 8QFiOBFI85AWqzBFAK5jLw
+! Checksum: HVZfe7/1TCwPoV5xV1O+DQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 12 Oct 2018, 22:08 UTC+02
-! Version: 201810122208
+! Last modified: Sat, 13 Oct 2018, 15:30 UTC+02
+! Version: 201810131530
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 12 paź 2018, 22:08 UTC+02
+! Aktualizacja: sob, 13 paź 2018, 15:30 UTC+02
 !
 !
 ! Newslettery
@@ -24,6 +24,8 @@ wrozka.com.pl##.contact_content.custom_html_right_content, .no_bottom_margin.cus
 !
 !
 ! Odblokowanie prawego przycisku myszy
+newsbook.pl##^#wpcp_disable_Right_Click
+newsbook.pl##^#wpcp_disable_selection
 pogradajmy.pl##script:inject(abort-on-property-write.js, document.oncontextmenu)
 romet.pl,skionline.pl,sat-charts.eu,trentino.pl,pcpobierz.pl,ligowiec.net##script:inject(remove-attr.js, oncontextmenu)
 roztoczanskipn.pl##script:inject(addEventListener-defuser.js, contextmenu)
