@@ -1,9 +1,9 @@
-! Checksum: va3Uox4d/bUi+WILxv1Ljg
+! Checksum: 0pwGX06B0BSrYDNwiptVuA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 13 Oct 2018, 15:34 UTC+02
-! Version: 201810131534
+! Last modified: Mon, 15 Oct 2018, 11:20 UTC+02
+! Version: 201810151120
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 13 paź 2018, 15:34 UTC+02
+! Aktualizacja: pon, 15 paź 2018, 11:20 UTC+02
 !
 !
 ! Newslettery
@@ -36,7 +36,7 @@ gazeta.pl,sport.pl,gazeta.biz,tokfm.pl,gazetapraca.pl,moto.pl,wyborcza.pl,wyborc
 !
 !
 ! Popupy
-akademiaversum.pl##body.with-overlay:style(overflow: auto!important;)
+akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
 akademiaversum.pl###newsletter-pp
 alerabat.com##body:style(overflow: auto !important;)
 alerabat.com##.jquery-modal
@@ -53,11 +53,11 @@ defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,polityk
 domodi.pl##script:inject(set-constant.js, PWA_adbd, 2)
 ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
-ekai.pl##html > body:style(overflow: auto!important;)
+ekai.pl##html > body:style(overflow: auto !important;)
 ekai.pl,jezykiobce.pl##.newsletter-popup
-ergokantor.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !important;)
 ergokantor.pl##.mfp-ready
-euro.com.pl##html:style(overflow: auto !important; margin-right: 0px !important;)
+euro.com.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 euro.com.pl##.remodal-overlay, #popup
 euro.com.pl##.remodal-wrapper:has(.nllContainer)
 e-biznes.pl##.onp-sl-blur-area:style(filter: none !important;)
@@ -69,30 +69,30 @@ forum.gofin.pl###KW_Tlo, #KW_Okno
 fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
 fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
-habys.pl##html > body:style(overflow: visible!important;)
-habys.pl##html.fancybox-lock > body:style(overflow: visible!important;)
-habys.pl##html.fancybox-lock:style(overflow: visible!important;)
+habys.pl##html > body:style(overflow: visible !important;)
+habys.pl##html.fancybox-lock > body:style(overflow: visible !important;)
+habys.pl##html.fancybox-lock:style(overflow: visible !important;)
 habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
-intershoe.com.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
+intershoe.com.pl##body.modal-open:style(padding-right: 0 !important; overflow: visible !important;)
 intershoe.com.pl###news_popup, .modal-backdrop
-jezykiobce.pl,miastodzieci.pl,prnews.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
-jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible!important; width: 100%!important;)
+jezykiobce.pl,miastodzieci.pl,prnews.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible !important; width: 100%!important;)
 jooble.org###popup
 kiddabadam.com##.popup
 kiddabadam.com##.popup--blur:style(filter: none !important;)
 kiep.pl##.popup
 kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1!important;)
 kmziz.pl###full_newsletter_modal, .modal-backdrop
-kmziz.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
-limango.pl##body.welcome_main.modal-open:style(overflow: visible!important;padding-right: 0px!important;)
+kmziz.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
+limango.pl##body.welcome_main.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 limango.pl##.js_welcome_background.background_overlay, .modal
 macris.com.pl###newsletter-popup
-macris.com.pl##.noscroll:style(overflow: visible!important; position: relative!important;)
-medycznamarihuana.com##html:style(margin-right: 0px !important; overflow: visible !important;)
+macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
+medycznamarihuana.com##html:style(margin-right: 0 !important; overflow: visible !important;)
 medycznamarihuana.com##.mfp-ready
-miastakobiet.pl###newsletterModal
-miastakobiet.pl##.modal-open:style(overflow: visible!important;)
+miastakobiet.pl,teamquest.pl###newsletterModal
+miastakobiet.pl,teamquest.pl##.modal-open:style(overflow: visible !important;)
 miastodzieci.pl###startModal
 minecraft.org.pl##.modal, .modal-backdrop
 minecraft.org.pl##.modal-open:style(overflow: auto !important;)
@@ -106,32 +106,32 @@ newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##script:inject(abort-on-property-read.js, window.onbeforeunload)
 odczasudoczasu.pl,masher.pl##html.pum-open:style(overflow: auto !important;)
 odczasudoczasu.pl,masher.pl##.popmake-overlay
-oleole.pl##html:style(overflow: auto!important;)
+oleole.pl##html:style(overflow: auto !important;)
 oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 online.citibank.pl###AdventPopup, .modal-backdrop
-online.citibank.pl##.modal-open:style(padding-right: 0px !important; overflow: auto !important;)
+online.citibank.pl##.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 open.fm##script:inject(addEventListener-defuser.js, unload)
 pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
-pepco.pl##body.modal-open:style(padding-right: 0px!important; overflow: visible!important;)
+pepco.pl##body.modal-open:style(padding-right: 0 !important; overflow: visible !important;)
 pepco.pl##.modal-newsletter
-pewex.pl##body,html:style(overflow: auto !important; margin-right: 0px !important;)
+pewex.pl##body,html:style(overflow: auto !important; margin-right: 0 !important;)
 pewex.pl###popupStart
 playstation.com##script:inject(abort-current-inline-script.js, $, PopupManager)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
 pl.aleteia.org,pakamera.pl##html.fancybox-lock > body:style(overflow: auto !important;)
-pl.aleteia.org,pakamera.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0px !important;)
+pl.aleteia.org,pakamera.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
 prnews.pl###myModal, .modal-backdrop
 quiosque.pl###newsletter-popup, .modal-backdrop
-quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0px !important;)
+quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0 !important;)
 reaktor.pwn.pl##.is-reveal-open:style(overflow: auto !important;)
 reaktor.pwn.pl##.reveal-overlay
 rekinfinansow.pl##.cp-custom-viewport:style(overflow: auto !important;)
 rekinfinansow.pl##.cp-visited-popup
-rylko.com##body.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
+rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
-selkar.pl,sklepkamil.pl##.modal-open:style(overflow: visible!important;)
+selkar.pl,sklepkamil.pl##.modal-open:style(overflow: visible !important;)
 selkar.pl,sklepkamil.pl##.newsletter-modal, .modal-backdrop
 sklepmartes.pl##html.modalbox-is-visible body:style(overflow: auto !important;)
 sklepmartes.pl##.modalbox-is-visible:style(overflow: auto !important;)
@@ -142,38 +142,38 @@ smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
 smaker.pl###overlay, #popup
 socialpress.pl##body:style(overflow: auto !important;)
 socialpress.pl##.bottom-content-newsletter
-spidersweb.pl##html:style(overflow: visible !important; margin-right: 0px !important;)
+spidersweb.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
 spidersweb.pl##.mfp-bg
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 sprawnymarketing.pl###pop_facebook
 sprawnymarketing.pl##.blur:style(filter: none !important;)
-stokrotka.pl##html.fancybox-lock:style(margin-right: 0px!important; overflow: auto!important;)
+stokrotka.pl##html.fancybox-lock:style(margin-right: 0 !important; overflow: auto !important;)
 stokrotka.pl##.fancybox-overlay-fixed
-teletorium.pl##body.pop_open:style(overflow: visible!important;)
+teletorium.pl##body.pop_open:style(overflow: visible !important;)
 teletorium.pl###pop
-termyszaflary.com##.fancybox-lock:style(overflow: auto !important; margin-right: 0px !important;)
+termyszaflary.com##.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
 termyszaflary.com##.fancybox-overlay
 ttv.pl###specialPopupModal
-ttv.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
+ttv.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 tvokazje.pl###tvo-newsletter-popup-new-year, .modal-backdrop
 tvokazje.pl##.modal-open:style(overflow: visible !important;)
 um24.pl##.modal-open:style(overflow: auto !important;)
 um24.pl##.zamow-katalog, .modal-backdrop
 upolujebooka.pl###myModalExit, .modal-backdrop
-upolujebooka.pl##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
-ursus.com.pl##html:style(overflow: visible!important;)
+upolujebooka.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
+ursus.com.pl##html:style(overflow: visible !important;)
 ursus.com.pl##.mfp-ready
 ursus.com.pl##.opacity1.flexslider-container
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
-www.brw.com.pl##.js:style(overflow-y: visible!important;)
+www.brw.com.pl##.js:style(overflow-y: visible !important;)
 www.e-biurowce.pl###raport_info, .modal-backdrop
-www.e-biurowce.pl##.modal-open:style(padding-right: 0px!important; overflow: auto!important;)
-www.ozog.pl##body:style(overflow: auto!important;)
+www.e-biurowce.pl##.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
+www.ozog.pl##body:style(overflow: auto !important;)
 www.ozog.pl###homeModal
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
 zaufanekliniki.pl###modalMain, .modal-backdrop
-zaufanekliniki.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
+zaufanekliniki.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 zegarkiipasja.pl##body:style(overflow: auto !important;)
 zegarkiipasja.pl##.emelu-lightbox-target
 !
