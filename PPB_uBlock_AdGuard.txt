@@ -1,9 +1,9 @@
-! Checksum: s9Y+6o0mXOcTJd0r7C+t5A
+! Checksum: 7OcdyOosVGD9xyx+wSX3qg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Mon, 15 Oct 2018, 12:02 UTC+02
-! Version: 201810151202
+! Last modified: Mon, 15 Oct 2018, 12:08 UTC+02
+! Version: 201810151208
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 15 paź 2018, 12:02 UTC+02
+! Aktualizacja: pon, 15 paź 2018, 12:08 UTC+02
 !
 !
 ! Newslettery
@@ -24,12 +24,15 @@ wrozka.com.pl##.contact_content.custom_html_right_content, .no_bottom_margin.cus
 !
 !
 ! Odblokowanie prawego przycisku myszy
+newsbook.pl##script:inject(abort-current-inline-script.js, document.onkeydown)
+newsbook.pl##script:inject(abort-current-inline-script.js, nocontext)
+newsbook.pl##.unselectable, html:style(-webkit-usser-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; cursor: unset !important;)
 newsbook.pl##^style:has-text(.unselectable)
 newsbook.pl##^#wpcp_disable_Right_Click, #wpcp_disable_selection, #wpcp_css_disable_selection
 pogradajmy.pl##script:inject(abort-on-property-write.js, document.oncontextmenu)
 romet.pl,skionline.pl,sat-charts.eu,trentino.pl,pcpobierz.pl,ligowiec.net##script:inject(remove-attr.js, oncontextmenu)
 roztoczanskipn.pl##script:inject(addEventListener-defuser.js, contextmenu)
-/no-right-click-images-plugin/*$script
+/no-right-click-images-plugin/*$script$domain=niezlasztuka.net
 !
 !
 ! Otagowane linki wewnętrzne w artykułach
