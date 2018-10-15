@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: h+mp1TlJJtwrNfG8ClgBMw
+! Checksum: HchuYF/eI59USsOS2zQaFQ
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 11 Oct 2018, 14:00 UTC+02
-! Version: 201810111400
+! Last modified: Mon, 15 Oct 2018, 20:09 UTC+02
+! Version: 201810152009
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 11 paź 2018, 14:00 UTC+02
+! Aktualizacja: pon, 15 paź 2018, 20:09 UTC+02
 !
 !
 !
@@ -227,6 +227,7 @@ zwirex.pl###shoutbox
 ||helponclick.com^$third-party,script
 ||hubtalk.com/widgets/*/chat.js
 ||jivosite.com^$third-party,domain=pl
+||kodilla.com/static/js/call-us.js$first-party
 ||lellek.callcenter.pl/static/chat_snippets/*.js$domain=lellek.pl
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
@@ -249,6 +250,7 @@ zwirex.pl###shoutbox
 ||terazteatr.pl/img/sugestie.jpg
 ||tm-serwis.pomorze.pl/chat/php/app.php?widget-init.js
 ||vobis.callcenter.pl/static/chat_snippets/*$script
+||wchat.freshchat.com/js/widget.js
 ||widgets.trustedshops.com/js/*.js
 ||widget.customer-alliance.com/reviews/js/standard/*$script,domain=excelsior.com.pl
 ||widget.intercom.io/widget/*$script
