@@ -1,9 +1,9 @@
-! Checksum: GgOBmx52iQsnUqZkR0OZWQ
+! Checksum: cpN1G5x+wCfP6YTbwOHqpw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 21 Oct 2018, 22:09 UTC+02
-! Version: 201810212209
+! Last modified: Mon, 22 Oct 2018, 09:05 UTC+02
+! Version: 201810220905
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 21 paź 2018, 22:09 UTC+02
+! Aktualizacja: pon, 22 paź 2018, 09:05 UTC+02
 !
 !
 ! Newslettery
@@ -112,7 +112,7 @@ online.citibank.pl##.modal-open:style(padding-right: 0 !important; overflow: aut
 open.fm##script:inject(addEventListener-defuser.js, unload)
 pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
 pepco.pl##body.modal-open:style(padding-right: 0 !important; overflow: visible !important;)
-pepco.pl##.modal-newsletter
+pepco.pl##.modal-newsletter, .modal-backdrop
 pewex.pl##body,html:style(overflow: auto !important; margin-right: 0 !important;)
 pewex.pl###popupStart
 playstation.com##script:inject(abort-current-inline-script.js, $, PopupManager)
