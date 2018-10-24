@@ -4,8 +4,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 22 Oct 2018, 11:58 UTC+02
-! Version: 201810221158
+! Last modified: Wed, 24 Oct 2018, 14:09 UTC+02
+! Version: 201810241409
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 22 paź 2018, 11:58 UTC+02
+! Aktualizacja: śro, 24 paź 2018, 14:09 UTC+02
 !
 !
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
@@ -31,7 +31,7 @@ accent-bikes.com###lang_popup
 addons.opera.com###overlay
 adeste.eu##.cp-direct-download-container
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
-airport.com.pl###fancybox-overlay, #fancybox-wrap
+airport.com.pl,d24h.pl,forum.joomla.pl,ncplus.pl,romantycznyweekend.eu,zus.pox.pl###fancybox-overlay, #fancybox-wrap
 akademia.nask.pl###newsletterall
 akademos.pl###myModal, .reveal-modal-bg
 arimr.gov.pl###kiwi_popup_layer
@@ -59,7 +59,7 @@ cafago.com##.freePointWrap
 caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
 caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 casu.pl###freshmail-main-wrapper, #freshmail_backdrop
-ccnews.pl###fm-pu-container
+ccnews.pl,meczelive.tv,meczenazywo.pl###fm-pu-container
 cdp.pl###footer-newsletter
 chinytolubie.pl##.ui-widget-overlay, .ui-dialog-titlebar-close
 chocolissimo.pl###newsletterModalDiv
@@ -69,7 +69,6 @@ cosslodkiego.com.pl###tws_i_1
 cowsierscipiszczy.pl##.optin-monster-saas-overlay, .jupiter-optin-visible
 cryptonews.pl##.wonderplugin-box, #wonderplugin-box-hidebar-1
 culturapoloneza.ro,zdrowie.pap.pl###newsletter-popup
-d24h.pl###fancybox-overlay, #fancybox-wrap
 dailyweb.pl,probasket.pl,swinoujskie.info,moneygrabbing.co.uk###snppopup-welcome
 dany-meble.pl###myPopModal, .modal-backdrop
 dekoria.pl##.newsletter_popup
@@ -86,7 +85,7 @@ dowbit.pl##.mcwidget-overlay
 ebizneskrokpokroku.pl###qqOverlay
 ekliniki.pl,lumarte.eu##.ui-widget.ui-dialog, .ui-widget-overlay
 ekologia.pl##.parent-nlr, .parent-promote
-eluban.pl###popup
+eluban.pl,galeriaveneda.com.pl,jaslo4u.pl,planujemyogrod.pl,rankomat.pl,spodiglyinitki.pl###popup
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
 entelo.pl##.b-modal, .bpopup
 eporady24.pl##.zaczekaj
@@ -101,10 +100,8 @@ fashionpost.pl##.newsletter-overall
 forgeofempires.com###offer-diamonds
 forumpediatryczne.pl##.ui-widget-overlay, [aria-describedby*="ajaxDialoghttpwwwforumpediatryczneplzobacztakze"]
 forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
-forum.joomla.pl###fancybox-overlay, #fancybox-wrap
 francuskie.pl##.greensboro-optin-visible
 funtech.pl##.dylematy
-galeriaveneda.com.pl###popup
 galeria-kaskada.pl###modalNewsletter
 gazetapraca.pl###overlayJS
 generacjasmart.pl##.mcwidget-overlay
@@ -112,7 +109,7 @@ gizchina.com.pl,informacjenews.pl,selectivv.com##.popmake
 godealla.pl###coupon-groupon, #coupon-groupon-overlay
 goldenline.pl##.ui-widget-overlay, #fbRegisterDialog
 growbox.pl###pf_bg, .pf_sub
-gymeltoro.pl##.popup
+gymeltoro.pl,meblejedrus.eu##.popup
 hafija.pl##.dgd_overlay, .dgd_stb_box
 hebe.pl##.splash
 hegos.eu##.popup, .popup-bg
@@ -131,7 +128,6 @@ iperfumy.pl###pd-box-overlay, #pd-box-window, #pd-box-HideSelect
 ironsky.pl###spu-1611, #spu-bg-1611
 isbnews.pl###cover
 jajco.pl###popupDiv
-jaslo4u.pl###popup
 kameshop.pl##.background, #tws_s_100001, #tws_i_100001
 kataloog.info###mask, #lorem
 katowice-airport.com###carwash-banner-c
@@ -161,12 +157,9 @@ mango.pl##.popup-mango, #sm_ext_floater-bg
 marenaspa.pl###fancybox-overlay[style^="background-color: rgb(0, 0, 0); opacity: 0.6; cursor: pointer;"]
 marenaspa.pl#?##fancybox-wrap:-abp-has(#popup-box)
 mazovia.pl##.blok-DefaultSubskrypcja
-meblejedrus.eu##.popup
 mecze24.pl##.ui-front
-meczelive.tv###fm-pu-container
 meczelive.tv##.ui-dialog:nth-of-type(9)
 meczelive.tv##.ui-widget-overlay
-meczenazywo.pl###fm-pu-container
 meczenazywo.pl##.ui-widget-overlay, .ui-dialog[aria-describedby="newsletter-dialog"]
 medianarodowe.com,marken.com.pl##.freshmail_dialog, .ui-widget-overlay
 mediarun.com##.fancybox-outer, .fancybox-overlay
@@ -189,7 +182,6 @@ mysize.com.pl###popup_box, #overlay
 m.smaker.pl##.apkInfoPopup
 naekranie.pl###welcome_screen-content
 nawozy.eu##.newsletterPopup
-ncplus.pl###fancybox-overlay, #fancybox-wrap
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 netlandcomputers.pl###cboxOverlay, #colorbox
 njumobile.pl##.jquery-modal
@@ -224,7 +216,6 @@ pb.pl##.smPopupContainer, #smPopupBackground
 pch24.pl##.popupWesp, .popupWespImgContainer
 picodi.com##.special-modal, .modal-backdrop
 pitax.pl###popupZbieraj
-planujemyogrod.pl###popup
 player.pl##.__ipPerunElement
 plk.pl###okienko_yt, .ui-widget-overlay
 pl###esns_background_layer
@@ -260,12 +251,10 @@ publicat.pl###newsletter-popup-form
 pulsmedycyny.pl###smPopupBackground, .smPopupContainer
 pup.sosnowiec.pl###topbaner
 pushpushgo.com###ebook-popup
-rankomat.pl###popup
 ravelo.pl###modalAlertMethodNL
 rckik.poznan.pl###popup, #popupBg
 resortpro.ht-int.com##.newsletter-overall
 rms.pl##.sj-popup-container
-romantycznyweekend.eu###fancybox-overlay, #fancybox-wrap
 rooader.pl###nicePopupWrapper
 royalcanin.pl###popOverlay
 rp.pl##tqwidget
@@ -288,7 +277,6 @@ sklep.mieloch.pl###nicePopupWrapper
 sldc.eu###popup-over, #popup-overlay
 sledczy24.pl##.spu-bg, .spu-total-1
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
-spodiglyinitki.pl###popup
 sportbazar.pl###cart_tt, #cart_tt_bg
 spreadshirt.pl##.show.js-promo-layer
 sprzedajemytkaniny.pl##.pupup
@@ -340,7 +328,6 @@ zielonyogrodek.pl,mlodytechnik.pl,czasnawnetrze.pl##.mod_avt_alert
 zimorodek.pl##.body-layer
 zlotemysli.pl##._form_show._form-wrapper
 zszywka.pl###inv-request-popup
-zus.pox.pl###fancybox-overlay, #fancybox-wrap
 /axnewsletter.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /plugins/facebook-fanbox-popup
