@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5ZuXUUK6HCE890tqt4yksQ
+! Checksum: FLQh/iRFoF6bPlYE8Lmx8A
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 28 Oct 2018, 22:42 UTC+01
-! Version: 201810282242
+! Last modified: Sun, 28 Oct 2018, 22:50 UTC+01
+! Version: 201810282250
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,22 +14,19 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 28 paź 2018, 22:42 UTC+01
+! Aktualizacja: nie, 28 paź 2018, 22:50 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
 !#include PPB_uBlock_AdGuard/newslettery_uBO.txt
 !
 !
-3i-store.com##.footer-address-block > p:nth-of-type(4)
-3i-store.com##.footer-address-block > p:nth-of-type(5)
+3i-store.com##.footer-address-block > p:nth-of-type(4), .footer-address-block > p:nth-of-type(5)
 3i-store.com,global4net.com##.block-subscribe
 3kropki.pl##.nwltMR
 9design.pl##.top_newsletter
 24hurt.pl##.row > .col-md-12
-24pr.pl##center > input
-24pr.pl##td:nth-of-type(2) > input
-24pr.pl###carrington-subscribe > h3
+24pr.pl##center > input, td:nth-of-type(2) > input, #carrington-subscribe > h3
 50style.pl##.footer-item-wide
 99rent.pl###block-block-7
 100pompek.pl,podciaganie.pl,miesniebrzucha.pl,miesnienog.pl,biegaj40minut.pl,treningrozciagania.pl,treningaerobowy.pl###freshmail-subscription-form
@@ -237,7 +234,7 @@ foto.auchan.pl##.cw_newsletter
 foto.auchan.pl#?#.cw_mini_info_teaser:-abp-contains(Newsletter)
 frenchtouchlabellevie.pl##.newsletter-mail
 galeriabronowice.pl##.news
-galeriakatowicka.eu##.metka
+galeriakatowicka.eu##.metka, div.col-sm-2.col-xs-4:nth-of-type(4):-abp-contains(Newsletter)
 galeria-warminska.pl##.nwsltr.box
 gamedot.pl##.footer-top-container-item:nth-of-type(4)
 gastro-pol.pl##li:nth-of-type(8) > form, ul:nth-of-type(2) > li:nth-of-type(7)
