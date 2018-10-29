@@ -1,9 +1,9 @@
-! Checksum: oZzAWnTKRFDv7zpPmWp/Tw
+! Checksum: 7Yd+yumZ4/9LjY+CPZ5ZbA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 28 Oct 2018, 12:51 UTC+01
-! Version: 201810281251
+! Last modified: Mon, 29 Oct 2018, 23:00 UTC+01
+! Version: 201810292300
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 28 paź 2018, 12:51 UTC+01
+! Aktualizacja: pon, 29 paź 2018, 23:00 UTC+01
 !
 !
 ! Newslettery
@@ -286,8 +286,8 @@ komputerswiat.pl$$#ks_breaking_news
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 20181026 RTM
-!@Last modified: Fri, 26 Oct 2018
+!@Version: 20181029 RTM
+!@Last modified: Mon, 29 Oct 2018
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -296,7 +296,7 @@ komputerswiat.pl$$#ks_breaking_news
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2018 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.20181026 RTM aktualizacja: pią, 26 paź 2018
+!@v.20181029 RTM aktualizacja: pon, 29 paź 2018
 !
 !
 !@Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -478,6 +478,7 @@ okazik.pl##.mfp-wrap, .mfp-bg
 pl.dow.com##html,body:style(overflow: visible !important; position: static !important;)
 pl.dow.com##.cookie-notify
 polski-tenis.pl###rodo
+powiatslubicki.pl##+js(abort-current-inline-script.js, jQuery, #myModal)
 pro-sprzet.pl###myWorning, .modal-backdrop
 publikator.com.pl##.layer
 publikator.com.pl##body>*:style(filter: none !important;)
@@ -526,6 +527,7 @@ ogloszenia.plock.pl##^#dialog-rodo
 okazik.pl##^script:has-text(#cookie-dialog)
 openpli.org##^script:has-text(gdpr-accepted)
 pl.dow.com##^.cookie-notify
+powiatslubicki.pl##^#myModal
 pro-sprzet.pl##^#myWorning
 publikator.com.pl##^body script:has-text(polityka|zaufani)
 pulawy.eu##^#modalRodo
@@ -571,6 +573,9 @@ ogloszenia.plock.pl$$#dialog-rodo
 okazik.pl$$script[tag-content="#cookie-dialog"]
 openpli.org$$script[tag-content="gdpr-accepted"]
 pl.dow.com$$.cookie-notify
+powiatslubicki.pl###myModal, .modal-backdrop
+powiatslubicki.pl##.modal-open:style(overflow: auto !important;)
+powiatslubicki.pl$$#myModal
 pro-sprzet.pl$$#myWorning
 publikator.com.pl$$script[tag-content="polityka|zaufani"]
 pulawy.eu$$#modalRodo
