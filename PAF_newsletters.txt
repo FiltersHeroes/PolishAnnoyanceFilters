@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: O7gYXxapkJQxP1Vs73iNJA
+! Checksum: XmpPIZPNELaPX/7fwXyJHA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 28 Oct 2018, 23:00 UTC+01
-! Version: 201810282300
+! Last modified: Tue, 30 Oct 2018, 12:09 UTC+01
+! Version: 201810301209
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 28 paź 2018, 23:00 UTC+01
+! Aktualizacja: wto, 30 paź 2018, 12:09 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -287,6 +287,7 @@ kameleonbutik.com###newsletter_block_left
 kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
 kammar24.pl##div.BoxRwd:nth-of-type(5) > .CalyBox
 kariera.pl##.article-newsletter
+katowice24.info##.top-footer > div.col-md-3.col-sm-12:nth-of-type(3)
 kaufland.pl##.o-form--footernewsletter
 kawerna.pl##.item-last.span4
 kayak.pl##[class^="Common-Frontdoor-EmailSubscriptionPanel"]
@@ -645,6 +646,7 @@ supertydzien.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 suwalki24.pl###content_right > .box:nth-of-type(7)
 suwalki24.pl##.box:nth-of-type(5)
 swiatbaterii.pl##div.col-md-4:nth-of-type(3) > div:nth-of-type(1)
+swiatoze.pl##.post-subscribe
 swiatoze.pl##.widget_newsletterwidgetminimal, #mc-embedded-subscribe-form
 swiat-szkla.pl###left-in > .moduletable:nth-of-type(1)
 swobodnie.eu,histografy.pl###wysija-2
@@ -815,4 +817,5 @@ ms.gov.pl#@##scroll-top
 poznajsienatluszczach.pl#@#.scroll-top
 rmf24.pl#@##backTop
 spolka.cda.pl#@#.scrolltop
+zblogowani.pl#@##ouibounce-modal
 @@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
