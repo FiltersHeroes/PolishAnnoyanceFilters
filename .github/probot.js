@@ -52,14 +52,6 @@ on('issues.opened', 'issues.edited')
   .unlabel('popup');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[xX]] Zablokowane kliknięcie prawym przyciskiem myszy/))
-  .label('prawy klik');
-
-on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] Zablokowane kliknięcie prawym przyciskiem myszy/))
-  .unlabel('prawy klik');
-
-on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[xX]] Powiadomienie push/))
   .label('push');
 
