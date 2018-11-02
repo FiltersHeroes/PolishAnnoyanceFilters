@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: bTRbuqVi9jsslUFCCsMxEw
+! Checksum: hO4eDDtilARaDJZLniDwbg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 30 Oct 2018, 23:14 UTC+01
-! Version: 201810302314
+! Last modified: Fri, 02 Nov 2018, 08:02 UTC+01
+! Version: 201811020802
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 30 paź 2018, 23:14 UTC+01
+! Aktualizacja: pią, 02 lis 2018, 08:02 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -673,6 +673,7 @@ temi.pl##.module:nth-of-type(8) > div > div > div
 terazprudnik.pl##.widget_newsletterwidgetminimal
 terazprudnik.pl#?#.td_block_text_with_title:-abp-contains(newsletter)
 termedia.pl##.orderNewsletter
+termyszaflary.com##footer div.col-md-4:nth-of-type(3)
 themuba.com###newsletter_container
 timetrend.pl##.block_newsletter
 tokfm.pl##.container > ul > li:nth-of-type(3)
