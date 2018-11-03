@@ -16,7 +16,6 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 - [] Strzałka
 - [] Widżet kontaktowy/informacji zwrotnej
 - [] Wyskakujące okienko (popup)
-- [] Zablokowane kliknięcie prawym przyciskiem myszy
 - [] Inny element
 - [] Błąd
 - [] Pytanie
