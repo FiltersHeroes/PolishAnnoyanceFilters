@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: brAgieR94t47GqwvS5eDZA
+! Checksum: hV+vBmUH1S7nq63rn0Vl5Q
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sat, 03 Nov 2018, 19:28 UTC+01
-! Version: 201811031928
+! Last modified: Sat, 03 Nov 2018, 19:35 UTC+01
+! Version: 201811031935
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 03 lis 2018, 19:28 UTC+01
+! Aktualizacja: sob, 03 lis 2018, 19:35 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -22,7 +22,7 @@
 !
 !
 gry.pl,waznygry.pl##.wt-notification-container
-naszemiasto.pl##.atomsArticleStickyVideo__header, #.js-stickyReady.js-sticky
+naszemiasto.pl##iframe.js-stickyReady.js-sticky
 polsatnews.pl,polsatsport.pl##.videoPlayer.is--persistent:not(.ended)
 rp.pl##.linear-tv__wrapper
 telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvrep-live-box
@@ -31,6 +31,7 @@ tvp.info##.mini-player-container
 ||s-nm.ppstatic.pl/p/js/material/plywajace_wideo.js
 ||s-pt.ppstatic.pl/p/js/regionalne/plywajace_wideo.js
 ||s-tm.ppstatic.pl/js/floating-video/floatingVideo.js
+||windows.net/cdn/js/xlink-i.js
 !
 !
 ! Wyjątki
