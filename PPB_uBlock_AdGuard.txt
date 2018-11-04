@@ -1,9 +1,9 @@
-! Checksum: kvB81mjnIoXCLYhWsbrZuw
+! Checksum: 7Lg7vs+6eHaj8Mu9vF9q8g
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 04 Nov 2018, 21:07 UTC+01
-! Version: 201811042107
+! Last modified: Sun, 04 Nov 2018, 23:31 UTC+01
+! Version: 201811042331
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 04 lis 2018, 21:07 UTC+01
+! Aktualizacja: nie, 04 lis 2018, 23:31 UTC+01
 !
 !
 ! Newslettery
@@ -36,6 +36,8 @@ alerabat.com##body:style(overflow: auto !important;)
 alerabat.com##.jquery-modal
 auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
+autostrada-a4.com.pl##script:inject(abort-on-property-read.js, scrollTo)
+autostrada-a4.com.pl##.tos-opening.tos-opened.tos-hover.tos-has-close.topbaner.tos-fit.tos-fx-slide.tos-fixed.tos-wrapper
 biznesalert.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 biznesalert.pl##.mfp-ready
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
