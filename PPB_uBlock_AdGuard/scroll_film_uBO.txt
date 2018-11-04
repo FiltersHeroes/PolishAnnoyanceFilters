@@ -1,4 +1,4 @@
-forsal.pl##script:inject(abort-on-property-read.js, parseFloat)
 buzz.gazeta.pl,kultura.gazeta.pl,next.gazeta.pl,plotek.pl,sport.pl,wiadomosci.gazeta.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
+forsal.pl##script:inject(abort-on-property-read.js, parseFloat)
 gotujmy.pl,mamotoja.pl,party.pl,polki.pl,viva.pl,wizaz.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 naszemiasto.pl##+js(addEventListener-defuser.js, scroll, xlinkEvent)
