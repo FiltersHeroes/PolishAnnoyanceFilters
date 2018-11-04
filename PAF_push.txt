@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: uVqRoMC9kcbTQvzQsZjZ7g
+! Checksum: 5dvayWq2wqqxOY9kPoAKmg
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sun, 28 Oct 2018, 11:57 UTC+01
-! Version: 201810281157
+! Last modified: Mon, 05 Nov 2018, 00:04 UTC+01
+! Version: 201811050004
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,11 +14,11 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 28 paź 2018, 11:57 UTC+01
+! Aktualizacja: pon, 05 lis 2018, 00:04 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#include PPB_uBlock_AdGuard/push_uBO.txt
+!#include PPB_uBlock_AdGuard/push_supplement.txt
 !
 !
 autocentrum.pl##.web-push-box
@@ -83,3 +83,15 @@ typeofweb.com,pl###onesignal-popover-dialog
 ||wp.pl/*.webpush-desktop.chunk.js
 ||wp.pl/*.webpush-desktop.legacy.chunk.js
 ||youtubersi.pl/themes/default/js/notify.js
+!
+!
+! Wyjątki
+dron.pl#@#.widget_wysija
+forum.dobreprogramy.pl#@#.fa-angle-up
+ifirma.pl#@#.dogory
+ms.gov.pl#@##scroll-top
+poznajsienatluszczach.pl#@#.scroll-top
+rmf24.pl#@##backTop
+spolka.cda.pl#@#.scrolltop
+zblogowani.pl#@##ouibounce-modal
+@@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
