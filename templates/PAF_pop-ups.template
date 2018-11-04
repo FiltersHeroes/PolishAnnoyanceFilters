@@ -18,8 +18,19 @@
 !
 !
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
+!#include PPB_uBlock_AdGuard/popupy_supplement.txt
+!#if !cap_html_filtering
+!#include PPB_uBlock_AdGuard/popupy_bez_html.txt
+!#endif
+!#if cap_html_filtering
+!#include PPB_uBlock_AdGuard/popupy_html.txt
+!#endif
+!#if !ext_ublock
+!#include PPB_uBlock_AdGuard/popupy_AG.txt
+!#endif
+!#if ext_ublock
 !#include PPB_uBlock_AdGuard/popupy_uBO.txt
-!#include PPB_uBlock_AdGuard/popupy_specjalne_instrukcje.txt
+!#endif
 !
 !
 @include popupy

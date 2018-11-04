@@ -1,0 +1,20 @@
+activ-investment.eu##script:inject(abort-current-inline-script.js, openNewsletter)
+alemeksyk.eu##.pwebbox-modal, .modal-backdrop
+alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
+apynews.pl###fb-modal, .modal-backdrop
+apynews.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
+bartek.com.pl##script:inject(abort-current-inline-script.js, $, popupNewsletter)
+biznes-host.pl##script:inject(abort-current-inline-script.js, $, myModalPromo)
+comperia.pl###modal_woman, .modal-backdrop
+comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
+homebook.pl##.popup-overlay:has(.popup-content--newsletter)
+homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-right: 0px!important;)
+linuxpl.com###myModalDomenowy, .modal-backdrop
+linuxpl.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+lookcam.com###lookcam-fb-modal, .modal-backdrop
+lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+ogrodosfera.pl###NewsletterExit, .modal-backdrop
+ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
+sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
+zoo.bydgoszcz.com###NewsShow, .modal-backdrop
+zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;) 

@@ -16,7 +16,7 @@
 !
 !
 ! Newslettery
-@include newslettery_uBO
+@include newslettery_supplement
 !
 !
 ! Otagowane linki wewnętrzne w artykułach
@@ -24,31 +24,50 @@
 !
 !
 ! Popupy
-@include popupy_uBO
+@include popupy_supplement
 !
 !
 ! Popupy - specjalne instrukcje
-@include popupy_specjalne_instrukcje
+!#if !cap_html_filtering
+@include popupy_bez_html
+!#endif
+!#if cap_html_filtering
+@include popupy_html
+!#endif
+!#if !ext_ublock
+@include popupy_AG
+!#endif
+!#if ext_ublock
+@include popupy_uBO
+!#endif
 !
 !
 ! Powiadomienia Push
-@include push_uBO
+@include push_supplement
 !
 !
 ! Scrollujące filmiki
-@include scroll_film_uBO
+@include scroll_film_supplement
 !
 !
 ! Tła zawierające autoreklamy
-@include tla_autoreklamy_uBO
+@include tla_autoreklamy_supplement
 !
 !
 ! Inne Widżety
-@include widgety_uBO
+@include widgety_supplement
 !
 !
 ! Inne widżety - specjalne instrukcje
-@include widgety_specjalne_instrukcje
+!#if !cap_html_filtering
+#include widgety_bez_html
+!#endif
+!#if cap_html_filtering
+@include widgety_html
+!#endif
+!#if !ext_ublock
+@include widgety_AG
+!#endif
 !
 !
 !@POCZĄTEK DOŁĄCZONYCH POLSKICH FILTRÓW RODO-CIASTECZKOWYCH
