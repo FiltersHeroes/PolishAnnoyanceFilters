@@ -1,5 +1,5 @@
 on('issues.opened')
-  .filter(context => !context.payload.issue.body.match(/### Typ elementu/) || !context.payload.issue.body.match(/- \[[xX]]/))
+  .filter(context => !context.payload.issue.body.includes(/### Typ elementu/) || !context.payload.issue.body.includes(/- \[[xX]]/))
   .comment(contents('.github/MISSING_ISSUE_TEMPLATE_AUTOREPLY.md'))
   .label('odrzucone');
 
