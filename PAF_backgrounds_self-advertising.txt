@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: emx1fyV949vvNSjsJ96IGQ
+! Checksum: +Ow++/XrISdau1sFY1I4wg
 ! Title: Polskie Filtry Elementów Irytujących - Tła Zawierające Autoreklamy
 ! Polish Annoyance Filters - Backgrounds Containing Self-Advertising
 ! Codename: Backgrounds
 ! Description: Filtry ukrywające i blokujące tła zawierające autoreklamy.
-! Last modified: Sat, 14 Jul 2018, 19:04 UTC+02
-! Version: 201807141904
+! Last modified: Mon, 05 Nov 2018, 00:04 UTC+01
+! Version: 201811050004
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,12 +14,24 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 14 lip 2018, 19:04 UTC+02
+! Aktualizacja: pon, 05 lis 2018, 00:04 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
-!#include PPB_uBlock_AdGuard/tla_autoreklamy_uBO.txt
+!#include PPB_uBlock_AdGuard/tla_autoreklamy_supplement.txt
 !
 !
 czarymary.pl###checkWidthFullMain1
 ||e-stargard.pl/_upload/background.png
+!
+!
+! Wyjątki
+dron.pl#@#.widget_wysija
+forum.dobreprogramy.pl#@#.fa-angle-up
+ifirma.pl#@#.dogory
+ms.gov.pl#@##scroll-top
+poznajsienatluszczach.pl#@#.scroll-top
+rmf24.pl#@##backTop
+spolka.cda.pl#@#.scrolltop
+zblogowani.pl#@##ouibounce-modal
+@@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
