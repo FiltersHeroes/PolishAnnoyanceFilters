@@ -1,9 +1,9 @@
-! Checksum: HaImz65I1cm8Ul3R9ZPEug
+! Checksum: uiru+zXKNap4If7Q53d2cQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 04 Nov 2018, 14:42 UTC+01
-! Version: 201811041442
+! Last modified: Sun, 04 Nov 2018, 17:32 UTC+01
+! Version: 201811041732
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 04 lis 2018, 14:42 UTC+01
+! Aktualizacja: nie, 04 lis 2018, 17:32 UTC+01
 !
 !
 ! Newslettery
@@ -70,7 +70,7 @@ habys.pl##html.fancybox-margin:style(margin-right: 0px!important;)
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
 intershoe.com.pl##body.modal-open:style(padding-right: 0 !important; overflow: visible !important;)
 intershoe.com.pl###news_popup, .modal-backdrop
-jezykiobce.pl,miastodzieci.pl,prnews.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible !important; width: 100%!important;)
 jooble.org###popup
 kiddabadam.com##.popup
@@ -113,6 +113,7 @@ playstation.com##script:inject(abort-current-inline-script.js, $, PopupManager)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
 pl.aleteia.org,pakamera.pl##html.fancybox-lock > body:style(overflow: auto !important;)
 pl.aleteia.org,pakamera.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
+polskieszlaki.pl##[id].show.fade.modal, .modal-backdrop
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
 prnews.pl###myModal, .modal-backdrop
