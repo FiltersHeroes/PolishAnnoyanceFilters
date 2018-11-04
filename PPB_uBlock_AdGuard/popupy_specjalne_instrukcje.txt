@@ -56,3 +56,7 @@ ogrodosfera.pl$$#NewsletterExit
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
 !#endif
+!#if ext_ublock
+autostrada-a4.com.pl##.topbaner
+autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
+!#endif
