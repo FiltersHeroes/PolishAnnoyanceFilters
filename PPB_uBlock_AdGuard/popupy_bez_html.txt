@@ -7,8 +7,8 @@ bartek.com.pl##script:inject(abort-current-inline-script.js, $, popupNewsletter)
 biznes-host.pl##script:inject(abort-current-inline-script.js, $, myModalPromo)
 comperia.pl###modal_woman, .modal-backdrop
 comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
-homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-right: 0px!important;)
+homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 linuxpl.com###myModalDomenowy, .modal-backdrop
 linuxpl.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 lookcam.com###lookcam-fb-modal, .modal-backdrop
