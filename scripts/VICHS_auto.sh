@@ -15,7 +15,7 @@ for i in $ost_zmieniony_plik; do
         fi
     fi
 
-    if [ "$i" == "PPB/popupy.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/popupy_supplement.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/popupy_uBO.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/popupy_AG.txt"  || [ "$i" == "PPB_uBlock_AdGuard/popupy_bez_html.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/popupy_html.txt" ]; then
+    if [ "$i" == "PPB/popupy.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/popupy_supplement.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/popupy_uBO.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/popupy_AG.txt" ]  || [ "$i" == "PPB_uBlock_AdGuard/popupy_bez_html.txt" ] || [ "$i" == "PPB_uBlock_AdGuard/popupy_html.txt" ]; then
         if [[ "$modul" != *" PAF_pop-ups.txt"* ]] ;then
             modul+=" "PAF_pop-ups.txt
         fi
