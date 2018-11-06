@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: fAznzhml1cVGqXVYvT6NIw
+! Checksum: t29HXqDw0h5xN6f7rrHhgw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 06 Nov 2018, 13:05 UTC+01
-! Version: 201811061305
+! Last modified: Wed, 07 Nov 2018, 00:15 UTC+01
+! Version: 201811070015
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 06 lis 2018, 13:05 UTC+01
+! Aktualizacja: śro, 07 lis 2018, 00:15 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -352,8 +352,7 @@ meblohaus.pl##.moduletable_left
 mecze24.pl#?#.module:-abp-has(h2:-abp-contains(Newsletter))
 meczenazywo.pl###p-right > div:nth-of-type(11)
 mediaarena.pl###fx-newsletter-freshmail
-mediamarkt.pl##.b-header_metaItem:nth-of-type(3)
-mediamarkt.pl,saturn.pl##.m-newsletterBox
+mediamarkt.pl##.b-header_metaItem:nth-of-type(3), .m-newsletterBox
 medianarodowe.com##.widget_radium_newsletter
 mediarun.com##.vc_row-has-fill
 medicover.pl##.block-footer-menu-1 > .unbulleted.poziom1 > li:nth-of-type(4), .reg15
