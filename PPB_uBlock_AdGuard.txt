@@ -1,9 +1,9 @@
-! Checksum: uBGTMhMk0yk2J+sUIulxPw
+! Checksum: WZ1aqnw1mM36eW+620lanw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 06 Nov 2018, 21:07 UTC+01
-! Version: 201811062107
+! Last modified: Thu, 08 Nov 2018, 10:50 UTC+01
+! Version: 201811081050
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 06 lis 2018, 21:07 UTC+01
+! Aktualizacja: czw, 08 lis 2018, 10:50 UTC+01
 !
 !
 ! Newslettery
@@ -44,6 +44,8 @@ deezee.pl##.mfp-ready
 deezer.com##script:inject(abort-on-property-read.js, onbeforeunload)
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com###newsletter-modal
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com##.modal-open:style(overflow: visible!important; padding-right: 0px!important;)
+diamante-wear.com##.newsletter__popup
+diamante-wear.com##.popup__opened:style(overflow: auto !important;)
 domodi.pl##script:inject(set-constant.js, PWA_adbd, 2)
 ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
