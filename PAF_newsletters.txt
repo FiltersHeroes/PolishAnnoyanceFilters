@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: PHV0RjHwxJebiZzdJF3oqw
+! Checksum: jZUUgbvP7M0iVcvcOoMkLA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 09 Nov 2018, 15:30 UTC+01
-! Version: 201811091530
+! Last modified: Fri, 09 Nov 2018, 19:19 UTC+01
+! Version: 201811091919
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 09 lis 2018, 15:30 UTC+01
+! Aktualizacja: pią, 09 lis 2018, 19:19 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -770,6 +770,7 @@ wrozka.com.pl##td:nth-of-type(1), .newsletter_right, .footer_newsletter_containe
 wseit.edu.pl###btn-newsletter
 wtkplay.pl###newsletter-animated-box
 www.rp.pl##.page-footer__mk
+www.wittchen.com##.wg-row > .footer__newsletter-box--wrapper > .newsletter-box__header--wrapper, .footer__newsletter-box--wrapper  #newsletterForm
 wyborcza.biz,wyborcza.pl##.foot-summary-buttons-share-newsletter
 wyborcza.pl###newsletterDM
 wybrzeze24.pl##.fr.col-3.col
@@ -792,6 +793,7 @@ zagranie.com###text-10
 zakupydladziecka.pl##.modNewsltter
 zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 zamek-krolewski.pl###footer_top
+zamek-krolewski.pl###newsletter_form
 zara.com###newsletter-subscribe-widget
 zarzadcy.com.pl##.menu_right > div:nth-of-type(1)
 zatorland.pl###text-9
