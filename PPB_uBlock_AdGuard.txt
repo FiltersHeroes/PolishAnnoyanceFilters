@@ -1,9 +1,9 @@
-! Checksum: Je7QLAy1iW4BoWdN4w8Cmw
+! Checksum: gUA6gScmbxZZhKNPtugwOA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 11 Nov 2018, 20:40 UTC+01
-! Version: 201811112040
+! Last modified: Sun, 11 Nov 2018, 23:46 UTC+01
+! Version: 201811112346
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 11 lis 2018, 20:40 UTC+01
+! Aktualizacja: nie, 11 lis 2018, 23:46 UTC+01
 !
 !
 ! Newslettery
@@ -127,6 +127,7 @@ rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !im
 rylko.com###modal-newsletter
 selkar.pl,sklepkamil.pl##.modal-open:style(overflow: visible !important;)
 selkar.pl,sklepkamil.pl##.newsletter-modal, .modal-backdrop
+sferis.pl##+js(abort-current-inline-script.js, $, promoNewsletter)
 sklepmartes.pl##html.modalbox-is-visible body:style(overflow: auto !important;)
 sklepmartes.pl##.modalbox-is-visible:style(overflow: auto !important;)
 sklepmartes.pl##.modalbox--has-closebtn
@@ -231,8 +232,11 @@ homebook.pl$$script[id^="tpl-newsletter-popup"]
 linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
 ogrodosfera.pl$$#NewsletterExit
+sferis.pl##html.fancybox-lock > body:style(overflow: auto !important;)
+sferis.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
+sferis.pl##.fancybox-overlay:has(#newsletter-popup)
 sportowefakty.wp.pl$$#exitpopup
-zoo.bydgoszcz.com$$#NewsShow 
+zoo.bydgoszcz.com$$#NewsShow
 !#endif
 !#if ext_ublock
 autostrada-a4.com.pl##.topbaner
