@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5dvayWq2wqqxOY9kPoAKmg
+! Checksum: jv89VfxiKq1qMHK6cW1JZA
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Mon, 05 Nov 2018, 00:04 UTC+01
-! Version: 201811050004
+! Last modified: Mon, 12 Nov 2018, 14:45 UTC+01
+! Version: 201811121445
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 05 lis 2018, 00:04 UTC+01
+! Aktualizacja: pon, 12 lis 2018, 14:45 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -36,7 +36,7 @@ pl###pushwoosh-pop
 pomponik.pl##.ppg__signin
 travelplanet.pl##.fcx-push-modal
 typeofweb.com,pl###onesignal-popover-dialog
-/OneSignalSDK.js$domain=kosmicznapropaganda.pl|wp.pl|swiatbaterii.pl
+/OneSignalSDK.js$domain=kosmicznapropaganda.pl|wp.pl|swiatbaterii.pl|insert.com.pl
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.fm|radiozet.pl
 /static/js/firebase-push.js$domain=cafago.com|tomtop.com
 /sw.js$domain=zippyshare.com|youtube.com|a-o.ninja|openload.co|podaj.to
@@ -94,4 +94,5 @@ poznajsienatluszczach.pl#@#.scroll-top
 rmf24.pl#@##backTop
 spolka.cda.pl#@#.scrolltop
 zblogowani.pl#@##ouibounce-modal
+!brewa.pl#@#.newsletter:not(#popup_newsletter)
 @@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
