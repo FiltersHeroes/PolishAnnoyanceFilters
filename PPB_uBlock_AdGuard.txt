@@ -1,9 +1,9 @@
-! Checksum: 4DYra8t4hr7u79yBSfNmZw
+! Checksum: GjwkzyJrTw94kACZmy+njg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 23 Nov 2018, 15:53 UTC+01
-! Version: 201811231553
+! Last modified: Sun, 25 Nov 2018, 15:18 UTC+01
+! Version: 201811251518
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 23 lis 2018, 15:53 UTC+01
+! Aktualizacja: nie, 25 lis 2018, 15:18 UTC+01
 !
 !
 ! Newslettery
@@ -180,7 +180,7 @@ activ-investment.eu##script:inject(abort-current-inline-script.js, openNewslette
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 apynews.pl###fb-modal, .modal-backdrop
-apynews.pl##.modal-open:style(overflow: auto !important; padding-right: 0px !important;)
+apynews.pl,linuxpl.com,lookcam.com,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##script:inject(abort-current-inline-script.js, $, popupNewsletter)
 biznes-host.pl##script:inject(abort-current-inline-script.js, $, myModalPromo)
 comperia.pl###modal_woman, .modal-backdrop
@@ -190,14 +190,13 @@ diamante-wear.com##.popup__opened:style(overflow: auto !important;)
 homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-right: 0px!important;)
 homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 linuxpl.com###myModalDomenowy, .modal-backdrop
-linuxpl.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 lookcam.com###lookcam-fb-modal, .modal-backdrop
-lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+muscat.pl###discountPopup, .modal-backdrop
 ogrodosfera.pl###NewsletterExit, .modal-backdrop
 ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
 sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
-zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;) 
+zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
 !#endif
 !#if cap_html_filtering
 activ-investment.eu##^script:has-text(openNewsletter)
@@ -210,9 +209,10 @@ diamante-wear.com##^.newsletter__popup
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 linuxpl.com##^#myModalDomenowy
 lookcam.com##^#lookcam-fb-modal
+muscat.pl##^#discountPopup
 ogrodosfera.pl##^#NewsletterExit
 sportowefakty.wp.pl##^#exitpopup
-zoo.bydgoszcz.com##^#NewsShow 
+zoo.bydgoszcz.com##^#NewsShow
 !#endif
 !#if !ext_ublock
 activ-investment.eu##html.fancybox-lock:style(overflow: visible!important;)
@@ -233,6 +233,7 @@ diamante-wear.com$$.newsletter__popup
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
+muscat.pl##^#discountPopup
 ogrodosfera.pl$$#NewsletterExit
 sferis.pl##html.fancybox-lock > body:style(overflow: auto !important;)
 sferis.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
