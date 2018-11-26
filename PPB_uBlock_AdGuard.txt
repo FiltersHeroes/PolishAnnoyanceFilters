@@ -1,9 +1,9 @@
-! Checksum: cY0Q+GjpO9taNbR1KjorKQ
+! Checksum: sQoIHZiAx3ZwQGMWid5rLg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Mon, 26 Nov 2018, 14:44 UTC+01
-! Version: 201811261444
+! Last modified: Mon, 26 Nov 2018, 15:53 UTC+01
+! Version: 201811261553
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 26 lis 2018, 14:44 UTC+01
+! Aktualizacja: pon, 26 lis 2018, 15:53 UTC+01
 !
 !
 ! Newslettery
@@ -187,6 +187,8 @@ comperia.pl###modal_woman, .modal-backdrop
 comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
 diamante-wear.com##.newsletter__popup
 diamante-wear.com##.popup__opened:style(overflow: auto !important;)
+drzwi-cal.pl##.pum-open:style(overflow: auto !important; padding-right: 0 !important;)
+drzwi-cal.pl##.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-right: 0px!important;)
 homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 linuxpl.com###myModalDomenowy, .modal-backdrop
@@ -208,6 +210,7 @@ bartek.com.pl##^script:has-text(popupNewsletter)
 biznes-host.pl##^#myModalPromo
 comperia.pl##^#modal_woman
 diamante-wear.com##^.newsletter__popup
+drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 linuxpl.com##^#myModalDomenowy
 lookcam.com##^#lookcam-fb-modal
@@ -233,6 +236,7 @@ biznes-host.pl##.modal-open:style(overflow: auto !important;)
 biznes-host.pl$$#myModalPromo
 comperia.pl$$#modal_woman
 diamante-wear.com$$.newsletter__popup
+drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
