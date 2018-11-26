@@ -1,9 +1,9 @@
-! Checksum: TqGewFwWBoSypRx2yOoUGA
+! Checksum: cY0Q+GjpO9taNbR1KjorKQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 25 Nov 2018, 17:33 UTC+01
-! Version: 201811251733
+! Last modified: Mon, 26 Nov 2018, 14:44 UTC+01
+! Version: 201811261444
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 25 lis 2018, 17:33 UTC+01
+! Aktualizacja: pon, 26 lis 2018, 14:44 UTC+01
 !
 !
 ! Newslettery
@@ -191,6 +191,8 @@ homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-righ
 homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 linuxpl.com###myModalDomenowy, .modal-backdrop
 lookcam.com###lookcam-fb-modal, .modal-backdrop
+makarun.pl###makarun-modal, .modal-backdrop
+makarun.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 muscat.pl###discountPopup, .modal-backdrop
 ogrodosfera.pl###NewsletterExit, .modal-backdrop
 ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
@@ -209,6 +211,7 @@ diamante-wear.com##^.newsletter__popup
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 linuxpl.com##^#myModalDomenowy
 lookcam.com##^#lookcam-fb-modal
+makarun.pl##^.makarun-modal
 muscat.pl##^#discountPopup
 ogrodosfera.pl##^#NewsletterExit
 sportowefakty.wp.pl##^#exitpopup
@@ -233,6 +236,7 @@ diamante-wear.com$$.newsletter__popup
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
+makarun.pl$$.makarun-modal
 muscat.pl$$#discountPopup
 ogrodosfera.pl$$#NewsletterExit
 sferis.pl##html.fancybox-lock > body:style(overflow: auto !important;)
