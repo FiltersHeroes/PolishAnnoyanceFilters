@@ -1,6 +1,6 @@
 buzz.gazeta.pl,kultura.gazeta.pl,next.gazeta.pl,plotek.pl,sport.pl,wiadomosci.gazeta.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
 forsal.pl##script:inject(abort-on-property-read.js, parseFloat)
 gotujmy.pl,mamotoja.pl,party.pl,polki.pl,viva.pl,wizaz.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
-gotujmy.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
-gotujmy.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
+gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
+gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
 naszemiasto.pl,dziennikzachodni.pl,echodnia.eu,nto.pl,nowiny24.pl##+js(addEventListener-defuser.js, scroll, xlinkEvent)
