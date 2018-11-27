@@ -1,9 +1,9 @@
-! Checksum: JHeyI58yJF4NzlG1JlbyGg
+! Checksum: m6ogDHHJzz/TS5Vrl1KsTA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 27 Nov 2018, 14:00 UTC+01
-! Version: 201811271400
+! Last modified: Tue, 27 Nov 2018, 15:22 UTC+01
+! Version: 201811271522
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 27 lis 2018, 14:00 UTC+01
+! Aktualizacja: wto, 27 lis 2018, 15:22 UTC+01
 !
 !
 ! Newslettery
@@ -264,8 +264,8 @@ mpcforum.pl,winclub.pl,egami-image.com##script:inject(set-constant.js, ips.utils
 buzz.gazeta.pl,kultura.gazeta.pl,next.gazeta.pl,plotek.pl,sport.pl,wiadomosci.gazeta.pl##script:inject(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
 forsal.pl##script:inject(abort-on-property-read.js, parseFloat)
 gotujmy.pl,mamotoja.pl,party.pl,polki.pl,viva.pl,wizaz.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
-gotujmy.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
-gotujmy.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
+gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
+gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
 naszemiasto.pl,dziennikzachodni.pl,echodnia.eu,nto.pl,nowiny24.pl##+js(addEventListener-defuser.js, scroll, xlinkEvent)
 !
 !
