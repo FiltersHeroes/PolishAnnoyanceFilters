@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1/dXhKtl9h2hW1C1E0mAwQ
+! Checksum: 9Hqi+X/tEVRgE3/rvTw5ZQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Wed, 28 Nov 2018, 22:37 UTC+01
-! Version: 201811282237
+! Last modified: Wed, 28 Nov 2018, 22:49 UTC+01
+! Version: 201811282249
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 28 lis 2018, 22:37 UTC+01
+! Aktualizacja: śro, 28 lis 2018, 22:49 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -372,6 +372,7 @@ mediaarena.pl###fx-newsletter-freshmail
 mediamarkt.pl##.b-header_metaItem:nth-of-type(3), .m-newsletterBox
 medianarodowe.com##.widget_radium_newsletter
 mediarun.com##.vc_row-has-fill
+media-tech.eu##.footer-newsletter
 medicover.pl##.block-footer-menu-1 > .unbulleted.poziom1 > li:nth-of-type(4), .reg15
 meritum.gda.pl##.w234.fleft:nth-of-type(6)
 merlin.pl##.b-footer__icons-list
@@ -1549,6 +1550,7 @@ mediamarkt.pl###js-scrollTopDesktop
 mediam.eu###backtotop
 medianarodowe.com,roztocze.net,lakiernictwo.net,porozmawiajmy.tv,pulawy.eu###gototop
 mediarun.com,brandsit.pl##.jscroll-to-top
+media-tech.eu###scrollToTop
 medicover.pl##.scrollTopArrow
 meizupolska.pl##.toup
 metalgearsolid.pl###return_top
