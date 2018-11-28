@@ -1,9 +1,9 @@
-! Checksum: tEL4OI5TBqU1D9RFKnLQFQ
+! Checksum: hoeNXV34fsIh6BVFX/HPfA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 27 Nov 2018, 16:07 UTC+01
-! Version: 201811271607
+! Last modified: Wed, 28 Nov 2018, 15:15 UTC+01
+! Version: 201811281515
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 27 lis 2018, 16:07 UTC+01
+! Aktualizacja: śro, 28 lis 2018, 15:15 UTC+01
 !
 !
 ! Newslettery
@@ -266,6 +266,8 @@ forsal.pl##script:inject(abort-on-property-read.js, parseFloat)
 gotujmy.pl,mamotoja.pl,party.pl,polki.pl,viva.pl,wizaz.pl##script:inject(addEventListener-defuser.js, scroll, d.stopPropagation)
 gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
 gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
+interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 naszemiasto.pl,dziennikzachodni.pl,echodnia.eu,nto.pl,nowiny24.pl##+js(addEventListener-defuser.js, scroll, xlinkEvent)
 !
 !
