@@ -1,9 +1,9 @@
-! Checksum: JG8TN6u7YxTJEqmx7Snyrg
+! Checksum: bnr4zKhPufcmSkfsYXj2tg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 04 Dec 2018, 23:22 UTC+01
-! Version: 201812042322
+! Last modified: Wed, 05 Dec 2018, 14:54 UTC+01
+! Version: 201812051454
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 04 gru 2018, 23:22 UTC+01
+! Aktualizacja: śro, 05 gru 2018, 14:54 UTC+01
 !
 !
 ! Newslettery
@@ -41,6 +41,8 @@ bejeans.pl##.fancybox-overlay-fixed.fancybox-overlay
 biznesalert.pl##html:style(overflow: visible!important; margin-right: 0px!important)
 biznesalert.pl##.mfp-ready
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
+deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
+deccoria.pl##.dc-modal-is-opened.dc-modal-wrapper, .dc-modal-is-opened.dc-modal-overlay
 deezee.pl##html:style(overflow: visible!important;padding-right: 0px!important;)
 deezee.pl##.mfp-ready
 deezer.com##script:inject(abort-on-property-read.js, onbeforeunload)
