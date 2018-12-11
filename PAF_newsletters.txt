@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XkQZZuiyKInWkQ7jFT1o/A
+! Checksum: nxahT6S6ivlV/Ctay+B9bQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 08 Dec 2018, 16:39 UTC+01
-! Version: 201812081639
+! Last modified: Tue, 11 Dec 2018, 14:34 UTC+01
+! Version: 201812111434
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 08 gru 2018, 16:39 UTC+01
+! Aktualizacja: wto, 11 gru 2018, 14:34 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
@@ -190,6 +190,7 @@ dziewczynynapolitechniki.pl##.col-sm-3:nth-of-type(3)
 ebroker.pl###ft_t_in
 eduksiazka.pl###newsletter-subscribe-block, .getintouch.col-xs-12.col-sm-3 > h3
 edunews.pl##.moduleacy-email
+edutorial.pl###sendpress-widget-6
 egospodarka.pl##.ego-ico3, .ego-newsletter
 ehurt.eu,partneragdrtv.com.pl,pakolorente.com,aptekaleki.co.uk###menu_newsletter
 ekomercyjnie.pl##.clearfix.main-menu > li:nth-of-type(1), .home-newsletter, .blog-newsletter, #bottom-newsletter
@@ -214,6 +215,7 @@ e-insportline.pl##.lastbox
 e-kiosk.pl##.form-newsletter
 e-korepetycje.net##.offer-sidebar-banner
 e-prawnik.pl##.boxA2
+e-sporting.pl###newsletterForm, .fnlsl
 fandroid.com.pl##.manohara-mailchimp--aligned-center, .widget-incredibbble-mailchimp-form
 farmer.pl##.v3.ntabs > li:nth-child(-n+1)
 farmer.pl#?#.v2.greyBox > .panes:-abp-contains(Newsletter)
@@ -438,6 +440,7 @@ niedzwiedz.lento.pl##tbody > .notify-save
 niezlasztuka.net##.nks_cc_trigger_tabs
 niezlomni.com###text-10
 nivea.pl##.nx-newsletter
+no10.pl##.fnls
 nocbibliotek.org#?##block-block-25--2:-abp-has(.newsletter-form)
 nokiantyres.pl##.orderNewsletter
 nono-store.pl##div.vc_row-fluid.wpb_row.vc_row:nth-of-type(10)
@@ -879,10 +882,8 @@ zyciepabianic.pl###widget-newsletter
 dron.pl#@#.widget_wysija
 forum.dobreprogramy.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
-ms.gov.pl#@##scroll-top
-poznajsienatluszczach.pl#@#.scroll-top
 rmf24.pl#@##backTop
-spolka.cda.pl#@#.scrolltop
 zblogowani.pl#@##ouibounce-modal
 !brewa.pl#@#.newsletter:not(#popup_newsletter)
+!ms.gov.pl#@##scroll-top
 @@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
