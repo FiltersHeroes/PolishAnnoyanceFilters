@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: s2KbF6V4pKM+4/E8guyDMA
+! Checksum: osNuB8H2IX9zyfDkptn2BQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 15 Dec 2018, 12:29 UTC+01
-! Version: 201812151229
+! Last modified: Sat, 15 Dec 2018, 14:42 UTC+01
+! Version: 201812151442
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 15 gru 2018, 12:29 UTC+01
+! Aktualizacja: sob, 15 gru 2018, 14:42 UTC+01
 !
 !
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
@@ -46,6 +46,7 @@ agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
 airport.com.pl,d24h.pl,forum.joomla.pl,ncplus.pl,romantycznyweekend.eu,zus.pox.pl###fancybox-overlay, #fancybox-wrap
 akademia.nask.pl###newsletterall
 akademos.pl,misjonarska.com###myModal, .reveal-modal-bg
+alpinsklep.pl###tws_i_100000
 apteka-natura.eu###tws_i_1, #topLayerBackDrop
 aquapark.wroc.pl##.popup-start.popup
 arimr.gov.pl###kiwi_popup_layer
@@ -113,6 +114,7 @@ dowbit.pl##.mcwidget-overlay
 ebizneskrokpokroku.pl###qqOverlay
 ekliniki.pl,lumarte.eu,milenium.pl,e-konferencje.pl##.ui-widget.ui-dialog, .ui-widget-overlay
 ekologia.pl##.parent-nlr, .parent-promote
+ekskluzywna.pl###pp1
 eluban.pl,galeriaveneda.com.pl,jaslo4u.pl,planujemyogrod.pl,rankomat.pl,spodiglyinitki.pl###popup
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
 ene-due.eu###topLayerBackDrop, #tws_i_1
@@ -192,6 +194,7 @@ kurasinski.com###bottom-newsletter-overlay
 kuriergarwolinski.pl###popup_div
 kursphp.com##.all-page-modals
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
+label-magazine.com##.lightbox_overlay
 lagardere-tr.pl###banner-hds, #banner-hds-background
 ledfarmer.pl,artbud.pl,aze.com.pl##.modal-visible.modal, .mask
 limanowa.in##.ad_popup
@@ -250,6 +253,8 @@ nawado.pl##.wpoi-show.fadein.wpoi-animate.wpoi-overlay-mask.undefined.inc_optin_
 nawozy.eu##.newsletterPopup
 neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 netlandcomputers.pl###cboxOverlay, #colorbox
+netmoda.pl##.MainCmsWrapper
+netmoda.pl###bk_wstawka_R
 njumobile.pl##.jquery-modal
 nocowanie.pl##.fancybox-overlay-fixed.fancybox-overlay, .fancybox-type-html
 norauto.pl##.s-hPage > .mfp-bg
@@ -259,6 +264,8 @@ nowosci-mp3.eu###pop-slap, .bg-pop-over
 nowyelektronik.pl###x13popup-container, #x13popup-cover
 nowymarketing.pl###overlay-campaign
 nportal.no###fb-overlay
+nyxprofessionalmakeup.pl###dialog-container
+nyxprofessionalmakeup.pl##.ui-front.ui-widget-overlay
 obi.pl##.open.ankieta
 obtkarma.pl##.fancybox-overlay[style="display: block; width: auto; height: auto; background: rgba(255, 255, 255, 0.4);"]
 obtkarma.pl#?#.fancybox-wrap:-abp-has(#popupnews-form)
@@ -305,6 +312,8 @@ pl###topLayerBackDrop
 pl##.facebook-popup
 pl.aleteia.org##.newsletter-popups
 pl.aliexpress.com##.ui-mask, .newuser-container
+pocztazdrowia.pl###overlay2
+pocztazdrowia.pl###overlayFlex22
 poczta.int.pl##.maximized-wrapper
 podaj.to###popupbottom
 podrogach.pl###popup_container
@@ -313,6 +322,7 @@ policja.pl,policja.gov.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 polskicaravaning.pl###newsletter-popup-wrapper
 polskimarket.nl###rc_window_squeeze, #Overlay
 pol-nor.com###boxpopup, #overlay, #popforfirma
+pomiar24.pl###przyciemnianie
 poradnikogrodniczy.pl#?##colorbox:-abp-has(#newsletter_3_day)
 poradniktransportowy.pl###wbounce-modal
 portel.pl###closeTL
@@ -375,6 +385,8 @@ stukstuk.pl###tws_i_100001
 styleev-shop.pl###popup-scademy1
 subiektywnieofinansach.pl###similar-overlay-wrapper
 sumiennyksiegowy.pl###ilosc-zapytan
+sunbarrel.pl##.popup_back
+sunbarrel.pl##.popup_cont
 superheroes.com.pl###fx-modal-1
 superksiegowa.pl###mksiegowosc-overlay, #mksiegowosc-popup-wrapper
 sushi-sklep.pl###popup
@@ -400,6 +412,8 @@ tuszedodrukarki.pl###pp1
 tv-zakupy.pl###pp1
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
+unbrokenstore.com###topLayerBackDrop
+unbrokenstore.com###tws_c_0
 unia.pl##.banerjpg
 ustyle.pl###message-purchased
 uzdrowisko-ustron.pl###myMask, #ustron
