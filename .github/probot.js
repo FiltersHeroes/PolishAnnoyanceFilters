@@ -102,4 +102,4 @@ on('issues.opened', 'issues.edited')
 on('issues.closed')
   .filter(context => context.payload.label.name === 'rozpoczęto')
   .unlabel('rozpoczęto')
-  .label('zatwierdzone')
+  .label('zatwierdzone');
