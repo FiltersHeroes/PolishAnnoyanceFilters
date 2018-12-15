@@ -98,8 +98,3 @@ on('issues.opened', 'issues.edited')
 on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[ ]] Inny element/))
   .unlabel('widżet');
-
-on('issues.closed')
-  .filter(context => context.payload.label.name === 'rozpoczęto')
-  .unlabel('rozpoczęto')
-  .label('zatwierdzone');
