@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: FFwAFY1wKG0VASXLuycl7g
+! Checksum: s2KbF6V4pKM+4/E8guyDMA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 15 Dec 2018, 12:06 UTC+01
-! Version: 201812151206
+! Last modified: Sat, 15 Dec 2018, 12:29 UTC+01
+! Version: 201812151229
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 15 gru 2018, 12:06 UTC+01
+! Aktualizacja: sob, 15 gru 2018, 12:29 UTC+01
 !
 !
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
@@ -56,6 +56,7 @@ auchan.pl###popupbox, #exposeMask
 audioforte.com.pl##.christmas-popup
 audycje.tokfm.pl###gp--popup
 avaro.pl###tln4_wrap
+baldowski.pl##.lightbox_overlay, #modNewsletterMain
 bananki.pl###exitpopup
 bankier.pl###smPopupBackground, .smPopupContainer
 banki.pl,comperia.pl##.paniModal
@@ -76,6 +77,7 @@ butosklep.pl,pakolorente.com,cafeborowka.pl###toplayer_newsletter, #topLayerBack
 butylukow.pl###tws_i_2
 byinsomnia.com###esns_background_layer
 cafago.com##.freePointWrap
+californiaskateshop.pl###tws_i_0
 caseih.com.pl,kisiel24.pl,twojapogoda.pl###colorbox
 caseih.com.pl,kisiel24.pl,twojapogoda.pl,word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 casu.pl###freshmail-main-wrapper, #freshmail_backdrop
@@ -94,7 +96,7 @@ csk.szczecin.pl##.in.bootbox-confirm.fade.modal.bootbox
 culturapoloneza.ro,zdrowie.pap.pl###newsletter-popup
 czasnabuty.pl###toplayer_newsletter_popup, #tln3_bg
 dachyb2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl###newsletter-subscription
-dailyweb.pl,probasket.pl,swinoujskie.info,moneygrabbing.co.uk###snppopup-welcome
+dailyweb.pl,probasket.pl,swinoujskie.info,moneygrabbing.co.uk,sylwia-szyte-miloscia.pl###snppopup-welcome
 dany-meble.pl###myPopModal, .modal-backdrop
 darymex.pl,wiecznepiora.eu##[data-type-popup="newsletter"]
 decoliving.pl###pop-up-newsletter
@@ -113,6 +115,7 @@ ekliniki.pl,lumarte.eu,milenium.pl,e-konferencje.pl##.ui-widget.ui-dialog, .ui-w
 ekologia.pl##.parent-nlr, .parent-promote
 eluban.pl,galeriaveneda.com.pl,jaslo4u.pl,planujemyogrod.pl,rankomat.pl,spodiglyinitki.pl###popup
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
+ene-due.eu###topLayerBackDrop, #tws_i_1
 entelo.pl##.b-modal, .bpopup
 eporady24.pl##.zaczekaj
 esensja.pl###FBox
@@ -146,7 +149,7 @@ growbox.pl###pf_bg, .pf_sub
 gymeltoro.pl,meblejedrus.eu##.popup
 hafija.pl##.dgd_overlay, .dgd_stb_box
 hebe.pl##.splash
-hegos.eu##.popup, .popup-bg
+hegos.eu,sklep-wadima.pl##.popup, .popup-bg
 helios.pl##.snrs-modal-show
 heuristic.pl##.box-popup
 hipp.pl##.m-promo
@@ -196,8 +199,7 @@ linguajob.pl##.popup, #get-similar-offers
 linuxportal.pl###wyskakujaca_plansza_tlo, #wyskakujaca_plansza_srodek
 listymikolaja.pl###newsletter_layer
 malopolska.pl###newsletter-popover
-mamalulu.pl###ctk_np_popup
-mamalulu.pl##.reveal-modal-bg
+mamalulu.pl###ctk_np_popup, .reveal-modal-bg
 mandrivalinux.eu##.guestwarn
 mango.pl##.popup-mango, #sm_ext_floater-bg
 marenaspa.pl###fancybox-overlay[style^="background-color: rgb(0, 0, 0); opacity: 0.6; cursor: pointer;"]
@@ -213,6 +215,7 @@ mediarun.com##.fancybox-outer, .fancybox-overlay
 media-tech.eu###OverlayContainer_rcw
 media-tech.eu###popup_mediatech, #Overlay
 media-tech.eu###rc_window_squeeze
+meditrendy.pl###edrone--main--pu--container
 medpozyczka.pl,kasotronik.pl###popupEmailPhone
 metin2list.pl###news_popup
 mettosport.eu##.wf2-shake-box, .grwf2_backdrop
@@ -237,6 +240,7 @@ muzycznagielda.com###fancybox-overlay
 muzycznagielda.com###fancybox-wrap
 mydetoxtea.pl###siteCover
 mylomza.pl###fadeinbox
+myloview.pl##.subskrypcja, #.ui-widget-overlay
 mysize.com.pl###popup_box, #overlay
 m.smaker.pl##.apkInfoPopup
 nabory.kprm.gov.pl##.active.popup-newsletter
@@ -360,6 +364,7 @@ sledczy24.pl##.spu-bg, .spu-total-1
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
 spidersweb.pl##.pop-up
 sportbazar.pl,no10.pl,e-sporting.pl###cart_tt, #cart_tt_bg
+sportmaster.pl###tloPopUp, #oknoPopUp
 sporto.com.pl###pp3
 sprawdzonakuchnia.pl##.essb-optinbooster, .essb-optinbooster-overlay
 spreadshirt.pl##.show.js-promo-layer
@@ -372,13 +377,13 @@ subiektywnieofinansach.pl###similar-overlay-wrapper
 sumiennyksiegowy.pl###ilosc-zapytan
 superheroes.com.pl###fx-modal-1
 superksiegowa.pl###mksiegowosc-overlay, #mksiegowosc-popup-wrapper
+sushi-sklep.pl###popup
 swiatbaterii.pl##.baner3
 swiatdronow.cupsell.pl###shop_newsletter, #simplemodal-overlay
 swiatkierowcy.pl###max
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 swiato-podglad.pl###popup-background
 swiat-szkla.pl##.jqmWindow
-sylwia-szyte-miloscia.pl###snppopup-welcome
 szkolenia24h.pl##.ui-corner-all, .ui-widget-overlay
 szkolycelne.infoserwis.elk.pl###scyscraper
 sztuka-architektury.pl###newsletter_info
@@ -386,8 +391,7 @@ szybka-moneta.pl###moneta_popup
 taniaksiazka.pl,porcelana.pl##.newsletter-popup
 taniejdladomu.pl###newsletterBg, #newsletterContainer
 targipolnocne.pl,targizachodnie.pl,lodzkietargi.pl###popup_mlm
-tato.net##.freshmail_dialog.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
-tato.net##.ui-front.ui-widget-overlay
+tato.net##.freshmail_dialog, .ui-front.ui-widget-overlay
 telewizja-cyfrowa.com,znaczkijakrobaczki.pl,blogojciec.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 tokfm.pl###komunikat_dla_player3
 travelist.pl###logregLead, #modalOverlay
@@ -403,7 +407,7 @@ uzdrowisko-wieniec.pl###special_offer
 velpa.pl###dialog_wrapper
 veoveo.pl##.rc-popups.box
 versoprint.pl##.snp-pop-6065-overlay, .snp-pop-6065-wrap
-vissavi.pl##.fancybox-overlay-fixed.fancybox-overlay
+vissavi.pl##.newsletter-outer-wrap, .fancybox-overlay[style="display: block; width: auto; height: auto; background: rgba(255, 255, 255, 0.4);"]
 wakacjezprocentem.pl##.playfair, .overlay
 wakacje.pl##.curtainFull, #newsletterLb
 wakacyjnapolisa.pl##.wakacyjna-underlay, #ouibounce-modal
@@ -426,8 +430,7 @@ zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zakazany-humor.pl##.snp-pop-111-wrap.snp-wrap, .snp-pop-111-overlay
 zblogowani.pl###more-posts-modal
 zegarki-online.pl###InfoNewsletter, #InfoNewsletterOkno
-zielonasowa.pl###mask
-zielonasowa.pl###ns-popup-box
+zielonasowa.pl###mask, #ns-popup-box
 zielonyogrodek.pl,mlodytechnik.pl,czasnawnetrze.pl##.mod_avt_alert
 zimorodek.pl##.body-layer
 zlotemysli.pl##._form_show._form-wrapper
