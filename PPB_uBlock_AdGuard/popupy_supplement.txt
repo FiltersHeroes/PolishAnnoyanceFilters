@@ -10,6 +10,7 @@ bejeans.pl##.fancybox-overlay-fixed.fancybox-overlay
 biznesalert.pl##html:style(overflow: visible!important; margin-right: 0 !important)
 biznesalert.pl##.mfp-ready
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
+campingshop.pl###news_popup, .modal-backdrop
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
 deccoria.pl##.dc-modal-is-opened.dc-modal-wrapper, .dc-modal-is-opened.dc-modal-overlay
 deezee.pl##html:style(overflow: visible! important; padding-right: 0 !important;)
@@ -43,7 +44,7 @@ habys.pl,bejeans.pl##html.fancybox-lock:style(overflow: visible !important;)
 habys.pl,bejeans.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 intershoe.com.pl##body.modal-open:style(padding-right: 0 !important; overflow: visible !important;)
 intershoe.com.pl###news_popup, .modal-backdrop
-jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible !important; width: 100% !important;)
 jooble.org###popup
 kiddabadam.com##.popup
@@ -74,8 +75,8 @@ obk.pl##.yith-opened:style(overflow: auto !important;)
 obk.pl##.yith-popup, .yithpopup_overlay
 odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl##html.pum-open:style(overflow: auto !important;)
 odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl##.popmake-overlay
-oleole.pl##html:style(overflow: auto !important;)
 oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
+oleole.pl,wishbone.pl##html:style(overflow: auto !important;)
 online.citibank.pl###AdventPopup, .modal-backdrop
 online.citibank.pl##.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 open.fm##script:inject(addEventListener-defuser.js, unload)
@@ -88,6 +89,8 @@ playstation.com##script:inject(abort-current-inline-script.js, $, PopupManager)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
 pl.aleteia.org,pakamera.pl##html.fancybox-lock > body:style(overflow: auto !important;)
 pl.aleteia.org,pakamera.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
+polferries.pl###polferries-popup-global
+polferries.pl##.has-modal-custom:style(overflow: auto !important;)
 polskieszlaki.pl##[id].show.fade.modal, .modal-backdrop
 pol-ukr.com##.popmake-overlay
 pol-ukr.com##.pum-open:style(overflow: auto !important;)
@@ -135,6 +138,8 @@ upolujebooka.pl##.modal-open:style(overflow: visible !important; padding-right: 
 ursus.com.pl##html:style(overflow: visible !important;)
 ursus.com.pl##.mfp-ready
 ursus.com.pl##.opacity1.flexslider-container
+wishbone.pl##body:style(padding-right: 0 !important;)
+wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 www.brw.com.pl##.js:style(overflow-y: visible !important;)
 www.e-biurowce.pl###raport_info, .modal-backdrop
