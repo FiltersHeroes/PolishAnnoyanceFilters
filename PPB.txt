@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vSh7pH83fySMQt1De2Yaow
+! Checksum: M5S/Cx8FVCrS4+0uIopDCg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Sun, 16 Dec 2018, 20:58 UTC+01
-! Version: 201812162058
+! Last modified: Sun, 16 Dec 2018, 21:55 UTC+01
+! Version: 201812162155
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 16 gru 2018, 20:58 UTC+01
+! Aktualizacja: nie, 16 gru 2018, 21:55 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -396,7 +396,7 @@ mgotuje.pl##.subscribe-box
 miastodzieci.pl##.pull-left > a[href="/zapisz"]
 miastons.pl###fm_form_1
 miastons.pl#?#.sh-s1.sh-t2.section-heading:-abp-contains(Newsletter)
-miaucafe.pl,strefapmi.pl##.et_bloom_animated.et_bloom_flyin_right.et_bloom_flyin
+miaucafe.pl,strefapmi.pl,pangrono.pl,pwsk.pl##.et_bloom_animated.et_bloom_flyin_right.et_bloom_flyin
 michalgrabarski.eu###text-4, #text-7
 midar.net.pl##.pomaranczowy.boks:nth-of-type(4)
 mixmedia.pl##.b-footerNewsletter
@@ -499,6 +499,7 @@ pajacyk.pl##.aside-newsletter
 pakamera.pl##.nws5, #nwsltr2 > i
 palacmierzecin.pl##.newsletter-hld
 paleosmak.pl###emailSub-form
+pangrono.pl##.et_bloom_optin
 panoptykon.org##.social_n
 pantabletka.pl##.ds-newsletter
 paranormalium.pl##div.mt.menus-right:nth-of-type(8), div.th:nth-of-type(7)
@@ -619,6 +620,7 @@ pulshr.pl##h2 > a[href="http://www.pulshr.pl/newsletter.html"]
 pulshr.pl##.box-1 > p:nth-of-type(1)
 pulshr.pl##.form-1
 pulsmedycyny.pl###id-newsletter-box
+pwsk.pl###custom_html-8
 pzlsedziszow.pl###newsletter_pzl-2
 qagile.pl##div.footer-widget:nth-of-type(2)
 qdecor.pl##.box:nth-of-type(4)
@@ -1099,7 +1101,7 @@ mediarun.com##.fancybox-outer, .fancybox-overlay
 media-tech.eu###OverlayContainer_rcw
 media-tech.eu###popup_mediatech, #Overlay
 media-tech.eu###rc_window_squeeze
-meditrendy.pl###edrone--main--pu--container
+meditrendy.pl,recea.pl,recman.pl,tendina.pl###edrone--main--pu--container
 medpozyczka.pl,kasotronik.pl###popupEmailPhone
 metin2list.pl###news_popup
 mettosport.eu##.wf2-shake-box, .grwf2_backdrop
@@ -1221,8 +1223,6 @@ pup.sosnowiec.pl###topbaner
 pushpushgo.com###ebook-popup
 ravelo.pl###modalAlertMethodNL
 rckik.poznan.pl###popup, #popupBg
-recea.pl###edrone--main--pu--container
-recman.pl###edrone--main--pu--container
 resortpro.ht-int.com##.newsletter-overall
 rms.pl##.sj-popup-container
 rooader.pl###nicePopupWrapper
@@ -1459,8 +1459,10 @@ pl###pushAdUpBanner
 pl###pushwoosh-pop
 pomponik.pl##.ppg__signin
 sklepsamsung.pl##.b-modal_webpushVertical
+tendina.pl###edrone_push--bubble, #edrone--push--alert--box
 travelplanet.pl##.fcx-push-modal
 typeofweb.com,pl###onesignal-popover-dialog
+!||api.edrone.me/push_token_query$domain=tendina.pl
 /OneSignalSDK.js$domain=kosmicznapropaganda.pl|wp.pl|swiatbaterii.pl|insert.com.pl
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.fm|radiozet.pl
 /static/js/firebase-push.js$domain=cafago.com|tomtop.com
