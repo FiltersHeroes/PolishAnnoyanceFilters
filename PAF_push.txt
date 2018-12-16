@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Z4skO34rSM0ry3AeB2xbRQ
+! Checksum: vjWx9nF2hakpq1WPoNBNHw
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sat, 15 Dec 2018, 12:29 UTC+01
-! Version: 201812151229
+! Last modified: Sun, 16 Dec 2018, 19:19 UTC+01
+! Version: 201812161919
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 15 gru 2018, 12:29 UTC+01
+! Aktualizacja: nie, 16 gru 2018, 19:19 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -23,6 +23,7 @@
 !
 autocentrum.pl##.web-push-box
 businessinsider.com.pl##.pushBell
+businessinsider.com.pl###pushDefaultPopUp
 ceneo.pl###notifications-toast
 forum.dobreprogramy.pl##.alert-info.alert.consent_banner
 gazetkonosz.pl##.floating-dialog
@@ -37,6 +38,7 @@ pl###onesignal-bell-container
 pl###pushAdUpBanner
 pl###pushwoosh-pop
 pomponik.pl##.ppg__signin
+sklepsamsung.pl##.b-modal_webpushVertical
 travelplanet.pl##.fcx-push-modal
 typeofweb.com,pl###onesignal-popover-dialog
 /OneSignalSDK.js$domain=kosmicznapropaganda.pl|wp.pl|swiatbaterii.pl|insert.com.pl
