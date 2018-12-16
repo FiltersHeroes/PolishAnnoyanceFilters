@@ -1,9 +1,9 @@
-! Checksum: VW8uTaK9m8+3xmdOUeDVgA
+! Checksum: q2YxCut6iUEL1vQsbnChWw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 16 Dec 2018, 17:49 UTC+01
-! Version: 201812161749
+! Last modified: Sun, 16 Dec 2018, 19:19 UTC+01
+! Version: 201812161919
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 16 gru 2018, 17:49 UTC+01
+! Aktualizacja: nie, 16 gru 2018, 19:19 UTC+01
 !
 !
 ! Newslettery
@@ -102,6 +102,9 @@ mintshost.pl###myModal, .modal-backdrop
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
+mulan.pl##body:style(padding-right: 0 !important;)
+mulan.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
+mulan.pl##.swal2-container
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##script:inject(abort-on-property-read.js, window.onbeforeunload)
@@ -234,7 +237,7 @@ biznes-host.pl##^#myModalPromo
 comperia.pl##^#modal_woman
 diamante-wear.com##^.newsletter__popup
 drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
-e-forma.pl##^#newsletter_colorbox
+e-forma.pl,homeoapteka.pl##^#newsletter_colorbox
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 linuxpl.com##^#myModalDomenowy
 lookcam.com##^#lookcam-fb-modal
@@ -262,7 +265,7 @@ biznes-host.pl$$#myModalPromo
 comperia.pl$$#modal_woman
 diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
-e-forma.pl$$#newsletter_colorbox
+e-forma.pl,homeoapteka.pl$$#newsletter_colorbox
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
