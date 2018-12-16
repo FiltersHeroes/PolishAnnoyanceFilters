@@ -1,9 +1,9 @@
-! Checksum: 2s7/eYXg0oMDbQkEbT6Ywg
+! Checksum: QavOzHYWoMUGcop7iLqX9g
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 16 Dec 2018, 21:01 UTC+01
-! Version: 201812162101
+! Last modified: Sun, 16 Dec 2018, 21:08 UTC+01
+! Version: 201812162108
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 16 gru 2018, 21:01 UTC+01
+! Aktualizacja: nie, 16 gru 2018, 21:08 UTC+01
 !
 !
 ! Newslettery
@@ -211,7 +211,7 @@ diamante-wear.com##.newsletter__popup
 diamante-wear.com##.popup__opened:style(overflow: auto !important;)
 drzwi-cal.pl##.pum-open:style(overflow: auto !important; padding-right: 0 !important;)
 drzwi-cal.pl##.pum-theme-promocja-urodzinowa.popmake-overlay
-e-forma.pl,homeoapteka.pl###cboxOverlay
+e-forma.pl,homeoapteka.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
 e-forma.pl,homeoapteka.pl###colorbox:not(:has(.cboxPhoto))
 homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-right: 0px!important;)
 homebook.pl##.popup-overlay:has(.popup-content--newsletter)
