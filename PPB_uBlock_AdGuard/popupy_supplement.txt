@@ -18,6 +18,7 @@ deezer.com##script:inject(abort-on-property-read.js, onbeforeunload)
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com###newsletter-modal
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com,archonhome.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 domodi.pl##script:inject(set-constant.js, PWA_adbd, 2)
+drogerienatura.pl###newsletter-popup-dn, .modal-backdrop
 ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
 ekai.pl##html > body:style(overflow: auto !important;)
@@ -44,9 +45,10 @@ habys.pl,bejeans.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 husse.pl##body.fancybox-active:style(overflow: auto !important;)
 husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
+instytutozonoterapii.pl##[data-popmake*="zapisz-sie-do-newslettera"]
 intershoe.com.pl##body.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 intershoe.com.pl###news_popup, .modal-backdrop
-jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible !important; width: 100% !important;)
 jooble.org###popup
 kiddabadam.com##.popup
@@ -73,8 +75,8 @@ newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##script:inject(abort-on-property-read.js, window.onbeforeunload)
 obk.pl##.yith-opened:style(overflow: auto !important;)
 obk.pl##.yith-popup, .yithpopup_overlay
-odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl##html.pum-open:style(overflow: auto !important;)
 odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl##.popmake-overlay
+odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,instytutozonoterapii.pl##html.pum-open:style(overflow: auto !important;)
 oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 oleole.pl,wishbone.pl##html:style(overflow: auto !important;)
 online.citibank.pl###AdventPopup, .modal-backdrop
