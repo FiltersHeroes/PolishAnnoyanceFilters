@@ -6,17 +6,19 @@ amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,motoria.pl,
 archonhome.pl###myModal, .modal-backdrop
 auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
+bambineo.pl##.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
+bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
 bejeans.pl##.fancybox-overlay-fixed.fancybox-overlay
 biznesalert.pl##html:style(overflow: visible!important; margin-right: 0 !important)
 biznesalert.pl,deezee.pl,ursus.com.pl,medycznamarihuana.com,ergokantor.pl,stoprocent.com##.mfp-ready
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
-campingshop.pl###news_popup, .modal-backdrop
+campingshop.pl,intershoe.com.pl###news_popup, .modal-backdrop
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
 deccoria.pl##.dc-modal-is-opened.dc-modal-wrapper, .dc-modal-is-opened.dc-modal-overlay
 deezee.pl##html:style(overflow: visible! important; padding-right: 0 !important;)
 deezer.com##script:inject(abort-on-property-read.js, onbeforeunload)
-defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com###newsletter-modal
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com,archonhome.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
+defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com,kidsworld.pl###newsletter-modal
 domodi.pl##script:inject(set-constant.js, PWA_adbd, 2)
 drogerienatura.pl###newsletter-popup-dn, .modal-backdrop
 ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
@@ -47,8 +49,7 @@ husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
 instytutozonoterapii.pl##[data-popmake*="zapisz-sie-do-newslettera"]
 intershoe.com.pl##body.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
-intershoe.com.pl###news_popup, .modal-backdrop
-jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,alesoczewki.com,kidsworld.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible !important; width: 100% !important;)
 jooble.org###popup
 kiddabadam.com##.popup
@@ -70,9 +71,9 @@ mintshost.pl###myModal, .modal-backdrop
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
-mulan.pl##body:style(padding-right: 0 !important;)
-mulan.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
-mulan.pl##.swal2-container
+mulan.pl,wetro.pl##body:style(padding-right: 0 !important;)
+mulan.pl,wetro.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
+mulan.pl,wetro.pl##.swal2-container
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##script:inject(abort-on-property-read.js, window.onbeforeunload)
