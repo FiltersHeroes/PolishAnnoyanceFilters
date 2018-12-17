@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XY+QfXQXFkarWMjk7xRV1g
+! Checksum: nx9cfbS93T2wquYo7+GzDg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Mon, 17 Dec 2018, 13:21 UTC+01
-! Version: 201812171321
+! Last modified: Mon, 17 Dec 2018, 15:41 UTC+01
+! Version: 201812171541
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 17 gru 2018, 13:21 UTC+01
+! Aktualizacja: pon, 17 gru 2018, 15:41 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -45,6 +45,7 @@ ahe.lodz.pl###company-newsletter-column
 akademiaversum.pl,homebook.pl,magazif.com,oknonet.pl,telepolis.pl,tlp.is##.newsletter-form
 aldrux.pl##.box:nth-of-type(4)
 alebilet.pl##.newsletter-wrapper
+alesoczewki.com##.newsletter_sec
 aligoo.pl###footer > .col-sm-6
 aliholik.pl###yikes_easy_mc_widget-5
 alkoholeswiata.com##a[href="#collapse4"], #newsletter-validate-detail
@@ -815,6 +816,7 @@ wefix.pl##.block_newsletter
 wegannerd.blogspot.com###HTML7
 werandacountry.pl##div.gkmod-3.box:nth-of-type(1) > .header
 werandaweekend.pl##.right > div.title:nth-of-type(1)
+wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
 wiara.pl##.nsl
 widzialni.pl##.widget_widzialni_newsletter
 wierchomla.com.pl##.footer-top > .center-wrap > .footer-left
@@ -923,6 +925,7 @@ akademia.nask.pl###newsletterall
 akademos.pl,misjonarska.com###myModal, .reveal-modal-bg
 alpinsklep.pl###tws_i_100000
 analizy.pl##.nl_toplayer.ui-draggable.ui-widget-content.ui-widget.ui-dialog
+apaczka.pl##.popupPromoBox
 apteka-natura.eu###tws_i_1, #topLayerBackDrop
 aquapark.wroc.pl##.popup-start.popup
 arimr.gov.pl###kiwi_popup_layer
@@ -1164,7 +1167,7 @@ opensubtitles.org###fadeSub, #lightSub
 orange.pl###advertslice
 osada-sniezka.pl###popModal, .modal-backdrop
 oszustwo.net##div[id^="ulp-"]
-otianna.pl##.wpmchimpa-overlay-bg
+otianna.pl,vous.pl##.wpmchimpa-overlay-bg
 otmuchow.pl,poradnikogrodniczy.pl##script ~ #cboxOverlay
 otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 otvarta.pl###call-to-us-popup, .mfp-bg
@@ -1367,6 +1370,7 @@ zszywka.pl###inv-request-popup
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 ||account.dzinga.com/callback/?callback*$script,domain=topfish.pl
 ||adeste.eu/wp-content/plugins/convertplug/modules/modal/assets/css/modal.min.css
+||apaczka.pl/theme/default/lightbox.min.css
 ||api.callpage.io/v2/widgets/
 ||app.generatorpopup.pl/embed/popup/*$script,domain=poznajtesty.blogspot.de|poznaj-testy.pl
 ||app.getresponse.com/site2/elearning_news_gromar
@@ -1604,7 +1608,7 @@ dekoracjascian.com,opensolution.org###backToTop
 deon.pl##.strzalka
 diagnozainternetu.pl,mojlask.pl##.top
 dietlux.pl,smart-power.pl,pruszczgdanski.pl##.tm-totop-scroller
-dobrekupony.pl,bobbyburger.pl,hykker.com,samequizy.pl,kobietydokodu.pl,bedziepieklo.pl,60sekund.tytan.pl,prawodoprzedsiebiorczosci.parp.gov.pl,strefapmi.pl,mulan.pl###to-top
+dobrekupony.pl,bobbyburger.pl,hykker.com,samequizy.pl,kobietydokodu.pl,bedziepieklo.pl,60sekund.tytan.pl,prawodoprzedsiebiorczosci.parp.gov.pl,strefapmi.pl,mulan.pl,wetro.pl###to-top
 domodi.pl##.dm-go-up
 domtuiteraz.eu,akariaryaca.com##.back-top
 domzagadek.pl###scroll_strz
