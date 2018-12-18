@@ -1,9 +1,9 @@
-! Checksum: uhnXp8H9nKFWn7JfHlBCKw
+! Checksum: 1vwYFWlLPNU8YrNH3bfr7g
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 18 Dec 2018, 21:10 UTC+01
-! Version: 201812182110
+! Last modified: Tue, 18 Dec 2018, 23:55 UTC+01
+! Version: 201812182355
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 18 gru 2018, 21:10 UTC+01
+! Aktualizacja: wto, 18 gru 2018, 23:55 UTC+01
 !
 !
 ! Newslettery
@@ -291,6 +291,7 @@ autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 !
 !
 ! Powiadomienia Push
+anime-odcinki.pl##+js(abort-current-inline-script.js, RegExp, zfgloaded)
 meczyki.pl,epoznan.pl,wtkplay.pl.imged.pl##script:inject(abort-on-property-read.js, Notification.requestPermission)
 mpcforum.pl,winclub.pl,egami-image.com##script:inject(set-constant.js, ips.utils.notification.supported, false)
 !
