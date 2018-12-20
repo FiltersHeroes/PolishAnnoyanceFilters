@@ -1,9 +1,9 @@
-! Checksum: mx0KX+9Ag6euYr4LYatNiA
+! Checksum: uPg3YffbX3EtLtolIbjEEA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Wed, 19 Dec 2018, 12:41 UTC+01
-! Version: 201812191241
+! Last modified: Fri, 21 Dec 2018, 00:04 UTC+01
+! Version: 201812210004
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 19 gru 2018, 12:41 UTC+01
+! Aktualizacja: pią, 21 gru 2018, 00:04 UTC+01
 !
 !
 ! Newslettery
@@ -38,7 +38,7 @@ alerabat.com##body:style(overflow-y: auto !important;)
 alerabat.com##.jquery-modal
 alesoczewki.com,nife.pl###news_popup, .modal-backdrop
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,motoria.pl,pupilo.pl,sklep-presto.pl,ubieramy.pl##.morele-dialog-show:style(overflow: auto !important; padding-right: 0 !important;)
-archonhome.pl###myModal, .modal-backdrop
+archonhome.pl,eurobuty.com.pl,mintshost.pl,prnews.pl,s-pl.pl###myModal, .modal-backdrop
 auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 bambineo.pl##.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
@@ -86,7 +86,7 @@ husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
 instytutozonoterapii.pl##[data-popmake*="zapisz-sie-do-newslettera"]
 intershoe.com.pl##body.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
-jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,alesoczewki.com,nife.pl,kidsworld.pl,jordanki.torun.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,alesoczewki.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible !important; width: 100% !important;)
 jooble.org###popup
 jordanki.torun.pl###newsletter, .modal-backdrop
@@ -105,7 +105,6 @@ miastakobiet.pl,teamquest.pl##.modal-open:style(overflow: visible !important;)
 miastodzieci.pl###startModal
 minecraft.org.pl##.modal, .modal-backdrop
 minecraft.org.pl,bilety24.pl,mintshost.pl,biznes-host.pl,um24.pl,endo.pl##.modal-open:style(overflow: auto !important;)
-mintshost.pl###myModal, .modal-backdrop
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
@@ -140,7 +139,6 @@ pol-ukr.com##.popmake-overlay
 pol-ukr.com##.pum-open:style(overflow: auto !important;)
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
-prnews.pl###myModal, .modal-backdrop
 quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0 !important;)
 quiosque.pl,bilety24.pl###newsletter-popup, .modal-backdrop
 reaktor.pwn.pl,nowasprzedaz.pl##.is-reveal-open:style(overflow: auto !important;)
@@ -169,7 +167,6 @@ sprawnymarketing.pl###pop_facebook
 sprawnymarketing.pl##.blur:style(filter: none !important;)
 stokrotka.pl##html.fancybox-lock:style(margin-right: 0 !important; overflow: auto !important;)
 stokrotka.pl##.fancybox-overlay-fixed
-s-pl.pl###myModal, .modal-backdrop
 teletorium.pl##body.pop_open:style(overflow: visible !important;)
 teletorium.pl###pop
 termyszaflary.com##.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
