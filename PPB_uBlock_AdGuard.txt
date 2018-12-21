@@ -1,9 +1,9 @@
-! Checksum: 9CdvkMMuEcZy0YicUoFzIw
+! Checksum: T7T5oS/wNoIon5n/AsHt1A
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 21 Dec 2018, 08:32 UTC+01
-! Version: 201812210832
+! Last modified: Fri, 21 Dec 2018, 09:03 UTC+01
+! Version: 201812210903
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 21 gru 2018, 08:32 UTC+01
+! Aktualizacja: pią, 21 gru 2018, 09:03 UTC+01
 !
 !
 ! Newslettery
@@ -69,6 +69,7 @@ ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !importan
 euro.com.pl##.remodal-overlay, #popup
 euro.com.pl##.remodal-wrapper:has(.nllContainer)
 euro.com.pl,stoprocent.com##html:style(overflow: auto !important; margin-right: 0 !important;)
+evertourist.com##.fancybox-overlay:has(#newsletterModal)
 e-biznes.pl##.onp-sl-blur-area:style(filter: none !important;)
 e-biznes.pl##.onp-sl-outer-wrap
 farmer.pl###nowa_strona
@@ -79,9 +80,9 @@ fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
 fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
-habys.pl,bejeans.pl,majazoo.pl##html.fancybox-lock > body:style(overflow: visible !important;)
-habys.pl,bejeans.pl,majazoo.pl##html.fancybox-lock:style(overflow: visible !important;)
-habys.pl,bejeans.pl,majazoo.pl##html.fancybox-margin:style(margin-right: 0 !important;)
+habys.pl,bejeans.pl,majazoo.pl,evertourist.com##html.fancybox-lock > body:style(overflow: visible !important;)
+habys.pl,bejeans.pl,majazoo.pl,evertourist.com##html.fancybox-lock:style(overflow: visible !important;)
+habys.pl,bejeans.pl,majazoo.pl,evertourist.com##html.fancybox-margin:style(margin-right: 0 !important;)
 husse.pl##body.fancybox-active:style(overflow: auto !important;)
 husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
