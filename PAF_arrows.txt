@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5SreahWes83h4oGWU5eV6Q
+! Checksum: cFP4n5jl4qv20WyKr5fBWA
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Wed, 19 Dec 2018, 12:41 UTC+01
-! Version: 201812191241
+! Last modified: Fri, 21 Dec 2018, 08:11 UTC+01
+! Version: 201812210811
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: śro, 19 gru 2018, 12:41 UTC+01
+! Aktualizacja: pią, 21 gru 2018, 08:11 UTC+01
 !
 !
 2x45.info###scrollUp
@@ -187,7 +187,6 @@ kulturawplot.pl##.infinite-back-top
 kultura.krasnik.eu###skip_to
 kwestiasmaku.com,fotoprint.pl,zloty-pociag.com##.do_gory
 lamoda.pl##.js-return-to-top
-lanadelrey.pl###GotoTop
 lechia.net###gkBackToTop
 lema15.pl##.goTop
 lento.pl,superanime.pl###scroller
@@ -277,6 +276,7 @@ pl##.slideToTop
 pl##.totop
 pl##a[href="#top"]
 pl###BackToTop
+pl###GotoTop
 pl###backToTop
 pl###backTop
 pl###backtotop
@@ -504,6 +504,7 @@ zwiedzam-stadiony.eu##.mh-back-to-top
 !
 ! Wyjątki
 dron.pl#@#.widget_wysija
+eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
 forum.dobreprogramy.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
 rmf24.pl#@##backTop
