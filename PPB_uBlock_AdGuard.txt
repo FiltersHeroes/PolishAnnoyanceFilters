@@ -1,9 +1,9 @@
-! Checksum: Obt1kP0e0AxFaT6X7Djj2Q
+! Checksum: i6eEMTfYiBdsL8NrXcO6pQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 21 Dec 2018, 13:05 UTC+01
-! Version: 201812211305
+! Last modified: Sat, 22 Dec 2018, 12:11 UTC+01
+! Version: 201812221211
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 21 gru 2018, 13:05 UTC+01
+! Aktualizacja: sob, 22 gru 2018, 12:11 UTC+01
 !
 !
 ! Newslettery
@@ -48,8 +48,8 @@ biznesalert.pl##html:style(overflow: visible!important; margin-right: 0 !importa
 biznesalert.pl,deezee.pl,ursus.com.pl,medycznamarihuana.com,ergokantor.pl,stoprocent.com##.mfp-ready
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
 campingshop.pl,intershoe.com.pl###news_popup, .modal-backdrop
-cieplikpodrozuje.pl##.ArevicoModal, .ArevicoModal-bg
-cieplikpodrozuje.pl##.arvnoscroll:style(overflow: auto !important;)
+cieplikpodrozuje.pl,fashionvoyager.pl##.ArevicoModal, .ArevicoModal-bg
+cieplikpodrozuje.pl,fashionvoyager.pl##.arvnoscroll:style(overflow: auto !important;)
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
 deccoria.pl##.dc-modal-is-opened.dc-modal-wrapper, .dc-modal-is-opened.dc-modal-overlay
 deezee.pl##html:style(overflow: visible! important; padding-right: 0 !important;)
