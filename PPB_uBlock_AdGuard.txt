@@ -1,9 +1,9 @@
-! Checksum: i6eEMTfYiBdsL8NrXcO6pQ
+! Checksum: ewiGgGBwLIBfgkaZIOdBkA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 22 Dec 2018, 12:11 UTC+01
-! Version: 201812221211
+! Last modified: Sat, 22 Dec 2018, 13:13 UTC+01
+! Version: 201812221313
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 22 gru 2018, 12:11 UTC+01
+! Aktualizacja: sob, 22 gru 2018, 13:13 UTC+01
 !
 !
 ! Newslettery
@@ -211,7 +211,7 @@ alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
 annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###colorbox:not(:has(.cboxPhoto))
 apynews.pl###fb-modal, .modal-backdrop
-apynews.pl,linuxpl.com,lookcam.com,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+apynews.pl,linuxpl.com,lookcam.com,muscat.pl,mediasam.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##script:inject(abort-current-inline-script.js, $, popupNewsletter)
 biznes-host.pl##script:inject(abort-current-inline-script.js, $, myModalPromo)
 comperia.pl###modal_woman, .modal-backdrop
@@ -226,6 +226,7 @@ linuxpl.com###myModalDomenowy, .modal-backdrop
 lookcam.com###lookcam-fb-modal, .modal-backdrop
 makarun.pl###makarun-modal, .modal-backdrop
 makarun.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+mediasam.pl###myWorning, .modal-backdrop
 mprofi.pl##body:style(padding-right: 0 !important;)
 mprofi.pl##html:style(overflow: auto !important;)
 mprofi.pl##.tve-leads-lightbox
@@ -250,6 +251,7 @@ homebook.pl##^script[id^="tpl-newsletter-popup"]
 linuxpl.com##^#myModalDomenowy
 lookcam.com##^#lookcam-fb-modal
 makarun.pl##^.makarun-modal
+mediasam.pl##^#myWorning
 mprofi.pl##^.tve-leads-lightbox
 muscat.pl##^#discountPopup
 ogrodosfera.pl##^#NewsletterExit
@@ -278,6 +280,7 @@ homebook.pl$$script[id^="tpl-newsletter-popup"]
 linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
 makarun.pl$$.makarun-modal
+mediasam.pl$$#myWorning
 mprofi.pl$$.tve-leads-lightbox
 muscat.pl$$#discountPopup
 ogrodosfera.pl$$#NewsletterExit
