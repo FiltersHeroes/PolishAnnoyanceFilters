@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: j3oOZiaBadIGzn1tnmn00w
+! Checksum: DRLPimQWql5wxPKiv/dsJA
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Fri, 21 Dec 2018, 18:20 UTC+01
-! Version: 201812211820
+! Last modified: Sun, 23 Dec 2018, 12:11 UTC+01
+! Version: 201812231211
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pią, 21 gru 2018, 18:20 UTC+01
+! Aktualizacja: nie, 23 gru 2018, 12:11 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -25,6 +25,7 @@ autocentrum.pl##.web-push-box
 businessinsider.com.pl##.pushBell
 businessinsider.com.pl###pushDefaultPopUp
 ceneo.pl###notifications-toast
+estyl.pl###ue_push_dialog
 forum.dobreprogramy.pl##.alert-info.alert.consent_banner
 gazetkonosz.pl##.floating-dialog
 kryminalka.pl###Process0
@@ -89,6 +90,7 @@ typeofweb.com,pl###onesignal-popover-dialog
 ||wp.pl/*.webpush.chunk.js
 ||wp.pl/*.webpush-desktop.chunk.js
 ||wp.pl/*.webpush-desktop.legacy.chunk.js
+||youlead.pl/WebpushPrompt.js
 ||youtubersi.pl/themes/default/js/notify.js
 !
 !
