@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YMFlaSR9zfR+wft4XNPbIg
+! Checksum: 8TIT+BfWzeQ0GWDxz1jnBw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Sun, 23 Dec 2018, 11:33 UTC+01
-! Version: 201812231133
+! Last modified: Sun, 23 Dec 2018, 12:11 UTC+01
+! Version: 201812231211
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 23 gru 2018, 11:33 UTC+01
+! Aktualizacja: nie, 23 gru 2018, 12:11 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -1031,7 +1031,9 @@ entelo.pl##.b-modal, .bpopup
 eporady24.pl##.zaczekaj
 esensja.pl###FBox
 eska.pl###_hj_survey_invite_container
+estyl.pl###ue_form
 eswinoujscie.pl,arturjablonski.com##.ulp-layer, .ulp-overlay
+e-iglaki.pl###szkolenie-message
 e-insportline.pl###vivpopup-collapsed
 fabrykacukiernika.pl###gsNewsbox
 fabrykawafelkow.pl###someone-purchased
@@ -1490,6 +1492,7 @@ autocentrum.pl##.web-push-box
 businessinsider.com.pl##.pushBell
 businessinsider.com.pl###pushDefaultPopUp
 ceneo.pl###notifications-toast
+estyl.pl###ue_push_dialog
 forum.dobreprogramy.pl##.alert-info.alert.consent_banner
 gazetkonosz.pl##.floating-dialog
 kryminalka.pl###Process0
@@ -1554,6 +1557,7 @@ typeofweb.com,pl###onesignal-popover-dialog
 ||wp.pl/*.webpush.chunk.js
 ||wp.pl/*.webpush-desktop.chunk.js
 ||wp.pl/*.webpush-desktop.legacy.chunk.js
+||youlead.pl/WebpushPrompt.js
 ||youtubersi.pl/themes/default/js/notify.js
 !
 !
@@ -2360,8 +2364,6 @@ zwirex.pl###shoutbox
 ||widgets.trustedshops.com/js/*.js
 ||widget.customer-alliance.com/reviews/js/standard/*$script,domain=excelsior.com.pl
 ||widget.intercom.io/widget/*$script
-||widget.userengage.com/widget.js
-||widget.userengage.io/widget.js
 ||www.facebook.com/v*/plugins/customerchat.php$third-party
 ||znamibezpiecznie.pl/images/kontakt.png
 ||zopim.com^$third-party,domain=~nordvpn.com|~egb.com|~apteline.pl
