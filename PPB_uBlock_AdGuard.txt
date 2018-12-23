@@ -1,9 +1,9 @@
-! Checksum: fKIkYXFu0sXNyzd3t1sHIA
+! Checksum: nbX5rjOZkODzy6L+KM/rsw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 22 Dec 2018, 19:41 UTC+01
-! Version: 201812221941
+! Last modified: Sun, 23 Dec 2018, 11:15 UTC+01
+! Version: 201812231115
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: sob, 22 gru 2018, 19:41 UTC+01
+! Aktualizacja: nie, 23 gru 2018, 11:15 UTC+01
 !
 !
 ! Newslettery
@@ -30,6 +30,8 @@ gazeta.pl,sport.pl,gazeta.biz,tokfm.pl,gazetapraca.pl,moto.pl,wyborcza.pl,wyborc
 !
 !
 ! Popupy
+action.com##.has-popup:style(position: static !important;)
+action.com##.newsletter-popup
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
 agatabielen.com##.remodal-overlay
 akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
@@ -201,7 +203,6 @@ zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important;
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
 !habys.pl,bejeans.pl,majazoo.pl##html > body:style(overflow: visible !important;)
-@@||facebook.com/*/plugins/page.php$domain=cieplikpodrozuje.pl|fashionvoyager.pl,badfilter
 !
 !
 ! Popupy - specjalne instrukcje
