@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QSAlbDNqYKY6tZdAgtLWbg
+! Checksum: V9w+RtP0N62y4RXwPquU0Q
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 24 Dec 2018, 10:39 UTC+01
-! Version: 201812241039
+! Last modified: Mon, 24 Dec 2018, 12:20 UTC+01
+! Version: 201812241220
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 24 gru 2018, 10:39 UTC+01
+! Aktualizacja: pon, 24 gru 2018, 12:20 UTC+01
 !
 !
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
@@ -49,7 +49,7 @@ akademos.pl,misjonarska.com###myModal, .reveal-modal-bg
 alpinsklep.pl###tws_i_100000
 analizy.pl##.nl_toplayer.ui-draggable.ui-widget-content.ui-widget.ui-dialog
 apaczka.pl##.popupPromoBox
-apple-user.pl##.in.fades.mlab-modal
+apple-user.pl##.mlab-modal
 apteka-natura.eu###tws_i_1, #topLayerBackDrop
 aquapark.wroc.pl##.popup-start.popup
 arimr.gov.pl###kiwi_popup_layer
@@ -71,7 +71,7 @@ banki.pl,comperia.pl##.paniModal
 bankobranie.blogspot.com###overlay
 beautikon.com###mteo_popup_bg_layer
 bemuke.pl##div[id^="tws_i_"]
-beskidy.news##.js-pop-up.c-pop-up.hidden-xs
+beskidy.news##.c-pop-up
 beslow.pl##.ulp-window[data-title*="Newsletter"], .ulp-overlay
 bgsw.pl###pum-19246
 bigchina.pl###myModal
@@ -118,7 +118,7 @@ decoliving.pl###pop-up-newsletter
 dekoria.pl##.newsletter_popup
 diag.pl###popUp, .modal-backdrop
 diversesystem.com###dvrs-newsletter-popup-body
-dobiegania.pl,arms.com.pl###colorbox, #cboxOverlay
+dobiegania.pl,arms.com.pl,temysli.pl,kierunekchorwacja.pl,resulto.pl###colorbox, #cboxOverlay
 dobredomy.pl###pop_promocja
 dogry.pl##.register-overlayer--game, .register-modal
 dominospizza.pl##.popup_exit, .overlay, #jsNewsletterLayer
@@ -150,6 +150,7 @@ farbotka.pl###fx-modal-2
 fashionata.pl##.nlpwContainer, .pwShade
 fashionpost.pl##.newsletter-overall
 feriogaj.com##.popup-overlay
+fifek.pl###ips-popup, #ips-popup-wrapper
 forgeofempires.com###offer-diamonds
 forumpediatryczne.pl##.ui-dialog[aria-describedby*="ajaxDialoghttpwwwforumpediatryczneplzobacztakze"],.ui-widget-overlay
 forumpediatryczne.pl,forumstomatologiczne.pl,forumneurologiczne.pl,psychiatria.pl##.ui-dialog[aria-describedby*="zobacztakzearticle"], .ui-widget-overlay
@@ -195,7 +196,7 @@ interiore.pl###popup-content, #popup-overlay
 intymna.pl,decoliving.pl###pop-up-powiadomienia
 iperfumy.pl###pd-box-overlay, #pd-box-window, #pd-box-HideSelect
 isbnews.pl###cover
-it-develop.pl##.grwf2_backdrop, .grwf2-wrapper
+it-develop.pl,ombre.pl,zbigniewsyc.pl##.grwf2_backdrop, .grwf2-wrapper
 jajco.pl###popupDiv
 jaknegocjowac.com.pl###popmake-786
 jednymtchem.pl###stb-overlay, .stb
@@ -204,7 +205,6 @@ kamira90.blogspot.com###fbox-background, #fbox-close
 kataloog.info###mask, #lorem
 katowice-airport.com###carwash-banner-c
 kfd.pl###popupslider, #dimBackgrnd
-kierunekchorwacja.pl###cboxOverlay, #colorbox
 kierunekspozywczy.pl###skycrapper
 klasek.pl###spu-bg, #spu-main
 kodano.pl###cboxOverlay, .bg_orange_popup, .i-am-new
@@ -251,8 +251,9 @@ mediarun.com##.fancybox-outer, .fancybox-overlay
 media-tech.eu###OverlayContainer_rcw
 media-tech.eu###popup_mediatech, #Overlay
 media-tech.eu###rc_window_squeeze
+medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
 meditrendy.pl,recea.pl,recman.pl,tendina.pl###edrone--main--pu--container
-medpozyczka.pl,kasotronik.pl###popupEmailPhone
+medpozyczka.pl,kasotronik.pl,okmoneta.pl,pozyczymyci.pl###popupEmailPhone
 metin2list.pl###news_popup
 mettosport.eu##.wf2-shake-box, .grwf2_backdrop
 mhtm.pl###spu-1417, #spu-bg-1417
@@ -304,13 +305,10 @@ obtkarma.pl#?#.fancybox-wrap:-abp-has(#popupnews-form)
 ogrodnictwo.expert###popup-box-gfcr-1
 okiemrolnika.pl##.ls-popup, .ls-popup-overlay
 okiemturysty.pl##.div_box0
-okmoneta.pl###popupEmailPhone
 okularywsieci.pl##.xrootBox, .xrootBoxOverlay
-ombre.pl##.grwf2_backdrop, .grwf2-wrapper
 ono24.info##.bts-popup
 opensubtitles.org###fadeSub, #lightSub
-opinie-perfumy.pl###ulp-DTndPeUhrIb2UnxC-overlay
-opinie-perfumy.pl##.ulp-content
+opinie-perfumy.pl##.ulp-overlay, [data-title="KOD RABATOWY"]
 orange.pl###advertslice
 osada-sniezka.pl###popModal, .modal-backdrop
 oszustwo.net##div[id^="ulp-"]
@@ -364,7 +362,6 @@ poradniktransportowy.pl###wbounce-modal
 portel.pl###closeTL
 poscielone.pl###tk_popup
 poznaj-swiat.pl###popup, #overlay
-pozyczymyci.pl###popupEmailPhone
 pracatobie.pl###Ankieta1PopupContent, #Ankieta1PopupBackground
 prettyone.pl##.modal-backdrop, .pwebbox-modal
 prezeska.pl##.pum
@@ -452,8 +449,6 @@ taniejdladomu.pl###newsletterBg, #newsletterContainer
 targipolnocne.pl,targizachodnie.pl,lodzkietargi.pl###popup_mlm
 teatrkomedia.pl###splash
 telewizja-cyfrowa.com,znaczkijakrobaczki.pl,blogojciec.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
-temysli.pl###cboxOverlay
-temysli.pl###cboxWrapper
 tokfm.pl###komunikat_dla_player3
 travelist.pl###logregLead, #modalOverlay
 triminator.pl###bhr-overlay, .bhr-popup-container
@@ -494,8 +489,6 @@ wysokienapiecie.pl##.modal-overlay
 yoursclothing.pl##.js-overlay, .slideInBox
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zakazany-humor.pl##.snp-pop-111-wrap.snp-wrap, .snp-pop-111-overlay
-zbigniewsyc.pl###grwf2_10223504_925j9
-zbigniewsyc.pl##.wf2-bg-dark.grwf2_backdrop
 zblogowani.pl###more-posts-modal
 zegarki-online.pl###InfoNewsletter, #InfoNewsletterOkno
 zielonagrupa.pl##.et_bloom_auto_popup.et_bloom_popup
@@ -512,7 +505,7 @@ zszywka.pl###inv-request-popup
 /plugins/facebook-fanbox-popup
 /plugins/facebook-page-promoter-$~stylesheet,~image
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
-/wp-content/plugins/bloom/js/custom.js$domain=subiektywnieofinansach.pl|webinsider.pl|majsterkowo.pl|mojmac.pl
+/wp-content/plugins/bloom/js/custom.js$domain=subiektywnieofinansach.pl|webinsider.pl|majsterkowo.pl|mojmac.pl|thebodyshopclub.pl
 /wp-content/plugins/boxzilla/assets/js/script.min.js$domain=gdanskstrefa.com|ciekawe.org
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|zbudujsamdom.pl|magnapolonia.org|shareinfo.pl|kulturawplot.pl
