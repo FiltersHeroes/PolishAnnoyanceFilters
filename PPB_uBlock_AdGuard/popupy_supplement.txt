@@ -69,7 +69,7 @@ kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1!important;)
 kmziz.pl###full_newsletter_modal, .modal-backdrop
 kmziz.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 limango.pl##body.welcome_main.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
-limango.pl##.js_welcome_background.background_overlay, .modal
+limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 macris.com.pl###newsletter-popup
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
 majazoo.pl##.fancybox-overlay:has(.modulesden-newsletter)
@@ -83,7 +83,7 @@ misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
 mulan.pl,wetro.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
 mulan.pl,wetro.pl##.swal2-container
-mulan.pl,wetro.pl,wishbone.pl,agatabielen.com##body:style(padding-right: 0 !important;)
+mulan.pl,wetro.pl,wishbone.pl,agatabielen.com,polonia.edu.pl##body:style(padding-right: 0 !important;)
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##script:inject(abort-on-property-read.js, window.onbeforeunload)
@@ -107,6 +107,7 @@ pl.aleteia.org,pakamera.pl##html.fancybox-lock > body:style(overflow: auto !impo
 pl.aleteia.org,pakamera.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
 polferries.pl###polferries-popup-global
 polferries.pl##.has-modal-custom:style(overflow: auto !important;)
+polonia.edu.pl###newslettermodal, .modal-backdrop
 polskieszlaki.pl##[id].show.fade.modal, .modal-backdrop
 pol-ukr.com##.popmake-overlay
 pol-ukr.com##.pum-open:style(overflow: auto !important;)
