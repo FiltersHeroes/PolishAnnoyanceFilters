@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: DRLPimQWql5wxPKiv/dsJA
+! Checksum: xwqfRI1D5a+UMfJsVqgOFQ
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sun, 23 Dec 2018, 12:11 UTC+01
-! Version: 201812231211
+! Last modified: Tue, 25 Dec 2018, 14:27 UTC+01
+! Version: 201812251427
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: nie, 23 gru 2018, 12:11 UTC+01
+! Aktualizacja: wto, 25 gru 2018, 14:27 UTC+01
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
@@ -50,6 +50,7 @@ typeofweb.com,pl###onesignal-popover-dialog
 /sw.js$domain=zippyshare.com|youtube.com|openload.co|podaj.to|mojwzrok.pl|optes.pl|taniesoczewki.pl
 ||api.sociaplus.com/views/push/js/sdk/insider-push-native-sdk.js
 ||cashless.pl/serviceworker.js
+||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
 ||cdn.gravitec.net/sites/*/client.js
 ||cdn.gravitec.net/storage/*/client.js
 ||cdn.onesignal.com/sdks/OneSignalSDK.js$third-party
