@@ -1,9 +1,9 @@
-! Checksum: RwWYDlZrMLJJJApkPCzRKw
+! Checksum: gk/NxMr8pkHuSgw9ql/l1Q
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Mon, 24 Dec 2018, 23:11 UTC+01
-! Version: 201812242311
+! Last modified: Tue, 25 Dec 2018, 12:46 UTC+01
+! Version: 201812251246
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: pon, 24 gru 2018, 23:11 UTC+01
+! Aktualizacja: wto, 25 gru 2018, 12:46 UTC+01
 !
 !
 ! Newslettery
@@ -101,7 +101,7 @@ kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1!important;)
 kmziz.pl###full_newsletter_modal, .modal-backdrop
 kmziz.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 limango.pl##body.welcome_main.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
-limango.pl##.js_welcome_background.background_overlay, .modal
+limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 macris.com.pl###newsletter-popup
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
 majazoo.pl##.fancybox-overlay:has(.modulesden-newsletter)
@@ -115,7 +115,7 @@ misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
 mulan.pl,wetro.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
 mulan.pl,wetro.pl##.swal2-container
-mulan.pl,wetro.pl,wishbone.pl,agatabielen.com##body:style(padding-right: 0 !important;)
+mulan.pl,wetro.pl,wishbone.pl,agatabielen.com,polonia.edu.pl##body:style(padding-right: 0 !important;)
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##script:inject(abort-on-property-read.js, window.onbeforeunload)
@@ -139,6 +139,7 @@ pl.aleteia.org,pakamera.pl##html.fancybox-lock > body:style(overflow: auto !impo
 pl.aleteia.org,pakamera.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
 polferries.pl###polferries-popup-global
 polferries.pl##.has-modal-custom:style(overflow: auto !important;)
+polonia.edu.pl###newslettermodal, .modal-backdrop
 polskieszlaki.pl##[id].show.fade.modal, .modal-backdrop
 pol-ukr.com##.popmake-overlay
 pol-ukr.com##.pum-open:style(overflow: auto !important;)
