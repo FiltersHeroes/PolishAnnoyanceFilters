@@ -1,1 +1,95 @@
- 
+! Codename: Pop-ups - supplement
+!
+!#if !cap_html_filtering
+activ-investment.eu##script:inject(abort-current-inline-script.js, openNewsletter)
+alemeksyk.eu##.pwebbox-modal, .modal-backdrop
+alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
+annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
+apynews.pl###fb-modal, .modal-backdrop
+apynews.pl,linuxpl.com,lookcam.com,muscat.pl,mediasam.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+bartek.com.pl##script:inject(abort-current-inline-script.js, $, popupNewsletter)
+biznes-host.pl##script:inject(abort-current-inline-script.js, $, myModalPromo)
+comperia.pl###modal_woman, .modal-backdrop
+comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
+diamante-wear.com##.newsletter__popup
+diamante-wear.com##.popup__opened:style(overflow: auto !important;)
+drzwi-cal.pl##.pum-open:style(overflow: auto !important; padding-right: 0 !important;)
+drzwi-cal.pl##.pum-theme-promocja-urodzinowa.popmake-overlay
+homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-right: 0px!important;)
+homebook.pl##.popup-overlay:has(.popup-content--newsletter)
+linuxpl.com###myModalDomenowy, .modal-backdrop
+lookcam.com###lookcam-fb-modal, .modal-backdrop
+makarun.pl###makarun-modal, .modal-backdrop
+makarun.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+mediasam.pl###myWorning, .modal-backdrop
+mprofi.pl##body:style(padding-right: 0 !important;)
+mprofi.pl##html:style(overflow: auto !important;)
+mprofi.pl##.tve-leads-lightbox
+muscat.pl###discountPopup, .modal-backdrop
+ogrodosfera.pl###NewsletterExit, .modal-backdrop
+ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
+sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
+zoo.bydgoszcz.com###NewsShow, .modal-backdrop
+zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
+!annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
+!annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###colorbox:has(#newsletter_colorbox)
+!#endif
+!#if cap_html_filtering
+activ-investment.eu##^script:has-text(openNewsletter)
+alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
+annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl##^#newsletter_colorbox
+apynews.pl##^#fb-modal
+bartek.com.pl##^script:has-text(popupNewsletter)
+biznes-host.pl##^#myModalPromo
+comperia.pl##^#modal_woman
+diamante-wear.com##^.newsletter__popup
+drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
+homebook.pl##^script[id^="tpl-newsletter-popup"]
+linuxpl.com##^#myModalDomenowy
+lookcam.com##^#lookcam-fb-modal
+makarun.pl##^.makarun-modal
+mediasam.pl##^#myWorning
+mprofi.pl##^.tve-leads-lightbox
+muscat.pl##^#discountPopup
+ogrodosfera.pl##^#NewsletterExit
+sportowefakty.wp.pl##^#exitpopup
+zoo.bydgoszcz.com##^#NewsShow
+!#endif
+!#if !ext_ublock
+activ-investment.eu##html.fancybox-lock:style(overflow: visible!important;)
+activ-investment.eu###newsletter-content
+activ-investment.eu##.fancybox-overlay:has(.newsletter-fancybox-wrapper)
+activ-investment.eu##.fancybox-overlay:style(overflow: hidden!important;)
+activ-investment.eu$$script[tag-content="openNewsletter"]
+alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
+annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
+annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl$$#newsletter_colorbox
+apynews.pl$$#fb-modal
+bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
+bartek.com.pl$$script[tag-content="popupNewsletter"]
+biznes-host.pl###myModalPromo, .modal-backdrop
+biznes-host.pl##.modal-open:style(overflow: auto !important;)
+biznes-host.pl$$#myModalPromo
+comperia.pl$$#modal_woman
+diamante-wear.com$$.newsletter__popup
+drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
+homebook.pl$$script[id^="tpl-newsletter-popup"]
+linuxpl.com$$#myModalDomenowy
+lookcam.com$$#lookcam-fb-modal
+makarun.pl$$.makarun-modal
+mediasam.pl$$#myWorning
+mprofi.pl$$.tve-leads-lightbox
+muscat.pl$$#discountPopup
+ogrodosfera.pl$$#NewsletterExit
+sferis.pl##html.fancybox-lock > body:style(overflow: auto !important;)
+sferis.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
+sferis.pl##.fancybox-overlay:has(#newsletter-popup)
+sportowefakty.wp.pl$$#exitpopup
+zoo.bydgoszcz.com$$#NewsShow
+!#endif
+!#if ext_ublock
+annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###colorbox:not(:has(.cboxPhoto))
+autostrada-a4.com.pl##.topbaner
+autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
+!#endif
