@@ -1,0 +1,15 @@
+! Codename: Pop-ups - supplement
+!
+@include PPB_uBlock_AdGuard/popupy_supplement
+!#if !cap_html_filtering
+@include ../PPB_uBlock_AdGuard/popupy_bez_html
+!#endif
+!#if cap_html_filtering
+@include ../PPB_uBlock_AdGuard/popupy_html
+!#endif
+!#if !ext_ublock
+@include ../PPB_uBlock_AdGuard/popupy_AG
+!#endif
+!#if ext_ublock
+@include ../PPB_uBlock_AdGuard/popupy_uBO
+!#endif
