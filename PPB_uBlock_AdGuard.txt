@@ -1,9 +1,9 @@
-! Checksum: 6B3Q2LxSqDP4QJTMN232HQ
+! Checksum: IwJH03QTbUpTmPYLP6Wubg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 27 Dec 2018, 11:49 UTC+01
-! Version: 201812271149
+! Last modified: Thu, 27 Dec 2018, 12:45 UTC+01
+! Version: 201812271245
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 27 gru 2018, 11:49 UTC+01
+! Aktualizacja: czw, 27 gru 2018, 12:45 UTC+01
 !
 !
 ! Newslettery
@@ -214,7 +214,6 @@ activ-investment.eu##script:inject(abort-current-inline-script.js, openNewslette
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
-annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 apynews.pl###fb-modal, .modal-backdrop
 apynews.pl,linuxpl.com,lookcam.com,muscat.pl,mediasam.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##script:inject(abort-current-inline-script.js, $, popupNewsletter)
@@ -241,6 +240,7 @@ ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
 sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
+!annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###colorbox:has(#newsletter_colorbox)
 !#endif
 !#if cap_html_filtering
@@ -271,6 +271,7 @@ activ-investment.eu##.fancybox-overlay:has(.newsletter-fancybox-wrapper)
 activ-investment.eu##.fancybox-overlay:style(overflow: hidden!important;)
 activ-investment.eu$$script[tag-content="openNewsletter"]
 alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
+annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl$$#newsletter_colorbox
 apynews.pl$$#fb-modal
 bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
@@ -297,6 +298,7 @@ sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
 !#endif
 !#if ext_ublock
+annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###colorbox:not(:has(.cboxPhoto))
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 !#endif
