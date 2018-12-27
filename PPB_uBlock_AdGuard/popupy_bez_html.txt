@@ -2,7 +2,6 @@ activ-investment.eu##script:inject(abort-current-inline-script.js, openNewslette
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
-annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 apynews.pl###fb-modal, .modal-backdrop
 apynews.pl,linuxpl.com,lookcam.com,muscat.pl,mediasam.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##script:inject(abort-current-inline-script.js, $, popupNewsletter)
@@ -29,4 +28,5 @@ ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
 sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
+!annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###colorbox:has(#newsletter_colorbox)
