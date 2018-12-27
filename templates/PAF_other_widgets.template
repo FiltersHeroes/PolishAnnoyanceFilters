@@ -17,6 +17,15 @@
 ! Aktualizacja: @aktualizacja
 !
 !
+!
+@include widgety
+!
+!
+! Wyjątki
+@include wyjatki
+!
+!
+!
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
 !#include PPB_uBlock_AdGuard/widgety_supplement.txt
 !#if !cap_html_filtering
@@ -28,10 +37,3 @@
 !#if !ext_ublock
 !#include PPB_uBlock_AdGuard/widgety_AG.txt
 !#endif
-!
-!
-@include widgety
-!
-!
-! Wyjątki
-@include wyjatki

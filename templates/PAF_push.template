@@ -17,8 +17,6 @@
 ! Aktualizacja: @aktualizacja
 !
 !
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#include PPB_uBlock_AdGuard/push_supplement.txt
 !
 !
 @include push
@@ -26,3 +24,7 @@
 !
 ! Wyjątki
 @include wyjatki
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
+!#include PPB_uBlock_AdGuard/push_supplement.txt

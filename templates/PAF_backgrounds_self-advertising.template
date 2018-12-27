@@ -17,12 +17,13 @@
 ! Aktualizacja: @aktualizacja
 !
 !
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
-!#include PPB_uBlock_AdGuard/tla_autoreklamy_supplement.txt
-!
 !
 @include tla_autoreklamy
 !
 !
 ! Wyjątki
 @include wyjatki
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
+!#include PPB_uBlock_AdGuard/tla_autoreklamy_supplement.txt
