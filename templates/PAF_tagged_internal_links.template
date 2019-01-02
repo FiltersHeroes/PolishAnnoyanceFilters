@@ -5,7 +5,7 @@
 ! Codename: Tagged Internal Links
 ! Description: Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.
 ! Last modified: @modified
-! Version: @wersja
+! Version: @version
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -17,8 +17,5 @@
 ! Aktualizacja: @aktualizacja
 !
 !
-@include ../PPB_uBlock_AdGuard/otagowane_linki_supplement
-!
-!
-! Wyjątki
-@include wyjatki
+@path PPB/uBO_AG
+@include otagowane_linki_supplement
