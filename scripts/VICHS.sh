@@ -151,7 +151,11 @@ for i in "$@"; do
     rm -r $i.chk
 
     # Dodawanie zmienionych plików do repozytorium git
-    git add $i
+    if [ ! "$RTM_MODE" ] ; then
+        git add $i
+    fi
+
+    # Commitowanie zmienionych plików
     if [ "$CI" = "true" ] ; then
         git commit -m "Update $filter to version $version [ci skip]"
     elif [ ! "$RTM_MODE" ] ; then
