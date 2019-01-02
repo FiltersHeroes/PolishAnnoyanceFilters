@@ -5,9 +5,15 @@ sciezka=$(dirname "$0")
 
 cd $sciezka/..
 
-ost_zmieniony_plik=$(git diff -z --name-only | xargs -0)
+if [ "$CI" = "true" ] ; then
+    git config --global user.email "PolishJarvis@int.pl"
+    git config --global user.name "PolishJarvis"
+    ost_plik=$(git diff-tree --no-commit-id --name-only -r master)
+else
+    ost_plik=$(git diff -z --name-only | xargs -0)
+fi
 
-for i in $ost_zmieniony_plik; do
+for i in $ost_plik; do
     if [ "$i" == "PPB/push.txt" ] || [ "$i" == "PPB/uBO_AG/push_supplement.txt" ]; then
         if [[ "$modul" != *" PAF_push.txt"* ]] ;then
             modul+=" "PAF_push.txt
