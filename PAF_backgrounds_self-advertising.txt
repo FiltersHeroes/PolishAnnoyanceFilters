@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4e8SC2qmTBntZjheJu57bg
+! Checksum: 6RnBeMd0Ho94RcYPmymesw
 ! Title: Polskie Filtry Elementów Irytujących - Tła Zawierające Autoreklamy
 ! Polish Annoyance Filters - Backgrounds Containing Self-Advertising
 ! Codename: Backgrounds
 ! Description: Filtry ukrywające i blokujące tła zawierające autoreklamy.
-! Last modified: Tue, 18 Dec 2018, 19:33 UTC+01
-! Version: 201812181933
+! Last modified: Wed, 02 Jan 2019, 19:51 UTC+01
+! Version: 2019.1.1
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,11 +14,8 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: wto, 18 gru 2018, 19:33 UTC+01
+! Aktualizacja: śro, 02 sty 2019, 19:51 UTC+01
 !
-!
-! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
-!#include PPB_uBlock_AdGuard/tla_autoreklamy_supplement.txt
 !
 !
 czarymary.pl###checkWidthFullMain1
@@ -30,6 +27,7 @@ pl.gearbest.com##.indexBk
 !
 ! Wyjątki
 dron.pl#@#.widget_wysija
+eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
 forum.dobreprogramy.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
 rmf24.pl#@##backTop
@@ -37,3 +35,7 @@ zblogowani.pl#@##ouibounce-modal
 !brewa.pl#@#.newsletter:not(#popup_newsletter)
 !ms.gov.pl#@##scroll-top
 @@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
+!#include PPB/uBO_AG/tla_autoreklamy_supplement.txt
