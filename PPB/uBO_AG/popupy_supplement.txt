@@ -1,12 +1,12 @@
 action.com##.has-popup:style(position: static !important;)
-action.com##.newsletter-popup
+action.com,ekai.pl,jezykiobce.pl##.newsletter-popup
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
 agatabielen.com##.remodal-overlay
 akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
 akademiaversum.pl###newsletter-pp
 alerabat.com##body:style(overflow-y: auto !important;)
 alerabat.com##.jquery-modal
-alesoczewki.com,nife.pl###news_popup, .modal-backdrop
+alesoczewki.com,nife.pl,campingshop.pl,intershoe.com.pl###news_popup, .modal-backdrop
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,motoria.pl,pupilo.pl,sklep-presto.pl,ubieramy.pl##.morele-dialog-show:style(overflow: auto !important; padding-right: 0 !important;)
 archonhome.pl,eurobuty.com.pl,mintshost.pl,prnews.pl,s-pl.pl,mamalla.pl###myModal, .modal-backdrop
 auchandirect.pl##.prehomepage.featherlight
@@ -17,7 +17,6 @@ bejeans.pl##.fancybox-overlay-fixed.fancybox-overlay
 biznesalert.pl##html:style(overflow: visible!important; margin-right: 0 !important)
 biznesalert.pl,deezee.pl,ursus.com.pl,medycznamarihuana.com,ergokantor.pl,stoprocent.com##.mfp-ready
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
-campingshop.pl,intershoe.com.pl###news_popup, .modal-backdrop
 cieplikpodrozuje.pl,fashionvoyager.pl##.ArevicoModal, .ArevicoModal-bg
 cieplikpodrozuje.pl,fashionvoyager.pl##.arvnoscroll:style(overflow: auto !important;)
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
@@ -33,10 +32,9 @@ ebroker.pl##.ngdialog-theme-popup-ebroker
 edugrafia.pl##html.hustle-no-scroll body:style(overflow: auto !important;)
 edugrafia.pl##.wph-modal, .wph-modal-mask
 ekai.pl##html > body:style(overflow: auto !important;)
-ekai.pl,jezykiobce.pl##.newsletter-popup
 endo.pl###modalNL, .modal-backdrop
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !important;)
-euro.com.pl##.remodal-overlay, #popup
+euro.com.pl###popup, .remodal-overlay
 euro.com.pl##.remodal-wrapper:has(.nllContainer)
 euro.com.pl,stoprocent.com##html:style(overflow: auto !important; margin-right: 0 !important;)
 evertourist.com##.fancybox-overlay:has(#newsletterModal)
@@ -56,15 +54,14 @@ habys.pl,bejeans.pl,majazoo.pl,evertourist.com##html.fancybox-margin:style(margi
 husse.pl##body.fancybox-active:style(overflow: auto !important;)
 husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
-instytutozonoterapii.pl##[data-popmake*="zapisz-sie-do-newslettera"]
+instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
 intershoe.com.pl##body.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,alesoczewki.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 jooble.org##body.no_scroll:style(height: 100%!important; overflow: visible !important; width: 100% !important;)
 jooble.org###popup
 jordanki.torun.pl###newsletter, .modal-backdrop
-kiddabadam.com##.popup
+kiddabadam.com,kiep.pl##.popup
 kiddabadam.com##.popup--blur:style(filter: none !important;)
-kiep.pl##.popup
 kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1!important;)
 kmziz.pl###full_newsletter_modal, .modal-backdrop
 kmziz.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
@@ -89,7 +86,7 @@ newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##script:inject(abort-on-property-read.js, window.onbeforeunload)
 obk.pl##.yith-opened:style(overflow: auto !important;)
 obk.pl##.yith-popup, .yithpopup_overlay
-odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl##.popmake-overlay
+odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com##.popmake-overlay
 odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,instytutozonoterapii.pl##html.pum-open:style(overflow: auto !important;)
 oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 oleole.pl,wishbone.pl##html:style(overflow: auto !important;)
@@ -109,7 +106,6 @@ polferries.pl###polferries-popup-global
 polferries.pl##.has-modal-custom:style(overflow: auto !important;)
 polonia.edu.pl###newslettermodal, .modal-backdrop
 polskieszlaki.pl##[id].show.fade.modal, .modal-backdrop
-pol-ukr.com##.popmake-overlay
 pol-ukr.com##.pum-open:style(overflow: auto !important;)
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
@@ -134,7 +130,7 @@ sklepmartes.pl##.modalbox--has-closebtn
 sklep.krosno.com.pl##.modalbox
 sklep.krosno.com.pl##.modalbox-is-visible body:style(overflow: auto !important;)
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
-smaker.pl###overlay, #popup
+smaker.pl###popup, #overlay
 socialpress.pl##.bottom-content-newsletter
 spidersweb.pl##.mfp-bg
 spidersweb.pl##.mfp-ready:has(.popoup-content)
