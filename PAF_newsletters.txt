@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 7iBaKMsUmyECviKI1SDd8g
+! Checksum: Je81lSrAkSQinNv8ETLVtw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Thu, 03 Jan 2019, 08:45 UTC+01
-! Version: 2019.1.4
+! Last modified: Thu, 03 Jan 2019, 09:51 UTC+01
+! Version: 2019.1.5
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2018 Polish Filters Team
-! Aktualizacja: czw, 03 sty 2019, 08:45 UTC+01
+! Aktualizacja: czw, 03 sty 2019, 09:51 UTC+01
 !
 !
 !
@@ -227,6 +227,7 @@ e-kiosk.pl##.form-newsletter
 e-korepetycje.net##.offer-sidebar-banner
 e-prawnik.pl##.boxA2
 e-sporting.pl###newsletterForm, .fnlsl
+e-widuchowa.pl,telewizjazary.pl,kociewiak.pl,tvobiektyw.pl,echotygodnik.info,damitv.pl,ct.jaworzno.pl,pzl24.pl,tvsudecka.pl,bydgoszcz.com,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 fabrykazabawek.eu##.col-md-3.trzecia
 fandroid.com.pl##.manohara-mailchimp--aligned-center, .widget-incredibbble-mailchimp-form
 farmer.pl##.v3.ntabs > li:nth-child(-n+1)
@@ -446,7 +447,6 @@ myloview.pl###submitMe
 myphone.pl##div.stayInContact__item:nth-of-type(3)
 nadrapaku.pl###HTML3
 namyslow.pl##.footerBoxNewsletter
-narew.info,e-widuchowa.pl,telewizjazary.pl,kociewiak.pl,tvobiektyw.pl,echotygodnik.info,damitv.pl,ct.jaworzno.pl,pzl24.pl,tvsudecka.pl,bydgoszcz.com,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 nastopy.pl###newslettersignup
 naszebialeblota.pl###text-3
 naszerecenzje.wordpress.com###blog_subscription-4
@@ -909,6 +909,7 @@ zus.pox.pl##.moduletable:nth-of-type(5)
 zyciepabianic.pl###col1 > .widget:nth-of-type(3)
 zyciepabianic.pl###widget-newsletter
 zygzaksnow.pl###blocknewsletter
+!narew.info##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 /btn-newsletter
 /button/newsletter.jpg
 /wp-content/plugins/wysija-newsletters
