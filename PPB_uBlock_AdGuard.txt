@@ -1,9 +1,9 @@
-! Checksum: 0nS9CuEpNtF2HQTlHb/Tbg
+! Checksum: 1hi/nJPWaKjtpoTrkTga8Q
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 11 Jan 2019, 11:13 UTC+01
-! Version: 2019.1.11.1
+! Last modified: Fri, 11 Jan 2019, 18:15 UTC+01
+! Version: 2019.1.11.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 11 sty 2019, 11:13 UTC+01
+! Aktualizacja: pią, 11 sty 2019, 18:15 UTC+01
 !
 !
 ! Newslettery
@@ -75,7 +75,7 @@ e-biznes.pl##.onp-sl-outer-wrap
 farmer.pl###nowa_strona
 farmer.pl##.windowOpen:style(overflow: auto !important;)
 forum.gofin.pl###KW_Tlo, #KW_Okno
-forum.gofin.pl,socialpress.pl,unityline.pl,www.ozog.pl,zegarkiipasja.pl,zielonasowa.pl,modea.pl##body:style(overflow: auto !important;)
+forum.gofin.pl,socialpress.pl,unityline.pl,www.ozog.pl,zegarkiipasja.pl,zielonasowa.pl##body:style(overflow: auto !important;)
 fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
 fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
@@ -109,7 +109,6 @@ minecraft.org.pl##.modal, .modal-backdrop
 minecraft.org.pl,bilety24.pl,mintshost.pl,biznes-host.pl,um24.pl,endo.pl,mamalla.pl##.modal-open:style(overflow: auto !important;)
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
-modea.pl###bio_ep, #bio_ep_bg
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
 mulan.pl,wetro.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
 mulan.pl,wetro.pl##.swal2-container
