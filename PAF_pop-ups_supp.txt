@@ -45,7 +45,7 @@ e-biznes.pl##.onp-sl-outer-wrap
 farmer.pl###nowa_strona
 farmer.pl##.windowOpen:style(overflow: auto !important;)
 forum.gofin.pl###KW_Tlo, #KW_Okno
-forum.gofin.pl,socialpress.pl,unityline.pl,www.ozog.pl,zegarkiipasja.pl,zielonasowa.pl##body:style(overflow: auto !important;)
+forum.gofin.pl,socialpress.pl,unityline.pl,www.ozog.pl,zegarkiipasja.pl,zielonasowa.pl,modea.pl##body:style(overflow: auto !important;)
 fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
 fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
@@ -79,6 +79,7 @@ minecraft.org.pl##.modal, .modal-backdrop
 minecraft.org.pl,bilety24.pl,mintshost.pl,biznes-host.pl,um24.pl,endo.pl,mamalla.pl##.modal-open:style(overflow: auto !important;)
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
+modea.pl###bio_ep, #bio_ep_bg
 motomirko.pl##script:inject(setTimeout-defuser.js, setSigninNotify)
 mulan.pl,wetro.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
 mulan.pl,wetro.pl##.swal2-container
@@ -176,14 +177,14 @@ zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
 !habys.pl,bejeans.pl,majazoo.pl##html > body:style(overflow: visible !important;)
 !#if !cap_html_filtering
-activ-investment.eu##script:inject(abort-current-inline-script.js, openNewsletter)
+activ-investment.eu##+js(abort-current-inline-script.js, openNewsletter)
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
 apynews.pl###fb-modal, .modal-backdrop
 apynews.pl,linuxpl.com,lookcam.com,muscat.pl,mediasam.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
-bartek.com.pl##script:inject(abort-current-inline-script.js, $, popupNewsletter)
-biznes-host.pl##script:inject(abort-current-inline-script.js, $, myModalPromo)
+bartek.com.pl##+js(abort-current-inline-script.js, $, popupNewsletter)
+biznes-host.pl##+js(abort-current-inline-script.js, $, myModalPromo)
 comperia.pl###modal_woman, .modal-backdrop
 comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0px !important;)
 diamante-wear.com##.newsletter__popup
@@ -203,7 +204,7 @@ mprofi.pl##.tve-leads-lightbox
 muscat.pl###discountPopup, .modal-backdrop
 ogrodosfera.pl###NewsletterExit, .modal-backdrop
 ogrodosfera.pl##.modal-open:style(overflow: auto !important;)
-sportowefakty.wp.pl##script:inject(remove-attr.js, id, .exitpopup)
+sportowefakty.wp.pl##+js(remove-attr.js, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
