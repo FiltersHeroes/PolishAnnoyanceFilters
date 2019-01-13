@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: UH4FUNZLZgFezSIveyLjQg
+! Checksum: EIA3jxWRKcVmtVXT5zO72A
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Sat, 12 Jan 2019, 14:34 UTC+01
-! Version: 2019.1.12.2
+! Last modified: Sun, 13 Jan 2019, 08:56 UTC+01
+! Version: 2019.1.13.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: sob, 12 sty 2019, 14:34 UTC+01
+! Aktualizacja: nie, 13 sty 2019, 08:56 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -2192,6 +2192,7 @@ farmer.pl##.box-40
 feromony.pl,sla.pl###clickdesk-appendable-bubble
 feryster.pl###drift-widget, #show-contact
 finnair.com##.giosg-button
+firany.sklep.pl###czatStart
 fly.pl##.btn-sticky-feedback
 fm.tuba.pl###feed
 fsmm.pl##body > .contactform
@@ -2953,8 +2954,8 @@ zblogowani.pl#@##ouibounce-modal
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 2019.1.12.2
-!@Last modified: Sat, 12 Jan 2019, 14:16 UTC+01
+!@Version: 2019.1.12.3
+!@Last modified: Sat, 12 Jan 2019, 19:09 UTC+01
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -2965,7 +2966,7 @@ zblogowani.pl#@##ouibounce-modal
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2019 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.2019.1.12.2 aktualizacja: sob, 12 sty 2019, 14:16 UTC+01
+!@v.2019.1.12.3 aktualizacja: sob, 12 sty 2019, 19:09 UTC+01
 !
 !
 !@Specyficzne reguły ukrywające
@@ -4224,7 +4225,7 @@ radom24.pl##div#ciasteczka-info
 raiffeisenpolbank.com###valid_cookie_message
 rajapack.pl###barre__cookie.barre__cookie
 ramboll.pl##.infoboxHolder
-ranking.abczdrowie.pl###app > div > div > div:nth-of-type(4) > div
+ranking.abczdrowie.pl#?##app > div > div > div > div:-abp-has(a[href="https://portal.abczdrowie.pl/strona/polityka-prywatnosci"])
 rankomat.pl###rankomat-cookies-div
 ravelo.pl##.use-cookie-box-n
 rawlplug.com###cookies-warning
