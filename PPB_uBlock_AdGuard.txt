@@ -1,9 +1,9 @@
-! Checksum: pNwJxduvMPSoxOtg/2oe/w
+! Checksum: ovgdhuvDQdADHf12f1iglA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 15 Jan 2019, 11:11 UTC+01
-! Version: 2019.1.15.1
+! Last modified: Tue, 15 Jan 2019, 12:41 UTC+01
+! Version: 2019.1.15.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 15 sty 2019, 11:11 UTC+01
+! Aktualizacja: wto, 15 sty 2019, 12:41 UTC+01
 !
 !
 ! Newslettery
@@ -49,6 +49,8 @@ bejeans.pl##.fancybox-overlay-fixed.fancybox-overlay
 biznesalert.pl##html:style(overflow: visible!important; margin-right: 0 !important)
 biznesalert.pl,deezee.pl,ursus.com.pl,medycznamarihuana.com,ergokantor.pl,stoprocent.com##.mfp-ready
 bodypak.pl##script:inject(setTimeout-defuser.js, jQuery.fancybox)
+bonami.pl##.overlayPan
+bonami.pl##.blurred:style(filter: none !important;)
 cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.ArevicoModal, .ArevicoModal-bg
 cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.arvnoscroll:style(overflow: auto !important;)
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
