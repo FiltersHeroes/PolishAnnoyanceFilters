@@ -3,6 +3,8 @@ addons:
   apt:
     packages:
     - language-pack-pl
+git:
+  depth: 100
 notifications:
   email:
     on_success: never
