@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: cYXbdRwUPQ/zlbXvQxunFw
+! Checksum: hzGnoFkwpE431hsAQHJ6UQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Fri, 18 Jan 2019, 08:52 UTC+01
-! Version: 2019.1.18.1
+! Last modified: Fri, 18 Jan 2019, 22:00 UTC+01
+! Version: 2019.1.18.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 18 sty 2019, 08:52 UTC+01
+! Aktualizacja: pią, 18 sty 2019, 22:00 UTC+01
 !
 !
 !
@@ -61,7 +61,7 @@ beautikon.com###mteo_popup_bg_layer
 bemuke.pl##div[id^="tws_i_"]
 beskidy.news##.c-pop-up
 beslow.pl##.ulp-window[data-title*="Newsletter"], .ulp-overlay
-bgsw.pl###pum-19246
+bgsw.pl,piwolucja.pl##.popmake-overlay
 bigchina.pl###myModal
 bitdefender.pl###popup, .popup-overlay
 biuroprasowe.pl###global_overlay_cont, #global_overlay
@@ -294,6 +294,7 @@ njumobile.pl##.jquery-modal
 nocowanie.pl##.fancybox-overlay-fixed.fancybox-overlay, .fancybox-type-html
 norauto.pl##.s-hPage > .mfp-bg
 norauto.pl#?#.mfp-content:-abp-has(#popupCookie)
+nova.edu.pl###popup_overlay, #popup_content
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowosci-mp3.eu###pop-slap, .bg-pop-over
 nowymarketing.pl###overlay-campaign
@@ -401,6 +402,7 @@ shop.prettyone.pl###popup_prettyone
 siatka.org##.scroll-top-wr
 siligan.pl###blackout
 siligan.pl###contentWindow
+sillydesign.pl###blanket, #popUpDiv
 simple-cp.com##.snrs-modal-show.snrs-modal-wrapper
 sjp.pwn.pl,slowniki.pwn.pl###floater
 sklepdekarza.pl###popup
@@ -426,7 +428,7 @@ stoicway.net##.pop-up-box
 stopfermom.eu##.special-popup
 strefakursow.pl##.b-newsletter-popup, .p-black-overlay
 strefaurody.pl###pushpushgo-container
-stukstuk.pl###tws_i_100001
+stukstuk.pl###tws_s_0
 styleev-shop.pl###popup-scademy1
 subiektywnieofinansach.pl###similar-overlay-wrapper
 sumiennyksiegowy.pl###ilosc-zapytan
