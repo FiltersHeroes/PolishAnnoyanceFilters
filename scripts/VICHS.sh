@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # VICHS - Version Include Checksum Hosts Sort
-# v2.0
+# v2.0.1
 
 for i in "$@"; do
 
