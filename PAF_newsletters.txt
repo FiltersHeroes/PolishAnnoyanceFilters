@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5yebI043eNXmg/BSKHV+wg
+! Checksum: mZGC/gXun7/ENpC7yfia8A
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 20 Jan 2019, 19:00 UTC+01
-! Version: 2019.1.20.2
+! Last modified: Sun, 20 Jan 2019, 23:00 UTC+01
+! Version: 2019.1.20.3
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 20 sty 2019, 19:00 UTC+01
+! Aktualizacja: nie, 20 sty 2019, 23:00 UTC+01
 !
 !
 !
@@ -111,6 +111,7 @@ bonprix.pl##a[href="/serwis/newsletter"], .contrast.container-fluid > .container
 bonvoyage.pl##.box_newsletter
 booking.com##.newsletter_subscribe
 born2be.pl##[href="/newsletter/sign-in"]
+bosch-professional.com##.m-newsletter_signup-a
 bosonamacie.pl##.newsletter-header, #widget-text-3
 bricomarche.pl,doradcasmaku.pl##.newsletter_box
 brownells.pl##.ic-popupLinkNewsletter
@@ -259,6 +260,7 @@ forum.android.com.pl##[data-blockid="app_core_newsletter_newsletter"]
 forum.shinden.pl##.styliumFooterFourthCol
 fotelik.info##.subskrypcja
 fotokoszyk.pl##.follow_news:nth-of-type(4)
+fotopanorama.pl##.newsletter-group, #social > a[href="/newsletter/add"]
 foto.auchan.pl##.cw_newsletter
 foto.auchan.pl#?#.cw_mini_info_teaser:-abp-contains(Newsletter)
 frenchtouchlabellevie.pl##.newsletter-mail
@@ -383,6 +385,7 @@ libra.pl##.footer-bg #block-12
 lideria.pl###box_newsletter_text_books
 lidl.pl##.form--newsletter
 lightinthebox.com##.our-newsletters
+lightonline.pl#?#div.col-sm-6:nth-of-type(1):-abp-has(.news)
 linguajob.pl###zamow-link
 listymikolaja.pl##.r-newsletter
 lokalnatelewizja.pl,supertydzien.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
@@ -549,6 +552,7 @@ picodi.com##.newsletterContainer
 pixel-box.pl##.footer-newsletter-new
 pkspolonus.pl##.mode_newsletter
 planet.pl###zapis-do-newsletter
+plk.pl##.col-sm-12.col-md-6.col-lg-3.col-xl-3 > h3:nth-of-type(2)
 pl##.newsletterBox
 pl##.newsletterbox
 pl###box-newsletter
@@ -743,6 +747,7 @@ sportisimo.pl###newsletter_bottom
 sportplus.pl##.KolumnaNewsletter
 sportslaski.pl##.containerright5
 sport-shop.pl##.newsletter_fotter
+spot-a-shop.pl##.bg--lg.page-footer__section
 sprawdzonakuchnia.pl##.essb-subscribe-form-inwidget
 sprawnymarketing.pl###post-newsletter
 spreadshirt.pl##.ft-newsletter
