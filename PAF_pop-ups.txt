@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: UHxSfMN25BBn4E4U6jVGiQ
+! Checksum: WKq/IBSI6O0CiwUm+D2Wsg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 19 Jan 2019, 22:00 UTC+01
-! Version: 2019.1.19.2
+! Last modified: Sun, 20 Jan 2019, 19:00 UTC+01
+! Version: 2019.1.20.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: sob, 19 sty 2019, 22:00 UTC+01
+! Aktualizacja: nie, 20 sty 2019, 19:00 UTC+01
 !
 !
 !
@@ -214,6 +214,7 @@ kursphp.com##.all-page-modals
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
 label-magazine.com##.lightbox_overlay
 lagardere-tr.pl###banner-hds, #banner-hds-background
+ledco.pl###iqitpopup, #iqitpopup-overlay
 ledfarmer.pl,artbud.pl,aze.com.pl##.modal-visible.modal, .mask
 lightinthebox.com##.pop-email-new, .pop-email-new + .modal-backdrop
 limanowa.in##.ad_popup
@@ -463,6 +464,7 @@ word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 wwsi.edu.pl###adsdialog
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
 wyborcza.pl##.mod_ddbox
+wyciskarki.pl###nps-popup
 wylecz.to##.popupBackground
 wysokienapiecie.pl##.modal-overlay
 yoursclothing.pl##.js-overlay, .slideInBox
@@ -589,7 +591,7 @@ zszywka.pl###inv-request-popup
 ! Wyjątki
 dron.pl#@#.widget_wysija
 eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
-forum.dobreprogramy.pl#@#.fa-angle-up
+forum.dobreprogramy.pl,beskidzka-akademia.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
 rmf24.pl#@##backTop
 zblogowani.pl#@##ouibounce-modal
