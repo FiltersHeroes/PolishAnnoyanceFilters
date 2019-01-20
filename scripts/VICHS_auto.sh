@@ -8,7 +8,11 @@ cd $sciezka/..
 if [ "$CI" = "true" ]; then
     git config --global user.email "PolishJarvis@int.pl"
     git config --global user.name "PolishJarvis"
-    ost_plik=$(git log --since="6 hours 3 minutes ago" --name-only --pretty=format: | sort | uniq)
+    if [[ "$aktualna_godzina" == "14" ]]; then
+    ost_plik=$(git log --since="6 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
+    else
+    ost_plik=$(git log --since="3 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
+    fi
 else
     ost_plik=$(git diff -z --name-only | xargs -0)
 fi
