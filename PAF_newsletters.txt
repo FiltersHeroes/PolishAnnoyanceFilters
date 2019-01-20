@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rpQznIiInn6aTdgskswc7A
+! Checksum: 5yebI043eNXmg/BSKHV+wg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 20 Jan 2019, 15:00 UTC+01
-! Version: 2019.1.20.1
+! Last modified: Sun, 20 Jan 2019, 19:00 UTC+01
+! Version: 2019.1.20.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 20 sty 2019, 15:00 UTC+01
+! Aktualizacja: nie, 20 sty 2019, 19:00 UTC+01
 !
 !
 !
@@ -598,6 +598,8 @@ pl.ryobitools.eu##[id*="RyobiFooterSignUp_txt"], [id$="RyobiFooterSignUp_lblTitl
 pl.sportsdirect.com##.signup-wrapper
 pocztazdrowia.pl##.pull-right.col-xs-12.col-sm-12.col-md-5.col-lg-4
 podrywaj.org###block-block-34
+podyplomie.pl##.section .mb-lg-0.mb-2.col-lg-6.col-xl-5 > .form-flex:nth-of-type(1)
+podyplomie.pl#?#.mt-2.block-right.block-lg.block:-abp-contains(Newsletter)
 pokoleniesmart.pl##.passionblogger-subscribe, .essb-subscribe-form
 polakpotrafi.pl##.w3.block:nth-of-type(3)
 polemi.co.uk###dropin
@@ -724,6 +726,7 @@ sklep.polityka.pl###sidebar1 > div:nth-of-type(2)
 sklep.skrypt.com.pl##.footer-conteiner > ul:nth-of-type(3)
 sklep.swiatkwiatow.pl,twojszklarz.pl##.subscribe-block
 sklep.vileda.pl###newsletter-category
+slepsksuwalki.pl##.site-footer .subscribe-header, .site-footer .subscribe
 slimebox.pl##.newsletter-widget-5
 slusarczyk-bmw.pl###musli > li:nth-of-type(3)
 smalltronic.pl##.NaglowekNewsletter, .ModulNewsletter
@@ -845,6 +848,7 @@ webinsider.pl##.gofollow[onclick*=Newsletter]
 webinsider.pl#?#h5:-abp-contains(Newsletter)
 wegannerd.blogspot.com###HTML7
 werandacountry.pl##div.gkmod-3.box:nth-of-type(1) > .header
+werandafamily.com##.home-nesletter
 werandaweekend.pl##.right > div.title:nth-of-type(1)
 wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
 wiara.pl##.nsl
@@ -942,7 +946,7 @@ zygzaksnow.pl###blocknewsletter
 ! Wyjątki
 dron.pl#@#.widget_wysija
 eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
-forum.dobreprogramy.pl#@#.fa-angle-up
+forum.dobreprogramy.pl,beskidzka-akademia.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
 rmf24.pl#@##backTop
 zblogowani.pl#@##ouibounce-modal
