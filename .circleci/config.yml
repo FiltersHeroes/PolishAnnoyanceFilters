@@ -11,10 +11,11 @@ workflows:
   workflow:
     triggers:
     - schedule:
-        cron: 0 9,15,21 * * *
+        cron: 0 2,14,18,22 * * *
         filters:
           branches:
             only:
             - master
     jobs:
-    - build
+      - build:
+          context: org-global
