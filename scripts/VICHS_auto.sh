@@ -9,7 +9,7 @@ if [ "$CI" = "true" ]; then
     git config --global user.email "PolishJarvis@int.pl"
     git config --global user.name "PolishJarvis"
     if [[ "$aktualna_godzina" == "14" ]]; then
-    ost_plik=$(git log --since="6 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
+    ost_plik=$(git log --since="15 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
     else
     ost_plik=$(git log --since="3 hours 58 minutes ago" --name-only --pretty=format: | sort | uniq)
     fi
