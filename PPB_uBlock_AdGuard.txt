@@ -1,9 +1,9 @@
-! Checksum: 2qg3BmEr++q9Qv6vLbddMg
+! Checksum: ig9d1NDLTr2SC8BXHYqdUA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 22 Jan 2019, 15:00 UTC+01
-! Version: 2019.1.22.1
+! Last modified: Tue, 22 Jan 2019, 19:00 UTC+01
+! Version: 2019.1.22.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 22 sty 2019, 15:00 UTC+01
+! Aktualizacja: wto, 22 sty 2019, 19:00 UTC+01
 !
 !
 ! Newslettery
@@ -323,20 +323,23 @@ znak.com.pl##body:style(background: none !important;)
 !
 !
 ! Inne Widżety
+4mats.pl##html, body:style(overflow-y: auto !important;)
 airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,ovovita.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl##html[style]:style(overflow: auto !important;)
 airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,ovovita.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl##.nicescroll-rails
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 bithub.pl##.st-post-share:style(position: static !important;)
 budujemydom.pl##.magazyn-label .m-okladka:style(bottom: 0 !important;)
 budujemydom.pl##.magazyn-label:style(position:static !important;)
+cs-harnas.pl,jaguar.pl,progrupa.com,przeswietl.pl,seniorka-z-plecakiem.pl,sparta.com.pl,start.me##body::-webkit-scrollbar:style(all: initial;)
+fury-zone.com##html:style(overflow-y: visible !important;)
+fury-zone.com##.nicescroll-rails
 goldenmarketing.pl###ssb-btn-1:style(visibility: hidden !important;)
-jaguar.pl,vod.naekranie.pl,progrupa.com,start.me,fury-zone.com,sparta.com.pl,cs-harnas.pl,przeswietl.pl,seniorka-z-plecakiem.pl##body::-webkit-scrollbar-thumb:style(background-color: #6e6e6e !important; border: none !important; border-radius: 0 !important; box-shadow: none !important;)
-jaguar.pl,vod.naekranie.pl,progrupa.com,start.me,fury-zone.com,sparta.com.pl,cs-harnas.pl,przeswietl.pl,seniorka-z-plecakiem.pl##body::-webkit-scrollbar-track:style(background: #f1f1f1 !important; border-radius: 0 !important;)
-jaguar.pl,vod.naekranie.pl,progrupa.com,start.me,fury-zone.com,sparta.com.pl,cs-harnas.pl,przeswietl.pl,seniorka-z-plecakiem.pl##body::-webkit-scrollbar:style(width: 12px !important;)
+jaguar.pl##body::-webkit-scrollbar-track:style(background: black !important; border-radius: 0 !important;)
+jaguar.pl,progrupa.com,seniorka-z-plecakiem.pl,sparta.com.pl##body::-webkit-scrollbar-thumb:style(background-color: #bbb !important; border-radius: 0 !important; box-shadow: none !important;)
 kawro.pl##.infobar-bar:style(position: static !important; clear: both; height: auto !important;)
 kawro.pl##.infobar-dismiss:style(position: relative !important; bottom: 70px !important; right: 0 !important;)
 klonowypark.pl,misjonarska.com###right_info2:style(height: auto !important;)
-mateuszgrzesiak.com,mg-pmm.com,4mats.pl##body:style(overflow-y: auto !important;)
+mateuszgrzesiak.com,mg-pmm.com##body:style(overflow-y: auto !important;)
 megasat.tv##.country-selector:style(position: absolute !important;)
 meskiegacie.pl###counter_holder_bottom.counter_container:style(position: static !important;)
 narcyz.com.pl##div[style^="overflow: hidden;"]:style(overflow: auto !important;)
@@ -370,8 +373,8 @@ komputerswiat.pl$$#ks_breaking_news
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 2019.1.20.1
-!@Last modified: Sun, 20 Jan 2019, 22:24 UTC+01
+!@Version: 2019.1.22.1
+!@Last modified: Tue, 22 Jan 2019, 18:38 UTC+01
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -380,7 +383,7 @@ komputerswiat.pl$$#ks_breaking_news
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2019 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.2019.1.20.1 aktualizacja: nie, 20 sty 2019, 22:24 UTC+01
+!@v.2019.1.22.1 aktualizacja: wto, 22 sty 2019, 18:38 UTC+01
 !
 !
 !@Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -602,8 +605,8 @@ easyprotect.pl,dworzec.kielce.pl##.gafancybox-margin:style(margin-right: 0 !impo
 ekobiuro24.pl##.ui-dialog[aria-labelledby="ui-dialog-title-dialog-agreement"], .ui-widget-overlay
 emas.gdos.gov.pl,natura2000.gdos.gov.pl,projekty.gdos.gov.pl,www.gdos.gov.pl##[id^="banner-komunikat-rodo-"], .modal-backdrop
 empik.com##+js(nano-remove-elements-onready.js, .cookies-accept)
-eobuwie.com.pl##.popup
-eobuwie.com.pl##.popup-open:style(overflow: auto !important;)
+eobuwie.com.pl##.no-scroll:style(overflow: auto !important;)
+eobuwie.com.pl##.popup:has(.permissions-form)
 eurologistics.pl,wybielanie.pl,pzsnstart.eu##.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
 farmacja.pl##div.rodo-modal
 farmacja.pl##+js(abort-current-inline-script.js, jQuery, .rodo-modal)
