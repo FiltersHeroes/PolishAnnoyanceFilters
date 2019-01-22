@@ -1,9 +1,9 @@
-! Checksum: ig9d1NDLTr2SC8BXHYqdUA
+! Checksum: R3x+iNnNS9Ge4I3DsGzj7Q
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 22 Jan 2019, 19:00 UTC+01
-! Version: 2019.1.22.2
+! Last modified: Tue, 22 Jan 2019, 23:00 UTC+01
+! Version: 2019.1.22.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 22 sty 2019, 19:00 UTC+01
+! Aktualizacja: wto, 22 sty 2019, 23:00 UTC+01
 !
 !
 ! Newslettery
@@ -310,9 +310,14 @@ forsal.pl##+js(abort-on-property-read.js, parseFloat)
 gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
 gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
 gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(addEventListener-defuser.js, scroll, d.stopPropagation)
+infozdrowie24.pl##+js(set-constant.js, window.ONTVshowMiniature, noopFunc)
 interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
 interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 naszemiasto.pl,dziennikzachodni.pl,echodnia.eu,nto.pl,nowiny24.pl##+js(addEventListener-defuser.js, scroll, xlinkEvent)
+!#if !ext_ublock
+infozdrowie24.pl##.miniplayer:style(position: absolute !important; transition: unset !important;)
+infozdrowie24.pl##.normplayer:style(transition: unset !important;)
+!#endif
 !
 !
 ! Tła zawierające autoreklamy
