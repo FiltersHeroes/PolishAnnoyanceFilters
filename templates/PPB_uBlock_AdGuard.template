@@ -49,6 +49,9 @@
 !
 ! Scrollujące filmiki
 @include scroll_film_supplement
+!#if !ext_ublock
+@include scroll_film_AG
+!#endif
 !
 !
 ! Tła zawierające autoreklamy

@@ -42,7 +42,7 @@ for i in $ost_plik; do
         fi
     fi
 
-    if [ "$i" == "PPB/scroll_film.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_supplement.txt" ]; then
+    if [ "$i" == "PPB/scroll_film.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_supplement.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_AG.txt" ]; then
         if [[ "$modul" != *" PAF_scrolling_videos.txt"* ]]; then
             modul+=" "PAF_scrolling_videos.txt
         fi
