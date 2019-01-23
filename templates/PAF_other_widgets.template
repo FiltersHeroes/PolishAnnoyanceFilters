@@ -34,6 +34,9 @@
 !#if cap_html_filtering
 !#include PPB/uBO_AG/widgety_html.txt
 !#endif
+!#if !env_firefox
+!#include PPB/uBO_AG/widgety_nie_dla_ff.txt
+!#endif
 !#if !ext_ublock
 !#include PPB/uBO_AG/widgety_AG.txt
 !#endif
