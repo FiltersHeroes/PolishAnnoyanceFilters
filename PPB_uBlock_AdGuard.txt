@@ -1,9 +1,9 @@
-! Checksum: JnfbGiQltEcygn/edtYlBQ
+! Checksum: Rym2mEtcQOAHtIbDq1SkoA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Wed, 23 Jan 2019, 19:00 UTC+01
-! Version: 2019.1.23.2
+! Last modified: Thu, 24 Jan 2019, 23:00 UTC+01
+! Version: 2019.1.24.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 23 sty 2019, 19:00 UTC+01
+! Aktualizacja: czw, 24 sty 2019, 23:00 UTC+01
 !
 !
 ! Newslettery
@@ -314,7 +314,6 @@ gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(addEventListener-defuser.js, 
 infozdrowie24.pl##+js(set-constant.js, window.ONTVshowMiniature, noopFunc)
 interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
 interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
-www.dobreprogramy.pl##.variant-desktop #phContent_divArticle > .desktop-flex > #sidebar > .block.sticky:style(position: static !important;)
 !#if !ext_ublock
 infozdrowie24.pl##.miniplayer:style(position: absolute !important; transition: unset !important;)
 infozdrowie24.pl##.normplayer:style(transition: unset !important;)
