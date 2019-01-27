@@ -14,3 +14,6 @@
 !#if ext_ublock
 @include popupy_uBO
 !#endif
+!#if cap_user_stylesheet
+@include popupy_userCSS
+!#endif
