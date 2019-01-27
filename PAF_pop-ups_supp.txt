@@ -88,6 +88,9 @@ mulan.pl,wetro.pl,wishbone.pl,agatabielen.com,polonia.edu.pl##body:style(padding
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##+js(abort-on-property-read.js, window.onbeforeunload)
+nowyrp.pl##body:style(padding-right: 0 !important;)
+nowyrp.pl##html.remodal-is-locked:style(overflow: auto !important;)
+nowyrp.pl##.offers-popup.remodal-wrapper, .offers-popup.remodal-overlay
 oaza-palmy.pl##.fancybox-overlay:has(.modulesden-newsletter)
 obk.pl##.yith-opened:style(overflow: auto !important;)
 obk.pl##.yith-popup, .yithpopup_overlay
@@ -261,5 +264,6 @@ zoo.bydgoszcz.com$$#NewsShow
 annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###colorbox:not(:has(.cboxPhoto))
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
+kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
 vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-title-default.is-hidden:watch-attrs(class))
 !#endif
