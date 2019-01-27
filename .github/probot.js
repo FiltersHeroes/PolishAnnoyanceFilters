@@ -93,8 +93,8 @@ on('issues.opened', 'issues.edited')
 
 on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[xX]] Inny element/))
-  .label('widżet');
+  .label('inny element');
 
 on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[ ]] Inny element/))
-  .unlabel('widżet');
+  .unlabel('inny element');
