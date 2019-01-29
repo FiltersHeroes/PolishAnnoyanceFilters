@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: cf4qtY/lejqqFg7aiccx4w
+! Checksum: g5+uO4llNbotZsT9PJ7s+A
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 29 Jan 2019, 23:00 UTC+01
-! Version: 2019.1.29.2
+! Last modified: Tue, 29 Jan 2019, 22:16 UTC+00
+! Version: 2019.1.29.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 29 sty 2019, 23:00 UTC+01
+! Aktualizacja: Wt, 29 sty 2019, 22:16 UTC+00
 !
 !
 !
@@ -123,7 +123,7 @@ ekliniki.pl,lumarte.eu,milenium.pl,e-konferencje.pl##.ui-widget.ui-dialog, .ui-w
 ekodrogeria.pl##.fancybox-overlay, .fancybox-wrap
 ekologia.pl##.parent-nlr, .parent-promote
 ekskluzywna.pl,tuszedodrukarki.pl,tv-zakupy.pl###pp1
-eluban.pl,galeriaveneda.com.pl,jaslo4u.pl,planujemyogrod.pl,rankomat.pl,spodiglyinitki.pl,sagana.pl###popup
+eluban.pl,galeriaveneda.com.pl,jaslo4u.pl,planujemyogrod.pl,rankomat.pl,spodiglyinitki.pl,sagana.pl,motherhood.pl,sklepdekarza.pl,sushi-sklep.pl###popup
 emcconsultant.eu###ouibounce-modal
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
 enfamil.pl##.legal-alert-popup-content, .legal-alert-popup-overlay
@@ -265,7 +265,6 @@ mojmac.pl##.et_bloom_animated
 mokosh.pl,brylove.pl###popupWindow
 moovitapp.com,polmed.pl##.md-dialog-container, .md-dialog-backdrop
 morele.net##.bottomFixedPopup
-motherhood.pl,sklepdekarza.pl,sushi-sklep.pl###popup
 multidrogeria.pl,sprzedajemytkaniny.pl##.pupup
 muratordom.pl###nlt_popup
 muzycznagielda.com###fancybox-overlay
@@ -365,7 +364,7 @@ proline.pl##div[style*="visibility: visible; display: block;"]
 prostowsmak.com###ffbp
 pruszynski.com.pl###p_layer
 przekroj.pl##.is-shown.js-modal.modal__content--offset.modal__content
-przepisy.pl##.modal:not(#modalDownloadEbook), .modal-backdrop
+przepisy.pl##.modal:not(#modalDownloadEbook):not(#modalResult), .modal-backdrop
 przetargi.egospodarka.pl###js_popup_przetargi
 publicat.pl###newsletter-popup-form
 pup.sosnowiec.pl###topbaner
