@@ -1,9 +1,9 @@
-! Checksum: p7eEpJIq/1zKS8dnQegXIg
+! Checksum: SnLE5Ti49uEY2mjdcBoR0w
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 29 Jan 2019, 15:00 UTC+01
-! Version: 2019.1.29.1
+! Last modified: Wed, 30 Jan 2019, 15:00 UTC+01
+! Version: 2019.1.30.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 29 sty 2019, 15:00 UTC+01
+! Aktualizacja: śro, 30 sty 2019, 15:00 UTC+01
 !
 !
 ! Newslettery
@@ -334,8 +334,8 @@ znak.com.pl##body:style(background: none !important;)
 !
 ! Inne Widżety
 4mats.pl##html, body:style(overflow-y: auto !important;)
-airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,ovovita.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl,fury-zone.com##html[style]:style(overflow-y: visible !important;)
-airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl,fury-zone.com##.nicescroll-rails
+airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,ovovita.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl,fury-zone.com,kolczewska.pl##html[style]:style(overflow-y: visible !important;)
+airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl,fury-zone.com,kolczewska.pl##.nicescroll-rails
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 bithub.pl##.st-post-share:style(position: static !important;)
 budujemydom.pl##.magazyn-label .m-okladka:style(bottom: 0 !important;)
@@ -374,7 +374,7 @@ wp.pl,~www.wp.pl##div[class^="_"]:matches-css(position: relative):matches-css(di
 komputerswiat.pl##^#ks_breaking_news 
 !#endif
 !#if !env_firefox
-cs-harnas.pl,jaguar.pl,progrupa.com,przeswietl.pl,seniorka-z-plecakiem.pl,sparta.com.pl,start.me,gearbest.com##body::-webkit-scrollbar:style(all: initial !important;)
+cs-harnas.pl,jaguar.pl,progrupa.com,przeswietl.pl,seniorka-z-plecakiem.pl,sparta.com.pl,start.me,gearbest.com,semcamp.university##body::-webkit-scrollbar:style(all: initial !important;)
 jaguar.pl##body::-webkit-scrollbar-thumb:style(background-color: gray !important;)
 jaguar.pl##body::-webkit-scrollbar-track:style(background: black !important; border-radius: 0 !important;)
 jaguar.pl,progrupa.com,seniorka-z-plecakiem.pl,sparta.com.pl##body::-webkit-scrollbar-thumb:style(background-color: auto !important; border-radius: 0 !important; box-shadow: none !important;)
