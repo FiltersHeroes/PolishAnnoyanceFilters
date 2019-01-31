@@ -256,6 +256,8 @@ mediasam.pl$$#myWorning
 mprofi.pl$$.tve-leads-lightbox
 muscat.pl$$#discountPopup
 ogrodosfera.pl$$#NewsletterExit
+pozyczkabezbanku.pl##body[style]:style(overflow: auto !important;)
+pozyczkabezbanku.pl###bio_ep, #bio_ep_bg
 sferis.pl##.fancybox-overlay:has(#newsletter-popup)
 sferis.pl,kormoran-rowy.pl##html.fancybox-lock > body:style(overflow: auto !important;)
 sferis.pl,kormoran-rowy.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
@@ -267,5 +269,8 @@ annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###colorbo
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
+pozyczkabezbanku.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
+!#endif
+!#if cap_user_stylesheet
 vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-title-default.is-hidden:watch-attrs(class))
 !#endif
