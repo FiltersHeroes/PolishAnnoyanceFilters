@@ -3,6 +3,8 @@
 # Sciezka to miejsce, w którym znajduje się skrypt
 sciezka=$(dirname "$0")
 
+aktualna_godzina=$(date +"%H")
+
 cd $sciezka/..
 
 if [ "$CI" = "true" ]; then
