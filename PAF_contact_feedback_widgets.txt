@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lNJwSZ4huAQJ6cXMVl4CZg
+! Checksum: 79ZWF0Ca0PG6fCbb7aFOhg
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Wed, 30 Jan 2019, 23:00 UTC+01
-! Version: 2019.1.30.2
+! Last modified: Sun, 03 Feb 2019, 15:00 UTC+01
+! Version: 2019.2.3.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 30 sty 2019, 23:00 UTC+01
+! Aktualizacja: nie, 03 lut 2019, 15:00 UTC+01
 !
 !
 !
@@ -27,7 +27,6 @@ airdron-polska.pl###sugester-chat
 airport.com.pl##a[href^="javascript:void(window.open('http://airport.com.pl/livezilla/chat.php"]
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 amracing.pl##.sale-contact-box
-amso.pl,ofix.pl##.thulium-chat-wrapper
 angelsadvertising.pl,baccata.com.pl,www.sendbean.pl###sendbean
 apteline.pl##.chat-fixed__wrapper
 aquamelior.pl###slaask-button
@@ -167,6 +166,7 @@ nordglass.pl###altar-chat-div-container, #altar-eye-catcher-div-container
 nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
 odnowa.jezuici.pl##.tab-contact
+ofix.pl##.thulium-chat-wrapper
 ombre.pl##div > .fab-wrapper
 oneskyapp.com,domisad.pl,kappahl.com###launcher
 open.pl##div[class^="kodabots-widget"]
@@ -287,6 +287,7 @@ zwirex.pl###shoutbox
 /livezillachat//script.php
 ||account.dzinga.com/callback/script.js
 ||airport.com.pl/livezilla/server.php
+||amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
 ||anymind.com/sdk/widget-sdk.js
 ||app.sugester.pl/tpbocian/widget.js
 ||app.userengage.com/api/user-chatping/*$xmlhttprequest,domain=brand.ceo
@@ -294,7 +295,7 @@ zwirex.pl###shoutbox
 ||cdn.inbox.shoplo.com/chat.html$third-party
 ||cdn.pup.sosnowiec.pl/themes/default/pics/ico/ico_sugestia.png
 ||chatbro.com/embed.js$third-party
-||chat-widget.thulium.com/app/chat-loader.js$domain=norauto.pl|wittchen.com
+||chat-widget.thulium.com/app/chat-loader.js$domain=amso.pl|norauto.pl|wittchen.com|kreatorium.com
 ||chat.4finance.com^$third-party
 ||chat.freshdesk.com^$third-party,xmlhttprequest
 ||client.crisp.chat/static/javascripts/client.js$script,domain=www.fabrykawafelkow.pl|puccini.pl
@@ -323,7 +324,6 @@ zwirex.pl###shoutbox
 ||pcaction.pl/inne/allegro_komentarze.php
 ||pcaction.pl/szablony/standardowy.rwd/obrazki/zakladki/allegro.png
 ||qdecor.pl/img/ceneo-widget.png
-||s3-eu-west-1.amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
 ||salesmanago.pl/static/chunk/chat.js
 ||secure.livechatinc.com^$third-party
 ||smartsuppchat.com/loader.js
