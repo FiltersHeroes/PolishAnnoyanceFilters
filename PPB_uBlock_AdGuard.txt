@@ -1,9 +1,9 @@
-! Checksum: wZIM75AgMk4CB/oaRupGZA
+! Checksum: jAeb5E5KjLdkI5k8VgneBw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Mon, 04 Feb 2019, 23:32 UTC+00
-! Version: 2019.2.4.2
+! Last modified: Tue, 05 Feb 2019, 15:00 UTC+01
+! Version: 2019.2.5.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,11 +12,12 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: Pn, 04 lut 2019, 23:32 UTC+00
+! Aktualizacja: wto, 05 lut 2019, 15:00 UTC+01
 !
 !
 ! Newslettery
 eksperymentalnie.com##+js(setTimeout-defuser.js, CodeKingdomBox)
+euroogrod.com.pl##footer:style(border-top: none !important;)
 gomobi.pl##.onp-sl-blur-area:style(filter: none !important)
 gomobi.pl##.onp-sl-overlap-box
 niezlasztuka.net##+js(setTimeout-defuser.js, i(), 99000)
@@ -187,6 +188,10 @@ ursus.com.pl##.opacity1.flexslider-container
 wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 www.brw.com.pl##.js:style(overflow-y: visible !important;)
+www.centrumkurierskie.pl##.fancybox-lock body:style(overflow: auto !important;)
+www.centrumkurierskie.pl##.fancybox-lock:style(overflow: auto !important;)
+www.centrumkurierskie.pl##.fancybox-margin:style(margin-right: 0 !important;)
+www.centrumkurierskie.pl##.fancybox-overlay-fixed.fancybox-overlay
 www.e-biurowce.pl###raport_info, .modal-backdrop
 www.kzkgop.com.pl###ztmModal:style(position: unset !important; overflow-y: unset !important;)
 www.kzkgop.com.pl##.modal-backdrop
@@ -382,7 +387,8 @@ cs-harnas.pl,djlive.pl,gearbest.com,jaguar.pl,progrupa.com,przeswietl.pl,seniork
 jaguar.pl##body::-webkit-scrollbar-thumb:style(background-color: gray !important; border-radius: 0 !important; box-shadow: none !important;)
 jaguar.pl##body::-webkit-scrollbar-track:style(background: black !important; border-radius: 0 !important;)
 progrupa.com,seniorka-z-plecakiem.pl,sparta.com.pl##body::-webkit-scrollbar-thumb:style(background-color: auto !important; border-radius: 0 !important; box-shadow: none !important;)
-semcamp.university##div#__nuxt > div#__layout > div.app::-webkit-scrollbar-thumb:style(background-color: black !important; border-radius: 0 !important; box-shadow: none !important;)
+semcamp.university##div#__nuxt > div#__layout > div.app::-webkit-scrollbar-thumb:style(background-color: gray !important; border-radius: 0 !important; box-shadow: none !important;)
+semcamp.university##div#__nuxt > div#__layout > div.app::-webkit-scrollbar-track:style(background: black !important;)
 semcamp.university##div#__nuxt > div#__layout > div.app::-webkit-scrollbar:style(all: initial !important;)
 !#endif
 !#if !ext_ublock
