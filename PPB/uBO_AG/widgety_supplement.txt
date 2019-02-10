@@ -28,5 +28,6 @@ strefakodera.pl##html:style(overflow-x: unset !important;)
 tabletowo.pl##.bwswitch:style(position: absolute !important;)
 tablety.pl##.image-ticker-news:style(left: 0px !important;)
 waw4free.pl###spolecznosci:style(height: auto !important;)
-wp.pl,~www.wp.pl##div.header[data-st-area="Header"][data-reactid] > div[class^="_"]:has(button[title^="Ustaw"])
+wp.pl,~www.wp.pl##div.header > div[class^="_"]:has(button[title^="Ustaw"])
+!wp.pl,~www.wp.pl##div.header > div[class^="_"]:matches-css(position: relative):matches-css(vertical-align: -11px)
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
