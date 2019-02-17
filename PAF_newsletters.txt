@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 014eerv5T1NRdwzeO1aYcg
+! Checksum: qh4mo/HKacm8xP/Fie+Ylw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 15 Feb 2019, 23:00 UTC+01
-! Version: 2019.2.15.2
+! Last modified: Sun, 17 Feb 2019, 15:00 UTC+01
+! Version: 2019.2.17.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 15 lut 2019, 23:00 UTC+01
+! Aktualizacja: nie, 17 lut 2019, 15:00 UTC+01
 !
 !
 !
@@ -59,7 +59,9 @@ amparts24.pl###i258
 amrest.eu###block-simplenews-1
 analizy.pl##.nl-wrapper
 anmur.eu##.mod-newsletter-2.newsletter
-anna-urbanska.pl###text-7, .ml-block-form
+annapoplawska.pl##.newsletter_in_footer
+anna-urbanska.pl##.ml-block-form
+anna-urbanska.pl,cryptonews.pl,forumgliwice.pl,michalgrabarski.eu###text-7
 anotherdesign.pl###nw
 answear.com###bottomNewsletter
 apetete.pl##.footer__block__payment.footer__block > .footer_container
@@ -159,13 +161,12 @@ cobi.pl##.block-DefaultSubskrypcja
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 comparic.pl,wiskitki.org###icegram_messages_container
 comtrade.pl,topfish.pl##.n56467_container
-conet.pl,historykon.pl,rehus.pl,yt360.pl###text-4
+conet.pl,historykon.pl,rehus.pl,yt360.pl,pierwsze-kroki.com,michalgrabarski.eu###text-4
 confero.pl##.confero_newsletter_form
 confero.pl#?#.confero_social_icon:-abp-has(.icon-envelope)
 cortland.pl##.letter
 crolove.pl###text-28
 cryptodemy.pl##.optin-monster-api.widget.td_block_template_1
-cryptonews.pl,forumgliwice.pl###text-7
 cryptoprofit.pl##.moOptinForm, [href="http://cryptoprofit.pl/newsletter/"]
 ctek-ladowarki.pl###bestnewsletterbg
 ctpartners.pl##.ftresc2
@@ -218,6 +219,7 @@ dziennikzbrojny.pl##.columns.four
 dziewczynynapolitechniki.pl##.col-sm-3:nth-of-type(3)
 ebroker.pl###ft_t_in
 eduksiazka.pl###newsletter-subscribe-block, .getintouch.col-xs-12.col-sm-3 > h3
+edulider.pl###block-mailchimp-signup-mailchimp
 edunews.pl##.moduleacy-email
 edutorial.pl###sendpress-widget-6
 efashionstudio.pl##footer > .top > .container
@@ -279,6 +281,7 @@ fotopanorama.pl##.newsletter-group, #social > a[href="/newsletter/add"]
 foto.auchan.pl##.cw_newsletter
 foto.auchan.pl#?#.cw_mini_info_teaser:-abp-contains(Newsletter)
 frenchtouchlabellevie.pl##.newsletter-mail
+fundacjadominikana.org###bottom.row-fluid > #sp-bottom6
 galeriabronowice.pl##.news
 galeriakatowicka.eu##.metka
 galeriakatowicka.eu#?#div.col-sm-2.col-xs-4:nth-of-type(4):-abp-contains(Newsletter)
@@ -455,7 +458,6 @@ mgotuje.pl##.subscribe-box
 miastodzieci.pl##.pull-left > a[href="/zapisz"]
 miastons.pl#?#.sh-s1.sh-t2.section-heading:-abp-contains(Newsletter)
 miaucafe.pl,strefapmi.pl,pangrono.pl,pwsk.pl##.et_bloom_animated.et_bloom_flyin_right.et_bloom_flyin
-michalgrabarski.eu###text-4, #text-7
 midar.net.pl##.pomaranczowy.boks:nth-of-type(4)
 mixmedia.pl##.b-footerNewsletter
 mi.com##.span12.customer-relationship
@@ -756,6 +758,7 @@ site-call.pl##.wpc-subcribe .form-subscribe
 skionline.pl##td:nth-of-type(2) > .boks:nth-of-type(3) > tbody
 skionline.pl##.boks_tytul_out_cp:nth-of-type(3)
 skionline.pl##.boks_tytul_out_cs, .okno_gl_s > .boks
+sklepogrodniczy.pl#?#.footer-support:-abp-has(.nl)
 sklep-agrohandel.pl##.footer_top_area
 sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
 sklep.grupamagnum.eu##.leftcol > #box_custom81 > center  > iframe[src^="https://media-grupamagnum.ipresso.pl"]
@@ -848,6 +851,7 @@ travelplanet.pl##.col-footer-newsletter-block
 triny.pl##.newsletter-sub-box
 trybawaryjny.pl###gr-form
 tsintegracje.com##.contNewsletter
+tucholanin.pl###sidebar-bottom > ul.widget-container:nth-of-type(1)
 tustolica.pl###menumini > li:nth-of-type(3)
 tvn.pl##.btn-newsletter, .footer-col:nth-of-type(4) > .footer-heading:nth-of-type(2)
 twardepierniki.pl##.newsletter-panel
