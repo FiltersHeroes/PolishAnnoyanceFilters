@@ -8,14 +8,17 @@ akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
 akademiaversum.pl###newsletter-pp
 alerabat.com##body:style(overflow-y: auto !important;)
 alerabat.com##.jquery-modal
-alesoczewki.com,jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl,medme.pl,online.citibank.pl,www.e-biurowce.pl,gazetkonosz.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+alesoczewki.com,jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl,medme.pl,online.citibank.pl,www.e-biurowce.pl,gazetkonosz.pl,edulider.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 alesoczewki.com,nife.pl,campingshop.pl,intershoe.com.pl###news_popup, .modal-backdrop
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,motoria.pl,pupilo.pl,sklep-presto.pl,ubieramy.pl##.morele-dialog-show:style(overflow: auto !important; padding-right: 0 !important;)
 archonhome.pl,eurobuty.com.pl,mintshost.pl,prnews.pl,s-pl.pl,mamalla.pl###myModal, .modal-backdrop
 auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
-bejeans.pl##.fancybox-overlay-fixed.fancybox-overlay
+bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock > body:style(overflow: visible !important;)
+bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock:style(overflow: visible !important;)
+bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-margin:style(margin-right: 0 !important;)
+bejeans.pl,kobiecareaktywacja.pl##.fancybox-overlay-fixed.fancybox-overlay
 biznesalert.pl,deezee.pl,ursus.com.pl,medycznamarihuana.com,ergokantor.pl,stoprocent.com,socialtigers.pl##.mfp-ready
 biznesalert.pl,socialtigers.pl##html:style(overflow: visible !important; margin-right: 0 !important)
 bodypak.pl##+js(setTimeout-defuser.js, jQuery.fancybox)
@@ -35,6 +38,7 @@ ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
 edugrafia.pl##html.hustle-no-scroll body:style(overflow: auto !important;)
 edugrafia.pl##.wph-modal, .wph-modal-mask
+edulider.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important;)
 endo.pl###modalNL, .modal-backdrop
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !important;)
@@ -53,9 +57,6 @@ fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
 gazetkonosz.pl###subscribeModal, .modal-backdrop
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
-habys.pl,bejeans.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock > body:style(overflow: visible !important;)
-habys.pl,bejeans.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock:style(overflow: visible !important;)
-habys.pl,bejeans.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 husse.pl##body.fancybox-active:style(overflow: auto !important;)
 husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
@@ -279,5 +280,5 @@ kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
 pozyczkabezbanku.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
 !#endif
 !#if cap_user_stylesheet
-vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-title-default.is-hidden:watch-attrs(class))
+www.vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-title-default.is-hidden:watch-attrs(class))
 !#endif
