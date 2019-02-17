@@ -1,9 +1,9 @@
-! Checksum: a0ODPnxRIlhzFsGUd5ai+A
+! Checksum: VzjIcNvkU/d2og7SNEHSkg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 15 Feb 2019, 15:00 UTC+01
-! Version: 2019.2.15.1
+! Last modified: Sun, 17 Feb 2019, 15:00 UTC+01
+! Version: 2019.2.17.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 15 lut 2019, 15:00 UTC+01
+! Aktualizacja: nie, 17 lut 2019, 15:00 UTC+01
 !
 !
 ! Newslettery
@@ -41,14 +41,17 @@ akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
 akademiaversum.pl###newsletter-pp
 alerabat.com##body:style(overflow-y: auto !important;)
 alerabat.com##.jquery-modal
-alesoczewki.com,jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl,medme.pl,online.citibank.pl,www.e-biurowce.pl,gazetkonosz.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+alesoczewki.com,jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl,medme.pl,online.citibank.pl,www.e-biurowce.pl,gazetkonosz.pl,edulider.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 alesoczewki.com,nife.pl,campingshop.pl,intershoe.com.pl###news_popup, .modal-backdrop
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,motoria.pl,pupilo.pl,sklep-presto.pl,ubieramy.pl##.morele-dialog-show:style(overflow: auto !important; padding-right: 0 !important;)
 archonhome.pl,eurobuty.com.pl,mintshost.pl,prnews.pl,s-pl.pl,mamalla.pl###myModal, .modal-backdrop
 auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
-bejeans.pl##.fancybox-overlay-fixed.fancybox-overlay
+bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock > body:style(overflow: visible !important;)
+bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock:style(overflow: visible !important;)
+bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-margin:style(margin-right: 0 !important;)
+bejeans.pl,kobiecareaktywacja.pl##.fancybox-overlay-fixed.fancybox-overlay
 biznesalert.pl,deezee.pl,ursus.com.pl,medycznamarihuana.com,ergokantor.pl,stoprocent.com,socialtigers.pl##.mfp-ready
 biznesalert.pl,socialtigers.pl##html:style(overflow: visible !important; margin-right: 0 !important)
 bodypak.pl##+js(setTimeout-defuser.js, jQuery.fancybox)
@@ -68,6 +71,7 @@ ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
 edugrafia.pl##html.hustle-no-scroll body:style(overflow: auto !important;)
 edugrafia.pl##.wph-modal, .wph-modal-mask
+edulider.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important;)
 endo.pl###modalNL, .modal-backdrop
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !important;)
@@ -86,9 +90,6 @@ fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
 gazetkonosz.pl###subscribeModal, .modal-backdrop
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
-habys.pl,bejeans.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock > body:style(overflow: visible !important;)
-habys.pl,bejeans.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock:style(overflow: visible !important;)
-habys.pl,bejeans.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 husse.pl##body.fancybox-active:style(overflow: auto !important;)
 husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
@@ -344,6 +345,7 @@ infozdrowie24.pl##.normplayer:style(transition: unset !important;)
 ! Tła zawierające autoreklamy
 eglobalcentral.pl##.helper-container:style(background: none !important;)
 grawerowanie.org.pl##body:style(background: none!important;)
+reklamy-arek.blogspot.com##body:style(background-image: none !important;)
 twojahistoria.pl##.single, .home:style(background-image: none !important;)
 znak.com.pl##body:style(background: none !important;)
 !
@@ -352,7 +354,7 @@ znak.com.pl##body:style(background: none !important;)
 4mats.pl##html, body:style(overflow-y: auto !important;)
 airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,ovovita.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl,fury-zone.com,kolczewska.pl,domkorkowy.com,www.consil.com.pl##html[style]:style(overflow-y: visible !important;)
 airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl,fury-zone.com,kolczewska.pl,domkorkowy.com,www.consil.com.pl##.nicescroll-rails
-allegro.pl,planeta.fm,skionline.pl,niezlasztuka.net,greasyfork.org,solidpak.pl,certyficate.it,urz.pl,mgr.farm,elwico.com.pl,vivio.pl,artdelarte.pl,pl.fotolia.com,ornontowice.pl,kaliber.pl##.grecaptcha-badge:style(opacity: 0 !important;)
+allegro.pl,planeta.fm,skionline.pl,niezlasztuka.net,greasyfork.org,solidpak.pl,certyficate.it,urz.pl,mgr.farm,elwico.com.pl,vivio.pl,artdelarte.pl,pl.fotolia.com,ornontowice.pl,kaliber.pl,pmi.org.pl##.grecaptcha-badge:style(opacity: 0 !important;)
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 bithub.pl##.st-post-share:style(position: static !important;)
 bludshop.com##+js(abort-on-property-read.js, onblur)
