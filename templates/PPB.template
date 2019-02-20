@@ -59,4 +59,5 @@
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka Origin i AdGuarda, by użytkownicy nie musieli jej subskrybować
+!+ NOT_PLATFORM(ext_safari, ext_android_cb, ios)
 !#include PPB_uBlock_AdGuard.txt
