@@ -2,7 +2,7 @@ annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
-mobile.twitter.com##span:has-text(/wykorzystaj cały potencjał twittera/i):xpath(../../../../../..)
-mobile.twitter.com##div > div > div > div > div > div > div > div > div:has(>div>div>div:has-text(/świat spotyka się na twitterze/i)):xpath(../../..)
 mobile.twitter.com##body:style(overflow: auto !important;)
+mobile.twitter.com##div > div > div > div > div > div > div > div > div:has(>div>div>div:has-text(/świat spotyka się na twitterze/i)):xpath(../../..)
+mobile.twitter.com##span:has-text(/wykorzystaj cały potencjał twittera/i):xpath(../../../../../..)
 pozyczkabezbanku.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
