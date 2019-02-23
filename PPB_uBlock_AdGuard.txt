@@ -1,9 +1,9 @@
-! Checksum: rZkOlnvxtiA471vtO9AiYA
+! Checksum: dcvMsjZj3tTly/4UCCr54A
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 21 Feb 2019, 18:54 UTC+01
-! Version: 2019.2.21.1
+! Last modified: Sat, 23 Feb 2019, 15:00 UTC+01
+! Version: 2019.2.23.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: czw, 21 lut 2019, 18:54 UTC+01
+! Aktualizacja: sob, 23 lut 2019, 15:00 UTC+01
 !
 !
 ! Newslettery
@@ -316,6 +316,9 @@ annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
+mobile.twitter.com##body:style(overflow: auto !important;)
+mobile.twitter.com##div > div > div > div > div > div > div > div > div:has(>div>div>div:has-text(/świat spotyka się na twitterze/i)):xpath(../../..)
+mobile.twitter.com##span:has-text(/wykorzystaj cały potencjał twittera/i):xpath(../../../../../..)
 pozyczkabezbanku.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
 !#endif
 !#if cap_user_stylesheet
