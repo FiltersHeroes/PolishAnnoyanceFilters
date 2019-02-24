@@ -25,7 +25,9 @@
 !
 !
 ! Popupy
+!#if (!adguard_ext_android_cb && !adguard_ext_safari && !adguard_app_ios)
 @include popupy_supplement
+!#endif
 !
 !
 ! Popupy - specjalne instrukcje
