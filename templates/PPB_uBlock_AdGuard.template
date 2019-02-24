@@ -69,7 +69,7 @@
 !
 ! Inne widżety - specjalne instrukcje
 !#if !cap_html_filtering
-#include widgety_bez_html
+@include widgety_bez_html
 !#endif
 !#if cap_html_filtering
 @include widgety_html
