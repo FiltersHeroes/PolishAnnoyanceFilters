@@ -82,6 +82,15 @@
 !#endif
 !
 !
+! Reguły specjalne
+!#if !ext_ublock
+@include specjalne_AG
+!#endif
+!#if ext_ublock
+@include specjalne_uBO
+!#endif
+!
+!
 !@POCZĄTEK DOŁĄCZONYCH POLSKICH FILTRÓW RODO-CIASTECZKOWYCH
 @URLinclude https://raw.githubusercontent.com/hawkeye116477/polish-ads-filter/master/cookies_filters/cookies_uB_AG.txt
 !@KONIEC DOŁĄCZONYCH POLSKICH FILTRÓW RODO-CIASTECZKOWYCH
