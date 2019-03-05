@@ -17,16 +17,16 @@
 !
 @path PPB/uBO_AG
 ! Newslettery
-@include newslettery_supplement
+@include newslettery_suplement
 !
 !
 ! Otagowane linki wewnętrzne w artykułach
-@include otagowane_linki_supplement
+@include otagowane_linki_suplement
 !
 !
 ! Popupy
 !#if (!adguard_ext_android_cb && !adguard_ext_safari && !adguard_app_ios)
-@include popupy_supplement
+@include popupy_suplement
 !#endif
 !
 !
@@ -49,22 +49,22 @@
 !
 !
 ! Powiadomienia Push
-@include push_supplement
+@include push_suplement
 !
 !
 ! Scrollujące filmiki
-@include scroll_film_supplement
+@include scroll_film_suplement
 !#if !ext_ublock
 @include scroll_film_AG
 !#endif
 !
 !
 ! Tła zawierające autoreklamy
-@include tla_autoreklamy_supplement
+@include tla_autoreklamy_suplement
 !
 !
 ! Inne Widżety
-@include widgety_supplement
+@include widgety_suplement
 !
 !
 ! Inne widżety - specjalne instrukcje
