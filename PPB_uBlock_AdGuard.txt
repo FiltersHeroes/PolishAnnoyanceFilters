@@ -1,9 +1,9 @@
-! Checksum: 1bFBSRbUFue7EV2wl2jnqg
+! Checksum: eowpxTgW6pB3+CVyMoansg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 05 Mar 2019, 23:00 UTC+01
-! Version: 2019.3.5.1
+! Last modified: Thu, 07 Mar 2019, 23:00 UTC+01
+! Version: 2019.3.7.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 05 mar 2019, 23:00 UTC+01
+! Aktualizacja: czw, 07 mar 2019, 23:00 UTC+01
 !
 !
 ! Newslettery
@@ -107,6 +107,9 @@ jordanki.torun.pl###newsletter, .modal-backdrop
 kiddabadam.com##.popup--blur:style(filter: none !important;)
 kiddabadam.com,kiep.pl##.popup
 kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1!important;)
+kire.pl##.gafancybox-lock > body, html.gafancybox-lock:style(overflow: visible !important;)
+kire.pl##.gafancybox-margin:style(margin-right: 0 !important;)
+kire.pl##.gafancybox-overlay
 kmziz.pl###full_newsletter_modal, .modal-backdrop
 limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
