@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HwWOZGchCma4AcNIzjA1oA
+! Checksum: iuVKdwGIEY+y5JmN3qXMtw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Fri, 08 Mar 2019, 23:00 UTC+01
-! Version: 2019.3.8.8
+! Last modified: Sat, 09 Mar 2019, 19:54 UTC+01
+! Version: 2019.3.9.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Reddit => https://www.reddit.com/r/PolishFiltersTeam/
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 08 mar 2019, 23:00 UTC+01
+! Aktualizacja: sob, 09 mar 2019, 19:54 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -3260,8 +3260,8 @@ polishannoyancefilters.netlify.com###pafdetect
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 2019.3.8.2
-!@Last modified: Fri, 08 Mar 2019, 20:52 UTC+01
+!@Version: 2019.3.9.2
+!@Last modified: Sat, 09 Mar 2019, 19:51 UTC+01
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -3272,7 +3272,7 @@ polishannoyancefilters.netlify.com###pafdetect
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2019 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.2019.3.8.2 aktualizacja: pią, 08 mar 2019, 20:52 UTC+01
+!@v.2019.3.9.2 aktualizacja: sob, 09 mar 2019, 19:51 UTC+01
 !
 !
 !@Specyficzne reguły ukrywające
@@ -3410,6 +3410,7 @@ automo.pl,autobaza.pl###rodo, .rodoButtonUp
 autostrada-a2.pl###cookielawBox
 autos-motos.net,scentre.pl,ilewazy.pl##.consent
 auto.pl,honda.auto.com.pl##.cookie-information-wrapper
+avaaz.org##.gdpr-block-privacy
 avans.pl##.is-cookies
 avast.com,pay.google.com,trustpilot.com,outride.rs,pl.depositphotos.com##.cookie-bar:not(body)
 avatradepolska.pl##.accept-cookie-block
@@ -4484,6 +4485,7 @@ pl.hama.com###privacyOptionsCookieOptIn-bottom
 pl.investing.com##.consentBarWrapper
 pl.isilines.com##.wrapper-banner-rgpd
 pl.jooble.org,twitch.tv##.gdpr-consent-banner
+pl.linkedin.com###global-alert-queue > .warning.alert
 pl.meteox.com,pl.sat24.com,zelmer.pl,earlymath.pl###cookie-message
 pl.mitsubishielectric.com##.pc_scsmod-cookie_alert
 pl.mouser.com###gdprBar
@@ -4815,6 +4817,7 @@ trakt.tv##.sncmp-app_gdpr
 transatlantyk.org,ump.edu.pl###app-cookie-bar
 transfergo.com##.gdpr-consent
 translate.google.pl##[style*="#userData"]
+trasa.info###cookemessagehandler
 travelplanet.pl###cookie--info-wrapper
 trejdoo.com###td-alert
 trello.com##.gdpr-cookie-consent-banner
@@ -5439,6 +5442,7 @@ pl###hw_cookie_law:not(body):not(html)
 pl###icc_message:not(body):not(html)
 pl###ics-pp-cookies-accept:not(body):not(html)
 pl###infocookie:not(body):not(html)
+pl###informations-cookies:not(body):not(html)
 pl###info-cookies:not(body):not(html)
 pl###info-cookie:not(body):not(html)
 pl###info_cookies:not(body):not(html)
@@ -5615,6 +5619,7 @@ pl##.cookie-disclaimer:not(body):not(html)
 pl##.cookie-hint:not(body):not(html)
 pl##.cookie-infobox-wrp:not(body):not(html)
 pl##.cookie-info-bar:not(body):not(html)
+pl##.cookie-info-container:not(body):not(html)
 pl##.cookie-info:not(body):not(html)
 pl##.cookie-law:not(body):not(html):not(.post-content)
 pl##.cookie-message:not(body):not(html)
