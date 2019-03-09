@@ -1,9 +1,9 @@
-! Checksum: 78rkLKO2Z2NodJqUT0W59w
+! Checksum: NfmuM5ZmnuYukdCA2zxTNg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 08 Mar 2019, 23:00 UTC+01
-! Version: 2019.3.8.9
+! Last modified: Sat, 09 Mar 2019, 19:53 UTC+01
+! Version: 2019.3.9.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 08 mar 2019, 23:00 UTC+01
+! Aktualizacja: sob, 09 mar 2019, 19:53 UTC+01
 !
 !
 ! Newslettery
@@ -450,8 +450,8 @@ polishannoyancefilters.netlify.com##+js(set-constant.js, pafDetect, true)
 !@Codename: Cookies - supplement
 !@Collaborators: MajkiIT, F4z, hawkeye116477
 !@Homepage: https://www.certyficate.it/
-!@Version: 2019.3.8.1
-!@Last modified: Fri, 08 Mar 2019, 20:52 UTC+01
+!@Version: 2019.3.9.1
+!@Last modified: Sat, 09 Mar 2019, 19:51 UTC+01
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -460,7 +460,7 @@ polishannoyancefilters.netlify.com##+js(set-constant.js, pafDetect, true)
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2019 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.2019.3.8.1 aktualizacja: pią, 08 mar 2019, 20:52 UTC+01
+!@v.2019.3.9.1 aktualizacja: sob, 09 mar 2019, 19:51 UTC+01
 !
 !
 !@Komunikaty dot. 🍪, polityki prywatności/RODO i 🥛 🙂
@@ -864,10 +864,10 @@ purepc.pl##+js(nano-remove-elements-onready.js, .cookiesinfo)
 !#endif
 !#if cap_user_stylesheet
 dobreprogramy.pl##body > div[class]:has-text(RODO)
+dobreprogramy.pl,homebook.pl,sportowefakty.wp.pl##html:style(overflow-y: visible !important; height: auto !important;)
 homebook.pl##body > div[class]:last-of-type:has-text(RODO)
 sportowefakty.wp.pl##body > *:style(filter: none !important;)
 sportowefakty.wp.pl##html > body > footer ~ div[class]:has-text(RODO)
-sportowefakty.wp.pl,homebook.pl,forum.dobreprogramy.pl##html:style(overflow-y: visible !important; height: auto !important;)
 !#endif
 !#if !env_mobile
 azure.microsoft.com###main:style(padding-top: 88px !important;)
