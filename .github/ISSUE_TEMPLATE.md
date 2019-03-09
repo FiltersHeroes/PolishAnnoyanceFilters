@@ -9,14 +9,14 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 -->
 
 ### Typ elementu/problemu
+- [] Wyskakujące okienko (popup)
 - [] Newsletter (nie popup)
-- [] Otagowany link wewnętrzny (niezgodny z tematem artykułu)
 - [] Powiadomienie push
 - [] Scrollujący filmik
-- [] Strzałka
-- [] Widżet kontaktowy/informacji zwrotnej
-- [] Wyskakujące okienko (popup)
 - [] Inny element (np. `następny artykuł`)
+- [] Widżet kontaktowy/informacji zwrotnej
+- [] Strzałka
+- [] Otagowany link wewnętrzny (niezgodny z tematem artykułu)
 - [] Błąd
 - [] Pytanie
 - [] Ulepszenie
