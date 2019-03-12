@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: WMYXtyDFEcpobA7RLtrmFg
+! Checksum: cOAFG8VYlQKWEaTLscCHrA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Tue, 12 Mar 2019, 23:00 UTC+01
-! Version: 2019.3.12.2
+! Last modified: Tue, 12 Mar 2019, 22:45 UTC+00
+! Version: 2019.3.12.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Reddit => https://www.reddit.com/r/PolishFiltersTeam/
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 12 mar 2019, 23:00 UTC+01
+! Aktualizacja: Wt, 12 mar 2019, 22:45 UTC+00
 !
 !
 ! Newslettery (nie popupy)
@@ -2157,8 +2157,8 @@ pl##.mh-back-to-top
 pl##.mk-go-top
 pl##.mypresta_scrollup
 pl##.penci-go-to-top-floating
-pl##.scrollTop:not(body):not(html)
-pl##.scrolltop:not(body):not(html)
+pl##.scrollTop:not(body):not(html):not(header):not(.row)
+pl##.scrolltop:not(body):not(html):not(header):not(.row)
 pl##.scroll-back
 pl##.scroll-top-inner
 pl##.scroll-top-wrapper:not(body):not(html)
@@ -3063,6 +3063,7 @@ pl###oglmetka
 pl###poza-szkieletem
 pl###upprev_box
 pl###widget-allegro
+pl##.header-back-link
 pl##.mraty-widget
 pl##.pwebbox-container-outset
 pl##.reklama-box
@@ -3259,12 +3260,12 @@ ztm.gda.pl###mobile
 !
 !
 ! Wyjątki
+dobre-driny.pl#@##newsletter:not(.modal)
 dron.pl#@#.widget_wysija
 eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
 forum.dobreprogramy.pl,beskidzka-akademia.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
 rmf24.pl#@##backTop
-www.dobre-driny.pl#@##newsletter:not(.modal)
 zblogowani.pl#@##ouibounce-modal
 !brewa.pl#@#.newsletter:not(#popup_newsletter)
 !ms.gov.pl#@##scroll-top
