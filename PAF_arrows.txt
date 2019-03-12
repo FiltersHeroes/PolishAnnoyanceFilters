@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: fQ4O7ld2VP/OcUT0nlotTw
+! Checksum: HffYYekN7k3NHLOoopUMUA
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Tue, 12 Mar 2019, 15:00 UTC+01
-! Version: 2019.3.12.1
+! Last modified: Tue, 12 Mar 2019, 22:55 UTC+00
+! Version: 2019.3.12.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 12 mar 2019, 15:00 UTC+01
+! Aktualizacja: Wt, 12 mar 2019, 22:55 UTC+00
 !
 !
 2x45.info,naziemna.info,decoratorium.eu,pl.delfi.lt###scrollUp
@@ -382,8 +382,8 @@ pl##.mh-back-to-top
 pl##.mk-go-top
 pl##.mypresta_scrollup
 pl##.penci-go-to-top-floating
-pl##.scrollTop:not(body):not(html)
-pl##.scrolltop:not(body):not(html)
+pl##.scrollTop:not(body):not(html):not(header):not(.row)
+pl##.scrolltop:not(body):not(html):not(header):not(.row)
 pl##.scroll-back
 pl##.scroll-top-inner
 pl##.scroll-top-wrapper:not(body):not(html)
@@ -557,12 +557,12 @@ zwiedzam-stadiony.eu,polskacanada.com##.mh-back-to-top
 !
 !
 ! Wyjątki
+dobre-driny.pl#@##newsletter:not(.modal)
 dron.pl#@#.widget_wysija
 eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
 forum.dobreprogramy.pl,beskidzka-akademia.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
 rmf24.pl#@##backTop
-www.dobre-driny.pl#@##newsletter:not(.modal)
 zblogowani.pl#@##ouibounce-modal
 !brewa.pl#@#.newsletter:not(#popup_newsletter)
 !ms.gov.pl#@##scroll-top
