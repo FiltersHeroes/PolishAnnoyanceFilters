@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: M9Z1qB4Mrlj5Vw0nzkuu+Q
+! Checksum: 3sTCiKr+89ZLuvPGHF76+w
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 16 Mar 2019, 15:00 UTC+01
-! Version: 2019.3.16.1
+! Last modified: Sat, 16 Mar 2019, 19:00 UTC+01
+! Version: 2019.3.16.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: sob, 16 mar 2019, 15:00 UTC+01
+! Aktualizacja: sob, 16 mar 2019, 19:00 UTC+01
 !
 !
 !
@@ -1080,13 +1080,13 @@ zygzaksnow.pl###blocknewsletter
 !
 ! Wyjątki
 dobre-driny.pl#@##newsletter:not(.modal)
+dron.pl#@#.widget_wysija
 eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
 forum.dobreprogramy.pl,beskidzka-akademia.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
 rmf24.pl#@##backTop
 zblogowani.pl#@##ouibounce-modal
 !brewa.pl#@#.newsletter:not(#popup_newsletter)
-!dron.pl#@#.widget_wysija
 !ms.gov.pl#@##scroll-top
 @@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
 !
