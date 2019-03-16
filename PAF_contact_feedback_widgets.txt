@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: m76yan3C0w9POKzILzBx3g
+! Checksum: jZw9B+kzvjyvpwGsQ0s4zA
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 10 Mar 2019, 23:00 UTC+01
-! Version: 2019.3.10.1
+! Last modified: Sat, 16 Mar 2019, 15:00 UTC+01
+! Version: 2019.3.16.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 10 mar 2019, 23:00 UTC+01
+! Aktualizacja: sob, 16 mar 2019, 15:00 UTC+01
 !
 !
 !
@@ -106,8 +106,10 @@ fly.pl##.btn-sticky-feedback
 fm.tuba.pl###feed
 fsmm.pl##body > .contactform
 fundacjakibica.pl###contact_rozwin
+gamasalon.pl###czater-contener
 gandalf.com.pl##.fb_dialog_advanced
 gdzietymrazem.pl##.td-icon-mail-1
+gerdex.com.pl,wkret-met.com,polnord.pl,zoliborzkrasinskiego.pl###fastcall
 germany.travel,fitomento.com##.btn-feedback
 godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
 google.pl,google.com##.gws-flights__feedback
@@ -289,7 +291,6 @@ viralka.pl##.widget_boombox_social
 vitay.pl###serviceRatingBox
 wakacje.pl##.rightSpeech
 warsawdowntown.pl##iframe[name="ca-review-widget"]
-wkret-met.com,polnord.pl,zoliborzkrasinskiego.pl###fastcall
 wnt.com##.sticky-contact
 wolnekonopie.org##.kleo-quick-contact-link
 wseit.edu.pl###btn-tel
@@ -374,12 +375,13 @@ zwirex.pl###shoutbox
 !
 !
 ! Wyjątki
-dron.pl#@#.widget_wysija
+dobre-driny.pl#@##newsletter:not(.modal)
 eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
 forum.dobreprogramy.pl,beskidzka-akademia.pl#@#.fa-angle-up
 ifirma.pl#@#.dogory
 rmf24.pl#@##backTop
 zblogowani.pl#@##ouibounce-modal
 !brewa.pl#@#.newsletter:not(#popup_newsletter)
+!dron.pl#@#.widget_wysija
 !ms.gov.pl#@##scroll-top
 @@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
