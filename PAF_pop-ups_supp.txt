@@ -246,6 +246,7 @@ comperia.pl##^#modal_woman
 diamante-wear.com##^.newsletter__popup
 drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl##^script[id^="tpl-newsletter-popup"]
+intermarche.pl##^div[style="display:none"]:has(a[class="wplightbox"])
 linuxpl.com##^#myModalDomenowy
 lookcam.com##^#lookcam-fb-modal
 makarun.pl##^.makarun-modal
@@ -257,16 +258,16 @@ sportowefakty.wp.pl##^#exitpopup
 zoo.bydgoszcz.com##^#NewsShow
 !#endif
 !#if !ext_ublock
-activ-investment.eu##html.fancybox-lock:style(overflow: visible!important;)
+activ-investment.eu##html.fancybox-lock:style(overflow: visible !important;)
 activ-investment.eu###newsletter-content
 activ-investment.eu##.fancybox-overlay:has(.newsletter-fancybox-wrapper)
-activ-investment.eu##.fancybox-overlay:style(overflow: hidden!important;)
+activ-investment.eu##.fancybox-overlay:style(overflow: hidden !important;)
 activ-investment.eu$$script[tag-content="openNewsletter"]
 alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
 annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl$$#newsletter_colorbox
 apynews.pl$$#fb-modal
-bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+bartek.com.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl$$script[tag-content="popupNewsletter"]
 biznes-host.pl###myModalPromo, .modal-backdrop
@@ -276,6 +277,7 @@ comperia.pl$$#modal_woman
 diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl$$script[id^="tpl-newsletter-popup"]
+intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
 kormoran-rowy.pl##.fancybox-overlay.fancybox-fixed
 kormoran-rowy.pl#?#.fancybox-lock:style(overflow: auto !important;)
 linuxpl.com$$#myModalDomenowy
