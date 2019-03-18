@@ -1,9 +1,9 @@
-! Checksum: 38zMP6474GpNqOYpZBhveg
+! Checksum: UqmyuyCtKlpt0XX6X/SUGw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 17 Mar 2019, 15:00 UTC+01
-! Version: 2019.3.17.1
+! Last modified: Mon, 18 Mar 2019, 23:00 UTC+01
+! Version: 2019.3.18.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 17 mar 2019, 15:00 UTC+01
+! Aktualizacja: pon, 18 mar 2019, 23:00 UTC+01
 !
 !
 ! Newslettery
@@ -282,6 +282,7 @@ comperia.pl##^#modal_woman
 diamante-wear.com##^.newsletter__popup
 drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl##^script[id^="tpl-newsletter-popup"]
+intermarche.pl##^div[style="display:none"]:has(a[class="wplightbox"])
 linuxpl.com##^#myModalDomenowy
 lookcam.com##^#lookcam-fb-modal
 makarun.pl##^.makarun-modal
@@ -293,16 +294,16 @@ sportowefakty.wp.pl##^#exitpopup
 zoo.bydgoszcz.com##^#NewsShow
 !#endif
 !#if !ext_ublock
-activ-investment.eu##html.fancybox-lock:style(overflow: visible!important;)
+activ-investment.eu##html.fancybox-lock:style(overflow: visible !important;)
 activ-investment.eu###newsletter-content
 activ-investment.eu##.fancybox-overlay:has(.newsletter-fancybox-wrapper)
-activ-investment.eu##.fancybox-overlay:style(overflow: hidden!important;)
+activ-investment.eu##.fancybox-overlay:style(overflow: hidden !important;)
 activ-investment.eu$$script[tag-content="openNewsletter"]
 alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
 annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl$$#newsletter_colorbox
 apynews.pl$$#fb-modal
-bartek.com.pl##html:style(overflow: visible!important; margin-right: 0px!important;)
+bartek.com.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl$$script[tag-content="popupNewsletter"]
 biznes-host.pl###myModalPromo, .modal-backdrop
@@ -312,6 +313,7 @@ comperia.pl$$#modal_woman
 diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl$$script[id^="tpl-newsletter-popup"]
+intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
 kormoran-rowy.pl##.fancybox-overlay.fancybox-fixed
 kormoran-rowy.pl#?#.fancybox-lock:style(overflow: auto !important;)
 linuxpl.com$$#myModalDomenowy
@@ -343,7 +345,7 @@ www.vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-tit
 !
 !
 ! Powiadomienia Push
-anime-odcinki.pl,epoznan.pl,grupamagnum.eu,imged.pl,meczyki.pl,wtk.pl,yoursclothing.pl##+js(abort-on-property-read.js, Notification.requestPermission)
+anime-odcinki.pl,epoznan.pl,grupamagnum.eu,imged.pl,meczyki.pl,wtk.pl,yoursclothing.pl,zdrowie.radiozet.pl##+js(abort-on-property-read.js, Notification.requestPermission)
 darmarsklep.pl###WebPushAddSubscription, .modal-backdrop
 darmarsklep.pl##.modal-open:style(overflow: auto !important;)
 egami-image.com,mpcforum.pl,winclub.pl##+js(set-constant.js, ips.utils.notification.supported, false)
