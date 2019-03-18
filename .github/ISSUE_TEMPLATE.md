@@ -11,7 +11,7 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 ### Typ elementu/problemu
 - [] Wyskakujące okienko (popup)
 - [] Newsletter (nie popup)
-- [] Powiadomienie push
+- [] Powiadomienie push (nie zgoda na geolokalizację)
 - [] Scrollujący filmik
 - [] Inny element (np. `następny artykuł`)
 - [] Widżet kontaktowy/informacji zwrotnej
