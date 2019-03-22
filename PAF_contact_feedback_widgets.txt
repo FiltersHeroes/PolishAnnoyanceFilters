@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 168CBMAXUgXh3ou3H9xSQQ
+! Checksum: fgmO+5dZuyzjVSt+q/F7ZA
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Fri, 22 Mar 2019, 15:00 UTC+01
-! Version: 2019.3.22.2
+! Last modified: Fri, 22 Mar 2019, 19:00 UTC+01
+! Version: 2019.3.22.3
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 22 mar 2019, 15:00 UTC+01
+! Aktualizacja: pią, 22 mar 2019, 19:00 UTC+01
 !
 !
 !
@@ -106,7 +106,7 @@ fly.pl##.btn-sticky-feedback
 fm.tuba.pl###feed
 fsmm.pl##body > .contactform
 fundacjakibica.pl###contact_rozwin
-gamasalon.pl,www.kei.pl###czater-contener
+gamasalon.pl,www.kei.pl,sklepmaniek.pl##div[id$="czater"]:not([class]) > #czater-contener
 gandalf.com.pl##.fb_dialog_advanced
 gdzietymrazem.pl##.td-icon-mail-1
 gerdex.com.pl,wkret-met.com,polnord.pl,zoliborzkrasinskiego.pl###fastcall
@@ -254,7 +254,6 @@ shark.sklep.pl,sklep.milicon.eu###contactBox
 shopalike.pl###feedback-btn
 siligan.pl###widget_5, #widget_6
 siligan.pl##.widget_contact
-sklepmaniek.pl##div > #czater-contener
 sklep-agrohandel.pl##.contact_email
 sklep-muzyczny.com.pl###widget_shop9
 slusarczyk-bmw.pl###musli > li:nth-of-type(4)
