@@ -1,9 +1,9 @@
-! Checksum: FpqxZ+l0yaiHzLTvr1SPVQ
+! Checksum: /UQgc9JWOsEdvr/TRD8qZg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 22 Mar 2019, 23:31 UTC+01
-! Version: 2019.3.22.2
+! Last modified: Sun, 24 Mar 2019, 19:00 UTC+01
+! Version: 2019.3.24.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 22 mar 2019, 23:31 UTC+01
+! Aktualizacja: nie, 24 mar 2019, 19:00 UTC+01
 !
 !
 ! Newslettery
@@ -20,6 +20,7 @@ eksperymentalnie.com##+js(setTimeout-defuser.js, CodeKingdomBox)
 euroogrod.com.pl##footer:style(border-top: none !important;)
 gomobi.pl##.onp-sl-blur-area:style(filter: none !important)
 gomobi.pl##.onp-sl-overlap-box
+laroxy.com###newsletter_block_left:style(display: block !important; visibility: hidden !important;)
 niezlasztuka.net##+js(setTimeout-defuser.js, i(), 99000)
 nowymarketing.pl##.accessInfoBox
 nowymarketing.pl##.blured:style(filter: none !important;)
@@ -55,7 +56,7 @@ bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
 bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,oaza-palmy.pl,zlotymotocyklowe.pl,mspdion.org.pl##html.fancybox-lock > body:style(overflow: visible !important;)
 bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock:style(overflow: visible !important;)
 bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-margin:style(margin-right: 0 !important;)
-bejeans.pl,kobiecareaktywacja.pl,www.centrumkurierskie.pl##.fancybox-overlay-fixed.fancybox-overlay
+bejeans.pl,kobiecareaktywacja.pl,www.centrumkurierskie.pl,www.epione.pl##.fancybox-overlay-fixed.fancybox-overlay
 bezokularow.pl###news_popup, .modal-backdrop
 biznesalert.pl,deezee.pl,ursus.com.pl,medycznamarihuana.com,ergokantor.pl,stoprocent.com,socialtigers.pl##.mfp-ready
 biznesalert.pl,socialtigers.pl##html:style(overflow: visible !important; margin-right: 0 !important)
@@ -68,6 +69,8 @@ cieplikpodrozuje.pl,edugrafia.pl##html.hustle-no-scroll > body:style(overflow: a
 cieplikpodrozuje.pl,edugrafia.pl##.wph-modal, .wph-modal-mask
 cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.ArevicoModal, .ArevicoModal-bg
 cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.arvnoscroll:style(overflow: auto !important;)
+ckr.pl,odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,instytutozonoterapii.pl,sukcesedukacja.pl##.pum-open:style(overflow: auto !important;)
+ckr.pl,odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,sukcesedukacja.pl##.popmake-overlay
 confronter.pl##html:style(overflow-y: auto !important;)
 confronter.pl###cfModal, .modal-backdrop
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
@@ -140,8 +143,6 @@ nowyrp.pl##.offers-popup.remodal-wrapper, .offers-popup.remodal-overlay
 oaza-palmy.pl##.fancybox-overlay:has(.modulesden-newsletter)
 obk.pl##.yith-opened:style(overflow: auto !important;)
 obk.pl##.yith-popup, .yithpopup_overlay
-odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,instytutozonoterapii.pl,sukcesedukacja.pl##html.pum-open:style(overflow: auto !important;)
-odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,sukcesedukacja.pl##.popmake-overlay
 oleole.pl###main-page:style(overflow-x: visible !important;)
 oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 oleole.pl,wishbone.pl,mypersonaltrainer.pl,lalorraine.pl##html:style(overflow: auto !important;)
@@ -161,7 +162,6 @@ polonia.edu.pl###newslettermodal, .modal-backdrop
 polska-ie.com###sgpb-popup-dialog-main-div, .sgpb-theme-3-overlay
 polska-ie.com##.sgpb-overflow-hidden:style(overflow: auto !important;)
 polskieszlaki.pl##[id].show.fade.modal, .modal-backdrop
-pol-ukr.com##.pum-open:style(overflow: auto !important;)
 poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
 ppr.pl###initPPRModal, .modal-backdrop
@@ -216,9 +216,9 @@ ursus.com.pl##.opacity1.flexslider-container
 wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 www.brw.com.pl##.js:style(overflow-y: visible !important;)
-www.centrumkurierskie.pl##.fancybox-lock body:style(overflow: auto !important;)
-www.centrumkurierskie.pl##.fancybox-lock:style(overflow: auto !important;)
-www.centrumkurierskie.pl,mspdion.org.pl##.fancybox-margin:style(margin-right: 0 !important;)
+www.centrumkurierskie.pl,www.epione.pl##.fancybox-lock body:style(overflow: auto !important;)
+www.centrumkurierskie.pl,www.epione.pl##.fancybox-lock:style(overflow: auto !important;)
+www.centrumkurierskie.pl,www.epione.pl,mspdion.org.pl##.fancybox-margin:style(margin-right: 0 !important;)
 www.e-biurowce.pl###raport_info, .modal-backdrop
 www.kzkgop.com.pl###ztmModal:style(position: unset !important; overflow-y: unset !important;)
 www.kzkgop.com.pl##.modal-backdrop
@@ -348,10 +348,11 @@ www.vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-tit
 !
 !
 ! Powiadomienia Push
-anime-odcinki.pl,epoznan.pl,grupamagnum.eu,imged.pl,meczyki.pl,wtk.pl,yoursclothing.pl,zdrowie.radiozet.pl##+js(abort-on-property-read.js, Notification.requestPermission)
+anime-odcinki.pl,epoznan.pl,grupamagnum.eu,imged.pl,meczyki.pl,wtk.pl,yoursclothing.pl,zdrowie.radiozet.pl,www.reddit.com##+js(abort-on-property-read.js, Notification.requestPermission)
 darmarsklep.pl###WebPushAddSubscription, .modal-backdrop
 darmarsklep.pl##.modal-open:style(overflow: auto !important;)
 egami-image.com,mpcforum.pl,winclub.pl##+js(set-constant.js, ips.utils.notification.supported, false)
+reddit.com###SHORTCUT_FOCUSABLE_DIV > style + div[class=""] + .cooLDW:has(div[role="dialog"][aria-modal])
 !
 !
 ! Scrollujące filmiki
