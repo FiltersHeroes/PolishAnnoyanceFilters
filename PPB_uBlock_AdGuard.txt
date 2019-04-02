@@ -1,9 +1,9 @@
-! Checksum: cCb1bXqL2ypdfNo88epewg
+! Checksum: 37CHuc5r3wUegs9/RsxZXA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 02 Apr 2019, 20:00 UTC+02
-! Version: 2019.4.2.1
+! Last modified: Wed, 03 Apr 2019, 00:00 UTC+02
+! Version: 2019.4.3.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 02 kwi 2019, 20:00 UTC+02
+! Aktualizacja: śro, 03 kwi 2019, 00:00 UTC+02
 !
 !
 ! Newslettery
@@ -352,7 +352,7 @@ adaware.com,anime-odcinki.pl,epoznan.pl,grupamagnum.eu,imged.pl,meczyki.pl,wtk.p
 darmarsklep.pl###WebPushAddSubscription, .modal-backdrop
 darmarsklep.pl##.modal-open:style(overflow: auto !important;)
 egami-image.com,mpcforum.pl,winclub.pl##+js(set-constant.js, ips.utils.notification.supported, false)
-reddit.com###SHORTCUT_FOCUSABLE_DIV > style + div[class=""] + .cooLDW:has(div[role="dialog"][aria-modal])
+reddit.com###SHORTCUT_FOCUSABLE_DIV > style + div + div.cooLDW:has(div[role="dialog"][aria-modal])
 !
 !
 ! Scrollujące filmiki
