@@ -1,9 +1,9 @@
-! Checksum: cqY1DnjdJkYCb5pZf0TZTA
+! Checksum: PT6BA9HjgN7GpZ3XX2sjAA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Wed, 03 Apr 2019, 12:01 UTC+02
-! Version: 2019.4.3.2
+! Last modified: Wed, 03 Apr 2019, 20:00 UTC+02
+! Version: 2019.4.3.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 03 kwi 2019, 12:01 UTC+02
+! Aktualizacja: śro, 03 kwi 2019, 20:00 UTC+02
 !
 !
 ! Newslettery
@@ -117,6 +117,8 @@ kire.pl##.gafancybox-margin:style(margin-right: 0 !important;)
 kire.pl##.gafancybox-overlay
 kmziz.pl###full_newsletter_modal, .modal-backdrop
 lalorraine.pl##.sg-popup-overlay, .sgpb-popup-dialog-main-div-wrapper
+lancerto.com##.modals-wrapper:has(.popup-newsletter)
+lancerto.com##._has-modal:style(overflow: auto !important;)
 limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
 macris.com.pl,kontigo.com.pl###newsletter-popup
@@ -348,11 +350,11 @@ www.vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-tit
 !
 !
 ! Powiadomienia Push
-adaware.com,anime-odcinki.pl,epoznan.pl,grupamagnum.eu,imged.pl,meczyki.pl,wtk.pl,yoursclothing.pl,zdrowie.radiozet.pl,www.reddit.com,chillizet.pl##+js(abort-on-property-read.js, Notification.requestPermission)
+adaware.com,anime-odcinki.pl,epoznan.pl,grupamagnum.eu,imged.pl,meczyki.pl,wtk.pl,yoursclothing.pl,zdrowie.radiozet.pl,www.reddit.com,new.reddit.com,chillizet.pl##+js(abort-on-property-read.js, Notification.requestPermission)
 darmarsklep.pl###WebPushAddSubscription, .modal-backdrop
 darmarsklep.pl##.modal-open:style(overflow: auto !important;)
 egami-image.com,mpcforum.pl,winclub.pl##+js(set-constant.js, ips.utils.notification.supported, false)
-reddit.com###SHORTCUT_FOCUSABLE_DIV > style + div + div.cooLDW:has(div[role="dialog"][aria-modal])
+www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > style + div + div.cooLDW:has(div[role="dialog"][aria-modal])
 !
 !
 ! Scrollujące filmiki
@@ -387,7 +389,7 @@ znak.com.pl##body:style(background: none !important;)
 4mats.pl##html, body:style(overflow-y: auto !important;)
 airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,ovovita.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl,fury-zone.com,kolczewska.pl,domkorkowy.com,www.consil.com.pl,otop.org.pl,promodor.pl,sanier.pl##html[style]:style(overflow-y: auto !important;)
 airdron-polska.pl,awans-bhp.pl,bialykrzyz.com.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,e-niemcy.de,intibs.pl,ironsky.pl,narcyz.com.pl,paralympic.org.pl,podrogach.pl,sendbean.pl,agmar.biz.pl,autokontrola.com,doniczki-poznan.pl,fury-zone.com,kolczewska.pl,domkorkowy.com,www.consil.com.pl,otop.org.pl,promodor.pl,sanier.pl##.nicescroll-rails
-allegro.pl,planeta.fm,skionline.pl,niezlasztuka.net,greasyfork.org,solidpak.pl,certyficate.it,urz.pl,mgr.farm,elwico.com.pl,vivio.pl,artdelarte.pl,pl.fotolia.com,ornontowice.pl,kaliber.pl,pmi.org.pl,esaliens.pl,stolbud.pl,dziennikwschodni.pl,gerdex.com.pl,sms.priv.pl,ibe.pl##.grecaptcha-badge:style(opacity: 0 !important;)
+allegro.pl,planeta.fm,skionline.pl,niezlasztuka.net,greasyfork.org,solidpak.pl,certyficate.it,urz.pl,mgr.farm,elwico.com.pl,vivio.pl,artdelarte.pl,pl.fotolia.com,ornontowice.pl,kaliber.pl,pmi.org.pl,esaliens.pl,stolbud.pl,dziennikwschodni.pl,gerdex.com.pl,sms.priv.pl,ibe.pl,giacomo-design.com##.grecaptcha-badge:style(opacity: 0 !important;)
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,sklep-presto.pl,ubieramy.pl##.app-info > header:style(padding-top: 0 !important;)
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 bithub.pl##.st-post-share:style(position: static !important;)
