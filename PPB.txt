@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: WLSnZPIeh2RVe53nkiYXYw
+! Checksum: YcRuuB1tNuq/1OarDMTy5g
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Sun, 07 Apr 2019, 00:00 UTC+02
-! Version: 2019.4.7.1
+! Last modified: Sun, 07 Apr 2019, 10:48 UTC+02
+! Version: 2019.4.7.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Reddit => https://www.reddit.com/r/PolishFiltersTeam/
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 07 kwi 2019, 00:00 UTC+02
+! Aktualizacja: nie, 07 kwi 2019, 10:48 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2100,7 +2100,7 @@ mediam.eu,niezlomni.com,ono24.info,radioznin.fm,mediatrust.ro,radioznin.fm,trafo
 medianarodowe.com,roztocze.net,lakiernictwo.net,porozmawiajmy.tv,pulawy.eu,ipa-katowice.org###gototop
 medicover.pl##.scrollTopArrow
 metalgearsolid.pl###return_top
-metaloweszafkigrzewcze.eu,gdanskstrefa.com,ochrona24.info,targowek.info,wiskitki.org,fera.pl,axeprim.eu###scroll-up
+metaloweszafkigrzewcze.eu,gdanskstrefa.com,ochrona24.info,targowek.info,wiskitki.org,fera.pl,axeprim.eu,sluzby-ratownicze.pl###scroll-up
 millymally.pl##.page-up
 misericordia.media.pl##.hc_scrollup
 mixit.pl###scroll-up-btn
@@ -2273,7 +2273,7 @@ potplayerclub.pl##.ir-arriba
 pozyczkomat-lodz.pl##.hm_go_top
 pracawsieci.net###ruby-back-top
 praca.pl##.app-footer__scroll-to-top
-pracownia.org.pl##body > a[href="#"].btn-default.btn
+pracownia.org.pl##body > a[href="#"].btn
 prawokonsumenckie.pl##.js-go-to
 profitroom.pl##.arrow-back-to-top
 programyzadarmo.net.pl###sticky_gototop
@@ -3158,6 +3158,7 @@ pl##.side_widget
 pl##.slideout-widget
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
+pl#?#.cTopicPostArea:-abp-has(> div > .cGuestTeaser)
 pl.aleteia.org###fancybox-container-1
 pl.gearbest.com##.siteBanner
 pl.reddit.com,old.reddit.com##.premium-banner-outer
@@ -3223,6 +3224,7 @@ sklep-rolnicze.eu###oiTab
 sklep.hultajpolski.pl###MX_hotinfo
 sklep.wodna-kraina.pl###widget_shop4
 sloworegionu.pl##.pagenav > .previous, .pagenav > .next
+sluzby-ratownicze.pl###af-preloader > #loader-wrapper
 sluzby-ur.pl##.gotologowanie
 smaker.pl###footerPromoSlider
 smakowitychleb.pl###r-newsleeter-btn
