@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: dKbd9TeMWkuzNottKxq3uw
+! Checksum: ZDnxKjb6R9XLN/FGHhE1rA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 14 Apr 2019, 00:00 UTC+02
-! Version: 2019.4.14.1
+! Last modified: Sun, 14 Apr 2019, 16:00 UTC+02
+! Version: 2019.4.14.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 14 kwi 2019, 00:00 UTC+02
+! Aktualizacja: nie, 14 kwi 2019, 16:00 UTC+02
 !
 !
 !
@@ -188,7 +188,7 @@ goodie.pl###video-banner-modal
 growbox.pl###pf_bg, .pf_sub
 gymeltoro.pl,meblejedrus.eu,sklep.krosno.com.pl##.popup
 haart.pl,serialowy.info,dobremiejsce.org##.wph-modal
-hael.pl##.fancybox-overlay
+hael.pl,modrzewiowy-dwor.pl##.fancybox-overlay
 hafija.pl##.dgd_overlay, .dgd_stb_box
 haftprojekt.pl###popup_newsltr
 hebe.pl,modea.pl##.splash
@@ -251,6 +251,7 @@ label-magazine.com##.lightbox_overlay
 lagardere-tr.pl###banner-hds, #banner-hds-background
 ledco.pl###iqitpopup, #iqitpopup-overlay
 ledfarmer.pl,artbud.pl,aze.com.pl##.modal-visible.modal, .mask
+lifegeek.pl##[data-title="Exit Popup - Ebook"], .ulp-overlay
 lightinthebox.com##.pop-email-new, .pop-email-new + .modal-backdrop
 limanowa.in##.ad_popup
 limonkowy.com##.ui-widget-overlay, .ui-dialog
@@ -300,8 +301,7 @@ moovitapp.com,polmed.pl##.md-dialog-container, .md-dialog-backdrop
 morele.net##.bottomFixedPopup
 multidrogeria.pl,sprzedajemytkaniny.pl##.pupup
 muratordom.pl###nlt_popup
-muzycznagielda.com###fancybox-overlay
-muzycznagielda.com###fancybox-wrap
+muzycznagielda.com###fancybox-overlay, #fancybox-wrap
 mydetoxtea.pl###siteCover
 mylomza.pl###fadeinbox
 myloview.pl##.subskrypcja, .ui-widget-overlay
@@ -334,6 +334,7 @@ obtkarma.pl#?#.fancybox-wrap:-abp-has(#popupnews-form)
 okiemrolnika.pl##.ls-popup, .ls-popup-overlay
 okiemturysty.pl##.div_box0
 okularywsieci.pl##.xrootBox, .xrootBoxOverlay
+omeda.pl###window1
 ono24.info##.bts-popup
 opencard.pl###trialModal, .modal-backdrop
 opensubtitles.org###fadeSub, #lightSub
@@ -504,6 +505,7 @@ unbrokenstore.com###topLayerBackDrop, #tws_i_0
 unia.pl##.banerjpg
 userstyles.org##.overlay_background
 ustyle.pl###message-purchased
+uzdrowiska-klodzkie.pl###popupBody, #popupContainer
 uzdrowisko-ustron.pl###myMask, #ustron
 uzdrowisko-wieniec.pl###special_offer
 velpa.pl###dialog_wrapper
@@ -555,6 +557,7 @@ zszywka.pl###inv-request-popup
 /axnewsletter.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /compress/popupFacebook.js$domain=chamskie.pl|www.motywujemy24.pl
+/css/jquery.fancybox.css$domain=fakro.pl|modrzewiowy-dwor.pl
 /js/popup.js$domain=meblohaus.pl|mediaexpert.pl|multikurs.pl|grawitacyjny.pl|slimebox.pl
 /media/system/js/modal.js$domain=gminamoszczenica.eu|nowawrzesnia.pl|perfectdating.pl
 /plugins/facebook-fanbox-popup
@@ -655,7 +658,6 @@ zszywka.pl###inv-request-popup
 ||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
 ||www.brytol.com/wp-content/plugins/auto-fb-popup/assets/remodal.min.js
 ||www.claritine.pl/static/js/image_gallery/jquery.colorbox.js
-||www.fakro.pl/css/jquery.fancybox.css
 ||www.izigsm.pl/js/newsletterpop.js
 ||www.kuchenny.com.pl/popup/js/jquery.simplemodal.js
 ||www.makita.sklep.pl/szablony/standardowy.rwd/exit-popup/scripts/main.js
