@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ZDnxKjb6R9XLN/FGHhE1rA
+! Checksum: 5I+Xlxjo1YJpWzBuqHM7AQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 14 Apr 2019, 16:00 UTC+02
-! Version: 2019.4.14.2
+! Last modified: Mon, 15 Apr 2019, 20:00 UTC+02
+! Version: 2019.4.15.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 14 kwi 2019, 16:00 UTC+02
+! Aktualizacja: pon, 15 kwi 2019, 20:00 UTC+02
 !
 !
 !
@@ -251,6 +251,7 @@ label-magazine.com##.lightbox_overlay
 lagardere-tr.pl###banner-hds, #banner-hds-background
 ledco.pl###iqitpopup, #iqitpopup-overlay
 ledfarmer.pl,artbud.pl,aze.com.pl##.modal-visible.modal, .mask
+legalnews24.pl###dialogNewsletter
 lifegeek.pl##[data-title="Exit Popup - Ebook"], .ulp-overlay
 lightinthebox.com##.pop-email-new, .pop-email-new + .modal-backdrop
 limanowa.in##.ad_popup
@@ -331,6 +332,7 @@ nyxprofessionalmakeup.pl##.ui-widget-overlay, .js_newsletter_subscribe
 obi.pl##.open.ankieta
 obtkarma.pl##.fancybox-overlay[style="display: block; width: auto; height: auto; background: rgba(255, 255, 255, 0.4);"]
 obtkarma.pl#?#.fancybox-wrap:-abp-has(#popupnews-form)
+oczymlekarze.pl##.box-pozegnalny
 okiemrolnika.pl##.ls-popup, .ls-popup-overlay
 okiemturysty.pl##.div_box0
 okularywsieci.pl##.xrootBox, .xrootBoxOverlay
@@ -407,6 +409,7 @@ pracujwsprzedazy.pl###modal-social
 prettyone.pl##.modal-backdrop, .pwebbox-modal
 prezeska.pl##.pum
 proclasse.pl###dis_wrapper, #dis_overlay
+projektwp.pl##body > div > .ga-popup
 proline.pl##div[style*="visibility: visible; display: block;"]
 prostowsmak.com###ffbp
 pruszynski.com.pl###p_layer
