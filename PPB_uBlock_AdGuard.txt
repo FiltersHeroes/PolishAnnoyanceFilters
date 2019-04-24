@@ -1,9 +1,9 @@
-! Checksum: own0Ot1ejj6J1E4m53ALkA
+! Checksum: BHbokg1bv4zEiGOFZwF5ng
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 21 Apr 2019, 12:00 UTC+02
-! Version: 2019.4.21.1
+! Last modified: Wed, 24 Apr 2019, 20:00 UTC+02
+! Version: 2019.4.24.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 21 kwi 2019, 12:00 UTC+02
+! Aktualizacja: śro, 24 kwi 2019, 20:00 UTC+02
 !
 !
 ! Newslettery
@@ -368,8 +368,8 @@ finanse.wp.pl###Player0.floating:style(visibility: hidden !important;)
 forsal.pl##+js(abort-on-property-read.js, parseFloat)
 gazeta.pl,plotek.pl,sport.pl,tokfm.pl##+js(set-constant.js, ONTVminiatureBlocked, trueFunc)
 gazeta.pl,plotek.pl,sport.pl,tokfm.pl##+js(set-constant.js, gazeta_pl.Player.FloatingPlayer.floatPlayer, noopFunc)
-gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
-gotujmy.pl,mamotoja.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
+gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
+gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
 gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(addEventListener-defuser.js, scroll, d.stopPropagation)
 infozdrowie24.pl##+js(set-constant.js, window.ONTVshowMiniature, noopFunc)
 interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
@@ -429,6 +429,7 @@ strefakodera.pl##html:style(overflow-x: unset !important;)
 tabletowo.pl##.bwswitch:style(position: absolute !important;)
 tablety.pl##.image-ticker-news:style(left: 0px !important;)
 waw4free.pl###spolecznosci:style(height: auto !important;)
+www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
 !
 !
