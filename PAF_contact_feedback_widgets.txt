@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: o1cMSeM+C64RDFqNyBB1Iw
+! Checksum: bMWXaCZ5of5nIG+VTb7Qpw
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Wed, 24 Apr 2019, 00:00 UTC+02
-! Version: 2019.4.24.1
+! Last modified: Fri, 26 Apr 2019, 00:00 UTC+02
+! Version: 2019.4.26.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 24 kwi 2019, 00:00 UTC+02
+! Aktualizacja: pią, 26 kwi 2019, 00:00 UTC+02
 !
 !
 !
@@ -27,6 +27,7 @@ ahe.lodz.pl###chat-invite
 airdron-polska.pl,modele-centrum.pl###sugester-chat
 airport.com.pl##a[href^="javascript:void(window.open('http://airport.com.pl/livezilla/chat.php"]
 ale.pl###rr_side_widget
+almatur.pl###telefondiv
 amfora.pl,hulahop.pl,pupilo.pl##.why-us-show-button
 amracing.pl##.sale-contact-box
 angelsadvertising.pl,baccata.com.pl,www.sendbean.pl###sendbean
@@ -88,7 +89,9 @@ doniczki-poznan.pl##.cd-nav-trigger
 dreamtours.pl###info-box
 dressinn.com##.chat_icono
 drukarniawolf.pl##.binotelHide, #bingc-phone-button-tooltip, #bingc-active, #bingc-phone-button
+easygo.pl###reportBug, .reportBug
 ebeactive.pl###iw-tab-label
+eccoholiday.com###szybki_kontakt_tag, .szybki_kontakt_link
 eci.com.pl###contact_us_sidebar
 eglobalcentral.pl###hs-beacon
 ekantor.pl##.slideout-btn
@@ -97,6 +100,7 @@ elektrozysk.pl###report_error_box_button, #ceneo-widget
 endo.pl##.contact-container
 enfamil.pl##.float-chat
 eurobank.pl##.reviews
+ewakacje.pl##.classNotesList_button
 experiencecorner.com##.fb-messengermessageus
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
 e-prawnik.pl##.o-window.windowTop
@@ -186,6 +190,7 @@ mango.pl###chat-toggle
 masterlease.pl##.contact-form
 masterleasing.pl##.callus
 masterproject.pl##.trigger_popup_fricc
+meblosfera.pl##.wp-side-menu-item:nth-of-type(1)
 meczelive.tv###task
 militaria.pl###golivechat
 mistama.com##.ggu-bot-snapped-launcher
@@ -236,6 +241,7 @@ pl##.ggu-bot-snapped-launcher
 pl##.livecall-callback-v1-overlay
 pl##.mtp-contact-button
 pl##.mtp-contact-message
+pl##.quickcontact-box
 pl.000webhost.com##div[style="cursor: pointer;"]
 pl.aliexpress.com##.ui-fixed-panel-survey
 pl.gearbest.com##[href="https://support.gearbest.com/ticket/ticket/cat"] > .siteAside_linkIcon, .js_feedback
@@ -303,6 +309,7 @@ topshop.pl###slider_k2c
 topsolutions.pl###popup_contact
 trans.info##.wall-add-news
 travelplanet.pl##.open--feedback--popup
+turio.com.pl##.call-now-button
 tvokazje.pl###phone-webcallback
 twojcel.to###message-purchased
 tylkostylowe.pl###widget_shop2
@@ -313,7 +320,7 @@ velux.pl##.LPMcontainer
 verakom.pl##.fab-wrapper
 viralka.pl##.widget_boombox_social
 vitay.pl###serviceRatingBox
-wakacje.pl##.rightSpeech
+wakacje.pl##div[class][style^="position: fixed;"] > div[class][title="Zgłoś uwagi do strony"]
 warsawdowntown.pl##iframe[name="ca-review-widget"]
 wnt.com##.sticky-contact
 wolnekonopie.org##.kleo-quick-contact-link
@@ -332,6 +339,8 @@ zegarki-online.pl,sklepmaniek.pl###allegro_ikona
 zizako.pl,dbcenter.pl###widget_shop3
 zrzutka.pl##.uv-bottom-right
 zwirex.pl###shoutbox
+!onholidays.pl,salttravel.pl,ilkus.com.pl,zatur.pl,mtour.net.pl,el-tour.com.pl##.quickcontact-box
+!wakacje.pl##.rightSpeech
 /gnwidget/config/site-iframe.html$domain=orange.pl
 /livezillachat//script.php
 ||account.dzinga.com/callback/script.js
