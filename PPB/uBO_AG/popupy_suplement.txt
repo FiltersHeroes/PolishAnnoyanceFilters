@@ -2,6 +2,8 @@ action.com##.has-popup:style(position: static !important;)
 action.com,ekai.pl,jezykiobce.pl##.newsletter-popup
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
+www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
+www.reddit.com,new.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
 agatabielen.com##.remodal-overlay
 akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
