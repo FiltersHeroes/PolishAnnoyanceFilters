@@ -1,9 +1,9 @@
-! Checksum: BHbokg1bv4zEiGOFZwF5ng
+! Checksum: 8GcSDhSsnHacZNPizJy/yA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Wed, 24 Apr 2019, 20:00 UTC+02
-! Version: 2019.4.24.1
+! Last modified: Fri, 26 Apr 2019, 00:00 UTC+02
+! Version: 2019.4.26.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 24 kwi 2019, 20:00 UTC+02
+! Aktualizacja: pią, 26 kwi 2019, 00:00 UTC+02
 !
 !
 ! Newslettery
@@ -233,6 +233,8 @@ www.kzkgop.com.pl##.modal-backdrop
 www.microsoft.com##body[style^="overflow: hidden;"]:style(overflow: visible !important;)
 www.microsoft.com###email-newsletter-dialog
 www.ozog.pl###homeModal
+www.reddit.com,new.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
+www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
 zaufanekliniki.pl###modalMain, .modal-backdrop
@@ -359,7 +361,6 @@ adaware.com,anime-odcinki.pl,epoznan.pl,grupamagnum.eu,imged.pl,meczyki.pl,wtk.p
 darmarsklep.pl###WebPushAddSubscription, .modal-backdrop
 darmarsklep.pl##.modal-open:style(overflow: auto !important;)
 egami-image.com,mpcforum.pl,winclub.pl##+js(set-constant.js, ips.utils.notification.supported, false)
-www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 !
 !
 ! Scrollujące filmiki
@@ -428,6 +429,8 @@ rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !import
 strefakodera.pl##html:style(overflow-x: unset !important;)
 tabletowo.pl##.bwswitch:style(position: absolute !important;)
 tablety.pl##.image-ticker-news:style(left: 0px !important;)
+wakacje.pl##div[class][style^="position: fixed;"]:has(a:matches-css(display: none)):has(div[class][title="Zgłoś uwagi do strony"]:matches-css(display: none)):has(div[class][title="Schowek ofert"]:matches-css(display: none))
+wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:style(filter: none !important;)
 waw4free.pl###spolecznosci:style(height: auto !important;)
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
