@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YTG3F+Q9+k9CYwujpYk6zw
+! Checksum: +M2r0lGjAN9ApXSb7DeOMw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Fri, 26 Apr 2019, 15:34 UTC+02
-! Version: 2019.4.26.3
+! Last modified: Fri, 26 Apr 2019, 20:00 UTC+02
+! Version: 2019.4.26.4
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Reddit => https://www.reddit.com/r/PolishFiltersTeam/
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 26 kwi 2019, 15:34 UTC+02
+! Aktualizacja: pią, 26 kwi 2019, 20:00 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -625,6 +625,7 @@ olsztyn24.com##.katalog_newsletter_content
 onebid.pl##.leftmainmenu.hidden-sm.hidden-xs.col-lg-3.col-md-3.col-xs-12 > .hidden-xs.hidden-sm
 opera.pl##.prawyRegion > div.kontener1:nth-of-type(2)
 opi.org.pl,rosebikes.pl##.newsletterform
+opornografii.pl##.article__newsletter
 oracle.com##.cw21signup
 orange.pl##div.u-xsmall-no-margin.u-small-margin-xl.opl-footer__linksbox.l-col-2.l-col:nth-of-type(4)
 orange.pl###newsletterSkipLink, .opl-footer__newsletter
@@ -1947,6 +1948,7 @@ aval.com.pl##.roll-top
 avans.pl,redcoon.pl,sklepsamsung.pl###js-scrollTop
 avaro.pl,kontri.pl###arrow_top
 avast.com###slide-top
+axeprim.eu,metaloweszafkigrzewcze.eu,gdanskstrefa.com,ochrona24.info,targowek.info,wiskitki.org,fera.pl,sluzby-ratownicze.pl,placesandplants.com,wachtyrz.eu,meblosfera.pl,zs12lublin.eu###scroll-up
 axtechnology.pl##.show_scroll
 b2btrade.eu##.back-to-top-arrow
 bartyla.pl,negocjujwszystko.pl##.trx_addons_scroll_to_top
@@ -2014,6 +2016,7 @@ dobramine.com##.to_top_link
 dobrekupony.pl,bobbyburger.pl,hykker.com,samequizy.pl,kobietydokodu.pl,bedziepieklo.pl,60sekund.tytan.pl,prawodoprzedsiebiorczosci.parp.gov.pl,strefapmi.pl,mulan.pl,wetro.pl,konferencja-eureka.pl,faie.pl,fitdiet.pl,urwisydwa.sklep.pl,gamrat.pl,poid.eu,filing.pl###to-top
 dolinski.pl##.ab__scroll_to_top
 dolnyslask.travel###wpfront-scroll-top-container
+domjozefa.tv,playstation.com,www.wizytowka.be,solojuve.com,szkolymedyczne.eu,tan.io,limanowa.in,komugroup.eu,emisja.tv,rodobox.io,vices.eu,sklep-rolnicze.eu,rolland.tech,podkasty.info,spece.it,nawakacje.eu###back-to-top
 domkorkowy.com,nowosci-mp3.eu,3i-store.com,programtv.naziemna.info,home-you.com,szklodokuchni.com,typeofweb.com,savethefloppy.com,huaweimobileservices.com,polskaekologia.org,mixremedia.eu,outhorn.com,greenmousestudio.com,podstacja.com,naszekielce.com,antrans.com.pl###toTop
 domodi.pl##.dm-go-up
 domtuiteraz.eu,akariaryaca.com,gettinenglish.com##.back-top
@@ -2159,7 +2162,6 @@ mediam.eu,niezlomni.com,ono24.info,radioznin.fm,mediatrust.ro,radioznin.fm,trafo
 medianarodowe.com,roztocze.net,lakiernictwo.net,porozmawiajmy.tv,pulawy.eu,ipa-katowice.org###gototop
 medicover.pl##.scrollTopArrow
 metalgearsolid.pl###return_top
-metaloweszafkigrzewcze.eu,gdanskstrefa.com,ochrona24.info,targowek.info,wiskitki.org,fera.pl,axeprim.eu,sluzby-ratownicze.pl,placesandplants.com,wachtyrz.eu,meblosfera.pl###scroll-up
 millymally.pl##.page-up
 misericordia.media.pl##.hc_scrollup
 mixit.pl###scroll-up-btn
@@ -2219,7 +2221,6 @@ pizzeria-vendetta.eu##.return-to-top
 pkobp.pl###scrollie
 platinet.eu,www.hoteladler.com###gotop
 player.pl##.footer-panel-toggle
-playstation.com,www.wizytowka.be,solojuve.com,szkolymedyczne.eu,tan.io,limanowa.in,komugroup.eu,emisja.tv,rodobox.io,vices.eu,domjozefa.tv,sklep-rolnicze.eu,rolland.tech,podkasty.info,spece.it###back-to-top
 plejada.pl###goback
 pl##.backToTop
 pl##.backtopbutton
@@ -3031,6 +3032,7 @@ facebook.com###pagelet_growth_expanding_cta
 facetemjestem.pl##.uk-hidden-small, .sidebar-sticky
 fakty.tvn24.pl##.headerStickyContainer
 feriogaj.com##.riding-box
+filehippo.com###avast-seal
 firmyinzynieria.com###sideButtons.load
 fitdiet.pl,poid.eu###ajax-loading-screen
 florydziak.com###float_feed_box
