@@ -199,6 +199,8 @@ www.kzkgop.com.pl##.modal-backdrop
 www.microsoft.com##body[style^="overflow: hidden;"]:style(overflow: visible !important;)
 www.microsoft.com###email-newsletter-dialog
 www.ozog.pl###homeModal
+www.reddit.com,new.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
+www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
 zaufanekliniki.pl###modalMain, .modal-backdrop
@@ -210,6 +212,7 @@ zlotymotocyklowe.pl##.fancybox-overlay:has([target="_blank"])
 zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important; overflow-y: visible !important;)
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
+!www2.hm.com##.takeover-wrapper.responsive.modaloverlay
 !#if !cap_html_filtering
 activ-investment.eu##+js(abort-current-inline-script.js, openNewsletter)
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
