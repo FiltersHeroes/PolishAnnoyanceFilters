@@ -1,9 +1,9 @@
-! Checksum: 5KHK4TbGCWSdTNKo04H3+Q
+! Checksum: b1yi5r2osrj3XDUS1xBPhw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Thu, 02 May 2019, 00:00 UTC+02
-! Version: 2019.5.2.1
+! Last modified: Tue, 07 May 2019, 00:00 UTC+02
+! Version: 2019.5.7.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: czw, 02 maj 2019, 00:00 UTC+02
+! Aktualizacja: wto, 07 maj 2019, 00:00 UTC+02
 !
 !
 ! Newslettery
@@ -53,6 +53,8 @@ auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 autonaminuty.org,www.pl.weber,ef.pl##html[style]:style(overflow-y: auto !important; margin-right: 0 !important;)
 autonaminuty.org,www.pl.weber,ef.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
+baby.nivea.pl###fancybox-container-1:has(#newsletter-popup)
+baby.nivea.pl##.compensate-for-scrollbar:style(overflow: auto !important; margin-right: 0 !important;)
 bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
 bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,oaza-palmy.pl,zlotymotocyklowe.pl,mspdion.org.pl##html.fancybox-lock > body:style(overflow: visible !important;)
 bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock:style(overflow: visible !important;)
