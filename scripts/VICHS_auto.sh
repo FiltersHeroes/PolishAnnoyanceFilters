@@ -44,7 +44,7 @@ for i in $ost_plik; do
         fi
     fi
 
-    if [ "$i" == "PPB/wyjatki.txt" ] || [ "$i" == "PPB/scroll_film.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_suplement.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_AG.txt" ]; then
+    if [ "$i" == "PPB/wyjatki.txt" ] || [ "$i" == "PPB/scroll_film.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_suplement.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_userCSS.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_non_userCSS.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_AG.txt" ]; then
         if [[ "$modul" != *" PAF_scrolling_videos.txt"* ]]; then
             modul+=" "PAF_scrolling_videos.txt
         fi
