@@ -55,6 +55,12 @@
 !#if !ext_ublock
 @include scroll_film_AG
 !#endif
+!#if cap_user_stylesheet
+@include scroll_film_userCSS
+!#endif
+!#if !cap_user_stylesheet
+@include scroll_film_non_userCSS
+!#endif
 !
 !
 ! Tła zawierające autoreklamy
