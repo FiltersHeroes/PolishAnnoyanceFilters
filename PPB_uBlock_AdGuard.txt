@@ -1,9 +1,9 @@
-! Checksum: GO/D3Z5dDfarT1dbtxwoFA
+! Checksum: bmDC2oIrsCBMht905Ppf6A
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 12 May 2019, 20:00 UTC+02
-! Version: 2019.5.12.1
+! Last modified: Mon, 13 May 2019, 00:01 UTC+02
+! Version: 2019.5.13.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 12 maj 2019, 20:00 UTC+02
+! Aktualizacja: pon, 13 maj 2019, 00:01 UTC+02
 !
 !
 ! Newslettery
@@ -377,14 +377,20 @@ gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-ma
 gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
 gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(addEventListener-defuser.js, scroll, d.stopPropagation)
 infozdrowie24.pl##+js(set-constant.js, window.ONTVshowMiniature, noopFunc)
-interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
-interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
 wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important;)
 !gazeta.pl,plotek.pl,sport.pl,tokfm.pl##+js(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
 !gazeta.pl,plotek.pl,sport.pl,tokfm.pl##+js(set-constant.js, ONTVshowMiniature, noopFunc)
 !#if !ext_ublock
 infozdrowie24.pl##.miniplayer:style(position: absolute !important; transition: unset !important;)
 infozdrowie24.pl##.normplayer:style(transition: unset !important;)
+!#endif
+!#if cap_user_stylesheet
+interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"], .video-body div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"], .video-body div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
+!#endif
+!#if !cap_user_stylesheet
+interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"], .video-body div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"], .video-body div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
 !#endif
 !
 !
