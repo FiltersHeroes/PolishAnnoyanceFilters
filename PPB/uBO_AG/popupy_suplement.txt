@@ -1,8 +1,6 @@
 action.com##.has-popup:style(position: static !important;)
 action.com,ekai.pl,jezykiobce.pl##.newsletter-popup
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
-ubraniadooddania.pl###popup-dialog, .modal-backdrop
-ubraniadooddania.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
 agatabielen.com##.remodal-overlay
@@ -184,6 +182,8 @@ termyszaflary.com,mspdion.org.pl##.fancybox-overlay
 ttv.pl###specialPopupModal
 ttv.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 tvokazje.pl###tvo-newsletter-popup-new-year, .modal-backdrop
+ubraniadooddania.pl###popup-dialog, .modal-backdrop
+ubraniadooddania.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 um24.pl##.zamow-katalog, .modal-backdrop
 unityline.pl###newsletter-out-of-body
 upolujebooka.pl###myModalExit, .modal-backdrop
