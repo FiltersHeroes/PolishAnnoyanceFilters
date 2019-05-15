@@ -1,9 +1,9 @@
-! Checksum: 8tA23kdWv780y/NOdh25JQ
+! Checksum: M/eF8v1VRUkeOb6knuJNFA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 14 May 2019, 11:55 UTC+02
-! Version: 2019.5.14.1
+! Last modified: Wed, 15 May 2019, 20:00 UTC+02
+! Version: 2019.5.15.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 14 maj 2019, 11:55 UTC+02
+! Aktualizacja: śro, 15 maj 2019, 20:00 UTC+02
 !
 !
 ! Newslettery
@@ -44,7 +44,7 @@ akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
 akademiaversum.pl###newsletter-pp
 alerabat.com##body:style(overflow-y: auto !important;)
 alerabat.com##.jquery-modal
-alesoczewki.com,jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl,medme.pl,online.citibank.pl,www.e-biurowce.pl,gazetkonosz.pl,edulider.pl,ppr.pl,idream.pl,teatr-sabat.pl,bezokularow.pl,kocmyrzow-luborzyca.ug.gov.pl,dekodor.pl,dieta.hpba.pl,solven.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+alesoczewki.com,jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl,medme.pl,online.citibank.pl,www.e-biurowce.pl,gazetkonosz.pl,edulider.pl,ppr.pl,idream.pl,teatr-sabat.pl,bezokularow.pl,kocmyrzow-luborzyca.ug.gov.pl,dekodor.pl,dieta.hpba.pl,solven.pl,ubraniadooddania.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 alesoczewki.com,nife.pl,campingshop.pl,intershoe.com.pl,bezokularow.pl,dedekor.pl###news_popup, .modal-backdrop
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,motoria.pl,pupilo.pl,sklep-presto.pl,ubieramy.pl##.morele-dialog-show:style(overflow: auto !important; padding-right: 0 !important;)
 archonhome.pl,defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com,intershoe.com.pl,kmziz.pl,kontigo.com.pl,limango.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
@@ -218,6 +218,8 @@ termyszaflary.com,mspdion.org.pl##.fancybox-overlay
 ttv.pl###specialPopupModal
 ttv.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 tvokazje.pl###tvo-newsletter-popup-new-year, .modal-backdrop
+ubraniadooddania.pl###popup-dialog, .modal-backdrop
+ubraniadooddania.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 um24.pl##.zamow-katalog, .modal-backdrop
 unityline.pl###newsletter-out-of-body
 upolujebooka.pl###myModalExit, .modal-backdrop
@@ -385,12 +387,12 @@ infozdrowie24.pl##.miniplayer:style(position: absolute !important; transition: u
 infozdrowie24.pl##.normplayer:style(transition: unset !important;)
 !#endif
 !#if cap_user_stylesheet
-interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"], .video-body div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
-interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"], .video-body div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
+interia.pl,pomponik.pl##div[class*="video"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,pomponik.pl##div[class*="video"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 !#endif
 !#if !cap_user_stylesheet
-interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"], .video-body div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
-interia.pl,pomponik.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"], .video-body div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
+interia.pl,pomponik.pl##div[class*="video"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,pomponik.pl##div[class*="video"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
 !#endif
 !
 !
