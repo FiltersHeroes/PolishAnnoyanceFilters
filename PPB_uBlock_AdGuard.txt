@@ -1,9 +1,9 @@
-! Checksum: HUSNRf9zgLOoKQl8IX/J2Q
+! Checksum: /wZ6tAEtCQmGvH1SgGRfeg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 17 May 2019, 20:00 UTC+02
-! Version: 2019.5.17.2
+! Last modified: Sat, 18 May 2019, 20:00 UTC+02
+! Version: 2019.5.18.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 17 maj 2019, 20:00 UTC+02
+! Aktualizacja: sob, 18 maj 2019, 20:00 UTC+02
 !
 !
 ! Newslettery
@@ -387,12 +387,12 @@ infozdrowie24.pl##.miniplayer:style(position: absolute !important; transition: u
 infozdrowie24.pl##.normplayer:style(transition: unset !important;)
 !#endif
 !#if cap_user_stylesheet
-interia.pl,pomponik.pl##div[class*="video"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
-interia.pl,pomponik.pl##div[class*="video"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
+interia.pl,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 !#endif
 !#if !cap_user_stylesheet
-interia.pl,pomponik.pl##div[class*="video"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
-interia.pl,pomponik.pl##div[class*="video"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
+interia.pl,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
 !#endif
 !
 !
