@@ -1,9 +1,9 @@
-! Checksum: /v/0b7vBX7XQOkwy+mTeLA
+! Checksum: sVX0tPJ7+N68T1ifd7MHFA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Mon, 20 May 2019, 00:00 UTC+02
-! Version: 2019.5.20.1
+! Last modified: Mon, 20 May 2019, 12:00 UTC+02
+! Version: 2019.5.20.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pon, 20 maj 2019, 00:00 UTC+02
+! Aktualizacja: pon, 20 maj 2019, 12:00 UTC+02
 !
 !
 ! Newslettery
@@ -416,6 +416,8 @@ bithub.pl##.st-post-share:style(position: static !important;)
 bludshop.com##+js(abort-on-property-read.js, onblur)
 budujemydom.pl##.magazyn-label .m-okladka:style(bottom: 0 !important;)
 budujemydom.pl##.magazyn-label:style(position:static !important;)
+download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;):style(display: block !important;)
+download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
 dziary.com##.ps-container:style(overflow: auto !important;)
 dziary.com##.ps-scrollbar-y-rail
 eredaktor.pl##body:style(overflow-x: unset !important;)
@@ -474,6 +476,7 @@ semcamp.university##div > div > div.app::-webkit-scrollbar-track:style(backgroun
 semcamp.university##div > div > div.app::-webkit-scrollbar:style(all: initial !important;)
 !#endif
 !#if !ext_ublock
+download.net.pl#?#p.date,dd.date:style(display: block !important;)
 komputerswiat.pl$$#ks_breaking_news
 !#endif
 !
