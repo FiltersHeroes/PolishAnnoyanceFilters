@@ -1,9 +1,9 @@
-! Checksum: xjgUcXWl5RYg9HAIo3yXaA
+! Checksum: 1c92EuJacq685VRkemwRqg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 21 May 2019, 12:00 UTC+02
-! Version: 2019.5.21.1
+! Last modified: Wed, 22 May 2019, 00:00 UTC+02
+! Version: 2019.5.22.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 21 maj 2019, 12:00 UTC+02
+! Aktualizacja: śro, 22 maj 2019, 00:00 UTC+02
 !
 !
 ! Newslettery
@@ -460,6 +460,7 @@ komputerswiat.pl###ks_breaking_news:style(position: absolute !important; left: -
 !#endif
 !#if cap_html_filtering
 komputerswiat.pl##^#ks_breaking_news
+www.google.com##^div.irc-nic.irc-igr.rg_ic.rg_bx:has(> div > div > div:has-text(Podobne wyszukiwania))
 !#endif
 !#if !env_firefox
 cs-harnas.pl,djlive.pl,gearbest.com,jaguar.pl,progrupa.com,przeswietl.pl,seniorka-z-plecakiem.pl,sparta.com.pl,start.me##body::-webkit-scrollbar:style(all: initial !important;)
@@ -480,6 +481,7 @@ semcamp.university##div > div > div.app::-webkit-scrollbar:style(all: initial !i
 !#if !ext_ublock
 download.net.pl#?#p.date,dd.date:style(display: block !important;)
 komputerswiat.pl$$#ks_breaking_news
+www.google.com$$div.irc-nic.irc-igr.rg_ic.rg_bx[tag-content="Podobne wyszukiwania"]
 !#endif
 !
 !
