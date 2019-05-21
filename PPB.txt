@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /p1npDCT+j6gcb4H7pFd9Q
+! Checksum: +sDP0ncaaWYCzcHPhDnjOA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Tue, 21 May 2019, 20:00 UTC+02
-! Version: 2019.5.21.2
+! Last modified: Wed, 22 May 2019, 00:00 UTC+02
+! Version: 2019.5.22.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Reddit => https://www.reddit.com/r/PolishFiltersTeam/
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 21 maj 2019, 20:00 UTC+02
+! Aktualizacja: śro, 22 maj 2019, 00:00 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1649,6 +1649,7 @@ tropicalsun.pl##.popup, .popup-wycieczki
 turystyka.torun.pl###cboxWrapper, #cboxOverlay
 tutek.pl###qnpop
 txm.pl##.mfp-bg, .sp-fancybox-overlay
+txm.pl##.mfp-ready.mfp-wrap
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
 unbrokenstore.com###topLayerBackDrop, #tws_i_0
 unia.pl##.banerjpg
@@ -1895,6 +1896,8 @@ typeofweb.com,pl###onesignal-popover-dialog
 ||tauron.pl/pushAd/integration.js
 ||topagrar.pl/static_tap/pushServiceWorker.js
 ||twojcel.to/?smpushprofile
+||txm.pl/crm-push-service-worker$script
+||txm.pl/js/assets/crm-web-push-service-worker.js$script
 ||webpush.interia.pl/activator.js
 ||webpush.interia.pl/scripts/*/push.js
 ||wp.pl/webpush/static/js/webpush.desktop.js
