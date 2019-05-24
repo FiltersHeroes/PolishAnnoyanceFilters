@@ -275,20 +275,20 @@ sportowefakty.wp.pl##^#exitpopup
 zoo.bydgoszcz.com##^#NewsShow
 !#endif
 !#if !ext_ublock
-activ-investment.eu##html.fancybox-lock:style(overflow: visible !important;)
 activ-investment.eu###newsletter-content
 activ-investment.eu##.fancybox-overlay:has(.newsletter-fancybox-wrapper)
-activ-investment.eu##.fancybox-overlay:style(overflow: hidden !important;)
+activ-investment.eu#$#html.fancybox-lock { overflow: visible !important }
+activ-investment.eu#$#.fancybox-overlay { overflow: hidden !important; }
 activ-investment.eu$$script[tag-content="openNewsletter"]
 alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
 annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl$$#newsletter_colorbox
 apynews.pl$$#fb-modal
-bartek.com.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
+bartek.com.pl#$#html { overflow: visible !important; margin-right: 0 !important;)
 bartek.com.pl$$script[tag-content="popupNewsletter"]
 biznes-host.pl###myModalPromo, .modal-backdrop
-biznes-host.pl##.modal-open:style(overflow: auto !important;)
+biznes-host.pl#$#.modal-open { overflow: auto !important; }
 biznes-host.pl$$#myModalPromo
 comperia.pl$$#modal_woman
 diamante-wear.com$$.newsletter__popup
@@ -296,7 +296,7 @@ drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
 kormoran-rowy.pl##.fancybox-overlay.fancybox-fixed
-kormoran-rowy.pl#?#.fancybox-lock:style(overflow: auto !important;)
+kormoran-rowy.pl#$?#.fancybox-lock { overflow: auto !important; }
 linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
 makarun.pl$$.makarun-modal
@@ -304,11 +304,11 @@ mediasam.pl$$#myWorning
 mprofi.pl$$.tve-leads-lightbox
 muscat.pl$$#discountPopup
 ogrodosfera.pl$$#NewsletterExit
-pozyczkabezbanku.pl##body[style]:style(overflow: auto !important;)
 pozyczkabezbanku.pl###bio_ep, #bio_ep_bg
+pozyczkabezbanku.pl#$#body[style] { overflow: auto !important; }
 sferis.pl##.fancybox-overlay:has(#newsletter-popup)
-sferis.pl,kormoran-rowy.pl##html.fancybox-lock > body:style(overflow: auto !important;)
-sferis.pl,kormoran-rowy.pl##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
+sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock > body { overflow: auto !important; }
+sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock { overflow: auto !important; margin-right: 0 !important; }
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
 !#endif
@@ -317,6 +317,7 @@ annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
+mobile.twitter.com##span:has-text(/Użytkownicy Twittera dowiadują się pierwsi/i):xpath(../../../../../..)
 mobile.twitter.com##span:has-text(/wykorzystaj cały potencjał twittera/i):xpath(../../../../../..)
 pozyczkabezbanku.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
 !#endif
