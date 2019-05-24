@@ -9,7 +9,6 @@ bludshop.com##+js(abort-on-property-read.js, onblur)
 budujemydom.pl##.magazyn-label .m-okladka:style(bottom: 0 !important;)
 budujemydom.pl##.magazyn-label:style(position:static !important;)
 download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;)
-!download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
 dziary.com##.ps-container:style(overflow: auto !important;)
 dziary.com##.ps-scrollbar-y-rail
 eredaktor.pl##body:style(overflow-x: unset !important;)
@@ -43,4 +42,5 @@ wakacje.pl##div[class][style^="position: fixed;"]:has(a:matches-css(display: non
 wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:style(filter: none !important;)
 waw4free.pl###spolecznosci:style(height: auto !important;)
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
+!download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
