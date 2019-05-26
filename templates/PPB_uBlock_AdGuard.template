@@ -16,9 +16,7 @@
 !
 !
 @path PPB/uBO_AG
-!#if !adguard_ext_android_cb 
-!#if !adguard_ext_safari 
-!#if !adguard_app_ios
+!#if (!adguard_ext_android_cb && !adguard_ext_safari && !adguard_app_ios)
 ! Newslettery
 @include newslettery_suplement
 !
@@ -95,9 +93,6 @@
 !#endif
 !#if ext_ublock
 @include specjalne_uBO
-!#endif
-!#endif
-!#endif
 !#endif
 !
 !
