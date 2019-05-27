@@ -24,12 +24,15 @@ sklepsamsung.pl##.b-modal_webpushCentered
 sklepsamsung.pl##.b-modal_webpushVertical
 travelplanet.pl##.fcx-push-modal
 typeofweb.com,pl###onesignal-popover-dialog
+!||proxy.snrbox.com/rtom/web-push/get-public-config$domain=fera.pl|eobuwie.com.pl|neo24.pl
+!||proxy.synerise.com/*/web-push/get-public-config
 /OneSignalSDK.js$domain=kosmicznapropaganda.pl|wp.pl|swiatbaterii.pl|insert.com.pl
 /assets/js/firebase/subscribe.js$domain=czesciauto24.pl
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.pl|planeta.fm|radiozet.pl
 /snr-sw.js$script,domain=pl.kruk.eu|mediaexpert.pl
 /static/js/firebase-push.js$domain=cafago.com|tomtop.com
 /sw.js$domain=zippyshare.com|youtube.com|openload.co|podaj.to|mojwzrok.pl|optes.pl|taniesoczewki.pl|adaware.com
+/web-push/get-public-config$xhtmlrequest,third-party
 ||api.sociaplus.com/views/push/js/sdk/insider-push-native-sdk.js
 ||cashless.pl/serviceworker.js
 ||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
@@ -50,9 +53,6 @@ typeofweb.com,pl###onesignal-popover-dialog
 ||mxapis.com^
 ||newbalance.api.useinsider.com/views/push/js/sdk/insider-push-native-sdk.js$script,domain=nbsklep.pl
 ||onesignal.com/webPushIframe$third-party
-/web-push/get-public-config$xhtmlrequest,third-party
-!||proxy.snrbox.com/rtom/web-push/get-public-config$domain=fera.pl|eobuwie.com.pl|neo24.pl
-!||proxy.synerise.com/*/web-push/get-public-config
 ||pushad.io^
 ||pushalert.co^$third-party
 ||pushango.com^$script,third-party
