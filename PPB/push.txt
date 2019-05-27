@@ -40,7 +40,7 @@ typeofweb.com,pl###onesignal-popover-dialog
 ||cdn.pushpushgo.com/scripts/$script
 ||cdn.pushwoosh.com/webpush/*.js
 ||cdn.qgraph.io/v3/r/qgraph.v2.js$domain=homebook.pl|domodi.pl
-||cdn.sendpulse.com$script,third-party
+||cdn.sendpulse.com^$script,third-party
 ||cdn.siteswithcontent.com/js/push/subscribe.js$script,domain=postimg.cc
 ||chamsko.pl/js/push-notifications.js
 ||dobreprogramy.pl/Providers/WebPushHelper.ashx
@@ -57,9 +57,9 @@ typeofweb.com,pl###onesignal-popover-dialog
 ||pushalert.co^$third-party
 ||pushango.com^$script,third-party
 ||pushapp.pro^$third-party
-||pushcrew.com$script,third-party
+||pushcrew.com^$script,third-party
 ||pushengage.com/script.js
-||pushify.com$script,third-party
+||pushify.com^$script,third-party
 ||pushpushgo.com/scripts*/push.js$third-party
 ||push-ad.com^$script,third-party
 ||push.domodi.pl/pushweb/assets/init.js
