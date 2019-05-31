@@ -1,9 +1,9 @@
-! Checksum: MP1tWF+zPNfSjRguI+1dng
+! Checksum: MQbRd/E/2472Ecwo3tE2Zg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 31 May 2019, 00:00 UTC+02
-! Version: 2019.5.31.1
+! Last modified: Fri, 31 May 2019, 12:00 UTC+02
+! Version: 2019.5.31.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 31 maj 2019, 00:00 UTC+02
+! Aktualizacja: pią, 31 maj 2019, 12:00 UTC+02
 !
 !
 ! Newslettery
@@ -134,6 +134,8 @@ limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
 macris.com.pl,kontigo.com.pl###newsletter-popup
 majazoo.pl##.fancybox-overlay:has(.modulesden-newsletter)
+marketerplus.pl##body.is-reveal-open:style(overflow: auto !important;)
+marketerplus.pl##div.reveal-overlay:nth-of-type(4)
 medme.pl###do-not-leave, .modal-backdrop
 miastakobiet.pl,teamquest.pl###newsletterModal
 miastakobiet.pl,teamquest.pl,selkar.pl,sklepkamil.pl,tvokazje.pl##.modal-open:style(overflow: visible !important;)
