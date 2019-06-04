@@ -1,9 +1,9 @@
-! Checksum: IC+n61MhJcp7qdIAXahXjQ
+! Checksum: kL1t7FVJPcFUz5l40iB+QA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 04 Jun 2019, 00:00 UTC+02
-! Version: 2019.6.4.1
+! Last modified: Tue, 04 Jun 2019, 20:00 UTC+02
+! Version: 2019.6.4.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 04 cze 2019, 00:00 UTC+02
+! Aktualizacja: wto, 04 cze 2019, 20:00 UTC+02
 !
 !
 ! Newslettery
@@ -431,6 +431,7 @@ filing.pl###switcher-posts:style(margin-right: 0 !important;)
 filing.pl##.nano-pane
 follow.vision##html > body:style(overflow: visible !important;)
 follow.vision##html:style(overflow: auto !important;)
+github.com###sponsor-button-repo > svg:style(color: #cb2431 !important;)
 goldenmarketing.pl###ssb-btn-1:style(visibility: hidden !important;)
 hondanews.eu###body > .vertical.simplebar-track
 hondanews.eu###body[data-simplebar]:style(overflow-x: hidden; overflow-y: auto !important;)
