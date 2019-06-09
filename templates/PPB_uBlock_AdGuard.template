@@ -26,9 +26,6 @@
 !
 ! Popupy
 @include popupy_suplement
-!
-!
-! Popupy - specjalne instrukcje
 !#if !cap_html_filtering
 @include popupy_bez_html
 !#endif
@@ -67,11 +64,14 @@
 @include tla_autoreklamy_suplement
 !
 !
+!#if env_mobile
+! Poprawki mobilne
+@include poprawki_mobilne
+!#endif
+!
+!
 ! Inne Widżety
 @include widgety_suplement
-!
-!
-! Inne widżety - specjalne instrukcje
 !#if !cap_html_filtering
 @include widgety_bez_html
 !#endif
