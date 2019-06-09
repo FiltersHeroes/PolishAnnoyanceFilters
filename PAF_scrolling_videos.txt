@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MoPD3IusxEEMmpEKwtC78w
+! Checksum: Lo+fg6Nx4sAbSUrSX+Wt5Q
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 09 Jun 2019, 16:00 UTC+02
-! Version: 2019.6.9.2
+! Last modified: Sun, 09 Jun 2019, 20:00 UTC+02
+! Version: 2019.6.9.3
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 09 cze 2019, 16:00 UTC+02
+! Aktualizacja: nie, 09 cze 2019, 20:00 UTC+02
 !
 !
 !
@@ -35,11 +35,10 @@ ugotuj.to##div.onnetworkplayercontainer > div.miniplayer
 webcamera.pl##.bigcam.floating-player > div >  .fullscreen-wrap
 wp.pl###Player0.floating
 wrc.net.pl##.sticky-video.sticky.is-stuck
-www.dobreprogramy.pl#?#.variant-desktop #phContent_divArticle > .desktop-flex > #sidebar > .block.sticky:-abp-contains(Nasze najnowsze wideo)
-||s-nm.ppstatic.pl/p/js/material/plywajace_wideo.js
-||s-nsk.ppstatic.pl/assets/nsk/*/js/compiled/atoms/article/sticky-video.js
-||s-pt.ppstatic.pl/p/js/regionalne/plywajace_wideo.js
-||s-tm.ppstatic.pl/js/floating-video/floatingVideo.js
+www.dobreprogramy.pl#?#.variant-desktop #phContent_divArticle > .desktop-flex > #sidebar > .block:-abp-contains(Nasze najnowsze wideo)
+||ppstatic.pl/assets/nsk/*/js/compiled/atoms/article/sticky-video.js
+||ppstatic.pl/js/floating-video/floatingVideo.js
+||ppstatic.pl/p/js/*/plywajace_wideo.js
 !
 !
 ! Wyjątki
