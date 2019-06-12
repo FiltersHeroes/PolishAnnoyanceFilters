@@ -1,9 +1,9 @@
-! Checksum: riHtQ06AFqIs8L9BhiH6GA
+! Checksum: yj2bhZia/WBWH5dxTZOk+A
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 11 Jun 2019, 20:00 UTC+02
-! Version: 2019.6.11.1
+! Last modified: Wed, 12 Jun 2019, 12:00 UTC+02
+! Version: 2019.6.12.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 11 cze 2019, 20:00 UTC+02
+! Aktualizacja: śro, 12 cze 2019, 12:00 UTC+02
 !
 !
 ! Newslettery
@@ -426,6 +426,7 @@ certyficate.it,defence24.com,dzwola.eu,energetyka24.com,giacomo-design.com,greas
 download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;)
 dziary.com##.ps-container:style(overflow: auto !important;)
 dziary.com##.ps-scrollbar-y-rail
+egami-image.com##form input:style(color: white !important;)
 eredaktor.pl##body:style(overflow-x: unset !important;)
 e-monki.pl##.col_2 > p > img[src="images/emonki11.jpg"]:style(max-width: 100%; padding-top: 10px;)
 filing.pl###switcher-posts:style(margin-right: 0 !important;)
