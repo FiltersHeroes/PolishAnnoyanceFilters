@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: shZoF8qM2MqPjpRgPQ0Tug
+! Checksum: 9+k2HUHvAeQEjNPmGojl4w
 ! Title: Polskie Filtry Elementów Irytujących - Inne Widżety
 ! Polish Annoyance Filters - Other Widgets
 ! Codename: Other Widgets
 ! Description: Filtry ukrywające i blokujące różne inne widżety.
-! Last modified: Wed, 12 Jun 2019, 20:00 UTC+02
-! Version: 2019.6.12.3
+! Last modified: Thu, 13 Jun 2019, 20:00 UTC+02
+! Version: 2019.6.13.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 12 cze 2019, 20:00 UTC+02
+! Aktualizacja: czw, 13 cze 2019, 20:00 UTC+02
 !
 !
 !
@@ -24,7 +24,7 @@
 50style.pl###help-arrow
 51015kids.eu##.sp-custom-19-1.insBlueWidget
 aaaauto.pl##.noprint.careerLink
-abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##a[data-st-area="backToSG"],a[data-st-area="goToSG"], a[data-st-area="backToSG_mob"], a[data-st-area="back-WP"], a[data-st-area="Header-back"], a[data-st-area="goToSG_mob"], .btn__back-to-wp, .wp-pl-redirect
+abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"], .btn__back-to-wp, .wp-pl-redirect
 afgcomputers.pl###menu3bar
 agdlab.pl,softonet.pl,ofeminin.pl,forbes.pl,verdykt.pl,ekstraklasa.tv,esportmania.pl###nitro-block
 agdrtv24.pl###baner_rog
@@ -628,6 +628,7 @@ zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 zoo.torun.pl##div.torun-rp, .bip-rp
 zrzutka.pl##.floating-apps
 ztm.gda.pl###mobile
+!abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##a[data-st-area="backToSG"],a[data-st-area="goToSG"], a[data-st-area="backToSG_mob"], a[data-st-area="back-WP"], a[data-st-area="Header-back"], a[data-st-area="goToSG_mob"], .btn__back-to-wp, .wp-pl-redirect
 /js/jquery.nicescroll.js$script,domain=2x45.info
 /js/jquery.nicescroll.plus.js$script,domain=2x45.info
 /js/jquery.simplr.smoothscroll.min.js$script,domain=agmarprzewozy.pl
