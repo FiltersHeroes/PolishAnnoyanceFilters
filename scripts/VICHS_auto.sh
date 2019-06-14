@@ -5,7 +5,7 @@ sciezka=$(dirname "$0")
 
 aktualna_godzina=$(date +"%H")
 
-cd $sciezka/..
+cd "$sciezka"/.. || exit
 
 if [ "$CI" = "true" ]; then
     if [[ "$aktualna_godzina" == "10" ]]; then
@@ -93,5 +93,5 @@ for i in $ost_plik; do
 done
 
 if [[ "$glowna_lista" && "$modul" ]]; then
-    $sciezka/VICHS.sh $glowna_lista $modul
+    "$sciezka"/VICHS.sh $glowna_lista $modul
 fi
