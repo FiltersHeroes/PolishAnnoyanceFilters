@@ -1,9 +1,9 @@
-! Checksum: qWVWZvj+qqpxYh/L3It3Aw
+! Checksum: 
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sun, 16 Jun 2019, 12:00 UTC+02
-! Version: 2019.6.16.1
+! Last modified: Sun, 16 Jun 2019, 12:57 UTC+02
+! Version: 2019.6.16.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -73,7 +73,7 @@ cieplikpodrozuje.pl,edugrafia.pl##.wph-modal, .wph-modal-mask
 cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.ArevicoModal, .ArevicoModal-bg
 cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.arvnoscroll:style(overflow: auto !important;)
 ckr.pl,odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,instytutozonoterapii.pl,sukcesedukacja.pl,ideau.pl,pl.geofumadas.com,kreatywna-europa.eu##.pum-open:style(overflow: auto !important;)
-ckr.pl,odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,sukcesedukacja.pl,pl.geofumadas.com,,kreatywna-europa.eu##.popmake-overlay
+ckr.pl,odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,sukcesedukacja.pl,pl.geofumadas.com,kreatywna-europa.eu##.popmake-overlay
 confronter.pl##html:style(overflow-y: auto !important;)
 confronter.pl###cfModal, .modal-backdrop
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
@@ -257,7 +257,7 @@ zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important;
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
-,kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
+kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
 !#if !cap_html_filtering
 activ-investment.eu##+js(abort-current-inline-script.js, openNewsletter)
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
