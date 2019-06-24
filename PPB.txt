@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rxBNEBilqnx1rjU97jegWA
+! Checksum: L3EKqZeUEVrDvLoGs47qjQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Sun, 23 Jun 2019, 00:00 UTC+02
-! Version: 2019.6.23.1
+! Last modified: Mon, 24 Jun 2019, 12:00 UTC+02
+! Version: 2019.6.24.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Reddit => https://www.reddit.com/r/PolishFiltersTeam/
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 23 cze 2019, 00:00 UTC+02
+! Aktualizacja: pon, 24 cze 2019, 12:00 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -979,6 +979,7 @@ szkla.com###newsletter-container
 szukampracownika.monsterpolska.pl###mailreg_cont
 szybkanauka.pro##.tcb-flex-center.tcb--cols--3.tcb-flex-row > div.tcb-flex-col.tve_empty_dropzone:nth-of-type(3)
 szybkanauka.pro#?##tve_editor:-abp-has(input[type="email"][name="email"])
+tabelaofert.pl###newsletter_stopka
 tamaj.pl##.lof-block.lofadva-block-4 > .lof-block-wrap > h4
 taniekomputery.pl###BottomBox .column-last.column
 tanienurkowanie.pl###mauticform_oknewsletternurkowanie
@@ -1666,6 +1667,7 @@ swiatkierowcy.pl###max
 swiatmodeli.eu,sklepbazant.pl##.mask, .mbank-top-layer
 swiato-podglad.pl###popup-background
 swiat-szkla.pl##.jqmWindow
+systim.pl###pop2
 szkolenia24h.pl##.ui-corner-all, .ui-widget-overlay
 szkolycelne.infoserwis.elk.pl###scyscraper
 szlachetnygest.pl##.zgarnij_misia.fpopup_overlay
@@ -1723,7 +1725,7 @@ word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 wos.net.pl###dropin
 wwsi.edu.pl###adsdialog
 www.dobreprogramy.pl###exitPopupContainer
-www.kei.pl##div#myModalDomenowy
+www.kei.pl##div[id^="modal"][style].modal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
 wyborcza.pl##.mod_ddbox
 wyciskarki.pl###nps-popup
@@ -1952,7 +1954,7 @@ typeofweb.com,pl###onesignal-popover-dialog
 !
 !
 ! Scrollujące filmiki
-abczdrowie.pl,wp.pl###Player0.floating
+abczdrowie.pl,parenting.pl,wp.pl###Player0.floating
 gry.pl,waznygry.pl##.wt-notification-container
 naekranie.pl##body > #cornerContainer[style*="position: fixed;"]
 nowa.tv##.floating-video
@@ -2187,6 +2189,7 @@ instalterm.eu##.btn-top
 interaktywnie.com,hauerpower.com##.scroll-top-arrow
 iperfumy.pl,polskikoszyk.pl##.btn-scroll-top
 italiapozaszlakiem.com##.vw-scroll-to-top
+itee.pl##.sp-scroll-up
 i-apteka.pl##.n60972_main_cop_right
 jackpot.pl##back-to-top
 jackvision.pl###to_the_top
@@ -2470,6 +2473,7 @@ swiatbaterii.pl##.czr-btt
 swiatpodlog.com.pl###scrolltotop
 swiat-agd.com.pl###up, #go_up
 szczodrymarket.com,witanet.net,bezpiecznapodroz.org,termyszaflary.com###go-top
+tabelaofert.pl##.do-gory
 tadar.pl##.menu_up
 tajemnice-swiata.pl,3mk.pl###m7-go-top
 takeda.com##.totop__wrapper
@@ -2595,7 +2599,7 @@ anton-paar.com###footer-contact-us, #iframe-designstudio-button
 apteline.pl##.chat-fixed__wrapper
 aquamelior.pl###slaask-button
 archon.pl###archon-chat, .mobile-item-phone, #messenger_button
-arenadesign.pl,fitexpo.com.pl,cavaliada.pl###ssb-btn-0 > p > [href="#kontakt"]
+arenadesign.pl,fitexpo.com.pl,cavaliada.pl###ssb-btn-0 > p > a[href="#kontakt"]
 artdelarte.pl###slideit
 artefakt.pl##[data-module="phone_popup"]
 audioexpert.pl###up_talk0
@@ -2642,6 +2646,7 @@ debowewzgorze.eu,szarotka.eu##body > iframe[name="ca-review-widget"]
 decathlon.pl,eltrox.pl,renee.pl###yourcx_blk
 decoliving.pl###swifttagdatacontaineraha9azkq59 > div > .hide_on_mobile
 dekoracjascian.com,pep.pl##.quick-contact
+dewelopart.pl###leftquickcontact
 dobrefinanse.co.uk##.form-content-btn
 dodomku.pl##.btn-chat-toggle
 dollarro.com,mediaexpert.pl###InteliwiseSaaSModule_win_wrapper
@@ -2811,7 +2816,7 @@ pl##.mtp-contact-message
 pl##.quickcontact-box
 pl.000webhost.com##div[style="cursor: pointer;"]
 pl.aliexpress.com##.ui-fixed-panel-survey
-pl.gearbest.com##[href="https://support.gearbest.com/ticket/ticket/cat"] > .siteAside_linkIcon, .js_feedback
+pl.gearbest.com##a[href="https://support.gearbest.com/ticket/ticket/cat"] > .siteAside_linkIcon, .js_feedback
 pl.pons.com###hj-feedback
 polanki.pl##.PamphletWidget
 polisaplus.pl##.teltoggle.telbutton
@@ -2864,7 +2869,7 @@ support.microsoft.com###smc-survey-external-feedback-button
 swiat-laptopow.pl###superOfferCallUs
 swiss.com.pl###lhc_status_container
 szklodokuchni.com##.ui--animation.btn-primary.ui--side-panel.btn-icon-left.btn-normal.btn
-szkolajazdykoronamm.pl##.spjwidget-double [href="https://www.superprawojazdy.pl/szkola-jazdy-korona-mm,20821.htm?widget=opinie"]
+szkolajazdykoronamm.pl##.spjwidget-double a[href="https://www.superprawojazdy.pl/szkola-jazdy-korona-mm,20821.htm?widget=opinie"]
 taniejdladomu.pl###allegroKomentarze
 teamviewer.com##.userlike
 telekarma.pl###flyHelp
