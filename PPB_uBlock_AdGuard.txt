@@ -1,9 +1,9 @@
-! Checksum: vVQr5zyKJ6jsHPP4s168BA
+! Checksum: 63IK/FxpDDBzO1Sro+vh1Q
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Wed, 26 Jun 2019, 20:00 UTC+02
-! Version: 2019.6.26.1
+! Last modified: Thu, 27 Jun 2019, 00:00 UTC+02
+! Version: 2019.6.27.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 26 cze 2019, 20:00 UTC+02
+! Aktualizacja: czw, 27 cze 2019, 00:00 UTC+02
 !
 !
 ! Newslettery
@@ -45,22 +45,25 @@ akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
 akademiaversum.pl###newsletter-pp
 alerabat.com##body:style(overflow-y: auto !important;)
 alerabat.com##.jquery-modal
-alesoczewki.com,jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl,medme.pl,online.citibank.pl,www.e-biurowce.pl,gazetkonosz.pl,edulider.pl,ppr.pl,idream.pl,teatr-sabat.pl,bezokularow.pl,kocmyrzow-luborzyca.ug.gov.pl,dieta.hpba.pl,solven.pl,ubraniadooddania.pl,grantthornton.pl,ncez.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
-alesoczewki.com,nife.pl,campingshop.pl,intershoe.com.pl,bezokularow.pl,dedekor.pl###news_popup, .modal-backdrop
+alesoczewki.com,jezykiobce.pl,miastodzieci.pl,prnews.pl,polskieszlaki.pl,campingshop.pl,s-pl.pl,drogerienatura.pl,zeskory.com,nife.pl,kidsworld.pl,jordanki.torun.pl,eurobuty.com.pl,medme.pl,online.citibank.pl,www.e-biurowce.pl,gazetkonosz.pl,edulider.pl,ppr.pl,idream.pl,teatr-sabat.pl,bezokularow.pl,dieta.hpba.pl,solven.pl,ubraniadooddania.pl,grantthornton.pl,ncez.pl,pinsola.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+alesoczewki.com,nife.pl,campingshop.pl,intershoe.com.pl,bezokularow.pl,dedekor.pl,pinsola.pl###news_popup, .modal-backdrop
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,motoria.pl,pupilo.pl,sklep-presto.pl,ubieramy.pl##.morele-dialog-show:style(overflow: auto !important; padding-right: 0 !important;)
+apynews.pl###fb-modal, .modal-backdrop
+apynews.pl,kocmyrzow-luborzyca.ug.gov.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 archonhome.pl,defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com,intershoe.com.pl,kmziz.pl,kontigo.com.pl,limango.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
-archonhome.pl,eurobuty.com.pl,mintshost.pl,prnews.pl,s-pl.pl,mamalla.pl###myModal, .modal-backdrop
+archonhome.pl,eurobuty.com.pl,prnews.pl,s-pl.pl###myModal, .modal-backdrop
 auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
-autonaminuty.org,www.pl.weber,ef.pl,zaradnyfinansowo.pl,cantino.pl##html[style]:style(overflow-y: auto !important; margin-right: 0 !important;)
-autonaminuty.org,www.pl.weber,ef.pl,zaradnyfinansowo.pl,cantino.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
+autonaminuty.org##html[style]:style(overflow-y: auto !important; margin-right: 0 !important;)
+autonaminuty.org##.mfp-bg.mfp-ready
+autonaminuty.org##.mfp-wrap.mfp-ready
 baby.nivea.pl###fancybox-container-1:has(#newsletter-popup)
 baby.nivea.pl##.compensate-for-scrollbar:style(overflow: auto !important; margin-right: 0 !important;)
 bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
-bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,oaza-palmy.pl,zlotymotocyklowe.pl,mspdion.org.pl##html.fancybox-lock > body:style(overflow: visible !important;)
-bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock:style(overflow: visible !important;)
-bejeans.pl,habys.pl,kobiecareaktywacja.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-margin:style(margin-right: 0 !important;)
-bejeans.pl,kobiecareaktywacja.pl,www.centrumkurierskie.pl,www.epione.pl##.fancybox-overlay-fixed.fancybox-overlay
+bejeans.pl,habys.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,oaza-palmy.pl,zlotymotocyklowe.pl,mspdion.org.pl##html.fancybox-lock > body:style(overflow: visible !important;)
+bejeans.pl,habys.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock:style(overflow: visible !important;)
+bejeans.pl,habys.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-margin:style(margin-right: 0 !important;)
+bejeans.pl,www.centrumkurierskie.pl,www.epione.pl##.fancybox-overlay-fixed.fancybox-overlay
 biznesalert.pl,deezee.pl,ursus.com.pl,medycznamarihuana.com,ergokantor.pl,stoprocent.com,socialtigers.pl##.mfp-ready
 biznesalert.pl,socialtigers.pl##html:style(overflow: visible !important; margin-right: 0 !important)
 bodypak.pl##+js(setTimeout-defuser.js, jQuery.fancybox)
@@ -72,8 +75,8 @@ cieplikpodrozuje.pl,edugrafia.pl##html.hustle-no-scroll > body:style(overflow: a
 cieplikpodrozuje.pl,edugrafia.pl##.wph-modal, .wph-modal-mask
 cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.ArevicoModal, .ArevicoModal-bg
 cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.arvnoscroll:style(overflow: auto !important;)
-ckr.pl,odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,instytutozonoterapii.pl,sukcesedukacja.pl,ideau.pl,pl.geofumadas.com,kreatywna-europa.eu##.pum-open:style(overflow: auto !important;)
-ckr.pl,odczasudoczasu.pl,masher.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,sukcesedukacja.pl,pl.geofumadas.com,kreatywna-europa.eu##.popmake-overlay
+ckr.pl,odczasudoczasu.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,instytutozonoterapii.pl,sukcesedukacja.pl,ideau.pl,pl.geofumadas.com,kreatywna-europa.eu##.pum-open:style(overflow: auto !important;)
+ckr.pl,odczasudoczasu.pl,hairbyjul.pl,nowa-energia.com.pl,gannet.pl,pol-ukr.com,sukcesedukacja.pl,pl.geofumadas.com,kreatywna-europa.eu##.popmake-overlay
 confronter.pl##html:style(overflow-y: auto !important;)
 confronter.pl###cfModal, .modal-backdrop
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
@@ -83,7 +86,7 @@ deezer.com##+js(abort-on-property-read.js, onbeforeunload)
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com,kidsworld.pl,ncez.pl###newsletter-modal
 domodi.pl##+js(set-constant.js, PWA_adbd, 2)
 drogerienatura.pl###newsletter-popup-dn, .modal-backdrop
-dwdomel.pl,minecraft.org.pl,bilety24.pl,mintshost.pl,biznes-host.pl,um24.pl,endo.pl,mamalla.pl,www.kzkgop.com.pl,confronter.pl,panwybierak.pl,kartafitsport.pl##.modal-open:style(overflow: auto !important;)
+dwdomel.pl,minecraft.org.pl,bilety24.pl,mintshost.pl,biznes-host.pl,um24.pl,endo.pl,www.kzkgop.com.pl,confronter.pl,panwybierak.pl,kartafitsport.pl##.modal-open:style(overflow: auto !important;)
 dwdomel.pl,minecraft.org.pl,dieta.hpba.pl##.modal, .modal-backdrop
 ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
@@ -125,6 +128,8 @@ kire.pl##.gafancybox-lock > body, html.gafancybox-lock:style(overflow: visible !
 kire.pl##.gafancybox-margin:style(margin-right: 0 !important;)
 kire.pl##.gafancybox-overlay
 kmziz.pl###full_newsletter_modal, .modal-backdrop
+kobiecareaktywacja.pl##.fancybox-lock:style(overflow: auto !important; margin-right: 0px !important;)
+kobiecareaktywacja.pl##.fancybox-overlay-fixed.fancybox-overlay
 kocmyrzow-luborzyca.ug.gov.pl###modal-1074, .modal-backdrop
 kofiup.pl###giftModal, .modal-backdrop
 kofiup.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
@@ -136,8 +141,12 @@ limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
 macris.com.pl,kontigo.com.pl###newsletter-popup
 majazoo.pl##.fancybox-overlay:has(.modulesden-newsletter)
+mamalla.pl###myModal, .modal-backdrop
+mamalla.pl##.modal-open:style(overflow: auto !important;)
 marketerplus.pl##body.is-reveal-open:style(overflow: auto !important;)
 marketerplus.pl##div.reveal-overlay:nth-of-type(4)
+masher.pl##html.pum-open:style(overflow: auto !important;)
+masher.pl##.popmake-overlay
 medme.pl###do-not-leave, .modal-backdrop
 miastakobiet.pl,teamquest.pl###newsletterModal
 miastakobiet.pl,teamquest.pl,selkar.pl,sklepkamil.pl,tvokazje.pl##.modal-open:style(overflow: visible !important;)
@@ -170,6 +179,7 @@ pepco.pl##body.modal-open:style(padding-right: 0 !important; overflow: visible !
 pepco.pl##.modal-newsletter, .modal-backdrop
 pewex.pl##body, html:style(overflow: auto !important; margin-right: 0 !important;)
 pewex.pl###popupStart
+pinsola.pl###news_popup, .modal-backdrop
 playstation.com##+js(abort-current-inline-script.js, $, PopupManager)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
 polferries.pl###polferries-popup-global
@@ -207,7 +217,7 @@ sklepmartes.pl##.modalbox--has-closebtn
 sklep.krosno.com.pl##.modalbox
 sklep.krosno.com.pl##.modalbox-is-visible body:style(overflow: auto !important;)
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
-smaker.pl###popup, #overlay
+smaker.pl###overlay, #popup
 socialpress.pl##.bottom-content-newsletter
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
@@ -246,6 +256,8 @@ www.kzkgop.com.pl###ztmModal:style(position: unset !important; overflow-y: unset
 www.microsoft.com##body[style^="overflow: hidden;"]:style(overflow: visible !important;)
 www.microsoft.com###email-newsletter-dialog
 www.ozog.pl###homeModal
+www.pl.weber,ef.pl,zaradnyfinansowo.pl,cantino.pl##html[style]:style(overflow-y: auto !important; margin-right: 0 !important;)
+www.pl.weber,ef.pl,zaradnyfinansowo.pl,cantino.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
 www.reddit.com,new.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
 www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 yieldbird.com##.home:style(overflow: visible !important;)
@@ -279,6 +291,7 @@ homebook.pl##body.has-open-popup:style(overflow: visible!important; padding-righ
 homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 linuxpl.com###myModalDomenowy, .modal-backdrop
 lookcam.com###lookcam-fb-modal, .modal-backdrop
+lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 makarun.pl###makarun-modal, .modal-backdrop
 makarun.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 mediasam.pl###myWorning, .modal-backdrop
