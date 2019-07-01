@@ -24,9 +24,10 @@ sklepsamsung.pl##.b-modal_webpushCentered
 sklepsamsung.pl##.b-modal_webpushVertical
 travelplanet.pl##.fcx-push-modal
 typeofweb.com,pl###onesignal-popover-dialog
+!/OneSignalSDK.js$domain=kosmicznapropaganda.pl|wp.pl|swiatbaterii.pl|insert.com.pl
 !||proxy.snrbox.com/rtom/web-push/get-public-config$domain=fera.pl|eobuwie.com.pl|neo24.pl
 !||proxy.synerise.com/*/web-push/get-public-config
-!/OneSignalSDK.js$domain=kosmicznapropaganda.pl|wp.pl|swiatbaterii.pl|insert.com.pl
+/OneSignalSDK.js$third-party
 /assets/js/firebase/subscribe.js$domain=czesciauto24.pl
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.pl|planeta.fm|radiozet.pl
 /pushServiceWorker.js$script,domain=go.tvn24.pl|topagrar.pl|tvn.pl|~www.tvn.pl
@@ -41,7 +42,6 @@ typeofweb.com,pl###onesignal-popover-dialog
 ||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
 ||cdn.gravitec.net/sites/*/client.js
 ||cdn.gravitec.net/storage/*/client.js
-/OneSignalSDK.js$third-party
 ||cdn.pushassist.com/account/assets/psa-*.js
 ||cdn.pushpushgo.com/scripts/$script
 ||cdn.pushwoosh.com/webpush/*.js
