@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9VZO7k1auQT9gU5wwu/CNw
+! Checksum: 4p34n1uyo243VCyn8RpspA
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Fri, 28 Jun 2019, 12:00 UTC+02
-! Version: 2019.6.28.1
+! Last modified: Mon, 01 Jul 2019, 20:00 UTC+02
+! Version: 2019.7.1.1
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,15 +14,15 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 28 cze 2019, 12:00 UTC+02
+! Aktualizacja: pon, 01 lip 2019, 20:00 UTC+02
 !
 !
 !
+~www.onet.pl,onet.pl##div[class="mainVideo toFix fixedVideo"]
 abczdrowie.pl,parenting.pl,wp.pl###Player0.floating
 gry.pl,waznygry.pl##.wt-notification-container
 naekranie.pl##body > #cornerContainer[style*="position: fixed;"]
 nowa.tv##.floating-video
-onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
 pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 polsatnews.pl,polsatsport.pl##.videoPlayer.is--persistent:not(.ended)
 przeambitni.pl##.mvp-vid-fixed
@@ -34,7 +34,7 @@ tvn24.pl##.videoPlayer.stuck--top
 tvn.pl##.videoPlayerFloatEnabled.videoPlayerFloat.videoPlayer
 tvp.info##.mini-player-container
 ugotuj.to##div.onnetworkplayercontainer > div.miniplayer
-webcamera.pl##.bigcam.floating-player > div >  .fullscreen-wrap
+webcamera.pl##.bigcam.floating-player > div > .fullscreen-wrap
 wrc.net.pl##.sticky-video.sticky.is-stuck
 www.dobreprogramy.pl#?#.variant-desktop #phContent_divArticle > .desktop-flex > #sidebar > .block:-abp-contains(Nasze najnowsze wideo)
 ||ppstatic.pl/assets/nsk/*/js/compiled/atoms/article/sticky-video.js
