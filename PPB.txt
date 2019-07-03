@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: cv0xnvM39eJmsWJ5GSwQ5w
+! Checksum: eKTQ8+o+1qu9JR2PckDtTw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Wed, 03 Jul 2019, 00:00 UTC+02
-! Version: 2019.7.3.1
+! Last modified: Wed, 03 Jul 2019, 11:53 UTC+02
+! Version: 2019.7.3.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Reddit => https://www.reddit.com/r/PolishFiltersTeam/
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 03 lip 2019, 00:00 UTC+02
+! Aktualizacja: śro, 03 lip 2019, 11:53 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -3697,8 +3697,8 @@ polishannoyancefilters.netlify.com###pafdetect
 !@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
 !@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@Homepage: https://www.certyficate.it/
-!@Version: 2019.7.1.1
-!@Last modified: Mon, 01 Jul 2019, 22:25 UTC+02
+!@Version: 2019.7.3.0
+!@Last modified: Wed, 03 Jul 2019, 11:51 UTC+02
 !@Expires: 2 days
 !@Support:
 !@  Email => errors@certyficate.it
@@ -3709,7 +3709,7 @@ polishannoyancefilters.netlify.com###pafdetect
 !@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@Copyright © 2019 Certyficate IT & Polish Filters Team
 !@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.2019.7.1.1 aktualizacja: pon, 01 lip 2019, 22:25 UTC+02
+!@v.2019.7.3.0 aktualizacja: śro, 03 lip 2019, 11:51 UTC+02
 !
 !
 !@Specyficzne reguły ukrywające
@@ -5282,6 +5282,7 @@ samouczek.info,aranzujemy.pl,kobieceporady.pl##.gdpr
 samsonite.pl##div.cookies-dialog, .ui-widget-overlay
 samsung.com##.cm-cookie-geo
 sandecja.pl###rodoPolicy
+santander.pl##.uc-cookies-policy
 santatracker.google.com##santa-notice
 savicki.pl##.accept-rodo
 sawataxi.pl##.w_news
@@ -5698,8 +5699,6 @@ zysk.com.pl###pageUpperInfo
 !
 !
 !@Specyficzne reguły blokujące
-!||consent.trustarc.com/notice?domain=$script,domain=adidas.pl|garmin.com|java.com|leagueoflegends.com|reebok.pl
-!||consent.truste.com/notice?$script,domain=addthis.com|ea.com|ibm.com|java.com|lighting.philips.pl|meethue.com|nespresso.com|oracle.com|origin.com|signify.com|support.wdc.com|wd.com|weather.com|xerox.com
 !||opinie.news/media/plg_system_eprivacy/js/$script,~third-party
 /ajax/privacy_popup$xmlhttprequest,domain=pl|debica24.eu|narew.info|zvami.tv
 /filer_-_cookie_disclaimer_ny/$file/accept_cookies.js$script,domain=pl
@@ -5852,8 +5851,8 @@ cookie-law-popup.js$domain=pl
 /js/cookieinfo.js
 /js/info_o_cookie.js
 /js/polityka_cookies.js$script
-/media/plg_system_cookieconfirm$script
-/media/plg_system_eprivacy$script
+/media/plg_system_cookieconfirm$script,domain=pl
+/media/plg_system_eprivacy$script,domain=pl
 /plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script,domain=pl
 /rodo.js$script
 /savecookie.js$script
