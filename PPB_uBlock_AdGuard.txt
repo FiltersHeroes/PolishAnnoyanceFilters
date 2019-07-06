@@ -1,9 +1,9 @@
-! Checksum: 7hId5KkTJJ1nAOyDbgM6+A
+! Checksum: k4nW8ORAoX36nGav1xxHTA
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 06 Jul 2019, 17:54 UTC+02
-! Version: 2019.7.6.1
+! Last modified: Sat, 06 Jul 2019, 20:00 UTC+02
+! Version: 2019.7.6.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: sob, 06 lip 2019, 17:54 UTC+02
+! Aktualizacja: sob, 06 lip 2019, 20:00 UTC+02
 !
 !
 ! Newslettery
@@ -63,7 +63,7 @@ bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
 bejeans.pl,habys.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,oaza-palmy.pl,zlotymotocyklowe.pl,mspdion.org.pl##html.fancybox-lock > body:style(overflow: visible !important;)
 bejeans.pl,habys.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-lock:style(overflow: visible !important;)
 bejeans.pl,habys.pl,majazoo.pl,evertourist.com,pl.aleteia.org,pakamera.pl,stokrotka.pl,bambineo.pl,termyszaflary.com,oaza-palmy.pl,zlotymotocyklowe.pl##html.fancybox-margin:style(margin-right: 0 !important;)
-bejeans.pl,www.centrumkurierskie.pl,www.epione.pl##.fancybox-overlay-fixed.fancybox-overlay
+bejeans.pl,www.centrumkurierskie.pl,www.epione.pl,pch24.pl##.fancybox-overlay-fixed.fancybox-overlay
 beta.netia.pl##body[style="overflow: hidden;"]:style(overflow: auto !important;)
 beta.netia.pl##.popup-beta
 biznesalert.pl,deezee.pl,ursus.com.pl,medycznamarihuana.com,ergokantor.pl,stoprocent.com,socialtigers.pl##.mfp-ready
@@ -251,8 +251,8 @@ wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 www.brw.com.pl##.js:style(overflow-y: visible !important;)
 www.centrumkurierskie.pl,www.epione.pl##.fancybox-lock body:style(overflow: auto !important;)
-www.centrumkurierskie.pl,www.epione.pl##.fancybox-lock:style(overflow: auto !important;)
 www.centrumkurierskie.pl,www.epione.pl,mspdion.org.pl##.fancybox-margin:style(margin-right: 0 !important;)
+www.centrumkurierskie.pl,www.epione.pl,pch24.pl##.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
 www.e-biurowce.pl###raport_info, .modal-backdrop
 www.kzkgop.com.pl###ztmModal:style(position: unset !important; overflow-y: unset !important;)
 www.microsoft.com##body[style^="overflow: hidden;"]:style(overflow: visible !important;)
@@ -391,12 +391,12 @@ egami-image.com,mpcforum.pl,winclub.pl##+js(set-constant.js, ips.utils.notificat
 !
 !
 ! Scrollujące filmiki
+~www.onet.pl,onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important;)
 dziennikzachodni.pl,echodnia.eu,naszemiasto.pl,nowiny24.pl,nto.pl##+js(addEventListener-defuser.js, scroll, xlinkEvent)
 forsal.pl##+js(set-constant.js, parseFloat, noopFunc)
 gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
 gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
 gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(addEventListener-defuser.js, scroll, d.stopPropagation)
-swojadroga.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important;)
 tokfm.pl##+js(set-constant.js, gazeta_pl.Player.FloatingPlayer.floatPlayer, noopFunc)
 tokfm.pl,bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,sport.pl##+js(set-constant.js, ONTVminiatureBlocked, trueFunc)
 wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important;)
