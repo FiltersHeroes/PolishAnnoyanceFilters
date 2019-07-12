@@ -160,6 +160,8 @@ poznan.factory.pl##.region-popup
 ppr.pl###initPPRModal, .modal-backdrop
 pracownia-manufaktura.pl##.tingle-enabled:style(overflow: auto !important; position: static !important;)
 pracownia-manufaktura.pl##.tingle-modal
+prywatnoscwsieci.pl##.CampaignType--popup.Campaign
+prywatnoscwsieci.pl##.om-position-popup:style(overflow: auto !important;)
 quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0 !important;)
 quiosque.pl,bilety24.pl###newsletter-popup, .modal-backdrop
 radziejewska.pl###sbox-overlay, #sbox-window
@@ -339,8 +341,7 @@ annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
-mobile.twitter.com##span:has-text(/Użytkownicy Twittera dowiadują się pierwsi/i):xpath(../../../../../..)
-mobile.twitter.com##span:has-text(/wykorzystaj cały potencjał twittera/i):xpath(../../../../../..)
+mobile.twitter.com##span:has-text(/^(Użytkownicy Twittera dowiadują się pierwsi|wykorzystaj cały potencjał twittera)/i):xpath(../../../../../..)
 pozyczkabezbanku.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
 !#endif
 !#if cap_user_stylesheet
