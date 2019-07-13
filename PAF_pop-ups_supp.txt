@@ -343,7 +343,7 @@ autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
 mobile.twitter.com##span:has-text(/^(Użytkownicy Twittera dowiadują się pierwsi|wykorzystaj cały potencjał twittera)/i):xpath(../../../../../..)
-pozyczkabezbanku.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
+pozyczkabezbanku.pl,parkmania.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
 !#endif
 !#if cap_user_stylesheet
 www.vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-title-default.is-hidden:watch-attrs(class))
