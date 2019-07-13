@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qaBblTdSAkknQdtU1DUgbg
+! Checksum: hcHw5vuvBM4mn/6jhK4wNg
 ! Title: Polskie Filtry Elementów Irytujących - Inne Widżety
 ! Polish Annoyance Filters - Other Widgets
 ! Codename: Other Widgets
 ! Description: Filtry ukrywające i blokujące różne inne widżety.
-! Last modified: Fri, 12 Jul 2019, 20:00 UTC+02
-! Version: 2019.7.12.3
+! Last modified: Sat, 13 Jul 2019, 12:00 UTC+02
+! Version: 2019.7.13.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 12 lip 2019, 20:00 UTC+02
+! Aktualizacja: sob, 13 lip 2019, 12:00 UTC+02
 !
 !
 !
@@ -630,7 +630,8 @@ wylecz.to##.recommendedSideBox
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
 youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[style_*="BUBBLE_HINT"][style_*="BLUE_TOOLTIP"]
-youtube.com###alert-banner.ytd-browse, .ytp-ce-element
+youtube.com###alert-banner.ytd-browse, #watch-header > .mealbar-promo-renderer.yt-dialog, .yt-alert-info.yt-alert-actionable.yt-alert
+youtube.com##.ytp-ce-element
 youtube.com#?#paper-dialog:-abp-has(ytd-mealbar-promo-renderer)
 zatorland.pl##.pogoda
 zbiorowy.info##.more-stories
