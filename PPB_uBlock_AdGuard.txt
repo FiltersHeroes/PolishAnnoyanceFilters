@@ -1,9 +1,9 @@
-! Checksum: TwFW5MhcSMJHR/4ndrnDow
+! Checksum: M0Vv6QUTwA+A0cOk/eEivw
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 13 Jul 2019, 00:00 UTC+02
-! Version: 2019.7.13.1
+! Last modified: Sat, 13 Jul 2019, 16:00 UTC+02
+! Version: 2019.7.13.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: sob, 13 lip 2019, 00:00 UTC+02
+! Aktualizacja: sob, 13 lip 2019, 16:00 UTC+02
 !
 !
 ! Newslettery
@@ -378,7 +378,7 @@ autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
 mobile.twitter.com##span:has-text(/^(Użytkownicy Twittera dowiadują się pierwsi|wykorzystaj cały potencjał twittera)/i):xpath(../../../../../..)
-pozyczkabezbanku.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
+pozyczkabezbanku.pl,parkmania.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
 !#endif
 !#if cap_user_stylesheet
 www.vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-title-default.is-hidden:watch-attrs(class))
