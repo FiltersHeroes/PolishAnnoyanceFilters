@@ -1,9 +1,9 @@
-! Checksum: hn1GN1+byiORTnrdmKba4Q
+! Checksum: OzIoQ6Qrdorq71qKTNJnUQ
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Sat, 13 Jul 2019, 20:24 UTC+02
-! Version: 2019.7.13.3
+! Last modified: Sun, 14 Jul 2019, 20:00 UTC+02
+! Version: 2019.7.14.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: sob, 13 lip 2019, 20:24 UTC+02
+! Aktualizacja: nie, 14 lip 2019, 20:00 UTC+02
 !
 !
 ! Newslettery
@@ -257,6 +257,7 @@ www.centrumkurierskie.pl,www.epione.pl##.fancybox-lock body:style(overflow: auto
 www.centrumkurierskie.pl,www.epione.pl,mspdion.org.pl##.fancybox-margin:style(margin-right: 0 !important;)
 www.centrumkurierskie.pl,www.epione.pl,pch24.pl##.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
 www.e-biurowce.pl###raport_info, .modal-backdrop
+www.facebook.com##body > div.uiLayer[style="opacity: 1; min-width: 40px;"]:has(>div:first-child:empty)
 www.kzkgop.com.pl###ztmModal:style(position: unset !important; overflow-y: unset !important;)
 www.microsoft.com##body[style^="overflow: hidden;"]:style(overflow: visible !important;)
 www.microsoft.com###email-newsletter-dialog
