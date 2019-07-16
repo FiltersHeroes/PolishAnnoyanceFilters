@@ -1,9 +1,9 @@
-! Checksum: k89eqG9x5+8lVSO0vekR6A
+! Checksum: 
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Tue, 16 Jul 2019, 00:00 UTC+02
-! Version: 2019.7.16.1
+! Last modified: Tue, 16 Jul 2019, 20:21 UTC+02
+! Version: 2019.7.16.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -106,7 +106,7 @@ e-biznes.pl##.onp-sl-outer-wrap
 farmer.pl###nowa_strona
 farmer.pl##.windowOpen:style(overflow: auto !important;)
 forum.gofin.pl###KW_Tlo, #KW_Okno
-forum.gofin.pl,socialpress.pl,unityline.pl,www.ozog.pl,zegarkiipasja.pl,zielonasowa.pl,mobile.twitter.com,rowery-elektryczne.pl##body:style(overflow: auto !important;)
+forum.gofin.pl,socialpress.pl,unityline.pl,www.ozog.pl,zegarkiipasja.pl,zielonasowa.pl,rowery-elektryczne.pl##body:style(overflow: auto !important;)
 fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
 fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
@@ -380,7 +380,7 @@ annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
-mobile.twitter.com##span:has-text(/^(Użytkownicy Twittera dowiadują się pierwsi|wykorzystaj cały potencjał twittera)/i):xpath(../../../../../..)
+mobile.twitter.com#@#body:style(overflow: auto !important;)
 pozyczkabezbanku.pl,parkmania.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
 !#endif
 !#if cap_user_stylesheet
