@@ -37,6 +37,8 @@ bodypak.pl##+js(setTimeout-defuser.js, jQuery.fancybox)
 bonami.pl##.overlayPan
 bonami.pl##.blurred:style(filter: none !important;)
 braciaprzykawie.pl###popup-newsletter, .modal-backdrop
+cantino.pl,dpm.eu,www.pl.weber,ef.pl,zaradnyfinansowo.pl,trenerangielskiego.com,zyciepabianic.pl##html[style]:style(overflow-y: auto !important; margin-right: 0 !important;)
+cantino.pl,dpm.eu,www.pl.weber,ef.pl,zaradnyfinansowo.pl,trenerangielskiego.com,zyciepabianic.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
 chocolissimo.pl###newsletterModalDiv, .modal-backdrop
 chocolissimo.pl##.modal-open:style(overflow-y: auto !important; padding-right: 0 !important;)
 cieplikpodrozuje.pl,edugrafia.pl##html.hustle-no-scroll > body:style(overflow: auto !important;)
@@ -229,8 +231,6 @@ www.kzkgop.com.pl###ztmModal:style(position: unset !important; overflow-y: unset
 www.microsoft.com##body[style^="overflow: hidden;"]:style(overflow: visible !important;)
 www.microsoft.com###email-newsletter-dialog
 www.ozog.pl###homeModal
-www.pl.weber,ef.pl,zaradnyfinansowo.pl,cantino.pl,trenerangielskiego.com##html[style]:style(overflow-y: auto !important; margin-right: 0 !important;)
-www.pl.weber,ef.pl,zaradnyfinansowo.pl,cantino.pl,trenerangielskiego.com##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
 www.reddit.com,new.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
 www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 yieldbird.com##.home:style(overflow: visible !important;)
