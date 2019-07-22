@@ -1,9 +1,9 @@
-! Checksum: PSQzWs7JlwEBCeUTPRRBlQ
+! Checksum: ppy5hEVIJHdhjoMZZx5pzg
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Mon, 22 Jul 2019, 20:00 UTC+02
-! Version: 2019.7.22.2
+! Last modified: Tue, 23 Jul 2019, 00:00 UTC+02
+! Version: 2019.7.23.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pon, 22 lip 2019, 20:00 UTC+02
+! Aktualizacja: wto, 23 lip 2019, 00:00 UTC+02
 !
 !
 ! Newslettery
@@ -498,7 +498,7 @@ komputerswiat.pl###ks_breaking_news:style(position: absolute !important; left: -
 !#endif
 !#if cap_html_filtering
 komputerswiat.pl##^#ks_breaking_news
-www.google.com##^div.irc-nic.irc-igr.rg_ic.rg_bx:has(> div > div > div:has-text(Podobne wyszukiwania))
+www.google.com,www.google.pl##^div.irc-nic.irc-igr.rg_ic.rg_bx:has(> div > div > div:has-text(Podobne wyszukiwania))
 !#endif
 !#if !env_firefox
 cs-harnas.pl,djlive.pl,gearbest.com,jaguar.pl,progrupa.com,przeswietl.pl,seniorka-z-plecakiem.pl,sparta.com.pl,start.me##body::-webkit-scrollbar:style(all: initial !important;)
@@ -519,7 +519,8 @@ semcamp.university##div > div > div.app::-webkit-scrollbar:style(all: initial !i
 !#if !ext_ublock
 download.net.pl#$?#.date:not(dt) { display: block !important; }
 komputerswiat.pl$$#ks_breaking_news
-www.google.com$$div.irc-nic.irc-igr.rg_ic.rg_bx[tag-content="Podobne wyszukiwania"]
+telewizja-cyfrowa.com#$?##text-2 > .textwidget > p:nth-of-type(1):contains(/.{330,338}/):contains(/Dołącz do 15000\+ osób otrzymujących nasz newsletter\. Nie przegapisz żadnej ważnej wiadomości\./) { font-size: 0 !important; }
+www.google.com,www.google.pl$$div.irc-nic.irc-igr.rg_ic.rg_bx[tag-content="Podobne wyszukiwania"]
 !#endif
 !
 !
