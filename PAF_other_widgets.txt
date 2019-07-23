@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: jn7052CWrV1qzSAMf0s7rg
+! Checksum: vYPD7spbe3Y17ZNej5jwxQ
 ! Title: Polskie Filtry Elementów Irytujących - Inne Widżety
 ! Polish Annoyance Filters - Other Widgets
 ! Codename: Other Widgets
 ! Description: Filtry ukrywające i blokujące różne inne widżety.
-! Last modified: Tue, 23 Jul 2019, 16:00 UTC+02
-! Version: 2019.7.23.2
+! Last modified: Tue, 23 Jul 2019, 20:00 UTC+02
+! Version: 2019.7.23.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 23 lip 2019, 16:00 UTC+02
+! Aktualizacja: wto, 23 lip 2019, 20:00 UTC+02
 !
 !
 !
@@ -647,6 +647,7 @@ youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd
 youtube.com###alert-banner.ytd-browse, #watch-header > .mealbar-promo-renderer.yt-dialog, .yt-alert-info.yt-alert-actionable.yt-alert
 youtube.com##.ytp-ce-element
 youtube.com#?#paper-dialog:-abp-has(ytd-mealbar-promo-renderer)
+youtube.com#?#ytd-popup-container > .ytd-popup-container[role="dialog"]:-abp-contains(Zmiany w Warunkach korzystania z usługi YouTube)
 zatorland.pl##.pogoda
 zbiorowy.info##.more-stories
 zdrowie.gazeta.pl###bottom_wrap
