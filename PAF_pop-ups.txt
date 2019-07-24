@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IDyTha1GIqARLDxulZa3zA
+! Checksum: O1GD8dTJfJC9AF8OQ7F/8Q
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 24 Jul 2019, 20:00 UTC+02
-! Version: 2019.7.24.1
+! Last modified: Thu, 25 Jul 2019, 00:00 UTC+02
+! Version: 2019.7.25.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 24 lip 2019, 20:00 UTC+02
+! Aktualizacja: czw, 25 lip 2019, 00:00 UTC+02
 !
 !
 !
@@ -591,7 +591,7 @@ wkd.com.pl###pop-up-bg
 word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 wos.net.pl###dropin
 wwsi.edu.pl###adsdialog
-www.adidas.pl,www.reebok.pl##body:not([style*="overflow: hidden;"]) .gl-modal--regular.gl-modal
+www.adidas.pl,www.reebok.pl#?#.gl-modal:-abp-has(.newsletter-overlay-page)
 www.dobreprogramy.pl###exitPopupContainer
 www.kei.pl##div[id^="modal"][style].modal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
