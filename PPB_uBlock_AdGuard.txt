@@ -1,9 +1,9 @@
-! Checksum: nmPYfIb4Ko1u7m+7Q15fTg
+! Checksum: UEO5PkT5S4cPXsplCVo/6w
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Wed, 24 Jul 2019, 22:05 UTC+02
-! Version: 2019.7.24.2
+! Last modified: Thu, 25 Jul 2019, 00:00 UTC+02
+! Version: 2019.7.25.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 24 lip 2019, 22:05 UTC+02
+! Aktualizacja: czw, 25 lip 2019, 00:00 UTC+02
 !
 !
 ! Newslettery
@@ -271,6 +271,8 @@ www.reddit.com,new.reddit.com##body[data-previous-overflow][style^="overflow:"]:
 www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
+zakupycodzienne.carrefour.pl##body[style]:style(overflow: auto !important; padding-right: 0 !important;)
+zakupycodzienne.carrefour.pl##div[class*="jss"][role="dialog"]:has(> div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
 zaufanekliniki.pl###modalMain, .modal-backdrop
 zaufanekliniki.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 zegarkiipasja.pl##.emelu-lightbox-target
@@ -406,7 +408,7 @@ gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-
 gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(addEventListener-defuser.js, scroll, d.stopPropagation)
 store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important;)
 tokfm.pl##+js(set-constant.js, gazeta_pl.Player.FloatingPlayer.floatPlayer, noopFunc)
-tokfm.pl,bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,sport.pl##+js(set-constant.js, ONTVminiatureBlocked, trueFunc)
+tokfm.pl,bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,sport.pl,ugotuj.to##+js(set-constant.js, ONTVminiatureBlocked, trueFunc)
 wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important;)
 !#if !ext_ublock
 infozdrowie24.pl#$#.miniplayer { position: absolute !important; transition: unset !important; }
