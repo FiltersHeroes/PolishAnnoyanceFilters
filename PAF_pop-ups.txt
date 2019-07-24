@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rl3cBwwyZzizIoCwoHoVXA
+! Checksum: IDyTha1GIqARLDxulZa3zA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 22 Jul 2019, 20:00 UTC+02
-! Version: 2019.7.22.1
+! Last modified: Wed, 24 Jul 2019, 20:00 UTC+02
+! Version: 2019.7.24.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pon, 22 lip 2019, 20:00 UTC+02
+! Aktualizacja: śro, 24 lip 2019, 20:00 UTC+02
 !
 !
 !
@@ -591,6 +591,7 @@ wkd.com.pl###pop-up-bg
 word.czest.pl,wearmedicine.com,bluecity.pl###cboxOverlay
 wos.net.pl###dropin
 wwsi.edu.pl###adsdialog
+www.adidas.pl,www.reebok.pl##body:not([style*="overflow: hidden;"]) .gl-modal--regular.gl-modal
 www.dobreprogramy.pl###exitPopupContainer
 www.kei.pl##div[id^="modal"][style].modal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
@@ -600,6 +601,7 @@ wydawnictwoliteratura.pl##.modal-hot-info.modal, .modal-backdrop
 wylecz.to##.popupBackground
 wysokienapiecie.pl##.modal-overlay, .modal
 yoursclothing.pl##.js-overlay, .slideInBox
+youtube.com#?#ytd-popup-container > .ytd-popup-container[role="dialog"]:-abp-contains(Zmiany w Warunkach korzystania z usługi YouTube)
 yt360.pl,emcconsultant.eu###ouibounce-modal
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
