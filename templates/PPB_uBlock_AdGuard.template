@@ -70,19 +70,19 @@
 !#endif
 !
 !
-! Inne Widżety
-@include widgety_suplement
+! Inne elementy
+@include inne_suplement
 !#if !cap_html_filtering
-@include widgety_bez_html
+@include inne_bez_html
 !#endif
 !#if cap_html_filtering
-@include widgety_html
+@include inne_html
 !#endif
 !#if !env_firefox
-@include widgety_nie_dla_ff
+@include inne_nie_dla_ff
 !#endif
 !#if !ext_ublock
-@include widgety_AG
+@include inne_AG
 !#endif
 !
 !

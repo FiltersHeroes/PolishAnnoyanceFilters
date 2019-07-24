@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Checksum: @
-! Title: Polskie Filtry Elementów Irytujących - Inne Widżety
-! Polish Annoyance Filters - Other Widgets
-! Codename: Other Widgets
-! Description: Filtry ukrywające i blokujące różne inne widżety.
+! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
+! Polish Annoyance Filters - Other Elements
+! Codename: Other Elements
+! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
 ! Last modified: @modified
 ! Version: @version
 ! Expires: 2 days
@@ -18,7 +18,7 @@
 !
 !
 !
-@include widgety
+@include inne
 !
 !
 ! Wyjątki
@@ -27,16 +27,16 @@
 !
 !
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
-!#include PPB/uBO_AG/widgety_suplement.txt
+!#include PPB/uBO_AG/inne_suplement.txt
 !#if !cap_html_filtering
-!#include PPB/uBO_AG/widgety_bez_html.txt
+!#include PPB/uBO_AG/inne_bez_html.txt
 !#endif
 !#if cap_html_filtering
-!#include PPB/uBO_AG/widgety_html.txt
+!#include PPB/uBO_AG/inne_html.txt
 !#endif
 !#if !env_firefox
-!#include PPB/uBO_AG/widgety_nie_dla_ff.txt
+!#include PPB/uBO_AG/inne_nie_dla_ff.txt
 !#endif
 !#if !ext_ublock
-!#include PPB/uBO_AG/widgety_AG.txt
+!#include PPB/uBO_AG/inne_AG.txt
 !#endif

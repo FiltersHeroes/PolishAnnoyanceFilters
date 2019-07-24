@@ -72,7 +72,7 @@ for i in $ost_plik; do
         fi
     fi
 
-    if [ "$i" == "PPB/wyjatki.txt" ] || [ "$i" == "PPB/widgety.txt" ] || [ "$i" == "PPB/uBO_AG/widgety_AG.txt" ] || [ "$i" == "PPB/uBO_AG/widgety_bez_html.txt" ] || [ "$i" == "PPB/uBO_AG/widgety_html.txt" ] || [ "$i" == "PPB/uBO_AG/widgety_suplement.txt" ]; then
+    if [ "$i" == "PPB/wyjatki.txt" ] || [ "$i" == "PPB/inne.txt" ] || [ "$i" == "PPB/uBO_AG/inne_AG.txt" ] || [ "$i" == "PPB/uBO_AG/inne_bez_html.txt" ] || [ "$i" == "PPB/uBO_AG/inne_html.txt" ] || [ "$i" == "PPB/uBO_AG/inne_suplement.txt" ]; then
         if [[ "$modul" != *" PAF_other_widgets.txt"* ]]; then
             modul+=" "PAF_other_widgets.txt
         fi
