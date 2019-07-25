@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JWPUVbeuQu6wBLj3gr7wPw
+! Checksum: Ooh4Wth313lIEWRHEy3PUg
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 25 Jul 2019, 16:00 UTC+02
-! Version: 2019.7.25.2
+! Last modified: Thu, 25 Jul 2019, 20:00 UTC+02
+! Version: 2019.7.25.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: czw, 25 lip 2019, 16:00 UTC+02
+! Aktualizacja: czw, 25 lip 2019, 20:00 UTC+02
 !
 !
 !
@@ -54,6 +54,7 @@ applemobile.pl##.cactus-post-suggestion > .post-suggestion-content
 aprmedia.pl##.et_bloom_header_outer
 apsdata.pl###slide_box
 arminar.pl,doniczki-poznan.pl,odpady.chorzow.eu,sare.pl###preloader
+arms.com.pl###basketslider
 artelis.pl##.art-navstripe
 artlazienkowe.pl###widget_shop1 > div:nth-of-type(2)
 asport.pl##.hit-tygodnia
@@ -87,6 +88,8 @@ bithub.pl##.st-comment
 bitland-b2c.platforma.ab.pl###rightBoxes
 biznes2biznes.com###zakladki > div:nth-child(-n+4)
 biznes2biznes.com###zakladki > div:nth-of-type(6)
+biznes2biznes.com##[src="img/1px.gif"]
+biznes2biznes.com#?#body > a[href^="klikniecia/index.php"]:-abp-has(> img[src*="materialy"])
 biznesalert.pl##.toolbar
 blog.oleole.pl##.mp_popup
 blog.siegnijpozdrowie.org##.limk-widget
@@ -516,6 +519,7 @@ rynek-rolny.pl###nextpagezaj, a > #marketBanner
 salon24.pl##.article-bookstore
 saluti.pl###delivery-costs, #___ratingbadge_0
 samsung.com###oo_tab
+schronisko.info.pl###gkVmCartSmall
 scooterkingz.com.pl##.sqterybox
 selkar.pl##.my-open.side-banner
 send.firefox.com##send-promo
@@ -599,6 +603,8 @@ unia.pl###bottom7, #bottom8, #bottom9
 univ.rzeszow.pl,ur.edu.pl###interreg, #radio-feniks, #wspolpraca-miedzynarodowa
 urbancity.pl###helpBox
 uroda.swiatkobiety.pl##.articleObjectSeeAlso
+ur.edu.pl###interreg2
+ur.edu.pl###komunikaty-alergicy
 userstyles.org#?#div.us-stylecard--short:-abp-has(> .fallbackDiv > .fallbackImg[src="/ui/images/280x294.png"])
 userstyles.org#?##top_android_button:-abp-has(.robot_android)
 userstyles.org#?#.android_button_banner:-abp-has(img[src="/ui/images/icons/x_button_big.svg"])
@@ -657,6 +663,7 @@ zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 zoo.torun.pl##div.torun-rp, .bip-rp
 zrzutka.pl##.floating-apps
 ztm.gda.pl###mobile
+zyciepabianic.pl##.paper
 !abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##a[data-st-area="backToSG"],a[data-st-area="goToSG"], a[data-st-area="backToSG_mob"], a[data-st-area="back-WP"], a[data-st-area="Header-back"], a[data-st-area="goToSG_mob"], .btn__back-to-wp, .wp-pl-redirect
 /js/jquery.nicescroll.js$script,domain=2x45.info
 /js/jquery.nicescroll.plus.js$script,domain=2x45.info
