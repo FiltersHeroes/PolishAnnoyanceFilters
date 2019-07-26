@@ -1,9 +1,9 @@
-! Checksum: 0gobrQRmkFIsM8oStW9qzw
+! Checksum: 5nuD9iioN3gzhwzLF/VC4A
 ! Title: Polskie Filtry Elementów Irytujących - Uzupełnienie do uBlocka Origin i AdGuarda
 ! Polish Annoyance Filters - Supplement for uBlock Origin & AdGuard
 ! Codename: Annoyance - Supplement
-! Last modified: Fri, 26 Jul 2019, 20:00 UTC+02
-! Version: 2019.7.26.2
+! Last modified: Sat, 27 Jul 2019, 00:00 UTC+02
+! Version: 2019.7.27.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 26 lip 2019, 20:00 UTC+02
+! Aktualizacja: sob, 27 lip 2019, 00:00 UTC+02
 !
 !
 ! Newslettery
@@ -92,7 +92,7 @@ deezer.com##+js(abort-on-property-read.js, onbeforeunload)
 defence24.pl,defence24.com,cyberdefence24.pl,energetyka24.com,space24.pl,politykazdrowotna.com,kidsworld.pl,ncez.pl###newsletter-modal
 domodi.pl##+js(set-constant.js, PWA_adbd, 2)
 drogerienatura.pl###newsletter-popup-dn, .modal-backdrop
-dwdomel.pl,minecraft.org.pl,bilety24.pl,mintshost.pl,biznes-host.pl,um24.pl,endo.pl,www.kzkgop.com.pl,confronter.pl,panwybierak.pl,kartafitsport.pl##.modal-open:style(overflow: auto !important;)
+dwdomel.pl,minecraft.org.pl,bilety24.pl,mintshost.pl,biznes-host.pl,um24.pl,endo.pl,www.kzkgop.com.pl,confronter.pl,panwybierak.pl,kartafitsport.pl,nowafarmacja.pl##.modal-open:style(overflow: auto !important;)
 dwdomel.pl,minecraft.org.pl,dieta.hpba.pl,rossmann.pl##.modal, .modal-backdrop
 ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
@@ -170,6 +170,7 @@ ncez.pl,www.kzkgop.com.pl##.modal-backdrop
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 njumobile.pl##+js(abort-on-property-read.js, window.onbeforeunload)
+nowafarmacja.pl##.freshmail-modal, .modal-backdrop
 nowyrp.pl##body:style(padding-right: 0 !important;)
 nowyrp.pl##html.remodal-is-locked:style(overflow: auto !important;)
 nowyrp.pl##.offers-popup.remodal-wrapper, .offers-popup.remodal-overlay
