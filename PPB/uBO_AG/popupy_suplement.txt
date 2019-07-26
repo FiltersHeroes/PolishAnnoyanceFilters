@@ -108,7 +108,6 @@ miastodzieci.pl###startModal
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 mobile.twitter.com##body[style*="overflow-y: hidden;"]:style(overflow-y: auto !important; margin-right: 0 !important;)
-mobile.twitter.com##div[aria-hidden="true"] + div > div > div > div > div:has(> div[data-focusable="true"]:has(div:has(> div[aria-label="Zamknij"]) > div > div[dir="auto"]))
 mulan.pl,wetro.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
 mulan.pl,wetro.pl##.swal2-container
 mulan.pl,wetro.pl,wishbone.pl,agatabielen.com,polonia.edu.pl##body:style(padding-right: 0 !important;)
@@ -223,4 +222,5 @@ zlotymotocyklowe.pl##.fancybox-overlay:has([target="_blank"])
 zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important; overflow-y: visible !important;)
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
+!mobile.twitter.com##div[aria-hidden="true"] + div > div > div > div > div:has(> div[data-focusable="true"]:has(div:has(> div[aria-label="Zamknij"]) > div > div[dir="auto"]))
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
