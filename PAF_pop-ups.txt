@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: M9Bhvknr/wks9mqkT+Q/8g
+! Checksum: 4Pmg9QKgHZeUusbGA0fWAw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 28 Jul 2019, 16:00 UTC+02
-! Version: 2019.7.28.2
+! Last modified: Sun, 28 Jul 2019, 20:00 UTC+02
+! Version: 2019.7.28.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 28 lip 2019, 16:00 UTC+02
+! Aktualizacja: nie, 28 lip 2019, 20:00 UTC+02
 !
 !
 !
@@ -127,6 +127,7 @@ czasnabuty.pl###toplayer_newsletter_popup, #tln3_bg
 dabrowka.com.pl##.js-show.popup-hld--startpage
 dachyb2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl###newsletter-subscription
 dailyweb.pl,probasket.pl,swinoujskie.info,moneygrabbing.co.uk###snppopup-welcome
+dalchemyskincare.com###mymodlaNewsletter, .mask
 dany-meble.pl###myPopModal, .modal-backdrop
 darymex.pl,wiecznepiora.eu,skarbnicapomyslow.pl##[data-type-popup="newsletter"]
 decoliving.pl###pop-up-newsletter
@@ -174,6 +175,7 @@ estyl.pl###ue_form
 eswinoujscie.pl,arturjablonski.com##.ulp-layer, .ulp-overlay
 e-iglaki.pl###szkolenie-message
 e-insportline.pl###vivpopup-collapsed
+e-megasport.com###tws_i_100000, #topLayerBackDrop
 fabrykacukiernika.pl###gsNewsbox
 fabrykawafelkow.pl###someone-purchased
 fabrykazabawek.eu###helloModal
@@ -232,6 +234,7 @@ infopraca.pl###alert-creation, .modal-backdrop
 infoski.pl###boxpopup, #overlaj
 inpost.pl###popup-message-window, #popup-message-background
 inspiringsolutions.pl,qagile.pl,alkalicznystylzycia.com##.ppsPopupListsShell, #ppsPopupBgOverlay
+inspro.org.pl##.freshmail_dialog.ui-widget.ui-dialog, .ui-widget-overlay
 instalaton.pl,mmaniak.pl,nowyelektronik.pl,enaturalnie.pl,uczyibawi.pl,patopak.com.pl,laroxy.com,wasabi.com.pl###x13popup-container, #x13popup-cover
 instamarketing.pl##.popup, .popup-overlay
 instytutlogopedyczny.pl##.pytajnik
@@ -562,7 +565,7 @@ tutek.pl###qnpop
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 txm.pl##.mfp-ready.mfp-wrap
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
-unbrokenstore.com###topLayerBackDrop, #tws_i_0
+unbrokenstore.com###tws_i_0, #topLayerBackDrop
 unia.pl##.banerjpg
 userstyles.org##.overlay_background
 ustyle.pl###message-purchased
@@ -607,7 +610,7 @@ youtube.com#?#ytd-popup-container > .ytd-popup-container[role="dialog"]:-abp-con
 yt360.pl,emcconsultant.eu###ouibounce-modal
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
-zapachyswiata.eu###topLayerBackDrop, #toplayer_newsletter
+zapachyswiata.eu###toplayer_newsletter, #topLayerBackDrop
 zblogowani.pl###more-posts-modal
 zegarki-online.pl###InfoNewsletter, #InfoNewsletterOkno
 zielonagrupa.pl##.et_bloom_auto_popup.et_bloom_popup
