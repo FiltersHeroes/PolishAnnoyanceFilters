@@ -353,7 +353,8 @@ autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
 mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):nth-ancestor(6)
 pozyczkabezbanku.pl,parkmania.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
+vivrehome.pl##+js(set-constant.js, appShell.guest, false)
 !#endif
 !#if cap_user_stylesheet
-www.vivrehome.pl##.js-popup-register:not([style]):watch-attrs(style):has(.js-title-default.is-hidden:watch-attrs(class))
+!www.vivrehome.pl##.js-popup-subscribe:not([style]):watch-attr(style):has(.js-title-default.is-hidden:watch-attr(class))
 !#endif
