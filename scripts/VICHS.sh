@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # VICHS - Version Include Checksum Hosts Sort
-# v2.3.11
+# v2.3.12
 
 # MAIN_PATH to miejsce, w którym znajduje się główny katalog repozytorium (zakładamy, że skrypt znajduje się w katalogu o 1 niżej od głównego katalogu repozytorium)
 MAIN_PATH=$(dirname "$0")/..
@@ -75,8 +75,6 @@ for i in "$@"; do
     function external_cleanup {
         sed -i '/! Checksum/d' "$EXTERNAL_TEMP"
         sed -i '/!#include /d' "$EXTERNAL_TEMP"
-        sed -i '/!#if /d' "$EXTERNAL_TEMP"
-        sed -i '/!#endif/d' "$EXTERNAL_TEMP"
         sed -i '/Adblock Plus 2.0/d' "$EXTERNAL_TEMP"
         sed -i '/! Dołączenie listy/d' "$EXTERNAL_TEMP"
         sed -i "s|! |!@|g" "$EXTERNAL_TEMP"
