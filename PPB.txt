@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: tJeAw3U1hn9982nIUJf3uw
+! Checksum: uALAuwCh6W0bd+EZZbAkiA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Wed, 31 Jul 2019, 20:00 UTC+02
-! Version: 2019.7.31.2
+! Last modified: Wed, 31 Jul 2019, 20:31 UTC+02
+! Version: 2019.7.31.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Reddit => https://www.reddit.com/r/PolishFiltersTeam/
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 31 lip 2019, 20:00 UTC+02
+! Aktualizacja: śro, 31 lip 2019, 20:31 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2732,6 +2732,7 @@ www.yahoo.com###app > div > div > div > #YDC-MainCanvas > a[href="https://www.ya
 !
 !
 ! Widżety kontaktowe/informacji zwrotnej
+3giga.pl###contact-slider
 3mk.pl,400.pl,ccnews.pl,netyou.pl##.cresta-facebook-messenger-box
 aaaauto.pl###site-bottom-bar-content > .smoothbox
 adidas.pl,reebok.pl##.QSISlider
@@ -3149,7 +3150,6 @@ zwirex.pl###shoutbox
 !
 ! Inne elementy
 1ndieworld.com,eksperymentalnie.com,typeofweb.com,glejak.com,planetamarvel.net,topmejt.co.uk###upprev_box
-3giga.pl###contact-slider
 4fun.tv##.app-popup
 4programmers.net##.sidebar-job-offers.box
 24opony.pl##.alupin, .alupin2, .pasekIn
@@ -6904,6 +6904,8 @@ zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 @@||pracatobie.pl/jscripts/cookieLaws.js
 !
 !
+!#if (!adguard_ext_android_cb && !adguard_ext_safari && !adguard_app_ios)
+!#endif
 !@<<<<<<<< https://raw.githubusercontent.com/hawkeye116477/polish-ads-filter/master/cookies_filters/adblock_cookies.txt
 !
 !
