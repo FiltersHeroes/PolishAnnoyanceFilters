@@ -128,6 +128,7 @@ miastodzieci.pl###startModal
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 mobile.twitter.com##body[style*="overflow-y: hidden;"]:style(overflow-y: auto !important; margin-right: 0 !important;)
+mobile.twitter.com##div[tabindex="0"]:matches-css(position:fixed):has([href="/signup"])
 mulan.pl,wetro.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
 mulan.pl,wetro.pl##.swal2-container
 mulan.pl,wetro.pl,wishbone.pl,agatabielen.com,polonia.edu.pl##body:style(padding-right: 0 !important;)
@@ -334,7 +335,6 @@ linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
 makarun.pl$$.makarun-modal
 mediasam.pl$$#myWorning
-mobile.twitter.com##body > div > div > div > div > div > div > div > div > div[tabindex="0"]:contains(/(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)/):matches-css(position:fixed)
 mprofi.pl$$.tve-leads-lightbox
 muscat.pl$$#discountPopup
 ogrodosfera.pl$$#NewsletterExit
@@ -349,16 +349,17 @@ shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 shoplet.pl##.fancybox-overlay:has(#x13callback)
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
+!mobile.twitter.com##body > div > div > div > div > div > div > div > div > div[tabindex="0"]:contains(/(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)/):matches-css(position:fixed)
 !#endif
 !#if ext_ublock
 annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:not(:has(.cboxPhoto))
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
-mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):nth-ancestor(6)
 pozyczkabezbanku.pl,parkmania.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
 shoplet.pl##+js(set-constant.js, x13callback_cookie, 1)
 vivrehome.pl##+js(set-constant.js, appShell.guest, false)
+!mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):nth-ancestor(6)
 !#endif
 !#if cap_user_stylesheet
 !www.vivrehome.pl##.js-popup-subscribe:not([style]):watch-attr(style):has(.js-title-default.is-hidden:watch-attr(class))
