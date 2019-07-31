@@ -334,7 +334,7 @@ linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
 makarun.pl$$.makarun-modal
 mediasam.pl$$#myWorning
-mobile.twitter.com##body > div > div > div > div > div > div > div > div > div[tabindex="0"]:matches-css(position:fixed)
+mobile.twitter.com##body > div > div > div > div > div > div > div > div > div[tabindex="0"]:contains(/(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)/):matches-css(position:fixed)
 mprofi.pl$$.tve-leads-lightbox
 muscat.pl$$#discountPopup
 ogrodosfera.pl$$#NewsletterExit
@@ -343,6 +343,10 @@ pozyczkabezbanku.pl#$#body[style] { overflow: auto !important; }
 sferis.pl##.fancybox-overlay:has(#newsletter-popup)
 sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock > body { overflow: auto !important; }
 sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock { overflow: auto !important; margin-right: 0 !important; }
+shoplet.pl##html.fancybox-lock > body:style(overflow: visible !important;)
+shoplet.pl##html.fancybox-lock:style(overflow: visible !important;)
+shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
+shoplet.pl##.fancybox-overlay:has(#x13callback)
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
 !#endif
@@ -353,6 +357,7 @@ autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
 mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):nth-ancestor(6)
 pozyczkabezbanku.pl,parkmania.pl##+js(setTimeout-defuser.js, bioEp.showPopup)
+shoplet.pl##+js(set-constant.js, x13callback_cookie, 1)
 vivrehome.pl##+js(set-constant.js, appShell.guest, false)
 !#endif
 !#if cap_user_stylesheet
