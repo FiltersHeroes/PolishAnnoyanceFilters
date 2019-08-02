@@ -1,0 +1,24 @@
+! Codename: Scrolling Videos - Supplement
+~www.onet.pl,onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important;)
+abczdrowie.pl,parenting.pl,money.pl,wp.pl###Player0.floating:style(visibility: hidden !important;)
+dziennikzachodni.pl,echodnia.eu,naszemiasto.pl,nowiny24.pl,nto.pl##+js(addEventListener-defuser.js, scroll, xlinkEvent)
+forsal.pl##+js(set-constant.js, parseFloat, noopFunc)
+gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
+gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
+gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(addEventListener-defuser.js, scroll, d.stopPropagation)
+store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important;)
+tokfm.pl##+js(set-constant.js, gazeta_pl.Player.FloatingPlayer.floatPlayer, noopFunc)
+tokfm.pl,bankier.pl,claudia.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,moto.pl,sport.pl,ugotuj.to##+js(set-constant.js, ONTVminiatureBlocked, trueFunc)
+wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important;)
+!#if cap_user_stylesheet
+interia.pl,interia.tv,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,interia.tv,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
+!#endif
+!#if !cap_user_stylesheet
+interia.pl,interia.tv,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,interia.tv,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
+!#endif
+!#if !ext_ublock
+infozdrowie24.pl#$#.miniplayer { position: absolute !important; transition: unset !important; }
+infozdrowie24.pl#$#.normplayer { transition: unset !important; }
+!#endif
