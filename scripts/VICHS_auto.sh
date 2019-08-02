@@ -78,12 +78,6 @@ for i in $ost_plik; do
         fi
     fi
 
-    if [[ "$i" == "PPB/uBO_AG"* ]]; then
-        if [[ "$glowna_lista" != *" PPB_uBlock_AdGuard.txt"* ]]; then
-            glowna_lista+=" "PPB_uBlock_AdGuard.txt
-        fi
-    fi
-
     if [[ "$i" == "PPB"* ]]; then
         if [[ "$glowna_lista" != *" PPB.txt"* ]]; then
             glowna_lista+=" "PPB.txt
