@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: qJsAgn4FQSSD1wpPu+H1XQ
+! Checksum: uAbGf7h8eX0pNOAD2xzHmw
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 02 Aug 2019, 16:00 UTC+02
-! Version: 2019.8.2.2
+! Last modified: Sat, 03 Aug 2019, 00:00 UTC+02
+! Version: 2019.8.3.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 02 sie 2019, 16:00 UTC+02
+! Aktualizacja: sob, 03 sie 2019, 00:00 UTC+02
 !
 !
 !
@@ -232,6 +232,7 @@ gazetaprawna.pl###nextArticleWidget
 gb.pl###showMoreButton
 gdansk.pl##.nast.bat2
 gdansk.pl##.pop.bat2
+gerda.pl##.swimmer
 germany.travel##.popover-country
 getinbank.pl##.quickMenuRow.row
 getinbank.pl##.sticky-buttons__wrapper
@@ -534,6 +535,7 @@ rolmarket.pl###menu_hotspot_zone3
 rosebelle.pl##.page-loader
 rowery-elektryczne.pl###b2b-link, #download-catalogue
 roztocze.net###guzik_edukacja2
+rynekpierwotny.pl#?#.profile-tooltip:-abp-contains(ulubionych ofert)
 rynek-rolny.pl###nextpagezaj, a > #marketBanner
 salon24.pl##.article-bookstore
 saluti.pl###delivery-costs, #___ratingbadge_0
@@ -724,21 +726,6 @@ zyciepabianic.pl##.paper
 ||www.opera.com/en/downloadassets/sticky-bar-auto$subdocument
 ||www.windowsmania.pl/images/bar/portal.jpg
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
-!
-!
-! Wyjątki
-dobre-driny.pl#@##newsletter:not(.modal)
-dron.pl#@#.widget_wysija
-eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
-forum.dobreprogramy.pl,beskidzka-akademia.pl,bel-pol.pl,betard.pl#@#.fa-angle-up
-ifirma.pl#@#.dogory
-karta.org.pl,poczta.wp.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
-obi.pl#@#.scrollup
-rmf24.pl#@##backTop
-zblogowani.pl#@##ouibounce-modal
-@@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
-@@||static.mailerlite.com/js/jquery.validate.min.js$script,domain=nanonet.pl
-!
 !
 !
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
