@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: W2bm1Cy0ZUsVmuHl6X3rgw
+! Checksum: 3u1AnOgqHNn4ql3IcfNQfw
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Fri, 26 Jul 2019, 00:00 UTC+02
-! Version: 2019.7.26.1
+! Last modified: Fri, 02 Aug 2019, 14:38 UTC+02
+! Version: 2019.8.2.1
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 26 lip 2019, 00:00 UTC+02
+! Aktualizacja: pią, 02 sie 2019, 14:38 UTC+02
 !
 !
 !
@@ -58,13 +58,4 @@ zblogowani.pl#@##ouibounce-modal
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
-!#include PPB/uBO_AG/scroll_film_suplement.txt
-!#if cap_user_stylesheet
-!#include PPB/uBO_AG/scroll_film_userCSS.txt
-!#endif
-!#if !cap_user_stylesheet
-!#include PPB/uBO_AG/scroll_film_non_userCSS.txt
-!#endif
-!#if !ext_ublock
-!#include PPB/uBO_AG/scroll_film_AG.txt
-!#endif
+!#include PAF_scrolling_videos_supp.txt
