@@ -26,13 +26,4 @@
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
-!#include PPB/uBO_AG/scroll_film_suplement.txt
-!#if cap_user_stylesheet
-!#include PPB/uBO_AG/scroll_film_userCSS.txt
-!#endif
-!#if !cap_user_stylesheet
-!#include PPB/uBO_AG/scroll_film_non_userCSS.txt
-!#endif
-!#if !ext_ublock
-!#include PPB/uBO_AG/scroll_film_AG.txt
-!#endif
+!#include PAF_scrolling_videos_supp.txt

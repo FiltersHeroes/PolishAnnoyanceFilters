@@ -1,0 +1,34 @@
+@path PPB/uBO_AG
+!
+!
+!#include PAF_newsletters_supp.txt
+!
+!
+!#include PAF_tagged_internal_links.txt
+!
+!
+!#include PAF_pop-ups_supp.txt
+!
+!
+!#include PAF_push_supp.txt
+!
+!
+!#include PAF_scrolling_videos_supp.txt
+!
+!
+!#include PAF_backgrounds_self-advertising_supp.txt
+!
+!
+!#include PAF_other_elements_supp.txt
+!
+!
+! Reguły specjalne
+!#if !ext_ublock
+@include specjalne_AG
+!#endif
+!#if ext_ublock
+@include specjalne_uBO
+!#endif
+!
+!
+@URLinclude https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/cookies_filters/cookies_uB_AG.txt

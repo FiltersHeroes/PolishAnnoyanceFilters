@@ -27,16 +27,4 @@
 !
 !
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
-!#include PPB/uBO_AG/inne_suplement.txt
-!#if !cap_html_filtering
-!#include PPB/uBO_AG/inne_bez_html.txt
-!#endif
-!#if cap_html_filtering
-!#include PPB/uBO_AG/inne_html.txt
-!#endif
-!#if !env_firefox
-!#include PPB/uBO_AG/inne_nie_dla_ff.txt
-!#endif
-!#if !ext_ublock
-!#include PPB/uBO_AG/inne_AG.txt
-!#endif
+!#include PAF_other_elements_supp.txt

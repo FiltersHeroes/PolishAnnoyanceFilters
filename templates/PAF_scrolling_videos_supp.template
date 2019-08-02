@@ -1,0 +1,12 @@
+! Codename: Scrolling Videos - Supplement
+@path PPB/uBO_AG
+@include scroll_film_suplement
+!#if cap_user_stylesheet
+@include scroll_film_userCSS
+!#endif
+!#if !cap_user_stylesheet
+@include scroll_film_non_userCSS
+!#endif
+!#if !ext_ublock
+@include scroll_film_AG
+!#endif
