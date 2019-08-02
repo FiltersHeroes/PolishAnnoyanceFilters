@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /jZAszRG4QDCJ+2jz4jzbA
+! Checksum: JtSMsdaC1J58muLd7YdJhQ
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Fri, 02 Aug 2019, 16:00 UTC+02
-! Version: 2019.8.2.1
+! Last modified: Fri, 02 Aug 2019, 20:00 UTC+02
+! Version: 2019.8.2.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 02 sie 2019, 16:00 UTC+02
+! Aktualizacja: pią, 02 sie 2019, 20:00 UTC+02
 !
 !
 2bstyle.pl,magnapolonia.org,bialskieforum.pl###mt-scrollup
@@ -385,15 +385,12 @@ plejada.pl###goback
 pl##.backToTop
 pl##.backtopbutton
 pl##.backtotop
-pl##.dogory
 pl##.scrollToTop
-pl##.scrollup
 pl##.slideToTop
 pl##.totop
 pl###BackToTop
 pl###GotoTop
 pl###backToTop
-pl###backTop
 pl###backtotop
 pl###back-top
 pl###back-to-top
@@ -447,7 +444,6 @@ pl##.btn--move-to-top
 pl##.cd-top
 pl##.et_pb_scroll_top
 pl##.fa-angle-double-up
-pl##.fa-angle-up
 pl##.footer-backtotop
 pl##.g1-back-to-top
 pl##.generate-back-to-top
@@ -477,6 +473,10 @@ pl##.vw-scroll-to-top
 pl##.vw_m520_topbar
 pl##.w-toplink
 pl##.z-navigation-footer_backToTop
+pl,~forum.dobreprogramy.pl,~beskidzka-akademia.pl,~bel-pol.pl,~betard.pl##.fa-angle-up
+pl,~ifirma.pl##.dogory
+pl,~obi.pl##.scrollup
+pl,~rmf24.pl###backTop
 pl,com###profilki_uparrow
 pl-24.com##.right > .right > .right
 pl.aliexpress.com##.ui-fixed-panel-go-top
@@ -652,17 +652,3 @@ zwiedzam-stadiony.eu,polskacanada.com##.mh-back-to-top
 ||tvpolsat.info/infusions/ui_top_button_panel/js/jquery.ui.totop.js
 ||www.eu.edu.pl/wp-content/plugins/go-to-top-button/js/scrolltop.js
 ||www.imperiumromanum.edu.pl/wp-content/themes/romanum/ex/img/goToTop.png
-!
-!
-! Wyjątki
-dobre-driny.pl#@##newsletter:not(.modal)
-dron.pl#@#.widget_wysija
-eurobuty.com.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
-forum.dobreprogramy.pl,beskidzka-akademia.pl,bel-pol.pl,betard.pl#@#.fa-angle-up
-ifirma.pl#@#.dogory
-karta.org.pl,poczta.wp.pl#@#.newsletter:not(#popup_newsletter):not(.in-line)
-obi.pl#@#.scrollup
-rmf24.pl#@##backTop
-zblogowani.pl#@##ouibounce-modal
-@@||niezlasztuka.net/wp-content/plugins/NKS-subscription/js/nk-sub.min.js
-@@||static.mailerlite.com/js/jquery.validate.min.js$script,domain=nanonet.pl
