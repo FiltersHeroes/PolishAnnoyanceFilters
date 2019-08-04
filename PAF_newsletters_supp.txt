@@ -1,14 +1,17 @@
 ! Codename: Newsletters - Supplement
 autakrajowe.com.pl###multiBoxHome > div.col-md-6:nth-of-type(2):style(width: 100%)
+dlahandlu.pl##.social.tabs:has(> div.navi > a.active:first-child:watch-attr(class)) > .panes
 eksperymentalnie.com##+js(setTimeout-defuser.js, CodeKingdomBox)
+eksperymentalnie.com#%#//scriptlet("prevent-setTimeout", CodeKingdomBox)
 euroogrod.com.pl##footer:style(border-top: none !important;)
 gomobi.pl##.onp-sl-blur-area:style(filter: none !important)
 gomobi.pl##.onp-sl-overlap-box
 laroxy.com###newsletter_block_left:style(display: block !important; visibility: hidden !important;)
 niezlasztuka.net##+js(setTimeout-defuser.js, i(), 35000)
-niezlasztuka.net#%#//scriptlet("prevent-setTimeout"[, i()[, 35000]])
+niezlasztuka.net#%#//scriptlet("prevent-setTimeout", i(), 35000)
 nowymarketing.pl##.accessInfoBox
 nowymarketing.pl##.blured:style(filter: none !important;)
 szybkanauka.pro##body:style(margin-top: 0 !important;)
 szybkanauka.pro##+js(remove-attr.js, style, body)
+szybkanauka.pro#%#//scriptlet("remove-attr", style, body)
 wrozka.com.pl##.contact_content.custom_html_right_content, .no_bottom_margin.custom_html_right_header:style(width: auto !important;)
