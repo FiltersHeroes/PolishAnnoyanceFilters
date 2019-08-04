@@ -18,9 +18,18 @@ else
 fi
 
 for i in $ost_plik; do
-    if [ "$i" == "PPB/push.txt" ] || [ "$i" == "PPB/uBO_AG/push_suplement.txt" ]; then
+    if [ "$i" == "PPB/push.txt" ]; then
         if [[ "$modul" != *" PAF_push.txt"* ]]; then
             modul+=" "PAF_push.txt
+        fi
+    fi
+
+    if [ "$i" == "PPB/uBO_AG/push_suplement.txt" ]; then
+        if [[ "$modul_g" != *" PAF_push.txt"* ]] && [[ "$modul" != *" PAF_push.txt"* ]]; then
+            modul_g+=" "PAF_push.txt
+        fi
+        if [[ "$modul" != *" PAF_push_supp.txt"* ]]; then
+            modul+=" "PAF_push_supp.txt
         fi
     fi
 
@@ -28,9 +37,12 @@ for i in $ost_plik; do
         if [[ "$modul" != *" PAF_pop-ups_supp.txt"* ]]; then
             modul+=" "PAF_pop-ups_supp.txt
         fi
+        if [[ "$modul_g" != *" PAF_pop-ups.txt"* ]] && [[ "$modul" != *" PAF_pop-ups.txt"* ]]; then
+            modul_g+=" "PAF_pop-ups.txt
+        fi
     fi
 
-    if [ "$i" == "PPB/popupy.txt" ] || [ "$i" == "PPB/uBO_AG/popupy_suplement.txt" ] || [ "$i" == "PPB/uBO_AG/popupy_uBO.txt" ] || [ "$i" == "PPB/uBO_AG/popupy_AG.txt" ]  || [ "$i" == "PPB/uBO_AG/popupy_bez_html.txt" ] || [ "$i" == "PPB/uBO_AG/popupy_html.txt" ]; then
+    if [ "$i" == "PPB/popupy.txt" ]; then
         if [[ "$modul" != *" PAF_pop-ups.txt"* ]]; then
             modul+=" "PAF_pop-ups.txt
         fi
@@ -42,15 +54,33 @@ for i in $ost_plik; do
         fi
     fi
 
-    if [ "$i" == "PPB/scroll_film.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_suplement.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_userCSS.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_non_userCSS.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_AG.txt" ]; then
+    if [ "$i" == "PPB/scroll_film.txt" ]; then
         if [[ "$modul" != *" PAF_scrolling_videos.txt"* ]]; then
             modul+=" "PAF_scrolling_videos.txt
         fi
     fi
 
-    if [ "$i" == "PPB/newslettery_nie_popupy.txt" ] || [ "$i" == "PPB/uBO_AG/newslettery_suplement.txt" ]; then
+    if [ "$i" == "PPB/uBO_AG/scroll_film_suplement.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_userCSS.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_non_userCSS.txt" ] || [ "$i" == "PPB/uBO_AG/scroll_film_AG.txt" ]; then
+        if [[ "$modul" != *" PAF_scrolling_videos_supp.txt"* ]]; then
+            modul+=" "PAF_scrolling_videos_supp.txt
+        fi
+        if [[ "$modul_g" != *" PAF_scrolling_videos.txt"* ]] && [[ "$modul" != *" PAF_scrolling_videos.txt"* ]]; then
+            modul_g+=" "PAF_scrolling_videos.txt
+        fi
+    fi
+
+    if [ "$i" == "PPB/newslettery_nie_popupy.txt" ]; then
         if [[ "$modul" != *" PAF_newsletters.txt"* ]]; then
             modul+=" "PAF_newsletters.txt
+        fi
+    fi
+
+    if [ "$i" == "PPB/uBO_AG/newslettery_suplement.txt" ]; then
+        if [[ "$modul" != *" PAF_newsletters_supp.txt"* ]]; then
+            modul+=" "PAF_newsletters_supp.txt
+        fi
+        if [[ "$modul_g" != *" PAF_newsletters.txt"* ]] && [[ "$modul" != *" PAF_newsletters.txt"* ]]; then
+            modul_g+=" "PAF_newsletters.txt
         fi
     fi
 
@@ -60,9 +90,18 @@ for i in $ost_plik; do
         fi
     fi
 
-    if [ "$i" == "PPB/tla_autoreklamy.txt" ] || [ "$i" == "PPB/uBO_AG/tla_autoreklamy_suplement.txt" ]; then
+    if [ "$i" == "PPB/tla_autoreklamy.txt" ]; then
         if [[ "$modul" != *" PAF_backgrounds_self-advertising.txt"* ]]; then
             modul+=" "PAF_backgrounds_self-advertising.txt
+        fi
+    fi
+
+    if [ "$i" == "PPB/uBO_AG/tla_autoreklamy_suplement.txt" ]; then
+        if [[ "$modul" != *" PAF_backgrounds_self-advertising_supp.txt"* ]]; then
+            modul+=" "PAF_backgrounds_self-advertising_supp.txt
+        fi
+        if [[ "$modul_g" != *" PAF_backgrounds_self-advertising.txt"* ]] && [[ "$modul" != *" PAF_backgrounds_self-advertising.txt"* ]]; then
+            modul_g+=" "PAF_backgrounds_self-advertising.txt
         fi
     fi
 
@@ -72,9 +111,18 @@ for i in $ost_plik; do
         fi
     fi
 
-    if [ "$i" == "PPB/inne.txt" ] || [ "$i" == "PPB/uBO_AG/inne_AG.txt" ] || [ "$i" == "PPB/uBO_AG/inne_bez_html.txt" ] || [ "$i" == "PPB/uBO_AG/inne_html.txt" ] || [ "$i" == "PPB/uBO_AG/inne_suplement.txt" ]; then
+    if [ "$i" == "PPB/inne.txt" ]; then
         if [[ "$modul" != *" PAF_other_widgets.txt"* ]]; then
             modul+=" "PAF_other_widgets.txt
+        fi
+    fi
+
+    if [ "$i" == "PPB/uBO_AG/inne_AG.txt" ] || [ "$i" == "PPB/uBO_AG/inne_bez_html.txt" ] || [ "$i" == "PPB/uBO_AG/inne_html.txt" ] || [ "$i" == "PPB/uBO_AG/inne_suplement.txt" ]; then
+        if [[ "$modul" != *" PAF_other_elements_supp.txt"* ]]; then
+            modul+=" "PAF_other_elements_supp.txt
+        fi
+        if [[ "$modul_g" != *" PAF_other_widgets.txt"* ]] && [[ "$modul" != *" PAF_other_widgets.txt"* ]]; then
+            modul_g+=" "PAF_other_widgets.txt
         fi
     fi
 
@@ -84,8 +132,17 @@ for i in $ost_plik; do
         fi
     fi
 
+    if [[ "$i" == "PPB/uBO_AG"* ]]; then
+        if [[ "$glowna_lista" != *" PPB.txt"* ]] && [[ "$glowna_lista_" != *" PPB.txt"* ]]; then
+            glowna_lista_+=" "PPB.txt
+        fi
+    fi
 done
 
 if [[ "$glowna_lista" && "$modul" ]]; then
     "$sciezka"/VICHS.sh $glowna_lista $modul
+fi
+
+if [[ "$glowna_lista_" && "$modul_g" ]]; then
+    FORCED="true" "$sciezka"/VICHS.sh $glowna_lista_ $modul_g
 fi
