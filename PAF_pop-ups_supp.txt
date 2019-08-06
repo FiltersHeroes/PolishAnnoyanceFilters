@@ -128,6 +128,7 @@ misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 mobile.twitter.com##body[style*="overflow-y: hidden;"]:style(overflow-y: auto !important; margin-right: 0 !important;)
 mobile.twitter.com##div[tabindex="0"]:matches-css(position:fixed):has([href="/signup"])
+mobile.twitter.com##div[tabindex="0"]:matches-css(position: fixed):matches-css(min-height: 165px):not(:has([href="/signup"]))
 mulan.pl,wetro.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
 mulan.pl,wetro.pl##.swal2-container
 mulan.pl,wetro.pl,wishbone.pl,agatabielen.com,polonia.edu.pl##body:style(padding-right: 0 !important;)
