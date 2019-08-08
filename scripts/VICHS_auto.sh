@@ -126,7 +126,7 @@ for i in $ost_plik; do
         fi
     fi
 
-    if [[ "$i" == "PPB"* ]]; then
+    if [[ "$i" == "PPB"* ]] && [[ "$i" != "PPB/uBO_AG"* ]]; then
         if [[ "$glowna_lista" != *" PPB.txt"* ]]; then
             glowna_lista+=" "PPB.txt
         fi
