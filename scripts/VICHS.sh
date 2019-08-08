@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # VICHS - Version Include Checksum Hosts Sort
-# v2.4.2
+# v2.4.3
 
 # MAIN_PATH to miejsce, w którym znajduje się główny katalog repozytorium (zakładamy, że skrypt znajduje się w katalogu o 1 niżej od głównego katalogu repozytorium)
 MAIN_PATH=$(dirname "$0")/..
@@ -408,14 +408,12 @@ for i in "$@"; do
         rm -r "$i".chk
 
         # Dodawanie zmienionych plików do repozytorium git
-        if [ ! "$RTM_MODE" ] ; then
-            git add "$i"
-        fi
+        git add "$i"
 
         # Commitowanie zmienionych plików
         if [ "$CI" = "true" ] ; then
             git commit -m "Update $filter to version $version [ci skip]"
-        elif [ ! "$RTM_MODE" ] ; then
+        else
             printf "Podaj rozszerzony opis commita do listy filtrów %s$filter, np 'Fix #1, fix #2' (bez ciapek; jeśli nie chcesz rozszerzonego opisu, to możesz po prostu nic nie wpisywać): "
             read -r roz_opis
             git commit -m "Update $filter to version $version [ci skip]" -m "${roz_opis}"
