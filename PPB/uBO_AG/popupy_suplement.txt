@@ -1,6 +1,5 @@
 action.com##.has-popup:style(position: static !important;)
 action.com,ekai.pl,jezykiobce.pl##.newsletter-popup
-panel.kei.pl##.popup-modal:has(a[href*="/polls/ankieta"])
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
@@ -134,6 +133,7 @@ oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 online.citibank.pl###AdventPopup, .modal-backdrop
 open.fm##+js(addEventListener-defuser.js, unload)
 pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
+panel.kei.pl##.popup-modal:has(a[href*="/polls/ankieta"])
 panwybierak.pl##.modal-unload, .modal-backdrop
 pepco.pl##body.modal-open:style(padding-right: 0 !important; overflow: visible !important;)
 pepco.pl##.modal-newsletter, .modal-backdrop
