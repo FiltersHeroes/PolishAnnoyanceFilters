@@ -184,6 +184,7 @@ rekinfinansow.pl##.cp-visited-popup
 rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
+rytmynatury.pl##+js(setTimeout-defuser.js, .efbl_popup_trigger)
 sferis.pl##+js(abort-current-inline-script.js, $, promoNewsletter)
 skalnik.pl##.newspopup-blur:style(filter: none !important;)
 skalnik.pl##.newspopup_ov_hidden:style(overflow: auto !important;)
@@ -340,6 +341,9 @@ muscat.pl$$#discountPopup
 ogrodosfera.pl$$#NewsletterExit
 pozyczkabezbanku.pl###bio_ep, #bio_ep_bg
 pozyczkabezbanku.pl#$#body[style] { overflow: auto !important; }
+rytmynatury.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
+rytmynatury.pl##.mfp-bg.mfp-ready
+rytmynatury.pl##.mfp-wrap:has(#efbl_popup)
 sferis.pl##.fancybox-overlay:has(#newsletter-popup)
 sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock > body { overflow: auto !important; }
 sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock { overflow: auto !important; margin-right: 0 !important; }
