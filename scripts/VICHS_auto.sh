@@ -59,12 +59,6 @@ if [ -z $(search "PAF_scrolling_videos.txt") ] && [ ! -z $(search "PAF_scrolling
     fi
 fi
 
-if [ -z $(search "PPB.txt") ] && [ ! -z $(search "PAF_supp.txt") ]; then
-    if [[ "$lista_g" != *" PPB.txt"* ]]; then
-        lista_g+=" "PPB.txt
-    fi
-fi
-
 if [[ "$lista_g" ]]; then
     FORCED="true" "$sciezka"/VICHS.sh $lista_g
 fi
