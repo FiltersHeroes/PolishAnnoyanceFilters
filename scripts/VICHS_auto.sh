@@ -45,6 +45,9 @@ if [ -z $(search "PAF_pop-ups.txt") ] && [ ! -z $(search "PAF_pop-ups_supp.txt")
     if [[ "$lista_g" != *" PAF_pop-ups.txt"* ]]; then
         lista_g+=" "PAF_pop-ups.txt
     fi
+    if [[ "$lista_g" != *" PPB.txt"* ]]; then
+        lista_g+=" "PPB.txt
+    fi
 fi
 
 if [ -z $(search "PAF_push.txt") ] && [ ! -z $(search "PAF_push_supp.txt") ]; then
