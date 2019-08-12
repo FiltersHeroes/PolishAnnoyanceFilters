@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: B16teEYXY/ykYE8vb5NOKQ
+! Checksum: U/zUspBVD9iZP/xtml9O5A
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 11 Aug 2019, 20:00 UTC+02
-! Version: 2019.8.11.2
+! Last modified: Mon, 12 Aug 2019, 16:00 UTC+02
+! Version: 2019.8.12.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 11 sie 2019, 20:00 UTC+02
+! Aktualizacja: pon, 12 sie 2019, 16:00 UTC+02
 !
 !
 !
@@ -255,7 +255,7 @@ dobiegania.pl##.superMailing
 dobredomy.pl###footerForm
 dobremiejsce.org##.popupaoc-button
 dobreprogramy.pl###phContent_SubscriptionsControl_lnkNewsletter
-dobre-driny.pl###newsletter > *
+dobre-driny.pl###newsletter > h3, #newsletter > p
 dobrywybor.eu##.newsletter-wrap
 dobry-kon.pl##.col-sm-3:nth-of-type(4)
 dobrzemieszkaj.pl##.box-22
@@ -751,7 +751,6 @@ pl###newsletterform
 pl###newsletter-box
 pl###newsletter-footer
 pl###newsletter-form
-pl###newsletter:not(.modal)
 pl###newsletter_bar
 pl###newsletter_block_left
 pl###newsletter_footer
@@ -778,6 +777,7 @@ pl##.newsletter_footer
 pl##.widget-newsletter
 pl##.widget_mailerlite_widget
 pl##.widget_newsletterwidget
+pl,~dobre-driny.pl###newsletter:not(.modal)
 pl,~dron.pl##.widget_wysija
 pl,~karta.org.pl,~poczta.wp.pl##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore)
 pl,mazury.travel###newsletter_box
@@ -926,7 +926,7 @@ selgros24.pl##.box-last.box > h2
 selgros.pl##.home-box3
 semprewithlove.pl###text-5
 senetic.pl##.nws-popup__wrapper
-seni24.pl##.block_newsletter > *
+seni24.pl##.block_newsletter > .container
 sfinks.info##.t_align_r.m_xs_bottom_30.m_bottom_20.m_xs_top_0.m_top_40.col-sm-6.col-md-6.col-lg-6
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
 showroom.pl##.news-signup
@@ -947,7 +947,7 @@ sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
 sklep.charaktery.eu###skNewsletterPopupFooter
 sklep.grupamagnum.eu##.leftcol > #box_custom81 > center > iframe[src^="https://media-grupamagnum.ipresso.pl"]
 sklep.gry-online.pl##.mt, #add-newsletter-email, #add-newsletter
-sklep.jelp.pl###freshmail > *
+sklep.jelp.pl###freshmail > .pull-left
 sklep.legia.com##.ty-footer-menu > .row-fluid > .span8
 sklep.lemoniade.pl##.container > .row > div.col-md-6.col-sm-6.col-xs-12:nth-of-type(2) > .row
 sklep.milicon.eu##.box.newsletter, .menuBox_Newsletter
