@@ -19,9 +19,6 @@ mtech.pl##.alertContainer
 noizz.pl###pushBell
 ogrodosfera.pl##.bell-container
 pilot.wp.pl##.notification-container
-pl###onesignal-bell-container
-pl###pushAdUpBanner
-pl###pushwoosh-pop
 pomponik.pl##.ppg__signin
 sklepsamsung.pl##.b-modal_webpushCentered
 sklepsamsung.pl##.b-modal_webpushVertical
@@ -31,7 +28,6 @@ zapytaj.onet.pl##.push-notification-box
 !/OneSignalSDK.js$domain=kosmicznapropaganda.pl|wp.pl|swiatbaterii.pl|insert.com.pl
 !||proxy.snrbox.com/rtom/web-push/get-public-config$domain=fera.pl|eobuwie.com.pl|neo24.pl
 !||proxy.synerise.com/*/web-push/get-public-config
-/OneSignalSDK.js$third-party
 /assets/js/firebase/subscribe.js$domain=czesciauto24.pl
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.pl|planeta.fm|radiozet.pl
 /pushServiceWorker.js$script,domain=go.tvn24.pl|topagrar.pl|tvn.pl|~www.tvn.pl
@@ -40,7 +36,6 @@ zapytaj.onet.pl##.push-notification-box
 /static/js/firebase-push.js$domain=cafago.com|tomtop.com
 /sw-rmf-push.js$script,domain=rmfmaxxx.pl|rmf.fm|rmf24.pl|rmfon.pl|rmfclassic.pl
 /sw.js$domain=zippyshare.com|youtube.com|openload.co|podaj.to|mojwzrok.pl|optes.pl|taniesoczewki.pl|adaware.com|kinoseans.pl
-/web-push/get-public-config$xmlhttprequest,third-party
 ||api.sociaplus.com/views/push/js/sdk/insider-push-native-sdk.js
 ||cashless.pl/serviceworker.js
 ||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
