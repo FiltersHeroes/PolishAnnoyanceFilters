@@ -22,20 +22,40 @@
 @include newslettery_nie_popupy
 !
 !
+! Newslettery (nie popupy) - ogólne reguły
+@include newslettery_ogolne
+!
+!
 ! Popupy
 @COMBINEinclude popupy https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!
+!
+! Popupy - ogólne reguły
+@COMBINEinclude popupy_ogolne https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
 !
 !
 ! Powiadomienia push
 @include push
 !
 !
+! Powiadomienia push - ogólne reguły
+@include push_ogolne
+!
+!
 ! Scrollujące filmiki
 @include scroll_film
 !
 !
+! Scrollujące filmiki - ogólne reguły
+@include scroll_film_ogolne
+!
+!
 ! Strzałki
 @include strzalki
+!
+!
+! Strzałki - ogólne reguły
+@include strzalki_ogolne
 !
 !
 ! Tła zawierające autoreklamy
@@ -46,8 +66,16 @@
 @include widgety_kontaktowe_informacji_zwrotnej
 !
 !
+! Widżety kontaktowe/informacji zwrotnej - ogolne reguły
+@include widgety_kontaktowe_informacji_zwrotnej_ogolne
+!
+!
 ! Inne elementy
 @include inne
+!
+!
+! Inne elementy - ogólne reguły
+@include inne_ogolne
 !
 !
 ! Reguły specjalne
