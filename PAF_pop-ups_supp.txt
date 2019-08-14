@@ -140,6 +140,7 @@ ncez.pl,panel.kei.pl,www.kzkgop.com.pl##.modal-backdrop
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 new.reddit.com,www.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
+new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 njumobile.pl##+js(abort-on-property-read.js, window.onbeforeunload)
 nowafarmacja.pl##.freshmail-modal, .modal-backdrop
 nowasprzedaz.pl,reaktor.pwn.pl,tfkable.com##.is-reveal-open:style(overflow: auto !important;)
@@ -231,12 +232,11 @@ www.kzkgop.com.pl###ztmModal:style(position: unset !important; overflow-y: unset
 www.microsoft.com##body[style^="overflow: hidden;"]:style(overflow: visible !important;)
 www.microsoft.com###email-newsletter-dialog
 www.ozog.pl###homeModal
-www.reddit.com,new.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 wynagrodzenia.pl###isbusiness-modal, .modal-backdrop
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
 zakupycodzienne.carrefour.pl##body[style]:style(overflow: auto !important; padding-right: 0 !important;)
-zakupycodzienne.carrefour.pl##div[class*="jss"][role="dialog"]:has(> div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
+zakupycodzienne.carrefour.pl##div[class*="jss"][role="dialog"]:has( > div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
 zaufanekliniki.pl###modalMain, .modal-backdrop
 zegarkiipasja.pl##.emelu-lightbox-target
 zeskory.com##.newsletter-pop, .modal-backdrop
