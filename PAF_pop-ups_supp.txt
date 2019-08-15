@@ -230,7 +230,7 @@ www.centrumkurierskie.pl,www.epione.pl##.fancybox-lock body:style(overflow: auto
 www.e-biurowce.pl###raport_info, .modal-backdrop
 www.facebook.com##body > div.uiLayer[style="opacity: 1; min-width: 40px;"]:has( > div:first-child:empty)
 www.kzkgop.com.pl###ztmModal:style(position: unset !important; overflow-y: unset !important;)
-www.microsoft.com##body[style^="overflow: hidden;"]:style(overflow: visible !important;)
+www.microsoft.com##body[style*="overflow: hidden;"]:style(overflow: auto !important;)
 www.microsoft.com###email-newsletter-dialog
 www.ozog.pl###homeModal
 wynagrodzenia.pl###isbusiness-modal, .modal-backdrop
