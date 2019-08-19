@@ -7,7 +7,7 @@ aktualna_godzina=$(date +"%H")
 
 cd "$sciezka"/.. || exit
 
-LANG="pl_PL.UTF-8" "$sciezka"/VICHS.sh PAF_arrows.txt PAF_backgrounds_self-advertising_supp.txt PAF_backgrounds_self-advertising.txt PAF_contact_feedback_widgets.txt PAF_newsletters_supp.txt PAF_newsletters.txt PAF_other_elements_supp.txt PAF_other_widgets.txt PAF_pop-ups_supp.txt PAF_pop-ups.txt PAF_push_supp.txt PAF_push.txt PAF_scrolling_videos_supp.txt PAF_scrolling_videos.txt PAF_supp.txt PAF_tagged_internal_links.txt PPB.txt
+"$sciezka"/VICHS.sh PAF_arrows.txt PAF_backgrounds_self-advertising_supp.txt PAF_backgrounds_self-advertising.txt PAF_contact_feedback_widgets.txt PAF_newsletters_supp.txt PAF_newsletters.txt PAF_other_elements_supp.txt PAF_other_widgets.txt PAF_pop-ups_supp.txt PAF_pop-ups.txt PAF_push_supp.txt PAF_push.txt PAF_scrolling_videos_supp.txt PAF_scrolling_videos.txt PAF_supp.txt PAF_tagged_internal_links.txt PPB.txt
 
 
 ost_plik=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
@@ -63,5 +63,5 @@ if [ -z $(search "PAF_scrolling_videos.txt") ] && [ ! -z $(search "PAF_scrolling
 fi
 
 if [[ "$lista_g" ]]; then
-    LANG="pl_PL.UTF-8" FORCED="true" "$sciezka"/VICHS.sh $lista_g
+    FORCED="true" "$sciezka"/VICHS.sh $lista_g
 fi
