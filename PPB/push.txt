@@ -11,10 +11,6 @@ eneba.com,estyl.pl,semahead.pl###ue_push_dialog
 gazetkonosz.pl##.floating-dialog
 kryminalka.pl###Process0
 mbank.pl###push-message
-
-||onet.pl/push-mob-service-worker*.js$script,domain=www.onet.pl
-||gstatic.com/firebasejs/*/firebase-messaging.js$script,domain=www.onet.pl
-
 meczyki.pl##.notifications-icon
 mediarun.com##.jeg_push_notification
 minecraft.org.pl##[aria-label="Powiadomienia"]
@@ -54,11 +50,13 @@ zapytaj.onet.pl##.push-notification-box
 ||chamsko.pl/js/push-notifications.js
 ||dobreprogramy.pl/Providers/WebPushHelper.ashx
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=cdax.pl|dobreprogramy.pl|fotka.com|player.pl|punkt.media|tvn.pl|~www.tvn.pl|zapytaj.onet.pl
+||gstatic.com/firebasejs/*/firebase-messaging.js$script,domain=www.onet.pl
 ||kreskoweczki.pl/js/pushNotification.js
 ||moneygrabbingcouk.foxpush.net/http_native.html
 ||mxapis.com^
 ||newbalance.api.useinsider.com/views/push/js/sdk/insider-push-native-sdk.js$script,domain=nbsklep.pl
 ||onesignal.com/webPushIframe$third-party
+||onet.pl/push-mob-service-worker*.js$script,domain=www.onet.pl
 ||onet.pl/push-service-worker*.js$script,domain=onet.pl
 ||pushalert.co^$third-party
 ||pushapp.pro^$third-party
