@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: tYL5ZR7UBj1+SEgX0K2FnA
+! Checksum: 6uAV6jOgAbybsNZRpwjLPQ
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sat, 24 Aug 2019, 20:00 UTC+02
-! Version: 2019.8.24.1
+! Last modified: Sun, 25 Aug 2019, 00:00 UTC+02
+! Version: 2019.8.25.1
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,14 +14,14 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: sob, 24 sie 2019, 20:00 UTC+02
+! Aktualizacja: nie, 25 sie 2019, 00:00 UTC+02
 !
 !
 !
 ! Specyficzne reguły
 abczdrowie.pl,money.pl,parenting.pl,wp.pl###Player0.floating
 gry.pl,waznygry.pl##.wt-notification-container
-naekranie.pl##body > div[class][style*="position: fixed"]:-abp-has(iframe[id^="widget"].yt-player)
+naekranie.pl#?#body > div[class][style*="position: fixed"]:-abp-has(iframe[id^="widget"].yt-player)
 nowa.tv##.floating-video
 onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
 polsatnews.pl,polsatsport.pl##.videoPlayer.is--persistent:not(.ended)
