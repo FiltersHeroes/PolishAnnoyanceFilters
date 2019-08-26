@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: BTt+EH461PJeUutmE+O6Ug
+! Checksum: lu7J7aHXPEsIVTzhs4MSJw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
-! Last modified: Sun, 25 Aug 2019, 16:00 UTC+02
-! Version: 2019.8.25.3
+! Last modified: Mon, 26 Aug 2019, 12:00 UTC+02
+! Version: 2019.8.26.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 !   Reddit => https://www.reddit.com/r/PolishFiltersTeam/
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 25 sie 2019, 16:00 UTC+02
+! Aktualizacja: pon, 26 sie 2019, 12:00 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1643,7 +1643,6 @@ pkwieruszow.pl##.modal-backdrop
 planeta-budowlana.pl##.dialog[id^="window"], #toogas_pop_up
 plk.pl###okienko_yt, .ui-widget-overlay
 pl.aleteia.org##.newsletter-popups
-pl.aliexpress.com##.ui-mask, .newuser-container
 pl.gearbest.com##.newUserPop, #layui-layer-shade1
 pl.geofumadas.com,webmastah.pl##.ulp-window, .ulp-overlay
 pl.vivre.eu##.js-modal-newsletter-1
@@ -3873,29 +3872,29 @@ pl#?#.cTopicPostArea:-abp-has(.cGuestTeaser)
 polishannoyancefilters.netlify.com###pafdetect
 !
 !
-!@>>>>>>>> https://raw.githubusercontent.com/hawkeye116477/polish-ads-filter/master/cookies_filters/adblock_cookies.txt
-!@Title: Polskie Filtry RODO-Ciasteczkowe
-!@Polish GDPR-Cookies Filters
-!@Codename: Cookies
-!@Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
-!@Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
-!@Homepage: https://www.certyficate.it/
-!@Version: 2019.8.20.0
-!@Last modified: Tue, 20 Aug 2019, 15:35 UTC+02
-!@Expires: 2 days
-!@Support:
-!@  Email => errors@certyficate.it
-!@  GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
-!@  Discord => https://discord.me/polskiefiltry
-!@Redundant Checker => https://www.certyficate.it/redundant_checker/redundantRuleChecker.html
-!@Opcjonalne rozszerzenie uzupełniające „Polska Ciasteczkowa Zgoda" => https://github.com/PolishFiltersTeam/PolishCookieConsent#jak-zainstalowa%C4%87
-!@License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
-!@Copyright © 2019 Certyficate IT & Polish Filters Team
-!@Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@v.2019.8.20.0 aktualizacja: wto, 20 sie 2019, 15:35 UTC+02
-!
-!
-!@Specyficzne reguły ukrywające
+!@ >>>>>>>> https://raw.githubusercontent.com/hawkeye116477/polish-ads-filter/master/cookies_filters/adblock_cookies.txt
+!@ Title: Polskie Filtry RODO-Ciasteczkowe
+!@ Polish GDPR-Cookies Filters
+!@ Codename: Cookies
+!@ Description: Filtry ukrywające i blokujące komunikaty dot. ciasteczek i polityki prywatności/RODO.
+!@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
+!@ Homepage: https://www.certyficate.it/
+!@ Version: 2019.8.20.0
+!@ Last modified: Tue, 20 Aug 2019, 15:35 UTC+02
+!@ Expires: 2 days
+!@ Support:
+!@   Email => errors@certyficate.it
+!@   GitHub => https://github.com/MajkiIT/polish-ads-filter/issues
+!@   Discord => https://discord.me/polskiefiltry
+!@ Redundant Checker => https://www.certyficate.it/redundant_checker/redundantRuleChecker.html
+!@ Opcjonalne rozszerzenie uzupełniające „Polska Ciasteczkowa Zgoda" => https://github.com/PolishFiltersTeam/PolishCookieConsent#jak-zainstalowa%C4%87
+!@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
+!@ Copyright © 2019 Certyficate IT & Polish Filters Team
+!@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
+!@ v.2019.8.20.0 aktualizacja: wto, 20 sie 2019, 15:35 UTC+02
+!@
+!@
+!@ Specyficzne reguły ukrywające
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has( > div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 2x45.info,adainfo24.eu,alltube.tv,answear.com,barfnyswiat.org,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,feriogaj.com,fokus.tv,gdansk.pl,imperiaonline.org,informacja-turystyczna.starachowice.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,muzo.fm,nasze-kino.tv,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vod.internetowa.ws,voxmusic.tv,xtb.com###cookies
 3dom.pro,anmur.eu,avenidapoznan.com,bibliotekacyfrowa.eu,bip.gliwice.eu,booksy.com,chorzow.eu,diamante-wear.com,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kiddabadam.com,koszulkomat.eu,maamstyle.com,makoblog.com,mateuszgrzesiak.com,mg-pmm.com,naszefutrzaki.eu,pkpcargo.com,profit-plus.eu,radiopark.fm,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,trecnutrition.com,warszawa.promenada.com##.cookies
@@ -5930,9 +5929,9 @@ zwrotzalot.pl##.cookies-banner-overlay-original
 zyciekalisza.pl###cdiv
 zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zysk.com.pl###pageUpperInfo
-!
-!
-!@Specyficzne reguły blokujące
+!@
+!@
+!@ Specyficzne reguły blokujące
 !||pcworld.pl/www/js/sp/messaging.js
 /ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info|pl|zvami.tv
 /cookie*/bosch-privacy-settings-*.min.js$script,domain=bosch-professional.com|www.bosch.pl
@@ -6065,10 +6064,10 @@ zysk.com.pl###pageUpperInfo
 ||wyprawyrowerem.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||zgody.infor.pl/build/assets/js/main.js
 ||ztm.kielce.pl/modules/mod_rppopup/js/jquery.gafancybox.min.js
-!
-!
-!
-!@Ogólne reguły blokujące
+!@
+!@
+!@
+!@ Ogólne reguły blokujące
 cookie-law-popup.js$domain=pl
 /CookieAlert-latest.min.js
 /CookieLaw$script
@@ -6093,9 +6092,9 @@ cookie-law-popup.js$domain=pl
 /plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js.js$script,domain=pl
 /rodo.js$script
 /savecookie.js$script
-!
-!
-!@Ogólne reguły ukrywające
+!@
+!@
+!@ Ogólne reguły ukrywające
 ~ro##.rodo-popup:not(body):not(html):not([style="display: block;"])
 com###msccBanner:not(body):not(html)
 com##.is-ready.is-shown.cnil-banner:not(body):not(html)
@@ -6911,9 +6910,9 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##[id*="coockie"]:not(body):not(html)
 ##[id^="PolitykaPrywatnosci"]:not(body):not(html)
 ##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
-!
-!
-!@Blokowanie elementów po zastosowaniu generichide
+!@
+!@
+!@ Blokowanie elementów po zastosowaniu generichide
 auto-swiat.pl###termsPopup
 blogspot.com###cookieChoiceInfo
 go.tvn24.pl##.rodo-notice
@@ -6923,13 +6922,13 @@ mybank.pl##.ciasteczka
 tvn24.pl###msgLayer
 wzory-cv.com##.gatewayBar
 xboxforum.pl##.notice--cookie
-!
-!
-!@Bugi Prebake
+!@
+!@
+!@ Bugi Prebake
 gg.pl#@#body > div:nth-of-type(2) > div
-!
-!
-!@Wyjątki
+!@
+!@
+!@ Wyjątki
 allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 forguides.pl#@#.box_in
@@ -6953,11 +6952,11 @@ zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 @@/wp-content/plugins/cookie-law-info/js/cookielawinfo.js
 @@||coinroom.com/Modules/UI/Cookie/Cookie.js
 @@||pracatobie.pl/jscripts/cookieLaws.js
-!
-!
+!@
+!@
 !#if (!adguard_ext_android_cb && !adguard_ext_safari && !adguard_app_ios)
 !#endif
-!@<<<<<<<< https://raw.githubusercontent.com/hawkeye116477/polish-ads-filter/master/cookies_filters/adblock_cookies.txt
+!@ <<<<<<<< https://raw.githubusercontent.com/hawkeye116477/polish-ads-filter/master/cookies_filters/adblock_cookies.txt
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka Origin i AdGuarda, by użytkownicy nie musieli jej subskrybować
