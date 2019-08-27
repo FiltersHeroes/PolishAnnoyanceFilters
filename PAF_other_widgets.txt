@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: B8v58oFXL48Tre0cXlrBNA
+! Checksum: Ta6ube8MhSH+C6NmtYUJlw
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 27 Aug 2019, 20:01 UTC+02
-! Version: 2019.8.27.0
+! Last modified: Wed, 28 Aug 2019, 00:00 UTC+02
+! Version: 2019.8.28.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 27 sie 2019, 20:01 UTC+02
+! Aktualizacja: śro, 28 sie 2019, 00:00 UTC+02
 !
 !
 !
@@ -26,7 +26,7 @@
 50style.pl###help-arrow
 51015kids.eu##.sp-custom-19-1.insBlueWidget
 aaaauto.pl##.noprint.careerLink
-abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia,gadzetomania.pl,komorkomania.pl,o2.pl,parenting.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"], .btn__back-to-wp, .wp-pl-redirect, .footer-back-link
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,o2.pl,parenting.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"], .btn__back-to-wp, .wp-pl-redirect, .footer-back-link, [data-st-area="Header-back"], [data-st-area="backtosg"]
 afgcomputers.pl###menu3bar
 aftermarket.pl###scroll-left
 agdlab.pl,ekstraklasa.tv,esportmania.pl,forbes.pl,ofeminin.pl,softonet.pl,verdykt.pl###nitro-block
@@ -642,7 +642,7 @@ wlaczoszczedzanie.pl##.fm-icon
 wolna-polska.pl##.vmag-related-wrapper
 wordpress-wdrozenia.pl###loader-wrapper
 wpzen.pl###wpzen-article-box
-wp.pl,~www.wp.pl#?#div.header > div[class^="_"]:-abp-has(button[title^="Ustaw"])
+wp.pl,~www.wp.pl##div.header > div[class] > button[title^="Ustaw"], div.header > div[class] > button[title^="Ustaw"] + div[class]
 wsse-poznan.pl###pwebbox216_toggler
 www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 www.dobreprogramy.pl###sgwp, .flex-wrap.full-width.desktop-flex > .grid-margin-px30-top.span-12, #phContent_SocialControlTop_btnBookmark
