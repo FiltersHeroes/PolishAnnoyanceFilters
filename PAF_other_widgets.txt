@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Ta6ube8MhSH+C6NmtYUJlw
+! Checksum: HkFWfCGpqVMz2ceujkhKow
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Wed, 28 Aug 2019, 00:00 UTC+02
-! Version: 2019.8.28.0
+! Last modified: Thu, 29 Aug 2019, 00:00 UTC+02
+! Version: 2019.8.29.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: śro, 28 sie 2019, 00:00 UTC+02
+! Aktualizacja: czw, 29 sie 2019, 00:00 UTC+02
 !
 !
 !
@@ -442,14 +442,15 @@ nowiny.com.pl##.slide-right
 nowodworskiestates.pl###asystent
 odczasudoczasu.pl##.fixed-nav
 oees.pl###floating-button-en
+ofeminin.pl##.backToOnet
 ofertapracy.monsterpolska.pl###AppliesFooterHolder, #iaactionfixed
 olagosciniak.pl###post-navigation > a > div[class]:not(id)
 old.reddit.com,pl.reddit.com##.premium-banner-outer
 oleole.pl##.bottom-bar-container
 ombre.pl###menu_buttons3 > .bxslider > li:nth-of-type(2)
 omega.om.pl##.right.ecp-button
-onet.pl,~www.onet.pl##.backToOnetBottomBar
 onet.pl,plejada.pl,~www.onet.pl##.BackToMainPage
+onet.pl,plejada.pl,~www.onet.pl##.backToOnetBottomBar
 online.citibank.pl##.call-to-action-bottom
 oohmagazine.pl##.festiwal_card_tab
 opinie24.pl##.box-size.side-box-container
@@ -471,6 +472,7 @@ piaseczno.eu###acp-toggle-toolbar
 pieknojestwtobie.com,zbiorowy.info##.more-stories
 pkobp.pl###smartbanner-desktop
 plastcom.pl###test
+plejada.pl#?#.logolink:-abp-has( > .arrow)
 pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #patron-popup-image
 pl.gearbest.com##.siteBanner
 pl.vivre.eu##.app-banner
@@ -646,6 +648,7 @@ wp.pl,~www.wp.pl##div.header > div[class] > button[title^="Ustaw"], div.header >
 wsse-poznan.pl###pwebbox216_toggler
 www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 www.dobreprogramy.pl###sgwp, .flex-wrap.full-width.desktop-flex > .grid-margin-px30-top.span-12, #phContent_SocialControlTop_btnBookmark
+www.dobreprogramy.pl#?##phContent_divArticle > .desktop-flex > #sidebar > .block:-abp-contains(Nasze najnowsze wideo)
 www.e-medest.pl###baner_footer
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
