@@ -62,9 +62,11 @@ www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
 !#if !cap_html_filtering
 komputerswiat.pl###ks_breaking_news:style(position: absolute !important; left: -3000px !important;)
+newonce.radio##+js(remove-attr.js, href, [rel="shortcut icon"][href$=".gif"])
 !#endif
 !#if cap_html_filtering
 komputerswiat.pl##^#ks_breaking_news
+newonce.radio##^link[rel="shortcut icon"][href$=".gif"]
 www.google.com,www.google.pl##^div.irc-nic.irc-igr.rg_ic.rg_bx:has( > div > div > div:has-text(Podobne wyszukiwania))
 !#endif
 !#if !env_firefox
@@ -85,6 +87,7 @@ semcamp.university##div > div > div.app::-webkit-scrollbar:style(all: initial !i
 !#if !ext_ublock
 download.net.pl#$?#.date:not(dt) { display: block !important; }
 komputerswiat.pl$$#ks_breaking_news
+newonce.radio$$link[rel="shortcut icon"][href^=".gif"]
 telewizja-cyfrowa.com#$?##text-2 > .textwidget > p:nth-of-type(1):contains(/.{330,338}/):contains(/Dołącz do 15000\+ osób otrzymujących nasz newsletter\. Nie przegapisz żadnej ważnej wiadomości\./) { font-size: 0 !important; }
 www.google.com,www.google.pl$$div.irc-nic.irc-igr.rg_ic.rg_bx[tag-content="Podobne wyszukiwania"]
 !#endif
