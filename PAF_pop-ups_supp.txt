@@ -252,6 +252,8 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !mobile.twitter.com##div[aria-hidden="true"] + div > div > div > div > div:has(> div[data-focusable="true"]:has(div:has(> div[aria-label="Zamknij"]) > div > div[dir="auto"]))
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
 !#if !cap_html_filtering
+4kdownload.com##+js(remove-attr, data-remodal-id, .thanks-modal)
+4kdownload.com##+js(remove-attr, data-remodal-id, .widget-modal)
 activ-investment.eu##+js(abort-current-inline-script.js, openNewsletter)
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
@@ -285,6 +287,8 @@ zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 !annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
 !#endif
 !#if cap_html_filtering
+4kdownload.com##^.thanks-modal
+4kdownload.com##^.widget-modal
 activ-investment.eu##^script:has-text(openNewsletter)
 alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
 annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl##^#newsletter_colorbox
@@ -307,6 +311,13 @@ sportowefakty.wp.pl##^#exitpopup
 zoo.bydgoszcz.com##^#NewsShow
 !#endif
 !#if !ext_ublock
+4kdownload.com##body[style]:style(padding-right: 0 !important;)
+4kdownload.com##html.remodal-is-locked:style(overflow: auto !important;)
+4kdownload.com##.remodal-overlay
+4kdownload.com##.remodal-wrapper:has( > .thanks-modal)
+4kdownload.com##.remodal-wrapper:has( > .widget-modal)
+4kdownload.com$$.thanks-modal
+4kdownload.com$$.widget-modal
 activ-investment.eu###newsletter-content
 activ-investment.eu##.fancybox-overlay:has(.newsletter-fancybox-wrapper)
 activ-investment.eu#$#html.fancybox-lock { overflow: visible !important }
