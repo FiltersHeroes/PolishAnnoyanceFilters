@@ -43,10 +43,10 @@ pl###scroll-up[href="#masthead"]
 pl###scroll_totop
 pl###scroll_to_top
 pl###sttotop
-pl###toTop
+pl###toTop:not(body):not(html)
 pl###topcontrol
-pl###totop:not(body)
-pl###to-top:not(body)
+pl###totop:not(body):not(html)
+pl###to-top:not(body):not(html)
 pl###to_top_scrollup
 pl###ts-back-to-top
 pl###uix_jumpToFixed
