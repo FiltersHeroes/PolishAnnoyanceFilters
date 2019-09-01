@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 7lV09hx/sh8UlEWvJIhKxw
+! Checksum: nc8AqZaIXP6yAqmaNwniKA
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 01 Sep 2019, 00:00 UTC+02
-! Version: 2019.9.1.0
+! Last modified: Sun, 01 Sep 2019, 20:00 UTC+02
+! Version: 2019.9.1.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 01 wrz 2019, 00:00 UTC+02
+! Aktualizacja: nie, 01 wrz 2019, 20:00 UTC+02
 !
 !
 ! Specyficzne reguły
@@ -147,6 +147,7 @@ czescidobmw.pl##.pageToTop
 czytio.pl###scrollTop-btn
 darent.net,netbiel.pl###scroll-top-top
 darkarea.pl###bttop
+darmowekontobankowe.org,polskacanada.com,zwiedzam-stadiony.eu##.mh-back-to-top
 decathlon.pl###messagetop
 deccoria.pl##.dc-action-scroll-page
 decobazaar.com,lema15.pl##.goTop
@@ -272,7 +273,7 @@ i-apteka.pl##.n60972_main_cop_right
 jackpot.pl##back-to-top
 jackvision.pl###to_the_top
 jagerfundacja.pl###mkdf-back-to-top
-kalendarzonline.com,nowy.gryfickie.info,presta.eu.org,zdrowyportal.org###topcontrol
+kalendarzonline.com,nowy.gryfickie.info,presta.eu.org,rankingkont.org,zdrowyportal.org###topcontrol
 kamen.com.pl###footer_top
 karcz.eu##.ce_toplink
 kasiagandor.com###ts-back-to-top
@@ -389,7 +390,6 @@ podatki.gov.pl###scrollDown
 polona.pl##.js-to-top
 polot.net##.plane-to-top
 polsatnews.pl###fab
-polskacanada.com,zwiedzam-stadiony.eu##.mh-back-to-top
 polskaracja.com,webniusy.com##.g1-back-to-top
 polskawliczbach.pl##.show.scroll-top-wrapper
 polskihurtworld.eu##.tgtop
@@ -587,10 +587,10 @@ pl###scroll-up[href="#masthead"]
 pl###scroll_totop
 pl###scroll_to_top
 pl###sttotop
-pl###toTop
+pl###toTop:not(body):not(html)
 pl###topcontrol
-pl###totop
-pl###to-top:not(body)
+pl###totop:not(body):not(html)
+pl###to-top:not(body):not(html)
 pl###to_top_scrollup
 pl###ts-back-to-top
 pl###uix_jumpToFixed
