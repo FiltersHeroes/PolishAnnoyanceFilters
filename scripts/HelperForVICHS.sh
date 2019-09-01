@@ -31,7 +31,7 @@ SCRIPT_PATH=$(dirname "$0")
 cd "$SCRIPT_PATH"/.. || exit
 
 for i in "$@"; do
-    "$SCRIPT_PATH"/VICHS.sh $i
+    "$SCRIPT_PATH"/VICHS.sh "$i"
 done
 
 last_file=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
@@ -42,8 +42,8 @@ function search() {
 
 function addListToVarIfAnotherListUpdated() {
     if [[ -z $(search "$1") ]] && [[ -n $(search "$2") ]]; then
-        if ! grep -q "$1" <<< "$MAIN_FILTERLIST"; then
-            MAIN_FILTERLIST+=" "$1
+        if ! grep -q "$1" <<< "${MAIN_FILTERLIST[*]}"; then
+            MAIN_FILTERLIST+=("$1")
         fi
     fi
 }
@@ -54,9 +54,9 @@ for (( n=1; n<=END; n++ ))
 do
     LIST=$(grep -oP -m "$n" '@updateListIfAnotherListUpdated \K.*' "$CONFIG" | tail -n1 | awk -F " " '{print $1;}')
     ANOTHER_LIST=$(grep -oP -m "$n" '@updateListIfAnotherListUpdated \K.*' "$CONFIG" | tail -n1 | awk -F " " '{print $2;}')
-    addListToVarIfAnotherListUpdated $LIST $ANOTHER_LIST
+    addListToVarIfAnotherListUpdated "$LIST" "$ANOTHER_LIST"
 done
 
-if [[ "$MAIN_FILTERLIST" ]]; then
-    FORCED="true" "$SCRIPT_PATH"/VICHS.sh $MAIN_FILTERLIST
+if [ "${MAIN_FILTERLIST[*]}" ]; then
+    FORCED="true" "$SCRIPT_PATH"/VICHS.sh "${MAIN_FILTERLIST[@]}"
 fi
