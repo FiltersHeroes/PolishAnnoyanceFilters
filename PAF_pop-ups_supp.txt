@@ -109,6 +109,8 @@ kocmyrzow-luborzyca.ug.gov.pl###modal-1074, .modal-backdrop
 kofiup.pl###giftModal, .modal-backdrop
 kofiup.pl,rossmann.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
 kontigo.com.pl,macris.com.pl###newsletter-popup
+kosapopatelni.pl##html:style(overflow: auto !important;)
+kosapopatelni.pl##.mfp-ready
 kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
 lalorraine.pl##.sg-popup-overlay, .sgpb-popup-dialog-main-div-wrapper
 lalorraine.pl,mypersonaltrainer.pl,wishbone.pl##html:style(overflow: auto !important;)
@@ -133,7 +135,7 @@ misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 mobile.twitter.com##body[style*="overflow-y: hidden;"]:style(overflow-y: auto !important; margin-right: 0 !important;)
 mobile.twitter.com##div[tabindex="0"]:matches-css(position:fixed):has([href="/signup"])
-mobile.twitter.com##div[tabindex="0"]:matches-css(position: fixed):matches-css(min-height: /1[6-7][5-7]px/):not(:has([href="/signup"]))
+mobile.twitter.com##div[tabindex="0"]:matches-css(position: fixed):matches-css(min-height: /(16[5-9]|17[0-7])px/):not(:has([href="/signup"]))
 mspdion.org.pl,termyszaflary.com##.fancybox-overlay
 mspdion.org.pl,www.centrumkurierskie.pl,www.epione.pl##.fancybox-margin:style(margin-right: 0 !important;)
 mulan.pl,wetro.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
@@ -257,7 +259,7 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 activ-investment.eu##+js(abort-current-inline-script.js, openNewsletter)
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
-annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
+annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
 apynews.pl###fb-modal, .modal-backdrop
 apynews.pl,linuxpl.com,lookcam.com,makarun.pl,mediasam.pl,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##+js(abort-current-inline-script.js, $, popupNewsletter)
@@ -283,8 +285,8 @@ ogrodosfera.pl###NewsletterExit, .modal-backdrop
 ogrodosfera.pl,zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
 sportowefakty.wp.pl##+js(remove-attr.js, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
-!annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
-!annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
+!annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
+!annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
 !#endif
 !#if cap_html_filtering
 4kdownload.com##^.thanks-modal
@@ -324,8 +326,8 @@ activ-investment.eu#$#html.fancybox-lock { overflow: visible !important }
 activ-investment.eu#$#.fancybox-overlay { overflow: hidden !important; }
 activ-investment.eu$$script[tag-content="openNewsletter"]
 alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
-annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
-annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl$$#newsletter_colorbox
+annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
+annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl$$#newsletter_colorbox
 apynews.pl$$#fb-modal
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl#$#html { overflow: visible !important; margin-right: 0 !important;)
@@ -364,7 +366,7 @@ zoo.bydgoszcz.com$$#NewsShow
 !mobile.twitter.com##body > div > div > div > div > div > div > div > div > div[tabindex="0"]:contains(/(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)/):matches-css(position:fixed)
 !#endif
 !#if ext_ublock
-annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:not(:has(.cboxPhoto))
+annalotan.pl,arms.com.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:not(:has(.cboxPhoto))
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 kormoran-rowy.pl##+js(setTimeout-defuser.js, .site-popup)
