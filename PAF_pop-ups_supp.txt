@@ -260,6 +260,7 @@ activ-investment.eu##+js(abort-current-inline-script.js, openNewsletter)
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
+annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:not(:has(.cboxPhoto))
 apynews.pl###fb-modal, .modal-backdrop
 apynews.pl,linuxpl.com,lookcam.com,makarun.pl,mediasam.pl,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##+js(abort-current-inline-script.js, $, popupNewsletter)
@@ -287,7 +288,6 @@ sportowefakty.wp.pl##+js(remove-attr.js, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 !annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 !annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
-,annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:not(:has(.cboxPhoto))
 !#endif
 !#if cap_html_filtering
 4kdownload.com##^.thanks-modal
