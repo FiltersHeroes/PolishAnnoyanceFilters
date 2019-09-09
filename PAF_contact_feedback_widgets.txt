@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: R0keEqS9fYI5O3muQwvDoA
+! Checksum: Q5NLWISEPCEvUlt4AYuZPA
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sat, 07 Sep 2019, 00:00 UTC+02
-! Version: 2019.9.7.0
+! Last modified: Tue, 10 Sep 2019, 00:00 UTC+02
+! Version: 2019.9.10.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: sob, 07 wrz 2019, 00:00 UTC+02
+! Aktualizacja: wto, 10 wrz 2019, 00:00 UTC+02
 !
 !
 !
@@ -123,6 +123,7 @@ enfamil.pl##.float-chat
 eobuwie.com.pl###open-chat
 eurobank.pl##.reviews
 ewakacje.pl##.classNotesList_button
+ewozki.eu##div[id] > iframe[title="chat widget"]
 experiencecorner.com##.fb-messengermessageus
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
 extradom.pl##div.hidden[style*="position: fixed"] > a.btn[data-target="#zamow-rozmowe"]
@@ -223,6 +224,7 @@ masterproject.pl##.trigger_popup_fricc
 meblosfera.pl##.wp-side-menu-item:nth-of-type(1)
 mebloteka.eu###Facebook_Messenger
 meczelive.tv###task
+mera.eu##.footer__subbox--sm.footer__subbox:last-child
 militaria.pl###golivechat
 mistama.com##.ggu-bot-snapped-launcher
 mniammniam.com###o-widget-lws
