@@ -20,8 +20,6 @@ diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
-kormoran-rowy.pl##.fancybox-overlay.fancybox-fixed
-kormoran-rowy.pl#$?#.fancybox-lock { overflow: auto !important; }
 linuxpl.com$$#myModalDomenowy
 makarun.pl$$.makarun-modal
 mediasam.pl$$#myWorning
@@ -31,8 +29,8 @@ ogrodosfera.pl$$#NewsletterExit
 pozyczkabezbanku.pl###bio_ep, #bio_ep_bg
 pozyczkabezbanku.pl#$#body[style] { overflow: auto !important; }
 sferis.pl##.fancybox-overlay:has(#newsletter-popup)
-sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock > body { overflow: auto !important; }
-sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock { overflow: auto !important; margin-right: 0 !important; }
+sferis.pl#$#html.fancybox-lock > body { overflow: auto !important; }
+sferis.pl#$#html.fancybox-lock { overflow: auto !important; margin-right: 0 !important; }
 shoplet.pl##html.fancybox-lock > body:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-lock:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
