@@ -39,7 +39,6 @@ biznesalert.pl,socialtigers.pl##html:style(overflow: visible !important; margin-
 blog.lh.pl##.pum
 blog.lh.pl,ckr.pl,gannet.pl,hairbyjul.pl,ideau.pl,instytutozonoterapii.pl,kreatywna-europa.eu,nowa-energia.com.pl,odczasudoczasu.pl,pl.geofumadas.com,pol-ukr.com,sukcesedukacja.pl##.pum-open:style(overflow: auto !important;)
 blog.lh.pl,ideau.pl##html.pum-open.pum-open-overlay.pum-open-scrollable body > [aria-hidden]:style(padding-right: 0 !important;)
-bodypak.pl##+js(setTimeout-defuser.js, jQuery.fancybox)
 bonami.pl##.overlayPan
 bonami.pl##.blurred:style(filter: none !important;)
 braciaprzykawie.pl###popup-newsletter, .modal-backdrop
@@ -194,7 +193,7 @@ rekinfinansow.pl##.cp-visited-popup
 rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
-rytmynatury.pl##+js(setTimeout-defuser.js, .efbl_popup_trigger)
+rytmynatury.pl##+js(setTimeout-if, !.efbl_popup_trigger)
 sferis.pl##+js(abort-current-inline-script.js, $, promoNewsletter)
 skalnik.pl##.newspopup-blur:style(filter: none !important;)
 skalnik.pl##.newspopup_ov_hidden:style(overflow: auto !important;)
@@ -342,8 +341,6 @@ diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
-kormoran-rowy.pl##.fancybox-overlay.fancybox-fixed
-kormoran-rowy.pl#$?#.fancybox-lock { overflow: auto !important; }
 linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
 makarun.pl$$.makarun-modal
@@ -357,8 +354,8 @@ rytmynatury.pl##html:style(overflow: auto !important; margin-right: 0 !important
 rytmynatury.pl##.mfp-bg.mfp-ready
 rytmynatury.pl##.mfp-wrap:has(#efbl_popup)
 sferis.pl##.fancybox-overlay:has(#newsletter-popup)
-sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock > body { overflow: auto !important; }
-sferis.pl,kormoran-rowy.pl#$#html.fancybox-lock { overflow: auto !important; margin-right: 0 !important; }
+sferis.pl#$#html.fancybox-lock > body { overflow: auto !important; }
+sferis.pl#$#html.fancybox-lock { overflow: auto !important; margin-right: 0 !important; }
 shoplet.pl##html.fancybox-lock > body:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-lock:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
@@ -370,7 +367,6 @@ zoo.bydgoszcz.com$$#NewsShow
 !#if ext_ublock
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
-kormoran-rowy.pl##+js(setTimeout-if, !.site-popup)
 parkmania.pl,pozyczkabezbanku.pl,www.kei.pl##+js(setTimeout-if, !bioEp.showPopup)
 shoplet.pl##+js(set-constant.js, x13callback_cookie, 1)
 vivrehome.pl##+js(set-constant.js, appShell.guest, false)
