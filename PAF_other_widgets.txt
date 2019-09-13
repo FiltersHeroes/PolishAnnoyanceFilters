@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: E0utwLRp3DWQqmzd9ewqVQ
+! Checksum: XxLdIbV4fjLxh2cyeE02Gw
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 13 Sep 2019, 00:00 UTC+02
-! Version: 2019.9.13.0
+! Last modified: Sat, 14 Sep 2019, 00:00 UTC+02
+! Version: 2019.9.14.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   Discord => https://discord.me/polskiefiltry
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 13 wrz 2019, 00:00 UTC+02
+! Aktualizacja: sob, 14 wrz 2019, 00:00 UTC+02
 !
 !
 !
@@ -285,6 +285,7 @@ infor.pl###prenumerata2018
 insomnia.pl##.ptw-articles.ptw-widget
 inspro.org.pl##.donate
 instagram.com##body > span > section > nav > div > div > section.xZ2Xk
+instagram.com#?##react-root > section > main + footer + div:has( > div > a[href^="https://play.google.com/store/apps/details?id=com.instagram.android"])
 instalaton.pl###pd_cs_box
 instalhurt.sklep.pl,moto125.pl,sklephormann.pl,tylkostylowe.pl###widget_shop3
 instalki.pl##.plista_widget_slide
