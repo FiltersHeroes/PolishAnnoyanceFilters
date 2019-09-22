@@ -5,7 +5,7 @@
 50style.pl###help-arrow
 51015kids.eu##.sp-custom-19-1.insBlueWidget
 aaaauto.pl##.noprint.careerLink
-abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,o2.pl,parenting.pl,wp.pl##a[data-st-area="Header-back"], a[data-st-area="backtosg"], a[data-st-area="goToSG_mob"]
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,o2.pl,parenting.pl,wp.pl##a[data-st-area="Header-back"], a[data-st-area^="backto"], a[data-st-area^="backTo"], a[data-st-area^="goToSG"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,o2.pl,parenting.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,o2.pl,parenting.pl,wp.pl##.btn__back-to-wp, .wp-pl-redirect, .footer-back-link
 afgcomputers.pl###menu3bar
@@ -673,7 +673,7 @@ zrzutka.pl##.floating-apps
 ztm.gda.pl###mobile
 zyciepabianic.pl##.paper
 z-hotel.com###repuso_floating
-!abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##a[data-st-area="goToSG"], a[data-st-area="backToSG_mob"], a[data-st-area="back-WP"]
+!abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##a[data-st-area="back-WP"], div[class]:not([id]) > a[data-st-area][style^="background:"][href="https://www.wp.pl"]
 /js/jquery.nicescroll.js$script,domain=2x45.info
 /js/jquery.nicescroll.plus.js$script,domain=2x45.info
 /js/jquery.simplr.smoothscroll.min.js$script,domain=agmarprzewozy.pl
