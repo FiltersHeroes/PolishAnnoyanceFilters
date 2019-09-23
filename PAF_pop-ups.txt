@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: KTEPexB2ZUVGEUKmLd1mog
+! Checksum: 8aLO7uJEYKPNgJIzJrwSjA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 23 Sep 2019, 20:00 UTC+02
-! Version: 2019.9.23.0
+! Last modified: Tue, 24 Sep 2019, 00:00 UTC+02
+! Version: 2019.9.24.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pon, 23 wrz 2019, 20:00 UTC+02
+! Aktualizacja: wto, 24 wrz 2019, 00:00 UTC+02
 !
 !
 !
@@ -598,7 +598,7 @@ wos.net.pl###dropin
 wwsi.edu.pl###adsdialog
 www.adidas.pl,www.reebok.pl#?#.gl-modal:-abp-has(.newsletter-overlay-page)
 www.dobreprogramy.pl###exitPopupContainer
-www.instagram.com#?##react-root ~ div[class*=" "][class$="   "][role="presentation"]:has(a[href="/accounts/emailsignup/"])
+www.instagram.com#?##react-root ~ div[class*=" "][class$="   "][role="presentation"]:-abp-has(a[href="/accounts/emailsignup/"])
 www.kei.pl##div[id^="modal"][style].modal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
 wyborcza.pl##.mod_ddbox
