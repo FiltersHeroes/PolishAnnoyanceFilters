@@ -523,7 +523,7 @@ wos.net.pl###dropin
 wwsi.edu.pl###adsdialog
 www.adidas.pl,www.reebok.pl#?#.gl-modal:-abp-has(.newsletter-overlay-page)
 www.dobreprogramy.pl###exitPopupContainer
-www.instagram.com#?##react-root ~ div[class*=" "][class$="   "][role="presentation"]:has(a[href="/accounts/emailsignup/"])
+www.instagram.com#?##react-root ~ div[class*=" "][class$="   "][role="presentation"]:-abp-has(a[href="/accounts/emailsignup/"])
 www.kei.pl##div[id^="modal"][style].modal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
 wyborcza.pl##.mod_ddbox
