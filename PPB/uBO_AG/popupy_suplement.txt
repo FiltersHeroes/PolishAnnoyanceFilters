@@ -1,6 +1,4 @@
 action.com##.has-popup:style(position: static !important;)
-avita.pl##.tingle-modal
-avita.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
 action.com,ekai.pl,jezykiobce.pl##.newsletter-popup
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
@@ -19,6 +17,8 @@ at-outlet.pl,miastakobiet.pl,selkar.pl,sklepkamil.pl,teamquest.pl,tvokazje.pl##.
 at-outlet.pl,selkar.pl,sklepkamil.pl##.newsletter-modal, .modal-backdrop
 auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
+avita.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
+avita.pl,pracownia-manufaktura.pl##.tingle-modal
 baby.nivea.pl###fancybox-container-1:has(#newsletter-popup)
 baby.nivea.pl##.compensate-for-scrollbar:style(overflow: auto !important; margin-right: 0 !important;)
 bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
@@ -96,8 +96,6 @@ kire.pl##.gafancybox-overlay
 kmziz.pl###full_newsletter_modal, .modal-backdrop
 kofiup.pl###giftModal, .modal-backdrop
 kofiup.pl,rossmann.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
-rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"])
-rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 kontigo.com.pl,macris.com.pl###newsletter-popup
 kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
 lalorraine.pl##.sg-popup-overlay, .sgpb-popup-dialog-main-div-wrapper
@@ -165,7 +163,6 @@ poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
 ppr.pl###initPPRModal, .modal-backdrop
 pracownia-manufaktura.pl##.tingle-enabled:style(overflow: auto !important; position: static !important;)
-pracownia-manufaktura.pl##.tingle-modal
 prywatnoscwsieci.pl##.CampaignType--popup.Campaign
 prywatnoscwsieci.pl##.om-position-popup:style(overflow: auto !important;)
 quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0 !important;)
@@ -173,6 +170,8 @@ radziejewska.pl###sbox-overlay, #sbox-window
 radziejewska.pl##.body-overlayed:style(overflow-y: auto !important;)
 rekinfinansow.pl##.cp-custom-viewport:style(overflow: auto !important;)
 rekinfinansow.pl##.cp-visited-popup
+rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
+rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
