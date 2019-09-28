@@ -23,6 +23,8 @@ auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; posit
 autonaminuty.org##html[style]:style(overflow-y: auto !important; margin-right: 0 !important;)
 autonaminuty.org##.mfp-bg.mfp-ready
 autonaminuty.org##.mfp-wrap.mfp-ready
+avita.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
+avita.pl,pracownia-manufaktura.pl##.tingle-modal
 baby.nivea.pl###fancybox-container-1:has(#newsletter-popup)
 baby.nivea.pl##.compensate-for-scrollbar:style(overflow: auto !important; margin-right: 0 !important;)
 bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
@@ -180,7 +182,6 @@ poznan.factory.pl##body.open:style(overflow-y: visible !important;)
 poznan.factory.pl##.region-popup
 ppr.pl###initPPRModal, .modal-backdrop
 pracownia-manufaktura.pl##.tingle-enabled:style(overflow: auto !important; position: static !important;)
-pracownia-manufaktura.pl##.tingle-modal
 prywatnoscwsieci.pl##.CampaignType--popup.Campaign
 prywatnoscwsieci.pl##.om-position-popup:style(overflow: auto !important;)
 quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0 !important;)
@@ -190,6 +191,8 @@ ratujemyzwierzaki.pl##.dimmer
 ratujemyzwierzaki.pl##body.dimmed:style(overflow: auto !important;)
 rekinfinansow.pl##.cp-custom-viewport:style(overflow: auto !important;)
 rekinfinansow.pl##.cp-visited-popup
+rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
+rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
@@ -368,6 +371,7 @@ zoo.bydgoszcz.com$$#NewsShow
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser.js, scroll, event.dispatch)
 parkmania.pl,pozyczkabezbanku.pl,www.kei.pl##+js(setTimeout-if, !bioEp.showPopup)
+rzetelnafirma.pl##+js(setTimeout-defuser, setPopup)
 shoplet.pl##+js(set-constant.js, x13callback_cookie, 1)
 vivrehome.pl##+js(set-constant.js, appShell.guest, false)
 !mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):nth-ancestor(6)
