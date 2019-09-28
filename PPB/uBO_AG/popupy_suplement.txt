@@ -96,6 +96,8 @@ kire.pl##.gafancybox-overlay
 kmziz.pl###full_newsletter_modal, .modal-backdrop
 kofiup.pl###giftModal, .modal-backdrop
 kofiup.pl,rossmann.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
+rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"])
+rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 kontigo.com.pl,macris.com.pl###newsletter-popup
 kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
 lalorraine.pl##.sg-popup-overlay, .sgpb-popup-dialog-main-div-wrapper
