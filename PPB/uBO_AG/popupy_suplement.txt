@@ -170,8 +170,8 @@ radziejewska.pl###sbox-overlay, #sbox-window
 radziejewska.pl##.body-overlayed:style(overflow-y: auto !important;)
 rekinfinansow.pl##.cp-custom-viewport:style(overflow: auto !important;)
 rekinfinansow.pl##.cp-visited-popup
-rossmann.pl##body.modal-open > div[tabindex][style^="position:"] > div > .modal:has(>.modal-news)
-rossmann.pl##body.modal-open > div[tabindex][style^="position:"] > div > .modal:has(>.modal-news) + .modal-backdrop
+rossmann.pl##body.modal-open > div[tabindex][style^="position:"] > div > .modal:has( > .modal-news)
+rossmann.pl##body.modal-open > div[tabindex][style^="position:"] > div > .modal:has( > .modal-news) + .modal-backdrop
 rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
