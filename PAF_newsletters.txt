@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: gJpBNX+Aza8vy9BVQ2p9mA
+! Checksum: xsSto1J3CZPfd+1m9yYsbQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 29 Sep 2019, 12:00 UTC+02
-! Version: 2019.9.29.1
+! Last modified: Mon, 30 Sep 2019, 20:00 UTC+02
+! Version: 2019.9.30.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: nie, 29 wrz 2019, 12:00 UTC+02
+! Aktualizacja: pon, 30 wrz 2019, 20:00 UTC+02
 !
 !
 !
@@ -97,6 +97,7 @@ atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama
 attipas.pl##div.col-sm-6.col-md-3:nth-of-type(4) > .widget
 auchandirect.pl###newsletterFooterContent
 auchan.pl##a[href="/newsletter/ref/box"]
+auchan.pl,himountain.pl,maxelektro.pl,student.profinfo.pl,warzywaiowoce.pl##.newsletter-block
 autodoc.pl##.subscribe_us
 autogaleria.pl##.col-lg-5.col-md-5.col-sm-6.col-xs-12
 automatyka.pl###newsletterSideBox
@@ -263,6 +264,7 @@ dimedic.eu,listymikolaja.pl##.r-newsletter
 direct-sender.com###section-8 > .container > .row > div.col-lg-6:nth-of-type(1)
 disport.pl,koelnerpolska.pl,wiedza3g.pl##.boxNewsletter
 di.com.pl##.footcol:nth-of-type(5) > form, .footcol:nth-of-type(5) > p, .footcol:nth-of-type(5) > .footnag:nth-of-type(1)
+dji-ars.pl###newsletter-bottom-banner
 dlahandlu.pl##.social.tabs > div.navi > a:first-child
 dlh.pl##.footer_left_newsletter
 dobiegania.pl##.superMailing
@@ -433,7 +435,6 @@ harting.com#?#.footer__pane > .footer__container:-abp-has( > .footer__newsletter
 hart.pl,herki.pl###_ctl0_NewsLetterInitC_NewsletterForm
 helloangielski.pl##.subscribe-form
 hello-body.pl,wei.org.pl###custom_html-3
-himountain.pl,maxelektro.pl,student.profinfo.pl,warzywaiowoce.pl##.newsletter-block
 histografy.pl,swobodnie.eu###wysija-2
 hoegert.com##.moduletable
 homebook.pl#?#div > div > div > div:-abp-contains(newsletter)
@@ -1148,6 +1149,7 @@ wtk.pl###newsletter-animated-box
 www.aboutyou.pl#?#footer[class*="footerContainer"] > div:-abp-contains(newslettera)
 www.al.to,www.x-kom.pl#?#section > .row:-abp-has( > div.col-sm-6 > .typ-newsletter-button)
 www.galeriehandlowe.pl##.newsletter-box-blue-big
+www.gemius.pl##.smaller.item:-abp-has(.newsletter-title)
 www.milmag.pl##.formNewsletter
 www.milmag.pl##div.foldMid.span_4_of_12.col:nth-of-type(2) > h3.footerLabel:nth-of-type(2)
 www.onet.pl##.popupNotif > .bellIcon
