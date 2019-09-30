@@ -191,8 +191,8 @@ ratujemyzwierzaki.pl##.dimmer
 ratujemyzwierzaki.pl##body.dimmed:style(overflow: auto !important;)
 rekinfinansow.pl##.cp-custom-viewport:style(overflow: auto !important;)
 rekinfinansow.pl##.cp-visited-popup
-rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
-rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
+rossmann.pl##body.modal-open > div[tabindex][style^="position:"] > div > .modal:has( > .modal-news)
+rossmann.pl##body.modal-open > div[tabindex][style^="position:"] > div > .modal:has( > .modal-news) + .modal-backdrop
 rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
@@ -254,6 +254,8 @@ zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important;
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
 !mobile.twitter.com##div[aria-hidden="true"] + div > div > div > div > div:has(> div[data-focusable="true"]:has(div:has(> div[aria-label="Zamknij"]) > div > div[dir="auto"]))
+!rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
+!rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
 !#if !cap_html_filtering
 4kdownload.com##+js(remove-attr, data-remodal-id, .thanks-modal)
