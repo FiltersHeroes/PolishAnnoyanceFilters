@@ -196,7 +196,7 @@ rossmann.pl##body.modal-open > div[tabindex][style^="position:"] > div > .modal:
 rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
-rytmynatury.pl##+js(setTimeout-if, !.efbl_popup_trigger)
+rytmynatury.pl##+js(setTimeout-defuser.js, .efbl_popup_trigger)
 sferis.pl##+js(abort-current-inline-script.js, $, promoNewsletter)
 skalnik.pl##.newspopup-blur:style(filter: none !important;)
 skalnik.pl##.newspopup_ov_hidden:style(overflow: auto !important;)
@@ -256,6 +256,8 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !mobile.twitter.com##div[aria-hidden="true"] + div > div > div > div > div:has(> div[data-focusable="true"]:has(div:has(> div[aria-label="Zamknij"]) > div > div[dir="auto"]))
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
+!rytmynatury.pl##+js(no-setTimeout-if, .efbl_popup_trigger)
+!rytmynatury.pl##+js(setTimeout-if, !.efbl_popup_trigger)
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
 !#if !cap_html_filtering
 4kdownload.com##+js(remove-attr, data-remodal-id, .thanks-modal)
