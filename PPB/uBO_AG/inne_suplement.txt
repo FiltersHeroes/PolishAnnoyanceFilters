@@ -63,8 +63,8 @@ wakacje.pl##div[class][style^="position: fixed;"]:has(div > a:matches-css(displa
 wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:style(filter: none !important;)
 waw4free.pl###spolecznosci:style(height: auto !important;)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
-wp.pl,~www.wp.pl##+js(remove-attr.js, href, a[data-st-area="Header-back"])
 wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
+wp.pl,~www.wp.pl##+js(remove-attr.js, href, a[data-st-area="Header-back"])
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
