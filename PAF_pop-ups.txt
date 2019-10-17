@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3hNNOIpEx3nJeA+6u6GhRw
+! Checksum: iA31QMVYH/v3MN8lCe/BVg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 17 Oct 2019, 20:00 UTC+02
-! Version: 2019.10.17.0
+! Last modified: Fri, 18 Oct 2019, 00:01 UTC+02
+! Version: 2019.10.18.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: czw, 17 paź 2019, 20:00 UTC+02
+! Aktualizacja: pią, 18 paź 2019, 00:01 UTC+02
 !
 !
 !
@@ -257,6 +257,7 @@ infopraca.pl###alert-creation, .modal-backdrop
 infoski.pl###boxpopup, #overlaj
 inpost.pl###popup-message-window, #popup-message-background
 inspro.org.pl##.freshmail_dialog.ui-widget.ui-dialog, .ui-widget-overlay
+instagram.com#?#body:not([style="overflow: hidden;"]) #react-root ~ div[class*=" "][class$="   "][role="presentation"]:-abp-has(a[href="/accounts/emailsignup/"])
 instamarketing.pl##.popup, .popup-overlay
 instytutlogopedyczny.pl##.pytajnik
 interia.pl##.error-page-layer
