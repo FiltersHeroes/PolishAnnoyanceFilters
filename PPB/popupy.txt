@@ -218,7 +218,7 @@ infopraca.pl###alert-creation, .modal-backdrop
 infoski.pl###boxpopup, #overlaj
 inpost.pl###popup-message-window, #popup-message-background
 inspro.org.pl##.freshmail_dialog.ui-widget.ui-dialog, .ui-widget-overlay
-instagram.com#?#body:not([style="overflow: hidden;"]) #react-root ~ div[class*=" "][class$="   "][role="presentation"]:-abp-has(a[href="/accounts/emailsignup/"])
+instagram.com#?#body:not([style*="overflow: hidden;"]) #react-root ~ div[class*=" "][class$="   "][role="presentation"]:-abp-has(a[href="/accounts/emailsignup/"])
 instamarketing.pl##.popup, .popup-overlay
 instytutlogopedyczny.pl##.pytajnik
 interia.pl##.error-page-layer
