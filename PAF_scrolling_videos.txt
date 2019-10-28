@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: bH1d2CIZ8RHElurNj/wdCQ
+! Checksum: eCRKpJt4TqpFiVy9xB3KqA
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Mon, 28 Oct 2019, 11:00 UTC+01
-! Version: 2019.10.28.0
+! Last modified: Mon, 28 Oct 2019, 23:18 UTC+01
+! Version: 2019.10.28.1
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pon, 28 paź 2019, 11:00 UTC+01
+! Aktualizacja: pon, 28 paź 2019, 23:18 UTC+01
 !
 !
 !
@@ -38,13 +38,13 @@ ugotuj.to##div.onnetworkplayercontainer > div.miniplayer
 webcamera.pl##.bigcam.floating-player > div > .fullscreen-wrap
 wrc.net.pl##.sticky-video.sticky.is-stuck
 ||ppstatic.pl/assets/nsk/*/js/compiled/atoms/article/sticky-video.js
+||ppstatic.pl/assets/nsk/*/js/compiled/atoms/article/top-sticky-video-mobile.js
 ||ppstatic.pl/js/floating-video/floatingVideo.js
 ||ppstatic.pl/p/js/*/plywajace_wideo.js
 !
 !
 ! Ogólne reguły
 pl##div.miniature.onnetworkplayercontainer > div.alwplayer
-!pl#?#article[id^="componentsArticleContent"]:-abp-has(.video > .js-mobileSticky)
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
