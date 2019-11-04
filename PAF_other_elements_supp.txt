@@ -75,7 +75,7 @@ newonce.radio##+js(remove-attr.js, href, [rel="shortcut icon"][href$=".gif"])
 !#if cap_html_filtering
 komputerswiat.pl##^#ks_breaking_news
 newonce.radio##^link[rel="shortcut icon"][href$=".gif"]
-www.google.com,www.google.pl##^div.irc-nic.irc-igr.rg_ic.rg_bx:has( > div > div > div:has-text(Podobne wyszukiwania))
+!www.google.com,www.google.pl##^div.irc-nic.irc-igr.rg_ic.rg_bx:has( > div > div > div:has-text(Podobne wyszukiwania))
 !#endif
 !#if !env_firefox
 cs-harnas.pl,djlive.pl,gearbest.com,jaguar.pl,kwit.pl,progrupa.com,przeswietl.pl,seniorka-z-plecakiem.pl,sparta.com.pl,start.me##body::-webkit-scrollbar:style(all: initial !important;)
@@ -98,7 +98,7 @@ komputerswiat.pl$$#ks_breaking_news
 newonce.radio$$link[rel="shortcut icon"][href^=".gif"]
 telewizja-cyfrowa.com#$?##text-2 > .textwidget > p:nth-of-type(1):contains(/.{330,338}/):contains(/Dołącz do 15000\+ osób otrzymujących nasz newsletter\. Nie przegapisz żadnej ważnej wiadomości\./) { font-size: 0 !important; }
 wp.pl#@#a[data-st-area="Header-back"]:before
-www.google.com,www.google.pl$$div.irc-nic.irc-igr.rg_ic.rg_bx[tag-content="Podobne wyszukiwania"]
+!www.google.com,www.google.pl$$div.irc-nic.irc-igr.rg_ic.rg_bx[tag-content="Podobne wyszukiwania"]
 !#endif
 !#if env_mobile
 medipartner.pl##.sidebar-kontakt2 .wpcf7-form p:style(display: block !important;)
