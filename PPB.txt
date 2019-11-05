@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: DIbiC2xv/4xeEe9J9cUoSg
+! Checksum: BUC+6V1Fpb5al7dCUpImaQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 05 Nov 2019, 19:00 UTC+01
-! Version: 2019.11.5.0
+! Last modified: Tue, 05 Nov 2019, 19:53 UTC+01
+! Version: 2019.11.5.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: wto, 05 lis 2019, 19:00 UTC+01
+! Aktualizacja: wto, 05 lis 2019, 19:53 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -104,7 +104,7 @@ autodoc.pl##.subscribe_us
 autogaleria.pl##.col-lg-5.col-md-5.col-sm-6.col-xs-12
 automatyka.pl###newsletterSideBox
 autonaminuty.org##.elementor-widget-wp-widget-newsletterwidget
-avaldihome.pl##footer#footer .row > div.col-xs-12.col-sm-12.col-md-6.col-lg-3:nth-of-type(4)
+avaldihome.pl###footer .row > div.col-xs-12.col-sm-12.col-md-6.col-lg-3:nth-of-type(4)
 avans.pl##.b-main_newsletter
 avans.pl,electro.pl,lot.com,mediaexpert.pl##.is-newsletter
 avaro.pl##.smsapi-sidetitle
@@ -153,7 +153,7 @@ bochniaisol.pl,digi-tv.pl,podrozezantena.pl,satkurier.pl,solarkurier.pl###newsle
 bodyland.pl###stopka_newsletter > .newsletter_box > form
 bodypak.pl###pts-newsletter
 bold.net.pl##.fm-newsletter
-boleslawiec.tv,bydgoszcz.com,halogorlice.info,jaw.com.pl,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,olesnica24.com,regatv.pl,starachowice.pl,swiebodzin.tv,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl##footer#footer > div > .row > div:nth-of-type(3) > p:nth-of-type(1)
+boleslawiec.tv,bydgoszcz.com,halogorlice.info,jaw.com.pl,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,olesnica24.com,regatv.pl,sandomierztv.pl,starachowice.pl,swiebodzin.tv,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl##footer#footer > div > .row > div:nth-of-type(3) > p:nth-of-type(1)
 bolix.pl##.homepage-newsletter-box
 bonprix.pl##a[href="/serwis/newsletter"], .contrast.container-fluid > .container > .row > .col-xs-12.col-sm-6
 bonvoyage.pl##.box_newsletter
@@ -655,6 +655,7 @@ motogen.pl##.region-7 > .blok-jasny:nth-of-type(3)
 mpk.poznan.pl##.rnd.module:nth-of-type(4)
 mp-office.eu###cta-newsletter
 mp.pl##.box-newsletter-pacjent
+mragowo.pl##div[class*="footer"] > .container > .row[class*="footer"] > div:nth-of-type(4)
 mrowka24.eu###block_newsletter_footer
 mr-fix.pl##.six
 multiform.pl###mainContact .writeToUs
@@ -2612,7 +2613,7 @@ refreszing.pl###gpToTop
 reklama.gazeta.pl##.scroll-top-btn
 renee.pl##.scroll__top
 rexona.com##.c-back-to-top-cta
-rodobox.io###back-to-top
+rodobox.io,stubai.at###back-to-top
 rolmarket.pl###scrollTopButton
 ruah.eu##.xt-back-to-top
 r-gol.com##.go__top
@@ -4062,8 +4063,8 @@ polishannoyancefilters.netlify.com###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2019.11.4.0
-!@ Last modified: Mon, 04 Nov 2019, 20:33 UTC+01
+!@ Version: 2019.11.5.0
+!@ Last modified: Tue, 05 Nov 2019, 19:53 UTC+01
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -4074,7 +4075,7 @@ polishannoyancefilters.netlify.com###pafdetect
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2019 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2019.11.4.0 aktualizacja: pon, 04 lis 2019, 20:33 UTC+01
+!@ v.2019.11.5.0 aktualizacja: wto, 05 lis 2019, 19:53 UTC+01
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -5981,6 +5982,7 @@ ttv.pl###msgLayer
 tulodz.pl###modalCookies
 turio.com.pl##.cookie-info-dlg
 tuz.pl###for-cookies-container
+tvkaura.pl##.wrapper
 tvp.info,tvp.pl##.tvp-covl, .tvp-covl-bg
 tvs.pl##.RodoNotyfication
 tv-trwam.pl##div[class^="CookiePolicyInfo__container"]
@@ -6096,7 +6098,7 @@ www.continental-opony.pl##.scroll-to-fixed-fixed.privacyhint
 www.daftrucks.pl##.page-overlay
 www.dxracerkrzesla.pl###cookies-confirm
 www.ea.com##ea-truste-consent-bar
-www.google.com,www.google.pl##body > div[class*=" "]:not([id]):nth-of-type(2):nth-child(6) > c-wiz[class][jsaction]:not([id]):nth-child(1) > div[jsaction]:not([class]):not([id]):nth-child(3) > div[class][style="display: block;"]
+www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jscontroller] > div[class][jsname][data-ved][style="display: block;"]
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.google.com,www.google.pl###gb > div[class][style^="background"]
 www.halico.pl##.sqs-announcement-bar-custom-location
