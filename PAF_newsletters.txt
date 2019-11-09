@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Nw8Se1vfCAcktSqA/S7yNw
+! Checksum: okhDih4njLEANyOh79zgFQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 08 Nov 2019, 23:01 UTC+01
-! Version: 2019.11.8.2
+! Last modified: Sat, 09 Nov 2019, 15:00 UTC+01
+! Version: 2019.11.9.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,12 +13,12 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: pią, 08 lis 2019, 23:01 UTC+01
+! Aktualizacja: sob, 09 lis 2019, 15:00 UTC+01
 !
 !
 !
 ! Specyficzne reguły
-3i-store.com##.footer-address-block > p:nth-of-type(4), .footer-address-block > p:nth-of-type(5)
+3i-store.com##.footer-address-block > p:nth-of-type(n+4):nth-of-type(-n+5)
 3i-store.com,global4net.com##.block-subscribe
 3kropki.pl##.nwltMR
 4kdownload.com##.footer__section > .footer__col--updates
