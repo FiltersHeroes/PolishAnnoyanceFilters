@@ -12,13 +12,13 @@ store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style
 tokfm.pl##+js(set-constant.js, gazeta_pl.Player.FloatingPlayer.floatPlayer, noopFunc)
 wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important;)
 !#if cap_user_stylesheet
-interia.pl,interia.tv,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
-interia.pl,interia.tv,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
+interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 !#endif
 !#if !cap_user_stylesheet
 abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,wp.pl,~www.wp.pl###Player0.floating:style(visibility: hidden !important;)
-interia.pl,interia.tv,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
-interia.pl,interia.tv,pomponik.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
+interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
 !#endif
 !#if !ext_ublock
 infozdrowie24.pl#$#.miniplayer { position: absolute !important; transition: unset !important; }
