@@ -1,8 +1,8 @@
 abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,wp.pl,~www.wp.pl###Player0.floating
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,onet.pl,~www.onet.pl##.player-floating, .player-move-up
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
-interia.pl,interia.tv,pomponik.pl,styl.pl##div.embed-video-player > div.floating-player-started[style] > div[class*="xlink-floating-wsx"]
-naekranie.pl#?#body > div[class][style*="position: fixed"]:-abp-has(.yt-player)
+interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video"] > div.floating-player-started[style] > div[class*="xlink-floating-wsx"]
+naekranie.pl#?#body > div[class][style*="position: fixed"]:-abp-has(.yt-player, video)
 nowa.tv##.floating-video
 onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
 onet.pl,~www.onet.pl##.active.player-float-wrap > .player-float-container
