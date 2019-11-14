@@ -659,7 +659,7 @@ www.dobreprogramy.pl#?##phContent_divArticle > .desktop-flex > #sidebar > .block
 www.e-medest.pl###baner_footer
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
-!www.google.com,www.google.pl#?#div[class*="i"][class*="-"]:-abp-has(div[class]:has-text(/^Podobne (strony|wyszukiwania)$/))
+www.google.com,www.google.pl#?##rg div[class*="i"][class*="-"]:-abp-has(> div > div[class] > div:-abp-contains(/^Podobne (strony|wyszukiwania)$/))
 www.porta.com.pl##.side_home_slider_pl
 www.rp.pl###mk-paywall
 www.wp.pl##[class^="HomepageButton"]
@@ -686,7 +686,6 @@ ztm.gda.pl###mobile
 zyciepabianic.pl##.paper
 z-hotel.com###repuso_floating
 !abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##a[data-st-area="back-WP"], div[class]:not([id]) > a[data-st-area][style^="background:"][href="https://www.wp.pl"]
-!www.google.com,www.google.pl#?#div.isv-r:-abp-has( > div[class]:-abp-contains(Podobne strony))
 /js/jquery.nicescroll.js$script,domain=2x45.info
 /js/jquery.nicescroll.plus.js$script,domain=2x45.info
 /js/jquery.simplr.smoothscroll.min.js$script,domain=agmarprzewozy.pl
