@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YHWtrxebXF9fPWIidftWLA
+! Checksum: 0jwcB3sG+KZ+ml+A3uPuPg
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 14 Nov 2019, 11:00 UTC+01
-! Version: 2019.11.14.1
+! Last modified: Fri, 15 Nov 2019, 19:00 UTC+01
+! Version: 2019.11.15.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2019 Polish Filters Team
-! Aktualizacja: czw, 14 lis 2019, 11:00 UTC+01
+! Aktualizacja: pią, 15 lis 2019, 19:00 UTC+01
 !
 !
 !
@@ -679,7 +679,7 @@ www.dobreprogramy.pl#?##phContent_divArticle > .desktop-flex > #sidebar > .block
 www.e-medest.pl###baner_footer
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
-www.google.com,www.google.pl#?##islrg .isv-r:-abp-has( > div[class] > span[class] > div[class]:-abp-contains(/^Podobne (strony|wyszukiwania)$/))
+www.google.com,www.google.pl#?##islrg div.isv-r:-abp-has( > div[class] > span[class] > div[class]:-abp-contains(/^Podobne (strony|wyszukiwania)$/))
 www.google.com,www.google.pl#?##rg div.irc-nic.irc-igr:-abp-has( > div[class] > div[class] > div:not([class]):-abp-contains(/^Podobne (strony|wyszukiwania)$/))
 www.porta.com.pl##.side_home_slider_pl
 www.rp.pl###mk-paywall
