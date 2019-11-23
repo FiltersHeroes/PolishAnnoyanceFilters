@@ -66,6 +66,7 @@ waw4free.pl###spolecznosci:style(height: auto !important;)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
 wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
 wp.pl,~www.wp.pl##+js(remove-attr.js, href, a[data-st-area="Header-back"])
+wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 wybieramyprawde.onet.pl##.simplebar-offset:style(overflow-y: scroll !important;)
 wybieramyprawde.onet.pl##.simplebar-track.simplebar-vertical
