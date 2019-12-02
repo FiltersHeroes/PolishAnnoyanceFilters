@@ -1,5 +1,11 @@
+---
+name: Inne sprawy (np. zbiorcze zgłoszenie paru różnych elementów)
+about: Other matters (e.g. collective reporting of several different elements)
+---
+
 <!--
 Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
+Thanks for reporting to Polish Annoyance Filters!
 -->
 
 <!--

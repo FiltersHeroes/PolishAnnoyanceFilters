@@ -1,7 +1,7 @@
-on('issues.opened')
-  .filter(context => !context.payload.issue.body.includes(/### Typ elementu/) || !context.payload.issue.body.includes(/- \[[xX]]/))
-  .comment(contents('.github/MISSING_ISSUE_TEMPLATE_AUTOREPLY.md'))
-  .label('odrzucone');
+// on('issues.opened')
+//   .filter(context => !context.payload.issue.body.includes(/### Typ elementu/) || !context.payload.issue.body.includes(/- \[[xX]]/))
+//   .comment(contents('.github/MISSING_ISSUE_TEMPLATE_AUTOREPLY.md'))
+//   .label('odrzucone');
 
 on('issues.labeled')
   .filter(context => context.payload.label.name === 'zatwierdzone')
