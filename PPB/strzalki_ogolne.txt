@@ -105,5 +105,7 @@ pl,~studioatrium.pl###back-to-top
 /wp-content/plugins/dynamic-to-top/js/dynamic.to.top.min.js
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
 
-pl###mt-scrollup
-pl###m7-go-top
+pl###mt-scrollup:not(body):not(html)
+pl###m7-go-top:not(body):not(html)
+~pl###mt-scrollup:not(body):not(html):lang(pl)
+~pl###m7-go-top:not(body):not(html):lang(pl)
