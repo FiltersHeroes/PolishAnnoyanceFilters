@@ -5,6 +5,8 @@ forsal.pl##+js(set-constant.js, parseFloat, noopFunc)
 gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
 gotujmy.pl,mamotoja.pl,party.pl,polki.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
 gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(addEventListener-defuser.js, scroll, d.stopPropagation)
+komputerswiat.pl,onet.pl##+js(set-constant.js, floatingPlayer, noopFunc)
+onet.pl##+js(set-constant.js, FloatingVideoPlayer, noopFunc)
 onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important;)
 parkiet.com##.component-tv__video:style(position: static !important;)
 rp.pl##.linear-tv__iframe:style(position: static !important;)
