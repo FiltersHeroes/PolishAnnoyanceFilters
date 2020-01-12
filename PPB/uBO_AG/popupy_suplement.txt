@@ -1,6 +1,8 @@
 action.com##.has-popup:style(position: static !important;)
 action.com,ekai.pl,jezykiobce.pl##.newsletter-popup
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
+euro.com.pl,oleole.pl##.remodal-wrapper:has(> .remodal span[class*="heading"]:has-text(NEWSLETTER))
+euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper:has(> .remodal span[class*="heading"]:has-text(NEWSLETTER)))
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
 agatabielen.com##.remodal-overlay
