@@ -72,9 +72,7 @@ edulider.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important;)
 endo.pl###modalNL, .modal-backdrop
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !important;)
-euro.com.pl###popup, .remodal-overlay
-euro.com.pl##.remodal-wrapper:has(.nllContainer, #popup)
-euro.com.pl,stoprocent.com##html:style(overflow: auto !important; margin-right: 0 !important;)
+euro.com.pl,stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important;)
 evertourist.com##.fancybox-overlay:has(#newsletterModal)
 extradom.pl###requestCallStart, #requestCallExit, .modal-backdrop
 e-biznes.pl##.onp-sl-blur-area:style(filter: none !important;)
@@ -162,7 +160,6 @@ obk.pl##.yith-opened:style(overflow: auto !important;)
 obk.pl##.yith-popup, .yithpopup_overlay
 oleole.pl##html.remodal-is-locked:style(overflow-y: auto !important;)
 oleole.pl###main-page:style(overflow-x: visible !important;)
-oleole.pl###modalContainer, .remodal-wrapper, .remodal-overlay
 oneplus.com##body.dialog-lock:style(position: unset !important;)
 oneplus.com##html:style(margin-right: 0 !important;)
 oneplus.com##.auto-subscribe-dialog
