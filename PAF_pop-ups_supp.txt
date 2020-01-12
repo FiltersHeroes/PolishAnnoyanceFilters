@@ -72,8 +72,8 @@ edulider.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important;)
 endo.pl###modalNL, .modal-backdrop
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !important;)
-euro.com.pl,oleole.pl##.remodal-wrapper:has(> .remodal span[class*="heading"]:has-text(NEWSLETTER))
-euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper:has(> .remodal span[class*="heading"]:has-text(NEWSLETTER)))
+euro.com.pl,oleole.pl##.remodal-overlay:has( ~ .remodal-wrapper[class*="open"]:has( > .remodal span[class*="heading"]:has-text(NEWSLETTER)))
+euro.com.pl,oleole.pl##.remodal-wrapper[class*="open"]:has( > .remodal span[class*="heading"]:has-text(NEWSLETTER))
 euro.com.pl,stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important;)
 evertourist.com##.fancybox-overlay:has(#newsletterModal)
 extradom.pl###requestCallStart, #requestCallExit, .modal-backdrop
