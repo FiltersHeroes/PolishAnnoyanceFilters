@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ztuzkoEk7QKkhyGwoP4EtA
+! Checksum: OH5zo8jepKL03TclzF1K1Q
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Thu, 16 Jan 2020, 19:00 UTC+01
-! Version: 2020.1.16.1
+! Last modified: Thu, 16 Jan 2020, 21:49 UTC+01
+! Version: 2020.1.16.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 16 sty 2020, 19:00 UTC+01
+! Aktualizacja: czw, 16 sty 2020, 21:49 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -4183,8 +4183,8 @@ polishannoyancefilters.netlify.com###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2020.1.12.0
-!@ Last modified: Sun, 12 Jan 2020, 23:29 UTC+01
+!@ Version: 2020.1.16.0
+!@ Last modified: Thu, 16 Jan 2020, 21:49 UTC+01
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -4195,7 +4195,7 @@ polishannoyancefilters.netlify.com###pafdetect
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2020 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2020.1.12.0 aktualizacja: nie, 12 sty 2020, 23:29 UTC+01
+!@ v.2020.1.16.0 aktualizacja: czw, 16 sty 2020, 21:49 UTC+01
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -5304,6 +5304,7 @@ kryminalnapolska.pl###adnp
 krzysztonjan.com##.clear_notice
 krzywcza.eu###easycookieinfo
 ksero-tecza.pl##body > table > tbody > tr:nth-of-type(1)
+ksiegarnia.iaepan.vot.pl###sp-popup-126
 ksow.pl,wzp.pl###myrodoinfo
 kuchniapelnanagrod.pl##div#claw-prompt
 kula.gov.pl,mkidn.gov.pl###pa
@@ -5397,6 +5398,7 @@ lyconet.com,ogloszeniowa.net###cookie-box
 madreklama.com##.style2
 magazynsuplement.us.edu.pl###cookies-eu
 magazyn-hamag.pl##.notify-popup
+maleksiazki.pl##body > div[id][style*="position"][style*="fixed"]:not([class])
 mall.pl##.consent-panel
 malowanalala.eu,spodlady.com,tanielaptopy.eu###cookiesBox
 malwarebytes.com#?#.ce-banner:-abp-has(.gdpr-p)
@@ -6098,6 +6100,7 @@ thomann.de##.rs-cookie-consent
 thule.com##.cookie-consent-box
 ticketco.events###tcCookiesMessage
 ticketos.pl###prywatnosc
+tiendeo.pl###cookiesModal_bottom
 tkmaxx.pl##.pane-views-social-media-channels-block
 tlcpolska.pl###dni-notifications
 tmf-group.com###CookieAlert_CookiePanel
@@ -6264,6 +6267,7 @@ www.lidl.pl##header.page__header > div[class] > .notification
 www.lifescan.pl###simplemodal-overlay
 www.lifescan.pl##.simplemodal-wrap
 www.mercedes-benz.pl###emb-cp-overlay
+www.mp.pl###__next > footer + div[class^="sc-"]
 www.multimedia-energia.pl###layer
 www.nfz-zielonagora.pl###statementWrapper
 www.o2.pl##._2_S1s
@@ -7174,6 +7178,7 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##body > .plikicookies
 ##ciasteczka:not(body):not(html)
 ##cookidiv:not(body):not(html)
+##div#wezcookie
 ###Ciasteczka:not(body):not(html)
 ###Ciastka:not(body):not(html)
 ###CookieKomunikat:not(body):not(html)
