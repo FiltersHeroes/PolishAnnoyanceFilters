@@ -123,7 +123,8 @@ lalorraine.pl,sw-rita.pl##.sg-popup-overlay, .sgpb-popup-dialog-main-div-wrapper
 lancerto.com##.modals-wrapper:has(.popup-newsletter)
 lancerto.com##._has-modal:style(overflow: auto !important;)
 limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
-lubimyczytac.pl###modalZoom, #modalZoom ~ .modal-backdrop:last-child
+lubimyczytac.pl###modalZoom
+lubimyczytac.pl###modalZoom ~ .modal-backdrop:not(:has( ~ .modal-backdrop))
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
 majazoo.pl,oaza-palmy.pl##.fancybox-overlay:has(.modulesden-newsletter)
 mamalla.pl###myModal, .modal-backdrop
