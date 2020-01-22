@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YjfQx6KAkoLqIX8NHq/AoQ
+! Checksum: xB3NkQw55aSdSEnGf8d8ig
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 21 Jan 2020, 19:01 UTC+01
-! Version: 2020.1.21.0
+! Last modified: Wed, 22 Jan 2020, 11:00 UTC+01
+! Version: 2020.1.22.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 21 sty 2020, 19:01 UTC+01
+! Aktualizacja: śro, 22 sty 2020, 11:00 UTC+01
 !
 !
 !
@@ -70,6 +70,7 @@ allani.pl,cmjordan.krakow.pl,elfadistrelec.pl,eobuwie.com.pl,hitobuwie.pl,kratki
 allegro.pl#?##opbox-marketing-consent:-abp-has( > div > div > div > input#consent:not(:checked))
 all-bielizna.pl###slide_panel187
 alsen.pl,kakto.pl##.m-footer_nsl
+aluprof.eu##.sidebar a[href="https://aluprof.eu/newsletter"]
 al.to,x-kom.pl##.box-newsletterbf
 amberexpo.pl##div.slide-out-div:nth-of-type(5) > .handle_fb
 amc.waw.pl##.footer h3:nth-of-type(3)
@@ -924,6 +925,7 @@ qualitylife.pl##div.col-md-4.sidebar-column:nth-of-type(3)
 questus.pl##.newslett-main
 quiosque.pl##.nl-container, .mini-banner
 racjonalista.pl###oTxt > form
+radex.com##body > div[style*="position"][style*="fixed"]
 radiopiekary.pl###mauticform_wrapper_dodaniedooczekujacychradiopiekary
 rebel.pl##td:nth-of-type(5) > table
 recea.pl##.fx-newsletter-box
