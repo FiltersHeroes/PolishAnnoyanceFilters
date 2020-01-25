@@ -23,9 +23,10 @@
 ! Reguły specjalne
 !#if !ext_ublock
 polishannoyancefilters.netlify.com###pafadguard
+polishannoyancefilters.netlify.com##+js(set-constant, pafAdguard, true)
 !#endif
 !#if ext_ublock
-polishannoyancefilters.netlify.com##+js(set-constant.js, pafDetect, true)
+polishannoyancefilters.netlify.com##+js(set-constant, pafDetect, true)
 !#endif
 !
 !
