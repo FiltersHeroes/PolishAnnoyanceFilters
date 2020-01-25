@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: AeH68o0Lh3smJEs1bEWmsA
+! Checksum: bBBLd3E1sxikYJWiz4Xe5Q
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 25 Jan 2020, 19:01 UTC+01
-! Version: 2020.1.25.0
+! Last modified: Sat, 25 Jan 2020, 23:00 UTC+01
+! Version: 2020.1.25.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 25 sty 2020, 19:01 UTC+01
+! Aktualizacja: sob, 25 sty 2020, 23:00 UTC+01
 !
 !
 !
@@ -405,6 +405,7 @@ floribunda.pl###footer div.item:nth-of-type(4)
 focus.pl#?#.content-content.col-lg-9.col-md-8.col-sm-12 > div > div:-abp-has( > a[href*="newsletter"])
 fokusfashion.com##form > input:nth-of-type(2), #menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 forbot.pl###powiadomieniaMailowe
+foreo.com###block-subscriptionblock
 forsal.pl##div > a[href="http://forsal.pl/newsletter"], .forsalHeaderLinks > .col-sm-off.col-xs-off:nth-of-type(1)
 forum-ekonomiczne.pl##footer div.col-lg-3.column_parent:nth-of-type(3)
 forum.android.com.pl##[data-blockid="app_core_newsletter_newsletter"]
