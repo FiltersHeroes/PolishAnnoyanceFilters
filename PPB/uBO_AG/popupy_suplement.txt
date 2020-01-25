@@ -53,10 +53,10 @@ cyberdefence24.pl,defence24.com,defence24.pl,energetyka24.com,kidsworld.pl,ncez.
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
 deccoria.pl##.dc-modal-is-opened.dc-modal-wrapper, .dc-modal-is-opened.dc-modal-overlay
 deezee.pl##html:style(overflow: visible! important; padding-right: 0 !important;)
-deezer.com##+js(abort-on-property-read.js, onbeforeunload)
+deezer.com##+js(abort-on-property-read, onbeforeunload)
 dieta.hpba.pl,dwdomel.pl,minecraft.org.pl##.modal, .modal-backdrop
 dobresofty.pl,grantthornton.pl###newsletterModal, .modal-backdrop
-domodi.pl##+js(set-constant.js, PWA_adbd, 2)
+domodi.pl##+js(set-constant, PWA_adbd, 2)
 drogerienatura.pl###newsletter-popup-dn, .modal-backdrop
 ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
@@ -136,7 +136,7 @@ newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 new.reddit.com,www.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
 new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 niedziela.pl###exitIntentModal, .modal-backdrop
-njumobile.pl##+js(abort-on-property-read.js, window.onbeforeunload)
+njumobile.pl##+js(abort-on-property-read, window.onbeforeunload)
 nowafarmacja.pl##.freshmail-modal, .modal-backdrop
 nowasprzedaz.pl,reaktor.pwn.pl,tfkable.com##.is-reveal-open:style(overflow: auto !important;)
 nowasprzedaz.pl,reaktor.pwn.pl,tfkable.com##.reveal-overlay
@@ -147,7 +147,7 @@ obk.pl##.yith-popup, .yithpopup_overlay
 oleole.pl##html.remodal-is-locked:style(overflow-y: auto !important;)
 oleole.pl###main-page:style(overflow-x: visible !important;)
 online.citibank.pl###AdventPopup, .modal-backdrop
-open.fm##+js(addEventListener-defuser.js, unload)
+open.fm##+js(addEventListener-defuser, unload)
 pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
 panel.kei.pl##.popup-modal:has(a[href*="/polls/ankieta"])
 panwybierak.pl##.modal-unload, .modal-backdrop
@@ -157,7 +157,7 @@ pepco.pl##body.modal-open:style(padding-right: 0 !important; overflow: visible !
 pepco.pl##.modal-newsletter, .modal-backdrop
 pewex.pl##body, html:style(overflow: auto !important; margin-right: 0 !important;)
 pewex.pl###popupStart
-playstation.com##+js(abort-current-inline-script.js, $, PopupManager)
+playstation.com##+js(abort-current-inline-script, $, PopupManager)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
 pl.aliexpress.com##.next-overlay-wrapper:has(div.newuser-container)
 pl.aliexpress.com##.ui-newuser-layer-dialog
@@ -188,7 +188,7 @@ rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !im
 rylko.com###modal-newsletter
 secure.avaaz.org##.page-petition--inactive:style(overflow: auto !important;)
 secure.avaaz.org##.signup-petition-modal-wrapper
-sferis.pl##+js(abort-current-inline-script.js, $, promoNewsletter)
+sferis.pl##+js(abort-current-inline-script, $, promoNewsletter)
 skalnik.pl##.newspopup-blur:style(filter: none !important;)
 skalnik.pl##.newspopup_ov_hidden:style(overflow: auto !important;)
 skalnik.pl##.newspopup_up_bg
@@ -210,7 +210,7 @@ teletorium.pl###pop
 ttv.pl###specialPopupModal
 tvokazje.pl###tvo-newsletter-popup-new-year, .modal-backdrop
 ubraniadooddania.pl###popup-dialog, .modal-backdrop
-ubraniadooddania.pl##+js(remove-attr.js, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
+ubraniadooddania.pl##+js(remove-attr, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]))
 um24.pl##.zamow-katalog, .modal-backdrop
 unityline.pl###newsletter-out-of-body
 upolujebooka.pl###myModalExit, .modal-backdrop
