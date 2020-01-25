@@ -6,7 +6,7 @@ aidcom.eu,~animezone.pl,aternos.org,brandbank.com,certyficate.it,dariusz.wieckie
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,sklep-presto.pl,ubieramy.pl##.app-info > header:style(padding-top: 0 !important;)
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 bithub.pl##.st-post-share:style(position: static !important;)
-bludshop.com##+js(abort-on-property-read.js, onblur)
+bludshop.com##+js(abort-on-property-read, onblur)
 budujemydom.pl##.magazyn-label .m-okladka:style(bottom: 0 !important;)
 budujemydom.pl##.magazyn-label:style(position:static !important;)
 build.opensuse.org##.flash-and-announcement:style(position: static !important; z-index: 10 !important;)
@@ -53,7 +53,7 @@ oohmagazine.pl##.cart-tab:has( > *:matches-css(display: none))
 ovovita.pl###ascrail2000
 pecetowicz.pl##body:has(#elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)) .ipsNotificationGuest:has-text(1)
 pecetowicz.pl###elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)
-picodi.com##+js(abort-on-property-read.js, titleBack)
+picodi.com##+js(abort-on-property-read, titleBack)
 play.google.com##div[aria-label="Święta pełne gier"][role="dialog"]
 play.google.com###gba:style(height: 60px !important;)
 posnania.eu##.customScroll__bar
@@ -73,7 +73,7 @@ vod.tvp.pl###siteServiceDetal.playerOpened .playerContainer:style(margin-top: 30
 wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:style(filter: none !important;)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
 wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
-wp.pl,~www.wp.pl##+js(remove-attr.js, href, a[data-st-area="Header-back"])
+wp.pl,~www.wp.pl##+js(remove-attr, href, a[data-st-area="Header-back"])
 wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
