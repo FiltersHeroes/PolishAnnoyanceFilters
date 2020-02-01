@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xku/A7C1MlLv2Z1EZlu2vw
+! Checksum: dIx+HeQoxUEH0vrvc9tfbg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 28 Jan 2020, 23:00 UTC+01
-! Version: 2020.1.28.0
+! Last modified: Sat, 01 Feb 2020, 19:00 UTC+01
+! Version: 2020.2.1.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 28 sty 2020, 23:00 UTC+01
+! Aktualizacja: sob, 01 lut 2020, 19:00 UTC+01
 !
 !
 !
@@ -476,6 +476,7 @@ hello-body.pl,wei.org.pl###custom_html-3
 histmag.org#?##article > div[class$="border-box"] > div[class$="border-box"] > a:-abp-contains(/^Newsletter$/)
 histografy.pl,swobodnie.eu###wysija-2
 hoegert.com##.moduletable
+holisticclinic.pl#?#footer .widget_nav_menu.widget:-abp-has( > .mc4wp-form)
 homebook.pl#?#div > div > div > div:-abp-contains(newsletter)
 homeoffice360.pl###footerColumn2 > h3:nth-of-type(2), #newsletterForm
 home.pl###nlForm
