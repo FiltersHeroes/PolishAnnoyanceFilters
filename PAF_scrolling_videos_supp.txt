@@ -24,6 +24,6 @@ interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs
 interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
 !#endif
 !#if !ext_ublock
-infozdrowie24.pl#$#.miniplayer { position: absolute !important; transition: unset !important; }
-infozdrowie24.pl#$#.normplayer { transition: unset !important; }
+infozdrowie24.pl##.miniplayer:style(position: absolute !important; transition: unset !important;)
+infozdrowie24.pl##.normplayer:style(transition: unset !important;)
 !#endif
