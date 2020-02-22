@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JybpcM/hyjJIjs+jjxgjvQ
+! Checksum: kUnnUHAklrFDK22VeFIobQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 22 Feb 2020, 19:00 UTC+01
-! Version: 2020.2.22.0
+! Last modified: Sat, 22 Feb 2020, 23:00 UTC+01
+! Version: 2020.2.22.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 22 lut 2020, 19:00 UTC+01
+! Aktualizacja: sob, 22 lut 2020, 23:00 UTC+01
 !
 !
 !
@@ -1243,6 +1243,7 @@ www.milmag.pl##.formNewsletter
 www.milmag.pl##div.foldMid.span_4_of_12.col:nth-of-type(2) > h3.footerLabel:nth-of-type(2)
 www.onet.pl##.popupNotif > .bellIcon
 www.pfm.pl##div.footer-box:nth-of-type(1)
+www.philips.pl#?#section[id] section[data-background="{}"][style*="min-height"]:-abp-has(section.u65-newsletter-registration)
 www.porta.com.pl##.additional-links.row > form, .newsleter-box
 www.ppr.pl##div.col-md-4:nth-of-type(1), div.czarna.col-md-12:nth-of-type(2) > div.checkbox
 www.prestashop.com##.blog-post-newsletter
