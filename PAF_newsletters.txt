@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 9zTGJ2zV4AKh1b8sVAXUCQ
+! Checksum: GZ2oCqcZvFFuvPzKJIF6KQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 07 Mar 2020, 15:00 UTC+01
-! Version: 2020.3.7.0
+! Last modified: Sun, 08 Mar 2020, 15:00 UTC+01
+! Version: 2020.3.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,11 +13,12 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 07 mar 2020, 15:00 UTC+01
+! Aktualizacja: nie, 08 mar 2020, 15:00 UTC+01
 !
 !
 !
 ! Specyficzne reguły
+1rosyjski.pl##section[id^="mc4wp_widget"].widget_mc4wp_widget
 3i-store.com##.footer-address-block > p:nth-of-type(n+4):nth-of-type(-n+5)
 3i-store.com,global4net.com##.block-subscribe
 3kropki.pl##.nwltMR
@@ -320,6 +321,7 @@ drogeriepolskie.pl##.footer-newsletter-area
 drogerium.pl##.newsletterek
 drogowskazykariery.pl##.module_column_5-11-3.module_column_3.tb_5_column.module_column.last.col4-1.tb-column
 dronexpert.eu##div.BoxRwdUkryj:nth-of-type(8)
+drzwicallublin.pl#?#.wellcome-text:-abp-has(.contactForm)
 dts24.pl,swiatdronow.pl,wielkahistoria.pl##.widget_mailpoet_form
 dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
 dzieje.pl##.sec13
@@ -830,6 +832,7 @@ parkofpoland.com###newsletter-footer
 pasazer.com##.join
 pasazer.com##.section:nth-of-type(4)
 pasazer.com##.\].slidein.\[.box
+pb.pl###NewsletterBox
 pcaction.pl##.CalyBox:nth-of-type(4)
 pch24.pl##.NewsletterBox
 pcomp3000.pl###LewaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
