@@ -22,8 +22,9 @@
 !
 ! Reguły specjalne
 !#if !ext_ublock
+github.com#$?#div.TimelineItem.js-comment-container:has(> #commitcomment-37742037) { remove: true }
 polishannoyancefilters.netlify.com###pafadguard
-polishannoyancefilters.netlify.com##+js(set-constant, pafAdguard, true)
+!polishannoyancefilters.netlify.com##+js(set-constant, pafAdguard, true)
 !#endif
 !#if ext_ublock
 polishannoyancefilters.netlify.com##+js(set-constant, pafDetect, true)
