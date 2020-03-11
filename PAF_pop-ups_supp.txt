@@ -368,12 +368,12 @@ intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
 linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
 makarun.pl$$.makarun-modal
+mbmeganarzedzia.pl,pozyczkabezbanku.pl,www.kei.pl###bio_ep, #bio_ep_bg
 mediasam.pl$$#myWorning
 mprofi.pl$$.tve-leads-lightbox
 muscat.pl$$#discountPopup
 ogrodosfera.pl$$#NewsletterExit
-pozyczkabezbanku.pl###bio_ep, #bio_ep_bg
-pozyczkabezbanku.pl#$#body[style] { overflow: auto !important; }
+pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl#$#body[style] { overflow: auto !important; }
 rytmynatury.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 rytmynatury.pl##.mfp-bg.mfp-ready
 rytmynatury.pl##.mfp-wrap:has(#efbl_popup)
@@ -391,11 +391,13 @@ zoo.bydgoszcz.com$$#NewsShow
 !#if ext_ublock
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(addEventListener-defuser, scroll, event.dispatch)
-parkmania.pl,pozyczkabezbanku.pl,www.kei.pl##+js(setTimeout-if, !bioEp.showPopup)
+mbmeganarzedzia.pl,parkmania.pl,pozyczkabezbanku.pl,www.kei.pl##+js(setTimeout-defuser, bioEp.showPopup)
 rzetelnafirma.pl##+js(setTimeout-defuser, setPopup)
 shoplet.pl##+js(set-constant, x13callback_cookie, 1)
 vivrehome.pl##+js(set-constant, appShell.guest, false)
 !mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):nth-ancestor(6)
+!parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(no-setTimeout-if, bioEp.showPopup)
+!parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(setTimeout-if, !bioEp.showPopup)
 !#endif
 !#if cap_user_stylesheet
 !www.vivrehome.pl##.js-popup-subscribe:not([style]):watch-attr(style):has(.js-title-default.is-hidden:watch-attr(class))
