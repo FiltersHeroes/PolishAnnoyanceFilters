@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: llieVJAfKQjGLfpzSipCdg
+! Checksum: xdF7yTn3Mhfe72BkY/KF2A
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 11 Mar 2020, 15:00 UTC+01
-! Version: 2020.3.11.1
+! Last modified: Thu, 12 Mar 2020, 23:01 UTC+01
+! Version: 2020.3.12.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 11 mar 2020, 15:00 UTC+01
+! Aktualizacja: czw, 12 mar 2020, 23:01 UTC+01
 !
 !
 !
@@ -121,7 +121,7 @@ budujemydom.pl###byebye
 budujemydom.pl##.modal-wrapper
 byinsomnia.com,goshico.com,miyomakeup.com###esns_background_layer
 cafago.com##.freePointWrap
-californiaskateshop.pl,meskiegacie.pl,portalokienny.pl,vitasport.pl###tws_i_0
+californiaskateshop.pl,dowarsztatu.com,meskiegacie.pl,portalokienny.pl,vitasport.pl###tws_i_0
 caseih.com.pl,dobiegania.pl,kisiel24.pl,netlandcomputers.pl,pl.globalvoices.org,resulto.pl,tabal.pl,twojapogoda.pl###colorbox, #cboxOverlay
 casu.pl,dji-ars.pl,drmax.pl###freshmail-main-wrapper, #freshmail_backdrop
 ccnews.pl,jagiellonski.pl,meczelive.tv,meczenazywo.pl,mutyzm.org.pl,portalmorski.pl,uczyibawi.pl###fm-pu-container
@@ -363,8 +363,6 @@ media-tech.eu###OverlayContainer_rcw
 media-tech.eu###popup_mediatech, #Overlay
 media-tech.eu###rc_window_squeeze
 medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
-medonet.pl##.NTZpopup
-medonet.pl##.withNTZpopup::before
 metin2list.pl###news_popup
 mettosport.eu##.wf2-shake-box, .grwf2_backdrop
 mgprojekt.com.pl##.orlando-whiteboard.orlando-background, .jupiter-entrance.jupiter-background.optin-monster-saas-overlay
@@ -664,6 +662,8 @@ zszywka.pl###inv-request-popup
 zuch.media###spu-10366, #spu-bg-10366
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
+!medonet.pl##.NTZpopup
+!medonet.pl##.withNTZpopup:before
 !||zaradnyfinansowo.pl/*/wp-content/plugins/wp-subscribe-pro/assets/js/magnificpopup-*.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /css/jquery.fancybox.css$domain=fakro.pl|modrzewiowy-dwor.pl
