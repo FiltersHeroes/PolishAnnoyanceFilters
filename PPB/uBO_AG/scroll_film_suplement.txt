@@ -7,7 +7,7 @@ gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(addEventListener-defuser, scr
 komputerswiat.pl,onet.pl,~poczta.onet.pl##+js(set-constant, floatingPlayer, noopFunc)
 m.interia.pl##+js(addEventListener-defuser, /^(resize|scroll)$/, floatingPlayerEventHandler)
 onet.pl,~poczta.onet.pl##+js(set-constant, FloatingVideoPlayer, noopFunc)
-onet.pl,~www.onet.pl,~poczta.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important;)
+onet.pl,~poczta.onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important;)
 parkiet.com##.component-tv__video:style(position: static !important;)
 rp.pl##.linear-tv__iframe:style(position: static !important;)
 store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important;)
