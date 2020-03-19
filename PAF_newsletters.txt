@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: cBpsXA4GUXbHF5nnwa42rQ
+! Checksum: 83kiQolx9zfwDstt3Ki8QA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 18 Mar 2020, 19:00 UTC+01
-! Version: 2020.3.18.0
+! Last modified: Thu, 19 Mar 2020, 19:00 UTC+01
+! Version: 2020.3.19.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 18 mar 2020, 19:00 UTC+01
+! Aktualizacja: czw, 19 mar 2020, 19:00 UTC+01
 !
 !
 !
@@ -362,6 +362,7 @@ eneba.com#?##app > footer > div > div > div:-abp-has( > form > input[name="email
 enerad.pl###g1-prefooter-widget-area > .g1-grid > .g1-one-fourth.g1-column:nth-of-type(3)
 englishcollege.pl##.menudol > .calosc > #kontakt
 enova.pl##.ipb-newsletter-form, .ipb-newsletter-info
+eofficemedia.pl###tab_newsletter
 epicdrama.pl##.epic-footer-nav > .row > .col-md-6
 epoznan.pl##a[href="about-newsletter"]
 erp-view.pl###top-mod
@@ -503,6 +504,7 @@ housebrand.com##.containerNl
 housebrand.com##.footer-newsletter-form
 hurtowniabartel.pl###dor_custom_newsletter_block
 hurtowniateleinformatyczna.pl##ul:nth-of-type(3), .rc-box-newsletter.box
+hurtownia-format.pl##.footer.row > .col-md-4
 hygieia.pl##.footer-info div.grid_3:nth-of-type(3) > div.grid_3
 hykker.com##.widget_wysija
 iautomatyka.pl##div.pfwidgetinner:nth-of-type(6), div.h2_belka:nth-of-type(5), #pf-footer-row > .pf-row > .mpc-column.col-md-3.col-lg-3.wpb_column:nth-of-type(2), .mailster-form
@@ -1329,9 +1331,9 @@ zyciepabianic.pl###col1 > .widget:nth-of-type(3)
 zyciepabianic.pl###widget-newsletter
 ||carry.pl//themes/default/img/newsletter1.png
 ||dobremiejsce.org/wp-content/themes/dobremiejsce_org_pds/images/s2-980.jpg
-||forms.freshmail.io$subdocument,domain=hurtownia-spozywcza.pl
 ||forms.freshmail.io/f/$subdocument,domain=wei.org.pl
-||forms.freshmail.io/f/*/*/index.html$subdocument,domain=ita.tools
+||forms.freshmail.io/f/*/*/index.html$subdocument,domain=eshop.wurth.pl|ita.tools
+||forms.freshmail.io^$subdocument,domain=hurtownia-spozywcza.pl
 ||klinkierbud.pl/css/img/baner_newsletter.jpg
 ||obi.pl/images/footer/newsletter.jpg
 ||oknoserwis.pl/img/newsletter.gif
