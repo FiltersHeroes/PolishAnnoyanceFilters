@@ -1,10 +1,4 @@
-autostrada-a4.com.pl##.topbaner
-autostrada-a4.com.pl##+js(addEventListener-defuser, scroll, event.dispatch)
 ekoteka.pl###popUpModal:remove()
-mbmeganarzedzia.pl,parkmania.pl,pozyczkabezbanku.pl,www.kei.pl##+js(setTimeout-defuser, bioEp.showPopup)
-rzetelnafirma.pl##+js(setTimeout-defuser, setPopup)
-shoplet.pl##+js(set-constant, x13callback_cookie, 1)
-vivrehome.pl##+js(set-constant, appShell.guest, false)
 !mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):nth-ancestor(6)
 !parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(no-setTimeout-if, bioEp.showPopup)
 !parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(setTimeout-if, !bioEp.showPopup)
