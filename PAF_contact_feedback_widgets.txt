@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2W8Nccv/+VYOjsZ9iMhNRw
+! Checksum: 5D1sFgNGQhScgB6LmHcFrw
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sat, 21 Mar 2020, 19:00 UTC+01
-! Version: 2020.3.21.0
+! Last modified: Mon, 23 Mar 2020, 19:00 UTC+01
+! Version: 2020.3.23.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 21 mar 2020, 19:00 UTC+01
+! Aktualizacja: pon, 23 mar 2020, 19:00 UTC+01
 !
 !
 !
@@ -28,7 +28,7 @@ agrofakt.pl##.agroreporter
 ahe.lodz.pl###chat-invite
 airdron-polska.pl,fakturownia.pl,modele-centrum.pl,upsell.pl###sugester-chat
 airport.com.pl##a[href*="http://airport.com.pl/livezilla/chat.php"]
-aleeko.pl,apteka-leki.pl,bazarek-deco.com.pl,cebit.pl,certyfikatyssl.pl,domeny.pl,e-dewocjonalia.eu,gamasalon.pl,oknarolety.com,scrascom.pl,sklepmaniek.pl,www.kei.pl###czater-contener
+aleeko.pl,apteka-leki.pl,bazarek-deco.com.pl,cebit.pl,certyfikatyssl.pl,domeny.pl,e-dewocjonalia.eu,gamasalon.pl,nsix.pl,oknarolety.com,scrascom.pl,sklepmaniek.pl,www.kei.pl###czater-contener
 ale.pl###rr_side_widget
 almatur.pl###telefondiv
 alx.pl##.zadaj-szybkie-pytanie
@@ -80,8 +80,8 @@ carq.pl##div[id^="qc-quic-widget-"]
 catawiki.pl##.registration-slide-in
 catom.pl,cebit.pl,verakom.pl##.fab-wrapper
 cdp.pl###customTrustbadge
-cebit.pl###czatercall-teaser, #cc-button-iframe
 cebit.pl,guzik.konin.pl##.fab
+cebit.pl,nsix.pl###czatercall-teaser, #cc-button-iframe
 ceneo.pl###recent-activity-toast
 centrumpapieru.pl###ls-button-container
 cinema3d.pl###popupBoxInvitation
@@ -440,6 +440,7 @@ zrzutka.pl##.uv-bottom-right
 ||connect.facebook.net/en_US/sdk/xfbml.customerchat.js$domain=www.salonroman.pl
 ||cxel.fcc-online.pl/chat/widget.js
 ||czater.pl/assets/modules/chat/js/chat.js
+||czater.pl/assets/sounds/*$media,domain=www.czater.pl
 ||ebok.kierus.com.pl/scripts/button.php
 ||embed.tawk.to^$script,third-party
 ||google.com/shopping/customerreviews/badge$domain=specshop.pl
