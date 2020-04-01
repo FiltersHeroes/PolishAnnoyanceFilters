@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: DKM5FUGtpUSJlpSDwVyE4w
+! Checksum: jgPgjISAf1h7SAzrk8wsRw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 01 Apr 2020, 16:00 UTC+02
-! Version: 2020.4.1.1
+! Last modified: Thu, 02 Apr 2020, 00:00 UTC+02
+! Version: 2020.4.2.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 01 kwi 2020, 16:00 UTC+02
+! Aktualizacja: czw, 02 kwi 2020, 00:00 UTC+02
 !
 !
 !
@@ -34,6 +34,7 @@
 85.128.114.72,gkn.pl###lewa > .box_newsletter
 99rent.pl###block-block-7
 100pompek.pl,biegaj40minut.pl,miesniebrzucha.pl,miesnienog.pl,podciaganie.pl,treningaerobowy.pl,treningrozciagania.pl###freshmail-subscription-form
+123toys.pl##.up
 365dowolnosci.pl###getall_widget-3
 1000dni.pl##.newsletter-mod
 abcfirany.pl###ZakladkaNewsletterOkno
@@ -67,7 +68,7 @@ alerabat.com##.widget--newsletter.widget
 alesoczewki.com##.newsletter_sec
 aligoo.pl###footer > .col-sm-6
 aliholik.pl###yikes_easy_mc_widget-5
-alkalicznystylzycia.com,konstantinkanin.com,przedsiebiorcza.com,zorganizowana.com##aside[id^="mc4wp_form_widget"].widget_mc4wp_form_widget
+alkalicznystylzycia.com,julando.pl,konstantinkanin.com,przedsiebiorcza.com,zorganizowana.com##[id^="mc4wp_form_widget"].widget_mc4wp_form_widget
 alkoholeswiata.com##div.span6:nth-of-type(2) > .row > div.span3:nth-of-type(2) > .panel-default.panel
 allani.pl,cmjordan.krakow.pl,elfadistrelec.pl,eobuwie.com.pl,hitobuwie.pl,kratki.com,kubotastore.pl,spotawheel.pl,villeroy-boch.pl,wakacyjnipiraci.pl,www.kler.eu,www.missguided.com,www.smyk.com##.footer__newsletter
 allegro.pl#?##opbox-marketing-consent:-abp-has( > div > div > div > input#consent:not(:checked))
@@ -113,7 +114,7 @@ atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama
 attipas.pl##div.col-sm-6.col-md-3:nth-of-type(4) > .widget
 auchandirect.pl###newsletterFooterContent
 auchan.pl##a[href="/newsletter/ref/box"]
-auchan.pl,himountain.pl,maxelektro.pl,student.profinfo.pl,warzywaiowoce.pl##.newsletter-block
+auchan.pl,himountain.pl,la-lalla.pl,maxelektro.pl,student.profinfo.pl,warzywaiowoce.pl##.newsletter-block
 autodoc.pl##.subscribe_us
 autogaleria.pl##.col-lg-5.col-md-5.col-sm-6.col-xs-12
 automatyka.pl###newsletterSideBox
@@ -218,6 +219,7 @@ centrum-marino.com###stay-connected, #footer-social-icons
 cezar.eu##.container > div.col50.kolumna:nth-of-type(2)
 cgm.pl,sklep.olekmotocykle.pl##.footerNewsletter
 channel9.msdn.com##.mouseClick.mediumIcon.email
+chataskrzata.eu,genesis-zone.com,otwarte.eu###newsletter-box
 checiny.pl###div_newsletter
 chlodnictwoiklimatyzacja.pl,swiat-szkla.pl###left-in > .moduletable:nth-of-type(1)
 chocholowskietermy.pl##.wdform_section
@@ -396,6 +398,7 @@ e-insportline.pl##.lastbox
 e-irwin.pl##.footer .row > div:nth-of-type(4)
 e-kidsplanet.com###newsletterBanner > div
 e-korepetycje.net##.offer-sidebar-banner
+e-planetazabawek.pl,sipma.pl###newslet
 e-prawnik.pl##.boxA2
 e-sas.pl###fbbok
 e-sporting.pl##.fnlsl
@@ -453,7 +456,6 @@ gdzietymrazem.pl##.td-pb-span4:nth-of-type(1) > .widget_text.widget.td_block_tem
 gdzietymrazem.pl##.widget_custom_html.widget.td_block_template_1.widget_text:nth-of-type(2) > .custom-html-widget.textwidget
 geekbuying.pl,toys4boys.pl###newsletter_block_home
 geekwork.pl###newsletter-head
-genesis-zone.com,otwarte.eu###newsletter-box
 germany.travel###footer_inner_wrapper > div:nth-of-type(1) > .list-inline > li:nth-of-type(9), li.divider:nth-of-type(10)
 getmailbird.com,grzegorzmiecznikowski.pl,jaktodaleko.pl,sandoz.pl##.footer-subscribe
 gettinenglish.com###easy-opt-in-widget-2, .sh-s11.sh-t6.section-heading > .h-text
@@ -553,6 +555,7 @@ joga.org.pl###col2 > .module:nth-of-type(2)
 jsystems.pl###zapisz-sie-newsletter, [href="newsletter.do"]
 jupi24.pl##.rc-box-newsletter
 kabexdocieplenia.eu##.footer-wrapper > .footer > div.f-box:nth-of-type(1) > *
+kalibaby.pl#?#.center-block-last:-abp-has(.f_newsletter)
 kaliszak.pl,krakusik.pl##.mini-newsletter
 kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-success
 kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
@@ -584,6 +587,8 @@ km-net.pl###wysuwane
 knowband.com##.kbGetUpdates
 kobieta.pl##.text-center.sidebar-box:nth-of-type(11)
 kobietydokodu.pl,niezlomni.com,zagranie.com###text-10
+kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER)
+kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER) + div.StrTresc
 kochanamama.pl##.pmpIMail
 kolczewska.pl##.ulp-tab-right-middle.ulp-tab > .ulp-tab-content
 komputerymarkowe.pl###newsletter_block_footer
@@ -645,7 +650,7 @@ longevitas.pl##.left.sign-up-home
 lotaro.pl,luszczyce.pl,polskiemedia.org###custom_html-4
 lubimyczytac.pl##.footer__fixed.js-footer-fixed
 luminosfera.pl,slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
-lunamarket.pl,modele-centrum.pl,moto125.pl,motocombo.pl,nbielizna.pl,plumeria.sklep.pl,tylkoklocki.pl###footer_newsletters
+lunamarket.pl,malako.pl,modele-centrum.pl,moto125.pl,motocombo.pl,nbielizna.pl,plumeria.sklep.pl,tylkoklocki.pl,zabawkiija.pl###footer_newsletters
 luxfood.pl###Left > .nyroModal:nth-of-type(1)
 luxmed-diagnostyka.pl##.newesletter-box
 maciej.je##p:nth-of-type(47)
@@ -860,6 +865,7 @@ pcaction.pl##.CalyBox:nth-of-type(4)
 pch24.pl##.NewsletterBox
 pcomp3000.pl###LewaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
 pepees.pl###footer-container > div.span4:nth-of-type(3) > div
+pepito.pl##.footer-nl-social
 pepsieliot.com##.container:nth-of-type(1) > .row > .col-lg-3:nth-of-type(4)
 perfectfitness.pl###MailIndexForm
 perfekcyjnawdomu.pl##.footer > .container > .row > div.col-md-4:nth-of-type(2)
@@ -1038,7 +1044,6 @@ siecobywatelska.pl###widget-text-28
 silent-miner.com##.form_subscribe
 silesiasem.pl##.entry-content > form
 silesion.pl##.pageFooter__newsletter
-sipma.pl###newslet
 site-call.pl##.wpc-subcribe .form-subscribe
 skionline.pl##td:nth-of-type(2) > .boks:nth-of-type(3) > tbody
 skionline.pl##.boks_tytul_out_cp:nth-of-type(3)
@@ -1171,6 +1176,7 @@ thunderbird.net#?##section.flex.flex-col > aside.flex.flex-col:nth-of-type(2):-a
 tiptopol.pl#?#.footer__item:-abp-has( > div > #block-webform)
 tkmaxx.pl##.panels-flexible-region-1-newsletter_subscription
 tokfm.pl##.container > ul > li:nth-of-type(3)
+tomi.pl##.ty-footer-menu .ty-mainbox-container
 tooway.pl##.contact3
 topagrar.pl##.sidebar__box--newletter
 tpi.com.pl##.cmn-newsletter
