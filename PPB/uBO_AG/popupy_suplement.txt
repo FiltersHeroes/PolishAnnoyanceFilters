@@ -1,8 +1,5 @@
 action.com##.has-popup:style(position: static !important;)
-shipgratis.eu##body[style*="padding-right"]:style(padding-right: 0 !important;)
 action.com,aluprof.eu,ekai.pl,jezykiobce.pl##.newsletter-popup
-panwybierak.pl##.modal--remind.iziModal, .iziModal-overlay
-panwybierak.pl##.iziModal-isOverflow:style(position: static !important; overflow: visible !important;)
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
@@ -162,7 +159,9 @@ online.citibank.pl###AdventPopup, .modal-backdrop
 open.fm##+js(addEventListener-defuser, unload)
 pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
 panel.kei.pl##.popup-modal:has(a[href*="/polls/ankieta"])
+panwybierak.pl##.iziModal-isOverflow:style(position: static !important; overflow: visible !important;)
 panwybierak.pl##.modal-unload, .modal-backdrop
+panwybierak.pl##.modal--remind.iziModal, .iziModal-overlay
 payukraine.com##.gl-blur:style(filter: none !important;)
 payukraine.com##.pc_withoutCommissionBanner
 pepco.pl##body.modal-open:style(padding-right: 0 !important; overflow: visible !important;)
@@ -205,6 +204,7 @@ rzetelnafirma.pl##+js(setTimeout-defuser, setPopup)
 secure.avaaz.org##.page-petition--inactive:style(overflow: auto !important;)
 secure.avaaz.org##.signup-petition-modal-wrapper
 sferis.pl##+js(abort-current-inline-script, $, promoNewsletter)
+shipgratis.eu##body[style*="padding-right"]:style(padding-right: 0 !important;)
 shoplet.pl##+js(set-constant, x13callback_cookie, 1)
 skalnik.pl##.newspopup-blur:style(filter: none !important;)
 skalnik.pl##.newspopup_ov_hidden:style(overflow: auto !important;)
