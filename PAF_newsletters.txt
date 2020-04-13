@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: hmSouek+USEqKulVTgQ4dA
+! Checksum: ST1R/oXAgdg/fPEc/Dxp8Q
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 13 Apr 2020, 00:00 UTC+02
-! Version: 2020.4.13.0
+! Last modified: Mon, 13 Apr 2020, 16:00 UTC+02
+! Version: 2020.4.13.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 13 kwi 2020, 00:00 UTC+02
+! Aktualizacja: pon, 13 kwi 2020, 16:00 UTC+02
 !
 !
 !
@@ -66,6 +66,7 @@ aledobre.pl##.footerColumns > .row > div.col-sm-4.col-md-15:nth-of-type(6)
 aleeko.pl,dobrywybor.eu,moment.pl##.newsletter-wrap
 alerabat.com##.widget--newsletter.widget
 alesoczewki.com##.newsletter_sec
+aliexpress.com###alert-subscribe-form
 aligoo.pl###footer > .col-sm-6
 aliholik.pl###yikes_easy_mc_widget-5
 alkalicznystylzycia.com,julando.pl,konstantinkanin.com,przedsiebiorcza.com,zorganizowana.com##[id^="mc4wp_form_widget"].widget_mc4wp_form_widget
@@ -890,7 +891,6 @@ plk.pl##.col-sm-12.col-md-6.col-lg-3.col-xl-3 > h3:nth-of-type(2)
 plock.eu##.newsletter-component
 pl-eu.puma.com##.footer-logo-email
 pl.aleteia.org###logo-newsletter-follow, .module-newsletter-form
-pl.aliexpress.com###alert-subscribe-form
 pl.ejo-online.eu###footer > div > div.threecol:nth-of-type(2)
 pl.gearbest.com##.siteSubscribe
 pl.instytut-polski.org###mailmagaWrap
@@ -1063,6 +1063,7 @@ sklep-agrohandel.pl##.footer_top_area
 sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
 sklep-smile.pl##.footer-block-contain > .block1
 sklep.audiopunkt.com.pl###sec-newsletter > .banertab
+sklep.chomik.pl#?##section_custom > .rounded.container:-abp-has(#subReqForm)
 sklep.grupamagnum.eu##.leftcol > #box_custom81 > center > iframe[src^="https://media-grupamagnum.ipresso.pl"]
 sklep.gry-online.pl##.mt, #add-newsletter-email, #add-newsletter
 sklep.jelp.pl###freshmail > .pull-left
