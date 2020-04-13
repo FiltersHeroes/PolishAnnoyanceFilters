@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ST1R/oXAgdg/fPEc/Dxp8Q
+! Checksum: De9V4PmQF+jXgNq7wqz6Ew
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 13 Apr 2020, 16:00 UTC+02
-! Version: 2020.4.13.1
+! Last modified: Mon, 13 Apr 2020, 20:00 UTC+02
+! Version: 2020.4.13.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 13 kwi 2020, 16:00 UTC+02
+! Aktualizacja: pon, 13 kwi 2020, 20:00 UTC+02
 !
 !
 !
@@ -22,6 +22,7 @@
 3i-store.com##.footer-address-block > p:nth-of-type(n+4):nth-of-type(-n+5)
 3i-store.com,global4net.com##.block-subscribe
 3kropki.pl##.nwltMR
+4gift.pl##.homepage-newsletter
 4kdownload.com##.footer__section > .footer__col--updates
 4kom.pl###tws_c_100001
 4lapki.eu,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,ochrona24.info,podkop.com,pskrk.com,zabieganamama.com##.jetpack_subscription_widget
@@ -139,6 +140,7 @@ bartoszkrawczykdemczuk.pl###tve_editor
 basenymineralne.pl##.foo-box-mid
 bass-sklep.pl###box-5
 batorygdynia.com.pl##footer .menu_bottom1.row > .a_right
+bbhomeonline.pl##.footer_links_newsletter
 beslow.pl##.ulp-layer
 bestcena.pl##div[class^=newsletter-box]
 bezmiesnymiesny.pl,clover.net.pl##div[class^="shb-newsletter-widget"]
@@ -813,6 +815,7 @@ obzarciuch.pl###HTML6
 ochnik.com##.footer__block--newsletter
 ock.gov.pl##.col-xs-10.col-sm-10.col-md-3.col-lg-offset-2.col-lg-3
 odczasudoczasu.pl#?#.vc_row-has-fill:-abp-has(.form_subscribe)
+ofeminin.pl##.nwslttrBox
 ofertapracy.monsterpolska.pl###liteRegDiv
 ofertatorun.pl##.content_bottom.row
 oficynafk.pl##.col-md-4 > .row:nth-of-type(3)
@@ -865,6 +868,7 @@ pantabletka.pl##.ds-newsletter
 paranormalium.pl##div.mt.menus-right:nth-of-type(8), div.th:nth-of-type(7)
 parkersklep.pl##footer .col-xs-12.col-sm-12.col-md-3
 parkofpoland.com###newsletter-footer
+partyworld.pl##.wce_newsletter-form
 pasazer.com##.join
 pasazer.com##.section:nth-of-type(4)
 pasazer.com##.\].slidein.\[.box
