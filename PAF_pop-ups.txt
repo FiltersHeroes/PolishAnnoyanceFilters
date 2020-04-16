@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IFosyTXBjAFK1k5SWaG0wQ
+! Checksum: KHxlp2tmjsp4WEyNkC+mig
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 13 Apr 2020, 16:00 UTC+02
-! Version: 2020.4.13.0
+! Last modified: Fri, 17 Apr 2020, 00:01 UTC+02
+! Version: 2020.4.17.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 13 kwi 2020, 16:00 UTC+02
+! Aktualizacja: pią, 17 kwi 2020, 00:01 UTC+02
 !
 !
 !
@@ -161,6 +161,7 @@ decoliving.pl,intymna.pl###pop-up-powiadomienia
 deepl.com###dl_app_banner_popup
 dekanex.pl,dzisiajwgliwicach.pl,komputerowapasja.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 dekoria.pl,lee.pl##.newsletter_popup
+demagog.org.pl##.popup-delay.main-pop-up.info-hide
 device.pl##.wf2-popover, .grwf2_backdrop
 diag.pl,sare.pl###popup, .modal-backdrop
 digitalcamerapolska.pl,fotopolis.pl##.big-popup-wrap
@@ -277,7 +278,6 @@ infopraca.pl###alert-creation, .modal-backdrop
 infoski.pl###boxpopup, #overlaj
 inpost.pl###popup-message-window, #popup-message-background
 inspro.org.pl##.freshmail_dialog.ui-widget.ui-dialog, .ui-widget-overlay
-instagram.com#?#body:not([style*="overflow: hidden;"]) #react-root ~ div[class*=" "][class$=" "][role="presentation"]:-abp-has(a[href^="/accounts/"][href*="signup/"])
 instamarketing.pl##.popup, .popup-overlay
 instytutlogopedyczny.pl##.pytajnik
 interia.pl##.error-page-layer
@@ -679,6 +679,7 @@ zszywka.pl###inv-request-popup
 zuch.media###spu-10366, #spu-bg-10366
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
+!instagram.com#?#body:not([style*="overflow: hidden;"]) #react-root ~ div[class*=" "][class$=" "][role="presentation"]:-abp-has(a[href^="/accounts/"][href*="signup/"])
 !medonet.pl##.NTZpopup
 !medonet.pl##.withNTZpopup:before
 !||zaradnyfinansowo.pl/*/wp-content/plugins/wp-subscribe-pro/assets/js/magnificpopup-*.js
