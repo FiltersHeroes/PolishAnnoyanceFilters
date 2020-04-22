@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: zcOTLS9q9PV1TeIpeQBjhQ
+! Checksum: cgCtUztqb82MagwpqvuORQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 21 Apr 2020, 20:00 UTC+02
-! Version: 2020.4.21.0
+! Last modified: Wed, 22 Apr 2020, 12:00 UTC+02
+! Version: 2020.4.22.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 21 kwi 2020, 20:00 UTC+02
+! Aktualizacja: śro, 22 kwi 2020, 12:00 UTC+02
 !
 !
 !
@@ -373,6 +373,8 @@ media-tech.eu,vanitysklep.pl###Overlay
 media-tech.eu,vanitysklep.pl###OverlayContainer_rcw
 media-tech.eu,vanitysklep.pl###rc_window_squeeze
 medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
+medonet.pl##.pushNotifiPopup
+medonet.pl##.withPNP:before
 metin2list.pl###news_popup
 mettosport.eu##.wf2-shake-box, .grwf2_backdrop
 mgprojekt.com.pl##.orlando-whiteboard.orlando-background, .jupiter-entrance.jupiter-background.optin-monster-saas-overlay
@@ -680,8 +682,6 @@ zuch.media###spu-10366, #spu-bg-10366
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 !instagram.com#?#body:not([style*="overflow: hidden;"]) #react-root ~ div[class*=" "][class$=" "][role="presentation"]:-abp-has(a[href^="/accounts/"][href*="signup/"])
-!medonet.pl##.NTZpopup
-!medonet.pl##.withNTZpopup:before
 !||zaradnyfinansowo.pl/*/wp-content/plugins/wp-subscribe-pro/assets/js/magnificpopup-*.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /css/jquery.fancybox.css$domain=fakro.pl|modrzewiowy-dwor.pl
