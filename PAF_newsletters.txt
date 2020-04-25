@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Mi+eZaYz0h8Gi1NjqgPnzg
+! Checksum: /xGELjLTa6ghyLezMLaxcQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 25 Apr 2020, 00:00 UTC+02
-! Version: 2020.4.25.0
+! Last modified: Sun, 26 Apr 2020, 00:00 UTC+02
+! Version: 2020.4.26.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 25 kwi 2020, 00:00 UTC+02
+! Aktualizacja: nie, 26 kwi 2020, 00:00 UTC+02
 !
 !
 !
@@ -269,7 +269,7 @@ cyfrowynauczyciel.pl###mab-widget-2
 czasdzieci.pl###id_boxNews
 czasnawnetrze.pl##div[id^="menu"][class^="menu"] > div[class^="newsletter-"], div[id^="menu"][class^="menu"] > div[class^="newsletter-"] + .menu-left-border
 czasnawnetrze.pl###contentRight > div.module:nth-of-type(4)
-czaszabawy.pl,sklep.charaktery.eu###skNewsletterPopupFooter
+czaszabawy.pl,sklep.charaktery.eu,smieszneprezenty.com.pl###skNewsletterPopupFooter
 czechtourism.com##.newsletter.pageSeparator, .newsletterSubscription
 czerwionka-leszczyny.pl##.row > div.col-sm-3:nth-of-type(2)
 czesciauto24.pl##.footer-subscr
@@ -453,6 +453,7 @@ galeriabronowice.pl##.news
 galeriakatowicka.eu##.metka
 galeriakatowicka.eu#?#div.col-sm-2.col-xs-4:nth-of-type(4):-abp-contains(Newsletter)
 galeriakazimierz.pl###newsletterSignUp
+galerialucznik.pl###top-footer div.lucznik-top-footer-element:nth-of-type(1)
 galeriapolnocna.pl##.footer-right > .newsletter-top
 galeria-warminska.pl##.nwsltr.box
 gamedot.pl##.footer-top-container-item:nth-of-type(4)
@@ -974,6 +975,7 @@ promocje.al.to,promocje.x-kom.pl#?##app > div > div:last-child > div > div > div
 propaganda24h.pl###fx-before-footer
 proshop.pl##div.col-md-6.col-sm-12:nth-of-type(2) > .row > .site-row-margin-top.col-sm-6
 proto.pl###block-entityform-block-newsletter
+pryskaj.pl##.fx-newsletter
 przepisy.pl##.newsletter-wrapper-inner
 przepis-na-lo.pl###sidebar > div.widget:nth-of-type(3)
 przewodnik-katolicki.pl##.news-stopka, .newsletter-belka
