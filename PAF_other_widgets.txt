@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: L3oI1MqeobhfemKgA9gZdQ
+! Checksum: vxoeLcrayM7PCPJtvEYDnA
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 23 Apr 2020, 20:00 UTC+02
-! Version: 2020.4.23.0
+! Last modified: Mon, 27 Apr 2020, 20:00 UTC+02
+! Version: 2020.4.27.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 23 kwi 2020, 20:00 UTC+02
+! Aktualizacja: pon, 27 kwi 2020, 20:00 UTC+02
 !
 !
 !
@@ -126,6 +126,7 @@ cantino.pl###Form > div[style]:not([id]):not([class]):nth-of-type(6)
 caritas.pl###floating-pomagam, .one_proc, #floating-icons
 castrol.com##footer > div > div.nv-parsys-component.nv-container
 catawiki.pl##body > .be-cornerlabel
+cdaction.pl,interia.pl,pcformat.pl,poboczem.pl,~poczta.interia.pl,pomponik.pl,smaker.pl,styl.pl,swiatkobiety.pl##.inpl-tout
 cdaction.pl,pcformat.pl,poboczem.pl,pomponik.pl,smaker.pl,styl.pl,swiatkobiety.pl##body > .topbar
 cdn.ampproject.org,www.reddit.com##.XPromoPill
 cebit.pl,dowarsztatu.com,hitech.com.pl,sklep-drakpoltools.pl,sklep.narzedziawarszawa.pl,vedion.pl##.llSlideButton
@@ -317,11 +318,11 @@ instalhurt.sklep.pl,moto125.pl,sklephormann.pl,tylkostylowe.pl###widget_shop3
 instalki.pl##.plista_widget_slide
 instytutleczeniabolu.pl###newsy1_pan, #newsy2_pan
 intel.pl##.right-rail-tab.support
-interia.pl###sticker
-interia.pl,interia.tv##.topbar, .topbar-container
-interia.pl,pomponik.pl,styl.pl##.common-header__interia-back-button
-interia.pl,pomponik.pl,styl.pl##.recommend-flybar-block, #primary_recommend_block.recommend-block
-interia.pl,swiatkobiety.pl##.articleObjectSeeAlso.box
+interia.pl,~poczta.interia.pl###sticker
+interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl##.common-header__interia-back-button
+interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl##.recommend-flybar-block, #primary_recommend_block.recommend-block
+interia.pl,~poczta.interia.pl,swiatkobiety.pl##.articleObjectSeeAlso.box
+interia.pl,interia.tv,~poczta.interia.pl##.topbar, .topbar-container
 interviewme.pl##.reading-indicator
 itmarket.pl##.cart_top
 i-apteka.pl,rolmarket.pl###menu_hotspot_zone3
