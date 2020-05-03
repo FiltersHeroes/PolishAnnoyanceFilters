@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # VICHS - Version Include Checksum Hosts Sort
-# v2.8.9
+# v2.13
 
 # MIT License
 
-# Copyright (c) 2019 Polish Filters Team
+# Copyright (c) 2020 Polish Filters Team
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -118,7 +118,7 @@ for i in "$@"; do
     for (( n=1; n<=END_NWL; n++ ))
     do
         SECTION=${SECTIONS_DIR}/$(grep -oP -m 1 '@NWLinclude \K.*' "$FINAL").txt
-        grep -o '\||.*^' "$SECTION" > "$SECTION.temp"
+        grep -o '^||.*^$' "$SECTION" > "$SECTION.temp"
         sed -e '0,/^@NWLinclude/!b; /@NWLinclude/{ r '"${SECTION}.temp"'' -e 'd }' "$FINAL" > "$TEMPORARY"
         sed -i "s|[|][|]|@@|" "$TEMPORARY"
         sed -i 's/[\^]//g' "$TEMPORARY"
@@ -133,9 +133,11 @@ for i in "$@"; do
     for (( n=1; n<=END_BNWL; n++ ))
     do
         SECTION=${SECTIONS_DIR}/$(grep -oP -m 1 '@BNWLinclude \K.*' "$FINAL").txt
-        grep -o '\||.*^' "$SECTION" > "$SECTION.temp"
+        grep -o '^||.*^$' "$SECTION" > "$SECTION.temp"
+        grep -o '^||.*^$all$' "$SECTION" >> "$SECTION.temp"
         sed -e '0,/^@BNWLinclude/!b; /@BNWLinclude/{ r '"${SECTION}.temp"'' -e 'd }' "$FINAL" > "$TEMPORARY"
-        sed -i "s/[\^]/\^\$badfilter/g" "$TEMPORARY"
+        sed -i "s|\$all$|\$all,badfilter|" "$TEMPORARY"
+        sed -i "s|\^$|\^\$badfilter|" "$TEMPORARY"
         mv "$TEMPORARY" "$FINAL"
         rm -r "$SECTION.temp"
     done
@@ -186,7 +188,7 @@ for i in "$@"; do
         EXTERNAL_TEMP=$MAIN_PATH/external.temp
         wget -O "$EXTERNAL_TEMP" "${EXTERNAL}"
         revertWhenDownloadError
-        grep -o '\||.*^' "$EXTERNAL_TEMP" > "$EXTERNAL_TEMP.2"
+        grep -o '^||.*^$' "$EXTERNAL_TEMP" > "$EXTERNAL_TEMP.2"
         sed -e '0,/^@URLNWLinclude/!b; /@URLNWLinclude/{ r '"$EXTERNAL_TEMP.2"'' -e 'd }' "$FINAL" > "$TEMPORARY"
         sed -i "s|[|][|]|@@|" "$TEMPORARY"
         sed -i 's/[\^]//g' "$TEMPORARY"
@@ -205,9 +207,11 @@ for i in "$@"; do
         EXTERNAL_TEMP=$MAIN_PATH/external.temp
         wget -O "$EXTERNAL_TEMP" "${EXTERNAL}"
         revertWhenDownloadError
-        grep -o '\||.*^' "$EXTERNAL_TEMP" > "$EXTERNAL_TEMP.2"
+        grep -o '^||.*^$' "$EXTERNAL_TEMP" > "$EXTERNAL_TEMP.2"
+        grep -o '^||.*^$all$' "$EXTERNAL_TEMP" >> "$EXTERNAL_TEMP.2"
         sed -e '0,/^@URLBNWLinclude/!b; /@URLBNWLinclude/{ r '"$EXTERNAL_TEMP.2"'' -e 'd }' "$FINAL" > "$TEMPORARY"
-        sed -i "s/[\^]/\^\$badfilter/g" "$TEMPORARY"
+        sed -i "s|\$all$|\$all,badfilter|" "$TEMPORARY"
+        sed -i "s|\^$|\^\$badfilter|" "$TEMPORARY"
         mv "$TEMPORARY" "$FINAL"
         rm -r "$EXTERNAL_TEMP"
         rm -r "$EXTERNAL_TEMP.2"
@@ -270,6 +274,7 @@ for i in "$@"; do
     done
 
     function convertToHosts() {
+        sed -i "s|\$all$||" "$1"
         sed -i "s|[|][|]|0.0.0.0 |" "$1"
         sed -i 's/[\^]//g' "$1"
         sed -i '/[/\*]/d' "$1"
@@ -285,8 +290,9 @@ for i in "$@"; do
     do
         HOSTS_FILE=${SECTIONS_DIR}/$(grep -oP -m 1 '@HOSTSinclude \K.*' "$FINAL").txt
         HOSTS_TEMP=$SECTIONS_DIR/hosts.temp
-        grep -o '\||.*^$' "$HOSTS_FILE" > "$HOSTS_TEMP"
-        grep -o '\0.0.0.0.*' "$HOSTS_FILE" >> "$HOSTS_TEMP"
+        grep -o '^||.*^$' "$HOSTS_FILE" > "$HOSTS_TEMP"
+        grep -o '^0.0.0.0.*' "$HOSTS_FILE" >> "$HOSTS_TEMP"
+        grep -o '^||.*^$all$' "$HOSTS_FILE" >> "$HOSTS_TEMP"
         convertToHosts "$HOSTS_TEMP"
         if [ -f "$HOSTS_TEMP.2" ]
         then
@@ -314,7 +320,8 @@ for i in "$@"; do
         EXTERNALHOSTS_TEMP=$SECTIONS_DIR/external_hosts.temp
         wget -O "$EXTERNAL_TEMP" "${EXTERNAL}"
         revertWhenDownloadError
-        grep -o '\||.*^$' "$EXTERNAL_TEMP" > "$EXTERNALHOSTS_TEMP"
+        grep -o '^||.*^$' "$EXTERNAL_TEMP" > "$EXTERNALHOSTS_TEMP"
+        grep -o '^||.*^$all$' "$EXTERNAL_TEMP" >> "$EXTERNALHOSTS_TEMP"
         convertToHosts "$EXTERNALHOSTS_TEMP"
         if [ -f "$EXTERNALHOSTS_TEMP.2" ]
         then
@@ -332,7 +339,64 @@ for i in "$@"; do
         fi
     done
 
+    # Obliczanie ilości sekcji, które zostaną pobrane ze źródeł zewnętrznych i połączone z lokalnymi sekcjami
+    END_HOSTSCOMBINE=$(grep -o -i '@HOSTSCOMBINEinclude' "${TEMPLATE}" | wc -l)
+
+    # Łączenie lokalnych i zewnętrznych sekcji w jedno oraz doklejanie ich w odpowiednie miejsca
+    for (( n=1; n<=END_HOSTSCOMBINE; n++ ))
+    do
+        LOCAL=${SECTIONS_DIR}/$(awk '$1 == "@HOSTSCOMBINEinclude" { print $2; exit }' "$FINAL").txt
+        EXTERNAL=$(awk '$1 == "@HOSTSCOMBINEinclude" { print $3; exit }' "$FINAL")
+        SECTIONS_TEMP=${SECTIONS_DIR}/temp/
+        mkdir "$SECTIONS_TEMP"
+        EXTERNAL_TEMP=${SECTIONS_TEMP}/external.temp
+        MERGED_TEMP=${SECTIONS_TEMP}/merged-temp.txt
+        wget -O "$EXTERNAL_TEMP" "${EXTERNAL}"
+        revertWhenDownloadError
+        externalCleanup
+        sort -u -o "$EXTERNAL_TEMP" "$EXTERNAL_TEMP"
+        grep -o '^||.*^$' "$EXTERNAL_TEMP" > "$EXTERNALHOSTS_TEMP"
+        grep -o '^||.*^$all$' "$EXTERNAL_TEMP" >> "$EXTERNALHOSTS_TEMP"
+        convertToHosts "$EXTERNALHOSTS_TEMP"
+        if [ -f "$EXTERNALHOSTS_TEMP.2" ]
+        then
+            cat "$EXTERNALHOSTS_TEMP" "$EXTERNALHOSTS_TEMP.2"  > "$EXTERNALHOSTS_TEMP.3"
+            mv "$EXTERNALHOSTS_TEMP.3" "$EXTERNALHOSTS_TEMP"
+        fi
+        HOSTS_TEMP=$SECTIONS_DIR/hosts.temp
+        grep -o '^||.*^$' "$LOCAL" > "$HOSTS_TEMP"
+        grep -o '^0.0.0.0.*' "$LOCAL" >> "$HOSTS_TEMP"
+        grep -o '^||.*^$all$' "$LOCAL" >> "$HOSTS_TEMP"
+        convertToHosts "$HOSTS_TEMP"
+        if [ -f "$HOSTS_TEMP.2" ]
+        then
+            cat "$HOSTS_TEMP" "$HOSTS_TEMP.2"  > "$HOSTS_TEMP.3"
+            mv "$HOSTS_TEMP.3" "$HOSTS_TEMP"
+        fi
+        cat "$HOSTS_TEMP" "$EXTERNALHOSTS_TEMP" >> "$MERGED_TEMP"
+        rm -r "$EXTERNAL_TEMP"
+        rm -r "$EXTERNALHOSTS_TEMP"
+        if [ -f "$FOP" ]; then
+            python3 "${FOP}" --d "${SECTIONS_DIR}"/temp/
+        fi
+        sort -uV -o "$MERGED_TEMP" "$MERGED_TEMP"
+        sed -e '0,/^@HOSTSCOMBINEinclude/!b; /@HOSTSCOMBINEinclude/{ r '"$MERGED_TEMP"'' -e 'd }' "$FINAL" > "$TEMPORARY"
+        mv "$TEMPORARY" "$FINAL"
+        rm -r "$MERGED_TEMP"
+        rm -r "$SECTIONS_TEMP"
+        if [ -f "$EXTERNALHOSTS_TEMP.2" ]
+        then
+            rm -r "$EXTERNALHOSTS_TEMP.2"
+        fi
+        rm -r "$HOSTS_TEMP"
+        if [ -f "$HOSTS_TEMP.2" ]
+        then
+            rm -r "$HOSTS_TEMP.2"
+        fi
+    done
+
     function convertToPihole() {
+        sed -i "s|\$all$||" "$1"
         sed -i "s|[|][|]|0.0.0.0 |" "$1"
         sed -i 's/[\^]//g' "$1"
         sed -i -r "/0\.0\.0\.0 [0-9]?[0-9]?[0-9]\.[0-9]?[0-9]?[0-9]\.[0-9]?[0-9]?[0-9]\.[0-9]?[0-9]?[0-9]/d" "$1"
@@ -346,15 +410,16 @@ for i in "$@"; do
         mv "$1.2" "$1"
     }
 
-    # Obliczanie ilości sekcji/list filtrów, z których zostanie wyodrębnionych część reguł w celu konwersji na format regex zgodny z PiHole
-    END_PH=$(grep -o -i '@PHinclude' "${TEMPLATE}" | wc -l)
+    # Obliczanie ilości sekcji/list filtrów, z których zostanie wyodrębnionych część reguł (jedynie reguły zawierajace gwiazdki) w celu konwersji na format regex zgodny z PiHole
+    END_PH=$(egrep -o -i '@PHinclude' "${TEMPLATE}" | wc -l)
 
     # Konwertowanie na format regex zgodny z PiHole i doklejanie zawartości sekcji/list filtrów w odpowiednie miejsca
     for (( n=1; n<=END_PH; n++ ))
     do
         PH_FILE=${SECTIONS_DIR}/$(grep -oP -m 1 '@PHinclude \K.*' "$FINAL").txt
         PH_TEMP=$SECTIONS_DIR/ph.temp
-        grep -o '\||.*^$' "$PH_FILE" > "$PH_TEMP"
+        grep -o '^||.*\*.*^$' "$PH_FILE" > "$PH_TEMP"
+        grep -o '^||.*^$all$' "$PH_FILE" > "$PH_TEMP"
         convertToPihole "$PH_TEMP"
         sort -uV -o "$PH_TEMP" "$PH_TEMP"
         sed -e '0,/^@PHinclude/!b; /@PHinclude/{ r '"$PH_TEMP"'' -e 'd }' "$FINAL" > "$TEMPORARY"
@@ -363,22 +428,6 @@ for i in "$@"; do
     done
 
     # Obliczanie ilości sekcji/list filtrów, z których zostanie wyodrębnionych część reguł (jedynie reguły zawierajace gwiazdki) w celu konwersji na format regex zgodny z PiHole
-    END_PHL=$(grep -o -i '@PHLinclude' "${TEMPLATE}" | wc -l)
-
-    # Konwertowanie na format regex zgodny z PiHole i doklejanie zawartości sekcji/list filtrów w odpowiednie miejsca
-    for (( n=1; n<=END_PHL; n++ ))
-    do
-        PHL_FILE=${SECTIONS_DIR}/$(grep -oP -m 1 '@PHinclude \K.*' "$FINAL").txt
-        PHL_TEMP=$SECTIONS_DIR/phl.temp
-        grep -o '\||.*\*.*^$' "$PHL_FILE" > "$PHL_TEMP"
-        convertToPihole "$PHL_TEMP"
-        sort -uV -o "$PHL_TEMP" "$PHL_TEMP"
-        sed -e '0,/^@PHLinclude/!b; /@PHLinclude/{ r '"$PHL_TEMP"'' -e 'd }' "$FINAL" > "$TEMPORARY"
-        rm -r "$PHL_TEMP"
-        mv "$TEMPORARY" "$FINAL"
-    done
-
-    # Obliczanie ilości sekcji/list filtrów, z których zostanie wyodrębnionych część reguł w celu konwersji na format regex zgodny z PiHole
     END_URLPH=$(grep -o -i '@URLPHinclude' "${TEMPLATE}" | wc -l)
 
     # Konwertowanie na format regex zgodny z PiHole i doklejanie zawartości sekcji/list filtrów w odpowiednie miejsca
@@ -389,7 +438,8 @@ for i in "$@"; do
         EXTERNALPH_TEMP=$SECTIONS_DIR/external_ph.temp
         wget -O "$EXTERNAL_TEMP" "${EXTERNAL}"
         revertWhenDownloadError
-        grep -o '\||.*^$' "$EXTERNAL_TEMP" > "$EXTERNALPH_TEMP"
+        grep -o '\||.*\*.*^$' "$EXTERNAL_TEMP" > "$EXTERNALPH_TEMP"
+        grep -o '\||.*\*.*^$all$' "$EXTERNAL_TEMP" >> "$EXTERNALPH_TEMP"
         convertToPihole "$EXTERNALPH_TEMP"
         sort -uV -o "$EXTERNALPH_TEMP" "$EXTERNALPH_TEMP"
         sed -e '0,/^@URLPHinclude/!b; /@URLPHinclude/{ r '"$EXTERNALPH_TEMP"'' -e 'd }' "$FINAL" > "$TEMPORARY"
@@ -398,24 +448,37 @@ for i in "$@"; do
         rm -r "$EXTERNALPH_TEMP"
     done
 
-    # Obliczanie ilości sekcji/list filtrów, z których zostanie wyodrębnionych część reguł (jedynie reguły zawierajace gwiazdki) w celu konwersji na format regex zgodny z PiHole
-    END_URLPHL=$(grep -o -i '@URLPHLinclude' "${TEMPLATE}" | wc -l)
+    # Obliczanie ilości sekcji, które zostaną pobrane ze źródeł zewnętrznych, skonwerterowane na format regex zgodny z Pi-hole (jedynie reguły zawierajace gwiazdki) i połączone z lokalnymi sekcjami
+    END_PHCOMBINE=$(grep -o -i '@PHCOMBINEinclude' "${TEMPLATE}" | wc -l)
 
-    # Konwertowanie na format regex zgodny z PiHole i doklejanie zawartości sekcji/list filtrów w odpowiednie miejsca
-    for (( n=1; n<=END_URLPHL; n++ ))
+    # Konwertowanie na format regex zgodny z PiHole oraz łączenie lokalnych i zewnętrznych sekcji w jedno oraz doklejanie ich w odpowiednie miejsca
+    for (( n=1; n<=END_PHCOMBINE; n++ ))
     do
-        EXTERNAL=$(grep -oP -m 1 '@URLPHLinclude \K.*' "$FINAL")
-        EXTERNAL_TEMP=$SECTIONS_DIR/external.temp
-        EXTERNALPHL_TEMP=$SECTIONS_DIR/external_phl.temp
+        LOCAL=${SECTIONS_DIR}/$(awk '$1 == "@PHCOMBINEinclude" { print $2; exit }' "$FINAL").txt
+        EXTERNAL=$(awk '$1 == "@PHCOMBINEinclude" { print $3; exit }' "$FINAL")
+        SECTIONS_TEMP=${SECTIONS_DIR}/temp/
+        mkdir "$SECTIONS_TEMP"
+        EXTERNAL_TEMP=${SECTIONS_TEMP}/external.temp
+        EXTERNALPH_TEMP=$SECTIONS_DIR/external_ph.temp
+        MERGED_TEMP=${SECTIONS_TEMP}/merged-temp.txt
         wget -O "$EXTERNAL_TEMP" "${EXTERNAL}"
         revertWhenDownloadError
-        grep -o '\||.*\*.*^$' "$EXTERNAL_TEMP" > "$EXTERNALPHL_TEMP"
-        convertToPihole "$EXTERNALPHL_TEMP"
-        sort -uV -o "$EXTERNALPHL_TEMP" "$EXTERNALPHL_TEMP"
-        sed -e '0,/^@URLPHLinclude/!b; /@URLPHLinclude/{ r '"$EXTERNALPHL_TEMP"'' -e 'd }' "$FINAL" > "$TEMPORARY"
-        mv "$TEMPORARY" "$FINAL"
+        externalCleanup
+        sort -u -o "$EXTERNAL_TEMP" "$EXTERNAL_TEMP"
+        grep -o '\||.*\*.*^$' "$EXTERNAL_TEMP" > "$EXTERNALPH_TEMP"
+        grep -o '\||.*\*.*^$all$' "$EXTERNAL_TEMP" >> "$EXTERNALPH_TEMP"
+        convertToPihole "$EXTERNALPH_TEMP"
+        cat "$LOCAL" "$EXTERNALPH_TEMP" >> "$MERGED_TEMP"
         rm -r "$EXTERNAL_TEMP"
-        rm -r "$EXTERNALPHL_TEMP"
+        rm -r "$EXTERNALPH_TEMP"
+        if [ -f "$FOP" ]; then
+            python3 "${FOP}" --d "${SECTIONS_DIR}"/temp/
+        fi
+        sort -uV -o "$MERGED_TEMP" "$MERGED_TEMP"
+        sed -e '0,/^@PHCOMBINEinclude/!b; /@PHCOMBINEinclude/{ r '"$MERGED_TEMP"'' -e 'd }' "$FINAL" > "$TEMPORARY"
+        mv "$TEMPORARY" "$FINAL"
+        rm -r "$MERGED_TEMP"
+        rm -r "$SECTIONS_TEMP"
     done
 
     # Usuwanie instrukcji informującej o ścieżce do sekcji
@@ -434,7 +497,7 @@ for i in "$@"; do
     # Dodawanie zmienionych sekcji do repozytorium git
     if [ ! "$RTM" ] ; then
         git add "$SECTIONS_DIR"/*
-        git commit -m "$(gettext "Update sections") [ci skip]"
+        git commit -m "$(gettext "Update sections")" -m "[ci skip]"
     fi
 
     # Ustawienie strefy czasowej
@@ -508,11 +571,12 @@ for i in "$@"; do
 
         # Commitowanie zmienionych plików
         if [ "$CI" = "true" ] ; then
-            git commit -m "$(eval_gettext "Update \$filter to version \$version") [ci skip]"
+            commit_desc=$(grep -oP -m 1 '@commitDesc \K.*' "$CONFIG")
+            git commit -m "$(eval_gettext "Update \$filter to version \$version")" -m "${commit_desc} [ci skip]"
         else
             printf "%s" "$(eval_gettext "Enter extended commit description to \$filter list, e.g 'Fix #1, fix #2' (without quotation marks; if you do not want an extended description, you can simply enter nothing): ")"
             read -r extended_desc
-            git commit -m "$(eval_gettext "Update \$filter to version \$version") [ci skip]" -m "${extended_desc}"
+            git commit -m "$(eval_gettext "Update \$filter to version \$version")" -m "${extended_desc} [ci skip]"
         fi
     else
         printf "%s\n" "$(eval_gettext "Nothing new has been added to \$filter list. If you still want to update it, then set the variable FORCED and run script again.")"
@@ -525,7 +589,7 @@ commited=$(git cherry -v)
 if [ "$commited" ]; then
     if [ "$CI" = "true" ] ; then
         GIT_SLUG=$(git ls-remote --get-url | sed "s|https://||g" | sed "s|git@||g" | sed "s|:|/|g")
-        git push https://"${CI_USERNAME}":"${GIT_TOKEN}"@"${GIT_SLUG}" HEAD:master > /dev/null 2>&1
+        git push https://"${CI_USERNAME}":"${GIT_TOKEN}"@"${GIT_SLUG}" > /dev/null 2>&1
     else
         printf "%s\n" "$(gettext "Do you want to send changed files to git now?")"
         select yn in $(gettext "Yes") $(gettext "No"); do
