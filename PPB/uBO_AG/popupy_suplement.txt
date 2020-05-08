@@ -1,4 +1,6 @@
 action.com##.has-popup:style(position: static !important;)
+softonic.pl###modal-di-opera:remove()
+ekoteka.pl##+js(nano-remove-elements-onready.js, #modal-di-opera)
 action.com,aluprof.eu,ekai.pl,jezykiobce.pl##.newsletter-popup
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
@@ -76,6 +78,7 @@ ebroker.pl##.ngdialog-theme-popup-ebroker
 ecoxpress.pl###subscribe-now-modal, .modal-backdrop
 edulider.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important;)
+ekoteka.pl###popUpModal:remove()
 ekoteka.pl##+js(nano-remove-elements-onready.js, #popUpModal)
 ekoteka.pl,wpolu.pl###popUpModal, .modal-backdrop
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
