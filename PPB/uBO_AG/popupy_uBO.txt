@@ -1,4 +1,4 @@
 
-!mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):nth-ancestor(6)
+!mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(6)
 !parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(no-setTimeout-if, bioEp.showPopup)
 !parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(setTimeout-if, !bioEp.showPopup)
