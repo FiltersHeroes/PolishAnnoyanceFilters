@@ -84,6 +84,7 @@ ebroker.pl##.ngdialog-theme-popup-ebroker
 ecoxpress.pl###subscribe-now-modal, .modal-backdrop
 edulider.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important;)
+ekoteka.pl###popUpModal:remove()
 ekoteka.pl##+js(nano-remove-elements-onready.js, #popUpModal)
 ekoteka.pl,wpolu.pl###popUpModal, .modal-backdrop
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
@@ -251,6 +252,8 @@ sklep.nextmobile.pl###supper-offer, .modal-backdrop
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
 smaker.pl###overlay, #popup
 socialpress.pl##.bottom-content-newsletter
+softonic.pl###modal-di-opera:remove()
+softonic.pl##+js(nano-remove-elements-onready.js, #modal-di-opera)
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 sprawnymarketing.pl###pop_facebook
@@ -407,13 +410,13 @@ shoplet.pl##html.fancybox-lock > body:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-lock:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 shoplet.pl##.fancybox-overlay:has(#x13callback)
+softonic.pl#$?#modal-di-opera { remove: true; }
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
 !mobile.twitter.com##body > div > div > div > div > div > div > div > div > div[tabindex="0"]:contains(/(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)/):matches-css(position:fixed)
 !#endif
 !#if ext_ublock
-ekoteka.pl###popUpModal:remove()
-!mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):nth-ancestor(6)
+!mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(6)
 !parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(no-setTimeout-if, bioEp.showPopup)
 !parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(setTimeout-if, !bioEp.showPopup)
 !#endif
