@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /2lF2Tn0L24s4SsOxzV7QA
+! Checksum: UC6Ml5xElFbonCcrJcGCiw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 06 May 2020, 00:01 UTC+02
-! Version: 2020.5.6.0
+! Last modified: Fri, 08 May 2020, 20:00 UTC+02
+! Version: 2020.5.8.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 06 maj 2020, 00:01 UTC+02
+! Aktualizacja: pią, 08 maj 2020, 20:00 UTC+02
 !
 !
 !
@@ -319,6 +319,8 @@ kolorowejeziorka.pl###lpl.lpl-window, #lpl-overlay.lpl-overlay
 kombo.krakow.pl##body > div:nth-of-type(4), body > div:nth-of-type(6)
 kombo.krakow.pl###divGoTop2Mob
 komorkomat.pl##.offer_modal.order_contact_offer_modal.in.fade.vue_modal
+komputerswiat.pl##.exitBox
+komputerswiat.pl##.pushPlatform
 koncertomania.pl#?#.conv_state_desktop.conv-container:-abp-has(#conv11671)
 kontri.pl###element_to_pop_up, .bModal
 korczyk.pl,spidersweb.pl##.pop-up
@@ -564,9 +566,12 @@ sldc.eu###popup-over, #popup-overlay
 sledczy24.pl##.spu-bg, .spu-total-1
 slodkiesny.pl##span[id][aria-hidden][style$="z-index: 99999;"]
 smakowitychleb.pl###r-newsleeter-content, .bg-newsletter
+softonic.pl###modal-ei-avast-ei
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
 spolecznosc.ingbank.pl##.lia-panel-dialog.ui-widget.ui-dialog
 sporto.com.pl###pp3
+sportprofit.pl###kurtyna
+sportprofit.pl###powitanie
 spozywo.pl##.facebook-overlay
 spozywo.pl##.newsletter-info
 sprawdzonakuchnia.pl##.essb-optinbooster, .essb-optinbooster-overlay
