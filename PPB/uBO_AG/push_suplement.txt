@@ -6,3 +6,4 @@ filmweb.pl$$script[tag-content="webPushPublicKey"]
 groove.pl##+js(set-constant, push_notification_ready, true)
 m.leroymerlin.pl##+js(set-constant, Notification.requestPermission, falseFunc)
 !groove.pl##+js(abort-on-property-read, Notification.requestPermission)
+unisono.eu##+js(abort-on-property-read, Notification.requestPermission)
