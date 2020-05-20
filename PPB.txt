@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: lcfJvHsCVbUucrU2Ica6hA
+! Checksum: Tudcs9conDpqsSIjlfZP1A
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 19 May 2020, 20:01 UTC+02
-! Version: 2020.5.19.1
+! Last modified: Wed, 20 May 2020, 20:00 UTC+02
+! Version: 2020.5.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 19 maj 2020, 20:01 UTC+02
+! Aktualizacja: śro, 20 maj 2020, 20:00 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1282,7 +1282,7 @@ vox.pl##.footcol5.onecol.col-md-2
 vuch.pl##footer > .row > .nl-column.large-3.medium-6.xsmall-12.columns
 wabisabi-store.jp##.footer-newsletter_block
 wakacje-hiszpania.pl###newsletterteaser
-wakacje.pl##footer > form[action="https://www.wakacje.pl/newsletter.html"]
+wakacje.pl##footer > form[class][method="post"][action*="/newsletter.html"]
 wakacje.pl##[data-area="newsletter"]
 waldtour.pl##.mailpoet-newsletter
 wasserman.eu#?#footer[class]:not([id]) + div[class]:not([id]):-abp-contains(Promocje, nowości)
@@ -1336,6 +1336,7 @@ wtk.pl###newsletter-animated-box
 www.aboutyou.pl#?#footer[class*="footerContainer"] > div:-abp-contains(newslettera)
 www.galeriehandlowe.pl##.newsletter-box-blue-big
 www.gemius.pl##.smaller.item:-abp-has(.newsletter-title)
+www.lenovo.com##.m-footerSignUp
 www.mazury.pl##.footer .stopka-prawa
 www.milmag.pl##.formNewsletter
 www.milmag.pl##div.foldMid.span_4_of_12.col:nth-of-type(2) > h3.footerLabel:nth-of-type(2)
@@ -1494,7 +1495,7 @@ pl##.widget_newsletterwidget
 1000dni.pl###news-popup
 51015kids.eu,lee.pl,willsoor.pl###newsletter_popup
 aasapolska.pl###leave-page-modal
-aba-sport.pl,californiaskateshop.pl,damizabawki.pl,dowarsztatu.com,meskiegacie.pl,pomocna24.pl,portalokienny.pl,sportowybazar.pl,vitasport.pl###tws_i_0
+aba-sport.pl,californiaskateshop.pl,damizabawki.pl,dowarsztatu.com,kupbuty.com,meskiegacie.pl,pomocna24.pl,portalokienny.pl,sportowybazar.pl,vitasport.pl###tws_i_0
 abcfirany.pl,kochamzabawki.eu###InfoNewsletterOkno, #InfoNewsletter
 abra-meble.pl,allecco.pl,amso.pl,barbersupply.pl,biogo.pl,cortland.pl,czasnabuty.pl,eltrox.pl,gry-online.pl,kontigo.com.pl,kosmetykomania.pl,kreatorium.com,krukam.pl,lou.pl,meditrendy.pl,megascena.pl,mghome.pl,musclepower.pl,muve.pl,olini.pl,recea.pl,recman.pl,reporteryoung.pl,sadowniczy.pl,sklep.royal-shop.pl,tendina.pl,tiffanie.pl,tolpa.pl,tvokazje.pl,yalu.pl###edrone--main--pu--container
 accent-bikes.com###lang_popup
@@ -1727,7 +1728,7 @@ go.tvn24.pl,player.pl,www.pzu.pl##.__ipPerunElement[style^="position"]
 greenasia.eu,saluti.pl,uzywki.expert##.wceapp_popup.modal, .wceapp_popup.mask
 growbox.pl###pf_bg, .pf_sub
 grywalizacja24.pl###itro_popup, #itro_opaco
-gymeltoro.pl,meblejedrus.eu,sklep.krosno.com.pl##.popup
+gymeltoro.pl,meblejedrus.eu,sklep.fanex.pl,sklep.krosno.com.pl##.popup
 haart.pl,serialowy.info##.wph-modal
 hael.pl,modrzewiowy-dwor.pl##.fancybox-overlay
 hafija.pl##.dgd_overlay, .dgd_stb_box
@@ -2037,7 +2038,9 @@ sldc.eu###popup-over, #popup-overlay
 sledczy24.pl##.spu-bg, .spu-total-1
 slodkiesny.pl##span[id][aria-hidden][style$="z-index: 99999;"]
 smakowitychleb.pl###r-newsleeter-content, .bg-newsletter
+softonic.pl###modal-download-now
 softonic.pl###modal-ei-avast-ei
+softonic.pl##.modal-ad-exit-intent
 sowafinansowa.pl##.underlay, #owl-modal-two, #last_buy_pop
 spolecznosc.ingbank.pl##.lia-panel-dialog.ui-widget.ui-dialog
 sporto.com.pl###pp3
@@ -2081,6 +2084,7 @@ taniewakacje.pl##.qtip-popup-widget.qtip-fullscreen, #qtip-overlay
 teatrkomedia.pl###splash
 teb.pl##.__ipPerunElement
 techsetter.pl##.sgpb-theme-3-overlay, #sgpb-popup-dialog-main-div-wrapper
+telewizjarepublika.pl###popup-ad
 telewizjaswiatlowodowa.pl##.phoneNumberBox, .popupBg
 telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 tkmaxx.pl##.landing-lightbox-box, #landing-lightbox-overlay
@@ -2597,7 +2601,7 @@ computerwelt24.com##.back-top-top
 consumer.huawei.com##.cbg-backtotop
 croatia.hr#?#.footer > .container > .row > .text-center.col-sm-12:-abp-has(.cd-top)
 ctb.com.pl,movieway.pl,oryginalnysmak.pl,phunetcom.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
-czerwionka-leszczyny.pl,straz.gov.pl,tortydladzieci.pl###do-gory
+czeladz.pl,czerwionka-leszczyny.pl,straz.gov.pl,tortydladzieci.pl###do-gory
 czescidobmw.pl##.pageToTop
 czytio.pl,jaw.com.pl###scrollTop-btn
 darent.net,netbiel.pl###scroll-top-top
@@ -2655,6 +2659,7 @@ extraswiecie.pl,modr.pl###vscroll_to_top
 e-dym.pl,sklep.mateuszciawlowski.pl###slidetop
 e-glamour.pl,elnino-parfum.pl##.js-scrollUp
 e-kiosk.pl##.fixed-menu
+e-marcom.pl,fotoprint.pl,kwestiasmaku.com,zloty-pociag.com##.do_gory
 e-sano.pl,eurofirany.com.pl,retrolab.pl###go_up
 e-zikoapteka.pl##.site-scrolltop
 fachowcy.pl,medisept.pl##.scroll-down
@@ -2675,7 +2680,6 @@ forum.optometria.info.pl,goscinnygaj.pl###ToTop
 forum.shinden.pl##.BRRT_logoSmall
 forum.trojmiasto.pl##.go_top
 fotoplus.pl###up-button
-fotoprint.pl,kwestiasmaku.com,zloty-pociag.com##.do_gory
 fratria.pl##.pageTop
 ftt.roto-frank.com##.scroll-container
 funclub.pl##button[aria-label="Wróć na górę"]
@@ -3194,6 +3198,7 @@ www.yahoo.com###app > div > div > div > #YDC-MainCanvas > a[href="https://www.ya
 aaaauto.pl###site-bottom-bar-content > .smoothbox
 adidas.pl,reebok.pl##.QSISlider
 adra.pl,espritshop.pl###feedback
+aftermarket.pl##.helpcrunch-iframe-wrapper
 agroalex.pl,shoplet.pl###x13callback_button
 agrofakt.pl##.agroreporter
 ahe.lodz.pl###chat-invite
