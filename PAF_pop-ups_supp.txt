@@ -254,7 +254,9 @@ sklep.nextmobile.pl###supper-offer, .modal-backdrop
 smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
 smaker.pl###overlay, #popup
 socialpress.pl##.bottom-content-newsletter
+softonic.pl###modal-di-avast:remove()
 softonic.pl###modal-di-opera:remove()
+softonic.pl##+js(nano-remove-elements-onready, #modal-di-avast)
 softonic.pl##+js(nano-remove-elements-onready.js, #modal-di-opera)
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
@@ -412,6 +414,7 @@ shoplet.pl##html.fancybox-lock > body:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-lock:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 shoplet.pl##.fancybox-overlay:has(#x13callback)
+softonic.pl#$?#modal-di-avast { remove: true; }
 softonic.pl#$?#modal-di-opera { remove: true; }
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
