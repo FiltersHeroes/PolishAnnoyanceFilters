@@ -1,6 +1,8 @@
 action.com##.has-popup:style(position: static !important;)
 action.com,aluprof.eu,ekai.pl,jezykiobce.pl##.newsletter-popup
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
+softonic.pl###modal-di-avast:remove()
+softonic.pl##+js(nano-remove-elements-onready, #modal-di-avast)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
 agatabielen.com##.remodal-overlay
