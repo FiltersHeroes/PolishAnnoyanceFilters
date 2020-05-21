@@ -1,8 +1,5 @@
 action.com##.has-popup:style(position: static !important;)
 action.com,aluprof.eu,ekai.pl,jezykiobce.pl##.newsletter-popup
-wakacje.pl##html.modal-active:style(overflow: visible !important;)
-wakacje.pl##html.modal-active > body:style(overflow: visible !important; padding-right: 0 !important;)
-wakacje.pl##body > div[class*=" "]:has(> div[class*=" "] > div[height="auto"] > header > h3[class]:has-text(/^Pomóż nam usprawnić stronę$/))
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
@@ -253,6 +250,9 @@ upolujebooka.pl###myModalExit, .modal-backdrop
 ursus.com.pl##html:style(overflow: visible !important;)
 ursus.com.pl##.opacity1.flexslider-container
 vivrehome.pl##+js(set-constant, appShell.guest, false)
+wakacje.pl##body > div[class*=" "]:has( > div[class*=" "] > div[height="auto"] > header > h3[class]:has-text(/^Pomóż nam usprawnić stronę$/))
+wakacje.pl##html.modal-active > body:style(overflow: visible !important; padding-right: 0 !important;)
+wakacje.pl##html.modal-active:style(overflow: visible !important;)
 walizkazabawek.pl###Widget1, .modal-backdrop
 weathermap.netatmo.com##first-use-slider
 weathermap.netatmo.com##.blured #map, .blured .side-panel, .blured .navbar, .blured .button-control-ctn, .blured .small-banner, .side-panel.blured, .blured #mainwrapper .legend:style(filter: none !important;)
