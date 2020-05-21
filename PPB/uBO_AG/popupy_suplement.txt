@@ -1,5 +1,8 @@
 action.com##.has-popup:style(position: static !important;)
 action.com,aluprof.eu,ekai.pl,jezykiobce.pl##.newsletter-popup
+wakacje.pl##html.modal-active:style(overflow: visible !important;)
+wakacje.pl##html.modal-active > body:style(overflow: visible !important; padding-right: 0 !important;)
+wakacje.pl##body > div[class*=" "]:has(> div[class*=" "] > div[height="auto"] > header > h3[class]:has-text(/^Pomóż nam usprawnić stronę$/))
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
