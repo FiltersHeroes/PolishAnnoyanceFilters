@@ -77,7 +77,7 @@ ecoxpress.pl###subscribe-now-modal, .modal-backdrop
 edulider.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important;)
 ekoteka.pl###popUpModal:remove()
-ekoteka.pl##+js(nano-remove-elements-onready.js, #popUpModal)
+ekoteka.pl##+js(nano-remove-elements-onready, #popUpModal)
 ekoteka.pl,wpolu.pl###popUpModal, .modal-backdrop
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !important;)
@@ -132,7 +132,7 @@ marketerplus.pl##body.is-reveal-open:style(overflow: auto !important;)
 marketerplus.pl##div.reveal-overlay:nth-of-type(4)
 maserati.pl##html.sgpb-disable-page-scrolling:style(overflow-y: auto !important;)
 maserati.pl###sgcboxWrapper, #sgcboxOverlay
-mbmeganarzedzia.pl,parkmania.pl,pozyczkabezbanku.pl,www.kei.pl##+js(setTimeout-defuser, bioEp.showPopup)
+mbmeganarzedzia.pl,parkmania.pl,pozyczkabezbanku.pl,www.kei.pl##+js(no-setTimeout-if, bioEp.showPopup)
 mediaexpert.pl###newsletterModal1, #newsletterModal1 ~ .modal-backdrop
 medme.pl###do-not-leave, .modal-backdrop
 medycznamarihuana.com,spidersweb.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
@@ -211,7 +211,7 @@ rossmann.pl##body.modal-open > div[tabindex][style^="position:"] > div > .modal:
 rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
-rzetelnafirma.pl##+js(setTimeout-defuser, setPopup)
+rzetelnafirma.pl##+js(no-setTimeout-if, setPopup)
 secure.avaaz.org##.page-petition--inactive:style(overflow: auto !important;)
 secure.avaaz.org##.signup-petition-modal-wrapper
 sferis.pl##+js(abort-current-inline-script, $, promoNewsletter)
@@ -230,7 +230,7 @@ socialpress.pl##.bottom-content-newsletter
 softonic.pl###modal-di-avast:remove()
 softonic.pl###modal-di-opera:remove()
 softonic.pl##+js(nano-remove-elements-onready, #modal-di-avast)
-softonic.pl##+js(nano-remove-elements-onready.js, #modal-di-opera)
+softonic.pl##+js(nano-remove-elements-onready, #modal-di-opera)
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 stacjaeksperta.pl##html.no-scroll:style(overflow-y: auto !important;)
