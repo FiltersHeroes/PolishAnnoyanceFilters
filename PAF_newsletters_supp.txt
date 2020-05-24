@@ -1,7 +1,7 @@
 ! Codename: Newsletters - Supplement
 autakrajowe.com.pl###multiBoxHome > div.col-md-6:nth-of-type(2):style(width: 100%)
 dlahandlu.pl##.social.tabs:has( > div.navi > a.active:first-child:watch-attr(class)) > .panes
-eksperymentalnie.com##+js(setTimeout-defuser, CodeKingdomBox)
+eksperymentalnie.com##+js(no-setTimeout-if, CodeKingdomBox)
 euroogrod.com.pl##footer:style(border-top: none !important;)
 e-nobi.pl###social:style(height: auto !Important;)
 gomobi.pl##.onp-sl-blur-area:style(filter: none !important)
@@ -9,14 +9,10 @@ gomobi.pl##.onp-sl-overlap-box
 horex.pl##.footer_block_wrapper > .footer_block > picture > img[src*="/shop_banner_picture/"]:style(visibility: hidden !important;)
 laroxy.pl,sklep.cleverboard.pl###newsletter_block_left:style(display: block !important; visibility: hidden !important;)
 mensahome.eu##.newsletter > *:style(visibility: hidden !important;)
-niezlasztuka.net##+js(setTimeout-defuser, i(), 35000)
+niezlasztuka.net##+js(no-setTimeout-if, i(), 35000)
 nowymarketing.pl##.accessInfoBox
 nowymarketing.pl##.blured:style(filter: none !important;)
 styl-sklep.pl###subReqForm > div > form > .description:style(font-size: 0 !important;)
 szybkanauka.pro##body:style(margin-top: 0 !important;)
 szybkanauka.pro##+js(remove-attr, style, body)
 wrozka.com.pl##.contact_content.custom_html_right_content, .no_bottom_margin.custom_html_right_header:style(width: auto !important;)
-!eksperymentalnie.com##+js(no-setTimeout-if, CodeKingdomBox)
-!eksperymentalnie.com##+js(setTimeout-if, !CodeKingdomBox)
-!niezlasztuka.net##+js(no-setTimeout-if, i(), 35000)
-!niezlasztuka.net##+js(setTimeout-if, !i!(), !35000)
