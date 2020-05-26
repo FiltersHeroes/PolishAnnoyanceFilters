@@ -96,6 +96,7 @@ evertourist.com##.fancybox-overlay:has(#newsletterModal)
 extradom.pl###requestCallStart, #requestCallExit, .modal-backdrop
 e-biznes.pl##.onp-sl-blur-area:style(filter: none !important;)
 e-biznes.pl##.onp-sl-outer-wrap
+e-spar.com.pl###modal-welcome:remove()
 farmer.pl###nowa_strona
 farmer.pl##.windowOpen:style(overflow: auto !important;)
 fifishop.pl,happy-surfer.com,mspdion.org.pl,swiece-zaplonowe.pl,www.epione.pl##.fancybox-margin:style(margin-right: 0 !important;)
@@ -358,6 +359,7 @@ biznes-host.pl##^#myModalPromo
 comperia.pl##^#modal_woman
 diamante-wear.com##^.newsletter__popup
 drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
+e-spar.com.pl##^#modal-welcome
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 intermarche.pl##^div[style="display:none"]:has(a[class="wplightbox"])
 linuxpl.com##^#myModalDomenowy
@@ -393,6 +395,8 @@ comperia.pl$$#modal_woman
 diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 ekoteka.pl#$?#popUpModal { remove: true; }
+e-spar.com.pl#$?#modal-welcome { remove: true; }
+e-spar.com.pl$$#modal-welcome
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
 linuxpl.com$$#myModalDomenowy
