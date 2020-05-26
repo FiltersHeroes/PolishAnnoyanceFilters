@@ -60,8 +60,6 @@ photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-im
 picodi.com##+js(abort-on-property-read, titleBack)
 play.google.com##div[aria-label="Święta pełne gier"][role="dialog"]
 play.google.com###gba:style(height: 60px !important;)
-pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
-pomponik.pl##^div[class="topbar-container"], a[class="common-header__interia-back-button"]
 posnania.eu##.customScroll__bar
 prawokonsumenckie.pl##+js(set-constant, setReplyTitle, noopFunc)
 przepisy.pl##.animation:style(animation: none !important;)
@@ -84,6 +82,8 @@ wp.pl,~www.wp.pl##+js(remove-attr, href, a[data-st-area="Header-back"])
 wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
+!pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
+!pomponik.pl##^div[class="topbar-container"], a[class="common-header__interia-back-button"]
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
 ||vignette.wikia.nocookie.net/wolfquest/images/d/d0/Discord_logo.png/*$image,important,domain=certyficate.it
 !#if !cap_html_filtering
