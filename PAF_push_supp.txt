@@ -5,5 +5,6 @@ filmweb.pl##+js(abort-on-property-read, webPushPublicKey)
 filmweb.pl##^script:has-text(webPushPublicKey)
 filmweb.pl$$script[tag-content="webPushPublicKey"]
 groove.pl##+js(set-constant, push_notification_ready, true)
+meczyki.pl##+js(nano-grant-fake-notification)
 m.leroymerlin.pl,nokia.com##+js(set-constant, Notification.requestPermission, falseFunc)
 !groove.pl##+js(abort-on-property-read, Notification.requestPermission)
