@@ -1,7 +1,6 @@
 ~poczta.wp.pl,wp.pl,~~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
 grailpoint.com###simplemodal-container, #simplemodal-overlay
-spolecznosc.ing.pl##div[aria-label="Feedback for community"][role="dialog"]
-spolecznosc.ing.pl##.ui-widget-overlay
+spolecznosc.ing.pl##div[aria-label="Feedback for community"][role="dialog"], .ui-widget-overlay
 voip24sklep.pl##.fx-wrapper-modal
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
 3doffice.pl,sklep.domiogrod-tarnow.pl,sklep.pesan.pl,sklepsumowy.pl###oknoPopUp, #tloPopUp
@@ -52,7 +51,7 @@ askarzeznik.pl,greenpolska.com,ogrodnictwo.expert,primadance.pl###popup-box-gfcr
 astratex.pl###PopUpBanner
 astromagia.pl##.newsletter-popup, #calendar-popup-overlay
 atat.pl,bananki.pl,chemia-atat.pl,elektryka-atat.pl,oswietlenie-atat.pl,papis.pl,zywnosc-atat.pl###exitpopup, #exitpopup_bg
-atomstore.pl,ccnews.pl,deku.pl,jagiellonski.pl,meczelive.tv,meczenazywo.pl,mutyzm.org.pl,portalmorski.pl,uczyibawi.pl###fm-pu-container
+atomstore.pl,ccnews.pl,deku.pl,jagiellonski.pl,meczelive.tv,meczelive.pl,meczenazywo.pl,mutyzm.org.pl,portalmorski.pl,uczyibawi.pl###fm-pu-container
 auchan.pl###popupbox, #exposeMask
 auchan.pl##.picture-full.greybox
 audioforte.com.pl##.christmas-popup
@@ -205,8 +204,8 @@ finanseodkuchni.pl##.fca_eoi_featherlight
 florini.pl###fancybox-overlay
 florini.pl#?##fancybox-wrap:-abp-has(form)
 forgeofempires.com###offer-diamonds
-forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl##.ui-dialog[aria-describedby*="zobacztakzearticle"], .ui-widget-overlay
-forumpediatryczne.pl##.ui-dialog[aria-describedby*="ajaxDialoghttpwwwforumpediatryczneplzobacztakze"], .ui-widget-overlay
+forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl##.ui-dialog[aria-describedby*="zobacztakze"], .ui-widget-overlay
+forumpediatryczne.pl##.ui-dialog[aria-describedby*="zobacztakze"], .ui-widget-overlay
 forum.duolingo.com#?#body > div.ReactModalPortal:not(:empty):-abp-has(img[src$="/images/duo_wave.svg"])
 fotografwdrodze.pl###exitpopup-modal
 francuskie.pl##.greensboro-optin-visible
@@ -329,8 +328,7 @@ mateuszrus.pl##.moModal.moOptinForm
 mazovia.pl##.blok-DefaultSubskrypcja
 mebline.co.uk,mebline.nl###popup-message-container
 mecze24.pl##.ui-front
-meczelive.tv##.ui-dialog:nth-of-type(9)
-meczelive.tv##.ui-widget-overlay
+meczelive.tv,meczelive.pl##.ui-dialog[aria-describedby="newsletter-dialog"], .ui-widget-overlay
 meczenazywo.pl##.ui-dialog[aria-describedby="newsletter-dialog"], .ui-widget-overlay
 mediarun.com##.fancybox-outer, .fancybox-overlay
 media-tech.eu###popup_mediatech
@@ -385,7 +383,7 @@ nova.edu.pl###popup_overlay, #popup_content
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowakonfederacja.pl##.qookies
 nowymarketing.pl###overlay-campaign
-nyxprofessionalmakeup.pl##.ui-widget-overlay, .js_newsletter_subscribe
+nyxprofessionalmakeup.pl##.js_newsletter_subscribe, .ui-widget-overlay
 obi.pl##.open.ankieta
 obtkarma.pl##.fancybox-overlay[style="display: block; width: auto; height: auto; background: rgba(255, 255, 255, 0.4);"]
 obtkarma.pl#?#.fancybox-wrap:-abp-has(#popupnews-form)
