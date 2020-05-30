@@ -208,6 +208,8 @@ pewex.pl##body, html:style(overflow: auto !important; margin-right: 0 !important
 pewex.pl###popupStart
 playstation.com##+js(abort-current-inline-script, $, PopupManager)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
+pl.tommy.com##.ReactModalPortal:has(.newsletter--modal)
+pl.tommy.com##.ReactModal__Body--open:style(overflow: auto !important;)
 pmsocho.com##.cp-custom-viewport, .cp-oveflow-hidden, .cp-window-viewport:style(overflow: auto !important;)
 pmsocho.com##.cp-webinar-container.cp-modal-popup-container.cp-module
 polferries.pl###polferries-popup-global
