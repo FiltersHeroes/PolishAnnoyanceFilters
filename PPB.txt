@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: vDLrN0d322phWnrGgB0xTg
+! Checksum: 6EXvV/8WRlwoyfFDCCU6lQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 02 Jun 2020, 21:51 UTC+02
-! Version: 2020.6.2.2
+! Last modified: Tue, 02 Jun 2020, 21:57 UTC+02
+! Version: 2020.6.2.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 02 cze 2020, 21:51 UTC+02
+! Aktualizacja: wto, 02 cze 2020, 21:57 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -4554,8 +4554,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2020.6.2.0
-!@ Last modified: Tue, 02 Jun 2020, 21:51 UTC+02
+!@ Version: 2020.6.2.1
+!@ Last modified: Tue, 02 Jun 2020, 21:57 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -4566,7 +4566,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2020 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2020.6.2.0 aktualizacja: wto, 02 cze 2020, 21:51 UTC+02
+!@ v.2020.6.2.1 aktualizacja: wto, 02 cze 2020, 21:57 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -7803,7 +7803,6 @@ jbzd.cc,jbzdy.cc,jbzdy.co,jbzdy.eu##body > div[class^="app_gdpr"]
 minecraftpolska.net##.cookieinfo
 mybank.pl##.ciasteczka
 tvn24.pl###msgLayer
-wyborcza.pl##.twitter, .fbShare
 wzory-cv.com##.gatewayBar
 xboxforum.pl##.notice--cookie
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=jbzd.cc|jbzdy.cc|jbzdy.co|jbzdy.eu
@@ -7825,7 +7824,6 @@ volcano.pl#@##cookiesModal
 !@
 !@ Wyjątki
 allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
-appleworld.pl#@#.fa-facebook
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
 epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
 eurogamer.pl#@##optanon:not(body):not(html)
