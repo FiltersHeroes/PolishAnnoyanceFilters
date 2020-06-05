@@ -98,6 +98,7 @@ forum.gofin.pl,rowery-elektryczne.pl,socialpress.pl,unityline.pl,www.ozog.pl,zeg
 fpiec.pl##body.no-scroll main:style(opacity: 1 !important;)
 fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
+galskor.com##+js(abort-current-inline-script, $, fancybox)
 gazetkonosz.pl###subscribeModal, .modal-backdrop
 giftshop24.pl###moda_popupnewsletter, .modal-backdrop
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
@@ -175,6 +176,8 @@ oleole.pl##html.remodal-is-locked:style(overflow-y: auto !important;)
 oleole.pl###main-page:style(overflow-x: visible !important;)
 online.citibank.pl###AdventPopup, .modal-backdrop
 open.fm##+js(addEventListener-defuser, unload)
+opoczno.eu##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
+opoczno.eu##.fancybox-overlay-fixed
 pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
 panel.kei.pl##.popup-modal:has(a[href*="/polls/ankieta"])
 panwybierak.pl##.iziModal-isOverflow:style(position: static !important; overflow: visible !important;)
@@ -220,11 +223,16 @@ rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
 rzetelnafirma.pl##+js(no-setTimeout-if, setPopup)
+sanbetdevelopment.pl##body:style(overflow-y: auto !important;)
+sanbetdevelopment.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
+sanbetdevelopment.pl##.mfp-ready
 secure.avaaz.org##.page-petition--inactive:style(overflow: auto !important;)
 secure.avaaz.org##.signup-petition-modal-wrapper
 sferis.pl##+js(abort-current-inline-script, $, promoNewsletter)
 shipgratis.eu##body[style*="padding-right"]:style(padding-right: 0 !important;)
 shoplet.pl##+js(set-constant, x13callback_cookie, 1)
+shop.mango.com##.modal-container-newsletter
+shop.mango.com##.scroll__block:style(overflow: auto !important; height: auto !important;)
 skalnik.pl##.newspopup-blur:style(filter: none !important;)
 skalnik.pl##.newspopup_ov_hidden:style(overflow: auto !important;)
 skalnik.pl##.newspopup_up_bg
@@ -265,6 +273,7 @@ wakacje.pl##html.modal-active:style(overflow: visible !important;)
 walizkazabawek.pl###Widget1, .modal-backdrop
 weathermap.netatmo.com##first-use-slider
 weathermap.netatmo.com##.blured #map, .blured .side-panel, .blured .navbar, .blured .button-control-ctn, .blured .small-banner, .side-panel.blured, .blured #mainwrapper .legend:style(filter: none !important;)
+westwingnow.pl##+js(no-setTimeout-if, showOverlay)
 wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 www.brw.com.pl##.js:style(overflow-y: visible !important;)
@@ -293,12 +302,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
-westwingnow.pl##+js(no-setTimeout-if, showOverlay)
-shop.mango.com##.modal-container-newsletter
-shop.mango.com##.scroll__block:style(overflow: auto !important; height: auto !important;)
-galskor.com##+js(abort-current-inline-script, $, fancybox)
-sanbetdevelopment.pl##.mfp-ready
-sanbetdevelopment.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
-sanbetdevelopment.pl##body:style(overflow-y: auto !important;)
-opoczno.eu##.fancybox-overlay-fixed
-opoczno.eu##html.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
