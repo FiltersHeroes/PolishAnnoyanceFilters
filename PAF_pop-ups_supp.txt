@@ -340,6 +340,7 @@ drzwi-cal.pl##.pum-open:style(overflow: auto !important; padding-right: 0 !impor
 drzwi-cal.pl##.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl##body.has-open-popup:style(overflow: visible !important; padding-right: 0 !important;)
 homebook.pl##.popup-overlay:has(.popup-content--newsletter)
+kursszybkiegoczytania.pl##.et_bloom_popup[data-idle_timeout]:remove()
 linuxpl.com###myModalDomenowy, .modal-backdrop
 lookcam.com###lookcam-fb-modal, .modal-backdrop
 lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
@@ -370,6 +371,7 @@ drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl##^#modal-welcome
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 intermarche.pl##^div[style="display:none"]:has(a[class="wplightbox"])
+kursszybkiegoczytania.pl##^.et_bloom_popup[data-idle_timeout]
 linuxpl.com##^#myModalDomenowy
 lookcam.com##^#lookcam-fb-modal
 makarun.pl##^.makarun-modal
