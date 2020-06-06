@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: zTheX1sr5kAUVqNXTahvtQ
+! Checksum: 63P1SRss9HkdMfEi11/nuw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 06 Jun 2020, 16:00 UTC+02
-! Version: 2020.6.6.1
+! Last modified: Sat, 06 Jun 2020, 20:00 UTC+02
+! Version: 2020.6.6.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 06 cze 2020, 16:00 UTC+02
+! Aktualizacja: sob, 06 cze 2020, 20:00 UTC+02
 !
 !
 !
@@ -133,6 +133,7 @@ avans.pl##.b-main_newsletter
 avans.pl,electro.pl,lot.com,mediaexpert.pl##.is-newsletter
 avaro.pl##.smsapi-sidetitle
 awa24.pl##div[class^="stopka"] > div[class^="newsletter"]
+azbudownictwo.com,media-tech.eu,reserved.com##.footer-newsletter
 azdoc.pl##div.col-md-6.p-4:nth-of-type(2)
 azjatyckibazar.com###footer > div.col-sm-no-pd.col-sm-4:nth-of-type(1)
 b2btrade.eu#?#.vertical-top.rwd-col-6:-abp-contains(newsletter)
@@ -277,8 +278,8 @@ ctpartners.pl##.ftresc2
 culture.pl,trans.info##.newsletter-popup
 cumulus.pl,um.jaslo.pl##.Newsletter
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.block-newsletter, .header-bottom-newsletter
-cybsecurity.org###mc4wp_form_widget-2
 cybsecurity.org,demagog.org.pl###mc4wp-form-1
+cybsecurity.org,duzekubki.pl###mc4wp_form_widget-2
 cyfrowynauczyciel.pl###mab-widget-2
 czasdzieci.pl###id_boxNews
 czasnawnetrze.pl##div[id^="menu"][class^="menu"] > div[class^="newsletter-"], div[id^="menu"][class^="menu"] > div[class^="newsletter-"] + .menu-left-border
@@ -733,7 +734,6 @@ mediaexpert.pl#?#.cart_summary:-abp-has(.cart_summary_joinUs)
 mediamarkt.pl##.b-header_metaItem:nth-of-type(3), .m-newsletterBox
 medianarodowe.com##.widget_radium_newsletter
 mediarun.com,siecprzedsiebiorczychkobiet.pl##.vc_row-has-fill
-media-tech.eu,reserved.com##.footer-newsletter
 medicover.pl##.block-footer-menu-1 > .unbulleted.poziom1 > li:nth-of-type(4), .reg15
 meditrendy.pl##div.wpb_row.row:nth-of-type(4) > .col-sm-12.wpb_column, .easymail_form_widget
 melagu.pl##.ty-footer-form-block > .cm-processed-form
@@ -1083,6 +1083,7 @@ rywalbp.pl###sliding_box1
 r-gol.com##.wrapper--newsletter
 r.pl##.newsletter-footer-box
 salaterka.pl##.fca_eoi_form
+salonyhoff.pl###section_subReqForm
 sandecja.org##.newsletter_bg
 satel.pl#?#div.news:nth-of-type(6):-abp-has( > form > #addr)
 scandinavian-clinic.pl###footer .footer-sidebar4
@@ -1297,6 +1298,7 @@ vertedrzwi.eu##.newsletter_fixed_button
 vidart.com.pl##.moduletableacy-email-footer
 vidaxl.pl##.newsletter-item
 vinotti.eu##.newsletter.block
+virgobooks.pl##.block_newsletter-wrapper
 virtualo.pl##.banner-newsletter-wrapper
 virtualo.pl##.newsletter-bottom-wrapper
 vissavi.pl###newsletter-header-holder
@@ -1433,6 +1435,7 @@ zyciepabianic.pl###widget-newsletter
 ||forms.freshmail.io/f/$subdocument,domain=wei.org.pl
 ||forms.freshmail.io/f/*/*/index.html$subdocument,domain=eshop.wurth.pl|ita.tools
 ||forms.freshmail.io^$subdocument,domain=hurtownia-spozywcza.pl
+||genway.pl/images/frontend/theme/whitegen/social/newsletter.png
 ||klinkierbud.pl/css/img/baner_newsletter.jpg
 ||obi.pl/images/footer/newsletter.jpg
 ||oknoserwis.pl/img/newsletter.gif
