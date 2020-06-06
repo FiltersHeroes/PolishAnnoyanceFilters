@@ -247,6 +247,7 @@ softonic.pl##+js(nano-remove-elements-onready, #modal-di-avast)
 softonic.pl##+js(nano-remove-elements-onready, #modal-di-opera)
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
+sprawyzdrowia.pl##+js(no-setTimeout-if, i(), 3000)
 stacjaeksperta.pl##html.no-scroll:style(overflow-y: auto !important;)
 stacjaeksperta.pl##.no-scroll body:style(overflow: auto !important;)
 stacjaeksperta.pl##.wph-modal, .wph-modal--mask
@@ -299,4 +300,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
-sprawyzdrowia.pl##+js(no-setTimeout-if, i(), 3000)
