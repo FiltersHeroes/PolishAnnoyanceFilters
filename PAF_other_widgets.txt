@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: +S6THC1t0T+rcF6OtZxx9g
+! Checksum: Y1PMiRHqng2Vh/SwyJm2+w
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 06 Jun 2020, 12:00 UTC+02
-! Version: 2020.6.6.0
+! Last modified: Sat, 06 Jun 2020, 16:00 UTC+02
+! Version: 2020.6.6.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 06 cze 2020, 12:00 UTC+02
+! Aktualizacja: sob, 06 cze 2020, 16:00 UTC+02
 !
 !
 !
@@ -101,6 +101,7 @@ bieganieuskrzydla.pl##.c-card--dock
 bigbrother.tvn.pl##.__ipPerunElement[style^="position"]
 bikeboard.pl###magazine-btn
 bilbordy.info###tab
+biomak.eu###leaselinkSlideButton1
 bithub.pl##.st-comment
 bitland-b2c.platforma.ab.pl###rightBoxes
 biznes2biznes.com###zakladki > div:nth-child(-n+4)
@@ -143,6 +144,7 @@ clineo.pl##.ceneo-widget
 codojedzenia.pl,teraz-wilanow.pl##.slide-dock
 coinroom.com##.news-block
 comarch.pl##.widget-detach-right-bar-container
+context.reverso.net###register-popup-bottom
 copperconcept.org##.coco-caf-banner
 cowsierscipiszczy.pl##.CampaignType--floating
 creativecommons.org###deed-donate-slide
@@ -201,7 +203,6 @@ elcompolska.pl###loaderek
 electrolux.pl##.WebsiteFeedback
 electro-outlet.pl###tws_a_2
 elektroda.pl##.button_open
-elektro-outlet.net,meblohurt.eu,sklep.art-magazyn.eu##.mraty-widget
 elka.pl###bannerBanderolaTlo, #bannerBanderolaPozycja
 elka.pl,miedziowe.pl###showhidecart
 elle.pl##.prev-next-item
@@ -464,6 +465,7 @@ myfitnessplace.pl##.app-ico
 myspeed.pl###load.ring-loader
 m.leroymerlin.pl##.smart-app-banner
 m.pl.aliexpress.com##.download-bar
+m.teksciory.interia.pl###bottomPromo
 m.trojmiasto.pl###floating_more_news[class*="--fixed"]
 m.youtube.com##.mealbar-promo-renderer
 m.zapytaj.onet.pl##.onet-bar.bottom
@@ -798,6 +800,7 @@ z-hotel.com###repuso_floating
 !
 !
 ! Ogólne reguły
+~pl##.mraty-widget:lang(pl)
 pl##.bilet
 pl##.llSlideButton
 pl##.polecamyBox
