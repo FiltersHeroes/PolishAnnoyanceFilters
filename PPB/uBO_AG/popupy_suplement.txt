@@ -37,6 +37,8 @@ avita.pl,jan-mar.pl,pracownia-manufaktura.pl##.tingle-modal
 baby.nivea.pl###fancybox-container-1:has(#newsletter-popup)
 baby.nivea.pl##.compensate-for-scrollbar:style(overflow: auto !important; margin-right: 0 !important;)
 bambineo.pl##.fancybox-overlay:has(#newsletter_popup)
+bedziepieklo.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
+bedziepieklo.pl##.swal2-container
 befado.pl###r_popup
 befado.pl,logitechg.com##body[style]:style(overflow: auto !important;)
 beta.netia.pl##body[style="overflow: hidden;"]:style(overflow: auto !important;)
@@ -119,6 +121,8 @@ kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1!important;)
 kire.pl##.gafancybox-lock > body, html.gafancybox-lock:style(overflow: visible !important;)
 kire.pl##.gafancybox-margin:style(margin-right: 0 !important;)
 kire.pl##.gafancybox-overlay
+kiribaticlub.pl##body:style(overflow: auto !important;)
+kiribaticlub.pl###ns-popup-box, #mask
 kmziz.pl###full_newsletter_modal, .modal-backdrop
 kofiup.pl###giftModal, .modal-backdrop
 kofiup.pl,mediaexpert.pl,rossmann.pl,tpa-group.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important)
@@ -210,6 +214,7 @@ prawokonsumenckie.pl##body:style(overflow: auto !important; height: initial !imp
 prawokonsumenckie.pl##.popup[role]
 prywatnoscwsieci.pl##.CampaignType--popup.Campaign
 prywatnoscwsieci.pl##.om-position-popup:style(overflow: auto !important;)
+pureveg.pl##+js(no-setTimeout-if, #myWorning)
 quiosque.pl##.modal-open:style(overflow: visible !important; margin: 0 !important;)
 radziejewska.pl###sbox-overlay, #sbox-window
 radziejewska.pl##.body-overlayed:style(overflow-y: auto !important;)
@@ -300,8 +305,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
-pureveg.pl##+js(no-setTimeout-if, #myWorning)
-kiribaticlub.pl###ns-popup-box, #mask
-kiribaticlub.pl##body:style(overflow: auto !important;)
-bedziepieklo.pl##.swal2-container
-bedziepieklo.pl##html.prevent-scroll-desktop:style(overflow: auto !important;)
