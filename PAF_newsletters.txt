@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 63P1SRss9HkdMfEi11/nuw
+! Checksum: JkYPPPtn09HsvGXlA1uNpQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 06 Jun 2020, 20:00 UTC+02
-! Version: 2020.6.6.2
+! Last modified: Sun, 07 Jun 2020, 20:00 UTC+02
+! Version: 2020.6.7.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 06 cze 2020, 20:00 UTC+02
+! Aktualizacja: nie, 07 cze 2020, 20:00 UTC+02
 !
 !
 !
@@ -136,6 +136,7 @@ awa24.pl##div[class^="stopka"] > div[class^="newsletter"]
 azbudownictwo.com,media-tech.eu,reserved.com##.footer-newsletter
 azdoc.pl##div.col-md-6.p-4:nth-of-type(2)
 azjatyckibazar.com###footer > div.col-sm-no-pd.col-sm-4:nth-of-type(1)
+azzun.pl##.site-footer__ezine-hld
 b2btrade.eu#?#.vertical-top.rwd-col-6:-abp-contains(newsletter)
 babyboom.pl##.zapisz-newsletter
 balladine.com,developer.mozilla.org,disqus.com,portalodo.com,unisono.eu##.newsletter-box
@@ -235,6 +236,7 @@ centrumpapieru.pl##.cp_footer__newsletter
 centrumprasowe.pap.pl##a[href="/cp/pl/newsletter/"]
 centrumxp.pl##.foot-nav__right
 centrum-marino.com###stay-connected, #footer-social-icons
+cersanit.com.pl###footer-page .js-medium-col-1.medium-4.small-6.columns
 cezar.eu##.container > div.col50.kolumna:nth-of-type(2)
 cgm.pl,sklep.olekmotocykle.pl##.footerNewsletter
 channel9.msdn.com##.mouseClick.mediumIcon.email
@@ -265,6 +267,7 @@ comtrade.pl,topfish.pl##.n56467_container
 conet.pl,historykon.pl,michalgrabarski.eu,pierwsze-kroki.com,rehus.pl,spozywo.pl,yt360.pl###text-4
 confero.pl##.confero_newsletter_form
 confero.pl#?#.confero_social_icon:-abp-has(.icon-envelope)
+corona-fishing.pl###glowna-newsletter
 cortland.pl##.letter
 cottonina.pl##.in-viewport.t-alt.relative
 cozaile.pl##.c-guide-newsletter
@@ -637,7 +640,7 @@ kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER)
 kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER) + div.StrTresc
 kochanamama.pl##.pmpIMail
 kolczewska.pl##.ulp-tab-right-middle.ulp-tab > .ulp-tab-content
-komputerymarkowe.pl###newsletter_block_footer
+komputerymarkowe.pl,piernikowysklep.pl###newsletter_block_footer
 kom-ster.pl,mebline.co.uk,mebline.nl,mebline.pl##.moduletable_newsletter
 konopnysklep.com.pl##.block_newsletter > .block_newsletter_data > div > *:not(.footer-newsletter-social)
 kontaktowe.pl###nbj
@@ -711,6 +714,7 @@ mamotoja.pl##.nlt-footer
 mamstartup.pl##.hb-right.submitClearInput
 mango.pl###smSubscriptonBox
 mango.pl##.banner-slim
+manorhouse.pl##.site-newsletter
 manta.com.pl##.col-md-6.news_right
 marbo-sport.pl###top_newsletter
 marketdino.pl,martextruck.pl##.section-newsletter
