@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: l1Op/cf+4j5Qsd3YX18k+w
+! Checksum: fZovktWLfo/3AzswuiKNsg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 09 Jun 2020, 12:00 UTC+02
-! Version: 2020.6.9.0
+! Last modified: Tue, 09 Jun 2020, 20:01 UTC+02
+! Version: 2020.6.9.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 09 cze 2020, 12:00 UTC+02
+! Aktualizacja: wto, 09 cze 2020, 20:01 UTC+02
 !
 !
 !
@@ -481,6 +481,8 @@ freshmail.pl##.newsletter-shortcode-form
 fresh-market.pl###kolp > h4
 fresh-market.pl###kolp > .ramka.box_p
 fundacjadominikana.org###bottom.row-fluid > #sp-bottom6
+fundacjajoannyradziwill.pl###custom_html-4 a[href="//fundacjajoannyradziwill.pl/#newsletter"]
+fundacjajoannyradziwill.pl###custom_html-4 .custom-html-widget.textwidget > h4.widget-title:nth-of-type(1)
 fundacjawolnosci.org###email-subscription
 galeriabronowice.pl##.news
 galeriakatowicka.eu##.metka
@@ -638,7 +640,7 @@ km-net.pl##a[href="/kontakt"]
 km-net.pl###wysuwane
 knowband.com##.kbGetUpdates
 kobieta.pl##.text-center.sidebar-box:nth-of-type(11)
-kobietydokodu.pl,niezlomni.com,woolloop.pl,zagranie.com###text-10
+kobietydokodu.pl,marfafashion.com,niezlomni.com,woolloop.pl,zagranie.com###text-10
 kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER)
 kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER) + div.StrTresc
 kochanamama.pl##.pmpIMail
@@ -646,6 +648,7 @@ kolczewska.pl##.ulp-tab-right-middle.ulp-tab > .ulp-tab-content
 komputerymarkowe.pl,piernikowysklep.pl###newsletter_block_footer
 kom-ster.pl,mebline.co.uk,mebline.nl,mebline.pl##.moduletable_newsletter
 konopnysklep.com.pl##.block_newsletter > .block_newsletter_data > div > *:not(.footer-newsletter-social)
+konstantinkanin.com###mailchimp-top-bar
 kontaktowe.pl###nbj
 kontakt-simon.com.pl##.newsletter-subscribe__button
 kormoran-rowy.pl##.site-footer__row--top > .inner-section > .align-right.site-footer__col
