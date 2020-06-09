@@ -1,6 +1,4 @@
 action.com##.has-popup:style(position: static !important;)
-marchewkowepole.com###popup-modal,.modal-backdrop
-marchewkowepole.com##.modal-open:style(overflow: auto !important;)
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
@@ -46,7 +44,7 @@ befado.pl,logitechg.com##body[style]:style(overflow: auto !important;)
 beta.netia.pl##body[style="overflow: hidden;"]:style(overflow: auto !important;)
 beta.netia.pl##.popup-beta
 bgzoptima.pl##.popup:has(.popup-contact__item + .popup-contact__item + .popup-contact__item)
-bilety24.pl,biznes-host.pl,confronter.pl,darmarsklep.pl,dhosting.pl,dwdomel.pl,endo.pl,kartafitsport.pl,mikesport.pl,minecraft.org.pl,mintshost.pl,nowafarmacja.pl,pantalerzyk.pl,panwybierak.pl,sklep.polmarkus.com.pl,sklep.technica.pl,um24.pl,walizkazabawek.pl,www.kzkgop.com.pl,zico-bike.pl##.modal-open:style(overflow: auto !important;)
+bilety24.pl,biznes-host.pl,confronter.pl,darmarsklep.pl,dhosting.pl,dwdomel.pl,endo.pl,kartafitsport.pl,marchewkowepole.com,mikesport.pl,minecraft.org.pl,mintshost.pl,nowafarmacja.pl,pantalerzyk.pl,panwybierak.pl,sklep.polmarkus.com.pl,sklep.technica.pl,um24.pl,walizkazabawek.pl,www.kzkgop.com.pl,zico-bike.pl##.modal-open:style(overflow: auto !important;)
 bilety24.pl,moliera2.com,quiosque.pl###newsletter-popup, .modal-backdrop
 biofemina.pl,vebo.pl###news_popup, #news_popup ~ .modal-backdrop
 biznesalert.pl,cantino.pl,deezee.pl,dpm.eu,ef.pl,ergokantor.pl,medycznamarihuana.com,piernikowysklep.pl,sanbetdevelopment.pl,sklephonda.pl,socialtigers.pl,stoprocent.com,trenerangielskiego.com,ursus.com.pl,www.pl.weber,zaradnyfinansowo.pl,zyciepabianic.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
@@ -106,6 +104,9 @@ fpiec.pl##.full-screen-overlay
 galskor.com##+js(abort-current-inline-script, $, fancybox)
 gazetkonosz.pl###subscribeModal, .modal-backdrop
 giftshop24.pl###moda_popupnewsletter, .modal-backdrop
+gromada.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
+gromada.pl##.fancybox-margin:style(margin-right: 0 !important;)
+gromada.pl##.fancybox-overlay-fixed
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
 husse.pl##body.fancybox-active:style(overflow: auto !important;)
 husse.pl###fancybox-container-1
@@ -140,6 +141,9 @@ logitechg.com##.email-subscription-modal
 lubimyczytac.pl###modalZoom
 lubimyczytac.pl###modalZoom ~ .modal-backdrop:not(:has( ~ .modal-backdrop))
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
+marchewkowepole.com###popup-modal,.modal-backdrop
+marfafashion.com###pum-12747
+marfafashion.com##.pum-open:style(overflow: auto !important;)
 marketerplus.pl##body.is-reveal-open:style(overflow: auto !important;)
 marketerplus.pl##div.reveal-overlay:nth-of-type(4)
 maserati.pl##html.sgpb-disable-page-scrolling:style(overflow-y: auto !important;)
@@ -304,8 +308,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
-gromada.pl##.fancybox-overlay-fixed
-gromada.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
-gromada.pl##.fancybox-margin:style(margin-right: 0 !important;)
-marfafashion.com###pum-12747
-marfafashion.com##.pum-open:style(overflow: auto !important;)
