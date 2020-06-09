@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ae+MU9GrWgdaGAuUWAWhWg
+! Checksum: BhDXV/45evPci3GHLO8eWA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 09 Jun 2020, 19:00 UTC+02
-! Version: 2020.6.9.1
+! Last modified: Tue, 09 Jun 2020, 20:01 UTC+02
+! Version: 2020.6.9.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 09 cze 2020, 19:00 UTC+02
+! Aktualizacja: wto, 09 cze 2020, 20:01 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -481,6 +481,8 @@ freshmail.pl##.newsletter-shortcode-form
 fresh-market.pl###kolp > h4
 fresh-market.pl###kolp > .ramka.box_p
 fundacjadominikana.org###bottom.row-fluid > #sp-bottom6
+fundacjajoannyradziwill.pl###custom_html-4 a[href="//fundacjajoannyradziwill.pl/#newsletter"]
+fundacjajoannyradziwill.pl###custom_html-4 .custom-html-widget.textwidget > h4.widget-title:nth-of-type(1)
 fundacjawolnosci.org###email-subscription
 galeriabronowice.pl##.news
 galeriakatowicka.eu##.metka
@@ -638,7 +640,7 @@ km-net.pl##a[href="/kontakt"]
 km-net.pl###wysuwane
 knowband.com##.kbGetUpdates
 kobieta.pl##.text-center.sidebar-box:nth-of-type(11)
-kobietydokodu.pl,niezlomni.com,woolloop.pl,zagranie.com###text-10
+kobietydokodu.pl,marfafashion.com,niezlomni.com,woolloop.pl,zagranie.com###text-10
 kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER)
 kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER) + div.StrTresc
 kochanamama.pl##.pmpIMail
@@ -646,6 +648,7 @@ kolczewska.pl##.ulp-tab-right-middle.ulp-tab > .ulp-tab-content
 komputerymarkowe.pl,piernikowysklep.pl###newsletter_block_footer
 kom-ster.pl,mebline.co.uk,mebline.nl,mebline.pl##.moduletable_newsletter
 konopnysklep.com.pl##.block_newsletter > .block_newsletter_data > div > *:not(.footer-newsletter-social)
+konstantinkanin.com###mailchimp-top-bar
 kontaktowe.pl###nbj
 kontakt-simon.com.pl##.newsletter-subscribe__button
 kormoran-rowy.pl##.site-footer__row--top > .inner-section > .align-right.site-footer__col
@@ -1661,6 +1664,7 @@ cieszanowrockfestiwal.pl,wantmore.pl##.et_bloom_trigger_bottom.et_bloom_popup
 clickfashion.pl###newsletter-popup, .layer_cart_overlay
 cocomoda.pl###welcome_newsletter
 colian.pl##.home-popup
+containex.pl###eventTeaser, #cboxOverlay
 cottonina.pl##.go-away
 cowsierscipiszczy.pl##.optin-monster-saas-overlay, .jupiter-optin-visible
 creativetools.pl##.__b-popup1__, #newsletter_pop_up
@@ -1762,6 +1766,7 @@ forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
 forum.joomla.pl###fancybox-overlay, #fancybox-wrap
 fotografwdrodze.pl###exitpopup-modal
 francuskie.pl##.greensboro-optin-visible
+fundacjajoannyradziwill.pl##.freshmail_popup
 funtech.pl##.dylematy
 g2aarena.pl##.sg-popup-builder-content, .sgpb-popup-overlay
 gala24.pl##.edrone--popup--overlay
@@ -1856,6 +1861,7 @@ kombo.krakow.pl##body > div:nth-of-type(4), body > div:nth-of-type(6)
 kombo.krakow.pl###divGoTop2Mob
 komorkomat.pl##.offer_modal.order_contact_offer_modal.in.fade.vue_modal
 koncertomania.pl#?#.conv_state_desktop.conv-container:-abp-has(#conv11671)
+konstantinkanin.com##.hustle-show
 kontri.pl###element_to_pop_up, .bModal
 korczyk.pl,spidersweb.pl##.pop-up
 koszulkowo.com,parkmania.pl###bio_ep, #bio_ep_bg
@@ -3382,6 +3388,7 @@ computer-alliance.pl##.bazz-widget
 concordiaubezpieczenia.pl##.sidebarContact
 confronter.pl###cfModalOpen
 consumer.huawei.com##.nps-survey
+containex.pl###togglePopup, #contactPopup
 corona-fishing.pl##.baner-right-sliding
 cosinus.pl###dc-tab-button
 creative.media.pl##.side_contact_us
