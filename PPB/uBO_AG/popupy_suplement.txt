@@ -84,6 +84,7 @@ ekai.pl##html > body:style(overflow: auto !important;)
 ekoteka.pl###popUpModal:remove()
 ekoteka.pl##+js(nano-remove-elements-onready, #popUpModal)
 ekoteka.pl,wpolu.pl###popUpModal, .modal-backdrop
+eksperymentalnie.com##+js(no-setTimeout-if, CodeKingdomBox)
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !important;)
 euro.com.pl,oleole.pl##.remodal-overlay:has( ~ .remodal-wrapper[class*="open"]:has( > .remodal span[class*="heading"]:has-text(NEWSLETTER)))
@@ -171,6 +172,7 @@ newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 new.reddit.com,www.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
 new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
 niedziela.pl###exitIntentModal, .modal-backdrop
+niezlasztuka.net##+js(no-setTimeout-if, i(), 35000)
 njumobile.pl##+js(abort-on-property-read, window.onbeforeunload)
 nowafarmacja.pl##.freshmail-modal, .modal-backdrop
 nowasprzedaz.pl,reaktor.pwn.pl,tfkable.com##.is-reveal-open:style(overflow: auto !important;)
@@ -255,6 +257,7 @@ softonic.pl##+js(nano-remove-elements-onready, #modal-di-opera)
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 sprawyzdrowia.pl##+js(no-setTimeout-if, i(), 3000)
+spyshop.pl##+js(abort-current-inline-script, $, #popUp)
 stacjaeksperta.pl##html.no-scroll:style(overflow-y: auto !important;)
 stacjaeksperta.pl##.no-scroll body:style(overflow: auto !important;)
 stacjaeksperta.pl##.wph-modal, .wph-modal--mask
@@ -306,6 +309,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
-niezlasztuka.net##+js(no-setTimeout-if, i(), 35000)
-eksperymentalnie.com##+js(no-setTimeout-if, CodeKingdomBox)
-spyshop.pl##+js(abort-current-inline-script, $, #popUp)
