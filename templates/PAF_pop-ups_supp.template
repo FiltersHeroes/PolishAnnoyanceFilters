@@ -16,3 +16,6 @@
 !#if cap_user_stylesheet
 @include popupy_userCSS
 !#endif
+!#if env_legacy
+@include popupy_UXP
+!#endif
