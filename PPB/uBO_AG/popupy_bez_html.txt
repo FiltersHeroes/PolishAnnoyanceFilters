@@ -1,10 +1,8 @@
-4kdownload.com##+js(remove-attr, data-remodal-id, .widget-modal)
-annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
-annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:not(:has(.cboxPhoto))
+4kdownload.com##+js(ra, data-remodal-id, .widget-modal)
 apynews.pl###fb-modal, .modal-backdrop
 apynews.pl,linuxpl.com,lookcam.com,makarun.pl,mediasam.pl,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
-bartek.com.pl##+js(abort-current-inline-script, $, popupNewsletter)
-biznes-host.pl##+js(abort-current-inline-script, $, myModalPromo)
+bartek.com.pl##+js(acis, $, popupNewsletter)
+biznes-host.pl##+js(acis, $, myModalPromo)
 comperia.pl###modal_woman, .modal-backdrop
 comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 diamante-wear.com##.newsletter__popup
@@ -24,7 +22,8 @@ mprofi.pl##.tve-leads-lightbox
 muscat.pl###discountPopup, .modal-backdrop
 ogrodosfera.pl###NewsletterExit, .modal-backdrop
 ogrodosfera.pl,zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
-sportowefakty.wp.pl##+js(remove-attr, id, .exitpopup)
+sportowefakty.wp.pl##+js(ra, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 !annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 !annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
+fajerwerki.shop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,zegarkiabc.pl,chrisbenzshop.pl###newsletter_colorbox:remove()
