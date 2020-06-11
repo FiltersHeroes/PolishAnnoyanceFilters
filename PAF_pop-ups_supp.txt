@@ -50,8 +50,7 @@ bedziepieklo.pl,pasmanteria.eu##html.prevent-scroll-desktop:style(overflow: auto
 befado.pl###r_popup
 befado.pl,logitechg.com##body[style]:style(overflow: auto !important;)
 belvederehotel.pl##+js(aopr, pf_queen.push)
-
-
+beta.netia.pl##body[style="overflow: hidden;"]:style(overflow: auto !important;)
 beta.netia.pl##.popup-beta
 bgzoptima.pl##.popup:has(.popup-contact__item + .popup-contact__item + .popup-contact__item)
 bilety24.pl,biznes-host.pl,confronter.pl,darmarsklep.pl,dhosting.pl,dwdomel.pl,endo.pl,kartafitsport.pl,kuriernet.pl,marchewkowepole.com,mikesport.pl,minecraft.org.pl,mintshost.pl,nowafarmacja.pl,pantalerzyk.pl,panwybierak.pl,sklep.polmarkus.com.pl,sklep.technica.pl,um24.pl,walizkazabawek.pl,www.kzkgop.com.pl,zico-bike.pl##.modal-open:style(overflow: auto !important;)
@@ -94,7 +93,6 @@ ecoxpress.pl###subscribe-now-modal, .modal-backdrop
 edulider.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important;)
 ekoteka.pl###popUpModal:remove()
-ekoteka.pl##+js(nano-remove-elements-onready, #popUpModal)
 ekoteka.pl,wpolu.pl###popUpModal, .modal-backdrop
 eksperymentalnie.com##+js(no-setTimeout-if, CodeKingdomBox)
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
@@ -158,6 +156,8 @@ lalorraine.pl,mypersonaltrainer.pl,sw-rita.pl,wishbone.pl##html:style(overflow: 
 lalorraine.pl,sw-rita.pl##.sg-popup-overlay, .sgpb-popup-dialog-main-div-wrapper
 lancerto.com##.modals-wrapper:has(.popup-newsletter)
 lancerto.com##._has-modal:style(overflow: auto !important;)
+lesniow.pl##.mfp-ready
+lesniow.pl,sanbetdevelopment.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 logitechg.com##.email-subscription-modal
 lubimyczytac.pl###modalZoom
@@ -197,7 +197,7 @@ ncez.pl,panel.kei.pl,www.kzkgop.com.pl##.modal-backdrop
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 new.reddit.com,www.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
-new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
+new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has( > div[role="dialog"][aria-modal]:empty)
 niedziela.pl###exitIntentModal, .modal-backdrop
 niezlasztuka.net##+js(no-setTimeout-if, i(), 35000)
 njumobile.pl##+js(abort-on-property-read, window.onbeforeunload)
@@ -264,7 +264,6 @@ rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
 rzetelnafirma.pl##+js(no-setTimeout-if, setPopup)
-sanbetdevelopment.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 secure.avaaz.org##.page-petition--inactive:style(overflow: auto !important;)
 secure.avaaz.org##.signup-petition-modal-wrapper
 sferis.pl##+js(abort-current-inline-script, $, promoNewsletter)
@@ -287,8 +286,6 @@ smaker.pl###overlay, #popup
 socialpress.pl##.bottom-content-newsletter
 softonic.pl###modal-di-avast:remove()
 softonic.pl###modal-di-opera:remove()
-softonic.pl##+js(nano-remove-elements-onready, #modal-di-avast)
-softonic.pl##+js(nano-remove-elements-onready, #modal-di-opera)
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 sprawnymarketing.pl###pop_facebook
@@ -366,6 +363,7 @@ diamante-wear.com##.newsletter__popup
 diamante-wear.com##.popup__opened:style(overflow: auto !important;)
 drzwi-cal.pl##.pum-open:style(overflow: auto !important; padding-right: 0 !important;)
 drzwi-cal.pl##.pum-theme-promocja-urodzinowa.popmake-overlay
+fajerwerki.shop.pl###newsletter_colorbox:remove()
 homebook.pl##body.has-open-popup:style(overflow: visible !important; padding-right: 0 !important;)
 homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 kursszybkiegoczytania.pl##.et_bloom_popup[data-idle_timeout]:remove()
@@ -389,7 +387,7 @@ zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 4kdownload.com##^.thanks-modal
 4kdownload.com##^.widget-modal
 alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
-annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl##^#newsletter_colorbox
+annalotan.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,spex.pl,zegarkiabc.pl,zegarkizpasja.pl##^#newsletter_colorbox
 apynews.pl##^#fb-modal
 bartek.com.pl##^script:has-text(popupNewsletter)
 biznes-host.pl##^#myModalPromo
@@ -432,8 +430,6 @@ biznes-host.pl$$#myModalPromo
 comperia.pl$$#modal_woman
 diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
-ekoteka.pl#$?#popUpModal { remove: true; }
-e-spar.com.pl#$?#modal-welcome { remove: true; }
 e-spar.com.pl$$#modal-welcome
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
@@ -453,8 +449,6 @@ shoplet.pl##html.fancybox-lock > body:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-lock:style(overflow: visible !important;)
 shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 shoplet.pl##.fancybox-overlay:has(#x13callback)
-softonic.pl#$?#modal-di-avast { remove: true; }
-softonic.pl#$?#modal-di-opera { remove: true; }
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
 !mobile.twitter.com##body > div > div > div > div > div > div > div > div > div[tabindex="0"]:contains(/(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)/):matches-css(position:fixed)
