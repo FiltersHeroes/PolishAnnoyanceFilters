@@ -176,7 +176,7 @@ ncez.pl,panel.kei.pl,www.kzkgop.com.pl##.modal-backdrop
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 new.reddit.com,www.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
-new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(div[role="dialog"][aria-modal]:empty)
+new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(> div[role="dialog"][aria-modal]:empty)
 niedziela.pl###exitIntentModal, .modal-backdrop
 niezlasztuka.net##+js(no-setTimeout-if, i(), 35000)
 njumobile.pl##+js(abort-on-property-read, window.onbeforeunload)
