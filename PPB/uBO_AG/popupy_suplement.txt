@@ -314,3 +314,5 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
+belvederehotel.pl##.fancybox-overlay-fixed:not(:has(.fancybox-nav)):watch-attr(class)
+belvederehotel.pl##.fancybox-lock:style(overflow: auto !important; padding-right: 0 !important;)
