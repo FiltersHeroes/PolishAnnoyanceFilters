@@ -85,7 +85,6 @@ ecoxpress.pl###subscribe-now-modal, .modal-backdrop
 edulider.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important;)
 ekoteka.pl###popUpModal:remove()
-ekoteka.pl##+js(nano-remove-elements-onready, #popUpModal)
 ekoteka.pl,wpolu.pl###popUpModal, .modal-backdrop
 eksperymentalnie.com##+js(no-setTimeout-if, CodeKingdomBox)
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
@@ -258,8 +257,6 @@ sklep.nextmobile.pl###supper-offer, .modal-backdrop
 socialpress.pl##.bottom-content-newsletter
 softonic.pl###modal-di-avast:remove()
 softonic.pl###modal-di-opera:remove()
-softonic.pl##+js(nano-remove-elements-onready, #modal-di-avast)
-softonic.pl##+js(nano-remove-elements-onready, #modal-di-opera)
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 sprawyzdrowia.pl##+js(no-setTimeout-if, i(), 3000)
@@ -315,3 +312,5 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
+lesniow.pl##.mfp-ready
+lesniow.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
