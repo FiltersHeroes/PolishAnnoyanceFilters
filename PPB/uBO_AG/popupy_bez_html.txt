@@ -11,6 +11,7 @@ diamante-wear.com##.newsletter__popup
 diamante-wear.com##.popup__opened:style(overflow: auto !important;)
 drzwi-cal.pl##.pum-open:style(overflow: auto !important; padding-right: 0 !important;)
 drzwi-cal.pl##.pum-theme-promocja-urodzinowa.popmake-overlay
+fajerwerki.shop.pl###newsletter_colorbox:remove()
 homebook.pl##body.has-open-popup:style(overflow: visible !important; padding-right: 0 !important;)
 homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 kursszybkiegoczytania.pl##.et_bloom_popup[data-idle_timeout]:remove()
@@ -27,4 +28,3 @@ sportowefakty.wp.pl##+js(remove-attr, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 !annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 !annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
-fajerwerki.shop.pl###newsletter_colorbox:remove()

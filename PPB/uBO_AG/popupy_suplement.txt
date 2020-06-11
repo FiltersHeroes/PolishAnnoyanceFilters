@@ -44,7 +44,6 @@ bedziepieklo.pl,pasmanteria.eu##html.prevent-scroll-desktop:style(overflow: auto
 befado.pl###r_popup
 befado.pl,logitechg.com##body[style]:style(overflow: auto !important;)
 belvederehotel.pl##+js(aopr, pf_queen.push)
-
 beta.netia.pl##body[style="overflow: hidden;"]:style(overflow: auto !important;)
 beta.netia.pl##.popup-beta
 bgzoptima.pl##.popup:has(.popup-contact__item + .popup-contact__item + .popup-contact__item)
@@ -140,6 +139,8 @@ lalorraine.pl,mypersonaltrainer.pl,sw-rita.pl,wishbone.pl##html:style(overflow: 
 lalorraine.pl,sw-rita.pl##.sg-popup-overlay, .sgpb-popup-dialog-main-div-wrapper
 lancerto.com##.modals-wrapper:has(.popup-newsletter)
 lancerto.com##._has-modal:style(overflow: auto !important;)
+lesniow.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
+lesniow.pl##.mfp-ready
 limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 logitechg.com##.email-subscription-modal
 lubimyczytac.pl###modalZoom
@@ -175,7 +176,7 @@ ncez.pl,panel.kei.pl,www.kzkgop.com.pl##.modal-backdrop
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 new.reddit.com,www.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
-new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(> div[role="dialog"][aria-modal]:empty)
+new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has( > div[role="dialog"][aria-modal]:empty)
 niedziela.pl###exitIntentModal, .modal-backdrop
 niezlasztuka.net##+js(no-setTimeout-if, i(), 35000)
 njumobile.pl##+js(abort-on-property-read, window.onbeforeunload)
@@ -313,5 +314,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
-lesniow.pl##.mfp-ready
-lesniow.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
