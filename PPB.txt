@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: sE2f/Nzr1EpowScbzqVxIw
+! Checksum: MiCrTyLAK/TwaJo0V4cBQg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Thu, 11 Jun 2020, 15:00 UTC+02
-! Version: 2020.6.11.1
+! Last modified: Thu, 11 Jun 2020, 16:01 UTC+02
+! Version: 2020.6.11.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 11 cze 2020, 15:00 UTC+02
+! Aktualizacja: czw, 11 cze 2020, 16:01 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1799,6 +1799,7 @@ godealla.pl,wakacjezprocentem.pl##.overlay
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
 goodie.pl###video-banner-modal
 go.tvn24.pl,player.pl,www.pzu.pl##.__ipPerunElement[style^="position"]
+gpcodziennie.pl###JPO
 greenasia.eu,saluti.pl,uzywki.expert##.wceapp_popup.modal, .wceapp_popup.mask
 greenelka.pl###cfblb_modal
 growbox.pl###pf_bg, .pf_sub
@@ -2009,7 +2010,7 @@ onkyo.pl##div#dwbox-bkg, div#dwbox-box
 ono24.info##.bts-popup
 opencard.pl###trialModal, .modal-backdrop
 opensubtitles.org###fadeSub, #lightSub
-opinie-perfumy.pl##[data-title="KOD RABATOWY"], .ulp-overlay
+opinie-perfumy.pl###lepopup-popup-15, #lepopup-popup-15-overlay
 optiland.pl##.mod_popup, .bg_shadow
 orange.pl###advertslice
 osada-sniezka.pl###popModal, .modal-backdrop
@@ -3992,7 +3993,7 @@ credstepfunds.pl##.page_loader
 crmodus.pl##.kac-sm-zl
 cryptoacademy.club,inteligentnydom.org,kryminalni24.info,miedzyrzecz.biz,piaseczno.eu,polonia.nl,weneedmore.space,wislakrakow.com##.td-more-articles-box
 cybersport.pl##.is-active.pbox
-czasnadmorze.pl,legiobiznes.pl###rum_sst_tab
+czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
 czytamyetykiety.pl##.metaslider
 dany-meble.pl##body > .hidden-sm.hidden-xs
@@ -4359,6 +4360,7 @@ omega.om.pl##.right.ecp-button
 online.citibank.pl##.call-to-action-bottom
 oohmagazine.pl##.festiwal_card_tab
 opinie24.pl##.box-size.side-box-container
+opinie-perfumy.pl##.postNavigation
 orange.pl##.payback-floating-sidebar__trigger
 ozonee.pl###free_shiping_info, #tws_i_2
 o.pl###codemanipulator-tools
