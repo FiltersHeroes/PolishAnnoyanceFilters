@@ -3,6 +3,7 @@ apynews.pl###fb-modal, .modal-backdrop
 apynews.pl,linuxpl.com,lookcam.com,makarun.pl,mediasam.pl,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##+js(acis, $, popupNewsletter)
 biznes-host.pl##+js(acis, $, myModalPromo)
+chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,zegarkiabc.pl###newsletter_colorbox:remove()
 comperia.pl###modal_woman, .modal-backdrop
 comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 diamante-wear.com##.newsletter__popup
@@ -26,4 +27,3 @@ sportowefakty.wp.pl##+js(ra, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 !annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 !annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
-fajerwerki.shop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,zegarkiabc.pl,chrisbenzshop.pl###newsletter_colorbox:remove()
