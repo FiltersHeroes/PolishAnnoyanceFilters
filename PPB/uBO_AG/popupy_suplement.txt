@@ -35,6 +35,8 @@ auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(aeld, scroll, event.dispatch)
+avisplacezabaw.pl##.mypop
+avisplacezabaw.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
 avita.pl,educol.pl,jan-mar.pl,pracownia-manufaktura.pl##.tingle-enabled:style(position: static !important; overflow: auto !important;)
 avita.pl,educol.pl,jan-mar.pl,pracownia-manufaktura.pl##.tingle-modal
 baby.nivea.pl###fancybox-container-1:has(#newsletter-popup)
@@ -51,6 +53,8 @@ bgzoptima.pl##.popup:has(.popup-contact__item + .popup-contact__item + .popup-co
 bilety24.pl,biznes-host.pl,confronter.pl,darmarsklep.pl,dhosting.pl,dwdomel.pl,endo.pl,kartafitsport.pl,kuriernet.pl,marchewkowepole.com,mikesport.pl,minecraft.org.pl,mintshost.pl,nowafarmacja.pl,pantalerzyk.pl,panwybierak.pl,sklep.polmarkus.com.pl,sklep.technica.pl,um24.pl,walizkazabawek.pl,www.kzkgop.com.pl,zico-bike.pl##.modal-open:style(overflow: auto !important;)
 bilety24.pl,moliera2.com,quiosque.pl###newsletter-popup, .modal-backdrop
 biofemina.pl,vebo.pl###news_popup, #news_popup ~ .modal-backdrop
+bitner.com.pl###myModal
+bitner.com.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 biznesalert.pl,cantino.pl,deezee.pl,dpm.eu,ef.pl,ergokantor.pl,medycznamarihuana.com,piernikowysklep.pl,sanbetdevelopment.pl,sklephonda.pl,socialtigers.pl,stoprocent.com,trenerangielskiego.com,ursus.com.pl,www.pl.weber,zaradnyfinansowo.pl,zyciepabianic.pl##.mfp-ready.mfp-wrap, .mfp-ready.mfp-bg
 biznesalert.pl,socialtigers.pl##html:style(overflow: visible !important; margin-right: 0 !important)
 blog.lh.pl,ckr.pl,gannet.pl,grupa-tense.pl,hairbyjul.pl,ideau.pl,innergo.pl,instytutozonoterapii.pl,kam-sport.pl,kreatywna-europa.eu,magnapolonia.org,marfafashion.com,nowa-energia.com.pl,nsix.pl,odczasudoczasu.pl,pcg.pl,pl.geofumadas.com,pol-ukr.com,sukcesedukacja.pl,unia-sklep.pl,zeglarski.info##.pum-open:style(overflow: auto !important;)
@@ -97,6 +101,7 @@ extradom.pl###requestCallStart, #requestCallExit, .modal-backdrop
 e-spar.com.pl###modal-welcome:remove()
 farmer.pl###nowa_strona
 farmer.pl##.windowOpen:style(overflow: auto !important;)
+fdm.pl##+js(acis, $, fancybox)
 fifishop.pl,gromada.pl,happy-surfer.com,mspdion.org.pl,swiece-zaplonowe.pl,www.epione.pl##.fancybox-margin:style(margin-right: 0 !important;)
 fmmobile.pl###lead-modal, .modal-backdrop
 forum.gofin.pl###KW_Tlo, #KW_Okno
@@ -315,8 +320,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
-fdm.pl##+js(acis, $, fancybox)
-bitner.com.pl###myModal
-bitner.com.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
-avisplacezabaw.pl##.mypop
-avisplacezabaw.pl##html:style(overflow: auto !important; margin-right: 0 !important;)
