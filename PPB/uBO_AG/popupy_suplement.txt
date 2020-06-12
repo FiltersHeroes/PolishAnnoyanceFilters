@@ -67,7 +67,6 @@ cieplikpodrozuje.pl,edugrafia.pl##.wph-modal, .wph-modal-mask
 confronter.pl##html:style(overflow-y: auto !important;)
 confronter.pl###cfModal, .modal-backdrop
 cyberdefence24.pl,defence24.com,defence24.pl,energetyka24.com,kidsworld.pl,ncez.pl,politykazdrowotna.com,space24.pl###newsletter-modal
-sekrecik.pl###myWorning, .modal-backdrop
 darmarsklep.pl,sklep.polmarkus.com.pl###WebPushAddSubscription, .modal-backdrop
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
 deccoria.pl##.dc-modal-is-opened.dc-modal-wrapper, .dc-modal-is-opened.dc-modal-overlay
@@ -116,6 +115,9 @@ husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
 ideau.pl##.pum[data-popmake*="nowy-produkt"], .overlay
 idream.pl###modal-getresponse, .modal-backdrop
 infosecurity24.pl###popupModal, .modal-backdrop
+innergo.pl##html.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
+innergo.pl###pum-9591
+innergo.pl##.pum-open:style(overflow: auto !important;)
 instagram.com##body[style*="overflow: hidden;"]:style(overflow: visible !important;)
 instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
@@ -154,6 +156,9 @@ marketerplus.pl##div.reveal-overlay:nth-of-type(4)
 maserati.pl##html.sgpb-disable-page-scrolling:style(overflow-y: auto !important;)
 maserati.pl###sgcboxWrapper, #sgcboxOverlay
 mbmeganarzedzia.pl,parkmania.pl,pozyczkabezbanku.pl,www.kei.pl##+js(nostif, bioEp.showPopup)
+mebin.pl##html[style]:style(overflow: auto !important; margin-right: 0 !important;)
+mebin.pl##.mfp-ready
+meb.com.pl##+js(nostif, #myWorning)
 mediaexpert.pl###newsletterModal1, #newsletterModal1 ~ .modal-backdrop
 medme.pl###do-not-leave, .modal-backdrop
 medycznamarihuana.com,spidersweb.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
@@ -240,6 +245,7 @@ rylko.com###modal-newsletter
 rzetelnafirma.pl##+js(nostif, setPopup)
 secure.avaaz.org##.page-petition--inactive:style(overflow: auto !important;)
 secure.avaaz.org##.signup-petition-modal-wrapper
+sekrecik.pl###myWorning, .modal-backdrop
 sferis.pl##+js(acis, $, promoNewsletter)
 shipgratis.eu##body[style*="padding-right"]:style(padding-right: 0 !important;)
 shoplet.pl##+js(set, x13callback_cookie, 1)
@@ -313,9 +319,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
-innergo.pl###pum-9591
-innergo.pl##.pum-open:style(overflow: auto !important;)
-innergo.pl##html.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
-meb.com.pl##+js(nostif, #myWorning)
-mebin.pl##.mfp-ready
-mebin.pl##html[style]:style(overflow: auto !important; margin-right: 0 !important;)
