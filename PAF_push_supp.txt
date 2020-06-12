@@ -1,10 +1,10 @@
 ! Codename: Web Push - Supplement
-adaware.com,anime-odcinki.pl,chillizet.pl,epoznan.pl,flvto.biz,grupamagnum.eu,imged.pl,mediaexpert.pl,new.reddit.com,radiozet.pl,unisono.eu,wish.com,wtk.pl,~www.radiozet.pl,www.reddit.com,yoursclothing.pl##+js(abort-on-property-read, Notification.requestPermission)
-egami-image.com,mpcforum.pl,winclub.pl##+js(set-constant, ips.utils.notification.supported, false)
-filmweb.pl##+js(abort-on-property-read, webPushPublicKey)
+adaware.com,anime-odcinki.pl,chillizet.pl,epoznan.pl,flvto.biz,grupamagnum.eu,imged.pl,mediaexpert.pl,new.reddit.com,radiozet.pl,unisono.eu,wish.com,wtk.pl,~www.radiozet.pl,www.reddit.com,yoursclothing.pl##+js(aopr, Notification.requestPermission)
+egami-image.com,mpcforum.pl,winclub.pl##+js(set, ips.utils.notification.supported, false)
+filmweb.pl##+js(aopr, webPushPublicKey)
 filmweb.pl##^script:has-text(webPushPublicKey)
 filmweb.pl$$script[tag-content="webPushPublicKey"]
-groove.pl##+js(set-constant, push_notification_ready, true)
+groove.pl##+js(set, push_notification_ready, true)
 meczyki.pl##+js(nano-grant-fake-notification)
-m.leroymerlin.pl,nokia.com##+js(set-constant, Notification.requestPermission, falseFunc)
+m.leroymerlin.pl,nokia.com##+js(set, Notification.requestPermission, falseFunc)
 !groove.pl##+js(abort-on-property-read, Notification.requestPermission)
