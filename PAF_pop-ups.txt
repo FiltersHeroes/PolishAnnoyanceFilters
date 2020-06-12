@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ti1VWm8FYLa2bJETvHf8kA
+! Checksum: aGiF7GbtUWP+UFZjH0Uv6w
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Fri, 12 Jun 2020, 12:01 UTC+02
-! Version: 2020.6.12.0
+! Last modified: Fri, 12 Jun 2020, 19:00 UTC+02
+! Version: 2020.6.12.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pią, 12 cze 2020, 12:01 UTC+02
+! Aktualizacja: pią, 12 cze 2020, 19:00 UTC+02
 !
 !
 !
@@ -106,6 +106,7 @@ beautikon.com###mteo_popup_bg_layer
 bemuke.pl##div[id^="tws_i_"]
 beskidy.news##.c-pop-up
 beslow.pl##.ulp-window[data-title*="Newsletter"], .ulp-overlay
+bestape.pl,instamarketing.pl##.popup, .popup-overlay
 bestcentrum.pl##.modal-popup
 bgsw.pl,piwolucja.pl,sklep.batida.pl##.popmake-overlay
 bielskakraina.pl,delikatesy.pl##.overlay
@@ -324,7 +325,6 @@ inford.eu###layer-popup
 infoski.pl###boxpopup, #overlaj
 inpost.pl###popup-message-window, #popup-message-background
 inspro.org.pl##.freshmail_dialog.ui-widget.ui-dialog, .ui-widget-overlay
-instamarketing.pl##.popup, .popup-overlay
 instytutlogopedyczny.pl##.pytajnik
 interia.pl##.error-page-layer
 interiore.pl###popup-content, #popup-overlay
@@ -345,6 +345,7 @@ justjoin.it##.join-fb-popup
 kalkulatorkalorii.net###getresponse, .modal-backdrop
 kameshop.pl##.background, #tws_s_100001, #tws_i_100001
 kamira90.blogspot.com###fbox-background, #fbox-close
+karmiepsiaki.pl###fb-back
 karmiepsiaki.pl###fb-exit
 karpiowy.pl##.newletter-popup, .b-modal
 kasotronik.pl,medpozyczka.pl,okmoneta.pl,pozyczymyci.pl###popupEmailPhone
@@ -649,6 +650,7 @@ spreadshirt.pl##.show.js-promo-layer
 sprzedam.pl###api817-banner
 ssangyong.pl###hot_offer
 stamary.pl##.fancybox-overlay-fixed
+starter.net.pl###wow-modal-overlay-1
 stili.pl###iai_webpush_toplayer, #toplayer_newsletter
 stoicway.net##.pop-up-box
 stopfermom.eu##.special-popup
@@ -860,6 +862,7 @@ zuch.media###spu-10366, #spu-bg-10366
 ||sat-charts.eu/js/fcbkpopup.js
 ||sklep.rms.pl/js/rms_copy_copy/popup.js
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
+||starter.net.pl/wp-content/plugins/modal-window/assets/css/style.min.css
 ||superkoszyk.pl/media/nl_modal/js/delay1page.js
 ||szkla.com/js/newsletter_popup.js
 ||timeandwatches.pl/modules/mod_onscreen_facebook_likebox_popup/assets/js/jquery.colorbox-min.js
