@@ -10,7 +10,6 @@ azzun.pl,manorhouse.pl###scroll-container:style(overflow: auto !important; width
 azzun.pl,manorhouse.pl##.scrollbar-track
 bankobranie.blogspot.com###sideSocial:style(height: auto !important;)
 bithub.pl##.st-post-share:style(position: static !important;)
-bludshop.com##+js(abort-on-property-read, onblur)
 budujemydom.pl##.magazyn-label .m-okladka:style(bottom: 0 !important;)
 budujemydom.pl##.magazyn-label:style(position:static !important;)
 build.opensuse.org##.flash-and-announcement:style(position: static !important; z-index: 10 !important;)
@@ -79,7 +78,7 @@ wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:s
 wandermap.net###sidebar[style]:style(max-width: 390px)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
 wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
-wp.pl,~www.wp.pl##+js(remove-attr, href, a[data-st-area="Header-back"])
+wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
 wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
@@ -89,7 +88,7 @@ www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(
 ||vignette.wikia.nocookie.net/wolfquest/images/d/d0/Discord_logo.png/*$image,important,domain=certyficate.it
 !#if !cap_html_filtering
 komputerswiat.pl###ks_breaking_news:style(position: absolute !important; left: -3000px !important;)
-newonce.radio##+js(remove-attr, href, [rel="shortcut icon"][href$=".gif"])
+newonce.radio##+js(ra, href, [rel="shortcut icon"][href$=".gif"])
 !#endif
 !#if cap_html_filtering
 komputerswiat.pl##^#ks_breaking_news
