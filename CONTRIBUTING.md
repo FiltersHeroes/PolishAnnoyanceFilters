@@ -4,6 +4,7 @@ NIE blokujemy/ukrywamy:
    - opisujących utrudnienia w wysyłkach, zamówieniach i odbiorze
    - opisujących zmiany funkcjonowania transportu
    - oryginalnie nie zawierających żadnej treści
+   - zawierających komunikaty o pełnoletności
 * reklam zewnętrznych
 * elementów społecznościowych (oprócz pop-upów)
 * mechanizmów antyadblockowych
