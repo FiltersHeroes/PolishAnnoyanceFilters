@@ -1,11 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 9RwRyPnf3LaUInCXM72o3g
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
 ! Last modified: Sun, 14 Jun 2020, 20:00 UTC+02
-! Version: 2020.6.14.2
+! Version: 2020.6.14.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -472,8 +471,8 @@ muratordom.pl###nlt_popup
 mydetoxtea.pl###siteCover
 mylomza.pl###fadeinbox
 myloview.pl##.subskrypcja, .ui-widget-overlay
+myob.pl#?##popup-message-window:-abp-has(p > a >img[src*="popup_desktop"])
 myob.pl###popup-message-background
-myob.pl#?##popup-message-content:-abp-has( > p > a > img[src*="popup_desktop"])
 mysize.com.pl###popup_box, #overlay
 m.czesciauto24.pl##.cps_app
 m.smaker.pl##.apkInfoPopup
