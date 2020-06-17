@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: POVHPFtTdDzxC202LI6KOw
+! Checksum: w1m4Hk7L2DKlORziuscKmw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 15 Jun 2020, 20:00 UTC+02
-! Version: 2020.6.15.0
+! Last modified: Wed, 17 Jun 2020, 20:00 UTC+02
+! Version: 2020.6.17.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 15 cze 2020, 20:00 UTC+02
+! Aktualizacja: śro, 17 cze 2020, 20:00 UTC+02
 !
 !
 !
@@ -174,6 +174,7 @@ bissole.pl##a[href="#newsletter"]
 bissole.pl,foodarea.pl,pierwszynamapie.pl,rozsadnibracia.pl###text-6
 bitcoin-online.pl#?#.block-title:-abp-contains(Newsletter)
 bithub.pl##.widget_bs-newsletter-mailchimp
+biuroprasowe.pl#?#.right-col p:nth-of-type(2) > b:-abp-contains(newsletter)
 biznesalert.pl,czaszegarkow.pl,fasardi.com,sirt.pl,sklep.granna.pl,superprezenty.pl##.subscribe
 blip.pl###salesmanagoIframe
 blip.pl##.front-newsletter
@@ -964,6 +965,7 @@ pl.pandora.net##.bottom-email-signup
 pl.primo.com##footer .p-columns:nth-of-type(2)
 pl.ryobitools.eu##[id*="RyobiFooterSignUp_txt"], [id$="RyobiFooterSignUp_lblTitle"], [id$="RyobiFooterSignUp_btnSignUp"]
 pl.sportsdirect.com##.signup-wrapper
+pl.weekendmaxmara.com##.newsletter.box
 pocztazdrowia.pl##.pull-right.col-xs-12.col-sm-12.col-md-5.col-lg-4
 podrywaj.org###block-block-34
 podyplomie.pl##.footer > .section > .row > div:nth-of-type(1) > .form-flex
@@ -1158,7 +1160,6 @@ slimebox.pl##.newsletter-widget-5
 slimwallet.pl##.newsletter-block-footer
 slusarczyk-bmw.pl###musli > li:nth-of-type(3)
 smaczny.pl##.stopka-smaczny > .col-md-8.col-xs-24:nth-of-type(1)
-smakowitychleb.pl###r-newsleeter-content, .bg-newsletter
 smalltronic.pl##.NaglowekNewsletter, .ModulNewsletter
 smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
 sniadaniezkadra.onet.pl##.footerMenuBoxNewsletter
@@ -1453,6 +1454,8 @@ zus.pox.pl##.moduletable:nth-of-type(5)
 zyciepabianic.pl###col1 > .widget:nth-of-type(3)
 zyciepabianic.pl###widget-newsletter
 !decathlon.pl###footer div[class*="column"]:nth-of-type(3) .ct-appBox
+||biuroprasowe.pl/userfiles/_CMS_/EPR3/baner_newsletter.jpg
+||biuroprasowe.pl/userfiles/_CMS_/EPR/biuroprasowe-reklama.jpg
 ||carry.pl//themes/default/img/newsletter1.png
 ||dobremiejsce.org/wp-content/themes/dobremiejsce_org_pds/images/s2-980.jpg
 ||forms.freshmail.io/f/$subdocument,domain=wei.org.pl
