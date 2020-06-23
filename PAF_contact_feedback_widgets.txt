@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /85cCLyH6QMLCipSf/PObg
+! Checksum: IEc+fSmGvE3ut5OZXd0UXw
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Fri, 19 Jun 2020, 12:00 UTC+02
-! Version: 2020.6.19.0
+! Last modified: Tue, 23 Jun 2020, 20:00 UTC+02
+! Version: 2020.6.23.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pią, 19 cze 2020, 12:00 UTC+02
+! Aktualizacja: wto, 23 cze 2020, 20:00 UTC+02
 !
 !
 !
@@ -126,6 +126,7 @@ dekoracjascian.com,pep.pl##.quick-contact
 dekordia.pl##.info.left.fixed-module
 dewelopart.pl###leftquickcontact
 diversesystem.com###app > footer ~ .container
+dlaspania.pl##iframe[id^="mcs_"][src*="chat"]
 dobrefinanse.co.uk##.form-content-btn
 dodomku.pl##.btn-chat-toggle
 dolcar.auto.pl,jackvision.pl,mleczarze.pl###jz-callback-icon
@@ -326,6 +327,8 @@ optitaxi.pl###uptocall-mini
 oracle.com##.ochat_slideout, .cw21help
 outside.com.pl##.bonfire-slideout-button
 ox.pl##.contact-with-office
+panmaterac.pl###call-container-floating
+panmaterac.pl###lhc_container_v2
 parkrozrywkizawada.pl,poklocki.pl,quantec.pl##.fa-paper-plane
 partyworld.pl,pomadziarz.pl###grw_sidebox
 pasland.pl###panel
@@ -454,6 +457,7 @@ vitay.pl###serviceRatingBox
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(-n+2)
 wakacje.pl###rightTabs > .rightSpeech
 walizkazabawek.pl###ue_widget
+webiso.pl##div[class*="-widget-button-wrapper"]
 westhill.pl##.wh-cta
 wielton.com.pl##.fast-contact-widget
 wienerberger.pl##.social-sharing-overlay > .list-unstyled
