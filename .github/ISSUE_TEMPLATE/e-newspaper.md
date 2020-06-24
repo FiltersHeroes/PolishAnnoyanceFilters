@@ -1,5 +1,5 @@
 ---
-name: Blocki z prenumeratami
+name: Bloki z prenumeratami
 about: Block with e-newspapper subscription
 labels: prenumerata
 ---
