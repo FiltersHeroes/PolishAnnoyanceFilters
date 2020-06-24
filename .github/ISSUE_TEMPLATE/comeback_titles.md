@@ -1,7 +1,7 @@
 ---
 name: Strony z zmienianym tytułem na "Wróc do…"
-about: Arrows
-labels: Pages with the title changed to "Back to…"
+about: Pages with the title changed to "Back to…"
+labels: powrotny tytuł
 ---
 
 <!--
