@@ -1,10 +1,26 @@
 gazetasenior.pl###custom_html-19
 gazetasenior.pl#?#.fn-content > .fn-builder > p:-abp-has( > a[href*="/newsletter-gazeta"] > img)
+dziennikpolski24.pl#?#.atomsPromotionsLink.component:-abp-has(a[href*="/wykup-dostep/"][aria-label$="w formie gazety online"])
 gs24.pl#?#.atomsPromotionsLink.component:-abp-has(a[href*="/wykup-dostep/"][aria-label$="w formie gazety online"])
-ketrzyn.wm.pl###header > a[href*="kupgazete.pl"]
+wm.pl###header > a[href*="kupgazete.pl"]
 niezalezna.pl##.columnRight > a[href^="https://prenumerata.gazetapolska.pl/"]
 nowinykrapkowickie.pl##.region-jedynka.region > .block .field-content
 przelom.pl##.widget > .epress
 reportergazeta.pl##.sidebar > #media_image-2
 tygodnik-krapkowicki.info###Mod3
 ||tabletowo.pl/wp-content/uploads/2020/06/banner-10-lecie-tabletowo-magazyn.png
+
+przegladlokalny.eu##.right-sidebar > .right-header, .right-sidebar > .text-center
+tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/) + br + div
+tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/)
+gazetapolska.pl##.region-banergora.region .view-content
+mensis.pl###custom_html-3
+ktociewyleczy.pl###avt-korona
+viva.pl##.medium-order-210.subscription
+esquire.pl##.magazine-subscription-widget.widget
+gazetapolska.pl###block-views-najnowszy-spis-block-1, #block-views-ostatninumer-block-1, #header_footera
+swietajno-szczycienskie.wm.pl##.highlight:-abp-has(.box-ewydanie)
+liberte.pl##.entry-leftside > .headline, .entry-leftside > .headline + .row, .box-magazyn2
+rynek-kolejowy.pl##.najnowszyNumerRK, .miesiecznikRotatorBox
+superhistoria.pl###footer > .section-issue
+forumakademickie.pl###miesieczniki
