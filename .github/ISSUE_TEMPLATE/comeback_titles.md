@@ -1,6 +1,6 @@
 ---
-name: Strony z zmienianym tytułem na "Wróc do…"
-about: Pages with the title changed to "Back to…"
+name: Tytuły stron zachęcające do powrotu („Wróć do…”)
+about: Page titles encouraging to comeback ("Come back to…")
 labels: powrotowy tytuł
 ---
 

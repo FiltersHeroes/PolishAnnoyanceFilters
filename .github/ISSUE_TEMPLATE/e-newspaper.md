@@ -1,6 +1,6 @@
 ---
-name: Bloki z prenumeratami
-about: Block with e-newspapper subscription
+name: Reklamy prenumerat i e-wydań gazet
+about: Newspapers subscription and e-editions ads
 labels: prenumerata
 ---
 

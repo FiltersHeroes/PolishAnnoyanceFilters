@@ -1,6 +1,6 @@
 ---
 name: Inne elementy (np. widgety typu „następny artykuł”)
-about: Other elements (e.g. „next article" widgets)
+about: Other elements (e.g. "next article" widgets)
 labels: inny element
 ---
 

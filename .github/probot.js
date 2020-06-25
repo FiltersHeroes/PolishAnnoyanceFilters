@@ -98,3 +98,19 @@ on('issues.opened', 'issues.edited')
 on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[ ]] Inny element/))
   .unlabel('inny element');
+
+on('issues.opened', 'issues.edited')
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Tytuł strony zachęcający do powrotu/))
+  .label('powrotowy tytuł');
+
+on('issues.opened', 'issues.edited')
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Tytuł strony zachęcający do powrotu/))
+  .unlabel('powrotowy tytuł');
+
+on('issues.opened', 'issues.edited')
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Reklama prenumeraty\/e-wydania gazety/))
+  .label('prenumerata');
+
+on('issues.opened', 'issues.edited')
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Reklama prenumeraty\/e-wydania gazety/))
+  .unlabel('prenumerata');

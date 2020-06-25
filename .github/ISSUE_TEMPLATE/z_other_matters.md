@@ -23,6 +23,8 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 - [] Widżet kontaktowy/informacji zwrotnej
 - [] Strzałka
 - [] Otagowany link wewnętrzny (niezgodny z tematem artykułu)
+- [] Tytuł strony zachęcający do powrotu
+- [] Reklama prenumeraty/e-wydania gazety
 - [] Błąd
 - [] Pytanie
 - [] Ulepszenie
