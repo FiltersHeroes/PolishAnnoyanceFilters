@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-!
+! Checksum: jlBMzw3zpqd5/8/6do7kBg
 ! Title: Polskie Filtry Elementów Irytujących - e-wydania gazet
 ! Polish Annoyance Filters - e-newspaper
 ! Codename: e-newspaper
 ! Description: Filtry ukrywające i blokujące bloki z reklamą prenumerat.
-! Last modified: 2020-06-24 20:12
-! Version: 2020.06.24.0
+! Last modified: Thu, 25 Jun 2020, 12:01 UTC+02
+! Version: 2020.6.25.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,18 +13,32 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: 0.3a
+! Aktualizacja: czw, 25 cze 2020, 12:01 UTC+02
 !
 !
 !
 ! Specyficzne reguły
+dziennikpolski24.pl,gs24.pl#?#.atomsPromotionsLink.component:-abp-has(a[href*="/wykup-dostep/"][aria-label$="w formie gazety online"])
+esquire.pl##.magazine-subscription-widget.widget
+forumakademickie.pl###miesieczniki
+gazetapolska.pl###block-views-najnowszy-spis-block-1, #block-views-ostatninumer-block-1, #header_footera
+gazetapolska.pl##.region-banergora.region .view-content
 gazetasenior.pl###custom_html-19
 gazetasenior.pl#?#.fn-content > .fn-builder > p:-abp-has( > a[href*="/newsletter-gazeta"] > img)
-gs24.pl#?#.atomsPromotionsLink.component:-abp-has(a[href*="/wykup-dostep/"][aria-label$="w formie gazety online"])
-ketrzyn.wm.pl###header > a[href*="kupgazete.pl"]
+ktociewyleczy.pl###avt-korona
+liberte.pl##.entry-leftside > .headline, .entry-leftside > .headline + .row, .box-magazyn2
+mensis.pl###custom_html-3
 niezalezna.pl##.columnRight > a[href^="https://prenumerata.gazetapolska.pl/"]
 nowinykrapkowickie.pl##.region-jedynka.region > .block .field-content
+przegladlokalny.eu##.right-sidebar > .right-header, .right-sidebar > .text-center
 przelom.pl##.widget > .epress
 reportergazeta.pl##.sidebar > #media_image-2
+rynek-kolejowy.pl##.najnowszyNumerRK, .miesiecznikRotatorBox
+superhistoria.pl###footer > .section-issue
 tygodnik-krapkowicki.info###Mod3
+tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/)
+tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/) + br + div
+viva.pl##.medium-order-210.subscription
+wm.pl###header > a[href*="kupgazete.pl"]
+wm.pl#?#.highlight:-abp-has(.box-ewydanie)
 ||tabletowo.pl/wp-content/uploads/2020/06/banner-10-lecie-tabletowo-magazyn.png
