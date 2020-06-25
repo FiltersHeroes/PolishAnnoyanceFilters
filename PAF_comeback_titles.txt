@@ -1,10 +1,10 @@
-! Checksum: zVMnns+tximbBY/rT+2cVQ
+! Checksum: xSIE0Sp38i9dxB8hr090Tg
 ! Title: Polskie Filtry Elementów Irytujących - Powrotowe Tytuły
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Mon, 22 Jun 2020, 12:00 UTC+02
-! Version: 2020.6.22.0
+! Last modified: Thu, 25 Jun 2020, 20:03 UTC+02
+! Version: 2020.6.25.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 22 cze 2020, 12:00 UTC+02
+! Aktualizacja: czw, 25 cze 2020, 20:03 UTC+02
 !
 !
 bludshop.com##+js(aopr, onblur)
@@ -21,4 +21,6 @@ myjki.com##+js(aopw, document.title)
 picodi.com##+js(aopr, titleBack)
 prawokonsumenckie.pl##+js(set, setReplyTitle, noopFunc)
 !bludshop.com,casedrop.eu,www.mbank.pl##+js(aopr, document.title)
+!globkurier.pl##+js(aopr, browser_tab_title_params)
+/wp-content/plugins/change-browser-tab-title-when-tab-is-not-active/public/js/browser-tab-title-reminder-public.js$script,domain=pl
 ||www.mbank.pl/.elements/alternative-title.html.i$xhr,domain=www.mbank.pl
