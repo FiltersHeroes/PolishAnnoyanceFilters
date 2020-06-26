@@ -8,6 +8,6 @@ NIE blokujemy/ukrywamy:
 * reklam zewnętrznych
 * elementów społecznościowych (oprócz pop-upów)
 * mechanizmów antyadblockowych
-* linków pozbawionych graficznej oprawy
+* linków pozbawionych graficznej oprawy z nawigacji
 * serwisów sprzedających tylko e-gazety lub książki
 * paywalli
