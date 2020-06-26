@@ -17,9 +17,10 @@ gazetasenior.pl###custom_html-19
 gazetasenior.pl#?#.fn-content > .fn-builder > p:-abp-has( > a[href*="/newsletter-gazeta"] > img)
 globenergia.pl###content_sklep
 glowny-mechanik.pl###custom_html-7
-gpcodziennie.pl##div.row:nth-of-type(47)
-gpcodziennie.pl##div.section-title:nth-of-type(46)
+gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/) + div.row
+gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/)
 historia.uwazamrze.pl##.photo-gallery-three.tr-section
+gpcodziennie.pl##.new-prenumerata
 ican.pl##.section-top-news.col-xs-12.col-md-5 > hr
 ican.pl##.section-top-news.col-xs-12.col-md-5 > .slider-container
 inzynierbudownictwa.pl##div.reviewwidget.widget:nth-of-type(3)
