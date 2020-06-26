@@ -84,6 +84,14 @@ on('issues.opened', 'issues.edited')
   .unlabel('strzałka');
 
 on('issues.opened', 'issues.edited')
+  .filter(context => context.payload.issue.body.match(/- \[[xX]] Tło zawierające autopromocję/))
+  .label('tło autopromocyjne');
+
+on('issues.opened', 'issues.edited')
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Tło zawierające autopromocję/))
+  .unlabel('tło autopromocyjne');
+
+on('issues.opened', 'issues.edited')
   .filter(context => context.payload.issue.body.match(/- \[[xX]] Ulepszenie/))
   .label('ulepszenie');
 

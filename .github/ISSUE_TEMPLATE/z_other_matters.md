@@ -23,6 +23,7 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 - [] Widżet kontaktowy/informacji zwrotnej
 - [] Strzałka
 - [] Otagowany link wewnętrzny (niezgodny z tematem artykułu)
+- [] Tło zawierające autopromocję
 - [] Tytuł strony zachęcający do powrotu
 - [] Reklama prenumeraty/e-wydania gazety
 - [] Błąd
@@ -40,8 +41,8 @@ W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) l
 1. EasyList
 2. Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
 3. Polskie Filtry Elementów Irytujących
-4.
-5.
+4. 
+5. 
 
 ### Link bezpośredni (opcjonalny)
 <!--
