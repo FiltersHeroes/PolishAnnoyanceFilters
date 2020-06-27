@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QKi+BcekK+QqtsqnTy3rZA
+! Checksum: /FbehvzOzLXy9ORr8yvHTQ
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 25 Jun 2020, 20:02 UTC+02
-! Version: 2020.6.25.0
+! Last modified: Sat, 27 Jun 2020, 12:00 UTC+02
+! Version: 2020.6.27.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 25 cze 2020, 20:02 UTC+02
+! Aktualizacja: sob, 27 cze 2020, 12:00 UTC+02
 !
 !
 !
@@ -111,6 +111,7 @@ consumer.huawei.com##.nps-survey
 containex.pl###togglePopup, #contactPopup
 corona-fishing.pl##.baner-right-sliding
 creative.media.pl##.side_contact_us
+cyberbajt.pl,karchercenter-ocean.pl,merida.com.pl,swiss.com.pl,wspa.pl###lhc_status_container
 czescidobmw.pl##.closegg
 czytio.pl###qcf-btn
 d24h.pl###chat_container
@@ -173,6 +174,7 @@ e-irwin.pl##.callMe
 e-prawnik.pl##.o-window.windowTop
 e-sano.pl###report_error_box_button
 e-saving.pl###contact
+e-security.com.pl,sita.pl##.fb_iframe_widget.fb-customerchat, .fb_customer_chat_bubble_pop_in
 fachowcy.pl###fav-callback-wrapper, #liveChatContainer
 fakturownia.pl##.sugester_callback_widget_outline
 fantasyliga.wp.pl##.show-chat
@@ -245,7 +247,6 @@ jaw.com.pl###qcf-btn, #qcf-phone
 jsystems.pl##.metka
 kajakom.pl###help
 kammar24.pl###druga_ikona
-karchercenter-ocean.pl,merida.com.pl,swiss.com.pl,wspa.pl###lhc_status_container
 kawaly.tja.pl,tapeciarnia.pl###div_okienko_shoutbox_schowane
 kegel-aj.com##.b24-widget-button-wrapper
 king-poligrafia.pl###face-slider
@@ -398,7 +399,6 @@ sferis.pl##.help__title
 shopalike.pl###feedback-btn
 siligan.pl###widget_5, #widget_6
 siligan.pl##.widget_contact
-sita.pl##.fb_iframe_widget.fb-customerchat, .fb_customer_chat_bubble_pop_in
 sklephonda.pl###phone_widget
 sklepsportowy.pila.pl###fc_frame
 sklep-agrohandel.pl##.contact_email
@@ -453,7 +453,7 @@ vidok.com##.box-special-contact-icon
 viessmann.pl##.callmeweb-button-container
 villacarpatia.com###PureChatWidget
 viralka.pl##.widget_boombox_social
-virustotal.com##.vt-ui-contact-fab
+virustotal.com###walkthrough ~ vt-ui-contact-fab
 vitamoc.pl###dzinga
 vitay.pl###serviceRatingBox
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(-n+2)
