@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # VICHS - Version Include Checksum Hosts Sort
-# v2.14
+# v2.17
 
 # MIT License
 
@@ -25,10 +25,10 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-SCRIPT_PATH=$(dirname "$0")
+SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
 
 # MAIN_PATH to miejsce, w którym znajduje się główny katalog repozytorium (zakładamy, że skrypt znajduje się w katalogu o 1 niżej od głównego katalogu repozytorium)
-MAIN_PATH=$SCRIPT_PATH/..
+MAIN_PATH="$SCRIPT_PATH"/..
 
 # Tłumaczenie
 . gettext.sh
@@ -340,16 +340,17 @@ for i in "$@"; do
     done
 
     # Obliczanie ilości sekcji, które zostaną pobrane ze źródeł zewnętrznych i połączone z lokalnymi sekcjami
-    END_HOSTSCOMBINE=$(grep -o -i '@HOSTSCOMBINEinclude' "${TEMPLATE}" | wc -l)
+    END_HOSTSCOMBINE=$(grep -o -i '@COMBINEHOSTSinclude' "${TEMPLATE}" | wc -l)
 
     # Łączenie lokalnych i zewnętrznych sekcji w jedno oraz doklejanie ich w odpowiednie miejsca
     for (( n=1; n<=END_HOSTSCOMBINE; n++ ))
     do
-        LOCAL=${SECTIONS_DIR}/$(awk '$1 == "@HOSTSCOMBINEinclude" { print $2; exit }' "$FINAL").txt
-        EXTERNAL=$(awk '$1 == "@HOSTSCOMBINEinclude" { print $3; exit }' "$FINAL")
+        LOCAL=${SECTIONS_DIR}/$(awk '$1 == "@COMBINEHOSTSinclude" { print $2; exit }' "$FINAL").txt
+        EXTERNAL=$(awk '$1 == "@COMBINEHOSTSinclude" { print $3; exit }' "$FINAL")
         SECTIONS_TEMP=${SECTIONS_DIR}/temp/
         mkdir "$SECTIONS_TEMP"
         EXTERNAL_TEMP=${SECTIONS_TEMP}/external.temp
+        EXTERNALHOSTS_TEMP=$SECTIONS_DIR/external_hosts.temp
         MERGED_TEMP=${SECTIONS_TEMP}/merged-temp.txt
         wget -O "$EXTERNAL_TEMP" "${EXTERNAL}"
         revertWhenDownloadError
@@ -380,7 +381,7 @@ for i in "$@"; do
             python3 "${FOP}" --d "${SECTIONS_DIR}"/temp/
         fi
         sort -uV -o "$MERGED_TEMP" "$MERGED_TEMP"
-        sed -e '0,/^@HOSTSCOMBINEinclude/!b; /@HOSTSCOMBINEinclude/{ r '"$MERGED_TEMP"'' -e 'd }' "$FINAL" > "$TEMPORARY"
+        sed -e '0,/^@COMBINEHOSTSinclude/!b; /@COMBINEHOSTSinclude/{ r '"$MERGED_TEMP"'' -e 'd }' "$FINAL" > "$TEMPORARY"
         mv "$TEMPORARY" "$FINAL"
         rm -r "$MERGED_TEMP"
         rm -r "$SECTIONS_TEMP"
@@ -411,7 +412,7 @@ for i in "$@"; do
     }
 
     # Obliczanie ilości sekcji/list filtrów, z których zostanie wyodrębnionych część reguł (jedynie reguły zawierajace gwiazdki) w celu konwersji na format regex zgodny z PiHole
-    END_PH=$(egrep -o -i '@PHinclude' "${TEMPLATE}" | wc -l)
+    END_PH=$(grep -E -o -i '@PHinclude' "${TEMPLATE}" | wc -l)
 
     # Konwertowanie na format regex zgodny z PiHole i doklejanie zawartości sekcji/list filtrów w odpowiednie miejsca
     for (( n=1; n<=END_PH; n++ ))
@@ -594,10 +595,10 @@ if [ "$commited" ]; then
         printf "%s\n" "$(gettext "Do you want to send changed files to git now?")"
         select yn in $(gettext "Yes") $(gettext "No"); do
             case $yn in
-                        $(gettext "Yes") )
+                        "$(gettext "Yes")" )
                         git push
                         break;;
-                        $(gettext "No") ) break;;
+                        "$(gettext "No")" ) break;;
             esac
         done
     fi

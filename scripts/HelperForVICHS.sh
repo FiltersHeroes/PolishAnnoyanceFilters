@@ -26,7 +26,7 @@
 
 
 # SCRIPT_PATH to miejsce, w którym znajduje się skrypt
-SCRIPT_PATH=$(dirname "$0")
+SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
 
 cd "$SCRIPT_PATH"/.. || exit
 
