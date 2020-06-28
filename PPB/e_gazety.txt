@@ -1,12 +1,8 @@
 czytelniamedyczna.pl##.k80c
-dziennikelblaski.pl###prenumerata
-inzynier-medyczny.pl###sidebar div.widget:nth-of-type(1)
-histmag.org#?##content > div > h3:-abp-contains(/^Książkę można też kupić jako audiobook, /)
-histmag.org#?##content > div > p:-abp-has(.ub-box-szg_border-box .ub-box-szg_border-box a:-abp-contains((e-book)))
-histmag.org#?##content > div > h3:-abp-contains(/^Polecamy e-book /)
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,gp24.pl,gs24.pl,kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,poranny.pl,to.com.pl,wspolczesna.pl##.component[data-event-params^="url=%2Fzabierz-swoja-gazete-na-wakacje-prenumeruj-przez-kwartal-w-nizszej-cenie"]
-dziennikelblaski.pl,wm.pl#?#.highlight:-abp-has(.box-ewydanie)
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,gp24.pl,gs24.pl,kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,poranny.pl,to.com.pl,wspolczesna.pl#?#.atomsPromotionsLink.component:-abp-has(a[href*="/wykup-dostep/"][aria-label$="w formie gazety online"])
+dziennikelblaski.pl###prenumerata
+dziennikelblaski.pl,wm.pl#?#.highlight:-abp-has(.box-ewydanie)
 ekobudowanie.pl##.newspaper
 ekobudowanie.pl,ktociewyleczy.pl###avt-korona
 elektrosystemy.pl###text-26
@@ -28,10 +24,14 @@ glowny-mechanik.pl###custom_html-7
 gpcodziennie.pl##.new-prenumerata
 gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/)
 gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/) + div.row
+histmag.org#?##content > div > h3:-abp-contains(/^Książkę można też kupić jako audiobook, /)
+histmag.org#?##content > div > h3:-abp-contains(/^Polecamy e-book /)
+histmag.org#?##content > div > p:-abp-has(.ub-box-szg_border-box .ub-box-szg_border-box a:-abp-contains((e-book)))
 historia.uwazamrze.pl##.photo-gallery-three.tr-section
 ican.pl##.section-top-news.col-xs-12.col-md-5 > hr
 ican.pl##.section-top-news.col-xs-12.col-md-5 > .slider-container
 inzynierbudownictwa.pl##div.reviewwidget.widget:nth-of-type(3)
+inzynier-medyczny.pl###sidebar div.widget:nth-of-type(1)
 liberte.pl##.entry-leftside > .headline, .entry-leftside > .headline + .row, .box-magazyn2
 malygosc.pl##.pos-sticky
 malygosc.pl##.wp-el.webpart-wrap-media.wp-bd
