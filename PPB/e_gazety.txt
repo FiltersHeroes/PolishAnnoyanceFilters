@@ -1,5 +1,8 @@
 czytelniamedyczna.pl##.k80c
 dziennikelblaski.pl###prenumerata
+histmag.org#?##content > div > h3:-abp-contains(/^Książkę można też kupić jako audiobook, /)
+histmag.org#?##content > div > p:-abp-has(.ub-box-szg_border-box .ub-box-szg_border-box a:-abp-contains((e-book)))
+histmag.org#?##content > div > h3:-abp-contains(/^Polecamy e-book /)
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,gp24.pl,gs24.pl,kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,poranny.pl,to.com.pl,wspolczesna.pl#?#.componentsListingWithGrid__content .atomsListingTileBase.atomsListingTileBase--withGrid.component:-abp-has(a[title="Podczas wakacji nie musisz rozstawać się ze swoją gazetą"])
 dziennikelblaski.pl,wm.pl#?#.highlight:-abp-has(.box-ewydanie)
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gloswielkopolski.pl,gp24.pl,gs24.pl,kurierlubelski.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,poranny.pl,to.com.pl,wspolczesna.pl#?#.atomsPromotionsLink.component:-abp-has(a[href*="/wykup-dostep/"][aria-label$="w formie gazety online"])
