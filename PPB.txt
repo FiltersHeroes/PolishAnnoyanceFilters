@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 32soUL7PRlKRfJNmoKqeOg
+! Checksum: SG/VIYoljsK5GLarb6ZMFQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 28 Jun 2020, 16:01 UTC+02
-! Version: 2020.6.28.0
+! Last modified: Sun, 28 Jun 2020, 20:01 UTC+02
+! Version: 2020.6.28.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 28 cze 2020, 16:01 UTC+02
+! Aktualizacja: nie, 28 cze 2020, 20:01 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2517,6 +2517,8 @@ travelplanet.pl##.fcx-push-modal
 wazcar.pl###push-notification-button
 wnp.pl##amp-web-push-widget
 zapytaj.onet.pl##.push-notification-box
+zegarkiipasja.pl##.fcx-push-bubble-container
+zegarkiipasja.pl##.fcx-push-modal-container
 !/OneSignalSDK.js$domain=kosmicznapropaganda.pl|wp.pl|swiatbaterii.pl|insert.com.pl
 !||proxy.snrbox.com/rtom/web-push/get-public-config$domain=fera.pl|eobuwie.com.pl|neo24.pl
 !||proxy.synerise.com/*/web-push/get-public-config
@@ -4448,7 +4450,7 @@ nowiny24.pl##.article-inset
 nowiny.com.pl##.slide-right
 nowodworskiestates.pl###asystent
 o2.pl##a[data-st-area^="ST-goToO2"], a[data-st-area^="ST-backToO2"]
-odczasudoczasu.pl##.fixed-nav
+odczasudoczasu.pl,zegarkiipasja.pl##.fixed-nav
 oees.pl###floating-button-en
 ofeminin.pl##.backToOnet
 ofertapracy.monsterpolska.pl###AppliesFooterHolder, #iaactionfixed
