@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Sf/t6De9jiGps4fOUhrCrw
+! Checksum: 06Btbzkk5sV2opa4g21sFg
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 28 Jun 2020, 20:00 UTC+02
-! Version: 2020.6.28.1
+! Last modified: Tue, 30 Jun 2020, 20:00 UTC+02
+! Version: 2020.6.30.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 28 cze 2020, 20:00 UTC+02
+! Aktualizacja: wto, 30 cze 2020, 20:00 UTC+02
 !
 !
 !
@@ -340,7 +340,7 @@ interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl##.recommend-flybar-block, #pri
 interia.pl,~poczta.interia.pl,swiatkobiety.pl##.articleObjectSeeAlso.box
 interia.pl,interia.tv,~poczta.interia.pl##.topbar, .topbar-container
 interviewme.pl##.reading-indicator
-inzynierbudownictwa.pl##.slideLeftItem
+inzynierbudownictwa.pl##table[id^="slideright_"]:not(#slideright_yt) > tbody > .slideLeftItem
 itmarket.pl##.cart_top
 i-apteka.pl,rolmarket.pl###menu_hotspot_zone3
 i-ekosystem.pl###wptime-plugin-preloader
@@ -515,6 +515,7 @@ nowiny.com.pl##.slide-right
 nowodworskiestates.pl###asystent
 o2.pl##a[data-st-area^="ST-goToO2"], a[data-st-area^="ST-backToO2"]
 odczasudoczasu.pl,zegarkiipasja.pl##.fixed-nav
+odjazdowenaklejki.pl##.sm-panel > div[id^="side"]:nth-of-type(4)
 oees.pl###floating-button-en
 ofeminin.pl##.backToOnet
 ofertapracy.monsterpolska.pl###AppliesFooterHolder, #iaactionfixed
