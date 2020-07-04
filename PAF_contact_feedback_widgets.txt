@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: jr9bHES4cbyNcvd8syhcZg
+! Checksum: 3zan/L1tY6IcIvwSajV53A
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Tue, 30 Jun 2020, 20:00 UTC+02
-! Version: 2020.6.30.0
+! Last modified: Sat, 04 Jul 2020, 20:00 UTC+02
+! Version: 2020.7.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 30 cze 2020, 20:00 UTC+02
+! Aktualizacja: sob, 04 lip 2020, 20:00 UTC+02
 !
 !
 !
@@ -54,6 +54,7 @@ aquamelior.pl###slaask-button
 arbonne.com###V4LLPanel_TCContainer
 archon.pl###archon-chat, .mobile-item-phone, #messenger_button
 arenadesign.pl,cavaliada.pl,fitexpo.com.pl###ssb-btn-0 > p > a[href="#kontakt"]
+armax.com.pl###klik
 artdelarte.pl###slideit
 artefakt.pl##[data-module="phone_popup"]
 arteodevelopment.pl###callback24widgetButton
@@ -153,6 +154,7 @@ ekantor.pl##.slideout-btn
 ekookna.pl,quadralite.pl,selectshop.pl###fb-root
 ekorekta24.pl##.opineo-link
 ekorekta24.pl,multilampy.pl##.opineo
+eko-life.pl###__ChatoBeeWidget__window
 eko-ue.pl##.fixed-right-menu
 electro.pl##.is-complaintReport
 elektrozysk.pl###report_error_box_button, #ceneo-widget
@@ -201,7 +203,7 @@ gamerweb.pl##.zoxrel.left.zox-post-soc-list
 gandalf.com.pl##.fb_dialog_advanced
 gdzietymrazem.pl##.td-icon-mail-1
 genway.pl##.leaveContactBtn
-gerdex.com.pl,polnord.pl,solidnedrzwiokna.pl,wkret-met.com,zoliborzkrasinskiego.pl###fastcall
+gerdex.com.pl,polnord.pl,rivieraparkmarvipol.pl,solidnedrzwiokna.pl,wkret-met.com,zoliborzkrasinskiego.pl###fastcall
 getruck.eu###zsiq_float.zsiq_float
 gkstychy.info###error_send
 glosbe.com##app-feedback-button
@@ -252,6 +254,8 @@ kawaly.tja.pl,tapeciarnia.pl###div_okienko_shoutbox_schowane
 kegel-aj.com##.b24-widget-button-wrapper
 king-poligrafia.pl###face-slider
 klimacold.com.pl###ssb-btn-0,#ssb-btn-1, #ssb-btn-2, #ssb-btn-4
+klinikawitaminowa.pl##div.js--phone-button.ic-phone-button:nth-of-type(15)
+klinikawitaminowa.pl##div.js--phone-button.ic-phone-button:nth-of-type(22)
 klonowypark.pl###belka_phone2, #belka_mail2, #belka_map2, #belka_form2
 knall.com.pl##.socialTabs-tab--contact.socialTabs-tab
 kodologia.pl###cq-suggestion
@@ -263,6 +267,7 @@ kontri.pl###widget_opineo
 korzystneit.pl,ombre.pl##div > .fab-wrapper
 koszulkiznadrukiem.biz##a[href*="widget.gg.pl"]
 krainawody.pl,pij-wode.pl,taxxo.pl##.novocall-button
+krir.pl##.mn-panel > .sms
 kserokopiarki-netcan.pl##.pwebbox_toggler
 ktomalek.pl###chatSpace
 kwiatysztuczne.pl##.btn[data-action="add-feedback"]
@@ -291,6 +296,7 @@ mansys.org##body > jdiv
 masterlease.pl##.contact-form
 masterleasing.pl##.callus
 masterproject.pl##.trigger_popup_fricc
+matkakosciola.pl##.js-bottom-corner-btns.bottom-corner-btns
 meblosfera.pl##.wp-side-menu-item:nth-of-type(1)
 mebloteka.eu###Facebook_Messenger
 meczelive.pl,meczelive.tv###task
@@ -330,6 +336,7 @@ optitaxi.pl###uptocall-mini
 oracle.com##.ochat_slideout, .cw21help
 outside.com.pl##.bonfire-slideout-button
 ox.pl##.contact-with-office
+panekcs.pl###module-293\#3-0-0
 panmaterac.pl###call-container-floating
 panmaterac.pl###lhc_container_v2
 parkrozrywkizawada.pl,poklocki.pl,quantec.pl##.fa-paper-plane
@@ -378,6 +385,7 @@ reaktor.pwn.pl##.tab.mail, .tab.phone
 recepta.pl##.help-widget
 redosystem.com.pl###customer-chat-iframe
 regalka.pl###gr-spnotifications
+rivieraparkmarvipol.pl##.messenger
 roseville.pl###banner_contact
 r.pl##.divCallback
 salesmanago.pl###sm-bot
@@ -388,7 +396,7 @@ sawataxi.pl###zamow
 sbys.pl##iframe[id^="comp"][id$="iframe"][aria-label="Wix Chat"]
 sck.pl###popupTest
 seat.pl##div[id^="wb_drag_wrapper"]
-selly.pl###kayako-messenger
+selly.pl,x-lander.com###kayako-messenger
 semcamp.university###witbee-call-page-container
 semmelrock.pl###float_mail, #float_phone
 sempai.pl##.sempai_contact_widget
@@ -420,10 +428,12 @@ strefawystawcy.pl##.contact-button, .contact-message
 strimi.pl##.bugs
 studiofabryka.pl##.callme
 sumiennyksiegowy.pl##.kontakt-vert-button
+super-toys.pl,valor-meble.pl###pierwsza_ikona
 support.forpsi.pl###chattab
 support.microsoft.com###smc-survey-external-feedback-button
 swiat-laptopow.pl###superOfferCallUs
 szkolajazdykoronamm.pl##.spjwidget-double a[href$="/szkola-jazdy-korona-mm,20821.htm?widget=opinie"]
+szpot.pl##call-us
 tabletowo.pl##div[class^="container"][style^="z-index:"]
 taniejdladomu.pl###allegroKomentarze
 targimodypoznan.pl###ssb-btn-0, .chatFab
@@ -462,6 +472,7 @@ wakacje.pl###rightTabs > .rightSpeech
 walizkazabawek.pl###ue_widget
 webiso.pl##div[class*="-widget-button-wrapper"]
 westhill.pl##.wh-cta
+widokimokotow.pl###js-omp-trigger
 wielton.com.pl##.fast-contact-widget
 wienerberger.pl##.social-sharing-overlay > .list-unstyled
 wiked.pl##div[id^="menuboczne"]:nth-of-type(8)
