@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 2IEefajRdGVDde1yKPG9zw
+! Checksum: ihfPlrwV0TLEMXQzep32pg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 05 Jul 2020, 20:01 UTC+02
-! Version: 2020.7.5.3
+! Last modified: Mon, 06 Jul 2020, 12:01 UTC+02
+! Version: 2020.7.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 05 lip 2020, 20:01 UTC+02
+! Aktualizacja: pon, 06 lip 2020, 12:01 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1313,6 +1313,7 @@ themuba.com###newsletter_container
 thermano.eu##.footer-box--wide
 thunderbird.net#?##section.flex.flex-col > aside.flex.flex-col:nth-of-type(2):-abp-has( > #mc-embedded-subscribe-form)
 tiptopol.pl#?#.footer__item:-abp-has( > div > #block-webform)
+tiptop.com.pl###content > .row > #bg_orange
 tkmaxx.pl##.panels-flexible-region-1-newsletter_subscription
 tokfm.pl##.container > ul > li:nth-of-type(3)
 tomi.pl##.ty-footer-menu .ty-mainbox-container
@@ -1922,6 +1923,7 @@ investjourney.pl###spu-4030, #spu-bg-4030
 investors.pl###popup, #myModal.modal-info
 ipbilawa.com.pl###active-popup
 ipbilawa.com.pl#?##popup-container:-abp-has(img[src*="popup_2020_v"])
+irebu.pl###POPUP-EXIT-dialog, #POPUP-overlay
 isbnews.pl###cover
 jackjones.com##.customer-club-popup__overlay
 jajco.pl###popupDiv
@@ -4347,6 +4349,7 @@ interia.pl,~poczta.interia.pl,swiatkobiety.pl##.articleObjectSeeAlso.box
 interia.pl,interia.tv,~poczta.interia.pl##.topbar, .topbar-container
 interviewme.pl##.reading-indicator
 inzynierbudownictwa.pl##table[id^="slideright_"]:not(#slideright_yt) > tbody > .slideLeftItem
+irebu.pl###TOP-SOCIAL-MEDIA
 itmarket.pl##.cart_top
 i-apteka.pl,rolmarket.pl###menu_hotspot_zone3
 i-ekosystem.pl###wptime-plugin-preloader
