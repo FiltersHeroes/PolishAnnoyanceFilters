@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: l8rcBAED1aBwIgK4v6vwBQ
+! Checksum: WJcL4zaoj5K5bVS+suooqg
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Tue, 07 Jul 2020, 20:00 UTC+02
-! Version: 2020.7.7.1
+! Last modified: Wed, 08 Jul 2020, 12:00 UTC+02
+! Version: 2020.7.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 07 lip 2020, 20:00 UTC+02
+! Aktualizacja: śro, 08 lip 2020, 12:00 UTC+02
 !
 !
 !
@@ -77,6 +77,8 @@ gazeta-mosina.pl##.first.mod-shadowbox.module
 globenergia.pl###content_sklep
 glowny-mechanik.pl###custom_html-7
 gostynska.pl###switch-2
+gpcodziennie.pl##div.no-mobile:nth-of-type(7)
+gpcodziennie.pl##div.no-mobile:nth-of-type(8)
 gpcodziennie.pl##.new-prenumerata
 gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/)
 gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/) + div.row
@@ -93,6 +95,8 @@ kuriergmin.pl##.kurie-po-tresci
 kuriergmin.pl##.vc_column_container.td_uid_13_5efc95f44739b_rand.vc_column.wpb_column
 kuriergmin.pl##.vc_column_container.td_uid_39_5efc95f490fc6_rand.vc_column.td-is-sticky
 liberte.pl##.entry-leftside > .headline, .entry-leftside > .headline + .row, .box-magazyn2
+log4.pl##.sideSlideWrapper
+log4.pl##.wydaniaSpecList
 magazyngitarzysta.pl##.new-newspaper.module
 magazynt3.pl###mvp-side-wrap
 magazynt3.pl##.mvp-top-sub-text
@@ -119,6 +123,7 @@ ngodkrywca.pl##.banner__main-slider
 ngodkrywca.pl##.subscription--dark.widget-section.subscription.triptyca
 nienawisc.pl###before-content-area
 nienawisc.pl###custom_html-10
+niepokalanow.pl##.mt-4.publish-container
 niezalezna.pl##div.row:nth-of-type(29)
 niezalezna.pl##.columnRight > a[href^="https://prenumerata.gazetapolska.pl/"]
 niezalezna.pl##[src="/images/page/gpcodziennie_lato.jpg?1"]
@@ -173,6 +178,7 @@ swierszczyk.pl##.subscription--ship-run.subscription.triptyca
 sztafeta.pl##.widget_text.widget
 terazprudnik.pl##.tdi_93_89f.td_block_padding.td-column-1.td_block_template_1.td-pb-border-top.td_block_5.td_block_wrap
 trybunaczestochowska.pl###text-7
+tygodnikdzialdowski.pl##div.platform-content:nth-of-type(2)
 tygodnikponidzia.pl###bunyad-blocks-widget-7
 tygodniksiedlecki.com##.mockup-box.col-xs-12.col-sm-12.co-md-12.col-lg-12
 tygodnik-krapkowicki.info###Mod3
@@ -184,6 +190,11 @@ viva.pl##.medium-order-210.subscription
 wedkarskiswiat.pl##.ad__top
 wedkarskiswiat.pl##.magazine.section__mag.section
 wiescirolnicze.pl###hp-pdf-issues
+wiesci.com.pl###media_image-3
+wiesci.com.pl###media_image-6
+wiesci.com.pl###text-2
+wiesci.com.pl###text-5
+wiesci.com.pl###text-13
 wm.pl###header > a[href*="kupgazete.pl"]
 wpolityce.pl##.nu-header-boost--sp.nu-header-boost
 wpr24.pl##section.mb50.section:nth-of-type(7)
@@ -192,7 +203,11 @@ znaczkipocztowe-kolekcja.pl##aside
 znaczkipocztowe-kolekcja.pl###intro
 znaczkipocztowe-kolekcja.pl###subscription
 zycie.pl##.right #multiple-versions, #premium-slide
+||gpcodziennie.pl/images/360x200_4zl.jpg$image
+||gpcodziennie.pl/images/750x704zlartyku%c5%82y.jpg$image
 ||gpcodziennie.pl/images/eprenumerata_bottom.png
+||gpcodziennie.pl/okl_gp.php$image
+||gpcodziennie.pl/okl_np.php$image
 ||i.perspektywy.pl/pages/jhovngq2lj/banners/QIaYeglgZJIxBURaKzhEVaenkFbseSsBNabn5lcV.jpeg$image
 ||i.perspektywy.pl/pages/jhovngq2lj/banners/dzxJ753hSuAaVE8nTYOtqs9TVrYVgsKe4WRvOFFn.jpeg$image
 ||jagodnik.pl/wp-content/uploads/2020/02/MF2018-1.png$image
