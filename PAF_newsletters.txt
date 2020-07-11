@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IyjwPmKdUgjX+y/z6BZzvw
+! Checksum: KeCWQ3P+2J1ELKNEKaSy/g
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 08 Jul 2020, 20:01 UTC+02
-! Version: 2020.7.8.1
+! Last modified: Sat, 11 Jul 2020, 20:01 UTC+02
+! Version: 2020.7.11.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 08 lip 2020, 20:01 UTC+02
+! Aktualizacja: sob, 11 lip 2020, 20:01 UTC+02
 !
 !
 !
@@ -82,8 +82,8 @@ allegro.pl#?#div[data-box-name="allegro.marketing.consent"]:-abp-has( > div > di
 all-bielizna.pl###slide_panel187
 alsen.pl,kakto.pl##.m-footer_nsl
 aluprof.eu##.sidebar a[href="https://aluprof.eu/newsletter"]
+al.to,combat.pl,x-kom.pl##footer[class*="footer"] > div[class*="sc-"]:nth-of-type(1) > div[class*=" "]:nth-of-type(1) > div[class*="sc-"]:-abp-has( > div[class*="sc-"] > h2[title="Newsletter"])
 al.to,x-kom.pl##.box-newsletterbf
-al.to,x-kom.pl#?#footer[class*="footer"] > div[class]:nth-of-type(1) > div[class]:nth-of-type(1):-abp-has(img[alt="Newsletter"])
 al.to,x-kom.pl#?#section > .row:-abp-has( > div.col-sm-6 > .typ-newsletter-button)
 amberexpo.pl##div.slide-out-div:nth-of-type(5) > .handle_fb
 amc.waw.pl##.footer h3:nth-of-type(3)
@@ -1315,6 +1315,7 @@ thunderbird.net#?##section.flex.flex-col > aside.flex.flex-col:nth-of-type(2):-a
 tiptopol.pl#?#.footer__item:-abp-has( > div > #block-webform)
 tiptop.com.pl###content > .row > #bg_orange
 tkmaxx.pl##.panels-flexible-region-1-newsletter_subscription
+tkom.pl###panelNEWS
 tokfm.pl##.container > ul > li:nth-of-type(3)
 tomi.pl##.ty-footer-menu .ty-mainbox-container
 tooway.pl##.contact3
