@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: riLLJWa+qizQiNK1/Auf8w
+! Checksum: GsC/ip32E7r5kKL3EB/yfw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 09 Jul 2020, 20:00 UTC+02
-! Version: 2020.7.9.0
+! Last modified: Sun, 12 Jul 2020, 16:00 UTC+02
+! Version: 2020.7.12.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 09 lip 2020, 20:00 UTC+02
+! Aktualizacja: nie, 12 lip 2020, 16:00 UTC+02
 !
 !
 !
@@ -42,7 +42,7 @@ adeste.eu##.cp-direct-download-container
 adresy.um.warszawa.pl,mapa.um.warszawa.pl,ulice.um.warszawa.pl###init_info[style], #komunikat[style]
 adria-art.pl###overlay, .popup.newsletter
 agamasmaka.pl##.et_bloom_auto_popup.et_bloom_flyin
-agd-czesci.com.pl##.mbank-top-layer, .mask
+agd-czesci.com.pl,sklepbazant.pl,swiatmodeli.eu##.mbank-top-layer, .mask
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
 agrofakt.pl##.seattle-simple.optin-monster-saas-overlay
 agromix.agro.pl##.nivo-lightbox-overlay
@@ -58,6 +58,7 @@ alkalicznystylzycia.com,angelius.pl,inspiringsolutions.pl,passion.pl,qagile.pl##
 allmedica.pl###modalbox-1, .modalbox-overlay
 alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,megazoologiczny.pl,surgepolonia.pl###tws_i_100000
 analizy.pl##.nl_toplayer.ui-draggable.ui-widget-content.ui-widget.ui-dialog
+angelgold.pl##.modal
 apaczka.pl##.popupPromoBox
 apaczka.pl###sgpb-popup-dialog-main-div-wrapper
 apaczka.pl##.sgpb-popup-overlay-11671
@@ -127,7 +128,7 @@ blog.atrakcjenaimprezy.pl###boxes
 bluecity.pl##.popupContent
 bluecity.pl,wearmedicine.com,word.czest.pl###cboxOverlay
 blueskypolska.pl###tws_i_0.mobile_toplayer, #toplayer_newsletter
-bodyland.pl###newsletter-lightbox-holder
+bodyland.pl,hairstore.pl###newsletter-lightbox-holder
 bogulandia.pl,cosslodkiego.com.pl,efutro.com.pl,eswiatzabawek.pl,gratoria.pl,groomer.com.pl,kupbuty.com###tws_i_1
 bolix.pl,pushpushgo.com###ebook-popup
 born2be.pl,renee.pl##.snrs-modal-wrapper
@@ -451,8 +452,10 @@ media-tech.eu,polskimarket.de,vanitysklep.pl###Overlay
 media-tech.eu,polskimarket.de,vanitysklep.pl###rc_window_squeeze
 media-tech.eu,vanitysklep.pl###OverlayContainer_rcw
 medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
+medonetmarket.pl##.safety-popup-rectangle
 medonet.pl##.pushNotifiPopup
 medonet.pl##.withPNP:before
+mencare.pl###fx-popup
 metin2list.pl###news_popup
 mgprojekt.com.pl##.orlando-whiteboard.orlando-background, .jupiter-entrance.jupiter-background.optin-monster-saas-overlay
 mhtm.pl###spu-1417, #spu-bg-1417
@@ -529,6 +532,7 @@ ono24.info##.bts-popup
 opencard.pl###trialModal, .modal-backdrop
 opensubtitles.org###fadeSub, #lightSub
 opinie-perfumy.pl###lepopup-popup-15, #lepopup-popup-15-overlay
+opolshe.ru###dropbox
 optiland.pl##.mod_popup, .bg_shadow
 orange.pl###advertslice
 osada-sniezka.pl###popModal, .modal-backdrop
@@ -650,7 +654,6 @@ siligan.pl###contentWindow
 sillydesign.pl###blanket, #popUpDiv
 sjp.pwn.pl,slowniki.pwn.pl###floater
 sklepbaterie.pl##.wyskakujacypopup
-sklepbazant.pl,swiatmodeli.eu##.mask, .mbank-top-layer
 sklepdrapieznik.pl###backgroundPopup, #toPopup
 sklepikdzieciecy.pl###oknoPopUp, #tloPopUp
 sklepkokosowy.pl###js-popup
