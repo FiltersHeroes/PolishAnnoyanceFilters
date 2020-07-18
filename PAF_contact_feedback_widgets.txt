@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: TbcSCxL9Bcaebl/J524KiQ
+! Checksum: gyr0UD0TSHPZt1PNPeYtow
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 13 Jul 2020, 12:00 UTC+02
-! Version: 2020.7.13.0
+! Last modified: Sat, 18 Jul 2020, 12:00 UTC+02
+! Version: 2020.7.18.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 13 lip 2020, 12:00 UTC+02
+! Aktualizacja: sob, 18 lip 2020, 12:00 UTC+02
 !
 !
 !
@@ -35,6 +35,7 @@ akumulatorki.com.pl###contact_form
 aleleki.pl##.social_contact
 ale.pl,gardenflora.pl,lidia.pl###rr_side_widget
 aliexpress.com##.ui-fixed-panel-survey
+allekurier.pl,brewa.pl,iautomatyka.pl###chatContentHolder
 almatur.pl###telefondiv
 alx.pl##.zadaj-szybkie-pytanie
 al.to,combat.pl,x-kom.pl##.gcb-hasChatBtn
@@ -88,7 +89,6 @@ braclowiecka.pl##a.shop:nth-of-type(2)
 braclowiecka.pl##.icon-bar > a.shop:nth-of-type(1)
 brakestock.pl###zcwMiniButton
 brandvital.eu,ciagutek.pl###callnowbutton
-brewa.pl,iautomatyka.pl###chatContentHolder
 brief.pl##.fab-desktop
 brw.pl##.brw_opineo.icon-menu
 bssztum.pl###widget_social2
@@ -178,12 +178,14 @@ e-irwin.pl##.callMe
 e-prawnik.pl##.o-window.windowTop
 e-sano.pl###report_error_box_button
 e-saving.pl###contact
-e-security.com.pl,peryskop.studio,sita.pl##.fb_iframe_widget.fb-customerchat, .fb_customer_chat_bubble_pop_in
+e-security.com.pl,peryskop.studio,sita.pl,telefonek.pl##.fb_iframe_widget.fb-customerchat, .fb_customer_chat_bubble_pop_in
 fachowcy.pl###fav-callback-wrapper, #liveChatContainer
 fakturownia.pl##.sugester_callback_widget_outline
 fantasyliga.wp.pl##.show-chat
 farmer.pl##.box-40
 fdm.pl##.rate-product, [id^="fcc-sitecall-"]
+fedex.com##.askFedexPL
+fedex.com###nina-fedex ~ .va_icon
 feromony.pl,sla.pl###clickdesk-appendable-bubble
 feryster.pl###drift-widget, #show-contact
 festool.pl##.promotion-loader
@@ -458,6 +460,7 @@ tme.eu###feedback-widget
 tourist.pl###sc2_all_container
 trans.info##.wall-add-news
 travelplanet.pl##.open--feedback--popup
+trofeasportowe.com##.widget-allegro
 turio.com.pl##.call-now-button
 tvokazje.pl###phone-webcallback
 t-mobilebankowe.pl##.vd-status-box
