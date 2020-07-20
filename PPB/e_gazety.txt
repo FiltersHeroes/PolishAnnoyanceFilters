@@ -1,6 +1,10 @@
 e-hotelarz.pl###page > nav + div[style*="background-color: #312c52;"], .row > div > #pws-current-magazine-cover
 ||prestiztrojmiasto.pl/sites/default/files/styles/dodatek/public/media/prestiz_privatebanking_1_2020*.png
 prestiztrojmiasto.pl##.pane-home-temat-glowny .dodatek
+kjb24.pl##.uncont > div.uncode-pricing ~ div:nth-of-type(-n+4), .uncode-pricing
+kjb24.pl##.wpb_row  div.vc_custom_heading_wrap:nth-of-type(1) ~ div iframe[src*="youtube"]
+kjb24.pl#?#.wpb_row  div.vc_custom_heading_wrap:nth-of-type(1) h3:-abp-contains(/Zapowiedź numeru$/)
+kjb24.pl#?#.post-content > div.row-container.vc_row:-abp-has(h3:-abp-contains(/^Ostatnie numery$/))
 klubdachy.pl###wydanie_drk > a[href^="/wydanie-drukowane/201"], #wydanie_drk > div:nth-of-type(-n+2)
 e-hotelarz.pl#?#div.pws-box-title:nth-of-type(3):-abp-contains(/^E-tygodnik$/)
 e-hotelarz.pl#?#.pws-current-magazine-art > div:-abp-has(> a.btn ~ a.btn ~ a.btn)
