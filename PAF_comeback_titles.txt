@@ -1,10 +1,10 @@
-! Checksum: jud51nrAeCk4nxYK//dZcA
+! Checksum: koGruuJUvuuyVCLLMBUhTw
 ! Title: Polskie Filtry Elementów Irytujących - Powrotowe Tytuły
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Fri, 03 Jul 2020, 20:01 UTC+02
-! Version: 2020.7.3.0
+! Last modified: Wed, 22 Jul 2020, 12:00 UTC+02
+! Version: 2020.7.22.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,13 +12,13 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pią, 03 lip 2020, 20:01 UTC+02
+! Aktualizacja: śro, 22 lip 2020, 12:00 UTC+02
 !
 !
 atthost.pl,~mail.atthost.pl,myjki.com,~panel.atthost.pl,~secure.atthost.pl,~webmail.atthost.pl##+js(aopw, document.title)
 bludshop.com##+js(acis, window.onblur, Wróć na bludshop.com)
 casedrop.eu##+js(aeld, blur, title_on_blur)
-picodi.com##+js(aopr, titleBack)
+dziennikprawny.pl,picodi.com##+js(aopr, titleBack)
 prawokonsumenckie.pl##+js(set, setReplyTitle, noopFunc)
 !bludshop.com##+js(aopr, onblur)
 !bludshop.com,casedrop.eu,www.mbank.pl##+js(aopr, document.title)
