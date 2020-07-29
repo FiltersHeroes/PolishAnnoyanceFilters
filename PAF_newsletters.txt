@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: fiqa6uRdhJkd1xWwaiRhGQ
+! Checksum: FHisVczaI1VbQWRp7PpSEQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 25 Jul 2020, 12:00 UTC+02
-! Version: 2020.7.25.0
+! Last modified: Wed, 29 Jul 2020, 20:01 UTC+02
+! Version: 2020.7.29.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 25 lip 2020, 12:00 UTC+02
+! Aktualizacja: śro, 29 lip 2020, 20:01 UTC+02
 !
 !
 !
@@ -97,7 +97,7 @@ analizy.pl##.nl-wrapper
 andrzejgrzyb.eu##.widget_newsletterwidget
 andzela.com##.newsletter_block_right
 angielski-przedszkole.pl###rstbox_7.rstbox_top-right
-aniastarmach.pl,cinema3d.pl,festool.pl,lexlab.pl,pl.tommy.com##.newsletter-footer
+aniastarmach.pl,cinema3d.pl,festool.pl,lexlab.pl,medicalclinic.pl,pl.tommy.com##.newsletter-footer
 anmur.eu##.mod-newsletter-2.newsletter
 annapoplawska.pl##.newsletter_in_footer
 anna-urbanska.pl,cryptonews.pl,forumgliwice.pl,michalgrabarski.eu,projektwp.pl###text-7
@@ -353,6 +353,7 @@ dlabydgoszczy.pl##footer > div > .row > .text-left:nth-of-type(5) > h4
 dlahandlu.pl##.social.tabs > div.navi > a:first-child
 dlh.pl##.footer_left_newsletter
 dobiegania.pl##.superMailing
+dobrarelacja.pl#?#a[href="https://dobrarelacja.pl/newsletter"]:-abp-has( > img)
 dobredomy.pl###footerForm
 dobremiejsce.org##.popupaoc-button
 dobreprogramy.pl###phContent_SubscriptionsControl_lnkNewsletter
@@ -782,6 +783,7 @@ maxibike.pl##.newsletter-holder
 mazovia.pl##.clearfix > .nice-shadow.search-block
 mazury.travel,moliera2.com###newsletter_box
 mbmeganarzedzia.pl,motogron.com##.footer-container > div > div > div:nth-of-type(4)
+mbp.szczecin.pl#?#.elementor-inner-column.elementor-element[data-settings*="background"][data-settings*="classic"] > .elementor-element-populated.elementor-column-wrap:-abp-has(h4:-abp-contains(/^Zapisz się do naszego newslettera$/))
 mdk.opole.pl##footer > .my_container > .formularz.sub
 meble88.pl##.form-subscribe
 meble.pl###newsletterBlok
@@ -907,6 +909,7 @@ nowakonfederacja.pl###newsletter-header-box
 nowela.pl,teletorium.pl##.newslet
 nowiny.com.pl##.col-md-3:nth-of-type(7) > .info > .bottom > ul > li:nth-of-type(3)
 nowymarketing.pl##.footTools > li:nth-of-type(5)
+nowyobywatel.pl##.a-button-newsletter
 nowyobywatel.pl,taniejdladomu.pl###mailchimp
 nowyolechow.pl##.newsletter_signup
 nowyoutsourcing.pl##.g1-row-mailchimp, #mc-embedded-subscribe-form
@@ -1362,6 +1365,7 @@ union-investment.pl##.bottom-left.col-xs-12.col-sm-6.col-md-5
 univ.rzeszow.pl##.newsletterWidget
 uniwexaudio.pl##.container-fluid .pull-right.col-xs-12.col-sm-3
 up8.com##.b-footer_nsltr, .b-infoBox_newsletterInner
+upominki24.pl##.footer-container > div > .row > div[class]:nth-of-type(4)
 upsell.pl#?#article.post > .entry-content > .elementor:-abp-contains(newslettera)
 urbancity.pl##.box2
 urbnews.pl##.sb-widget:nth-of-type(4)
