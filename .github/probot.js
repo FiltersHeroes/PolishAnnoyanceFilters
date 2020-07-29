@@ -4,12 +4,7 @@
 //   .label('odrzucone');
 
 on('issues.labeled')
-  .filter(context => context.payload.label.name === 'zatwierdzone' && context.payload.label.name == 'rozpoczęto')
-  .unlabel('rozpoczęto')
-  .close();
-
-on('issues.labeled')
-  .filter(context => context.payload.label.name === 'zatwierdzone' && !context.payload.label.name == 'rozpoczęto')
+  .filter(context => context.payload.label.name === 'zatwierdzone')
   .close();
 
 on('issues.labeled')
