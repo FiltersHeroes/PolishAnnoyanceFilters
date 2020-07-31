@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: RjJq4nM3V4dUiZ9parJQuQ
+! Checksum: 6wATZW6+AEHq30IQp4ORlw
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Thu, 30 Jul 2020, 20:02 UTC+02
-! Version: 2020.7.30.2
+! Last modified: Fri, 31 Jul 2020, 12:01 UTC+02
+! Version: 2020.7.31.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 30 lip 2020, 20:02 UTC+02
+! Aktualizacja: pią, 31 lip 2020, 12:01 UTC+02
 !
 !
 !
@@ -275,8 +275,8 @@ znaczkipocztowe-kolekcja.pl###subscription
 zobraczkaczybez.pl###custom_html-5
 zobraczkaczybez.pl###execphp-2
 zwierciadlo.pl##.boxpds.boxsklep.post.row
+zwierciadlo.pl##a[href*="bit.ly/"] > .lazyloaded
 zwierciadlo.pl##.post.boksborder > aside.boxappla:nth-of-type(2)
-zwierciadlo.pl##[href="http://bit.ly/2WqS8MJ"] > .lazyloaded
 zwierciadlo.pl#?#.post.boksborder:-abp-has(a[href*="/miesiecznik"] > img[src*="//zwierciadlo.pl"], a[href*="bit.ly"] > img[src*="//zwierciadlo.pl"])
 zycie.pl##.right #multiple-versions, #premium-slide
 ||assets.polskaniepodlegla.pl/images/ZH_10_2019_okladka.jpg$image
