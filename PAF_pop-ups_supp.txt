@@ -1,7 +1,7 @@
 ! Codename: Pop-ups - supplement
 abcsurf.pl,akcesoriabaristy.pl,allepaznokcie.pl,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,ledfarmer.pl,makarfish.pl,mencare.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sport2002.pl##.mask:has( + .modal)
 abcsurf.pl,akcesoriabaristy.pl,allepaznokcie.pl,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,ledfarmer.pl,makarfish.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sport2002.pl##.mask + .modal
-abrakadabra.sklep.pl,alesoczewki.com,aluna.eu,aptekakamagra.pl,bezokularow.pl,bilkom.pl,biofemina.pl,bitner.com.pl,bonprix.pl,braciaprzykawie.pl,campingshop.pl,dieta.hpba.pl,dobresofty.pl,drogerienatura.pl,ecoxpress.pl,edulider.pl,ekoteka.pl,eurobuty.com.pl,extradom.pl,fmmobile.pl,galeriapolnocna.pl,gazetkonosz.pl,giftshop24.pl,grantthornton.pl,ibuk.pl,idream.pl,jezykiobce.pl,jordanki.torun.pl,kidsworld.pl,lubimyczytac.pl,medme.pl,mensahome.eu,miastodzieci.pl,moliera2.com,ncez.pl,niedziela.pl,nife.pl,online.citibank.pl,panel.kei.pl,pinsola.pl,polskieszlaki.pl,ppr.pl,prnews.pl,przemysl.pl,s-pl.pl,sekrecik.pl,sklep.nextmobile.pl,solven.pl,teatr-sabat.pl,toysrus.pl,ubraniadooddania.pl,vebo.pl,wpolu.pl,www.e-biurowce.pl,wynagrodzenia.pl,zeskory.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+abrakadabra.sklep.pl,alesoczewki.com,aluna.eu,aptekakamagra.pl,bezokularow.pl,bilkom.pl,biofemina.pl,bitner.com.pl,bonprix.pl,braciaprzykawie.pl,campingshop.pl,dieta.hpba.pl,dobresofty.pl,drogerienatura.pl,ecoxpress.pl,edulider.pl,ekoteka.pl,eurobuty.com.pl,extradom.pl,fmmobile.pl,galeriapolnocna.pl,gazetkonosz.pl,giftshop24.pl,grantthornton.pl,ibuk.pl,idream.pl,jezykiobce.pl,jordanki.torun.pl,kidsworld.pl,lomilowka.pl,lubimyczytac.pl,medme.pl,mensahome.eu,merkandi.pl,miastodzieci.pl,moliera2.com,ncez.pl,niedziela.pl,nife.pl,online.citibank.pl,panel.kei.pl,pinsola.pl,polskieszlaki.pl,ppr.pl,prnews.pl,przemysl.pl,s-pl.pl,sekrecik.pl,sklep.nextmobile.pl,solven.pl,teatr-sabat.pl,toysrus.pl,ubraniadooddania.pl,vebo.pl,wpolu.pl,www.e-biurowce.pl,wynagrodzenia.pl,zeskory.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 abrakadabra.sklep.pl,sekrecik.pl###myWorning, .modal-backdrop
 action.com##.has-popup:style(position: static !important;)
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
@@ -176,6 +176,7 @@ leftlane.pl##.modal-active:style(overflow: auto !important;)
 lesniow.pl,mebin.pl##.mfp-ready
 limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 logitechg.com##.email-subscription-modal
+lomilowka.pl###modalRazemRazniej, .modal-backdrop
 lubimyczytac.pl###modalZoom
 lubimyczytac.pl###modalZoom ~ .modal-backdrop:not(:has( ~ .modal-backdrop))
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important;)
@@ -199,6 +200,7 @@ medme.pl###do-not-leave-product
 medycznamarihuana.com,spidersweb.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
 mencare.pl##.modal
 mensahome.eu###news_popup, .oh ~ .modal-backdrop
+merkandi.pl###subscribe-modal, .modal-backdrop
 miastakobiet.pl,teamquest.pl###newsletterModal
 miastodzieci.pl###startModal
 mikesport.pl###Widget5, .modal-backdrop
@@ -366,7 +368,6 @@ zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important;
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
 !mobile.twitter.com##div[aria-hidden="true"] + div > div > div > div > div:has(> div[data-focusable="true"]:has(div:has(> div[aria-label="Zamknij"]) > div > div[dir="auto"]))
-!mobile.twitter.com##div[tabindex="0"]:matches-css(position: fixed):matches-css(min-height: /(16[5-9]|17[0-7])px/):not(:has([href="/signup"]))
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
