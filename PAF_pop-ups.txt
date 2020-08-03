@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: pPv7AKt/WvC8y9g5EMh0jA
+! Checksum: yrr5E0BzWvWP4d+PmyEgbg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 01 Aug 2020, 12:01 UTC+02
-! Version: 2020.8.1.0
+! Last modified: Mon, 03 Aug 2020, 12:00 UTC+02
+! Version: 2020.8.3.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 01 sie 2020, 12:01 UTC+02
+! Aktualizacja: pon, 03 sie 2020, 12:00 UTC+02
 !
 !
 !
@@ -157,6 +157,7 @@ cebit.pl,nsix.pl###cc-banner-iframe
 centrumwitalnosci.pl###formOverlay, #formWrapper
 centrum-kaszuby.pl#?##fancybox-wrap:-abp-has(a[href^="banner.html"])
 cezar.eu###window_overlay, #window_entrance
+cgm.pl##.bsaPopupWrapper, .bsaPopupWrapperBg
 ch24.pl###popup-box, #list-builder
 change.shop.pl###popup-flex
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
