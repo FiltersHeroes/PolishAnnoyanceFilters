@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: +G6fG7wbYe0tR8mGsl9EMg
+! Checksum: uFCEOwX0ovRRqvHFDFF8Bg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 02 Aug 2020, 12:00 UTC+02
-! Version: 2020.8.2.0
+! Last modified: Tue, 04 Aug 2020, 12:01 UTC+02
+! Version: 2020.8.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 02 sie 2020, 12:00 UTC+02
+! Aktualizacja: wto, 04 sie 2020, 12:01 UTC+02
 !
 !
 !
@@ -1335,6 +1335,8 @@ tge.pl##footer .card > .card-block
 themuba.com###newsletter_container
 thermano.eu##.footer-box--wide
 thunderbird.net#?##section.flex.flex-col > aside.flex.flex-col:nth-of-type(2):-abp-has( > #mc-embedded-subscribe-form)
+tickets.pl##.subscribe > .subscribe__block
+tickets.pl#?#.home_info_block:-abp-has( > .subscrie-ban)
 tiptopol.pl#?#.footer__item:-abp-has( > div > #block-webform)
 tiptop.com.pl###content > .row > #bg_orange
 tkmaxx.pl##.panels-flexible-region-1-newsletter_subscription
@@ -1410,6 +1412,7 @@ wakacje.pl##footer > form[class][method="post"][action*="/newsletter.html"]
 wakacje.pl##[data-area="newsletter"]
 waldtour.pl##.mailpoet-newsletter
 walerystasiak.com#?##content > .vc_row-has-fill.ult-vc-hide-row.vc_row-fluid.wpb_row.vc_row:-abp-contains(/newsletter/i)
+walmark.pl##.footer div[class]:nth-of-type(3) > .footer__heading
 wasserman.eu#?#footer[class]:not([id]) + div[class]:not([id]):-abp-contains(Promocje, nowości)
 waszaturystyka.pl##.platform-content:nth-of-type(2)
 waw4free.pl###komunikat_newsletter, #spolecznosci > a[href="newsletter"], .footer-box:nth-of-type(2)
