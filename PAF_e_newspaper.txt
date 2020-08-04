@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lypuXwOBwp0uUum5gtmGFw
+! Checksum: NNHOmwxOgfvtOU2/WEVPMw
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Sat, 01 Aug 2020, 12:01 UTC+02
-! Version: 2020.8.1.0
+! Last modified: Tue, 04 Aug 2020, 12:01 UTC+02
+! Version: 2020.8.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 01 sie 2020, 12:01 UTC+02
+! Aktualizacja: wto, 04 sie 2020, 12:01 UTC+02
 !
 !
 !
@@ -99,6 +99,7 @@ gazetapolska.pl##.view-dom-id-31c1eed7b1515cd435d96893fb167f28.view-display-id-b
 gazetasenior.pl###custom_html-19
 gazeta-mosina.pl##.first.mod-shadowbox.module
 gazeta-msp.pl##.tapeta
+gazeta-msp.##td > .tytuly_str[href*="archiwum"], .archiwum_prev, .archiwum_next, #archiwum_outer
 gf24.pl##p > .jch-lazyloaded
 gf24.pl###sppb-addon-1523617941456 > .sppb-text-left.sppb-addon-header.sppb-addon
 gf24.pl###sppb-addon-1523618120033
