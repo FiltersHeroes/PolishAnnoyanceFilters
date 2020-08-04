@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1OSVaPxuAcM4Yr2HfXtl1Q
+! Checksum: y5H6FxW/osqlghhqlllbIw
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 02 Aug 2020, 20:00 UTC+02
-! Version: 2020.8.2.1
+! Last modified: Tue, 04 Aug 2020, 12:01 UTC+02
+! Version: 2020.8.4.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 02 sie 2020, 20:00 UTC+02
+! Aktualizacja: wto, 04 sie 2020, 12:01 UTC+02
 !
 !
 !
@@ -103,6 +103,7 @@ bigbaddice.pl,gizchina.com.pl##.vw-more-articles
 bigbrother.tvn.pl##.__ipPerunElement[style^="position"]
 bikeboard.pl###magazine-btn
 bilbordy.info###tab
+biogo.pl,partyworld.pl,zabawkitotu.pl###gr-spnotifications
 biomak.eu###leaselinkSlideButton1
 bithub.pl##.st-comment
 bitland-b2c.platforma.ab.pl###rightBoxes
@@ -559,7 +560,6 @@ parenting.pl##.parenting-tv-latest
 parenting.pl,portal.abczdrowie.pl##.morealike__recomended
 parkwodny.pl##.fixed-text, .dl-bubble
 partneragdrtv.com.pl###js-sis_menu
-partyworld.pl,zabawkitotu.pl###gr-spnotifications
 pasazer.com##.fixed-search-tabs
 pepsieliot.com,wprost.pl##.element-article-link
 pep.pl##.work-offers
@@ -842,10 +842,12 @@ z-hotel.com###repuso_floating
 !
 !
 ! Ogólne reguły
+~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~pl##.mraty-widget:lang(pl)
 pl##.bilet
 pl##.llSlideButton
 pl##.polecamyBox
+pl##iframe[src^="https://esa.nask.pl/widget/"]
 pl###ClPanel
 pl###SliderPrzycisk
 pl###allecomments_clips
