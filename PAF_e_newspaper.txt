@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: bFoXrVFe6EkvvPHEa7c/Dw
+! Checksum: 6mpCBhgzLqPSe0PgRd1Hfw
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Sun, 09 Aug 2020, 12:00 UTC+02
-! Version: 2020.8.9.0
+! Last modified: Wed, 12 Aug 2020, 12:01 UTC+02
+! Version: 2020.8.12.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 09 sie 2020, 12:00 UTC+02
+! Aktualizacja: śro, 12 sie 2020, 12:01 UTC+02
 !
 !
 !
@@ -30,15 +30,25 @@ administrator24.info###zRight > h3
 administrator24.info###zRight > p
 angielski-przedszkole.pl##.ksiazka_contener > .dd-object661798813.dd-textblock
 angielski-przedszkole.pl##[src="/images/book.png"]
+aptekarzpolski.pl##.jnews_module_24236_9_5f327291370e0.jeg_alignleft.jeg_block_heading_2.jeg_block_heading
 aptekarzpolski.pl##.jnews_module_24236_10_5eff0ce4694de.jeg_alignleft.jeg_block_heading_2.jeg_block_heading
+aptekarzpolski.pl##.jnews_module_24236_10_5f32729137491.jeg_col_1o3.jeg_pagination_disable.jeg_module_hook.jeg_postblock.jeg_postblock_10
 aptekarzpolski.pl##.jnews_module_24236_11_5eff0ce469931.jeg_col_1o3.jeg_pagination_disable.jeg_module_hook.jeg_postblock.jeg_postblock_10
 astromagia.pl##.other-services
 audio.com.pl,automatykab2b.pl,budujemydom.pl,elektronikab2b.pl,ep.com.pl,estradaistudio.pl,magazyngitarzysta.pl##.kiosk
 audio.com.pl,ekobudowanie.pl##.newspaper
+autoexpert.pl###carousel-whitepapers
+autoexpert.pl##.d-lg-block.d-none.magazine
+autoexpert.pl##.ml-3.mb-3.mt-4.row
 automatykab2b.pl,elektronikab2b.pl##.recommended-articles-aside.col-lg-3
+automobilista.com.pl##.home1
+automobilista.com.pl##.home8 > .content > div.aos-animate.aos-init.box:nth-of-type(7)
+automobilista.com.pl##.owl-loaded.has2.owl-carousel
+automobilista.com.pl##.owl-loaded.has4.owl-carousel > .owl-stage-outer > .owl-stage > .active.owl-item
 auto-motor-i-sport.pl##.new-hitbox-extra.part-1-4.item
 auto-motor-i-sport.pl##.visible-lg.visible-md.visible-sm.hidden-xs.footer-bar
 auto-swiat.pl##aside[class*="float"].promoFrame
+avtest.pl##.feature.module
 avtest.pl###position-7 > div.module:nth-of-type(1)
 bialykruk.pl###magazine
 braclowiecka.pl##section.content:nth-of-type(1) > .wrapper > .main-content-wrapper > .main-content
@@ -51,8 +61,14 @@ bytomski.pl###sppb-addon-wrapper-1569331691774
 bytomski.pl##.sppb-addon-single-image-container
 cdaction.pl###promomodul
 centos.com.pl##.lmdiv
+charaktery.eu##div.block:nth-of-type(3)
 charaktery.eu,o-m.pl##div.block:nth-of-type(9)
+chcemybycrodzicami.pl##div.container:nth-of-type(2)
+chcemybycrodzicami.pl###content
+chcemybycrodzicami.pl###post-58249 > .single-post-footer-a-wrap
+chcemybycrodzicami.pl##.is-hidden-button.wp-block-woocommerce-product-category
 claudia.pl##.content-sidebar.col-lg-3.col-md-4.col-sm-12 > div.sidebar-box:nth-of-type(1)
+claudia.pl##.magazine-bottom
 computerworld.pl##.wraper-sticky > .separator
 co-slychac.pl##.okladka
 co-slychac.pl##.promwyd
@@ -104,6 +120,7 @@ gf24.pl###sppb-addon-1523617941456 > .sppb-text-left.sppb-addon-header.sppb-addo
 gf24.pl###sppb-addon-1523618120033
 globenergia.pl###content_sklep
 glowny-mechanik.pl###custom_html-7
+gosc.pl##div.wp-el.webpart-wrap-layout.wp-bd:nth-of-type(9) > .layout-1200.c > .Col0.LayoutColumn.c1200 > .wp-el.webpart-wrap-layout_column.wp-bd
 gostynska.pl###switch-2
 gpcodziennie.pl##div.no-mobile:nth-of-type(7)
 gpcodziennie.pl##div.no-mobile:nth-of-type(8)
@@ -116,6 +133,7 @@ histmag.org#?##content > div > h3:-abp-contains(/^Książkę można też kupić 
 histmag.org#?##content > div > h3:-abp-contains(/^Polecamy e-book /)
 histmag.org#?##content > div > p:-abp-has(.ub-box-szg_border-box .ub-box-szg_border-box a:-abp-contains((e-book)))
 historia.uwazamrze.pl##.photo-gallery-three.tr-section
+historia.uwazamrze.pl##.wydanie.kolor.tr-section
 huee.in##section.section--dark.section:nth-of-type(6)
 ican.pl##.section-top-news.col-xs-12.col-md-5 > hr
 ican.pl##.section-top-news.col-xs-12.col-md-5 > .slider-container
@@ -127,6 +145,7 @@ kjb24.pl##.wpb_row div.vc_custom_heading_wrap:nth-of-type(1) ~ div iframe[src*="
 kjb24.pl#?#.post-content > div.row-container.vc_row:-abp-has(h3:-abp-contains(/^Ostatnie numery$/))
 kjb24.pl#?#.wpb_row div.vc_custom_heading_wrap:nth-of-type(1) h3:-abp-contains(/Zapowiedź numeru$/)
 klubdachy.pl###wydanie_drk > a[href^="/wydanie-drukowane/201"], #wydanie_drk > div:nth-of-type(-n+2)
+konstrukcjeinzynierskie.pl###module-tabimage-202-particle > .g-tabimage > .g-grid > div.g-block:nth-of-type(1)
 ktociewyleczy.pl##.our-magazines
 kuriergmin.pl##.kurie-po-tresci
 kuriergmin.pl##.vc_column_container.td_uid_13_5efc95f44739b_rand.vc_column.wpb_column
@@ -220,6 +239,7 @@ rawicz24.pl###switch-4
 recenzjegitar.pl###header > p
 reportergazeta.pl##.sidebar > #media_image-2
 reporterzy.info##div.coversBox:nth-of-type(3)
+rozaniec.eu##.container.bottom-articles
 rozaniec.eu##.widget_latest-publication.latest-publication-2.widget
 rynekzdrowia.pl##.head > h2
 rynekzdrowia.pl##.list-43 > li:nth-of-type(1)
@@ -273,6 +293,7 @@ wpr24.pl##section.mb50.section:nth-of-type(7)
 www.konstrukcjeinzynierskie.pl###g-aside > div.g-grid:nth-of-type(2)
 wyszkowiak.pl##.introCurrentIssue
 xn--przesy-energii-lnc.pl###custom_html-9
+zielonyogrodek.pl##.open.gardeners-promo
 znaczkipocztowe-kolekcja.pl##aside
 znaczkipocztowe-kolekcja.pl###intro
 znaczkipocztowe-kolekcja.pl###subscription
