@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: sh7pm5eIT1M+KNPwEZzUlA
+! Checksum: dxzIUwPwfPfX5apiNIJ5ow
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Thu, 13 Aug 2020, 12:01 UTC+02
-! Version: 2020.8.13.0
+! Last modified: Thu, 13 Aug 2020, 15:04 UTC+02
+! Version: 2020.8.13.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 13 sie 2020, 12:01 UTC+02
+! Aktualizacja: czw, 13 sie 2020, 15:04 UTC+02
 !
 !
 !
@@ -1576,6 +1576,58 @@ zyciepabianic.pl###widget-newsletter
 !
 !
 ! Ogólne reguły
+~budus.pl,~dobre-driny.pl,pl,~pol-skone.pl,~zakupycodzienne.carrefour.pl###newsletter:not(.modal)
+~dron.pl,pl##.widget_wysija
+~karta.org.pl,pl,~poczta.wp.pl##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input)
+~laroxy.pl,pl,~sklep.cleverboard.pl###newsletter_block_left
+~pl###box_newsletter:lang(pl)
+~pl###menu_newsletter:lang(pl)
+~pl###newsletter:not(.modal):lang(pl)
+~pl###newsletter_block_left:lang(pl)
+~pl,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input):lang(pl)
+pl##.ModulNewsletter
+pl##.newsletterBox
+pl##.newsletterbox
+pl##aside[id^="mc4wp_form_widget"].widget_mc4wp_form_widget
+pl###box-newsletter
+pl###box_newsletter
+pl###footer_newsletter
+pl###mailchimp-top-bar
+pl###menu_newsletter
+pl###newsletterBox
+pl###newsletterform
+pl###newsletter-box
+pl###newsletter-footer
+pl###newsletter-form
+pl###newsletter_bar
+pl###newsletter_box
+pl###newsletter_footer
+pl###newsletter_wrapper
+pl###side_widget_newsletter
+pl###site-scroll-top
+pl###wp-subscribe
+pl##.block-simplenews
+pl##.block-subscribe
+pl##.box-newsletter
+pl##.footer-block--newsletter
+pl##.footer-newsletter
+pl##.footer-newsletter-box
+pl##.informator-rejestracja
+pl##.jetpack_subscription_widget
+pl##.m-newsletter
+pl##.newsletter-box
+pl##.newsletter-btn
+pl##.newsletter-container
+pl##.newsletter-link
+pl##.newsletter-rejestracja
+pl##.newsletter-subscribe
+pl##.newsletter_footer
+pl##.widget-newsletter
+pl##.widget_mailerlite_widget
+pl##.widget_newsletterwidget
+/btn-newsletter
+/button/newsletter.jpg
+/wp-content/plugins/wysija-newsletters
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
