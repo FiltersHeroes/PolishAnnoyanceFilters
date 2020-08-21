@@ -436,7 +436,7 @@ myob.pl#?##popup-message-window:-abp-has(p > a >img[src*="popup_desktop"])
 mysize.com.pl###popup_box, #overlay
 m.czesciauto24.pl##.cps_app
 m.smaker.pl##.apkInfoPopup
-m.youtube.com##.upsell-dialog-lightbox
+!m.youtube.com##.upsell-dialog-lightbox
 nabory.kprm.gov.pl##.active.popup-newsletter
 naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
@@ -715,7 +715,7 @@ wysokiewibracje.pl###modal-3606
 xn--gagan-l7a.pl##.bk_popup
 yoursclothing.pl##.js-overlay, .slideInBox
 yoursclothing.pl##.slide-in-box--newsletter
-youtube.com#?#ytd-popup-container > .ytd-popup-container[role="dialog"]:-abp-contains(Zmiany w Warunkach korzystania z usługi YouTube)
+youtube.com#?#ytd-popup-container > .ytd-popup-container[role="dialog"]:-abp-has(a[href="https://support.google.com/youtube/?p=sign_in"])
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zawojski.pl##.news-overlay
 zblogowani.pl###more-posts-modal
@@ -825,14 +825,15 @@ zszywka.pl###inv-request-popup
 ||widget.contactleader.pl^$script,third-party
 ||woblink.com/js/newsletterPopup.js
 ||wszystkookotach.pl/wp-content/plugins/popslide/assets/js/front.js
-||www1.grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
-||www.claritine.pl/static/js/image_gallery/jquery.colorbox.js
-||www.izigsm.pl/js/newsletterpop.js
-||www.kuchenny.com.pl/popup/js/jquery.simplemodal.js
-||www.makita.sklep.pl/szablony/standardowy.rwd/exit-popup/scripts/main.js
-||www.nivea.pl/-/proxy/web/*/nivea-club-pf/popup/*$xmlhttprequest
-||www.super-toys.pl/javascript/banner_popup.php
-||www.wymarzonyogrod.pl/popup-newsletter/*
-||www.youtube.com/get_video_info?*video_id=3mUaADvAK9E*eurl=*intermarche.pl*c=WEB_EMBEDDED_PLAYER$xmlhttprequest,domain=www.youtube.com
+||grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
+||claritine.pl/static/js/image_gallery/jquery.colorbox.js
+||izigsm.pl/js/newsletterpop.js
+||kuchenny.com.pl/popup/js/jquery.simplemodal.js
+||makita.sklep.pl/szablony/standardowy.rwd/exit-popup/scripts/main.js
+||nivea.pl/-/proxy/web/*/nivea-club-pf/popup/*$xmlhttprequest
+||super-toys.pl/javascript/banner_popup.php
+||wymarzonyogrod.pl/popup-newsletter/*
+||youtube.com/get_video_info?*video_id=3mUaADvAK9E*eurl=*intermarche.pl*c=WEB_EMBEDDED_PLAYER$xmlhttprequest,domain=www.youtube.com
 ||wydawnictwokobiece.pl/wp-content/plugins/newsletter_popup//newsletter_popup.js
 ||znak.com.pl/popupNewsletter$xmlhttprequest
+!youtube.com#?#ytd-popup-container > .ytd-popup-container[role="dialog"]:-abp-contains(Zmiany w Warunkach korzystania z usługi YouTube)
