@@ -436,7 +436,6 @@ myob.pl#?##popup-message-window:-abp-has(p > a >img[src*="popup_desktop"])
 mysize.com.pl###popup_box, #overlay
 m.czesciauto24.pl##.cps_app
 m.smaker.pl##.apkInfoPopup
-!m.youtube.com##.upsell-dialog-lightbox
 nabory.kprm.gov.pl##.active.popup-newsletter
 naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
@@ -715,8 +714,8 @@ wysokiewibracje.pl###modal-3606
 xn--gagan-l7a.pl##.bk_popup
 yoursclothing.pl##.js-overlay, .slideInBox
 yoursclothing.pl##.slide-in-box--newsletter
-youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href="https://support.google.com/youtube/?p=sign_in"])
 youtube.com##body > .opened[opened][style^="z-index"]
+youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href="https://support.google.com/youtube/?p=sign_in"])
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zawojski.pl##.news-overlay
 zblogowani.pl###more-posts-modal
@@ -734,6 +733,8 @@ zszywka.pl###inv-request-popup
 !kulturaliberalna.pl##.kl-1procent-2020-banner, .kl-1procent-2020-bg
 !kulturaliberalna.pl##.newsletter-2019, .newsletter-2019-bg
 !mettosport.eu##.wf2-shake-box, .grwf2_backdrop
+!m.youtube.com##.upsell-dialog-lightbox
+!youtube.com#?#ytd-popup-container > .ytd-popup-container[role="dialog"]:-abp-contains(Zmiany w Warunkach korzystania z usługi YouTube)
 !||zaradnyfinansowo.pl/*/wp-content/plugins/wp-subscribe-pro/assets/js/magnificpopup-*.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /css/jquery.fancybox.css$domain=fakro.pl|modrzewiowy-dwor.pl
@@ -768,6 +769,7 @@ zszywka.pl###inv-request-popup
 ||brilum24.pl/skins/user/rwd_shoper_1/js/remodal.min.js
 ||call.novocall.co/v1/widgets$script,domain=krainawody.pl|pij-wode.pl
 ||centrumprasowe.pap.pl/cp/pl/ajax/popup/*$xmlhttprequest
+||claritine.pl/static/js/image_gallery/jquery.colorbox.js
 ||czarymary.pl/NewsletterPopup
 ||czerwionka-leszczyny.pl/mod/banery/top_baner_ciasteczko$xmlhttprequest
 ||daily.pl/modal/get/sticker-text
@@ -781,19 +783,23 @@ zszywka.pl###inv-request-popup
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/js/popups.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
 ||getall.pl/modules/popup/$script,stylesheet,domain=pl
+||grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
 ||heuristic.pl/css/magnific-popup.css
 ||home-you.com/themes/hy/popup/jquery.popup.js
 ||ibuk.pl/public/desktop/js/contentJs/aapopup.js
 ||img.babsft.com/site/images/babylon10/translation/popupScript.js
+||izigsm.pl/js/newsletterpop.js
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
 ||jsystems.pl/resources/js/modal.js
 ||kbhakord.pl/sites/all/modules/popup_announcement/popup_announcement.js
 ||kierunekspozywczy.pl/js/magnific-popup/jquery.magnific-popup.js
 ||kubawpodrozy.pl/wp-content/plugins/newsletter-leads/libs/simplemodal/jquery.simplemodal.js
+||kuchenny.com.pl/popup/js/jquery.simplemodal.js
 ||liceum.org.pl/modules/mod_mh_ajax_popup/js/mhap.js
 ||losyziemi.pl/?spu_action=spu_load&lang=
 ||mailerlite.com^$third-party
 ||mailing.terapiasokami.pl/site2/subskrybenci_terapii_sokami
+||makita.sklep.pl/szablony/standardowy.rwd/exit-popup/scripts/main.js
 ||mamstartup.pl/newsletter/popup
 ||medyczny.pl/uploads/exit-popup/ml-exit-popup.min.js
 ||message-page.com/sound/open.mp3$media,object,domain=info-przetargi.pl
@@ -802,6 +808,7 @@ zszywka.pl###inv-request-popup
 ||modea.pl/js/CoverPop.min.js
 ||m-wierchomla.youlead.pl/ylcustom.js
 ||nawozy.eu/js/jquery.lockscroll.min.js
+||nivea.pl/-/proxy/web/*/nivea-club-pf/popup/*$xmlhttprequest
 ||phf-bosch.pl/kartki/kartki.js
 ||player.vimeo.com/video/*?autoplay=1$subdocument,domain=fakro.pl
 ||podaj.to/content/js/facebook.min.js
@@ -820,21 +827,14 @@ zszywka.pl###inv-request-popup
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
 ||starter.net.pl/wp-content/plugins/modal-window/assets/css/style.min.css
 ||superkoszyk.pl/media/nl_modal/js/delay1page.js
+||super-toys.pl/javascript/banner_popup.php
 ||szkla.com/js/newsletter_popup.js
 ||v2.getall.pl/modules/popup/*$domain=skladaniekomputera.pl
 ||virgobooks.pl/modules/advancedpopupcreator/lib/fancybox/jquery.fancybox.transitions.js
 ||widget.contactleader.pl^$script,third-party
 ||woblink.com/js/newsletterPopup.js
 ||wszystkookotach.pl/wp-content/plugins/popslide/assets/js/front.js
-||grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
-||claritine.pl/static/js/image_gallery/jquery.colorbox.js
-||izigsm.pl/js/newsletterpop.js
-||kuchenny.com.pl/popup/js/jquery.simplemodal.js
-||makita.sklep.pl/szablony/standardowy.rwd/exit-popup/scripts/main.js
-||nivea.pl/-/proxy/web/*/nivea-club-pf/popup/*$xmlhttprequest
-||super-toys.pl/javascript/banner_popup.php
+||wydawnictwokobiece.pl/wp-content/plugins/newsletter_popup//newsletter_popup.js
 ||wymarzonyogrod.pl/popup-newsletter/*
 ||youtube.com/get_video_info?*video_id=3mUaADvAK9E*eurl=*intermarche.pl*c=WEB_EMBEDDED_PLAYER$xmlhttprequest,domain=www.youtube.com
-||wydawnictwokobiece.pl/wp-content/plugins/newsletter_popup//newsletter_popup.js
 ||znak.com.pl/popupNewsletter$xmlhttprequest
-!youtube.com#?#ytd-popup-container > .ytd-popup-container[role="dialog"]:-abp-contains(Zmiany w Warunkach korzystania z usługi YouTube)
