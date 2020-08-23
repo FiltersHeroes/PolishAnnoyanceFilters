@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: mJqcq771UNVloWMPLkPZmg
+! Checksum: 75bdct3B5Vubp6v4laaT3Q
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Thu, 13 Aug 2020, 20:00 UTC+02
-! Version: 2020.8.13.1
+! Last modified: Sun, 23 Aug 2020, 16:00 UTC+02
+! Version: 2020.8.23.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 13 sie 2020, 20:00 UTC+02
+! Aktualizacja: nie, 23 sie 2020, 16:00 UTC+02
 !
 !
 !
@@ -64,9 +64,9 @@ centos.com.pl##.lmdiv
 charaktery.eu##div.block:nth-of-type(3)
 charaktery.eu,o-m.pl##div.block:nth-of-type(9)
 chcemybycrodzicami.pl##div.container:nth-of-type(2)
-chcemybycrodzicami.pl###content
 chcemybycrodzicami.pl###post-58249 > .single-post-footer-a-wrap
 chcemybycrodzicami.pl##.is-hidden-button.wp-block-woocommerce-product-category
+chcemybycrodzicami.pl#?#.row.front-row.front-issue-box.issue-box:-abp-has(h2:-abp-contains(Najnowszy numer magazynu))
 claudia.pl##.content-sidebar.col-lg-3.col-md-4.col-sm-12 > div.sidebar-box:nth-of-type(1)
 claudia.pl##.magazine-bottom
 computerworld.pl##.wraper-sticky > .separator
