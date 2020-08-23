@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IEo8IryWBbg6KKQkqsBiYQ
+! Checksum: 2rQ6WS++vGviZa3yQw3+0g
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 22 Aug 2020, 12:00 UTC+02
-! Version: 2020.8.22.0
+! Last modified: Sun, 23 Aug 2020, 16:00 UTC+02
+! Version: 2020.8.23.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 22 sie 2020, 12:00 UTC+02
+! Aktualizacja: nie, 23 sie 2020, 16:00 UTC+02
 !
 !
 !
@@ -953,6 +953,7 @@ zuch.media###spu-10366, #spu-bg-10366
 !
 ! Ogólne reguły
 .facebooklikepopup.
+~chcemybycrodzicami.pl,pl,~zblogowani.pl###ouibounce-modal
 pl###esns_background_layer
 pl###facebook-popup
 pl###fb-fan-pop
@@ -966,7 +967,6 @@ pl##.facebook-bn_site-overlay
 pl##.facebook-popup
 pl##.hejhej:not(body):not(html)
 pl##.livecall-widget-container
-pl,~zblogowani.pl###ouibounce-modal
 /axnewsletter.js
 /plugins/facebook-fanbox-popup
 /plugins/facebook-page-promoter-$~image,~stylesheet
