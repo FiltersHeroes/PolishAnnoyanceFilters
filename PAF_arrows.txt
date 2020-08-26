@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xkJXfUVd47B47LptF6AoYQ
+! Checksum: 6PaMtiqStdvAkFp9BfRG7A
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Tue, 25 Aug 2020, 12:00 UTC+02
-! Version: 2020.8.25.0
+! Last modified: Wed, 26 Aug 2020, 20:00 UTC+02
+! Version: 2020.8.26.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 25 sie 2020, 12:00 UTC+02
+! Aktualizacja: śro, 26 sie 2020, 20:00 UTC+02
 !
 !
 ! Specyficzne reguły
@@ -110,7 +110,7 @@ bartyla.pl,holisticclinic.pl##.trx_addons_scroll_to_top
 baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,metaltech.com.pl,pmi.org.pl,postwood.pl,rebelelectro.com,sklep.yasumi.pl,staypoland.com,terazteatr.pl###to_top
 baza-firm.com.pl###goTopArrow
 bekoczesci.pl###tbScrollToTop
-beskidy.news,powiatslubicki.pl##.js-scroll-top.c-scroll-top
+beskidy.news,intimissimi.com,nawa.gov.pl,powiatslubicki.pl##.js-scroll-top
 betterland.pl,swiece-zaplonowe.pl###to_top_wrap
 bettingexpert.com##.slideInUp
 bezpiecznapodroz.org,szczodrymarket.com,termyszaflary.com,witanet.net###go-top
@@ -261,6 +261,7 @@ garneczki.pl##.go-to-up
 gazeta-fotograficzna.org,gmoto.pl,mp.pl###top-link-block
 gazeta-mosina.pl,vmc.org.pl##.anchor
 gazeta-msp.pl###strzalka_top
+gdansk.pl##button.btn.rounded-circle[style]
 gearbest.com##.js-toTop.siteAside_toTop
 generali.pl###fe-scroll-nav
 getruck.eu###scrollUp_arrow
@@ -325,7 +326,6 @@ inford.eu,instalterm.eu##.btn-top
 infores.net###icon-mobile-scroll-top
 inpost.pl##.footerMatToTop
 intereffective.pl##.c-button-top
-intimissimi.com##.js-scroll-top
 ipa-katowice.org,lakiernictwo.net,medianarodowe.com,porozmawiajmy.tv,pulawy.eu,roztocze.net###gototop
 isp.org.pl##.icon-arrow-up
 italiapozaszlakiem.com##.vw-scroll-to-top
@@ -514,7 +514,9 @@ proveg.com##.back-to-inner
 przedszkoledzierzgon.pl###btn-scroll-up
 psychowiedza.com###cesis_to_top
 puck.naszemiasto.pl###kotwica
+pyszne.pl##div[data-qa="scroll-top"]
 pzlsedziszow.pl##.scroll-top-wr
+p.lodz.pl##.pageUp
 radiohit.net.pl###teg-scrollup
 radiomaryja.pl##.avia-post-nav
 radiopik.pl##.scrollsoft
@@ -605,6 +607,7 @@ vulcan.edu.pl###b_gora
 vvilk.com##.tvbottom-to-top
 wabisabi-store.jp##.scrolltopbtn
 wago.com##.scroll-hint
+wbh.wp.mil.pl##.fi-arrow-up
 wec.com.pl##.go2top
 whatnext.pl###back-to-up
 wielkahistoria.pl###johannes-goto-top
@@ -651,6 +654,7 @@ xn--pandorabiuteria-qkd.pl###w2b-StoTop
 yara.pl###backToTopButton
 zalecane.pl##.g1-teaser
 zdrowie.pap.pl##.show.m13
+zdrowie.pap.pl#?#section ~ div:-abp-has( > svg[title="Do góry"])
 zenbox.pl##.scroll-page
 zlotegory.com##.mk-go-top
 zooplus.pl###btn-goTop
@@ -674,7 +678,7 @@ zszywka.pl###scroolToTop
 !
 !
 ! Ogólne reguły
-~active.sklep.pl,~bel-pol.pl,~beskidzka-akademia.pl,~betard.pl,~forum.dobreprogramy.pl,~lenartowiczclinic.pl,pl##.fa-angle-up
+~active.sklep.pl,~bel-pol.pl,~beskidzka-akademia.pl,~betard.pl,~forum.dobreprogramy.pl,~gdansk.pl,~lenartowiczclinic.pl,pl##.fa-angle-up
 ~deweloper-interes.pl,pl###back_to_top
 ~ifirma.pl,pl##.dogory
 ~obi.pl,pl##.scrollup:not(body):not(html)
