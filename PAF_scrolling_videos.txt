@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rRo/Eai3nJSdEudMUPgTjw
+! Checksum: 1zR71oNO0EMRZ4lJFDG7yQ
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 12 Jul 2020, 16:01 UTC+02
-! Version: 2020.7.12.0
+! Last modified: Wed, 26 Aug 2020, 20:00 UTC+02
+! Version: 2020.8.26.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 12 lip 2020, 16:01 UTC+02
+! Aktualizacja: śro, 26 sie 2020, 20:00 UTC+02
 !
 !
 !
@@ -22,6 +22,8 @@ abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl
 agrii.pl###panel
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl##.player-floating, .player-move-up
 dziennik.pl##.video.widget > .videoScroll, .video.widget > .videoScroll ~ .closeVideoBtn
+gdansk.pl###players_rama > img[style*="display:"][style*="block"] ~ #players_close[style*="display:"][style*="block"]
+gdansk.pl###players_rama > img[style*="display:"][style*="block"] ~ #players_close[style*="display:"][style*="block"] ~ #players
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
 interia.pl,interia.tv,~m.interia.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 medonet.pl,onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
