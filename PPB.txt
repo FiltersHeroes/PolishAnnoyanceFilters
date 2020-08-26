@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: mMUddI9559zyPifORlRusw
+! Checksum: 7U3pSkgRw2TfTogPILvA3A
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Wed, 26 Aug 2020, 19:21 UTC+02
-! Version: 2020.8.26.1
+! Last modified: Wed, 26 Aug 2020, 19:35 UTC+02
+! Version: 2020.8.26.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 26 sie 2020, 19:21 UTC+02
+! Aktualizacja: śro, 26 sie 2020, 19:35 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1234,6 +1234,7 @@ smalltronic.pl##.NaglowekNewsletter, .ModulNewsletter
 smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
 sniadaniezkadra.onet.pl##.footerMenuBoxNewsletter
 snowbitch.pl###emailNewsForm
+sodexo.pl###content > #sg-form-row
 sofly.club##.newsletter-widget-1
 softekspert.pl##.left-block:nth-of-type(3)
 softonic.pl##.popup-newsletter
@@ -3256,6 +3257,7 @@ proveg.com##.back-to-inner
 przedszkoledzierzgon.pl###btn-scroll-up
 psychowiedza.com###cesis_to_top
 puck.naszemiasto.pl###kotwica
+pyszne.pl##div[data-qa="scroll-top"]
 pzlsedziszow.pl##.scroll-top-wr
 p.lodz.pl##.pageUp
 radiohit.net.pl###teg-scrollup
@@ -5370,8 +5372,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2020.8.26.1
-!@ Last modified: Wed, 26 Aug 2020, 19:21 UTC+02
+!@ Version: 2020.8.26.2
+!@ Last modified: Wed, 26 Aug 2020, 19:35 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -5382,7 +5384,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2020 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2020.8.26.1 aktualizacja: śro, 26 sie 2020, 19:21 UTC+02
+!@ v.2020.8.26.2 aktualizacja: śro, 26 sie 2020, 19:35 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -7131,6 +7133,7 @@ pupillo.pl###tloPopUp, #oknoPopUp
 pushpushgo.com##.ppg-cookies
 pwik.wolomin.pl###oknoModal
 pw.edu.pl##.lb-overlay, .lb-wrapper
+pyszne.pl###root > footer + div[data-qa="privacy-settings"]
 pzip.pl##.sqs-announcement-bar-content
 pzszerm.pl,rewolucjawoc.pl##.copy
 pz.gov.pl###gdprPopup
