@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 75bdct3B5Vubp6v4laaT3Q
+! Checksum: ocpv0pYctYthrlkF8tq6IA
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Sun, 23 Aug 2020, 16:00 UTC+02
-! Version: 2020.8.23.0
+! Last modified: Thu, 27 Aug 2020, 20:01 UTC+02
+! Version: 2020.8.27.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 23 sie 2020, 16:00 UTC+02
+! Aktualizacja: czw, 27 sie 2020, 20:01 UTC+02
 !
 !
 !
@@ -240,6 +240,7 @@ pracedyplomowe.edu.pl###layer1[style]
 prawo.gazetaprawna.pl##.buySubscription
 prestizszczecin.pl##.pane-views-magazyn-okladka-aktualna.pane-block.panel-pane
 prestiztrojmiasto.pl##.pane-home-temat-glowny .dodatek
+pro-test.pl#?#div.blokRight:-abp-has(a:-abp-contains(/Nowość|Prenumerata/))
 przegladlokalny.eu##.right-sidebar > .right-header, .right-sidebar > .text-center
 przegladlokalny.eu##.section-special
 przegladpiaseczynski.pl##.td_block_padding.td-column-1.td_block_template_1.td-pb-border-top.tdi_27_556.td_block_3.td_block_wrap
