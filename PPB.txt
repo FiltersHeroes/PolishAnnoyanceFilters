@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jM3Uk6TMSGhVYLh0n8zpIA
+! Checksum: RCk8McSSb19kvWm3IhxGpw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 30 Aug 2020, 12:01 UTC+02
-! Version: 2020.8.30.0
+! Last modified: Sun, 30 Aug 2020, 15:58 UTC+02
+! Version: 2020.8.30.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 30 sie 2020, 12:01 UTC+02
+! Aktualizacja: nie, 30 sie 2020, 15:58 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -200,7 +200,7 @@ bochniaisol.pl,digi-tv.pl,podrozezantena.pl,satkurier.pl,solarkurier.pl###newsle
 bodyland.pl###stopka_newsletter > .newsletter_box > form
 bodypak.pl###pts-newsletter
 bold.net.pl##.fm-newsletter
-boleslawiec.tv,bydgoszcz.com,echotygodnik.info,halogorlice.info,jaw.com.pl,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl#?#footer#footer p:nth-of-type(1):-abp-has(a:-abp-contains(Czym jest newsletter))
+boleslawiec.tv,bydgoszcz.com,echotygodnik.info,halogorlice.info,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl#?#footer#footer p:nth-of-type(1):-abp-has(a:-abp-contains(Czym jest newsletter))
 bolix.pl##.homepage-newsletter-box
 bonprix.pl##a[href="/serwis/newsletter"], .contrast.container-fluid > .container > .row > .col-xs-12.col-sm-6
 bonprix.pl###footer-newsletter-subscribe
@@ -3544,6 +3544,7 @@ pl,~studioatrium.pl###back-to-top
 !
 ! Tła zawierające autoreklamy
 aptekagemini.pl##.container_left_box, .container_right_box
+boleslawiec.tv,bydgoszcz.com,echotygodnik.info,halogorlice.info,korso24.pl,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl##.bgad
 czarymary.pl###checkWidthFullMain1
 czary.pl###klikalne_tlo_calosci a[href="https://sklepmagiczny.pl/pl/p/Astrologia-mundalna/88"]
 neonet.pl##.as-wallpaper_right, .as-wallpaper_left
@@ -3634,7 +3635,7 @@ braclowiecka.pl##a.shop:nth-of-type(2)
 braclowiecka.pl##.icon-bar > a.shop:nth-of-type(1)
 brakestock.pl###zcwMiniButton
 brandvital.eu,ciagutek.pl###callnowbutton
-brand.ceo,jubilat.net.pl,walizkazabawek.pl###ue_widget
+brand.ceo,jubilat.net.pl,tipmedia.pl,walizkazabawek.pl###ue_widget
 brief.pl##.fab-desktop
 brw.pl##.brw_opineo.icon-menu
 bssztum.pl###widget_social2
@@ -5380,8 +5381,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2020.8.26.2
-!@ Last modified: Wed, 26 Aug 2020, 19:35 UTC+02
+!@ Version: 2020.8.30.0
+!@ Last modified: Sun, 30 Aug 2020, 15:58 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -5392,7 +5393,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2020 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2020.8.26.2 aktualizacja: śro, 26 sie 2020, 19:35 UTC+02
+!@ v.2020.8.30.0 aktualizacja: nie, 30 sie 2020, 15:58 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -6557,6 +6558,7 @@ kryminalnapolska.pl###adnp
 krzysztonjan.com##.clear_notice
 krzywcza.eu###easycookieinfo
 ksero-tecza.pl##body > table > tbody > tr:nth-of-type(1)
+ksiegaimion.com###eucl-wrapper
 ksiegarnia.iaepan.vot.pl###sp-popup-126
 ksow.pl,wzp.pl###myrodoinfo
 kuchniapelnanagrod.pl##div#claw-prompt
@@ -6999,6 +7001,7 @@ pinterest.com##div[role="main"] > div[class] > div[data-test-id="unauthEuCookieB
 pipelife.com###coo
 pizzahut.pl##li.ph-footer-navigation-header:-abp-contains(ZNAJDŹ PIZZA HUT)
 pizzahut.pl###ph-cookies
+pizzahut.pl#?#body > #__next > div[class^="css-"] > div[class^="css-"] ~ div[class^="css-"]:last-child:-abp-has(img[alt="Cookies"][src^="/images/cookies"])
 pizzahut.pl#?#li.ph-footer-navigation-header:-abp-contains(ZNAJDŹ PIZZA HUT) ~ li.footer-icon
 pizzaportal.pl,pl.chili.com##.react-cookie-banner
 pkn.net.pl##.lity-inline.lity-opened.lity
@@ -7192,6 +7195,7 @@ roland-gazeta.pl###cpnb
 romance-tv.pl##.ce_rsce_tao_fixed_note.fixed-note
 romantycznyweekend.eu###cookiepolicydiv
 rondel.pl###rondelpl_cookies
+roslinniejemy.org###policy_popup
 routex.com###ca_alert
 rowermevo.pl##.cookies-cont
 rower.com.pl###cookies_request
@@ -8097,6 +8101,7 @@ pl###cookie-info:not(body):not(html)
 pl###cookie-law-bar:not(body):not(html)
 pl###cookie-law-container:not(body):not(html)
 pl###cookie-law-info-again:not(body):not(html)
+pl###cookie-law-info-bar ~ #cookie-law-info-again ~ #cliSettingsPopup
 pl###cookie-law-info-bar:not(body):not(html):not(.cli-bar-popup):not(.cli-modal-content)
 pl###cookie-law-message:not(body):not(html)
 pl###cookie-law:not(body):not(html)
