@@ -2,8 +2,8 @@ abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl
 agrii.pl###panel
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl##.player-floating, .player-move-up
 dziennik.pl##.video.widget > .videoScroll, .video.widget > .videoScroll ~ .closeVideoBtn
-gdansk.pl###players_rama > img[style*="display:"][style*="block"] ~ #players_close[style*="display:"][style*="block"]
-gdansk.pl###players_rama > img[style*="display:"][style*="block"] ~ #players_close[style*="display:"][style*="block"] ~ #players
+gdansk.pl###players_rama > img ~ #players_close
+gdansk.pl###players_rama > img ~ #players_close ~ #players
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
 interia.pl,interia.tv,~m.interia.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 medonet.pl,onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
