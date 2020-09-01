@@ -259,7 +259,12 @@ pewex.pl##body, html:style(overflow: auto !important; margin-right: 0 !important
 pewex.pl###popupStart
 playstation.com##+js(acis, $, PopupManager)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
+pl.dreamstime.com##html.documentLocked body:style(overflow: visible !important;)
+pl.dreamstime.com##html.documentLocked header:style(padding-right: 0 !important;)
+pl.dreamstime.com##html.documentLocked:style(margin-right: 0 !important;)
+pl.dreamstime.com###freetrial_popup
 pl.dreamstime.com##+js(nostif, SignUPPopup_load, 5000)
+pl.dreamstime.com##.popup:style(overflow: auto !important;)
 pl.tommy.com##.ReactModalPortal:has(.newsletter--modal)
 pl.tommy.com##.ReactModal__Body--open:style(overflow: auto !important;)
 pmsocho.com##.cp-custom-viewport, .cp-oveflow-hidden, .cp-window-viewport:style(overflow: auto !important;)
@@ -373,6 +378,8 @@ zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important;
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
 !mobile.twitter.com##div[aria-hidden="true"] + div > div > div > div > div:has(> div[data-focusable="true"]:has(div:has(> div[aria-label="Zamknij"]) > div > div[dir="auto"]))
+!pl.dreamstime.com##+js(aopr, openfreetrial)
+!pl.dreamstime.com##+js(set, openfreetrial, 1)
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
