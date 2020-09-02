@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 0vvyT6nIsq7VnIxubBNHzA
+! Checksum: HvXER0+DAh+4QGlRWuI4WQ
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Tue, 01 Sep 2020, 20:01 UTC+02
-! Version: 2020.9.1.0
+! Last modified: Wed, 02 Sep 2020, 12:00 UTC+02
+! Version: 2020.9.2.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 01 wrz 2020, 20:01 UTC+02
+! Aktualizacja: śro, 02 wrz 2020, 12:00 UTC+02
 !
 !
 !
@@ -210,9 +210,8 @@ nowinykrapkowickie.pl##.region-jedynka.region > .block .field-content
 nowiny.pl###box-epress
 nowodworski.info###black-studio-tinymce-3
 noworudzianin.pl###text-6
-nowyobywatel.pl##div.iv--one-quarter.iii--one-third.ii--one-half.i--one-whole.grid__item.js-packery__item:nth-of-type(2)
-nowyobywatel.pl##div.u-mb\+\+:nth-of-type(7)
-nowyobywatel.pl##div.u-mb\+\+:nth-of-type(8)
+nowyobywatel.pl##section#js-packery > div.js-packery__item:nth-of-type(2)
+nowyobywatel.pl##.container ~ div.u-mb\+\+
 nowypompon.pl##table:nth-of-type(2) > tbody > tr > .bodystyle
 nowypompon.pl##tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr > td > table:nth-of-type(4)
 nowypompon.pl##tr:nth-of-type(4) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr > td > table:nth-of-type(1)
@@ -341,7 +340,7 @@ zycie.pl##.right #multiple-versions, #premium-slide
 ||i.perspektywy.pl/pages/jhovngq2lj/banners/dzxJ753hSuAaVE8nTYOtqs9TVrYVgsKe4WRvOFFn.jpeg
 ||jagodnik.pl/wp-content/uploads/2020/02/MF2018-1.png
 ||michalici.pl/storage/_MICHALICI/Slaider/KJB/Slajder_kjb_new_2020_4.jpg
-||niezalezna.pl/images/gp/gp_360.jpg$image
+||niezalezna.pl/images/gp/gp_360.jpg
 ||prestiztrojmiasto.pl/sites/default/files/styles/dodatek/public/media/prestiz_privatebanking_1_2020*.png
 ||sbp.pl/repository/buttony/2-ksiazki-20p.png
 ||tabletowo.pl/wp-content/uploads/2020/06/banner-10-lecie-tabletowo-magazyn.png
