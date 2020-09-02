@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HvXER0+DAh+4QGlRWuI4WQ
+! Checksum: eDvsOYkQ8WA1J7GxoPFGJw
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Wed, 02 Sep 2020, 12:00 UTC+02
-! Version: 2020.9.2.0
+! Last modified: Wed, 02 Sep 2020, 20:01 UTC+02
+! Version: 2020.9.2.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 02 wrz 2020, 12:00 UTC+02
+! Aktualizacja: śro, 02 wrz 2020, 20:01 UTC+02
 !
 !
 !
@@ -160,6 +160,7 @@ komputerswiat.pl##section.wdgMosaic:nth-of-type(1)
 konstrukcjeinzynierskie.pl###module-tabimage-202-particle > .g-tabimage > .g-grid > div.g-block:nth-of-type(1)
 ktociewyleczy.pl##.our-magazines
 kuriergmin.pl##.kurie-po-tresci
+kuriergmin.pl##.td-pb-span4, .td-block-span12, .td-fix-index.tds-button
 kuriergmin.pl##.vc_column_container.td_uid_13_5efc95f44739b_rand.vc_column.wpb_column
 kuriergmin.pl##.vc_column_container.td_uid_39_5efc95f490fc6_rand.vc_column.td-is-sticky
 liberte.pl##.entry-leftside > .headline, .entry-leftside > .headline + .row, .box-magazyn2
@@ -199,6 +200,7 @@ nienawisc.pl###custom_html-10
 niepokalanow.pl##.mt-4.publish-container
 niezalezna.pl##div.row:nth-of-type(29)
 niezalezna.pl##.columnRight > a[href^="https://prenumerata.gazetapolska.pl/"]
+niezalezna.pl##.prenumerata-banner
 niezalezna.pl##[src="/images/page/gpcodziennie_lato.jpg?1"]
 niezalezna.pl##[src="/images/page/prenumerata_1140.jpg"]
 nowakonfederacja.pl##.col-lg-4.d-lg-block.d-none
@@ -268,6 +270,8 @@ rynekzdrowia.pl##.head > h2
 rynekzdrowia.pl##.list-43 > li:nth-of-type(1)
 rynek-kolejowy.pl##.Wklejka
 rynek-kolejowy.pl##.najnowszyNumerRK, .miesiecznikRotatorBox
+satkurier.pl###pasek_sk
+satkurier.pl###rightContainer > a.thumbnail:nth-of-type(2)
 skladaniekomputera.pl##div[id^="dgd_scrollbox-"], #footer-widgets > .widget:nth-of-type(1)
 sklep-niezalezna.pl###box_banner18
 solidarnosckatowice.pl##.col2 > h2:nth-of-type(1)
