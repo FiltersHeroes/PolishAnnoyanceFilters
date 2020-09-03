@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: znU3y16aDrLmuu5nFb5vhg
+! Checksum: R8yVeqZHJsB+SlJGeq2WbA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 03 Sep 2020, 12:00 UTC+02
-! Version: 2020.9.3.0
+! Last modified: Thu, 03 Sep 2020, 20:00 UTC+02
+! Version: 2020.9.3.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 03 wrz 2020, 12:00 UTC+02
+! Aktualizacja: czw, 03 wrz 2020, 20:00 UTC+02
 !
 !
 !
@@ -632,6 +632,7 @@ pro-test.pl###abonament_top
 pruszynski.com.pl###p_layer
 przedsiebiorcza.com###spu-2217, #spu-bg-2217
 przegladbaltycki.pl###simplemodal-overlay, #simplemodal-container
+przegladpiaseczynski.pl##.tdc-footer-wrap
 przekroj.pl##.is-shown.js-modal.modal__content--offset.modal__content
 przepisy.pl##.modal:not(#modalDownloadEbook):not(#modalResult), .modal-backdrop
 przetargi.egospodarka.pl###js_popup_przetargi
@@ -812,7 +813,7 @@ xn--gagan-l7a.pl##.bk_popup
 yoursclothing.pl##.js-overlay, .slideInBox
 yoursclothing.pl##.slide-in-box--newsletter
 youtube.com##body > .opened[opened][style^="z-index"]
-youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href="https://support.google.com/youtube/?p=sign_in"])
+youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href^="https://support.google.com/youtube/?p=sign_in"])
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
 zawojski.pl##.news-overlay
