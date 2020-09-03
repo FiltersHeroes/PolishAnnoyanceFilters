@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: eDvsOYkQ8WA1J7GxoPFGJw
+! Checksum: JIzzN380HOMgNz6XfpIk6g
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Wed, 02 Sep 2020, 20:01 UTC+02
-! Version: 2020.9.2.1
+! Last modified: Thu, 03 Sep 2020, 20:01 UTC+02
+! Version: 2020.9.3.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 02 wrz 2020, 20:01 UTC+02
+! Aktualizacja: czw, 03 wrz 2020, 20:01 UTC+02
 !
 !
 !
@@ -148,6 +148,9 @@ ican.pl##.section-top-news.col-xs-12.col-md-5 > .slider-container
 inzynierbudownictwa.pl##div.reviewwidget.widget:nth-of-type(3)
 inzynier-medyczny.pl###sidebar div.widget:nth-of-type(1)
 itwiz.pl###woocommerce_products-5
+jagodnik.pl##.td-pb-span3.tdc-column.vc_column_container.wpb_column > .wpb_wrapper
+jagodnik.pl##.td-pb-span4
+jagodnik.pl##.td_block_template_1.td_block_title.td_block_wrap
 kjb24.pl##.columns-2.woocommerce
 kjb24.pl##.row-parent.limit-width.row > .row-inner.wpb_row > .single-internal-gutter.col-lg-4.column_parent.align_left.pos-center.pos-top.wpb_column > .shift_y_neg_triple.unexpand.style-light.uncol > .uncoltable > .style-color-gyho-bg.single-block-padding.uncell > .uncont > div.vc_custom_heading_wrap:nth-of-type(3)
 kjb24.pl##.uncont > div.uncode-pricing ~ div:nth-of-type(-n+4), .uncode-pricing
@@ -235,6 +238,8 @@ podroze.se.pl##.prenumerata.box
 podyplomie.pl##div.container:nth-of-type(7)
 podyplomie.pl##div.container:nth-of-type(9)
 polonika.at###left > div.clearfix.module:nth-of-type(1)
+polskaniepodlegla.pl###sp-right
+polskaniepodlegla.pl##.sppb-addon-module.sppb-addon > .sppb-addon-content > .custom
 polskaniepodlegla.pl##.sppb-column-addons img.jch-lazyloaded[src*="/images/okladka"]
 polskaniepodlegla.pl#?#div.nspArt:-abp-has(h4 a[href*="-polska-niepodlegla-"])
 polskaniepodlegla.pl#?##sp-right .text-center:-abp-has(a[href*="iczytamy.pl/"])
@@ -253,8 +258,7 @@ prestiztrojmiasto.pl##.pane-home-temat-glowny .dodatek
 pro-test.pl#?#div.blokRight:-abp-has(a:-abp-contains(/Nowość|Prenumerata/))
 przegladlokalny.eu##.right-sidebar > .right-header, .right-sidebar > .text-center
 przegladlokalny.eu##.section-special
-przegladpiaseczynski.pl##.td_block_padding.td-column-1.td_block_template_1.td-pb-border-top.tdi_27_556.td_block_3.td_block_wrap
-przegladpiaseczynski.pl##.td_block_padding.td-column-1.td_block_template_1.td-pb-border-top.tdi_34_a7d.td_block_3.td_block_wrap
+przegladpiaseczynski.pl##.td_block_padding.td-column-1.td_block_template_1.td-pb-border-top.td_block_3.td_block_wrap
 przegladprawoslawny.pl###media_image-9
 przelom.pl##.widget > .epress
 psychologia.edu.pl###frontBlok-18
@@ -345,6 +349,9 @@ zycie.pl##.right #multiple-versions, #premium-slide
 ||jagodnik.pl/wp-content/uploads/2020/02/MF2018-1.png
 ||michalici.pl/storage/_MICHALICI/Slaider/KJB/Slajder_kjb_new_2020_4.jpg
 ||niezalezna.pl/images/gp/gp_360.jpg
+||niezalezna.pl/images/gp/gp_*.jpg
+||niezalezna.pl/images/page/gpcodziennie_*.jpg
+||niezalezna.pl/images/page/prenumerata_*.jpg
 ||prestiztrojmiasto.pl/sites/default/files/styles/dodatek/public/media/prestiz_privatebanking_1_2020*.png
 ||sbp.pl/repository/buttony/2-ksiazki-20p.png
 ||tabletowo.pl/wp-content/uploads/2020/06/banner-10-lecie-tabletowo-magazyn.png
