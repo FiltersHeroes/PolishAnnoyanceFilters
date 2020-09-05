@@ -211,8 +211,6 @@ mikesport.pl###Widget5, .modal-backdrop
 misioweopowiesci.o2.pl##.shepherd-element, .layer-locked, .active.shepherd-close
 misioweopowiesci.o2.pl##[data-shepherd-step]:style(overflow: visible !important;)
 mobileclick.pl##.newsletter_inner
-mobile.twitter.com##body[style*="overflow-y: hidden;"]:style(overflow-y: auto !important; margin-right: 0 !important;)
-mobile.twitter.com##div[tabindex="0"]:matches-css(position:fixed):has([href="/signup"])
 mojaszkola.pl##body.pweb-modal-open:style(overflow: auto !important;)
 mojaszkola.pl##.pwebbox-modal, .modal-backdrop
 mspdion.org.pl,termyszaflary.com##.fancybox-overlay
@@ -377,7 +375,9 @@ zlotymotocyklowe.pl##.fancybox-overlay:has([target="_blank"])
 zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important; overflow-y: visible !important;)
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
+!mobile.twitter.com##body[style*="overflow-y: hidden;"]:style(overflow-y: auto !important; margin-right: 0 !important;)
 !mobile.twitter.com##div[aria-hidden="true"] + div > div > div > div > div:has(> div[data-focusable="true"]:has(div:has(> div[aria-label="Zamknij"]) > div > div[dir="auto"]))
+!mobile.twitter.com##div[tabindex="0"]:matches-css(position:fixed):has([href="/signup"])
 !pl.dreamstime.com##+js(aopr, openfreetrial)
 !pl.dreamstime.com##+js(set, openfreetrial, 1)
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
@@ -486,10 +486,8 @@ shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 shoplet.pl##.fancybox-overlay:has(#x13callback)
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
-!mobile.twitter.com##body > div > div > div > div > div > div > div > div > div[tabindex="0"]:contains(/(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)/):matches-css(position:fixed)
 !#endif
 !#if ext_ublock
-!mobile.twitter.com##span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(6)
 !parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(no-setTimeout-if, bioEp.showPopup)
 !parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(setTimeout-if, !bioEp.showPopup)
 !#endif
