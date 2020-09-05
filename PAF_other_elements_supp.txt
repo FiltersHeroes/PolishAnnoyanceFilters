@@ -79,6 +79,7 @@ tabletowo.pl##.bwswitch:style(position: absolute !important;)
 tablety.pl##.image-ticker-news:style(left: 0 !important;)
 teatr.bedzin.pl##html.intro-is-opened, html.intro-is-opened body.intro-is-opened:style(overflow-y: auto !important;)
 teletoonplus.pl##.drizzle_l:style(z-index: 0 !important;)
+twitter.com###layers span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(4)
 vod.tvp.pl###siteServiceDetal.playerOpened .playerContainer:style(margin-top: 30px !important;)
 wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:style(filter: none !important;)
 wandermap.net###sidebar[style]:style(max-width: 390px)
@@ -125,4 +126,5 @@ wp.pl#@#a[data-st-area="Header-back"]:before
 !#endif
 !#if env_mobile
 medipartner.pl##.sidebar-kontakt2 .wpcf7-form p:style(display: block !important;)
+twitter.com###layers span:has-text(/^Korzystanie z Twittera za pomocą aplikacji jest przyjemniejsze$/):upward(5)
 !#endif
