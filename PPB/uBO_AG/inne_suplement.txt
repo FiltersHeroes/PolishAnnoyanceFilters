@@ -78,6 +78,7 @@ tabletowo.pl##.bwswitch:style(position: absolute !important;)
 tablety.pl##.image-ticker-news:style(left: 0 !important;)
 teatr.bedzin.pl##html.intro-is-opened, html.intro-is-opened body.intro-is-opened:style(overflow-y: auto !important;)
 teletoonplus.pl##.drizzle_l:style(z-index: 0 !important;)
+twitter.com###layers span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(4)
 vod.tvp.pl###siteServiceDetal.playerOpened .playerContainer:style(margin-top: 30px !important;)
 wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:style(filter: none !important;)
 wandermap.net###sidebar[style]:style(max-width: 390px)
@@ -90,4 +91,3 @@ www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(
 !pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
 !pomponik.pl##^div[class="topbar-container"], a[class="common-header__interia-back-button"]
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
-twitter.com###layers span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(4)
