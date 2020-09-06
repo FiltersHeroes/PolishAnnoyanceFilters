@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: WQprXhsA5UE88PfPF5ZOUg
+! Checksum: Ky1viawXnpDZUiQEFG7lXQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 06 Sep 2020, 16:01 UTC+02
-! Version: 2020.9.6.0
+! Last modified: Sun, 06 Sep 2020, 20:01 UTC+02
+! Version: 2020.9.6.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 06 wrz 2020, 16:01 UTC+02
+! Aktualizacja: nie, 06 wrz 2020, 20:01 UTC+02
 !
 !
 !
@@ -40,6 +40,7 @@ adamspa.pl##.ppsPopupShell, #ppsPopupBgOverlay
 addhost.pl##.fsp-wrapper
 addons.opera.com,atcdevelopment.pl,bankobranie.blogspot.com,bobbyburger.pl###overlay
 adeste.eu##.cp-direct-download-container
+admiraltax.pl##iframe[id][src*="popups.landingi.com/api/popups/"]
 adresy.um.warszawa.pl,mapa.um.warszawa.pl,ulice.um.warszawa.pl###init_info[style], #komunikat[style]
 adria-art.pl###overlay, .popup.newsletter
 agamasmaka.pl##.et_bloom_auto_popup.et_bloom_flyin
