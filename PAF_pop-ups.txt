@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: UWeDuZXwqoedKf1/k9Hq/w
+! Checksum: m3Kiz98pToBFqrKBHjWAUg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 08 Sep 2020, 12:01 UTC+02
-! Version: 2020.9.8.0
+! Last modified: Tue, 08 Sep 2020, 20:00 UTC+02
+! Version: 2020.9.8.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 08 wrz 2020, 12:01 UTC+02
+! Aktualizacja: wto, 08 wrz 2020, 20:00 UTC+02
 !
 !
 !
@@ -261,6 +261,7 @@ e-insportline.pl###vivpopup-collapsed
 e-kidsplanet.com##.banner, .banner-curtain
 e-konferencje.pl,ekliniki.pl,lumarte.eu,milenium.pl##.ui-widget.ui-dialog, .ui-widget-overlay
 e-megasport.com###tws_i_100000, #topLayerBackDrop
+e-podlogi24.pl##div[id$="czater"] > div[id][class$="CzaterSheet"]
 e-podlogidrzwi.pl###infoPage
 e-spar.com.pl###modal-welcome
 e-spar.com.pl###modal-welcome[style] ~ .modal-backdrop
@@ -518,6 +519,7 @@ nbsklep.pl##.sp-fancybox-wrap
 neo24.pl,neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 niedziela.pl###ewydanieModal
 njumobile.pl##.jquery-modal
+nm.pl###newsletter-modal, .modal-backdrop
 nocowanie.pl##.fancybox-overlay-fixed.fancybox-overlay, .fancybox-type-html
 nokaut.pl###letter-shopping-Plugin.letter-shopping-modal-container
 norauto.pl##.s-hPage > .mfp-bg
