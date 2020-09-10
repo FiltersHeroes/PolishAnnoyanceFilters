@@ -265,8 +265,8 @@ pl.dreamstime.com##html.documentLocked:style(margin-right: 0 !important;)
 pl.dreamstime.com###freetrial_popup
 pl.dreamstime.com##+js(nostif, SignUPPopup_load, 5000)
 pl.dreamstime.com##.popup:style(overflow: auto !important;)
-pl.johnnybet.com##.modals.dimmer.ui
-pl.johnnybet.com##.scrolling.dimmable.dimmed:style(overflow: auto !important;)
+pl.johnnybet.com##.modals.dimmer.ui:has(.common-offer)
+pl.johnnybet.com##body.dimmable, body.dimmed:style(overflow: auto !important;)
 pl.tommy.com##.ReactModalPortal:has(.newsletter--modal)
 pl.tommy.com##.ReactModal__Body--open:style(overflow: auto !important;)
 pmsocho.com##.cp-custom-viewport, .cp-oveflow-hidden, .cp-window-viewport:style(overflow: auto !important;)
