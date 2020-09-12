@@ -617,7 +617,7 @@ sporto.com.pl###pp3
 sportprofit.pl###kurtyna
 sportprofit.pl###powitanie
 sportujmy.pl###PR9P-Wrapper
-sport.se.pl#?#body.article-layout > div[id][class]:-abp-has(iframe[src$="popup_superSport_ssport_desktop"])
+sport.se.pl#?#body.article-layout > div[id][class]:-abp-has(iframe[src*="://rozrywka.grupazprmedia.net/")
 spozywo.pl##.newsletter-info
 sprawdzonakuchnia.pl##.essb-optinbooster, .essb-optinbooster-overlay
 spreadshirt.pl##.show.js-promo-layer
@@ -792,7 +792,8 @@ zszywka.pl###inv-request-popup
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
 ||getall.pl/modules/popup/$script,stylesheet,domain=pl
 ||grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
-||grupazprmedia.net/popup_superSport_ssport$subdocument,domain=sport.se.pl
+||grupazprmedia.net/popup_$subdocument,domain=sport.se.pl
+||grupazprmedia.net/*sport$subdocument,domain=sport.se.pl
 ||heuristic.pl/css/magnific-popup.css
 ||home-you.com/themes/hy/popup/jquery.popup.js
 ||ibuk.pl/public/desktop/js/contentJs/aapopup.js
