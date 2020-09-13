@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: angO6golfGh5AvOoT9N+Vg
+! Checksum: m4r9H+CIQCdrT5SunROXNQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 12 Sep 2020, 20:01 UTC+02
-! Version: 2020.9.12.0
+! Last modified: Sun, 13 Sep 2020, 12:00 UTC+02
+! Version: 2020.9.13.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 12 wrz 2020, 20:01 UTC+02
+! Aktualizacja: nie, 13 wrz 2020, 12:00 UTC+02
 !
 !
 !
@@ -184,6 +184,7 @@ cryptonews.pl##.wonderplugin-box, #wonderplugin-box-hidebar-1
 cryptoqueen.pl###POPUPS_ROOT
 csk.szczecin.pl##.in.bootbox-confirm.fade.modal.bootbox
 culturapoloneza.ro,embryolisse.pl,lenovozone.pl,xlm.pl,zdrowie.pap.pl###newsletter-popup
+cyberfolks.pl,drzwi-cal.pl###ue_widget
 czasnabuty.pl###toplayer_newsletter_popup, #tln3_bg
 czasnawnetrze.pl##.waitbox
 czasnawnetrze.pl,mlodytechnik.pl,zielonyogrodek.pl##.mod_avt_alert
@@ -226,7 +227,6 @@ dreamtours.pl###dzinga
 drogeriadicentra.pl,regalka.pl,sklep.feba.pl,superheroes.com.pl,voip24sklep.pl##.fx-wrapper-modal
 drukmistrz.pl##.mf-loaded.mf-animate.mf-modal-iframe-middle.mf-modal-iframe
 drukmistrz.pl##.mf-modal-overlay
-drzwi-cal.pl###ue_widget
 dzem.com.pl##.mainuro[id]
 dziennikparafialny.pl###itro_popup, #itro_opaco
 dziennik-polityczny.com###dz-popup-follow-us
@@ -494,6 +494,7 @@ mpolska24.pl###before-leave-window
 mtv24.tv###mdfb
 multidrogeria.pl,sprzedajemytkaniny.pl##.pupup
 muratordom.pl###nlt_popup
+muratorplus.pl,se.pl#?#body.article-layout > div[id][class]:-abp-has(iframe[src*="://"][src*="grupazprmedia.net/")
 mydetoxtea.pl###siteCover
 mylomza.pl###fadeinbox
 myloview.pl##.subskrypcja, .ui-widget-overlay
@@ -703,7 +704,6 @@ sporto.com.pl###pp3
 sportprofit.pl###kurtyna
 sportprofit.pl###powitanie
 sportujmy.pl###PR9P-Wrapper
-sport.se.pl#?#body.article-layout > div[id][class]:-abp-has(iframe[src$="popup_superSport_ssport_desktop"])
 spozywo.pl##.facebook-overlay
 spozywo.pl##.newsletter-info
 sprawdzonakuchnia.pl##.essb-optinbooster, .essb-optinbooster-overlay
@@ -893,7 +893,8 @@ zuch.media###spu-10366, #spu-bg-10366
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
 ||getall.pl/modules/popup/$script,stylesheet,domain=pl
 ||grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
-||grupazprmedia.net/popup_superSport_ssport$subdocument,domain=sport.se.pl
+||grupazprmedia.net/popup_$subdocument,domain=muratorplus.pl|se.pl
+||grupazprmedia.net/*sport$subdocument,domain=sport.se.pl
 ||haart.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||heuristic.pl/css/magnific-popup.css
 ||home-you.com/themes/hy/popup/jquery.popup.js
