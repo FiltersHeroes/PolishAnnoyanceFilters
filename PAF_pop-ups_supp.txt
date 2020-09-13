@@ -393,12 +393,13 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 apynews.pl###fb-modal, .modal-backdrop
-apynews.pl,linuxpl.com,lookcam.com,makarun.pl,mediasam.pl,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
+apynews.pl,cyberfolks.pl,lookcam.com,makarun.pl,mediasam.pl,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##+js(acis, $, popupNewsletter)
 biznes-host.pl##+js(acis, $, myModalPromo)
 chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,zegarkiabc.pl###newsletter_colorbox:remove()
 comperia.pl###modal_woman, .modal-backdrop
 comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
+cyberfolks.pl###myModalDomenowy, .modal-backdrop
 diamante-wear.com##.newsletter__popup
 diamante-wear.com##.popup__opened:style(overflow: auto !important;)
 drzwi-cal.pl##.pum-open:style(overflow: auto !important; padding-right: 0 !important;)
@@ -406,7 +407,6 @@ drzwi-cal.pl##.pum-theme-promocja-urodzinowa.popmake-overlay
 homebook.pl##body.has-open-popup:style(overflow: visible !important; padding-right: 0 !important;)
 homebook.pl##.popup-overlay:has(.popup-content--newsletter)
 kursszybkiegoczytania.pl##.et_bloom_popup[data-idle_timeout]:remove()
-linuxpl.com###myModalDomenowy, .modal-backdrop
 lookcam.com###lookcam-fb-modal, .modal-backdrop
 lookcam.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 makarun.pl###makarun-modal, .modal-backdrop
@@ -431,13 +431,13 @@ apynews.pl##^#fb-modal
 bartek.com.pl##^script:has-text(popupNewsletter)
 biznes-host.pl##^#myModalPromo
 comperia.pl##^#modal_woman
+cyberfolks.pl##^#myModalDomenowy
 diamante-wear.com##^.newsletter__popup
 drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl##^#modal-welcome
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 intermarche.pl##^div[style="display:none"]:has(a[class="wplightbox"])
 kursszybkiegoczytania.pl##^.et_bloom_popup[data-idle_timeout]
-linuxpl.com##^#myModalDomenowy
 lookcam.com##^#lookcam-fb-modal
 makarun.pl##^.makarun-modal
 mediasam.pl##^#myWorning
@@ -467,12 +467,12 @@ biznes-host.pl###myModalPromo, .modal-backdrop
 biznes-host.pl#$#.modal-open { overflow: auto !important; }
 biznes-host.pl$$#myModalPromo
 comperia.pl$$#modal_woman
+cyberfolks.pl$$#myModalDomenowy
 diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl$$#modal-welcome
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
-linuxpl.com$$#myModalDomenowy
 lookcam.com$$#lookcam-fb-modal
 makarun.pl$$.makarun-modal
 mbmeganarzedzia.pl,pozyczkabezbanku.pl,www.kei.pl###bio_ep, #bio_ep_bg
