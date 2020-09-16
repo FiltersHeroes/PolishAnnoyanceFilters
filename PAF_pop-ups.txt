@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: J+WqI+ygBEwAGtw8J/yjOw
+! Checksum: aWCaTEdK4B625USuzg+a4g
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 16 Sep 2020, 12:01 UTC+02
-! Version: 2020.9.16.0
+! Last modified: Wed, 16 Sep 2020, 20:19 UTC+02
+! Version: 2020.9.16.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 16 wrz 2020, 12:01 UTC+02
+! Aktualizacja: śro, 16 wrz 2020, 20:19 UTC+02
 !
 !
 !
@@ -555,7 +555,7 @@ opencard.pl###trialModal, .modal-backdrop
 opensubtitles.org###fadeSub, #lightSub
 opiekunkaradzi.pl##.esPopupWrapper, .b-modal
 opinie-perfumy.pl###lepopup-popup-15, #lepopup-popup-15-overlay
-opolshe.ru###dropbox
+opolshe.ru,otowroclawpowiat.pl###dropbox
 optiland.pl##.mod_popup, .bg_shadow
 orange.pl###advertslice
 osada-sniezka.pl###popModal, .modal-backdrop
@@ -810,6 +810,7 @@ www.auto8.pl##.cover
 www.chcemybycrodzicami.pl###a-welcome
 www.dobreprogramy.pl###exitPopupContainer
 www.kei.pl##div[id^="modal"][style].modal
+www.motorola.com##.ReactModalPortal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
 wyborcza.pl##.mod_ddbox
 wyciskarki.pl###nps-popup
