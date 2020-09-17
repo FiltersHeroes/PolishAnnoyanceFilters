@@ -81,7 +81,7 @@ cateromarket.pl##.show-newsletter-popup:style(overflow: auto !important;)
 chcemybycrodzicami.pl##body.ex-modal-open #page:style(filter: none !important;)
 chcemybycrodzicami.pl##div#ouibounce-modal
 chocolissimo.pl###newsletterModalDiv, .modal-backdrop
-chocolissimo.pl##.modal-open:style(overflow-y: auto !important; padding-right: 0 !important;)
+chocolissimo.pl,jogapiekna.com##.modal-open:style(overflow-y: auto !important; padding-right: 0 !important;)
 cieplikpodrozuje.pl,edugrafia.pl##html.hustle-no-scroll > body:style(overflow: auto !important;)
 cieplikpodrozuje.pl,edugrafia.pl##.wph-modal, .wph-modal-mask
 cieplikpodrozuje.pl,fashionvoyager.pl,makulscy.com##.ArevicoModal, .ArevicoModal-bg
@@ -149,6 +149,7 @@ insert.com.pl##+js(aeld, DOMMouseScroll, preventDefault)
 instagram.com##body[style*="overflow: hidden;"]:style(overflow: visible !important;)
 instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
+jogapiekna.com###odbierz-prezent-modal, .modal-backdrop
 jooble.org##body.no_scroll:style(overflow: visible !important; height: 100% !important; width: 100% !important;)
 jooble.org###popup
 jordanki.torun.pl###newsletter, .modal-backdrop
@@ -371,6 +372,8 @@ www.microsoft.com###email-newsletter-dialog
 wynagrodzenia.pl###isbusiness-modal, .modal-backdrop
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
 zaufanekliniki.pl###modalMain, .modal-backdrop
 zegarkiipasja.pl##.emelu-lightbox-target
 zeskory.com##.newsletter-pop, .modal-backdrop
