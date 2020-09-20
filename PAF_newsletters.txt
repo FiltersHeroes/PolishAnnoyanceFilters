@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: /mRfzHu8dfpvZCgKb3Ia4g
+! Checksum: jJb49xmT5NerY28YEctabA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 20 Sep 2020, 16:00 UTC+02
-! Version: 2020.9.20.1
+! Last modified: Sun, 20 Sep 2020, 20:00 UTC+02
+! Version: 2020.9.20.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 20 wrz 2020, 16:00 UTC+02
+! Aktualizacja: nie, 20 wrz 2020, 20:00 UTC+02
 !
 !
 !
@@ -835,6 +835,7 @@ milight.pl#?#div#produkty.section:-abp-has(#alo_easymail_widget_form)
 miloohome.pl##.footer-container-newsletter
 mimari.com.pl##body > div#contentWrapper
 mixmedia.pl,mycenter.pl##.b-footerNewsletter
+mi-home.pl###newsletter_block_left > div:nth-of-type(-n+2)
 mi.com##.span12.customer-relationship
 mlodeasyparkietow.pl##.foot_tit, .foot_news_info
 mlodytechnik.pl##[href="/newsletter"]
@@ -1602,7 +1603,7 @@ zyciepabianic.pl###widget-newsletter
 ~dron.pl,pl##.widget_wysija
 ~karta.org.pl,pl,~poczta.wp.pl##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input)
 ~ksiegarnia-edukacyjna.pl,pl###menu_newsletter
-~laroxy.pl,pl,~sklep.cleverboard.pl###newsletter_block_left
+~laroxy.pl,~mi-home.pl,pl,~sklep.cleverboard.pl###newsletter_block_left
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal):lang(pl)
