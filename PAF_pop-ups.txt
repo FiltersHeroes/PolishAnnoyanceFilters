@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lXOf6NVKO0VyMag37xu1eg
+! Checksum: c85CexjlHpOXioi8a6+8bw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 19 Sep 2020, 12:01 UTC+02
-! Version: 2020.9.19.0
+! Last modified: Sun, 20 Sep 2020, 12:00 UTC+02
+! Version: 2020.9.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 19 wrz 2020, 12:01 UTC+02
+! Aktualizacja: nie, 20 wrz 2020, 12:00 UTC+02
 !
 !
 !
@@ -105,7 +105,7 @@ balladine.com##.popupTloNewslatter
 bankier.pl,pulsmedycyny.pl###smPopupBackground, .smPopupContainer
 bankizywnosci.pl##.popup_cont
 banki.pl,comperia.pl##.paniModal
-bardomed.pl##.popup_cont, .popup_back
+bardomed.pl,grzechhair.com##.popup_cont, .popup_back
 barokko.pl,butylukow.pl,korob.pl###tws_i_2
 bazarek-deco.com.pl###NewsPop
 bdl.lasy.gov.pl##.blockPage.blockMsg.blockUI, .blockOverlay.blockUI
@@ -425,7 +425,7 @@ lagardere-tr.pl###banner-hds, #banner-hds-background
 lebork24.info###fanback
 ledco.pl,sklepdlalekarza.com,tendina.pl###iqitpopup, #iqitpopup-overlay
 legalnews24.pl###dialogNewsletter
-legato-motocykle.pl###tws_i_100000:-abp-has(#urlop_tl)
+legato-motocykle.pl#?##tws_i_100000:-abp-has(#urlop_tl)
 levi.com###emailModal, .modal-backdrop
 lexlege.pl###TB_overlay
 lexlege.pl###TB_window
@@ -766,6 +766,7 @@ turystyka.torun.pl###cboxWrapper, #cboxOverlay
 tutek.pl###qnpop
 tvkrosno.pl###efbl_popup
 twardogora.pl##.popup, #popup-bg
+twisto.pl##.modal, .section-modal-shadow
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 txm.pl##.mfp-ready.mfp-wrap
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
