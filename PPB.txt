@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 3jIwHfgdzKp1XEXFVNWt8A
+! Checksum: vzaRQMf15NdN7nsFUyqPZA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Thu, 24 Sep 2020, 18:06 UTC+02
-! Version: 2020.9.24.1
+! Last modified: Thu, 24 Sep 2020, 20:02 UTC+02
+! Version: 2020.9.24.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 24 wrz 2020, 18:06 UTC+02
+! Aktualizacja: czw, 24 wrz 2020, 20:02 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1957,7 +1957,7 @@ godealla.pl###coupon-groupon, #coupon-groupon-overlay
 godealla.pl,wakacjezprocentem.pl##.overlay
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
 goodie.pl###video-banner-modal
-go.tvn24.pl,player.pl,www.pzu.pl##.__ipPerunElement[style^="position"]
+go.tvn24.pl,inea.pl,player.pl,teb.pl,topagrar.pl,www.pzu.pl##.__ipPerunElement[style*="position"]
 gpcodziennie.pl###JPO
 greenasia.eu,saluti.pl,uzywki.expert##.wceapp_popup.modal, .wceapp_popup.mask
 greenelka.pl###cfblb_modal
@@ -1987,7 +1987,6 @@ hostinger.pl##.offer-popup-block
 hotel-tulipan.pl###popUp
 hotel.bialowieza.pl,malinowydwor.pl###backgroundPopup, #popupContact
 house.pl###free_shipping
-inea.pl,teb.pl##.__ipPerunElement[style*="position"]
 ine.com.pl###sgcolorbox, #sgcboxOverlay
 infinityfitnesskrakow.pl##.closed
 infopraca.pl###alert-creation, .modal-backdrop
@@ -2786,6 +2785,8 @@ sadeczanin.info,transfery.info,ugotuj.to##div.miniature.onnetworkplayercontainer
 sadeczanin.info,transfery.info,ugotuj.to##div.onnetworkplayercontainer > div.miniplayer
 softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
 telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvrep-live-box
+telewizjatvt.pl#?#div[id^="elementor-popup-modal-"]:-abp-has(iframe[src*="/player/"])
+topagrar.pl,tygodnik-rolniczy.pl##.vast-player__thumbnail[style*="top:"]
 trojmiasto.pl,trojmiasto.tv##div[id^="video"].vjs-mini
 tvn24.pl##.nuvi-player div.floating.floatable
 tvn24.pl##.videoPlayer.stuck--top
@@ -5420,6 +5421,8 @@ sztafeta.pl##.widget_text.widget
 terazprudnik.pl#?#div[class*="td_block_homepage_full"] ~ div[class*="td_block_big_grid"] .td-big-grid-scroll > div.td-small-thumb:-abp-has( > div > a[href*="/tygodnikprudnicki-"])
 terazprudnik.pl#?#.td-pb-span4.tdc-column.vc_column > div > .td_block_padding.td-pb-border-top.td_block_wrap:-abp-has(h4:-abp-contains(Tygodnik Prudnicki))
 terazprudnik.pl#?#.td-post-header:-abp-has(h1 a:-abp-contains(Nowy numer))
+topagrar.pl##.sidebar__newspaper, .homepage__agrar
+topagrar.pl#?#.sidebar div.sidebar__box--grey.sidebar__box:-abp-has(h3:-abp-contains(/^Zamów online$/))
 trybunaczestochowska.pl###text-7
 tuolawa.pl##.widget-52.no-mt.no-bg.widget.row
 tuolawa.pl##.widget-52.widget-header.widget.row
