@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5ItNsolcQSzHLxahWgwiwQ
+! Checksum: qDvrd+OwP3RJFaDmbl294A
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Fri, 18 Sep 2020, 20:00 UTC+02
-! Version: 2020.9.18.0
+! Last modified: Thu, 24 Sep 2020, 20:01 UTC+02
+! Version: 2020.9.24.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pią, 18 wrz 2020, 20:00 UTC+02
+! Aktualizacja: czw, 24 wrz 2020, 20:01 UTC+02
 !
 !
 !
@@ -38,6 +38,8 @@ sadeczanin.info,transfery.info,ugotuj.to##div.miniature.onnetworkplayercontainer
 sadeczanin.info,transfery.info,ugotuj.to##div.onnetworkplayercontainer > div.miniplayer
 softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
 telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvrep-live-box
+telewizjatvt.pl#?#div[id^="elementor-popup-modal-"]:-abp-has(iframe[src*="/player/"])
+topagrar.pl,tygodnik-rolniczy.pl##.vast-player__thumbnail[style*="top:"]
 trojmiasto.pl,trojmiasto.tv##div[id^="video"].vjs-mini
 tvn24.pl##.nuvi-player div.floating.floatable
 tvn24.pl##.videoPlayer.stuck--top
