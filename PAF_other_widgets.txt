@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: y8RsDJq7T0Uz6YUaZmsDXQ
+! Checksum: HufVIqeZ+Ut4ZNBon768xA
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 24 Sep 2020, 12:01 UTC+02
-! Version: 2020.9.24.0
+! Last modified: Thu, 24 Sep 2020, 20:01 UTC+02
+! Version: 2020.9.24.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 24 wrz 2020, 12:01 UTC+02
+! Aktualizacja: czw, 24 wrz 2020, 20:01 UTC+02
 !
 !
 !
@@ -785,6 +785,7 @@ www.dobreprogramy.pl#?##phContent_divArticle > .desktop-flex > #sidebar > .block
 www.e-medest.pl###baner_footer
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
+www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?##islrg div.isv-r:-abp-has( > div[class] > div[class] > div[class]:-abp-contains(/^Podobne (strony|wyszukiwania)$/))
 www.google.com,www.google.pl#?##rg div.irc-nic.irc-igr:-abp-has( > div[class] > div[class] > div:not([class]):-abp-contains(/^Podobne (strony|wyszukiwania)$/))
 www.onet.pl##.Phx-back
