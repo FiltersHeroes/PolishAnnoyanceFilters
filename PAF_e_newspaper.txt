@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: V+Aet3uu5FDSmrMWck52gA
+! Checksum: +teT8WoW/XdG3b3NsqbQWw
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Fri, 18 Sep 2020, 20:01 UTC+02
-! Version: 2020.9.18.0
+! Last modified: Thu, 24 Sep 2020, 20:01 UTC+02
+! Version: 2020.9.24.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pią, 18 wrz 2020, 20:01 UTC+02
+! Aktualizacja: czw, 24 wrz 2020, 20:01 UTC+02
 !
 !
 !
@@ -297,6 +297,8 @@ sztafeta.pl##.widget_text.widget
 terazprudnik.pl#?#div[class*="td_block_homepage_full"] ~ div[class*="td_block_big_grid"] .td-big-grid-scroll > div.td-small-thumb:-abp-has( > div > a[href*="/tygodnikprudnicki-"])
 terazprudnik.pl#?#.td-pb-span4.tdc-column.vc_column > div > .td_block_padding.td-pb-border-top.td_block_wrap:-abp-has(h4:-abp-contains(Tygodnik Prudnicki))
 terazprudnik.pl#?#.td-post-header:-abp-has(h1 a:-abp-contains(Nowy numer))
+topagrar.pl##.sidebar__newspaper, .homepage__agrar
+topagrar.pl#?#.sidebar div.sidebar__box--grey.sidebar__box:-abp-has(h3:-abp-contains(/^Zamów online$/))
 trybunaczestochowska.pl###text-7
 tuolawa.pl##.widget-52.no-mt.no-bg.widget.row
 tuolawa.pl##.widget-52.widget-header.widget.row
