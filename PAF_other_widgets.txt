@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IUw0HV9U7UMGPtuo67xTZg
+! Checksum: y8RsDJq7T0Uz6YUaZmsDXQ
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 20 Sep 2020, 20:00 UTC+02
-! Version: 2020.9.20.2
+! Last modified: Thu, 24 Sep 2020, 12:01 UTC+02
+! Version: 2020.9.24.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 20 wrz 2020, 20:00 UTC+02
+! Aktualizacja: czw, 24 wrz 2020, 12:01 UTC+02
 !
 !
 !
@@ -62,7 +62,7 @@ aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
 applemobile.pl##.cactus-post-suggestion > .post-suggestion-content
 aprmedia.pl##.et_bloom_header_outer
 apsdata.pl###slide_box
-aptekagemini.pl##.vue_bannery_25
+aptekagemini.pl##swiper-carousel[class*="adserver"]
 aptekamanada.pl##.banner-link
 archonhome.pl,pizzapelati.pl###musli
 arminar.pl,doniczki-poznan.pl,odpady.chorzow.eu,sare.pl###preloader
@@ -630,6 +630,7 @@ raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(-n+2)
 rallypl.com###check-also-box
 rankomat.pl##.searching-cheap-oc
 raportdrogowy.interia.pl,uroda.swiatkobiety.pl##.articleObjectSeeAlso
+raportrolny.pl###related-posts-wrapper-flyout
 rc.fm###rconline
 recenzjezpazurem.pl###banner
 reddit.com##.read-next
@@ -817,6 +818,7 @@ ztm.gda.pl###mobile
 zyciepabianic.pl##.paper
 z-hotel.com###repuso_floating
 !abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##a[data-st-area="back-WP"], div[class]:not([id]) > a[data-st-area][style^="background:"][href="https://www.wp.pl"]
+!aptekagemini.pl##.vue_bannery_25
 !www.google.com,www.google.pl##div[style*="z-index: "][style*="overflow: hidden;"][style*="margin-right: 25px;"]
 !||ppstatic.pl/assets/gratka/*/images/logoPromo.svg$image
 !||ppstatic.pl/assets/gratka/*/promoButton.css$stylesheet
