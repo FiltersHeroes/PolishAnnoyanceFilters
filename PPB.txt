@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: vzaRQMf15NdN7nsFUyqPZA
+! Checksum: U062kR438DVgmzgdc5rHdg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Thu, 24 Sep 2020, 20:02 UTC+02
-! Version: 2020.9.24.2
+! Last modified: Fri, 25 Sep 2020, 17:25 UTC+02
+! Version: 2020.9.25.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 24 wrz 2020, 20:02 UTC+02
+! Aktualizacja: pią, 25 wrz 2020, 17:25 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -150,6 +150,7 @@ azzun.pl##.site-footer__ezine-hld
 b2btrade.eu#?#.vertical-top.rwd-col-6:-abp-contains(newsletter)
 babyboom.pl##.zapisz-newsletter
 balladine.com,developer.mozilla.org,disqus.com,portalodo.com,unisono.eu##.newsletter-box
+bankier.pl##.widgetNewsletter
 bankier.pl###boxNewsletterFlyfooter, #articleNewsletter
 bankmillennium.pl###buttonSelectorChat
 bankobranie.blogspot.com###topNewsletter
@@ -210,6 +211,7 @@ bonprix.pl##a[href="/serwis/newsletter"], .contrast.container-fluid > .container
 bonprix.pl###footer-newsletter-subscribe
 bonprix.pl##.nl-benefits.row
 bonvoyage.pl##.box_newsletter
+booking.com##.emk_footer_update
 booking.com##.newsletter_subscribe
 born2be.pl##[href="/newsletter/sign-in"]
 born86.pl##.nadstopa2
@@ -1696,7 +1698,6 @@ akademos.pl###myModal, .reveal-modal-bg
 akson.pl###contactPopup
 akwarysta.eu,dobrewychowanie.pl,kochamzyc.pl,pinka.pl###colorbox, #cboxOverlay
 aledobre.pl,mniammniam.com###universal-popup-wrapper
-aleleki.pl,auto-gdansk.com.pl,blancz.pl,bookmaster.com.pl,chinskieprzepisy.pl,holiday.aquila.pl,honda.mojsiuk.pl,honda.torun.pl,hondabiela.pl,masa-honda.pl,ozptd.pl,promax.media.pl,strzalkowski.pl,www.hamol.pl,www.honda-kemag.pl,www.hondacichonski.com.pl,www.hondamalta.karlik.poznan.pl,www.hondaplaza.pl,zdobadzkobiete.pl###fancybox-wrap, #fancybox-overlay
 alkalicznystylzycia.com,angelius.pl,inspiringsolutions.pl,passion.pl,qagile.pl##.ppsPopupListsShell, #ppsPopupBgOverlay
 allmedica.pl###modalbox-1, .modalbox-overlay
 alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,ksiegarnia-edukacyjna.pl,megazoologiczny.pl,surgepolonia.pl###tws_i_100000
@@ -1730,6 +1731,7 @@ audio.com.pl##.waitbox
 audycje.tokfm.pl###gp--popup
 autokult.pl,fitness.wp.pl,fotoblogia.pl,komorkomania.pl,medycyna24.pl###exit-intent-modal
 automotiveceeday.eu###rstbox_3
+auto-gdansk.com.pl,blancz.pl,bookmaster.com.pl,chinskieprzepisy.pl,holiday.aquila.pl,honda.mojsiuk.pl,honda.torun.pl,hondabiela.pl,masa-honda.pl,ozptd.pl,promax.media.pl,strzalkowski.pl,www.hamol.pl,www.honda-kemag.pl,www.hondacichonski.com.pl,www.hondamalta.karlik.poznan.pl,www.hondaplaza.pl,zdobadzkobiete.pl###fancybox-wrap, #fancybox-overlay
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.exitBox
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.pushPlatform
 avaro.pl###tln4_wrap
@@ -3296,6 +3298,7 @@ pl.ccm.net###gotop, .goLogo
 pl.depositphotos.com##.top-button-wrapper
 pl.kruk.eu##.backtotop
 pl.sputniknews.com##.arrowup
+pl.trip.com##.mod-back-top-block
 pmsocho.com##.x-scroll-top
 podatki.gov.pl###scrollDown
 polona.pl##.js-to-top
@@ -3709,7 +3712,7 @@ casu.pl###opineoButtonFloat
 catawiki.pl##.registration-slide-in
 catom.pl,cebit.pl,verakom.pl##.fab-wrapper
 cdp.pl###customTrustbadge
-cdv.pl,computerworld.pl###chat-widget-container
+cdv.pl,computerworld.pl,medipment.pl###chat-widget-container
 cebit.pl,guzik.konin.pl##.fab
 cebit.pl,nsix.pl###czatercall-teaser, #cc-button-iframe
 ceneo.pl###recent-activity-toast
@@ -4006,8 +4009,10 @@ pl.farnell.com##.live-chat
 pl.gearbest.com##a[href="https://support.gearbest.com/ticket/ticket/cat"] > .siteAside_linkIcon, .js_feedback
 pl.pons.com###hj-feedback
 pl.tripadvisor.com#?#body > div[aria-live="polite"]:-abp-has(span:-abp-contains(Opowiedz nam o swoim doświadczeniu ze stroną Tripadvisor))
+pl.trip.com##.mod-back-top-chat
 pneumat.com.pl###liveChatButton
 pneumat.com.pl###sideContact-button
+pokato.pl##.zoho-help-btn
 polanki.pl##.PamphletWidget
 polisaplus.pl##.teltoggle.telbutton
 polnord.pl###contactForm
@@ -4386,6 +4391,7 @@ busko.net.pl###upPrevSlide
 cantino.pl###Form > div[style]:not([id]):not([class]):nth-of-type(6)
 caritaspoznan.pl##.footer
 caritas.pl###floating-pomagam, .one_proc, #floating-icons
+castorama.pl##.loader-castorama-c
 castrol.com##footer > div > div.nv-parsys-component.nv-container
 catawiki.pl##body > .be-cornerlabel
 cdaction.pl,interia.pl,pcformat.pl,poboczem.pl,~poczta.interia.pl,pomponik.pl,smaker.pl,styl.pl,swiatkobiety.pl##.inpl-tout
@@ -4834,6 +4840,7 @@ plastcom.pl###test
 plejada.pl#?#.logolink:-abp-has( > .arrow)
 pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #patron-popup-image
 pl.gearbest.com##.siteBanner
+pl.hotels.com##.signin-signup-notification-container
 pl.vivre.eu##.app-banner
 pmi24.info###newsDiv
 pneumat.com.pl###wrapper > .sideButtons-tagCont > .sideButtons-tagWhite
@@ -5503,8 +5510,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2020.9.24.0
-!@ Last modified: Thu, 24 Sep 2020, 18:06 UTC+02
+!@ Version: 2020.9.25.0
+!@ Last modified: Fri, 25 Sep 2020, 17:25 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -5515,7 +5522,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2020 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2020.9.24.0 aktualizacja: czw, 24 wrz 2020, 18:06 UTC+02
+!@ v.2020.9.25.0 aktualizacja: pią, 25 wrz 2020, 17:25 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -5596,6 +5603,7 @@ agro-bis.eu,eldom.eu,iletutego.eu,prawniktorun.eu###cookie-alert
 agusto.pl,etroniks.pl,happytime.com.pl,mebags.pl,trojmiejska.com,trojmiejskaperfumeria.pl##div[id^="st_notification_"][style*="display"]
 ag-complex.com.pl##.cookie__window
 ahrefs.com###iubenda-cs-banner
+airbnb.pl##div[data-testid="main-cookies-banner-container"]
 airbnb.pl##div[data-veloute="cookie-disclaimer"]
 aircon.panasonic.eu,ecreo.eu,mazury.com,pl.vivre.eu,polemi.co.uk,rybnik.eu,tbnpolska.tv,ztm.lublin.eu##.cc-cookies
 airkiosk.lot.com##.mf-modal-overlay, .mf-modal-iframe
@@ -6893,6 +6901,7 @@ mojapogoda.com###IR
 mojavon.pl##.mpp-container > .mpp-popup
 mojbank.pl##.uk-notification-message
 mojehobby.pl##.message-footer-panel
+mojeuslugi.pl##.footer ~ div.text-center.fixed
 molkip.pl##.dialog-message.dialog-lightbox-message > .elementor-location-popup
 mondeoklubpolska.pl##li#navbar_notice_12
 monedo.pl##.NotificationBar
@@ -7171,7 +7180,9 @@ pl.pog.com###policy-validation.policy-validation
 pl.primo.com##.e-cookie
 pl.sputniknews.com###cookieContainer
 pl.thermaltake.com###gdprcode2
+pl.tripadvisor.com##span[data-test-name="consent"]
 pl.tripadvisor.com##.ppr_priv_document_cookie_banner
+pl.trip.com###use-cookie
 pl.twich.tv##div#noty_bottomCenter_layout_container
 pl.yahoo.com##div#mediafpwave3-wshade
 pmw.net.pl###note-holder
@@ -7717,7 +7728,7 @@ www.ea.com##ea-truste-consent-bar
 www.google.com,www.google.pl##body > div[class*=" "]:not([id]) > c-wiz > div[jscontroller] > div[class][jsname][data-ved][style="display: block;"]
 www.google.com,www.google.pl###cnsi ~ [jsaction*="dismiss"], #cnsh, div[style*="url(#default#userData)"]
 www.google.com,www.google.pl###gb > div[class][style^="background"]
-www.google.com,www.google.pl#?##center_col #taw > div > .med + div:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"]),
+www.google.com,www.google.pl#?##center_col #taw > div > .med + div:-abp-has( > a[href*="/intl/pl/policies/technologies/cookies/"])
 www.halico.pl##.sqs-announcement-bar-custom-location
 www.hertz.com.pl##[class^="lb-"]
 www.hertz.pl###light-box-1
