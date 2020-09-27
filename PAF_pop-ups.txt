@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: hu5DMFSsNIGXT9v9kJd1nQ
+! Checksum: h8Ik4tNKpOVv1Api7J5hkA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 27 Sep 2020, 16:00 UTC+02
-! Version: 2020.9.27.0
+! Last modified: Sun, 27 Sep 2020, 20:00 UTC+02
+! Version: 2020.9.27.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 27 wrz 2020, 16:00 UTC+02
+! Aktualizacja: nie, 27 wrz 2020, 20:00 UTC+02
 !
 !
 !
@@ -62,7 +62,7 @@ alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,ksiegar
 analizy.pl##.nl_toplayer.ui-draggable.ui-widget-content.ui-widget.ui-dialog
 angelgold.pl##.modal
 apaczka.pl##.popupPromoBox
-apaczka.pl,dekanex.pl,dzisiajwgliwicach.pl,glokalna.pl,komputerowapasja.pl,ksm.org.pl,neworleans.pl,niw.gov.pl,prostamol.pl,techfresh.pl,uroda.in,vratislavia-medica.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+apaczka.pl,dekanex.pl,dzisiajwgliwicach.pl,glokalna.pl,komputerowapasja.pl,konopia-med.pl,ksm.org.pl,neworleans.pl,niw.gov.pl,prostamol.pl,siecprzedsiebiorczychkobiet.pl,techfresh.pl,techsetter.pl,uroda.in,vratislavia-medica.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 apple-user.pl,salon2kolka.pl##.mlab-modal
 apteka-natura.eu,bludshop.com,ene-due.eu###tws_i_1, #topLayerBackDrop
 aquapark.wroc.pl##.popup-start.popup
@@ -116,6 +116,7 @@ beskidy.news##.c-pop-up
 beslow.pl##.ulp-window[data-title*="Newsletter"], .ulp-overlay
 bestape.pl,instamarketing.pl##.popup, .popup-overlay
 bestcentrum.pl##.modal-popup
+bezgluten.pl##.iziToast-wrapper, .iziToast-overlay
 bgsw.pl,magnapolonia.org,piwolucja.pl,sklep.batida.pl##.popmake-overlay
 bialykruk.pl,swiato-podglad.pl###popup-background
 bielskakraina.pl,delikatesy.pl##.overlay
@@ -682,7 +683,6 @@ selectshop.pl###popup-center
 selectshop.pl###popup-overlay
 shipgratis.eu###pgwModal, #pgwModalBackdrop
 siatka.org##.scroll-top-wr
-siecprzedsiebiorczychkobiet.pl###sgpb-popup-dialog-main-div, .sgpb-popup-overlay
 siligan.pl###blackout
 siligan.pl###contentWindow
 sillydesign.pl###blanket, #popUpDiv
@@ -752,7 +752,6 @@ tanienurkowanie.pl##.mf-modal-iframe, .mf-modal-overlay
 taniewakacje.pl##.qtip-popup-widget.qtip-fullscreen, #qtip-overlay
 taxxo.pl##.novocall-modal, .novocall-in
 teatrkomedia.pl###splash
-techsetter.pl##.sgpb-theme-3-overlay, #sgpb-popup-dialog-main-div-wrapper
 telewizjaswiatlowodowa.pl##.phoneNumberBox, .popupBg
 tiendeo.pl##.mail-alert
 tkmaxx.pl##.landing-lightbox-box, #landing-lightbox-overlay
@@ -784,6 +783,7 @@ uzdrowisko-wieniec.pl###special_offer
 velpa.pl###dialog_wrapper
 versoprint.pl##.snp-pop-6065-overlay, .snp-pop-6065-wrap
 vices.eu##.jms-popup-overlay
+virginmobile.pl###crazycall-popup-container
 vissavi.pl##.newsletter-outer-wrap, .fancybox-overlay
 vivrehome.pl##.vv_loader-wrapper.js-loader
 vpnmentor.com##.share-blog-modal
@@ -794,6 +794,7 @@ wakacyjnapolisa.pl##.wakacyjna-underlay, #ouibounce-modal
 walizkazabawek.pl,webcamera.pl##.newsletter-modal, .modal-backdrop
 walutomat.pl##.wt-response-modal
 waszaturystyka.pl##.rstbox, .rstbox_overlay
+waze.com##.wz-popup-overlay
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 webcamera.pl###exit-intercept
 weddingdream.com##.jet-popup
@@ -809,6 +810,7 @@ woblink.com###nw_popup
 wolnelektury.pl##.annoy-banner_blackout.annoy-banner
 womanadvice.pl###facebook_modal, #dark_popup
 wos.net.pl###dropin
+wrp.pl##.moModal.mo-has-email
 wszystko-do-hotelu.pl#?#div[id^="ligh"][id*="box"]:-abp-has( > .window > .newsletter_popup)
 wwsi.edu.pl###adsdialog
 www.adidas.pl,www.reebok.pl#?#.gl-modal:-abp-has(.newsletter-overlay-page)
