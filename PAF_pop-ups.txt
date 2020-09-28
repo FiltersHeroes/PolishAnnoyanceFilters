@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2BNlbQwsEA0F1u5etIY2ew
+! Checksum: xZfdV6E4UiUuz2ygQJ4s4A
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 28 Sep 2020, 12:01 UTC+02
-! Version: 2020.9.28.0
+! Last modified: Mon, 28 Sep 2020, 16:01 UTC+02
+! Version: 2020.9.28.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 28 wrz 2020, 12:01 UTC+02
+! Aktualizacja: pon, 28 wrz 2020, 16:01 UTC+02
 !
 !
 !
@@ -1000,6 +1000,9 @@ pl##.livecall-widget-container
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 !
 !
+! Reguły specjalne
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
+!
+!
 ! Dołączenie list uzupełniających do uBlocka i AdGuarda
 !#include PAF_pop-ups_supp.txt
-
