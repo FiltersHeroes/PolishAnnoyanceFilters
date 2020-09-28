@@ -8,3 +8,12 @@ groove.pl##+js(set, push_notification_ready, true)
 meczyki.pl##+js(nano-grant-fake-notification)
 !adaware.com,anime-odcinki.pl,chillizet.pl,epoznan.pl,flvto.biz,grupamagnum.eu,imged.pl,mediaexpert.pl,new.reddit.com,radiozet.pl,unisono.eu,wish.com,wtk.pl,~www.radiozet.pl,www.reddit.com,yoursclothing.pl##+js(aopr, Notification.requestPermission)
 !groove.pl##+js(aopr, Notification.requestPermission)
+!
+!
+! Reguły specjalne
+!#if !ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
+!#endif
+!#if ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com##+js(set, pafDetect, true)
+!#endif
