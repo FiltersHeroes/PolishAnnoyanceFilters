@@ -1,10 +1,10 @@
-! Checksum: yE6quVkzvTmIqfXXbZcT9A
+! Checksum: O9+QRD+Lvpl8dgaL5kNTcA
 ! Title: Polskie Filtry Elementów Irytujących - Otagowane Linki Wewnętrzne
 ! Polish Annoyance Filters - Tagged Internal Links
 ! Codename: Tagged Internal Links
 ! Description: Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.
-! Last modified: Fri, 12 Jun 2020, 12:01 UTC+02
-! Version: 2020.6.12.0
+! Last modified: Mon, 28 Sep 2020, 16:01 UTC+02
+! Version: 2020.9.28.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,9 +12,18 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pią, 12 cze 2020, 12:01 UTC+02
+! Aktualizacja: pon, 28 wrz 2020, 16:01 UTC+02
 !
 !
 gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##+js(ra, href, .external_link)
 gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link:style(background: none !important;)
 gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link[href]:style(pointer-events: none !important; position: unset !important;)
+!
+!
+! Reguły specjalne
+!#if !ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
+!#endif
+!#if ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com##+js(set, pafDetect, true)
+!#endif
