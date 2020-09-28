@@ -22,3 +22,12 @@ szybkanauka.pro##body:style(margin-top: 0 !important;)
 szybkanauka.pro##+js(ra, style, body)
 telewizja-cyfrowa.com#?##text-2 > .textwidget > p:nth-of-type(1):has-text(/[\w\W]{337}/):has-text(/Dołącz do 15000\+ osób otrzymujących nasz newsletter. Nie przegapisz żadnej ważnej wiadomości\./):style(font-size: 0 !important;)
 wrozka.com.pl##.contact_content.custom_html_right_content, .no_bottom_margin.custom_html_right_header:style(width: auto !important;)
+!
+!
+! Reguły specjalne
+!#if !ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
+!#endif
+!#if ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com##+js(set, pafDetect, true)
+!#endif
