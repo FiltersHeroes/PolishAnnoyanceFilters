@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 6L/qmeJ5aBWwNnyesPM0rg
+! Checksum: 1OmdjEOHz3CRNk2tvTgHUA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 27 Sep 2020, 20:00 UTC+02
-! Version: 2020.9.27.0
+! Last modified: Mon, 28 Sep 2020, 16:01 UTC+02
+! Version: 2020.9.28.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 27 wrz 2020, 20:00 UTC+02
+! Aktualizacja: pon, 28 wrz 2020, 16:01 UTC+02
 !
 !
 !
@@ -1659,6 +1659,11 @@ pl##.widget_newsletterwidget
 /btn-newsletter
 /button/newsletter.jpg
 /wp-content/plugins/wysija-newsletters
+!
+!
+!
+! Reguły specjalne
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
