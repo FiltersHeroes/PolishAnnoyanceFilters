@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 7YNtrjc/HZ36rBYsJRQyXw
+! Checksum: E+U4GAMf90SdwnZzI0rLqA
 ! Title: Polskie Filtry Elementów Irytujących - Tła Zawierające Autoreklamy
 ! Polish Annoyance Filters - Backgrounds Containing Self-Advertising
 ! Codename: Backgrounds
 ! Description: Filtry ukrywające i blokujące tła zawierające autoreklamy.
-! Last modified: Thu, 24 Sep 2020, 12:00 UTC+02
-! Version: 2020.9.24.0
+! Last modified: Mon, 28 Sep 2020, 16:00 UTC+02
+! Version: 2020.9.28.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 24 wrz 2020, 12:00 UTC+02
+! Aktualizacja: pon, 28 wrz 2020, 16:00 UTC+02
 !
 !
 !
@@ -35,6 +35,10 @@ www.yahoo.com###app > div > div > div > #YDC-MainCanvas > a[href="https://www.ya
 ||mediamarkt.pl/media/cache/resolve/filemanager_original/images/background/*.jpg
 ||mediamarkt.pl/media/cache/resolve/filemanager_original/images/lp/tla/*.jpg
 ||mediamarkt.pl/media/cache/resolve/filemanager_original/images/lp/*tapeta*.jpg
+!
+!
+! Reguły specjalne
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda
