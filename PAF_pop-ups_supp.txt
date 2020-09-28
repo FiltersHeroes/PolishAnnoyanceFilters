@@ -514,3 +514,12 @@ zoo.bydgoszcz.com$$#NewsShow
 !#if env_legacy
 ! Na razie nie trzeba nic specjalnego dla uBO legacy
 !#endif
+!
+!
+! Reguły specjalne
+!#if !ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
+!#endif
+!#if ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com##+js(set, pafDetect, true)
+!#endif
