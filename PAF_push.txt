@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: UTr6uRlFx1TkyYAgoLgIjQ
+! Checksum: P8Pzyjq4UrEkHAyGAIDcpw
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Thu, 24 Sep 2020, 20:02 UTC+02
-! Version: 2020.9.24.0
+! Last modified: Mon, 28 Sep 2020, 16:01 UTC+02
+! Version: 2020.9.28.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 24 wrz 2020, 20:02 UTC+02
+! Aktualizacja: pon, 28 wrz 2020, 16:01 UTC+02
 !
 !
 !
@@ -141,6 +141,10 @@ pl###pushwoosh-pop
 pl###pushwoosh-subscription-widget-root
 /OneSignalSDK.js$third-party,domain=~elazizi.com
 /web-push/get-public-config$third-party,xmlhttprequest
+!
+!
+! Reguły specjalne
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
