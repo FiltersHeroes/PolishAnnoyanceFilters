@@ -19,3 +19,12 @@
 !#if env_legacy
 @include popupy_UXP
 !#endif
+!
+!
+! Reguły specjalne
+!#if !ext_ublock
+@include specjalne_AG
+!#endif
+!#if ext_ublock
+@include specjalne_uBO
+!#endif

@@ -1,3 +1,12 @@
 ! Codename: Backgrounds - Supplement
 @path PPB/uBO_AG
 @include tla_autoreklamy_suplement
+!
+!
+! Reguły specjalne
+!#if !ext_ublock
+@include specjalne_AG
+!#endif
+!#if ext_ublock
+@include specjalne_uBO
+!#endif

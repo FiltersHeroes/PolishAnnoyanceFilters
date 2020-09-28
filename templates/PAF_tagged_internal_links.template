@@ -17,3 +17,12 @@
 !
 @path PPB/uBO_AG
 @include otagowane_linki_suplement
+!
+!
+! Reguły specjalne
+!#if !ext_ublock
+@include specjalne_AG
+!#endif
+!#if ext_ublock
+@include specjalne_uBO
+!#endif
