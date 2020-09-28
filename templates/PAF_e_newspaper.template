@@ -24,8 +24,8 @@
 ! Reguły specjalne
 @include specjalne
 !#if !ext_ublock
-#include PPB/uBO_AG/specjalne_AG.txt
+!#include PPB/uBO_AG/specjalne_AG.txt
 !#endif
 !#if ext_ublock
-#include PPB/uBO_AG/specjalne_uBO.txt
+!#include PPB/uBO_AG/specjalne_uBO.txt
 !#endif
