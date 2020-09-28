@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JDbrn/1eP1MSQfjGOxsE8w
+! Checksum: u0cFm2g54buTwAKNMUUgnA
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 28 Sep 2020, 16:00 UTC+02
-! Version: 2020.9.28.1
+! Last modified: Mon, 28 Sep 2020, 20:01 UTC+02
+! Version: 2020.9.28.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 28 wrz 2020, 16:00 UTC+02
+! Aktualizacja: pon, 28 wrz 2020, 20:01 UTC+02
 !
 !
 !
@@ -675,7 +675,8 @@ pl##.quickcontact-box
 ! Reguły specjalne
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
 !#if !ext_ublock
-#include PPB/uBO_AG/specjalne_AG.txt
+!#include PPB/uBO_AG/specjalne_AG.txt
 !#endif
 !#if ext_ublock
+!#include PPB/uBO_AG/specjalne_uBO.txt
 !#endif
