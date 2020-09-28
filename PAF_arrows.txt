@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: f/moSXoNyzoakCtZCJoEIg
+! Checksum: oi2WhY7O/3MnCEfgWyXHdg
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Mon, 28 Sep 2020, 16:00 UTC+02
-! Version: 2020.9.28.0
+! Last modified: Mon, 28 Sep 2020, 20:01 UTC+02
+! Version: 2020.9.28.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 28 wrz 2020, 16:00 UTC+02
+! Aktualizacja: pon, 28 wrz 2020, 20:01 UTC+02
 !
 !
 ! Specyficzne reguły
@@ -813,8 +813,8 @@ pl,~studioatrium.pl###back-to-top
 ! Reguły specjalne
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
 !#if !ext_ublock
-#include PPB/uBO_AG/specjalne_AG.txt
+!#include PPB/uBO_AG/specjalne_AG.txt
 !#endif
 !#if ext_ublock
-#include PPB/uBO_AG/specjalne_uBO.txt
+!#include PPB/uBO_AG/specjalne_uBO.txt
 !#endif
