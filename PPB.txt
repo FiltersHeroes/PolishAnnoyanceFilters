@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: umxIuGMwPPW5hZ1k+eAAAA
+! Checksum: f00iFesJY24FpRSTuatVwg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 29 Sep 2020, 20:01 UTC+02
-! Version: 2020.9.29.0
+! Last modified: Tue, 29 Sep 2020, 21:28 UTC+02
+! Version: 2020.9.29.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 29 wrz 2020, 20:01 UTC+02
+! Aktualizacja: wto, 29 wrz 2020, 21:28 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -5523,8 +5523,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2020.9.27.0
-!@ Last modified: Sun, 27 Sep 2020, 13:21 UTC+02
+!@ Version: 2020.9.29.0
+!@ Last modified: Tue, 29 Sep 2020, 21:28 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -5535,7 +5535,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2020 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2020.9.27.0 aktualizacja: nie, 27 wrz 2020, 13:21 UTC+02
+!@ v.2020.9.29.0 aktualizacja: wto, 29 wrz 2020, 21:28 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -5711,7 +5711,7 @@ ataniej.pl,reactor.pl,yamo.pl###einfo
 atcdevelopment.pl,ginekolog-darlowo.pl,lek-med.pl###zgoda
 atlascopco.com,ccleaner.com,deezer.com,glovoapp.com,ibood.com,ogloszenia.niedziela.nl,shop.lego.com##.cookie-banner
 atlas-roslin.pl##.tytul > span
-atrakcyjny-kredyt.pl,lp.gotowkadlafirm.pl##.cookiesInformation
+atrakcyjny-kredyt.pl,gotowkadlaciebie.com,gotowkadlafirm.pl##.cookiesInformation
 atramentowka.com###cookie_popup
 atramentowka.com,atskaner.pl,bingospa.eu,bip.um.rybnik.eu,coremannet.com,firmyinzynieria.com,fotonegatyw.com,fyrestore.com,meczelive.tv,odmiana.net,royaltime.eu,starosadeckie.info,szlakwokoltatr.eu,warsztatowski.com,whitervbbit.com,wyczesani.com###cookieInfoWindow
 attipas.pl,bocian.org.pl,fakturownia.pl,gsmonline.pl,lamillou.com,msport.lavinaplatform.com,siteor.pl,sugester.pl,wiif.nowybip.pl,zuromin.ibip.net.pl##.jGrowl-notification
@@ -6240,6 +6240,7 @@ exactsystems.pl##.js-cookies-popup.c__popup-cookies
 excodus.com###nag
 expander.net.pl###info-cookie-2013
 expansa.pl,www.promise.com.pl##.ui-resizable
+express.pl##.newWebsite
 extension.admitad.com##.privacybar
 extradom.pl##.ed-cookies-message
 extraserv.pl##div#uwaga
@@ -7863,7 +7864,6 @@ zysk.com.pl###pageUpperInfo
 ||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=legalcakes.com|satkurier.pl
 ||ciasteczka.eu/cookiesEU-latest.min.js
 ||ciasteczka.org.pl/cookies/cookies$script
-||cmp.dreamlab.pl/static/cmp.complete.bundle.js
 ||cmp.med.pl/wp-content/plugins/rodo-popup/public/js/RodoPopupPublic.js
 ||cmp.*.pl/$script,~third-party,domain=computerworld.pl|cxo.pl|idg.pl|internetstandard.pl|pcworld.pl
 ||confero.pl/js/cookies2013$script
@@ -7991,6 +7991,7 @@ cookie-law-popup.js$domain=pl
 /media/plg_system_eprivacy$script,domain=pl
 /rodo.js$script
 /savecookie.js$script
+||cmp.dreamlab.pl^
 !@
 !@
 !@ Ogólne reguły ukrywające
@@ -8840,6 +8841,9 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !@
 !@
 !@ Bugi Kiboke
+dkms.pl#@#.cc-banner:not(body):not(html)
+dkms.pl#@#.cc-window[aria-describedby*="consent"]
+dkms.pl#@#.cc-window[aria-label*="consent"]
 doleasingu.com#@#body > #privacy[style*="display"]
 gadu-gadu.pl#@#.pum[data-popmake*="cookie-policy"]
 google.com,google.pl#@##rcnt #center_col #taw
@@ -8847,9 +8851,9 @@ pl#@##catapult-cookie-bar
 pl#@#.ccc-widget:not(body):not(html)
 pl#@#.cookie-msg-box
 pl#@#.rodo-popup:not(body):not(html)
-portaloswiatowy.pl#@#.container-cookie:not(body):not(html)
-portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
-portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
+poradykomputerowe.pl,portaloswiatowy.pl#@#.container-cookie:not(body):not(html)
+poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
+poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 puratos.pl#@##cookieBannerModal
 puratos.pl#@##cookieInfo
 viennahouse.com#@##cookies-panel
@@ -8862,6 +8866,8 @@ volcano.pl#@##cookiesModal
 !@ Wyjątki
 allegro.pl,pikio.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bskrasnosielc.pl,interhotel.pl,laskonline.pl,piekarniaanka.pl#@##cookiewarning:not(body):not(html)
+dkms.pl#@#.cc-banner:not(body):not(html)
+dkms.pl#@#.cc-window[aria-label*="consent"]:not(body):not(html)
 electrolux.pl#@#.CookieConsent:not(body):not(html)
 epicdrama.pl#@#.cookie_accept:not(body):not(html):not(input):not([id*="main"])
 eurogamer.pl#@##optanon:not(body):not(html)
@@ -8883,9 +8889,9 @@ naekranie.pl#@##polityka-cookies:not(body):not(html)
 orange.pl#@##cookies-info:not(body):not(html)
 parkiet.com,rp.pl#@##rodo-popup:not(body):not(html):not(.fade):not(.modal)
 pikio.pl#@##cookie-policy:not(body):not(html)
+poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
+poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body):not(html)
-portaloswiatowy.pl#@#.overlay-cookie:not(body):not(html)
-portaloswiatowy.pl#@#.popup-cookie:not(body):not(html)
 puratos.pl#@##cookieInfo:not(body):not(html)
 puratos.pl#@#.cookie-banner:not(body):not(html)
 sklep-domwhisky.pl#@#.rodo-popup:not(body):not(html):not([style="display: block;"])
