@@ -309,6 +309,8 @@ rowery-elektryczne.pl###popup, #popup-overlay
 rylko.com##body.modal-open:style(padding-right: 0 !important; overflow: auto !important;)
 rylko.com###modal-newsletter
 rzetelnafirma.pl##+js(nostif, setPopup)
+samochod.porowneo.pl###modalContainer
+samochod.porowneo.pl##.noScroll:style(position: static !important;)
 secure.avaaz.org##.page-petition--inactive:style(overflow: auto !important;)
 secure.avaaz.org##.signup-petition-modal-wrapper
 sferis.pl##+js(acis, $, promoNewsletter)
@@ -452,6 +454,7 @@ e-spar.com.pl##^#modal-welcome
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 intermarche.pl##^div[style="display:none"]:has(a[class="wplightbox"])
 kursszybkiegoczytania.pl##^.et_bloom_popup[data-idle_timeout]
+lento.pl##^footer ~ script:has-text(showNotify())
 lookcam.com##^#lookcam-fb-modal
 makarun.pl##^.makarun-modal
 mediasam.pl##^#myWorning
@@ -487,6 +490,7 @@ drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl$$#modal-welcome
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
+lento.pl$$script[tag-content="showNotify()"]
 lookcam.com$$#lookcam-fb-modal
 makarun.pl$$.makarun-modal
 mbmeganarzedzia.pl,pozyczkabezbanku.pl,www.kei.pl###bio_ep, #bio_ep_bg
@@ -506,14 +510,13 @@ sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
 !#endif
 !#if ext_ublock
-!parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(no-setTimeout-if, bioEp.showPopup)
-!parkmania.pl,pozyczkabezbanku.pl,mbmeganarzedzia.pl,www.kei.pl##+js(setTimeout-if, !bioEp.showPopup)
+lento.pl##+js(ra, style, .box-modal-notify\, #lightoverlay)
 !#endif
 !#if cap_user_stylesheet
 !www.vivrehome.pl##.js-popup-subscribe:not([style]):watch-attr(style):has(.js-title-default.is-hidden:watch-attr(class))
 !#endif
 !#if env_legacy
-! Na razie nie trzeba nic specjalnego dla uBO legacy
+lento.pl##footer ~ script:contains(showNotify())
 !#endif
 !
 !
