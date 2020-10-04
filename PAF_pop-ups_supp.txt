@@ -3,8 +3,11 @@ abcsurf.pl,akcesoriabaristy.pl,allepaznokcie.pl,asnew.pl,belleparis.pl,biomak.eu
 abcsurf.pl,akcesoriabaristy.pl,allepaznokcie.pl,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,ledfarmer.pl,makarfish.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sport2002.pl,sushi-sklep.pl##.mask + .modal
 abrakadabra.sklep.pl,alesoczewki.com,aluna.eu,aptekakamagra.pl,bezokularow.pl,bilkom.pl,biofemina.pl,bitner.com.pl,bonprix.pl,braciaprzykawie.pl,campingshop.pl,dieta.hpba.pl,dobresofty.pl,drogerienatura.pl,ecoxpress.pl,edulider.pl,ekoteka.pl,eurobuty.com.pl,extradom.pl,fmmobile.pl,galeriapolnocna.pl,gazetkonosz.pl,giftshop24.pl,grantthornton.pl,ibuk.pl,idream.pl,ilily.pl,jezykiobce.pl,jordanki.torun.pl,kidsworld.pl,lomilowka.pl,lubimyczytac.pl,medme.pl,mensahome.eu,merkandi.pl,miastodzieci.pl,miekkie.com,moliera2.com,ncez.pl,niedziela.pl,nife.pl,online.citibank.pl,panel.kei.pl,pinsola.pl,polskieszlaki.pl,ppr.pl,prnews.pl,przemysl.pl,s-pl.pl,sekrecik.pl,sklep.nextmobile.pl,solven.pl,teatr-sabat.pl,toysrus.pl,ubraniadooddania.pl,vebo.pl,wpolu.pl,www.e-biurowce.pl,wynagrodzenia.pl,zeskory.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 abrakadabra.sklep.pl,ilily.pl,sekrecik.pl###myWorning, .modal-backdrop
-action.com##.has-popup:style(position: static !important;)
+action.com##+js(rc, is-locked, html)
+action.com##.is-locked body:style(position: static !important; overflow-y: scroll !important;)
+action.com##.is-locked .scroll-bar
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
+action.com,euro.com.pl,mulan.pl,oleole.pl,pasmanteria.eu,urwisydwa.sklep.pl,wetro.pl##body[style]:style(padding-right: 0 !important;)
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
@@ -68,9 +71,9 @@ bilkom.pl###promopopup, .modal-backdrop
 biofemina.pl,vebo.pl###news_popup, #news_popup ~ .modal-backdrop
 biznesalert.pl,socialtigers.pl##html:style(overflow: visible !important; margin-right: 0 !important)
 blog-daneosobowe.pl##+js(nostif, i(), 5000)
-blog.lh.pl,ckr.pl,gannet.pl,grupa-tense.pl,hairbyjul.pl,ideau.pl,innergo.pl,instytutozonoterapii.pl,kam-sport.pl,kreatywna-europa.eu,luxtom.pl,magnapolonia.org,marfafashion.com,nowa-energia.com.pl,nsix.pl,odczasudoczasu.pl,pcg.pl,pl.geofumadas.com,pol-ukr.com,polska-ie.com,premiummobile.pl,sla.pl,sukcesedukacja.pl,unia-sklep.pl,zeglarski.info,zoosafari.com.pl##html.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
-blog.lh.pl,ckr.pl,gannet.pl,grupa-tense.pl,hairbyjul.pl,ideau.pl,innergo.pl,instytutozonoterapii.pl,kam-sport.pl,kreatywna-europa.eu,luxtom.pl,magnapolonia.org,marfafashion.com,nowa-energia.com.pl,nsix.pl,odczasudoczasu.pl,pcg.pl,pl.geofumadas.com,pol-ukr.com,polska-ie.com,premiummobile.pl,sla.pl,sukcesedukacja.pl,unia-sklep.pl,zeglarski.info,zoosafari.com.pl##.pum-open:style(overflow: auto !important;)
-blog.lh.pl,ckr.pl,gannet.pl,grupa-tense.pl,hairbyjul.pl,kam-sport.pl,kreatywna-europa.eu,luxtom.pl,nowa-energia.com.pl,nsix.pl,odczasudoczasu.pl,pcg.pl,pl.geofumadas.com,pol-ukr.com,polska-ie.com,premiummobile.pl,sla.pl,sukcesedukacja.pl,unia-sklep.pl,zeglarski.info,zoosafari.com.pl##.popmake-overlay.pum-overlay.pum
+blog.lh.pl,ckr.pl,gannet.pl,grupa-tense.pl,hairbyjul.pl,ideau.pl,innergo.pl,instytutozonoterapii.pl,kam-sport.pl,klinikamiracki.pl,kreatywna-europa.eu,luxtom.pl,magnapolonia.org,marfafashion.com,nowa-energia.com.pl,nsix.pl,odczasudoczasu.pl,pcg.pl,pl.geofumadas.com,pol-ukr.com,polska-ie.com,premiummobile.pl,sla.pl,sukcesedukacja.pl,unia-sklep.pl,zeglarski.info,zoosafari.com.pl##html.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
+blog.lh.pl,ckr.pl,gannet.pl,grupa-tense.pl,hairbyjul.pl,ideau.pl,innergo.pl,instytutozonoterapii.pl,kam-sport.pl,klinikamiracki.pl,kreatywna-europa.eu,luxtom.pl,magnapolonia.org,marfafashion.com,nowa-energia.com.pl,nsix.pl,odczasudoczasu.pl,pcg.pl,pl.geofumadas.com,pol-ukr.com,polska-ie.com,premiummobile.pl,sla.pl,sukcesedukacja.pl,unia-sklep.pl,zeglarski.info,zoosafari.com.pl##.pum-open:style(overflow: auto !important;)
+blog.lh.pl,ckr.pl,gannet.pl,grupa-tense.pl,hairbyjul.pl,kam-sport.pl,klinikamiracki.pl,kreatywna-europa.eu,luxtom.pl,nowa-energia.com.pl,nsix.pl,odczasudoczasu.pl,pcg.pl,pl.geofumadas.com,pol-ukr.com,polska-ie.com,premiummobile.pl,sla.pl,sukcesedukacja.pl,unia-sklep.pl,zeglarski.info,zoosafari.com.pl##.popmake-overlay.pum-overlay.pum
 bonami.pl##.overlayPan
 bonami.pl##.blurred:style(filter: none !important;)
 bonprix.pl###newsletter-subscribe, .modal-backdrop
@@ -111,7 +114,6 @@ ekoteka.pl,wpolu.pl###popUpModal, .modal-backdrop
 eksperymentalnie.com##+js(nostif, CodeKingdomBox)
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
 ergokantor.pl##html:style(overflow: visible!important; margin-right: 0 !important;)
-euro.com.pl,mulan.pl,oleole.pl,pasmanteria.eu,urwisydwa.sklep.pl,wetro.pl##body[style]:style(padding-right: 0 !important;)
 euro.com.pl,oleole.pl##.remodal-overlay:has( ~ .remodal-wrapper[class*="open"]:has( > .remodal span[class*="heading"]:has-text(NEWSLETTER)))
 euro.com.pl,oleole.pl##.remodal-wrapper[class*="open"]:has( > .remodal span[class*="heading"]:has-text(NEWSLETTER))
 euro.com.pl,stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important;)
@@ -227,6 +229,8 @@ mypersonaltrainer.pl##.popup-container
 m.youtube.com##body[modal-open-body]:style(position: static !important;)
 m.youtube.com##.upsell-dialog-lightbox:has(a[href^="https://support.google.com/youtube/?p=sign_in"])
 ncez.pl,panel.kei.pl##.modal-backdrop
+newsweek.pl##.tp-modal, .tp-backdrop
+newsweek.pl##.tp-modal-open:style(overflow: auto !important;)
 newtech.com.pl###vq-popup-cnt
 newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 new.reddit.com,www.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important;)
@@ -343,6 +347,8 @@ spyshop.pl##+js(acis, $, #popUp)
 stacjaeksperta.pl##html.no-scroll:style(overflow-y: auto !important;)
 stacjaeksperta.pl##.no-scroll body:style(overflow: auto !important;)
 stacjaeksperta.pl##.wph-modal, .wph-modal--mask
+stradivarius.com##html[style]:style(overflow: auto !important;)
+stradivarius.com###sidebar-component
 stylowamoda.pl###pum-4908
 stylowamoda.pl,topplant.pl##html.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
 stylowamoda.pl,topplant.pl##.pum-open:style(overflow: auto !important;)
