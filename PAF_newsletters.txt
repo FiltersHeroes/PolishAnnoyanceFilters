@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: geYm8jKM63p4Fu93BSHBhQ
+! Checksum: XQxdcZGgzTDj5LeP/jvtUQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 03 Oct 2020, 20:00 UTC+02
-! Version: 2020.10.3.1
+! Last modified: Sun, 04 Oct 2020, 16:00 UTC+02
+! Version: 2020.10.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 03 paź 2020, 20:00 UTC+02
+! Aktualizacja: nie, 04 paź 2020, 16:00 UTC+02
 !
 !
 !
@@ -1299,6 +1299,7 @@ stokrotka.pl##.swap.wdwl--banner-wrapper
 stolicawolnosci.pl##.foot-beam-full-color
 stopnop.com.pl##div.col:nth-of-type(1) > .footer-widget
 stosunki-miedzynarodowe.pl##.art-sidebar1 > .art-block
+stradivarius.com##.page-footer-news
 straz.gov.pl##.col-xs-10.col-sm-10.col-md-8.col-lg-3
 strefainwestorow.pl###newsletter-ipo
 strefakursow.pl##.b-site-footer__margin-right-30.u-flex-direction-col.u-display-flex
@@ -1504,6 +1505,7 @@ wseit.edu.pl###btn-newsletter
 wspieramrozwoj.pl##.newslatter
 wtk.pl###newsletter-animated-box
 www.aboutyou.pl#?#footer[class*="footerContainer"] > div:-abp-contains(newslettera)
+www.auchan.pl#?#.container > .row:-abp-has(span.text-center:-abp-contains(/^ Chcesz otrzymywać nowości\? $/))
 www.galeriehandlowe.pl##.newsletter-box-blue-big
 www.gemius.pl#?#.smaller.item:-abp-has(.newsletter-title)
 www.lenovo.com##.m-footerSignUp
