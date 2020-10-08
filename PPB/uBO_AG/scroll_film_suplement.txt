@@ -8,7 +8,7 @@ gotujmy.pl,ilewazy.pl,mamotoja.pl,party.pl,polki.pl,urodazycia.pl,viva.pl,wizaz.
 gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(aeld, scroll, d.stopPropagation)
 komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, FloatingVideoPlayer, noopFunc)
 komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, floatingPlayer, noopFunc)
-m.interia.pl##+js(aeld, /^(resize|scroll)$/, floatingPlayerEventHandler)
+m.interia.pl##+js(aeld, /^(?:resize|scroll)$/, floatingPlayerEventHandler)
 onet.pl,~poczta.onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important;)
 parkiet.com##.component-tv__video:style(position: static !important;)
 rp.pl##.linear-tv__iframe:style(position: static !important;)
