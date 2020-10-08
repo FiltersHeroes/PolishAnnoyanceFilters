@@ -381,8 +381,8 @@ wildcar.pl###x13popup-container, .x13popup-cover
 wildcar.pl##.x13popup-open:style(overflow: auto !important;)
 wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
 www.auchan.pl##+js(aeld, /^(?:wheel|keydown)$/, [native code])
-www.auchan.pl##.v-dialog__content:has( > div > div > button ~ div > picture:only-child)
-www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div > div > button ~ div > picture:only-child)
+www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([class]):not([id]) > button ~ div > picture:only-child)
+www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div.v-dialog > div:not([class]):not([id]) > button ~ div > picture:only-child)
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 www.brw.com.pl##.js:style(overflow-y: visible !important;)
 www.epione.pl##.fancybox-lock body:style(overflow: auto !important;)
@@ -520,6 +520,8 @@ zoo.bydgoszcz.com$$#NewsShow
 !#endif
 !#if ext_ublock
 lento.pl##+js(ra, style, .box-modal-notify\, #lightoverlay)
+www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([class]):not([id]) > button ~ a > picture:only-child)
+www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div.v-dialog > div:not([class]):not([id]) > button ~ a > picture:only-child)
 !#endif
 !#if cap_user_stylesheet
 !www.vivrehome.pl##.js-popup-subscribe:not([style]):watch-attr(style):has(.js-title-default.is-hidden:watch-attr(class))
