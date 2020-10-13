@@ -1,4 +1,5 @@
 profbud.info###yl-popup-wrapper-popupNewPrices
+###x13popup-container
 profbud.info##.yl-popup-transparent:has(~ #yl-popup-wrapper-popupNewPrices)
 profbud.info##html[style]:style(overflow: auto !important;)
 konin.pl###myModal, #myModal ~ .modal-backdrop
@@ -344,8 +345,8 @@ walizkazabawek.pl###Widget1, .modal-backdrop
 weathermap.netatmo.com##first-use-slider
 weathermap.netatmo.com##.blured #map, .blured .side-panel, .blured .navbar, .blured .button-control-ctn, .blured .small-banner, .side-panel.blured, .blured #mainwrapper .legend:style(filter: none !important;)
 westwingnow.pl##+js(nostif, showOverlay)
-wildcar.pl###x13popup-container, .x13popup-cover
-wildcar.pl##.x13popup-open:style(overflow: auto !important;)
+wildcar.pl,salonydenon.pl###x13popup-container, .x13popup-cover
+wildcar.pl,salonydenon.pl##.x13popup-open:style(overflow: auto !important;)
 wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
 www.auchan.pl##+js(aeld, /^(?:wheel|keydown)$/, [native code])
 www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([class]):not([id]) > button ~ div > picture:only-child)
