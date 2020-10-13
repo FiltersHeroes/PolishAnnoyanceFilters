@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 6F+vKcGdAXr37FEMjLpCLw
+! Checksum: iqmVw6xrjY9vjV9y+rNVGw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 11 Oct 2020, 20:01 UTC+02
-! Version: 2020.10.11.0
+! Last modified: Tue, 13 Oct 2020, 20:00 UTC+02
+! Version: 2020.10.13.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,12 +13,12 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 11 paź 2020, 20:01 UTC+02
+! Aktualizacja: wto, 13 paź 2020, 20:00 UTC+02
 !
 !
 !
 ! Specyficzne reguły
-~poczta.wp.pl,wp.pl,~~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
 3doffice.pl,sklep.domiogrod-tarnow.pl,sklep.pesan.pl,sklepsumowy.pl###oknoPopUp, #tloPopUp
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
@@ -405,6 +405,7 @@ kombo.krakow.pl##body > div:nth-of-type(4), body > div:nth-of-type(6)
 kombo.krakow.pl###divGoTop2Mob
 komorkomat.pl##.offer_modal.order_contact_offer_modal.in.fade.vue_modal
 koncertomania.pl#?#.conv_state_desktop.conv-container:-abp-has(#conv11671)
+konin24.info#?##popup_box:-abp-has(img[src^="file_data/banner/b_"])
 konstantinkanin.com##.hustle-show
 kontri.pl###element_to_pop_up, .bModal
 korczyk.pl##.pop-up
