@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: HHQ+RhhsaHjqmVIkcNFyyw
+! Checksum: pf/hQi5GAMGfgoj64vr/JA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 17 Oct 2020, 20:00 UTC+02
-! Version: 2020.10.17.1
+! Last modified: Sun, 18 Oct 2020, 16:00 UTC+02
+! Version: 2020.10.18.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 17 paź 2020, 20:00 UTC+02
+! Aktualizacja: nie, 18 paź 2020, 16:00 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -697,7 +697,7 @@ kasastefczyka.pl###InteliwiseSaaSModule_win_wrapper
 kasastefczyka.pl###newsletterFooter
 katalogmarzen.pl##.bottom-box.content-box > .container > .row > div.col-xs-12.col-sm-12.col-md-6:nth-of-type(2)
 katowice24.info##.top-footer > div.col-md-3.col-sm-12:nth-of-type(3)
-katowice.eu##.newsletter_title
+katowice.eu##.newsletter_title, .newsletterTitle
 kaufland.pl##.m-teaser > .m-teaser__link[data-aa-pagename*="newsletter"]
 kaufland.pl##.o-form--footernewsletter
 kawerna.pl##.item-last.span4
@@ -779,6 +779,7 @@ lidl.pl##.form--newsletter
 lightinthebox.com##.our-newsletters
 lightonline.pl#?#div.col-sm-6:nth-of-type(1):-abp-has(.news)
 linguajob.pl###zamow-link
+linktransport.eu,mierzeja.com###newsletter
 littleforest.pl##.footer--newsletter, .footer--blog__right > h2.font--alt:nth-of-type(1), .footer--blog__right > p, .yikes-easy-mc-form
 lm.pl##.new_boks_newsletter
 logitechg.com##footer .email-subscription
@@ -844,7 +845,6 @@ miastodzieci.pl##.pull-left > a[href="/zapisz"]
 miastons.pl#?#.sh-s1.sh-t2.section-heading:-abp-contains(Newsletter)
 miaucafe.pl,pangrono.pl,pwsk.pl,strefapmi.pl##.et_bloom_animated.et_bloom_flyin_right.et_bloom_flyin
 midar.net.pl##.pomaranczowy.boks:nth-of-type(4)
-mierzeja.com###newsletter
 mieszkajwmiescie.pl##div.col-sm-4:nth-of-type(1) > p.txtNewsletterDesc:nth-of-type(2), .conNewsletterInput, div.col-sm-4:nth-of-type(1) > .txtNewsletterTitle
 milight.pl#?#div#produkty.section:-abp-has(#alo_easymail_widget_form)
 miloohome.pl##.footer-container-newsletter
@@ -988,6 +988,7 @@ omegadruk.pl###slideleft
 onebid.pl##footer .footer-nav :nth-of-type(4)
 onebid.pl##.leftmainmenu.hidden-sm.hidden-xs.col-lg-3.col-md-3.col-xs-12 > .hidden-xs.hidden-sm
 onet.pl#?#p > strong:-abp-contains(/^Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści$/)
+onexstore.pl##.footer-col--subscription
 oohmagazine.pl##div.widget_anthemes_video.widget:nth-of-type(3)
 opensecurity.pl,swiatoze.pl,terazprudnik.pl##.widget_newsletterwidgetminimal, #mc-embedded-subscribe-form
 opera.pl##.prawyRegion > div.kontener1:nth-of-type(2)
@@ -1405,6 +1406,7 @@ tvn.pl##.btn-newsletter, .footer-col:nth-of-type(4) > .footer-heading:nth-of-typ
 tvokazje.pl###newsletter_block_popup, .newsletter-image-short
 twardepierniki.pl##.newsletter-panel
 twojahistoria.pl##.pb_wysija
+twojakoszulka.eu##.stopka .trzecia
 twojcel.to###footer-column-1 > .column-inner
 twojemeble.pl#?#.footer-menu-col:-abp-has( > .newsletter-homepage)
 tygodnikdzialdowski.pl##.size-33.g-block:nth-of-type(3)
@@ -2893,7 +2895,7 @@ ams.edu.pl,apteka-natura.eu,bludshop.com,ehurt.eu,ene-due.eu,pakolorente.com,ptw
 anetaduk.com,moto.lca.pl###myBtn
 animalistka.pl,faltusdesign.wordpress.com##.tothetop
 animeholik.pl,atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,bielskakraina.pl,doran.com.pl,gazetasenior.pl,meble-wanat.pl,mtb-xc.pl,muzyczneradio.pl,promenada.com,promocyjni.pl,radiofon.fm,radiovia.com.pl,skapiec.pl,tvn24.pl,websitestyle.pl,wikirose.pl,wizaz.pl,worldcam.pl,www.meczyki.pl,xkom.pl##.scroll-up
-anton-paar.com,brand.ceo,ore.edu.pl,sokolow.pl,zgruntudobre.com##.gototop
+anton-paar.com,brand.ceo,ore.edu.pl,salami.pl,sokolow.pl,zgruntudobre.com##.gototop
 antywirus.biz,bonturystyczny.polska.travel,luba-group.com,nesperta.com,nysa.eu,olgasmile.com,rozenekmajdan.com,softelnet.com,urbanforms.org,walerystasiak.com,wnt.com##.scroll-top
 apollo.pl##.tt-scroll-up
 apo-discounter.pl###page_up_button
@@ -2993,6 +2995,7 @@ czeladz.pl,czerwionka-leszczyny.pl,psychologia.edu.pl,straz.gov.pl,tortydladziec
 czescidobmw.pl##.pageToTop
 czytio.pl,jaw.com.pl###scrollTop-btn
 c-and-a.com##.js-scroll
+damy-rade.info##.nav-up, .nav-down
 darent.net,netbiel.pl###scroll-top-top
 darkarea.pl###bttop
 darmowekontobankowe.org,polskacanada.com##.mh-back-to-top
@@ -3658,7 +3661,7 @@ www.yahoo.com###app > div > div > div > #YDC-MainCanvas > a[href="https://www.ya
 51015kids.eu###custom_trustbadge
 aaaauto.pl###site-bottom-bar-content > .smoothbox
 adidas.pl,reebok.pl##.QSISlider
-adra.pl,espritshop.pl###feedback
+adra.pl,espritshop.pl,przetargi.info###feedback
 adwokat.co.uk##.cnct
 adwokat.co.uk###rswidget_rKnKD
 afrodytasalon.pl##.js--phone-button.ic-phone-button
