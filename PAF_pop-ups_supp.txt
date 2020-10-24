@@ -149,6 +149,7 @@ infosecurity24.pl###popupModal, .modal-backdrop
 insert.com.pl##+js(aeld, DOMMouseScroll, preventDefault)
 instagram.com##body[style*="overflow: hidden;"]:style(overflow: visible !important;)
 instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
+instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
 jakdorobic.pl,mebin.pl,musiclab.com.pl##html[style]:style(overflow: auto !important; margin-right: 0 !important;)
 jogapiekna.com###odbierz-prezent-modal, .modal-backdrop
