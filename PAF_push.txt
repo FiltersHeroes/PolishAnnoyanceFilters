@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: P8Pzyjq4UrEkHAyGAIDcpw
+! Checksum: ubNpbLCewG8u5dN+2hBKgg
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Mon, 28 Sep 2020, 16:01 UTC+02
-! Version: 2020.9.28.0
+! Last modified: Wed, 28 Oct 2020, 19:01 UTC+01
+! Version: 2020.10.28.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,13 +13,13 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 28 wrz 2020, 16:01 UTC+02
+! Aktualizacja: śro, 28 paź 2020, 19:01 UTC+01
 !
 !
 !
 ! Specyficzne reguły
 2conv.com,flv2mp3.by,flvto.biz##.push-offer
-abra-meble.pl,allecco.pl,amso.pl,biogo.pl,bludshop.com,cortland.pl,cudmoda.pl,czasnabuty.pl,eurobuty.com.pl,gry-online.pl,kontigo.com.pl,kosmetykomania.pl,krukam.pl,megascena.pl,mghome.pl,musclepower.pl,muve.pl,olini.pl,primamoda.com.pl,recea.pl,reporteryoung.pl,sadowniczy.pl,sklep.royal-shop.pl,tendina.pl,tiffanie.pl,tolpa.pl,tvokazje.pl,yalu.pl###edrone_push--bubble, #edrone--push--alert--box
+3dom.pro,abra-meble.pl,allecco.pl,amso.pl,biogo.pl,bludshop.com,cortland.pl,cudmoda.pl,czasnabuty.pl,eurobuty.com.pl,gry-online.pl,kontigo.com.pl,kosmetykomania.pl,krukam.pl,megascena.pl,mghome.pl,musclepower.pl,muve.pl,olini.pl,primamoda.com.pl,recea.pl,reporteryoung.pl,sadowniczy.pl,sklep.royal-shop.pl,tendina.pl,tiffanie.pl,tolpa.pl,tvokazje.pl,yalu.pl###edrone_push--bubble, #edrone--push--alert--box
 allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
@@ -125,6 +125,7 @@ zegarkiipasja.pl##.fcx-push-modal-container
 ||txm.pl/js/assets/crm-web-push-service-worker.js$script
 ||webpush.interia.pl/activator.js
 ||webpush.interia.pl/scripts/*/push.js
+||web.webpushs.com/js/push/$script,domain=wiencewiazanki.pl
 ||wp.pl/webpush/static/js/webpush.desktop.js
 ||wp.pl/webpush/static/js/webpush.js
 ||wp.pl/*.webpush.chunk.js
