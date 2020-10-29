@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ubNpbLCewG8u5dN+2hBKgg
+! Checksum: TgcVG3JUMCO+mnE3R6mrtg
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Wed, 28 Oct 2020, 19:01 UTC+01
-! Version: 2020.10.28.0
+! Last modified: Thu, 29 Oct 2020, 19:00 UTC+01
+! Version: 2020.10.29.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 28 paź 2020, 19:01 UTC+01
+! Aktualizacja: czw, 29 paź 2020, 19:00 UTC+01
 !
 !
 !
@@ -72,6 +72,7 @@ zegarkiipasja.pl##.fcx-push-modal-container
 /snr-sw.js$script,domain=mediaexpert.pl|pl.kruk.eu
 /static/firebase/firebase-messaging.js$script,domain=kobieceinspiracje.pl
 /static/js/firebase-push.js$domain=cafago.com|tomtop.com
+/sw-push.js$script,domain=m.zapytaj.onet.pl|medonet.pl
 /sw-rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
 /sw.js$domain=adaware.com|kinoseans.pl|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl|youtube.com|zippyshare.com
 ||api.sociaplus.com/views/push/js/sdk/insider-push-native-sdk.js
@@ -98,7 +99,6 @@ zegarkiipasja.pl##.fcx-push-modal-container
 ||kuriersuwalski.pl/plugins/system/joompush/asset/
 ||moneygrabbingcouk.foxpush.net/http_native.html
 ||mxapis.com^
-||m.zapytaj.onet.pl/sw-push.js
 ||nasze-gazetki.pl/public/notification/notification.js
 ||newbalance.api.useinsider.com/views/push/js/sdk/insider-push-native-sdk.js$script,domain=nbsklep.pl
 ||ocdn.eu/ucs/static/*/build/js/pushModule.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
