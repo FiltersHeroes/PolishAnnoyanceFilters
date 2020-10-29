@@ -206,7 +206,7 @@ maserati.pl##html.sgpb-disable-page-scrolling:style(overflow-y: auto !important;
 maserati.pl###sgcboxWrapper, #sgcboxOverlay
 masher.pl##html.pum-open:style(overflow: auto !important;)
 masher.pl##.popmake-overlay
-mbmeganarzedzia.pl,parkmania.pl,pozyczkabezbanku.pl,www.kei.pl##+js(nostif, bioEp.showPopup)
+mbmeganarzedzia.pl,parkmania.pl,pl.wizcase.com,pozyczkabezbanku.pl,www.kei.pl##+js(nostif, bioEp.showPopup)
 meb.com.pl,pureveg.pl##+js(nostif, #myWorning)
 mediaexpert.pl###newsletterModal1, #newsletterModal1 ~ .modal-backdrop
 medme.pl###do-not-leave, .modal-backdrop
@@ -397,9 +397,6 @@ www.microsoft.com###email-newsletter-dialog
 wynagrodzenia.pl###isbusiness-modal, .modal-backdrop
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
-pl.wizcase.com##+js(nostif, bioEp.showPopup)
-!youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
-!youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 zaufanekliniki.pl###modalMain, .modal-backdrop
 zegarkiipasja.pl##.emelu-lightbox-target
 zeskory.com##.newsletter-pop, .modal-backdrop
@@ -417,6 +414,8 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
+!youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
+!youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 !youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
 !youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
 ###x13popup-container
