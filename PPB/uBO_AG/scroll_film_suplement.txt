@@ -6,8 +6,10 @@ gamerweb.pl##.zox-video-embed-wrap .zox-vid-fixed:style(position: relative !impo
 gotujmy.pl,ilewazy.pl,mamotoja.pl,party.pl,polki.pl,urodazycia.pl,viva.pl,wizaz.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
 gotujmy.pl,ilewazy.pl,mamotoja.pl,party.pl,polki.pl,urodazycia.pl,viva.pl,wizaz.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
 gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(aeld, scroll, d.stopPropagation)
-komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, FloatingVideoPlayer, noopFunc)
-komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, floatingPlayer, noopFunc)
+komputerswiat.pl,ofeminin.pl,przegladsportowy.p##+js(set, floatingPlayer.isFloatingEnabled, false)
+!komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, FloatingVideoPlayer, noopFunc)
+!komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, floatingPlayer, noopFunc)
+medonet.pl,onet.pl,~poczta.onet.pl##+js(set, Object.prototype.isFloatingEnabled, false)
 m.interia.pl##+js(aeld, /^(?:resize|scroll)$/, floatingPlayerEventHandler)
 onet.pl,~poczta.onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important;)
 parkiet.com##.component-tv__video:style(position: static !important;)
