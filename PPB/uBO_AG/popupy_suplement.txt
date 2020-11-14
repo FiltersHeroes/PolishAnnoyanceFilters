@@ -348,8 +348,8 @@ weathermap.netatmo.com##.blured #map, .blured .side-panel, .blured .navbar, .blu
 westwingnow.pl##+js(nostif, showOverlay)
 wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
 www.auchan.pl##+js(aeld, /^(?:wheel|keydown)$/, [native code])
-www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([class]):not([id]) > button ~ div > picture:only-child)
-www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div.v-dialog > div:not([class]):not([id]) > button ~ div > picture:only-child)
+www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([id]):not([class]) > button ~ div > picture:only-child)
+www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div.v-dialog > div:not([id]):not([class]) > button ~ div > picture:only-child)
 www.brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 www.brw.com.pl##.js:style(overflow-y: visible !important;)
 www.epione.pl##.fancybox-lock body:style(overflow: auto !important;)
