@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: I3ZmdLCkJKup4J4UtErX7Q
+! Checksum: xKGS7K7LxGnrcWfZLJrRjA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 21 Nov 2020, 15:00 UTC+01
-! Version: 2020.11.21.0
+! Last modified: Sun, 22 Nov 2020, 19:00 UTC+01
+! Version: 2020.11.22.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: sob, 21 lis 2020, 15:00 UTC+01
+! Aktualizacja: nie, 22 lis 2020, 19:00 UTC+01
 !
 !
 !
@@ -809,7 +809,6 @@ luminosfera.pl,slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
 luxfood.pl###Left > .nyroModal:nth-of-type(1)
 luxmed-diagnostyka.pl##.newesletter-box
 maciej.je##p:nth-of-type(47)
-magazyn.waszaturystyka.pl,waszaslowacja.pl,waszaturystyka.pl##.row-child.unequal
 magnapolonia.org##.tnp-subscription
 magnatfarby.pl##.newsletter-sign-in-btn
 majsterkowo.pl,moj-kawalek-podlogi.pl,spirulina.pl,tato.net,techformator.pl,zatorland.pl###text-9
@@ -840,8 +839,7 @@ mbmeganarzedzia.pl,motogron.com##.footer-container > div > div > div:nth-of-type
 mbp.szczecin.pl#?#.elementor-inner-column.elementor-element[data-settings*="background"][data-settings*="classic"] > .elementor-element-populated.elementor-column-wrap:-abp-has(h4:-abp-contains(/^Zapisz się do naszego newslettera$/))
 mdk.opole.pl##footer > .my_container > .formularz.sub
 meble88.pl##.form-subscribe
-meble-z-drewna.pl##p:nth-of-type(30)
-meble-z-drewna.pl##table
+meble-z-drewna.pl###lewy .zawartosc > table, #lewy .zawartosc > table + p:empty
 meble.pl###newsletterBlok
 meble.pl##.mainFooter > .row-flex > div:nth-of-type(6)
 meblohaus.pl##.moduletable_left
@@ -1163,7 +1161,7 @@ przepisy.pl##.newsletter-wrapper-inner
 przepis-na-lo.pl###sidebar > div.widget:nth-of-type(3)
 przewodnik-katolicki.pl##.news-stopka, .newsletter-belka
 psblog.pl##.widget_newsletter
-psychologiazycia.com##.mymail-form,.newsletter > .title
+psychologiazycia.com##.mymail-form, .newsletter > .title
 psychologiazycia.com#?#h3:nth-of-type(2) + p:-abp-contains(Zapisz się na naszą)
 psychologiazycia.com#?#h3:nth-of-type(2):-abp-contains(NEWSLETTER)
 psycholog-pisze.pl###text-17
@@ -1489,6 +1487,7 @@ waldtour.pl##.mailpoet-newsletter
 walerystasiak.com#?##content > .vc_row-has-fill.ult-vc-hide-row.vc_row-fluid.wpb_row.vc_row:-abp-contains(/newsletter/i)
 walmark.pl##.footer div[class]:nth-of-type(3) > .footer__heading
 wasserman.eu#?#footer[class]:not([id]) + div[class]:not([id]):-abp-contains(Promocje, nowości)
+waszaslowacja.pl,waszaturystyka.pl#?#.site-footer .row-child.unequal:-abp-has(.your-email)
 waszaturystyka.pl##.platform-content:nth-of-type(2)
 waw4free.pl###komunikat_newsletter, #spolecznosci > a[href="newsletter"], .footer-box:nth-of-type(2)
 wbpg.org.pl###block-freshmail-freshmail-block, #home_newsletter
