@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5Go7jUE0SJecQWfsZ/rBjA
+! Checksum: dTlzEtSrVv7s0570Zzhf6w
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Tue, 24 Nov 2020, 19:00 UTC+01
-! Version: 2020.11.24.1
+! Last modified: Thu, 26 Nov 2020, 11:02 UTC+01
+! Version: 2020.11.26.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 24 lis 2020, 19:00 UTC+01
+! Aktualizacja: czw, 26 lis 2020, 11:02 UTC+01
 !
 !
 !
@@ -441,6 +441,8 @@ pytamy.pl##.tabZB
 pzu.pl###baner-doradcy, #metka-przycisk
 racing-planet.pl###contactable_inner
 raczynski-kominki.pl###pozvonim-button
+radio17.pl##.chat
+radio17.pl#?#.sidebar-buttons li:-abp-has(.mdi-message)
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(n+3)
 rainbowzoom.pl###lz_overlay_chat
 reaktor.pwn.pl##.tab.mail, .tab.phone
