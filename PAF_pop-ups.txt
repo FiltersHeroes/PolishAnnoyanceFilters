@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: fQphl4/56BcDT+kZyeEOnw
+! Checksum: pSDf+EU9L6UG73B2HwoQhA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 26 Nov 2020, 11:02 UTC+01
-! Version: 2020.11.26.0
+! Last modified: Fri, 27 Nov 2020, 19:02 UTC+01
+! Version: 2020.11.27.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 26 lis 2020, 11:02 UTC+01
+! Aktualizacja: pią, 27 lis 2020, 19:02 UTC+01
 !
 !
 !
@@ -244,7 +244,6 @@ ebizpro.pl###itro_opaco, #itro_popup
 effective-english.pl###fm_popup_1
 eitalia.pl###facebox, #facebox_overlay
 ekodrogeria.pl##.fancybox-overlay, .fancybox-wrap
-ekodrogeria.pl,enaturalnie.pl,instalaton.pl,laroxy.com,majolinek.pl,meblezet.com,mmaniak.pl,motomat.eu,nowyelektronik.pl,patopak.com.pl,sklep-drakpoltools.pl,uczyibawi.pl,wasabi.com.pl###x13popup-container, #x13popup-cover
 ekologia.pl##.parent-nlr, .parent-promote
 ekopolka.pl###pop-up
 ekskluzywna.pl,tuszedodrukarki.pl,tv-zakupy.pl###pp1
@@ -426,6 +425,7 @@ kursphp.com##.all-page-modals
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
 label-magazine.com##.lightbox_overlay
 lagardere-tr.pl###banner-hds, #banner-hds-background
+laroxy.com,meblezet.com,motomat.eu###x13popup-container, #x13popup-cover
 lebork24.info###fanback
 ledco.pl,sklepdlalekarza.com,tendina.pl###iqitpopup, #iqitpopup-overlay
 legalnews24.pl###dialogNewsletter
@@ -987,6 +987,8 @@ zuch.media###spu-10366, #spu-bg-10366
 ! Ogólne reguły
 .facebooklikepopup.
 ~chcemybycrodzicami.pl,pl,~zblogowani.pl###ouibounce-modal
+pl##boy:not(.x13popup-open) #x13popup-container
+pl##boy:not(.x13popup-open) #x13popup-cover
 pl###esns_background_layer
 pl###facebook-popup
 pl###fb-fan-pop
