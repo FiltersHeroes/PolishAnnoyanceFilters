@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QqH1+bhv0gxOE8qxWz69zg
+! Checksum: EF3RSV63mDwyihGVHCzxiQ
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 29 Nov 2020, 11:02 UTC+01
-! Version: 2020.11.29.0
+! Last modified: Sat, 05 Dec 2020, 19:08 UTC+01
+! Version: 2020.12.5.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 29 lis 2020, 11:02 UTC+01
+! Aktualizacja: sob, 05 gru 2020, 19:08 UTC+01
 !
 !
 !
@@ -269,6 +269,7 @@ housemafia.pl###sbholder
 hpe.com###MoxieFlyoutHolder
 ideabank.pl##iframe[src^="https://videomill-bot.audiencevideo.com/"]
 ifon.pl##.content > a[href="/kontakt"], .phone
+ikea.com##chat-widget
 ilewazy.pl##.utriggerbtn
 impel.pl###multitab_right > .multitab_box:nth-of-type(2)
 impel.pl,impelfm.pl###multitab_right > .multitab_box:nth-of-type(1)
@@ -333,6 +334,7 @@ lokalnyrolnik.pl##.help-button
 lubimyczytac.pl##.report-a-bug-container
 lublin.eu##.report-tech-error
 lulek.tv###feedback-trigger
+lumex.pl,salve.pl##.call
 lvbet.pl##.sb-chat-icon
 lycamobile.pl###dragChat
 maczfit.pl###YLC
@@ -458,7 +460,6 @@ r.pl##.divCallback
 salesintelligence.pl##.popmake-overlay.pum-overlay.pum[data-popmake*="-zwiekszyc-"]
 salesmanago.pl###sm-bot
 salon2kolka.pl##.msl-envelope-o
-salve.pl##.call
 samochod.porowneo.pl##header ~ div[class*="sc-"] > button[class*="sc-"]
 sanbetdevelopment.pl###fastcontact
 sawataxi.pl###zamow
