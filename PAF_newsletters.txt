@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vftiOLFsTgiGpblNHWniCQ
+! Checksum: eG+lwsLHP7iYLve98TXJTg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 07 Dec 2020, 11:08 UTC+01
-! Version: 2020.12.7.0
+! Last modified: Mon, 07 Dec 2020, 19:08 UTC+01
+! Version: 2020.12.7.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: pon, 07 gru 2020, 11:08 UTC+01
+! Aktualizacja: pon, 07 gru 2020, 19:08 UTC+01
 !
 !
 !
@@ -304,12 +304,13 @@ confero.pl#?#.confero_social_icon:-abp-has(.icon-envelope)
 controlling.info.pl##.newletter
 corona-fishing.pl###glowna-newsletter
 cortland.pl##.letter
+costa.pl###wrapper-newsletter
 cottonina.pl##.in-viewport.t-alt.relative
 cozaile.pl##.c-guide-newsletter
 crocs.pl##.footer-email-signup
 crolove.pl###text-28
 cryptodemy.pl##.optin-monster-api.widget.td_block_template_1
-cryptoprofit.pl##.widget_mo_optin_widgets, [href="http://cryptoprofit.pl/newsletter/"]
+cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
 crystal-albums.pl,monikahonory.pl##.ml-subscribe-form.ml-form-embedContainer
 ctek-ladowarki.pl###bestnewsletterbg
 ctpartners.pl##.ftresc2
@@ -335,6 +336,7 @@ d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 dachyb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl,polokomputery.pl,przegrodyb2b.pl,wykanczanieb2b.pl###mailing
 dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
 daemon-tools.cc###send-mail
+dagmara.pl###links_footer_3
 danko.pl##.nl-holder
 dayupstore.pl,no10.pl,sklep.monster.pl##.fnls
 dealz.pl#?#.elementor-location-footer.elementor .elementor-top-section:-abp-has(div:-abp-contains(/^Zapisz się do newslettera$/))
@@ -525,6 +527,7 @@ finereader.pl##footer > .container-fluid > .container > .row > div:nth-of-type(1
 fintek.pl,plock.eu##.newsletter-component
 firsteleven.com,mirat.eu,ursus.com##.box-newsletter
 fish24.pl##.newsletter_foot
+fitkurier.pl##[id^="mc4wp-form"].mc4wp-form
 fitprofit.pl###newsletter_link
 fizjoplaner.pl##.ft_nl
 flies-stepbystep.com###widget-7
@@ -625,7 +628,7 @@ homebook.pl#?#div > div > div > div:-abp-contains(newsletter)
 homedesign.pl#?#.nm-page-full > div > .nm-row-full-nopad.nm-row:-abp-has(h2:-abp-contains(Newslettera))
 homeoffice360.pl###footerColumn2 > h3:nth-of-type(2), #newsletterForm
 home.pl###nlForm
-horecabc.pl##.et_pb_image > [href="https://www.horecabc.pl/newsletter/"]
+horecabc.pl##.et_pb_image > a[href="https://www.horecabc.pl/newsletter/"]
 horecatrends.pl##.dif-2.box-11
 horex.pl##.newsletter__input
 hoteladler.com##.span4.moduletable:nth-of-type(3)
@@ -642,6 +645,7 @@ hurtownia-format.pl##.footer.row > .col-md-4
 hurtownia-spozywcza.pl###accordion_footer > div.list-group.foot-group:nth-of-type(4)
 hygieia.pl##.footer-info div.grid_3:nth-of-type(3) > div.grid_3
 hykker.com##.widget_wysija
+hyperxgaming.com###email-signup-modal, .s-footer__email
 iautomatyka.pl##div.pfwidgetinner:nth-of-type(6), div.h2_belka:nth-of-type(5), #pf-footer-row > .pf-row > .mpc-column.col-md-3.col-lg-3.wpb_column:nth-of-type(2), .mailster-form
 iautomatyka.pl#?#.h2_belka:-abp-contains(Newsletter)
 ibrpolska.pl##.panel.widget-first.widget-1
@@ -691,7 +695,7 @@ jg.com.pl###footer > .container
 joannaceplin.pl##.nsl_glowna, .panel-row-style-for-6-3.panel-row-style.siteorigin-panels-stretch
 jobs.pl##.invitation, .notification-submit-box
 joga.org.pl###col2 > .module:nth-of-type(2)
-jsystems.pl###zapisz-sie-newsletter, [href="newsletter.do"]
+jsystems.pl###zapisz-sie-newsletter, a[href="newsletter.do"]
 jupi24.pl##.rc-box-newsletter
 kabexdocieplenia.eu##.footer-wrapper > .footer > div.f-box:nth-of-type(1) > *
 kalibaby.pl#?#.center-block-last:-abp-has(.f_newsletter)
@@ -886,6 +890,7 @@ mojagazetka.com##.social-media-card
 mojegotowanie.pl##.sidebar-box-newsletter
 mojewypiekiinietylko.com##.widget_simplesubscribe.widget
 mojmac.pl##.et_pb_code > .bloom-privacy
+mojpieknyogrod.pl##div.sidebar-box > a[href="/newsletter"] > img
 mokosh.pl##.rightSection.col-md-5.col-sm-12.col-xs-12
 molly.pl###bottom-boxes > .box-left
 monikahonory.pl#?#.vc_row-fluid.wpb_row.vc_row > .vc_col-sm-12.vc_column_container.wpb_column > .vc_column-inner:-abp-contains(Newsletter)
@@ -1145,7 +1150,7 @@ primavika.pl##.container-inner.bottom > .box3.box
 primocappuccino.pl##.sidebar-box > div.widget-box:nth-of-type(10)
 printexpress.pl##.widget_bloomwidget.et_pb_widget
 print-me.pl#?#section .elementor-top-column.elementor-column.elementor-element > .elementor-column-wrap > .elementor-widget-wrap:-abp-has( > div > div > form)
-prnews.pl##.newsletter-header, [href*="/newsletter"]
+prnews.pl##.newsletter-header, a[href*="/newsletter"]
 proclasse.pl##.newsletterForDesktop.newsletterColumn
 profeto.pl###part-newsletter > h2, #part-newsletter > form
 projektowanie-wnetrz-online.pl##.elementor-widget-heading.elementor-element-26db4425, .elementor-column.elementor-element-1c1d6194, .elementor-column.elementor-element-68d87f5e
@@ -1268,6 +1273,7 @@ sklep.chomik.pl#?##section_custom > .rounded.container:-abp-has(#subReqForm)
 sklep.grupamagnum.eu##.leftcol > #box_custom81 > center > iframe[src^="https://media-grupamagnum.ipresso.pl"]
 sklep.gry-online.pl##.mt, #add-newsletter-email, #add-newsletter
 sklep.jelp.pl###freshmail > .pull-left
+sklep.kawa.pl##.NewsletterPopup
 sklep.legia.com##.ty-footer-menu > .row-fluid > .span8
 sklep.lemoniade.pl##.container > .row > div.col-md-6.col-sm-6.col-xs-12:nth-of-type(2) > .row
 sklep.milicon.eu##.box.newsletter, .menuBox_Newsletter
@@ -1506,6 +1512,7 @@ wei.org.pl#?#.et_pb_section:-abp-has(div > iframe[src*="//forms.freshmail.io/"])
 werandacountry.pl##div.gkmod-3.box:nth-of-type(1) > .header
 werandafamily.com##.home-nesletter
 werandaweekend.pl##.right > div.title:nth-of-type(1)
+weranda.pl##.newsletter-sign-block
 westwingnow.pl##[class^="ClubBarBanner__StyledWrapper"]
 wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
 wiadomoscihandlowe.pl##.footer__top > .row > div[class]:nth-of-type(1)
