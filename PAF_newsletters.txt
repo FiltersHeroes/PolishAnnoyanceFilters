@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: GDTX2H0JnvNz+yV2ha4D8g
+! Checksum: VdJI0WZ3PAxXA7UEfflf1w
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 09 Dec 2020, 19:08 UTC+01
-! Version: 2020.12.9.0
+! Last modified: Thu, 10 Dec 2020, 19:08 UTC+01
+! Version: 2020.12.10.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 09 gru 2020, 19:08 UTC+01
+! Aktualizacja: czw, 10 gru 2020, 19:08 UTC+01
 !
 !
 !
@@ -220,6 +220,7 @@ bonprix.pl##.nl-benefits.row
 bonvoyage.pl##.box_newsletter
 booking.com##.emk_footer_update
 booking.com##.newsletter_subscribe
+borcas.eu#?#footer#footer.footer > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(5) > div > div > div:nth-of-type(2):-abp-has(label:-abp-contains(e-mail))
 born2be.pl##[href="/newsletter/sign-in"]
 born86.pl##.nadstopa2
 bosch-professional.com##.m-newsletter_signup-a
@@ -278,6 +279,7 @@ chlodnictwoiklimatyzacja.pl,swiat-szkla.pl###left-in > .moduletable:nth-of-type(
 chocholowskietermy.pl##.wdform_section
 chocolissimo.pl##a[href="javascript:showNewsletterLayer();"]
 chodnikliteracki.pl##a[href*="/newsletter/"] > img[src$="/newsletter.png"]
+choinkowo.pl##.shb-newsletter-widget-5
 cholewinski.com##.cho-subscribe
 ciekawostkihistoryczne.pl##.footer-fixed
 ciekawostkihistoryczne.pl##.footer__fixed
@@ -359,6 +361,7 @@ devstyle.pl##li.widget_text.col-4.widget:nth-of-type(3)
 devstyle.pl###post-2135 > .ck_inline.ck_form_container
 deweloper-interes.pl,niebieskimigdal.pl,paweltkaczyk.com,selectivv.com###text-2
 dewocjonalia-niedziela.pl###footer_boxs > li:nth-of-type(4)
+dexpol.com##.stopka2_center > div.box_info:nth-of-type(1)
 diag.pl##.last > form, .last.col-md-3 > h3
 diamante-wear.com##.footer__blocks__item--newsletter
 dietetyk-proporcja.pl#?#[id^="cmsmasters_row_"]:-abp-contains(Newsletter)
@@ -1101,6 +1104,7 @@ pokoleniesmart.pl##.passionblogger-subscribe, .essb-subscribe-form
 polakpotrafi.pl##.w3.block:nth-of-type(3)
 polanglo.pl##.f_newsletter
 polemi.co.uk###dropin
+polimex.net##app-footer-top > footer > div > .row > div:nth-of-type(3) > *:nth-child(-n+2)
 polishclub.org##.small.row > .col-md-4
 polishexpress.co.uk##.ng-scope.peSection--news
 polish-airports.com###cookies_message_container
@@ -1602,6 +1606,7 @@ zapachyswiata.eu###tws_a_0
 zapiskizeswiata.pl###mc_embed_signup > #mc-embedded-subscribe-form
 zaradnyfinansowo.pl##.widget_subscribe_sidebar_czyt.widget, .widget_subscribe.widget
 zara.com###newsletter-subscribe-widget
+zara.com##.layout-footer-marketing__newsletter.layout-footer-newsletter
 zarzadcy.com.pl##.menu_right > div:nth-of-type(1)
 zdobadzkobiete.pl###access
 zdrowie.pap.pl##section ~ a[href="/newsletter/form"]
