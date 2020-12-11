@@ -343,7 +343,6 @@ unityline.pl###newsletter-out-of-body
 upolujebooka.pl###myModalExit, .modal-backdrop
 ursus.com.pl##html:style(overflow: visible !important;)
 ursus.com.pl##.opacity1.flexslider-container
-!vivrehome.pl##+js(set, appShell.guest, false)
 wakacje.pl##body > div[class*=" "]:has( > div[class*=" "] > div[height="auto"] > header > h3[class]:has-text(/^Pomóż nam usprawnić stronę$/))
 wakacje.pl##html.modal-active > body:style(overflow: visible !important; padding-right: 0 !important;)
 wakacje.pl##html.modal-active:style(overflow: visible !important;)
@@ -384,6 +383,7 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !pl.dreamstime.com##+js(set, openfreetrial, 1)
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
+!vivrehome.pl##+js(set, appShell.guest, false)
 !www2.hm.com##.takeover-wrapper.responsive.modaloverlay
 !youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
 !youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
