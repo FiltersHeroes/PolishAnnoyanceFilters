@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: dGQqyTUL56c6Z+yvh3P5cQ
+! Checksum: oULbUoflP1GcZjMtYJDkFw
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Wed, 09 Dec 2020, 19:08 UTC+01
-! Version: 2020.12.9.0
+! Last modified: Fri, 11 Dec 2020, 11:08 UTC+01
+! Version: 2020.12.11.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 09 gru 2020, 19:08 UTC+01
+! Aktualizacja: pią, 11 gru 2020, 11:08 UTC+01
 !
 !
 !
@@ -43,7 +43,7 @@ aktualnyodpis.pl###carq-iframe
 alablaboratoria.pl###small-pop-up
 aldi.pl##.mod-cart__btn
 alkoholeswiata.com###right_toolbar
-allecco.pl,apteka-melissa.pl,nowafarmacja.pl##ins > div[id*="ulixes"], div#ulixes-paralaxa
+allecco.pl,apteka-melissa.pl,nowafarmacja.pl,wapteka.pl##ins > div[id*="ulixes"], div#ulixes-paralaxa
 allegro.pl##[data-box-name="Recommended Articles Container"]
 allegro.pl#?#.grid:-abp-has([data-box-name="Recommended Articles Container"])
 al.to,x-kom.pl#?#.mobile-app-alert:-abp-has(.app-details)
@@ -600,7 +600,6 @@ plejada.pl#?#.logolink:-abp-has( > .arrow)
 pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #patron-popup-image
 pl.gearbest.com##.siteBanner
 pl.hotels.com##.signin-signup-notification-container
-pl.vivre.eu##.app-banner
 pmi24.info###newsDiv
 pneumat.com.pl###wrapper > .sideButtons-tagCont > .sideButtons-tagWhite
 pocztazdrowia.pl###baner2
@@ -624,6 +623,7 @@ portalstatystyczny.pl##.jscroll-to-top
 portalstatystyczny.pl,radio.lublin.pl##.jnews_popup_post_container
 portalzp.pl###start-tour
 porta.com.pl###popup-questionnaire
+posilkiwchorobie.pl##.fixed-ad
 poszukiwania.pl##.image_forum
 prawokonsumenckie.pl##.nawigacja, .read-more
 profitroom.pl##.show.js-info-box.info-box-hld
@@ -787,6 +787,7 @@ vwpoznan.pl,vwuzytkowepoznan.pl##.popup_widget, .widget_right
 wakacje.pl###rightTabs > .rightClipboard
 wakai.pl###sod-drawer-handle
 wanika.pl###cloudBox
+wapteka.pl,www.e-medest.pl###baner_footer
 wasserman.eu##.jss372
 waze.com##.wz-downloadbar
 weathermap.netatmo.com###abtasty-banner
@@ -807,7 +808,6 @@ www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-
 www.dobreprogramy.pl##.backToWp
 www.dobreprogramy.pl###sgwp, .flex-wrap.full-width.desktop-flex > .grid-margin-px30-top.span-12, #phContent_SocialControlTop_btnBookmark
 www.dobreprogramy.pl#?##phContent_divArticle > .desktop-flex > #sidebar > .block:-abp-contains(Nasze najnowsze wideo)
-www.e-medest.pl###baner_footer
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
@@ -845,6 +845,8 @@ zyciepabianic.pl##.paper
 z-hotel.com###repuso_floating
 !abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##a[data-st-area="back-WP"], div[class]:not([id]) > a[data-st-area][style^="background:"][href="https://www.wp.pl"]
 !aptekagemini.pl##.vue_bannery_25
+!pl.vivre.eu##.app-banner
+!vivrehome.pl##.vv_loader-wrapper.js-loader
 !www.google.com,www.google.pl##div[style*="z-index: "][style*="overflow: hidden;"][style*="margin-right: 25px;"]
 !||ppstatic.pl/assets/gratka/*/images/logoPromo.svg$image
 !||ppstatic.pl/assets/gratka/*/promoButton.css$stylesheet
