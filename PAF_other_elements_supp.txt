@@ -91,6 +91,7 @@ wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
 wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
+www.dobreprogramy.pl##.ignored:not(:hover):not(:active):not(:focus):style(opacity: 0.1 !important;)
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
 !pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
 !pomponik.pl##^div[class="topbar-container"], a[class="common-header__interia-back-button"]
