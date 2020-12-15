@@ -1,8 +1,5 @@
-greckikiosk.pl##.mask + .modal
-greckikiosk.pl##.mask:has(~ .modal)
-
+abcsurf.pl,akcesoriabaristy.pl,allepaznokcie.pl,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,greckikiosk.pl,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,ledfarmer.pl,makarfish.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sport2002.pl,sushi-sklep.pl##.mask + .modal
 abcsurf.pl,akcesoriabaristy.pl,allepaznokcie.pl,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,ledfarmer.pl,makarfish.pl,mencare.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sport2002.pl,sushi-sklep.pl##.mask:has( + .modal)
-abcsurf.pl,akcesoriabaristy.pl,allepaznokcie.pl,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,ledfarmer.pl,makarfish.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sport2002.pl,sushi-sklep.pl##.mask + .modal
 abrakadabra.sklep.pl,alesoczewki.com,aluna.eu,aptekakamagra.pl,bezokularow.pl,bilkom.pl,biofemina.pl,bitner.com.pl,bonprix.pl,braciaprzykawie.pl,campingshop.pl,dieta.hpba.pl,dobresofty.pl,drogerienatura.pl,ecoxpress.pl,edulider.pl,ekoteka.pl,eurobuty.com.pl,extradom.pl,fmmobile.pl,galeriapolnocna.pl,gazetkonosz.pl,giftshop24.pl,grantthornton.pl,ibuk.pl,idream.pl,ilily.pl,jezykiobce.pl,jordanki.torun.pl,kidsworld.pl,konin.pl,lomilowka.pl,lubimyczytac.pl,medme.pl,mensahome.eu,merkandi.pl,miastodzieci.pl,miekkie.com,moliera2.com,ncez.pl,niedziela.pl,nife.pl,online.citibank.pl,panel.kei.pl,pinsola.pl,polskieszlaki.pl,ppr.pl,prnews.pl,przemysl.pl,s-pl.pl,sekrecik.pl,sklep.nextmobile.pl,solven.pl,super-polska.pl,teatr-sabat.pl,toysrus.pl,twojekwiaty.pl,ubraniadooddania.pl,vebo.pl,wpolu.pl,www.e-biurowce.pl,wynagrodzenia.pl,zeskory.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 abrakadabra.sklep.pl,ilily.pl,sekrecik.pl###myWorning, .modal-backdrop
 action.com##+js(rc, is-locked, html)
@@ -96,8 +93,6 @@ dobresofty.pl,galeriapolnocna.pl,grantthornton.pl###newsletterModal, .modal-back
 domodi.pl##+js(set, PWA_adbd, 2)
 drogeria-ekologiczna.pl,fifishop.pl,happy-surfer.com,pch24.pl,sklepzrowerami.pl,swiece-zaplonowe.pl,www.epione.pl##.fancybox-lock:style(overflow: auto !important; margin-right: 0 !important;)
 drogerienatura.pl###newsletter-popup-dn, .modal-backdrop
-
-
 dziennikprawny.pl##body[style]:style(overflow: auto !important; height: unset !important;)
 ebroker.pl##.ngdialog-open:style(overflow: auto !important;)
 ebroker.pl##.ngdialog-theme-popup-ebroker
@@ -110,7 +105,7 @@ eksperymentalnie.com##+js(nostif, CodeKingdomBox)
 elearning-fusion.pl##.hustle-no-scroll:style(overflow: auto !important;)
 elearning-fusion.pl##.hustle-popup:has(h2:has-text(/^Bądź na bieżąco!$/))
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
-ergokantor.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
+ergokantor.pl,medycznamarihuana.com,spidersweb.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
 euro.com.pl,oleole.pl##.remodal-overlay:has( ~ .remodal-wrapper[class*="open"]:has( > .remodal span[class*="heading"]:has-text(NEWSLETTER)))
 euro.com.pl,oleole.pl##.remodal-wrapper[class*="open"]:has( > .remodal span[class*="heading"]:has-text(NEWSLETTER))
 euro.com.pl,stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important;)
@@ -129,6 +124,7 @@ fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
 gazetkonosz.pl###subscribeModal, .modal-backdrop
 giftshop24.pl###moda_popupnewsletter, .modal-backdrop
+greckikiosk.pl##.mask:has( ~ .modal)
 gromada.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 gromada.pl##.fancybox-overlay-fixed
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
@@ -191,7 +187,6 @@ meb.com.pl,pureveg.pl##+js(nostif, #myWorning)
 mediaexpert.pl###newsletterModal1, #newsletterModal1 ~ .modal-backdrop
 medme.pl###do-not-leave, .modal-backdrop
 medme.pl###do-not-leave-product
-medycznamarihuana.com,spidersweb.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
 mencare.pl##.modal
 mensahome.eu###news_popup, .oh ~ .modal-backdrop
 merkandi.pl###subscribe-modal, .modal-backdrop
