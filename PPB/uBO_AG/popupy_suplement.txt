@@ -124,7 +124,7 @@ fpiec.pl##body.no-scroll:style(overflow: visible !important;)
 fpiec.pl##.full-screen-overlay
 gazetkonosz.pl###subscribeModal, .modal-backdrop
 giftshop24.pl###moda_popupnewsletter, .modal-backdrop
-greckikiosk.pl##.mask:has( ~ .modal)
+greckikiosk.pl##.mask:has( + .modal)
 gromada.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 gromada.pl##.fancybox-overlay-fixed
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
