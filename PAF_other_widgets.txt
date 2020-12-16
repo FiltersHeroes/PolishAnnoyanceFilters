@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: LJpx+MebrsV8AGbmrv/4ZQ
+! Checksum: qw1OYnL5S5NuSXLoBWNO/w
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 15 Dec 2020, 11:08 UTC+01
-! Version: 2020.12.15.0
+! Last modified: Wed, 16 Dec 2020, 11:08 UTC+01
+! Version: 2020.12.16.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: wto, 15 gru 2020, 11:08 UTC+01
+! Aktualizacja: śro, 16 gru 2020, 11:08 UTC+01
 !
 !
 !
@@ -824,11 +824,11 @@ wyborcza.biz##.mod_swimmer
 wykop.pl##.text > p > cite:empty
 wylecz.to##.recommendedSideBox
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
+youtube-nocookie.com,youtube.com##.ytp-ce-element
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
 youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[style_*="BUBBLE_HINT"][style_*="BLUE_TOOLTIP"]
 youtube.com###alert-banner.ytd-browse, #watch-header > .mealbar-promo-renderer.yt-dialog, .yt-alert-info.yt-alert-actionable.yt-alert
-youtube.com##.ytp-ce-element
 youtube.com#?#paper-dialog:-abp-has(ytd-mealbar-promo-renderer)
 youtube.com#?##contentWrapper > .ytd-popup-container:-abp-has( > .yt-tooltip-renderer)
 zadowolenie.pl##.b-bragLabel
@@ -839,6 +839,7 @@ zeberka.pl###gallery-widget
 zimowynarodowy.pl##.ticket
 zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 zoo.torun.pl##div.torun-rp, .bip-rp
+zoo.wroclaw.pl##.sticky > li:nth-of-type(4)
 zrzutka.pl##.floating-apps
 ztm.gda.pl###mobile
 zyciepabianic.pl##.paper
