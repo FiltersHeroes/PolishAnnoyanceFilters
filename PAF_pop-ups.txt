@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XgSzBp+mGkKS3IHFW+ExdQ
+! Checksum: Qd9zyY3sRoiJlJksht+Cmg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 16 Dec 2020, 15:08 UTC+01
-! Version: 2020.12.16.1
+! Last modified: Wed, 23 Dec 2020, 15:08 UTC+01
+! Version: 2020.12.23.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: śro, 16 gru 2020, 15:08 UTC+01
+! Aktualizacja: śro, 23 gru 2020, 15:08 UTC+01
 !
 !
 !
@@ -356,6 +356,7 @@ hostinger.pl##.offer-popup-block
 hotel-tulipan.pl###popUp
 hotel.bialowieza.pl,malinowydwor.pl###backgroundPopup, #popupContact
 house.pl###free_shipping
+iglaco.com##.fx-block.position-form-center.form-layout-inline.fx-wrapper-modal
 ine.com.pl###sgcolorbox, #sgcboxOverlay
 infinityfitnesskrakow.pl##.closed
 infopraca.pl###alert-creation, .modal-backdrop
@@ -432,6 +433,7 @@ kursphp.com##.all-page-modals
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
 label-magazine.com##.lightbox_overlay
 lagardere-tr.pl###banner-hds, #banner-hds-background
+lamaglama.pl,zina.pl##.wce_popup-consolidator
 laroxy.com,meblezet.com,motomat.eu###x13popup-container, #x13popup-cover
 lebork24.info###fanback
 ledco.pl,sklepdlalekarza.com,tendina.pl###iqitpopup, #iqitpopup-overlay
@@ -525,6 +527,8 @@ naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
 naszamlawa.pl###spu-bg-75900, #spu-75900
 naszawyspa.com#?#.wpb_content_element.wpb_widgetised_column:-abp-has(#wpsb_email)
+naszeledy.pl##.mask
+naszeledy.pl##.modal-visible.modal
 nasze-gazetki.pl###subscribeModal, .modal-backdrop
 naturbio.pl###rm_pop_up_entry
 nawado.pl##.fadein.wpoi-show.inc_optin_1.inc_optin.wpoi-animate.inc_opt_popup
@@ -683,6 +687,8 @@ robojet.pl###modal_home_page, .modal-backdrop
 rosenthal.pl###cac_popup_tlo, #cac_popup_obr
 royalcanin.pl###popOverlay
 rozwod-z-klasa.pl###itro_opaco, #itro_popup
+rum-lux.pl###InfoNewsletter
+rum-lux.pl###InfoNewsletterOkno
 rynek-kolejowy.pl,rynekinfrastruktury.pl##.popupElement, #popupMain
 rynek-lotniczy.pl,transport-publiczny.pl##.popupElement, .popupModal
 rzeszow4u.pl###myModal
@@ -705,6 +711,8 @@ sklepbaterie.pl##.wyskakujacypopup
 sklepdrapieznik.pl###backgroundPopup, #toPopup
 sklepikdzieciecy.pl###oknoPopUp, #tloPopUp
 sklepkokosowy.pl###js-popup
+sklep.chomik.pl##.simplemodal-container
+sklep.chomik.pl##.simplemodal-overlay
 sklep.mixmatch.pl,towarnafestyny.pl###popup-main
 sklep.phu-szczepan.pl###scLeaveAlert
 sklep.precio.pl,sklep5438865.homesklep.pl###onisoft-spu.modal, .mask
@@ -855,7 +863,6 @@ zielonagrupa.pl##.et_bloom_auto_popup.et_bloom_popup
 zielonyogrodek.pl###newsletter-pp
 zielonyogrodek.pl##.popup-welcome
 zimorodek.pl##.body-layer
-zina.pl##.wce_popup-consolidator
 zlota7.pl##.moModal
 zlotemysli.pl##._form_show._form-wrapper
 zmianywzyciu.pl###popup_facebook
