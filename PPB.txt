@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 0eRnRHMoEKzhx9a81oyipA
+! Checksum: HZZOQ9lH6k4SGBG/ncNEaA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 27 Dec 2020, 21:04 UTC+01
-! Version: 2020.12.27.0
+! Last modified: Sun, 27 Dec 2020, 21:08 UTC+01
+! Version: 2020.12.27.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2020 Polish Filters Team
-! Aktualizacja: nie, 27 gru 2020, 21:04 UTC+01
+! Aktualizacja: nie, 27 gru 2020, 21:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -5810,8 +5810,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2020.12.27.0
-!@ Last modified: Sun, 27 Dec 2020, 21:04 UTC+01
+!@ Version: 2020.12.27.1
+!@ Last modified: Sun, 27 Dec 2020, 21:08 UTC+01
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -5822,7 +5822,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2020 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2020.12.27.0 aktualizacja: nie, 27 gru 2020, 21:04 UTC+01
+!@ v.2020.12.27.1 aktualizacja: nie, 27 gru 2020, 21:08 UTC+01
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -8352,7 +8352,6 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 /wp-content/plugins/wp-modal-popup-with-cookie-integration/*$script,stylesheet,domain=edutorial.pl
 /zgody/*/rodo$stylesheet,domain=gruparmf.pl|rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
 /zgody/*/rodo_rmf$script
-_foobar.$domain= ~ example.com| ~ example.org
 ||ad.ipolska.pl/cookies/cookiecheck.js$script,domain=wielodzietni.org
 ||akademiareissa.pl/jquery.cg.rodo.modal.js
 ||allegrolokalnie.pl/assets/cookies-info.js$script,domain=allegrolokalnie.pl
