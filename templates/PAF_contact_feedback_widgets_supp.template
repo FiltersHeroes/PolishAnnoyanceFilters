@@ -1,0 +1,11 @@
+! Codename: Contact Widgets - Supplement
+@path PPB/uBO_AG
+@include PAF_contact_feedback_widgets_supp
+!
+! Reguły specjalne
+!#if !ext_ublock
+@include specjalne_AG
+!#endif
+!#if ext_ublock
+@include specjalne_uBO
+!#endif
