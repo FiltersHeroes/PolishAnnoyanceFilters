@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: bqDf13vX0v3cDSuFacrYeA
+! Checksum: tAd5Pu4pqQedFb/bZUPcMA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 03 Jan 2021, 11:09 UTC+01
-! Version: 2021.1.3.0
+! Last modified: Sun, 10 Jan 2021, 11:08 UTC+01
+! Version: 2021.1.10.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 03 sty 2021, 11:09 UTC+01
+! Aktualizacja: nie, 10 sty 2021, 11:08 UTC+01
 !
 !
 !
@@ -26,7 +26,7 @@
 4lifedirect.pl##.leadinModal
 24hurt.pl##.wt-popup, #overlay
 29aleja.pl##.popupWrap
-80dni.pl,aliholik.pl,ap-goal.pl,atutszkola.pl,badaniaprenatalne.pl,bellpolska.com.pl,bialekolnierzyki.com.pl,centrum-terapii.pl,codzienniefit.pl,computer-alliance.pl,ecochemia.pl,edbak.com,erif.pl,esportnow.pl,faktykonopne.pl,gameinn.pl,infokonin.pl,infokonsument.pl,intercyza-blog.pl,inwestycjebudowlane.biz,ironsky.pl,jakzalozycfirmenaukrainie.com,kartanauczycielablog.pl,katechezanatana.pl,kukini.pl,lajtmobile.pl,leclerc.pl,leszekbloch.pl,mhtm.pl,monikahonory.pl,odroczenie-kary.pl,pandrwal.pl,poloniawroclaw.pl,prawonaplacubudowy.pl,przedawnione.pl,przedszkolankowo.pl,psychologiazycia.com,radiowarszawa.com.pl,remekdabrowski.pl,sds-automatyka.pl,sherlocktrafika.pl,spjawna.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,studiosante.pl,towsrodku.pl,villacarpatia.com,wspa.pl,wspolnotakrzyzasmolec.pl,zabieganamama.com,zadowolonypacjent.pl,zarzadwspolcezoo.pl,zatorland.pl,zobraczkaczybez.pl##.spu-box, .spu-bg
+80dni.pl,aliholik.pl,ap-goal.pl,atutszkola.pl,badaniaprenatalne.pl,bellpolska.com.pl,bialekolnierzyki.com.pl,businesstraveller.pl,centrum-terapii.pl,codzienniefit.pl,computer-alliance.pl,dochodzeniewierzytelnosci.pl,ecochemia.pl,edbak.com,erif.pl,esportnow.pl,faktykonopne.pl,gameinn.pl,infokonin.pl,infokonsument.pl,intercyza-blog.pl,inwestycjebudowlane.biz,ironsky.pl,jakzalozycfirmenaukrainie.com,kartanauczycielablog.pl,katechezanatana.pl,kukini.pl,lajtmobile.pl,leclerc.pl,leszekbloch.pl,maxbus.com.pl,mhtm.pl,monikahonory.pl,odroczenie-kary.pl,pandrwal.pl,pierwsze-kroki.com,poloniawroclaw.pl,prawonaplacubudowy.pl,przedawnione.pl,przedszkolankowo.pl,psychologiazycia.com,radiowarszawa.com.pl,remekdabrowski.pl,sds-automatyka.pl,sherlocktrafika.pl,spjawna.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,studiosante.pl,towsrodku.pl,villacarpatia.com,wspa.pl,wspolnotakrzyzasmolec.pl,zabieganamama.com,zadowolonypacjent.pl,zarzadwspolcezoo.pl,zatorland.pl,zobraczkaczybez.pl##.spu-box, .spu-bg
 1000dni.pl###news-popup
 51015kids.eu,lee.pl,willsoor.pl###newsletter_popup
 aasapolska.pl###leave-page-modal
@@ -104,7 +104,8 @@ axa.pl##.welcome-popup
 azzun.pl##.js-popup.popup
 b2b.metal-bud.eu##.go-to-top-ui
 b4internet.pl###newsletter_container
-babymanager.pl###spu-2707, #spu-bg-2707
+babymanager.pl#?#.spu-bg:-abp-has( ~ .spu-box .fb-like-box)
+babymanager.pl#?#.spu-box:-abp-has(.fb-like-box)
 babyvip.pl###fx-modal-1
 badzjeszczelepszy.pl#?#.ga-popup:-abp-has(h1:-abp-contains(/Bezpłatny|prezent/))
 baldowski.pl##.lightbox_overlay, #modNewsletterMain
@@ -155,7 +156,6 @@ bssztum.pl###fireworks
 bs.skoczow.pl###window[ng-controller="myInfo"]
 budujemydom.pl###byebye
 budujemydom.pl##.modal-wrapper
-businesstraveller.pl###spu-26008, #spu-bg-26008
 butymarkowe.pl###pop_up_module
 byann.pl,feriogaj.com,tpi.com.pl##.popup-overlay
 byinsomnia.com,goshico.com,miyomakeup.com###esns_background_layer
@@ -174,7 +174,6 @@ chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
 chocholowskietermy.pl,grailpoint.com,instalacjebudowlane.pl,outhorn.com,salonyhoff.pl,zapachdomu.pl###simplemodal-container, #simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chronpesel.pl##.wh-popUp-overlay
-chrzescijanin.pl###spu-6691, #spu-bg-6691
 chrzypsko.pl,metaltech.com.pl,vas.com.pl###dhtml_popup
 ciechocinek.biz,gniewkowo.eu,ki24.info,kolniak24.eu,nizanskie.info,roztocze.net##.hejhej.hey-outer
 cieszanowrockfestiwal.pl,wantmore.pl##.et_bloom_trigger_bottom.et_bloom_popup
@@ -226,7 +225,6 @@ dluta.pl###fx-modal-3
 dobiegania.pl,kisiel24.pl,netlandcomputers.pl,opteam.pl,pl.globalvoices.org,resulto.pl,tabal.pl,twojapogoda.pl###colorbox, #cboxOverlay
 dobredomy.pl###pop_promocja
 dobremiejsce.org##.wph-modal
-dochodzeniewierzytelnosci.pl###spu-4304, #spu-bg-4304
 dodaj-strone.com.pl###popupframe, #popupframe_bg
 dodrukarki.pl##header > .mp_container
 dogry.pl##.register-overlayer--game, .register-modal
@@ -255,7 +253,8 @@ ekologia.pl##.parent-nlr, .parent-promote
 ekopolka.pl###pop-up
 ekskluzywna.pl,tuszedodrukarki.pl,tv-zakupy.pl###pp1
 ekskluzywnymenel.com###granice-popup
-ekstrastats.pl,obcasy.pl,programistanaswoim.pl##.spu-box, .spu-bg
+ekstrastats.pl#?#.spu-bg:-abp-has( ~ .spu-box .twitter-follow-button)
+ekstrastats.pl#?#.spu-box:-abp-has(.twitter-follow-button)
 elektroniksc.com.pl##.tpl-window-instance, #ModalOverlay
 eluban.pl,jaslo4u.pl,krasnik.eu,kukulahealthyfood.pl,motherhood.pl,muzeumwp.pl,planujemyogrod.pl,przepisychinskie.pl,rankomat.pl,sagana.pl,sklepdekarza.pl,spodiglyinitki.pl,sushi-sklep.pl###popup
 emaga.eu##.livecall-callback-v1-popup-scroll-container
@@ -371,7 +370,8 @@ interia.pl##.error-page-layer
 interiore.pl###popup-content, #popup-overlay
 intermarche.pl###html5box-html5-lightbox
 investing.com###PromoteSignUpPopUp
-investjourney.pl###spu-4030, #spu-bg-4030
+investjourney.pl,radio7.pl#?#.spu-bg:-abp-has( ~ .spu-box .spu-facebook)
+investjourney.pl,radio7.pl#?#.spu-box:-abp-has(.spu-facebook)
 investors.pl###popup, #myModal.modal-info
 ipbilawa.com.pl###active-popup
 ipbilawa.com.pl#?##popup-container:-abp-has(img[src*="popup_2020_v"])
@@ -391,6 +391,8 @@ kameshop.pl##.background, #tws_s_100001, #tws_i_100001
 kamira90.blogspot.com###fbox-background, #fbox-close
 karmiepsiaki.pl###fb-back
 karmiepsiaki.pl###fb-exit
+karmopedia.pl,przedsiebiorcza.com#?#.spu-bg:-abp-has( ~ .spu-box .spu-facebook-page)
+karmopedia.pl,przedsiebiorcza.com#?#.spu-box:-abp-has(.spu-facebook-page)
 karpiowy.pl##.newletter-popup, .b-modal
 kasotronik.pl,medpozyczka.pl,okmoneta.pl,pozyczymyci.pl###popupEmailPhone
 kataloog.info###mask, #lorem
@@ -459,7 +461,8 @@ lomilowka.pl###modalRazemRazniej
 lomilowka.pl##.in.fade.modal-backdrop
 lovesimple.pl,nasztalerz.pl##.elementor-popup-modal
 luba-group.com###popup800wrapper, #popup800container
-madameedith.com###spu-33734, #spu-bg-33734
+madameedith.com,programistanaswoim.pl#?#.spu-bg:-abp-has( ~ .spu-box .fb-page)
+madameedith.com,programistanaswoim.pl#?#.spu-box:-abp-has(.fb-page)
 magicznabielizna.pl###dog-bg
 malopolska.pl###newsletter-popover
 mamachemik.pl##.sfsi_outr_div
@@ -475,7 +478,6 @@ markoweobuwie.com.pl###my_popup_wrapper, #my_popup_background
 masterproject.pl##.hover_bkgr_fricc
 maszynadopisania.pl###itro_opaco
 mateuszrus.pl##.moModal.moOptinForm
-maxbus.com.pl###spu-885, #spu-bg-885
 mazovia.pl##.blok-DefaultSubskrypcja
 mebline.co.uk,mebline.nl###popup-message-container
 mecze24.pl##.ui-front
@@ -493,7 +495,6 @@ mencare.pl###fx-popup
 metal-bud.eu##.banner-b2b
 metin2list.pl###news_popup
 mgprojekt.com.pl##.orlando-whiteboard.orlando-background, .jupiter-entrance.jupiter-background.optin-monster-saas-overlay
-mhtm.pl###spu-1417, #spu-bg-1417
 mierzeja.com###banner-popup
 mieszkaniowi.pl##.event_info
 migrelo.de###modMnNewLayerA, .newLayerBack.a.modMnNewLayerBack
@@ -525,7 +526,6 @@ m.smaker.pl##.apkInfoPopup
 nabory.kprm.gov.pl##.active.popup-newsletter
 naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
-naszamlawa.pl###spu-bg-75900, #spu-75900
 naszawyspa.com#?#.wpb_content_element.wpb_widgetised_column:-abp-has(#wpsb_email)
 naszeledy.pl##.mask
 naszeledy.pl##.modal-visible.modal
@@ -602,7 +602,6 @@ pelnytalerz.com###fbox-background
 perfumeriatop10.pl###newsletter_block_home
 petronews.pl##.pps-full-screen.pps-popup, .b-modal
 picodi.com##.special-modal, .modal-backdrop
-pierwsze-kroki.com###spu-26, #spu-bg-26
 pirbinstytut.pl##.sj-popup-container, .sj_newletter_popup
 pitax.pl###popupZbieraj
 piterparts.pl##.banner-special-fixed
@@ -657,7 +656,6 @@ prostowsmak.com###ffbp
 protego.pl###newsletterInfo, body[data-news-modal="open"]:after
 pro-test.pl###abonament_top
 pruszynski.com.pl###p_layer
-przedsiebiorcza.com###spu-2217, #spu-bg-2217
 przegladbaltycki.pl###simplemodal-overlay, #simplemodal-container
 przegladpiaseczynski.pl##.tdc-footer-wrap
 przekroj.pl##.is-shown.js-modal.modal__content--offset.modal__content
@@ -671,7 +669,6 @@ purellafood.pl##.popup-bg
 quiosque.pl##.modals-wrapper
 raczynski-kominki.pl##.freecall_form
 raczynski-kominki.pl##.overlay_freecall
-radio7.pl###spu-9201, #spu-bg-9201
 radio111.pl##.modal[id], .modal-backdrop
 radioolsztyn.pl###zmiana
 randstad.pl##.pop-up-wrapper
@@ -868,16 +865,20 @@ zmianywzyciu.pl###popup_facebook
 znak.com.pl##.newsletter-popup.closeable
 zpierwszegotloczenia.pl###popup-ad, .modal-backdrop
 zszywka.pl###inv-request-popup
-zuch.media###spu-10366, #spu-bg-10366
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
 !annalotan.pl,e-forma.pl,homeoapteka.pl,oponyalbert.pl,meblezagrosze.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
+!chrzescijanin.pl###spu-6691, #spu-bg-6691
 !kulturaliberalna.pl##.kl-1procent-2020-banner, .kl-1procent-2020-bg
 !kulturaliberalna.pl##.newsletter-2019, .newsletter-2019-bg
 !mettosport.eu##.wf2-shake-box, .grwf2_backdrop
 !muratorplus.pl,se.pl#?#body > div[id][class]:-abp-has(iframe[src*="popup"])
 !m.youtube.com##.upsell-dialog-lightbox
+!naszamlawa.pl###spu-bg-75900, #spu-75900
+!obcasy.pl##.spu-box, .spu-bg
+!pierwsze-kroki.com###spu-26, #spu-bg-26
 !pl.vivre.eu##.js-modal-newsletter-1
 !youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href^="https://support.google.com/youtube/?p=sign_in"])
+!zuch.media###spu-10366, #spu-bg-10366
 !||youtube.com/get_video_info?*video_id=3mUaADvAK9E*eurl=*intermarche.pl*c=WEB_EMBEDDED_PLAYER$xmlhttprequest,domain=www.youtube.com
 !||zaradnyfinansowo.pl/*/wp-content/plugins/wp-subscribe-pro/assets/js/magnificpopup-*.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
@@ -886,10 +887,12 @@ zuch.media###spu-10366, #spu-bg-10366
 /js/popup.js$domain=grawitacyjny.pl|meblohaus.pl|mediaexpert.pl|multikurs.pl|slimebox.pl
 /media/system/js/modal.js$domain=gminamoszczenica.eu|nowawrzesnia.pl|perfectdating.pl
 /plugins/easy-facebook-likebox/*$domain=tvkrosno.pl
-/wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|thebodyshopclub.pl|webinsider.pl
+/wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
+/wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
 /wp-content/plugins/boxzilla/assets/js/script.min.js$domain=ciekawe.org|gdanskstrefa.com
 /wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js$domain=jednoslad.pl
-/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|kulturawplot.pl|magnapolonia.org|shareinfo.pl|zbudujsamdom.pl
+/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|kulturawplot.pl|magnapolonia.org|zbudujsamdom.pl
+/wp-content/plugins/exit-popup/js/exit-popup.js$domain=shareinfo.pl
 /wp-content/plugins/layered-popups/js/script.min.js$domain=akademia-internetu.pl|dih.pl|influentiq.pl
 /wp-content/plugins/popupally/resource/frontend/popup.min.js$domain=forum-oddluzanie.pl|gazetagazeta.com|naszekluski.pl
 /wp-content/plugins/popups/public/assets/js/min/public-min.js$domain=adrenalina-kielce.pl|businesstraveller.pl|hykker.com|instalnet.pl|portal.nysa.pl
