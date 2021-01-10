@@ -27,9 +27,7 @@
 !
 ! Reguły specjalne
 @include specjalne
-!#if !ext_ublock
-!#include PPB/uBO_AG/specjalne_AG.txt
-!#endif
-!#if ext_ublock
-!#include PPB/uBO_AG/specjalne_uBO.txt
-!#endif
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
+!#include PAF_contact_feedback_widgets_supp.txt
