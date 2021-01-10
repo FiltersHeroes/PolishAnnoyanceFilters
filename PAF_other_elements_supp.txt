@@ -62,6 +62,9 @@ narcyz.com.pl##div[style^="overflow: hidden;"]:style(overflow: auto !important;)
 newonce.radio##a.sidenav-social-link:nth-of-type(2):style(color: red !important;)
 onet.pl,~~www.onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important;)
 oohmagazine.pl##.cart-tab:has( > *:matches-css(display: none))
+open.fm,wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
+open.fm,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
+open.fm,wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
 pecetowicz.pl##body:has(#elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)) .ipsNotificationGuest:has-text(1)
 pecetowicz.pl###elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"] h1:style(margin-top: 45px !important;)
@@ -86,9 +89,6 @@ vod.tvp.pl###siteServiceDetal.playerOpened .playerContainer:style(margin-top: 30
 wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:style(filter: none !important;)
 wandermap.net###sidebar[style]:style(max-width: 390px)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
-wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
-wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
-wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 www.dobreprogramy.pl##.ignored:not(:hover):not(:active):not(:focus):style(opacity: 0.1 !important;)
@@ -125,8 +125,6 @@ semcamp.university##div > div > div.app::-webkit-scrollbar:style(all: initial !i
 download.net.pl#$?#.date:not(dt) { display: block !important; }
 komputerswiat.pl$$#ks_breaking_news
 newonce.radio$$link[rel="shortcut icon"][href^=".gif"]
-wp.pl#@#a[data-st-area="Header-back"]:before
-!www.google.com,www.google.pl$$div.irc-nic.irc-igr.rg_ic.rg_bx[tag-content="Podobne wyszukiwania"]
 !#endif
 !#if env_mobile
 medipartner.pl##.sidebar-kontakt2 .wpcf7-form p:style(display: block !important;)
