@@ -1,6 +1,9 @@
 pasieka24.pl#?#.wtnews.tab-content:-abp-has(h4 > a:-abp-contains(Prenumerata))
 pasieka24.pl#?#.wtnews.nav-tabs.nav > li > a[href]:-abp-contains(Prenumerata)
 
+farmer.pl#?#body > div[class*="box"] > div:-abp-has( > .left > div> div > h2 > a:-abp-contains(Miesięcznik Farmer))
+wnp.pl#?#.left > div[class*="box"]:-abp-has( > .img ~ .desc> small:-abp-contains(MAGAZYN GOSPODARCZY))
+
 7dni.com.pl##.right_side
 24kurier.pl##.tMarg20.tGradient.wKurierze
 24kurier.pl###header_cyfrowy
