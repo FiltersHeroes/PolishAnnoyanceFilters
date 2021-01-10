@@ -85,9 +85,9 @@ vod.tvp.pl###siteServiceDetal.playerOpened .playerContainer:style(margin-top: 30
 wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:style(filter: none !important;)
 wandermap.net###sidebar[style]:style(max-width: 390px)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
-wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
-wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
-wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
+wp.pl,~www.wp.pl,open.fm##a[data-st-area="Header-back"]:before
+wp.pl,~www.wp.pl,open.fm##+js(ra, href, a[data-st-area="Header-back"])
+wp.pl,~www.wp.pl,open.fm##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 www.dobreprogramy.pl##.ignored:not(:hover):not(:active):not(:focus):style(opacity: 0.1 !important;)
