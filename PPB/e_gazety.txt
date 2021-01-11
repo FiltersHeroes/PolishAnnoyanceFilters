@@ -1,9 +1,3 @@
-pasieka24.pl#?#.wtnews.tab-content:-abp-has(h4 > a:-abp-contains(Prenumerata))
-pasieka24.pl#?#.wtnews.nav-tabs.nav > li > a[href]:-abp-contains(Prenumerata)
-
-farmer.pl#?#body > div[class*="box"] > div:-abp-has( > .left > div> div > h2 > a:-abp-contains(Miesięcznik Farmer))
-wnp.pl#?#.left > div[class*="box"]:-abp-has( > .img ~ .desc> small:-abp-contains(MAGAZYN GOSPODARCZY))
-
 7dni.com.pl##.right_side
 24kurier.pl##.tMarg20.tGradient.wKurierze
 24kurier.pl###header_cyfrowy
@@ -99,6 +93,7 @@ fachowydekarz.pl##div.textWidget:nth-of-type(10)
 fachowyelektryk.pl##.moduletable_najnowszy_numer
 fachowyinstalator.pl#?#.td-pb-span4.vc_column_container.wpb_column.vc_column > .wpb_wrapper:-abp-has(h2:-abp-contains(/^Zamów Prenumeratę$/))
 farmacja.pl###home-module-sklep
+farmer.pl#?#body > div[class*="box"] > div:-abp-has( > .left > div > div > h2 > a:-abp-contains(Miesięcznik Farmer))
 focus.pl##.carousel-inner
 focus.pl##.content > div.row:nth-of-type(4)
 forumakademickie.pl###miesieczniki
@@ -240,6 +235,8 @@ panstwo.net###footer_wrapper
 panstwo.net##.btn-block.btn-lg.btn-primary.btn
 panstwo.net##.front-zaloguj
 parkiet.com##user-bar > .userbar--not-logged.userbar
+pasieka24.pl#?#.wtnews.nav-tabs.nav > li > a[href]:-abp-contains(Prenumerata)
+pasieka24.pl#?#.wtnews.tab-content:-abp-has(h4 > a:-abp-contains(Prenumerata))
 pcformat.pl##.current-paper
 pcformat.pl##.featured-4
 pcformat.pl##.paper-cont
@@ -351,6 +348,7 @@ wiesci.com.pl###text-13
 wio.waw.pl##div.l-box--25.l-box:nth-of-type(1)
 wm.pl###header > a[href*="kupgazete.pl"]
 wnp.pl##.box-8-wrap
+wnp.pl#?#.left > div[class*="box"]:-abp-has( > .img ~ .desc > small:-abp-contains(MAGAZYN GOSPODARCZY))
 wpolityce.pl##.nu-header-boost--sp.nu-header-boost
 wpolsce.pl##.live__img-container--wide.live__img-container
 wpr24.pl##section.mb50.section:nth-of-type(7)
