@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JMo0XjAFaQoia4gjKcVpsA
+! Checksum: xCyCNKA1crA/Rsh9PowRrA
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 04 Jan 2021, 11:08 UTC+01
-! Version: 2021.1.4.0
+! Last modified: Mon, 11 Jan 2021, 11:08 UTC+01
+! Version: 2021.1.11.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 04 sty 2021, 11:08 UTC+01
+! Aktualizacja: pon, 11 sty 2021, 11:08 UTC+01
 !
 !
 !
@@ -543,6 +543,7 @@ totalcasino.pl###chatContainer
 tourist.pl###sc2_all_container
 trans.info##.wall-add-news
 travelplanet.pl##.open--feedback--popup
+trena.pl##.lc_chatbox
 trofeasportowe.com##.widget-allegro
 turio.com.pl##.call-now-button
 tusponsor.pl###formWrapper
@@ -574,6 +575,7 @@ wienerberger.pl##.social-sharing-overlay > .list-unstyled
 wiked.pl##div[id^="menuboczne"]:nth-of-type(8)
 wnt.com##.sticky-contact
 wolnekonopie.org##.kleo-quick-contact-link
+wroclaw.pl##body > div[class^="kodabots-widget-"], body > div[class^="kodabots-promo-"]
 wseit.edu.pl###btn-tel
 wspieram.to###staff-chat-button
 www.ibm.com###contact-module
@@ -708,9 +710,7 @@ pl##.quickcontact-box
 !
 ! Reguły specjalne
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
-!#if !ext_ublock
-!#include PPB/uBO_AG/specjalne_AG.txt
-!#endif
-!#if ext_ublock
-!#include PPB/uBO_AG/specjalne_uBO.txt
-!#endif
+!
+!
+! Dołączenie listy uzupełniającej do uBlocka i AdGuarda, by użytkownicy nie musieli jej subskrybować
+!#include PAF_contact_feedback_widgets_supp.txt
