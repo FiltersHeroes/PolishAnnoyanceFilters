@@ -4,3 +4,12 @@ grawerowanie.org.pl##body:style(background: none !important;)
 mediamarkt.pl##body[style^="background:"]:style(background-image: none !important;)
 reklamy-arek.blogspot.com,znak.com.pl##body:style(background-image: none !important;)
 twojahistoria.pl##.single, .home:style(background-image: none !important;)
+!
+!
+! Reguły specjalne
+!#if !ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
+!#endif
+!#if ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com##+js(set, pafDetect, true)
+!#endif
