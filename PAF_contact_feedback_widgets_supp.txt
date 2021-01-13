@@ -1,3 +1,9 @@
-! experimental
-x-kom.pl,al.to###pageWrapper ~ #react-portals > div[class^="sc-"] > button[class^="sc-"] > span > svg[viewBox="0 0 56 56"]:upward(button)
-! experimental
+! Codename: Contact Widgets - Supplement
+!
+! Reguły specjalne
+!#if !ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
+!#endif
+!#if ext_ublock
+polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com##+js(set, pafDetect, true)
+!#endif
