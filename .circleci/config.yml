@@ -5,7 +5,7 @@ jobs:
     - image: polishfiltersteam/vichs_image:latest
     steps:
     - checkout
-    - run: ./scripts/HelperForVICHS.sh PAF_arrows.txt PAF_backgrounds_self-advertising_supp.txt PAF_backgrounds_self-advertising.txt PAF_contact_feedback_widgets.txt PAF_newsletters_supp.txt PAF_newsletters.txt PAF_other_elements_supp.txt PAF_other_widgets.txt PAF_pop-ups_supp.txt PAF_pop-ups.txt PAF_push_supp.txt PAF_push.txt PAF_scrolling_videos_supp.txt PAF_scrolling_videos.txt PAF_tagged_internal_links.txt PAF_comeback_titles.txt PAF_e_newspaper.txt PAF_supp.txt PPB.txt
+    - run: ./scripts/HelperForVICHS.sh PAF_arrows.txt PAF_backgrounds_self-adv_supp.txt PAF_backgrounds_self-advertising.txt PAF_contact_feedback_widgets_supp.txt PAF_contact_feedback_widgets.txt PAF_newsletters_supp.txt PAF_newsletters.txt PAF_other_elements_supp.txt PAF_other_widgets.txt PAF_pop-ups_supp.txt PAF_pop-ups.txt PAF_push_supp.txt PAF_push.txt PAF_scrolling_videos_supp.txt PAF_scrolling_videos.txt PAF_tagged_internal_links.txt PAF_comeback_titles.txt PAF_e_newspaper.txt PAF_supp.txt PPB.txt
 workflows:
   version: 2
   workflow:
