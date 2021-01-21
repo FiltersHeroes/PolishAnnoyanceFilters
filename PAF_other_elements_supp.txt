@@ -34,6 +34,7 @@ filing.pl###switcher-posts:style(margin-right: 0 !important;)
 filing.pl##.nano-pane
 follow.vision##html > body:style(overflow: visible !important;)
 follow.vision##html:style(overflow: auto !important;)
+gfmod.pl##+js(acis, snowfall)
 goldenmarketing.pl###ssb-btn-1:style(visibility: hidden !important;)
 grupa-icea.pl##.icea-pulse:style(animation: none !important;)
 hondanews.eu###body > .vertical.simplebar-track
@@ -101,10 +102,12 @@ www.dobreprogramy.pl##.ignored:not(:hover):not(:active):not(:focus):style(opacit
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 !#if !cap_html_filtering
+karachan.org##+js(acis, setInterval, Math.random)
 komputerswiat.pl###ks_breaking_news:style(position: absolute !important; left: -3000px !important;)
 newonce.radio##+js(ra, href, [rel="shortcut icon"][href$=".gif"])
 !#endif
 !#if cap_html_filtering
+karachan.org##^script:not([src]):min-text-length(100):has-text(/style.*xD/)
 komputerswiat.pl##^#ks_breaking_news
 newonce.radio##^link[rel="shortcut icon"][href$=".gif"]
 !www.google.com,www.google.pl##^div.irc-nic.irc-igr.rg_ic.rg_bx:has( > div > div > div:has-text(Podobne wyszukiwania))
@@ -126,6 +129,7 @@ semcamp.university##div > div > div.app::-webkit-scrollbar:style(all: initial !i
 !#endif
 !#if !ext_ublock
 download.net.pl#$?#.date:not(dt) { display: block !important; }
+karachan.org$$script[wildcard="style*xD"][min-length="100"]
 komputerswiat.pl$$#ks_breaking_news
 newonce.radio$$link[rel="shortcut icon"][href^=".gif"]
 !#endif
