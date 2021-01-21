@@ -22,13 +22,13 @@ wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !import
 !komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, FloatingVideoPlayer, noopFunc)
 !komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, floatingPlayer, noopFunc)
 !#if cap_user_stylesheet
-interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
-interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
+!interia.pl,interia.tv,pomponik.pl,styl.pl,poboczem.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+!interia.pl,interia.tv,pomponik.pl,styl.pl,poboczem.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 !#endif
 !#if !cap_user_stylesheet
-abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"]:style(visibility: hidden !important;)
-interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
-interia.pl,interia.tv,pomponik.pl,styl.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
+!abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"]:style(visibility: hidden !important;)
+!interia.pl,interia.tv,pomponik.pl,styl.pl,poboczem.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
+!interia.pl,interia.tv,pomponik.pl,styl.pl,poboczem.pl##div[class*="video-"] > div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]:style(visibility: hidden !important;)
 !#endif
 !#if !ext_ublock
 infozdrowie24.pl#$#.miniplayer { position: absolute !important; transition: unset !important; }
