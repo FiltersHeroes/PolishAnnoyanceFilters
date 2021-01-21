@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xdwsQS23VBz+b+6d9WsZww
+! Checksum: zwiecEY2NUOaHbVDiECuTg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 19 Jan 2021, 19:08 UTC+01
-! Version: 2021.1.19.0
+! Last modified: Thu, 21 Jan 2021, 19:08 UTC+01
+! Version: 2021.1.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 19 sty 2021, 19:08 UTC+01
+! Aktualizacja: czw, 21 sty 2021, 19:08 UTC+01
 !
 !
 !
@@ -310,6 +310,8 @@ comtrade.pl,topfish.pl##.n56467_container
 conet.pl,historykon.pl,michalgrabarski.eu,pierwsze-kroki.com,rehus.pl,spozywo.pl,yt360.pl###text-4
 confero.pl##.confero_newsletter_form
 confero.pl#?#.confero_social_icon:-abp-has(.icon-envelope)
+consumer.huawei.com##.title + .subscribe
+consumer.huawei.com#?#.title[class*="GridColumn"]:-abp-has( + .subscribe)
 controlling.info.pl##.newletter
 corona-fishing.pl###glowna-newsletter
 cortland.pl##.letter
@@ -718,6 +720,7 @@ kalibaby.pl#?#.center-block-last:-abp-has(.f_newsletter)
 kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-success
 kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
 kamilafrontino.com,mamonik.pl,naszebialeblota.pl,okultura.pl###text-3
+kamilassurma.com##.elementor-popup-modal:-abp-has(form[action*="mail"][action*="/webform"])
 kammar24.pl##div.BoxRwd:nth-of-type(5) > .CalyBox
 kam-sport.pl##footer div.col-sm-4.vc_column_container.wpb_column.nm_column:nth-of-type(2) > .vc_column-inner
 kappahl.com###news-footer
@@ -822,6 +825,7 @@ lipsko24.pl##.prawyblok3content
 littleforest.pl##.footer--newsletter, .footer--blog__right > h2.font--alt:nth-of-type(1), .footer--blog__right > p, .yikes-easy-mc-form
 lm.pl##.new_boks_newsletter
 logitechg.com##footer .email-subscription
+logitech.com##.email-subscription
 lokalnatelewizja.pl,supertydzien.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 lomza.pl###s-blok3 > form, #s-blok3 > h4:nth-of-type(2)
 longevitas.pl##.left.sign-up-home
@@ -1708,7 +1712,7 @@ zyciepabianic.pl###widget-newsletter
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,pl###newsletter:not(.modal)
 ~dron.pl,pl##.widget_wysija
 ~ksiegarnia-edukacyjna.pl,pl###menu_newsletter
-~laroxy.pl,~mi-home.pl,pl,~sklep.cleverboard.pl###newsletter_block_left
+~laroxy.pl,~mi-home.pl,pl,~sklep.cleverboard.pl,~urbanvegan.pl###newsletter_block_left
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal):lang(pl)
