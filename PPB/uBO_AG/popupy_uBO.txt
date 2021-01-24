@@ -1,3 +1,5 @@
+eska.pl##+js(ra, style, .popupCity[style*="visible"], complete)
+eska.pl##.popupCity:not([style])
 lento.pl##+js(ra, style, .box-modal-notify, #lightoverlay)
 www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
 www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
