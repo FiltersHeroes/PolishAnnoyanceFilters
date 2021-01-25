@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ERLvlUUvz3lXQudCWGzG0A
+! Checksum: 1JmQHUm4VUzNrnbJuDGdoQ
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Mon, 25 Jan 2021, 15:08 UTC+01
-! Version: 2021.1.25.0
+! Last modified: Mon, 25 Jan 2021, 19:08 UTC+01
+! Version: 2021.1.25.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 25 sty 2021, 15:08 UTC+01
+! Aktualizacja: pon, 25 sty 2021, 19:08 UTC+01
 !
 !
 !
@@ -911,7 +911,6 @@ z-hotel.com###repuso_floating
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~pl##.mraty-widget:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
-l###allegro_opinie_ikona
 pl##.bilet
 pl##.llSlideButton
 pl##.polecamyBox
@@ -922,6 +921,7 @@ pl###ZakladkaNewsletterOkno
 pl###acwp-toolbar-btn
 pl###allecomments_clips
 pl###allegro_ikona
+pl###allegro_opinie_ikona
 pl###bdCheckAlso
 pl###check-also-box
 pl###graton-main-container.promoContainer
