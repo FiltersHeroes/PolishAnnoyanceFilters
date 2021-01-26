@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: KRqMZH04C17PukBFHTVktA
+! Checksum: BRL4k57MylkE8g02OmUw4g
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 24 Jan 2021, 19:08 UTC+01
-! Version: 2021.1.24.0
+! Last modified: Tue, 26 Jan 2021, 15:08 UTC+01
+! Version: 2021.1.26.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 24 sty 2021, 19:08 UTC+01
+! Aktualizacja: wto, 26 sty 2021, 15:08 UTC+01
 !
 !
 !
@@ -689,8 +689,6 @@ robojet.pl###modal_home_page, .modal-backdrop
 rosenthal.pl###cac_popup_tlo, #cac_popup_obr
 royalcanin.pl###popOverlay
 rozwod-z-klasa.pl###itro_opaco, #itro_popup
-rum-lux.pl###InfoNewsletter
-rum-lux.pl###InfoNewsletterOkno
 rynek-kolejowy.pl,rynekinfrastruktury.pl##.popupElement, #popupMain
 rynek-lotniczy.pl,transport-publiczny.pl##.popupElement, .popupModal
 rzeszow4u.pl###myModal
@@ -1017,6 +1015,8 @@ zszywka.pl###inv-request-popup
 ~pl##body:not(.x13popup-open) #x13popup-cover:lang(pl)
 pl##body:not(.x13popup-open) #x13popup-container
 pl##body:not(.x13popup-open) #x13popup-cover
+pl###InfoNewsletter
+pl###InfoNewsletterOkno
 pl###esns_background_layer
 pl###facebook-popup
 pl###fb-fan-pop
