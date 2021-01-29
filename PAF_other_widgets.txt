@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rkxkx0vH6NVCpM/hLSOd8A
+! Checksum: IL5dO4dO1yX+fb3bNY6HgA
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 29 Jan 2021, 15:08 UTC+01
-! Version: 2021.1.29.0
+! Last modified: Fri, 29 Jan 2021, 19:08 UTC+01
+! Version: 2021.1.29.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pią, 29 sty 2021, 15:08 UTC+01
+! Aktualizacja: pią, 29 sty 2021, 19:08 UTC+01
 !
 !
 !
@@ -276,6 +276,7 @@ fakty.tvn24.pl##.headerStickyContainer
 feriogaj.com##.riding-box
 filehippo.com###avast-seal, .avast-promo
 filmweb.pl##.page.filmPage ~ .page, .page.newsPage ~ .page
+filmweb.pl##.vjs-preloading.vjs-inactive.video-js:after
 finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,turystyka.wp.pl,wiadomosci.wp.pl#?#div > div > div > div > div > div > div > div > div > div:-abp-has(aside:-abp-contains(następny artykuł))
 firmyinzynieria.com###sideButtons.load
 fitdiet.pl,poid.eu###ajax-loading-screen
@@ -575,6 +576,7 @@ omega.om.pl##.right.ecp-button
 onlinezdrowie.pl###post-nav
 online.citibank.pl##.call-to-action-bottom
 oohmagazine.pl##.festiwal_card_tab
+open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##.header div[class] > button[class][title^="Ustaw"], .header div[class] > button[class][title^="Ustaw"] + div[class]
 opiekunbloga.pl##.pum-position-fixed.popmake.pum-container
 opinie24.pl##.box-size.side-box-container
 opinie-perfumy.pl##.postNavigation
@@ -610,7 +612,6 @@ pneumat.com.pl###wrapper > .sideButtons-tagCont > .sideButtons-tagWhite
 pocztazdrowia.pl###baner2
 poczta.interia.pl##.app-promo-plywak
 poczta.interia.pl##.hektor-container, #createaccount2
-poczta.wp.pl##promo-panels
 podatekvat.pl###SliderBox
 podkop.com###glt-translate-trigger
 podlaska.policja.gov.pl##div:nth-of-type(5)
@@ -809,7 +810,6 @@ wlkp24.info##.totalpoll-view-vote
 wolna-polska.pl##.vmag-related-wrapper
 wordpress-wdrozenia.pl###loader-wrapper
 wpzen.pl###wpzen-article-box
-wp.pl,~www.wp.pl##.header div[class] > button[class][title^="Ustaw"], .header div[class] > button[class][title^="Ustaw"] + div[class]
 wsse-poznan.pl###pwebbox216_toggler
 www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 www.dobreprogramy.pl##.backToWp
@@ -856,6 +856,7 @@ z-hotel.com###repuso_floating
 !interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl,esporter.pl###primary_recommend_block.recommend-block
 !pachnidelko.pl###socialproofContainer
 !pl.vivre.eu##.app-banner
+!poczta.wp.pl##promo-panels
 !swiatseriali.interia.pl##.recommend-flybar-button
 !vivrehome.pl##.vv_loader-wrapper.js-loader
 !www.google.com,www.google.pl##div[style*="z-index: "][style*="overflow: hidden;"][style*="margin-right: 25px;"]
