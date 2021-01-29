@@ -370,6 +370,9 @@ www.facebook.com##body > div.uiLayer[style="opacity: 1; min-width: 40px;"]:has( 
 www.microsoft.com##body[style*="overflow: hidden;"]:style(overflow: auto !important;)
 www.microsoft.com###email-newsletter-dialog
 wynagrodzenia.pl###isbusiness-modal, .modal-backdrop
+wynalazca.tv##html.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
+wynalazca.tv##.popmake-overlay.pum-overlay.pum
+wynalazca.tv##.pum-open:style(overflow: auto !important;)
 yieldbird.com##.home:style(overflow: visible !important;)
 yieldbird.com##.overlay-layer, .default-modal
 zaufanekliniki.pl###modalMain, .modal-backdrop
@@ -397,6 +400,3 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 !youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
 !youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
-wynalazca.tv##.popmake-overlay.pum-overlay.pum
-wynalazca.tv##.pum-open:style(overflow: auto !important;)
-wynalazca.tv##html.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
