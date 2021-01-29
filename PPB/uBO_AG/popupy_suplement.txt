@@ -397,3 +397,6 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 !youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
 !youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
 !youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
+wynalazca.tv##.popmake-overlay.pum-overlay.pum
+wynalazca.tv##.pum-open:style(overflow: auto !important;)
+wynalazca.tv##html.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
