@@ -256,6 +256,7 @@ fakty.tvn24.pl##.headerStickyContainer
 feriogaj.com##.riding-box
 filehippo.com###avast-seal, .avast-promo
 filmweb.pl##.page.filmPage ~ .page, .page.newsPage ~ .page
+filmweb.pl##.vjs-preloading.vjs-inactive.video-js:after
 finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,turystyka.wp.pl,wiadomosci.wp.pl#?#div > div > div > div > div > div > div > div > div > div:-abp-has(aside:-abp-contains(następny artykuł))
 firmyinzynieria.com###sideButtons.load
 fitdiet.pl,poid.eu###ajax-loading-screen
@@ -555,6 +556,7 @@ omega.om.pl##.right.ecp-button
 onlinezdrowie.pl###post-nav
 online.citibank.pl##.call-to-action-bottom
 oohmagazine.pl##.festiwal_card_tab
+open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##.header div[class] > button[class][title^="Ustaw"], .header div[class] > button[class][title^="Ustaw"] + div[class]
 opiekunbloga.pl##.pum-position-fixed.popmake.pum-container
 opinie24.pl##.box-size.side-box-container
 opinie-perfumy.pl##.postNavigation
@@ -590,7 +592,6 @@ pneumat.com.pl###wrapper > .sideButtons-tagCont > .sideButtons-tagWhite
 pocztazdrowia.pl###baner2
 poczta.interia.pl##.app-promo-plywak
 poczta.interia.pl##.hektor-container, #createaccount2
-!poczta.wp.pl##promo-panels
 podatekvat.pl###SliderBox
 podkop.com###glt-translate-trigger
 podlaska.policja.gov.pl##div:nth-of-type(5)
@@ -789,7 +790,6 @@ wlkp24.info##.totalpoll-view-vote
 wolna-polska.pl##.vmag-related-wrapper
 wordpress-wdrozenia.pl###loader-wrapper
 wpzen.pl###wpzen-article-box
-wp.pl,~poczta.wp.pl,~www.wp.pl,open.fm##.header div[class] > button[class][title^="Ustaw"], .header div[class] > button[class][title^="Ustaw"] + div[class]
 wsse-poznan.pl###pwebbox216_toggler
 www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 www.dobreprogramy.pl##.backToWp
@@ -803,7 +803,6 @@ www.google.com,www.google.pl#?##rg div.irc-nic.irc-igr:-abp-has( > div[class] > 
 www.onet.pl##.backToMainPage
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
 www.pekao.com.pl##body.loader:before, body.loader:after
-filmweb.pl##.vjs-preloading.vjs-inactive.video-js:after
 www.porta.com.pl##.side_home_slider_pl
 www.rp.pl###mk-paywall
 www.tumblr.com##.road-block-wrapper
@@ -837,6 +836,7 @@ z-hotel.com###repuso_floating
 !interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl,esporter.pl###primary_recommend_block.recommend-block
 !pachnidelko.pl###socialproofContainer
 !pl.vivre.eu##.app-banner
+!poczta.wp.pl##promo-panels
 !swiatseriali.interia.pl##.recommend-flybar-button
 !vivrehome.pl##.vv_loader-wrapper.js-loader
 !www.google.com,www.google.pl##div[style*="z-index: "][style*="overflow: hidden;"][style*="margin-right: 25px;"]
