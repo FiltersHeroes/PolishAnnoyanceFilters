@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: sdQUXuKqkmdm1zRUl5BPTw
+! Checksum: ZfIyU/CdcmVGSdQB1n5u7g
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Fri, 29 Jan 2021, 18:08 UTC+01
-! Version: 2021.1.29.1
+! Last modified: Tue, 02 Feb 2021, 22:08 UTC+01
+! Version: 2021.2.2.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,14 +13,14 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pią, 29 sty 2021, 18:08 UTC+01
+! Aktualizacja: wto, 02 lut 2021, 22:08 UTC+01
 !
 !
 !
 ! Specyficzne reguły
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
-3dom.pro,abra-meble.pl,allecco.pl,amso.pl,barbersupply.pl,biogo.pl,bludshop.com,cortland.pl,cudmoda.pl,czasnabuty.pl,eltrox.pl,eurobuty.com.pl,gala24.pl,gry-online.pl,kontigo.com.pl,kosmetykomania.pl,kreatorium.com,krukam.pl,lou.pl,meditrendy.pl,megascena.pl,mghome.pl,modini.pl,moto-abc.pl,musclepower.pl,muve.pl,olini.pl,primamoda.com.pl,recea.pl,recman.pl,reporteryoung.pl,rylko.com,sadowniczy.pl,shop.massdnm.com,sklep.royal-shop.pl,tendina.pl,tiffanie.pl,tolpa.pl,trena.pl,tvokazje.pl,yalu.pl###edrone--main--pu--container
+3dom.pro,abra-meble.pl,allecco.pl,amso.pl,barbersupply.pl,biogo.pl,bludshop.com,cortland.pl,cudmoda.pl,czasnabuty.pl,eltrox.pl,eurobuty.com.pl,gala24.pl,gry-online.pl,komputerymarkowe.pl,kontigo.com.pl,kosmetykomania.pl,kreatorium.com,krukam.pl,lou.pl,meditrendy.pl,megascena.pl,mghome.pl,modini.pl,moto-abc.pl,musclepower.pl,muve.pl,olini.pl,primamoda.com.pl,recea.pl,recman.pl,reporteryoung.pl,rylko.com,sadowniczy.pl,shop.massdnm.com,sklep.royal-shop.pl,tendina.pl,tiffanie.pl,tolpa.pl,trena.pl,tvokazje.pl,yalu.pl###edrone--main--pu--container
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
 24hurt.pl##.wt-popup, #overlay
@@ -125,6 +125,7 @@ beskidy.news##.c-pop-up
 beslow.pl##.ulp-window[data-title*="Newsletter"], .ulp-overlay
 bestape.pl,instamarketing.pl##.popup, .popup-overlay
 bestcentrum.pl##.modal-popup
+betamed.pl,dobiegania.pl,kisiel24.pl,netlandcomputers.pl,opteam.pl,pl.globalvoices.org,resulto.pl,tabal.pl,twojapogoda.pl###colorbox, #cboxOverlay
 bezgluten.pl,creativehobby.pl##.iziToast-wrapper, .iziToast-overlay
 bgsw.pl,magnapolonia.org,piwolucja.pl,sklep.batida.pl##.popmake-overlay
 bialykruk.pl,swiato-podglad.pl###popup-background
@@ -224,7 +225,6 @@ digitalcamerapolska.pl,fotopolis.pl##.big-popup-wrap
 diversesystem.com###dvrs-newsletter-popup-body
 diversesystem.com###newsletter-popup-overlay
 dluta.pl###fx-modal-3
-dobiegania.pl,kisiel24.pl,netlandcomputers.pl,opteam.pl,pl.globalvoices.org,resulto.pl,tabal.pl,twojapogoda.pl###colorbox, #cboxOverlay
 dobredomy.pl###pop_promocja
 dobremiejsce.org##.wph-modal
 dodaj-strone.com.pl###popupframe, #popupframe_bg
@@ -357,7 +357,7 @@ hotel-tulipan.pl###popUp
 hotel.bialowieza.pl,malinowydwor.pl###backgroundPopup, #popupContact
 house.pl###free_shipping
 iglaco.com##.fx-block.position-form-center.form-layout-inline.fx-wrapper-modal
-ine.com.pl###sgcolorbox, #sgcboxOverlay
+ine.com.pl,lilou.pl###sgcolorbox, #sgcboxOverlay
 infinityfitnesskrakow.pl##.closed
 infopraca.pl###alert-creation, .modal-backdrop
 inford.eu###layer-popup
@@ -396,6 +396,7 @@ karmiepsiaki.pl###fb-back
 karmiepsiaki.pl###fb-exit
 karmopedia.pl,przedsiebiorcza.com#?#.spu-bg:-abp-has( ~ .spu-box .spu-facebook-page)
 karmopedia.pl,przedsiebiorcza.com#?#.spu-box:-abp-has(.spu-facebook-page)
+karografia.pl###fb-popup
 karpiowy.pl##.newletter-popup, .b-modal
 kasotronik.pl,medpozyczka.pl,okmoneta.pl,pozyczymyci.pl###popupEmailPhone
 kataloog.info###mask, #lorem
@@ -405,7 +406,7 @@ kegel-aj.com##div[style="display: block; position: fixed; width: 100%; min-heigh
 kfd.pl###popupslider, #dimBackgrnd
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 kierunekspozywczy.pl###skycrapper
-killhouse.pl###sgcolorbox.colorbox1, .sgcboxOverlayBg
+killhouse.pl###sgcolorbox, .sgcboxOverlayBg
 klasek.pl###spu-bg, #spu-main
 knowband.com###fancybox_ns-wrap, #fancybox_ns-overlay, .knowband-popup.kb_lightBox_popup, #exitpopup-modal
 kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
@@ -450,7 +451,6 @@ lexlege.pl###TB_window
 lifegeek.pl##[data-title="Exit Popup - Ebook"], .ulp-overlay
 lightinthebox.com##.pop-email-new, .pop-email-new + .modal-backdrop
 lilio.pl##.bg-footer ~ .mcwidget-overlay
-lilou.pl###sgcboxOverlay, #sgcolorbox
 limanowa.in##.ad_popup
 limonkowy.com##.ui-widget-overlay, .ui-dialog
 linguajob.pl##.popup, #get-similar-offers
@@ -585,6 +585,7 @@ opolshe.ru,otowroclawpowiat.pl###dropbox
 optiland.pl##.mod_popup, .bg_shadow
 orange.pl###advertslice
 osada-sniezka.pl###popModal, .modal-backdrop
+ostry-sklep.pl##.rc-popups.box
 oszustwo.net##div[id^="ulp-"]
 otianna.pl,vous.pl##.wpmchimpa-overlay-bg
 otmuchow.pl,poradnikogrodniczy.pl##script ~ #cboxOverlay
@@ -607,6 +608,7 @@ pch24.pl##.popupWesp, .popupWespImgContainer
 pelnytalerz.com###fbox-background
 perfumeriatop10.pl###newsletter_block_home
 petronews.pl##.pps-full-screen.pps-popup, .b-modal
+picantecooking.com###subscription-message
 picodi.com##.special-modal, .modal-backdrop
 pirbinstytut.pl##.sj-popup-container, .sj_newletter_popup
 pitax.pl###popupZbieraj
@@ -778,6 +780,7 @@ taxxo.pl##.novocall-modal, .novocall-in
 teatrkomedia.pl###splash
 telewizjaswiatlowodowa.pl##.phoneNumberBox, .popupBg
 tiendeo.pl##.mail-alert
+timestore.pl##.my-popup-background-layer
 tkmaxx.pl##.landing-lightbox-box, #landing-lightbox-overlay
 tokfm.pl###komunikat_dla_player3
 tomaszek.pl###window_entrance, #window_overlay
