@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2JdoGaW2Q1dz4STIJmLNBg
+! Checksum: q+Z7CJ4teVkhWE6faTPdiw
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 02 Feb 2021, 11:08 UTC+01
-! Version: 2021.2.2.0
+! Last modified: Wed, 03 Feb 2021, 11:08 UTC+01
+! Version: 2021.2.3.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,13 +13,13 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 02 lut 2021, 11:08 UTC+01
+! Aktualizacja: śro, 03 lut 2021, 11:08 UTC+01
 !
 !
 !
 ! Specyficzne reguły
 4fun.tv##.app-popup
-4programmers.net##.sidebar-job-offers.box
+4programmers.net##.sidebar-job-offers.box, .sidebar-offers.box
 24legnica.pl,agrofoto.pl,dziennikzbrojny.pl,goldenline.pl,life4style.pl,motospace.pl,opoczno.info,wymarzonyogrod.pl,zapytaj.onet.pl###slidebox
 24opony.pl##.alupin, .alupin2, .pasekIn
 50style.pl###help-arrow
@@ -51,6 +51,7 @@ amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,sklep-prest
 ampolska.net,dbpolska.net,reefshop.pl,uni-tech.pl###panel
 amrest.eu##.tour-info
 amso.pl###returns_popup
+amso.pl,creativehobby.pl,ogrodzenia24.eu,saluti.pl###___ratingbadge_0
 angelsadvertising.pl###qLoverlay
 animeon.pl##.alert-info
 anna-urbanska.pl##.amadeus_recent_posts_widget
@@ -162,7 +163,6 @@ comarch.pl##.widget-detach-right-bar-container
 context.reverso.net###register-popup-bottom
 cowsierscipiszczy.pl##.CampaignType--floating
 creativecommons.org###deed-donate-slide
-creativehobby.pl,saluti.pl###___ratingbadge_0
 credstepfunds.pl##.page_loader
 crmodus.pl##.kac-sm-zl
 crolove.pl###see-more-box
@@ -260,6 +260,7 @@ exceldlaksiegowych.pl###post-navigation
 expressit.pl##.boxzilla-promocja
 extramama.pl###widget_shop1
 ezebra.pl###dostawa_widget
+e-bliskoprzyrody.pl##.vlt-post-navigation
 e-dewocjonalia.eu##.wysylka_wrap
 e-dewocjonalia.eu,trainingshowroom.com,wentsystem.com###socialproof-container
 e-kolo.pl###slidenews
@@ -696,6 +697,7 @@ skladaniekomputera.pl###dgd_scrollbox-10511
 sklepbaterie.pl##.naskroty
 sklep-muzyczny.com.pl,sklep.wodna-kraina.pl###widget_shop4
 sklep-rolnicze.eu###oiTab
+sklep.farmona.pl##.tabs > section.product_link_nav
 sky-shop.pl##.guide-popup.webinar_widget
 sloikwiedzy.pl##.storefront-product-pagination
 sloworegionu.pl##.pagenav > .previous, .pagenav > .next
@@ -838,6 +840,7 @@ youtube.com###alert-banner.ytd-browse, #watch-header > .mealbar-promo-renderer.y
 youtube.com#?#paper-dialog:-abp-has(ytd-mealbar-promo-renderer)
 youtube.com#?##contentWrapper > .ytd-popup-container:-abp-has( > .yt-tooltip-renderer)
 zadowolenie.pl##.b-bragLabel
+zapytaj.onet.pl##.know-better-answer
 zapytaj.onet.pl##.onet-redirect-banner
 zatorland.pl##.pogoda
 zdrowie.gazeta.pl###bottom_wrap
