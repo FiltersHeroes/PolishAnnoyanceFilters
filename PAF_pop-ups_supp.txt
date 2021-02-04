@@ -440,11 +440,11 @@ zozsuchabeskidzka.pl###mpc-modal-4-0
 4kdownload.com##+js(ra, data-remodal-id, .widget-modal)
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
+annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###newsletter_colorbox:remove()
 apynews.pl###fb-modal, .modal-backdrop
 apynews.pl,cyberfolks.pl,lookcam.com,makarun.pl,mediasam.pl,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##+js(acis, $, popupNewsletter)
 biznes-host.pl##+js(acis, $, myModalPromo)
-chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,zegarkiabc.pl###newsletter_colorbox:remove()
 comperia.pl###modal_woman, .modal-backdrop
 comperia.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 cyberfolks.pl###myModalDomenowy, .modal-backdrop
@@ -467,14 +467,14 @@ ogrodosfera.pl###NewsletterExit, .modal-backdrop
 ogrodosfera.pl,zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
 sportowefakty.wp.pl##+js(ra, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
-!annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
-!annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
+!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
+!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
 !#endif
 !#if cap_html_filtering
 4kdownload.com##^.thanks-modal
 4kdownload.com##^.widget-modal
 alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
-annalotan.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,zegarkiabc.pl##^#newsletter_colorbox
+annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl##^#newsletter_colorbox
 apynews.pl##^#fb-modal
 bartek.com.pl##^script:has-text(popupNewsletter)
 biznes-host.pl##^#myModalPromo
@@ -505,9 +505,8 @@ zoo.bydgoszcz.com##^#NewsShow
 4kdownload.com$$.thanks-modal
 4kdownload.com$$.widget-modal
 alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
-annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
-annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl#@##colorbox:not(:has(.cboxPhoto))
-annalotan.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl$$#newsletter_colorbox
+annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
+annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl$$#newsletter_colorbox
 apynews.pl$$#fb-modal
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl#$#html { overflow: visible !important; margin-right: 0 !important; }
@@ -540,8 +539,11 @@ shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 shoplet.pl##.fancybox-overlay:has(#x13callback)
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
+!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl#@##colorbox:not(:has(.cboxPhoto))
 !#endif
 !#if ext_ublock
+annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:has( + #colorbox:has(#newsletter_colorbox):style(visibility: hidden !important;)}
+annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox):style(visibility: hidden !important;)
 eska.pl##+js(ra, style, .popupCity[style*="visible"])
 eska.pl##+js(ra, style, .popupCity[style*="visible"], complete)
 eska.pl##.popupCity:not([style])
