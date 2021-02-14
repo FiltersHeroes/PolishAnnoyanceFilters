@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: qT4PsxBsaTnlkuJd9jWmPQ
+! Checksum: 0bkh9WQ84+kt5eVfAuI94g
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Wed, 10 Feb 2021, 19:08 UTC+01
-! Version: 2021.2.10.0
+! Last modified: Sun, 14 Feb 2021, 19:08 UTC+01
+! Version: 2021.2.14.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 10 lut 2021, 19:08 UTC+01
+! Aktualizacja: nie, 14 lut 2021, 19:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -246,7 +246,7 @@ brw.com.pl,brw.pl##.blok-newsletter
 btcpolska.com###text-12
 budujemydom.pl###newsBoxLeft
 budujemydom.pl,czasnawnetrze.pl,zielonyogrodek.pl###newsletterBoxLeft
-budus.pl,strefagolenia.pl##.ft_newsletter
+budus.pl,soft360.pl,strefagolenia.pl##.ft_newsletter
 bulldogjob.pl##.spop-container
 busiarze.com.pl###alo-easymail-widget-3
 businesstraveller.pl##.widget:nth-of-type(2) > h4
@@ -498,6 +498,7 @@ etam.pl##.footer_nsw
 etsy.com##.not-signed-in.subscribe-form
 euh-e.edu.pl###sp-bottom3
 eura7.com,pl.malwarebytes.com###newsletter-signup
+euractiv.pl##.row > pnespwidget
 eurobuty.com.pl##.section--newsletter
 eurogamer.pl###newsletter-promo
 euromat.com.pl###tws_s_100000
@@ -1788,6 +1789,7 @@ adresy.um.warszawa.pl,mapa.um.warszawa.pl,ulice.um.warszawa.pl###init_info[style
 adria-art.pl###overlay, .popup.newsletter
 agamasmaka.pl##.et_bloom_auto_popup.et_bloom_flyin
 agd-czesci.com.pl,sklepbazant.pl,swiatmodeli.eu##.mbank-top-layer, .mask
+agrarsklep.pl,go.tvn24.pl,inea.pl,player.pl,teb.pl,topagrar.pl,www.pzu.pl##.__ipPerunElement[style*="position"]
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
 agrodoradca24.pl##.modal-message
 agrofakt.pl##.seattle-simple.optin-monster-saas-overlay
@@ -2012,6 +2014,7 @@ eradon.pl###overlay-wrapper, #modal-overlay
 esensja.pl###FBox
 eska.pl###_hj_survey_invite_container
 estyl.pl###ue_form
+euractiv.pl##pnespwidget[style*="position"]
 eurobolt.com.pl##.mybanners
 e-iglaki.pl###szkolenie-message
 e-insportline.pl###vivpopup-collapsed
@@ -2043,6 +2046,7 @@ forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.p
 forum.duolingo.com#?#body > div.ReactModalPortal:not(:empty):-abp-has(img[src$="/images/duo_wave.svg"])
 forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
 forum.joomla.pl###fancybox-overlay, #fancybox-wrap
+fotelik.info##.zIndexWrapper240
 fotografwdrodze.pl,skladaniekomputera.pl###exitpopup-modal
 fotoprzyroda.pl###sosinvision_popup
 francuskie.pl##.greensboro-optin-visible
@@ -2070,7 +2074,6 @@ godealla.pl###coupon-groupon, #coupon-groupon-overlay
 godealla.pl,wakacjezprocentem.pl##.overlay
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
 goodie.pl###video-banner-modal
-go.tvn24.pl,inea.pl,player.pl,teb.pl,topagrar.pl,www.pzu.pl##.__ipPerunElement[style*="position"]
 gpcodziennie.pl###JPO
 greenasia.eu,saluti.pl,uzywki.expert##.wceapp_popup.modal, .wceapp_popup.mask
 greenelka.pl###cfblb_modal
@@ -2235,7 +2238,9 @@ media-tech.eu,vanitysklep.pl###OverlayContainer_rcw
 medicalclinic.pl,xn--przesy-energii-lnc.pl,zobraczkaczybez.pl##.wppopups-whole
 medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
 medonetmarket.pl##.safety-popup-rectangle
+medonet.pl##.haloDoctorPopup
 medonet.pl##.pushNotifiPopup
+medonet.pl##.withHPU:before
 medonet.pl##.withPNP:before
 mencare.pl###fx-popup
 metal-bud.eu##.banner-b2b
@@ -2920,7 +2925,7 @@ abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl
 agrii.pl###panel
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl##.player-floating, .player-move-up
 bezpiecznystrazak.pl##.video_zminimalizowane
-dziennik.pl##.video.widget > .videoScroll, .video.widget > .videoScroll ~ .closeVideoBtn
+dziennik.pl,forsal.pl##.video.widget > .videoScroll, .video.widget > .videoScroll ~ .closeVideoBtn
 elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
@@ -4765,12 +4770,12 @@ eccoholiday.com###schowek
 echodnia.eu###graton-main-container.promoContainer
 echodnia.eu###poza-szkieletem
 echodnia.eu###toolbar
+eglos.pl,elblag.net,gostynska.pl,jarocinska.pl,rawicz24.pl,warsztat.pl,wiadomoscihandlowe.pl,wiadomoscikosmetyczne.pl,zpleszewa.pl,zwielkopolski24.pl##.nextarticle
 egospodarka.pl##.ego-okienko
 eholiday.pl##.box-promofixed
 ekai.pl##.show.extra-article
 eksperymentalnie.com###codekingdom-custom-box-trigger
 eksperymentalnie.com,glejak.com,planetamarvel.net,topmejt.co.uk,typeofweb.com,uwodzenie.org###upprev_box
-elblag.net,gostynska.pl,jarocinska.pl,rawicz24.pl,warsztat.pl,wiadomoscihandlowe.pl,wiadomoscikosmetyczne.pl,zpleszewa.pl,zwielkopolski24.pl##.nextarticle
 elcompolska.pl###loaderek
 electrolux.pl##.WebsiteFeedback
 electro-outlet.pl###tws_a_2
@@ -5564,6 +5569,7 @@ dziennikelblaski.pl,wm.pl#?#.highlight:-abp-has(.box-ewydanie)
 dziennikwschodni.pl##.read-us-widget
 dziennikzachodni.pl##div[id^="componentsArticleBanner"] a[href*="/wykup-dostep?"]
 egarwolin.pl,gpr24.pl##.c-box-magazine
+eglos.pl##.carousel.newspaper
 ekspertbudowlany.pl##.miniatura-gazeta
 elektrosystemy.pl###text-26
 elektrosystemy.pl###text-31
