@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QgWh2AWc9Mqsor9S6io1Pg
+! Checksum: yvoWQlsqvbqb6JcDNUwzCQ
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Wed, 27 Jan 2021, 19:08 UTC+01
-! Version: 2021.1.27.0
+! Last modified: Sun, 14 Feb 2021, 19:08 UTC+01
+! Version: 2021.2.14.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 27 sty 2021, 19:08 UTC+01
+! Aktualizacja: nie, 14 lut 2021, 19:08 UTC+01
 !
 !
 !
@@ -22,7 +22,7 @@ abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl
 agrii.pl###panel
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl##.player-floating, .player-move-up
 bezpiecznystrazak.pl##.video_zminimalizowane
-dziennik.pl##.video.widget > .videoScroll, .video.widget > .videoScroll ~ .closeVideoBtn
+dziennik.pl,forsal.pl##.video.widget > .videoScroll, .video.widget > .videoScroll ~ .closeVideoBtn
 elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
