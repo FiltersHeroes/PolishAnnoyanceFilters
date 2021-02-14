@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MOvatEg93xcA3+IqxTptsQ
+! Checksum: Eq5OVZGAUHDavgQu8ImxHw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 10 Feb 2021, 19:08 UTC+01
-! Version: 2021.2.10.0
+! Last modified: Sun, 14 Feb 2021, 19:08 UTC+01
+! Version: 2021.2.14.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 10 lut 2021, 19:08 UTC+01
+! Aktualizacja: nie, 14 lut 2021, 19:08 UTC+01
 !
 !
 !
@@ -44,6 +44,7 @@ adresy.um.warszawa.pl,mapa.um.warszawa.pl,ulice.um.warszawa.pl###init_info[style
 adria-art.pl###overlay, .popup.newsletter
 agamasmaka.pl##.et_bloom_auto_popup.et_bloom_flyin
 agd-czesci.com.pl,sklepbazant.pl,swiatmodeli.eu##.mbank-top-layer, .mask
+agrarsklep.pl,go.tvn24.pl,inea.pl,player.pl,teb.pl,topagrar.pl,www.pzu.pl##.__ipPerunElement[style*="position"]
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
 agrodoradca24.pl##.modal-message
 agrofakt.pl##.seattle-simple.optin-monster-saas-overlay
@@ -268,6 +269,7 @@ eradon.pl###overlay-wrapper, #modal-overlay
 esensja.pl###FBox
 eska.pl###_hj_survey_invite_container
 estyl.pl###ue_form
+euractiv.pl##pnespwidget[style*="position"]
 eurobolt.com.pl##.mybanners
 e-iglaki.pl###szkolenie-message
 e-insportline.pl###vivpopup-collapsed
@@ -299,6 +301,7 @@ forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.p
 forum.duolingo.com#?#body > div.ReactModalPortal:not(:empty):-abp-has(img[src$="/images/duo_wave.svg"])
 forum.grywamtu.pl###pop-slap[data-hello-text], .bg-pop-over
 forum.joomla.pl###fancybox-overlay, #fancybox-wrap
+fotelik.info##.zIndexWrapper240
 fotografwdrodze.pl,skladaniekomputera.pl###exitpopup-modal
 fotoprzyroda.pl###sosinvision_popup
 francuskie.pl##.greensboro-optin-visible
@@ -326,7 +329,6 @@ godealla.pl###coupon-groupon, #coupon-groupon-overlay
 godealla.pl,wakacjezprocentem.pl##.overlay
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
 goodie.pl###video-banner-modal
-go.tvn24.pl,inea.pl,player.pl,teb.pl,topagrar.pl,www.pzu.pl##.__ipPerunElement[style*="position"]
 gpcodziennie.pl###JPO
 greenasia.eu,saluti.pl,uzywki.expert##.wceapp_popup.modal, .wceapp_popup.mask
 greenelka.pl###cfblb_modal
@@ -491,7 +493,9 @@ media-tech.eu,vanitysklep.pl###OverlayContainer_rcw
 medicalclinic.pl,xn--przesy-energii-lnc.pl,zobraczkaczybez.pl##.wppopups-whole
 medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
 medonetmarket.pl##.safety-popup-rectangle
+medonet.pl##.haloDoctorPopup
 medonet.pl##.pushNotifiPopup
+medonet.pl##.withHPU:before
 medonet.pl##.withPNP:before
 mencare.pl###fx-popup
 metal-bud.eu##.banner-b2b
