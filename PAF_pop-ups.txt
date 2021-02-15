@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Eq5OVZGAUHDavgQu8ImxHw
+! Checksum: 5Q4evORnMxbOkgo0dFyDwA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 14 Feb 2021, 19:08 UTC+01
-! Version: 2021.2.14.0
+! Last modified: Mon, 15 Feb 2021, 19:08 UTC+01
+! Version: 2021.2.15.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 14 lut 2021, 19:08 UTC+01
+! Aktualizacja: pon, 15 lut 2021, 19:08 UTC+01
 !
 !
 !
@@ -60,6 +60,7 @@ aledobre.pl,mniammniam.com###universal-popup-wrapper
 aleleki.pl#?##fancybox-wrap:-abp-has(a[href="https://www.powerbiotic.pl/covid-19/"])
 aleleki.pl,florini.pl###fancybox-overlay
 aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
+aliexpress.com##.coupon-poplayer-modal
 allmedica.pl###modalbox-1, .modalbox-overlay
 alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,ksiegarnia-edukacyjna.pl,megazoologiczny.pl,surgepolonia.pl###tws_i_100000
 analizy.pl##.nl_toplayer.ui-draggable.ui-widget-content.ui-widget.ui-dialog
@@ -486,6 +487,7 @@ mazovia.pl##.blok-DefaultSubskrypcja
 mebline.co.uk,mebline.nl###popup-message-container
 mecze24.pl##.ui-front
 meczelive.pl,meczelive.tv,meczenazywo.pl##.ui-dialog[aria-describedby="newsletter-dialog"], .ui-widget-overlay
+mediaexpert.pl##[id^="popup-"] > .snrs-modal-wrapper
 media-tech.eu###popup_mediatech
 media-tech.eu,polskimarket.de,vanitysklep.pl###Overlay
 media-tech.eu,polskimarket.de,vanitysklep.pl###rc_window_squeeze
