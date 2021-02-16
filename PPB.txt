@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: cxvAlaI0S7wNg9lTCXB2eA
+! Checksum: BUzVd0a+KMMfc39PiIgK2Q
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 15 Feb 2021, 19:08 UTC+01
-! Version: 2021.2.15.1
+! Last modified: Tue, 16 Feb 2021, 15:08 UTC+01
+! Version: 2021.2.16.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 15 lut 2021, 19:08 UTC+01
+! Aktualizacja: wto, 16 lut 2021, 15:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -4652,6 +4652,7 @@ bankier.pl###pit2017_explorer, #boxInsFlyfooter
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
 begio.pl##.penci-rlt-popup
+bentawet.pl##.kac-sm-allegro
 beskidlive.pl,estrzelce.pl,finansovo.pl,rekinysukcesu.pl##div[id^="dj-suggester"]
 beskidzka24.pl##.page-preloader-cover
 bezgluten.pl.iziToast-message
@@ -4962,6 +4963,7 @@ kodiwpigulce.pl##.jaw-showup
 kofiup.pl###floatingBtn
 kolejeslaskie.com,osw.olsztyn.pl##.a11y-toolbar-list
 koleo.pl##.blik-hey
+kolorowypokoik.pl##.sm-ceneo
 komorkomat.pl##.compare_widget_box, .single-post-inner .animated[href="https://komorkomat.pl/porownywarka/"]
 komorkomat.pl#?#.post-content h3:-abp-contains( > >>)
 komputery.cieszyn.pl###serwisbok
@@ -5136,6 +5138,7 @@ opiekunbloga.pl##.pum-position-fixed.popmake.pum-container
 opinie24.pl##.box-size.side-box-container
 opinie-perfumy.pl##.postNavigation
 oponeo.pl###checkOrderStatus
+optimedpro-office.eu,pokrowce.net##.sm-gmap
 orange.pl##.payback-floating-sidebar__trigger
 outlook.live.com#?#div[data-skip-link-name="Przejdź do wiadomości"] > div > div > div > div > div:-abp-has( > div input.form-control[placeholder="+1 (702) 123-4567"])
 ozonee.pl###free_shiping_info, #tws_i_2
@@ -5220,6 +5223,7 @@ refunder.pl#?#.fixed:-abp-has( > div[data-id="sticky-register"])
 reporters.pl##.boxzilla-najczesciej-czytacie
 retailnet.pl##.elementor-popup-modal.dialog-widget
 rgbautomatyka.pl###repair-box
+rg-narzedzia.com.pl###allegroiko
 robobat.pl###ReferenceBox
 rodzice.pl###Shopify_button
 rosebelle.pl##.page-loader
@@ -5376,6 +5380,7 @@ www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?##islrg div.isv-r:-abp-has( > div[class] > div[class] > div[class]:-abp-contains(/^Podobne (strony|wyszukiwania)$/))
 www.google.com,www.google.pl#?##rg div.irc-nic.irc-igr:-abp-has( > div[class] > div[class] > div:not([class]):-abp-contains(/^Podobne (strony|wyszukiwania)$/))
+www.gorzow24.pl###nasze_serwisy
 www.onet.pl##.backToMainPage
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
 www.pekao.com.pl##body.loader:before, body.loader:after
@@ -5490,10 +5495,13 @@ pl###widget_easytoread
 pl##.a11y-toolbar-list
 pl##.floating-yt-player
 pl##.header-back-link
+pl##.kac-sm-gmap
+pl##.kac-sm-gmb
 pl##.mraty-widget
 pl##.reklama-box
 pl##.side_widget
 pl##.slideout-widget
+pl##.sm-gmap
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
 pl#?#.cTopicPostArea:-abp-has(.cGuestTeaser)
