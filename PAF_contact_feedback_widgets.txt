@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: thyAo+x9+WHBn37Wx8zWVA
+! Checksum: HVm/2HGLrEzT/hRW3LElpA
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Wed, 17 Feb 2021, 19:09 UTC+01
-! Version: 2021.2.17.0
+! Last modified: Fri, 19 Feb 2021, 11:08 UTC+01
+! Version: 2021.2.19.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,11 +13,12 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 17 lut 2021, 19:09 UTC+01
+! Aktualizacja: pią, 19 lut 2021, 11:08 UTC+01
 !
 !
 !
 ! Specyficzne reguły
+~pl##.sm-panel .sm-messenger:lang(pl)
 3giga.pl###contact-slider
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
 51015kids.eu###custom_trustbadge
@@ -422,7 +423,8 @@ philipsagd.pl###fixed-contact
 picodi.com###oneSignalBell, #onesignal-bell-container
 pikio.pl###chatBot
 pityver.pl###widget.tada.widget
-placowka.znanylekarz.pl###hubspot-messages-iframe-container
+placowka.znanylekarz.pl,speak-up.pl###hubspot-messages-iframe-container
+pl##.sm-panel .sm-messenger
 pl.000webhost.com##div[style="cursor: pointer;"]
 pl.canalplus.com##.AsideButtons
 pl.canalplus.com###button-call, #button-lead
@@ -511,6 +513,7 @@ smartney.pl##app-smartney-float-button
 snp-poland.com###contact-widgets
 soisk.pl##.aio-contact-parent
 soselectronic.pl###report-bug-open-popup-button
+speak-up.pl###left-buttons #formularz
 specialfitness.pl###allegro-widget
 specshop.pl###edge-slide-box
 sprzedajemy.pl###openUserSuggestionWindowBtn
