@@ -59,7 +59,6 @@ muzykotekaszkolna.pl##.filter-choise:style(background-color: rgb(220,0,0) !impor
 mycenter.pl##.top_cart:style(position: absolute !important; top: -35px !important;)
 m.box.com##.app-banner-enabled div.page:style(top: 0 !important;)
 m.box.com##.mobile-app-banner
-!m.youtube.com##+js(aeld, visibilitychange, [native code])
 narcyz.com.pl##div[style^="overflow: hidden;"]:style(overflow: auto !important;)
 newonce.radio##a.sidenav-social-link:nth-of-type(2):style(color: red !important;)
 onet.pl,~~www.onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important;)
@@ -95,6 +94,7 @@ www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 www.dobreprogramy.pl##.ignored:not(:hover):not(:active):not(:focus):style(opacity: 0.1 !important;)
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
+!m.youtube.com##+js(aeld, visibilitychange, [native code])
 !pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
 !pomponik.pl##^div[class="topbar-container"], a[class="common-header__interia-back-button"]
 !spolem.katowice.pl##html > body:style(overflow-x: visible !important;)
