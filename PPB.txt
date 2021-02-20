@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: xyaPpe3zeJDvVv+UVJEYxw
+! Checksum: yD+VqH1lRJ7U3XOFrxcfLA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Fri, 19 Feb 2021, 19:08 UTC+01
-! Version: 2021.2.19.1
+! Last modified: Sat, 20 Feb 2021, 15:08 UTC+01
+! Version: 2021.2.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pią, 19 lut 2021, 19:08 UTC+01
+! Aktualizacja: sob, 20 lut 2021, 15:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -155,7 +155,7 @@ avlab.pl#?#.elementor-widget-container > .elementor-flip-box:-abp-has(a[href="#n
 awa24.pl##div[class^="stopka"] > div[class^="newsletter"]
 azbudownictwo.com,eglobalcentralpl.com,jogapiekna.com,media-tech.eu,reserved.com,x-lander.com##.footer-newsletter
 azdoc.pl##div.col-md-6.p-4:nth-of-type(2)
-azjatyckibazar.com###footer > div.col-sm-no-pd.col-sm-4:nth-of-type(1)
+azjatyckibazar.com##.site-footer__item-inner--newsletter
 azzun.pl##.site-footer__ezine-hld
 b2btrade.eu#?#.vertical-top.rwd-col-6:-abp-contains(newsletter)
 babyboom.pl##.zapisz-newsletter
@@ -5113,6 +5113,7 @@ naekranie.pl###prezentownik
 naekranie.pl##.side-promo, .weekend-edition-header, .floating.share-buttons, .floating.social-buttons
 najlepszebuty.com.pl##.fixed-promo-banner
 namyslow.eu##.hidden-sm.hidden-xs.airly-boczny, .hidden-sm.hidden-xs.pasek-boczny
+napiachu.pl#?#.blueNotification:-abp-has(a[href="/konto-plazowicza"])
 nastopy.pl##.rightSlide
 nastopy.pl###ceneo-widget
 nastopy.pl###ri-widget
