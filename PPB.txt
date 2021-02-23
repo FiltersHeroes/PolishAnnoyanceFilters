@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: WyKSsy28JD5DZxg0CjQMNA
+! Checksum: vZN2uyRd/BzF02Y79SFjAg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 22 Feb 2021, 19:08 UTC+01
-! Version: 2021.2.22.0
+! Last modified: Tue, 23 Feb 2021, 19:09 UTC+01
+! Version: 2021.2.23.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 22 lut 2021, 19:08 UTC+01
+! Aktualizacja: wto, 23 lut 2021, 19:09 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -857,6 +857,7 @@ manorhouse.pl##.site-newsletter
 manta.com.pl##.col-md-6.news_right
 marbo-sport.pl###top_newsletter
 marketdino.pl,martextruck.pl##.section-newsletter
+marketingprzykawie.pl##.footerNewsleterContent, .footerNewsleterHeader, .toogleNewsletterBox
 marta-gotuje.pl##.pipdig_widget_subscribe
 martom-hurtownia.pl##.footer-top > div > .row > div:nth-of-type(2)
 masterlease.pl##.blue-green.section
@@ -1067,7 +1068,7 @@ otop.org.pl##div.mcb-section.section:nth-of-type(9)
 otwarte.eu###newsletter-box-slide
 outdoorzy.pl###ft-newsletter
 outhorn.com##footer #subReqForm > div:not(#custom776), footer #subReqForm > h3
-outletarenamoravia.com,woblink.com###footer-newsletter
+outletarenamoravia.com,willisch.pl,woblink.com###footer-newsletter
 outsourcingportal.eu##.newsletterbox
 ozonee.pl###tws_i_3
 o-m.pl##.kafel-newsletter
@@ -1779,7 +1780,7 @@ pl,~znak.com.pl##.newsletter-container
 ! Popupy
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
-3dom.pro,abra-meble.pl,allecco.pl,amso.pl,barbersupply.pl,biogo.pl,bludshop.com,cortland.pl,cudmoda.pl,czasnabuty.pl,eltrox.pl,eurobuty.com.pl,gala24.pl,gry-online.pl,komputerymarkowe.pl,kontigo.com.pl,kosmetykomania.pl,kreatorium.com,krukam.pl,lou.pl,meditrendy.pl,megascena.pl,mghome.pl,modbis.pl,modini.pl,moto-abc.pl,musclepower.pl,muve.pl,olini.pl,primamoda.com.pl,recea.pl,recman.pl,reporteryoung.pl,rylko.com,sadowniczy.pl,shop.massdnm.com,sklep.royal-shop.pl,tendina.pl,tiffanie.pl,tolpa.pl,trena.pl,tvokazje.pl,yalu.pl###edrone--main--pu--container
+3dom.pro,abra-meble.pl,allecco.pl,amso.pl,barbersupply.pl,biogo.pl,bludshop.com,cortland.pl,cudmoda.pl,czasnabuty.pl,eltrox.pl,eurobuty.com.pl,gala24.pl,gry-online.pl,ihaa.pl,komputerymarkowe.pl,kontigo.com.pl,kosmetykomania.pl,kreatorium.com,krukam.pl,lou.pl,meditrendy.pl,megascena.pl,mghome.pl,modbis.pl,modini.pl,moto-abc.pl,musclepower.pl,muve.pl,olini.pl,primamoda.com.pl,recea.pl,recman.pl,reporteryoung.pl,rylko.com,sadowniczy.pl,shop.massdnm.com,sklep.royal-shop.pl,tendina.pl,tiffanie.pl,tolpa.pl,trena.pl,tvokazje.pl,yalu.pl###edrone--main--pu--container
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
 24hurt.pl##.wt-popup, #overlay
@@ -2817,7 +2818,7 @@ pl##.livecall-widget-container
 !
 ! Powiadomienia push
 2conv.com,flv2mp3.by,flvto.biz##.push-offer
-3dom.pro,abra-meble.pl,allecco.pl,amso.pl,biogo.pl,bludshop.com,cortland.pl,cudmoda.pl,czasnabuty.pl,eurobuty.com.pl,gry-online.pl,komputerymarkowe.pl,kontigo.com.pl,kosmetykomania.pl,krukam.pl,megascena.pl,mghome.pl,modbis.pl,musclepower.pl,muve.pl,olini.pl,primamoda.com.pl,recea.pl,reporteryoung.pl,rylko.com,sadowniczy.pl,sklep.royal-shop.pl,tendina.pl,tiffanie.pl,tolpa.pl,trena.pl,tvokazje.pl,yalu.pl###edrone_push--bubble, #edrone--push--alert--box
+3dom.pro,abra-meble.pl,allecco.pl,amso.pl,biogo.pl,bludshop.com,cortland.pl,cudmoda.pl,czasnabuty.pl,eurobuty.com.pl,gry-online.pl,ihaa.pl,komputerymarkowe.pl,kontigo.com.pl,kosmetykomania.pl,krukam.pl,megascena.pl,mghome.pl,modbis.pl,musclepower.pl,muve.pl,olini.pl,primamoda.com.pl,recea.pl,reporteryoung.pl,rylko.com,sadowniczy.pl,sklep.royal-shop.pl,tendina.pl,tiffanie.pl,tolpa.pl,trena.pl,tvokazje.pl,yalu.pl###edrone_push--bubble, #edrone--push--alert--box
 allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
@@ -3061,7 +3062,7 @@ asrock.com,buyblo.com,leyraa.blogspot.com,plustek.com###goTop
 astra.pisz.pl,lencze.eu,pdm.pisz.pl,portalhodowcy.pl###nav_up
 asus.com##div[class^="ScrollTop__scrollTopWrapper__"]
 athleticsport.pl,bankier.pl,cyberpunk.sklep.pl,device.pl,e-konkursy.info,goldenmark.com,koelnerpolska.pl,m.gotowanie.onet.pl,rawlplug.com,sklepbiegacza.pl,teamquest.pl###goToTop
-atmp.pl,encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl###top
+atmp.pl,b2net.pl,encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl###top
 auchan.pl##.button-go-top
 auchan.pl##.tooltip.right > button ~ button[style*="width: 10px"]
 audio.com.pl###return-btn
@@ -3636,6 +3637,7 @@ swiatpodlog.com.pl###scrolltotop
 swiat-agd.com.pl###up, #go_up
 swietawdomu.pl###tg-scroll-to-top
 szczecin.prywatka.info,wsb.net.pl##.body-back-to-top
+szklanedrzwi.pl###GO_TOP
 szukajwarchiwach.gov.pl###scroolButton
 tadar.pl##.menu_up
 tajfuny.pl##.aux-goto-top-btn
@@ -4630,7 +4632,6 @@ amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,sklep-prest
 ampolska.net,dbpolska.net,reefshop.pl,uni-tech.pl###panel
 amrest.eu##.tour-info
 amso.pl###returns_popup
-amso.pl,creativehobby.pl,modbis.pl,ogrodzenia24.eu,saluti.pl###___ratingbadge_0
 angelsadvertising.pl###qLoverlay
 animeon.pl##.alert-info
 anna-urbanska.pl##.amadeus_recent_posts_widget
@@ -4648,6 +4649,7 @@ arms.com.pl,chipkomputery.pl###basketslider
 artelis.pl##.art-navstripe
 artlazienkowe.pl###widget_shop1 > div:nth-of-type(2)
 asport.pl##.hit-tygodnia
+astronomia.media.pl,szybkaprzemiana.pl##.single-navigation
 ataksja.org.pl,przyszloscdladzieci.org##.fm-teaser
 atthost.pl,~mail.atthost.pl,~panel.atthost.pl,~secure.atthost.pl,~webmail.atthost.pl##.hosting_info
 audioforte.com.pl,master1.pl##.floating-menu
@@ -4855,8 +4857,8 @@ facetemjestem.pl##.uk-hidden-small, .sidebar-sticky
 fakty.tvn24.pl##.headerStickyContainer
 feriogaj.com##.riding-box
 filehippo.com###avast-seal, .avast-promo
+filmweb.pl##.loginEncourageTooltip
 filmweb.pl##.page.filmPage ~ .page, .page.newsPage ~ .page
-filmweb.pl##.vjs-preloading.vjs-inactive.video-js:after
 finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,turystyka.wp.pl,wiadomosci.wp.pl#?#div > div > div > div > div > div > div > div > div > div:-abp-has(aside:-abp-contains(następny artykuł))
 firmyinzynieria.com###sideButtons.load
 fitdiet.pl,poid.eu###ajax-loading-screen
@@ -5320,7 +5322,6 @@ sympatia.onet.pl###iconsBar
 szkolajazdykoronamm.pl##.spjwidget-double a[href$="/szkola-jazdy-korona-mm,20821.htm?widget=register"]
 sznyt.pl##.recommended-articles
 szpitalepomorskie.eu###loftloader-wrapper
-szybkaprzemiana.pl##.single-navigation
 tabletowo.pl##.wpisw, .under-title-line
 tablety.pl##p > .wp-embedded-content
 tamaj.pl###allwidget
@@ -5494,6 +5495,7 @@ z-hotel.com###repuso_floating
 !
 ! Inne elementy - ogólne reguły
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
+~pl###___ratingbadge_0:lang(pl)
 ~pl##.mraty-widget:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 pl##.bilet
@@ -5518,6 +5520,7 @@ pl###upprev_box
 pl###userwayAccessibilityIcon
 pl###widget-allegro
 pl###widget_easytoread
+pl###___ratingbadge_0
 pl##.a11y-toolbar-list
 pl##.floating-yt-player
 pl##.header-back-link
