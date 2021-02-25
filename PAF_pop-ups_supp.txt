@@ -39,8 +39,8 @@ archonhome.pl,cyberdefence24.pl,defence24.com,defence24.pl,energetyka24.com,inte
 arslege.pl##body[style*="hidden"]:style(overflow: auto !important;)
 atthost.pl##html[style], body[style]:style(overflow: auto !important;)
 atthost.pl##.popexit_active.popexit_bg
+at-outlet.pl,bilscy.info,nalepsze.pl,pantalerzyk.pl,selkar.pl,sklep.technica.pl,sklepkamil.pl,zico-bike.pl##.newsletter-modal, .modal-backdrop
 at-outlet.pl,miastakobiet.pl,selkar.pl,sklepkamil.pl,teamquest.pl,tvokazje.pl##.modal-open:style(overflow: visible !important;)
-at-outlet.pl,nalepsze.pl,pantalerzyk.pl,selkar.pl,sklep.technica.pl,sklepkamil.pl,zico-bike.pl##.newsletter-modal, .modal-backdrop
 auchandirect.pl##.prehomepage.featherlight
 auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 autonaminuty.org##html[style]:style(overflow-y: auto !important; margin-right: 0 !important;)
@@ -61,7 +61,7 @@ befado.pl###r_popup
 belvederehotel.pl##+js(aopr, pf_queen.push)
 beta.netia.pl##body[style="overflow: hidden;"]:style(overflow: auto !important;)
 beta.netia.pl##.popup-beta
-bilety24.pl,biznes-host.pl,confronter.pl,darmarsklep.pl,dhosting.pl,dwdomel.pl,endo.pl,kartafitsport.pl,kuriernet.pl,kurspolskiego.pl,marchewkowepole.com,mikesport.pl,minecraft.org.pl,mintshost.pl,nalepsze.pl,nowafarmacja.pl,pantalerzyk.pl,panwybierak.pl,portaloswiatowy.pl,prusice.pl,sklep.polmarkus.com.pl,sklep.technica.pl,um24.pl,walizkazabawek.pl,zico-bike.pl##.modal-open:style(overflow: auto !important;)
+bilety24.pl,bilscy.info,biznes-host.pl,confronter.pl,darmarsklep.pl,dhosting.pl,dwdomel.pl,endo.pl,kartafitsport.pl,kuriernet.pl,kurspolskiego.pl,marchewkowepole.com,mikesport.pl,minecraft.org.pl,mintshost.pl,nalepsze.pl,nowafarmacja.pl,pantalerzyk.pl,panwybierak.pl,portaloswiatowy.pl,prusice.pl,sklep.polmarkus.com.pl,sklep.technica.pl,um24.pl,walizkazabawek.pl,zico-bike.pl##.modal-open:style(overflow: auto !important;)
 bilety24.pl,moliera2.com,quiosque.pl###newsletter-popup, .modal-backdrop
 bilkom.pl###promopopup, .modal-backdrop
 biofemina.pl,rajsoczewek.pl,vebo.pl,wokularach.pl###news_popup, #news_popup ~ .modal-backdrop
@@ -547,12 +547,12 @@ zoo.bydgoszcz.com$$#NewsShow
 !#if ext_ublock
 annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:has( + #colorbox:has(#newsletter_colorbox):style(visibility: hidden !important;)}
 annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox):style(visibility: hidden !important;)
-eska.pl##+js(ra, style, .popupCity[style*="visible"])
-eska.pl##+js(ra, style, .popupCity[style*="visible"], complete)
-eska.pl##.popupCity:not([style])
 lento.pl##+js(ra, style, .box-modal-notify, #lightoverlay)
 www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
 www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
+www.eska.pl##+js(ra, style, .popupCity[style*="visible"])
+www.eska.pl##+js(ra, style, .popupCity[style*="visible"], complete)
+www.eska.pl##.popupCity:not([style])
 !#endif
 !#if cap_user_stylesheet
 !www.vivrehome.pl##.js-popup-subscribe:not([style]):watch-attr(style):has(.js-title-default.is-hidden:watch-attr(class))
