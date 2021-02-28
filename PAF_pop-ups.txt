@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ViB48013fzdER2ky3PrBfA
+! Checksum: wlt9I6sG7gjzynORprMqew
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 25 Feb 2021, 11:08 UTC+01
-! Version: 2021.2.25.0
+! Last modified: Sun, 28 Feb 2021, 19:08 UTC+01
+! Version: 2021.2.28.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: czw, 25 lut 2021, 11:08 UTC+01
+! Aktualizacja: nie, 28 lut 2021, 19:08 UTC+01
 !
 !
 !
@@ -497,10 +497,9 @@ media-tech.eu,vanitysklep.pl###OverlayContainer_rcw
 medicalclinic.pl,xn--przesy-energii-lnc.pl,zobraczkaczybez.pl##.wppopups-whole
 medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
 medonetmarket.pl##.safety-popup-rectangle
-medonet.pl##.haloDoctorPopup
-medonet.pl##.pushNotifiPopup
-medonet.pl##.withHPU:before
-medonet.pl##.withPNP:before
+medonet.pl##.haloDoctorPopup, .pushNotifiPopup
+medonet.pl##.medonet_healthtestpopup_opened
+medonet.pl##.withHPU:before, .withPNP:before
 mencare.pl###fx-popup
 metal-bud.eu##.banner-b2b
 metin2list.pl###news_popup
