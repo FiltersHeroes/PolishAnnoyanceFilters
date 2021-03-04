@@ -1,11 +1,14 @@
 atthost.pl,~mail.atthost.pl,myjki.com,~panel.atthost.pl,~secure.atthost.pl,~webmail.atthost.pl##+js(aopw, document.title)
 bludshop.com##+js(acis, window.onblur, Wróć na bludshop.com)
 casedrop.eu##+js(aeld, blur, title_on_blur)
+drtusz.pl##+js(acis, $, Wróć na)
 dziennikprawny.pl,picodi.com##+js(aopr, titleBack)
+keko.pl##+js(aopr, document.title)
 naekranie.pl##+js(aeld, visibilitychange, Zzzz)
 nocowanie.pl##+js(acis, changeTitle, Wróć)
 prawokonsumenckie.pl##+js(set, setReplyTitle, noopFunc)
 przepisy.pl##+js(aeld, visibilitychange, zone_symbol__propagationStopped)
+taniaksiazka.pl##+js(set, BLUR_TITLE, '')
 wrc.net.pl##+js(aeld, blur, function(a){return void 0===n||a&&n.event.triggered===a.type?void 0:n.event.dispatch.apply(k.elem,arguments)})
 !bludshop.com##+js(aopr, onblur)
 !bludshop.com,casedrop.eu,www.mbank.pl##+js(aopr, document.title)
@@ -13,6 +16,3 @@ wrc.net.pl##+js(aeld, blur, function(a){return void 0===n||a&&n.event.triggered=
 !globkurier.pl##+js(aopr, browser_tab_title_params)
 /wp-content/plugins/change-browser-tab-title-when-tab-is-not-active/public/js/browser-tab-title-reminder-public.js$script,domain=pl
 ||mbank.pl/.elements/alternative-title.html.i$xhr,domain=www.mbank.pl
-taniaksiazka.pl##+js(set, BLUR_TITLE, '')
-keko.pl##+js(aopr, document.title)
-drtusz.pl##+js(acis, $, Wróć na)
