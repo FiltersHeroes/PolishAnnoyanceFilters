@@ -1,10 +1,10 @@
-! Checksum: xjke/Yy1ifP6ZSRyqMCSxw
+! Checksum: RkvS4XFhrWbRS9A+YoUL6w
 ! Title: Polskie Filtry Elementów Irytujących - Powrotowe Tytuły
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Tue, 23 Feb 2021, 19:08 UTC+01
-! Version: 2021.2.23.0
+! Last modified: Fri, 05 Mar 2021, 11:08 UTC+01
+! Version: 2021.3.5.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,17 +12,20 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 23 lut 2021, 19:08 UTC+01
+! Aktualizacja: pią, 05 mar 2021, 11:08 UTC+01
 !
 !
 atthost.pl,~mail.atthost.pl,myjki.com,~panel.atthost.pl,~secure.atthost.pl,~webmail.atthost.pl##+js(aopw, document.title)
 bludshop.com##+js(acis, window.onblur, Wróć na bludshop.com)
 casedrop.eu##+js(aeld, blur, title_on_blur)
+drtusz.pl##+js(acis, $, Wróć na)
 dziennikprawny.pl,picodi.com##+js(aopr, titleBack)
+keko.pl##+js(aopr, document.title)
 naekranie.pl##+js(aeld, visibilitychange, Zzzz)
 nocowanie.pl##+js(acis, changeTitle, Wróć)
 prawokonsumenckie.pl##+js(set, setReplyTitle, noopFunc)
 przepisy.pl##+js(aeld, visibilitychange, zone_symbol__propagationStopped)
+taniaksiazka.pl##+js(set, BLUR_TITLE, '')
 wrc.net.pl##+js(aeld, blur, function(a){return void 0===n||a&&n.event.triggered===a.type?void 0:n.event.dispatch.apply(k.elem,arguments)})
 !bludshop.com##+js(aopr, onblur)
 !bludshop.com,casedrop.eu,www.mbank.pl##+js(aopr, document.title)
