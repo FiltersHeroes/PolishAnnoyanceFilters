@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xrVCLs+mAU/Njlt2IxPYcA
+! Checksum: 9JiGS3FYP03F6LxVJ6GmSQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 07 Mar 2021, 19:08 UTC+01
-! Version: 2021.3.7.0
+! Last modified: Mon, 08 Mar 2021, 11:08 UTC+01
+! Version: 2021.3.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 07 mar 2021, 19:08 UTC+01
+! Aktualizacja: pon, 08 mar 2021, 11:08 UTC+01
 !
 !
 !
@@ -785,7 +785,7 @@ konfederacjalewiatan.pl###bazo_form_popup0
 konstantinkanin.com###mailchimp-top-bar
 kontaktowe.pl###nbj
 kontakt-simon.com.pl##.newsletter-subscribe__button
-kopalniasrebra.com,texasclub.pl##.newsletter1-wrapper
+kopalniasrebra.com,sklep.miodyapis.pl,texasclub.pl##.newsletter1-wrapper
 kormoran-rowy.pl##.site-footer__row--top > .inner-section > .align-right.site-footer__col
 koszulkomat.eu##div.group:nth-of-type(5)
 koszulkowo.com##.sec--foot__main__box:nth-of-type(2)
@@ -827,6 +827,7 @@ laroche-posay.pl##.ctn_newsletter
 laroche-posay.pl##.ctn_newsletterl, .widget_popin_newsletter
 lasuch24.pl###box_biuletyn
 latarki.pl##.bakedparallax-wrapper
+latarnia.teatrnn.pl###main_oferta > div:nth-of-type(2), #main_oferta > div:nth-of-type(2) + form
 lawendowykredens.pl##.footer-static > div.col-sms-12:nth-of-type(3)
 lebork24.info###newsletterAdd
 legalnews24.pl##.bezplatny_bliuletyn
@@ -884,6 +885,7 @@ maxibike.pl##.newsletter-holder
 max-protect.pl,sklep-smile.pl##.footer-block-contain > .block1
 mazovia.pl##.clearfix > .nice-shadow.search-block
 mazury.travel,moliera2.com###newsletter_box
+mba.umlub.pl#?##sp-bottom2 div.sp-module:nth-of-type(2):-abp-has(form input[type="email"])
 mbmeganarzedzia.pl,motogron.com##.footer-container > div > div > div:nth-of-type(4)
 mbp.szczecin.pl#?#.elementor-inner-column.elementor-element[data-settings*="background"][data-settings*="classic"] > .elementor-element-populated.elementor-column-wrap:-abp-has(h4:-abp-contains(/^Zapisz się do naszego newslettera$/))
 mcm-milicz.pl###main > #page:matches-css(width: 0px)
@@ -1077,6 +1079,7 @@ oracle.com##.cw21signup
 orange.pl##div.u-xsmall-no-margin.u-small-margin-xl.opl-footer__linksbox.l-col-2.l-col:nth-of-type(4)
 orange.pl###newsletterSkipLink, .opl-footer__newsletter
 orange.pl##.opl-footer-for-poc__newsletter
+organizatorzyimprez.pl###left > h2:nth-of-type(6), #left > h2:nth-of-type(6) ~ form
 orlenoil.pl###WebPartWPQ3
 orlen.pl##div[id$="pnlNewsletter"]
 orsay.com##.newsletter-subscription-section
@@ -1353,6 +1356,7 @@ sklep.polska-zbrojna.pl##.newsletter-widget-4
 sklep.powermat.pl##div.foot-group:nth-of-type(4) > .list-group > h5 > a[href="#"]
 sklep.regalia.eu##footer > .row > .footer-block:only-child
 sklep.skrypt.com.pl##.footer-conteiner > ul:nth-of-type(3)
+sklep.spidersweb.pl###nslt
 sklep.swiatkwiatow.pl,twojszklarz.pl##.subscribe-block
 sklep.tonerylublin.pl##ul:nth-of-type(4)
 sklep.vileda.pl###newsletter-category
@@ -1552,6 +1556,7 @@ varlesca.pl##.col-sm-6.col-md-6.col-lg-3:nth-of-type(4)
 varsoviaapartamenty.pl##.js-override-form.footer-ezine__form-hld
 verdykt.pl##.contact.item
 vertedrzwi.eu##.newsletter_fixed_button
+victoria-niemodlin.pl##div.box_margin:nth-of-type(2)
 vidart.com.pl##.moduletableacy-email-footer
 vidaxl.pl##.newsletter-item
 villaitalia.pl##div.list-group.foot-group:nth-of-type(4)
@@ -1730,6 +1735,7 @@ zyciepabianic.pl###widget-newsletter
 ||genway.pl/images/frontend/theme/whitegen/social/newsletter.png
 ||i.perspektywy.pl/pages/jhovngq2lj/banners/mK4grpLfjKJ6TBaB8qTswUB1bvzLEfswEXse4LSH.png
 ||klinkierbud.pl/css/img/baner_newsletter.jpg
+||newsletter.muzeum1939.pl^$subdocument
 ||obi.pl/images/footer/newsletter.jpg
 ||oknoserwis.pl/img/newsletter.gif
 ||ratownicy24.pl/wp-content/themes/naratunek/img/newsletter.jpg
@@ -1758,7 +1764,7 @@ zyciepabianic.pl###widget-newsletter
 ~audio.com.pl,~karta.org.pl,~pap-mediaroom.pl,pl,~poczta.wp.pl,~znak.com.pl##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input)
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,pl###newsletter:not(.modal)
 ~dron.pl,pl##.widget_wysija
-~ksiegarnia-edukacyjna.pl,pl###menu_newsletter
+~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
 ~pap.pl,pl###newsletter-form
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
