@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: R14KHb2UWLVoxu7EjeBgZw
+! Checksum: QqxtjViu0xDn2dvNXZ+omw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 14 Mar 2021, 15:08 UTC+01
-! Version: 2021.3.14.1
+! Last modified: Sun, 14 Mar 2021, 19:08 UTC+01
+! Version: 2021.3.14.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 14 mar 2021, 15:08 UTC+01
+! Aktualizacja: nie, 14 mar 2021, 19:08 UTC+01
 !
 !
 !
@@ -331,7 +331,7 @@ giftshop24.pl#?##x13popup-container:-abp-has([src^="https://giftshop24.pl/img/cm
 girya.com.pl###popupanything
 gizchina.com.pl,selectivv.com##.popmake
 godealla.pl###coupon-groupon, #coupon-groupon-overlay
-godealla.pl,wakacjezprocentem.pl##.overlay
+godealla.pl,mpolska24.pl,wakacjezprocentem.pl##.overlay
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
 goodie.pl###video-banner-modal
 gpcodziennie.pl###JPO
@@ -525,6 +525,7 @@ moovitapp.com,polmed.pl##.md-dialog-container, .md-dialog-backdrop
 morele.net##.bottomFixedPopup
 morizon.pl##.lendiSubmenu
 motobros.pl,rooader.pl,sklep.mieloch.pl###nicePopupWrapper
+mpolska24.pl##.window
 mpolska24.pl###before-leave-window
 mtv24.tv###mdfb
 multidrogeria.pl,sprzedajemytkaniny.pl##.pupup
@@ -996,6 +997,7 @@ zszywka.pl###inv-request-popup
 ||phf-bosch.pl/kartki/kartki.js
 ||player.vimeo.com/video/*?autoplay=1$subdocument,domain=fakro.pl
 ||podaj.to/content/js/facebook.min.js
+||popups.landingi.com/api/popups/$subdocument
 ||popups.landingi.com/api/v2/website/add-popups$xmlhttprequest,domain=marketplanet.pl
 ||popup.bitdefender.pl^
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
