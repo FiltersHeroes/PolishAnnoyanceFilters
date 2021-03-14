@@ -1163,7 +1163,7 @@ polityka.pl##.cg_newsletter
 polityka.pl##.md-side-newsletter-signup
 polnox.pl##ul:nth-of-type(3)
 polskacanada.com###alo_easymail_widget_form
-polska-zbrojna.pl##iframe[id^="fm-"][src*="freshmail.io"]
+!polska-zbrojna.pl##iframe[id^="fm-"][src*="freshmail.io"]
 polska.travel##.fixed-elements
 polskieradio.com##.post-widget.widget:nth-of-type(4) > .post-widget.widget
 polskimarket.de,polskimarket.nl##.fn-title, #footer_newsletters, .fn-description
@@ -1586,7 +1586,7 @@ webinsider.pl#?#h5:-abp-contains(Newsletter)
 websiteplanet.com##.sub-newsletter
 wegannerd.blogspot.com###HTML7
 wegeguru.pl##.bs-standard.home-header > div > .form.col
-wei.org.pl#?#.et_pb_section:-abp-has(div > iframe[src*="//forms.freshmail.io/"])
+!wei.org.pl#?#.et_pb_section:-abp-has(div > iframe[src*="//forms.freshmail.io/"])
 werandacountry.pl##div.gkmod-3.box:nth-of-type(1) > .header
 werandafamily.com##.home-nesletter
 werandaweekend.pl##.right > div.title:nth-of-type(1)
@@ -1724,9 +1724,9 @@ zyciepabianic.pl###widget-newsletter
 ||carry.pl//themes/default/img/newsletter1.png
 ||dobremiejsce.org/wp-content/themes/dobremiejsce_org_pds/images/s2-980.jpg
 ||duckduckgo.com/assets/icons/footer/newsletter.svg$image
-||forms.freshmail.io/f/$subdocument,domain=pl
-||forms.freshmail.io/f/$subdocument,domain=pulsembed.eu|1242.eu
-||forms.freshmail.io/f/$subdocument,domain=ita.tools
+||forms.freshmail.io^$subdocument,domain=pl
+||forms.freshmail.io^$subdocument,domain=pulsembed.eu|1242.eu
+||forms.freshmail.io^$subdocument,domain=ita.tools
 ||forms.freshmail.io^$subdocument,domain=hurtownia-spozywcza.pl
 ||genway.pl/images/frontend/theme/whitegen/social/newsletter.png
 ||i.perspektywy.pl/pages/jhovngq2lj/banners/mK4grpLfjKJ6TBaB8qTswUB1bvzLEfswEXse4LSH.png
