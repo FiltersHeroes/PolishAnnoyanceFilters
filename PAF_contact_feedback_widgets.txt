@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: bYIFnYsqOOz/o9lu3RirTA
+! Checksum: Sbh8diviatIeZlkqh+yKrA
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 14 Mar 2021, 19:08 UTC+01
-! Version: 2021.3.14.1
+! Last modified: Mon, 15 Mar 2021, 11:08 UTC+01
+! Version: 2021.3.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 14 mar 2021, 19:08 UTC+01
+! Aktualizacja: pon, 15 mar 2021, 11:08 UTC+01
 !
 !
 !
@@ -168,6 +168,7 @@ doniczki-poznan.pl##.cd-nav-trigger
 dormeo.pl,topshop.pl###slider_k2c
 dreamtours.pl###info-box
 dreamtours.pl##.popup-call-me-now > .widget
+dreamtours.pl,dzinga.com,topfish.pl,unitrailer.pl,vitamoc.pl##.popup__center[class*="call-me-"] .widget:not([class*="hide"])
 dressinn.com##.chat_icono
 duckduckgo.com##.js-feedback-btn-wrap
 dulux.pl###as-wc-id
@@ -332,7 +333,7 @@ kylos.pl###chatstack-container
 lajtmobile.pl##.tlswebcall-init
 laserdelux.pl#?#.navbar-fixed-bottom:-abp-has(.footer-opinion.action)
 lento.pl##.btn-suggest
-lexus-krakow.com.pl###dzingaCallbackWidget
+lexus-krakow.com.pl###dzingaCallbackWidget, .popup__center[class*="call-me-"] .widget:not([class*="hide"])
 libertex.com###sherlockWidget
 lidl-sklep.pl##.feedback-flyout__button-box
 lightingcenter.pl,mniammniam.com,sklephonda.pl###o-widget-lws
@@ -471,7 +472,7 @@ rainbowzoom.pl###lz_overlay_chat
 reaktor.pwn.pl##.tab.mail, .tab.phone
 recepta.pl##.help-widget
 redosystem.com.pl###customer-chat-iframe
-regalka.pl###gr-spnotifications
+regalka.pl,sklep.grupamagnum.eu###gr-spnotifications
 rena.pl###contactFixed
 rgbautomatyka.pl###help-box
 rivieraparkmarvipol.pl##.messenger
@@ -570,7 +571,6 @@ ucando.pl##.call-us
 unia-sklep.pl##.float, .float2
 unia.pl###opiniac_blk
 union-investment.pl###woa-widget
-unitrailer.pl##.popup__center[class*="call-me-"] .widget:not([class*="hide"])
 uzbira.pl###reviewsWidgetButton
 velux.pl##.LPMcontainer
 vidok.com##.box-special-contact-icon
@@ -580,7 +580,6 @@ viralka.pl##.widget_boombox_social
 virginmobile.pl###crazycall-click-to-call-container
 virtualmedia.pl###formularz
 virustotal.com###walkthrough ~ vt-ui-contact-fab
-vitamoc.pl###dzinga
 vitay.pl###serviceRatingBox
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(1)
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(2)
@@ -617,7 +616,6 @@ zrzutka.pl##.uv-bottom-right
 !www.orange.pl##iframe[src*="://orange.binaries.pl"][id][style^="position: fixed"]
 /pl/at-call/call-me.js$script,domain=lessmess.storage
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
-||account.dzinga.com/callback/script.js
 ||airport.com.pl/livezilla/server.php
 ||amazonaws.com/app*.sugester.com/*/chat/*/widget.js$script,domain=www.dwdomel.pl
 ||amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
@@ -642,6 +640,7 @@ zrzutka.pl##.uv-bottom-right
 ||cxel.fcc-online.pl/chat/widget.js
 ||czater.pl/assets/modules/chat/js/chat.js
 ||czater.pl/assets/sounds/*$media,domain=www.czater.pl
+||dzinga.*/callback/script.js$domain=dreamtours.pl|~dzinga.com|topfish.pl|unitrailer.pl|vitamoc.pl
 ||ebok.kierus.com.pl/scripts/button.php
 ||embed.tawk.to^$script,third-party
 ||google.com/shopping/customerreviews/badge$domain=specshop.pl
