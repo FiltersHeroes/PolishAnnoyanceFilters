@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: JVj1O2xdJxY/fhmvvUts1Q
+! Checksum: TnZyXRekDe7SPYsE6g9b6A
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 14 Mar 2021, 22:08 UTC+01
-! Version: 2021.3.14.3
+! Last modified: Tue, 16 Mar 2021, 19:08 UTC+01
+! Version: 2021.3.16.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 14 mar 2021, 22:08 UTC+01
+! Aktualizacja: wto, 16 mar 2021, 19:08 UTC+01
 !
 !
 !
@@ -239,7 +239,7 @@ dominospizza.pl##.popup_exit, .overlay, #jsNewsletterLayer
 domisad.pl###banner-subs
 doubletreewarsaw.pl##.popout__container
 dowbit.pl,moneygrabbing.co.uk##.mcwidget-overlay
-dreamtours.pl,dzinga.com,topfish.pl,unitrailer.pl,vitamoc.pl###dzinga
+dreamtours.pl,dzinga.com,topfish.pl,unitrailer.pl,vitamoc.pl###dzinga .overlay, #dzinga .popup
 dreweks.eu###x13popup-container, #x13popup-cover
 drogeriadicentra.pl,regalka.pl,shop.albione.eu,sklep.feba.pl,superheroes.com.pl,voip24sklep.pl##.fx-wrapper-modal
 drukmistrz.pl##.mf-loaded.mf-animate.mf-modal-iframe-middle.mf-modal-iframe
@@ -956,7 +956,6 @@ zszywka.pl###inv-request-popup
 ||downloads.mailchimp.com/js/signup-forms/popup/embed.js
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||duzekubki.pl/wp-content/plugins/woocommerce-mailchimp-discount/assets/js/jquery.magnific-popup.min.js
-||dzinga.*/callback/?callback*$script,domain=dreamtours.pl|~dzinga.com|topfish.pl|unitrailer.pl|vitamoc.pl
 ||ebrokerpartner.pl/js/frontend/modules/popup.js
 ||galeriabronowice.pl/templates/gb/js/fancybox/jquery.fancybox.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/js/popups.js
