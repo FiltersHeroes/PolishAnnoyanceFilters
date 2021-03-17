@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: vHUfVZKylKCr29l3E9g1ow
+! Checksum: GfLmHiAr8Ahem+oSK1ZZfg
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Thu, 04 Mar 2021, 11:08 UTC+01
-! Version: 2021.3.4.0
+! Last modified: Wed, 17 Mar 2021, 11:08 UTC+01
+! Version: 2021.3.17.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: czw, 04 mar 2021, 11:08 UTC+01
+! Aktualizacja: śro, 17 mar 2021, 11:08 UTC+01
 !
 !
 !
@@ -262,6 +262,7 @@ pasieka24.pl#?#.wtnews.tab-content:-abp-has(h4 > a:-abp-contains(Prenumerata))
 pcformat.pl##.current-paper
 pcformat.pl##.featured-4
 pcformat.pl##.paper-cont
+perspektywy.pl##div.module-banner:nth-of-type(4) > a[href*="/banner/4ycifizjhj/click"]
 pilkanoznadladzieci.pl##div.col-sm-4.spb-column-container:nth-of-type(1)
 pilkanoznadladzieci.pl##div.col-sm-4.spb-column-container:nth-of-type(3)
 pilkanoznadladzieci.pl##section.dynamic-header-change.fw-row.row:nth-of-type(1)
@@ -403,6 +404,7 @@ zycie.pl##.right #multiple-versions, #premium-slide
 ||gpcodziennie.pl/images/eprenumerata_bottom.png
 ||gpcodziennie.pl/okl_gp.php$image
 ||gpcodziennie.pl/okl_np.php$image
+||i.perspektywy.net/pages/jhovngq2lj/banners/Si3hnyb96kNP8I1TSSq2rl58g2fbiYxDNyQCR8LR.jpeg$domain=perspektywy.pl
 ||i.perspektywy.pl/pages/jhovngq2lj/banners/QIaYeglgZJIxBURaKzhEVaenkFbseSsBNabn5lcV.jpeg
 ||i.perspektywy.pl/pages/jhovngq2lj/banners/dzxJ753hSuAaVE8nTYOtqs9TVrYVgsKe4WRvOFFn.jpeg
 ||jagodnik.pl/wp-content/uploads/2020/02/MF2018-1.png
