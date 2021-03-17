@@ -26,11 +26,11 @@
 !
 !
 ! Popupy
-@COMBINEinclude popupy https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+@COMBINEinclude popupy https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy
 !
 !
 ! Popupy - ogólne reguły
-@COMBINEinclude popupy_ogolne https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
+@COMBINEinclude popupy_ogolne https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy_ogolne
 !
 !
 ! Powiadomienia push
@@ -62,7 +62,7 @@
 !
 !
 ! Widżety kontaktowe/informacji zwrotnej
-@COMBINEinclude widgety_kontaktowe_informacji_zwrotnej https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
+@COMBINEinclude widgety_kontaktowe_informacji_zwrotnej https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/widgety_kontaktowe
 !
 !
 ! Widżety kontaktowe/informacji zwrotnej - ogolne reguły
@@ -85,7 +85,7 @@
 @include specjalne
 !
 !
-@include https://raw.githubusercontent.com/hawkeye116477/polish-ads-filter/RTM/cookies_filters/adblock_cookies.txt
+@include https://raw.githubusercontent.com/hawkeye116477/polish-ads-filter/RTM/cookies_filters/adblock_cookies.txt polish-ads-filter/cookies_filters/adblock_cookies
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka Origin i AdGuarda, by użytkownicy nie musieli jej subskrybować
