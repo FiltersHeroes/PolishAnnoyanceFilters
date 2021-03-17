@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: TnZyXRekDe7SPYsE6g9b6A
+! Checksum: 1EV9+DfnlfFoqGUQ9xSwnQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 16 Mar 2021, 19:08 UTC+01
-! Version: 2021.3.16.0
+! Last modified: Wed, 17 Mar 2021, 11:08 UTC+01
+! Version: 2021.3.17.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 16 mar 2021, 19:08 UTC+01
+! Aktualizacja: śro, 17 mar 2021, 11:08 UTC+01
 !
 !
 !
@@ -239,7 +239,6 @@ dominospizza.pl##.popup_exit, .overlay, #jsNewsletterLayer
 domisad.pl###banner-subs
 doubletreewarsaw.pl##.popout__container
 dowbit.pl,moneygrabbing.co.uk##.mcwidget-overlay
-dreamtours.pl,dzinga.com,topfish.pl,unitrailer.pl,vitamoc.pl###dzinga .overlay, #dzinga .popup
 dreweks.eu###x13popup-container, #x13popup-cover
 drogeriadicentra.pl,regalka.pl,shop.albione.eu,sklep.feba.pl,superheroes.com.pl,voip24sklep.pl##.fx-wrapper-modal
 drukmistrz.pl##.mf-loaded.mf-animate.mf-modal-iframe-middle.mf-modal-iframe
@@ -247,6 +246,7 @@ drukmistrz.pl##.mf-modal-overlay
 dzem.com.pl##.mainuro[id]
 dziennikparafialny.pl###itro_popup, #itro_opaco
 dziennik-polityczny.com###dz-popup-follow-us
+dzinga.com###dzinga .overlay, #dzinga .popup
 dzwignice.info###newsletter-popup, .bg
 earlystage.pl###popup-home
 eastend.pl##.nl1.popup-opacity
@@ -933,13 +933,9 @@ zszywka.pl###inv-request-popup
 /wp-includes/js/backbone.min.js$script,~third-party,domain=expander.pl
 ||adeste.eu/wp-content/plugins/convertplug/modules/modal/assets/css/modal.min.css
 ||apaczka.pl/theme/default/lightbox.min.css
-||api.callpage.io/v2/widgets/
-||app.getresponse.com/site2/elearning_news_gromar
-||app.leadreactor.io/api/widget
 ||app.sendbean.pl/api/widget/init$xmlhttprequest,domain=baccata.com.pl|www.angelsadvertising.pl|www.sendbean.pl
 ||audio.com.pl/media/jui/js/jquery.cookie.min.js
 ||a-masterlease.youlead.pl/api/query/popup/SettingsForPopups$script,domain=master1.pl
-||a.mailmunch.co/app/$script,third-party
 ||brilum24.pl/skins/user/rwd_shoper_1/js/remodal.min.js
 ||brytol.com/wp-content/plugins/auto-fb-popup/assets/remodal.min.js
 ||call.novocall.co/v1/widgets$script,domain=krainawody.pl|pij-wode.pl
@@ -953,8 +949,6 @@ zszywka.pl###inv-request-popup
 ||dobrywybor.eu/wp-content/themes/dobrywybor/assets/vendors/magnific/magnific-popup.min.js
 ||dominospizza.pl/js-libraries/bioep.min.js
 ||doradcasmaku.pl/index/get-popup$xmlhttprequest
-||downloads.mailchimp.com/js/signup-forms/popup/embed.js
-||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||duzekubki.pl/wp-content/plugins/woocommerce-mailchimp-discount/assets/js/jquery.magnific-popup.min.js
 ||ebrokerpartner.pl/js/frontend/modules/popup.js
 ||galeriabronowice.pl/templates/gb/js/fancybox/jquery.fancybox.js
@@ -979,7 +973,6 @@ zszywka.pl###inv-request-popup
 ||kuchenny.com.pl/popup/js/jquery.simplemodal.js
 ||liceum.org.pl/modules/mod_mh_ajax_popup/js/mhap.js
 ||losyziemi.pl/?spu_action=spu_load&lang=
-||mailerlite.com^$third-party
 ||mailing.terapiasokami.pl/site2/subskrybenci_terapii_sokami
 ||makita.sklep.pl/szablony/standardowy.rwd/exit-popup/scripts/main.js
 ||mamstartup.pl/newsletter/popup
@@ -995,19 +988,15 @@ zszywka.pl###inv-request-popup
 ||phf-bosch.pl/kartki/kartki.js
 ||player.vimeo.com/video/*?autoplay=1$subdocument,domain=fakro.pl
 ||podaj.to/content/js/facebook.min.js
-||popups.landingi.com/api/popups/$subdocument
 ||popups.landingi.com/api/v2/website/add-popups$xmlhttprequest,domain=marketplanet.pl
-||popup.bitdefender.pl^
+||popup.bitdefender.pl^$popup,subdocument
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
 ||prezeska.pl/wp-content/uploads/pum/pum-site-styles.css
 ||prohibita.pl/addons/welcome/welcome.js
 ||proto.pl/popup_newsletter/settings
 ||regus.pl/Home/OnExitModal$xmlhttprequest
 ||rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
-||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js
-||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||salaterka.pl/wp-content/plugins/optin-cat-personal-wp/assets/vendor/featherlight/release/featherlight.min.js
-||salesmanago.pl/dynamic/*/popups.js
 ||sat-charts.eu/js/fcbkpopup.js
 ||sklep.rms.pl/js/rms_copy_copy/popup.js
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
@@ -1020,7 +1009,6 @@ zszywka.pl###inv-request-popup
 ||virgobooks.pl/modules/advancedpopupcreator/lib/fancybox/jquery.fancybox.transitions.js
 ||webfrik.pl/script/popup-fb
 ||webfrik.pl/widgets/popup/popup.min.js
-||widget.contactleader.pl^$script,third-party
 ||woblink.com/js/newsletterPopup.js
 ||wszystkookotach.pl/wp-content/plugins/popslide/assets/js/front.js
 ||wydawnictwokobiece.pl/wp-content/plugins/newsletter_popup//newsletter_popup.js
@@ -1039,6 +1027,7 @@ pl##body:not(.x13popup-open) #x13popup-container
 pl##body:not(.x13popup-open) #x13popup-cover
 pl###InfoNewsletter
 pl###InfoNewsletterOkno
+pl###dzinga .overlay, #dzinga .popup
 pl###edrone--main--pu--container
 pl###esns_background_layer
 pl###facebook-popup
@@ -1055,6 +1044,7 @@ pl##.facebook-bn_site-overlay
 pl##.facebook-popup
 pl##.hejhej:not(body):not(html)
 pl##.livecall-widget-container
+!~pl###dzinga .overlay:lang(pl), #dzinga .popup:lang(pl)
 /axnewsletter.js
 /plugins/facebook-fanbox-popup
 /plugins/facebook-page-promoter-$~image,~stylesheet
@@ -1063,6 +1053,18 @@ pl##.livecall-widget-container
 /wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
 /wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
+||api.callpage.io/v2/widgets/
+||app.getresponse.com/site2/elearning_news_gromar
+||app.leadreactor.io/api/widget
+||a.mailmunch.co/app/$script,third-party
+||downloads.mailchimp.com/js/signup-forms/popup/embed.js
+||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
+||mailerlite.com^$third-party
+||popups.landingi.com/api/popups/$subdocument
+||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js
+||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
+||salesmanago.pl/dynamic/*/popups.js
+||widget.contactleader.pl^$script,third-party
 !
 !
 ! Reguły specjalne
