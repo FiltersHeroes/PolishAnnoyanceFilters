@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: u27vbOjq/XQZZF+fYBJbVg
+! Checksum: G0Q+zW9hC6R1zhkV4RT7+g
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Wed, 17 Mar 2021, 11:08 UTC+01
-! Version: 2021.3.17.0
+! Last modified: Thu, 18 Mar 2021, 11:08 UTC+01
+! Version: 2021.3.18.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,11 +13,12 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 17 mar 2021, 11:08 UTC+01
+! Aktualizacja: czw, 18 mar 2021, 11:08 UTC+01
 !
 !
 !
 ! Specyficzne reguły
+#@ >>>>>>>> https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt + widgety_kontaktowe_informacji_zwrotnej.txt
 ~pl##.sm-panel .sm-messenger:lang(pl)
 3giga.pl###contact-slider
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
@@ -678,6 +679,7 @@ zrzutka.pl##.uv-bottom-right
 ||www.facebook.com/v*/plugins/customerchat.php$third-party
 ||znamibezpiecznie.pl/images/kontakt.png
 ||zopim.com^$third-party,domain=~apteline.pl|~egb.com|~nordvpn.com
+#@ <<<<<<<< https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt + widgety_kontaktowe_informacji_zwrotnej.txt
 !
 !
 ! Ogólne reguły
