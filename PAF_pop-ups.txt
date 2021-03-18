@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: rctKkNYGHOB8gpC8a9neIw
+! Checksum: DBq5jqhGmtgpNu1Qt8FSUw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 17 Mar 2021, 19:08 UTC+01
-! Version: 2021.3.17.1
+! Last modified: Thu, 18 Mar 2021, 11:08 UTC+01
+! Version: 2021.3.18.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,11 +13,12 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 17 mar 2021, 19:08 UTC+01
+! Aktualizacja: czw, 18 mar 2021, 11:08 UTC+01
 !
 !
 !
 ! Specyficzne reguły
+#@ >>>>>>>> https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt + popupy.txt
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
@@ -1016,9 +1017,11 @@ zszywka.pl###inv-request-popup
 ||wymarzonyogrod.pl/popup-newsletter/*
 ||zalajkowane.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
 ||znak.com.pl/popupNewsletter$xmlhttprequest
+#@ <<<<<<<< https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt + popupy.txt
 !
 !
 ! Ogólne reguły
+#@ >>>>>>>> https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt + popupy_ogolne.txt
 .facebooklikepopup.
 ~chcemybycrodzicami.pl,pl,~zblogowani.pl###ouibounce-modal
 ~pl##body:not(.x13popup-open) #x13popup-container:lang(pl)
@@ -1066,6 +1069,7 @@ pl##.livecall-widget-container
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||salesmanago.pl/dynamic/*/popups.js
 ||widget.contactleader.pl^$script,third-party
+#@ <<<<<<<< https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt + popupy_ogolne.txt
 !
 !
 ! Reguły specjalne
