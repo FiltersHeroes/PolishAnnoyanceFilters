@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: f8of9/YVHqqRgxEvYOeg7w
+! Checksum: JPuEjgX3NDnDxxyIC4gc7g
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 22 Mar 2021, 19:08 UTC+01
-! Version: 2021.3.22.0
+! Last modified: Mon, 22 Mar 2021, 22:08 UTC+01
+! Version: 2021.3.22.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,13 +13,12 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 22 mar 2021, 19:08 UTC+01
+! Aktualizacja: pon, 22 mar 2021, 22:08 UTC+01
 !
 !
 !
 ! Specyficzne reguły
 !@ >>>>>>>> https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt + popupy.txt
-~poczta.wp.pl,wp.pl,~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
@@ -326,6 +325,7 @@ hello-body.pl##.news-popup-container
 heuristic.pl##.box-popup
 heyah.pl##.an_fullscr_one_choise
 hipp.pl##.m-promo
+historia.azv.pl,twojfrancuski.pl,twojniemiecki.pl,wos.net.pl###dropin
 hitcena.pl###popup_container
 hitze.pl##.darkNotice, #darkBg
 hopnatop.pl##.pop_up, .pop_up_center
@@ -774,7 +774,6 @@ wispol.eu##.popup_news
 wkd.com.pl###pop-up-bg
 woblink.com###nw_popup
 wolnelektury.pl##.annoy-banner_blackout.annoy-banner
-wos.net.pl###dropin
 wrp.pl##div[id].modalJS_object
 wrp.pl##.moModal.mo-has-email
 wszystko-do-hotelu.pl#?#div[id^="ligh"][id*="box"]:-abp-has( > .window > .newsletter_popup)
@@ -812,6 +811,7 @@ zmianywzyciu.pl###popup_facebook
 znak.com.pl##.newsletter-popup.closeable
 zpierwszegotloczenia.pl###popup-ad, .modal-backdrop
 zszywka.pl###inv-request-popup
+!~poczta.wp.pl,wp.pl,~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
 !annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
 !annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 !annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl#?##cboxOverlay:-abp-has( + #colorbox:-abp-has(#newsletter_colorbox))
