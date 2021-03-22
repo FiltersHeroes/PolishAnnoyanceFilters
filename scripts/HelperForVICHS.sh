@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # Helper for VICHS - helper for Version Include Checksum Hosts Sort script
+# v1.1
 
 # MIT License
 
-# Copyright (c) 2019 Polish Filters Team
+# Copyright (c) 2021 Polish Filters Team
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -28,7 +29,16 @@
 # SCRIPT_PATH to miejsce, w którym znajduje się skrypt
 SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
 
-cd "$SCRIPT_PATH"/.. || exit
+# MAIN_PATH to miejsce, w którym znajduje się główny katalog repozytorium
+# Zakładamy, że skrypt znajduje się gdzieś w repozytorium git,
+# w którym są pliki listy filtrów, którą chcemy zaktualizować.
+# Jednakże jeżeli skrypt znajduje się gdzieś indziej, to
+# zezwalamy na nadpisanie zmiennej MAIN_PATH.
+if [ -z "$MAIN_PATH" ]; then
+    MAIN_PATH=$(git -C "$SCRIPT_PATH" rev-parse --show-toplevel)
+fi
+
+cd "$MAIN_PATH" || exit
 
 for i in "$@"; do
     "$SCRIPT_PATH"/VICHS.sh "$i"
