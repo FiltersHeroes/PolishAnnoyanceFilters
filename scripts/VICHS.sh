@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # VICHS - Version Include Checksum Hosts Sort
-# v2.24
+# v2.25
 
 # MIT License
 
@@ -24,6 +24,8 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
+#
 
 SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
 
@@ -348,7 +350,7 @@ for i in "$@"; do
             EXTERNAL_MTEMP=${SECTIONS_DIR}/$(awk '$1 == "@COMBINEinclude" { print $3; exit }' "$FINAL").${SECTIONS_EXT}
         fi
         SECTIONS_TEMP=${SECTIONS_DIR}/temp/
-        mkdir "$SECTIONS_TEMP"
+        mkdir -p "$SECTIONS_TEMP"
         MERGED_TEMP=${SECTIONS_TEMP}/merged-temp.txt
         cat "$LOCAL" "$EXTERNAL_MTEMP" >>"$MERGED_TEMP"
         if [ -f "$FOP" ]; then
@@ -361,6 +363,7 @@ for i in "$@"; do
         fi
         SECTION="$MERGED_TEMP"
         includeSection "COMBINEinclude"
+        rm -rf "$SECTIONS_TEMP"
     done
 
     # Obliczanie ilości sekcji/list filtrów, które zostaną przekonwertowane na hosts
@@ -605,6 +608,10 @@ for i in "$@"; do
 
         # Dodawanie zmienionych plików do repozytorium git
         git add "$i"
+
+        # Zapisywanie informacji o dodanych plikach
+        V_ADDED_FILES="$(git diff --cached --name-only --pretty=format: | sort -u)"
+        export V_ADDED_FILES
 
         # Commitowanie zmienionych plików
         if [ "$CI" = "true" ]; then

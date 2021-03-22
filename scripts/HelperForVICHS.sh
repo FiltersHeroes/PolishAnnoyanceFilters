@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Helper for VICHS - helper for Version Include Checksum Hosts Sort script
-# v1.1
+# v1.2
 
 # MIT License
 
@@ -25,6 +25,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+#
 
 # SCRIPT_PATH to miejsce, w którym znajduje się skrypt
 SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
@@ -40,28 +41,24 @@ fi
 
 cd "$MAIN_PATH" || exit
 
-for i in "$@"; do
-    "$SCRIPT_PATH"/VICHS.sh "$i"
-done
-
-last_file=$(git log --since="10 minutes ago" --name-only --pretty=format: | sort | uniq)
+. "$SCRIPT_PATH"/VICHS.sh "$@"
 
 function search() {
-    grep "$1" <<< "$last_file"
+    # Pobieramy informacje o dodanych plikach ze skryptu VICHS
+    # i szukamy w nich wybranych nazw plików
+    grep "$1" <<<"$V_ADDED_FILES"
 }
 
 function addListToVarIfAnotherListUpdated() {
     if [[ -z $(search "$1") ]] && [[ -n $(search "$2") ]]; then
-        if ! grep -q "$1" <<< "${MAIN_FILTERLIST[*]}"; then
+        if ! grep -q "$1" <<<"${MAIN_FILTERLIST[*]}"; then
             MAIN_FILTERLIST+=("$1")
         fi
     fi
 }
 
-CONFIG=$SCRIPT_PATH/VICHS.config
 END=$(grep -o -i '@updateListIfAnotherListUpdated' "${CONFIG}" | wc -l)
-for (( n=1; n<=END; n++ ))
-do
+for ((n = 1; n <= END; n++)); do
     LIST=$(grep -oP -m "$n" '@updateListIfAnotherListUpdated \K.*' "$CONFIG" | tail -n1 | awk -F " " '{print $1;}')
     ANOTHER_LIST=$(grep -oP -m "$n" '@updateListIfAnotherListUpdated \K.*' "$CONFIG" | tail -n1 | awk -F " " '{print $2;}')
     addListToVarIfAnotherListUpdated "$LIST" "$ANOTHER_LIST"
