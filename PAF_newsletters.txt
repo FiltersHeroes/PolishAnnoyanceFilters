@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HoPAnl4Fcsx248+YKbjAMQ
+! Checksum: hoqA6oGj8k627RhSR8yDGg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 22 Mar 2021, 11:08 UTC+01
-! Version: 2021.3.22.0
+! Last modified: Mon, 22 Mar 2021, 15:08 UTC+01
+! Version: 2021.3.22.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,13 +13,13 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 22 mar 2021, 11:08 UTC+01
+! Aktualizacja: pon, 22 mar 2021, 15:08 UTC+01
 !
 !
 !
 ! Specyficzne reguły
 1rosyjski.pl##section[id^="mc4wp_widget"].widget_mc4wp_widget
-3dom.pro,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,marshallshoes.eu,merribel.eu,motomat.eu,tani-laptop.com##.block_newsletter
+3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,marshallshoes.eu,merribel.eu,motomat.eu,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-address-block > p:nth-of-type(n+4):nth-of-type(-n+5)
 3i-store.com,global4net.com,newcraft.eu##.block-subscribe
 3kropki.pl##.nwltMR
@@ -76,6 +76,7 @@ aksjomat.com##.block-newsletter.block_newsletter
 aldi.pl##.mod-newsletter-teaser
 aldrux.pl,qdecor.pl##.box:nth-of-type(4)
 alebilet.pl,beautikon.com,imready.eu,magazynwiatr.pl,multitouch.pl,polskikoszyk.pl,rtvpixelagd.pl,shipgratis.eu,shop.albione.eu##.newsletter-wrapper
+alebuty.com.pl###newsletter-wrap
 aledobre.pl##.footerColumns > .row > div.col-sm-4.col-md-15:nth-of-type(6)
 aleeko.pl,dobrywybor.eu,moment.pl##.newsletter-wrap
 aleleki.pl##.footer_section_2 > div > .row > div:nth-of-type(1)
@@ -213,7 +214,7 @@ bissole.pl,foodarea.pl,pierwszynamapie.pl,rozsadnibracia.pl###text-6
 bitcoin-online.pl#?#.block-title:-abp-contains(Newsletter)
 bithub.pl##.widget_bs-newsletter-mailchimp
 biuroprasowe.pl#?#.right-col p:nth-of-type(2) > b:-abp-contains(newsletter)
-biznesalert.pl,czaszegarkow.pl,fasardi.com,iexcel.pl,revouninstaller.com,sirt.pl,sklep.granna.pl,superprezenty.pl##.subscribe
+biznesalert.pl,czaszegarkow.pl,fasardi.com,iexcel.pl,ladygugu.pl,revouninstaller.com,sirt.pl,sklep.granna.pl,superprezenty.pl##.subscribe
 biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
 blip.pl###salesmanagoIframe
 blip.pl,chcemybycrodzicami.pl##.front-newsletter
@@ -423,6 +424,7 @@ domnowoczesny.com##.sticked-newsletter
 domodi.pl##.dml-footer-newsletter
 domodi.pl##.dm-box--newsletter, .dm-footer-newsletter
 domodi.pl##.dm-footer-content .dm-2of3.dm-gcf__item.dm-footer-section
+dompi.website.pl,e-stargard.pl,ogloszenia24.info,ombre.pl###newsletter_section
 dopestore.pl,jedzpij.pl##.bottom-footer
 doradztwosadownicze.pl###email-form.newsletter-form
 douglas.pl##.newsletter-confirmation__wrapper
@@ -475,6 +477,7 @@ eksperymentalnie.com,pozdrozkrld.com##.widget_mailchimpsf_widget
 eksperymentalnie.com,totalnareklama.pl##.widget_getresponse-widget.widget
 eldomagd.eu##.pro-footer-newsletter
 elektroniksc.com.pl##.tpl-newsletter-form-widget
+elektronik-service.com.pl###form_newsletter_down
 elektrosystemy.pl###text-48
 elektrykapradnietyka.com##a[href="http://elektrykapradnietyka.com/newsletter/"]
 elektryknet.pl##.footer_nls .fnls
@@ -542,7 +545,6 @@ e-sas.pl###fbbok
 e-security.com.pl###footerTopPasek
 e-spar.com.pl##.icon-xl.icon-envelope-white.spar-icon ~ *, .icon-xl.icon-envelope-white.spar-icon
 e-sporting.pl##.fnlsl
-e-stargard.pl,ogloszenia24.info,ombre.pl###newsletter_section
 e-vasco.pl#?#.footer_info_right:-abp-has(#box_newsletter)
 fabrykazabawek.eu##.col-md-3.trzecia
 faceandlook.pl##.newsletter-right-block
@@ -1129,6 +1131,7 @@ pcomp3000.pl###LewaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
 pepco.pl##.footer-nav__newsletter
 pepees.pl###footer-container > div.span4:nth-of-type(3) > div
 pepegi.eu##.wrapper_menu_newsletter
+pepejeans.com##.c-footer__subscribe
 pepito.pl##.footer-nl-social
 pepsieliot.com##.container:nth-of-type(1) > .row > .col-lg-3:nth-of-type(4)
 perfectfitness.pl###MailIndexForm
@@ -1286,6 +1289,7 @@ rik.pl##.footer_col_4 > div:nth-of-type(3)
 rmf24.pl##.newsletterCont
 rodzice.pl###top-link
 rolnik.pl###block-bt
+rolserwis.pl###newslett
 romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
 ronik.org.pl###mc_embed_signup_scroll
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
