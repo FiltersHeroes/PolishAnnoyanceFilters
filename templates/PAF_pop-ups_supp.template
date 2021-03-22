@@ -1,14 +1,14 @@
 ! Codename: Pop-ups - supplement
 @path PPB/uBO_AG
-@COMBINEinclude popupy_suplement https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/uBO_AG/popupy_suplement
+@COMBINEinclude popupy_suplement https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
 !#if !cap_html_filtering
-@COMBINEinclude popupy_bez_html https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_bez_html.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/uBO_AG/popupy_bez_html
+@COMBINEinclude popupy_bez_html https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_bez_html.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/uBO_AG/popupy_bez_html.txt
 !#endif
 !#if cap_html_filtering
-@COMBINEinclude popupy_html https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_html.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/uBO_AG/popupy_html
+@COMBINEinclude popupy_html https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_html.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/uBO_AG/popupy_html.txt
 !#endif
 !#if !ext_ublock
-@COMBINEinclude popupy_AG https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/uBO_AG/popupy_AG
+@COMBINEinclude popupy_AG https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/uBO_AG/popupy_AG.txt
 !#endif
 !#if ext_ublock
 @include popupy_uBO
