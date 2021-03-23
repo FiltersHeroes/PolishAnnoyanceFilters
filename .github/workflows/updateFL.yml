@@ -1,0 +1,15 @@
+name: Aktualizacja listy
+
+on: workflow_dispatch
+#   schedule:
+#     - cron: "0 10,14,18 * * *"
+jobs:
+  Aktualizacja:
+    runs-on: ubuntu-latest
+    container: polishfiltersteam/vichs_image:latest
+    steps:
+      - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f # pin@v2.3.4
+      - env:
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+        run: |
+          ./scripts/HelperForVICHS.sh PAF_arrows.txt PAF_backgrounds_self-adv_supp.txt PAF_backgrounds_self-advertising.txt PAF_contact_feedback_widgets_supp.txt PAF_contact_feedback_widgets.txt PAF_newsletters_supp.txt PAF_newsletters.txt PAF_other_elements_supp.txt PAF_other_widgets.txt PAF_pop-ups_supp.txt PAF_pop-ups.txt PAF_push_supp.txt PAF_push.txt PAF_scrolling_videos_supp.txt PAF_scrolling_videos.txt PAF_tagged_internal_links.txt PAF_comeback_titles.txt PAF_e_newspaper.txt PAF_supp.txt PPB.txt

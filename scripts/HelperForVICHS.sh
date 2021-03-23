@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Helper for VICHS - helper for Version Include Checksum Hosts Sort script
-# v1.2
+# v1.3
 
 # MIT License
 
@@ -26,6 +26,7 @@
 # SOFTWARE.
 
 #
+#
 
 # SCRIPT_PATH to miejsce, w którym znajduje się skrypt
 SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
@@ -41,12 +42,20 @@ fi
 
 cd "$MAIN_PATH" || exit
 
-. "$SCRIPT_PATH"/VICHS.sh "$@"
+V_CHANGED_FILES_FILE="$SCRIPT_PATH"/V_CHANGED_FILES.txt
+
+if [ -f "$V_CHANGED_FILES_FILE" ]; then
+    rm -rf "$V_CHANGED_FILES_FILE"
+fi
+
+SAVE_CHANGED_FN="true" "$SCRIPT_PATH"/VICHS.sh "$@"
+
+V_CHANGED_FILES=$(cat "$V_CHANGED_FILES_FILE")
 
 function search() {
     # Pobieramy informacje o dodanych plikach ze skryptu VICHS
     # i szukamy w nich wybranych nazw plików
-    grep "$1" <<<"$V_ADDED_FILES"
+    grep "$1" <<<"$V_CHANGED_FILES"
 }
 
 function addListToVarIfAnotherListUpdated() {
@@ -57,6 +66,7 @@ function addListToVarIfAnotherListUpdated() {
     fi
 }
 
+CONFIG="$SCRIPT_PATH"/VICHS.config
 END=$(grep -o -i '@updateListIfAnotherListUpdated' "${CONFIG}" | wc -l)
 for ((n = 1; n <= END; n++)); do
     LIST=$(grep -oP -m "$n" '@updateListIfAnotherListUpdated \K.*' "$CONFIG" | tail -n1 | awk -F " " '{print $1;}')
@@ -67,3 +77,5 @@ done
 if [ "${MAIN_FILTERLIST[*]}" ]; then
     FORCED="true" "$SCRIPT_PATH"/VICHS.sh "${MAIN_FILTERLIST[@]}"
 fi
+
+rm -rf "$V_CHANGED_FILES_FILE"

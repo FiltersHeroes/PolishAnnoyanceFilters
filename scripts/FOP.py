@@ -85,6 +85,7 @@ KNOWNOPTIONS = (
     "redirect=googlesyndication_adsbygoogle.js", "redirect-rule=googlesyndication_adsbygoogle.js",
     "redirect=googletagmanager_gtm.js", "redirect-rule=googletagmanager_gtm.js",
     "redirect=googletagservices_gpt.js", "redirect-rule=googletagservices_gpt.js",
+    "redirect=click2load.html", "redirect-rule=click2load.html",
 
     # AdGuard
     "app", "content", "cookie", "extension", "jsinject", "network", "replace", "stealth", "urlblock"

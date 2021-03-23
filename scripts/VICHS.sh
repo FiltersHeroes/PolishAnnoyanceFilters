@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # VICHS - Version Include Checksum Hosts Sort
-# v2.25
+# v2.26.1
 
 # MIT License
 
@@ -26,6 +26,7 @@
 # SOFTWARE.
 
 #
+#
 
 SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
 
@@ -39,6 +40,7 @@ if [ -z "$MAIN_PATH" ]; then
 fi
 
 # Tłumaczenie
+# shellcheck disable=SC1091
 . gettext.sh
 export TEXTDOMAIN="VICHS"
 export TEXTDOMAINDIR=$SCRIPT_PATH/locales
@@ -93,6 +95,7 @@ for i in "$@"; do
         {
             grep -o '^||.*^$' "$1"
             grep -o '^0.0.0.0.*' "$1"
+            # shellcheck disable=SC2016
             grep -o '^||.*^$all$' "$1"
         } >>"$HOSTS_TEMP"
     }
@@ -132,6 +135,7 @@ for i in "$@"; do
         PH_TEMP="$SECTIONS_DIR/TEMP_CONVERT.temp-ph"
         {
             grep -o '^||.*\*.*^$' "$1"
+            # shellcheck disable=SC2016
             grep -o '^||.*\*.*^$all$' "$1"
         } >>"$PH_TEMP"
     }
@@ -296,6 +300,7 @@ for i in "$@"; do
         fi
         WL_TEMP="$SECTIONS_DIR/$1.temp-wl"
         grep -o '^||.*^$' "$SECTION" >>"$WL_TEMP"
+        # shellcheck disable=SC2016
         grep -o '^||.*^$all$' "$SECTION" >>"$WL_TEMP"
         sed -i "s|\$all$|\$all,badfilter|" "$WL_TEMP"
         sed -i "s|\^$|\^\$badfilter|" "$WL_TEMP"
@@ -504,7 +509,8 @@ for i in "$@"; do
         else
             SECTION=${SECTIONS_DIR}/$(awk '$1 == "@COMBINEPHinclude" { print $3; exit }' "$FINAL").${SECTIONS_EXT}
         fi
-        if [[ "$(grep -o '^||.*\*.*^$' "$LOCAL")" ]] || [[ "$(grep -o '^||.*\*.*^$all$' "$LOCAL")" ]]; then
+        # shellcheck disable=SC2016
+        if grep -qo '^||.*\*.*^$' "$LOCAL" || grep -qo '^||.*\*.*^$all$' "$LOCAL"; then
             getConvertableRulesForPH "$LOCAL"
             getConvertableRulesForPH "$SECTION"
             convertToPihole
@@ -532,12 +538,14 @@ for i in "$@"; do
     if grep -q "! Codename" "$i"; then
         filter=$(grep -oP -m 1 '! Codename: \K.*' "$i")
     else
+        # shellcheck disable=SC2034
         filter="$FILTERLIST"
     fi
 
     # Dodawanie zmienionych sekcji do repozytorium git
     if [ ! "$RTM" ]; then
         git add "$SECTIONS_DIR"/*
+        git commit -m "$(gettext "Update sections")" -m "[ci skip]"
     fi
 
     # Ustawienie strefy czasowej
@@ -609,9 +617,10 @@ for i in "$@"; do
         # Dodawanie zmienionych plików do repozytorium git
         git add "$i"
 
-        # Zapisywanie informacji o dodanych plikach
-        V_ADDED_FILES="$(git diff --cached --name-only --pretty=format: | sort -u)"
-        export V_ADDED_FILES
+        # Zapisywanie nazw zmienionych plików
+        if [ "$SAVE_CHANGED_FN" = "true" ]; then
+            git diff --cached --name-only --pretty=format: | sort -u  >> "$SCRIPT_PATH"/V_CHANGED_FILES.txt
+        fi
 
         # Commitowanie zmienionych plików
         if [ "$CI" = "true" ]; then
