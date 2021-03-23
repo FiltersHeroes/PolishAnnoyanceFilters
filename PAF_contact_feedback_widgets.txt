@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 0N7aikSvxhRTCx1Lyn57fA
+! Checksum: ik7sfKKNDa34smiOU/MVMg
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 22 Mar 2021, 19:08 UTC+01
-! Version: 2021.3.22.1
+! Last modified: Tue, 23 Mar 2021, 16:09 UTC+01
+! Version: 2021.3.23.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,13 +13,15 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 22 mar 2021, 19:08 UTC+01
+! Aktualizacja: wto, 23 mar 2021, 16:09 UTC+01
 !
 !
 !
 ! Specyficzne reguły
 !@ >>>>>>>> https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt + widgety_kontaktowe_informacji_zwrotnej.txt
+~pl##.sm-panel .sm-messenger:lang(pl)
 3giga.pl###contact-slider
+3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
 51015kids.eu###custom_trustbadge
 aaaauto.pl###site-bottom-bar-content > .smoothbox
 adidas.pl,reebok.pl##.QSISlider
@@ -103,6 +105,7 @@ brw.pl##.brw_opineo.icon-menu
 bssztum.pl###widget_social2
 bulwaryksiazece.pl##.ask-form
 busy.info.pl###contact-user-form-button
+busy.info.pl###contact-user-messenger-button
 canon.pl##.feedback-btn
 carq.pl##div[id^="qc-quic-widget-"]
 casedrop.eu##.support-floating-wrapper
@@ -119,6 +122,7 @@ cersanit.com.pl,opoczno.eu##.FTChat_window
 cinema3d.pl###popupBoxInvitation
 cinkciarz.pl,eurosender.com,olini.pl###hbl-live-chat-wrapper
 citymotors.pl,victoriadom.pl##iframe[id^="fcc-sitecall-"]
+clevo-computer.com##.whatsappbadge
 clineo.pl###contact_widget
 cmolmed.pl###footer > .module:last-child
 cmp.med.pl###altar-eye-catcher-div-container
@@ -193,6 +197,7 @@ endo.pl##.contact-container
 enfamil.pl##.float-chat
 eobuwie.com.pl###open-chat
 epodreczniki.pl##.send-suggestion-btn
+eska.pl,eskarock.pl,senatkomorki.pl##.messenger
 eskk.pl##.ckontakt
 etoto.pl###sbChatMinimizedIdle
 eurobank.pl##.reviews
@@ -200,6 +205,7 @@ euro.com.pl,oleole.pl###main-footer > div[class$="-ad-tooltip-container"]
 ewakacje.pl##.classNotesList_button
 ewozki.eu##div[id] > iframe[title="chat widget"]
 experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
+exploringaround.pl##.ecp-button
 exploringaround.pl##.right.ecp-button
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
 extradom.pl##div.hidden[style*="position: fixed"] > a.btn[data-target="#zamow-rozmowe"]
@@ -234,6 +240,7 @@ flowerstory.pl###box_wysuwany
 fly.pl##.btn-sticky-feedback
 fmmobile.pl##.c-btn_suggestion
 fm.tuba.pl###feed
+followrap.com###wh-widget-send-button
 foto.auchan.pl##.sidebar-link[href="http://www.foto.auchan.pl/obsluga-klienta.html"]
 fsmm.pl##body > .contactform
 fundacjakibica.pl###contact_rozwin
@@ -257,6 +264,7 @@ go-market.pl###contact-info, #phone-info
 gplshop.pl###snapifyHidden
 grafcraft.pl###wpcs_tab_745
 grafiqa.pl,puch-kotlowski.pl,treningkrakow.pl##.side-tab-widget > a[href="kontakt.html"]
+grechmoto.pl##.jfab_main_btn
 greenhousedevelopment.pl,sew-eurodrive.pl,super-soco.pl##.contact
 gromar.eu##.contact-widget
 groupon.pl##.bcFloat
@@ -331,6 +339,7 @@ lidl-sklep.pl##.feedback-flyout__button-box
 lightingcenter.pl,mniammniam.com,sklephonda.pl###o-widget-lws
 lighting.philips.pl##aside[class$="support-contact-details"]
 lightonline.pl###fixedBtn > .savBtn
+limpol.com##.messengerchat
 lincoln.edu.pl##.s_kontakt
 linux-magazine.pl###floater-tel
 lispol.com##.msgsDV
@@ -354,6 +363,7 @@ masterleasing.pl##.callus
 masterproject.pl##.trigger_popup_fricc
 matkakosciola.pl##.js-bottom-corner-btns.bottom-corner-btns
 meblosfera.pl##.wp-side-menu-item:nth-of-type(1)
+mebloteka.eu###Facebook_Messenger
 meczelive.pl,meczelive.tv,meczlive.pl###task
 mera.eu##.footer__subbox--sm.footer__subbox:last-child
 mesco.com.pl##div[id^="bazo_form_callback"]
@@ -362,11 +372,13 @@ militaria.pl##.floating-contact
 mistama.com,mojacukrzyca.org##.ggu-bot-snapped-launcher
 mobidziennik.pl###floating-contact-button
 mobilelanguage.pl###mail-right
+mojanorwegia.pl##.msg
 mojataxi24.pl##h4#phone:nth-of-type(1) > .wiszacy
 mojbank.pl##.uk-grid.uk-flex-middle.uk-grid-row-small.uk-grid-column-collapse.uk-child-width-expand
 monedo.pl###satellite
 morele.net##.why-us-widget
 motocombo.pl,tylkostylowe.pl###widget_shop2
+motoledy.pl##.fb-open
 msn.com##.floatingfeedback
 msn.com##a[class*="feedback_link_default"][class*="button"]
 mtp.pl###mtp-chat
@@ -391,6 +403,7 @@ nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
 odnowa.jezuici.pl##.tab-contact
 ofix.pl##.thulium-chat-wrapper
+okazik.pl###btn-message
 omeda.pl##.boxRight:not(.fb)
 open.pl##div[class^="kodabots-widget"]
 operon.pl##.contact-trigger
@@ -414,8 +427,10 @@ pcprojekt.pl##.knowledgebase-slide-btn, .whyus-tab
 perfectblue.pl,twojcel.to###message-purchased
 philipsagd.pl###fixed-contact
 picodi.com###oneSignalBell, #onesignal-bell-container
+pikio.pl###chatBot
 pityver.pl###widget.tada.widget
 placowka.znanylekarz.pl,speak-up.pl###hubspot-messages-iframe-container
+pl##.sm-panel .sm-messenger
 pl.000webhost.com##div[style="cursor: pointer;"]
 pl.canalplus.com##.AsideButtons
 pl.canalplus.com###button-call, #button-lead
@@ -480,6 +495,7 @@ semcamp.university###witbee-call-page-container
 semmelrock.pl###float_mail, #float_phone
 sempai.pl##.sempai_contact_widget
 semtec.pl##.sticky-button, .sticky-button ~ .sticky-tooltip
+senatkomorki.pl##.whatsup
 sendgb.com##.sendnow
 senetic.pl##.livechat-space
 setcomp.net##.estp-tab-link.estp-internal-link
@@ -536,6 +552,7 @@ the-first.pl###side_social_icons > ul > li:nth-of-type(2)
 ticketco.events##.tc-support-button
 tiktok.com##a[href="/feedback?lang=pl"]
 tim.pl##[data-toolkit="toolkit-page-bugs"]
+tipply.pl##.fb-toggle
 tja.pl###div_wysuwany_opinia
 tme.eu###feedback-widget
 tme.eu##.c-livechat__widget-container
@@ -565,6 +582,7 @@ virginmobile.pl###crazycall-click-to-call-container
 virtualmedia.pl###formularz
 virustotal.com###walkthrough ~ vt-ui-contact-fab
 vitay.pl###serviceRatingBox
+vitopolska.com##a.c-fixed-buttons__button:nth-of-type(1)
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(2)
 wakacje.pl###rightTabs > .rightSpeech
 westhill.pl##.wh-cta
@@ -600,6 +618,7 @@ zrzutka.pl##.uv-bottom-right
 !wakacje.pl##.rightSpeech
 !www.orange.pl##iframe[src*="://orange.binaries.pl"][id][style^="position: fixed"]
 /pl/at-call/call-me.js$script,domain=lessmess.storage
+/zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ||airport.com.pl/livezilla/server.php
 ||amazonaws.com/app*.sugester.com/*/chat/*/widget.js$script,domain=www.dwdomel.pl
 ||amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
