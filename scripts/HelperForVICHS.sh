@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Helper for VICHS - helper for Version Include Checksum Hosts Sort script
-# v1.3
+# v1.3.1
 
 # MIT License
 
@@ -49,6 +49,10 @@ if [ -f "$V_CHANGED_FILES_FILE" ]; then
 fi
 
 SAVE_CHANGED_FN="true" "$SCRIPT_PATH"/VICHS.sh "$@"
+
+if [ ! -f "$V_CHANGED_FILES_FILE" ]; then
+    exit 0
+fi
 
 V_CHANGED_FILES=$(cat "$V_CHANGED_FILES_FILE")
 
