@@ -1,8 +1,8 @@
 annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:has( + #colorbox:has(#newsletter_colorbox):style(visibility: hidden !important;)}
 annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox):style(visibility: hidden !important;)
 lento.pl##+js(ra, style, .box-modal-notify, #lightoverlay)
-www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
-www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
 voxfm.pl,www.eska.pl##+js(ra, style, .popupCity[style*="visible"])
 voxfm.pl,www.eska.pl##+js(ra, style, .popupCity[style*="visible"], complete)
 voxfm.pl,www.eska.pl##.popupCity:not([style])
+www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
+www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
