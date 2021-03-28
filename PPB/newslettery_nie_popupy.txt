@@ -1,6 +1,13 @@
 1rosyjski.pl##section[id^="mc4wp_widget"].widget_mc4wp_widget
 hoho.sklep.pl##.widget_newsletterwidgetminimal
 
+blog.goeste.pl#?#.elementor-widget-wrap> .elementor-widget-heading:-abp-contains(/^Zapisz się na newsletter$/) + div
+blog.goeste.pl#?#.elementor-widget-wrap> .elementor-widget-heading:-abp-contains(/^Zapisz się na newsletter$/)
+swiatwakacji.pl#?##right_column > ul > li:-abp-has(span[title="Newsletter"], #NewsletterDisplayForm)
+auchanhetmanska.pl#?#div.m-Trends--L.m-Trends--text.m-Trends:-abp-has(a[href*="/newsletter"])
+autopart.pl##.footer-top .form-cover
+sklep.autopart.pl###newsletterPanel.abs-newsletter-panel
+
 3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,marshallshoes.eu,merribel.eu,motomat.eu,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-address-block > p:nth-of-type(n+4):nth-of-type(-n+5)
 3i-store.com,global4net.com,newcraft.eu##.block-subscribe
