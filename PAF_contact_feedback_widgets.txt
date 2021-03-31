@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5e7qwTKjOZ99GSU0bBOQDQ
+! Checksum: WCKZpD4EY5Eine5VhteZCg
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Tue, 30 Mar 2021, 20:08 UTC+02
-! Version: 2021.3.30.0
+! Last modified: Wed, 31 Mar 2021, 12:08 UTC+02
+! Version: 2021.3.31.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 30 mar 2021, 20:08 UTC+02
+! Aktualizacja: śro, 31 mar 2021, 12:08 UTC+02
 !
 !
 !
@@ -38,6 +38,7 @@ ahe.lodz.pl###chat-invite
 airdron-polska.pl,fakturownia.pl,hurtowniamuzyczna.pl,imker.pl,kamai.pl,meblujdom.pl,modele-centrum.pl,sugester.pl,upsell.pl,vagczesci.pl###sugester-chat
 airport.com.pl##a[href*="http://airport.com.pl/livezilla/chat.php"]
 akumulatorki.com.pl###contact_form
+alejabielany.pl##form > input.floatingWidget
 aleleki.pl##.social_contact
 ale.pl,gardenflora.pl,lidia.pl###rr_side_widget
 aliexpress.com##.ui-fixed-panel-survey
@@ -93,6 +94,7 @@ bludshop.com##.trusted_wrapper
 bonami.pl,notino.pl###daktela-chat, #daktela-web
 booksy.com###page > a[class^="_"][href$="/viewform"]
 borcas.eu,e-dewocjonalia.eu,oknarolety.com###czater-contener
+born2be.pl##.help-chat-button-container
 born2be.pl,renee.pl##.helpButton
 bosch-extra.pl,extra-program.pl###contact-bar
 braclowiecka.pl##a.shop:nth-of-type(2)
@@ -517,6 +519,7 @@ skrivanek.pl##.rplg-badge_left-fixed.rplg-badge-cnt
 sky-shop.pl,toyota-centrum.pl###livechat-eye-catcher
 slusarczyk-bmw.pl###musli > li:nth-of-type(4)
 smartney.pl##app-smartney-float-button
+sneakerpeeker.pl###edrone--main--chat--container
 snp-poland.com###contact-widgets
 soisk.pl##.aio-contact-parent
 soselectronic.pl###report-bug-open-popup-button
