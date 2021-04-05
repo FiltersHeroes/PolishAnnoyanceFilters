@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: tv98VJReQkbcZk2RjbBCoQ
+! Checksum: e0PKMRMTQ/Uim/qPA9DjPA
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Fri, 19 Mar 2021, 19:09 UTC+01
-! Version: 2021.3.19.0
+! Last modified: Mon, 05 Apr 2021, 16:08 UTC+02
+! Version: 2021.4.5.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pią, 19 mar 2021, 19:09 UTC+01
+! Aktualizacja: pon, 05 kwi 2021, 16:08 UTC+02
 !
 !
 !
@@ -44,6 +44,7 @@ telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvr
 telewizjatvt.pl#?#div[id^="elementor-popup-modal-"]:-abp-has(iframe[src*="/player/"])
 topagrar.pl,tygodnik-rolniczy.pl##.vast-player__thumbnail[style*="top:"]
 trojmiasto.pl,trojmiasto.tv##div[id^="video"].vjs-mini
+tvn24.pl##.mainContainer .hideVideoPlayer .stuck--desktop, body .mainContainer .hideVideoPlayer .stuck--wide-tablet
 tvn24.pl##.nuvi-player div.floating.floatable
 tvn24.pl##.videoPlayer.stuck--top
 tvn.pl##.videoPlayerFloatEnabled.videoPlayerFloat.videoPlayer
@@ -52,9 +53,9 @@ webcamera.pl##.bigcam.floating-player > div > .fullscreen-wrap
 webcamera.pl##.floating-player #player
 wrc.net.pl##.sticky-video.sticky.is-stuck
 ||ppstatic.pl/js/floating-video/floatingVideo.js
-||ppstatic.pl/*/js/*/article/sticky-video.js
-||ppstatic.pl/*/js/*/article/top-sticky-video-mobile.js
-||ppstatic.pl/*/js/*/plywajace_wideo.js
+||ppstatic.pl/*/article/sticky-video.js
+||ppstatic.pl/*/article/top-sticky-video-mobile.js
+||ppstatic.pl/*/plywajace_wideo.js
 !
 !
 ! Ogólne reguły
