@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: G/khSw0wVSbxJ8LjG52LTA
+! Checksum: GmC7kqsTWbFjuUZEN6wM9g
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 05 Apr 2021, 16:08 UTC+02
-! Version: 2021.4.5.0
+! Last modified: Mon, 05 Apr 2021, 20:08 UTC+02
+! Version: 2021.4.5.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 05 kwi 2021, 16:08 UTC+02
+! Aktualizacja: pon, 05 kwi 2021, 20:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -3064,9 +3064,8 @@ telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvr
 telewizjatvt.pl#?#div[id^="elementor-popup-modal-"]:-abp-has(iframe[src*="/player/"])
 topagrar.pl,tygodnik-rolniczy.pl##.vast-player__thumbnail[style*="top:"]
 trojmiasto.pl,trojmiasto.tv##div[id^="video"].vjs-mini
-tvn24.pl##.mainContainer .hideVideoPlayer .stuck--desktop, body .mainContainer .hideVideoPlayer .stuck--wide-tablet
-tvn24.pl##.nuvi-player div.floating.floatable
-tvn24.pl##.videoPlayer.stuck--top
+tvn24.pl##.mainContainer .hideVideoPlayer .stuck--desktop, .mainContainer .hideVideoPlayer .stuck--wide-tablet
+tvn24.pl##.nuvi-player div.floating.floatable, .videoPlayer.stuck--top
 tvn.pl##.videoPlayerFloatEnabled.videoPlayerFloat.videoPlayer
 tvp.info##.mini-player-container
 webcamera.pl##.bigcam.floating-player > div > .fullscreen-wrap
