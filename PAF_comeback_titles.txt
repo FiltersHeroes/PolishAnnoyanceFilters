@@ -1,10 +1,10 @@
-! Checksum: V3GEOzpALeP8QfBFjV8nZQ
+! Checksum: YJ7rjvlCdnaigVL0Er0EDA
 ! Title: Polskie Filtry Elementów Irytujących - Powrotowe Tytuły
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Tue, 30 Mar 2021, 12:08 UTC+02
-! Version: 2021.3.30.0
+! Last modified: Tue, 06 Apr 2021, 12:08 UTC+02
+! Version: 2021.4.6.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 30 mar 2021, 12:08 UTC+02
+! Aktualizacja: wto, 06 kwi 2021, 12:08 UTC+02
 !
 !
 atthost.pl,elementstore.pl,~mail.atthost.pl,myjki.com,~panel.atthost.pl,~secure.atthost.pl,~webmail.atthost.pl##+js(aopw, document.title)
@@ -26,6 +26,8 @@ naekranie.pl##+js(aeld, visibilitychange, Zzzz)
 nocowanie.pl##+js(acis, changeTitle, Wróć)
 prawokonsumenckie.pl##+js(set, setReplyTitle, noopFunc)
 przepisy.pl##+js(aeld, visibilitychange, zone_symbol__propagationStopped)
+sestimi.pl##+js(aeld, blur, document.title = message)
+sklep.solier.pl##+js(acis, $, Wróć do nas)
 taniaksiazka.pl##+js(set, BLUR_TITLE, '')
 wrc.net.pl##+js(aeld, blur, function(a){return void 0===n||a&&n.event.triggered===a.type?void 0:n.event.dispatch.apply(k.elem,arguments)})
 www.pkobp.pl##+js(aeld, blur, blurTitle)
