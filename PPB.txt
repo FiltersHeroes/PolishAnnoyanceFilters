@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: snenreYEPow8cgpTBDpJPQ
+! Checksum: 5BOnDfaKwxHHE+74kX0eMA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 06 Apr 2021, 20:08 UTC+02
-! Version: 2021.4.6.3
+! Last modified: Tue, 06 Apr 2021, 21:40 UTC+02
+! Version: 2021.4.6.4
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 06 kwi 2021, 20:08 UTC+02
+! Aktualizacja: wto, 06 kwi 2021, 21:40 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -5398,6 +5398,7 @@ portalsamorzadowy.pl,portalspozywczy.pl###bottom_slider
 portalstatystyczny.pl##.jscroll-to-top
 portalstatystyczny.pl,radio.lublin.pl##.jnews_popup_post_container
 portalzp.pl###start-tour
+portal.librus.pl#?##synergiaLogin + div[class]:-abp-has(picture > source[srcset] ~ img[src])
 porta.com.pl###popup-questionnaire
 posilkiwchorobie.pl##.fixed-ad
 poszukiwania.pl##.image_forum
@@ -6148,8 +6149,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2021.4.6.1
-!@ Last modified: Tue, 06 Apr 2021, 00:06 UTC+02
+!@ Version: 2021.4.6.2
+!@ Last modified: Tue, 06 Apr 2021, 21:40 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -6160,7 +6161,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2021 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2021.4.6.1 aktualizacja: wto, 06 kwi 2021, 00:06 UTC+02
+!@ v.2021.4.6.2 aktualizacja: wto, 06 kwi 2021, 21:40 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -6838,6 +6839,7 @@ domnet.pl,jakbudowac.pl##.dialog-fixed
 domnowoczesny.com,grupapsb.com.pl##.popup-container
 domodi.pl##.dm-cookie-message
 domoplus.pl,kuchniaplus.pl,miniminiplus.pl,teletoonplus.pl###cpb.rodoLayer
+domowefrytki.com##.site-footer section:last-child .elementor-widget-text-editor .elementor-text-editor p[style*="center"]
 domowladni.pl###domo-cookies-policy
 domsary.eu###policy-cookies-info-panel
 domydziecka.org###cookies_box_info
@@ -7404,6 +7406,7 @@ infostrefa.com,pap.com.pl,pap.pl###rodoWrapper
 infotex.com.pl##.info_cook_wrapper
 info-car.pl##app-accept-cookies
 info-instal.com,kokardka.eu,pbspolska.eu##.wpgdprc-consent-bar.wpgdprc
+info.wyborcza.pl###onetrust-consent-sdk
 inksystem.pl##.fixed_bottom
 inku.pl#?#div[id^="jet-popup-"].jet-popup:-abp-has(a[href*="/polityka-prywatnosci"])
 innovaconcept.pl###footer div[class*="Pane"][style*="background"]
@@ -7505,6 +7508,7 @@ kimovil.com###code_cookies
 kimsufi.com,ovh.com,ovh.pl,soyoustart.com###cookiesPop
 kingsong.pl##body > div:nth-of-type(5)[style*="position"][style*="fixed"]
 kinonh.pl,nowehoryzonty.pl###div_ac
+kino-sokol.pl###site-settings-popup.cmp-popup
 kino.ck.przemysl.pl###widget-12
 kino.mdkwagrowiec.pl#?##myModals:-abp-contains(RODO)
 kioxia.com##.modaal-inline.modaal-wrapper[id], .modaal-overlay[id]
@@ -8415,6 +8419,7 @@ sedkomp.com.pl##.art-content-layout:nth-of-type(2)
 seg.org.pl###block-block-19
 sekap.pl###uglipop_popbox, #uglipop_overlay
 select.pl##.cookiepop
+selgros24.pl##main > .fixed[class*="screen"][class*="text"]
 selgros24.pl###cookieModal
 sellero.pl##.minimididesign-cookies
 selsey.pl##.cookie_alert_selsey
