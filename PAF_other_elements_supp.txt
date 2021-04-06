@@ -100,6 +100,8 @@ webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; pa
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
 www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(:has(time))
 www.dobreprogramy.pl##.ignored:not(:hover):not(:active):not(:focus):style(opacity: 0.1 !important;)
+zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
+zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
 !m.youtube.com##+js(aeld, visibilitychange, [native code])
 !pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
