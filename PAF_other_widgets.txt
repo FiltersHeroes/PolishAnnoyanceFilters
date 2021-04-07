@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: yaaZrxC0yk17XhzmwjVElQ
+! Checksum: iWWvRdp3175usbNDo/HG4A
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 06 Apr 2021, 20:08 UTC+02
-! Version: 2021.4.6.1
+! Last modified: Wed, 07 Apr 2021, 12:08 UTC+02
+! Version: 2021.4.7.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 06 kwi 2021, 20:08 UTC+02
+! Aktualizacja: śro, 07 kwi 2021, 12:08 UTC+02
 !
 !
 !
@@ -655,6 +655,7 @@ portalsamorzadowy.pl,portalspozywczy.pl###bottom_slider
 portalstatystyczny.pl##.jscroll-to-top
 portalstatystyczny.pl,radio.lublin.pl##.jnews_popup_post_container
 portalzp.pl###start-tour
+portal.librus.pl#?##synergiaLogin + div[class]:-abp-has(picture > source[srcset] ~ img[src])
 porta.com.pl###popup-questionnaire
 posilkiwchorobie.pl##.fixed-ad
 poszukiwania.pl##.image_forum
