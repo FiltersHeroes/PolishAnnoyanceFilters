@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Ig3+0ddlF58M+3Qr7SEjRw
+! Checksum: P6zZ3q4/3Zh3lvJqcv6NvQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Wed, 07 Apr 2021, 16:08 UTC+02
-! Version: 2021.4.7.0
+! Last modified: Sun, 11 Apr 2021, 12:08 UTC+02
+! Version: 2021.4.11.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 07 kwi 2021, 16:08 UTC+02
+! Aktualizacja: nie, 11 kwi 2021, 12:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2104,7 +2104,7 @@ ekstrastats.pl#?#.spu-bg:-abp-has( ~ .spu-box .twitter-follow-button)
 ekstrastats.pl#?#.spu-box:-abp-has(.twitter-follow-button)
 elektroniksc.com.pl##.tpl-window-instance, #ModalOverlay
 elementstore.pl###cboxOverlay[style*="opacity: 0.75"] ~ #colorbox, #cboxOverlay[style*="opacity: 0.75"]
-eluban.pl,jaslo4u.pl,krasnik.eu,kukulahealthyfood.pl,motherhood.pl,muzeumwp.pl,planujemyogrod.pl,przepisychinskie.pl,rankomat.pl,sagana.pl,sklepdekarza.pl,sklepdlarolnika.pl,spodiglyinitki.pl,sushi-sklep.pl###popup
+eluban.pl,jaslo4u.pl,krasnik.eu,kukulahealthyfood.pl,motherhood.pl,muzeumwp.pl,planujemyogrod.pl,przepisychinskie.pl,rankomat.pl,roltech.eu,sagana.pl,sklepdekarza.pl,sklepdlarolnika.pl,spodiglyinitki.pl,sushi-sklep.pl###popup
 emaga.eu##.livecall-callback-v1-popup-scroll-container
 embryolisse.pl,lenovozone.pl,xlm.pl,zdrowie.pap.pl###newsletter-popup
 emcconsultant.eu,yt360.pl###ouibounce-modal
@@ -2288,7 +2288,7 @@ kursphp.com##.all-page-modals
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
 label-magazine.com##.lightbox_overlay
 lagardere-tr.pl###banner-hds, #banner-hds-background
-lamaglama.pl,sklep-agroland.pl,zina.pl##.wce_popup-consolidator
+lamaglama.pl,sklep-agroland.pl,strefarolnika.pl,zina.pl##.wce_popup-consolidator
 laroxy.com,meblezet.com,motomat.eu###x13popup-container, #x13popup-cover
 lebork24.info###fanback
 ledco.pl,sklepdlalekarza.com,tendina.pl###iqitpopup, #iqitpopup-overlay
@@ -2693,6 +2693,7 @@ westhill.pl###boxzilla-10619, #boxzilla-overlay-10619
 westwing.pl##.sl
 whitervbbit.com###newsletter_background, #newsletter_wrapper
 widoczni.com##.leavedocumentlayer
+wielen.pl##.webpush_modal
 winicjatywa.pl##h2:nth-of-type(3)
 wispol.eu##.popup_news
 wkd.com.pl###pop-up-bg
@@ -2957,6 +2958,7 @@ sklepsamsung.pl##.b-modal_webpushCentered
 sklepsamsung.pl##.b-modal_webpushVertical
 travelplanet.pl##.fcx-push-modal
 wazcar.pl###push-notification-button
+wielen.pl###js__webpushBell
 wnp.pl##amp-web-push-widget
 zapytaj.onet.pl##.push-notification-box
 zdrowie.pap.pl##section ~ span[onclick="window.scrollTo(0, 0);"]
@@ -4771,6 +4773,7 @@ pl##.quickcontact-box
 aaaauto.pl##.noprint.careerLink
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##a[data-st-area^="backTo" i], a[data-st-area^="goToSG" i]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"]
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[data-st-area="st-header-darkmode"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##.backToWp, .btn__back-to-wp, .footer-back-link, .wp-pl-redirect
 afgcomputers.pl###menu3bar
 aftermarket.pl###scroll-left
