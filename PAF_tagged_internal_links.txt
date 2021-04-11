@@ -1,25 +1,25 @@
-! Checksum: pbiWwp7L3/mzYbzowm+xXQ
+! Checksum: dCs4j7yqjc5Eu7V6VJV7vg
 ! Title: Polskie Filtry Elementów Irytujących - Otagowane Linki Wewnętrzne
 ! Polish Annoyance Filters - Tagged Internal Links
 ! Codename: Tagged Internal Links
 ! Description: Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.
-! Last modified: Thu, 26 Nov 2020, 11:02 UTC+01
-! Version: 2020.11.26.0
+! Last modified: Sun, 11 Apr 2021, 16:08 UTC+02
+! Version: 2021.4.11.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
-! Copyright © 2020 Polish Filters Team
-! Aktualizacja: czw, 26 lis 2020, 11:02 UTC+01
+! Copyright © 2021 Polish Filters Team
+! Aktualizacja: nie, 11 kwi 2021, 16:08 UTC+02
 !
 !
-dziennikzachodni.pl##+js(ra, href, componentsArticleContent a[href*="&utm_campaign=artykul"])
+dziennikzachodni.pl##+js(ra, href, componentsArticleContent a[href*="&utm_campaign=artykul"], stay)
 dziennikzachodni.pl##.componentsArticleContent a[href*="&utm_campaign=artykul"]:style(pointer-events: none !important; color: initial !important;)
-gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##+js(ra, href, .external_link)
-gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link:style(background: none !important;)
-gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link[href]:style(pointer-events: none !important; position: unset !important;)
+gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##+js(ra, href, .external_link, stay)
+gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link:style(background: none !important;)
+gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link[href]:style(pointer-events: none !important; position: unset !important;)
 !
 !
 ! Reguły specjalne
