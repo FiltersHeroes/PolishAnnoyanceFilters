@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 4uQdZ8NDuQJW+epw5dmBgg
+! Checksum: H4CKMi/ZOGsJGSdzfTpVDA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 12 Apr 2021, 12:08 UTC+02
-! Version: 2021.4.12.0
+! Last modified: Wed, 14 Apr 2021, 16:09 UTC+02
+! Version: 2021.4.14.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 12 kwi 2021, 12:08 UTC+02
+! Aktualizacja: śro, 14 kwi 2021, 16:09 UTC+02
 !
 !
 !
@@ -46,7 +46,7 @@ accu-chek.pl#?#.bg-gradient-combo.awecontent-column.awe-col:-abp-has(.keep-in-to
 active.fibrain.pl##.newsletterWithFacebook
 active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
 ac.com.pl#?#.footerBar:-abp-has(.form-horizontal > .form-group)
-adamgolub.pl,mamopracuj.pl##.newsletters
+adamgolub.pl,an-da.pl,mamopracuj.pl##.newsletters
 adapter.pl##.main-top-wrapper > .container > h2
 addnature.pl,bikester.pl##.newsletterModule
 addons.prestashop.com##.newsletter-subscribe
@@ -73,6 +73,7 @@ ajk-opakowania.eu,linktransport.eu,mierzeja.com###newsletter
 akademiaversum.pl,cyberfolks.pl,genialne.pl,gitd.gov.pl,hamptons.pl,homebook.pl,kochamyzwierzaki.pl,lilio.pl,m.leroymerlin.pl,magazif.com,mamkomputer.info,mirat.eu,nexto.pl,oknonet.pl,stoicway.net,telepolis.pl,tlp.is##.newsletter-form
 akademiawitalnosci.pl###text-2 > .textwidget, #text-2 > .title
 akademia-hotelarza.pl##div.col-xs-12.col-sm-12.col-md-5.col-lg-5:nth-of-type(3)
+akardo.pl##.newsletter-column
 aksiazka.pl##.stopkanewsletter
 aksjomat.com##.block-newsletter.block_newsletter
 aldi.pl##.mod-newsletter-teaser
@@ -275,7 +276,7 @@ buslapidus.pl,pasja-informatyki.pl##.widget_1
 butyraj.pl##.hidden-phone.top_toplayer
 bydgoszczak.pl,kaliszak.pl,katowiczak.pl,krakusik.pl##.mini-newsletter
 bydgoszcz.com,ct.jaworzno.pl,damitv.pl,e-widuchowa.pl,echotygodnik.info,kociewiak.pl,narew.info,pzl24.pl,telewizjazary.pl,tvobiektyw.pl,tvsudecka.pl,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
-byinsomnia.com,mniammniam.com,rylko.com,stoprocent.com##.newsletter-container
+byinsomnia.com,mniammniam.com,r-gol.com,rylko.com,stoprocent.com##.newsletter-container
 bytom.com.pl##[translate="main.footer.newsletter.header"]
 cafago.com,tomtop.com##.m_subscribe_input
 calisia.pl##footer .container > .row > div:nth-of-type(4)
@@ -488,6 +489,7 @@ eksperymentalnie.com##iframe[src*="app.getresponse.com"][src*="eksperymentalnie"
 eksperymentalnie.com,pozdrozkrld.com##.widget_mailchimpsf_widget
 eksperymentalnie.com,totalnareklama.pl##.widget_getresponse-widget.widget
 eldomagd.eu##.pro-footer-newsletter
+elektromeks.pl##.newsletter_stopka
 elektroniksc.com.pl##.tpl-newsletter-form-widget
 elektronik-service.com.pl###form_newsletter_down
 elektrosystemy.pl###text-48
@@ -648,6 +650,7 @@ goscinnygaj.pl##.center-block.row > .col-md-3:nth-of-type(2)
 gosc.pl##.Col0.LayoutColumn.c1 > .wp-el.webpart-wrap-layout_column.wp-bd > .wp-el.webpart-wrap-links.wp-bd
 goshico.com##.newsletter-block_dark
 gospodarkamorska.pl###newsletter-bx
+gospodarz.pl##div.footer_menu.col-sm-12.col-md-3.col-lg-3:nth-of-type(4)
 gospodarz.pl###bucia > div:nth-of-type(2)
 gospodarz.tv##.cp-sidebar > .widget-form.widget
 gowork.pl##.company__subscribe
@@ -1116,6 +1119,7 @@ otwarte.eu###newsletter-box-slide
 outdoorzy.pl###ft-newsletter
 outhorn.com##footer #subReqForm > div:not(#custom776), footer #subReqForm > h3
 outsourcingportal.eu##.newsletterbox
+oysho.com##.public-news-letter-form
 ozonee.pl###tws_i_3
 o-m.pl##.kafel-newsletter
 o.pl###email-bar, #nl-icon, #cs-newsletter
@@ -1348,6 +1352,7 @@ shopgracz.pl##.newsletter_footer_block li:nth-child(-n+2)
 shop.albione.eu###newsletter-slide
 shop.massdnm.com,taniefototapety.eu###menu_newsletter
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
+shop.techmot.com.pl###newsletterPanel
 showroom.pl##.news-signup
 siecobywatelska.pl###widget-text-28
 silesiasem.pl##.entry-content > form
@@ -1539,6 +1544,7 @@ topagrar.pl##.sidebar__box--newletter
 tpi.com.pl##.cmn-newsletter
 tp-link.com##.tp-follow-subscribe
 traktorpool.pl#?#.layout-content > .md\:block.hidden.app\:hidden:-abp-has(div:-abp-contains(e-mailową))
+traktor.com.pl##.footer-top4.col-md-3.col-sm-6.col-12
 travelplanet.pl##.col-footer-newsletter-block
 triny.pl##.newsletter-sub-box
 trivago.pl###js-newsletter-registration
@@ -1733,6 +1739,7 @@ zdrowie.pap.pl##section ~ a[href="/newsletter/form"]
 zegarek.net##footer > .backGroundX.container-fluid > .container
 zegarkiipasja.pl###contactBoxForm
 zeropln.antyweb.pl##div > .relative.bg-grey-light
+zetor.pl##.ajax.form-newsletter
 zhp.pl##.static-area.mh-el:nth-of-type(5)
 ziaja.com###newsletter-top
 ziaja.com##.footer-bar > div > .newsletter-form-sm
