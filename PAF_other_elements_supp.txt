@@ -19,7 +19,8 @@ cdn.ampproject.org,reddit.com##.XPromoPill
 cdn.ampproject.org,reddit.com##body.scroll-disabled:style(overflow: visible !important; position: static !important;)
 czyjnumerek.pl##.table-opinion div[class^="vote-"]:nth-child(odd):style(display: inline-block !important;)
 czyjnumerek.pl##.table-opinion:nth-of-type(1):not(:nth-last-of-type(1)) div[class^="vote-"]:nth-child(odd):style(transform: none !important;)
-download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;)
+download.net.pl##dl > .date:style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important;)
+download.net.pl##dl > .date:upward(dl):style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important;)
 dziary.com##.ps-container:style(overflow: auto !important;)
 dziary.com##.ps-scrollbar-y-rail
 egami-image.com##form input:style(color: white !important;)
@@ -102,6 +103,7 @@ www.dobreprogramy.pl###document.app-page > div > .content-list[role="list"]:not(
 www.dobreprogramy.pl##.ignored:not(:hover):not(:active):not(:focus):style(opacity: 0.1 !important;)
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
+!download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;)
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
 !m.youtube.com##+js(aeld, visibilitychange, [native code])
 !pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
@@ -136,10 +138,10 @@ semcamp.university##div > div > div.app::-webkit-scrollbar-track:style(backgroun
 semcamp.university##div > div > div.app::-webkit-scrollbar:style(all: initial !important;)
 !#endif
 !#if !ext_ublock
-download.net.pl#$?#.date:not(dt) { display: block !important; }
 karachan.org$$script[wildcard="style*xD"][min-length="100"]
 komputerswiat.pl$$#ks_breaking_news
 newonce.radio$$link[rel="shortcut icon"][href^=".gif"]
+!download.net.pl#$?#.date:not(dt) { display: block !important; }
 !#endif
 !#if env_mobile
 medipartner.pl##.sidebar-kontakt2 .wpcf7-form p:style(display: block !important;)
