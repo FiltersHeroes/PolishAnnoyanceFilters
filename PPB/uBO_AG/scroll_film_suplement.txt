@@ -23,5 +23,3 @@ topagrar.pl##+js(aeld, scroll, [native code])
 wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important;)
 !komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, FloatingVideoPlayer, noopFunc)
 !komputerswiat.pl,ofeminin.pl,onet.pl,~poczta.onet.pl,przegladsportowy.pl##+js(set, floatingPlayer, noopFunc)
-/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl
-/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
