@@ -109,6 +109,8 @@ zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 !pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
 !pomponik.pl##^div[class="topbar-container"], a[class="common-header__interia-back-button"]
 !spolem.katowice.pl##html > body:style(overflow-x: visible !important;)
+/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
+/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 !#if !cap_html_filtering
