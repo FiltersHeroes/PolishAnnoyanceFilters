@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OjhxI5sHnlYLDo/YeAJZFg
+! Checksum: 11HtBhTIHZw9YG6K1nsgMA
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 18 Apr 2021, 12:08 UTC+02
-! Version: 2021.4.18.0
+! Last modified: Sun, 18 Apr 2021, 20:09 UTC+02
+! Version: 2021.4.18.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 18 kwi 2021, 12:08 UTC+02
+! Aktualizacja: nie, 18 kwi 2021, 20:09 UTC+02
 !
 !
 !
@@ -102,7 +102,7 @@ bankier.pl##.btnPitArticle
 bankier.pl###pit2017_explorer, #boxInsFlyfooter
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
-begio.pl##.penci-rlt-popup
+begio.pl,mnews.com.pl##.penci-rlt-popup
 bentawet.pl,sklep.rowmot.eu##.kac-sm-allegro
 beskidlive.pl,estrzelce.pl,finansovo.pl,rekinysukcesu.pl##div[id^="dj-suggester"]
 beskidzka24.pl##.page-preloader-cover
@@ -320,6 +320,7 @@ gandalf.com.pl###check_order, #flcart
 gastro-pol.pl###bar-firma
 gazetadywicka.eu,michalowo.eu,nowy.plock.eu,zawidow.eu###pojo-a11y-toolbar
 gazetapraca.pl##.js-offer-suggested-offer-btn.next-offer-box
+gazeta.pl##.redirect
 gb.pl,wsieciprawdy.pl###showMoreButton
 gdanskstrefa.com,raportrolny.pl###related-posts-wrapper-flyout
 gdansk.pl##.nast.bat2
@@ -794,6 +795,8 @@ techsetter.pl###wpd-bubble-wrapper
 telekarma.pl###flyCart
 telemedi.co###notifications-pop
 telepolis.pl##.floor[style*="position"][style*="fixed"]
+telepolis.pl##.infinite-content-container > .infinite-item ~ .infinite-item
+telepolis.pl##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll
 termokubki.com.pl###widget_shop6
 timeandwatches.pl###polecane_right
 tim.pl##.toolkit-bookmark-item-compare
@@ -843,7 +846,6 @@ weathermap.netatmo.com###abtasty-banner
 wedkarz.pro##.ikonkiw.hidden-xs > a[href="/koszyk"]
 wesolakraina.pl##.kontrast_tlo
 weszlo.com##.suggester-box.position-fixed
-wiadomosci.gazeta.pl##.redirect
 wiedza3g.pl##.wesprzyjNas
 wieszaki.info##.allegro-fiszka
 wiktormeble.pl##.sm-twitter
@@ -992,7 +994,8 @@ pl##.sm-gmap
 pl##.socialproof-new
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
-pl#?#.cTopicPostArea:-abp-has(.cGuestTeaser)
+##.circle-cursor
+/hello-elementor-child/pointer.js$script,stylesheet,~third-party
 !
 !
 ! Reguły specjalne
