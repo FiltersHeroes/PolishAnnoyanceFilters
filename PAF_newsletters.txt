@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 83OWzEJbrXNLsv6cne3Zfw
+! Checksum: 0YEWfwNZhTEyiqFb5jQDKw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 18 Apr 2021, 20:09 UTC+02
-! Version: 2021.4.18.1
+! Last modified: Mon, 19 Apr 2021, 00:21 UTC+02
+! Version: 2021.4.19.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 18 kwi 2021, 20:09 UTC+02
+! Aktualizacja: pon, 19 kwi 2021, 00:21 UTC+02
 !
 !
 !
@@ -65,7 +65,7 @@ agriaffaires.pl###js-newsletterBlock
 agrodoradca24.pl##.newsletter-online
 agromat.pl#?##contact-box:-abp-has(div.title:-abp-contains(Zapisz się do newslettera))
 agromr.eu,interlumen.com##.ModulNewsletter
-agrosklad.com.pl##.zostaw_numer
+agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
 ahe.lodz.pl###company-newsletter-column
 airstop.pl###snippet-newsletterSubscription-newsletterSubscription
 aisko.pl##.module-newsletter
@@ -176,6 +176,7 @@ azjatyckibazar.com##.site-footer__item-inner--newsletter
 azzun.pl##.site-footer__ezine-hld
 b2btrade.eu#?#.vertical-top.rwd-col-6:-abp-contains(newsletter)
 babyboom.pl##.zapisz-newsletter
+babysensepolska.pl##.newsletter2-wrapper
 balladine.com,developer.mozilla.org,disqus.com,portalodo.com,unisono.eu##.newsletter-box
 bankier.pl##.widgetNewsletter
 bankier.pl###boxNewsletterFlyfooter, #articleNewsletter
@@ -196,6 +197,7 @@ befado.pl##.kt_widget_newsletter
 befado.pl,wnp.pl##.mail
 bellemaison.pl##.em-newsletter
 belmeb.pl##.newsletter_content
+berlitz.com###max-newsletter__form
 beslow.pl##.ulp-layer
 bestcena.pl##div[class^=newsletter-box]
 bezgluten.pl###footer > div:nth-of-type(1) > div:nth-of-type(1)
@@ -670,7 +672,7 @@ grupaimage.eu##.sidebar-left > div.sidebar-box:nth-of-type(2)
 gtbicycles.pl###mailinglist_container
 gumtree.pl##.btm-alertEmail, .left-o-alertEmail
 hackintosh.com.pl,ustka.travel##.mailchimp
-haczykowo.pl,kopalniasrebra.com,sklep.miodyapis.pl,texasclub.pl##.newsletter1-wrapper
+haczykowo.pl,kopalniasrebra.com,sklep.miodyapis.pl,sklep.wzso.pl,texasclub.pl##.newsletter1-wrapper
 hairstore.pl###stopka_newsletter
 hanamipigments.eu#?#.num-1.table_cell:-abp-has(.newsletter)
 handluj.com###footer_top > .container > .row > div:nth-of-type(1)
@@ -717,6 +719,7 @@ ideau.pl##.section__newsletter, .newsletter-widget
 idream.pl##.main-newsletter
 igimag.pl###freshMailPopUp__background
 imperiumromanum.edu.pl##div.wpb_raw_html.wpb_content_element.wpb_raw_code:nth-of-type(2)
+inexbuy.pl##.us-foooter-subscribe-row
 influentiq.pl###text-14
 infoair.pl,infobike.pl,infobus.pl,inforail.pl,infoship.pl,infotram.pl,transinfo.pl##div.right_content_box:nth-of-type(4)
 infobeskidy.eu,starysacz.info###NewsletterForm
@@ -901,6 +904,7 @@ mango.pl##.banner-slim
 manorhouse.pl##.site-newsletter
 manta.com.pl##.col-md-6.news_right
 marbo-sport.pl###top_newsletter
+marcoshoes.eu##.footer_newsletter_form
 marketdino.pl,martextruck.pl##.section-newsletter
 marketingprzykawie.pl##.footerNewsleterContent, .footerNewsleterHeader, .toogleNewsletterBox
 marta-gotuje.pl##.pipdig_widget_subscribe
@@ -939,6 +943,7 @@ melagu.pl##.ty-footer-form-block > .cm-processed-form
 memi.eu,mirat.eu##.top-footer
 meritum.gda.pl##.w234.fleft:nth-of-type(6)
 merlin.pl##.b-footer__icons-list
+meskarzecz.com#?##menu_buttons:-abp-has(.menu_button_wrapper .newsletter_form)
 mgotuje.pl##.subscribe-box
 miastodzieci.pl##.pull-left > a[href="/zapisz"]
 miastons.pl#?#.sh-s1.sh-t2.section-heading:-abp-contains(Newsletter)
@@ -1400,6 +1405,7 @@ sklep.spidersweb.pl###nslt
 sklep.swiatkwiatow.pl,twojszklarz.pl##.subscribe-block
 sklep.tonerylublin.pl##ul:nth-of-type(4)
 sklep.vileda.pl###newsletter-category
+sklep.wzso.pl#?#main > div > span:-abp-contains(Newsletter)
 skorzany.com###zapisz-sie
 skuteczneraporty.pl##.post .wf2-embedded.grwf2-wrapper
 slaskietrendy.pl##.kp-newsletter-widget.widget
@@ -1552,6 +1558,7 @@ tp-link.com##.tp-follow-subscribe
 traktorpool.pl#?#.layout-content > .md\:block.hidden.app\:hidden:-abp-has(div:-abp-contains(e-mailową))
 traktor.com.pl##.footer-top4.col-md-3.col-sm-6.col-12
 travelplanet.pl##.col-footer-newsletter-block
+travelplanet.pl##.f-newsletter
 triny.pl##.newsletter-sub-box
 trivago.pl###js-newsletter-registration
 triverna.pl##.ssPopupNewsletter, .ssHeaderNewsletter, .ssFooterNewsletter
@@ -1740,6 +1747,7 @@ zapiskizeswiata.pl###mc_embed_signup > #mc-embedded-subscribe-form
 zaradnyfinansowo.pl##.widget_subscribe_sidebar_czyt.widget, .widget_subscribe.widget
 zara.com##.layout-footer-newsletter
 zarzadcy.com.pl##.menu_right > div:nth-of-type(1)
+zawady.com.pl###subscribe
 zdobadzkobiete.pl###access
 zdrowie.pap.pl##section ~ a[href="/newsletter/form"]
 zegarek.net##footer > .backGroundX.container-fluid > .container
