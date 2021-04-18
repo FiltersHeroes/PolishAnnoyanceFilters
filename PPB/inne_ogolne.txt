@@ -1,9 +1,6 @@
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
-##body > .buttonHomepage, .buttonHomepage ~ .containerHomepage
 ~pl###___ratingbadge_0:lang(pl)
 ~pl##.mraty-widget:lang(pl)
-###gr-spnotifications
-###grw_sidebox
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 pl##.bilet
 pl##.llSlideButton
@@ -41,5 +38,8 @@ pl##.sm-gmap
 pl##.socialproof-new
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
+##body > .buttonHomepage, .buttonHomepage ~ .containerHomepage
+###grw_sidebox
+###gr-spnotifications
 ##.circle-cursor
 /hello-elementor-child/pointer.js$script,stylesheet,~third-party
