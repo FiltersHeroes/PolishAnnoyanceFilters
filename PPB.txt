@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 2e8oaFQ4PWZOLMTsCzFGxA
+! Checksum: oHD+zW3oa3UK2Hb0+fLhiA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 19 Apr 2021, 00:25 UTC+02
-! Version: 2021.4.19.1
+! Last modified: Tue, 20 Apr 2021, 12:08 UTC+02
+! Version: 2021.4.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 19 kwi 2021, 00:25 UTC+02
+! Aktualizacja: wto, 20 kwi 2021, 12:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -214,7 +214,7 @@ bierhalle.pl###Mod89
 bigstar.pl##footer > section ma-accordion-item:nth-of-type(4)
 bigstar.pl##.ma-home-newsletter
 bikeinn.com,dressinn.com,goalinn.com,kidinn.com,motardinn.com,outletinn.com,runnerinn.com,scubastore.com,smashinn.com,snowinn.com,swiminn.com,techinn.com,traininn.com,trekkinn.com,waveinn.com,xtremeinn.com##.newsFooter
-bilscy.info##.footer-newsletter-box
+bilscy.info,sarenka.eu##.footer-newsletter-box
 bioenergiadlaregionu.eu##.pa-newsletter
 bioieko.pl,chinytolubie.pl,dietetycy.org.pl,effective-english.pl,miastons.pl,przewodnikmp.pl,socialpress.pl###fm_form_1
 biolindo.pl,ecco-verde.pl##.footer_newsletter--form
@@ -920,7 +920,6 @@ mazury.travel,moliera2.com###newsletter_box
 mba.umlub.pl#?##sp-bottom2 div.sp-module:nth-of-type(2):-abp-has(form input[type="email"])
 mbmeganarzedzia.pl,motogron.com##.footer-container > div > div > div:nth-of-type(4)
 mbp.szczecin.pl#?#.elementor-inner-column.elementor-element[data-settings*="background"][data-settings*="classic"] > .elementor-element-populated.elementor-column-wrap:-abp-has(h4:-abp-contains(/^Zapisz się do naszego newslettera$/))
-mcm-milicz.pl###main > #page:matches-css(width: 0px)
 mdk.opole.pl##footer > .my_container > .formularz.sub
 meble88.pl##.form-subscribe
 meble-z-drewna.pl###lewy .zawartosc > table, #lewy .zawartosc > table + p:empty
@@ -1341,7 +1340,6 @@ salaterka.pl##.fca_eoi_form
 salonydenon.pl#?#.row.tvfooter-storelogo-imformation > .tvfooter-title-wrapper > .tvfooter-title:-abp-contains(Newsletter)
 salonyhoff.pl###section_subReqForm
 sandecja.org##.newsletter_bg
-sarenka.eu##www.bilscy.info##.footer-newsletter-box
 satel.pl#?#div.news:nth-of-type(6):-abp-has( > form > #addr)
 scandinavian-clinic.pl###footer .footer-sidebar4
 scanner.com.pl##div.span3.top-in:nth-of-type(3)
@@ -3527,7 +3525,6 @@ kancelaria.info##.eut-top-btn
 karcz.eu##.ce_toplink
 karointhekitchen.com,kasiagandor.com###ts-back-to-top
 katowice.kwpsp.gov.pl###go-to-up
-katowice.leclerc.pl,leclerc.pl,ofeminin.pl##.goUp
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
 kierunekfarmacja.pl###top_layer
@@ -3569,6 +3566,7 @@ leba.eu,niepolomice.eu##.to-top-container
 lebork24.info##.backto
 lechia.net###gkBackToTop
 leclerc.com.pl##.bln-scrollTop
+leclerc.pl,ofeminin.pl##.goUp
 legalnakultura.pl,mojaniderlandia.pl,mojanorwegia.pl,trol.pl###goUp
 legalniewsieci.pl##.float-news-nav
 lenovo.com##.backToTop
@@ -4368,7 +4366,7 @@ jacus.pl,pupillo.pl###opinie
 jakwyjsczdlugow.pl##.btn-info
 jaw.com.pl###qcf-btn, #qcf-phone
 jsystems.pl##.metka
-juwentus.pl###--lc-init-container
+juwentus.pl##[id="--lc-init-container"]
 kajakom.pl###help
 kammar24.pl###druga_ikona
 karmi.pl##.scrolled.homecontact
@@ -5128,7 +5126,7 @@ godstoys.pl##.master-loading-overlay
 gomobi.pl##.blog-head
 goodair.pl###bestsellers_panel
 google.com,google.pl##iframe[src^="https://ogs.google.com/widget/callout?prid="], iframe[src^="https://ogs.google.pl/widget/callout?prid="]
-gorzow24.pl,www.gorzow24.pl###nasze_serwisy
+gorzow24.pl###nasze_serwisy
 gosc.pl##.fixedBottom
 gospodarkamorska.pl##.tb-gmtv
 gowork.pl##.js-banner-hate-aside
@@ -5962,7 +5960,6 @@ magazyngitarzysta.pl##.new-newspaper.module
 magazynt3.pl###mvp-side-wrap
 magazynt3.pl##.mvp-top-sub-text
 magazyn.waszaturystyka.pl##div.row-container.vc_row:nth-of-type(8)
-magazyn.waszaturystyka.pl,waszaturystyka.pl##.onepage-section.row-container
 magnapolonia.org##a[href^="https://sklep.magnapolonia.org/najnowszy/"]
 malygosc.pl##.pos-sticky
 malygosc.pl##.wp-el.webpart-wrap-media.wp-bd
@@ -6132,6 +6129,7 @@ tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/) + br + div
 viva.pl##.medium-order-210.subscription
 warszawskagazeta.pl##div.sp-module:nth-of-type(3)
 warszawskagazeta.pl###sppb-addon-1504787697990 > .sppb-addon-module.sppb-addon
+waszaturystyka.pl##.onepage-section.row-container
 waszaturystyka.pl##.wp-image-44120
 wedkarskiswiat.pl##.ad__top
 wedkarskiswiat.pl##.magazine.section__mag.section
