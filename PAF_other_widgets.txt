@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: sv/iZTgJWQek31hAYYw3Gg
+! Checksum: J8F1PRKeDxH2AJYeXg/Ggw
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 22 Apr 2021, 12:08 UTC+02
-! Version: 2021.4.22.0
+! Last modified: Thu, 22 Apr 2021, 20:08 UTC+02
+! Version: 2021.4.22.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: czw, 22 kwi 2021, 12:08 UTC+02
+! Aktualizacja: czw, 22 kwi 2021, 20:08 UTC+02
 !
 !
 !
@@ -650,6 +650,8 @@ polityka.pl##.commentArt
 poloniawroclaw.pl##.sfl-widget--ribbon__fixed, .ys-sidebar-btn-2
 polskicaravaning.pl###\35 3419
 polstor.pl##.tax-free-shopping
+polygamia.pl,www.dobreprogramy.pl##.backToWp
+polygamia.pl,www.dobreprogramy.pl#?##main-content ~ div[class]:nth-child(3) > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 poradnikhandlowca.com.pl##.region-page-bottom > #slidead-popup
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 portalhodowcy.pl##.kac-sm-panel > ul:nth-of-type(1)
@@ -855,10 +857,6 @@ wordpress-wdrozenia.pl###loader-wrapper
 wpzen.pl###wpzen-article-box
 wsse-poznan.pl###pwebbox216_toggler
 www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
-www.dobreprogramy.pl##.backToWp
-www.dobreprogramy.pl###sgwp, .flex-wrap.full-width.desktop-flex > .grid-margin-px30-top.span-12, #phContent_SocialControlTop_btnBookmark
-www.dobreprogramy.pl#?##main-content ~ div[class]:nth-child(3) > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
-www.dobreprogramy.pl#?##phContent_divArticle > .desktop-flex > #sidebar > .block:-abp-contains(Nasze najnowsze wideo)
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
