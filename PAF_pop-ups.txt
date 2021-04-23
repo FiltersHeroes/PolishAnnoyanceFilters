@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: urA/WRwjmm8VI0SKIC18+w
+! Checksum: 02OXLyinFuMkQd1KFTGBWg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 20 Apr 2021, 20:08 UTC+02
-! Version: 2021.4.20.1
+! Last modified: Fri, 23 Apr 2021, 20:08 UTC+02
+! Version: 2021.4.23.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 20 kwi 2021, 20:08 UTC+02
+! Aktualizacja: pią, 23 kwi 2021, 20:08 UTC+02
 !
 !
 !
@@ -518,6 +518,7 @@ metin2list.pl###news_popup
 mgprojekt.com.pl##.orlando-whiteboard.orlando-background, .jupiter-entrance.jupiter-background.optin-monster-saas-overlay
 mierzeja.com###banner-popup
 mieszkanie.mitula.com.pl###popupSimilares
+mieszkanie.mitula.com.pl#?#body > script:-abp-contains(alertSectionId = 5) ~ #popupAlert
 mieszkaniowi.pl##.event_info
 migrelo.de###modMnNewLayerA, .newLayerBack.a.modMnNewLayerBack
 millihome.pl###black2, #newletter-wrap-container
