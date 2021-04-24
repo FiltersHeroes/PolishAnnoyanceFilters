@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: vyTyB96Ay30EyppD3UO0pw
+! Checksum: YlmKqw3EQ6H2G1hHHKINJw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 24 Apr 2021, 12:08 UTC+02
-! Version: 2021.4.24.0
+! Last modified: Sat, 24 Apr 2021, 20:08 UTC+02
+! Version: 2021.4.24.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: sob, 24 kwi 2021, 12:08 UTC+02
+! Aktualizacja: sob, 24 kwi 2021, 20:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -363,6 +363,7 @@ cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.b
 cybsecurity.org,demagog.org.pl###mc4wp-form-1
 cybsecurity.org,duzekubki.pl###mc4wp_form_widget-2
 cyfrowynauczyciel.pl###mab-widget-2
+cyfrowyszpital.pl##.widget-area > .theiaStickySidebar > div:nth-of-type(3):nth-child(4)
 cyklo.info.pl#?#.et_pb_section > .et_pb_equal_columns:-abp-has(form button[class*="subscription"])
 czasdzieci.pl###id_boxNews
 czasfinansow.pl##.site-footer > .row > div:nth-of-type(3)
@@ -2047,6 +2048,7 @@ cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chronpesel.pl##.wh-popUp-overlay
 chrzypsko.pl,metaltech.com.pl,vas.com.pl###dhtml_popup
 ciechocinek.biz,gniewkowo.eu,ki24.info,kolniak24.eu,nizanskie.info,roztocze.net##.hejhej.hey-outer
+ciekawe.org,cyfrowyszpital.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl##.boxzilla, .boxzilla-overlay
 cieszanowrockfestiwal.pl,wantmore.pl##.et_bloom_trigger_bottom.et_bloom_popup
 clickfashion.pl###newsletter-popup, .layer_cart_overlay
 cocomoda.pl###welcome_newsletter
@@ -2253,7 +2255,6 @@ jakbudowac.pl,twojogrodek.pl##.exit-popup.dialog, .overlay
 jakdojade.pl###container > starting-screen.ng-isolate-scope
 jaknegocjowac.com.pl###popmake-786
 janssen.tv##.fancybox-wrap, .fancybox-overlay-fixed.fancybox-overlay
-jestok.eu,polskacanada.com##.boxzilla, #boxzilla-overlay
 justjoin.it##.join-fb-popup
 juwent.com.pl#?#body > div:not([class]):not([id]) > div:not([class]):not([id]):-abp-has( > .nyroModalBg)
 kalkulatorkalorii.net###getresponse, .modal-backdrop
@@ -2711,7 +2712,6 @@ waze.com#?#.wz-popup-overlay:-abp-has(div > h3)
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 webcamera.pl###exit-intercept
 wego.here.com##.active.fullBanner
-westhill.pl###boxzilla-10619, #boxzilla-overlay-10619
 westwing.pl##.sl
 whitervbbit.com###newsletter_background, #newsletter_wrapper
 widoczni.com##.leavedocumentlayer
@@ -2779,6 +2779,7 @@ zszywka.pl###inv-request-popup
 !youtube.com##body > .opened[opened][style^="z-index"]
 !youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href^="https://support.google.com/youtube/?p=sign_in"])
 !zuch.media###spu-10366, #spu-bg-10366
+!/wp-content/plugins/boxzilla/assets/js/script.min.js$domain=ciekawe.org|gdanskstrefa.com
 !||youtube.com/get_video_info?*video_id=3mUaADvAK9E*eurl=*intermarche.pl*c=WEB_EMBEDDED_PLAYER$xmlhttprequest,domain=www.youtube.com
 !||zaradnyfinansowo.pl/*/wp-content/plugins/wp-subscribe-pro/assets/js/magnificpopup-*.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
@@ -2791,7 +2792,6 @@ zszywka.pl###inv-request-popup
 /plugins/easy-facebook-likebox/*$domain=tvkrosno.pl
 /wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
-/wp-content/plugins/boxzilla/assets/js/script.min.js$domain=ciekawe.org|gdanskstrefa.com
 /wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js$domain=jednoslad.pl
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|kulturawplot.pl|magnapolonia.org|zbudujsamdom.pl
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=shareinfo.pl
@@ -3272,7 +3272,7 @@ borcas.eu##.scrollToTopPlugin
 borcas.eu##.scrollToTopPlugin_label
 bor-met.eu,imagene.me,oaze.pl,polcovid.pl###smoothup
 bosch-extra.pl,extra-program.pl,fk-toys.pl,glovoapp.com##.to-top-button
-bravebeaver.pl,drobne.fm,justyna.kowalcze.eu,kalendarzonline.com,kasz-bus.info,nowicka-misiewicz.com,presta.eu.org,rankingkont.org,zdrowyportal.org###topcontrol
+bravebeaver.pl,drobne.fm,justyna.kowalcze.eu,kalendarzonline.com,kasz-bus.info,nowicka-misiewicz.com,presta.eu.org,rankingkont.org,sledcza24.tv,zdrowyportal.org###topcontrol
 brodatyzbir.pl,jaktodaleko.pl,kasiapszonicka.pl,rootblog.pl##.pk-scroll-to-top
 budownictwob2b.pl,budujemydom.pl,cozaile.pl,dekavit.pl,habys.pl,informatorbudownictwa.pl,kpcen-torun.edu.pl,nowaera.pl,oczymlekarze.pl,zielonyogrodek.pl##.return-top
 budujzdrewna.pl,cnc.info.pl,forum-bron.pl##.scroll-btn
@@ -4872,6 +4872,10 @@ auto-mobil.pl###metka-promocje
 auto-motor-i-sport.pl##.genewa-roll
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl###pdr
 auto-swiat.pl,businessinsider.com.pl,cdn.ampproject.org,fakt.pl,komputerswiat.pl,onet.pl,~www.onet.pl##html[amp-version] .barLink
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##.backToOnet
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##a[class^="backToOnet__"]
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###backToOnet
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##.BackToMainPage, .backToOnetBottomBar
 avans.pl##.is-complaintReport.c-btn
 avans.pl##.is-stickyActive1558948916896.is-stickyWrapper
 awa24.pl###delivery-info-drawer
@@ -4924,10 +4928,6 @@ budujemydom.pl##.mod-zajawka, .box-zajawkowe, .monthly-advertisment
 burbonik.pl,popkulturysci.pl##a.g1-teaser
 bursiak.pl,flatfeefsbo.com,lionteam.pl,meblosfera.pl,network-interactive.pl,siecportali.pl,uzdrowiska-pgu.pl,wizja.net##.preloader
 businessinsider.com.pl###goback
-businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##.backToOnet
-businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##a[class^="backToOnet__"]
-businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###backToOnet
-businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##.BackToMainPage, .backToOnetBottomBar
 busko.net.pl###upPrevSlide
 cantino.pl###Form > div[style]:not([id]):not([class]):nth-of-type(6)
 caritaspoznan.pl##.footer
@@ -4944,6 +4944,7 @@ chojnow.pl###login-box
 chomikuj.pl###plugininInstallerDiv, .recommend_panel
 chorzow.eu##.col-sm-12 > p:nth-of-type(3)
 chrzypsko.pl##.biegacz
+ciekawe.org,cyfrowyszpital.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl####.boxzilla-container:not([class*="center"]) > .boxzilla
 cieplikpodrozuje.pl#?#.elementor-popup-modal:-abp-has(input[type*="email"])
 citroen.pl##.sidebarToolsDesktopReview
 ckr.pl##.sliding-platforma, .sliding-zwolnienie
@@ -4960,6 +4961,7 @@ crmodus.pl##.kac-sm-zl
 crolove.pl###see-more-box
 cryptoacademy.club,miedzyrzecz.biz,piaseczno.eu,polonia.nl,weneedmore.space,wislakrakow.com,wrp.pl##.td-more-articles-box
 cybersport.pl##.is-active.pbox
+cyfrowyszpital.pl,gracz.org,reporters.pl##.boxzilla-container:not([class*="center"]) > .boxzilla
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
 czestochowa.pl###left_bookmarks > a[href$="dodaj-do-ulubionych.html"]
@@ -5050,7 +5052,6 @@ euroogrod.com.pl###tws_c_0
 eurosport-fitness.pl##.nks_metro
 eventy-online.pl###przewodnik
 exceldlaksiegowych.pl###post-navigation
-expressit.pl##.boxzilla-promocja
 extramama.pl###widget_shop1
 ezebra.pl###dostawa_widget
 e-bliskoprzyrody.pl##.vlt-post-navigation
@@ -5128,7 +5129,6 @@ gorzow24.pl###nasze_serwisy
 gosc.pl##.fixedBottom
 gospodarkamorska.pl##.tb-gmtv
 gowork.pl##.js-banner-hate-aside
-gracz.org##.boxzilla-container > .boxzilla
 grafithotel.pl##.newsButton
 grupapietrzak.pl##.buyout
 grupa.unimet.pl###ht-preloader-wrap
@@ -5470,7 +5470,7 @@ radio17.pl##.android-app-dialog
 radiobonton.pl##.hidden-xs.offbox-position-right.radio-play.offbox-radio
 radomsko.pl###media > ul > li > .tooltipMedia
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(-n+2)
-rallypl.com###check-also-box
+rallypl.com,sledcza24.tv###check-also-box
 rankomat.pl##.rank-notice-boomerang
 rankomat.pl##.searching-cheap-oc
 raportdrogowy.interia.pl,uroda.swiatkobiety.pl##.articleObjectSeeAlso
@@ -5478,7 +5478,6 @@ rc.fm###rconline
 recenzjezpazurem.pl###banner
 reddit.com##.read-next
 refunder.pl#?#.fixed:-abp-has( > div[data-id="sticky-register"])
-reporters.pl##.boxzilla-najczesciej-czytacie
 retailnet.pl##.elementor-popup-modal.dialog-widget
 rgbautomatyka.pl###repair-box
 rg-narzedzia.com.pl###allegroiko
@@ -5715,7 +5714,7 @@ z-hotel.com###repuso_floating
 ||leaselink.pl/js/slide-button-shoper.js
 ||morele.unifiedfactory.com/widget/config.js
 ||niezbednik.mediraty.pl/img/widget_duzy_button_1.png
-||ocdn.eu/moto/static/scripts/sg-loader.$script,domain=komputerswiat.pl
+||ocdn.eu/moto/static/scripts/sg-loader.$script,domain=auto-swiat.pl|komputerswiat.pl
 ||platformafinansowa.pl/assets/other/widget.png$third-party
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
@@ -5885,6 +5884,7 @@ farmacja.pl###home-module-sklep
 farmer.pl#?#body > div[class*="box"] > div:-abp-has( > .left > div > div > h2 > a:-abp-contains(Miesięcznik Farmer))
 focus.pl##.carousel-inner
 focus.pl##.content > div.row:nth-of-type(4)
+forbes.pl##.bottomBar iframe[src*="buy.tinypass.com/"]
 forumakademickie.pl###miesieczniki
 fzz.pl###kwartalnik
 fzz.pl#?#section.elementor-top-section:-abp-has(h3:-abp-contains(/^Zamów prenumeratę$/))
