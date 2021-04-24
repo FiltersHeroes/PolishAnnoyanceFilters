@@ -113,6 +113,7 @@ zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
 ||mokrenosy.pl/*/avada-nicescroll.js$script
+||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
 !#if !cap_html_filtering
 karachan.org##+js(acis, setInterval, Math.random)
 komputerswiat.pl###ks_breaking_news:style(position: absolute !important; left: -3000px !important;)
