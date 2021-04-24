@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 02OXLyinFuMkQd1KFTGBWg
+! Checksum: fUAJ/m9y7rAT0hm3VGslHw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Fri, 23 Apr 2021, 20:08 UTC+02
-! Version: 2021.4.23.0
+! Last modified: Sat, 24 Apr 2021, 20:08 UTC+02
+! Version: 2021.4.24.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pią, 23 kwi 2021, 20:08 UTC+02
+! Aktualizacja: sob, 24 kwi 2021, 20:08 UTC+02
 !
 !
 !
@@ -190,6 +190,7 @@ cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chronpesel.pl##.wh-popUp-overlay
 chrzypsko.pl,metaltech.com.pl,vas.com.pl###dhtml_popup
 ciechocinek.biz,gniewkowo.eu,ki24.info,kolniak24.eu,nizanskie.info,roztocze.net##.hejhej.hey-outer
+ciekawe.org,cyfrowyszpital.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl##.boxzilla, .boxzilla-overlay
 cieszanowrockfestiwal.pl,wantmore.pl##.et_bloom_trigger_bottom.et_bloom_popup
 clickfashion.pl###newsletter-popup, .layer_cart_overlay
 cocomoda.pl###welcome_newsletter
@@ -396,7 +397,6 @@ jakbudowac.pl,twojogrodek.pl##.exit-popup.dialog, .overlay
 jakdojade.pl###container > starting-screen.ng-isolate-scope
 jaknegocjowac.com.pl###popmake-786
 janssen.tv##.fancybox-wrap, .fancybox-overlay-fixed.fancybox-overlay
-jestok.eu,polskacanada.com##.boxzilla, #boxzilla-overlay
 justjoin.it##.join-fb-popup
 juwent.com.pl#?#body > div:not([class]):not([id]) > div:not([class]):not([id]):-abp-has( > .nyroModalBg)
 kalkulatorkalorii.net###getresponse, .modal-backdrop
@@ -854,7 +854,6 @@ waze.com#?#.wz-popup-overlay:-abp-has(div > h3)
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 webcamera.pl###exit-intercept
 wego.here.com##.active.fullBanner
-westhill.pl###boxzilla-10619, #boxzilla-overlay-10619
 westwing.pl##.sl
 whitervbbit.com###newsletter_background, #newsletter_wrapper
 widoczni.com##.leavedocumentlayer
@@ -922,6 +921,7 @@ zszywka.pl###inv-request-popup
 !youtube.com##body > .opened[opened][style^="z-index"]
 !youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href^="https://support.google.com/youtube/?p=sign_in"])
 !zuch.media###spu-10366, #spu-bg-10366
+!/wp-content/plugins/boxzilla/assets/js/script.min.js$domain=ciekawe.org|gdanskstrefa.com
 !||youtube.com/get_video_info?*video_id=3mUaADvAK9E*eurl=*intermarche.pl*c=WEB_EMBEDDED_PLAYER$xmlhttprequest,domain=www.youtube.com
 !||zaradnyfinansowo.pl/*/wp-content/plugins/wp-subscribe-pro/assets/js/magnificpopup-*.js
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
@@ -934,7 +934,6 @@ zszywka.pl###inv-request-popup
 /plugins/easy-facebook-likebox/*$domain=tvkrosno.pl
 /wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
-/wp-content/plugins/boxzilla/assets/js/script.min.js$domain=ciekawe.org|gdanskstrefa.com
 /wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js$domain=jednoslad.pl
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|kulturawplot.pl|magnapolonia.org|zbudujsamdom.pl
 /wp-content/plugins/exit-popup/js/exit-popup.js$domain=shareinfo.pl
