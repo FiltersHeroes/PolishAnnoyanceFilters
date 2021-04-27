@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5051xvlRl9MoohSA0HTNZQ
+! Checksum: A4Djyevu1xl7Ugk+2rcxiQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 27 Apr 2021, 12:08 UTC+02
-! Version: 2021.4.27.0
+! Last modified: Wed, 28 Apr 2021, 00:06 UTC+02
+! Version: 2021.4.28.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 27 kwi 2021, 12:08 UTC+02
+! Aktualizacja: śro, 28 kwi 2021, 00:06 UTC+02
 !
 !
 !
@@ -91,7 +91,8 @@ ashampoo.com##.exitlayer
 asics.com,delphiautoparts.com,emecze.pl,kazimierzdolny.pl,meczenazywo.tv,meczlive.pl##.ui-widget.ui-dialog, .ui-front.ui-widget-overlay
 askarzeznik.pl,greenpolska.com,ogrodnictwo.expert,primadance.pl###popup-box-gfcr-1
 astratex.pl###PopUpBanner
-astromagia.pl##.newsletter-popup, #calendar-popup-overlay
+astromagia.pl###calendar-popup-overlay
+astromagia.pl,mohito.com,monacollection.pl,ochnik.com,porcelana.pl,reserved.com,taniaksiazka.pl,wiadomosci.gazeta.pl,znak.com.pl##.newsletter-popup
 atat.pl,bananki.pl,chemia-atat.pl,elektryka-atat.pl,oswietlenie-atat.pl,papis.pl,zywnosc-atat.pl###exitpopup, #exitpopup_bg
 atrakcje.com.pl,blog.atrakcjenaimprezy.pl###boxes
 atrexpress.com.pl,ch24.pl###popup-box, #list-builder
@@ -104,11 +105,10 @@ autokult.pl,fitness.wp.pl,fotoblogia.pl,komorkomania.pl,medycyna24.pl###exit-int
 automotiveceeday.eu,pracodawcagodnyzaufania.pl###rstbox_3
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.exitBox
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.pushPlatform
-avaro.pl###tln4_wrap
-awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,littlejungle.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,stili.pl,zapachyswiata.eu###tln3_bg
-awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,littlejungle.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,stili.pl,zapachyswiata.eu###topLayerBackDrop
-awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,littlejungle.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,stili.pl,zapachyswiata.eu###toplayer_newsletter_popup, #toplayer_newsletter
-awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,littlejungle.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,stili.pl,zapachyswiata.eu#?#div[id^=tws_i_"]:-abp-has(#toplayer_newsletter_popup, #toplayer_newsletter, #toplayer_newsletter_form)
+avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu##div[id^="tln"][id$="_bg"]
+avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu###topLayerBackDrop
+avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu###toplayer_newsletter_popup, #toplayer_newsletter
+avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu#?#div[id^="tws_i_"]:-abp-has(#toplayer_newsletter_popup, #toplayer_newsletter, #toplayer_newsletter_form, div[id^="tln"][id$="_wrap"])
 axa.pl##.welcome-popup
 azzun.pl##.js-popup.popup
 b2b.metal-bud.eu##.go-to-top-ui
@@ -192,7 +192,8 @@ chrzypsko.pl,metaltech.com.pl,vas.com.pl###dhtml_popup
 ciechocinek.biz,gniewkowo.eu,ki24.info,kolniak24.eu,nizanskie.info,roztocze.net##.hejhej.hey-outer
 ciekawe.org,cyfrowyszpital.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl##.boxzilla, .boxzilla-overlay
 cieszanowrockfestiwal.pl,wantmore.pl##.et_bloom_trigger_bottom.et_bloom_popup
-clickfashion.pl###newsletter-popup, .layer_cart_overlay
+clickfashion.pl##.layer_cart_overlay
+clickfashion.pl,dzwignice.info,embryolisse.pl,lenovozone.pl,mohito.com,xlm.pl,zdrowie.pap.pl###newsletter-popup
 cocomoda.pl###welcome_newsletter
 colian.pl,imgw.pl##.home-popup
 colway.pl##.modal_movie
@@ -200,6 +201,7 @@ concordiaubezpieczenia.pl##.popup__wrapper
 containex.pl###eventTeaser, #cboxOverlay
 cottonina.pl##.go-away
 cowsierscipiszczy.pl##.optin-monster-saas-overlay, .jupiter-optin-visible
+cowwilanowie.pl##.popup_wrapper, .popup_background
 crazyshop.pl###popup-site
 creativetools.pl###newsletter_pop_up
 creativetools.pl,monitoring-system.pl##.__b-popup1__
@@ -253,7 +255,7 @@ dzem.com.pl##.mainuro[id]
 dziennikparafialny.pl###itro_popup, #itro_opaco
 dziennik-polityczny.com###dz-popup-follow-us
 dzinga.com###dzinga .overlay, #dzinga .popup
-dzwignice.info###newsletter-popup, .bg
+dzwignice.pl##.bg
 earlystage.pl###popup-home
 eastend.pl##.nl1.popup-opacity
 ebizneskrokpokroku.pl###qqOverlay
@@ -272,7 +274,6 @@ elektroniksc.com.pl##.tpl-window-instance, #ModalOverlay
 elementstore.pl###cboxOverlay[style*="opacity: 0.75"] ~ #colorbox, #cboxOverlay[style*="opacity: 0.75"]
 eluban.pl,jaslo4u.pl,krasnik.eu,kukulahealthyfood.pl,motherhood.pl,muzeumwp.pl,planujemyogrod.pl,przepisychinskie.pl,rankomat.pl,roltech.eu,sagana.pl,sklepdekarza.pl,sklepdlarolnika.pl,spodiglyinitki.pl,sushi-sklep.pl###popup
 emaga.eu##.livecall-callback-v1-popup-scroll-container
-embryolisse.pl,lenovozone.pl,xlm.pl,zdrowie.pap.pl###newsletter-popup
 emcconsultant.eu,yt360.pl###ouibounce-modal
 emonnari.pl##.js--nl-baner-close, .pop-up-newsletter__baner
 enfamil.pl##.legal-alert-popup-content, .legal-alert-popup-overlay
@@ -421,6 +422,7 @@ kierunekspozywczy.pl###skycrapper
 killhouse.pl###sgcolorbox, .sgcboxOverlayBg
 kisiel.info###popup.iziModal, .iziModal-overlay
 klasek.pl###spu-bg, #spu-main
+klasycznebuty.pl,lamaglama.pl,sklep-agroland.pl,strefarolnika.pl,zina.pl##.wce_popup-consolidator
 knowband.com###fancybox_ns-wrap, #fancybox_ns-overlay, .knowband-popup.kb_lightBox_popup, #exitpopup-modal
 kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 kobietyipodryw.pl##.cd-popup
@@ -453,7 +455,6 @@ kursphp.com##.all-page-modals
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
 label-magazine.com##.lightbox_overlay
 lagardere-tr.pl###banner-hds, #banner-hds-background
-lamaglama.pl,sklep-agroland.pl,strefarolnika.pl,zina.pl##.wce_popup-consolidator
 laroxy.com,meblezet.com,motomat.eu###x13popup-container, #x13popup-cover
 lebork24.info###fanback
 ledco.pl,sklepdlalekarza.com,tendina.pl###iqitpopup, #iqitpopup-overlay
@@ -530,7 +531,6 @@ moja.foundtt.com##.holder-popup
 mojeinstalacje.com###subscribe_popup
 mojmac.pl##.et_bloom_animated
 molkip.pl#?#.elementor-popup-modal:-abp-has(a[href*="//sklep."] > img)
-monacollection.pl,porcelana.pl,reserved.com,taniaksiazka.pl,wiadomosci.gazeta.pl##.newsletter-popup
 monitoring-system.pl###element_to_pop_up
 moovitapp.com,polmed.pl##.md-dialog-container, .md-dialog-backdrop
 morele.net##.bottomFixedPopup
@@ -585,7 +585,7 @@ obi.pl##.open.ankieta
 obtkarma.pl##.fancybox-overlay[style="display: block; width: auto; height: auto; background: rgba(255, 255, 255, 0.4);"]
 obtkarma.pl#?#.fancybox-wrap:-abp-has(#popupnews-form)
 obuwie-lizuraj.pl#?##tws_i_0:-abp-has(input)
-ochnik.com##.newsletter-popup, .newsletter-popup-overlay
+ochnik.com##.newsletter-popup-overlay
 oczymlekarze.pl##.box-pozegnalny
 oferty-biznesowe.pl##.touch-callback
 ogicom.pl###myModalDomenowy
@@ -613,7 +613,7 @@ otmuchow.pl,word.czest.pl#?##colorbox:-abp-has(#komunikaty)
 otoboleslawiec.pl##.dropinboxbezramki
 otozlewy.pl###cp_footerPopup
 otvarta.pl###call-to-us-popup, .mfp-bg
-ozonee.pl###tln2_wrap, #twsshadow2_bg
+ozonee.pl###twsshadow2_bg
 paga.org.pl##.popup-container, .dark-bg
 pamami.pl###edrone--main--wl--container
 papilot.pl###keys-info-bg
@@ -725,7 +725,6 @@ selectshop.pl###popup-center
 selectshop.pl###popup-overlay
 semhub.pl#?#.oxy-modal-backdrop:-abp-has(.ct-new-columns)
 shipgratis.eu###pgwModal, #pgwModalBackdrop
-shop.s-a.pl#?##tws_i_1:-abp-has(#tln3_wrap)
 siatka.org##.scroll-top-wr
 siligan.pl###blackout
 siligan.pl###contentWindow
@@ -779,7 +778,7 @@ stradivarius.com##.newsletter-modal-main-mobile
 strefakursow.pl##.b-newsletter-popup, .p-black-overlay
 strefaurody.pl###pushpushgo-container
 stukstuk.pl###tws_s_0
-stylewhite.pl###popup-scademy2
+stylewhite.pl,zabutani.pl###popup-scademy2
 subiektywnieofinansach.pl###newsletter-overlay
 subiektywnieofinansach.pl###similar-overlay-wrapper
 sudafed.pl###video-layer
@@ -829,7 +828,6 @@ txm.pl##.mfp-bg, .sp-fancybox-overlay
 txm.pl##.mfp-ready.mfp-wrap
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
 ukrainoczka.pl##.lepopup-popup-container, .lepopup-popup-overlay
-ulubionabielizna.pl#?##tws_i_100000:-abp-has(#tln3_wrap)
 unia.pl##.banerjpg
 unileverfoodsolutions.pl##.newsletter-dialog
 userstyles.org##.overlay_background
@@ -862,6 +860,7 @@ winicjatywa.pl##h2:nth-of-type(3)
 wispol.eu##.popup_news
 wkd.com.pl###pop-up-bg
 woblink.com###nw_popup
+woliniusz.pl##div[class*="Modal__ModalPortalStyled-sc"]
 wolnelektury.pl##.annoy-banner_blackout.annoy-banner
 womanadvice.pl###facebook_modal, #dark_popup
 wrp.pl##div[id].modalJS_object
@@ -900,7 +899,6 @@ zimorodek.pl##.body-layer
 zlota7.pl##.moModal
 zlotemysli.pl##._form_show._form-wrapper
 zmianywzyciu.pl###popup_facebook
-znak.com.pl##.newsletter-popup.closeable
 zpierwszegotloczenia.pl###popup-ad, .modal-backdrop
 zszywka.pl###inv-request-popup
 !~poczta.wp.pl,wp.pl,~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
