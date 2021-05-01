@@ -4,5 +4,11 @@ pl###onesignal-bell-container
 pl###pushAdUpBanner
 pl###pushwoosh-pop
 pl###pushwoosh-subscription-widget-root
-/OneSignalSDK.js$third-party,domain=~elazizi.com
+/OneSignalSDK.js$third-party,domain=~elazizi.com|com|pl|info|eu
 /web-push/get-public-config$third-party,xmlhttprequest
+||cdn.gravitec.net/sites/*/client.js
+||cdn.gravitec.net/storage/*/client.js
+||cdn.pushassist.com/account/assets/psa-*.js
+||cdn.pushpushgo.com/scripts/$script
+||cdn.pushwoosh.com/webpush/*.js
+||cdn.sendpulse.com^$script,third-party
