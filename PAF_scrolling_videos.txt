@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Mb0GpuNI2gvHtRt4NiodVA
+! Checksum: pAVWxiZkywGoX3V2u+86dQ
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sat, 24 Apr 2021, 12:08 UTC+02
-! Version: 2021.4.24.0
+! Last modified: Sun, 02 May 2021, 16:08 UTC+02
+! Version: 2021.5.2.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: sob, 24 kwi 2021, 12:08 UTC+02
+! Aktualizacja: nie, 02 maj 2021, 16:08 UTC+02
 !
 !
 !
@@ -49,7 +49,7 @@ tvn24.pl##.nuvi-player div.floating.floatable, .videoPlayer.stuck--top
 tvn.pl##.videoPlayerFloatEnabled.videoPlayerFloat.videoPlayer
 tvp.info##.mini-player-container
 webcamera.pl##.bigcam.floating-player > div > .fullscreen-wrap
-webcamera.pl##.floating-player #player
+webcamera.pl##.floating-player #player, #float-box, .float-box
 wrc.net.pl##.sticky-video.sticky.is-stuck
 ||ppstatic.pl/js/floating-video/floatingVideo.js
 ||ppstatic.pl/*/article/sticky-video.js
