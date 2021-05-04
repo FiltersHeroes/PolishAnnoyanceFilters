@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: sjTYkX1eldEzNdLthGvkxA
+! Checksum: wSxIDXGs4gF6qmTS700qFQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 03 May 2021, 20:08 UTC+02
-! Version: 2021.5.3.2
+! Last modified: Tue, 04 May 2021, 12:08 UTC+02
+! Version: 2021.5.4.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 03 maj 2021, 20:08 UTC+02
+! Aktualizacja: wto, 04 maj 2021, 12:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1566,6 +1566,7 @@ traktorpool.pl#?#.layout-content > .md\:block.hidden.app\:hidden:-abp-has(div:-a
 traktor.com.pl##.footer-top4.col-md-3.col-sm-6.col-12
 travelplanet.pl##.col-footer-newsletter-block
 travelplanet.pl##.f-newsletter
+trec.pl##.b-footer-top__newsletter > :nth-child(-n+3)
 triny.pl##.newsletter-sub-box
 trivago.pl###js-newsletter-registration
 triverna.pl##.ssPopupNewsletter, .ssHeaderNewsletter, .ssFooterNewsletter
@@ -4640,6 +4641,7 @@ totalcasino.pl###chatContainer
 tourist.pl###sc2_all_container
 trans.info##.wall-add-news
 travelplanet.pl##.open--feedback--popup
+trec.pl##li > a[href="https://www.facebook.com/messages/t/sklepTrecPl"]
 trena.pl##.lc_chatbox
 trofeasportowe.com##.widget-allegro
 truckonline.pl##.tcc-pos-bl.tcc-widget
