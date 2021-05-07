@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: afPu415Vbju/ogEVci93AQ
+! Checksum: zn5lxmxfH3dzUopWScMJTw
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Mon, 03 May 2021, 20:08 UTC+02
-! Version: 2021.5.3.0
+! Last modified: Fri, 07 May 2021, 12:08 UTC+02
+! Version: 2021.5.7.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 03 maj 2021, 20:08 UTC+02
+! Aktualizacja: pią, 07 maj 2021, 12:08 UTC+02
 !
 !
 ! Specyficzne reguły
@@ -641,6 +641,7 @@ przegladpiaseczynski.pl##.td-scroll-up-visible
 psychowiedza.com###cesis_to_top
 puck.naszemiasto.pl###kotwica
 puma.com##.back-to-top-button
+pyszne.pl##button[data-qa="scroll-top"]
 pyszne.pl##div[data-qa="scroll-top"]
 pzlsedziszow.pl##.scroll-top-wr
 p.lodz.pl##.pageUp
@@ -759,6 +760,7 @@ volcano.pl##div.toolbar > .go-up > a[href="#"]
 vulcan.edu.pl###b_gora
 wabisabi-store.jp##.scrolltopbtn
 wago.com##.scroll-hint
+wakacje.pl#?##__next > div > header ~ div:last-of-type:-abp-has( > span > svg)
 wasserman.eu##.ws-elevator-btn
 wbh.wp.mil.pl##.fi-arrow-up
 websyc.pl##.to-top-btn
