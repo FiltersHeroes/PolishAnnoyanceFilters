@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: YGyRjQvs17fUcolfqiB4Qw
+! Checksum: gLIt7ecu699/Uh/FMsLDQg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 16 May 2021, 19:09 UTC+02
-! Version: 2021.5.16.3
+! Last modified: Sun, 16 May 2021, 19:18 UTC+02
+! Version: 2021.5.16.4
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 16 maj 2021, 19:09 UTC+02
+! Aktualizacja: nie, 16 maj 2021, 19:18 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -6246,8 +6246,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2021.5.16.2
-!@ Last modified: Sun, 16 May 2021, 19:09 UTC+02
+!@ Version: 2021.5.16.3
+!@ Last modified: Sun, 16 May 2021, 19:18 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -6258,7 +6258,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2021 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2021.5.16.2 aktualizacja: nie, 16 maj 2021, 19:09 UTC+02
+!@ v.2021.5.16.3 aktualizacja: nie, 16 maj 2021, 19:18 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -9180,6 +9180,7 @@ cookie-law-popup.js$domain=pl
 /pp-t-a-c.js$domain=pl
 /rodo.js$script
 /savecookie.js$script
+/tvp-tcfapi.js
 /whcookiesutf.js$domain=pl
 /whcookies.js$domain=pl
 ||cmp.dreamlab.pl^
