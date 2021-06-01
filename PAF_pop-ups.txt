@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2ynv/vmZtVr/gSjK8ZyXsw
+! Checksum: CrG7ZYmTicKl1NbDftkueQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 31 May 2021, 20:08 UTC+02
-! Version: 2021.5.31.0
+! Last modified: Tue, 01 Jun 2021, 20:08 UTC+02
+! Version: 2021.6.1.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 31 maj 2021, 20:08 UTC+02
+! Aktualizacja: wto, 01 cze 2021, 20:08 UTC+02
 !
 !
 !
@@ -399,6 +399,7 @@ jajco.pl###popupDiv
 jakbudowac.pl,twojogrodek.pl##.exit-popup.dialog, .overlay
 jakdojade.pl###container > starting-screen.ng-isolate-scope
 janssen.tv##.fancybox-wrap, .fancybox-overlay-fixed.fancybox-overlay
+johndog.pl#?##popup-container:-abp-has(form input[type="email"])
 justjoin.it##.join-fb-popup
 juwent.com.pl#?#body > div:not([class]):not([id]) > div:not([class]):not([id]):-abp-has( > .nyroModalBg)
 kalkulatorkalorii.net###getresponse, .modal-backdrop
