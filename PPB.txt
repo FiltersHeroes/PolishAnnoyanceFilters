@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: K0ViD4UOIzKUGD41WmXmMw
+! Checksum: rRKDgXlNuuc22G6alXFLDQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 06 Jun 2021, 22:05 UTC+02
-! Version: 2021.6.6.2
+! Last modified: Sun, 06 Jun 2021, 22:24 UTC+02
+! Version: 2021.6.6.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 06 cze 2021, 22:05 UTC+02
+! Aktualizacja: nie, 06 cze 2021, 22:24 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -6295,8 +6295,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2021.6.6.1
-!@ Last modified: Sun, 06 Jun 2021, 22:05 UTC+02
+!@ Version: 2021.6.6.2
+!@ Last modified: Sun, 06 Jun 2021, 22:24 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -6307,7 +6307,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2021 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2021.6.6.1 aktualizacja: nie, 06 cze 2021, 22:05 UTC+02
+!@ v.2021.6.6.2 aktualizacja: nie, 06 cze 2021, 22:24 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -10066,7 +10066,7 @@ gg.pl#@#body > div:nth-of-type(2) > div
 !@ Bugi Kiboke
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 al.to,combat.pl#@##app > div:first-child > div
-coca-cola.pl,toteraz.pl#@##onetrust-consent-sdk
+bethesda.net,coca-cola.pl,toteraz.pl#@##onetrust-consent-sdk
 ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-again
 ddz24.eu,konecki24.pl,regioneo.pl,skarzyski.eu,starachowicki.eu,straganzdrowia.pl,szydlowiecki.eu,wiadomosci-lodz.pl#@##cookie-law-info-bar
 elavon.pl#@#.acceptCookieButton:not(body):not(html)
