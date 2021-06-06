@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: tpA7wQozEAHDoIHNfqzJig
+! Checksum: K0ViD4UOIzKUGD41WmXmMw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 06 Jun 2021, 21:38 UTC+02
-! Version: 2021.6.6.1
+! Last modified: Sun, 06 Jun 2021, 22:05 UTC+02
+! Version: 2021.6.6.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 06 cze 2021, 21:38 UTC+02
+! Aktualizacja: nie, 06 cze 2021, 22:05 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -3010,7 +3010,7 @@ minecraft.org.pl##[aria-label="Powiadomienia"]
 moneygrabbing.co.uk###foxpush_native_html
 mtech.pl##.alertContainer
 mvno-gsm.pl###webpushr-prompt-wrapper
-m.zapytaj.onet.pl##.notification-widget
+m.zapytaj.onet.pl,zapytaj.onet.pl##.notification-widget
 noizz.pl##.pushDefaultPopUp
 ogrodosfera.pl##.bell-container
 onet.pl##.notificationPrompt
@@ -3198,7 +3198,7 @@ agrarius.eu,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatrust.ro,niez
 agripel.pl,felixcom.net,lulek.tv,naszekluski.pl,wszystkookotach.pl###scrollup
 agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,rodzice.pl,sparta.com.pl,zaufanekliniki.pl###top-link
 agrofakt.pl##.go-down
-agrofakt.pl,badaniaprenatalne.pl,exploringaround.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,reverso.net,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
+agrofakt.pl,badaniaprenatalne.pl,exploringaround.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,reverso.net,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
 agrohandler.pl,betterland.pl,porcja.eu,swiece-zaplonowe.pl###to_top_wrap
 agrojd.com,dobresystemy.eu,domnowoczesny.com,empik.com,fantasy.ekstraklasa.org,fuchs.com,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com##.scroll-to-top
@@ -3234,7 +3234,7 @@ alter24.pl###page ~ div[id^="anb"]
 aluprof.eu##.sidebar__link--top
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,mall.pl,meblujesz.pl,morele.net,motoria.pl,panasonic-batteries.com,sklep-presto.pl,ubieramy.pl,whiteplate.com##.btn-back-to-top
 amooco.com###footer-backtop
-ams.com.pl,bohaterdomu.pl###back2top
+ams.com.pl,bohaterdomu.pl,inforfk.pl###back2top
 ams.edu.pl,apteka-natura.eu,bludshop.com,ehurt.eu,ene-due.eu,pakolorente.com,ptwp.pl,unbrokenstore.com##.backTop
 anetaduk.com,lukasiewicz.gov.pl,moto.lca.pl###myBtn
 animalistka.pl,faltusdesign.wordpress.com,rygalo.com##.tothetop
@@ -3245,6 +3245,7 @@ antykikoneser.pl,lajkifb.pl,likefb.pl###jas-backtop
 antywirus.biz,bonturystyczny.polska.travel,gino-rossi.com,luba-group.com,nesperta.com,nysa.eu,olgasmile.com,restauracja.online,softelnet.com,urbanforms.org,walerystasiak.com,wnt.com,zamawiaj.online##.scroll-top
 apollo.pl##.tt-scroll-up
 apo-discounter.pl###page_up_button
+aptekagemini.pl,douglas.pl##.scroll-to-top-button
 aptekarzpolski.pl,brandsit.pl,eurowizja.org,francuskie.pl,mediarun.com,petronews.pl,radio.lublin.pl,skandynawiainfo.pl,wikilistka.pl##.jscroll-to-top
 apteline.pl,bebiklub.pl,itcontent.eu,quiosque.pl,selectivv.com##.scroll-top-button
 arenanarciarska.pl,pizzeriapaccino.pl###goto-top
@@ -3403,7 +3404,6 @@ dopracowani.pl###pulse_to_top
 doradcasmaku.pl,porta.com.pl##.floating_scroll_top
 dotd.pl###arrow_up
 douglas.pl##.rd__back-to-top
-douglas.pl##.scroll-to-top-button
 drweb-av.pl###scrollup_button
 drzwi-cal.pl##.js-site-scroll-up.site-scroll-up
 dts24.pl##.nav-btn
@@ -3990,6 +3990,7 @@ zszywka.pl###scroolToTop
 !
 ! Strzałki - ogólne reguły
 ~active.sklep.pl,~bel-pol.pl,~beskidzka-akademia.pl,~betard.pl,~forum.dobreprogramy.pl,~gdansk.pl,~lenartowiczclinic.pl,~nasztalerz.pl,pl##.fa-angle-up
+~cm-silesia.pl,pl,~proxima.pl##.fa-angle-double-up
 ~deweloper-interes.pl,pl###back_to_top
 ~ifirma.pl,pl##.dogory
 ~obi.pl,pl##.scrollup:not(body):not(html)
@@ -4003,7 +4004,6 @@ zszywka.pl###scroolToTop
 ~pl##.back-to-top:lang(pl)
 ~pl##.scrollup:lang(pl):not(body):not(html)
 ~pl##.td-scroll-up:lang(pl)
-~proxima.pl##.fa-angle-double-up
 com,pl###profilki_uparrow
 pl##.backToTop
 pl##.backtopbutton
@@ -4070,7 +4070,6 @@ pl##.btn-to-top
 pl##.btn--move-to-top
 pl##.cd-top
 pl##.et_pb_scroll_top
-pl##.fa-angle-double-up
 pl##.footer-backtotop
 pl##.g1-back-to-top
 pl##.generate-back-to-top
@@ -5246,6 +5245,7 @@ independenttrader.pl###limited-account
 industrial.pl##.page-overlay-loader
 infinityfitnesskrakow.pl,termyszaflary.com##.dl-bubble
 infoair.pl,infobike.pl,infobus.pl,inforail.pl,infoship.pl,infotram.pl,transinfo.pl##.skrzydelko
+inforfk.pl###reka-box-banner-mobile
 infor.pl###prenumerata2018
 info.elblag.pl###nastepnyArtykul
 ing.pl###get_ingmobile_app_wrapper
@@ -5557,6 +5557,7 @@ pzw.org.pl###body_google_play
 p-programowanie.pl##progress
 radio17.pl##.android-app-dialog
 radiobonton.pl##.hidden-xs.offbox-position-right.radio-play.offbox-radio
+radiopogoda.pl##.gra-pobierz_aplikacje
 radomsko.pl###media > ul > li > .tooltipMedia
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(-n+2)
 rallypl.com,sledcza24.tv###check-also-box
@@ -5758,6 +5759,7 @@ youtube.com###alert-banner.ytd-browse, #watch-header > .mealbar-promo-renderer.y
 youtube.com#?#paper-dialog:-abp-has(ytd-mealbar-promo-renderer)
 youtube.com#?##contentWrapper > .ytd-popup-container:-abp-has( > .yt-tooltip-renderer)
 zadowolenie.pl##.b-bragLabel
+zapytaj.onet.pl##body > div > .bottom.onet-bar
 zapytaj.onet.pl##.know-better-answer
 zapytaj.onet.pl##.onet-redirect-banner
 zatorland.pl##.pogoda
@@ -6293,8 +6295,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2021.6.6.0
-!@ Last modified: Sun, 06 Jun 2021, 21:38 UTC+02
+!@ Version: 2021.6.6.1
+!@ Last modified: Sun, 06 Jun 2021, 22:05 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -6305,7 +6307,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2021 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2021.6.6.0 aktualizacja: nie, 06 cze 2021, 21:38 UTC+02
+!@ v.2021.6.6.1 aktualizacja: nie, 06 cze 2021, 22:05 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -6378,7 +6380,7 @@ adidas.pl,ea.com,garmin.com,leagueoflegends.com,nespresso.com,reebok.pl,weather.
 adidas.pl,reebook.pl##div[class^="cookie_consent_bar___"]
 adjule.pl###alerts
 adm-media.pl,intellect.pl,kociadolina.pl,mrn.pl##.policy
-adobe.com,behance.net,dell.com,eu.crucial.com,ge.com,intel.pl,knorr.pl,lipton.com,mtv.pl,pl.fotolia.com,przepisy.pl,rexona.com,vmware.com,www.playstation.com##div#_evidon_banner.evidon-banner:lang(pl)
+adobe.com,behance.net,dell.com,eu.crucial.com,ge.com,intel.pl,knorr.pl,lipton.com,mtv.pl,pl.fotolia.com,przepisy.pl,rexona.com,tripadvisor.com,vmware.com,www.playstation.com##div#_evidon_banner.evidon-banner:lang(pl)
 adobe.com,merixstudio.pl##.message
 adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
@@ -7970,7 +7972,7 @@ mieszkanie.porowneo.pl,podroze.porowneo.pl#?##root > div[class^="sc-"]:nth-last-
 migora.pl###topInfoContainer1 > #topInfo1
 milenium.pl##.cookie_acceptation
 miles-and-more.com##.cookieusage__base
-milionynagrod.pl,pokonajnoc.pl,powerisback.pl###pop_up
+milionynagrod.pl,pokonajnoc.pl,powerisback.pl,promocja.aldi.pl###pop_up
 millymally.pl###js-xcookies
 milmag.pl###layCookieAlert
 mintos.com,publio.pl###cookie-agreement
@@ -8870,6 +8872,7 @@ trejdoo.com###td-alert
 trello.com##.gdpr-cookie-consent-banner
 trendyopticians.pl###bpr_cookie-alert
 trentino.pl###popup_cookies
+tripadvisor.com##div#_evidon-background.evidon-background:lang(pl)
 trisept.com.pl###flowtar-gdpr
 trizer.pl##.ft__cookies
 trovit.pl###welcomebar-wrapper
