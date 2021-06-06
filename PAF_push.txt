@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: h4h8Q3HETO1sVjMXKf+mLw
+! Checksum: djTwBio4vfAkYHd6nsiyXg
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sat, 01 May 2021, 20:08 UTC+02
-! Version: 2021.5.1.0
+! Last modified: Sun, 06 Jun 2021, 12:08 UTC+02
+! Version: 2021.6.6.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: sob, 01 maj 2021, 20:08 UTC+02
+! Aktualizacja: nie, 06 cze 2021, 12:08 UTC+02
 !
 !
 !
@@ -38,6 +38,7 @@ ipla.tv,polsatnews.pl###pushwooshBellWidget
 mbank.pl###push-message
 meczyki.pl##.notifications-icon
 mediarun.com##.jeg_push_notification
+miastonowydwor.pl##.webpushBell
 minecraft.org.pl##[aria-label="Powiadomienia"]
 moneygrabbing.co.uk###foxpush_native_html
 mtech.pl##.alertContainer
@@ -55,6 +56,7 @@ sklepsamsung.pl##.b-modal_webpushCentered
 sklepsamsung.pl##.b-modal_webpushVertical
 sprzedajemy.pl###webPushWidget
 travelplanet.pl##.fcx-push-modal
+tygodniowa.pl##iframe[style*="fixed"]:not([src])
 wazcar.pl###push-notification-button
 wielen.pl###js__webpushBell
 wnp.pl##amp-web-push-widget
@@ -127,6 +129,7 @@ zegarkiipasja.pl##.fcx-push-modal-container
 ||wp.pl/*.webpush-desktop.legacy.chunk.js
 ||youlead.pl/WebpushPrompt.js
 ||youtubersi.pl/themes/default/js/notify.js
+||zalukaj.vip/wp-content/plugins/front-end-pm/assets/js/notification.js
 !
 !
 ! Ogólne reguły
