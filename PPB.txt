@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: OnZqjqqDIrFFsPvQtC8NPQ
+! Checksum: DExirH9yAMzA0V1vA/Jy8g
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Wed, 02 Jun 2021, 20:08 UTC+02
-! Version: 2021.6.2.0
+! Last modified: Sun, 06 Jun 2021, 12:08 UTC+02
+! Version: 2021.6.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 02 cze 2021, 20:08 UTC+02
+! Aktualizacja: nie, 06 cze 2021, 12:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -460,6 +460,7 @@ dpn.pl##.column-right > div.box:nth-of-type(2)
 dressler.com.pl###features > div > div:nth-of-type(1)
 drewno.pl###nl_sticky
 dre.pl#?#.panel-grid-cell > .widget_coala-widget-text-section:-abp-has( + .widget_coala-widget-newsletter)
+drogerienatura.pl##.banner-newsletter
 drogerienatura.pl,house.pl,wyjatkowyprezent.pl###footerNewsletter
 drogeriepolskie.pl##.footer-newsletter-area
 drogerium.pl##.newsletterek
@@ -2414,6 +2415,7 @@ mencare.pl###fx-popup
 metal-bud.eu##.banner-b2b
 metin2list.pl###news_popup
 mgprojekt.com.pl##.orlando-whiteboard.orlando-background, .jupiter-entrance.jupiter-background.optin-monster-saas-overlay
+miastonowydwor.pl###js__popupContainer
 mierzeja.com###banner-popup
 mieszkanie.mitula.com.pl###popupSimilares
 mieszkanie.mitula.com.pl#?#body > script:-abp-contains(alertSectionId = 5) ~ #popupAlert
@@ -3001,6 +3003,7 @@ ipla.tv,polsatnews.pl###pushwooshBellWidget
 mbank.pl###push-message
 meczyki.pl##.notifications-icon
 mediarun.com##.jeg_push_notification
+miastonowydwor.pl##.webpushBell
 minecraft.org.pl##[aria-label="Powiadomienia"]
 moneygrabbing.co.uk###foxpush_native_html
 mtech.pl##.alertContainer
@@ -3018,6 +3021,7 @@ sklepsamsung.pl##.b-modal_webpushCentered
 sklepsamsung.pl##.b-modal_webpushVertical
 sprzedajemy.pl###webPushWidget
 travelplanet.pl##.fcx-push-modal
+tygodniowa.pl##iframe[style*="fixed"]:not([src])
 wazcar.pl###push-notification-button
 wielen.pl###js__webpushBell
 wnp.pl##amp-web-push-widget
@@ -3090,6 +3094,7 @@ zegarkiipasja.pl##.fcx-push-modal-container
 ||wp.pl/*.webpush-desktop.legacy.chunk.js
 ||youlead.pl/WebpushPrompt.js
 ||youtubersi.pl/themes/default/js/notify.js
+||zalukaj.vip/wp-content/plugins/front-end-pm/assets/js/notification.js
 !
 !
 ! Powiadomienia push - ogólne reguły
@@ -3204,7 +3209,7 @@ agro-factory2.eu,choinkisztuczne.com,diavolo-meble.eu,historiasportu.info,laptop
 agro-sklep.com,agromr.eu,avmarket.eu,czescirolnicze.eu,delllow.com,drukowanie.net,freshtec.eu,kegel-aj.com,kochamzabawki.eu,ogrodzenia24.eu,rafex.eu,sklep-agrohurt.eu,tusze.info###doGory, #doDolu
 agtom.eu###scroll_to_top
 airbuy.pl##.js-gotop
-akademiabudowy.pl,al.to,annalovestravelspl.wordpress.com,asclepios.pl,avanttecno.com,calypso.com.pl,cookies.bosger.com,curlymadeleine.pl,dorotasmakuje.com,dziecieceinspiracje.pl,ecbedzin.pl,emisja.tv,enut.pl,ewaszalkowska.com,fsgeek.pl,gerardroofs.pl,ginlong.com,koty24.pl,kuchareczkamala.blogspot.com,kuchniamagdaleny.pl,kuchniaviki.blogspot.com,kulinarnamaniusia.pl,mpm.pl,officeshoes.pl,ogloszeniowa.pl,ostra-na-slodko.pl,patabloguje.pl,pinkorblue.pl,powiatwodzislawski.pl,psy24.pl,spozywo.pl,tiktok.com,vwbank.pl,w10inspiracjidookolaswiata.pl,wieteska.net,wszystkiemojebziki.pl,yerbanot.com##.to-top
+akademiabudowy.pl,al.to,annalovestravelspl.wordpress.com,asclepios.pl,avanttecno.com,calypso.com.pl,cookies.bosger.com,curlymadeleine.pl,dorotasmakuje.com,dziecieceinspiracje.pl,ecbedzin.pl,emisja.tv,enut.pl,ewaszalkowska.com,fsgeek.pl,gerardroofs.pl,ginlong.com,koty24.pl,kuchareczkamala.blogspot.com,kuchniamagdaleny.pl,kuchniaviki.blogspot.com,kulinarnamaniusia.pl,mpm.pl,officeshoes.pl,ogloszeniowa.pl,ostra-na-slodko.pl,patabloguje.pl,pinkorblue.pl,powiatwodzislawski.pl,psy24.pl,spozywo.pl,tiktok.com,vwbank.pl,w10inspiracjidookolaswiata.pl,wegannerd.com,wieteska.net,wszystkiemojebziki.pl,yerbanot.com##.to-top
 akademiajutuberow.pl###eltd-back-to-top
 akademia.nask.pl,gorzow.com,saferinternet.pl,spaeden.pl###dogory
 akardo.pl##.btn-scroll-up
@@ -3656,6 +3661,7 @@ merida.com.pl##.scroll-top-up
 meskietematy.pl,przemiany.gniezno.pl,tranzystor.pl###vl-back-top
 metalgearsolid.pl###return_top
 mghome.pl###footgroup-last
+miastonowydwor.pl##.go_up__wrapper
 miasto.radlin.pl,pierogarnia-mandu.pl,stawiszynski.org##.jupiterx-scroll-top
 miasto.zgierz.pl###slidetotop.slidetotop
 millymally.pl##.page-up
@@ -3702,6 +3708,7 @@ norwegian.com##.button--right.button--large.button
 notebooki.pl##.on.goto-top
 novamed.pl##.consultant.up-text
 nowiny.com.pl###scroolTOP
+numo.pl###kliktop
 oaza-palmy.pl###gmToTop
 obi.pl##.to-top-nav
 oc-spedytora.info##iframe[title="Back to Top"]
@@ -3910,6 +3917,7 @@ wasserman.eu##.ws-elevator-btn
 wbh.wp.mil.pl##.fi-arrow-up
 websyc.pl##.to-top-btn
 wec.com.pl##.go2top
+weganon.pl##.button-to-top
 whatnext.pl###back-to-up
 wielkahistoria.pl###johannes-goto-top
 wiesci.com.pl###divGoToTop
@@ -4136,7 +4144,7 @@ aftermarket.pl##.helpcrunch-iframe-wrapper
 aftermarket.pl##.help-widget-invite, .help-widget-icon
 agroalex.pl,aquario.pl,flowerstory.pl,shoplet.pl,wildcar.pl###x13callback_button
 agrofakt.pl##.agroreporter
-agromarek.pl,baronphotography.eu,topsolutions.pl###popup_contact
+agromarek.pl,baronphotography.eu,cukierniabezowa.pl,topsolutions.pl###popup_contact
 ahe.lodz.pl###chat-invite
 airdron-polska.pl,fakturownia.pl,hurtowniamuzyczna.pl,imker.pl,kamai.pl,meblujdom.pl,modele-centrum.pl,sugester.pl,upsell.pl,vagczesci.pl###sugester-chat
 airport.com.pl##a[href*="http://airport.com.pl/livezilla/chat.php"]
@@ -4242,8 +4250,8 @@ colorland.pl###block-block-23
 computer-alliance.pl,icrow.pl##.bazz-widget
 concordiaubezpieczenia.pl##.sidebarContact
 confronter.pl###cfModalOpen
-consumer.huawei.com###chat-widget-container
 consumer.huawei.com##.nps-survey
+consumer.huawei.com,zryjzdrowocatering.com###chat-widget-container
 containex.pl###togglePopup, #contactPopup
 contentorganica.pl##.butFor
 corona-fishing.pl##.baner-right-sliding
@@ -4575,6 +4583,7 @@ powerflex.pl##.bkt--qfc_button
 ppr.pl##.btn-report
 pracatobie.pl###ankieta1
 pracuj.pl###shareOpinionSticker
+prawo-jazdy-360.pl###help-panel
 profbud.info##.bocznemenu > a.socialicoplus
 profinfo.pl##.right-fix-widget > a[href*="sugestie"]
 projektgamma.pl###face-slider3
@@ -4921,7 +4930,6 @@ applemobile.pl##.cactus-post-suggestion > .post-suggestion-content
 aprmedia.pl##.et_bloom_header_outer
 apsdata.pl###slide_box
 aptekagemini.pl##swiper-carousel[class*="adserver"]
-aptekamanada.pl##.banner-link
 archonhome.pl,pizzapelati.pl###musli
 arkady.info##.repository.side_widget
 arminar.pl,doniczki-poznan.pl,odpady.chorzow.eu,sare.pl###preloader
@@ -4951,6 +4959,7 @@ avans.pl##.is-complaintReport.c-btn
 avans.pl##.is-stickyActive1558948916896.is-stickyWrapper
 awa24.pl###delivery-info-drawer
 aze.com.pl,r-kom.pl,sprzetowo.pl###allegro-widget
+a-manada.pl,aptekamanada.pl,manada.pl##.banner-link
 b365.pl###panel-pro
 bagan.pl###info-float
 balladine.com###widgetFreeShipment
@@ -4961,6 +4970,7 @@ bankier.pl##.btnPitArticle
 bankier.pl###pit2017_explorer, #boxInsFlyfooter
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
+bartekwpodrozy.pl##.cs_floating-nav-next-prev-div.ct-div-block
 begio.pl,mnews.com.pl##.penci-rlt-popup
 bentawet.pl,sklep.rowmot.eu##.kac-sm-allegro
 beskidlive.pl,estrzelce.pl,finansovo.pl,rekinysukcesu.pl##div[id^="dj-suggester"]
@@ -5422,6 +5432,7 @@ nastopy.pl##.rightSlide
 nastopy.pl###ri-widget
 nastopy.pl,zycietoprzygoda.pl###ceneo-widget
 naszemiasto.pl###magazyn-boks
+nasztomaszow.pl#?#.sidebar > .widget:-abp-has(.poll_list)
 natemat.pl###posts-progress
 national-geographic.pl##.affix-bottom.row.prev-next-item
 naukajazdy-kowalik.pl##.side-tab-widget > a[href="kierowcy.html"]
@@ -6198,6 +6209,9 @@ tygodnikpowszechny.pl###block-views-wydanie-tp-block-1
 tygodniksiedlecki.com##.mockup-box.col-xs-12.col-sm-12.co-md-12.col-lg-12
 tygodnik-krapkowicki.info###Mod3
 tygodnik-rolniczy.pl##.box--subscribe
+tygodniowa.pl#?#.owl-item:-abp-has( > .item:only-child > a[href=""] > img)
+tygodniowa.pl#?#.sidebar h4:-abp-contains(Wydanie)
+tygodniowa.pl#?#.sidebar h4:-abp-contains(Wydanie) + a > img
 tylkotorun.pl#?#section[id^="media_image-"]:-abp-has( > a[href^="http://tylkotorun.pl/e-wydanie-"])
 tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/)
 tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/) + br + div
