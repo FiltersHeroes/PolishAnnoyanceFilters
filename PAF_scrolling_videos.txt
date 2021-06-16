@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: zXG9FO1hy3j65DfCwRNbxQ
+! Checksum: DlCyKDdxLOvGAA/tbVljlQ
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 06 Jun 2021, 12:08 UTC+02
-! Version: 2021.6.6.0
+! Last modified: Wed, 16 Jun 2021, 20:08 UTC+02
+! Version: 2021.6.16.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 06 cze 2021, 12:08 UTC+02
+! Aktualizacja: śro, 16 cze 2021, 20:08 UTC+02
 !
 !
 !
@@ -28,7 +28,7 @@ encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
 interia.pl,interia.tv,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
-interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] > div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
+interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
 kresy.pl###kresyTVPlayer_wrapper
 medonet.pl,onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
 medonet.pl,onet.pl,~www.onet.pl##.active.player-float-wrap > .player-float-container
