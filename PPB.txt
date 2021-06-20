@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: S6YuSV7z6k4o5R98JDgD5A
+! Checksum: s2A69s+jCH07NmIUCmyhxA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Thu, 17 Jun 2021, 12:08 UTC+02
-! Version: 2021.6.17.0
+! Last modified: Sun, 20 Jun 2021, 20:07 UTC+02
+! Version: 2021.6.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: czw, 17 cze 2021, 12:08 UTC+02
+! Aktualizacja: nie, 20 cze 2021, 20:07 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -28,6 +28,7 @@
 4kom.pl###tws_c_100001
 4lapki.eu,annalovestravelspl.wordpress.com,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,podkop.com,pskrk.com,tabloidonline.blog,zabieganamama.com,zpamietnikabuntownika.wordpress.com##.jetpack_subscription_widget
 4trucks.pl##.sInfo > .m209.box
+5mindlazdrowia.pl,cybsecurity.org,demagog.org.pl,fitkurier.pl,itcontent.eu,strefakodera.pl##[id^="mc4wp-form"].mc4wp-form
 9design.pl##.top_newsletter
 24hurt.pl##.row > .col-md-12
 24pr.pl##center > input, td:nth-of-type(2) > input, #carrington-subscribe > h3
@@ -318,7 +319,7 @@ chatapolska.pl#?#a .yellow-bg:-abp-contains(e-mail i otrzymuj)
 chataskrzata.eu,genesis-zone.com,otwarte.eu###newsletter-box
 chcemybycrodzicami.pl##.single-post-newsletter-wrap
 checiny.pl###div_newsletter
-chlodnictwoiklimatyzacja.pl,swiat-szkla.pl###left-in > .moduletable:nth-of-type(1)
+chlodnictwoiklimatyzacja.pl###left-in > .moduletable:nth-of-type(1)
 chocholowskietermy.pl##.wdform_section
 chocolissimo.pl##a[href="javascript:showNewsletterLayer();"]
 chodnikliteracki.pl##a[href*="/newsletter/"] > img[src$="/newsletter.png"]
@@ -366,7 +367,6 @@ cudmoda.pl##.ps-emailsubscription-block > :nth-child(-n+2)
 culture.pl,trans.info##.newsletter-popup
 cumulus.pl,um.jaslo.pl##.Newsletter
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##.block-newsletter, .header-bottom-newsletter
-cybsecurity.org,demagog.org.pl###mc4wp-form-1
 cybsecurity.org,duzekubki.pl###mc4wp_form_widget-2
 cyfrowynauczyciel.pl###mab-widget-2
 cyfrowyszpital.pl##.widget-area > .theiaStickySidebar > div:nth-of-type(3):nth-child(4)
@@ -594,7 +594,6 @@ finereader.pl##footer > .container-fluid > .container > .row > div:nth-of-type(1
 fintek.pl,plock.eu##.newsletter-component
 firsteleven.com,mirat.eu,ursus.com##.box-newsletter
 fish24.pl##.newsletter_foot
-fitkurier.pl##[id^="mc4wp-form"].mc4wp-form
 fitprofit.pl###newsletter_link
 fizjoplaner.pl##.ft_nl
 flies-stepbystep.com###widget-7
@@ -756,11 +755,11 @@ ip-sa.pl###PageLeft_ContentPlaceHolder_PageLeft_NewsTable
 ip.pl###left > div:nth-of-type(11)
 ip.pl###left > div[style*="newsletter"]
 irobot.pl##.a-inputcomponent
-itcontent.eu,strefakodera.pl##.mc4wp-form-fields
 iwanowice.pl##.col-lg-3.col-md-4.col-sm-6.col-xs-12:nth-of-type(2)
 izigsm.pl###footer > .footMenu > .color.columnBox
 i-meble.eu,outletarenamoravia.com,willisch.pl,woblink.com###footer-newsletter
 jackjones.com##.js-customer-club__signup
+jadwizanki.com.pl,opi.org.pl,rosebikes.pl##.newsletterform
 jagodnik.pl##.textwidget
 jagodnik.pl##a[href="http://www.jagodnik.pl/newsletter/"]
 jagodnik.pl##.td_uid_52_5f019c1f4f05b_rand.vc_widget_sidebar.td_block_wrap.wpb_wrapper
@@ -1134,7 +1133,6 @@ onexstore.pl##.footer-col--subscription
 oohmagazine.pl##div.widget_anthemes_video.widget:nth-of-type(3)
 opensecurity.pl,swiatoze.pl,terazprudnik.pl,zasnik.pl###mc-embedded-subscribe-form
 opera.pl##.prawyRegion > div.kontener1:nth-of-type(2)
-opi.org.pl,rosebikes.pl##.newsletterform
 opornografii.pl##.article__newsletter
 oracle.com##.cw21signup
 orange.pl##div.u-xsmall-no-margin.u-small-margin-xl.opl-footer__linksbox.l-col-2.l-col:nth-of-type(4)
@@ -2544,6 +2542,7 @@ plakatynasciany.pl###ap-popup, #ap-popup-tlo
 planeta-budowlana.pl##.dialog[id^="window"], #toogas_pop_up
 plk.pl###okienko_yt, .ui-widget-overlay
 pl.aleteia.org##.newsletter-popups
+pl.everli.com###mask_new.mask
 pl.gearbest.com##.newUserPop, #layui-layer-shade1
 pl.geofumadas.com,webmastah.pl##.ulp-window, .ulp-overlay
 pl.kronospan-express.com###modalWindowCMSubscribes, .iziModal-overlay
@@ -3648,6 +3647,7 @@ malydziennik.pl,prostozmostu24.pl,superekspress.pl,wpolityce24.pl,wsieci24.pl,yg
 marbo-sport.pl##.upArrow
 marenaspa.pl###desktop-bottom-bar-arrow
 marketing.org.pl###nav_down, #nav_up
+marki.pl###linktop
 maszynydlafarmera.pl##.topshow
 matfiz24.pl##a[href="#header"]
 maxcom.pl###miniMenuScroll
@@ -3683,7 +3683,7 @@ mojeflagi.blogspot.de###NBT-top
 mojehobby.pl##.on-top-box-a
 mojewronki.pl,wlaczoszczedzanie.pl##.waypoints-goto-top
 mojewypieki.com###jumpup
-mokis.info,tabelaofert.pl##.do-gory
+mokis.info,olesnica.pl,tabelaofert.pl##.do-gory
 mok.olsztyn.pl###neko-to-top
 moliera2.com,ostrovit.com,rockwellautomation.com,undiz.com##.scrollTop
 molnlycke.pl##.button-sticky-to-top
@@ -3701,6 +3701,7 @@ nagaba.pl###fixed_top
 napad.pl###ssRollTop
 naprzedwiosniu.waw.pl###zf--top-anchor-container
 naszesmieci.mos.gov.pl##.nav_up
+naszoptyk.pl##.icon-backToTop
 nasz-gabinet.pl##.back-to-top-bttn
 neo24.pl,neonet.pl##div[class*="scrollTopArrowCss"]
 neon24.pl###div_up_arrow
@@ -4245,6 +4246,7 @@ cdp.pl###customTrustbadge
 cebit.pl,guzik.konin.pl##.fab
 cebit.pl,nsix.pl###czatercall-teaser, #cc-button-iframe
 ceneo.pl###recent-activity-toast
+centermed.pl##div[id^="gb-widget"][style*="position"][style*="fixed"]
 centrumpapieru.pl###ls-button-container
 cersanit.com.pl,opoczno.eu##.FTChat_window
 cinema3d.pl###popupBoxInvitation
@@ -4634,6 +4636,7 @@ sck.pl###popupTest
 seat.pl##div[id^="wb_drag_wrapper"]
 selly.pl,x-lander.com###kayako-messenger
 semcamp.university###witbee-call-page-container
+semcore.pl###LeadboosterContainer, .proactiveChat
 semmelrock.pl###float_mail, #float_phone
 sempai.pl##.sempai_contact_widget
 semtec.pl##.sticky-button, .sticky-button ~ .sticky-tooltip
@@ -5081,6 +5084,7 @@ discordapp.com##.notice
 discoverychannel.pl,itvn.pl,itvnextra.pl,metro.tv,tlcpolska.pl,tvn.pl,tvn7.pl,tvnfabula.pl,tvnstyle.pl,tvnturbo.pl###nextItem
 divanii.pl,kupujdrzwi.pl,printer4.pl,sklep.audiopunkt.com.pl##div[class*="prat-widget"]
 dobredomy.pl##.right.sidemenu
+dobredrzwi.pl##.google-opinions
 dobreprogramy.pl###divGoToWp
 dobrymechanik.pl###mfind-fixed
 dochodzeniewierzytelnosci.pl##.related
@@ -6200,6 +6204,7 @@ strzal.pl##section.bgYellow
 strzal.pl##.my-auto.flex-item
 superhistoria.pl###footer > .section-issue
 superhistoria.pl##.section-issue
+swiat-szkla.pl#?##left > #left-in > div.moduletable:-abp-contains(Aktualne wydanie)
 swierszczyk.pl##.banner--green.banner
 swierszczyk.pl##.gallery--ship-run.js-gallery.swi-gallery.gallery
 swierszczyk.pl##.subscription--ship-run.subscription.triptyca
@@ -6301,8 +6306,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2021.6.13.2
-!@ Last modified: Sun, 13 Jun 2021, 22:01 UTC+02
+!@ Version: 2021.6.20.0
+!@ Last modified: Sun, 20 Jun 2021, 20:07 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -6313,13 +6318,13 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2021 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2021.6.13.2 aktualizacja: nie, 13 cze 2021, 22:01 UTC+02
+!@ v.2021.6.20.0 aktualizacja: nie, 20 cze 2021, 20:07 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
 ~dm.pgi.gov.pl,pgi.gov.pl###ispmodal, .jquery-modal
 1-st.com.pl,agrojd.com,allnet24.pl,aspel.com.pl,bhp.dozamel.pl,bosch.com.pl,comarch-esklep.pl,estetiq.pl,galerialazienek.pl,kran.tychy.pl,ksiegarniarubikon.pl,oftadirect.pl,papier24h.pl,papieryczerpane.pl,sklep.agro-eko.com.pl,sklep.balcamp.pl,sklep.mebloart.eu,sklep.phalanxgames.pl,sklep.rol-mech.pl,sklep.stalco.pl,sklep.tayama.pl,spawalniczy-sklep.pl,swiatkoralikow2.pl,tvprodukt.pl,workstyle.pl#?#.config-messages:-abp-contains(/(cookies?|ciasteczka|rodo|gdpr)/i)
-2x45.info,adainfo24.eu,agromasa.com,alltube.tv,answear.com,atriumsystem.eu,barfnyswiat.org,bip.dzialdowo.eu,bip.gig.eu,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,fachowiec.com,feriogaj.com,fokus.tv,gdansk.pl,gdzierodzic.info,grobla.net,imperiaonline.org,informacja-turystyczna.starachowice.eu,jezewo.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,muzo.fm,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vod.internetowa.ws,vodi.cc,voxmusic.tv,xtb.com,zamawiam.marchewkowepole.com###cookies
+2x45.info,adainfo24.eu,agromasa.com,alltube.tv,answear.com,atriumsystem.eu,barfnyswiat.org,bip.dzialdowo.eu,bip.gig.eu,bip.konin.eu,bip.piaseczno.eu,business.link,cedc.com,diagprog4.com,edeklaracje.info,eska.tv,evertourist.com,fachowiec.com,feriogaj.com,fokus.tv,gdansk.pl,gdzierodzic.info,grobla.net,imperiaonline.org,informacja-turystyczna.starachowice.eu,jezewo.eu,kolniak24.eu,koneser.eu,koszyki.com,lampy24.net,lot.com,lumarte.eu,mojewypieki.com,muzo.fm,nasze.fm,nowa.tv,odpady.chorzow.eu,plantatekst.info,portalodo.com,prymus.info,radiokampus.fm,rowertour.com,skierniewice.eu,studiuje.eu,telesystem-world.com,vodi.cc,voxmusic.tv,xtb.com,zamawiam.marchewkowepole.com###cookies
 3dom.pro,anmur.eu,avenidapoznan.com,bibliotekacyfrowa.eu,bimobject.com,bip.gliwice.eu,budmat.com,budujemy.to,canalplus.com,chorzow.eu,corab.eu,damy-rade.info,diamante-wear.com,dpm.eu,eastbook.eu,f1experiences.com,gamet.eu,ims.fm,inkubatorkultury.eu,katowice-airport.com,kiddabadam.com,kler.eu,koszulkomat.eu,maamstyle.com,makoblog.com,mateuszgrzesiak.com,media-tech.eu,mg-pmm.com,motogron.com,narzedzia.cz,naszefutrzaki.eu,pkpcargo.com,prochnik.com,profit-plus.eu,radiopark.fm,rocks-jeans.com,sapphiretech.com,secretdelivery.pl,stolmot.com,telko.in,tg.shop,trecnutrition.com,warszawa.promenada.com,wearmedicine.com,yes2move.com##.cookies
 3mpolska.pl,bosch-professional.com,cisco.com,command.pl,e.huawei.com,logitech.com,logitechg.com,post-it.pl,vacansoleil.pl###__tealiumGDPRecModal
 3s.pl,antyweb.pl,autopart.pl,bestcasinos.pl,brolerserwis.pl,cieplodlakrakowa.pl,energoret.pl,franciszkanskie.pl,fundacjapozaschematami.pl,grupakety.com,ingtechpoland.com,kancelaria-szip.pl,karmy.com.pl,kozincowka.pl,kpr.pl,kultura.krasnik.eu,mpsmaszyny.pl,no44.pl,norauto.pl,ogrzewamyinteligentnie.pl,olimpijski.pl,ostrereklamy.pl,pelion.eu,pom-eko.com.pl,portal.wfos.szczecin.pl,prevac.pl,przymlynie.pl,softon.pl,spedycje.pl,tbitech.pl###privacy
@@ -6380,7 +6385,7 @@ addnature.pl##.cookieHeader
 addons.prestashop.com,batteryguru.eu,bip.bialogard.info,bip.mzkzg.org,bip.um.rybnik.eu,busy-kielce.eu,busy-wroclaw.eu,gardenoffood.com,luxmeble.eu,miedzyrzec.info,mirka.com,motoakcesoria.com,pilz.com,poradnikbudowlany.eu,promedica.biz,rolkom.net,shop.albione.eu,shuluv.com,sklep.audiofan.eu,sklep.audiofil.eu,sklep.polbit.com,sklepnumizmatyczny.eu,szlakwokoltatr.eu,targowica.eu,warsaw.astonmartindealers.com,wifiki.eu,zagadkidladzieci.net###cookie
 addthis.com,ibm.com,java.com,lighting.philips.pl,meethue.com,nespresso.com,oracle.com,signify.com,wd.com##.truste_box_overlay, .truste_overlay, .privacy-policy-toast
 adeste.org,um.jaslo.pl##.cp-info-bar
-adexemplum.com,adwokat-tarnowskiegory.pl,alarte.pl,allplay.pl,altron.pl,alufelgi.sklep.pl,ammoffice.pl,androidmagazine.pl,apspolska.pl,archiwum.bip.umsroda.pl,asd.pl,biall.com.pl,bip.gopsherby.pl,biuletyn.net,blog.j-labs.pl,concierge.europ-assistance.pl,cubik.pl,cwlaguna.pl,distortstudios.com,domodi.pl,dourody.pl,dzidziusiowo.pl,eneva.pl,footroll.pl,frezmar.pl,galeria-dominikanska.pl,generator.pl,gonar.com.pl,gosc.pl,help4skin.pl,homebook.pl,igomedia.pl,install-it.pl,inwestinfo.pl,inwestpark.pila.pl,itezone.pl,ivento.pl,jack.pl,jeanmueller.pl,kato.com.pl,kinoteka.pl,klockolandia.pl,klubgaja.pl,kobietytoczytaja.pl,kontakt-simon.com.pl,lidzbarkw.eu,lokalika.pl,malygosc.pl,mamnewsa.pl,marcinjasinski.pl,merametal.pl,merydian.pl,meteor-turystyka.pl,miechow.eu,mklr.pl,moipip.org.pl,motokiller.pl,motokobiety.pl,mototube.pl,nieruchomosci-bez-posrednikow.com.pl,nieruchomosci-komercyjne.info,nowapapiernia.pl,o-c.pl,ogloszenia-nieruchomosci.info,old.jeanmueller.com.pl,oldbip.krasiczyn.pl,ostrowiec-sw.pl,panelex.pl,patron.pl,pgn.com.pl,pieniadz.pl,prisonwars.pl,pudliszki.pl,radioem.pl,rbsbychawa.pl,recepcja.visionexpress.pl,rydwan.malbork.pl,shop.ticketpro.pl,sigatech.pl,skk.com.pl,sklep-bmw.pl,sklep-motocyklowy.pl,sklep.antyk.org.pl,sklep.comodoesano.com.pl,sklep.kutnik.com.pl,sklep.visionexpress.pl,skm.warszawa.pl,sportowiec.com,sr.gov.pl,strzelnicabojowa.pl,swiatekspresow.pl,tbs.stargard.pl,teatr-maly.pl,tywent.pl,unimet.pl,unimet24.pl,v10.pl,wiara.pl,winawloskie.pl,wmrowisku.pl,www.pisz.pl,yorkedukacja.pl,zaadoptujrzeke.pl,zamakmercator.pl,zamow-myjnie.pl##body > div[style*="position"][style*="fixed"]:not([id]):not([class])
+adexemplum.com,adwokat-tarnowskiegory.pl,alarte.pl,allplay.pl,altron.pl,alufelgi.sklep.pl,ammoffice.pl,androidmagazine.pl,apspolska.pl,asd.pl,biall.com.pl,bip.gopsherby.pl,biuletyn.net,blog.j-labs.pl,concierge.europ-assistance.pl,cubik.pl,cwlaguna.pl,distortstudios.com,domodi.pl,dourody.pl,dzidziusiowo.pl,eneva.pl,footroll.pl,frezmar.pl,galeria-dominikanska.pl,generator.pl,gonar.com.pl,gosc.pl,help4skin.pl,homebook.pl,igomedia.pl,install-it.pl,inwestinfo.pl,inwestpark.pila.pl,itezone.pl,ivento.pl,jack.pl,jeanmueller.pl,kato.com.pl,kinoteka.pl,klockolandia.pl,klubgaja.pl,kobietytoczytaja.pl,kontakt-simon.com.pl,lidzbarkw.eu,lokalika.pl,malygosc.pl,mamnewsa.pl,marcinjasinski.pl,merametal.pl,merydian.pl,meteor-turystyka.pl,miechow.eu,mklr.pl,moipip.org.pl,motokiller.pl,motokobiety.pl,mototube.pl,nieruchomosci-bez-posrednikow.com.pl,nieruchomosci-komercyjne.info,nowapapiernia.pl,o-c.pl,ogloszenia-nieruchomosci.info,old.jeanmueller.com.pl,oldbip.krasiczyn.pl,ostrowiec-sw.pl,panelex.pl,patron.pl,pgn.com.pl,pieniadz.pl,prisonwars.pl,pudliszki.pl,radioem.pl,rbsbychawa.pl,recepcja.visionexpress.pl,rydwan.malbork.pl,shop.ticketpro.pl,sigatech.pl,skk.com.pl,sklep-bmw.pl,sklep-motocyklowy.pl,sklep.antyk.org.pl,sklep.comodoesano.com.pl,sklep.kutnik.com.pl,sklep.visionexpress.pl,skm.warszawa.pl,sportowiec.com,sr.gov.pl,strzelnicabojowa.pl,swiatekspresow.pl,tbs.stargard.pl,teatr-maly.pl,tywent.pl,unimet.pl,unimet24.pl,v10.pl,wiara.pl,winawloskie.pl,wmrowisku.pl,www.pisz.pl,yorkedukacja.pl,zaadoptujrzeke.pl,zamakmercator.pl,zamow-myjnie.pl##body > div[style*="position"][style*="fixed"]:not([id]):not([class])
 adguard.com##.sticky-bar--cookie
 adidas.pl,ea.com,garmin.com,leagueoflegends.com,nespresso.com,reebok.pl,weather.com,xerox.com###consent_blackbar
 adidas.pl,reebook.pl##div[class^="cookie_consent_bar___"]
@@ -7018,6 +7023,7 @@ domnet.pl,jakbudowac.pl##.dialog-fixed
 domnowoczesny.com,grupapsb.com.pl##.popup-container
 domodi.pl##.dm-cookie-message
 domoplus.pl,kuchniaplus.pl,miniminiplus.pl,teletoonplus.pl###cpb.rodoLayer
+domowa.tv,twojezdrowie.pl#?#script ~ .elementor-popup-modal[id]:-abp-contains(/cookie|rodo|gdpr|ciastecze?ka?/i)
 domowefrytki.com##.site-footer section:last-child .elementor-widget-text-editor .elementor-text-editor p[style*="center"]
 domowladni.pl###domo-cookies-policy
 domsary.eu###policy-cookies-info-panel
@@ -7297,7 +7303,7 @@ fitfood.pl#?##app > #wrapper > div[class]:not([id]):-abp-contains(plików cookie
 fitomento.com##.navbar-inner
 fit-kids.pl,kuriergarwolinski.pl,mccom.pl,nasksa.pl,sopocki-zdroj.pl,waxclinic.pl###rodoInfo
 fit.pl##.rodo-show
-fiveoclock.eu,nessi-sport.com,oko.press,pl-pl.segway.com,pl.tradingview.com,tapicer-pulawy.eu,worldcam.live##.cookie-message
+fiveoclock.eu,nessi-sport.com,oko.press,pl-pl.segway.com,pl.tradingview.com,worldcam.live##.cookie-message
 fivesport.pl###rodo_delivery_container, .rodo_background
 flixbus.pl##div[class^="CookieBox-module__notification__"]
 florexpol.eu###cookieMsg
@@ -7742,6 +7748,7 @@ konsbud-hifi.com.pl##.sticky-footer
 konskowola.info.pl###privacy_info_content
 konskowola.info.pl###privacy_info_overlay
 korepetycje.edu.pl,niania.pl##.cookies_message_bar
+korwin24.pl##.eu-cookies-bar-cookies-bar
 koscian.net##.zgoda_popup
 kosmetyki.fr###nscookie
 koty.pl,psy.pl###infoPopup
@@ -8631,7 +8638,6 @@ serwis.currenda.pl##div#sign_up
 seszele.com.pl##iframe#cookfr
 sew-eurodrive.pl##.mod-cookie-layer
 sferaplatinum.pl#?##page_content > div[class^="jss"] > div:not([id]):not([clas]) ~ div[class^="jss"]:-abp-has( > button[aria-label="Close"])
-sgree.pl###js-cookies
 sguni.pl,tksport.pl,um-swiecie.pl##.scbi
 shazam.com##div.policy-label
 shippuuden.pl##div#cookis-bg
@@ -10112,14 +10118,13 @@ straganzdrowia.pl#@##cookie-law-info-bar ~ .cli-modal-backdrop
 toteraz.pl#@##cookie-preferences
 tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
 volcano.pl#@##cookiesModal
+@@/jquery.cookiebar$domain=bitner.com.pl|iforbet.pl|shinden.pl
 @@/wp-content/plugins/cookie-law-info/public/*$stylesheet
-@@||bitner.com.pl/*/jquery.cookiebar.js
 @@||consent.cookiebot.com/uc.js$script,domain=lyko.com
 @@||footroll.pl/js/vendor/cookiebox.min.js
-@@||iforbet.pl/resources/js/jquery.cookiebar.js
+@@||fundingchoicesmessages.google.com^$script,domain=spidersweb.pl
 @@||kawalekkodu.pl/bl-plugins/cookie-consent/js/advert.js
-@@||sdk.privacy-center.org^$domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
-@@||shinden.pl/*/jquery.cookiebar.js
+@@||sdk.privacy-center.org^$domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikwschodni.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|regiodom.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 !@
 !@
 !@ Wyjątki
