@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: O8tECEfE181+pVzsl62/wQ
+! Checksum: zSchVGxhfQ5vBleo7VTYZw
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Fri, 25 Jun 2021, 16:08 UTC+02
-! Version: 2021.6.25.0
+! Last modified: Sun, 27 Jun 2021, 20:08 UTC+02
+! Version: 2021.6.27.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pią, 25 cze 2021, 16:08 UTC+02
+! Aktualizacja: nie, 27 cze 2021, 20:08 UTC+02
 !
 !
 !
@@ -249,6 +249,7 @@ dominospizza.pl##.popup_exit, .overlay, #jsNewsletterLayer
 domisad.pl###banner-subs
 doubletreewarsaw.pl##.popout__container
 dowbit.pl,moneygrabbing.co.uk##.mcwidget-overlay
+dragonmask.pl,walizkazabawek.pl,webcamera.pl##.newsletter-modal, .modal-backdrop
 dreweks.eu###x13popup-container, #x13popup-cover
 drogeriadicentra.pl,regalka.pl,shop.albione.eu,sklep.feba.pl,sprzet-poz.pl,superheroes.com.pl,voip24sklep.pl##.fx-wrapper-modal
 drukmistrz.pl##.mf-loaded.mf-animate.mf-modal-iframe-middle.mf-modal-iframe
@@ -855,7 +856,6 @@ vpnmentor.com##.share-blog-modal
 wakacjezprocentem.pl##.playfair
 wakacje.pl##.curtainFull, #newsletterLb, .exitPopup
 wakacyjnapolisa.pl##.wakacyjna-underlay, #ouibounce-modal
-walizkazabawek.pl,webcamera.pl##.newsletter-modal, .modal-backdrop
 walutomat.pl##.wt-response-modal
 waze.com#?#.wz-popup-overlay:-abp-has(div > h3)
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
@@ -1018,6 +1018,7 @@ zszywka.pl###inv-request-popup
 ||rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||salaterka.pl/wp-content/plugins/optin-cat-personal-wp/assets/vendor/featherlight/release/featherlight.min.js
 ||sat-charts.eu/js/fcbkpopup.js
+||sklep.jack-wolfskin.pl/*/js/newsletter-modal-
 ||sklep.rms.pl/js/rms_copy_copy/popup.js
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
 ||starter.net.pl/wp-content/plugins/modal-window/assets/css/style.min.css
