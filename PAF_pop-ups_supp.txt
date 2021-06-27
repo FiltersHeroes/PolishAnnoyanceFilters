@@ -8,7 +8,7 @@ action.com##+js(rc, is-locked, html)
 action.com##.is-locked body:style(position: static !important; overflow-y: scroll !important;)
 action.com##.is-locked .scroll-bar
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
-action.com,euro.com.pl,mulan.pl,oleole.pl,pasmanteria.eu,urwisydwa.sklep.pl,wetro.pl##body[style]:style(padding-right: 0 !important;)
+action.com,euro.com.pl,mulan.pl,oleole.pl,pasmanteria.eu,shipgratis.eu,urwisydwa.sklep.pl,wetro.pl##body[style*="padding"]:style(padding-right: 0 !important;)
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##html.remodal_lock, body.remodal_lock:style(overflow: auto !important;)
@@ -28,7 +28,7 @@ ajakarnica.pl,bejeans.pl,betterland.pl,eltkom.pl,epione.pl,eurotech.agro.pl,fifi
 akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
 akademiaversum.pl###newsletter-pp
 aktualnyodpis.pl##iframe[src^="//quic.pl/popups/"]
-aktualnyodpis.pl,befado.pl,logitechg.com,nowyobywatel.pl##body[style]:style(overflow: auto !important;)
+aktualnyodpis.pl,arslege.pl,befado.pl,kler.eu,logitechg.com,nowyobywatel.pl,www.microsoft.com##body[style*="hidden"]:style(overflow: auto !important;)
 alerabat.com,arslege.pl,nowyobywatel.pl##.jquery-modal
 alerabat.com,mobileclick.pl,sanbetdevelopment.pl##body:style(overflow-y: auto !important;)
 alesoczewki.com,bezokularow.pl,campingshop.pl,dedekor.pl,intershoe.com.pl,nife.pl,pinsola.pl###news_popup, .modal-backdrop
@@ -42,7 +42,6 @@ apynews.pl,gameonly.pl,gameswithgold.pl,hardreset.info,kocmyrzow-luborzyca.ug.go
 apynews.pl,gameonly.pl,gameswithgold.pl,n-switch.pl,ps-plus.pl###fb-modal, .modal-backdrop
 archonhome.pl,at-outlet.pl,cyberdefence24.pl,defence24.com,defence24.pl,energetyka24.com,intershoe.com.pl,kmziz.pl,kontigo.com.pl,limango.pl,miastakobiet.pl,pepco.pl,politykazdrowotna.com,selkar.pl,sklepkamil.pl,space24.pl,teamquest.pl,ttv.pl,tvokazje.pl,upolujebooka.pl,zaufanekliniki.pl##.modal-open:style(overflow: visible !important; padding-right: 0 !important;)
 archonhome.pl,bitner.com.pl,eurobuty.com.pl,prnews.pl,s-pl.pl,super-polska.pl###myModal, .modal-backdrop
-arslege.pl##body[style*="hidden"]:style(overflow: auto !important;)
 atthost.pl##html[style], body[style]:style(overflow: auto !important;)
 atthost.pl##.popexit_active.popexit_bg
 at-outlet.pl,bilscy.info,nalepsze.pl,pantalerzyk.pl,selkar.pl,sklep.technica.pl,sklepkamil.pl,zico-bike.pl##.newsletter-modal, .modal-backdrop
@@ -65,7 +64,7 @@ bedziepieklo.pl,hurtowezakupy.com,mulan.pl,urwisydwa.sklep.pl,wetro.pl##.swal2-c
 bedziepieklo.pl,hurtowezakupy.com,pasmanteria.eu##html.prevent-scroll-desktop:style(overflow: auto !important;)
 befado.pl###r_popup
 belvederehotel.pl##+js(aopr, pf_queen.push)
-beta.netia.pl##body[style="overflow: hidden;"]:style(overflow: auto !important;)
+beta.netia.pl##body[style="hidden"]:style(overflow: auto !important;)
 beta.netia.pl##.popup-beta
 bilety24.pl,moliera2.com,quiosque.pl###newsletter-popup, .modal-backdrop
 bilkom.pl###promopopup, .modal-backdrop
@@ -168,7 +167,7 @@ idream.pl###modal-getresponse, .modal-backdrop
 ifirma.pl##html[style]:style(overflow-y: auto !important;)
 ifirma.pl###reklama-overlay
 insert.com.pl##+js(aeld, DOMMouseScroll, preventDefault)
-instagram.com##body[style*="overflow: hidden;"]:style(overflow: visible !important;)
+instagram.com##body[style*="hidden"]:style(overflow: visible !important;)
 instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
@@ -183,6 +182,7 @@ kire.pl##.gafancybox-lock > body, html.gafancybox-lock:style(overflow: visible !
 kire.pl##.gafancybox-margin:style(margin-right: 0 !important;)
 kire.pl##.gafancybox-overlay
 kiribaticlub.pl,zielonasowa.pl###ns-popup-box, #mask
+kler.eu###newsletter-form.modal--newsletter.modal
 klucz.net##body.hustle-no-scroll, html.hustle-no-scroll:style(overflow: auto !important;)
 klucz.net##.hustle-popup.hustle-ui
 kmziz.pl###full_newsletter_modal, .modal-backdrop
@@ -352,7 +352,6 @@ samochod.porowneo.pl##.noScroll:style(position: static !important;)
 secure.avaaz.org##.page-petition--inactive:style(overflow: auto !important;)
 secure.avaaz.org##.signup-petition-modal-wrapper
 sferis.pl##+js(acis, $, promoNewsletter)
-shipgratis.eu##body[style*="padding-right"]:style(padding-right: 0 !important;)
 shoplet.pl##+js(set, x13callback_cookie, 1)
 shop.mango.com##.modal-container-newsletter
 shop.mango.com##.scroll__block:style(overflow: auto !important; height: auto !important;)
@@ -363,6 +362,8 @@ sklepmartes.pl##html.modalbox-is-visible body:style(overflow: auto !important;)
 sklepmartes.pl##.modalbox-is-visible:style(overflow: auto !important;)
 sklepmartes.pl##.modalbox--has-closebtn
 sklepzrowerami.pl##.fancybox-overlay:has(.apc_modal)
+sklep.jack-wolfskin.pl##body._has-modal:style(overflow: auto !important;)
+sklep.jack-wolfskin.pl##.newsletter-popups-subscribe.modal-popup, .modals-overlay
 sklep.krosno.com.pl##.modalbox
 sklep.krosno.com.pl##.modalbox-is-visible body:style(overflow: auto !important;)
 sklep.nextmobile.pl###supper-offer, .modal-backdrop
@@ -417,7 +418,6 @@ www.auchan.pl##+js(aeld, /^(?:wheel|keydown)$/, [native code])
 www.auchan.pl##.v-dialog__content:has( > div.v-dialog > div:not([id]):not([class]) > button ~ div > picture:only-child)
 www.auchan.pl##.v-overlay:has( ~ .v-dialog__content > div.v-dialog > div:not([id]):not([class]) > button ~ div > picture:only-child)
 www.facebook.com##body > div.uiLayer[style="opacity: 1; min-width: 40px;"]:has( > div:first-child:empty)
-www.microsoft.com##body[style*="overflow: hidden;"]:style(overflow: auto !important;)
 www.microsoft.com###email-newsletter-dialog
 wynagrodzenia.pl###isbusiness-modal, .modal-backdrop
 yieldbird.com##.home:style(overflow: visible !important;)
