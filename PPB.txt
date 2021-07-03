@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: s6ZrJQ9EgnvQ0wnL8AzZ6g
+! Checksum: tLTbao4uGyNxCT7+YkPD5w
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 28 Jun 2021, 12:08 UTC+02
-! Version: 2021.6.28.0
+! Last modified: Sat, 03 Jul 2021, 20:08 UTC+02
+! Version: 2021.7.3.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 28 cze 2021, 12:08 UTC+02
+! Aktualizacja: sob, 03 lip 2021, 20:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2343,6 +2343,7 @@ konstantinkanin.com##.hustle-show
 kontri.pl###element_to_pop_up, .bModal
 kontri.pl###ys-container, .ys-layer
 korczyk.pl##.pop-up
+korso.pl,korso24.pl,korsosanockie.pl##.stayMore__container
 koszulkowo.com,modelerolnicze.pl,parkmania.pl###bio_ep, #bio_ep_bg
 krakweb.pl###callpage_box
 kresy.pl##.ls-popup
@@ -3136,6 +3137,8 @@ gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
 interia.pl,interia.tv,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
 kresy.pl###kresyTVPlayer_wrapper
+medianarodowe.com,sadeczanin.info,transfery.info##div.miniature.onnetworkplayercontainer > div.alwplayer
+medianarodowe.com,sadeczanin.info,transfery.info##div.onnetworkplayercontainer > div.miniplayer
 medonet.pl,onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
 medonet.pl,onet.pl,~www.onet.pl##.active.player-float-wrap > .player-float-container
 naekranie.pl#?#body > div[class][style*="position: fixed"]:-abp-has(.yt-player, video)
@@ -3144,8 +3147,6 @@ poradnikzdrowie.pl##div.sticky-container_sticky.sticky-container__wrap > video-j
 przeambitni.pl##.mvp-vid-fixed
 punkt.media##div[id^="em"][style*="position: fixed;"]
 radio.katowice.pl##div[id^="sidebar"].fixed-player
-sadeczanin.info,transfery.info##div.miniature.onnetworkplayercontainer > div.alwplayer
-sadeczanin.info,transfery.info##div.onnetworkplayercontainer > div.miniplayer
 softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
 telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvrep-live-box
 telewizjatvt.pl#?#div[id^="elementor-popup-modal-"]:-abp-has(iframe[src*="/player/"])
@@ -3280,7 +3281,7 @@ avantea.pl,avenus.pl,dpm.eu,junak.com.pl,karmello.pl,licencjefilmowe.pl,poetting
 avaro.pl,kontri.pl,planplaneta.com###arrow_top
 avast.com###slide-top
 awf.edu.pl,nbportal.pl###go-up
-axeprim.eu,fanipogody.pl,fera.pl,gazetaslupecka.pl,gazetasuprasl.pl,gdanskstrefa.com,icyfrowypolsat.pl,lincoln.edu.pl,meblosfera.pl,placesandplants.com,posbistro.com,radioopornik.eu,region24.pl,rrs24.net,skawina.eu,sluzby-ratownicze.pl,sp18.lublin.eu,sportdziennik.com,sportowiec.info,targowek.info,tarnobrzeg.info,tygodnikradomski.com.pl,wachtyrz.eu,wagrowiec-wydarzeniazostatniejchwili.pl,wiatrodyskretni.pl,wirtualnynowydwor.pl,wiskitki.org,wokolmotoryzacji.pl,zs12lublin.eu###scroll-up
+axeprim.eu,fanipogody.pl,fera.pl,gazetaslupecka.pl,gazetasuprasl.pl,gdanskstrefa.com,icyfrowypolsat.pl,lincoln.edu.pl,meblosfera.pl,placesandplants.com,posbistro.com,radioopornik.eu,region24.pl,rrs24.net,skawina.eu,sluzby-ratownicze.pl,sp18.lublin.eu,sportdziennik.com,sportowiec.info,targowek.info,tarnobrzeg.info,tygodnikradomski.com.pl,wachtyrz.eu,wagrowiec-wydarzeniazostatniejchwili.pl,wbieszczady.pl,wiatrodyskretni.pl,wirtualnynowydwor.pl,wiskitki.org,wokolmotoryzacji.pl,zs12lublin.eu###scroll-up
 axtechnology.pl##.show_scroll
 b2btrade.eu##.back-to-top-arrow
 b2b.metal-bud.eu,hmb.pl##.go-to-top-ui
@@ -5242,6 +5243,7 @@ hbo.pl##.ribbon
 hefra.pl###social-widget-main
 helloangielski.pl,kariera.goldenline.pl###icegram_messages_container
 histmag.org##div[evergreen-portal-container] > div > div[role="dialog"]
+histmag.org###article > div[style*="fixed"]:not([id]):not([class])
 historykon.pl##.erpProContainer
 hitobuwie.pl##.fixedBaners__container
 hollex.pl##div.StrTresc:nth-of-type(2)
