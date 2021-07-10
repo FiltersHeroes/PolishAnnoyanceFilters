@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: JKFzeIpZa/X2gLkhmPGQTA
+! Checksum: y/se0/KmZeF1r3O5fNRo7w
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Fri, 09 Jul 2021, 12:08 UTC+02
-! Version: 2021.7.9.0
+! Last modified: Sat, 10 Jul 2021, 16:08 UTC+02
+! Version: 2021.7.10.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pią, 09 lip 2021, 12:08 UTC+02
+! Aktualizacja: sob, 10 lip 2021, 16:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -3010,6 +3010,7 @@ businessinsider.com.pl###pushDefaultPopUp
 businessinsider.com.pl,noizz.pl##.pushBell
 ceneo.pl###notifications-toast
 chillizet.pl,radiozet.pl,~www.radiozet.pl##.btn-notif
+codziennypoznan.pl,ipolska24.pl##.perfecty-push-dialog-box
 ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:-abp-has(span:-abp-contains(/^Powiadomienia$/))
 folk24.pl###pushFooter
 gazetkonosz.pl##.floating-dialog
@@ -3135,11 +3136,11 @@ agrii.pl###panel
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl##.player-floating, .player-move-up
 bezpiecznystrazak.pl##.video_zminimalizowane
 claudia.pl,elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
+codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 dziennik.pl,forsal.pl,gazetaprawna.pl##.video.widget > .videoScroll, .video.widget > .videoScroll ~ .closeVideoBtn
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
-interia.pl,interia.tv,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
 kresy.pl###kresyTVPlayer_wrapper
 medianarodowe.com,sadeczanin.info,transfery.info##div.miniature.onnetworkplayercontainer > div.alwplayer
