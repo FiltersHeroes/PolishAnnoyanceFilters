@@ -1,5 +1,3 @@
-diki.pl##.popupBannerContainer
-diki.pl##body[style]:style(top: 0 !important;)
 ~animezone.pl,berlitz.com,naklo.fm,pl##.grecaptcha-badge:style(visibility: hidden !important;)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##a[data-st-area="covid-button"][href*="koronawirus.abczdrowie.pl/"]:upward(3)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href*="wlacz-tryb-ciemny-"]:upward(2)
@@ -23,6 +21,8 @@ cdn.ampproject.org,reddit.com##body.scroll-disabled:style(overflow: visible !imp
 cukierniabezowa.pl##body.nice-scroll:style(padding-right: 0 !important;)
 czyjnumerek.pl##.table-opinion div[class^="vote-"]:nth-child(odd):style(display: inline-block !important;)
 czyjnumerek.pl##.table-opinion:nth-of-type(1):not(:nth-last-of-type(1)) div[class^="vote-"]:nth-child(odd):style(transform: none !important;)
+diki.pl##.popupBannerContainer
+diki.pl##body[style]:style(top: 0 !important;)
 download.net.pl##dl > .date:style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important;)
 download.net.pl##dl > .date:upward(dl):style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important;)
 dziary.com##.ps-container:style(overflow: auto !important;)
