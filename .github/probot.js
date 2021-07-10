@@ -32,7 +32,7 @@ on('issues.opened', 'issues.edited')
   .label('newsletter');
 
 on('issues.opened', 'issues.edited')
-  .filter(context => context.payload.issue.body.match(/- \[[ ]] Newsletter/))
+  .filter(context => context.payload.issue.body.match(/- \[[ ]] Newsletter/) && context.payload.issue.labels.some(e => e.name === "newsletter"))
   .unlabel('newsletter');
 
 on('issues.opened', 'issues.edited')
