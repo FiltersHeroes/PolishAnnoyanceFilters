@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: y/se0/KmZeF1r3O5fNRo7w
+! Checksum: l045JJQ16HteD+0X1mr1mQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 10 Jul 2021, 16:08 UTC+02
-! Version: 2021.7.10.0
+! Last modified: Sat, 10 Jul 2021, 20:08 UTC+02
+! Version: 2021.7.10.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: sob, 10 lip 2021, 16:08 UTC+02
+! Aktualizacja: sob, 10 lip 2021, 20:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -3652,6 +3652,7 @@ magazynmotomi.pl,moneygrabbing.co.uk,wolnekonopie.org##.kleo-go-top
 magrebud.pl,szczebrzeszyn.info##.u-back-to-top
 makeupmyday.pl##.backtop
 makeup.pl,sport.tvp.pl##.button-up
+make-cash.pl##.back-to-top-icon
 malafabryczka.pl###button-up
 malydziennik.pl,prostozmostu24.pl,superekspress.pl,wpolityce24.pl,wsieci24.pl,yggdrasil.pl##.nnc-scroll-top
 marbo-sport.pl##.upArrow
@@ -5090,7 +5091,7 @@ devoxx.pl##.subscribers-position-right.subscribers-chicklet
 dietbox.pl##.get-app
 dietetycy.org.pl,pokoleniesmart.pl##.previous, .next
 dietetyk-vital.pl,odczasudoczasu.pl,zegarkiipasja.pl##.fixed-nav
-diki.pl##.popupBannerContainer
+diki.pl##body:not([style]) .popupBannerContainer
 ding.pl##section div[class*="_"][style*="transition"] > img[alt="Eu Badge"]
 direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
