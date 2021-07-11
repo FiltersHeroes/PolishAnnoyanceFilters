@@ -5,15 +5,12 @@ body:
     attributes:
       value: |
         Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
-        Thanks for reporting to Polish Annoyance Filters!
   - type: checkboxes
     id: problemType
     attributes:
-      label: Typ elementu lub problemu (The type of item or problem)
+      label: Typ elementu lub problemu
       description: |
         W przypadku pomyłki co do typu, proszę odznaczyć checkbox (przycisk wyboru) lub usunąć x i wstawić spację zamiast niego.
-
-        In case of a mistake as to the type, please uncheck the checkbox or delete x and insert a space instead.
       options:
         - label: Wyskakujące okienko (popup)
         - label: Newsletter (nie popup)
@@ -32,7 +29,7 @@ body:
   - type: dropdown
     id: OS
     attributes:
-      label: System operacyjny (Operating system)
+      label: System operacyjny
       options:
         - Linux/Unix
         - Windows
@@ -44,24 +41,24 @@ body:
   - type: input
     id: webBrowser
     attributes:
-      label: Przeglądarka internetowa (Web browser)
+      label: Przeglądarka internetowa
       placeholder: Pale Moon 29.2.1
     validations:
       required: true
   - type: input
     id: adblocker
     attributes:
-      label: Bloker (Blocker)
+      label: Bloker
       placeholder: uBlock Origin 1.16.4.29
     validations:
       required: true
   - type: textarea
     id: myfilters
     attributes:
-      label: Używane listy filtrów (Used filter lists)
+      label: Używane listy filtrów
       value: |
         1. EasyList
-        2. Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda <!--(Official Polish Filters For AdBlock, uBlock Origin and AdGuard)-->
+        2. Oficjalne Polskie Filtry do AdBlocka, uBlocka Origin i AdGuarda
         3. Polskie Filtry Elementów Irytujących
         4. 
         5. 
@@ -70,33 +67,29 @@ body:
   - type: textarea
     id: otherExtensions
     attributes:
-      label: Inne rozszerzenia (Other extensions)
+      label: Inne rozszerzenia
       placeholder: Polish Cookie Consent 1.43.5
   - type: textarea
     id: specificLink
     attributes:
-      label: Link bezpośredni (Specific link)
+      label: Link bezpośredni
       description: |
         Wstaw tutaj link bezpośredni do strony, na której występuje element albo błąd.
-
-        Insert here a direct link to the page, where an element or a bug occurs.
       placeholder: http://www.biedronka.pl/newsletter
       render: markdown
   - type: textarea
     id: additionalInfo
     attributes:
       label: |
-        Dodatkowe informacje mogące mieć znaczenie (Additional information that may be relevant)
+        Dodatkowe informacje mogące mieć znaczenie
       description: |
         Zrzuty ekranu, etapy odtworzenia problemu (co doprowadziło do błędu) albo twoja metoda rozwiązania problemu.
-
-        Screenshots, the steps to reproduce the problem (which led to the error) or your method of solving the problem.
       placeholder: Proszę pana, na tej stronie wyskakuje cała masa okienek o jakiś promocjach i na dole pojawiają się jakieś strzałki. Coś tam też w kółko miga mi przed oczami, a w tle gra irytująca muzyczka. Od tego wszystkiego głowa mnie już boli, a komputer wariuje... .
   - type: checkboxes
     id: terms
     attributes:
-      label: Zasady pisania (Writing rules)
+      label: Zasady pisania
       options:
         - label: |
-            Zapoznałem się z [netykietą](https://pl.wikipedia.org/wiki/Netykieta) (I've read the [GitHub Community Guidelines](https://docs.github.com/en/github/site-policy/github-community-guidelines))
+            Zapoznałem się z [netykietą](https://pl.wikipedia.org/wiki/Netykieta)
           required: true
