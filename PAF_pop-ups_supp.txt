@@ -150,7 +150,7 @@ gazetkonosz.pl###subscribeModal, .modal-backdrop
 giacomo.pl,miastakobiet.pl,teamquest.pl###newsletterModal
 giftshop24.pl,mpoint.pl###moda_popupnewsletter, .modal-backdrop
 gifyagusi.pl##div#fanback
-gifyagusi.pl###body[style="overflow: hidden;"]:style(overflow: auto !important;)
+gifyagusi.pl##body[style="overflow: hidden;"]:style(overflow: auto !important;)
 gromada.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 gromada.pl##.fancybox-overlay-fixed
 haart.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
@@ -259,7 +259,7 @@ new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:h
 niedziela.pl###exitIntentModal, .modal-backdrop
 niezlasztuka.net##+js(nostif, i(), 35000)
 nike.com##body[data-overlay*="Modal" i]:style(position: static !important;)
-nike.com###body[data-overlay*="Modal" i]:watch-attr(data-overlay):not([data-overlay="true"]) gen-nav-commerce-header-v2 > div.pre-modal-window:has( > .pre-modal > .pre-modal-view > .unite-container):has-text(/newsletter/i)
+nike.com##body[data-overlay*="Modal" i]:watch-attr(data-overlay):not([data-overlay="true"]) gen-nav-commerce-header-v2 > div.pre-modal-window:has( > .pre-modal > .pre-modal-view > .unite-container):has-text(/newsletter/i)
 njumobile.pl##+js(aopr, window.onbeforeunload)
 nk.pl##.promotor-popup
 nk.pl##.u-o_hidden:style(overflow: auto !important;)
