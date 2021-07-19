@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: AuKifLp7M5SHcFXlIuA2JA
+! Checksum: orlkJwqSAcpR2qsRg4w+YA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 19 Jul 2021, 20:08 UTC+02
-! Version: 2021.7.19.0
+! Last modified: Mon, 19 Jul 2021, 23:42 UTC+02
+! Version: 2021.7.19.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 19 lip 2021, 20:08 UTC+02
+! Aktualizacja: pon, 19 lip 2021, 23:42 UTC+02
 !
 !
 !
@@ -210,7 +210,7 @@ creativetools.pl###newsletter_pop_up
 creativetools.pl,monitoring-system.pl##.__b-popup1__
 cryptonews.pl##.wonderplugin-box, #wonderplugin-box-hidebar-1
 cryptoqueen.pl###POPUPS_ROOT
-csk.szczecin.pl##.in.bootbox-confirm.fade.modal.bootbox
+csk.szczecin.pl##.in.bootbox-confirm.modal.bootbox
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl###popupModal, .modal-backdrop
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl###ue_popups
 cyberfolks.pl,drzwi-cal.pl###ue_widget
@@ -439,7 +439,7 @@ kolobrzeg.pl###dailyfullscreen
 kolorowejeziorka.pl###lpl.lpl-window, #lpl-overlay.lpl-overlay
 kombo.krakow.pl##body > div:nth-of-type(4), body > div:nth-of-type(6)
 kombo.krakow.pl###divGoTop2Mob
-komorkomat.pl##.offer_modal.order_contact_offer_modal.in.fade.vue_modal
+komorkomat.pl##.offer_modal.order_contact_offer_modal.vue_modal
 koncertomania.pl#?#.conv_state_desktop.conv-container:-abp-has(#conv11671)
 konin24.info#?##popup_box:-abp-has(img[src^="file_data/banner/b_"])
 konstantinkanin.com##.hustle-show
@@ -485,7 +485,7 @@ loanme.pl##.exit-popup-block
 localspots.pl#?##app > div[class^="css-"] > div[class^="css-"] > div[class^="css-"]:-abp-has( > div[class^="css-"] > img[class^="css-"][src*="/static/media/ziomki_map"])
 lodzkietargi.pl,slaskietargi.pl,targipolnocne.pl,targizachodnie.pl###popup_mlm
 lomilowka.pl###modalRazemRazniej
-lomilowka.pl##.in.fade.modal-backdrop
+lomilowka.pl,pkwieruszow.pl##.modal-backdrop
 lookfantastic.pl##.emailReengagement
 lovesimple.pl,nasztalerz.pl##.elementor-popup-modal
 luba-group.com###popup800wrapper, #popup800container
@@ -568,8 +568,8 @@ naszeledy.pl##.mask
 naszeledy.pl##.modal-visible.modal
 nasze-gazetki.pl###subscribeModal, .modal-backdrop
 naturbio.pl###rm_pop_up_entry
-nawado.pl##.fadein.wpoi-show.inc_optin_1.inc_optin.wpoi-animate.inc_opt_popup
-nawado.pl##.wpoi-show.fadein.wpoi-animate.wpoi-overlay-mask.undefined.inc_optin_1
+nawado.pl##.inc_optin_1.wpoi-overlay-mask
+nawado.pl##.wpoi-show.inc_optin_1.inc_opt_popup
 nawakacje.eu,rytmynatury.pl##.ays-fpl-modals
 nawiedzone.pl,polskieszosy.pl##[data-title="Social Form - Popup #02"]
 nawozy.eu##.newsletterPopup
@@ -645,7 +645,6 @@ pirbinstytut.pl##.sj-popup-container, .sj_newletter_popup
 pitax.pl###popupZbieraj
 piterparts.pl##.banner-special-fixed
 pityver.pl###LayerExit
-pkwieruszow.pl##.modal-backdrop
 plakatynasciany.pl###ap-popup, #ap-popup-tlo
 planeta-budowlana.pl##.dialog[id^="window"], #toogas_pop_up
 plk.pl###okienko_yt, .ui-widget-overlay
@@ -780,6 +779,7 @@ sprawdzonakuchnia.pl##.essb-optinbooster, .essb-optinbooster-overlay
 spreadshirt.pl##.show.js-promo-layer
 sprzedam.pl###api817-banner
 ssangyong.pl###hot_offer
+stalremdrzwi.pl##.pum-overlay[data-popmake*="porta" i]
 stamary.pl##.fancybox-overlay-fixed
 starter.net.pl###wow-modal-overlay-1
 stawiszynski.org,weddingdream.com##.jet-popup
