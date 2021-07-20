@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: nmwPrIL7ar+Z+uuHaf62IQ
+! Checksum: jHyfyV/SXY+K1zaHwZBg1w
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 19 Jul 2021, 23:42 UTC+02
-! Version: 2021.7.19.1
+! Last modified: Tue, 20 Jul 2021, 20:08 UTC+02
+! Version: 2021.7.20.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 19 lip 2021, 23:42 UTC+02
+! Aktualizacja: wto, 20 lip 2021, 20:08 UTC+02
 !
 !
 !
@@ -100,7 +100,7 @@ alkoholeswiata24.pl,osheeshop.eu,zlotarybka24.com###subReqForm
 alkoholeswiata24.pl,swiatzlotasklep.pl###box_subReqForm
 alkoholeswiata.com##div.span6:nth-of-type(2) > .row > div.span3:nth-of-type(2) > .panel-default.panel
 allani.pl,cmjordan.krakow.pl,elfadistrelec.pl,eobuwie.com.pl,hitobuwie.pl,kratki.com,ktociewyleczy.pl,kubotastore.pl,spotawheel.pl,stadionwroclaw.pl,villeroy-boch.pl,wakacyjnipiraci.pl,www.kler.eu,www.missguided.com,www.smyk.com,www.zooplus.pl##.footer__newsletter
-allegro.pl#?#div[data-box-name="allegro.marketing.consent"]:-abp-has( > div > div > input#consent:not(:checked))
+allegro.pl#?#div[data-box-name^="allegro.marketing.consent" i]:-abp-has( > div > div > input#consent:not(:checked))
 all-bielizna.pl###slide_panel187
 almania.pl,glossyme.eu##.shb-newsletter-widget-1
 alsen.pl,kakto.pl##.m-footer_nsl
