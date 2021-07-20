@@ -80,7 +80,7 @@ alkoholeswiata24.pl,osheeshop.eu,zlotarybka24.com###subReqForm
 alkoholeswiata24.pl,swiatzlotasklep.pl###box_subReqForm
 alkoholeswiata.com##div.span6:nth-of-type(2) > .row > div.span3:nth-of-type(2) > .panel-default.panel
 allani.pl,cmjordan.krakow.pl,elfadistrelec.pl,eobuwie.com.pl,hitobuwie.pl,kratki.com,ktociewyleczy.pl,kubotastore.pl,spotawheel.pl,stadionwroclaw.pl,villeroy-boch.pl,wakacyjnipiraci.pl,www.kler.eu,www.missguided.com,www.smyk.com,www.zooplus.pl##.footer__newsletter
-allegro.pl#?#div[data-box-name="allegro.marketing.consent"]:-abp-has( > div > div > input#consent:not(:checked))
+allegro.pl#?#div[data-box-name^="allegro.marketing.consent" i]:-abp-has( > div > div > input#consent:not(:checked))
 all-bielizna.pl###slide_panel187
 almania.pl,glossyme.eu##.shb-newsletter-widget-1
 alsen.pl,kakto.pl##.m-footer_nsl
