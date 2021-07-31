@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: tMTjWTTB9dy22zpRrGjdPA
+! Checksum: JHSOXzmwGJK0X8Zgb7K2zA
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 25 Jul 2021, 16:08 UTC+02
-! Version: 2021.7.25.0
+! Last modified: Sat, 31 Jul 2021, 20:08 UTC+02
+! Version: 2021.7.31.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 25 lip 2021, 16:08 UTC+02
+! Aktualizacja: sob, 31 lip 2021, 20:08 UTC+02
 !
 !
 !
@@ -65,6 +65,7 @@ angelsadvertising.pl###qLoverlay
 animeon.pl##.alert-info
 anna-urbanska.pl##.amadeus_recent_posts_widget
 antykwariatlibra.pl##.guy
+antyweb.pl##header.header ~ div.wrapper > div[data-fetch-key*="PostProxy"] > div:not([id]):not([class]) > div.pb-12 ~ div.pb-12
 apkpure.com###ad-aegon-side
 aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
 applemobile.pl##.cactus-post-suggestion > .post-suggestion-content
@@ -92,7 +93,7 @@ auto-mobil.pl###metka-promocje
 auto-motor-i-sport.pl##.genewa-roll
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl###pdr
 auto-swiat.pl,businessinsider.com.pl,cdn.ampproject.org,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##html[amp-version] .barLink
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##.backToOnet
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,nk.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##.backToOnet
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##a[class^="backToOnet__"]
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###backToOnet
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###content-share-top > .BackToMainPage, .backToOnetBottomBar
