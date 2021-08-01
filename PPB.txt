@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: gs3S35CYTHbK5XkYFGsZtQ
+! Checksum: u7lKCNkcIOWLC2IQPLAhcQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 01 Aug 2021, 12:08 UTC+02
-! Version: 2021.8.1.0
+! Last modified: Sun, 01 Aug 2021, 21:10 UTC+02
+! Version: 2021.8.1.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 01 sie 2021, 12:08 UTC+02
+! Aktualizacja: nie, 01 sie 2021, 21:10 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1524,6 +1524,7 @@ swiatbaterii.pl##div.col-md-4:nth-of-type(3) > div:nth-of-type(1)
 swiatkoszy.eu##.footer-newsletter > .container > div.row:nth-of-type(1)
 swiatkoszy.eu##.footer-newsletter__left
 swiatoze.pl##.post-subscribe
+swiatoze.pl##.single-post-newsletter.row
 swiatwakacji.pl#?##right_column > ul > li:-abp-has(span[title="Newsletter"], #NewsletterDisplayForm)
 symbiosis.com.pl##.m-footer_newsletterContainer
 syngenta.pl#?#.cta-teaser__wrapper:-abp-has(a[href*="/newsletter"])
@@ -3212,7 +3213,7 @@ pl##.videoPlayer.is--persistent:not(.ended)
 4turbo.pl,dayupstore.pl,fhuoskar.pl,klinkierbud.pl,no10.pl,palis.pl,sklep-narzedzia.pl,sklep.agroas.pl,sklep.loakepolska.pl,sklep.monster.pl,sklep.platinet.pl,sorbenty.pl,sportbazar.pl,twp.sklep.pl###moveTop
 5wszk.com.pl,brwmielec.pl,creagroup.com.pl,crmodus.pl,dietetyczne-przepisy.net,dietetyk-proporcja.pl,e-theart.pl,gchmanhattan.pl,krolismok.pl,rubbens.pl,supersam-katowice.pl,wieniecwarszawa.pl###slide_top
 24hurt.pl,haftpasja.pl,mirjan24.pl,pm-m.pl,uczyibawi.pl###wt_scroll_top
-50style.pl,e-timberland.pl,galeriamarek.pl,sklep.sizeer.com,vobis.pl###js-scrollTop
+50style.pl,agatameble.pl,e-timberland.pl,galeriamarek.pl,sklep.sizeer.com,vobis.pl###js-scrollTop
 51.75.43.155,aforyzmy-cytaty.pl###topBtn
 80dni.pl###backtotop_wpv
 123budujemy.pl,aptekarzpolski.pl,brandsit.pl,eurowizja.org,francuskie.pl,mediarun.com,petronews.pl,radio.lublin.pl,skandynawiainfo.pl,slaskczyta.pl,wikilistka.pl##.jscroll-to-top
@@ -3287,6 +3288,7 @@ antywirus.biz,bonturystyczny.polska.travel,gino-rossi.com,luba-group.com,motopoz
 apollo.pl##.tt-scroll-up
 apo-discounter.pl###page_up_button
 aptekagemini.pl,douglas.pl##.scroll-to-top-button
+aptekaolmed.pl###btn-going-top
 apteline.pl,bebiklub.pl,itcontent.eu,quiosque.pl,selectivv.com##.scroll-top-button
 arenanarciarska.pl,pizzeriapaccino.pl###goto-top
 arhn.eu###gp-to-top
@@ -3444,6 +3446,7 @@ dopracowani.pl###pulse_to_top
 doradcasmaku.pl,porta.com.pl##.floating_scroll_top
 dotd.pl###arrow_up
 douglas.pl##.rd__back-to-top
+drillo.co,jelenia.tv,kostes.eu,krasiczyn.info,pastebin.com,proveg.com,serwis-zamkow.com,szklomal.eu##.cd-top
 drweb-av.pl###scrollup_button
 drzwi-cal.pl##.js-site-scroll-up.site-scroll-up
 dts24.pl##.nav-btn
@@ -3603,7 +3606,6 @@ janssen.tv##.move-btn__parent
 jarock.pl###back-to-top-btn
 jawis.pl,stalko.net.pl,techrol.com,webreklama.pl##.scrollDown
 jaworzynka.info,polskiobserwator.de,webniusy.com##.g1-back-to-top
-jelenia.tv,kostes.eu,krasiczyn.info,pastebin.com,proveg.com,serwis-zamkow.com,szklomal.eu##.cd-top
 journals.viamedica.pl##.Back_To_Top_Button
 juventus-academy.rzeszow.pl###avatar-go-to-top
 kaercher.com##.fg-totop
@@ -4006,11 +4008,11 @@ wydawnictwoliteratura.pl##.hmztop
 wykop.pl##.big.button
 wylecz.to##.btn-top-page
 xiaomi.eu##.button--scroll
-xn--pandorabiuteria-qkd.pl###w2b-StoTop
 yara.pl###backToTopButton
 zabrzewsercuslaska.pl###zozo-backtotop
 zalando.pl##.backToTopButton
 zalecane.pl##.g1-teaser
+zbudujforme.com.pl##.cmsmasters_theme_icon_slide_top
 zdrowie.pap.pl##.show.m13
 zdrowie.pap.pl#?#section ~ div:-abp-has( > svg[title="Do góry"])
 ziemkiewicz.info##.back-to-start
@@ -4951,6 +4953,7 @@ abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komor
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[data-st-area="st-header-darkmode"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##.backToWp, .btn__back-to-wp, .footer-back-link, .wp-pl-redirect
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##.back_bar
 afgcomputers.pl###menu3bar
 aftermarket.pl###scroll-left
 agdlab.pl,ekstraklasa.tv,esportmania.pl,forbes.pl,ofeminin.pl,softonet.pl,verdykt.pl###nitro-block
@@ -4983,6 +4986,7 @@ angelsadvertising.pl###qLoverlay
 animeon.pl##.alert-info
 anna-urbanska.pl##.amadeus_recent_posts_widget
 antykwariatlibra.pl##.guy
+antyradio.pl,chillizet.pl,meloradio.pl,radiozet.pl##.back-to-home
 antyweb.pl##header.header ~ div.wrapper > div[data-fetch-key*="PostProxy"] > div:not([id]):not([class]) > div.pb-12 ~ div.pb-12
 apkpure.com###ad-aegon-side
 aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
@@ -6042,7 +6046,6 @@ fachowyelektryk.pl##.moduletable_najnowszy_numer
 fachowyinstalator.pl#?#.td-pb-span4.vc_column_container.wpb_column.vc_column > .wpb_wrapper:-abp-has(h2:-abp-contains(/^Zamów Prenumeratę$/))
 farmacja.pl###home-module-sklep
 farmer.pl#?#body > div[class*="box"] > div:-abp-has( > .left > div > div > h2 > a:-abp-contains(Miesięcznik Farmer))
-focus.pl##.carousel-inner
 focus.pl##.content > div.row:nth-of-type(4)
 forbes.pl##.bottomBar iframe[src*="buy.tinypass.com/"]
 forumakademickie.pl###miesieczniki
