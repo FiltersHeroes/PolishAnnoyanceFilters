@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OVnMdgKDCAsmIbYfd9Vmrw
+! Checksum: r6DOFdEUcKW8wkLsq7w/6w
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 01 Aug 2021, 12:08 UTC+02
-! Version: 2021.8.1.0
+! Last modified: Mon, 02 Aug 2021, 12:08 UTC+02
+! Version: 2021.8.2.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 01 sie 2021, 12:08 UTC+02
+! Aktualizacja: pon, 02 sie 2021, 12:08 UTC+02
 !
 !
 !
@@ -401,6 +401,8 @@ ipbilawa.com.pl###active-popup
 ipbilawa.com.pl#?##popup-container:-abp-has(img[src*="popup_2020_v"])
 irebu.pl###POPUP-EXIT-dialog, #POPUP-overlay
 isbnews.pl###cover
+itreseller.com.pl#?#.spu-bg:-abp-has( ~ .spu-box a[href*="linkedin.com/"])
+itreseller.com.pl#?#.spu-box:-abp-has(a[href*="linkedin.com/"])
 jackjones.com##.customer-club-popup__overlay
 jajco.pl###popupDiv
 jakbudowac.pl,twojogrodek.pl##.exit-popup.dialog, .overlay
