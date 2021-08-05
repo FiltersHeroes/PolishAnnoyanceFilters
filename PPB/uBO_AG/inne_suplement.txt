@@ -1,3 +1,5 @@
+!mobileclick.pl##body[class*="post"] #content ~ #content:remove()
+
 ~animezone.pl,berlitz.com,naklo.fm,pl##.grecaptcha-badge:style(visibility: hidden !important;)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##a[data-st-area="covid-button"][href*="koronawirus.abczdrowie.pl/"]:upward(3)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href*="wlacz-tryb-ciemny-"]:upward(2)
