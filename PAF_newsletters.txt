@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HRcqm2qhK3zoNArKSo1J9A
+! Checksum: EQopZEbTDAUP26BrPSYS+A
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 06 Aug 2021, 12:08 UTC+02
-! Version: 2021.8.6.0
+! Last modified: Sun, 08 Aug 2021, 20:08 UTC+02
+! Version: 2021.8.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pią, 06 sie 2021, 12:08 UTC+02
+! Aktualizacja: nie, 08 sie 2021, 20:08 UTC+02
 !
 !
 !
@@ -91,6 +91,8 @@ aleokulary.com###f_newsletters
 alerabat.com##.m-panel--newsletter
 alerabat.com##.widget--newsletter.widget
 alesoczewki.com##.newsletter_sec
+ale.pl###newsletter_block_top
+ale.pl,komputerymarkowe.pl,listwy-dekoracyjne.pl,mamatu.pl,piernikowysklep.pl###newsletter_block_footer
 alfasan.pl###nws
 aliexpress.com###alert-subscribe-form
 aligoo.pl###footer > .col-sm-6
@@ -603,7 +605,7 @@ fizjoplaner.pl##.ft_nl
 flies-stepbystep.com###widget-7
 floribunda.pl###footer div.item:nth-of-type(4)
 flovery.pl###footgroup-newsletter
-flowday.pl,knf.gov.pl##.newsletter-bar
+flowday.pl,knf.gov.pl,longterm.pl##.newsletter-bar
 focus.pl#?#.content-content.col-lg-9.col-md-8.col-sm-12 > div > div:-abp-has( > a[href*="newsletter"])
 fokusfashion.com##form > input:nth-of-type(2), #menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 folkstar.pl##.newsletter-bottom
@@ -831,7 +833,6 @@ kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER) + div.StrT
 kochanamama.pl##.pmpIMail
 kolczewska.pl##.ulp-tab-right-middle.ulp-tab > .ulp-tab-content
 komfort.pl##.ComponentNewsletterIcon
-komputerymarkowe.pl,listwy-dekoracyjne.pl,mamatu.pl,piernikowysklep.pl###newsletter_block_footer
 konfederacjalewiatan.pl###bazo_form_popup0
 konstantinkanin.com###mailchimp-top-bar
 kontaktowe.pl###nbj
@@ -905,6 +906,7 @@ logitech.com##.email-subscription
 lokalnatelewizja.pl,supertydzien.pl##.sm-text-center.mb15.col-sm-6:nth-of-type(1)
 lomza.pl###s-blok3 > form, #s-blok3 > h4:nth-of-type(2)
 longevitas.pl##.left.sign-up-home
+longterm.pl##.footer-top > .container > .row > div[class]:nth-of-type(3) > div.widget:nth-of-type(1)
 lookfantastic.pl##.eastendFooter_signup
 lotaro.pl,luszczyce.pl,polskiemedia.org###custom_html-4
 lp.al.to,lp.x-kom.pl##.newsletter > div > div:nth-child(-n+2)
@@ -1584,6 +1586,7 @@ terrymoda.pl##footer > .grid-container > div[class]:nth-of-type(2)
 tesco.pl##.leaflets_subscribe_itesco
 tfkable.com##.newsletterBox
 tge.pl##footer .card > .card-block
+tge.pl##.tge-newsletter-form
 thermano.eu##.footer-box--wide
 thomas-krenn.com##.tk-footer-newsletter
 thunderbird.net#?##section.flex.flex-col > aside.flex.flex-col:nth-of-type(2):-abp-has( > #mc-embedded-subscribe-form)
@@ -1792,6 +1795,7 @@ zaadoptujrzeke.pl#?#h3.widgettitle:-abp-has( + .newsletter)
 zadowolenie.pl##.b-adZone_wide:nth-of-type(7)
 zadowolenie.pl##.image_widget.widget > .js-imageWidget
 zakamarki.pl###newsletter-validate-detail
+zakoplan.pl##.footer-row > div.columns:nth-of-type(4)
 zakupydladziecka.pl##.modNewsltter
 zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 zakupy.auchan.pl##._nl_wrapper
