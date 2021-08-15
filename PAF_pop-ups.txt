@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: VdkxVQt6aw5wKOT3kDLZoQ
+! Checksum: z9RrNPDH4btcZV9/bt+QZg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 08 Aug 2021, 20:08 UTC+02
-! Version: 2021.8.8.0
+! Last modified: Sun, 15 Aug 2021, 20:08 UTC+02
+! Version: 2021.8.15.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 08 sie 2021, 20:08 UTC+02
+! Aktualizacja: nie, 15 sie 2021, 20:08 UTC+02
 !
 !
 !
@@ -61,6 +61,7 @@ airport.com.pl,chinskieprzepisy.pl,d24h.pl,holiday.aquila.pl,pl.canalplus.com,ro
 akademia.nask.pl###newsletterall
 akademos.pl###myModal, .reveal-modal-bg
 akson.pl###contactPopup
+akson.pl###eventPopup
 akwarysta.eu,dobrewychowanie.pl,pinka.pl###colorbox, #cboxOverlay
 aledobre.pl,mniammniam.com###universal-popup-wrapper
 aleleki.pl#?##fancybox-wrap:-abp-has(a[href="https://www.powerbiotic.pl/covid-19/"])
@@ -100,6 +101,7 @@ atrakcje.com.pl,blog.atrakcjenaimprezy.pl###boxes
 atrexpress.com.pl,ch24.pl###popup-box, #list-builder
 auchandirect.pl#?##rootPopin:-abp-has(#modal__commercial > a.commercial__background > img.commercial__background[src^="/images/"])
 audioforte.com.pl##.christmas-popup
+audiomed.com.pl###popuphere
 audio.com.pl##.waitbox
 audio.com.pl##.big-newsletter
 audycje.tokfm.pl###gp--popup
@@ -455,6 +457,7 @@ krakweb.pl###callpage_box
 kresy.pl##.ls-popup
 krosno.com.pl###mteo_popup_content, #mteo_popup_bg_layer
 kruger.pl###wmpci-popup-wrp
+ksiegarniarubikon.pl#?#.config-messages:-abp-contains(rabat)
 ktociewyleczy.pl##.box-wait.find-therapist
 ktociewyleczy.pl##.fb-popup
 kulturaliberalna.pl##.popup-600nr, .popup-600nr-bg
