@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: KTMYA+SUL2DtDOJv7FtB0A
+! Checksum: TrVJWs5Tc0g2wd+s633PgA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 15 Aug 2021, 16:08 UTC+02
-! Version: 2021.8.15.0
+! Last modified: Sun, 15 Aug 2021, 20:08 UTC+02
+! Version: 2021.8.15.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 15 sie 2021, 16:08 UTC+02
+! Aktualizacja: nie, 15 sie 2021, 20:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -367,6 +367,7 @@ crolove.pl###text-28
 cryptodemy.pl##.optin-monster-api.widget.td_block_template_1
 cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
 crystal-albums.pl,monikahonory.pl##.ml-subscribe-form.ml-form-embedContainer
+csim.pl,travelplanet.pl##.f-newsletter
 ctek-ladowarki.pl###bestnewsletterbg
 ctpartners.pl##.ftresc2
 cudmoda.pl##.ps-emailsubscription-block > :nth-child(-n+2)
@@ -1532,6 +1533,7 @@ swiatkoszy.eu##.footer-newsletter__left
 swiatoze.pl##.post-subscribe
 swiatoze.pl##.single-post-newsletter.row
 swiatwakacji.pl#?##right_column > ul > li:-abp-has(span[title="Newsletter"], #NewsletterDisplayForm)
+swissfon.pl##.last.footer-widget
 symbiosis.com.pl##.m-footer_newsletterContainer
 syngenta.pl#?#.cta-teaser__wrapper:-abp-has(a[href*="/newsletter"])
 sypien.pl###pum-4229
@@ -1609,7 +1611,6 @@ tp-link.com##.tp-follow-subscribe
 traktorpool.pl#?#.layout-content > .md\:block.hidden.app\:hidden:-abp-has(div:-abp-contains(e-mailową))
 traktor.com.pl##.footer-top4.col-md-3.col-sm-6.col-12
 travelplanet.pl##.col-footer-newsletter-block
-travelplanet.pl##.f-newsletter
 trec.pl##.b-footer-top__newsletter > :nth-child(-n+3)
 triny.pl##.newsletter-sub-box
 trivago.pl###js-newsletter-registration
@@ -1995,6 +1996,7 @@ airport.com.pl,chinskieprzepisy.pl,d24h.pl,holiday.aquila.pl,pl.canalplus.com,ro
 akademia.nask.pl###newsletterall
 akademos.pl###myModal, .reveal-modal-bg
 akson.pl###contactPopup
+akson.pl###eventPopup
 akwarysta.eu,dobrewychowanie.pl,pinka.pl###colorbox, #cboxOverlay
 aledobre.pl,mniammniam.com###universal-popup-wrapper
 aleleki.pl#?##fancybox-wrap:-abp-has(a[href="https://www.powerbiotic.pl/covid-19/"])
@@ -2034,6 +2036,7 @@ atrakcje.com.pl,blog.atrakcjenaimprezy.pl###boxes
 atrexpress.com.pl,ch24.pl###popup-box, #list-builder
 auchandirect.pl#?##rootPopin:-abp-has(#modal__commercial > a.commercial__background > img.commercial__background[src^="/images/"])
 audioforte.com.pl##.christmas-popup
+audiomed.com.pl###popuphere
 audio.com.pl##.waitbox
 audio.com.pl##.big-newsletter
 audycje.tokfm.pl###gp--popup
@@ -2389,6 +2392,7 @@ krakweb.pl###callpage_box
 kresy.pl##.ls-popup
 krosno.com.pl###mteo_popup_content, #mteo_popup_bg_layer
 kruger.pl###wmpci-popup-wrp
+ksiegarniarubikon.pl#?#.config-messages:-abp-contains(rabat)
 ktociewyleczy.pl##.box-wait.find-therapist
 ktociewyleczy.pl##.fb-popup
 kulturaliberalna.pl##.popup-600nr, .popup-600nr-bg
@@ -3299,6 +3303,7 @@ anton-paar.com,brand.ceo,gregsoft.com.pl,ore.edu.pl,salami.pl,sokolow.pl,zgruntu
 antrax.com.pl###nawTop
 antykikoneser.pl,lajkifb.pl,likefb.pl###jas-backtop
 antywirus.biz,bonturystyczny.polska.travel,gino-rossi.com,luba-group.com,motopoznan.com,nesperta.com,nysa.eu,olgasmile.com,restauracja.online,softelnet.com,urbanforms.org,walerystasiak.com,wnt.com,zamawiaj.online##.scroll-top
+aparaty-sluchowe.info,komputeria.eu###totop
 apollo.pl##.tt-scroll-up
 apo-discounter.pl###page_up_button
 aptekagemini.pl,douglas.pl##.scroll-to-top-button
@@ -3641,7 +3646,6 @@ knorr.pl,lipton.com##.back-to-top-cta
 kod-rabatowy.pl##.go_to_top
 komed.pl###el-top
 komornik-marchaj.pl##.rstpl-go-top
-komputeria.eu###totop
 komputronik.pl##.rollup
 kosmetyczna-hedonistka.blogspot.com##.totop-arrow
 krakow.pl###footer-scroll-up
@@ -4169,6 +4173,7 @@ pl##.w-toplink
 pl##.z-navigation-footer_backToTop
 pl,~studioatrium.pl###back-to-top
 ##button[aria-label="Przejdź do góry"]
+##.powrot_do_gory
 /MrScrollUp.js
 /wp-content/plugins/dynamic-to-top/js/dynamic.to.top.min.js
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
@@ -5050,7 +5055,7 @@ bankier.pl###pit2017_explorer, #boxInsFlyfooter
 bank-wbs.pl###wrapperSectionMainPagePilneAktualnosciBox
 bank-wbs.pl###wrapperSectionStickyIcon
 bartekwpodrozy.pl##.cs_floating-nav-next-prev-div.ct-div-block
-begio.pl,mnews.com.pl##.penci-rlt-popup
+begio.pl,mnews.com.pl,nakolei.pl,radiopogoda.pl##.penci-rlt-popup
 bentawet.pl,sklep.rowmot.eu##.kac-sm-allegro
 beskidlive.pl,estrzelce.pl,finansovo.pl,rekinysukcesu.pl##div[id^="dj-suggester"]
 beskidzka24.pl##.page-preloader-cover
@@ -5643,7 +5648,6 @@ p-programowanie.pl##progress
 radio17.pl##.android-app-dialog
 radiobonton.pl##.hidden-xs.offbox-position-right.radio-play.offbox-radio
 radiopogoda.pl##.gra-pobierz_aplikacje
-radiopogoda.pl##.penci-rltpopup-left.penci-rlt-popup
 radomsko.pl###media > ul > li > .tooltipMedia
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(-n+2)
 rallypl.com,sledcza24.tv###check-also-box
