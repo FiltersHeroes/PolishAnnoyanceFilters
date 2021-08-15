@@ -129,6 +129,8 @@ elearning-fusion.pl##.hustle-popup:has(h2:has-text(/^Bądź na bieżąco!$/))
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
 epione.pl##.fancybox-lock body:style(overflow: auto !important;)
 epione.pl,fifishop.pl,gromada.pl,happy-surfer.com,mspdion.org.pl,swiece-zaplonowe.pl##.fancybox-margin:style(margin-right: 0 !important;)
+erli.pl##body > div:not([id]):not([class]):has(div[click-tracking="pop-up 100 na start"])
+erli.pl##body[class]:style(overflow: auto !important;)
 euro.com.pl,oleole.pl##.remodal-overlay:has( ~ .remodal-wrapper[class*="open"]:has( > .remodal span[class*="heading"]:has-text(/NEWSLETTER/i)))
 euro.com.pl,oleole.pl##.remodal-wrapper[class*="open"]:has( > .remodal span[class*="heading"]:has-text(/NEWSLETTER/i))
 euro.com.pl,stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important;)
