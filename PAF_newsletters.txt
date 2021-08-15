@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: EQopZEbTDAUP26BrPSYS+A
+! Checksum: pj68KOtgpVdCxSkEcyugxg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 08 Aug 2021, 20:08 UTC+02
-! Version: 2021.8.8.0
+! Last modified: Sun, 15 Aug 2021, 16:08 UTC+02
+! Version: 2021.8.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 08 sie 2021, 20:08 UTC+02
+! Aktualizacja: nie, 15 sie 2021, 16:08 UTC+02
 !
 !
 !
@@ -45,6 +45,7 @@
 abc-zabezpieczen.pl###sugester-chat
 abmax.eu,shopsisters.eu###newsletter_block_left
 accu-chek.pl#?#.bg-gradient-combo.awecontent-column.awe-col:-abp-has(.keep-in-touch)
+activejet.pl##.newsletterBanner
 active.fibrain.pl##.newsletterWithFacebook
 active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
 ac.com.pl#?#.footerBar:-abp-has(.form-horizontal > .form-group)
@@ -1424,6 +1425,7 @@ sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
 sklep.audiopunkt.com.pl###sec-newsletter > .banertab
 sklep.autopart.pl###newsletterPanel.abs-newsletter-panel
 sklep.barcikowscy.eu##.blocknewsletter
+sklep.benedetto.com.pl##.NewsletterSubscribeFormPopupContainer, .NewsletterSubscribeFormOverlay
 sklep.bispol.pl##.footer-item.i4
 sklep.carinii.com.pl##.footer > .email-signup
 sklep.chomik.pl#?##section_custom > .rounded.container:-abp-has(#subReqForm)
