@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 48q3AkDi4mkwyyk4XaYYzw
+! Checksum: 4UJMzRks17cbaPYzZFYl7Q
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 15 Aug 2021, 20:08 UTC+02
-! Version: 2021.8.15.1
+! Last modified: Wed, 18 Aug 2021, 01:14 UTC+02
+! Version: 2021.8.18.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 15 sie 2021, 20:08 UTC+02
+! Aktualizacja: śro, 18 sie 2021, 01:14 UTC+02
 !
 !
 !
@@ -138,7 +138,7 @@ blog.oleole.pl##.mp_popup
 blog.siegnijpozdrowie.org##.limk-widget
 bluecity.pl##.js-loader.loader
 blueskypolska.pl###iai_mraty
-bodyshock.pro###___ratingbadge_0
+bodyshock.pro##div[id^="___ratingbadge_"]
 bodyshock.pro,e-dewocjonalia.eu,trainingshowroom.com,wentsystem.com,zielonysklep.com###socialproof-container
 bonavita.pl###open-jumplist
 bonnum.pl##.xi-rht
@@ -555,7 +555,7 @@ motofocus.pl###ArticleInSideBox
 motormag.pl##.fa-th-large, .prev-arrow, .next-arrow
 moto.lca.pl###myBtnOglo
 moto.pl###footerBack
-moviesroom.pl##.widget_polls-widget.widget
+moviesroom.pl,slaskiesiemianowice.pl,xgp.pl##.widget_polls-widget
 mpec.olsztyn.pl###bip, #widget-btn
 mubi.pl##.back-to-calculated
 multikino.pl###qb
@@ -899,7 +899,6 @@ wyborcza.biz##.mod_swimmer
 wykop.pl##.text > p > cite:empty
 wylecz.to##.recommendedSideBox
 wysokieobcasy.pl##.bunny, .bunny-hp
-xgp.pl##.widget_polls-widget.widget.section
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
 youtube-nocookie.com,youtube.com##.ytp-ce-element
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
@@ -979,13 +978,14 @@ z-hotel.com###repuso_floating
 !
 !
 ! Ogólne reguły
+~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
-~pl###___ratingbadge_0:lang(pl)
 ~pl##.mraty-widget:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 pl##.bilet
 pl##.llSlideButton
 pl##.polecamyBox
+pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
 pl###ClPanel
 pl###SliderPrzycisk
@@ -1005,7 +1005,6 @@ pl###upprev_box
 pl###userwayAccessibilityIcon
 pl###widget-allegro
 pl###widget_easytoread
-pl###___ratingbadge_0
 pl##.a11y-toolbar-list
 pl##.floating-yt-player
 pl##.header-back-link
