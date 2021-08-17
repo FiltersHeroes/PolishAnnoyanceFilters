@@ -1,10 +1,11 @@
-~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
+~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~pl##.mraty-widget:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 pl##.bilet
 pl##.llSlideButton
 pl##.polecamyBox
+pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
 pl###ClPanel
 pl###SliderPrzycisk
@@ -24,7 +25,6 @@ pl###upprev_box
 pl###userwayAccessibilityIcon
 pl###widget-allegro
 pl###widget_easytoread
-pl##div[id^="___ratingbadge_"]
 pl##.a11y-toolbar-list
 pl##.floating-yt-player
 pl##.header-back-link
