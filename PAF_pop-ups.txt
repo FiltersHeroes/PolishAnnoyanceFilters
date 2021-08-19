@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: O3ukr/11w+VKQW1QqSo77A
+! Checksum: fpMNpw2RBIcV9WWl5IkciA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 18 Aug 2021, 01:14 UTC+02
-! Version: 2021.8.18.1
+! Last modified: Thu, 19 Aug 2021, 12:08 UTC+02
+! Version: 2021.8.19.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 18 sie 2021, 01:14 UTC+02
+! Aktualizacja: czw, 19 sie 2021, 12:08 UTC+02
 !
 !
 !
@@ -899,6 +899,7 @@ www.auto8.pl##.cover
 www.chcemybycrodzicami.pl###a-welcome
 www.dobreprogramy.pl###exitPopupContainer
 www.kei.pl##div[id^="modal"][style].modal
+www.mbank.pl#?#.snrs-modal-wrapper:-abp-has(div[class*="exit-popup-campaign"])
 www.motorola.com##.ReactModalPortal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
 wyborcza.pl##.mod_ddbox
