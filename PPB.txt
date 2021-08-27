@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: rxwE/r+X5qk0085nTJdmdw
+! Checksum: 1UJeQ3TwwFmLDnF4kHE8/g
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 23 Aug 2021, 12:08 UTC+02
-! Version: 2021.8.23.0
+! Last modified: Fri, 27 Aug 2021, 12:08 UTC+02
+! Version: 2021.8.27.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: pon, 23 sie 2021, 12:08 UTC+02
+! Aktualizacja: pią, 27 sie 2021, 12:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2897,6 +2897,8 @@ zszywka.pl###inv-request-popup
 /js/popup.js$domain=grawitacyjny.pl|meblohaus.pl|mediaexpert.pl|multikurs.pl|slimebox.pl
 /media/system/js/modal.js$domain=gminamoszczenica.eu|nowawrzesnia.pl|perfectdating.pl
 /plugins/easy-facebook-likebox/*$domain=tvkrosno.pl
+/pum-site-scripts-$domain=topplant.pl
+/pum-site-scripts.$domain=topplant.pl
 /wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
 /wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js$domain=jednoslad.pl
