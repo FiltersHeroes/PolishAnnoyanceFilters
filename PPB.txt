@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ut/2gNf7m+5U6MYuAolcng
+! Checksum: jY3HOpCboqnS72a3Qrri3A
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 28 Aug 2021, 12:08 UTC+02
-! Version: 2021.8.28.0
+! Last modified: Sun, 29 Aug 2021, 12:08 UTC+02
+! Version: 2021.8.29.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: sob, 28 sie 2021, 12:08 UTC+02
+! Aktualizacja: nie, 29 sie 2021, 12:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2045,6 +2045,8 @@ audiomed.com.pl###popuphere
 audio.com.pl##.waitbox
 audio.com.pl##.big-newsletter
 audycje.tokfm.pl###gp--popup
+autodoc.pl##.popup-leaving-users
+autodoc.pl#?#.overlay:-abp-has( ~ .popup-leaving-users)
 autokult.pl,fitness.wp.pl,fotoblogia.pl,komorkomania.pl,medycyna24.pl###exit-intent-modal
 automotiveceeday.eu,pracodawcagodnyzaufania.pl###rstbox_3
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.exitBox
@@ -5301,7 +5303,7 @@ gdanskstrefa.com,raportrolny.pl###related-posts-wrapper-flyout
 gdansk.pl##.nast.bat2
 gdansk.pl##.pop.bat2
 geek.justjoin.it##ul[id^="offers-list"]
-geek.justjoin.it,oscarrak.pl###slide-in-box
+geek.justjoin.it,menworld.pl,oscarrak.pl,zxu.pl###slide-in-box
 gerda.pl##.swimmer
 germany.travel##.popover-country
 getinbank.pl##.quickMenuRow.row
@@ -5477,7 +5479,6 @@ medme.pl##.back-button
 medseven.eu###contactable_inner
 medseven.eu,sklep.rowmot.eu##.kac-sm-gmap
 melbo.pl###tws_i_2
-menworld.pl###slide-in-box.slide-in-box
 meritum.gda.pl###smallCart
 merkurymarket.pl###edrone--main--wl--container
 meskiegacie.pl###counter_holder_top.counter_container[style^="position: fixed;"]
