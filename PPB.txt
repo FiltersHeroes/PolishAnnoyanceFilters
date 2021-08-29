@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jY3HOpCboqnS72a3Qrri3A
+! Checksum: pfiTonKaDJ9CTDGsVgG9kw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 29 Aug 2021, 12:08 UTC+02
-! Version: 2021.8.29.0
+! Last modified: Sun, 29 Aug 2021, 20:08 UTC+02
+! Version: 2021.8.29.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 29 sie 2021, 12:08 UTC+02
+! Aktualizacja: nie, 29 sie 2021, 20:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -49,7 +49,6 @@ activejet.pl##.newsletterBanner
 active.fibrain.pl##.newsletterWithFacebook
 active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
 ac.com.pl#?#.footerBar:-abp-has(.form-horizontal > .form-group)
-adamgolub.pl,an-da.pl,mamopracuj.pl##.newsletters
 adapter.pl##.main-top-wrapper > .container > h2
 addnature.pl,bikester.pl##.newsletterModule
 addons.prestashop.com##.newsletter-subscribe
@@ -928,6 +927,7 @@ majsterkowo.pl,moj-kawalek-podlogi.pl,spirulina.pl,tato.net,techformator.pl,zato
 makita.sklep.pl##.ModulNewsletterDol
 mamaplus.pl###mc_embed_signup
 mambiznes.pl,sputnikfestiwal.pl##.newsletter-area
+mamopracuj.pl##.newsletters
 mamotoja.pl##.nlt-footer
 mamstartup.pl##.hb-right.submitClearInput
 managerka.com###zapiszSieNaNewsletter
@@ -1596,6 +1596,8 @@ tfkable.com##.newsletterBox
 tge.pl##footer .card > .card-block
 tge.pl##.tge-newsletter-form
 thermano.eu##.footer-box--wide
+thermomix.vorwerk.pl##footer span:-abp-has( ~ .footer__newsletterform)
+thermomix.vorwerk.pl##.footer__newsletterform
 thomas-krenn.com##.tk-footer-newsletter
 thunderbird.net#?##section.flex.flex-col > aside.flex.flex-col:nth-of-type(2):-abp-has( > #mc-embedded-subscribe-form)
 tickets.pl##.subscribe > .subscribe__block
@@ -2481,6 +2483,7 @@ metal-bud.eu##.banner-b2b
 metin2list.pl###news_popup
 mgprojekt.com.pl##.orlando-whiteboard.orlando-background, .jupiter-entrance.jupiter-background.optin-monster-saas-overlay
 miastonowydwor.pl###js__popupContainer
+microsoft.com##.newsletter-pop-up
 mierzeja.com###banner-popup
 mieszkanie.mitula.com.pl###popupSimilares
 mieszkanie.mitula.com.pl#?#body > script:-abp-contains(alertSectionId = 5) ~ #popupAlert
@@ -2889,6 +2892,7 @@ zszywka.pl###inv-request-popup
 !youtube.com##body > .opened[opened][style^="z-index"]
 !youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href^="https://support.google.com/youtube/?p=sign_in"])
 !zuch.media###spu-10366, #spu-bg-10366
+!/magnific/magnific-popup.min.js
 !/wp-content/plugins/boxzilla/assets/js/script.min.js$domain=ciekawe.org|gdanskstrefa.com
 !||youtube.com/get_video_info?*video_id=3mUaADvAK9E*eurl=*intermarche.pl*c=WEB_EMBEDDED_PLAYER$xmlhttprequest,domain=www.youtube.com
 !||zaradnyfinansowo.pl/*/wp-content/plugins/wp-subscribe-pro/assets/js/magnificpopup-*.js
@@ -2930,7 +2934,6 @@ zszywka.pl###inv-request-popup
 ||czarymary.pl/NewsletterPopup
 ||czerwionka-leszczyny.pl/mod/banery/top_baner_ciasteczko$xmlhttprequest
 ||daily.pl/modal/get/sticker-text
-||dobrywybor.eu/wp-content/themes/dobrywybor/assets/vendors/magnific/magnific-popup.min.js
 ||dominospizza.pl/js-libraries/bioep.min.js
 ||doradcasmaku.pl/index/get-popup$xmlhttprequest
 ||duzekubki.pl/wp-content/plugins/woocommerce-mailchimp-discount/assets/js/jquery.magnific-popup.min.js
@@ -3238,7 +3241,7 @@ pl##.videoPlayer.is--persistent:not(.ended)
 !
 ! Strzałki
 2x45.info,agro-hurt.eu,asus.com,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,sciezkimojegoswiata.com###scrollUp
-3dom.pro,adamgolub.pl,adihome.pl,agrosam.eu,alget.pl,an-da.pl,antbs.co.uk,domator24.com,e-rbud.pl,ettoi.pl,greenhousedevelopment.pl,harposoftware.com,laroxy.com,mojwzrok.pl,optes.pl,skitenis.pl,slowka.pl,taniesoczewki.pl,virgobooks.pl##.top_button
+3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,domator24.com,e-rbud.pl,ettoi.pl,greenhousedevelopment.pl,harposoftware.com,laroxy.com,mojwzrok.pl,optes.pl,skitenis.pl,slowka.pl,taniesoczewki.pl,virgobooks.pl##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,pasmanteria.eu,poid.eu,stolmot.com###to-top
 3i-store.com,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,domkorkowy.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,konin24.info,krzywcza.eu,laswnas.com,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
 4f.com.pl,adriatech.pl,agrojumal.com.pl,android.com.pl,answear.com,blaugrana.pl,cyfrowarepublika.pl,dachygt.pl,drmax.pl,fenii.pl,karchercenter-ocean.pl,karnet.krakow.pl,myjki.com,myjki.eu,ocean-karcher.pl,oponeo.pl,pracuj.pl,radiopoznan.fm,sagito.pl,sandraspa.pl,sport-shop.pl###scrollTop
@@ -3962,6 +3965,7 @@ teamviewer.com###back_to_top_button
 telepolis.pl,tlp.is##.footer-top
 teletorium.pl###gototopBtn
 termodomplus.pl##.top-arrow
+thermomix.vorwerk.pl,worldoftanks.eu##.button-top
 the-first.pl###side_social_icons > ul > li:nth-of-type(1)
 timemaster24.pl,vangraaf.com##.scroll-up-button
 tme.eu##.o-arrow-up__wrapper
@@ -4023,7 +4027,6 @@ wit.edu.pl###fixed-totop
 wojtki.eu##.mypresta_scrollup
 wolczanka.pl##.btn__scroll_to_top
 wolt.com##button[class^="ScrollToTop__"]
-worldoftanks.eu##.button-top
 wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 wrzesnia.powiat.pl###btn-up
 wsip.pl##.jsBackToTop
