@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: kFmlFQjNPoXHTmhMVlU/+w
+! Checksum: MyhnVayi9/+JfmJjJ1cZRg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 28 Aug 2021, 12:08 UTC+02
-! Version: 2021.8.28.0
+! Last modified: Sun, 29 Aug 2021, 12:08 UTC+02
+! Version: 2021.8.29.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: sob, 28 sie 2021, 12:08 UTC+02
+! Aktualizacja: nie, 29 sie 2021, 12:08 UTC+02
 !
 !
 !
@@ -105,6 +105,8 @@ audiomed.com.pl###popuphere
 audio.com.pl##.waitbox
 audio.com.pl##.big-newsletter
 audycje.tokfm.pl###gp--popup
+autodoc.pl##.popup-leaving-users
+autodoc.pl#?#.overlay:-abp-has( ~ .popup-leaving-users)
 autokult.pl,fitness.wp.pl,fotoblogia.pl,komorkomania.pl,medycyna24.pl###exit-intent-modal
 automotiveceeday.eu,pracodawcagodnyzaufania.pl###rstbox_3
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.exitBox
