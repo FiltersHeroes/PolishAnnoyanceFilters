@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MyhnVayi9/+JfmJjJ1cZRg
+! Checksum: KGkbHr1II+jOnkAo4cK7NQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 29 Aug 2021, 12:08 UTC+02
-! Version: 2021.8.29.0
+! Last modified: Sun, 29 Aug 2021, 20:08 UTC+02
+! Version: 2021.8.29.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 29 sie 2021, 12:08 UTC+02
+! Aktualizacja: nie, 29 sie 2021, 20:08 UTC+02
 !
 !
 !
@@ -541,6 +541,7 @@ metal-bud.eu##.banner-b2b
 metin2list.pl###news_popup
 mgprojekt.com.pl##.orlando-whiteboard.orlando-background, .jupiter-entrance.jupiter-background.optin-monster-saas-overlay
 miastonowydwor.pl###js__popupContainer
+microsoft.com##.newsletter-pop-up
 mierzeja.com###banner-popup
 mieszkanie.mitula.com.pl###popupSimilares
 mieszkanie.mitula.com.pl#?#body > script:-abp-contains(alertSectionId = 5) ~ #popupAlert
@@ -949,6 +950,7 @@ zszywka.pl###inv-request-popup
 !youtube.com##body > .opened[opened][style^="z-index"]
 !youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href^="https://support.google.com/youtube/?p=sign_in"])
 !zuch.media###spu-10366, #spu-bg-10366
+!/magnific/magnific-popup.min.js
 !/wp-content/plugins/boxzilla/assets/js/script.min.js$domain=ciekawe.org|gdanskstrefa.com
 !||youtube.com/get_video_info?*video_id=3mUaADvAK9E*eurl=*intermarche.pl*c=WEB_EMBEDDED_PLAYER$xmlhttprequest,domain=www.youtube.com
 !||zaradnyfinansowo.pl/*/wp-content/plugins/wp-subscribe-pro/assets/js/magnificpopup-*.js
@@ -990,7 +992,6 @@ zszywka.pl###inv-request-popup
 ||czarymary.pl/NewsletterPopup
 ||czerwionka-leszczyny.pl/mod/banery/top_baner_ciasteczko$xmlhttprequest
 ||daily.pl/modal/get/sticker-text
-||dobrywybor.eu/wp-content/themes/dobrywybor/assets/vendors/magnific/magnific-popup.min.js
 ||dominospizza.pl/js-libraries/bioep.min.js
 ||doradcasmaku.pl/index/get-popup$xmlhttprequest
 ||duzekubki.pl/wp-content/plugins/woocommerce-mailchimp-discount/assets/js/jquery.magnific-popup.min.js
