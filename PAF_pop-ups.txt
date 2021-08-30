@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: KGkbHr1II+jOnkAo4cK7NQ
+! Checksum: 5EapwZRI5U2BVOtpxKbmFA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 29 Aug 2021, 20:08 UTC+02
-! Version: 2021.8.29.1
+! Last modified: Mon, 30 Aug 2021, 12:08 UTC+02
+! Version: 2021.8.30.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 29 sie 2021, 20:08 UTC+02
+! Aktualizacja: pon, 30 sie 2021, 12:08 UTC+02
 !
 !
 !
@@ -593,6 +593,7 @@ niedziela.pl###ewydanieModal
 njumobile.pl##.jquery-modal
 nm.pl###newsletter-modal, .modal-backdrop
 nocowanie.pl##.fancybox-overlay-fixed.fancybox-overlay, .fancybox-type-html
+nokautbiznes.pl,nokautdom.pl,nokautdziecko.pl,nokautelektronika.pl,nokautrozrywka.pl,nokautstyl.pl,nokauttrening.pl,nokautzdrowie.pl###letter-shopping-Plugin
 nokaut.pl###letter-shopping-Plugin.letter-shopping-modal-container
 norauto.pl##.s-hPage > .mfp-bg
 norauto.pl#?#.mfp-content:-abp-has(#popupCookie)
@@ -932,11 +933,6 @@ zlotemysli.pl##._form_show._form-wrapper
 zmianywzyciu.pl###popup_facebook
 zpierwszegotloczenia.pl###popup-ad, .modal-backdrop
 zszywka.pl###inv-request-popup
-!~poczta.wp.pl,wp.pl,~www.wp.pl#?#tr[data-reactid]:not([class]):not([id]) > td[class] > div[class*=" "]:-abp-has( > div > iframe[id^="fm"][src*="freshmail.io"])
-!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"])
-!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
-!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl#?##cboxOverlay:-abp-has( + #colorbox:-abp-has(#newsletter_colorbox))
-!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl#?##colorbox:-abp-has(#newsletter_colorbox)
 !chrzescijanin.pl###spu-6691, #spu-bg-6691
 !kulturaliberalna.pl##.kl-1procent-2020-banner, .kl-1procent-2020-bg
 !kulturaliberalna.pl##.newsletter-2019, .newsletter-2019-bg
@@ -946,9 +942,6 @@ zszywka.pl###inv-request-popup
 !naszamlawa.pl###spu-bg-75900, #spu-75900
 !obcasy.pl##.spu-box, .spu-bg
 !pierwsze-kroki.com###spu-26, #spu-bg-26
-!pl.vivre.eu##.js-modal-newsletter-1
-!youtube.com##body > .opened[opened][style^="z-index"]
-!youtube.com#?#ytd-popup-container > paper-dialog.ytd-popup-container[role="dialog"]:-abp-has(a[href^="https://support.google.com/youtube/?p=sign_in"])
 !zuch.media###spu-10366, #spu-bg-10366
 !/magnific/magnific-popup.min.js
 !/wp-content/plugins/boxzilla/assets/js/script.min.js$domain=ciekawe.org|gdanskstrefa.com
