@@ -6,7 +6,6 @@ forsal.pl##+js(set, parseFloat, noopFunc)
 gamerweb.pl##.zox-video-embed-wrap .zox-vid-fixed:style(position: relative !important;)
 gotujmy.pl,ilewazy.pl,mamotoja.pl,party.pl,polki.pl,urodazycia.pl,viva.pl,wizaz.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
 gotujmy.pl,ilewazy.pl,mamotoja.pl,party.pl,polki.pl,urodazycia.pl,viva.pl,wizaz.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important;)
-sportowefakty.wp.pl###randomplayer[class*="fixed"], #randomplayer[class*="fixed"] *:style(visibility: hidden !important;)
 gotujmy.pl,party.pl,polki.pl,viva.pl,wizaz.pl##+js(aeld, scroll, d.stopPropagation)
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important;)
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
@@ -19,6 +18,7 @@ medianarodowe.com,parkiet.com,rp.pl##.component-tv__video:style(position: static
 medianarodowe.com,parkiet.com,rp.pl##.linear-tv__iframe:style(position: static !important;)
 m.interia.pl##+js(aeld, /^(?:resize|scroll)$/, floatingPlayerEventHandler)
 onet.pl,~poczta.onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important;)
+sportowefakty.wp.pl###randomplayer[class*="fixed"], #randomplayer[class*="fixed"] *:style(visibility: hidden !important;)
 store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important;)
 tokfm.pl##+js(set, gazeta_pl.Player.FloatingPlayer.floatPlayer, noopFunc)
 topagrar.pl##+js(aeld, scroll, [native code])
