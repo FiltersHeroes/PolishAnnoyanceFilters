@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3ywVnZRhZooMi2OO8soEng
+! Checksum: bkq+zacmpRyllILxyCL0Sw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 31 Aug 2021, 20:08 UTC+02
-! Version: 2021.8.31.0
+! Last modified: Mon, 06 Sep 2021, 12:08 UTC+02
+! Version: 2021.9.6.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 31 sie 2021, 20:08 UTC+02
+! Aktualizacja: pon, 06 wrz 2021, 12:08 UTC+02
 !
 !
 !
@@ -60,6 +60,7 @@ adra.pl#?#.elementor-section-wrap > .elementor-top-section:-abp-has(.form_subscr
 adwokat-gostkowski.pl###footer_news
 aeg-powertools.eu##.aeg-newsletter-subscribe
 aerowatch.pl,glycine.pl###bottom-newsletter-wrapper
+agagrzelak.pl##.ps-emailsubscription-block
 agnieszkawielobob.pl##[id^="post"] .et_bloom_form_container
 agnieszkawielobob.pl#?#.entry-content > h3:-abp-contains(Newsletter)
 agnieszkawielobob.pl#?#.entry-content > h3:-abp-contains(Newsletter) + p
@@ -233,6 +234,7 @@ bitcoin-online.pl#?#.block-title:-abp-contains(Newsletter)
 bitcoin.pl#?#.flex > #article > div:last-child:-abp-has( > div form label[for="emailAddress"])
 bithub.pl##.widget_bs-newsletter-mailchimp
 biuroprasowe.pl#?#.right-col p:nth-of-type(2) > b:-abp-contains(newsletter)
+biuroprasowe.porta.com.pl##.newsletter-home_page
 biznesalert.pl,czaszegarkow.pl,fasardi.com,iexcel.pl,ladygugu.pl,prosto.pl,revouninstaller.com,sirt.pl,sklep.granna.pl,superprezenty.pl##.subscribe
 biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
 blik.com##.newsletter-iframe
@@ -556,6 +558,7 @@ et.com.pl##.column > #be
 euh-e.edu.pl###sp-bottom3
 eura7.com,pl.malwarebytes.com###newsletter-signup
 euractiv.pl##.row > pnespwidget
+eura-tech.eu##.foo-newsletter
 eurobuty.com.pl##.section--newsletter
 eurogamer.pl###newsletter-promo
 euromat.com.pl###tws_s_100000
@@ -768,6 +771,7 @@ ip.pl###left > div:nth-of-type(11)
 ip.pl###left > div[style*="newsletter"]
 irobot.pl##.a-inputcomponent
 iwanowice.pl##.col-lg-3.col-md-4.col-sm-6.col-xs-12:nth-of-type(2)
+izba-lekarska.pl##.add-to-newsletter-button
 izigsm.pl###footer > .footMenu > .color.columnBox
 i-meble.eu,outletarenamoravia.com,willisch.pl,woblink.com###footer-newsletter
 jackjones.com##.js-customer-club__signup
