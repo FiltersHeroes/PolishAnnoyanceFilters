@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ITBpf8CcwdcVMJw0OWopbQ
+! Checksum: ZV4tF4/aC7IhcZTCdh8smg
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 02 Sep 2021, 12:08 UTC+02
-! Version: 2021.9.2.0
+! Last modified: Tue, 07 Sep 2021, 12:08 UTC+02
+! Version: 2021.9.7.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: czw, 02 wrz 2021, 12:08 UTC+02
+! Aktualizacja: wto, 07 wrz 2021, 12:08 UTC+02
 !
 !
 !
@@ -408,6 +408,7 @@ itreseller.com.pl#?#.spu-bg:-abp-has( ~ .spu-box a[href*="linkedin.com/"])
 itreseller.com.pl#?#.spu-box:-abp-has(a[href*="linkedin.com/"])
 jackjones.com##.customer-club-popup__overlay
 jajco.pl###popupDiv
+jakaoferta.pl#?#.moModal:-abp-has(form input[type="email"])
 jakbudowac.pl,twojogrodek.pl##.exit-popup.dialog, .overlay
 jakdojade.pl###container > starting-screen.ng-isolate-scope
 janssen.tv##.fancybox-wrap, .fancybox-overlay-fixed.fancybox-overlay
