@@ -6,7 +6,7 @@
         {
             "label": "Build Annoyance Lists",
             "type": "shell",
-            "command": "./scripts/HelperForVICHS.sh PAF_arrows.txt PAF_backgrounds_self-advertising_supp.txt PAF_backgrounds_self-advertising.txt PAF_contact_feedback_widgets.txt PAF_newsletters_supp.txt PAF_newsletters.txt PAF_other_elements_supp.txt PAF_other_widgets.txt PAF_pop-ups_supp.txt PAF_pop-ups.txt PAF_push_supp.txt PAF_push.txt PAF_scrolling_videos_supp.txt PAF_scrolling_videos.txt PAF_tagged_internal_links.txt PAF_supp.txt PPB.txt",
+            "command": "export VICHS_MAIN_PATH=$(pwd); ./../ScriptsPlayground/scripts/HelperForVICHS.sh PAF_arrows.txt PAF_backgrounds_self-advertising_supp.txt PAF_backgrounds_self-advertising.txt PAF_contact_feedback_widgets.txt PAF_newsletters_supp.txt PAF_newsletters.txt PAF_other_elements_supp.txt PAF_other_widgets.txt PAF_pop-ups_supp.txt PAF_pop-ups.txt PAF_push_supp.txt PAF_push.txt PAF_scrolling_videos_supp.txt PAF_scrolling_videos.txt PAF_tagged_internal_links.txt PAF_supp.txt PPB.txt",
             "group": {
                 "kind": "build",
                 "isDefault": true
