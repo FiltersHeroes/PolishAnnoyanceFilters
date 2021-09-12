@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: SWdeu7SP5I9Ej4VChpF+Cg
+! Checksum: AkP+4vQmEYJCzsWqBpkooA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 12 Sep 2021, 16:08 UTC+02
-! Version: 2021.9.12.0
+! Last modified: Sun, 12 Sep 2021, 20:08 UTC+02
+! Version: 2021.9.12.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 12 wrz 2021, 16:08 UTC+02
+! Aktualizacja: nie, 12 wrz 2021, 20:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -5872,6 +5872,7 @@ youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd
 youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[style_*="BUBBLE_HINT"][style_*="BLUE_TOOLTIP"]
 youtube.com###alert-banner.ytd-browse, #watch-header > .mealbar-promo-renderer.yt-dialog, .yt-alert-info.yt-alert-actionable.yt-alert
 youtube.com#?#paper-dialog:-abp-has(ytd-mealbar-promo-renderer)
+youtube.com#?#ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer:-abp-has(h2:-abp-contains(Zacznij wspierać ten kanał))
 youtube.com#?##contentWrapper > .ytd-popup-container:-abp-has( > .yt-tooltip-renderer)
 zadowolenie.pl##.b-bragLabel
 zapytaj.onet.pl##body > div > .bottom.onet-bar
