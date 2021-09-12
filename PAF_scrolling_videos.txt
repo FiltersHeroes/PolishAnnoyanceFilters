@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: m4+JHabvzpqpeR6DsY3WSg
+! Checksum: 17Fa7YmvO39s3FDVtYTmTg
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 05 Sep 2021, 12:08 UTC+02
-! Version: 2021.9.5.0
+! Last modified: Sun, 12 Sep 2021, 16:08 UTC+02
+! Version: 2021.9.12.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 05 wrz 2021, 12:08 UTC+02
+! Aktualizacja: nie, 12 wrz 2021, 16:08 UTC+02
 !
 !
 !
@@ -38,6 +38,7 @@ medonet.pl,onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
 medonet.pl,onet.pl,~www.onet.pl##.active.player-float-wrap > .player-float-container
 naekranie.pl#?#body > div[class][style*="position: fixed"]:-abp-has(.yt-player, video)
 nowa.tv##.floating-video
+playgwent.com##.c-big-stream__video--sticked.c-big-stream__video
 poradnikzdrowie.pl##div.sticky-container_sticky.sticky-container__wrap > video-js[id^="video-player"]
 przeambitni.pl##.mvp-vid-fixed
 punkt.media##div[id^="em"][style*="position: fixed;"]
