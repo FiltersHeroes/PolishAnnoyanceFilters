@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: YCtgjnZaXEbo2OKbwY+b3w
+! Checksum: 8hC+q/hN0ZWldKMtbrJHqQ
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 14 Sep 2021, 11:54 UTC+02
-! Version: 2021.9.14.1
+! Last modified: Wed, 15 Sep 2021, 12:08 UTC+02
+! Version: 2021.9.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: wto, 14 wrz 2021, 11:54 UTC+02
+! Aktualizacja: śro, 15 wrz 2021, 12:08 UTC+02
 !
 !
 !
@@ -246,6 +246,7 @@ blog.gdaq.pl###text-13
 blog.goeste.pl#?#.elementor-widget-wrap > .elementor-widget-heading:-abp-contains(/^Zapisz się na newsletter$/)
 blog.goeste.pl#?#.elementor-widget-wrap > .elementor-widget-heading:-abp-contains(/^Zapisz się na newsletter$/) + div
 blog.kurasinski.com##.right-col, .newsletter
+blog.lh.pl#?#article.post > .entry-content > div:-abp-has(a[href="/newsletter/"])
 blog.mozilla.org,olesnica24.com,zamek-krolewski.pl###newsletter_form
 blog.spotawheel.pl,oknarolety.com###subscribe-form
 bluecity.pl##.col-newsletter.col
