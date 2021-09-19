@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 8hC+q/hN0ZWldKMtbrJHqQ
+! Checksum: r14qqQrZznHb4fJZDRW31g
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 15 Sep 2021, 12:08 UTC+02
-! Version: 2021.9.15.0
+! Last modified: Mon, 20 Sep 2021, 00:09 UTC+02
+! Version: 2021.9.20.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: śro, 15 wrz 2021, 12:08 UTC+02
+! Aktualizacja: pon, 20 wrz 2021, 00:09 UTC+02
 !
 !
 !
@@ -483,6 +483,7 @@ drtusz.pl#?#.infoBoxContents tr:has( > td > a[href*=".com/"][target])
 drzwicallublin.pl#?#.wellcome-text:-abp-has(.contactForm)
 dts24.pl,swiatdronow.pl,wielkahistoria.pl##.widget_mailpoet_form
 dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
+dwdomel.pl#?#div[class*="sto"]:-abp-has(form input[type="email"])
 dystronet.pl##.post > #gr-form
 dzieje.pl#?#.most-popular > .m40:-abp-has( > .block-newsletter)
 dziennikprawny.pl##footer > div.container > div.row > div[class]:nth-of-type(3)
@@ -642,6 +643,7 @@ fundacjajoannyradziwill.pl###custom_html-4 .custom-html-widget.textwidget > h4.w
 fundacjawolnosci.org###email-subscription
 gajusz.org.pl###bg-koperta
 galeriakatowicka.eu##.metka
+galeriakatowicka.eu##.footer-cta__newsletter
 galeriakatowicka.eu#?#div.col-sm-2.col-xs-4:nth-of-type(4):-abp-contains(Newsletter)
 galeriakazimierz.pl###newsletterSignUp
 galerialucznik.pl###top-footer div.lucznik-top-footer-element:nth-of-type(1)
@@ -1826,6 +1828,7 @@ zarzadcy.com.pl##.menu_right > div:nth-of-type(1)
 zawady.com.pl###subscribe
 zdobadzkobiete.pl###access
 zdrowie.pap.pl##section ~ a[href="/newsletter/form"]
+zdrowie.wprost.pl##.newsletter-plugin-info
 zegarek.net##footer > .backGroundX.container-fluid > .container
 zegarkiipasja.pl###contactBoxForm
 zeropln.antyweb.pl##div > .relative.bg-grey-light
