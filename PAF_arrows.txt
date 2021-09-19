@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: OG0n5DFKAL9UrKk7KdMSmw
+! Checksum: SX4AffBKgwgRd8w9xROOUw
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Thu, 16 Sep 2021, 12:08 UTC+02
-! Version: 2021.9.16.0
+! Last modified: Mon, 20 Sep 2021, 00:09 UTC+02
+! Version: 2021.9.20.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: czw, 16 wrz 2021, 12:08 UTC+02
+! Aktualizacja: pon, 20 wrz 2021, 00:09 UTC+02
 !
 !
 ! Specyficzne reguły
@@ -199,7 +199,7 @@ centrumxp.pl##.OnTop
 centrum-marino.com,ubraniadooddania.pl###scroll-up-button
 cepik.gov.pl##.btn__scroll-top
 cewe.pl##cwc-to-top-button
-chemiawp.pl,dental.pl,lovesimple.pl,mettosport.eu,obcyjezykpolski.pl,onenet.com.pl,retailnet.pl,simplyyourself.online###ast-scroll-top
+chemiawp.pl,dental.pl,invette.pl,lovesimple.pl,mettosport.eu,obcyjezykpolski.pl,onenet.com.pl,retailnet.pl,simplyyourself.online###ast-scroll-top
 chimmo.pl###arrow-up
 chmielnik.com###na_gore
 choinka-sztuczna.pl###ico_up
@@ -207,10 +207,12 @@ choinki.net,sherlocktrafika.pl,wyciagarki.eu###backtop
 ciechocinek.biz,drawskopomorskie.com,gniewkowo.eu,ki24.info,kolniak24.eu,lowiczanin.info,mohito.com,nizanskie.info,roztocze.net##.scroll-down
 citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl##.gw-grux-backToTop
 citymask.eu,globalna.info##.scrolltop
+ciuchy.zizej.pl#?#footer ~ button:-abp-has( > span > svg)
 ckz.pl##.wpv-scroll-to-top
 claas.roltexkrasnystaw.pl##.top-link
 clineo.pl###to_up
 clivio.pl,emecze.pl,mecze24.pl,meczenazywo.pl,pbr-finanse.com.pl###btt
+cmarnica.pl,zabrzewsercuslaska.pl###zozo-backtotop
 cmpw-pan.edu.pl###s5_scrolltopvar
 cng.auto.pl,iwetto.com,retromedia.pl###scroll
 codetwo.pl###back-to-top-scroller, #show-more-hp-scroller
@@ -223,6 +225,7 @@ computerwelt24.com##.back-top-top
 concordiaubezpieczenia.pl,generaliagro.pl##.arrowUp
 consumer.huawei.com###consumer-floating-back-to-top
 consumer.huawei.com##.cbg-backtotop
+cosmed24.pl##div#page ~ a#myBtn
 croatia.hr#?#.footer > .container > .row > .text-center.col-sm-12:-abp-has(.cd-top)
 ctb.com.pl,movieway.pl,oryginalnysmak.pl,phunetcom.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
 czarodziejewspomnien.pl,hihome.pl###fount_to_top
@@ -252,6 +255,7 @@ disco-polo.info,meizupolska.pl##.toup
 dobramine.com##.to_top_link
 doleasingu.com##.to-top-arrow
 dolinski.pl##.ab__scroll_to_top
+domodi.pl##.dml-page-return
 domodi.pl##.dm-go-up
 domowa.pizza##.smoothup
 domowefrytki.com,hulubrushes.com,twojlekarz.info##.generate-back-to-top
@@ -311,7 +315,7 @@ filmpolski.pl##div[id^="dogory_"]
 fintek.pl###button-backtotop
 floryday.com##.side-bar-back
 fn.org.pl,tim.pl##.btn-scroll
-forbot.pl,forum.optymalizacja.com,forum.usa.info.pl,gtaforum.pl,kosmetykaaut.pl,psxextreme.info###backtoTop
+forbot.pl,forum.optymalizacja.com,forum.usa.info.pl,gtaforum.pl,kosmetykaaut.pl,psxextreme.info,winclub.pl###backtoTop
 fordogtrainers.pl##.vpf-scroll-top-button
 forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl###pageUp
 forum.android.com.pl###stt-btn
@@ -327,6 +331,7 @@ ftt.roto-frank.com##.scroll-container
 funclub.pl##button[aria-label="Wróć na górę"]
 fundacjapestka.pl##.back__top
 gajowski-agrotechnika.pl,glosswidnika.pl,lexlog.pl,lubawa.pl,onlinezdrowie.pl,pali2razy.pl,polskiprzemysl.com.pl##.scrollTo_top
+galeriakatowicka.eu###js-scroll-to
 gama-sklep.com.pl##.go-to-top-page
 gandalf.com.pl,in4.pl,mediastar.pl,motobros.pl###goup
 garneczki.pl##.go-to-up
@@ -483,7 +488,7 @@ lidl-sklep.pl##.btn-totop
 lidl-sklep.pl##.n-header__button__scroll__top
 lidl.pl##.totopbutton
 lightonline.pl##.returnTop
-lilio.pl,lumex.pl##.arrow-top
+lilio.pl,lumex.pl,www.biedronka.pl##.arrow-top
 limango.pl###footer-container ~ div[class*="shop"][style]
 littleforest.pl##.smoothscroll
 littletownshoes.com##.penci-go-to-top-floating
@@ -492,6 +497,7 @@ lubimyczytac.pl###js-btn-scroll-top.btn-scroll-up
 lubliniec.starostwo.gov.pl##.przycisk_dogory2
 lurker.pl###scrollTopBtn
 lvbet.pl##.sb-scroll-top
+lysamowi.pl##.wishbone_backtotop
 m3system.pl##.ish-back_to_top
 magazynmotomi.pl,moneygrabbing.co.uk,wolnekonopie.org##.kleo-go-top
 magrebud.pl,szczebrzeszyn.info##.u-back-to-top
@@ -608,8 +614,8 @@ pgi.gov.pl##.site-btn-tool-scroll-top
 picodi.com###scrreturnll-top
 pieknowdomu.pl###gan-totop-button
 pielegniarki.info.pl##.toTheTop
-pielgrzymka.pl###edgtf-back-to-top
 pielgrzymka.pl##.arrow_up
+pielgrzymka.pl,slaskaprohibicja.pl###edgtf-back-to-top
 piib.org.pl##a[href="#up"]
 pilot.wp.pl###gatsby-focus-wrapper > div[class*="sc-"] > div.half-page[class^="sc-"] > span[class^="sc-"] > svg
 pilot.wp.pl##.show-scroll-button
@@ -693,6 +699,7 @@ savio.net.pl##.scrollup-button
 schiedel.com,zlotegory.com##.mk-go-top
 scottiego.com###to_top_scrollup
 screamit.pl###div_go_top.ct-div-block
+scroll.morele.net###scrollTop.scrollTop
 seoheroes.pl##.clb-scroll-top-holder
 serafin-maszyny.com##.back_to_top
 sfinks.info###go_to_top
@@ -701,6 +708,7 @@ shell.pl##.site-footer__back-to-top
 shopalike.pl###totop-btn
 shoperia.pl##.scrollTopTrigger
 sip.lex.pl##.wk-back-to-top-button
+skierniewice.istrefa.com##.circle.jq-elevator
 skladaniekomputera.pl##.bounce.animated.go-top
 sklepjubilerski.com##app-scroll-to-top
 sklepyinfo.pl##.direction-top.fixed-action-btn
@@ -758,6 +766,7 @@ tvn24.pl##.topButton
 twoja.pila.pl##.gallerywp-scroll-top
 tygodnikbydgoski.pl###jumpTop
 tygodnikdzialdowski.pl###g-to-top
+ubuntu.pl##.btt-arrow
 uchodzcy.info###go-up-btn
 ugminy.ksawerow.com##.hw-back-to-top
 umebluje.pl###cs_bt_scroll_top
@@ -826,13 +835,13 @@ wykop.pl##.big.button
 wylecz.to##.btn-top-page
 xiaomi.eu##.button--scroll
 yara.pl###backToTopButton
-zabrzewsercuslaska.pl###zozo-backtotop
 zalando.pl##.backToTopButton
 zalecane.pl##.g1-teaser
 zbudujforme.com.pl##.cmsmasters_theme_icon_slide_top
 zdrowie.pap.pl##.show.m13
 zdrowie.pap.pl#?#section ~ div:-abp-has( > svg[title="Do góry"])
 ziemkiewicz.info##.back-to-start
+znamlek.pl##.btnScroll
 zooplus.pl###btn-goTop
 zott-dairy.com##.upbutton
 zszywka.pl###scroolToTop
@@ -859,7 +868,7 @@ zszywka.pl###scroolToTop
 !
 ! Ogólne reguły
 ~active.sklep.pl,~bel-pol.pl,~beskidzka-akademia.pl,~betard.pl,~forum.dobreprogramy.pl,~gdansk.pl,~lenartowiczclinic.pl,~nasztalerz.pl,pl##.fa-angle-up
-~cm-silesia.pl,~gafka.pl,pl,~proxima.pl,~wroc.pl##.fa-angle-double-up
+~cm-silesia.pl,~gafka.pl,~katowice.pl,pl,~proxima.pl,~wroc.pl##.fa-angle-double-up
 ~deweloper-interes.pl,pl###back_to_top
 ~ifirma.pl,pl##.dogory
 ~obi.pl,pl##.scrollup:not(body):not(html)
