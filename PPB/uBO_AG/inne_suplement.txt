@@ -1,6 +1,3 @@
-onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !important)
-onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"]
-
 ~animezone.pl,berlitz.com,naklo.fm,~payback.pl,pl##.grecaptcha-badge:style(visibility: hidden !important;)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href*="wlacz-tryb-ciemny-"]:upward(2)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href="undefined"]:has-text(Jak to działa?):upward(2)
@@ -72,6 +69,8 @@ m.box.com##.mobile-app-banner
 narcyz.com.pl##div[style^="overflow: hidden;"]:style(overflow: auto !important;)
 newonce.radio##a.sidenav-social-link:nth-of-type(2):style(color: red !important;)
 oferty.dsautomobiles.pl,oferty.peugeot.pl##.row > .formularz:style(position: static !important;)
+onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"]
+onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !important)
 onet.pl,~~www.onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important;)
 oohmagazine.pl##.cart-tab:has( > *:matches-css(display: none))
 open.fm,wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
