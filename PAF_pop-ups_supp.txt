@@ -356,6 +356,10 @@ samochod.porowneo.pl##.noScroll:style(position: static !important;)
 secure.avaaz.org##.page-petition--inactive:style(overflow: auto !important;)
 secure.avaaz.org##.signup-petition-modal-wrapper
 sferis.pl##+js(acis, $, promoNewsletter)
+shopee.pl##html[style*="overflow"], body[style*="overflow"]:style(overflow: auto !important;)
+shopee.pl##.home-popup
+shopee.pl##.shopee-no-scroll:style(overflow: auto !important;)
+shopee.pl##.shopee-popup:has(img[alt*="home_popup_banner"])
 shoplet.pl##+js(set, x13callback_cookie, 1)
 shop.mango.com##.modal-container-newsletter
 shop.mango.com##.scroll__block:style(overflow: auto !important; height: auto !important;)
