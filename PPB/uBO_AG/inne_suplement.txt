@@ -1,7 +1,3 @@
-||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
-zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
-zapytaj.onet.pl##.profile-actions > .music
-
 ~animezone.pl,berlitz.com,naklo.fm,~payback.pl,pl##.grecaptcha-badge:style(visibility: hidden !important;)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href*="wlacz-tryb-ciemny-"]:upward(2)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href="undefined"]:has-text(Jak to działa?):upward(2)
@@ -116,6 +112,8 @@ webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; pa
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
+zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
+zapytaj.onet.pl##.profile-actions > .music
 !download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;)
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
 !mobileclick.pl##body[class*="post"] #content ~ #content:remove()
@@ -128,3 +126,4 @@ zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
+||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
