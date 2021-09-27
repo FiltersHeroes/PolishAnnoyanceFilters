@@ -70,6 +70,8 @@ m.box.com##.mobile-app-banner
 narcyz.com.pl##div[style^="overflow: hidden;"]:style(overflow: auto !important;)
 newonce.radio##a.sidenav-social-link:nth-of-type(2):style(color: red !important;)
 oferty.dsautomobiles.pl,oferty.peugeot.pl##.row > .formularz:style(position: static !important;)
+onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"]
+onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !important)
 onet.pl,~~www.onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important;)
 oohmagazine.pl##.cart-tab:has( > *:matches-css(display: none))
 open.fm,wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
@@ -111,6 +113,8 @@ webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; pa
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
+zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
+zapytaj.onet.pl##.profile-actions > .music
 !download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;)
 !download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
 !mobileclick.pl##body[class*="post"] #content ~ #content:remove()
@@ -123,6 +127,7 @@ zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
+||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
 !#if !cap_html_filtering
 karachan.org##+js(acis, setInterval, Math.random)
 komputerswiat.pl###ks_breaking_news:style(position: absolute !important; left: -3000px !important;)
