@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Wk+dFcbG0CtspZEIYMeW8A
+! Checksum: RNZmgFaTY/3pkVJ9O81eLQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Thu, 30 Sep 2021, 12:08 UTC+02
-! Version: 2021.9.30.0
+! Last modified: Fri, 01 Oct 2021, 20:32 UTC+02
+! Version: 2021.10.1.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: czw, 30 wrz 2021, 12:08 UTC+02
+! Aktualizacja: pią, 01 paź 2021, 20:32 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -5959,8 +5959,8 @@ z-hotel.com###repuso_floating
 ||leaselink.pl/js/slide-button-shoper.js
 ||morele.unifiedfactory.com/widget/config.js
 ||niezbednik.mediraty.pl/img/widget_duzy_button_1.png
-||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|onet.pl
-||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|onet.pl
+||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
+||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
 ||platformafinansowa.pl/assets/other/widget.png$third-party
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
@@ -6453,8 +6453,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2021.9.26.0
-!@ Last modified: Sun, 26 Sep 2021, 22:56 UTC+02
+!@ Version: 2021.10.1.0
+!@ Last modified: Fri, 01 Oct 2021, 20:32 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errors@certyficate.it
@@ -6465,7 +6465,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0)
 !@ Copyright © 2021 Certyficate IT & Polish Filters Team
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2021.9.26.0 aktualizacja: nie, 26 wrz 2021, 22:56 UTC+02
+!@ v.2021.10.1.0 aktualizacja: pią, 01 paź 2021, 20:32 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -7373,6 +7373,7 @@ eurostyl.com.pl###euroCookieInfo
 eurzad.gorzow.pl,farmanoe.pl,passa.media.pl##.popup-overlay
 eu.alcatelmobile.com,start.me##.cookiebar
 eu.community.samsung.com###custom-header-cookie
+eu.crucial.com##[lang*="en-pl"] div#_evidon_banner.evidon-banner
 everhome.pl,gda.pl,sne.fc.pl,sne.olsztyn.pl,szwajcaria-kaszubska.pl,yogenfruz.pl##.shotimoo
 everydayme.pl##.cookie-consent-jolt
 ever.eu,ziaja.com###cookies-info
@@ -10306,6 +10307,7 @@ eu,pl#@#.js-cookies:not(body):not(html)
 eu,pl#@#.rodo-popup:not(body):not(html)
 fxpro.pl#@#.popup-cookies:not(body):not(html)
 goldenline.pl#@#.cookie-modal:not(body):not(html):not(.in):not(.mfp-hide)
+goodram.com#@##cookie-container
 gtv.com.pl#@##panel_cookie_dol
 kpcen-torun.edu.pl,ranking.perspektywy.pl#@##cookieModal:not(.countryCookieModalContainer):not(.idcac)
 lomza.pl#@##komunikat-cookie
