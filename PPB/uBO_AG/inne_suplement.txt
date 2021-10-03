@@ -1,7 +1,3 @@
-telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item
-telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll
-telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item:remove()
-telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll:remove()
 ~animezone.pl,berlitz.com,naklo.fm,~payback.pl,pl##.grecaptcha-badge:style(visibility: hidden !important;)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href*="wlacz-tryb-ciemny-"]:upward(2)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href="undefined"]:has-text(Jak to działa?):upward(2)
@@ -106,6 +102,10 @@ strefakodera.pl##html:style(overflow-x: unset !important;)
 tabletowo.pl##.bwswitch:style(position: absolute !important;)
 tablety.pl##.image-ticker-news:style(left: 0 !important;)
 teatr.bedzin.pl##html.intro-is-opened, html.intro-is-opened body.intro-is-opened:style(overflow-y: auto !important;)
+telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item
+telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item:remove()
+telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll
+telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll:remove()
 teletoonplus.pl##.drizzle_l:style(z-index: 0 !important;)
 tvn24.pl##+js(json-prune, options.auto_play)
 twitter.com###layers span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(4)
