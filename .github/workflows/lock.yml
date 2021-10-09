@@ -1,4 +1,4 @@
-name: 'Lock threads'
+name: 'Blokada wątków'
 
 on:
   schedule:
@@ -11,16 +11,16 @@ jobs:
       - uses: dessant/lock-threads@v2
         with:
           github-token: ${{ github.token }}
-          issue-lock-inactive-days: '40'
-          issue-exclude-created-before: ''
-          issue-exclude-labels: ''
-          issue-lock-labels: ''
-          issue-lock-comment: 'Ten wątek został automatycznie zablokowany, ponieważ po jego zamknięciu nie było żadnej aktywności. Proszę otworzyć nowe zgłoszenie dla powiązanych problemów.'
+          issue-inactive-days: '40'
+          exclude-issue-created-before: ''
+          exclude-any-issue-labels: ''
+          add-issue-labels: ''
+          issue-comment: 'Ten wątek został automatycznie zablokowany, ponieważ po jego zamknięciu nie było żadnej aktywności. Proszę otworzyć nowe zgłoszenie dla powiązanych problemów.'
           issue-lock-reason: 'resolved'
-          pr-lock-inactive-days: '365'
-          pr-exclude-created-before: ''
-          pr-exclude-labels: ''
-          pr-lock-labels: ''
-          pr-lock-comment: ''
+          pr-inactive-days: '365'
+          exclude-pr-created-before: ''
+          exclude-any-pr-labels: ''
+          add-pr-labels: ''
+          pr-comment: ''
           pr-lock-reason: 'resolved'
           process-only: 'issues'
