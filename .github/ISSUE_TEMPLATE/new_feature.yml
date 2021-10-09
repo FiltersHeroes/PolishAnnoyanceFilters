@@ -1,0 +1,22 @@
+name: Propozycja ulepszenia listy
+description: Polish form, new improvements
+labels: ["ulepszenie"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy za zgłoszenie do Polskich Filtrów Elementów Irytujących!
+  - type: textarea
+    id: info
+    attributes:
+      label: |
+        Co mamy ulepszyć?
+      placeholder: Proszę dodać sekcję wycinającą irytującą muzyczkę...
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Zasady pisania
+      options:
+        - label: |
+            Zapoznałem się z [netykietą](https://pl.wikipedia.org/wiki/Netykieta)
+          required: true

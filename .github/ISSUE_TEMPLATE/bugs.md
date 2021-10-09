@@ -1,7 +1,7 @@
 ---
-name: Błędy
-about: Bugs, mistakes, no-no
-labels: błąd
+# name: Błędy
+# about: Bugs, mistakes, no-no
+# labels: błąd
 ---
 
 <!--
