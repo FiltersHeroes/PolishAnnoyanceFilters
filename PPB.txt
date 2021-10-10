@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: lzrA/HkmJH14avOviBQalw
+! Checksum: VSJTKgUe8LwlNSheTQfEuA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 10 Oct 2021, 12:08 UTC+02
-! Version: 2021.10.10.0
+! Last modified: Sun, 10 Oct 2021, 16:08 UTC+02
+! Version: 2021.10.10.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -14,7 +14,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Copyright © 2021 Polish Filters Team
-! Aktualizacja: nie, 10 paź 2021, 12:08 UTC+02
+! Aktualizacja: nie, 10 paź 2021, 16:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -6451,7 +6451,7 @@ zycie.pl##.right #multiple-versions, #premium-slide
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
 !
 !
-!@ >>>>>>>> https://raw.githubusercontent.com/PolishRoboDogForks/polish-ads-filter/RTM/cookies_filters/adblock_cookies.txt
+!@ >>>>>>>> https://raw.githubusercontent.com/PolishRoboDogHouse/polish-ads-filter/RTM/cookies_filters/adblock_cookies.txt
 !@ Title: Polskie Filtry RODO-Ciasteczkowe
 !@ Polish GDPR-Cookies Filters
 !@ Codename: 🍪
@@ -10395,7 +10395,7 @@ zagojeni.pl#@#.rodo-overlay:not(body):not(html)
 !@
 !#if (!adguard_ext_android_cb && !adguard_app_ios)
 !#endif
-!@ <<<<<<<< https://raw.githubusercontent.com/PolishRoboDogForks/polish-ads-filter/RTM/cookies_filters/adblock_cookies.txt
+!@ <<<<<<<< https://raw.githubusercontent.com/PolishRoboDogHouse/polish-ads-filter/RTM/cookies_filters/adblock_cookies.txt
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka Origin i AdGuarda, by użytkownicy nie musieli jej subskrybować
