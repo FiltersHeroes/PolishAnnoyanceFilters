@@ -1,19 +1,19 @@
 [Adblock Plus 2.0]
-! Checksum: i+MNy7LVfk2Yllsl6wuKOA
+! Checksum: EWUYI1PN2nEwGlDBIO3uUA
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Thu, 07 Oct 2021, 01:39 UTC+02
-! Version: 2021.10.7.1
+! Last modified: Mon, 18 Oct 2021, 00:31 UTC+02
+! Version: 2021.10.18.1
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
-! Copyright © 2021 Polish Filters Team
-! Aktualizacja: czw, 07 paź 2021, 01:39 UTC+02
+! Maintainer: Filters Heroes
+! Aktualizacja: pon, 18 paź 2021, 00:31 UTC+02
 !
 !
 !
@@ -26,7 +26,8 @@ bezpiecznystrazak.pl##.video_zminimalizowane
 claudia.pl,elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
 codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 deccoria.pl##.dc-floatingvideo__wrapper[class*="fixed"]
-dziennik.pl,forsal.pl,gazetaprawna.pl##.video.widget > .videoScroll, .video.widget > .videoScroll ~ .closeVideoBtn
+dziennik.pl##.closeVideoBtn
+dziennik.pl,forsal.pl,gazetaprawna.pl##.video.widget > .videoScroll, .closeVideoBtn
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 filmweb.pl##.isPinned.videoPlayer
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
