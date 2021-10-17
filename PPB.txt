@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: CUwBMtdZqDMSbBWQBRTmXg
+! Checksum: AHc+PM1HCKRdgCbCS3tYRA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 17 Oct 2021, 21:59 UTC+02
-! Version: 2021.10.17.0
+! Last modified: Sun, 17 Oct 2021, 22:05 UTC+02
+! Version: 2021.10.17.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 17 paź 2021, 21:59 UTC+02
+! Aktualizacja: nie, 17 paź 2021, 22:05 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -3220,7 +3220,8 @@ bezpiecznystrazak.pl##.video_zminimalizowane
 claudia.pl,elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
 codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 deccoria.pl##.dc-floatingvideo__wrapper[class*="fixed"]
-dziennik.pl,forsal.pl,gazetaprawna.pl##.video.widget > .videoScroll, .video.widget > .videoScroll ~ .closeVideoBtn
+dziennik.pl##.closeVideoBtn
+dziennik.pl,forsal.pl,gazetaprawna.pl##.video.widget > .videoScroll, .closeVideoBtn
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 filmweb.pl##.isPinned.videoPlayer
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
@@ -5434,6 +5435,8 @@ i-ekosystem.pl###wptime-plugin-preloader
 jacus.pl###pierwsza_ikona
 jaguar.pl##.side-buttons
 jakisklepinternetowy.pl##.survey
+jastrzebieonline.pl##a.title[href*="sonda"]
+jastrzebieonline.pl###sonda
 jednoslad.pl##.popnav, .bottom-reached
 jezykiobce.pl###top-bar-promotions, #top_nav
 joemonster.org###mtv_main_swf.popup
@@ -6467,8 +6470,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2021.10.17.0
-!@ Last modified: Sun, 17 Oct 2021, 21:59 UTC+02
+!@ Version: 2021.10.17.1
+!@ Last modified: Sun, 17 Oct 2021, 22:05 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -6479,7 +6482,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Copyright © 2021 Certyficate IT
 !@ Copyright © 2021 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2021.10.17.0 aktualizacja: nie, 17 paź 2021, 21:59 UTC+02
+!@ v.2021.10.17.1 aktualizacja: nie, 17 paź 2021, 22:05 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
