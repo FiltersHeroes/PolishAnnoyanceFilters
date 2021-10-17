@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: AHc+PM1HCKRdgCbCS3tYRA
+! Checksum: zjrYZonixOzu7aZWlkFeyA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 17 Oct 2021, 22:05 UTC+02
-! Version: 2021.10.17.1
+! Last modified: Mon, 18 Oct 2021, 00:31 UTC+02
+! Version: 2021.10.18.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 17 paź 2021, 22:05 UTC+02
+! Aktualizacja: pon, 18 paź 2021, 00:31 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -5691,8 +5691,8 @@ poloniawroclaw.pl##.sfl-widget--ribbon__fixed, .ys-sidebar-btn-2
 polskicaravaning.pl###\35 3419
 polstor.pl##.tax-free-shopping
 polygamia.pl,www.dobreprogramy.pl##.backToWp
-polygamia.pl,www.dobreprogramy.pl#?##main-content ~ div[class]:nth-child(3) > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
-polygamia.pl,www.dobreprogramy.pl#?##main-content > div[class]:nth-child(4) > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
+polygamia.pl,www.dobreprogramy.pl#?##main-content ~ div[class] > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
+polygamia.pl,www.dobreprogramy.pl#?##main-content > div[class] > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 poradnikhandlowca.com.pl##.region-page-bottom > #slidead-popup
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 portalhodowcy.pl##.kac-sm-panel > ul:nth-of-type(1)
