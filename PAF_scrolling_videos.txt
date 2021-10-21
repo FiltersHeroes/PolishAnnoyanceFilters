@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xX/IPAS2lf0wQ3o87r9LGQ
+! Checksum: wvBwUfwM2xiReXbzjaLtXA
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Mon, 18 Oct 2021, 12:08 UTC+02
-! Version: 2021.10.18.1
+! Last modified: Thu, 21 Oct 2021, 20:08 UTC+02
+! Version: 2021.10.21.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 18 paź 2021, 12:08 UTC+02
+! Aktualizacja: czw, 21 paź 2021, 20:08 UTC+02
 !
 !
 !
@@ -38,6 +38,7 @@ medianarodowe.com,sadeczanin.info,transfery.info##div.onnetworkplayercontainer >
 medonet.pl,onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
 medonet.pl,onet.pl,~www.onet.pl##.active.player-float-wrap > .player-float-container
 naekranie.pl#?#body > div[class][style*="position: fixed"]:-abp-has(.yt-player, video)
+niedziela.pl###featured-video-box[class*="sticky"]
 nowa.tv##.floating-video
 playgwent.com##.c-big-stream__video--sticked.c-big-stream__video
 pl.blogpascher.com###site-scroll-top
@@ -58,9 +59,9 @@ webcamera.pl##.bigcam.floating-player > div > .fullscreen-wrap
 webcamera.pl##.floating-player #player, #float-box, .float-box
 wrc.net.pl##.sticky-video.sticky.is-stuck
 ||ppstatic.pl/js/floating-video/floatingVideo.js
-||ppstatic.pl/*/article/sticky-video.js
-||ppstatic.pl/*/article/top-sticky-video-mobile.js
-||ppstatic.pl/*/plywajace_wideo.js
+||ppstatic.pl^*/article/sticky-video.js
+||ppstatic.pl^*/article/top-sticky-video-mobile.js
+||ppstatic.pl^*/plywajace_wideo.js
 !
 !
 ! Ogólne reguły
