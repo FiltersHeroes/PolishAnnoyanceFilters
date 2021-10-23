@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ShEjPddGPyxqucogHk17hg
+! Checksum: 7fRvDsyhGSDXhZfWtjdaUg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Thu, 21 Oct 2021, 21:25 UTC+02
-! Version: 2021.10.21.1
+! Last modified: Sat, 23 Oct 2021, 12:08 UTC+02
+! Version: 2021.10.23.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 21 paź 2021, 21:25 UTC+02
+! Aktualizacja: sob, 23 paź 2021, 12:08 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -3119,6 +3119,7 @@ sklepsamsung.pl##.b-modal_webpushVertical
 sprzedajemy.pl###webPushWidget
 termedia.pl##body #ue_popups > #ue_push_dialog
 travelplanet.pl##.fcx-push-modal
+tvn24.pl##.__ipPerunElement[style*="position"]
 tygodniowa.pl##iframe[style*="fixed"]:not([src])
 wazcar.pl###push-notification-button
 wielen.pl###js__webpushBell
@@ -5138,7 +5139,7 @@ bezgluten.pl.iziToast-message
 bgsw.pl##.left.ltr.a11y-toolbar.a11y-non-responsive
 bieganieuskrzydla.pl##.c-card--dock
 bigbaddice.pl,gizchina.com.pl,zakreconywegeobiad.pl##.vw-more-articles
-bigbrother.tvn.pl##.__ipPerunElement[style^="position"]
+bigbrother.tvn.pl##.__ipPerunElement[style*="position"]
 bikeboard.pl###magazine-btn
 bilbordy.info,unitrailer.pl###tab
 biomak.eu###leaselinkSlideButton1
