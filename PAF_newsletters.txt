@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: hAw/WAWcb74Wx5yr3F1BCg
+! Checksum: 3ZTsYtiRuQLMv9ABflXquw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 24 Oct 2021, 21:23 UTC+02
+! Last modified: Sun, 24 Oct 2021, 21:51 UTC+02
 ! Version: 2021.10.24.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 24 paź 2021, 21:23 UTC+02
+! Aktualizacja: nie, 24 paź 2021, 21:51 UTC+02
 !
 !
 !
@@ -1617,8 +1617,8 @@ tfkable.com##.newsletterBox
 tge.pl##footer .card > .card-block
 tge.pl##.tge-newsletter-form
 thermano.eu##.footer-box--wide
-thermomix.vorwerk.pl##footer span:-abp-has( ~ .footer__newsletterform)
 thermomix.vorwerk.pl##.footer__newsletterform
+thermomix.vorwerk.pl#?#footer span:-abp-has( ~ .footer__newsletterform)
 thomas-krenn.com##.tk-footer-newsletter
 thunderbird.net#?##section.flex.flex-col > aside.flex.flex-col:nth-of-type(2):-abp-has( > #mc-embedded-subscribe-form)
 tickets.pl##.subscribe > .subscribe__block
