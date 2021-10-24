@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: eMAwdueWR6ZzlNbPqhMyFg
+! Checksum: AnAPFC+cXYskrFrx+/yuDg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 24 Oct 2021, 21:26 UTC+02
-! Version: 2021.10.24.2
+! Last modified: Sun, 24 Oct 2021, 21:50 UTC+02
+! Version: 2021.10.24.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 24 paź 2021, 21:26 UTC+02
+! Aktualizacja: nie, 24 paź 2021, 21:50 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1618,8 +1618,8 @@ tfkable.com##.newsletterBox
 tge.pl##footer .card > .card-block
 tge.pl##.tge-newsletter-form
 thermano.eu##.footer-box--wide
-thermomix.vorwerk.pl##footer span:-abp-has( ~ .footer__newsletterform)
 thermomix.vorwerk.pl##.footer__newsletterform
+thermomix.vorwerk.pl#?#footer span:-abp-has( ~ .footer__newsletterform)
 thomas-krenn.com##.tk-footer-newsletter
 thunderbird.net#?##section.flex.flex-col > aside.flex.flex-col:nth-of-type(2):-abp-has( > #mc-embedded-subscribe-form)
 tickets.pl##.subscribe > .subscribe__block
@@ -3154,23 +3154,14 @@ zegarkiipasja.pl##.fcx-push-modal-container
 ||chamsko.pl/js/push-notifications.js
 ||codziennypoznan.pl/webnotf.js
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
-||js.iplsc.com/inpl.webpush/*/inpl.webpush.js$script
 ||konin24.info/tmpl/js/push.min.js
 ||kreskoweczki.pl/js/pushNotification.js
 ||moneygrabbingcouk.foxpush.net/http_native.html
-||mxapis.com^
 ||nasze-gazetki.pl/public/notification/notification.js
 ||newbalance.api.useinsider.com/views/push/js/sdk/insider-push-native-sdk.js$script,domain=nbsklep.pl
 ||ocdn.eu/ucs/static/*/build/js/pushModule.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
-||onesignal.com/webPushIframe$third-party
-||onet.pl/push-mob-service-worker*.js$script,domain=www.onet.pl
+||onet.pl/push-mob-service-worker*.js$script,domain=onet.pl
 ||onet.pl/push-service-worker*.js$script,domain=onet.pl
-||pushalert.co^$third-party
-||pushapp.pro^$third-party
-||pushcrew.com^$script,third-party
-||pushengage.com/script.js
-||pushpushgo.com/scripts*/push.js$third-party
-||push-ad.com^$script,third-party
 ||push.domodi.pl/pushweb/assets/init.js
 ||rankomat.pl/kalkulator/client_app/assets/push-notifications/push-notifications.script.js
 ||redditstatic.com/*/PushNotifications.
@@ -3215,6 +3206,15 @@ pl###pushwoosh-subscription-widget-root
 ||cdn.pushpushgo.com/scripts/$script
 ||cdn.pushwoosh.com/webpush/*.js
 ||cdn.sendpulse.com^$script,third-party
+||js.iplsc.com/inpl.webpush/*/inpl.webpush.js$script
+||mxapis.com^
+||onesignal.com/webPushIframe$third-party
+||pushalert.co^$third-party
+||pushapp.pro^$third-party
+||pushcrew.com^$script,third-party
+||pushengage.com/script.js
+||pushpushgo.com/scripts*/push.js$third-party
+||push-ad.com^$script,third-party
 !
 !
 ! Scrollujące filmiki
