@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: DpmK9B1CnCU/NBpgKlpBMQ
+! Checksum: DBku3XFtxMSMDhQbl8ZmRg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 24 Oct 2021, 12:08 UTC+02
-! Version: 2021.10.24.0
+! Last modified: Sun, 24 Oct 2021, 21:23 UTC+02
+! Version: 2021.10.24.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 24 paź 2021, 12:08 UTC+02
+! Aktualizacja: nie, 24 paź 2021, 21:23 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -571,6 +571,7 @@ euromat.com.pl###tws_s_100000
 euroogrod.com.pl##.menu_newsletter_text
 europacentralna.eu,sare.pl##.nlblock
 euro.com.pl,oleole.pl#?##footer-shops > .column:-abp-contains(newsletter)
+eu.dlink.com##.newsletter-sign-up__container.container
 eveline.pl##.subscribe-to-news
 evertiq.pl##.register.index.news
 evertourist.com##div.col-md-6.col-xs-12
@@ -662,7 +663,7 @@ gazetapowiatowa.pl###wysija-7
 gazetapraca.pl##.col-md-4:nth-of-type(14)
 gazetaprawna.pl,ikomunikaty.pl##.footerNewsletterContent label, .footerNewsL
 gazetasenior.pl#?#.fn-content > .fn-builder > p:-abp-has( > a[href*="/newsletter-gazeta"] > img)
-gazetazoliborza.pl,hoho.sklep.pl,opensecurity.pl,swiatoze.pl,terazprudnik.pl##.widget_newsletterwidgetminimal
+gazetazoliborza.pl,hoho.sklep.pl,opensecurity.pl,swiatoze.pl,terazprudnik.pl,xopero.com##.widget_newsletterwidgetminimal
 gazetkonosz.pl##.box:nth-of-type(2)
 gdanskstrefa.com###blog_subscription-3
 gdzietymrazem.pl##.td-pb-span4:nth-of-type(1) > .widget_text.widget.td_block_template_1
@@ -2789,6 +2790,7 @@ swiatdronow.cupsell.pl###shop_newsletter, .simplemodal-overlay
 swiatkierowcy.pl###max
 swiat-szkla.pl##.jqmWindow
 systim.pl###pop2
+szalonewalizki.pl##.mailpoet_form_popup.mailpoet_form, .mailpoet_form_popup_overlay
 szkolenia24h.pl##.ui-corner-all, .ui-widget-overlay
 szkolycelne.infoserwis.elk.pl###scyscraper
 szlachetnygest.pl##.zgarnij_misia.fpopup_overlay
@@ -3803,6 +3805,7 @@ mok.olsztyn.pl###neko-to-top
 moliera2.com,ostrovit.com,rockwellautomation.com,undiz.com##.scrollTop
 molnlycke.pl##.button-sticky-to-top
 montaz-anten.eu##.topHome
+morfikov.github.io,stubai.at###back-to-top
 motogen.pl###gora-przycisk-fixed
 motorola.com###arrowUp
 moveria.pl,perfumehub.pl###scroll-top-button
@@ -3986,12 +3989,12 @@ steamcommunity.com###BackToTop
 stoklasa.pl###sipka_nahoru
 storck.pl##.icon-toolbar-back-to-top
 store.ubi.com##.scroll-top-button-wrapper
-stubai.at###back-to-top
 sulmierzyce.info##.upper
 swiatekspresow.pl###back_up
 swiatpodlog.com.pl,woprol.com.pl###scrolltotop
 swiat-agd.com.pl###up, #go_up
 swietawdomu.pl###tg-scroll-to-top
+szalonewalizki.pl###desert-back-top
 szczecin.prywatka.info,wsb.net.pl##.body-back-to-top
 szklanedrzwi.pl###GO_TOP
 szopi.pl###scisco-gototop
@@ -6251,7 +6254,6 @@ muzykaitechnologia.pl##.elementor-top-column.elementor-col-50.elementor-column.e
 muzykaitechnologia.pl##.epic_module_20623_2_5f0331648da8f.jeg_col_2o3.jeg_pagination_disable.jeg_module_hook.jeg_postblock.jeg_postblock_2 > .jeg_subcat_right.jeg_block_heading_6.jeg_block_heading
 muzykaitechnologia.pl##.numer-lipiec.producent-prolights.tag-prolights.tag-oswietlenie.tag-malighting.tag-konsolety-oswietleniowe.tag-glowice.category-wywiady.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-26244.jeg_pl_lg_2.jeg_post
 mycompanypolska.pl##.najnowsza__okladka.sidebar__tresci
-mycompanypolska.pl##.pb-8.pt-8.container
 mycompanypolska.pl##.text-center.u-header__section
 naszesprawy.eu##div.add-inner:nth-of-type(2)
 national-geographic.pl##.content-sidebar div[class*="box-"][class*="magazin"]
