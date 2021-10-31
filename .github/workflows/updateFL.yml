@@ -1,12 +1,14 @@
 name: Aktualizacja listy
 
-on: workflow_dispatch
-#   schedule:
-#     - cron: "0 10,14,18 * * *"
+on:
+  workflow_dispatch: null
+  # schedule:
+  #   - cron: "0 10,14,18 * * *"
+
 jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
-    container: polishfiltersteam/vichs_image:2.26.8
+    container: ghcr.io/filtersheroes/vichs_image:2.26.8
     steps:
       - uses: actions/checkout@v2
       - env:
