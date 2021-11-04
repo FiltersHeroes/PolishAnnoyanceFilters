@@ -72,6 +72,8 @@ beta.netia.pl##.popup-beta
 bilety24.pl,moliera2.com,quiosque.pl###newsletter-popup, .modal-backdrop
 bilkom.pl###promopopup, .modal-backdrop
 biofemina.pl,rajsoczewek.pl,vebo.pl,wokularach.pl###news_popup, #news_popup ~ .modal-backdrop
+biznesinfo.pl,domekiogrodek.pl,goniec.pl,pacjenci.pl,rolnikinfo.pl,swiatgwiazd.pl,swiatsportu.pl,swiatzwierzat.pl,techgame.pl,turysci.pl,wawainfo.pl,wtv.pl,zdrogi.pl##html > body:style(position: static !important; overflow: auto !important; margin-right: 0 !important;)
+biznesinfo.pl,domekiogrodek.pl,goniec.pl,pacjenci.pl,rolnikinfo.pl,swiatgwiazd.pl,swiatsportu.pl,swiatzwierzat.pl,techgame.pl,turysci.pl,wawainfo.pl,wtv.pl,zdrogi.pl##.chakra-portal
 blog-daneosobowe.pl##+js(nostif, i(), 5000)
 blog.lh.pl,brakeparts.pl,ckr.pl,gannet.pl,gazetazoliborza.pl,grupa-tense.pl,hairbyjul.pl,homekoncept.com.pl,ideau.pl,innergo.pl,instytutozonoterapii.pl,kam-sport.pl,klinikamiracki.pl,kreatywna-europa.eu,lajf.info,lpu24.pl,luxtom.pl,magnapolonia.org,marfafashion.com,nowa-energia.com.pl,nsix.pl,odczasudoczasu.pl,pcg.pl,pl.geofumadas.com,pol-ukr.com,polska-ie.com,premiummobile.pl,remprodex.com.pl,rzepiennik.pl,sla.pl,sprawdzimy.info,strusiakraina.pl,sukcesedukacja.pl,unia-sklep.pl,wielkopolska.tv,wynalazca.tv,zeglarski.info,zoosafari.com.pl##html.pum-open body > [aria-hidden]:style(padding-right: 0 !important;)
 blog.lh.pl,brakeparts.pl,ckr.pl,gannet.pl,gazetazoliborza.pl,grupa-tense.pl,hairbyjul.pl,homekoncept.com.pl,ideau.pl,innergo.pl,instytutozonoterapii.pl,kam-sport.pl,klinikamiracki.pl,kreatywna-europa.eu,lajf.info,lpu24.pl,luxtom.pl,magnapolonia.org,marfafashion.com,nowa-energia.com.pl,nsix.pl,odczasudoczasu.pl,pcg.pl,pl.geofumadas.com,pol-ukr.com,polska-ie.com,premiummobile.pl,remprodex.com.pl,rzepiennik.pl,sla.pl,sprawdzimy.info,strusiakraina.pl,sukcesedukacja.pl,unia-sklep.pl,wielkopolska.tv,wynalazca.tv,zeglarski.info,zoosafari.com.pl##.pum-open:style(overflow: auto !important;)
@@ -443,8 +445,6 @@ zamknijkonto.pl##.has-popup:style(overflow: auto !important;)
 zarabiajnanieruchomosciach.pl##html[style*="overflow"]:style(overflow: auto !important;)
 zarabiajnanieruchomosciach.pl###yl-popup-wrapper-popupBook, #yl-popup-shadow-popupBook
 zaufanekliniki.pl###modalMain, .modal-backdrop
-zdrogi.pl##html > body:style(position: static !important; overflow: auto !important; margin-right: 0 !important;)
-zdrogi.pl##.chakra-portal
 zegarkiipasja.pl##.emelu-lightbox-target
 zeskory.com##.newsletter-pop, .modal-backdrop
 zico-bike.pl###Widget5, #Widget6
@@ -552,6 +552,7 @@ apynews.pl$$#fb-modal
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl#$#html { overflow: visible !important; margin-right: 0 !important; }
 bartek.com.pl$$script[tag-content="popupNewsletter"]
+biznesinfo.pl,domekiogrodek.pl,goniec.pl,pacjenci.pl,rolnikinfo.pl,swiatgwiazd.pl,swiatsportu.pl,swiatzwierzat.pl,techgame.pl,turysci.pl,wawainfo.pl,wtv.pl,zdrogi.pl#%#//scriptlet('set-local-storage-item', '__iberion__publisherPromptSeen', '3')
 biznes-host.pl###myModalPromo, .modal-backdrop
 biznes-host.pl#$#.modal-open { overflow: auto !important; }
 biznes-host.pl$$#myModalPromo
