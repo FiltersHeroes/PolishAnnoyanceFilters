@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: puhlL5jJ02o4MMcc8n1TVA
+! Checksum: 9nfCBJW3mA2yP/sg9Y6jkQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Wed, 03 Nov 2021, 11:08 UTC+01
-! Version: 2021.11.3.0
+! Last modified: Thu, 04 Nov 2021, 23:04 UTC+01
+! Version: 2021.11.4.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 03 lis 2021, 11:08 UTC+01
+! Aktualizacja: czw, 04 lis 2021, 23:04 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -1769,6 +1769,7 @@ wnp.pl###socialBox > .wrapper
 wnp.pl##.social > li:nth-of-type(1)
 woda.com.pl##nav > div:nth-of-type(2) > form
 woodrepublic.eu###newsletter_subscribe
+wprost.pl##.newsletter-plugin
 wprost.pl##.stay-updated
 wroclawfashionoutlet.com##.via-footer__newsletter-signup
 wroclaw.pl##.boxNewsletterRegister
@@ -2194,7 +2195,7 @@ dabrowa-gornicza.pl##.pop-up-visit
 dabrowka.com.pl##.js-show.popup-hld--startpage
 dachyb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl###newsletter-subscription
 dadada.pl###newsletterPopup
-dailyweb.pl,moneygrabbing.co.uk,probasket.pl,swinoujskie.info###snppopup-welcome
+dailyweb.pl,jaworowi.cz,moneygrabbing.co.uk,probasket.pl,swinoujskie.info###snppopup-welcome
 dalchemyskincare.com###mymodlaNewsletter, .mask
 dany-meble.pl,kim.elblag.pl###myPopModal, .modal-backdrop
 darymex.pl,skarbnicapomyslow.pl,wiecznepiora.eu##[data-type-popup="newsletter"]
@@ -3396,7 +3397,7 @@ balex.eu,budujemywuk.co.uk,polska.travel,powiatowa.info,radioznin.fm,tvnakarte.e
 balterio.com,pergo.pl##.c-top
 baltyk.com,biosmaak.nl,blogspot.com,fajne.life,inzynieria.com,kapitalni.org,l37.eu,megasat.tv,showmag.info,stoicway.net,widoczni.com,www.etychy.org,www.rybnik.eu,zlomowisko.info##.scrollToTop
 barszcz.edu.pl,misericordia.media.pl##.hc_scrollup
-bartyla.pl,holisticclinic.pl,jakpicwhisky.pl,kompleksowausluga.pl##.trx_addons_scroll_to_top
+bartyla.pl,biblioteka.bydgoszcz.pl,holisticclinic.pl,jakpicwhisky.pl,kompleksowausluga.pl##.trx_addons_scroll_to_top
 baza-firm.com.pl###goTopArrow
 bdb.com.pl###powrotBT
 bekoczesci.pl###tbScrollToTop
