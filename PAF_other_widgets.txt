@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: MRaSQIn9CMnZCrDI3Ly7rA
+! Checksum: xd4l+pq+Z7VScdyrP1O2lg
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 07 Nov 2021, 19:08 UTC+01
-! Version: 2021.11.7.0
+! Last modified: Sun, 14 Nov 2021, 23:41 UTC+01
+! Version: 2021.11.14.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 07 lis 2021, 19:08 UTC+01
+! Aktualizacja: nie, 14 lis 2021, 23:41 UTC+01
 !
 !
 !
@@ -558,6 +558,7 @@ moneygrabbing.co.uk###older-nav
 moneygrabbing.co.uk##.related-wrap
 money.pl##.float.more-news
 monitor.firefox.com#?#.top-bar:-abp-has( > .join-fx-wrap)
+morele.net##.js_get-app-bar.get-app-bar
 morizon.pl##.article__offer-bar__wrapper > .bar-sticky
 motofocus.pl###ArticleInSideBox
 motormag.pl##.fa-th-large, .prev-arrow, .next-arrow
@@ -578,9 +579,11 @@ myfitnessplace.pl##.app-ico
 myspeed.pl###load.ring-loader
 m.leroymerlin.pl##.smart-app-banner
 m.pl.aliexpress.com##.download-bar
+m.sts.pl##.promo-app-download
 m.teksciory.interia.pl###bottomPromo
 m.trojmiasto.pl###floating_more_news[class*="--fixed"]
 m.youtube.com##.mealbar-promo-renderer
+m.zalando.pl#?#div > x-wrapper-re-1-12:-abp-has(div:-abp-contains(Przejdź do aplikacji))
 m.zapytaj.onet.pl##.onet-bar.bottom
 nadmorski24.pl##.popup-see-more
 naekranie.pl###prezentownik
@@ -620,6 +623,7 @@ nowiny24.pl##.article-inset
 nowiny.com.pl##.slide-right
 nowodworskiestates.pl###asystent
 noworudzianin.pl###coronabar
+ntfy.pl###comp-google-merchant
 nutrismed.pl,sklep-muzyczny.com.pl,sklep.wodna-kraina.pl###widget_shop4
 o2.pl##a[data-st-area^="ST-goToO2"], a[data-st-area^="ST-backToO2"]
 obuwiemedyczne.eu,optimedpro-office.eu,pokrowce.net,x-moto.eu##.sm-gmap
@@ -643,6 +647,7 @@ opinie-perfumy.pl##.postNavigation
 opoczno.eu##.js-toggle-list.button
 oponeo.pl###checkOrderStatus
 orange.pl##.payback-floating-sidebar__trigger
+ostatniatawerna.pl##.wp-post-nav > a > [id]
 outlook.live.com#?#div[data-skip-link-name="Przejdź do wiadomości"] > div > div > div > div > div:-abp-has( > div input.form-control[placeholder="+1 (702) 123-4567"])
 ozonee.pl###free_shiping_info, #tws_i_2
 o.pl###codemanipulator-tools
@@ -807,6 +812,8 @@ support.microsoft.com###bannerAboveUHF
 support.microsoft.com##.ng-scope.survey-background[style*="position"][style*="fixed"]
 suwalki24.pl###sideCard
 swiatbaterii.pl###growls
+swiatkwiatow.pl###cards-next-link
+swiatkwiatow.pl###cards-prev-link
 sympatia.onet.pl###iconsBar
 szkolajazdykoronamm.pl##.spjwidget-double a[href$="/szkola-jazdy-korona-mm,20821.htm?widget=register"]
 sznyt.pl##.recommended-articles
