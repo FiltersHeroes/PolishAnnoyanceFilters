@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: y6M2ULysDGg8Kv85qkzMLQ
+! Checksum: gn4i/onodR8Uq47SeGJFag
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 15 Nov 2021, 11:08 UTC+01
-! Version: 2021.11.15.0
+! Last modified: Thu, 18 Nov 2021, 11:08 UTC+01
+! Version: 2021.11.18.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 15 lis 2021, 11:08 UTC+01
+! Aktualizacja: czw, 18 lis 2021, 11:08 UTC+01
 !
 !
 !
@@ -1104,6 +1104,7 @@ nettg.pl##.section-content > .heading
 netto.pl##.newsletter-subscription
 newled.pl###footernewsletter
 newonce.net##.footer-desktop__newsletter-wrapper, .footer-desktop__right-side > h5.h5:nth-of-type(1)
+newsweek.pl#?#.pure-u-1-1 > .smallItem > .titleBox:-abp-has( ~ script ~ iframe[src*="freshmail.io"])
 newyorker.de##li > a[href="/pl/newsletter/"]
 niebezpiecznik.pl###text-3 > .widgettitle
 niebezpiecznik.pl,telewizja-cyfrowa.com##.textwidget > form
