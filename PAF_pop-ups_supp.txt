@@ -299,6 +299,9 @@ payukraine.com##.pc_withoutCommissionBanner
 pepco.pl##.modal-newsletter, .modal-backdrop
 pewex.pl##body, html:style(overflow: auto !important; margin-right: 0 !important;)
 pewex.pl###popupStart
+player.pl##body[style*="overflow"]:style(overflow: auto !important;)
+player.pl###nscorepop-wrapper, #nscorepop-content
+player.pl##+js(ra, style, body[style*="overflow"], stay)
 playstation.com##+js(acis, $, PopupManager)
 play.pl##.mobile-map-list .contact-us-modal, .mobile-map-list > .page-wrapper:before
 play.pl##.modal-open > .mobile-map-list:style(overflow: auto !important;)
