@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: k6j2DNLO8+D8JuxUmfR8tA
+! Checksum: jp6sv57uF3i4S2XLWM//dw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 21 Nov 2021, 11:08 UTC+01
-! Version: 2021.11.21.0
+! Last modified: Sun, 21 Nov 2021, 19:59 UTC+01
+! Version: 2021.11.21.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 21 lis 2021, 11:08 UTC+01
+! Aktualizacja: nie, 21 lis 2021, 19:59 UTC+01
 !
 !
 !
@@ -238,6 +238,7 @@ bitcoin.pl#?#.flex > #article > div:last-child:-abp-has( > div form label[for="e
 bithub.pl##.widget_bs-newsletter-mailchimp
 biuroprasowe.pl#?#.right-col p:nth-of-type(2) > b:-abp-contains(newsletter)
 biuroprasowe.porta.com.pl##.newsletter-home_page
+biuroprasowe.porta.com.pl##.newsletter-story_page
 biznesalert.pl,czaszegarkow.pl,fasardi.com,iexcel.pl,ladygugu.pl,prosto.pl,revouninstaller.com,sirt.pl,sklep.granna.pl,superprezenty.pl##.subscribe
 biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
 blik.com##.newsletter-iframe
@@ -573,6 +574,7 @@ europacentralna.eu,sare.pl##.nlblock
 euro.com.pl,oleole.pl#?##footer-shops > .column:-abp-contains(newsletter)
 eu.dlink.com##.newsletter-sign-up__container.container
 eveline.pl##.subscribe-to-news
+evenea.pl###subscribe-section
 eventory.cc,hegos.eu##.newsletter
 evertiq.pl##.register.index.news
 evertourist.com##div.col-md-6.col-xs-12
@@ -913,7 +915,7 @@ libra.pl##.footer-bg #block-12
 lideria.pl###box_newsletter_text_books
 liderpojezierza.pl##div.projekt65spot:nth-of-type(2) > .clear.container > .row > .col-md-12 > div.module:nth-of-type(1)
 lidl-sklep.pl###footer-newsletter-content
-lidl-sklep.pl##.footer__accordion-newsletter
+lidl-sklep.pl,lidl.pl##.footer__accordion-newsletter
 lidl.pl##.form--newsletter
 lightinthebox.com##.our-newsletters
 lightonline.pl#?#div.col-sm-6:nth-of-type(1):-abp-has(.news)
