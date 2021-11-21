@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: g0BFVFU1I2B6ow4oiCLLtw
+! Checksum: ZG3I3p6ir3C/rj3nQfqnpw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 21 Nov 2021, 19:50 UTC+01
-! Version: 2021.11.21.2
+! Last modified: Sun, 21 Nov 2021, 19:54 UTC+01
+! Version: 2021.11.21.3
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 21 lis 2021, 19:50 UTC+01
+! Aktualizacja: nie, 21 lis 2021, 19:54 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -3760,10 +3760,10 @@ legalniewsieci.pl##.float-news-nav
 lenovo.com##.backToTop
 lento.pl,restaurantguru.com###scroller
 lfspareparts724.pl##.up.move, .down.move
-lidl-sklep.pl##.btn-totop
-lidl-sklep.pl##.n-header__button__scroll__top
 lidl.pl##.totopbutton
+lidl.pl##.btn-totop
 lidl.pl##.n-footer__button__scroll__top
+lidl.pl##.n-header__button__scroll__top
 lightonline.pl##.returnTop
 lilio.pl,lumex.pl,www.biedronka.pl##.arrow-top
 limango.pl###footer-container ~ div[class*="shop"][style]
@@ -4639,7 +4639,7 @@ laserdelux.pl#?#.navbar-fixed-bottom:-abp-has(.footer-opinion.action)
 lenalighting.pl,lodzkie.pl##.jj_sl_custom1
 lento.pl##.btn-suggest
 libertex.com###sherlockWidget
-lidl-sklep.pl##.feedback-flyout__button-box
+lidl.pl##.feedback-flyout__button-box
 lightingcenter.pl,mniammniam.com,pimpmymask.pl,sklephonda.pl###o-widget-lws
 lighting.philips.pl##aside[class$="support-contact-details"]
 lightonline.pl###fixedBtn > .savBtn
