@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 4LRz8UUewu81fBiuqSvZ/Q
+! Checksum: dgHacJZMqCv+xjl1nrlQ9g
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 21 Nov 2021, 11:08 UTC+01
-! Version: 2021.11.21.0
+! Last modified: Sun, 21 Nov 2021, 19:45 UTC+01
+! Version: 2021.11.21.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 21 lis 2021, 11:08 UTC+01
+! Aktualizacja: nie, 21 lis 2021, 19:45 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -239,6 +239,7 @@ bitcoin.pl#?#.flex > #article > div:last-child:-abp-has( > div form label[for="e
 bithub.pl##.widget_bs-newsletter-mailchimp
 biuroprasowe.pl#?#.right-col p:nth-of-type(2) > b:-abp-contains(newsletter)
 biuroprasowe.porta.com.pl##.newsletter-home_page
+biuroprasowe.porta.com.pl##.newsletter-story_page
 biznesalert.pl,czaszegarkow.pl,fasardi.com,iexcel.pl,ladygugu.pl,prosto.pl,revouninstaller.com,sirt.pl,sklep.granna.pl,superprezenty.pl##.subscribe
 biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
 blik.com##.newsletter-iframe
@@ -574,6 +575,7 @@ europacentralna.eu,sare.pl##.nlblock
 euro.com.pl,oleole.pl#?##footer-shops > .column:-abp-contains(newsletter)
 eu.dlink.com##.newsletter-sign-up__container.container
 eveline.pl##.subscribe-to-news
+evenea.pl###subscribe-section
 eventory.cc,hegos.eu##.newsletter
 evertiq.pl##.register.index.news
 evertourist.com##div.col-md-6.col-xs-12
@@ -914,7 +916,7 @@ libra.pl##.footer-bg #block-12
 lideria.pl###box_newsletter_text_books
 liderpojezierza.pl##div.projekt65spot:nth-of-type(2) > .clear.container > .row > .col-md-12 > div.module:nth-of-type(1)
 lidl-sklep.pl###footer-newsletter-content
-lidl-sklep.pl##.footer__accordion-newsletter
+lidl-sklep.pl,lidl.pl##.footer__accordion-newsletter
 lidl.pl##.form--newsletter
 lightinthebox.com##.our-newsletters
 lightonline.pl#?#div.col-sm-6:nth-of-type(1):-abp-has(.news)
@@ -2050,7 +2052,7 @@ alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megas
 analizy.pl##.nl_toplayer.ui-draggable.ui-widget-content.ui-widget.ui-dialog
 android.com.pl##.social-popup
 angelgold.pl,bolix.pl##.modal
-anita-sklep.pl,ekopaka.pl,klasycznebuty.pl,lamaglama.pl,sklep-agroland.pl,strefarolnika.pl,trustmysister.com,zina.pl##.wce_popup-consolidator
+anita-sklep.pl,ekopaka.pl,klasycznebuty.pl,lamaglama.pl,sklep-agroland.pl,stalowelove.com.pl,strefarolnika.pl,trustmysister.com,zina.pl##.wce_popup-consolidator
 answear.com###popupNewsletterWrap
 apaczka.pl##.popupPromoBox
 apple-user.pl,salon2kolka.pl##.mlab-modal
@@ -2625,7 +2627,7 @@ paga.org.pl##.popup-container, .dark-bg
 pamami.pl###edrone--main--wl--container
 papilot.pl###keys-info-bg
 paranienormalni.com###newsletter_wrap_bg, .sendpress
-parenting.pl,parenting.wp.pl##.exitintent
+parenting.pl,parenting.wp.pl,portal.abczdrowie.pl##.exitintent
 parkiet.com##body > tqwidget
 paskarz.pl###popup-modal, .modal-backdrop
 patiimaks.pl,puchary-sklep.pl###shadow_layer
@@ -2776,6 +2778,7 @@ sprawdzonakuchnia.pl##.essb-optinbooster, .essb-optinbooster-overlay
 spreadshirt.pl##.show.js-promo-layer
 sprzedam.pl###api817-banner
 ssangyong.pl###hot_offer
+stalowelove.com.pl##.wce_overlay-popup
 stalremdrzwi.pl##.pum-overlay[data-popmake*="porta" i]
 stamary.pl##.fancybox-overlay-fixed
 starter.net.pl###wow-modal-overlay-1
@@ -2968,6 +2971,7 @@ zszywka.pl###inv-request-popup
 ||call.novocall.co/v1/widgets$script,domain=krainawody.pl|pij-wode.pl
 ||centrumprasowe.pap.pl/cp/pl/ajax/popup/*$xmlhttprequest
 ||claritine.pl/static/js/image_gallery/jquery.colorbox.js
+||cyclonis.com/wp-content/plugins/exit-popup/js/pl$script
 ||czarymary.pl/NewsletterPopup
 ||czerwionka-leszczyny.pl/mod/banery/top_baner_ciasteczko$xmlhttprequest
 ||daily.pl/modal/get/sticker-text
@@ -3498,6 +3502,7 @@ consumer.huawei.com##.cbg-backtotop
 cosmed24.pl##div#page ~ a#myBtn
 croatia.hr#?#.footer > .container > .row > .text-center.col-sm-12:-abp-has(.cd-top)
 ctb.com.pl,movieway.pl,oryginalnysmak.pl,phunetcom.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
+cyclonis.com,pantofelek24.pl###ScrollToTop
 czarodziejewspomnien.pl,hihome.pl###fount_to_top
 czeladz.pl,czerwionka-leszczyny.pl,powiatkepno.pl,psychologia.edu.pl,straz.gov.pl,tortydladzieci.pl###do-gory
 czescidobmw.pl##.pageToTop
@@ -3758,6 +3763,7 @@ lfspareparts724.pl##.up.move, .down.move
 lidl-sklep.pl##.btn-totop
 lidl-sklep.pl##.n-header__button__scroll__top
 lidl.pl##.totopbutton
+lidl.pl##.n-footer__button__scroll__top
 lightonline.pl##.returnTop
 lilio.pl,lumex.pl,www.biedronka.pl##.arrow-top
 limango.pl###footer-container ~ div[class*="shop"][style]
@@ -3876,7 +3882,6 @@ ox.pl##.navIcons__scroll
 p2mforum.info###uix_jumpToFixed
 pacific.org###returnButton
 panasonic.com##.pagetop
-pantofelek24.pl###ScrollToTop
 pantuniestal.com##.tgm-to-the-top
 papu.io##.footer-scroll-top
 paradise-rpg.pl,sat-4-all.com###lk_gototop
@@ -4450,7 +4455,7 @@ dodomku.pl##.btn-chat-toggle
 dolcar.auto.pl,jackvision.pl,mleczarze.pl###jz-callback-icon
 domesta.com.pl##.ask
 domiporta.pl##.chatbot
-domisad.pl,eduweb.pl,eneba.com,kappahl.com,oneskyapp.com###launcher
+domisad.pl,eduweb.pl,eneba.com,evenea.pl,kappahl.com,oneskyapp.com###launcher
 doniczki-poznan.pl##.cd-nav-trigger
 dormeo.pl,topshop.pl###slider_k2c
 dreamtours.pl###info-box
@@ -5278,6 +5283,7 @@ drivingexperience.pl###gift-slide
 drogeria-ekologiczna.pl##section.rightbar_wrap:nth-of-type(n+2):nth-of-type(-n+3)
 drogerielaboo.pl###panelmojagazetka
 drogerienatura.pl###pb
+drzwipartnerkrakow.pl##.storefront-product-pagination > a
 duzekubki.pl###sweet-fixed-box
 dyskusjebiblijne.info.pl##.guest_warn
 dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
@@ -6506,8 +6512,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2021.11.15.0
-!@ Last modified: Mon, 15 Nov 2021, 00:03 UTC+01
+!@ Version: 2021.11.21.0
+!@ Last modified: Sun, 21 Nov 2021, 19:45 UTC+01
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -6518,7 +6524,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Copyright © 2021 Certyficate IT
 !@ Copyright © 2021 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2021.11.15.0 aktualizacja: pon, 15 lis 2021, 00:03 UTC+01
+!@ v.2021.11.21.0 aktualizacja: nie, 21 lis 2021, 19:45 UTC+01
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -6725,6 +6731,7 @@ arch.kpcen.pl###colorbox
 arch.kpcen.pl,laboratoria.net###cboxOverlay
 areatour.pl,dacter.pl,dlapacjenta.pl,marbo-sport.pl,radentortodonta.pl,uni-tech.pl##div#topbar
 arena.pl#?##__next > footer ~ .MuiPaper-root:-abp-has(a[href*="Polityka-Plik%C3%B3w-Cookies"].MuiLink-root)
+are.waw.pl,ebok.asta-net.pl,studia.gov.pl##.top.ui-notificationbar
 argentointernational.pl,bilera.pl,biurotech.net.pl,brewa.pl,dekavit.pl,gdanska1.pl,jesienna.mediaprod.com.pl,kalisz.caritas.pl,lanko.pl,letniskowo.pl,opiekun.kalisz.pl,parafia-slupia.pl,parafiachynowa.pl,przp.pl,radiorodzina.kalisz.pl,technikum.kalisz.pl,tygodnikkepinski.pl##.module-abovebox[style^="position: fixed;"]
 arg.gdynia.pl,finai.pl,rankinglekarzy.pl##div > .info
 arkady.info,e-drogeria.com,krzysztonjan.com###notice_bar
@@ -7065,6 +7072,8 @@ cineman.pl,mojeekino.pl,tv-trwam.pl##div[class^="CookiePolicyInfo__container"]
 cinkciarz.pl##.c-topbar--cookie
 circleci.com,pl.ecco.com###cookiebanner
 circlek.pl###cookieboxM
+cire.pl#?##root > header ~ header ~ div[class*=" "]:-abp-has( > div div:first-child:-abp-contains(/^Informacja na stronę$/))
+cire.pl#?##root > header ~ header ~ div[class*=" "]:-abp-has( > div p:first-child:-abp-contains(/plików cookie$/))
 citibank.pl##.new-cookie
 ciuchy.zizej.pl##footer ~ div[data-hook="optanon"]
 civitas.edu.pl###cronox-cookie-notice
@@ -7295,7 +7304,6 @@ ebay.pl###gdpr-banner, .gh-banner
 ebill.pl,racezone.pl,wrozbyonline.pl###sky-cookies
 ebizneskrokpokroku.pl###notification-bar
 eblik.pl#?#.page_content_info:-abp-has(#cookie_info_max)
-ebok.asta-net.pl,studia.gov.pl##.top.ui-notificationbar
 ebok.enea.pl##.page-footer-cookie-info
 ebok.jmdi.pl,nauka.gov.pl##.ui-notificationbar.top
 ebok.macrosat.pl,ebok.tkk.net.pl##.ui-widget.ui-notificationbar
@@ -8329,6 +8337,7 @@ mzgok.com.pl###spu-bg-1867
 mzkzg.org##.cookies-container
 mzn.jastrzebie.pl#?#.sp_popup_wrap:-abp-has([href="/index.php/polityka-prywatności"])
 m.benchmark.pl###private-policy-popup
+m.ceneo.pl##.js_popupContainer.popup-container
 m.facebook.com#?##viewport > div:nth-of-type(1):-abp-has( > a:-abp-contains(cookie))
 m.facebook.com,touch.facebook.com###header-notices
 m.mapahandlu.pl#?#.ui-footer .ui-title:-abp-contains(pliki cookies)
@@ -9389,8 +9398,6 @@ oetker.*/static/js/privacy-dialog/
 ||apteki24.waw.pl/info_cook.js
 ||architektura.info/extension/pucookies/design/base/stylesheets/pu_cookies.css
 ||artkomnet.pl/wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js
-||assets.allegrostatic.com/opbox-gdpr-consent$script,stylesheet,domain=allegro.pl
-||assets.allegrostatic.com/opbox-rodo-consent$script,stylesheet,domain=allegro.pl
 ||assets.goldenline.io/assets/user/rodoAgreement.*.js
 ||asus.com/cookienotice.json$xmlhttprequest
 ||asus.com/pl/cookienotice.json$xmlhttprequest
