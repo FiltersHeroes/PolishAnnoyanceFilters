@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: RGjzUil4MJkQzufv66LX4g
+! Checksum: 79LWzSfxLpyBxEogdayJjQ
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Mon, 15 Nov 2021, 11:08 UTC+01
-! Version: 2021.11.15.0
+! Last modified: Sun, 21 Nov 2021, 19:59 UTC+01
+! Version: 2021.11.21.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 15 lis 2021, 11:08 UTC+01
+! Aktualizacja: nie, 21 lis 2021, 19:59 UTC+01
 !
 !
 ! Specyficzne reguły
@@ -231,6 +231,7 @@ consumer.huawei.com##.cbg-backtotop
 cosmed24.pl##div#page ~ a#myBtn
 croatia.hr#?#.footer > .container > .row > .text-center.col-sm-12:-abp-has(.cd-top)
 ctb.com.pl,movieway.pl,oryginalnysmak.pl,phunetcom.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
+cyclonis.com,pantofelek24.pl###ScrollToTop
 czarodziejewspomnien.pl,hihome.pl###fount_to_top
 czeladz.pl,czerwionka-leszczyny.pl,powiatkepno.pl,psychologia.edu.pl,straz.gov.pl,tortydladzieci.pl###do-gory
 czescidobmw.pl##.pageToTop
@@ -488,9 +489,10 @@ legalniewsieci.pl##.float-news-nav
 lenovo.com##.backToTop
 lento.pl,restaurantguru.com###scroller
 lfspareparts724.pl##.up.move, .down.move
-lidl-sklep.pl##.btn-totop
-lidl-sklep.pl##.n-header__button__scroll__top
 lidl.pl##.totopbutton
+lidl.pl##.btn-totop
+lidl.pl##.n-footer__button__scroll__top
+lidl.pl##.n-header__button__scroll__top
 lightonline.pl##.returnTop
 lilio.pl,lumex.pl,www.biedronka.pl##.arrow-top
 limango.pl###footer-container ~ div[class*="shop"][style]
@@ -609,7 +611,6 @@ ox.pl##.navIcons__scroll
 p2mforum.info###uix_jumpToFixed
 pacific.org###returnButton
 panasonic.com##.pagetop
-pantofelek24.pl###ScrollToTop
 pantuniestal.com##.tgm-to-the-top
 papu.io##.footer-scroll-top
 paradise-rpg.pl,sat-4-all.com###lk_gototop
@@ -722,7 +723,6 @@ skierniewice.istrefa.com##.circle.jq-elevator
 skladaniekomputera.pl##.bounce.animated.go-top
 sklepjubilerski.com##app-scroll-to-top
 sklepyinfo.pl##.direction-top.fixed-action-btn
-sklep.carrefour.pl##.components-navigation-backtotop-basic
 sklep.dafi.pl###btn_control_totop
 sklep.kobi.pl##.page-scroll
 sklep.lemoniade.pl##.btn-up-page
@@ -763,7 +763,6 @@ teletorium.pl###gototopBtn
 termodomplus.pl,tfiagro.pl##.top-arrow
 thermomix.vorwerk.pl,worldoftanks.eu##.button-top
 the-first.pl###side_social_icons > ul > li:nth-of-type(1)
-timemaster24.pl,vangraaf.com##.scroll-up-button
 tme.eu##.o-arrow-up__wrapper
 tokyomask.pl##.g5core-back-to-top
 tor-konferencje.pl##.tk-goto-top
@@ -786,6 +785,7 @@ unilink.pl##.uptotop
 unitee.pl,winforum.pl##.scrolltotop
 uroda.in##.trigger
 valtra.pl##.sticky-footer__back-to-top
+vangraaf.com##.scroll-up-button
 vanpur.com.pl###scroll_arrow
 vdrevne.store##.tbbottom-to-top
 velux.pl###ReturnToTop
