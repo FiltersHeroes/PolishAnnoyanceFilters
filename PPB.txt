@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ZG3I3p6ir3C/rj3nQfqnpw
+! Checksum: w+pyEuLS6Ei0s3W+FggV5A
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 21 Nov 2021, 19:54 UTC+01
-! Version: 2021.11.21.3
+! Last modified: Mon, 22 Nov 2021, 11:08 UTC+01
+! Version: 2021.11.22.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 21 lis 2021, 19:54 UTC+01
+! Aktualizacja: pon, 22 lis 2021, 11:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -485,6 +485,8 @@ drogeriepolskie.pl##.footer-newsletter-area
 drogerium.pl##.newsletterek
 drogowskazykariery.pl##.module_column_5-11-3.module_column_3.tb_5_column.module_column.last.col4-1.tb-column
 dronexpert.eu##div.BoxRwdUkryj:nth-of-type(8)
+drtusz.pl#?#table.ramka_sklep table[width="98%"] table table.infoBoxContents_Box table table tr form[action="newsletters_subscribe_checkout.php"]
+drtusz.pl#?#table.ramka_sklep table[width="98%"] table table.infoBoxContents_Box table table tr h4:-abp-contains(na nasz newsletter)
 drtusz.pl#?#.infoBoxContents tr:has( > td > a[href*=".com/"][target])
 drzwicallublin.pl#?#.wellcome-text:-abp-has(.contactForm)
 dts24.pl,swiatdronow.pl,wielkahistoria.pl##.widget_mailpoet_form
