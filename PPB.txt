@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: qb4YRLLtpvS9sFNTgx1Fgw
+! Checksum: kGJQV+G9AVXVcEr6rW989w
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 27 Nov 2021, 11:08 UTC+01
-! Version: 2021.11.27.0
+! Last modified: Sat, 27 Nov 2021, 23:29 UTC+01
+! Version: 2021.11.27.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 27 lis 2021, 11:08 UTC+01
+! Aktualizacja: sob, 27 lis 2021, 23:29 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -3245,9 +3245,10 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.p
 bezpiecznystrazak.pl##.video_zminimalizowane
 claudia.pl,elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
 codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
+czasdzieci.pl##.pushNews[class*="section"]
 deccoria.pl##.dc-floatingvideo__wrapper[class*="fixed"]
-dziennik.pl,forsal.pl,gazetaprawna.pl##.video.widget > .videoScroll, .closeVideoBtn
-dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.videoScrollClass[style*="min-height:"]:not([style*="auto"])
+dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
+dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video.widget > .videoScroll, .closeVideoBtn
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 filmweb.pl##.isPinned.videoPlayer
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
@@ -4370,6 +4371,7 @@ bilgorajska.pl##.pod_feedback
 bilgorajska.pl,bobbyburger.pl,godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
 biskvit.pl,choinkowo.pl,olini.pl,pluszowasowa.pl,wearethecoffee.com###appReviewsWidgetWrapper
 bitrix24.pl,kegel-aj.com,upominki24.pl,webiso.pl##div[class*="-widget-button-wrapper"]
+biznes.gov.pl,decathlon.pl,dollarro.com,mediaexpert.pl,uniqa.pl,vox.pl###InteliwiseSaaSModule_win_wrapper
 bizuteria-eshop.pl###IMS_box1
 blendberg.com###collect-chat-launcher-container
 blinkee.city,expose.pl###ue_widget > #ue_launcher
@@ -4440,7 +4442,6 @@ d24h.pl###zaufane_opinie_widget
 dbcenter.pl,zizako.pl###widget_shop3
 ddd.com.pl###meeting
 debowewzgorze.eu,diamentustron.pl,szarotka.eu,warsawdowntown.pl##iframe[name="ca-review-widget"]
-decathlon.pl,dollarro.com,mediaexpert.pl,uniqa.pl,vox.pl###InteliwiseSaaSModule_win_wrapper
 decathlon.pl,eltrox.pl,globtroter.pl,gomez.pl,renee.pl###yourcx_blk
 deccomeble.pl##[href="http://www.deccomeble.pl/kontakt"]
 decoliving.pl###swifttagdatacontaineraha9azkq59 > div > .hide_on_mobile
