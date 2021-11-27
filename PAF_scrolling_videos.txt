@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: +WEUVPz8IjjhedOnBrl2qw
+! Checksum: 0sP0BHtGjS4oQ4RUvyUPwQ
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sat, 27 Nov 2021, 11:08 UTC+01
-! Version: 2021.11.27.0
+! Last modified: Sat, 27 Nov 2021, 23:29 UTC+01
+! Version: 2021.11.27.1
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 27 lis 2021, 11:08 UTC+01
+! Aktualizacja: sob, 27 lis 2021, 23:29 UTC+01
 !
 !
 !
@@ -25,9 +25,10 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.p
 bezpiecznystrazak.pl##.video_zminimalizowane
 claudia.pl,elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
 codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
+czasdzieci.pl##.pushNews[class*="section"]
 deccoria.pl##.dc-floatingvideo__wrapper[class*="fixed"]
-dziennik.pl,forsal.pl,gazetaprawna.pl##.video.widget > .videoScroll, .closeVideoBtn
-dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.videoScrollClass[style*="min-height:"]:not([style*="auto"])
+dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
+dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video.widget > .videoScroll, .closeVideoBtn
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 filmweb.pl##.isPinned.videoPlayer
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
