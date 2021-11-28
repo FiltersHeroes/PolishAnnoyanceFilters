@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Hmb0/6oCdXi2ME1HXNKvxQ
+! Checksum: kz3+eKqVWPsrVP+eaNrnhg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 28 Nov 2021, 03:30 UTC+01
+! Last modified: Sun, 28 Nov 2021, 19:08 UTC+01
 ! Version: 2021.11.28.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 28 lis 2021, 03:30 UTC+01
+! Aktualizacja: nie, 28 lis 2021, 19:08 UTC+01
 !
 !
 !
@@ -124,7 +124,7 @@ amrest.eu###block-simplenews-1
 amso.pl###f_newsletter .f_form
 amw.com.pl##.footer-top__newsletter.footer-top__box
 analizy.pl##.nl-wrapper
-andrzejgrzyb.eu##.widget_newsletterwidget
+andrzejgrzyb.eu,autorskielegalnie.pl##.widget_newsletterwidget
 andzela.com##.newsletter_block_right
 angielski-przedszkole.pl###rstbox_7.rstbox_top-right
 aniastarmach.pl,cinema3d.pl,festool.pl,inspirander.pl,leddo.pl,lexlab.pl,medicalclinic.pl,pl.tommy.com##.newsletter-footer
@@ -1562,6 +1562,7 @@ surojadek.com##.formkit-form.seva-form
 suwalki24.pl###content_right > .box:nth-of-type(7)
 suwalki24.pl##.box:nth-of-type(5)
 suwalszczyzna.com.pl##.widget_recent_news
+swappie.com##.newsletter-subscription-box
 sweetliving.pl##.llg_footer_col_three.col-sm-3 > h4:nth-of-type(1), #llg_newsletter
 swiatbaterii.pl##div.col-md-4:nth-of-type(3) > div:nth-of-type(1)
 swiatkoszy.eu##.footer-newsletter > .container > div.row:nth-of-type(1)
@@ -1876,17 +1877,6 @@ zus.pox.pl##.moduletable:nth-of-type(5)
 zwierciadlo.pl##.post.boksborder > aside.boxappla:nth-of-type(1)
 zyciepabianic.pl###col1 > .widget:nth-of-type(3)
 zyciepabianic.pl###widget-newsletter
-!decathlon.pl###footer div[class*="column"]:nth-of-type(3) .ct-appBox
-!farmer.pl##.v3.ntabs > li:nth-child(-n+1)
-!farmer.pl#?#.v2.greyBox > .panes:-abp-contains(Newsletter)
-!polska-zbrojna.pl##iframe[id^="fm-"][src*="freshmail.io"]
-!rynekaptek.pl###socialBox > .panes
-!rynekaptek.pl###socialBox > .navi > .active
-!rynekzdrowia.pl###menu-1 .inline > li:nth-of-type(1)
-!rynekzdrowia.pl###socialBox > .panes
-!rynekzdrowia.pl#?##socialBox > .panes:-abp-contains(Newsletter)
-!vivrehome.pl##footer div.py-md-5:nth-of-type(1)
-!wei.org.pl#?#.et_pb_section:-abp-has(div > iframe[src*="//forms.freshmail.io/"])
 ||4prm.pl/*/4p_newsletter.jpg
 ||a-ajurweda.pl/images/layout/ajurweda/newsletter_ajurweda.png
 ||biuroprasowe.pl/userfiles/_CMS_/EPR3/baner_newsletter.jpg
