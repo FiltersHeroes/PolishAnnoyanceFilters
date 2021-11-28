@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: kGJQV+G9AVXVcEr6rW989w
+! Checksum: H13FvFIp5t8pMg2C3jU62w
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 27 Nov 2021, 23:29 UTC+01
-! Version: 2021.11.27.1
+! Last modified: Sun, 28 Nov 2021, 03:30 UTC+01
+! Version: 2021.11.28.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 27 lis 2021, 23:29 UTC+01
+! Aktualizacja: nie, 28 lis 2021, 03:30 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -142,7 +142,7 @@ apartamentywkarpaczu.eu##.site-footer__email
 apetete.pl##.footer__block__payment.footer__block > .footer_container
 apollo.pl##.newsletter-block-container
 apshop24.eu###newsletter-bar
-aptekagemini.pl##.footer__subscription
+aptekagemini.pl,gemini.pl##.footer__subscription
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href$="/Newsletter_akcept/"]
 apteline.pl##.footer__connect-newsletter
 architektura.info###PopupSignupForm_0
@@ -2375,6 +2375,7 @@ info-przetargi.pl##.touch-callback, .touch-callback-bg
 inkbook.pl##.custom__item-inner div[id].powrLoaded.powr-popup
 inpost.pl###popup-message-window, #popup-message-background
 inspro.org.pl##.freshmail_dialog.ui-widget.ui-dialog, .ui-widget-overlay
+instalki.pl##.powr-popup
 instytutlogopedyczny.pl##.pytajnik
 instytutsprawobywatelskich.pl###modalWesprzyj
 interia.pl##.error-page-layer
@@ -3247,8 +3248,8 @@ claudia.pl,elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.
 codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 czasdzieci.pl##.pushNews[class*="section"]
 deccoria.pl##.dc-floatingvideo__wrapper[class*="fixed"]
+dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
 dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
-dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video.widget > .videoScroll, .closeVideoBtn
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 filmweb.pl##.isPinned.videoPlayer
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
@@ -3379,7 +3380,7 @@ antywirus.biz,bonturystyczny.polska.travel,gino-rossi.com,luba-group.com,motopoz
 aparaty-sluchowe.info,komputeria.eu###totop
 apollo.pl##.tt-scroll-up
 apo-discounter.pl###page_up_button
-aptekagemini.pl,douglas.pl##.scroll-to-top-button
+aptekagemini.pl,douglas.pl,gemini.pl##.scroll-to-top-button
 aptekaolmed.pl###btn-going-top
 apteline.pl,bebiklub.pl,itcontent.eu,piu.org.pl,quiosque.pl,selectivv.com##.scroll-top-button
 aquaelzoo.pl,orsay.com##.material-scrolltop
@@ -4159,6 +4160,7 @@ zszywka.pl###scroolToTop
 ~cm-silesia.pl,~gafka.pl,~katowice.pl,pl,~proxima.pl,~wroc.pl##.fa-angle-double-up
 ~deweloper-interes.pl,pl###back_to_top
 ~ifirma.pl,pl##.dogory
+~mediaexpert.pl,pl##.scroll-down:not(body):not(html)
 ~obi.pl,pl##.scrollup:not(body):not(html)
 ~pl##a#backTop:lang(pl)
 ~pl###back-top:lang(pl)
@@ -4249,7 +4251,6 @@ pl##.penci-go-to-top-floating
 pl##.scrollTop:not(body):not(html):not(header):not(.row)
 pl##.scrolltop:not(body):not(html):not(header):not(.row)
 pl##.scroll-back
-pl##.scroll-down:not(body):not(html)
 pl##.scroll-top-inner
 pl##.scroll-top-wrapper:not(body):not(html)
 pl##.scroll-top:not(body):not(html)
@@ -4276,7 +4277,7 @@ pl,~studioatrium.pl###back-to-top
 !
 !
 ! Tła zawierające autoreklamy
-aptekagemini.pl##.background-advertisement
+aptekagemini.pl,gemini.pl##.background-advertisement
 boleslawiec.tv,bydgoszcz.com,echotygodnik.info,halogorlice.info,korso24.pl,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl##.bgad
 czarymary.pl###checkWidthFullMain1
 czary.pl###klikalne_tlo_calosci a[href="https://sklepmagiczny.pl/pl/p/Astrologia-mundalna/88"]
@@ -4289,7 +4290,7 @@ taniaksiazka.pl##.fixed-below-container > .fixed-below > .OpenXAds
 terazprudnik.pl##.backstretch > img.td-backstretch
 topmarkety.pl###banner-sponsorski
 www.yahoo.com###app > div > div > div > #YDC-MainCanvas > a[href="https://www.yahoo.com/"]
-!aptekagemini.pl##.container_left_box, .container_right_box
+!aptekagemini.pl,gemini.pl##.container_left_box, .container_right_box
 ||3kropki.pl/i/varia/*_3kropki_screening_pop.jpg
 ||e-stargard.pl/_upload/background.png
 ||mediaexpert.pl/temp/filemanager_up/*_tlo.jpg
@@ -5123,7 +5124,7 @@ aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
 applemobile.pl##.cactus-post-suggestion > .post-suggestion-content
 aprmedia.pl##.et_bloom_header_outer
 apsdata.pl###slide_box
-aptekagemini.pl##swiper-carousel[class*="adserver"]
+aptekagemini.pl,gemini.pl##swiper-carousel[class*="adserver"]
 archonhome.pl,pizzapelati.pl###musli
 arkady.info##.repository.side_widget
 arminar.pl,doniczki-poznan.pl,odpady.chorzow.eu,sare.pl###preloader
@@ -5990,7 +5991,7 @@ ztm.gda.pl###mobile
 zyciepabianic.pl##.paper
 z-hotel.com###repuso_floating
 !abczdrowie.pl,fotoblogia,gadzetomania.pl,parenting.pl,autokult.pl,wp.pl,o2.pl##a[data-st-area="back-WP"], div[class]:not([id]) > a[data-st-area][style^="background:"][href="https://www.wp.pl"]
-!aptekagemini.pl##.vue_bannery_25
+!aptekagemini.pl,gemini.pl##.vue_bannery_25
 !interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl,esporter.pl###primary_recommend_block.recommend-block
 !pachnidelko.pl###socialproofContainer
 !pl.vivre.eu##.app-banner
