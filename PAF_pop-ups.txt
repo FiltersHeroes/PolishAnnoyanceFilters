@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: GMlYsaOGACPqKKlR5X0WqQ
+! Checksum: uIiik7/UToz0dVDX3nu3vA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 28 Nov 2021, 19:08 UTC+01
+! Last modified: Sun, 28 Nov 2021, 20:53 UTC+01
 ! Version: 2021.11.28.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 28 lis 2021, 19:08 UTC+01
+! Aktualizacja: nie, 28 lis 2021, 20:53 UTC+01
 !
 !
 !
@@ -32,7 +32,7 @@ aba-sport.pl,autochemia.pl,awangardashoes.com,bogulandia.pl,californiaskateshop.
 abcfirany.pl,kochamzabawki.eu###InfoNewsletterOkno, #InfoNewsletter
 accent-bikes.com###lang_popup
 activeshop.com.pl##.popupid21
-ac.com.pl,actaenergetica.org,atomstore.pl,ccnews.pl,deku.pl,holum.pl,jagiellonski.pl,l37.eu,meczelive.pl,meczelive.tv,meczenazywo.pl,mutyzm.org.pl,platan.pl,portalmorski.pl,regalka.pl,rejs.eu,rozsadnibracia.pl,secretlashes.pl,sukcesja.eu,teatrsyrena.pl,uczyibawi.pl,wokolmotoryzacji.pl###fm-pu-container
+ac.com.pl,actaenergetica.org,atomstore.pl,ccnews.pl,deku.pl,holum.pl,jagiellonski.pl,l37.eu,meczelive.pl,meczelive.tv,meczenazywo.pl,mutyzm.org.pl,platan.pl,portalmorski.pl,regalka.pl,rejs.eu,rozsadnibracia.pl,secretlashes.pl,sukcesja.eu,teatrsyrena.pl,uczyibawi.pl,wokolmotoryzacji.pl,yenn.eu###fm-pu-container
 adamkuncicki.pl###listfusion_popup_lightbox_main
 adamspa.pl,alkalicznystylzycia.com,angelius.pl,elektoralna.pl,horeca.ban-food.pl,hospicjum-podkarpackie.pl,inspiringsolutions.pl,kompleksowausluga.pl,passion.pl,qagile.pl##.ppsPopupShell, #ppsPopupBgOverlay
 addhost.pl##.fsp-wrapper
@@ -68,6 +68,7 @@ aleleki.pl#?##fancybox-wrap:-abp-has(a[href="https://www.powerbiotic.pl/covid-19
 aleleki.pl,florini.pl###fancybox-overlay
 aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
 aliexpress.com##.coupon-poplayer-modal
+allegro.pl##div[data-box-name="modalBW"]
 allmedica.pl###modalbox-1, .modalbox-overlay
 alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megasport.com,ksiegarnia-edukacyjna.pl,malowanebiela.pl,megazoologiczny.pl,surgepolonia.pl###tws_i_100000, #topLayerBackDrop
 analizy.pl##.nl_toplayer.ui-draggable.ui-widget-content.ui-widget.ui-dialog
@@ -941,8 +942,15 @@ zszywka.pl###inv-request-popup
 /js/popup.js$domain=grawitacyjny.pl|meblohaus.pl|mediaexpert.pl|multikurs.pl|slimebox.pl
 /media/system/js/modal.js$domain=gminamoszczenica.eu|nowawrzesnia.pl|perfectdating.pl
 /plugins/easy-facebook-likebox/*$domain=tvkrosno.pl
-/pum-site-scripts-$domain=topplant.pl
-/pum-site-scripts.$domain=topplant.pl
+/pum-site-scripts-$domain=azbudownictwo.com|takemehome.pl|topplant.pl|tova.pl
+/pum-site-scripts-$domain=prezeska.pl|topplant.pl
+/pum-site-scripts.js$domain=wpdesk.pl
+/pum-site-scripts.$domain=azbudownictwo.com|takemehome.pl|topplant.pl|tova.pl
+/pum-site-scripts.$domain=prezeska.pl|topplant.pl
+/pum-site-styles-$domain=azbudownictwo.com|takemehome.pl|tova.pl|wpdesk.pl
+/pum-site-styles-$domain=prezeska.pl|topplant.pl
+/pum-site-styles.$domain=azbudownictwo.com|takemehome.pl|tova.pl|wpdesk.pl
+/pum-site-styles.$domain=prezeska.pl|topplant.pl
 /wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
 /wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js$domain=jednoslad.pl
@@ -956,7 +964,6 @@ zszywka.pl###inv-request-popup
 /wp-content/plugins/popup-builder/public/sound/*$media,object,domain=polska-ie.com
 /wp-content/plugins/popup-maker/assets/js/site.min.js$domain=stressfree.pl|xportal.pl
 /wp-content/plugins/wordpress-popup/js/public.min.js$domain=dobremiejsce.org|kwiaciarnia-rikka.pl
-/wp-content/uploads/pum/pum-site-scripts.js$domain=azbudownictwo.com|takemehome.pl|tova.pl
 /wp-includes/js/backbone.min.js$script,~third-party,domain=expander.pl
 ||adeste.eu/wp-content/plugins/convertplug/modules/modal/assets/css/modal.min.css
 ||apaczka.pl/theme/default/lightbox.min.css
@@ -1015,7 +1022,6 @@ zszywka.pl###inv-request-popup
 ||popups.landingi.com/api/v2/website/add-popups$xmlhttprequest,domain=marketplanet.pl
 ||popup.bitdefender.pl^$popup,subdocument
 ||portalhodowcy.pl/plugins/system/jcemediabox/themes/standard/popup.html
-||prezeska.pl/wp-content/uploads/pum/pum-site-styles.css
 ||prohibita.pl/addons/welcome/welcome.js
 ||proto.pl/popup_newsletter/settings
 ||regus.pl/Home/OnExitModal$xmlhttprequest
