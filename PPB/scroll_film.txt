@@ -8,8 +8,6 @@ codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,
 czasdzieci.pl##.pushNews[class*="section"]
 deccoria.pl##.dc-floatingvideo__wrapper[class*="fixed"]
 dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.videoScroll, .closeVideoBtn
-!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
-!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 filmweb.pl##.isPinned.videoPlayer
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
@@ -42,6 +40,8 @@ tvp.info##.mini-player-container
 webcamera.pl##.bigcam.floating-player > div > .fullscreen-wrap
 webcamera.pl##.floating-player #player, #float-box, .float-box
 wrc.net.pl##.sticky-video.sticky.is-stuck
+!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
+!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
 ||ppstatic.pl/js/floating-video/floatingVideo.js
 ||ppstatic.pl^*/article/sticky-video.js
 ||ppstatic.pl^*/article/top-sticky-video-mobile.js
