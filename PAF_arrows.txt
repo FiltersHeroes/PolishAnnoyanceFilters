@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 79LWzSfxLpyBxEogdayJjQ
+! Checksum: xo8VBVqKs/rjmNWXv4Ksfw
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 21 Nov 2021, 19:59 UTC+01
-! Version: 2021.11.21.1
+! Last modified: Sun, 28 Nov 2021, 03:30 UTC+01
+! Version: 2021.11.28.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 21 lis 2021, 19:59 UTC+01
+! Aktualizacja: nie, 28 lis 2021, 03:30 UTC+01
 !
 !
 ! Specyficzne reguły
@@ -103,7 +103,7 @@ antywirus.biz,bonturystyczny.polska.travel,gino-rossi.com,luba-group.com,motopoz
 aparaty-sluchowe.info,komputeria.eu###totop
 apollo.pl##.tt-scroll-up
 apo-discounter.pl###page_up_button
-aptekagemini.pl,douglas.pl##.scroll-to-top-button
+aptekagemini.pl,douglas.pl,gemini.pl##.scroll-to-top-button
 aptekaolmed.pl###btn-going-top
 apteline.pl,bebiklub.pl,itcontent.eu,piu.org.pl,quiosque.pl,selectivv.com##.scroll-top-button
 aquaelzoo.pl,orsay.com##.material-scrolltop
@@ -883,6 +883,7 @@ zszywka.pl###scroolToTop
 ~cm-silesia.pl,~gafka.pl,~katowice.pl,pl,~proxima.pl,~wroc.pl##.fa-angle-double-up
 ~deweloper-interes.pl,pl###back_to_top
 ~ifirma.pl,pl##.dogory
+~mediaexpert.pl,pl##.scroll-down:not(body):not(html)
 ~obi.pl,pl##.scrollup:not(body):not(html)
 ~pl##a#backTop:lang(pl)
 ~pl###back-top:lang(pl)
@@ -973,7 +974,6 @@ pl##.penci-go-to-top-floating
 pl##.scrollTop:not(body):not(html):not(header):not(.row)
 pl##.scrolltop:not(body):not(html):not(header):not(.row)
 pl##.scroll-back
-pl##.scroll-down:not(body):not(html)
 pl##.scroll-top-inner
 pl##.scroll-top-wrapper:not(body):not(html)
 pl##.scroll-top:not(body):not(html)
