@@ -198,7 +198,7 @@ kobiecareaktywacja.pl##.fancybox-overlay-fixed.fancybox-overlay
 kocmyrzow-luborzyca.ug.gov.pl###modal-1074, .modal-backdrop
 kofiup.pl###giftModal, .modal-backdrop
 kolobrzeg.pl##.popup, #popup-bg
-kolobrzeg.pl##.popup_active:style(overflow: auto !important;)
+kolobrzeg.pl,tluszcz.pl##.popup_active:style(overflow: auto !important;)
 konin.pl###myModal, #myModal ~ .modal-backdrop
 kontigo.com.pl,macris.com.pl###newsletter-popup
 kosapopatelni.pl##html:style(overflow: auto !important;)
@@ -409,6 +409,7 @@ szkla.com##.modals-wrapper
 teatr-sabat.pl##.bootbox
 teletorium.pl##body.pop_open:style(overflow: visible !important;)
 teletorium.pl###pop
+tluszcz.pl##[id*="img"].popup, #popup-bg
 topplant.pl###pum-2168
 tpa-group.pl###PopupModal, .modal-backdrop
 truphone.com##.blur-out:style(filter: none !important;)
@@ -530,6 +531,7 @@ drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl##^#modal-welcome
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 intermarche.pl##^div[style="display:none"]:has(a[class="wplightbox"])
+it.tarnow.pl##^script:has-text(livingModal)
 kursszybkiegoczytania.pl##^.et_bloom_popup[data-idle_timeout]
 lento.pl##^footer ~ script:has-text(showNotify())
 lookcam.com##^#lookcam-fb-modal
@@ -569,6 +571,7 @@ drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl$$#modal-welcome
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
+it.tarnow.pl$$script[tag-content="livingModal"]
 lento.pl$$script[tag-content="showNotify()"]
 lookcam.com$$#lookcam-fb-modal
 makarun.pl$$.makarun-modal
