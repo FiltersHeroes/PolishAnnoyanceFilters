@@ -113,20 +113,13 @@ wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:s
 wandermap.net###sidebar[style]:style(max-width: 390px)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
-youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer):remove()
-youtube.com##ytd-rich-grid-row > #contents:first-child, ytd-rich-grid-row > #contents:first-child ytd-rich-grid-media:style(max-width: unset !important;)
-youtube.com##ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important;)
+www.youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer):remove()
+www.youtube.com##ytd-rich-grid-row > #contents:first-child, ytd-rich-grid-row > #contents:first-child ytd-rich-grid-media:style(max-width: unset !important;)
+www.youtube.com###contents:first-child > ytd-rich-grid-row:first-child:style(--ytd-rich-grid-items-per-row: 1 !important;)
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
 zapytaj.onet.pl##.profile-actions > .music
-!download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;)
-!download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
-!mobileclick.pl##body[class*="post"] #content ~ #content:remove()
-!m.youtube.com##+js(aeld, visibilitychange, [native code])
-!pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
-!pomponik.pl##^div[class="topbar-container"], a[class="common-header__interia-back-button"]
-!spolem.katowice.pl##html > body:style(overflow-x: visible !important;)
 !telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item
 !telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item:remove()
 !telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll
