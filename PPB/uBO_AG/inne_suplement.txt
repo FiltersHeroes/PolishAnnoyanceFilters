@@ -114,7 +114,7 @@ webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; pa
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
 www.youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer):remove()
 www.youtube.com##ytd-rich-grid-row > #contents:first-child, ytd-rich-grid-row > #contents:first-child ytd-rich-grid-media:style(max-width: unset !important;)
-www.youtube.com##ytd-rich-grid-row:has(> #contents:first-child):style(--ytd-rich-grid-items-per-row: 1 !important;)
+www.youtube.com###contents:first-child > ytd-rich-grid-row:first-child:style(--ytd-rich-grid-items-per-row: 1 !important;)
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
