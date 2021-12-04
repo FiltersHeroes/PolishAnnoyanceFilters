@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XT/4nz49o+ljPzxSWai9qw
+! Checksum: qwAGjNXV45GK6ZGpljHbtg
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 30 Nov 2021, 11:08 UTC+01
-! Version: 2021.11.30.0
+! Last modified: Sat, 04 Dec 2021, 23:29 UTC+01
+! Version: 2021.12.4.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 30 lis 2021, 11:08 UTC+01
+! Aktualizacja: sob, 04 gru 2021, 23:29 UTC+01
 !
 !
 !
@@ -908,6 +908,7 @@ www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?##islrg div.isv-r:-abp-has( > div[class] > div[class] > div[class]:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania)$/))
 www.google.com,www.google.pl#?##rg div.irc-nic.irc-igr:-abp-has( > div[class] > div[class] > div:not([class]):-abp-contains(/^Po(dobne|pular)ne (strony|wyszukiwania)$/))
+www.onet.pl##.backToMainPage
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
 www.pekao.com.pl##body.loader:before, body.loader:after
 www.porta.com.pl##.side_home_slider_pl
