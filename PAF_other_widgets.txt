@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: DJU6xTnDAFn+nKt8XYydGA
+! Checksum: rPpiCkclZOKq5wBx2/IoHQ
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Mon, 06 Dec 2021, 11:08 UTC+01
-! Version: 2021.12.6.0
+! Last modified: Tue, 07 Dec 2021, 11:08 UTC+01
+! Version: 2021.12.7.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 06 gru 2021, 11:08 UTC+01
+! Aktualizacja: wto, 07 gru 2021, 11:08 UTC+01
 !
 !
 !
@@ -29,7 +29,7 @@
 123budujemy.pl,francuskie.pl,mediarun.com,petronews.pl,skandynawiainfo.pl,slaskczyta.pl##.jeg_popup_post
 51015kids.eu##.sp-custom-19-1.insBlueWidget
 aaaauto.pl##.noprint.careerLink
-abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##a[data-st-area^="backTo" i], a[data-st-area^="goToSG" i]
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##a[data-st-area*="backTo" i], a[data-st-area*="goToSG" i]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[data-st-area="st-header-darkmode"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##.backToWp, .btn__back-to-wp, .footer-back-link, .wp-pl-redirect
@@ -327,8 +327,9 @@ forum-bron.pl,trumpeters.pl###tt_mobile_banner
 forum.android.com.pl##.ipsMessage_information.ipsMessage.cAnnouncementPageTop
 forum.dobreprogramy.pl##.header-cloak
 forum.duolingo.com##.GB_SB
-forum.gram.pl#?#.cTopicPostArea > .ipsPad.ipsType_center:-abp-contains(Utwórz konto lub zaloguj się, aby skomentować)
+forum.gram.pl#?#.cTopicPostArea:-abp-contains(Utwórz konto lub zaloguj się, aby skomentować)
 forum.muratordom.pl###left_circus > .dostepne_mobile
+forum.optymalizacja.com#?#.cTopicPostArea:-abp-has(.cGuestTeaser)
 forum.swiateczne.info##.av-preloader-box
 freelancer.pl###fixed-banner
 fronda.pl##.slided-article
