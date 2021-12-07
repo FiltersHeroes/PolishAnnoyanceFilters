@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Bv+irDFLIW7n8dpvXNGGNQ
+! Checksum: 62+I6MT/zOMvOV6tcSvNiw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 06 Dec 2021, 11:08 UTC+01
-! Version: 2021.12.6.0
+! Last modified: Tue, 07 Dec 2021, 11:08 UTC+01
+! Version: 2021.12.7.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 06 gru 2021, 11:08 UTC+01
+! Aktualizacja: wto, 07 gru 2021, 11:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -1921,7 +1921,7 @@ zyciepabianic.pl###widget-newsletter
 !
 !
 ! Newslettery (nie popupy) - ogólne reguły
-~audio.com.pl,~karta.org.pl,~leroymerlin.pl,~lp.al.to,~lp.x-kom.pl,~pap-mediaroom.pl,pl,~poczta.wp.pl,~znak.com.pl##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input)
+~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.al.to,~lp.x-kom.pl,~pap-mediaroom.pl,pl,~poczta.wp.pl,~znak.com.pl##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input)
 ~aurum-optics.pl,pl##.footer-newsletter
 ~automatykab2b.pl,pl##.newsletter-box
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
@@ -2721,6 +2721,7 @@ siatka.org##.scroll-top-wr
 siligan.pl###blackout
 siligan.pl###contentWindow
 sillydesign.pl###blanket, #popUpDiv
+siriuspro.pl###sp-newsletter-popup-bg
 sjp.pwn.pl,slowniki.pwn.pl###floater
 sklepbaterie.pl##.wyskakujacypopup
 sklepdrapieznik.pl###backgroundPopup, #toPopup
@@ -2894,6 +2895,7 @@ zblogowani.pl###more-posts-modal
 zegarki-online.pl###InfoNewsletter, #InfoNewsletterOkno
 zene.pl###closepopup
 zielonagrupa.pl##.et_bloom_auto_popup.et_bloom_popup
+zielonalinia.gov.pl##.popup-portlet[id]
 zielonyogrodek.pl###newsletter-pp
 zielonyogrodek.pl##.popup-welcome
 zimorodek.pl##.body-layer
@@ -3971,6 +3973,7 @@ shell.pl##.site-footer__back-to-top
 shopalike.pl###totop-btn
 shoperia.pl##.scrollTopTrigger
 sip.lex.pl##.wk-back-to-top-button
+siriuspro.pl###sp-scroll-to-top-button
 skierniewice.istrefa.com##.circle.jq-elevator
 skladaniekomputera.pl##.bounce.animated.go-top
 sklepjubilerski.com##app-scroll-to-top
@@ -4671,6 +4674,7 @@ mtp.pl###mtp-chat
 multilampy.pl##.ceneo
 multimed.pl###call-me
 multinorfinans.no##.mod-contact-widget
+murapol.pl###webchat
 muzykanawesela.pl###sugeester
 myjki.com###zamow-rozmowe-btn, #lhc_status_container
 myownconference.pl##.fzom
@@ -4802,6 +4806,7 @@ siligan.pl##.widget_contact
 simplyyourself.online###beacon-container iframe
 sip.lex.pl###fixed-sugester
 siriuspro.pl##.contact-float
+siriuspro.pl##.sp-contact-scroll__div
 sklephonda.pl###phone_widget
 sklepsportowy.pila.pl###fc_frame
 sklep-agrohandel.pl##.contact_email
@@ -5049,7 +5054,7 @@ pl##.quickcontact-box
 123budujemy.pl,francuskie.pl,mediarun.com,petronews.pl,skandynawiainfo.pl,slaskczyta.pl##.jeg_popup_post
 51015kids.eu##.sp-custom-19-1.insBlueWidget
 aaaauto.pl##.noprint.careerLink
-abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##a[data-st-area^="backTo" i], a[data-st-area^="goToSG" i]
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##a[data-st-area*="backTo" i], a[data-st-area*="goToSG" i]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[data-st-area="st-header-darkmode"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##.backToWp, .btn__back-to-wp, .footer-back-link, .wp-pl-redirect
@@ -5347,8 +5352,9 @@ forum-bron.pl,trumpeters.pl###tt_mobile_banner
 forum.android.com.pl##.ipsMessage_information.ipsMessage.cAnnouncementPageTop
 forum.dobreprogramy.pl##.header-cloak
 forum.duolingo.com##.GB_SB
-forum.gram.pl#?#.cTopicPostArea > .ipsPad.ipsType_center:-abp-contains(Utwórz konto lub zaloguj się, aby skomentować)
+forum.gram.pl#?#.cTopicPostArea:-abp-contains(Utwórz konto lub zaloguj się, aby skomentować)
 forum.muratordom.pl###left_circus > .dostepne_mobile
+forum.optymalizacja.com#?#.cTopicPostArea:-abp-has(.cGuestTeaser)
 forum.swiateczne.info##.av-preloader-box
 freelancer.pl###fixed-banner
 fronda.pl##.slided-article
