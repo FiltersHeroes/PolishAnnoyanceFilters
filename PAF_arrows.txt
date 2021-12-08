@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 0uqs7XXCWv5U3VEHozVwsw
+! Checksum: 07wZgmwjuT3y8venyULNxA
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Tue, 07 Dec 2021, 11:08 UTC+01
-! Version: 2021.12.7.0
+! Last modified: Wed, 08 Dec 2021, 06:53 UTC+01
+! Version: 2021.12.8.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 07 gru 2021, 11:08 UTC+01
+! Aktualizacja: śro, 08 gru 2021, 06:53 UTC+01
 !
 !
 ! Specyficzne reguły
@@ -995,6 +995,8 @@ pl##.w-toplink
 pl##.z-navigation-footer_backToTop
 pl,~studioatrium.pl###back-to-top
 ##button[aria-label="Przejdź do góry"]
+##footer ~ div.arrow-top
+##footer ~ div.js-up.up
 ##.powrot_do_gory
 /MrScrollUp.js
 /wp-content/plugins/dynamic-to-top/js/dynamic.to.top.min.js
