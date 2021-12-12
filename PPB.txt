@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: +yi3nOq023hADZAYBAIuCw
+! Checksum: Nwgw4Lh59q03V4bDmIThmw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 12 Dec 2021, 19:08 UTC+01
+! Last modified: Sun, 12 Dec 2021, 20:37 UTC+01
 ! Version: 2021.12.12.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 gru 2021, 19:08 UTC+01
+! Aktualizacja: nie, 12 gru 2021, 20:37 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -242,6 +242,7 @@ biuroprasowe.pl#?#.right-col p:nth-of-type(2) > b:-abp-contains(newsletter)
 biuroprasowe.porta.com.pl##.newsletter-home_page
 biuroprasowe.porta.com.pl##.newsletter-story_page
 biznesalert.pl,czaszegarkow.pl,fasardi.com,iexcel.pl,ladygugu.pl,prosto.pl,revouninstaller.com,sirt.pl,sklep.granna.pl,superprezenty.pl##.subscribe
+biznes-wprost-pl.cdn.ampproject.org##.art-newsletter
 biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
 blik.com##.newsletter-iframe
 blip.pl###salesmanagoIframe
@@ -718,6 +719,7 @@ hairstore.pl###stopka_newsletter
 hanamipigments.eu#?#.num-1.table_cell:-abp-has(.newsletter)
 handluj.com###footer_top > .container > .row > div:nth-of-type(1)
 hanet.com.pl##.wce_newsletter
+happyenergy.pl##.sectionNewsletter
 harting.com#?#.footer__pane > .footer__container:-abp-has( > .footer__newsletter-form)
 hart.pl,herki.pl###_ctl0_NewsLetterInitC_NewsletterForm
 helloangielski.pl##.subscribe-form
@@ -2936,14 +2938,13 @@ zszywka.pl###inv-request-popup
 /js/popup.js$domain=grawitacyjny.pl|meblohaus.pl|mediaexpert.pl|multikurs.pl|slimebox.pl
 /media/system/js/modal.js$domain=gminamoszczenica.eu|nowawrzesnia.pl|perfectdating.pl
 /plugins/easy-facebook-likebox/*$domain=tvkrosno.pl
-/pum-site-scripts-$domain=azbudownictwo.com|takemehome.pl|topplant.pl|tova.pl
+/pum-site-scripts-$domain=azbudownictwo.com|takemehome.pl|topplant.pl|tova.pl|woocommerce.pl|wpdesk.pl
 /pum-site-scripts-$domain=prezeska.pl|topplant.pl
-/pum-site-scripts.js$domain=wpdesk.pl
-/pum-site-scripts.$domain=azbudownictwo.com|takemehome.pl|topplant.pl|tova.pl
+/pum-site-scripts.$domain=azbudownictwo.com|takemehome.pl|topplant.pl|tova.pl|woocommerce.pl|wpdesk.pl
 /pum-site-scripts.$domain=prezeska.pl|topplant.pl
-/pum-site-styles-$domain=azbudownictwo.com|takemehome.pl|tova.pl|wpdesk.pl
+/pum-site-styles-$domain=azbudownictwo.com|takemehome.pl|tova.pl|woocommerce.pl|wpdesk.pl
 /pum-site-styles-$domain=prezeska.pl|topplant.pl
-/pum-site-styles.$domain=azbudownictwo.com|takemehome.pl|tova.pl|wpdesk.pl
+/pum-site-styles.$domain=azbudownictwo.com|takemehome.pl|tova.pl|woocommerce.pl|wpdesk.pl
 /pum-site-styles.$domain=prezeska.pl|topplant.pl
 /wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
@@ -3325,7 +3326,7 @@ agripel.pl,felixcom.net,lulek.tv,naszekluski.pl,wszystkookotach.pl###scrollup
 agroas.pl##.to-the-top-link
 agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,rodzice.pl,sparta.com.pl,zaufanekliniki.pl###top-link
 agrofakt.pl##.go-down
-agrofakt.pl,badaniaprenatalne.pl,exploringaround.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,reverso.net,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
+agrofakt.pl,badaniaprenatalne.pl,exploringaround.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
 agrohandler.pl,betterland.pl,porcja.eu,swiece-zaplonowe.pl###to_top_wrap
 agrojd.com,dobresystemy.eu,domnowoczesny.com,empik.com,fantasy.ekstraklasa.org,fuchs.com,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,pl.ecco.com,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com##.scroll-to-top
@@ -3563,7 +3564,7 @@ elektrykadlakazdego.pl##.crane-top
 elk.zdz.bialystok.pl###dotop
 enetproduction.com##div.vued-custom-scroll_to_top
 enowiny.pl,mobileworld24.pl##.mnmd-go-top
-erhem.pl,inwestinfo.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,yellow.place###up
+erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,yellow.place###up
 esdorado.com,rolmarket.pl###scrollTopButton
 eset.com##.footer-scroll-to-top-wrapper
 esparto.pl##.clb-scroll-top
@@ -3798,7 +3799,7 @@ mbank.pl##.at-top.button-top
 mct.com.pl##.px-btn-to-top-fix
 meczenazywo.tv##footer ~ #btt
 mediaexpert.pl###go_top
-mediaexpert.pl##.scroll-btn.scroll
+mediaexpert.pl,mediamarkt.pl##.scroll-btn.scroll
 mediamarkt.pl###js-scrollTopDesktop
 medicover.pl##.scrollTopArrow
 medonetmarket.pl##.back2top
@@ -4449,6 +4450,7 @@ decoliving.pl###swifttagdatacontaineraha9azkq59 > div > .hide_on_mobile
 decoraliki.pl###sideTab
 dekoracjascian.com,pep.pl##.quick-contact
 dekordia.pl##.info.left.fixed-module
+delikatesylosos.pl###arlsf-notification
 dentalradio.pl###send_bt
 dewelopart.pl###leftquickcontact
 dietbox.pl##.phone_btn_flat
@@ -4626,7 +4628,7 @@ klonowypark.pl###belka_phone2, #belka_mail2, #belka_map2, #belka_form2
 knall.com.pl##.socialTabs-tab--contact.socialTabs-tab
 kodologia.pl###cq-suggestion
 kompan.pl###circleWrap
-kompan.pl##.b24-widget-button-wrapper
+kompan.pl,lanesta.eu##.b24-widget-button-wrapper
 komputerswiat.pl##iframe[src^="https://cdn.brandmetrics.com/"][style*="fixed"]
 komputronik.pl##ktr-live-chat
 konicaminolta.info.pl##.kontakt-slide
@@ -4853,6 +4855,7 @@ sprzedajemy.pl###openUserSuggestionWindowBtn
 sprzet-poz.pl###widget.box
 starachowice.eu##.feedback-text
 starter.net.pl##.mk-quick-contact-link
+stella.com.pl##.contact__buttonFb
 stradivarius.com##.need-help-container
 strefawystawcy.pl##.contact-button, .contact-message
 strimi.pl##.bugs
@@ -5441,7 +5444,7 @@ hubkolektyw.pl##.panel-boczny
 hurtowniarolnicza.pl##.recruitment
 hushaaabye.pl##.blog-pager-item
 ican.pl###drawer_bar
-iexpert.pl##.tm-muskrat-container
+iexpert.pl,miadora.pl##.tm-muskrat-container
 iglazura24.pl##.sold-item-popup
 iiyama-sklep.pl###foot-lastbought-button
 ilewazy.pl##.calculator-widget
