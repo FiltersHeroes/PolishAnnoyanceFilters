@@ -112,9 +112,6 @@ wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:s
 wandermap.net###sidebar[style]:style(max-width: 390px)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
-
-!www.youtube.com###contents ytd-rich-grid-row:first-child > #contents:first-child, #contents ytd-rich-grid-row:first-child ytd-rich-grid-media:style(max-width: unset !important;)
-!www.youtube.com###contents ytd-rich-grid-row:first-child:style(--ytd-rich-grid-items-per-row: 1 !important;)
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
@@ -123,6 +120,8 @@ zapytaj.onet.pl##.profile-actions > .music
 !telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item:remove()
 !telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll
 !telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll:remove()
+!www.youtube.com###contents ytd-rich-grid-row:first-child > #contents:first-child, #contents ytd-rich-grid-row:first-child ytd-rich-grid-media:style(max-width: unset !important;)
+!www.youtube.com###contents ytd-rich-grid-row:first-child:style(--ytd-rich-grid-items-per-row: 1 !important;)
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
