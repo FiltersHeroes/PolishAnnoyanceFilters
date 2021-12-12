@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HHKN8K0rxmUHDtpkI35hvQ
+! Checksum: +yi3nOq023hADZAYBAIuCw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 12 Dec 2021, 18:46 UTC+01
+! Last modified: Sun, 12 Dec 2021, 19:08 UTC+01
 ! Version: 2021.12.12.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 gru 2021, 18:46 UTC+01
+! Aktualizacja: nie, 12 gru 2021, 19:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -4835,6 +4835,7 @@ sklepsportowy.pila.pl###fc_frame
 sklep-agrohandel.pl##.contact_email
 sklep-muzyczny.com.pl###widget_shop9
 sklep-tvsat.com##.emi-contact-box
+sklep.acana.com.pl,szpot.pl##call-us
 sklep.siapre.pl###btn_telefon
 skoda-auto.pl##div[id^="wb"] > iframe[id^="wframe"]
 skrivanek.pl###ssb-btn-0
@@ -4866,7 +4867,6 @@ swiat-laptopow.pl###superOfferCallUs
 synevo.pl##.conpeek_iframe_plugin
 systell.pl##.rocketchat-widget
 szkolajazdykoronamm.pl##.spjwidget-double a[href$="/szkola-jazdy-korona-mm,20821.htm?widget=opinie"]
-szpot.pl##call-us
 tabletowo.pl##div[class^="container"][style^="z-index:"]
 taniefototapety.eu###opinions_badge:not(:lang(pl))
 taniejdladomu.pl###allegroKomentarze
