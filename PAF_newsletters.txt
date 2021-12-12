@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 8VgQmYSrXZtkDFz19gXabg
+! Checksum: 6WtGSPmESeqduBZBpXxyQg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 08 Dec 2021, 06:53 UTC+01
-! Version: 2021.12.8.1
+! Last modified: Sun, 12 Dec 2021, 20:37 UTC+01
+! Version: 2021.12.12.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 08 gru 2021, 06:53 UTC+01
+! Aktualizacja: nie, 12 gru 2021, 20:37 UTC+01
 !
 !
 !
@@ -241,6 +241,7 @@ biuroprasowe.pl#?#.right-col p:nth-of-type(2) > b:-abp-contains(newsletter)
 biuroprasowe.porta.com.pl##.newsletter-home_page
 biuroprasowe.porta.com.pl##.newsletter-story_page
 biznesalert.pl,czaszegarkow.pl,fasardi.com,iexcel.pl,ladygugu.pl,prosto.pl,revouninstaller.com,sirt.pl,sklep.granna.pl,superprezenty.pl##.subscribe
+biznes-wprost-pl.cdn.ampproject.org##.art-newsletter
 biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
 blik.com##.newsletter-iframe
 blip.pl###salesmanagoIframe
@@ -717,6 +718,7 @@ hairstore.pl###stopka_newsletter
 hanamipigments.eu#?#.num-1.table_cell:-abp-has(.newsletter)
 handluj.com###footer_top > .container > .row > div:nth-of-type(1)
 hanet.com.pl##.wce_newsletter
+happyenergy.pl##.sectionNewsletter
 harting.com#?#.footer__pane > .footer__container:-abp-has( > .footer__newsletter-form)
 hart.pl,herki.pl###_ctl0_NewsLetterInitC_NewsletterForm
 helloangielski.pl##.subscribe-form
