@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: X6hDWGO2lpnFDFxSBuF8Dw
+! Checksum: esq6mRRMkvus4H+jLego4w
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Tue, 14 Dec 2021, 11:08 UTC+01
-! Version: 2021.12.14.0
+! Last modified: Thu, 16 Dec 2021, 15:08 UTC+01
+! Version: 2021.12.16.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 14 gru 2021, 11:08 UTC+01
+! Aktualizacja: czw, 16 gru 2021, 15:08 UTC+01
 !
 !
 ! Specyficzne reguły
@@ -887,6 +887,7 @@ zszywka.pl###scroolToTop
 ~active.sklep.pl,~bel-pol.pl,~beskidzka-akademia.pl,~betard.pl,~forum.dobreprogramy.pl,~gdansk.pl,~lenartowiczclinic.pl,~nasztalerz.pl,~ostredyzury.pl,pl##.fa-angle-up
 ~cm-silesia.pl,~gafka.pl,~katowice.pl,pl,~proxima.pl,~wroc.pl##.fa-angle-double-up
 ~deweloper-interes.pl,pl###back_to_top
+~douglas.pl,pl##.scroll-top:not(body):not(html)
 ~ifirma.pl,pl##.dogory
 ~mediaexpert.pl,~mediamarkt.pl,pl##.scroll-down:not(body):not(html)
 ~obi.pl,pl##.scrollup:not(body):not(html)
@@ -981,7 +982,6 @@ pl##.scrolltop:not(body):not(html):not(header):not(.row)
 pl##.scroll-back
 pl##.scroll-top-inner
 pl##.scroll-top-wrapper:not(body):not(html)
-pl##.scroll-top:not(body):not(html)
 pl##.scroll-to-top
 pl##.scroll_top:not(body):not(html):not(header)
 pl##.scroll_to_top
