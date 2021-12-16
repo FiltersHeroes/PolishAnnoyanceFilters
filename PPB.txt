@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: P6gKzaNP6zhG9k1gwnGDOQ
+! Checksum: eFMMnNzX2hRQGHVlc1mXiw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 14 Dec 2021, 11:08 UTC+01
-! Version: 2021.12.14.0
+! Last modified: Thu, 16 Dec 2021, 15:08 UTC+01
+! Version: 2021.12.16.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 14 gru 2021, 11:08 UTC+01
+! Aktualizacja: czw, 16 gru 2021, 15:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -4159,6 +4159,7 @@ zszywka.pl###scroolToTop
 ~active.sklep.pl,~bel-pol.pl,~beskidzka-akademia.pl,~betard.pl,~forum.dobreprogramy.pl,~gdansk.pl,~lenartowiczclinic.pl,~nasztalerz.pl,~ostredyzury.pl,pl##.fa-angle-up
 ~cm-silesia.pl,~gafka.pl,~katowice.pl,pl,~proxima.pl,~wroc.pl##.fa-angle-double-up
 ~deweloper-interes.pl,pl###back_to_top
+~douglas.pl,pl##.scroll-top:not(body):not(html)
 ~ifirma.pl,pl##.dogory
 ~mediaexpert.pl,~mediamarkt.pl,pl##.scroll-down:not(body):not(html)
 ~obi.pl,pl##.scrollup:not(body):not(html)
@@ -4253,7 +4254,6 @@ pl##.scrolltop:not(body):not(html):not(header):not(.row)
 pl##.scroll-back
 pl##.scroll-top-inner
 pl##.scroll-top-wrapper:not(body):not(html)
-pl##.scroll-top:not(body):not(html)
 pl##.scroll-to-top
 pl##.scroll_top:not(body):not(html):not(header)
 pl##.scroll_to_top
