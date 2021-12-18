@@ -113,6 +113,9 @@ wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:s
 wandermap.net###sidebar[style]:style(max-width: 390px)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
+www.youtube.com###contents ytd-rich-grid-row:has( > div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer) ytd-rich-grid-media:style(max-width: unset !important;)
+www.youtube.com###contents ytd-rich-grid-row:has( > div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer) > #contents:first-child:style(max-width: unset !important;)
+www.youtube.com###contents ytd-rich-grid-row:has( > div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer):style(--ytd-rich-grid-items-per-row: 1 !important;)
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
