@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: YM3W3/3QHqLCb0fqtdh70Q
+! Checksum: xfidybIYeGVRNFQAtYVHpw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 19 Dec 2021, 11:08 UTC+01
-! Version: 2021.12.19.0
+! Last modified: Sun, 19 Dec 2021, 15:08 UTC+01
+! Version: 2021.12.19.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 19 gru 2021, 11:08 UTC+01
+! Aktualizacja: nie, 19 gru 2021, 15:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -1925,7 +1925,7 @@ zyciepabianic.pl###widget-newsletter
 !
 !
 ! Newslettery (nie popupy) - ogólne reguły
-~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.al.to,~lp.x-kom.pl,~pap-mediaroom.pl,pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input)
+~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.al.to,~lp.x-kom.pl,~pap-mediaroom.pl,pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input):not(.popup-mask + .newsletter)
 ~aurum-optics.pl,pl##.footer-newsletter
 ~automatykab2b.pl,pl##.newsletter-box
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
@@ -1935,7 +1935,7 @@ zyciepabianic.pl###widget-newsletter
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal):lang(pl)
-~pl,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input):lang(pl)
+~pl,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input):not(.popup-mask + .newsletter):lang(pl)
 pl##.ModulNewsletter
 pl##.newsletterBox
 pl##.newsletterContainer
