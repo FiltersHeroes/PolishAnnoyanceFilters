@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: xfidybIYeGVRNFQAtYVHpw
+! Checksum: HxN1OyarJ+7Hh0E/3JjeWw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 19 Dec 2021, 15:08 UTC+01
-! Version: 2021.12.19.1
+! Last modified: Mon, 20 Dec 2021, 11:08 UTC+01
+! Version: 2021.12.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 19 gru 2021, 15:08 UTC+01
+! Aktualizacja: pon, 20 gru 2021, 11:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -403,7 +403,6 @@ czytamyetykiety.pl##.footer-ebook.component
 czyztak.pl##.footer > div.row > .columns > h2.dot-header
 c-and-a.com##.footer__mail-form
 c-and-a.com##.util-visible-sm.util-add-margin-bottom-full.row
-d24h.pl###right-col > .widget-box-custom.widget-box:nth-of-type(2)
 dachyb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl###mailing
 dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
 daemon-tools.cc###send-mail
@@ -2035,7 +2034,7 @@ agrotopparts.pl###kartka, #kartka ~ #tlo
 agro-star.com.pl##.lufcik, .lufcik__bg
 agro-trade.pl###f-popup, .popup-overlay
 airly.eu#?#.sidebar + div:-abp-has( > .welcome-modal)
-airport.com.pl,chinskieprzepisy.pl,d24h.pl,holiday.aquila.pl,pl.canalplus.com,romantycznyweekend.eu,zus.pox.pl###fancybox-overlay, #fancybox-wrap
+airport.com.pl,chinskieprzepisy.pl,holiday.aquila.pl,pl.canalplus.com,romantycznyweekend.eu,zus.pox.pl###fancybox-overlay, #fancybox-wrap
 akademia.nask.pl###newsletterall
 akademos.pl###myModal, .reveal-modal-bg
 akson.pl###contactPopup
@@ -2447,7 +2446,6 @@ ktociewyleczy.pl##.box-wait.find-therapist
 ktociewyleczy.pl##.fb-popup
 kulturaliberalna.pl##.popup-600nr, .popup-600nr-bg
 kupbilecik.pl###popup, #lean_overlay
-kupujemy.to,toptun.pl###dis_wrapper
 kurasinski.com###bottom-newsletter-overlay
 kuriergarwolinski.pl###popup_div
 kursphp.com##.all-page-modals
@@ -2829,6 +2827,7 @@ tkmaxx.pl##.landing-lightbox-box, #landing-lightbox-overlay
 tokfm.pl###komunikat_dla_player3
 tomaszek.pl###window_entrance, #window_overlay
 topnaj.pl###dgd_scrollbox-2656
+toptun.pl###dis_wrapper
 totylkoteoria.pl##.newsletter, .popup-mask
 transkom.com.pl##.popmake.pum-container
 travelicious.pl##.flpl-front-locker-outerwarp
@@ -4439,9 +4438,6 @@ cyberfolks.pl##div[id^="phplive_"], span[id^="phplive_"]
 cyberfolks.pl###livechat_close_btn
 czescidobmw.pl##.closegg
 czytio.pl###qcf-btn
-d24h.pl###chat_container
-d24h.pl###zapytaj_kosmetyczke
-d24h.pl###zaufane_opinie_widget
 dbcenter.pl,zizako.pl###widget_shop3
 ddd.com.pl###meeting
 debowewzgorze.eu,diamentustron.pl,szarotka.eu,warsawdowntown.pl##iframe[name="ca-review-widget"]
