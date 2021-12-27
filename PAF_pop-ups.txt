@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2uaiY1KH08Bo2QzRxnYIfg
+! Checksum: FUPiJf+zucZp92rulnLzDQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 27 Dec 2021, 11:08 UTC+01
-! Version: 2021.12.27.0
+! Last modified: Mon, 27 Dec 2021, 23:43 UTC+01
+! Version: 2021.12.27.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 27 gru 2021, 11:08 UTC+01
+! Aktualizacja: pon, 27 gru 2021, 23:43 UTC+01
 !
 !
 !
@@ -28,7 +28,8 @@
 1000dni.pl###news-popup
 51015kids.eu,lee.pl,willsoor.pl###newsletter_popup
 aasapolska.pl###leave-page-modal
-aba-sport.pl,autochemia.pl,awangardashoes.com,bogulandia.pl,californiaskateshop.pl,cosslodkiego.com.pl,cyfra.eu,damizabawki.pl,dowarsztatu.com,efutro.com.pl,eswiatzabawek.pl,gratoria.pl,groomer.com.pl,hydromech.eu,kupbuty.com,meskiegacie.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,sportowybazar.pl,unbrokenstore.com,vitasport.pl,wispol.eu###tws_i_0, #topLayerBackDrop
+aba-sport.pl,alpinsklep.pl,apteka-natura.eu,autochemia.pl,avaro.pl,awangardashoes.com,barokko.pl,bludshop.com,blueskypolska.pl,bogulandia.pl,bugo.pl,butosklep.pl,butylukow.pl,cafeborowka.pl,californiaskateshop.pl,candleworld.com.pl,cosslodkiego.com.pl,cyfra.eu,czasnabuty.pl,damizabawki.pl,denicler.eu,divanii.pl,dowarsztatu.com,e-baseus.com,e-megasport.com,efutro.com.pl,ene-due.eu,eswiatzabawek.pl,gratoria.pl,groomer.com.pl,hile.pl,hydromech.eu,korob.pl,ksiegarnia-edukacyjna.pl,kupbuty.com,littlejungle.pl,malowanebiela.pl,megazoologiczny.pl,meskiegacie.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,sestimi.pl,shop.s-a.pl,sportowybazar.pl,stili.pl,surgepolonia.pl,twojeobuwie.pl,ulubionabielizna.pl,unbrokenstore.com,vitasport.pl,wispol.eu,zapachyswiata.eu###topLayerBackDrop
+aba-sport.pl,autochemia.pl,awangardashoes.com,bogulandia.pl,californiaskateshop.pl,cosslodkiego.com.pl,cyfra.eu,damizabawki.pl,dowarsztatu.com,efutro.com.pl,eswiatzabawek.pl,gratoria.pl,groomer.com.pl,hydromech.eu,kupbuty.com,meskiegacie.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rasowear.pl,sportowybazar.pl,unbrokenstore.com,vitasport.pl,wispol.eu###tws_i_0
 abcfirany.pl,kochamzabawki.eu###InfoNewsletterOkno, #InfoNewsletter
 accent-bikes.com###lang_popup
 activeshop.com.pl##.popupid21
@@ -71,7 +72,7 @@ aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
 aliexpress.com##.coupon-poplayer-modal
 allegro.pl##div[data-box-name="modalBW"]
 allmedica.pl###modalbox-1, .modalbox-overlay
-alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megasport.com,ksiegarnia-edukacyjna.pl,malowanebiela.pl,megazoologiczny.pl,surgepolonia.pl###tws_i_100000, #topLayerBackDrop
+alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megasport.com,ksiegarnia-edukacyjna.pl,malowanebiela.pl,megazoologiczny.pl,surgepolonia.pl###tws_i_100000
 analizy.pl##.nl_toplayer.ui-draggable.ui-widget-content.ui-widget.ui-dialog
 android.com.pl##.social-popup
 angelgold.pl,bolix.pl##.modal
@@ -80,7 +81,7 @@ answear.com###popupNewsletterWrap
 apaczka.pl##.popupPromoBox
 apple-user.pl,salon2kolka.pl##.mlab-modal
 aptekarzpolski.pl##.brave_popup
-apteka-natura.eu,bludshop.com,ene-due.eu###tws_i_1, #topLayerBackDrop
+apteka-natura.eu,bludshop.com,ene-due.eu###tws_i_1
 aquapark.wroc.pl##.popup-start.popup
 archispace.pl##.tbox, .tmask
 arena.pl##.popup_products_promo
@@ -101,6 +102,7 @@ astromagia.pl,mohito.com,monacollection.pl,ochnik.com,porcelana.pl,reserved.com,
 atat.pl,bananki.pl,chemia-atat.pl,elektryka-atat.pl,oswietlenie-atat.pl,papis.pl,zywnosc-atat.pl###exitpopup, #exitpopup_bg
 atrakcje.com.pl,blog.atrakcjenaimprezy.pl###boxes
 atrexpress.com.pl,ch24.pl###popup-box, #list-builder
+atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,warszawa.promenada.com##section.pop-up, .modal-backdrop
 auchandirect.pl#?##rootPopin:-abp-has(#modal__commercial > a.commercial__background > img.commercial__background[src^="/images/"])
 audioforte.com.pl##.christmas-popup
 audiomed.com.pl###popuphere
@@ -115,7 +117,6 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.p
 avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,okularymarkowe.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu###toplayer_newsletter_popup, #toplayer_newsletter
 avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,okularymarkowe.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu#?#div[id^="tws_i_"]:-abp-has(#toplayer_newsletter_popup, #toplayer_newsletter, #toplayer_newsletter_form, div[id^="tln"][id$="_wrap"])
 avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu##div[id^="tln"][id$="_bg"]
-avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu###topLayerBackDrop
 axa.pl##.welcome-popup
 azzun.pl##.js-popup.popup
 b2b.metal-bud.eu##.go-to-top-ui
@@ -130,7 +131,7 @@ bankier.pl,pulsmedycyny.pl###smPopupBackground, .smPopupContainer
 bankizywnosci.pl##.popup_cont
 banki.pl,comperia.pl##.paniModal
 bardomed.pl,grzechhair.com##.popup_cont, .popup_back
-barokko.pl,butylukow.pl,korob.pl###tws_i_2, #topLayerBackDrop
+barokko.pl,butylukow.pl,korob.pl###tws_i_2
 bartekwpodrozy.pl#?#.oxy-modal-backdrop:-abp-has(a[href*="//sklep."])
 batom.pl##div[class*="Modal__ModalPortalStyled-sc-"]
 bazarek-deco.com.pl###NewsPop
@@ -193,6 +194,7 @@ cezar.eu###window_overlay, #window_entrance
 cgm.pl##.bsaPopupWrapper, .bsaPopupWrapperBg
 chabin.pl###newsletterTerms, .modal-backdrop
 change.shop.pl###popup-flex
+chemiabudowlana.info,mylomza.pl###fadeinbox
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
 chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
@@ -300,6 +302,7 @@ estella-shop.eu##.pxl-newsletter-modal
 estyl.pl###ue_form
 euractiv.pl##pnespwidget[style*="position"]
 eurobolt.com.pl##.mybanners
+e-baseus.com#?##tws_i_0:-abp-has(form input[name="email"])
 e-iglaki.pl###szkolenie-message
 e-insportline.pl###vivpopup-collapsed
 e-kidsplanet.com##.banner, .banner-curtain
@@ -571,7 +574,6 @@ multidrogeria.pl,sprzedajemytkaniny.pl##.pupup
 multimed.pl###call-me-overlay
 muratordom.pl###nlt_popup
 mydetoxtea.pl###siteCover
-mylomza.pl###fadeinbox
 myloview.pl##.subskrypcja, .ui-widget-overlay
 myob.pl###popup-message-background
 myob.pl#?##popup-message-window:-abp-has(p > a >img[src*="popup_desktop"])
@@ -733,7 +735,6 @@ radio111.pl##.modal[id], .modal-backdrop
 radioolsztyn.pl###zmiana
 randstad.pl##.pop-up-wrapper
 rankingubezpieczennazycie.pl###exit_popup
-rasowear.pl###tws_i_0
 ravelo.pl###modalAlertMethodNL
 rckik.poznan.pl###popup, #popupBg
 realme.com##.subscribe
