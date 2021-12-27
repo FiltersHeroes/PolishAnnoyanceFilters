@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: kAk7Npl4tEJR6aozcQftxg
+! Checksum: KGGxcZz8r/tVwbXFAGiO5A
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 27 Dec 2021, 11:08 UTC+01
-! Version: 2021.12.27.0
+! Last modified: Mon, 27 Dec 2021, 15:08 UTC+01
+! Version: 2021.12.27.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 27 gru 2021, 11:08 UTC+01
+! Aktualizacja: pon, 27 gru 2021, 15:08 UTC+01
 !
 !
 !
@@ -27,6 +27,7 @@
 4gift.pl##.homepage-newsletter
 4kdownload.com##.footer__section > .footer__col--updates
 4kom.pl###tws_c_100001
+4kom.pl##.newsletter-custom
 4lapki.eu,annalovestravelspl.wordpress.com,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,podkop.com,pskrk.com,tabloidonline.blog,zabieganamama.com,zpamietnikabuntownika.wordpress.com##.jetpack_subscription_widget
 4trucks.pl##.sInfo > .m209.box
 5mindlazdrowia.pl,cybsecurity.org,demagog.org.pl,fitkurier.pl,itcontent.eu,strefakodera.pl##[id^="mc4wp-form"].mc4wp-form
@@ -170,6 +171,7 @@ auchan.pl##a[href="/newsletter/ref/box"]
 auchan.pl,himountain.pl,invado.pl,la-lalla.pl,maxelektro.pl,picantecooking.com,student.profinfo.pl,warzywaiowoce.pl##.newsletter-block
 audio.com.pl##.sticky-newsletter
 audytel.pl,eko-ue.pl##.fixed-newsletter
+austria.info##.sonata\.block\.service\.newsletter.u-section
 autodoc.pl##.subscribe_us
 autodoc.pl,getmailbird.com,grzegorzmiecznikowski.pl,jaktodaleko.pl,kingaparuzel.pl,makeup.pl,roshen.com,sandoz.pl##.footer-subscribe
 autogaleria.pl##.col-lg-5.col-md-5.col-sm-6.col-xs-12
@@ -672,7 +674,7 @@ gazetapowiatowa.pl###wysija-7
 gazetapraca.pl##.col-md-4:nth-of-type(14)
 gazetaprawna.pl,ikomunikaty.pl##.footerNewsletterContent label, .footerNewsL
 gazetasenior.pl#?#.fn-content > .fn-builder > p:-abp-has( > a[href*="/newsletter-gazeta"] > img)
-gazetazoliborza.pl,hoho.sklep.pl,opensecurity.pl,swiatoze.pl,terazprudnik.pl,xopero.com##.widget_newsletterwidgetminimal
+gazetazoliborza.pl,hoho.sklep.pl,opensecurity.pl,swiatoze.pl,sztafeta.pl,terazprudnik.pl,xopero.com##.widget_newsletterwidgetminimal
 gazetkonosz.pl##.box:nth-of-type(2)
 gdanskstrefa.com###blog_subscription-3
 gdzietymrazem.pl##.td-pb-span4:nth-of-type(1) > .widget_text.widget.td_block_template_1
@@ -975,6 +977,7 @@ mateuszrus.pl##.widget_mailpoet_form.widget
 matisto.sklep.pl##.col-newsletter-box
 maxibike.pl##.newsletter-holder
 max-protect.pl,sklep-smile.pl##.footer-block-contain > .block1
+mazovia.pl##.btn-newsletter
 mazovia.pl##.clearfix > .nice-shadow.search-block
 mazury.travel,moliera2.com###newsletter_box
 mba.umlub.pl#?##sp-bottom2 div.sp-module:nth-of-type(2):-abp-has(form input[type="email"])
@@ -1462,6 +1465,7 @@ sklepogrodniczy.pl#?#.footer-support:-abp-has(.nl)
 sklepsaturn.pl,sprzet-fryzjerski.pl###social > a[href="/newsletter/add"]
 sklepy.mediaexpert.pl##.newsletter_bar
 sklep-agrohandel.pl##.footer_top_area
+sklep-elektron.com###newsletter-form
 sklep-milovia.eu###m_footer_bg
 sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
 sklep.audiopunkt.com.pl###sec-newsletter > .banertab
