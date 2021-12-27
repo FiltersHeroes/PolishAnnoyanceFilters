@@ -25,7 +25,7 @@ agro-top.com.pl##body.invpop-visible:style(overflow: auto !important;)
 agro-top.com.pl,poznan.factory.pl##.region-popup
 ajakarnica.pl,bambineo.pl,bejeans.pl,betterland.pl,drogeria-ekologiczna.pl,eltkom.pl,eurotech.agro.pl,evertourist.com,fifishop.pl,habys.pl,harro.pl,hotelbonifacio.pl,oaza-palmy.pl,pakamera.pl,pl.aleteia.org,portalpogrzebowy.pl,royalpark.pl,splacepark.pl,stokrotka.pl,termyszaflary.com,zlotymotocyklowe.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: visible !important;)
 ajakarnica.pl,bambineo.pl,bejeans.pl,betterland.pl,drogeria-ekologiczna.pl,eltkom.pl,eurotech.agro.pl,evertourist.com,fifishop.pl,habys.pl,harro.pl,hotelbonifacio.pl,oaza-palmy.pl,pakamera.pl,pl.aleteia.org,portalpogrzebowy.pl,royalpark.pl,splacepark.pl,stokrotka.pl,termyszaflary.com,zlotymotocyklowe.pl##html.fancybox-margin:style(margin-right: 0 !important;)
-ajakarnica.pl,bejeans.pl,betterland.pl,eltkom.pl,epione.pl,eurotech.agro.pl,fifishop.pl,happy-surfer.com,harro.pl,hotelbonifacio.pl,opoczno.eu,pch24.pl,royalpark.pl,splacepark.pl,stokrotka.pl,swiece-zaplonowe.pl##.fancybox-overlay-fixed.fancybox-overlay
+ajakarnica.pl,bejeans.pl,betterland.pl,bikemia.com,eltkom.pl,epione.pl,eurotech.agro.pl,fifishop.pl,happy-surfer.com,harro.pl,hotelbonifacio.pl,opoczno.eu,pch24.pl,royalpark.pl,splacepark.pl,stokrotka.pl,swiece-zaplonowe.pl##.fancybox-overlay-fixed.fancybox-overlay
 akademiaversum.pl##body.with-overlay:style(overflow: auto !important;)
 akademiaversum.pl###newsletter-pp
 aktualnyodpis.pl##iframe[src^="//quic.pl/popups/"]
@@ -69,6 +69,8 @@ beitadmin.pl,medonetmarket.pl##body[style]:style(overflow: auto !important;)
 belvederehotel.pl##+js(aopr, pf_queen.push)
 beta.netia.pl##body[style="hidden"]:style(overflow: auto !important;)
 beta.netia.pl##.popup-beta
+bikemia.com##.fancybox-lock:style(overflow: auto !important;)
+bikemia.com,epione.pl,fifishop.pl,gromada.pl,happy-surfer.com,mspdion.org.pl,royalpark.pl,swiece-zaplonowe.pl##.fancybox-margin:style(margin-right: 0 !important;)
 bilety24.pl,moliera2.com,quiosque.pl###newsletter-popup, .modal-backdrop
 bilkom.pl###promopopup, .modal-backdrop
 biofemina.pl,rajsoczewek.pl,vebo.pl,wokularach.pl###news_popup, #news_popup ~ .modal-backdrop
@@ -133,7 +135,6 @@ eksperymentalnie.com##+js(nostif, CodeKingdomBox)
 elearning-fusion.pl##.hustle-no-scroll:style(overflow: auto !important;)
 elearning-fusion.pl##.hustle-popup:has(h2:has-text(/^Bądź na bieżąco!$/))
 endo.pl,toysrus.pl###modalNL, .modal-backdrop
-epione.pl,fifishop.pl,gromada.pl,happy-surfer.com,mspdion.org.pl,royalpark.pl,swiece-zaplonowe.pl##.fancybox-margin:style(margin-right: 0 !important;)
 epione.pl,royalpark.pl##.fancybox-lock body:style(overflow: auto !important;)
 erli.pl##body > div:not([id]):not([class]):has(div[click-tracking="pop-up 100 na start"])
 erli.pl##body[class]:style(overflow: auto !important;)
@@ -601,6 +602,7 @@ annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapt
 annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox):style(visibility: hidden !important;)
 lento.pl##+js(ra, style, .box-modal-notify, #lightoverlay)
 pl##div[id^="tws_i_"] :is(#toplayer_newsletter_popup, #toplayer_newsletter, #toplayer_newsletter_form, div[id^="tln"][id$="_wrap"]):upward(div[id^="tws_i_"])
+pl###topLayerBackDrop:empty
 voxfm.pl,www.eska.pl##+js(ra, style, .popupCity[style*="visible"])
 voxfm.pl,www.eska.pl##+js(ra, style, .popupCity[style*="visible"], complete)
 voxfm.pl,www.eska.pl##.popupCity:not([style])
