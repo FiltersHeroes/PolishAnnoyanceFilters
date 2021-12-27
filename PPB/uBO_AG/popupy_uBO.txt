@@ -2,6 +2,7 @@ annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapt
 annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox):style(visibility: hidden !important;)
 lento.pl##+js(ra, style, .box-modal-notify, #lightoverlay)
 pl##div[id^="tws_i_"] :is(#toplayer_newsletter_popup, #toplayer_newsletter, #toplayer_newsletter_form, div[id^="tln"][id$="_wrap"]):upward(div[id^="tws_i_"])
+pl###topLayerBackDrop:empty
 voxfm.pl,www.eska.pl##+js(ra, style, .popupCity[style*="visible"])
 voxfm.pl,www.eska.pl##+js(ra, style, .popupCity[style*="visible"], complete)
 voxfm.pl,www.eska.pl##.popupCity:not([style])
