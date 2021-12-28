@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: DIGJI35ef1GJDzGpyuA6bw
+! Checksum: z8I/uC1TdZRtTS0siMDGhQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 27 Dec 2021, 23:49 UTC+01
-! Version: 2021.12.27.3
+! Last modified: Tue, 28 Dec 2021, 15:08 UTC+01
+! Version: 2021.12.28.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 27 gru 2021, 23:49 UTC+01
+! Aktualizacja: wto, 28 gru 2021, 15:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -4621,14 +4621,11 @@ isl.pl###contact-link, #lz_overlay_chat
 isl.pl###lz_eye_catcher
 ismserwis.pl###awesome-live-chat
 itlab.pl##.id-14.side-tab-widget
-jacus.pl###allegro
-jacus.pl,pupillo.pl###opinie
 jakwyjsczdlugow.pl##.btn-info
 jaw.com.pl###qcf-btn, #qcf-phone
 jsystems.pl##.metka
 juwentus.pl##[id="--lc-init-container"]
 kajakom.pl###help
-kammar24.pl###druga_ikona
 karmi.pl##.scrolled.homecontact
 kawaly.tja.pl,tapeciarnia.pl###div_okienko_shoutbox_schowane
 kids-trendy.pl###tm-widget-muskrat
@@ -4878,7 +4875,6 @@ strimi.pl##.bugs
 studiofabryka.pl##.callme
 sugester.pl###sugester_widget_selector_1
 sumiennyksiegowy.pl##.kontakt-vert-button
-super-toys.pl,valor-meble.pl###pierwsza_ikona
 support.forpsi.pl###chattab
 support.microsoft.com###smc-survey-external-feedback-button
 swiatekspresow.pl##.w-short-contact
@@ -5169,7 +5165,7 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,nk.pl,noizz.pl,ofe
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##a[class^="backToOnet__"]
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###backToOnet
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###content-share-top > .BackToMainPage, .backToOnetBottomBar
-auto-swiat.pl,komputerswiat.pl,newsweek.pl,przegladsportowy.pl##.bottomBar
+auto-swiat.pl,forbes.pl,komputerswiat.pl,newsweek.pl,przegladsportowy.pl##.bottomBar
 avans.pl##.is-complaintReport.c-btn
 avans.pl##.is-stickyActive1558948916896.is-stickyWrapper
 awa24.pl###delivery-info-drawer
@@ -5497,7 +5493,6 @@ irebu.pl###TOP-SOCIAL-MEDIA
 itmarket.pl##.cart_top
 i-apteka.pl,rolmarket.pl###menu_hotspot_zone3
 i-ekosystem.pl###wptime-plugin-preloader
-jacus.pl###pierwsza_ikona
 jaguar.pl##.side-buttons
 jakisklepinternetowy.pl##.survey
 jastrzebieonline.pl##a.title[href*="sonda"]
@@ -5604,7 +5599,6 @@ meritum.gda.pl###smallCart
 merkurymarket.pl,musclepower.pl###edrone--main--wl--container
 meskiegacie.pl###counter_holder_top.counter_container[style^="position: fixed;"]
 mettosport.eu###wpbs_slider
-mfryz.com.pl,sklepmaniek.pl###druga_ikona
 mgotuje.pl###ajaxsearchpro2_1
 miastons.pl##.stckbottom.cms_see_more
 miastopoznaj.pl###similarArticle
@@ -6221,7 +6215,6 @@ fachowyinstalator.pl#?#.td-pb-span4.vc_column_container.wpb_column.vc_column > .
 farmacja.pl###home-module-sklep
 farmer.pl#?#body > div[class*="box"] > div:-abp-has( > .left > div > div > h2 > a:-abp-contains(Miesięcznik Farmer))
 focus.pl##.content > div.row:nth-of-type(4)
-forbes.pl##.bottomBar iframe[src*="buy.tinypass.com/"]
 forumakademickie.pl###miesieczniki
 fzz.pl###kwartalnik
 fzz.pl#?#section.elementor-top-section:-abp-has(h3:-abp-contains(/^Zamów prenumeratę$/))
