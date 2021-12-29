@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: KGGxcZz8r/tVwbXFAGiO5A
+! Checksum: lStYpbU3J1p6vXuZq08V4g
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 27 Dec 2021, 15:08 UTC+01
-! Version: 2021.12.27.1
+! Last modified: Wed, 29 Dec 2021, 11:08 UTC+01
+! Version: 2021.12.29.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 27 gru 2021, 15:08 UTC+01
+! Aktualizacja: śro, 29 gru 2021, 11:08 UTC+01
 !
 !
 !
@@ -72,7 +72,7 @@ agrieko.pl##.footer_NewsletterBox
 agroas.pl##.newsletter-signup > .row
 agrodoradca24.pl##.newsletter-online
 agromat.pl#?##contact-box:-abp-has(div.title:-abp-contains(Zapisz się do newslettera))
-agromr.eu,interlumen.com##.ModulNewsletter
+agromr.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
 ahe.lodz.pl###company-newsletter-column
 airstop.pl###snippet-newsletterSubscription-newsletterSubscription
@@ -824,7 +824,6 @@ kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-su
 kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
 kamilafrontino.com,mamonik.pl,naszebialeblota.pl,okultura.pl###text-3
 kamilassurma.com#?#.elementor-popup-modal:-abp-has(form[action*="mail"][action*="/webform"])
-kammar24.pl##div.BoxRwd:nth-of-type(5) > .CalyBox
 kam-sport.pl##footer div.col-sm-4.vc_column_container.wpb_column.nm_column:nth-of-type(2) > .vc_column-inner
 kappahl.com###news-footer
 kariera.pl##.article-newsletter
