@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: QvZLaiHl4R1cHVEx7JRUHQ
+! Checksum: xQt6IYOKtowBEEE0MExXdw
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Tue, 28 Dec 2021, 15:08 UTC+01
-! Version: 2021.12.28.0
+! Last modified: Tue, 04 Jan 2022, 11:08 UTC+01
+! Version: 2022.1.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 28 gru 2021, 15:08 UTC+01
+! Aktualizacja: wto, 04 sty 2022, 11:08 UTC+01
 !
 !
 !
@@ -31,8 +31,6 @@ administrator24.info###zRight > p
 agrodoradca24.pl##.nf-newspaper
 angielski-przedszkole.pl##.ksiazka_contener > .dd-object661798813.dd-textblock
 angielski-przedszkole.pl##[src="/images/book.png"]
-aptekarzpolski.pl#?#.jeg_alignleft.jeg_block_heading_2.jeg_block_heading:-abp-has( > .jeg_block_title:-abp-contains(Nowy numer))
-aptekarzpolski.pl#?#.jeg_alignleft.jeg_block_heading_2.jeg_block_heading:-abp-has( > .jeg_block_title:-abp-contains(Nowy numer)) + div
 astromagia.pl##.other-services
 astromagia.pl##.section-current-numbers
 audio.com.pl,automatykab2b.pl,budujemydom.pl,elektronikab2b.pl,ep.com.pl,estradaistudio.pl,magazyngitarzysta.pl##.kiosk
@@ -54,8 +52,6 @@ avtest.pl##.feature.module
 avtest.pl###position-7 > div.module:nth-of-type(1)
 bialykruk.pl###magazine
 biznes-plus.pl##.middle-aside > #media_image-3
-braclowiecka.pl##section.content:nth-of-type(1) > .wrapper > .main-content-wrapper > .main-content
-braclowiecka.pl###w-main-sections > .paragraph-row > div.column6:nth-of-type(1)
 budujemydom.pl##.d-lg-block.d-none.header__magazyn
 budujemydom.pl##.monthly-magazine
 budujemydom.pl,ekobudowanie.pl,elektronikab2b.pl,ep.com.pl,ktociewyleczy.pl,magazyngitarzysta.pl,zielonyogrodek.pl###avt-korona
@@ -145,11 +141,6 @@ glowny-mechanik.pl###custom_html-7
 gosc.pl##div.wp-el.webpart-wrap-layout.wp-bd:nth-of-type(9) > .layout-1200.c > .Col0.LayoutColumn.c1200 > .wp-el.webpart-wrap-layout_column.wp-bd
 gosc.pl##.Col0.LayoutColumn.c-right-margin.c820 > .wp-el.webpart-wrap-layout_column.wp-bd > .wp-el.webpart-wrap-links.wp-bd
 gostynska.pl###switch-2
-gpcodziennie.pl##div.no-mobile:nth-of-type(7)
-gpcodziennie.pl##div.no-mobile:nth-of-type(8)
-gpcodziennie.pl##.new-prenumerata
-gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/)
-gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/) + div.row
 gwiazdybasketu.pl##li.col-md-12.item:nth-of-type(8)
 hebe.pl##.footer-content.footer-item
 histmag.org#?##content > div > h3:-abp-contains(/^Książkę można też kupić jako audiobook, /)
@@ -359,11 +350,7 @@ tygodniksiedlecki.com##.mockup-box.col-xs-12.col-sm-12.co-md-12.col-lg-12
 tygodnik-krapkowicki.info###Mod3
 tygodnik-rolniczy.pl##.box--subscribe
 tygodniowa.pl#?#.owl-item:-abp-has( > .item:only-child > a[href=""] > img)
-tygodniowa.pl#?#.sidebar h4:-abp-contains(Wydanie)
-tygodniowa.pl#?#.sidebar h4:-abp-contains(Wydanie) + a > img
 tylkotorun.pl#?#section[id^="media_image-"]:-abp-has( > a[href^="http://tylkotorun.pl/e-wydanie-"])
-tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/)
-tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/) + br + div
 viva.pl##.medium-order-210.subscription
 warszawskagazeta.pl##div.sp-module:nth-of-type(3)
 warszawskagazeta.pl###sppb-addon-1504787697990 > .sppb-addon-module.sppb-addon
