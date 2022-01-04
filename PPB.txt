@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: kBTECaynR6NMgjt9XDkaTw
+! Checksum: AyPLOmCYovBXSEsQgn3ahw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 03 Jan 2022, 15:08 UTC+01
-! Version: 2022.1.3.1
+! Last modified: Tue, 04 Jan 2022, 11:08 UTC+01
+! Version: 2022.1.4.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 03 sty 2022, 15:08 UTC+01
+! Aktualizacja: wto, 04 sty 2022, 11:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -42,7 +42,7 @@
 100pompek.pl,biegaj40minut.pl,miesniebrzucha.pl,miesnienog.pl,podciaganie.pl,treningaerobowy.pl,treningrozciagania.pl###freshmail-subscription-form
 123toys.pl##.up
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl###custom_html-5
-360studio.org,brykizameryki.pl,gdaq.pl##.nks_cc_trigger_tabs
+360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
 1000dni.pl,building4you.pl##.newsletter-mod
 abc-zabezpieczen.pl###sugester-chat
@@ -246,7 +246,6 @@ blip.pl###salesmanagoIframe
 blip.pl,chcemybycrodzicami.pl##.front-newsletter
 blogmtb.pl##.kalais-newsletter
 blog-daneosobowe.pl,ekorekta24.pl,labosport.pl,niezlasztuka.net,sprawyzdrowia.pl##.nksub_hidden .nks_cc_trigger_tabs
-blog.gdaq.pl###text-13
 blog.kurasinski.com##.right-col, .newsletter
 blog.lh.pl#?#article.post > .entry-content > div:-abp-has(a[href="/newsletter/"])
 blog.mozilla.org,olesnica24.com,zamek-krolewski.pl###newsletter_form
@@ -274,7 +273,6 @@ born2be.pl##[href="/newsletter/sign-in"]
 born86.pl##.nadstopa2
 bosch-professional.com##.m-newsletter_signup-a
 bosonamacie.pl##.newsletter-header, #widget-text-3
-braclowiecka.pl##.footer-widgets .wrapper > div.widget:nth-of-type(3) > h3
 bravebeaver.pl#?#.centered-container > .vc_column_container.wpb_column:-abp-has(#mc_embed_signup)
 bravebeaver.pl,nazdrowie.pl,semprewithlove.pl,vivio.pl###text-5
 brief.pl#?#.sticky-column > div > div:-abp-has( > div > form[action*="enewsletter.pl/"])
@@ -2311,7 +2309,6 @@ ganjamafiashop.com###jOverlayContent, #jOverlay
 gazetapolska.pl,naszeblogi.pl,niezalezna.pl,panstwo.net,telewizjarepublika.pl###popup-ad
 gazetapraca.pl###overlayJS
 gazeta-msp.pl,msportal.pl###stickynote2
-gdaq.pl###snppopup-exit
 geekbuying.pl,lightingcenter.pl###newsletter_block_popup
 geekbuying.pl,lightingcenter.pl,pasmanteriapasja.pl,perfumeriatop10.pl,toys4boys.pl,turbo-shop.pl###newsletter_block_home.fixed
 genetico.pl##.d-lg-block.d-none
@@ -3302,7 +3299,7 @@ agnieszkakudela.pl,annapoplawska.pl,globstory.pl,netcomit.pl,photonrobot.com,pix
 agrarius.eu,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatrust.ro,niezlomni.com,olympia-electronics.com,ono24.info,radioznin.fm,sempre.eu.com,trafokazje.eu,wkret-met.com###backtotop
 agripel.pl,felixcom.net,lulek.tv,naszekluski.pl,wszystkookotach.pl###scrollup
 agroas.pl##.to-the-top-link
-agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,sparta.com.pl,zaufanekliniki.pl###top-link
+agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,clea.pl,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,sparta.com.pl,zaufanekliniki.pl###top-link
 agrofakt.pl##.go-down
 agrofakt.pl,badaniaprenatalne.pl,exploringaround.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
@@ -4363,7 +4360,6 @@ bizuteria-eshop.pl###IMS_box1
 blendberg.com###collect-chat-launcher-container
 blinkee.city,expose.pl###ue_widget > #ue_launcher
 blinkmedia.pl##.phone_widget
-blog.gdaq.pl##.ncf_label_visible.ncf_tab.nks_cc_trigger_tabs
 bludshop.com##.trusted_wrapper
 bodyshock.pro###___ratingbadge_0
 bonami.pl###innvisichat
@@ -4373,8 +4369,6 @@ borcas.eu,e-dewocjonalia.eu,oknarolety.com###czater-contener
 born2be.pl,renee.pl##.helpButton
 born2be.pl,renee.pl##.help-chat-button-container
 bosch-extra.pl,extra-program.pl###contact-bar
-braclowiecka.pl##a.shop:nth-of-type(2)
-braclowiecka.pl##.icon-bar > a.shop:nth-of-type(1)
 brakestock.pl,vitamoc.pl###zcwMiniButton
 brandvital.eu,ciagutek.pl###callnowbutton
 brand.ceo,jubilat.net.pl,mediariver.pl,tipmedia.pl,walizkazabawek.pl###ue_widget
@@ -4533,7 +4527,6 @@ galskor.com###yotpo_testimonials_btn
 gama-sklep.com.pl##footer > .contact-element
 gamerweb.pl##.zoxrel.left.zox-post-soc-list
 gandalf.com.pl##.fb_dialog_advanced
-gdaq.pl###continually-container
 gdzietymrazem.pl##.td-icon-mail-1
 generali.pl###altar-chat-div-container
 generali.pl###cmb-contact-form-widget-button
@@ -5179,8 +5172,6 @@ bolix.pl##.balance-r-side-box
 bonavita.pl###open-jumplist
 bonnum.pl##.xi-rht
 booking.com##.header-signin-prompt
-braclowiecka.pl##div.column6:nth-of-type(3)
-braclowiecka.pl##.icon-bar
 brainly.pl##.js-katie-message.js-katie-message-container, .js-katie-badge, .js-react-answer-left-counter
 brief.pl##.next-prev-post, .post-related
 brodatyzbir.pl,kasiapszonicka.pl##.posts-pagination > .post-pagination
@@ -6098,8 +6089,6 @@ administrator24.info###zRight > p
 agrodoradca24.pl##.nf-newspaper
 angielski-przedszkole.pl##.ksiazka_contener > .dd-object661798813.dd-textblock
 angielski-przedszkole.pl##[src="/images/book.png"]
-aptekarzpolski.pl#?#.jeg_alignleft.jeg_block_heading_2.jeg_block_heading:-abp-has( > .jeg_block_title:-abp-contains(Nowy numer))
-aptekarzpolski.pl#?#.jeg_alignleft.jeg_block_heading_2.jeg_block_heading:-abp-has( > .jeg_block_title:-abp-contains(Nowy numer)) + div
 astromagia.pl##.other-services
 astromagia.pl##.section-current-numbers
 audio.com.pl,automatykab2b.pl,budujemydom.pl,elektronikab2b.pl,ep.com.pl,estradaistudio.pl,magazyngitarzysta.pl##.kiosk
@@ -6121,8 +6110,6 @@ avtest.pl##.feature.module
 avtest.pl###position-7 > div.module:nth-of-type(1)
 bialykruk.pl###magazine
 biznes-plus.pl##.middle-aside > #media_image-3
-braclowiecka.pl##section.content:nth-of-type(1) > .wrapper > .main-content-wrapper > .main-content
-braclowiecka.pl###w-main-sections > .paragraph-row > div.column6:nth-of-type(1)
 budujemydom.pl##.d-lg-block.d-none.header__magazyn
 budujemydom.pl##.monthly-magazine
 budujemydom.pl,ekobudowanie.pl,elektronikab2b.pl,ep.com.pl,ktociewyleczy.pl,magazyngitarzysta.pl,zielonyogrodek.pl###avt-korona
@@ -6212,11 +6199,6 @@ glowny-mechanik.pl###custom_html-7
 gosc.pl##div.wp-el.webpart-wrap-layout.wp-bd:nth-of-type(9) > .layout-1200.c > .Col0.LayoutColumn.c1200 > .wp-el.webpart-wrap-layout_column.wp-bd
 gosc.pl##.Col0.LayoutColumn.c-right-margin.c820 > .wp-el.webpart-wrap-layout_column.wp-bd > .wp-el.webpart-wrap-links.wp-bd
 gostynska.pl###switch-2
-gpcodziennie.pl##div.no-mobile:nth-of-type(7)
-gpcodziennie.pl##div.no-mobile:nth-of-type(8)
-gpcodziennie.pl##.new-prenumerata
-gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/)
-gpcodziennie.pl#?#div.section-title:-abp-contains(/^TRZY OSTATNIE WYDANIA$/) + div.row
 gwiazdybasketu.pl##li.col-md-12.item:nth-of-type(8)
 hebe.pl##.footer-content.footer-item
 histmag.org#?##content > div > h3:-abp-contains(/^Książkę można też kupić jako audiobook, /)
@@ -6426,11 +6408,7 @@ tygodniksiedlecki.com##.mockup-box.col-xs-12.col-sm-12.co-md-12.col-lg-12
 tygodnik-krapkowicki.info###Mod3
 tygodnik-rolniczy.pl##.box--subscribe
 tygodniowa.pl#?#.owl-item:-abp-has( > .item:only-child > a[href=""] > img)
-tygodniowa.pl#?#.sidebar h4:-abp-contains(Wydanie)
-tygodniowa.pl#?#.sidebar h4:-abp-contains(Wydanie) + a > img
 tylkotorun.pl#?#section[id^="media_image-"]:-abp-has( > a[href^="http://tylkotorun.pl/e-wydanie-"])
-tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/)
-tysol.pl#?#.news_header:-abp-contains(/^Najnowszy numer$/) + br + div
 viva.pl##.medium-order-210.subscription
 warszawskagazeta.pl##div.sp-module:nth-of-type(3)
 warszawskagazeta.pl###sppb-addon-1504787697990 > .sppb-addon-module.sppb-addon
