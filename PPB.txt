@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: m5dAZ3/9OpLf+cBU+vQccg
+! Checksum: iMgGRFZJnMCE3mRHaMh2rw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 04 Jan 2022, 15:08 UTC+01
-! Version: 2022.1.4.1
+! Last modified: Sun, 09 Jan 2022, 19:08 UTC+01
+! Version: 2022.1.9.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 04 sty 2022, 15:08 UTC+01
+! Aktualizacja: nie, 09 sty 2022, 19:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -250,6 +250,8 @@ blog-daneosobowe.pl,ekorekta24.pl,labosport.pl,niezlasztuka.net,sprawyzdrowia.pl
 blog.gdaq.pl###oh_newsletter_slideIn
 blog.gdaq.pl##.widget_custom_html.one-third
 blog.gdaq.pl,doktorania.pl,faktyozywnosci.pl,haart.pl,kryptopomocnik.pl,magnapolonia.org,naukatolubie.pl,ostatniatawerna.pl,refreszing.pl,stomatologianews.pl###custom_html-2
+blog.goeste.pl#?#footer .elementor-widget-heading:-abp-contains(newsletter)
+blog.goeste.pl#?#.single-p-sidebar .elementor-widget-heading:-abp-contains(newsletter)
 blog.kurasinski.com##.right-col, .newsletter
 blog.lh.pl#?#article.post > .entry-content > div:-abp-has(a[href="/newsletter/"])
 blog.mozilla.org,olesnica24.com,zamek-krolewski.pl###newsletter_form
@@ -527,6 +529,7 @@ eldomagd.eu##.pro-footer-newsletter
 elektromeks.pl##.newsletter_stopka
 elektroniksc.com.pl##.tpl-newsletter-form-widget
 elektronik-service.com.pl###form_newsletter_down
+elektrostymulatory.net###newsletter-fm
 elektrosystemy.pl###text-48
 elektrykapradnietyka.com##a[href="http://elektrykapradnietyka.com/newsletter/"]
 elektryknet.pl##.footer_nls .fnls
@@ -1311,6 +1314,7 @@ powiatlobeski.pl###nl
 powiat-piaseczynski.info###gkSidebar > div.box:nth-of-type(3)
 poznan.factory.pl##.pane-2.pane-custom.panel-pane
 praca.antyweb.pl##.bg-blue.hero
+praisethewear.com#?#.elementor-location-footer .elementor-section:first-child:-abp-contains(10% rabatu)
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
 prawokonsumenckie.pl##.container > .row > div.col-lg-3:nth-of-type(3), div.g-mb-50:nth-of-type(4)
 prawokonsumenckie.pl##.g-bg-secondary
@@ -1920,6 +1924,7 @@ zyciepabianic.pl###widget-newsletter
 !
 !
 ! Newslettery (nie popupy) - ogólne reguły
+~activejet.pl,pl##.newsletterBox
 ~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.al.to,~lp.x-kom.pl,~pap-mediaroom.pl,pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input):not(.popup-mask + .newsletter)
 ~aurum-optics.pl,pl##.footer-newsletter
 ~automatykab2b.pl,pl##.newsletter-box
@@ -1932,7 +1937,6 @@ zyciepabianic.pl###widget-newsletter
 ~pl###newsletter:not(.modal):lang(pl)
 ~pl,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input):not(.popup-mask + .newsletter):lang(pl)
 pl##.ModulNewsletter
-pl##.newsletterBox
 pl##.newsletterContainer
 pl##.newsletterbox
 pl##.newsletter.box
@@ -2138,6 +2142,7 @@ bodyland.pl,hairstore.pl###newsletter-lightbox-holder
 boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,wagner-polska.com.pl##.toplayer
 bolix.pl,pushpushgo.com###ebook-popup
 born2be.pl,renee.pl##.snrs-modal-wrapper
+braclowiecka.pl##div[id^="lepopup-popup"]
 brandpro.pl###mc_embed_signup
 brandpro.pl##.fancybox-skin
 brilu.pl,chefstore.pl##.popup__overlay
@@ -2660,6 +2665,7 @@ pracatobie.pl###Ankieta1PopupContent, #Ankieta1PopupBackground
 pracodawcagodnyzaufania.pl##.eb-backdrop
 pracujwsprzedazy.pl###modal-social
 pracuj.pl##.onboarding--opened.onboarding
+praisethewear.com#?#.elementor-popup-modal:-abp-contains(newsletter)
 prawodlasamorzadu.pl###lightbox-2
 prenumerata.ruch.com.pl,swiatloistyl.pl###my-welcome-message, #fvpp-blackout
 preply.com##.subscribe_modal_js
@@ -3224,7 +3230,7 @@ czasdzieci.pl##.pushNews[class*="section"]
 deccoria.pl##.dc-floatingvideo__wrapper[class*="fixed"]
 dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.videoScroll, .closeVideoBtn
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
-filmweb.pl##.isPinned.videoPlayer
+filmweb.pl##.isPinned.videoPlayer > .videoPlayer__container
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
@@ -3275,7 +3281,7 @@ pl##.videoPlayer.is--persistent:not(.ended)
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,pasmanteria.eu,poid.eu,stolmot.com###to-top
 3i-store.com,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,domkorkowy.com,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,konin24.info,krzywcza.eu,laswnas.com,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
 4f.com.pl,adriatech.pl,agrojumal.com.pl,android.com.pl,answear.com,blaugrana.pl,cyfrowarepublika.pl,dachygt.pl,drmax.pl,fenii.pl,karchercenter-ocean.pl,karnet.krakow.pl,myjki.com,myjki.eu,ocean-karcher.pl,oponeo.pl,pracuj.pl,radiopoznan.fm,sagito.pl,sandraspa.pl,sport-shop.pl###scrollTop
-4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,shipgratis.eu,sklep.mptech.eu###scroll-to-top
+4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu###scroll-to-top
 4turbo.pl,dayupstore.pl,fhuoskar.pl,klinkierbud.pl,no10.pl,palis.pl,sklep-narzedzia.pl,sklep.agroas.pl,sklep.loakepolska.pl,sklep.monster.pl,sklep.platinet.pl,sorbenty.pl,sportbazar.pl,twp.sklep.pl###moveTop
 5wszk.com.pl,brwmielec.pl,creagroup.com.pl,crmodus.pl,dietetyczne-przepisy.net,dietetyk-proporcja.pl,e-theart.pl,gchmanhattan.pl,krolismok.pl,rubbens.pl,supersam-katowice.pl,wieniecwarszawa.pl###slide_top
 24hurt.pl,haftpasja.pl,mirjan24.pl,pm-m.pl,uczyibawi.pl###wt_scroll_top
@@ -3545,6 +3551,7 @@ ekspedyt.org###sbttBacktotop
 eksperymentalnie.com,finanse.egospodarka.pl,fundacjawolnosci.org##a[href="#top"]
 electrolux.pl##.navigate-to-top
 elektrosalon.pl###buttontotop
+elektrostymulatory.net,gorke.eu,hdtvpolska.com,kasta.news,kopalniasrebra.com,pl.genesis-zone.com,polako.eu,szopienice.org,twojcel.to##.go-to-top
 elektrykadlakazdego.pl##.crane-top
 elk.zdz.bialystok.pl###dotop
 enetproduction.com##div.vued-custom-scroll_to_top
@@ -3620,7 +3627,6 @@ gomez.pl##.custom-top-fixed.btn
 goodie.pl##footer ~ div[role="button"]
 goodie.pl###main-container > .ax > #header ~ footer.s5 + .hf.he > .hg
 google.com##.step-scroller
-gorke.eu,hdtvpolska.com,kasta.news,kopalniasrebra.com,pl.genesis-zone.com,polako.eu,szopienice.org,twojcel.to##.go-to-top
 gorlice.pl,wieliczka.eu###global-scrollup
 gosc.pl,igomedia.pl,promocje.al.to,promocje.x-kom.pl##.GoToTop
 gotujwstylueko.pl##.move-up
@@ -5354,6 +5360,7 @@ filmweb.pl##.page.filmPage ~ .page, .page.newsPage ~ .page
 finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,turystyka.wp.pl,wiadomosci.wp.pl#?#div > div > div > div > div > div > div > div > div > div:-abp-has(aside:-abp-contains(następny artykuł))
 firmyinzynieria.com###sideButtons.load
 fitdiet.pl,poid.eu###ajax-loading-screen
+fixitpc.pl##i.f-fe:empty
 florydziak.com###float_feed_box
 fmmobile.pl##.i-filmpromo
 focus.pl##.box-obserwuj-newsletter
