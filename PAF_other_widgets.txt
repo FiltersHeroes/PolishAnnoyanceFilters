@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: tu+cqhMvKTk3Gbt70sgjvA
+! Checksum: H5audyKSPjW9ozXKddGUsw
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 09 Jan 2022, 19:08 UTC+01
-! Version: 2022.1.9.0
+! Last modified: Tue, 11 Jan 2022, 22:14 UTC+01
+! Version: 2022.1.11.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 09 sty 2022, 19:08 UTC+01
+! Aktualizacja: wto, 11 sty 2022, 22:14 UTC+01
 !
 !
 !
@@ -1049,10 +1049,12 @@ pl##.socialproof-new
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
 ##body > .buttonHomepage, .buttonHomepage ~ .containerHomepage
+###cursor:empty
 ###grw_sidebox
 ###gr-spnotifications
 ##.circle-cursor
-/hello-elementor-child/pointer.js$script,stylesheet,~third-party
+##[class="cursor"]:empty
+/hello-elementor-child/pointer.$script,stylesheet,~third-party
 !
 !
 ! Reguły specjalne
