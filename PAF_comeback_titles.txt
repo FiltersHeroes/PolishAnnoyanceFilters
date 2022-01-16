@@ -1,10 +1,10 @@
-! Checksum: ssZ/ugIMWtDXlF+dzzt5zQ
+! Checksum: ShjgQhDSqV294To9AFjeJw
 ! Title: Polskie Filtry Elementów Irytujących - Powrotowe Tytuły
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Mon, 27 Dec 2021, 23:43 UTC+01
-! Version: 2021.12.27.1
+! Last modified: Sun, 16 Jan 2022, 22:49 UTC+01
+! Version: 2022.1.16.1
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 27 gru 2021, 23:43 UTC+01
+! Aktualizacja: nie, 16 sty 2022, 22:49 UTC+01
 !
 !
 123lazienka.pl,keko.pl##+js(aopr, document.title)
@@ -27,6 +27,7 @@ drtusz.pl##+js(acis, $, Wróć na)
 dziennikprawny.pl,picodi.com##+js(aopr, titleBack)
 naekranie.pl##+js(aeld, visibilitychange, Zzzz)
 nocowanie.pl##+js(acis, changeTitle, Wróć)
+polt.pl,socialteam.pl##+js(aeld, visibilitychange, handleVisibilityChange)
 prawokonsumenckie.pl##+js(set, setReplyTitle, noopFunc)
 przepisy.pl##+js(aeld, visibilitychange, zone_symbol__propagationStopped)
 sestimi.pl##+js(aeld, blur, document.title = message)
