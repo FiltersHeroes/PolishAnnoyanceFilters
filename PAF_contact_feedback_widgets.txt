@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: SWPIDvoFimQPckmQqbCcHw
+! Checksum: DRpEzslWBTRH8oj8KweooA
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sat, 22 Jan 2022, 22:05 UTC+01
-! Version: 2022.1.22.1
+! Last modified: Sun, 23 Jan 2022, 19:08 UTC+01
+! Version: 2022.1.23.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 22 sty 2022, 22:05 UTC+01
+! Aktualizacja: nie, 23 sty 2022, 19:08 UTC+01
 !
 !
 !
@@ -85,6 +85,7 @@ bechtle.com##.communication-box
 bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(4)
 bershka.com##chat
 bezpieczny.pl###call_phone
+bigbaddice.pl##.icon-social-whatsapp
 bike-parts-honda.pl###fleche_popin_contact
 bilgorajska.pl##.pod_feedback
 bilgorajska.pl,bobbyburger.pl,godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
@@ -325,6 +326,7 @@ ismserwis.pl###awesome-live-chat
 itlab.pl##.id-14.side-tab-widget
 jakwyjsczdlugow.pl##.btn-info
 jaw.com.pl###qcf-btn, #qcf-phone
+jbzdy.cc,jbzdy.com.pl,jbzdy.pl##.btn-send-messenger, .fb-like
 jsystems.pl##.metka
 juwentus.pl##[id="--lc-init-container"]
 kajakom.pl###help
@@ -437,6 +439,7 @@ odnowa.jezuici.pl##.tab-contact
 ofix.pl##.thulium-chat-wrapper
 okazik.pl###btn-message
 omeda.pl##.boxRight:not(.fb)
+onet.pl,plejada.pl##.whatsapp
 open.pl##div[class^="kodabots-widget"]
 operon.pl##.contact-trigger
 opoka.tv###pwebcontact3_toggler
@@ -444,6 +447,7 @@ oponeo.pl##.contactOnline
 optitaxi.pl###uptocall-mini
 optykwnecie.pl##.whatsappchat-anchor
 oracle.com##.ochat_slideout, .cw21help
+oszczedzarka.co.uk.textwidget > p > img[src="/img/ico/skype.png"]
 outside.com.pl##.bonfire-slideout-button
 ox.pl##.contact-with-office
 panekcs.pl###module-293\#3-0-0
@@ -461,6 +465,7 @@ philipsagd.pl###fixed-contact
 picodi.com###oneSignalBell, #onesignal-bell-container
 pikio.pl###chatBot
 pityver.pl###widget.tada.widget
+pl##a[href^="fb-messenger://share/"]
 pl##.sm-panel .sm-messenger
 pl.000webhost.com##div[style="cursor: pointer;"]
 pl.canalplus.com##.AsideButtons
@@ -637,6 +642,7 @@ vitay.pl###serviceRatingBox
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(1)
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(2)
 wakacje.pl###rightTabs > .rightSpeech
+wakacyjnipiraci.pl##.widget-whatsapp__broadcast
 westhill.pl##.wh-cta
 widokimokotow.pl###js-omp-trigger
 wielton.com.pl##.fast-contact-widget
