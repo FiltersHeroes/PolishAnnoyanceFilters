@@ -316,6 +316,9 @@ forum.gram.pl#?#.cTopicPostArea:-abp-contains(Utwórz konto lub zaloguj się, ab
 forum.muratordom.pl###left_circus > .dostepne_mobile
 forum.optymalizacja.com#?#.cTopicPostArea:-abp-has(.cGuestTeaser)
 forum.swiateczne.info##.av-preloader-box
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##.backToWp
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?##main-content ~ div[class] > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?##main-content > div[class] > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 freelancer.pl###fixed-banner
 fronda.pl##.slided-article
 gaia.com.pl###smAddonSizes
@@ -675,9 +678,6 @@ polityka.pl##.commentArt
 poloniawroclaw.pl##.sfl-widget--ribbon__fixed, .ys-sidebar-btn-2
 polskicaravaning.pl###\35 3419
 polstor.pl##.tax-free-shopping
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl##.backToWp
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl#?##main-content ~ div[class] > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
-polygamia.pl,www.dobreprogramy.pl,gadzetomania.pl,komorkomania.pl,fotoblogia.pl#?##main-content > div[class] > div[class]:first-child:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 poradnikhandlowca.com.pl##.region-page-bottom > #slidead-popup
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 portalhodowcy.pl##.kac-sm-panel > ul:nth-of-type(1)
