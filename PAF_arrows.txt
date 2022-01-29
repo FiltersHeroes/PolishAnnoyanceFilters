@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: N0B1R5W+LXLTIaUyZFIMJg
+! Checksum: gcL1mQfpHA8bnJQ5todryg
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Tue, 25 Jan 2022, 11:08 UTC+01
-! Version: 2022.1.25.0
+! Last modified: Sat, 29 Jan 2022, 11:08 UTC+01
+! Version: 2022.1.29.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 25 sty 2022, 11:08 UTC+01
+! Aktualizacja: sob, 29 sty 2022, 11:08 UTC+01
 !
 !
 ! Specyficzne reguły
@@ -298,6 +298,7 @@ elk.zdz.bialystok.pl###dotop
 enetproduction.com##div.vued-custom-scroll_to_top
 enowiny.pl,mobileworld24.pl##.mnmd-go-top
 erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,yellow.place###up
+erli.pl#?##root > header ~ main > button[class*=" "]:-abp-has( > svg:only-child :empty)
 esdorado.com,rolmarket.pl###scrollTopButton
 eset.com##.footer-scroll-to-top-wrapper
 esparto.pl##.clb-scroll-top
