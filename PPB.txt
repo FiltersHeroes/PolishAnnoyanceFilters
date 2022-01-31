@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ZGLk5YaCKlaZopvxgBKENw
+! Checksum: 6o1/ILyiZiBDNRtcuBqr6w
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 29 Jan 2022, 11:08 UTC+01
-! Version: 2022.1.29.0
+! Last modified: Mon, 31 Jan 2022, 15:08 UTC+01
+! Version: 2022.1.31.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,13 +15,10 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 29 sty 2022, 11:08 UTC+01
+! Aktualizacja: pon, 31 sty 2022, 15:08 UTC+01
 !
 !
 ! Newslettery (nie popupy)
-~activejet.pl,pl,tfkable.com##.newsletterBox
-~aurum-optics.pl,azbudownictwo.com,eglobalcentralpl.com,jogapiekna.com,media-tech.eu,pl,reserved.com,sklep.ekotechnologia.eu,x-lander.com##.footer-newsletter
-~automatykab2b.pl,balladine.com,developer.mozilla.org,disqus.com,pl,portalodo.com,unisono.eu##.newsletter-box
 1rosyjski.pl##section[id^="mc4wp_widget"].widget_mc4wp_widget
 3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-address-block > p:nth-of-type(n+4):nth-of-type(-n+5)
@@ -175,12 +172,14 @@ avaro.pl##.smsapi-sidetitle
 avlab.pl#?#.elementor-location-footer > div > section:has(#newsletter)
 avlab.pl#?#.elementor-widget-container > .elementor-flip-box:-abp-has(a[href="#newsletter"])
 awa24.pl##div[class^="stopka"] > div[class^="newsletter"]
+azbudownictwo.com,eglobalcentralpl.com,jogapiekna.com,media-tech.eu,reserved.com,sklep.ekotechnologia.eu,x-lander.com##.footer-newsletter
 azdoc.pl##div.col-md-6.p-4:nth-of-type(2)
 azjatyckibazar.com##.site-footer__item-inner--newsletter
 azzun.pl##.site-footer__ezine-hld
 b2btrade.eu#?#.vertical-top.rwd-col-6:-abp-contains(newsletter)
 babyboom.pl##.zapisz-newsletter
 babysensepolska.pl##.newsletter2-wrapper
+balladine.com,developer.mozilla.org,disqus.com,portalodo.com,unisono.eu##.newsletter-box
 bankier.pl##.widgetNewsletter
 bankier.pl###boxNewsletterFlyfooter, #articleNewsletter
 bankmillennium.pl###buttonSelectorChat
@@ -289,7 +288,7 @@ butyjana.pl##.bjNewsletterText
 butyraj.pl##.hidden-phone.top_toplayer
 bydgoszczak.pl,kaliszak.pl,katowiczak.pl,krakusik.pl##.mini-newsletter
 bydgoszcz.com,ct.jaworzno.pl,damitv.pl,e-widuchowa.pl,echotygodnik.info,kociewiak.pl,narew.info,pzl24.pl,telewizjazary.pl,tvobiektyw.pl,tvsudecka.pl,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
-byinsomnia.com,mniammniam.com,pl,r-gol.com,rylko.com,stoprocent.com,~znak.com.pl##.newsletter-container
+byinsomnia.com,mniammniam.com,pl,r-gol.com,rylko.com,stoprocent.com##.newsletter-container
 bytom.com.pl##[translate="main.footer.newsletter.header"]
 cafago.com,tomtop.com##.m_subscribe_input
 cafessima.pl###block-23
@@ -656,6 +655,7 @@ gdzietymrazem.pl##.widget_custom_html.widget.td_block_template_1.widget_text:nth
 geekbuying.pl,perfumeriatop10.pl,toys4boys.pl,turbo-shop.pl###newsletter_block_home
 geekwork.pl###newsletter-head
 germany.travel###footer_inner_wrapper > div:nth-of-type(1) > .list-inline > li:nth-of-type(9), li.divider:nth-of-type(10)
+getmailbird.com,roshen.com##.footer-subscribe
 gettinenglish.com###easy-opt-in-widget-2, .sh-s11.sh-t6.section-heading > .h-text
 giacomo-design.com##.newsletter.cell.large-3 > h3, .newsletter.cell.large-3 > div > .es_shortcode_form.es_subscription_form
 gieksainfo.pl##div.menu-wide:nth-of-type(3) > h2:nth-of-type(1)
@@ -772,7 +772,6 @@ jagodnik.pl##.textwidget
 jagodnik.pl##a[href="http://www.jagodnik.pl/newsletter/"]
 jagodnik.pl##.td_uid_52_5f019c1f4f05b_rand.vc_widget_sidebar.td_block_wrap.wpb_wrapper
 jagodnik.pl##.widget_text > .block-title
-jakaoferta.pl##.tdn_block_newsletter_subscribe > .tds-newsletter
 jakrobicmarketing.pl###\31 -2
 jak.tv##.nav-newsletter
 jaroslawiak.pl###nwslBoxCnt
@@ -850,7 +849,6 @@ kruczek.pl##.post_mc_newsletter.mc_embed_signupm, #mc-embedded-subscribe-form
 krzywydomek.info###main > .row2.col1
 ksiegarniasztuki.pl###kolumny_k .prawa
 ksiegarnia.beck.pl##.newspopup_up_bg
-ktociewyleczy.pl##.newsletter-module
 kuchnialidla.pl##.home_newsletter_col1
 kulig.pl###newsletter-pasek-in > .row > div:first-child
 kulinarne.info##.div.p-3.col-md-4:nth-of-type(1) > .text-center.mb-4
@@ -1590,6 +1588,7 @@ teraz-srodowisko.pl###footer-newsletter-container
 termyszaflary.com##footer div.col-md-4:nth-of-type(3)
 terrymoda.pl##footer > .grid-container > div[class]:nth-of-type(2)
 tesco.pl##.leaflets_subscribe_itesco
+tfkable.com##.newsletterBox
 tge.pl##footer .card > .card-block
 tge.pl##.tge-newsletter-form
 thermano.eu##.footer-box--wide
@@ -1842,7 +1841,6 @@ zus.pox.pl##.moduletable:nth-of-type(5)
 zwierciadlo.pl##.post.boksborder > aside.boxappla:nth-of-type(1)
 zyciepabianic.pl###col1 > .widget:nth-of-type(3)
 zyciepabianic.pl###widget-newsletter
-,autodoc.pl,getmailbird.com,grzegorzmiecznikowski.pl,jaktodaleko.pl,kingaparuzel.pl,makeup.pl,roshen.com,sandoz.pl##.footer-subscribe
 ||4prm.pl/*/4p_newsletter.jpg
 ||a-ajurweda.pl/images/layout/ajurweda/newsletter_ajurweda.png
 ||biuroprasowe.pl/userfiles/_CMS_/EPR3/baner_newsletter.jpg
@@ -1881,7 +1879,6 @@ zyciepabianic.pl###widget-newsletter
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
 ||zadowolenie.pl/media/cache/filemanager_original/images/zadowolenie/zdw-nowe/sg/okazjonalne/zdw-newsletter-
 ||zooplus.pl/magazyn/wp-content/uploads/20*/*/*Newsletter_Promotion_$image
-‘
 !
 !
 ! Newslettery (nie popupy) - ogólne reguły
@@ -1901,11 +1898,8 @@ pl##.ModulNewsletter
 pl##.newsletterCont
 pl##.newsletterContainer
 pl##.newsletterForm
-pl##.newsletterSubscribe
 pl##.newsletterWidget
 pl##.newsletterbox
-pl##.newsletter.box
-pl##.subscribeNewsletter
 pl###box-newsletter
 pl###box_newsletter
 pl###email-subscribers-2
@@ -1924,7 +1918,6 @@ pl###newsletter-container
 pl###newsletter-footer
 pl###newsletter-promo
 pl###newsletter_bar
-pl###newsletter_block_left
 pl###newsletter_box
 pl###newsletter_footer
 pl###newsletter_link
@@ -1942,8 +1935,6 @@ pl##.box-newsletter
 pl##.btn-newsletter
 pl##.column--newsletter
 pl##.c-newsletter
-pl##.et_bloom_flyin
-pl##.et_bloom_optin
 pl##.footer-block--newsletter
 pl##.footer-newsletter-box
 pl##.footer-newsletter-form
@@ -1960,7 +1951,6 @@ pl##.jetpack_subscription_widget
 pl##.link-newsletter
 pl##.m-newsletter
 pl##.newsletter-area
-pl##.newsletter-banner
 pl##.newsletter-block
 pl##.newsletter-bottom
 pl##.newsletter-btn
@@ -1972,11 +1962,9 @@ pl##.newsletter-footer
 pl##.newsletter-inner
 pl##.newsletter-link
 pl##.newsletter-module
-pl##.newsletter-popup
 pl##.newsletter-rejestracja
 pl##.newsletter-sidebar
 pl##.newsletter-subscribe
-pl##.newsletter-top
 pl##.newsletter-widget
 pl##.newsletter-wrap
 pl##.newsletter-wrapper
@@ -1988,17 +1976,11 @@ pl##.newsletter_wrapper
 pl##.newsletter__form
 pl##.newsletter__wrapper
 pl##.optin-monster-api
-pl##.popup-newsletter
 pl##.section-newsletter
 pl##.section--newsletter
 pl##.sidebar__newsletter
 pl##.single-post-newsletter
 pl##.site-footer__newsletter
-pl##.subscribe-block
-pl##.subscribe-box
-pl##.subscribe-form
-pl##.subscribe-newsletter
-pl##.subscription-widget
 pl##.tds-newsletter
 pl##.widget-newsletter
 pl##.widget_bs-newsletter-mailchimp
@@ -2116,7 +2098,6 @@ avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl
 avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu##div[id^="tln"][id$="_bg"]
 axa.pl##.welcome-popup
 azzun.pl##.js-popup.popup
-b2b.metal-bud.eu##.go-to-top-ui
 b4internet.pl###newsletter_container
 babymanager.pl#?#.spu-bg:-abp-has( ~ .spu-box .fb-like-box)
 babymanager.pl#?#.spu-box:-abp-has(.fb-like-box)
@@ -2338,7 +2319,6 @@ g2aarena.pl##.sg-popup-builder-content, .sgpb-popup-overlay
 galeria-kaskada.pl,portaltatrzanski.pl###modalNewsletter
 ganjamafiashop.com,kontaktowe.pl###jOverlayContent, #jOverlay
 gazetapolska.pl,naszeblogi.pl,niezalezna.pl,panstwo.net,telewizjarepublika.pl###popup-ad
-gazetapraca.pl###overlayJS
 gazeta-msp.pl,msportal.pl###stickynote2
 geekbuying.pl,lightingcenter.pl###newsletter_block_popup
 geekbuying.pl,lightingcenter.pl,pasmanteriapasja.pl,perfumeriatop10.pl,toys4boys.pl,turbo-shop.pl###newsletter_block_home.fixed
@@ -3142,7 +3122,6 @@ pl,typeofweb.com###onesignal-popover-dialog
 pl.waterdrop.com##.pushowl-widget-node
 polsatnews.pl###pushwooshBellWidget
 pomponik.pl##.ppg__signin
-przegladsportowy.pl##.pushPlatform
 sklepsamsung.pl##.b-modal_webpushCentered
 sklepsamsung.pl##.b-modal_webpushVertical
 sprzedajemy.pl###webPushWidget
@@ -4533,7 +4512,6 @@ ewakacje.pl##.classNotesList_button
 ewozki.eu##div[id] > iframe[title="chat widget"]
 experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 exploringaround.pl##.ecp-button
-exploringaround.pl##.right.ecp-button
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
 extradom.pl##div.hidden[style*="position: fixed"] > a.btn[data-target="#zamow-rozmowe"]
 extradom.pl##.olark-chat-tab
@@ -4947,7 +4925,6 @@ viralka.pl##.widget_boombox_social
 virginmobile.pl###crazycall-click-to-call-container
 virtualmedia.pl###formularz
 virustotal.com##vt-ui-contact-fab
-virustotal.com###walkthrough ~ vt-ui-contact-fab
 vitay.pl###serviceRatingBox
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(1)
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(2)
@@ -5259,7 +5236,7 @@ chojnow.pl###login-box
 chomikuj.pl###plugininInstallerDiv, .recommend_panel
 chorzow.eu##.col-sm-12 > p:nth-of-type(3)
 chrzypsko.pl##.biegacz
-ciekawe.org,cyfrowyszpital.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl####.boxzilla-container:not([class*="center"]) > .boxzilla
+ciekawe.org,cyfrowyszpital.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl##.boxzilla-container:not([class*="center"]) > .boxzilla
 cieplikpodrozuje.pl#?#.elementor-popup-modal:-abp-has(input[type*="email"])
 citroen.pl##.sidebarToolsDesktopReview
 ckr.pl##.sliding-platforma, .sliding-zwolnienie
@@ -5277,7 +5254,6 @@ crmodus.pl##.kac-sm-zl
 crolove.pl###see-more-box
 cryptoacademy.club,miedzyrzecz.biz,piaseczno.eu,polonia.nl,weneedmore.space,wislakrakow.com,wrp.pl##.td-more-articles-box
 cybersport.pl##.is-active.pbox
-cyfrowyszpital.pl,gracz.org,reporters.pl##.boxzilla-container:not([class*="center"]) > .boxzilla
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
 czestochowa.pl###left_bookmarks > a[href$="dodaj-do-ulubionych.html"]
@@ -6456,7 +6432,6 @@ starachowicki.eu##div.l-box--25.l-box:nth-of-type(2)
 strzal.pl##section.bgYellow
 strzal.pl##.my-auto.flex-item
 superhistoria.pl###footer > .section-issue
-superhistoria.pl##.section-issue
 swiat-szkla.pl#?##left > #left-in > div.moduletable:-abp-contains(Aktualne wydanie)
 swierszczyk.pl##.banner--green.banner
 swierszczyk.pl##.gallery--ship-run.js-gallery.swi-gallery.gallery
@@ -6536,7 +6511,6 @@ zycie.pl##.right #multiple-versions, #premium-slide
 ||i.perspektywy.pl/pages/jhovngq2lj/banners/dzxJ753hSuAaVE8nTYOtqs9TVrYVgsKe4WRvOFFn.jpeg
 ||jagodnik.pl/wp-content/uploads/2020/02/MF2018-1.png
 ||michalici.pl/storage/_MICHALICI/Slaider/KJB/Slajder_kjb_new_2020_4.jpg
-||niezalezna.pl/images/gp/gp_360.jpg
 ||niezalezna.pl/images/gp/gp_*.jpg
 ||niezalezna.pl/images/page/gpcodziennie_*.jpg
 ||niezalezna.pl/images/page/prenumerata_*.jpg
