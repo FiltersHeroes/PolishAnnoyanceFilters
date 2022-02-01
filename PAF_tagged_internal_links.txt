@@ -1,10 +1,10 @@
-! Checksum: lk0HknXHFruVfJgO99Ef8A
+! Checksum: TeQKX59OEFauBBPtCjVFPg
 ! Title: Polskie Filtry Elementów Irytujących - Otagowane Linki Wewnętrzne
 ! Polish Annoyance Filters - Tagged Internal Links
 ! Codename: Tagged Internal Links
 ! Description: Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.
-! Last modified: Tue, 07 Dec 2021, 11:08 UTC+01
-! Version: 2021.12.7.0
+! Last modified: Tue, 01 Feb 2022, 20:30 UTC+01
+! Version: 2022.2.1.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,16 +12,16 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 07 gru 2021, 11:08 UTC+01
+! Aktualizacja: wto, 01 lut 2022, 20:30 UTC+01
 !
 !
 autokult.pl##a[data-ga360-sa="article-intext"][href*="autokult.pl"]:style(pointer-events: none !important; box-shadow: none !important;)
+bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##+js(ra, href, .external_link, stay)
+bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link:style(background: none !important;)
+bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link[href]:style(pointer-events: none !important; position: unset !important;)
 dziennikzachodni.pl##+js(ra, href, componentsArticleContent a[href*="&utm_campaign=artykul"], stay)
 dziennikzachodni.pl##.componentsArticleContent a[href*="&utm_campaign=artykul"]:style(pointer-events: none !important; color: initial !important;)
 fotoblogia.pl##a[data-ga360-sa="article-intext"][href*="fotoblogia.pl"]:style(pointer-events: none !important; box-shadow: none !important;)
-gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##+js(ra, href, .external_link, stay)
-gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link:style(background: none !important;)
-gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link[href]:style(pointer-events: none !important; position: unset !important;)
 komorkomania.pl##a[data-ga360-sa="article-intext"][href*="komorkomania.pl"]:style(pointer-events: none !important; box-shadow: none !important;)
 !
 !
