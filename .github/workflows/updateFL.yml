@@ -8,7 +8,7 @@ on:
 jobs:
   Aktualizacja:
     runs-on: ubuntu-latest
-    container: ghcr.io/filtersheroes/vichs_image:2.26.9
+    container: ghcr.io/filtersheroes/vichs_image:2.26.9-2
     steps:
       - uses: actions/checkout@v2
       - env:
