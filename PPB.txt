@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 1gIUvUGAK4bOLcng0XSb+A
+! Checksum: E+vr5dGcHPPFlS2vriIjdw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Fri, 04 Feb 2022, 16:30 UTC+01
-! Version: 2022.2.4.0
+! Last modified: Sun, 06 Feb 2022, 20:30 UTC+01
+! Version: 2022.2.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 04 lut 2022, 16:30 UTC+01
+! Aktualizacja: nie, 06 lut 2022, 20:30 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -608,6 +608,8 @@ flovery.pl###footgroup-newsletter
 flowday.pl,knf.gov.pl,longterm.pl##.newsletter-bar
 focus.pl#?#.content-content.col-lg-9.col-md-8.col-sm-12 > div > div:-abp-has( > a[href*="newsletter"])
 fokusfashion.com##form > input:nth-of-type(2), #menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
+foodsbrothers.pl##.type_instagram.footer__top > div > .container > .row > div:nth-child(4) > aside > div > :not(:last-child)
+foodsbrothers.pl##.type_instagram.footer__top > div > .container > .row > div:nth-child(4) > aside > h3
 foodsbyann.com##.custom_footer__box--left.custom_footer__box
 foodyas.com##footer > div > .row > div.col-lg-4:nth-of-type(3)
 forbot.pl###powiadomieniaMailowe
@@ -792,7 +794,6 @@ kalibaby.pl#?#.center-block-last:-abp-has(.f_newsletter)
 kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-success
 kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
 kamilafrontino.com,mamonik.pl,naszebialeblota.pl,okultura.pl###text-3
-kamilassurma.com#?#.elementor-popup-modal:-abp-has(form[action*="mail"][action*="/webform"])
 kam-sport.pl##footer div.col-sm-4.vc_column_container.wpb_column.nm_column:nth-of-type(2) > .vc_column-inner
 kappahl.com###news-footer
 kariera.pl##.article-newsletter
@@ -2832,7 +2833,6 @@ tutek.pl###qnpop
 tvkrosno.pl###efbl_popup
 tvokazje.pl##.wf2-popover.grwf2-wrapper
 twardogora.pl##.popup, #popup-bg
-twisto.pl##.modal, .section-modal-shadow
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 txm.pl##.mfp-ready.mfp-wrap
 tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
@@ -3320,7 +3320,7 @@ agripel.pl,felixcom.net,lulek.tv,naszekluski.pl,wszystkookotach.pl###scrollup
 agroas.pl##.to-the-top-link
 agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,clea.pl,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,sparta.com.pl,zaufanekliniki.pl###top-link
 agrofakt.pl##.go-down
-agrofakt.pl,badaniaprenatalne.pl,exploringaround.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
+agrofakt.pl,badaniaprenatalne.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
 agrohandler.pl,betterland.pl,porcja.eu,swiece-zaplonowe.pl###to_top_wrap
 agrojd.com,dobresystemy.eu,domnowoczesny.com,dronefilmfestival.eu,empik.com,fantasy.ekstraklasa.org,fuchs.com,hakpol.info,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,pl.ecco.com,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com##.scroll-to-top
@@ -3393,7 +3393,7 @@ audio.com.pl,babymanager.pl,florydziak.com,ktociewyleczy.pl,stacmnienato.pl###re
 audio.com.pl,jagiellonski.pl,laciate.pl,neo24.pl,neonet.pl,nowaruda-broumov.eu,rankomat.pl##.arrow-up
 augustowskireporter.pl,netkom.pruszcz.com,pegaz.info,pirotechnika.info###gantry-totop
 austria.info##.has-ScrollHint.b-scroll-hint
-autonaminuty.org,inwestomat.eu,kamilassurma.com,lastrada.eu,legalcakes.com,lozaszydercow.com,olimpsport.com,picodi.com###scroll-top
+autonaminuty.org,inwestomat.eu,lastrada.eu,legalcakes.com,lozaszydercow.com,olimpsport.com,picodi.com###scroll-top
 autoplaza.com.pl###gw_footerSticky__backToTop
 aval.com.pl##.roll-top
 avans.pl##.wf-arrow-circle-o-up
@@ -3558,7 +3558,7 @@ ekspedyt.org###sbttBacktotop
 eksperymentalnie.com,finanse.egospodarka.pl,fundacjawolnosci.org##a[href="#top"]
 electrolux.pl##.navigate-to-top
 elektrosalon.pl###buttontotop
-elektrostymulatory.net,gorke.eu,hdtvpolska.com,kasta.news,kopalniasrebra.com,pl.genesis-zone.com,polako.eu,szopienice.org,twojcel.to##.go-to-top
+elektrostymulatory.net,gorke.eu,hdtvpolska.com,kasta.news,kopalniasrebra.com,pl.genesis-zone.com,polako.eu,szopienice.org,tacohemingway.store,twojcel.to##.go-to-top
 elektrykadlakazdego.pl##.crane-top
 elk.zdz.bialystok.pl###dotop
 enetproduction.com##div.vued-custom-scroll_to_top
@@ -3723,6 +3723,7 @@ kierunekfarmacja.pl###top_layer
 kimjestesmy.lidl.pl##.nuc-m-to-top-button
 kioxia.com##.icon-top
 kitsune-subs.anime-odcinki.pl##.smoothscroll-top
+klarta.pl##.slide-up-btn
 klodzko24.eu##.scroll_top
 kmdelikatesy.pl###scrollTopPage
 knorr.pl,lipton.com##.back-to-top-cta
@@ -3938,6 +3939,7 @@ portalprzemyski.pl##.footer-scroll-to-top
 portalpszczelarski.pl###APPliftPageUp
 powerofus.wp.pl###icoGoTop.ico-go-top
 powiat.kielce.pl##.ikon-up
+ppe.pl###elevator.elevator-wrapper
 pracawsieci.net###ruby-back-top
 praca.pl##.app-footer__scroll-to-top
 pracowniakresek.pl##.cd-vertical-nav
@@ -4336,6 +4338,7 @@ alejabielany.pl##form > input.floatingWidget
 aleleki.pl##.social_contact
 ale.pl,gardenflora.pl,lidia.pl###rr_side_widget
 aliexpress.com##.ui-fixed-panel-survey
+allegro.pl###chatPlugin
 allekurier.pl,brewa.pl,iautomatyka.pl###chatContentHolder
 almatur.pl###telefondiv
 alx.pl##.zadaj-szybkie-pytanie
@@ -4553,6 +4556,7 @@ fmmobile.pl##.c-btn_suggestion
 fm.tuba.pl###feed
 followrap.com###wh-widget-send-button
 foto.auchan.pl##.sidebar-link[href="http://www.foto.auchan.pl/obsluga-klienta.html"]
+foxstrategy.pl###fbMsg
 fsmm.pl##body > .contactform
 fundacjakibica.pl###contact_rozwin
 galskor.com###yotpo_testimonials_btn
@@ -5387,6 +5391,7 @@ fixitpc.pl##i.f-fe:empty
 florydziak.com###float_feed_box
 fmmobile.pl##.i-filmpromo
 focus.pl##.box-obserwuj-newsletter
+foodsbrothers.pl###shopify-section-sales_popup
 forexclub.pl##.popnav-previous, .popnav-next
 forpro.pl###message
 forsal.pl##.psavWideoPlay
