@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: UWCTwI5Ep+Qd0WgfFlaAsw
+! Checksum: VrNSpi2sjnMPEL/u7RdJsw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 12 Feb 2022, 20:30 UTC+01
-! Version: 2022.2.12.0
+! Last modified: Sun, 13 Feb 2022, 20:30 UTC+01
+! Version: 2022.2.13.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 12 lut 2022, 20:30 UTC+01
+! Aktualizacja: nie, 13 lut 2022, 20:30 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -967,6 +967,7 @@ media-tech.eu##.footer-container > .container-fluid > .row > div:nth-child(4)
 media.ing.pl##div.column:nth-of-type(3) .footer-section-text, div.column:nth-of-type(3) .footer-section-text + div
 medicover.pl##.block-footer-menu-1 > .unbulleted.poziom1 > li:nth-of-type(4), .reg15
 meditrendy.pl##div.wpb_row.row:nth-of-type(4) > .col-sm-12.wpb_column, .easymail_form_widget
+medme.pl##.newsletter-redesign
 med-store.pl##.tlo_news
 melagu.pl##.ty-footer-form-block > .cm-processed-form
 memi.eu,mirat.eu##.top-footer
@@ -2832,6 +2833,7 @@ truckonline.pl##.tcc-modal
 turystyka.torun.pl###cboxWrapper, #cboxOverlay
 tutek.pl###qnpop
 tvkrosno.pl###efbl_popup
+tv-zakupy.pl#?#.fx-wrapper-modal:-abp-has(form[action="/newsletter/sign"])
 twardogora.pl##.popup, #popup-bg
 txm.pl##.mfp-bg, .sp-fancybox-overlay
 txm.pl##.mfp-ready.mfp-wrap
@@ -3226,6 +3228,7 @@ pl###pushwoosh-subscription-widget-root
 !
 !
 ! Scrollujące filmiki
+35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
 abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]
 agrii.pl###panel
 antyweb.pl##.post-header__video.v-wrapper
@@ -4111,6 +4114,7 @@ witow-ski.pl,xlomza.pl##.uk-totop
 wit.edu.pl###fixed-totop
 wojtki.eu##.mypresta_scrollup
 wolczanka.pl##.btn__scroll_to_top
+wolt.com##button[class*="ScrollToTop"]
 wolt.com##button[class^="ScrollToTop__"]
 wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 wrzesnia.powiat.pl###btn-up
