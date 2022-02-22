@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: PU08dAweGXPCohy3qOSzjg
+! Checksum: eNp5XiDjQF+J8rvcE/G8vA
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 20 Feb 2022, 16:30 UTC+01
-! Version: 2022.2.20.0
+! Last modified: Tue, 22 Feb 2022, 16:30 UTC+01
+! Version: 2022.2.22.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 20 lut 2022, 16:30 UTC+01
+! Aktualizacja: wto, 22 lut 2022, 16:30 UTC+01
 !
 !
 !
@@ -925,8 +925,7 @@ www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
-www.google.com,www.google.pl#?##islrg div.isv-r:-abp-has( > div[class] > div[class] > div[class]:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania)$/))
-www.google.com,www.google.pl#?##rg div.irc-nic.irc-igr:-abp-has( > div[class] > div[class] > div:not([class]):-abp-contains(/^Po(dobne|pular)ne (strony|wyszukiwania)$/))
+www.google.com,www.google.pl#?#div.isv-r:-abp-has( > div[class] > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania)$/))
 www.onet.pl##.backToMainPage
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
 www.pekao.com.pl##body.loader:before, body.loader:after
