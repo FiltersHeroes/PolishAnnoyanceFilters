@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: IuazoIOYcWybxUfE1Byheg
+! Checksum: l1lWOej+p2o7JE6ZXMRG2w
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 06 Mar 2022, 20:30 UTC+01
-! Version: 2022.3.6.0
+! Last modified: Tue, 15 Mar 2022, 16:30 UTC+01
+! Version: 2022.3.15.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 06 mar 2022, 20:30 UTC+01
+! Aktualizacja: wto, 15 mar 2022, 16:30 UTC+01
 !
 !
 !
@@ -248,6 +248,7 @@ diag.pl,sare.pl###popup, .modal-backdrop
 dietbox.pl##[id^="overlay"][style]
 dietbox.pl##[id^="popup"].cbt_popup
 digitalcamerapolska.pl,fotopolis.pl##.big-popup-wrap
+dipol.com.pl###g-modal-pos, #g-overlay-wrap
 diversesystem.com###dvrs-newsletter-popup-body
 diversesystem.com###newsletter-popup-overlay
 dluta.pl###fx-modal-3
@@ -663,6 +664,7 @@ pl.aleteia.org##.newsletter-popups
 pl.everli.com###mask_new.mask
 pl.gearbest.com##.newUserPop, #layui-layer-shade1
 pl.geofumadas.com,webmastah.pl##.ulp-window, .ulp-overlay
+pl.horn.eu##.wf2-popover.grwf2-wrapper
 pl.kronospan-express.com###modalWindowCMSubscribes, .iziModal-overlay
 pl.weekendmaxmara.com##.newsletter.modal, .jquery-modal
 pocztazdrowia.pl###overlay2, #overlayFlex22
@@ -767,6 +769,7 @@ sklep.phu-szczepan.pl###scLeaveAlert
 sklep.poshlady.pl###fx-welcome
 sklep.precio.pl,sklep5438865.homesklep.pl###onisoft-spu.modal, .mask
 sklep.psychologia.eu###skNewsletterPopupContainer
+sklep.zielonyogrodek.pl##.product-modal
 skorzany.com##.wceapp_popup
 sldc.eu###popup-over, #popup-overlay
 sledczy24.pl##.spu-bg, .spu-total-1
@@ -879,6 +882,7 @@ wakacjezprocentem.pl##.playfair
 wakacje.pl##.curtainFull, #newsletterLb, .exitPopup
 wakacyjnapolisa.pl##.wakacyjna-underlay, #ouibounce-modal
 walutomat.pl##.wt-response-modal
+warsztatogrodnika.pl###iqitpopup
 waze.com#?#.wz-popup-overlay:-abp-has(div > h3)
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 webcamera.pl###exit-intercept
