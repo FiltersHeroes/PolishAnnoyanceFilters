@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: TuAAm9KzFNP0dP8gBsoDlA
+! Checksum: iSuXI91vDH1o3ookur9EmA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 16 Mar 2022, 20:30 UTC+01
-! Version: 2022.3.16.0
+! Last modified: Sun, 20 Mar 2022, 16:30 UTC+01
+! Version: 2022.3.20.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 16 mar 2022, 20:30 UTC+01
+! Aktualizacja: nie, 20 mar 2022, 16:30 UTC+01
 !
 !
 !
@@ -45,6 +45,7 @@
 abc-zabezpieczen.pl###sugester-chat
 abmax.eu,shopsisters.eu###newsletter_block_left
 accu-chek.pl#?#.bg-gradient-combo.awecontent-column.awe-col:-abp-has(.keep-in-touch)
+action.com##footer > section:first-child > div
 activejet.pl##.newsletterBanner
 active.fibrain.pl##.newsletterWithFacebook
 active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
@@ -671,6 +672,7 @@ girya.com.pl##div.copy.container-fluid:nth-of-type(2) > .container > div.text-ce
 gliwice.eu,ukrainashop.com##.newsletter_wrap
 gloria24.pl##.tg-info-cookie
 gofin.pl##img[src="https://www.gofin.pl/images/newslettery_gofin_dzial.png"]
+gomobi.pl##.zapiszsiedonewslettera
 goodram.com##footer > div > .row > .col:last-child
 gorlice.pl##.sdbar-newsletter-cont
 gorno.pl##.stopka-info > .blok > div.szerokosc-14.kolumna:nth-of-type(4)
@@ -818,6 +820,7 @@ kim24.pl###fboxNewsletter
 kim.elblag.pl##p > table > tbody > tr > td:nth-of-type(2)
 kingston.com###email-signup-modal
 kingston.com##.s-footer__email
+kioskpolis.pl##footer section div form.form[action*="freshmail"]
 kjb24.pl#?#.post-content > div.vc_row.style-accent-bg.row-container:-abp-has(form[class*="mailchimp-ext"])
 klasycznebuty.pl###myfooter div.f-grid-4:nth-of-type(2) > h3:nth-of-type(2)
 kliknijwzdrowie.pl###text-70, #text-71, #text-75
@@ -1500,6 +1503,7 @@ sportprofit.pl###footgroup8 > ul > .hidden.head
 sportslaski.pl##.containerright5
 sport-shop.pl##.newsletter_fotter
 sport-transfer.com.pl##.menuFooter > .container > .row > div:nth-of-type(4)
+spotawheel.pl##.footer-top__subscribe
 spot-a-shop.pl##.bg--lg.page-footer__section
 sprawdzimy.info##.gform_widget
 sprawdzonakuchnia.pl##.essb-subscribe-form-inwidget
