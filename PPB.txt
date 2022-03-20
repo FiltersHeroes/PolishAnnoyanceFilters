@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Kt//n72Ud+DBcjPQXOG2nw
+! Checksum: Evztzxrp+gg/k5QrXr6Xqg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 20 Mar 2022, 21:34 UTC+01
-! Version: 2022.3.20.4
+! Last modified: Sun, 20 Mar 2022, 22:51 UTC+01
+! Version: 2022.3.20.5
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 20 mar 2022, 21:34 UTC+01
+! Aktualizacja: nie, 20 mar 2022, 22:51 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -446,6 +446,7 @@ dojczland.info##.mo-has-email.mo-optin-form-bar.moOptinForm
 dojczland.info##.widget_mailerlite_widget
 dolinski.pl##div.ty-grid.span8:nth-of-type(1)
 domar.pl##.footer-newsletter__section
+domena.pl##.section-newsletter-front div[class*="green"]
 dominospizza.pl##.m-Newsletter__formContainer
 dominospizza.pl,sephora.pl##.newsletter-banner
 domisad.pl###wrap-newsletter
@@ -1077,6 +1078,7 @@ nazdrowie.pl##.imd-footer.col-xs-12.col-sm-6.col-md-4.col-lg-4:nth-of-type(2)
 nazwa.pl###news_content
 nbsklep.pl##.subscribe_newsletter
 neo24.pl##a[class^="joinNewsletter"]
+neonet.pl##section[class*="joinNewsletter"]
 neonet.pl##.joinNewsletterDesktop-root-2Mr
 neonet.pl,wydawnictwokobiece.pl###newsletter-home
 neo-net.com.pl#?#body > div:-abp-contains(Newsletter)
@@ -4410,6 +4412,7 @@ aurum-optics.pl##.button-messenger
 autodoc.pl##.js-chat-buttons-container-genesys
 avans.pl##.b-reportFault
 axadirect.pl###wirtualnyDoradcaPluginHome, #zadzwonPlugin
+axasecurity.com,eska.pl,meskiegacie.pl,optykwnecie.pl,zymetric.pl##.fb-customerchat
 axa.pl,biznes.gov.pl,cosinus.pl,kup.pl.canalplus.com,toyotabank.pl###dc-tab-button
 badaniaprenatalne.pl##.contact-button-link
 balladine.com###widgetOpineo
@@ -4550,7 +4553,6 @@ enfamil.pl##.float-chat
 eobuwie.com.pl###open-chat
 epodreczniki.pl##.send-suggestion-btn
 eska.pl,eskarock.pl,rivieraparkmarvipol.pl,senatkomorki.pl##.messenger
-eska.pl,meskiegacie.pl,optykwnecie.pl,zymetric.pl##.fb-customerchat
 eskk.pl##.ckontakt
 etoto.pl###sbChatMinimizedIdle
 eurobank.pl##.reviews
@@ -6033,6 +6035,7 @@ wiktormeble.pl##.sm-twitter
 wirtualnemedia.pl###swim_box
 wlaczoszczedzanie.pl##.fm-icon
 wlkp24.info##.totalpoll-view-vote
+wnet.fm##.powrot
 wojskonews.pl###search
 wojskonews.pl###topNews
 wolna-polska.pl##.vmag-related-wrapper
@@ -6595,8 +6598,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2022.3.20.2
-!@ Last modified: Sun, 20 Mar 2022, 21:34 UTC+01
+!@ Version: 2022.3.20.3
+!@ Last modified: Sun, 20 Mar 2022, 22:51 UTC+01
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -6607,7 +6610,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Copyright © 2022 Certyficate IT
 !@ Copyright © 2022 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2022.3.20.2 aktualizacja: nie, 20 mar 2022, 21:34 UTC+01
+!@ v.2022.3.20.3 aktualizacja: nie, 20 mar 2022, 22:51 UTC+01
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -7329,7 +7332,9 @@ dolce-gusto.pl###nimgrowler
 dollarro.com###pnlCookiebanner
 dolnyslask.travel##.cl-banner
 domd.pl###cookie-info-popup
+domena.pl##.fa-facebook-f.fa
 domena.pl,parkhotel.bydgoszcz.pl###alert_container_id
+domeny.pl##.cfGdprCookieConsentPopup
 domesta.com.pl###CookiesWarningPopup
 domfilmowy.pl##div[data-mesh-id^="SITE_FOOTER"] > div[data-mesh-id^="SITE_FOOTER"] > div > p + p > span:only-child
 dominospizza.pl##.cookies-visible:not(.popup-visible)
@@ -8631,6 +8636,7 @@ owfregata.com###POPUPS_ROOT
 owocowydom.pl,weck.com.pl###popup2
 pacific.org###cookieWarnLayer
 pacsafe.pl##.demo-box
+padilla.pl##.show_popup_rodo
 pai.info.pl,ssw-consulting.pl##.ui-pnotify
 paker.co.uk###cookie-information
 pakolorente.com###toplayer_styleadvisor
@@ -9435,6 +9441,7 @@ yellow.place###cc-bar
 yes.pl###info-modal
 zabierzow.org.pl###modal-rodo, .cook_wrap
 zadluzenia.com###CookiesInfo
+zadluzenia.com###cookie.colorBlue.position-fixed
 zajadam.pl##.infobar-bottom
 zakamarki.pl###cookie_policy_wrapper
 zakupy.sdsm.pl###baner-tresc
