@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: PExyi1Mypxb2aXg5i6Gn6A
+! Checksum: ZnnoZpMTgCxtHHj/t9LmtQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Wed, 16 Mar 2022, 20:30 UTC+01
-! Version: 2022.3.16.1
+! Last modified: Sun, 20 Mar 2022, 16:30 UTC+01
+! Version: 2022.3.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 16 mar 2022, 20:30 UTC+01
+! Aktualizacja: nie, 20 mar 2022, 16:30 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -46,6 +46,7 @@
 abc-zabezpieczen.pl###sugester-chat
 abmax.eu,shopsisters.eu###newsletter_block_left
 accu-chek.pl#?#.bg-gradient-combo.awecontent-column.awe-col:-abp-has(.keep-in-touch)
+action.com##footer > section:first-child > div
 activejet.pl##.newsletterBanner
 active.fibrain.pl##.newsletterWithFacebook
 active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
@@ -672,6 +673,7 @@ girya.com.pl##div.copy.container-fluid:nth-of-type(2) > .container > div.text-ce
 gliwice.eu,ukrainashop.com##.newsletter_wrap
 gloria24.pl##.tg-info-cookie
 gofin.pl##img[src="https://www.gofin.pl/images/newslettery_gofin_dzial.png"]
+gomobi.pl##.zapiszsiedonewslettera
 goodram.com##footer > div > .row > .col:last-child
 gorlice.pl##.sdbar-newsletter-cont
 gorno.pl##.stopka-info > .blok > div.szerokosc-14.kolumna:nth-of-type(4)
@@ -819,6 +821,7 @@ kim24.pl###fboxNewsletter
 kim.elblag.pl##p > table > tbody > tr > td:nth-of-type(2)
 kingston.com###email-signup-modal
 kingston.com##.s-footer__email
+kioskpolis.pl##footer section div form.form[action*="freshmail"]
 kjb24.pl#?#.post-content > div.vc_row.style-accent-bg.row-container:-abp-has(form[class*="mailchimp-ext"])
 klasycznebuty.pl###myfooter div.f-grid-4:nth-of-type(2) > h3:nth-of-type(2)
 kliknijwzdrowie.pl###text-70, #text-71, #text-75
@@ -1501,6 +1504,7 @@ sportprofit.pl###footgroup8 > ul > .hidden.head
 sportslaski.pl##.containerright5
 sport-shop.pl##.newsletter_fotter
 sport-transfer.com.pl##.menuFooter > .container > .row > div:nth-of-type(4)
+spotawheel.pl##.footer-top__subscribe
 spot-a-shop.pl##.bg--lg.page-footer__section
 sprawdzimy.info##.gform_widget
 sprawdzonakuchnia.pl##.essb-subscribe-form-inwidget
@@ -2949,13 +2953,9 @@ zszywka.pl###inv-request-popup
 /js/popup.js$domain=grawitacyjny.pl|meblohaus.pl|mediaexpert.pl|multikurs.pl|slimebox.pl
 /media/system/js/modal.js$domain=gminamoszczenica.eu|nowawrzesnia.pl|perfectdating.pl
 /plugins/easy-facebook-likebox/*$domain=tvkrosno.pl
-/pum-site-scripts-$domain=azbudownictwo.com|takemehome.pl|topplant.pl|tova.pl|woocommerce.pl|wpdesk.pl
 /pum-site-scripts-$domain=prezeska.pl|topplant.pl
-/pum-site-scripts.$domain=azbudownictwo.com|takemehome.pl|topplant.pl|tova.pl|woocommerce.pl|wpdesk.pl
 /pum-site-scripts.$domain=prezeska.pl|topplant.pl
-/pum-site-styles-$domain=azbudownictwo.com|takemehome.pl|tova.pl|woocommerce.pl|wpdesk.pl
 /pum-site-styles-$domain=prezeska.pl|topplant.pl
-/pum-site-styles.$domain=azbudownictwo.com|takemehome.pl|tova.pl|woocommerce.pl|wpdesk.pl
 /pum-site-styles.$domain=prezeska.pl|topplant.pl
 /wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
 /wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
@@ -4680,7 +4680,7 @@ ktomalek.pl###chatSpace
 kwiatysztuczne.pl##.btn[data-action="add-feedback"]
 kylos.pl###chatstack-container
 lajtmobile.pl##.tlswebcall-init
-lan.sklep.pl###chatInCloud.chatInCloud
+lan.sklep.pl,routery.sklep.pl###chatInCloud.chatInCloud
 laserdelux.pl#?#.navbar-fixed-bottom:-abp-has(.footer-opinion.action)
 lenalighting.pl,lodzkie.pl##.jj_sl_custom1
 lento.pl##.btn-suggest
