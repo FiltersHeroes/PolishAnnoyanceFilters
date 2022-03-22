@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: W3J/NlAjzBJdUZ3WYvgB9w
+! Checksum: MFHIucDHO/UY7qBSvl8ApQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 22 Mar 2022, 16:30 UTC+01
-! Version: 2022.3.22.0
+! Last modified: Tue, 22 Mar 2022, 20:30 UTC+01
+! Version: 2022.3.22.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 22 mar 2022, 16:30 UTC+01
+! Aktualizacja: wto, 22 mar 2022, 20:30 UTC+01
 !
 !
 ! Newslettery (nie popupy)
@@ -3417,6 +3417,7 @@ auchan.pl##.tooltip.right > button ~ button[style*="width: 10px"]
 audio.com.pl###return-btn
 audio.com.pl,babymanager.pl,florydziak.com,ktociewyleczy.pl,stacmnienato.pl###return-top
 audio.com.pl,jagiellonski.pl,laciate.pl,neo24.pl,neonet.pl,nowaruda-broumov.eu,rankomat.pl##.arrow-up
+audytorium.xyz,filing.pl,mycompanypolska.pl,tonskladowy.pl###scrollToTopButton
 augustowskireporter.pl,netkom.pruszcz.com,pegaz.info,pirotechnika.info###gantry-totop
 austria.info##.has-ScrollHint.b-scroll-hint
 autonaminuty.org,inwestomat.eu,lastrada.eu,legalcakes.com,lozaszydercow.com,olimpsport.com,picodi.com###scroll-top
@@ -3613,7 +3614,6 @@ e-marcom.pl,fotoprint.pl,kwestiasmaku.com,zloty-pociag.com##.do_gory
 e-zikoapteka.pl##.site-scrolltop
 fastdeal.pl,jestok.eu,okazik.pl,polskiemedia.org###btn-scrollup
 festiwaldobregosmaku.eu###mkd-back-to-top
-filing.pl,mycompanypolska.pl,tonskladowy.pl###scrollToTopButton
 filmpolski.pl##div[id^="dogory_"]
 fintek.pl###button-backtotop
 floryday.com##.side-bar-back
@@ -5980,6 +5980,7 @@ tvdzierzgon.pl##.offbox-articles
 tvn24.pl##.shareContainerTop
 tvn.pl##.detail-next
 tvokazje.pl##.call-popup-newslater
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?##layers > div[class*=" "]:first-of-type:-abp-has(a[href="/i/flow/signup"])
 tymbark.com,winiary.pl###kwit_brandwidget_btn
 tysol.pl##.fiszka
 tysol.pl###app
