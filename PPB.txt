@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 9zfsy5S8wfD6c6E0ooqC9A
+! Checksum: fnfrhLNwgS0alFhfMPPfzQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Thu, 24 Mar 2022, 16:30 UTC+01
-! Version: 2022.3.24.0
+! Last modified: Sun, 27 Mar 2022, 17:30 UTC+02
+! Version: 2022.3.27.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 24 mar 2022, 16:30 UTC+01
+! Aktualizacja: nie, 27 mar 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -28,7 +28,7 @@
 4kdownload.com##.footer__section > .footer__col--updates
 4kom.pl###tws_c_100001
 4kom.pl##.newsletter-custom
-4lapki.eu,annalovestravelspl.wordpress.com,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,podkop.com,pskrk.com,tabloidonline.blog,zabieganamama.com,zpamietnikabuntownika.wordpress.com##.jetpack_subscription_widget
+4lapki.eu,annalovestravelspl.wordpress.com,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,podkop.com,pskrk.com,tabloidonline.blog,techno-senior.com,zabieganamama.com,zpamietnikabuntownika.wordpress.com##.jetpack_subscription_widget
 4trucks.pl##.sInfo > .m209.box
 9design.pl##.top_newsletter
 24hurt.pl##.row > .col-md-12
@@ -468,6 +468,7 @@ dressler.com.pl###features > div > div:nth-of-type(1)
 drewno.pl###nl_sticky
 dre.pl#?#.panel-grid-cell > .widget_coala-widget-text-section:-abp-has( + .widget_coala-widget-newsletter)
 drogeriausa.pl###newsletter_el
+drogerienatura.pl##.newsletter__wrapper.lazyloaded
 drogeriepolskie.pl##.footer-newsletter-area
 drogerium.pl##.newsletterek
 drogowskazykariery.pl##.module_column_5-11-3.module_column_3.tb_5_column.module_column.last.col4-1.tb-column
@@ -1566,7 +1567,7 @@ szukampracownika.monsterpolska.pl###mailreg_cont
 szybkanauka.pro##.tcb-flex-center.tcb--cols--3.tcb-flex-row > div.tcb-flex-col.tve_empty_dropzone:nth-of-type(3)
 szybkanauka.pro#?##tve_editor:-abp-has(input[type="email"][name="email"])
 tabelaofert.pl###newsletter_stopka
-tabloidonline.blog##.widget_blog_subscription
+tabloidonline.blog,techno-senior.com##.widget_blog_subscription
 tajfuny.pl#?#.elementor-inner-column.elementor-column.elementor-element.aux-parallax-section > .elementor-element-populated.elementor-column-wrap > .elementor-widget-wrap:-abp-contains(Zapisz się do tajfunowego newslettera)
 tally-weijl.com##.page-footer .newsletter-container
 tamaj.pl##.lof-block.lofadva-block-4 > .lof-block-wrap > h4
@@ -3428,7 +3429,7 @@ avantea.pl,avenus.pl,dipol.com.pl,dpm.eu,junak.com.pl,karmello.pl,licencjefilmow
 avaro.pl,kontri.pl,planplaneta.com###arrow_top
 avast.com###slide-top
 awf.edu.pl,nbportal.pl###go-up
-axeprim.eu,brytol.com,fanipogody.pl,fera.pl,gazetaslupecka.pl,gdanskstrefa.com,icyfrowypolsat.pl,lincoln.edu.pl,meblosfera.pl,placesandplants.com,posbistro.com,radioopornik.eu,region24.pl,rrs24.net,skawina.eu,sluzby-ratownicze.pl,sp18.lublin.eu,sportdziennik.com,sportowiec.info,stalmielec.com,targowek.info,tarnobrzeg.info,tygodnikradomski.com.pl,wachtyrz.eu,wagrowiec-wydarzeniazostatniejchwili.pl,wbieszczady.pl,wiatrodyskretni.pl,wirtualnynowydwor.pl,wiskitki.org,wokolmotoryzacji.pl,zs12lublin.eu###scroll-up
+axeprim.eu,brytol.com,fanipogody.pl,fera.pl,gazetaslupecka.pl,gdanskstrefa.com,icyfrowypolsat.pl,lincoln.edu.pl,meblosfera.pl,placesandplants.com,posbistro.com,radioopornik.eu,region24.pl,rrs24.net,skawina.eu,sluzby-ratownicze.pl,sp18.lublin.eu,sportdziennik.com,sportowiec.info,stalmielec.com,targowek.info,tarnobrzeg.info,techno-senior.com,tygodnikradomski.com.pl,wachtyrz.eu,wagrowiec-wydarzeniazostatniejchwili.pl,wbieszczady.pl,wiatrodyskretni.pl,wirtualnynowydwor.pl,wiskitki.org,wokolmotoryzacji.pl,zs12lublin.eu###scroll-up
 axtechnology.pl##.show_scroll
 b2btrade.eu##.back-to-top-arrow
 b2b.metal-bud.eu,hmb.pl##.go-to-top-ui
@@ -3526,6 +3527,7 @@ concordiaubezpieczenia.pl,generaliagro.pl##.arrowUp
 consumer.huawei.com###consumer-floating-back-to-top
 consumer.huawei.com##.cbg-backtotop
 cosmed24.pl##div#page ~ a#myBtn
+credit-suisse.com##.mod_scroll_to_top
 croatia.hr#?#.footer > .container > .row > .text-center.col-sm-12:-abp-has(.cd-top)
 ctb.com.pl,movieway.pl,oryginalnysmak.pl,phunetcom.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
 cyclonis.com,pantofelek24.pl###ScrollToTop
@@ -5897,6 +5899,7 @@ sklep.aladyn.pl###trzecia
 sklep.farmona.pl##.tabs > section.product_link_nav
 sklep.pakrol.pl##.suggest-slider
 sklep.vivamix.pl##.main-question-form
+skokinarciarskie.pl##.pbox_sonda
 sky-shop.pl##.numberOfShopsCreatedToday
 sky-shop.pl##.guide-popup.webinar_widget
 slippersfamily.com###widget_shop8
