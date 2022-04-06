@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: PK3YO2XRMFPCJnw0kq/V7w
+! Checksum: Ff3dxmwFcXvLJP0/kY+cCA
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 04 Apr 2022, 17:30 UTC+02
-! Version: 2022.4.4.0
+! Last modified: Wed, 06 Apr 2022, 17:37 UTC+02
+! Version: 2022.4.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 04 kwi 2022, 17:30 UTC+02
+! Aktualizacja: śro, 06 kwi 2022, 17:37 UTC+02
 !
 !
 !
@@ -91,6 +91,8 @@ arp.pl###arp-popup
 arslege.pl###smoothbox_container
 arteodevelopment.pl##div.bbx-col-3:nth-of-type(3) > .footer-cell-container
 arteodevelopment.pl###callWindow
+artkomiks.pl##.ulp-fadeIn.ulp-animated.ulp-overlay
+artkomiks.pl##.ulp-window-container
 artlazienkowe.pl,giftmania.com.pl,krolmajtekpierwszy.pl,monden.pl,nbielizna.pl,odblask.com.pl,ostry-sklep.pl,pcoutlet.pl,vanitysklep.pl,veoveo.pl,wellsamed.pl##.rc-popups.box
 arturjablonski.com,eswinoujscie.pl##.ulp-layer, .ulp-overlay
 asd.pl##.popUpHolder, #Fader
@@ -182,7 +184,7 @@ budujemydom.pl###byebye
 budujemydom.pl##.modal-wrapper
 butymarkowe.pl###pop_up_module
 bwfelix.pl###tp-popup
-byann.pl,feriogaj.com,tpi.com.pl##.popup-overlay
+byann.pl,domisad.pl,feriogaj.com,tpi.com.pl##.popup-overlay
 byinsomnia.com,goshico.com,miyomakeup.com###esns_background_layer
 cafago.com##.freePointWrap
 casedrop.eu##div[class^="bonus-popup"]:not([class*=" "]):not([class*="timer"])
@@ -309,6 +311,7 @@ e-iglaki.pl###szkolenie-message
 e-insportline.pl###vivpopup-collapsed
 e-kidsplanet.com##.banner, .banner-curtain
 e-konferencje.pl,ekliniki.pl,lumarte.eu,milenium.pl##.ui-widget.ui-dialog, .ui-widget-overlay
+e-kwiaty.pl###exitpopup-newsletter
 e-podlogi24.pl##div[id$="czater"] > div[id][class$="CzaterSheet"]
 e-podlogidrzwi.pl###infoPage
 e-skladnica.pl###popup-sc1-exit
@@ -357,6 +360,7 @@ girya.com.pl###popupanything
 gizchina.com.pl,selectivv.com##.popmake
 godealla.pl###coupon-groupon, #coupon-groupon-overlay
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
+goliard.pl##.bannerBg
 goodie.pl###video-banner-modal
 gpcodziennie.pl###JPO
 greenasia.eu,saluti.pl,uzywki.expert##.wceapp_popup.modal, .wceapp_popup.mask
@@ -384,6 +388,7 @@ hostinger.pl##.offer-popup-block
 hotel-tulipan.pl###popUp
 hotel.bialowieza.pl,malinowydwor.pl###backgroundPopup, #popupContact
 house.pl###free_shipping
+hurtopony.pl###popupModal
 iglazura24.pl##div[id^="popup-scademy"]
 ine.com.pl,lilou.pl###sgcolorbox, #sgcboxOverlay
 infinityfitnesskrakow.pl##.closed
