@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: XXB7mFRerXuNgUOfB/5MzA
+! Checksum: OdSgiYCz2lt6t4VOBym0EA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 11 Apr 2022, 17:30 UTC+02
-! Version: 2022.4.11.0
+! Last modified: Tue, 12 Apr 2022, 17:30 UTC+02
+! Version: 2022.4.12.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 11 kwi 2022, 17:30 UTC+02
+! Aktualizacja: wto, 12 kwi 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2059,10 +2059,10 @@ agrodoradca24.pl##.modal-message
 agroefekt.pl,apaczka.pl,blog.lh.pl,dekanex.pl,dobroplast.pl,dzisiajwgliwicach.pl,gf24.pl,glokalna.pl,kawiarniany.pl,komputerowapasja.pl,konopia-med.pl,ksm.org.pl,lukasiewicz.gov.pl,nawiedzone.pl,neworleans.pl,niw.gov.pl,no44.pl,polskieszosy.pl,prostamol.pl,siecprzedsiebiorczychkobiet.pl,sulmierzyce.info,techfresh.pl,techsetter.pl,uroda.in,vratislavia-medica.pl,zostanwpolsce.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 agrofakt.pl##.seattle-simple.optin-monster-saas-overlay
 agrohandel.com.pl###jcemediabox-popup-page
-agrojumal.com.pl,akwarysta.eu,betamed.pl,dobiegania.pl,dobrewychowanie.pl,kisiel24.pl,netlandcomputers.pl,opteam.pl,pinka.pl,pl.globalvoices.org,resulto.pl,tabal.pl,twojapogoda.pl###colorbox, #cboxOverlay
-agromer.pl###popups
-agromer.pl,e-sas.pl,plantini.pl##.in.fade.modal-backdrop
+agrojumal.com.pl,akwarysta.eu,betamed.pl,dobiegania.pl,dobrewychowanie.pl,kisiel24.pl,lowicz24.eu,netlandcomputers.pl,opteam.pl,pinka.pl,pl.globalvoices.org,resulto.pl,tabal.pl,twojapogoda.pl###colorbox, #cboxOverlay
 agromer.pl,e-sas.pl,plantini.pl##.modal-open,body:style(overflow: auto!important;)
+agromer.pl,e-sas.pl,plantini.pl,tarti24.pl##.in.fade.modal-backdrop
+agromer.pl,tarti24.pl###popups
 agromix.agro.pl##.nivo-lightbox-overlay
 agropolska.pl,auto-gdansk.com.pl,blancz.pl,bookmaster.com.pl,chinskieprzepisy.pl,holiday.aquila.pl,honda.mojsiuk.pl,honda.torun.pl,hondabiela.pl,masa-honda.pl,ozptd.pl,promax.media.pl,strzalkowski.pl,www.hamol.pl,www.honda-kemag.pl,www.hondacichonski.com.pl,www.hondamalta.karlik.poznan.pl,www.hondaplaza.pl,zdobadzkobiete.pl###fancybox-wrap, #fancybox-overlay
 agrosiec.pl##.is-active.modal
@@ -2164,6 +2164,7 @@ bialykruk.pl,swiato-podglad.pl###popup-background
 bielskakraina.pl,delikatesy.pl,godealla.pl,kruksdifferent.com,mpolska24.pl,wakacjezprocentem.pl##.overlay
 bigchina.pl,pkwieruszow.pl,rzeszow4u.pl,solidsecurity.pl,sportgdansk.pl###myModal
 bikesalon.pl,snowshop.pl,surfshop.pl##.bonus-overlay
+bilety.laczynaspilka.pl##.shadowbox-popup, .shadowbox_overlay
 bioindygo.pl###popup-1
 biologia.net.pl,historia.azv.pl,twojfrancuski.pl,twojniemiecki.pl,wos.net.pl###dropin
 bitdefender.pl###popup, .popup-overlay
@@ -2355,7 +2356,7 @@ fotelik.info##.zIndexWrapper240
 fotografwdrodze.pl,linuxporady.pl,pskrk.com,sebucja.pl,skladaniekomputera.pl,skomplikowane.pl###exitpopup-modal
 fotoprzyroda.pl###sosinvision_popup
 francuskie.pl##.greensboro-optin-visible
-fundacjajoannyradziwill.pl##.freshmail_popup
+fundacjajoannyradziwill.pl,gazetazoliborza.pl##.freshmail_popup
 funtech.pl##.dylematy
 g2aarena.pl##.sg-popup-builder-content, .sgpb-popup-overlay
 galeria-kaskada.pl,portaltatrzanski.pl###modalNewsletter
@@ -2403,6 +2404,9 @@ hotel-tulipan.pl###popUp
 hotel.bialowieza.pl,malinowydwor.pl###backgroundPopup, #popupContact
 house.pl###free_shipping
 hurtopony.pl###popupModal
+ideaart.com.pl##.remodal-is-locked,body:style(overflow: auto!important;)
+ideaart.com.pl##.remodal-is-opened.remodal-overlay
+ideaart.com.pl##.remodal-is-opened.remodal-wrapper
 iglazura24.pl##div[id^="popup-scademy"]
 ine.com.pl,lilou.pl###sgcolorbox, #sgcboxOverlay
 infinityfitnesskrakow.pl##.closed
@@ -2452,6 +2456,7 @@ karpiowy.pl##.newletter-popup, .b-modal
 kasotronik.pl,medpozyczka.pl,okmoneta.pl,pozyczymyci.pl###popupEmailPhone
 kataloog.info###mask, #lorem
 katowice-airport.com###carwash-banner-c
+katowice.jumpcity.pl##.reveal-modal
 kegel-aj.com##div[style="display: block; position: fixed; width: 100%; min-height: 100%; background-color: rgba(0, 0, 0, 0.5); overflow: hidden; z-index: 10000; inset: 0px;"]
 kfd.pl###popupslider, #dimBackgrnd
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
@@ -2516,7 +2521,7 @@ lomilowka.pl,pkwieruszow.pl##.modal-backdrop
 longterm.pl###list-builder
 longterm.pl###popup-box
 lookfantastic.pl##.emailReengagement
-lovesimple.pl,luminapark.pl,nasztalerz.pl,ogrod-marzen24.pl##.elementor-popup-modal
+lovesimple.pl,luminapark.pl,nasztalerz.pl,ogrod-marzen24.pl,sklepzprawem.pl##.elementor-popup-modal
 luba-group.com###popup800wrapper, #popup800container
 luxmedlublin.pl###s_ok00o[style]
 madameedith.com,programistanaswoim.pl#?#.spu-bg:-abp-has( ~ .spu-box .fb-page)
@@ -2763,6 +2768,8 @@ retailnet.pl,rp.pl##tqwidget
 rivieraparkmarvipol.pl##.fastcall_popup
 rms.pl##.sj-popup-container
 robojet.pl###modal_home_page, .modal-backdrop
+rolmix.net.pl##.body.noscroll,body:style(overflow: auto!important;)
+rolmix.net.pl##.popup-html
 rosenthal.pl###cac_popup_tlo, #cac_popup_obr
 royalcanin.pl###popOverlay
 royalcollection.pl##.newsletter-popup-fancy
@@ -2863,6 +2870,7 @@ tanibilet.eu##.av_pop_modals_1.ays-pb-modals
 taniejdladomu.pl###newsletterBg, #newsletterContainer
 tanienurkowanie.pl##.mf-modal-iframe, .mf-modal-overlay
 taniewakacje.pl##.qtip-popup-widget.qtip-fullscreen, #qtip-overlay
+tarti24.pl##.modal-open, body:style(overflow: auto!important;)
 taxxo.pl##.novocall-modal, .novocall-in
 teatrkomedia.pl###splash
 technologzywnosciradzi.pl##.pum-overlay[data-popmake*='"slug":"facebook"']
@@ -2911,6 +2919,7 @@ wakacje.pl##.curtainFull, #newsletterLb, .exitPopup
 wakacyjnapolisa.pl##.wakacyjna-underlay, #ouibounce-modal
 walutomat.pl##.wt-response-modal
 warsztatogrodnika.pl###iqitpopup
+warsztatogrodnika.pl##.showed-iqitpopupo
 waze.com#?#.wz-popup-overlay:-abp-has(div > h3)
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 webcamera.pl###exit-intercept
