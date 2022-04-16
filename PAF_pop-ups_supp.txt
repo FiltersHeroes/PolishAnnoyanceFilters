@@ -393,8 +393,6 @@ sklep.jack-wolfskin.pl,szkla.com##body._has-modal:style(overflow: auto !importan
 sklep.krosno.com.pl##.modalbox
 sklep.krosno.com.pl##.modalbox-is-visible body:style(overflow: auto !important;)
 sklep.nextmobile.pl###supper-offer, .modal-backdrop
-smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
-smaker.pl###popup.fanPlug, #overlay
 socialpress.pl##.bottom-content-newsletter
 sofine.pl##+js(nosiif, popcount, 1000)
 softonic.pl###modal-di-avast:remove()
@@ -469,6 +467,8 @@ zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 zozsuchabeskidzka.pl###mpc-modal-4-0
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
+!smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
+!smaker.pl###popup.fanPlug, #overlay
 !twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##html:style(overflow: unset !important;)
 !twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#div[class^=css-] > div[tabindex="0"] + div[role=group]:has( > div[data-testid])
 ||mailerlite.com^$3p,important,domain=beitadmin.pl
