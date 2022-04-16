@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: x+56jMHG7wcSOcZcmCaBsw
+! Checksum: gwu47QKdynoLsIcSa+7asQ
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 12 Apr 2022, 17:30 UTC+02
-! Version: 2022.4.12.0
+! Last modified: Sat, 16 Apr 2022, 21:30 UTC+02
+! Version: 2022.4.16.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 12 kwi 2022, 17:30 UTC+02
+! Aktualizacja: sob, 16 kwi 2022, 21:30 UTC+02
 !
 !
 !
@@ -592,7 +592,6 @@ myob.pl###popup-message-background
 myob.pl#?##popup-message-window:-abp-has(p > a >img[src*="popup_desktop"])
 mysize.com.pl###popup_box, #overlay
 m.czesciauto24.pl##.cps_app
-m.smaker.pl##.apkInfoPopup
 nabory.kprm.gov.pl##.active.popup-newsletter
 naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
@@ -802,6 +801,7 @@ skorzany.com##.wceapp_popup
 sldc.eu###popup-over, #popup-overlay
 sledczy24.pl##.spu-bg, .spu-total-1
 slodkiesny.pl##span[id][aria-hidden][style$="z-index: 99999;"]
+smaker.pl##.newWebsiteNotification
 smakowitychleb.pl###r-newsleeter-content, .bg-newsletter
 softonic.pl###modal-download-now
 softonic.pl###modal-ei-avast-ei
