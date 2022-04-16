@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jsHvSJHrSznwdzFs/4DxVw
+! Checksum: bD0gqQVcDbnqyBUHkGpo0Q
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 16 Apr 2022, 01:36 UTC+02
-! Version: 2022.4.16.0
+! Last modified: Sat, 16 Apr 2022, 21:30 UTC+02
+! Version: 2022.4.16.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 16 kwi 2022, 01:36 UTC+02
+! Aktualizacja: sob, 16 kwi 2022, 21:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1484,6 +1484,7 @@ slimebox.pl##.newsletter-widget-5
 slimwallet.pl##.newsletter-block-footer
 slusarczyk-bmw.pl###musli > li:nth-of-type(3)
 smaczny.pl##.stopka-smaczny > .col-md-8.col-xs-24:nth-of-type(1)
+smaker.pl##.newsletterComponent
 smalltronic.pl##.NaglowekNewsletter, .ModulNewsletter
 smart-grids.pl##main > .container > .row > div > .row > div.modules-arscreo:nth-of-type(2)
 smyk.com###newsletter-link
@@ -2599,7 +2600,6 @@ myob.pl###popup-message-background
 myob.pl#?##popup-message-window:-abp-has(p > a >img[src*="popup_desktop"])
 mysize.com.pl###popup_box, #overlay
 m.czesciauto24.pl##.cps_app
-m.smaker.pl##.apkInfoPopup
 nabory.kprm.gov.pl##.active.popup-newsletter
 naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
@@ -2809,6 +2809,7 @@ skorzany.com##.wceapp_popup
 sldc.eu###popup-over, #popup-overlay
 sledczy24.pl##.spu-bg, .spu-total-1
 slodkiesny.pl##span[id][aria-hidden][style$="z-index: 99999;"]
+smaker.pl##.newWebsiteNotification
 smakowitychleb.pl###r-newsleeter-content, .bg-newsletter
 softonic.pl###modal-download-now
 softonic.pl###modal-ei-avast-ei
