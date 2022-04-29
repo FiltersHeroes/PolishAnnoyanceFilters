@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: lLyqvz3GFOHAkXU+ODylBQ
+! Checksum: HVeIaQeiq5aRpZZkGAjZvQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Thu, 28 Apr 2022, 17:30 UTC+02
-! Version: 2022.4.28.0
+! Last modified: Fri, 29 Apr 2022, 17:30 UTC+02
+! Version: 2022.4.29.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 28 kwi 2022, 17:30 UTC+02
+! Aktualizacja: pią, 29 kwi 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -5954,6 +5954,7 @@ sfd.pl##.search-cloud
 shareinfo.pl###install-button
 shipgratis.eu###soutez-wrapper
 shopee.pl##a[href*="/universal-link/"][href*="mobilebrowser"][href*="smart_download_banner"]
+shopee.pl##.shopee-skinny-banner
 sieradz.eu###site-loader
 siglo.pl##.lws-widget-container
 silesion.pl##.art-tripwire-big
@@ -6208,6 +6209,7 @@ pl###SliderPrzycisk
 pl###ZakladkaNewsletterOkno
 pl###acwp-toolbar-btn
 pl###allecomments_clips
+pl###allegro-widget-tab
 pl###allegro_ikona
 pl###bdCheckAlso
 pl###check-also-box
