@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: ZYQGmrQqgvI/4G36017M7g
+! Checksum: l3EOpZ9j1SVXf6DqrOMScw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Thu, 28 Apr 2022, 17:30 UTC+02
-! Version: 2022.4.28.0
+! Last modified: Sat, 30 Apr 2022, 17:30 UTC+02
+! Version: 2022.4.30.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 28 kwi 2022, 17:30 UTC+02
+! Aktualizacja: sob, 30 kwi 2022, 17:30 UTC+02
 !
 !
 !
@@ -1158,7 +1158,8 @@ olympia-electronics.com###block-block-40
 omegadruk.pl###slideleft
 onebid.pl##footer .footer-nav :nth-of-type(4)
 onebid.pl##.leftmainmenu.hidden-sm.hidden-xs.col-lg-3.col-md-3.col-xs-12 > .hidden-xs.hidden-sm
-onet.pl#?#p > strong:-abp-contains(/^Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści$/)
+onet.pl#?#p.hyphenate > strong:-abp-contains(Zapisz się na newsletter)
+onet.pl#?#p.hyphenate:-abp-has( > strong:-abp-contains(Zapisz się na newsletter)) + div.placeholder.embed.htmlbox
 onexstore.pl##.footer-col--subscription
 oohmagazine.pl##div.widget_anthemes_video.widget:nth-of-type(3)
 opensecurity.pl,swiatoze.pl,terazprudnik.pl,zasnik.pl###mc-embedded-subscribe-form
@@ -1488,7 +1489,6 @@ smalltronic.pl##.NaglowekNewsletter, .ModulNewsletter
 smart-grids.pl##main > .container > .row > div > .row > div.modules-arscreo:nth-of-type(2)
 smyk.com###newsletter-link
 smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
-sniadaniezkadra.onet.pl##.footerMenuBoxNewsletter
 snowbitch.pl###emailNewsForm
 soczewki365.pl###footer > div.row:nth-of-type(2) > .col-md-5
 soczewki365.pl###jOverlayContent, #jOverlay
@@ -1869,6 +1869,7 @@ zus.pox.pl##.moduletable:nth-of-type(5)
 zwierciadlo.pl##.post.boksborder > aside.boxappla:nth-of-type(1)
 zyciepabianic.pl###col1 > .widget:nth-of-type(3)
 zyciepabianic.pl###widget-newsletter
+!onet.pl#?#p > strong:-abp-contains(/^Cieszymy się, że jesteś z nami. Zapisz się na newsletter Onetu, aby otrzymywać od nas najbardziej wartościowe treści$/)
 ||4prm.pl/*/4p_newsletter.jpg
 ||a-ajurweda.pl/images/layout/ajurweda/newsletter_ajurweda.png
 ||biuroprasowe.pl/userfiles/_CMS_/EPR3/baner_newsletter.jpg
