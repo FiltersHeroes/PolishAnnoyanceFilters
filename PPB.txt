@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: EmwddNX/AKP5f/et7SegKA
+! Checksum: mWTQgqnWtb2abPEPdTVvJA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 30 Apr 2022, 21:30 UTC+02
-! Version: 2022.4.30.1
+! Last modified: Sun, 01 May 2022, 17:30 UTC+02
+! Version: 2022.5.1.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 30 kwi 2022, 21:30 UTC+02
+! Aktualizacja: nie, 01 maj 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1086,6 +1086,7 @@ nazdrowie.pl##.imd-footer.col-xs-12.col-sm-6.col-md-4.col-lg-4:nth-of-type(2)
 nazwa.pl###news_content
 nbsklep.pl##.subscribe_newsletter
 neo24.pl##a[class^="joinNewsletter"]
+neon24.info,nowyekran24.com##.flickr-widget.widget
 neonet.pl##section[class*="joinNewsletter"]
 neonet.pl##.joinNewsletterDesktop-root-2Mr
 neonet.pl,wydawnictwokobiece.pl###newsletter-home
@@ -1778,6 +1779,7 @@ wrozka.com.pl##td:nth-of-type(1), .newsletter_right, .footer_newsletter_containe
 wrp.pl##.vc_general.vc_cta3
 wrp.pl#?#.td-ss-main-sidebar > div:-abp-has(form)
 wseit.edu.pl###btn-newsletter
+wsei.edu.pl###wsei-footer > div.vc_col-sm-3.wpb_column:nth-of-type(5)
 wspieramrozwoj.pl##.newslatter
 wtk.pl###newsletter-animated-box
 wwwlosy.pl##section.fioletowe-linki
@@ -2749,6 +2751,7 @@ przegladpiaseczynski.pl##.tdc-footer-wrap
 przekroj.pl##.is-shown.js-modal.modal__content--offset.modal__content
 przepisy.pl##.modal:not(#modalDownloadEbook):not(#modalResult), .modal-backdrop
 przetargi.egospodarka.pl###js_popup_przetargi
+przewodnik-usa.pl##.mt-redirect.morningcatch
 przystan-psychologiczna.pl##.infowindow
 publicat.pl###newsletter-popup-form
 publicrelations.pl##.newsletter-signup
@@ -3934,6 +3937,7 @@ naszoptyk.pl##.icon-backToTop
 nasz-gabinet.pl##.back-to-top-bttn
 nazwa.pl##.arrowUp__wrapper
 neo24.pl,neonet.pl##div[class*="scrollTopArrowCss"]
+neon24.info,nowyekran24.com###button-top
 neonet.pl##div[class^="scrollTopArrow-wrapper"]
 network-systems.pl,sp124.nazwa.pl,wypozyczalniachoinek.eu,zawisza.szkola.pl##.enigma_scrollup
 neuf.tv###kt-scroll-up
@@ -5070,6 +5074,7 @@ wynagrodzenia.pl##.report-last-chance
 wzp.pl###rslider-write
 xn--usugi24-ojb.pl###zglos_awarie
 xtb.com##.js-xchat-btn-wrapper.xchat-btn-wrapper
+zabiegidavinci.pl##.contactwidget
 zaczytaj.pl##.box-contact
 zamg.klodzko.pl##.side-tab-widget > [href="kontakt.html"]
 zooart.com.pl###shower_desc.fast_desc
