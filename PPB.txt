@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: NESN2SvZviudVyz/7RCQSQ
+! Checksum: u7UfqPhvk7+HW8UHyLj32w
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 03 May 2022, 18:37 UTC+02
-! Version: 2022.5.3.1
+! Last modified: Tue, 03 May 2022, 21:30 UTC+02
+! Version: 2022.5.3.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 03 maj 2022, 18:37 UTC+02
+! Aktualizacja: wto, 03 maj 2022, 21:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -6059,6 +6059,7 @@ tvdzierzgon.pl##.offbox-articles
 tvn24.pl##.shareContainerTop
 tvn.pl##.detail-next
 tvokazje.pl##.call-popup-newslater
+twitch.tv#?##twilight-sticky-footer-root:-abp-contains(Zarejestruj się)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?##layers > div[class*=" "]:first-of-type:-abp-has(a[href="/i/flow/signup"])
 tymbark.com,winiary.pl###kwit_brandwidget_btn
 tysol.pl##.fiszka
