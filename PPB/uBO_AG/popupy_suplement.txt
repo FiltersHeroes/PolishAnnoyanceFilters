@@ -378,7 +378,7 @@ tpa-group.pl###PopupModal, .modal-backdrop
 truphone.com##.blur-out:style(filter: none !important;)
 ttv.pl###specialPopupModal
 tvokazje.pl###tvo-newsletter-popup-new-year, .modal-backdrop
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid="sheetDialog"] div[role="button"] + div[role="button"]:upward(div[role="group"])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid="sheetDialog"] > :not(div[data-testid="IntentLoginSheet_Login_Sheet"]) div[role="button"]:not([data-testid]) + div[role="button"]:not([data-testid]):upward(div[role="group"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##html:style(overflow: unset !important;)
 twojekwiaty.pl###exitPopup
 ubraniadooddania.pl###popup-dialog, .modal-backdrop
