@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: zSE2n1siCe5KoE07378cDA
+! Checksum: Q5YMlezBBuuFGPqtfu4AhA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Fri, 06 May 2022, 17:30 UTC+02
-! Version: 2022.5.6.0
+! Last modified: Sat, 07 May 2022, 21:59 UTC+02
+! Version: 2022.5.7.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 06 maj 2022, 17:30 UTC+02
+! Aktualizacja: sob, 07 maj 2022, 21:59 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -3003,6 +3003,7 @@ zszywka.pl###inv-request-popup
 !obcasy.pl##.spu-box, .spu-bg
 !pierwsze-kroki.com###spu-26, #spu-bg-26
 !zuch.media###spu-10366, #spu-bg-10366
+/assets/application-$script,domain=ask.fm
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /compress/popupFacebook.js$domain=chamskie.pl|motywujemy24.pl
 /compress/popups/popupFacebook_normal.css$domain=chamskie.pl|motywujemy24.pl
