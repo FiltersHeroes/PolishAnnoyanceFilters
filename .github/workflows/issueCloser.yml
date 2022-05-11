@@ -7,6 +7,8 @@ jobs:
   letsgo:
     if: github.event.label.name == 'zatwierdzone' || github.event.label.name == 'odrzucone'
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - uses: actions/github-script@v6
         with:
