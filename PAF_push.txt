@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: UHkdwfdtSe13fyGaqQA0IQ
+! Checksum: SvsMVHfm9+Wg4O9y33mocQ
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Mon, 04 Apr 2022, 17:30 UTC+02
-! Version: 2022.4.4.0
+! Last modified: Sat, 14 May 2022, 01:39 UTC+02
+! Version: 2022.5.14.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 04 kwi 2022, 17:30 UTC+02
+! Aktualizacja: sob, 14 maj 2022, 01:39 UTC+02
 !
 !
 !
@@ -50,6 +50,7 @@ ogrodosfera.pl##.bell-container
 onet.pl##.notificationPrompt
 pilot.wp.pl##.notification-container
 pl,typeofweb.com###onesignal-popover-dialog
+pl.aliexpress.com#?#body > div:last-of-type:-abp-contains(Zezwalaj na powiadomienia)
 pl.waterdrop.com##.pushowl-widget-node
 polsatnews.pl###pushwooshBellWidget
 pomponik.pl##.ppg__signin
