@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: OSyy1xsDFAT/oRgMiQo4EA
+! Checksum: Sjx6zENm3lVOgwoBqEJ4Xw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Fri, 13 May 2022, 17:30 UTC+02
-! Version: 2022.5.13.0
+! Last modified: Sat, 14 May 2022, 01:39 UTC+02
+! Version: 2022.5.14.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 13 maj 2022, 17:30 UTC+02
+! Aktualizacja: sob, 14 maj 2022, 01:39 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2708,6 +2708,7 @@ planeta-budowlana.pl##.dialog[id^="window"], #toogas_pop_up
 plantini.pl##.in.fade.modal
 plk.pl###okienko_yt, .ui-widget-overlay
 pl.aleteia.org##.newsletter-popups
+pl.aliexpress.com##.drogue-poplayer-modal
 pl.everli.com###mask_new.mask
 pl.gearbest.com##.newUserPop, #layui-layer-shade1
 pl.geofumadas.com,webmastah.pl##.ulp-window, .ulp-overlay
@@ -3206,6 +3207,7 @@ ogrodosfera.pl##.bell-container
 onet.pl##.notificationPrompt
 pilot.wp.pl##.notification-container
 pl,typeofweb.com###onesignal-popover-dialog
+pl.aliexpress.com#?#body > div:last-of-type:-abp-contains(Zezwalaj na powiadomienia)
 pl.waterdrop.com##.pushowl-widget-node
 polsatnews.pl###pushwooshBellWidget
 pomponik.pl##.ppg__signin
@@ -5803,6 +5805,7 @@ myedenred.pl##.overtop-banner__image
 myfitnessplace.pl##.app-ico
 myspeed.pl###load.ring-loader
 m.leroymerlin.pl##.smart-app-banner
+m.pl.aliexpress.com###header-float-banner
 m.pl.aliexpress.com##.download-bar
 m.sts.pl##.promo-app-download
 m.teksciory.interia.pl###bottomPromo
@@ -5900,6 +5903,7 @@ pkobp.pl###smartbanner-desktop
 plastcom.pl###test
 plejada.pl#?#.logolink:-abp-has( > .arrow)
 pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #patron-popup-image
+pl.aliexpress.com##.top-banner-container
 pl.gearbest.com##.siteBanner
 pl.hotels.com##.signin-signup-notification-container
 pneumat.com.pl###wrapper > .sideButtons-tagCont > .sideButtons-tagWhite
