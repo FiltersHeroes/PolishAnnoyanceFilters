@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: wZ8s8z4KAwoHuaQ2Sr6fqA
+! Checksum: ZNQ6ietBSsOo/MofAKXuVw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Fri, 20 May 2022, 17:30 UTC+02
-! Version: 2022.5.20.0
+! Last modified: Sat, 21 May 2022, 21:30 UTC+02
+! Version: 2022.5.21.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 20 maj 2022, 17:30 UTC+02
+! Aktualizacja: sob, 21 maj 2022, 21:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2895,6 +2895,7 @@ taxxo.pl##.novocall-modal, .novocall-in
 teatrkomedia.pl###splash
 technologzywnosciradzi.pl##.pum-overlay[data-popmake*='"slug":"facebook"']
 telewizjaswiatlowodowa.pl##.phoneNumberBox, .popupBg
+termyszaflary.com#?#.elementor-popup-modal:not(:-abp-has(a[href*="polityka-prywatnosci"]))
 tiendeo.pl##.mail-alert
 timestore.pl##.my-popup-background-layer
 tkmaxx.pl##.landing-lightbox-box, #landing-lightbox-overlay
@@ -5469,6 +5470,7 @@ drogerienatura.pl###pb
 drzwipartnerkrakow.pl##.storefront-product-pagination > a
 duzekubki.pl###sweet-fixed-box
 dyskusjebiblijne.info.pl##.guest_warn
+dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl##.atomsNavigationStickyReturnHome
 dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
 dziennik.pl##.switcher-button, #nextArticleWidget
 ebok.vectra.pl###main-container > a[href="https://bm.pl/promocja-vectra-i-mastercard"]
