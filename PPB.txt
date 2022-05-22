@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ZNQ6ietBSsOo/MofAKXuVw
+! Checksum: Pfca5h/urxCOgN+Xxuj3Bw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 21 May 2022, 21:30 UTC+02
-! Version: 2022.5.21.0
+! Last modified: Sun, 22 May 2022, 20:01 UTC+02
+! Version: 2022.5.22.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 21 maj 2022, 21:30 UTC+02
+! Aktualizacja: nie, 22 maj 2022, 20:01 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -423,6 +423,7 @@ devstyle.pl###post-2135 > .ck_inline.ck_form_container
 deweloper-interes.pl,niebieskimigdal.pl,paweltkaczyk.com,piroart.eu,selectivv.com###text-2
 dewocjonalia-niedziela.pl###footer_boxs > li:nth-of-type(4)
 dexpol.com##.stopka2_center > div.box_info:nth-of-type(1)
+diag.pl##.diag-newsletter
 diag.pl##.last > form, .last.col-md-3 > h3
 dialog.mazovia.pl,galeriabronowice.pl##.news
 diamante-wear.com##.footer__blocks__item--newsletter
@@ -430,7 +431,7 @@ dietetyk-proporcja.pl#?#[id^="cmsmasters_row_"]:-abp-contains(Newsletter)
 digikids.pl##.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(3)
 dimedic.eu,listymikolaja.pl##.r-newsletter
 direct-sender.com###section-8 > .container > .row > div.col-lg-6:nth-of-type(1)
-disport.pl,koelnerpolska.pl,wiedza3g.pl##.boxNewsletter
+disport.pl,koelnerpolska.pl,sklep.mizar.com.pl,wiedza3g.pl##.boxNewsletter
 di.com.pl##.footcol:nth-of-type(5) > form, .footcol:nth-of-type(5) > p, .footcol:nth-of-type(5) > .footnag:nth-of-type(1)
 dji-ars.pl###newsletter-bottom-banner
 dlabydgoszczy.pl##footer > div > .row > .form-inline
@@ -967,7 +968,7 @@ martom-hurtownia.pl##.footer-top > div > .row > div:nth-of-type(2)
 masterlease.pl##.blue-green.section
 maszynadopisania.pl##header a[href="/#fm_form_1"]
 maszynadopisania.pl##.form_subscribe[class*="freshmail"]
-matisto.sklep.pl,pasmanteriapasja.pl##.col-newsletter-box
+matisto.sklep.pl,pasmanteriapasja.pl,zrobtosam24.eu##.col-newsletter-box
 maxibike.pl##.newsletter-holder
 max-protect.pl,sklep-smile.pl##.footer-block-contain > .block1
 mazovia.pl##.clearfix > .nice-shadow.search-block
@@ -1261,6 +1262,7 @@ pl.nowystyl.com###freshmail-button.freshmail__button
 pl.pandora.net##.Footer__newsletter
 pl.pandora.net##.bottom-email-signup
 pl.primo.com##footer .p-columns:nth-of-type(2)
+pl.ryobitools.eu##div[class^="Footerstyles__Form-"]
 pl.ryobitools.eu##[id*="RyobiFooterSignUp_txt"], [id$="RyobiFooterSignUp_lblTitle"], [id$="RyobiFooterSignUp_btnSignUp"]
 pl.silvexcraft.eu###newslet_section
 pl.sportsdirect.com##.signup-wrapper
@@ -1378,6 +1380,7 @@ racjonalista.pl###oTxt > form
 radex.com##body > div[style*="position"][style*="fixed"]
 radiopiekary.pl###mauticform_wrapper_dodaniedooczekujacychradiopiekary
 ray-ban.com##.rb-footer__mail
+razemdlaradomki.pl###lewe_menu div[style]:nth-of-type(6)
 rebel.pl##td:nth-of-type(5) > table
 recea.pl##.fx-newsletter-box
 recman.pl##.col-md-8.col-sm-7.col-xs-12
@@ -2552,6 +2555,7 @@ mamalulu.pl,mojwzrok.pl,optes.pl,taniesoczewki.pl###ctk_np_popup, .reveal-modal-
 mamopracuj.pl##.kurs-popup4
 mango.pl##.popup-mango, #sm_ext_floater-bg
 manutea.pl###teatipsModal, .modal-backdrop
+mapsolutions.pl###jz-overlay-callback
 marenaspa.pl###fancybox-overlay[style^="background-color: rgb(0, 0, 0); opacity: 0.6; cursor: pointer;"]
 marenaspa.pl#?##fancybox-wrap:-abp-has(#popup-box)
 marken.com.pl,medianarodowe.com,tato.net,wypozyczalnia-dekoracji.pl##.freshmail_dialog, .ui-widget-overlay
@@ -4543,6 +4547,7 @@ bssztum.pl###widget_social2
 bulwaryksiazece.pl##.ask-form
 busy.info.pl###contact-user-form-button
 busy.info.pl###contact-user-messenger-button
+cadsoft.pl##.arrow-seeMe
 canon.pl##.feedback-btn
 carq.pl##div[id^="qc-quic-widget-"]
 casedrop.eu##.support-floating-wrapper
@@ -5472,6 +5477,7 @@ duzekubki.pl###sweet-fixed-box
 dyskusjebiblijne.info.pl##.guest_warn
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl##.atomsNavigationStickyReturnHome
 dziennikpolski24.pl##.hide-for-small.powiadamiacz_dp
+dziennikpowiatowy.pl#?#.sidebar .widget:-abp-has(a[href*="ankiety"])
 dziennik.pl##.switcher-button, #nextArticleWidget
 ebok.vectra.pl###main-container > a[href="https://bm.pl/promocja-vectra-i-mastercard"]
 ecaraudio.eu,ekodomek.eu,ogrodzenia24.eu,sklep-agrohurt.eu,sklepmuzyczny.eu###allegro_ikona
@@ -5916,6 +5922,9 @@ pit.pl##.floater[id^="floater"]
 pkobp.pl###smartbanner-desktop
 plastcom.pl###test
 plejada.pl#?#.logolink:-abp-has( > .arrow)
+pl##.rssocial-icons > li > a[href*="google.com/maps"]
+pl##.rssocial-icons > li > a[href*="google.pl/maps"]
+pl##.rssocial-icons > li > a[href*="maps.google."]
 pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #patron-popup-image
 pl.aliexpress.com##.top-banner-container
 pl.gearbest.com##.siteBanner
