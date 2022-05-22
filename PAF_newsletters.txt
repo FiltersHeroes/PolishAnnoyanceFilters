@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: XGc+6zSUKnVihZmDR2fpGA
+! Checksum: BWa+gE2Pb5BCvlLAKjuAHA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 22 May 2022, 20:01 UTC+02
-! Version: 2022.5.22.0
+! Last modified: Sun, 22 May 2022, 21:30 UTC+02
+! Version: 2022.5.22.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 maj 2022, 20:01 UTC+02
+! Aktualizacja: nie, 22 maj 2022, 21:30 UTC+02
 !
 !
 !
@@ -851,6 +851,7 @@ kobietydokodu.pl,marfafashion.com,niezlomni.com,woolloop.pl,zagranie.com###text-
 kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER)
 kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER) + div.StrTresc
 kochanamama.pl##.pmpIMail
+kodano.pl###app-form-subscribe-wrapper
 kolczewska.pl##.ulp-tab-right-middle.ulp-tab > .ulp-tab-content
 komfort.pl##.ComponentNewsletterIcon
 konfederacjalewiatan.pl###bazo_form_popup0
@@ -1580,8 +1581,6 @@ szaron.pl###blocknewsletter > h4, #blocknewsletter > form
 szaron.pl###blocknewsletter-panel
 szarotka.eu##.Footer_L
 szerokadroga.pl##.gum_footer_widget.widget:nth-of-type(3)
-szkla.com###newsletter-container
-szkla.com##.form-subscribe-wrapper
 szopi.pl##footer .container-fluid > .row > .col-5
 szopi.pl##footer .widget_mc4wp_form_widget.scisco-widget
 szukampracownika.monsterpolska.pl###mailreg_cont
