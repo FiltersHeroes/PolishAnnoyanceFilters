@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: wMWWp0FoakPN+0UsqbmjBg
+! Checksum: t2xrS3i+jkWzGXIakf+qwQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 22 May 2022, 20:03 UTC+02
-! Version: 2022.5.22.1
+! Last modified: Sun, 22 May 2022, 20:09 UTC+02
+! Version: 2022.5.22.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 maj 2022, 20:03 UTC+02
+! Aktualizacja: nie, 22 maj 2022, 20:09 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -5437,7 +5437,6 @@ creativecommons.org###deed-donate-slide
 credstepfunds.pl##.page_loader
 crmodus.pl##.kac-sm-zl
 crolove.pl###see-more-box
-cryptoacademy.club,miedzyrzecz.biz,piaseczno.eu,polonia.nl,weneedmore.space,wislakrakow.com,wrp.pl##.td-more-articles-box
 cybersport.pl##.is-active.pbox
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
@@ -5797,6 +5796,7 @@ mgsm.pl##.promo-sticky
 miastons.pl##.stckbottom.cms_see_more
 miastopoznaj.pl###similarArticle
 microsoft.com##.epb-container.f-information[class*="alert"]
+miedzyrzecz.biz,piaseczno.eu,polonia.nl,weneedmore.space,wislakrakow.com,wrp.pl##.td-more-articles-box
 miedzyrzec.info##.newsticker
 miedzyrzec.info###pasekDolny
 miesiecznik.znak.com.pl###preloader, .pace-progress
@@ -6741,8 +6741,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2022.5.22.0
-!@ Last modified: Sun, 22 May 2022, 20:03 UTC+02
+!@ Version: 2022.5.22.1
+!@ Last modified: Sun, 22 May 2022, 20:09 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -6753,7 +6753,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Copyright © 2022 Certyficate IT
 !@ Copyright © 2022 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2022.5.22.0 aktualizacja: nie, 22 maj 2022, 20:03 UTC+02
+!@ v.2022.5.22.1 aktualizacja: nie, 22 maj 2022, 20:09 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -8285,7 +8285,6 @@ kubisa.pl#?##innertop .deepest.module > p:-abp-has(a[href*="/polityka-prywatnosc
 kuchniapelnanagrod.pl##div#claw-prompt
 kujawsko-pomorskie.pl,lasery.biz,panekcs.pl,polskatradycja.pl##.uk-position-fixed.uk-position-bottom.uk-section
 kula.gov.pl,mkidn.gov.pl,prawoautorskie.gov.pl###pa
-kulki.info###welcome-box
 kulturalnysklep.pl###ctl00_cq_divText
 kultura.rybnik.eu###falkonet_cookie_alert
 kuratorium.bialystok.pl###spu-9294, #spu-bg-9294
@@ -8724,7 +8723,6 @@ oifp.eu##.cookies-notice
 oirp.opole.pl###whole_page_loader.ppBg
 oke.wroc.pl#?#div.loginbox:-abp-has(b:-abp-contains(Ta strona używa cookie))
 oki.com###cookie_access_message_holder
-okulary.szkla.com##div#polityka_prywatnosci
 oldbip.otmuchow.pl###jbar
 old.reddit.com,pl.reddit.com###eu-cookie-policy
 olesnica.wroc.pl###hideMe2
