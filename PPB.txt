@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: cpXgpRksmuZ5vw+dhhZOoA
+! Checksum: SL5nsxXJlGXlG3VeNuoiUA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 12 Jun 2022, 20:37 UTC+02
-! Version: 2022.6.12.0
+! Last modified: Mon, 13 Jun 2022, 21:30 UTC+02
+! Version: 2022.6.13.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 cze 2022, 20:37 UTC+02
+! Aktualizacja: pon, 13 cze 2022, 21:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -81,6 +81,7 @@ akademiawitalnosci.pl###text-2 > .textwidget, #text-2 > .title
 akademia-hotelarza.pl##div.col-xs-12.col-sm-12.col-md-5.col-lg-5:nth-of-type(3)
 akardo.pl,asport.pl,eherbata.pl,kaszubi.pl,wsb.edu.pl##.newsletter-column
 aksiazka.pl##.stopkanewsletter
+alchemik.sklep.pl,dedalus.pl,horsklep.pl,lunamarket.pl,malako.pl,manufakturaczekolady.pl,modele-centrum.pl,moto125.pl,motocombo.pl,nbielizna.pl,plumeria.sklep.pl,posciel.mazury.pl,scyzoryki.net,skrzat-online.pl,staradobraksiazka.pl,szklanebombki.pl,tylkoklocki.pl,zabawkiija.pl,zielonysklep.com###footer_newsletters
 aldi.pl##.mod-newsletter-popup
 aldi.pl##.mod-newsletter-teaser
 aldrux.pl,qdecor.pl##.box:nth-of-type(4)
@@ -276,6 +277,7 @@ born86.pl##.nadstopa2
 bosch-professional.com##.m-newsletter_signup-a
 bosonamacie.pl##.newsletter-header, #widget-text-3
 braclowiecka.pl##div.widget:nth-of-type(3)
+bratnizew.pl,ceberd.pl,dayupstore.pl,dlakatolika.pl,e-sporting.pl,elektryknet.pl,epelo.pl,fhuoskar.pl,magazynlamp.pl,no10.pl,nygus.pl,polskiled.com.pl,sklep.agroas.pl,sklep.monster.pl##.fnls
 bravebeaver.pl#?#.centered-container > .vc_column_container.wpb_column:-abp-has(#mc_embed_signup)
 bravebeaver.pl,nazdrowie.pl,semprewithlove.pl,smartbake.pl,vivio.pl###text-5
 brief.pl#?#.sticky-column > div > div:-abp-has( > div > form[action*="enewsletter.pl/"])
@@ -400,13 +402,11 @@ daemon-tools.cc###send-mail
 dagmara.pl###links_footer_3
 danko.pl##.nl-holder
 darymex.pl##.wce_footerinfo
-dayupstore.pl,no10.pl,sklep.agroas.pl,sklep.monster.pl##.fnls
 dealz.pl#?#.elementor-location-footer footer:first-child:-abp-has(a[href="https://dealz.pl/newslettera/"][role="button"])
 dealz.pl#?#.elementor-location-footer.elementor .elementor-top-section:-abp-has(div:-abp-contains(/^Zapisz się do newslettera$/))
 decathlon.pl#?##footer div[class*="column"]:nth-of-type(3):-abp-has(.ct-appBox)
 deccoria.pl##.dc-action-regiser-newsletter
 decoliving.pl,intymna.pl,ohso.pl##div.zwin.col-sm-3.footer-links.footer-widget:nth-of-type(3)
-dedalus.pl,horsklep.pl,lunamarket.pl,malako.pl,modele-centrum.pl,moto125.pl,motocombo.pl,nbielizna.pl,plumeria.sklep.pl,skrzat-online.pl,szklanebombki.pl,tylkoklocki.pl,zabawkiija.pl###footer_newsletters
 defence24.pl,infosecurity24.pl,space24.pl##.newsletter-module__inner
 dekea.pl##div.mb40.mt40.row:nth-of-type(5) > .bg-grey.p20.col-md-4
 demagog.org.pl##.footer .mt-2.col-12
