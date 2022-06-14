@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: SL5nsxXJlGXlG3VeNuoiUA
+! Checksum: wMAab5VgWE3hlH1+yY2ncw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 13 Jun 2022, 21:30 UTC+02
-! Version: 2022.6.13.0
+! Last modified: Tue, 14 Jun 2022, 17:30 UTC+02
+! Version: 2022.6.14.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,15 +15,13 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 13 cze 2022, 21:30 UTC+02
+! Aktualizacja: wto, 14 cze 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
-1rosyjski.pl##section[id^="mc4wp_widget"].widget_mc4wp_widget
 3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
-3i-store.com##.footer-address-block > p:nth-of-type(n+4):nth-of-type(-n+5)
-3i-store.com,global4net.com,newcraft.eu##.block-subscribe
-3kropki.pl##.nwltMR
+3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
+3i-store.com,addons.prestashop.com##.newsletter-subscribe
 4adstudio.pl#?#.footer-widget-area .widget:-abp-has(.newsletter-widget)
 4kdownload.com##.footer__section > .footer__col--updates
 4kom.pl###tws_c_100001
@@ -54,7 +52,6 @@ active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
 ac.com.pl#?#.footerBar:-abp-has(.form-horizontal > .form-group)
 adapter.pl##.main-top-wrapper > .container > h2
 addnature.pl,bikester.pl##.newsletterModule
-addons.prestashop.com##.newsletter-subscribe
 adequate.pl##.hidden-xs.col-sm-4.col-md-4.col-lg-4
 adguard.com##.annoyance.email-collector
 adidas.pl,reebok.pl##div[class^="footer_newsletter___"]
@@ -277,7 +274,7 @@ born86.pl##.nadstopa2
 bosch-professional.com##.m-newsletter_signup-a
 bosonamacie.pl##.newsletter-header, #widget-text-3
 braclowiecka.pl##div.widget:nth-of-type(3)
-bratnizew.pl,ceberd.pl,dayupstore.pl,dlakatolika.pl,e-sporting.pl,elektryknet.pl,epelo.pl,fhuoskar.pl,magazynlamp.pl,no10.pl,nygus.pl,polskiled.com.pl,sklep.agroas.pl,sklep.monster.pl##.fnls
+bratnizew.pl,ceberd.pl,dayupstore.pl,dlakatolika.pl,e-sporting.pl,elektryknet.pl,epelo.pl,fhuoskar.pl,magazynlamp.pl,no10.pl,nygus.pl,polskiled.com.pl,sklep.agroas.pl,sklep.monster.pl,topserw.pl##.fnls
 bravebeaver.pl#?#.centered-container > .vc_column_container.wpb_column:-abp-has(#mc_embed_signup)
 bravebeaver.pl,nazdrowie.pl,semprewithlove.pl,smartbake.pl,vivio.pl###text-5
 brief.pl#?#.sticky-column > div > div:-abp-has( > div > form[action*="enewsletter.pl/"])
@@ -529,7 +526,6 @@ elektronik-service.com.pl###form_newsletter_down
 elektrostymulatory.net###newsletter-fm
 elektrosystemy.pl###text-48
 elektrykapradnietyka.com##a[href="http://elektrykapradnietyka.com/newsletter/"]
-elektryknet.pl##.footer_nls .fnls
 elle.pl,portalzp.pl##.bottom-newsletter
 elnino-parfum.pl##.Subscribe > .Container
 eloblog.pl##a[href="https://eloblog.pl/newsletter/"]
@@ -599,7 +595,6 @@ e-prawnik.pl##.boxA2
 e-sas.pl###fbbok
 e-security.com.pl###footerTopPasek
 e-spar.com.pl##.icon-xl.icon-envelope-white.spar-icon ~ *, .icon-xl.icon-envelope-white.spar-icon
-e-sporting.pl##.fnlsl
 e-vasco.pl#?#.footer_info_right:-abp-has(#box_newsletter)
 e-warzywnictwo.pl##.stopka-newsletter-kontener
 fabrykazabawek.eu##.col-md-3.trzecia
@@ -614,7 +609,6 @@ fasardi.com##.top-footer-wrapper
 fashyas.com,kolekcjonerki.com##footer div:nth-of-type(3)
 felixcom.net##.ftop > .container > .right
 feniks.wroc.pl##.newsletter-wr
-fhuoskar.pl,kupzegarek.com,sklep.loakepolska.pl,sklep.platinet.pl,sorbenty.pl,twp.sklep.pl##.footer_nls
 finereader.pl##footer > .container-fluid > .container > .row > div:nth-of-type(1) > .textwidget:nth-of-type(3)
 finereader.pl##footer > .container-fluid > .container > .row > div:nth-of-type(1) > .text-white:nth-of-type(2)
 fish24.pl##.newsletter_foot
@@ -647,7 +641,6 @@ frenchtouchlabellevie.pl##.newsletter-mail
 freshmail.pl##.newsletter-shortcode-form
 fresh-market.pl###kolp > h4
 fresh-market.pl###kolp > .ramka.box_p
-fricke.pl##.footer-00
 fundacjadominikana.org###bottom.row-fluid > #sp-bottom6
 fundacjajoannyradziwill.pl###custom_html-4 a[href="//fundacjajoannyradziwill.pl/#newsletter"]
 fundacjajoannyradziwill.pl###custom_html-4 .custom-html-widget.textwidget > h4.widget-title:nth-of-type(1)
@@ -687,6 +680,7 @@ ginlong.com##.pc-rss2
 gino-rossi.com##.footer .top > ul > li:nth-of-type(2)
 girya.com.pl##div.copy.container-fluid:nth-of-type(2) > .container > div.text-center.col-xs-12.col-md-6:nth-of-type(1)
 gliwice.eu,ukrainashop.com##.newsletter_wrap
+global4net.com##.footer-grid-el2.col-xl-6.col-12
 gloria24.pl##.tg-info-cookie
 gofin.pl##img[src="https://www.gofin.pl/images/newslettery_gofin_dzial.png"]
 gomobi.pl##.zapiszsiedonewslettera
@@ -755,7 +749,7 @@ hurtowniasportowa.net##footer > .aboutUs > div > div > div > div > div:nth-of-ty
 hurtowniateleinformatyczna.pl##ul:nth-of-type(3), .rc-box-newsletter.box
 hurtownia-format.pl##.footer.row > .col-md-4
 hurtownia-spozywcza.pl###accordion_footer > div.list-group.foot-group:nth-of-type(4)
-hydro.com.pl##.newsletter-bg
+hydro.com.pl,mebline.ie##.newsletter-bg
 hygieia.pl##.footer-info div.grid_3:nth-of-type(3) > div.grid_3
 hykker.com##.widget_wysija
 hyperxgaming.com###email-signup-modal, .s-footer__email
@@ -885,6 +879,7 @@ kulturawplot.pl#?##commentform > .wysija-after-comment > label:-abp-has(#wysija-
 kupbilecik.pl##.blinkGray.boxTopInfo
 kupiec.pl###vnlab-footer-before
 kuponrabatowy.net###social .mleft > h4, #social .email
+kupzegarek.com,sklep.platinet.pl,sorbenty.pl##.footer_nls
 kurasinski.com##.home-newsletter, .right-col
 kurencja.com##.page-newsletter
 kurierhistoryczny.pl##div.newsletter__col:nth-of-type(6)
@@ -1110,6 +1105,7 @@ netmoda.pl###bk_wstawka_R
 nettg.pl##.input-newsletter1
 nettg.pl##.section-content > .heading
 netto.pl##.newsletter-subscription
+newcraft.eu##.block-subscribe
 newled.pl###footernewsletter
 newonce.net##.footer-desktop__newsletter-wrapper, .footer-desktop__right-side > h5.h5:nth-of-type(1)
 newsweek.pl#?#.pure-u-1-1 > .smallItem > .titleBox:-abp-has( ~ script ~ iframe[src*="freshmail.io"])
@@ -3389,7 +3385,7 @@ pl##.videoPlayer.is--persistent:not(.ended)
 3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,domkorkowy.com,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,konin24.info,krzywcza.eu,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
 4f.com.pl,adriatech.pl,agrojumal.com.pl,android.com.pl,answear.com,blaugrana.pl,cyfrowarepublika.pl,dachygt.pl,drmax.pl,fenii.pl,karchercenter-ocean.pl,karnet.krakow.pl,myjki.com,myjki.eu,ocean-karcher.pl,oponeo.pl,pracuj.pl,radiopoznan.fm,sagito.pl,sandraspa.pl,sport-shop.pl###scrollTop
 4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu###scroll-to-top
-4turbo.pl,dayupstore.pl,dlakatolika.pl,fhuoskar.pl,klinkierbud.pl,no10.pl,palis.pl,sklep-narzedzia.pl,sklep.agroas.pl,sklep.loakepolska.pl,sklep.monster.pl,sklep.platinet.pl,sorbenty.pl,sportbazar.pl,twp.sklep.pl###moveTop
+4turbo.pl,bratnizew.pl,ceberd.pl,dayupstore.pl,dlakatolika.pl,e-sporting.pl,elektryknet.pl,fhuoskar.pl,klinkierbud.pl,magazynlamp.pl,no10.pl,nygus.pl,palis.pl,polskiled.com.pl,sklep-narzedzia.pl,sklep.agroas.pl,sklep.loakepolska.pl,sklep.monster.pl,sklep.platinet.pl,sorbenty.pl,sportbazar.pl,topserw.pl,twp.sklep.pl###moveTop
 5wszk.com.pl,brwmielec.pl,creagroup.com.pl,crmodus.pl,dietetyczne-przepisy.net,dietetyk-proporcja.pl,e-theart.pl,gchmanhattan.pl,krolismok.pl,rubbens.pl,supersam-katowice.pl,wieniecwarszawa.pl###slide_top
 24hurt.pl,haftpasja.pl,mirjan24.pl,pm-m.pl,uczyibawi.pl###wt_scroll_top
 50style.pl,agatameble.pl,e-timberland.pl,galeriamarek.pl,sklep.sizeer.com,vobis.pl###js-scrollTop
@@ -4452,6 +4448,7 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 3giga.pl###contact-slider
+3i-store.com,dronexpert.eu,mam-fach.info,zrobtosam24.eu##.fb_reset
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
 1944.pl###rasaWebchatPro
 51015kids.eu###custom_trustbadge
@@ -4629,7 +4626,6 @@ dreamtours.pl###info-box
 dreamtours.pl##.popup-call-me-now > .widget
 dressinn.com##.chat_icono
 drhtv.com.pl###rootChatbot
-dronexpert.eu,mam-fach.info,zrobtosam24.eu##.fb_reset
 duckduckgo.com##.js-feedback-btn-wrap
 dulux.pl###as-wc-id
 dwa-t.pl,placowka.znanylekarz.pl,speak-up.pl###hubspot-messages-iframe-container
