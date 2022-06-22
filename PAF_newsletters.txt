@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: nl4VKiZipfEvHxn1QPvXQw
+! Checksum: QnHSNGj9kU8V3/uhOFMbbg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 21 Jun 2022, 21:30 UTC+02
-! Version: 2022.6.21.1
+! Last modified: Wed, 22 Jun 2022, 17:30 UTC+02
+! Version: 2022.6.22.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 21 cze 2022, 21:30 UTC+02
+! Aktualizacja: śro, 22 cze 2022, 17:30 UTC+02
 !
 !
 !
@@ -34,7 +34,6 @@
 85.128.114.72,gkn.pl###lewa > .box_newsletter
 99rent.pl###block-block-7
 100pompek.pl,biegaj40minut.pl,miesniebrzucha.pl,miesnienog.pl,podciaganie.pl,treningaerobowy.pl,treningrozciagania.pl###freshmail-subscription-form
-100v.pl,aisko.pl,dino.pl,odstraszanie.pl,rollcenter.pl,sklepslodkapasja.pl##.module-newsletter
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
@@ -184,7 +183,6 @@ bartoszkrawczykdemczuk.pl###tve_editor
 basenymineralne.pl##.foo-box-mid
 baseuspolska.pl##.newsletter-home
 bass-sklep.pl###box-5
-baterie-hurt.pl,etroniks.pl,reporteryoung.pl,swiece-zaplonowe.pl,trojmiejska.com,trojmiejskaperfumeria.pl###st_news_letter_1
 batorygdynia.com.pl##footer .menu_bottom1.row > .a_right
 bbhomeonline.pl##.footer_links_newsletter
 beautikon.com,imready.eu,shipgratis.eu,shop.albione.eu##.newsletter-wrapper
@@ -264,7 +262,6 @@ born86.pl##.nadstopa2
 bosch-professional.com##.m-newsletter_signup-a
 bosonamacie.pl##.newsletter-header, #widget-text-3
 braclowiecka.pl##div.widget:nth-of-type(3)
-bratnizew.pl,ceberd.pl,dayupstore.pl,dlakatolika.pl,e-sporting.pl,elektryknet.pl,epelo.pl,fhuoskar.pl,magazynlamp.pl,no10.pl,nygus.pl,polskiled.com.pl,sklep.agroas.pl,sklep.monster.pl,topserw.pl##.fnls
 bravebeaver.pl#?#.centered-container > .vc_column_container.wpb_column:-abp-has(#mc_embed_signup)
 bravebeaver.pl,nazdrowie.pl,semprewithlove.pl,smartbake.pl,vivio.pl###text-5
 brief.pl#?#.sticky-column > div > div:-abp-has( > div > form[action*="enewsletter.pl/"])
@@ -960,7 +957,6 @@ martom-hurtownia.pl##.footer-top > div > .row > div:nth-of-type(2)
 masterlease.pl##.blue-green.section
 maszynadopisania.pl##header a[href="/#fm_form_1"]
 maszynadopisania.pl##.form_subscribe[class*="freshmail"]
-matisto.sklep.pl,pasmanteriapasja.pl,zrobtosam24.eu##.col-newsletter-box
 maxibike.pl##.newsletter-holder
 max-protect.pl,sklep-smile.pl##.footer-block-contain > .block1
 mazovia.pl##.clearfix > .nice-shadow.search-block
@@ -1652,6 +1648,7 @@ trec.pl##.b-footer-top__newsletter > :nth-child(-n+3)
 triny.pl##.newsletter-sub-box
 trivago.pl###js-newsletter-registration
 triverna.pl##.ssPopupNewsletter, .ssHeaderNewsletter, .ssFooterNewsletter
+trojmiejska.com###st_news_letter_1
 trybawaryjny.pl###gr-form
 tsintegracje.com##.contNewsletter
 tucholanin.pl###sidebar-bottom > ul.widget-container:nth-of-type(1)
@@ -1876,6 +1873,7 @@ zlotoryjska.pl##a[href="/newsletter.html"]
 znak.com.pl##footer .newsletter
 znak.com.pl###subBox, #subBoxMini
 zooart.com.pl##.z_leftnewsletter
+zrobtosam24.eu##.col-newsletter-box
 ztm.waw.pl#?#.home-cell-iztm.home-cell:-abp-has(a[href$="/#subscribe"])
 zus.pox.pl##div:nth-of-type(3) > center
 zus.pox.pl##.moduletable:nth-of-type(5)
@@ -1972,6 +1970,7 @@ pl###newsletter_wrapper
 pl###post-newsletter
 pl###side_widget_newsletter
 pl###site-scroll-top
+pl###st_news_letter_1
 pl###wp-subscribe
 pl##.acymailing_module
 pl##.banner-newsletter
@@ -1983,6 +1982,7 @@ pl##.box-newsletter
 pl##.btn-newsletter
 pl##.b-footer_newsletter
 pl##.column--newsletter
+pl##.col-newsletter-box
 pl##.c-newsletter
 pl##.footer-block--newsletter
 pl##.footer-newsletter-box
@@ -1999,6 +1999,7 @@ pl##.ins-v-newsletter-signup-form
 pl##.is-newsletter
 pl##.jetpack_subscription_widget
 pl##.link-newsletter
+pl##.module-newsletter
 pl##.m-newsletter
 pl##.newsletter-area
 pl##.newsletter-block
