@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 6r8D8t9lLMMzZEN0MNopUQ
+! Checksum: R11wk+JouMCwN+PuyhArWg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Wed, 22 Jun 2022, 17:31 UTC+02
-! Version: 2022.6.22.0
+! Last modified: Thu, 23 Jun 2022, 17:30 UTC+02
+! Version: 2022.6.23.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 22 cze 2022, 17:31 UTC+02
+! Aktualizacja: czw, 23 cze 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -38,8 +38,6 @@
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
-1000dni.pl,building4you.pl,przepisnazdrowie.eu##.newsletter-mod
-abc-zabezpieczen.pl###sugester-chat
 abmax.eu,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 accu-chek.pl#?#.bg-gradient-combo.awecontent-column.awe-col:-abp-has(.keep-in-touch)
 action.com##footer > section:first-child > div
@@ -61,7 +59,6 @@ agagrzelak.pl##.ps-emailsubscription-block
 agnieszkawielobob.pl##.et_bloom_below_post
 agriaffaires.pl###js-newsletterBlock
 agrieko.pl##.footer_NewsletterBox
-agroas.pl##.newsletter-signup > .row
 agrodoradca24.pl##.newsletter-online
 agromat.pl#?##contact-box:-abp-has(div.title:-abp-contains(Zapisz się do newslettera))
 agromr.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
@@ -89,7 +86,6 @@ aliexpress.com###alert-subscribe-form
 aligoo.pl###footer > .col-sm-6
 aliholik.pl###yikes_easy_mc_widget-5
 alkalicznystylzycia.com,konstantinkanin.com,littletownshoes.com,przedsiebiorcza.com##[id^="mc4wp_form_widget"].widget_mc4wp_form_widget
-alkoholeswiata24.pl,osheeshop.eu,zlotarybka24.com###subReqForm
 alkoholeswiata24.pl,swiatzlotasklep.pl###box_subReqForm
 alkoholeswiata.com##div.span6:nth-of-type(2) > .row > div.span3:nth-of-type(2) > .panel-default.panel
 allegro.pl#?#div[data-box-name^="allegro.marketing.consent" i]:-abp-has( > div > div > input#consent:not(:checked))
@@ -216,7 +212,6 @@ bilscy.info,ogrodniczy.com,sarenka.eu##.footer-newsletter-box
 bioenergiadlaregionu.eu##.pa-newsletter
 bioieko.pl,chinytolubie.pl,dietetycy.org.pl,effective-english.pl,miastons.pl,przewodnikmp.pl,socialpress.pl###fm_form_1
 biolindo.pl,ecco-verde.pl##.footer_newsletter--form
-biowitalni.pl,zamek-krolewski.pl###block-newsletter
 bissole.pl##a[href="#newsletter"]
 bissole.pl,foodarea.pl,pierwszynamapie.pl,rozsadnibracia.pl###text-6
 bitcoin-online.pl#?#.block-title:-abp-contains(Newsletter)
@@ -296,7 +291,6 @@ castorama.pl##.newsletter-fold
 cba.pl##.links > div > div:nth-of-type(4)
 ccpartners.pl##.nl
 cebit.pl##a[href="http://net.cebit.pl/newsletter/"]
-cegla-klinkier.pl,lycamobile.pl,myjki.com###newsletter_block
 centos.com.pl##form:nth-of-type(1)
 centrumdialogu.com##.clearfix.bd-no-margins.hidden-xs.bd-layoutbox-9
 centrumhandlowerobi.pl##.footer-container div.col-xxs:nth-of-type(4)
@@ -336,7 +330,7 @@ clevo-computer.com##.column--newsletter
 cobi.pl##.block-DefaultSubskrypcja
 coccodrillo.eu###homeNewsletter, .newsletterWrap
 codojedzenia.pl,pushpushgo.com##.newsletter-post
-commonvoice.mozilla.org,wirtualnemedia.pl##.subscribe-newsletter
+commonvoice.mozilla.org##.subscribe-newsletter
 company.pl#?#.page-footer .row:nth-of-type(1) > div:nth-of-type(2):-abp-has(form)
 comparic.pl,wiskitki.org###icegram_messages_container
 competitiveskills.com##.sc_contact_bg_color.sc_section_overlay
@@ -374,7 +368,6 @@ czaszabawy.pl,sklep.charaktery.eu,sklep.psychologia.eu,smieszneprezenty.com.pl##
 czechtourism.com##.newsletter.pageSeparator, .newsletterSubscription
 czerwionka-leszczyny.pl##.row > div.col-sm-3:nth-of-type(2)
 czesciauto24.pl##.footer-subscr
-czesci-moto.pl,e-kiosk.pl,kulinarne.info##.form-newsletter
 czosnow.pl,fotelik.info,petanque.pl##.subskrypcja
 czytajsklad.com#?#.widget__mailchimp:-abp-contains(NEWSLETTER)
 czytamyetykiety.pl##.footer-ebook.component
@@ -417,7 +410,6 @@ dietetyk-proporcja.pl#?#[id^="cmsmasters_row_"]:-abp-contains(Newsletter)
 digikids.pl##.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(3)
 dimedic.eu,listymikolaja.pl##.r-newsletter
 direct-sender.com###section-8 > .container > .row > div.col-lg-6:nth-of-type(1)
-disport.pl,koelnerpolska.pl,sklep.mizar.com.pl,wiedza3g.pl##.boxNewsletter
 di.com.pl##.footcol:nth-of-type(5) > form, .footcol:nth-of-type(5) > p, .footcol:nth-of-type(5) > .footnag:nth-of-type(1)
 dji-ars.pl###newsletter-bottom-banner
 dlabydgoszczy.pl##footer > div > .row > .form-inline
@@ -439,7 +431,6 @@ dolinski.pl##div.ty-grid.span8:nth-of-type(1)
 domar.pl##.footer-newsletter__section
 domena.pl##.section-newsletter-front div[class*="green"]
 dominospizza.pl##.m-Newsletter__formContainer
-dominospizza.pl,sephora.pl##.newsletter-banner
 domisad.pl###wrap-newsletter
 domix-agro.pl,maleomi.pl,manufakturastylu.pl,omasz.pl,zygzaksnow.pl###blocknewsletter
 domjozefa.tv##.widget_wysija.footer-widget.widget.col-sm-3.col-md-3
@@ -544,7 +535,6 @@ espritshop.pl###newsletter-registration-form
 esprit.com.pl##.newsletter-gora
 essilor.pl##.Footer-col--contact.Footer-col > .Footer-title--head.Footer-title
 estella-shop.eu##.pxl-footer-container .pxl-newsletter > div > div:nth-of-type(1) > *
-estimet.pl,unileverfoodsolutions.pl##.newsletter-signup
 estradaistudio.pl###subscribe-newsletter
 etam.pl##.footer_nsw
 etsy.com##.not-signed-in.subscribe-form
@@ -608,7 +598,6 @@ flies-stepbystep.com###widget-7
 florexpol.eu##.section--newsletter
 floribunda.pl###footer div.item:nth-of-type(4)
 flovery.pl###footgroup-newsletter
-flowday.pl,knf.gov.pl,longterm.pl##.newsletter-bar
 focus.pl#?#.content-content.col-lg-9.col-md-8.col-sm-12 > div > div:-abp-has( > a[href*="newsletter"])
 fokusfashion.com##form > input:nth-of-type(2), #menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 foodex24.pl##.layout__footer form[id*="subscribe-form"][action*="foodex24.pl/subscribe/send"]
@@ -748,7 +737,6 @@ iautomatyka.pl##div.pfwidgetinner:nth-of-type(6), div.h2_belka:nth-of-type(5), #
 iautomatyka.pl#?#.h2_belka:-abp-contains(Newsletter)
 ibrpolska.pl##.panel.widget-first.widget-1
 ichi.pro##a[href*="eepurl.com/"]
-ideau.pl##.section__newsletter, .newsletter-widget
 igimag.pl###freshMailPopUp__background
 imperiumromanum.edu.pl##div.wpb_raw_html.wpb_content_element.wpb_raw_code:nth-of-type(2)
 indigo-nails.com,korbo.eu,krasnik.eu##.newsletter-section
@@ -866,6 +854,7 @@ ks.pl###nwsltr.extnewsletter
 kuchnialidla.pl##.home_newsletter_col1
 kulig.pl###newsletter-pasek-in > .row > div:first-child
 kulinarne.info##.div.p-3.col-md-4:nth-of-type(1) > .text-center.mb-4
+kulinarne.info##.form-newsletter
 kulturalnysklep.pl##.b-banner-newsletter
 kulturawplot.pl#?##commentform > .wysija-after-comment > label:-abp-has(#wysija-box-after-comment:not(:checked))
 kupbilecik.pl##.blinkGray.boxTopInfo
@@ -934,7 +923,7 @@ luxmed-diagnostyka.pl##.newesletter-box
 lycamobile.pl##.lm-footer-container > div > .lm-footer__body > .row > div:first-child > *:not(:last-child)
 maciej.je##p:nth-of-type(47)
 magazif.com,mamkomputer.info,mirat.eu,stoicway.net,tlp.is##.newsletter-form
-magnapolonia.org,ostatniatawerna.pl##.tnp-subscription
+magnapolonia.org##.tnp-subscription
 magnatfarby.pl##.newsletter-sign-in-btn
 magnatfarby.pl##.sn-newsletter--homepage.sn-newsletter
 majsterkowo.pl,moj-kawalek-podlogi.pl,spirulina.pl,tato.net,techformator.pl,zatorland.pl###text-9
@@ -1057,6 +1046,7 @@ muzykotekaszkolna.pl##.nl-subscribe
 mw.org.pl###wpsb
 mydetoxtea.pl###\31 -10
 mydevil.net##body > .white-bg
+myjki.com###newsletter_block
 myloview.pl###submitMe
 mymeest.pl###newsletterSection
 myphone.pl##div.stayInContact__item:nth-of-type(3)
@@ -1179,6 +1169,7 @@ orlenoil.pl###WebPartWPQ3
 orlen.pl##div[id$="pnlNewsletter"]
 orsay.com##.newsletter-subscription-section
 orsay.com##.orsay-newsletter
+osheeshop.eu,zlotarybka24.com###subReqForm
 ostatniatawerna.pl###footer-section-bottom > .row > div[class]:nth-of-type(1)
 ostrowiecnr1.pl###formMailingDalej
 otop.org.pl##div.mcb-section.section:nth-of-type(9)
@@ -1334,6 +1325,7 @@ prostyzysk.pl##.entry-content > iframe[id^="fm-"].lazyloaded
 proto.pl###block-entityform-block-newsletter
 pruszkow.pl###custom_html-7
 pryskaj.pl##.fx-newsletter
+przepisnazdrowie.eu##.newsletter-mod
 przepisy.pl##.newsletter-wrapper-inner
 przepis-na-lo.pl###sidebar > div.widget:nth-of-type(3)
 przewodnik-katolicki.pl##.news-stopka, .newsletter-belka
@@ -1936,6 +1928,7 @@ zyciepabianic.pl###widget-newsletter
 ~pl###newsletter:not(.modal):lang(pl)
 ~pl,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input):lang(pl)
 pl##.ModulNewsletter
+pl##.boxNewsletter
 pl##.fnls
 pl##.newsFooter
 pl##.newsletterCont
@@ -1944,6 +1937,7 @@ pl##.newsletterForm
 pl##.newsletterWidget
 pl##.newsletterbox
 pl##.subscribe
+pl###block-newsletter
 pl###box-newsletter
 pl###box_newsletter
 pl###email-subscribers-2
@@ -1952,6 +1946,7 @@ pl###footer-newsletter
 pl###footer-newsletter-subscribe
 pl###footer_newsletter
 pl###footer_newsletters
+pl###home_newsletter
 pl###mailchimp-top-bar
 pl###mc_embed_signup_scroll
 pl###newsletterBox
@@ -1963,6 +1958,7 @@ pl###newsletter-container
 pl###newsletter-footer
 pl###newsletter-promo
 pl###newsletter_bar
+pl###newsletter_block
 pl###newsletter_block_footer
 pl###newsletter_box
 pl###newsletter_footer
@@ -1972,6 +1968,7 @@ pl###post-newsletter
 pl###side_widget_newsletter
 pl###site-scroll-top
 pl###st_news_letter_1
+pl###subReqForm
 pl###wp-subscribe
 pl##.acymailing_module
 pl##.banner-newsletter
@@ -1991,6 +1988,7 @@ pl##.footer-newsletter-form
 pl##.footer-subscribe
 pl##.footer_newsletter
 pl##.footer__newsletter
+pl##.form-newsletter
 pl##.ft_newsletter
 pl##.f-newsletter
 pl##.g1-newsletter
@@ -2003,6 +2001,8 @@ pl##.link-newsletter
 pl##.module-newsletter
 pl##.m-newsletter
 pl##.newsletter-area
+pl##.newsletter-banner
+pl##.newsletter-bar
 pl##.newsletter-block
 pl##.newsletter-bottom
 pl##.newsletter-btn
@@ -2014,10 +2014,12 @@ pl##.newsletter-footer
 pl##.newsletter-form
 pl##.newsletter-inner
 pl##.newsletter-link
+pl##.newsletter-mod
 pl##.newsletter-module
 pl##.newsletter-rejestracja
 pl##.newsletter-section
 pl##.newsletter-sidebar
+pl##.newsletter-signup
 pl##.newsletter-subscribe
 pl##.newsletter-widget
 pl##.newsletter-wrap
@@ -2032,10 +2034,13 @@ pl##.newsletter__wrapper
 pl##.optin-monster-api
 pl##.section-newsletter
 pl##.section--newsletter
+pl##.section__newsletter
 pl##.sidebar__newsletter
 pl##.single-post-newsletter
 pl##.site-footer__newsletter
+pl##.subscribe-newsletter
 pl##.tds-newsletter
+pl##.tnp-subscription
 pl##.wce_newsletter-form
 pl##.widget-newsletter
 pl##.widget_bs-newsletter-mailchimp
