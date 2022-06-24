@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 1mDC0A2x0YZJ7SBxGDXg0g
+! Checksum: /aen4zkmbITKyRpFD5N0Zg
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Thu, 23 Jun 2022, 17:30 UTC+02
-! Version: 2022.6.23.0
+! Last modified: Sat, 25 Jun 2022, 01:35 UTC+02
+! Version: 2022.6.25.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 23 cze 2022, 17:30 UTC+02
+! Aktualizacja: sob, 25 cze 2022, 01:35 UTC+02
 !
 !
 !
@@ -1921,11 +1921,11 @@ zyciepabianic.pl###widget-newsletter
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
 ~dron.pl,pl##.widget_wysija
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
+~lp.morele.net,~pl,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input):lang(pl)
 ~pap.pl,pl###newsletter-form
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal):lang(pl)
-~pl,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(input):lang(pl)
 pl##.ModulNewsletter
 pl##.boxNewsletter
 pl##.fnls
@@ -1936,7 +1936,6 @@ pl##.newsletterForm
 pl##.newsletterWidget
 pl##.newsletterbox
 pl##.subscribe
-pl###block-newsletter
 pl###box-newsletter
 pl###box_newsletter
 pl###email-subscribers-2
@@ -1971,7 +1970,6 @@ pl###subReqForm
 pl###wp-subscribe
 pl##.acymailing_module
 pl##.banner-newsletter
-pl##.block-newsletter
 pl##.block-simplenews
 pl##.block-subscribe
 pl##.block_newsletter
