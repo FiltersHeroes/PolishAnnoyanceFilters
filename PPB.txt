@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: cgtprqpE9BQbx1MiX4xEvA
+! Checksum: mWUlRRfnFJFAfWz5iClNoQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 02 Jul 2022, 01:35 UTC+02
-! Version: 2022.7.2.0
+! Last modified: Mon, 04 Jul 2022, 17:30 UTC+02
+! Version: 2022.7.4.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 02 lip 2022, 01:35 UTC+02
+! Aktualizacja: pon, 04 lip 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1663,6 +1663,7 @@ unileverfoodsolutions.pl#?#.section.hero > .js-hero-component:-abp-has(a[href="/
 union-investment.pl##.bottom-left.col-xs-12.col-sm-6.col-md-5
 uniwexaudio.pl##.container-fluid .pull-right.col-xs-12.col-sm-3
 up8.com##.b-footer_nsltr, .b-infoBox_newsletterInner
+upacjenta.pl##.newsletter-wp
 upominki24.pl##.footer-container > div > .row > div[class]:nth-of-type(4)
 upsell.pl#?#article.post > .entry-content > .elementor:-abp-contains(newslettera)
 urbancity.pl##.box2
@@ -2240,6 +2241,7 @@ chemiabudowlana.info,mylomza.pl###fadeinbox
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
 chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
+chopin.polskieradio.pl##.PopUpMainPage_popUp__CDr0M
 chronpesel.pl##.wh-popUp-overlay
 chrzypsko.pl,metaltech.com.pl,vas.com.pl###dhtml_popup
 ciechocinek.biz,drawskopomorskie.com,gniewkowo.eu,ki24.info,kolniak24.eu,lowiczanin.info,nizanskie.info,roztocze.net##.hejhej.hey-outer
@@ -2935,6 +2937,8 @@ tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
 ukrainoczka.pl##.lepopup-popup-container, .lepopup-popup-overlay
 unia.pl##.banerjpg
 unileverfoodsolutions.pl##.newsletter-dialog
+upacjenta.pl##.active.newsletter-modal-bar.with-mobile-photo.modal-banner
+upacjenta.pl##.active.newsletter-modal-bar.with-mobile-photo.modal-bannerr,body:style(overflow: auto!important;)
 userstyles.org##.overlay_background
 ustyle.pl###message-purchased
 uwodzenie.org###szabelski_startowa
@@ -5632,6 +5636,7 @@ grupa.unimet.pl###ht-preloader-wrap
 gtasite.net,ppe.pl##.nextbox
 gwiazdybasketu.pl##.recommend-box-on.recommend-box.widget
 hbo.pl##.ribbon
+hebe.pl##.js-everyday-promo-place
 hefra.pl###social-widget-main
 helloangielski.pl,kariera.goldenline.pl###icegram_messages_container
 histmag.org##div[evergreen-portal-container] > div > div[role="dialog"]
@@ -6050,6 +6055,7 @@ sklep-wedkarski.info###ClPanelImg
 sklep.aladyn.pl###trzecia
 sklep.farmona.pl##.tabs > section.product_link_nav
 sklep.pakrol.pl##.suggest-slider
+sklep.polskieradio.pl###tm-widget-lemur
 sklep.vivamix.pl##.main-question-form
 skokinarciarskie.pl##.pbox_sonda
 sky-shop.pl##.numberOfShopsCreatedToday
