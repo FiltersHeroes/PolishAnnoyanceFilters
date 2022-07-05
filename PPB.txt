@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: mWUlRRfnFJFAfWz5iClNoQ
+! Checksum: tBx98jrKRdDa5ph4RX4WBg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 04 Jul 2022, 17:30 UTC+02
-! Version: 2022.7.4.0
+! Last modified: Tue, 05 Jul 2022, 17:30 UTC+02
+! Version: 2022.7.5.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 04 lip 2022, 17:30 UTC+02
+! Aktualizacja: wto, 05 lip 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1382,6 +1382,7 @@ rossmann.pl##.join-nsl
 rovus.pl##.footer-lower div.links:nth-of-type(4)
 royal-dental.pl##.s__newsletter
 rozterkistartuperki.pl##.mab-pad
+rudeiczarne.pl##.widget_mc4wp_form_widget
 runeat.pl###subscribe-blog-blog_subscription-2
 runeat.pl##.line:nth-of-type(2) > span
 runeat.pl##.widget:nth-of-type(2)
@@ -1801,6 +1802,7 @@ wybierzteraz.pl##.c-footer > .o-wrapper > .o-flex--grids.o-flex > .o-flex__item:
 wyborcza.biz,wyborcza.pl##.foot-summary-buttons-share-newsletter
 wyborcza.pl###newsletterDM
 wyborcza.pl#?#.art_paragraph:-abp-has( > a[href*="/newsletter"])
+wyborkierowcow.pl##.td_block_template_8.tagdiv-type.tdi_3
 wybrzeze24.pl##.fr.col-3.col
 wydajnykomputer.pl##.entry > form > p:nth-child(-n+2)
 wydarzysie.pl###footer > .container > .tparent > div.tcell:nth-of-type(3)
@@ -2591,6 +2593,7 @@ medonet.pl##.medonet_healthtestpopup_opened
 medonet.pl##.withHPU:before, .withPNP:before
 med-store.pl###okno_wyjscie.okno_wyjscie
 mencare.pl###fx-popup
+merwinski.pl##.ppsPopupListsShell, #ppsPopupBgOverlay
 metal-bud.eu##.banner-b2b
 metin2list.pl###news_popup
 mgprojekt.com.pl##.orlando-whiteboard.orlando-background, .jupiter-entrance.jupiter-background.optin-monster-saas-overlay
@@ -2990,6 +2993,7 @@ www.mbank.pl#?#.snrs-modal-wrapper:-abp-has(div[class*="exit-popup-campaign"])
 www.motorola.com##.ReactModalPortal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
 wyborcza.pl##.mod_ddbox
+wyborkierowcow.pl##div.grwf2_backdrop.wf2-bg-dark:nth-child(17)
 wyciskarki.pl###nps-popup
 wydawnictwoliteratura.pl##.modal-hot-info.modal, .modal-backdrop
 wykop.pl##.closableContainerpopup_register
@@ -6020,6 +6024,7 @@ rosebelle.pl##.page-loader
 rossmann.pl##section[class*="layout-anim_"]
 rowery-elektryczne.pl###b2b-link, #download-catalogue
 roztocze.net###guzik_edukacja2
+rudeiczarne.pl##.rltpopup-show-up
 rum-lux.pl##[src="images/_wspolne_/i.png"]
 rynekpierwotny.pl#?#.profile-tooltip:-abp-contains(ulubionych ofert)
 rynek-rolny.pl###nextpagezaj, a > #marketBanner
