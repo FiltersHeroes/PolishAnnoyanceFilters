@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: l7MaPzuIydttNTGWGk9qzA
+! Checksum: SYKCebRrjzrWNTUpMXiAxw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sat, 09 Jul 2022, 20:23 UTC+02
-! Version: 2022.7.9.0
+! Last modified: Sat, 09 Jul 2022, 20:29 UTC+02
+! Version: 2022.7.9.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 09 lip 2022, 20:23 UTC+02
+! Aktualizacja: sob, 09 lip 2022, 20:29 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2287,7 +2287,7 @@ deepl.com###dl_app_banner_popup
 dekoria.pl,lee.pl,patiimaks.pl,puchary-sklep.pl##.newsletter_popup
 demagog.org.pl##.popup-delay.main-pop-up.info-hide
 develey.pl###pum-201993
-device.pl,it-develop.pl,jagiellonski.pl,luqam.com,luxmedlublin.pl,mensis.pl,nanowosmieci.pl,ombre.pl,salonydenon.pl,sklep.apet.pl,tvokazje.pl,winotoskanii.pl,zbigniewsyc.pl##.wf2-popover.grwf2-wrapper, .grwf2_backdrop
+device.pl,it-develop.pl,jagiellonski.pl,luqam.com,luxmedlublin.pl,mensis.pl,nanowosmieci.pl,ombre.pl,salonydenon.pl,sklep.apet.pl,tvokazje.pl,winotoskanii.pl,wyborkierowcow.pl,zbigniewsyc.pl##.wf2-popover.grwf2-wrapper, .grwf2_backdrop
 devoxx.pl##.subscribers-modal-container
 diag.pl##.js-lazy-image
 diag.pl,sare.pl###popup, .modal-backdrop
@@ -2940,8 +2940,6 @@ tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
 ukrainoczka.pl##.lepopup-popup-container, .lepopup-popup-overlay
 unia.pl##.banerjpg
 unileverfoodsolutions.pl##.newsletter-dialog
-upacjenta.pl##.active.newsletter-modal-bar.with-mobile-photo.modal-banner
-upacjenta.pl##.active.newsletter-modal-bar.with-mobile-photo.modal-bannerr,body:style(overflow: auto!important;)
 userstyles.org##.overlay_background
 ustyle.pl###message-purchased
 uwodzenie.org###szabelski_startowa
@@ -2993,7 +2991,6 @@ www.mbank.pl#?#.snrs-modal-wrapper:-abp-has(div[class*="exit-popup-campaign"])
 www.motorola.com##.ReactModalPortal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
 wyborcza.pl##.mod_ddbox
-wyborkierowcow.pl##div.grwf2_backdrop.wf2-bg-dark:nth-child(17)
 wyciskarki.pl###nps-popup
 wydawnictwoliteratura.pl##.modal-hot-info.modal, .modal-backdrop
 wykop.pl##.closableContainerpopup_register
