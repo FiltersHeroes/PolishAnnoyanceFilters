@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: crlhHY0mnUGuCsEgXWRGeQ
+! Checksum: 1ThnInoQSfhjkCiTQfm1OQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 12 Jul 2022, 21:30 UTC+02
-! Version: 2022.7.12.0
+! Last modified: Wed, 13 Jul 2022, 00:26 UTC+02
+! Version: 2022.7.13.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 12 lip 2022, 21:30 UTC+02
+! Aktualizacja: śro, 13 lip 2022, 00:26 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -399,7 +399,6 @@ devstyle.pl###post-2135 > .ck_inline.ck_form_container
 deweloper-interes.pl,niebieskimigdal.pl,paweltkaczyk.com,piroart.eu,selectivv.com###text-2
 dewocjonalia-niedziela.pl###footer_boxs > li:nth-of-type(4)
 dexpol.com##.stopka2_center > div.box_info:nth-of-type(1)
-diag.pl##.diag-newsletter
 diag.pl##.last > form, .last.col-md-3 > h3
 dialog.mazovia.pl,galeriabronowice.pl##.news
 diamante-wear.com##.footer__blocks__item--newsletter
@@ -2153,7 +2152,7 @@ audiomed.com.pl###popuphere
 audio.com.pl##.big-newsletter
 audio.com.pl,czasnawnetrze.pl##.waitbox
 audycje.tokfm.pl###gp--popup
-autokult.pl,fitness.wp.pl,fotoblogia.pl,komorkomania.pl,medycyna24.pl###exit-intent-modal
+autokult.pl,fitness.wp.pl,fotoblogia.pl,medycyna24.pl,smaczneblogi.pl###exit-intent-modal
 automotiveceeday.eu,pracodawcagodnyzaufania.pl###rstbox_3
 auto-swiat.pl##.natPopup
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.exitBox
@@ -5276,11 +5275,11 @@ pl##.quickcontact-box
 123budujemy.pl,francuskie.pl,mediarun.com,petronews.pl,skandynawiainfo.pl,slaskczyta.pl##.jeg_popup_post
 51015kids.eu##.sp-custom-19-1.insBlueWidget
 aaaauto.pl##.noprint.careerLink
-abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##a[data-st-area*="backTo" i], a[data-st-area*="goToSG" i]
-abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"]
-abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##div[data-st-area="st-header-darkmode"]
-abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##.backToWp, .btn__back-to-wp, .footer-back-link, .wp-pl-redirect
-abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,wp.pl##.back_bar
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,smaczneblogi.pl,wp.pl##a[data-st-area*="backTo" i], a[data-st-area*="goToSG" i]
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,smaczneblogi.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"]
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,smaczneblogi.pl,wp.pl##div[data-st-area="st-header-darkmode"]
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,smaczneblogi.pl,wp.pl##.backToWp, .btn__back-to-wp, .footer-back-link, .wp-pl-redirect
+abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,smaczneblogi.pl,wp.pl##.back_bar
 afgcomputers.pl###menu3bar
 aftermarket.pl###scroll-left
 agdlab.pl,ekstraklasa.tv,esportmania.pl,forbes.pl,ofeminin.pl,softonet.pl,verdykt.pl###nitro-block
@@ -5344,7 +5343,7 @@ audio.com.pl##.float-content, .mod_avt_fixed_bar
 audio.com.pl##.rightbox__wrapper > .rightbox
 audycje.tokfm.pl##.app-top-popup
 augustow24.pl##.menu_oglo, .sonda
-autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl##.btn-comments
+autokult.pl,fotoblogia.pl##.btn-comments
 auto-mobil.pl###metka-promocje
 auto-motor-i-sport.pl##.genewa-roll
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl###pdr
