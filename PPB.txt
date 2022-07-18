@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: RUnuplIv/J83xHE1+KxMOA
+! Checksum: /vmVKK5Oi4xrjhZDCLfcKQ
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 17 Jul 2022, 23:31 UTC+02
-! Version: 2022.7.17.1
+! Last modified: Mon, 18 Jul 2022, 23:47 UTC+02
+! Version: 2022.7.18.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,11 +15,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 17 lip 2022, 23:31 UTC+02
+! Aktualizacja: pon, 18 lip 2022, 23:47 UTC+02
 !
 !
 ! Newslettery (nie popupy)
-3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
+3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
 4adstudio.pl#?#.footer-widget-area .widget:-abp-has(.newsletter-widget)
@@ -515,7 +515,7 @@ equishop.com###newsletter_block_footer > div.content:nth-of-type(2) > h3, #newsl
 erp-view.pl###top-mod
 esaliens.pl##.news-btn.aside-btn
 escoli.pl##.no-left-padding.col-sm-6 > .footer-block-title, [id^="newsletter-validate-detail"]
-esdorado.com,florexpol.eu,import-maszyn.eu,ksiegarniainternetowa.co.uk,lukato.eu,thecamels.org##.block-newsletter
+esdorado.com,florexpol.eu,import-maszyn.eu,ksiegarniainternetowa.co.uk,lukato.eu,thecamels.org,wesoil.pl##.block-newsletter
 eskk.pl###footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > h4
 eskk.pl###main-container-newsletter
 esklep.niewiescin.pl##footer > #widgets > .container > div.widget:last-child
@@ -1017,6 +1017,7 @@ motocombo.pl##.footer-conteiner > ul:nth-of-type(4) > h3, .footer-conteiner > ul
 motocykle-krakow.pl###CustomLayoutWidget_6, .tpl-custom-newsletter-form-widget
 motocyklowysklep24.pl##.NewsletterStrona
 motogen.pl##.region-7 > .blok-jasny:nth-of-type(3)
+moyamatcha.com###custom_html-6
 mozilla.org##.mzp-c-newsletter
 mpk.poznan.pl##.rnd.module:nth-of-type(4)
 mp-office.eu###cta-newsletter
@@ -1204,6 +1205,7 @@ perfekcyjnawdomu.pl##.footer > .container > .row > div.col-md-4:nth-of-type(2)
 perspektywy.pl##.col-md-4 > aside > div.moduletable:nth-of-type(1) > a[href*="/banner/1t6qegj5jb/click"]
 petner.com.pl###footer-container > div > section > div > div > div > div > div:nth-of-type(4)
 petportal.pl#?#.code-block:-abp-has( > .tnp-subscription)
+pewex.pl###emailsubscription.footer_newsl.js-emailsubscription.block-newsletter
 pewex.pl##.footerBanner:nth-of-type(1)
 pe.szczecin.pl##.py-5.section_7
 photonrobot.com##.qodef-contact-form-7-widget
@@ -1490,6 +1492,7 @@ sonos.com##.newsletter.columns.medium-6
 sopot.naszemiasto.pl###dodaj-newsletter
 soselectronic.pl##.col-footer-newsletter.col
 speak-up.pl##.plywajacy-formularz-container
+speckable.pl##.ins-v-newsletter-signup-form
 spedycje.pl##[href*="newsletter_dodaj/"]
 spidersonline.pl##.st_news_letter_container
 spirulina.pl#?#.template-page:-abp-has(.av-special-heading-tag:-abp-contains(/^Newsletter Spirulina$/))
@@ -1514,6 +1517,7 @@ staleo.pl##.m-100.s-100.col-9 > .cols-12 > .s-hide.m-hide.col-3 > section:nth-of
 starkl.pl##li:nth-of-type(3) > h2:nth-of-type(2)
 stary.sacz.pl##.f_in2_nletter
 stawiszynski.org##header ~ div.jupiterx-post-body section:-abp-has(.elementor-column .elementor-widget-wrap [data-widget_type*="raven-heading"] h2 > span:-abp-contains(/^Newsletter$/))
+stekro.pl##.stopka1
 stokrotka.pl##.swap.wdwl--banner-wrapper
 stolicawolnosci.pl##.foot-beam-full-color
 stopnop.com.pl##div.col:nth-of-type(1) > .footer-widget
@@ -2229,7 +2233,7 @@ chabin.pl###newsletterTerms, .modal-backdrop
 change.shop.pl###popup-flex
 chemiabudowlana.info,mylomza.pl###fadeinbox
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
-chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
+chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chopin.polskieradio.pl##.PopUpMainPage_popUp__CDr0M
 chronpesel.pl##.wh-popUp-overlay
@@ -2728,6 +2732,7 @@ podworko.nivea.pl###pobierz-apke-popup
 policja.gov.pl###blisko, .modal-backdrop
 policja.gov.pl,policja.pl##[id^="popup-"], #krajowa_mapa_zagrozen
 policja.orsip.pl##.jimu-widget.jimu-widget-splash
+polish.wifilterouter.com##.leave-message-dialog
 politykazdrowotna.com##.modal-footer
 polityka.pl##div[class^="cg_promo"][class$="_popup"]
 polomarket.pl###layer_box
@@ -3204,7 +3209,7 @@ mediarun.com##.jeg_push_notification
 miastonowydwor.pl##.webpushBell
 minecraft.org.pl##[aria-label="Powiadomienia"]
 moneygrabbing.co.uk###foxpush_native_html
-morizon.pl###ue_popups
+morizon.pl,wsb.edu.pl###ue_popups
 mtech.pl##.alertContainer
 mvno-gsm.pl###webpushr-prompt-wrapper
 m.zapytaj.onet.pl,zapytaj.onet.pl##.notification-widget
@@ -3417,7 +3422,7 @@ agripel.pl,felixcom.net,lulek.tv,naszekluski.pl,wszystkookotach.pl###scrollup
 agroas.pl##.to-the-top-link
 agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,clea.pl,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,sparta.com.pl,zaufanekliniki.pl###top-link
 agrofakt.pl##.go-down
-agrofakt.pl,badaniaprenatalne.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
+agrofakt.pl,badaniaprenatalne.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,robimytv.pl,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
 agrohandel.com.pl,dietlux.pl,eljacht.pl,opgj.pl,pruszczgdanski.pl,resztamamy.pl,shindaiwa.pl,smart-power.pl##.tm-totop-scroller
 agrohandler.pl,betterland.pl,porcja.eu,swiece-zaplonowe.pl###to_top_wrap
@@ -3528,6 +3533,7 @@ biblioteka-jablonna.eu,e-sano.pl,eurofirany.com.pl,retrolab.pl,sklep.stokrotka.p
 biegpogorze.pl,bodzio.pl,wswiat.pl##.top-scroll
 bikesalon.pl,snowshop.pl,surfshop.pl##.js-go-up
 bilety.termymaltanskie.com.pl##._show.scroll-top-button
+bioeco.pl,dekolo.pl,dolasu.pl,szachownica.com.pl,witek.pl##.to_top_btn
 bip.powiat.poznan.pl,e-marcom.pl,fotoprint.pl,kwestiasmaku.com,zloty-pociag.com##.do_gory
 bip.slaskie.pl,mazovia.pl###totopicon
 bisko.pl,cng.auto.pl,iwetto.com,olbud.com.pl,penguinbm.com,pl.vpnmentor.com,retromedia.pl###scroll
@@ -3577,7 +3583,7 @@ centrumxp.pl##.OnTop
 centrum-marino.com,ubraniadooddania.pl###scroll-up-button
 cepik.gov.pl##.btn__scroll-top
 cewe.pl##cwc-to-top-button
-chemiawp.pl,dental.pl,epoqum.io,invette.pl,lovesimple.pl,mettosport.eu,obcyjezykpolski.pl,onenet.com.pl,onetech.pl,retailnet.pl,simplyyourself.online,simplyyourself.pl,uschabinskiej.pl,wwwlosy.pl###ast-scroll-top
+chemiawp.pl,dental.pl,epoqum.io,invette.pl,lovesimple.pl,mettosport.eu,obcyjezykpolski.pl,onenet.com.pl,onetech.pl,retailnet.pl,simplyyourself.online,simplyyourself.pl,szaron.pl,uschabinskiej.pl,wwwlosy.pl###ast-scroll-top
 chimmo.pl###arrow-up
 chmielnik.com###na_gore
 choinka-sztuczna.pl###ico_up
@@ -3623,7 +3629,6 @@ deccoria.pl##.dc-action-scroll-page
 decobazaar.com,lema15.pl##.goTop
 decoliving.pl,intymna.pl,ohso.pl##.ftop1
 deezee.pl##.is-scrollToTopContainer
-dekolo.pl,witek.pl##.to_top_btn
 dekoracjascian.com,lightinthebox.com,opensolution.org###backToTop
 denso.com##.Pagetop
 dentalmedicenter.pl,jackvision.pl,mapsolutions.pl###to_the_top
@@ -3955,6 +3960,7 @@ motogen.pl###gora-przycisk-fixed
 motorola.com##div[class*="backToTopButtonContainer"]
 motorola.com###arrowUp
 moveria.pl,perfumehub.pl###scroll-top-button
+moyamatcha.com##et_pb_scroll_top
 murapol.pl##.arrow-navigator
 musicexpert.pl###sp-totop
 mustache.pl,www.mila.pl##.scroll-arrow
@@ -4001,7 +4007,7 @@ organichouse.eu,podrogach.pl###ssttbutton
 osram.pl,pum.edu.pl##.jump-to-top
 ostredyzury.pl,zus.info.pl##.sm-up-container
 otoagent.pl##button[aria-label="scroll back to top"]
-otoz.pl##.goup
+otoz.pl,tpnmm.pl##.goup
 ox.pl##.navIcons__scroll
 p2mforum.info###uix_jumpToFixed
 pacific.org###returnButton
@@ -4165,6 +4171,7 @@ takeda.com##.totop__wrapper
 tally-weijl.com##footer > button[class][style]
 tanikomputer.eu###rr_side_widget
 tanio.co,vangraaf.com##.scroll-up-button
+tasmuj.pl##.sm-goTop
 tatuum.com##a.third-tkd-btn[href*="#"]
 tchibo.pl##.js-tp-backtotop
 teamviewer.com###back_to_top_button
@@ -4868,6 +4875,7 @@ muzykanawesela.pl###sugeester
 mwmskansen.pl,routery.pl##.chaty-widget
 myjki.com###zamow-rozmowe-btn, #lhc_status_container
 myownconference.pl##.fzom
+mytrendyphone.pl###custom_fc_button
 nafciarze.info###suggest-news
 nagaba.pl##.ocenyLeft
 narzedzia.pl###chatToggle
@@ -4930,8 +4938,10 @@ pneumat.com.pl###sideContact-button
 pokato.pl##.zoho-help-btn
 polanki.pl##.PamphletWidget
 polisaplus.pl##.teltoggle.telbutton
+polish.wifilterouter.com##.chat-button-content
 polnord.pl###contactForm
 poloniawroclaw.pl##body > iframe:nth-of-type(1)
+polskiled.com.pl##.joinus > [href*="://wa.me"]
 pomagamy-wszyscy.pl,um-swiecie.pl###formPopupHandler
 poradnikprzedsiebiorcy.pl##.visible.text-right.widget-guide-online
 porowneo.pl##.agent-avaiable
@@ -5012,6 +5022,7 @@ sklep-agrohandel.pl##.contact_email
 sklep-muzyczny.com.pl###widget_shop9
 sklep-tvsat.com##.emi-contact-box
 sklep.acana.com.pl,szpot.pl##call-us
+sklep.polsatbox.pl###__layout .hydrated
 sklep.siapre.pl###btn_telefon
 sklep.uchowanca.pl###tm-widget-lemur
 sklep.zielonyogrodek.pl##.contact-sidebar__btn
