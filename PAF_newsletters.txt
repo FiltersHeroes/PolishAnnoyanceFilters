@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 8ny4l9q49PuQBh/e5ntSYg
+! Checksum: e1nPlpweVVa5clX/k9roCw
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 18 Jul 2022, 23:47 UTC+02
-! Version: 2022.7.18.0
+! Last modified: Wed, 20 Jul 2022, 17:30 UTC+02
+! Version: 2022.7.20.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 18 lip 2022, 23:47 UTC+02
+! Aktualizacja: śro, 20 lip 2022, 17:30 UTC+02
 !
 !
 !
@@ -21,9 +21,8 @@
 3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
-4adstudio.pl#?#.footer-widget-area .widget:-abp-has(.newsletter-widget)
+4adstudio.pl,rudeiczarne.pl##.widget_mc4wp_form_widget
 4kdownload.com##.footer__section > .footer__col--updates
-4kom.pl###tws_c_100001
 4kom.pl##.newsletter-custom
 4lapki.eu,annalovestravelspl.wordpress.com,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,podkop.com,pskrk.com,tabloidonline.blog,techno-senior.com,zabieganamama.com,zpamietnikabuntownika.wordpress.com##.jetpack_subscription_widget
 4trucks.pl##.sInfo > .m209.box
@@ -38,12 +37,11 @@
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
 abmax.eu,multimaszyny.eu,shopsisters.eu###newsletter_block_left
-accu-chek.pl#?#.bg-gradient-combo.awecontent-column.awe-col:-abp-has(.keep-in-touch)
 action.com##footer > section:first-child > div
 activejet.pl##.newsletterBanner
 active.fibrain.pl##.newsletterWithFacebook
 active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
-ac.com.pl#?#.footerBar:-abp-has(.form-horizontal > .form-group)
+ac.com.pl##.form-group
 adapter.pl##.main-top-wrapper > .container > h2
 addnature.pl,bikester.pl##.newsletterModule
 adequate.pl##.hidden-xs.col-sm-4.col-md-4.col-lg-4
@@ -77,7 +75,7 @@ aledobre.pl##.footerColumns > .row > div.col-sm-4.col-md-15:nth-of-type(6)
 aleleki.pl##.footer_section_2 > div > .row > div:nth-of-type(1)
 aleokulary.com###f_newsletters
 alerabat.com##.m-panel--newsletter
-alerabat.com##.widget--newsletter.widget
+alerabat.com##.m-panel--widget__newsletter
 alesoczewki.com##.newsletter_sec
 ale.pl###newsletter_block_top
 alfasan.pl###nws
@@ -170,7 +168,6 @@ bankmillennium.pl###buttonSelectorChat
 bankobranie.blogspot.com###topNewsletter
 baramundi.pl##.footer-content-1 > .inner
 barki-nicols.pl##.footer__navigation__newsletter-title, .footer__navigation__newsletter-text, .footer__navigation__newsletter-form
-barokko.pl,electro-outlet.pl###tws_i_1
 bartoszkrawczykdemczuk.pl###tve_editor
 basenymineralne.pl##.foo-box-mid
 baseuspolska.pl##.newsletter-home
@@ -532,7 +529,6 @@ euh-e.edu.pl###sp-bottom3
 eura7.com,pl.malwarebytes.com###newsletter-signup
 euractiv.pl##.row > pnespwidget
 eura-tech.eu##.foo-newsletter
-euromat.com.pl###tws_s_100000
 euroogrod.com.pl##.menu_newsletter_text
 europacentralna.eu,sare.pl##.nlblock
 euro.com.pl###promo-banner
@@ -586,7 +582,6 @@ florexpol.eu##.section--newsletter
 floribunda.pl###footer div.item:nth-of-type(4)
 flovery.pl###footgroup-newsletter
 focus.pl#?#.content-content.col-lg-9.col-md-8.col-sm-12 > div > div:-abp-has( > a[href*="newsletter"])
-fokusfashion.com##form > input:nth-of-type(2), #menu_newsletter > h2, .add_newsletter, .remove_newsletter, #tws_a_0
 foodex24.pl##.layout__footer form[id*="subscribe-form"][action*="foodex24.pl/subscribe/send"]
 foodsbrothers.pl##.type_instagram.footer__top > div > .container > .row > div:nth-child(4) > aside > div > :not(:last-child)
 foodsbrothers.pl##.type_instagram.footer__top > div > .container > .row > div:nth-child(4) > aside > h3
@@ -1164,7 +1159,6 @@ outdoorzy.pl###ft-newsletter
 outhorn.com##footer #subReqForm > div:not(#custom776), footer #subReqForm > h3
 outsourcingportal.eu##.newsletterbox
 oysho.com##.public-news-letter-form
-ozonee.pl###tws_i_3
 o-m.pl##.kafel-newsletter
 o.pl###email-bar, #nl-icon, #cs-newsletter
 paatal.pl###menu_newsletter_ft
@@ -1370,12 +1364,10 @@ rolnik.pl###block-bt
 rolserwis.pl###newslett
 romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
-rosarosie.iai-shop.com###tws_i_0.no_print.toplayerSpecialClass
 rossmann.pl##.join-nsl
 rovus.pl##.footer-lower div.links:nth-of-type(4)
 royal-dental.pl##.s__newsletter
 rozterkistartuperki.pl##.mab-pad
-rudeiczarne.pl##.widget_mc4wp_form_widget
 runeat.pl###subscribe-blog-blog_subscription-2
 runeat.pl##.line:nth-of-type(2) > span
 runeat.pl##.widget:nth-of-type(2)
@@ -1509,7 +1501,6 @@ sprawdzonakuchnia.pl##.essb-subscribe-form-inwidget
 spreadshirt.pl##.ft-newsletter
 spyshop.pl##.info > li.item:nth-of-type(2)
 srebrnystyl.pl##.footer-conteiner ul:nth-of-type(4)
-srnarzedzia.pl###tws_a_1
 stadionwroclaw.pl##.footer__newsletter-wrapper .footer__header
 staleo.pl##section:nth-of-type(2) > aside.widget-left
 staleo.pl##.m-100.s-100.col-9 > .cols-12 > .s-hide.m-hide.col-3 > section:nth-of-type(2) > .blue.section-title
@@ -1828,7 +1819,6 @@ zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 zakupy.auchan.pl##div[class][style*="newsLetterBlock"]
 zakupy.auchan.pl##._nl_wrapper
 zamek-krolewski.pl###footer_top
-zapachyswiata.eu###tws_a_0
 zapiskizeswiata.pl###mc_embed_signup > #mc-embedded-subscribe-form
 zaradnyfinansowo.pl##.widget_subscribe_sidebar_czyt.widget, .widget_subscribe.widget
 zara.com##.layout-footer-newsletter
