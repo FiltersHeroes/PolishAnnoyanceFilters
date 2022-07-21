@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: e1nPlpweVVa5clX/k9roCw
+! Checksum: 2ozwAj22QzwODb099w+uug
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 20 Jul 2022, 17:30 UTC+02
-! Version: 2022.7.20.0
+! Last modified: Thu, 21 Jul 2022, 17:30 UTC+02
+! Version: 2022.7.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 20 lip 2022, 17:30 UTC+02
+! Aktualizacja: czw, 21 lip 2022, 17:30 UTC+02
 !
 !
 !
@@ -707,6 +707,7 @@ hoyavision.com##.footer__subscribe
 humint.pl##.widget_custom_html.widget-footer.widget-default.widget.widget_text
 hurtowezakupy.com##.footer-container > div > .row > div:nth-of-type(4)
 hurtowniabartel.pl###dor_custom_newsletter_block
+hurtowniarolnicza.pl##.customWrap > span, .customWrap > form
 hurtowniasportowa.net##footer > .aboutUs > div > div > div > div > div:nth-of-type(1)
 hurtowniateleinformatyczna.pl##ul:nth-of-type(3), .rc-box-newsletter.box
 hurtownia-format.pl##.footer.row > .col-md-4
@@ -1446,6 +1447,7 @@ sklep.olekmotocykle.pl##.footer-col4 > h3.footer-colTitle:nth-of-type(1)
 sklep.polityka.pl###sidebar1 > div:nth-of-type(2)
 sklep.polska-zbrojna.pl##.newsletter-widget-4
 sklep.powermat.pl##div.foot-group:nth-of-type(4) > .list-group > h5 > a[href="#"]
+sklep.rai-bud.pl##div.CalyBox:nth-of-type(3)
 sklep.regalia.eu##footer > .row > .footer-block:only-child
 sklep.sizeer.com##.b-footer_newsletter
 sklep.skrypt.com.pl##.footer-conteiner > ul:nth-of-type(3)
