@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ufyqUF0rLGUr1A3jUsKIaw
+! Checksum: LCxrkSNICC852d6wH9VMnA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Fri, 22 Jul 2022, 17:30 UTC+02
-! Version: 2022.7.22.0
+! Last modified: Sun, 24 Jul 2022, 21:30 UTC+02
+! Version: 2022.7.24.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 22 lip 2022, 17:30 UTC+02
+! Aktualizacja: nie, 24 lip 2022, 21:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -1298,6 +1298,7 @@ prnews.pl##.newsletter-header, a[href*="/newsletter"]
 profeto.pl###part-newsletter > h2, #part-newsletter > form
 projektowanie-wnetrz-online.pl##.e-container.e-container--column.elementor-element-fe48947.elementor-element
 proline.pl#?#td:nth-of-type(2) > .cell-round-title:nth-of-type(2):-abp-contains(Newsletter)
+proline.pl#?##tabbody > tbody > tr > td > table > tbody > tr > td:nth-child(2) > div:nth-child(2):-abp-has(#newsletter)
 promapolska.pl###newsletter_footer_form_ajax
 promienieslonca.pl###footer-in > .row > .col-sm-12.col-md-4
 promocje.al.to,promocje.x-kom.pl#?##app > div:only-child > div:last-child > div:nth-of-type(3) > div:only-child > div:nth-of-type(1) > div:nth-of-type(2):-abp-has( > .newsletter)
@@ -2760,6 +2761,7 @@ profbud.info##.popupvr
 projektowanie-wnetrz-online.pl###elementor-popup-modal-8730
 projektwp.pl###ga-popup-id-2817
 proline.pl##div[style*="visibility: visible; display: block;"]
+proline.pl#?#div[id][style^="left:"][style*=" top:"][style*="visible"][style*="block"]:-abp-has(a[onclick*="layer_close"])
 protego.pl###newsletterInfo, body[data-news-modal="open"]:after
 pro-test.pl###abonament_top
 pruszynski.com.pl###p_layer
@@ -4952,6 +4954,7 @@ profinfo.pl##.right-fix-widget > a[href*="sugestie"]
 progrower.eu###chatbc
 projektgamma.pl###face-slider3
 projektowanie-wnetrz-online.pl#?#.dialog-message.dialog-lightbox-message:-abp-has(.elementor-location-popup p:-abp-contains(/^Napisz do nas:$/))
+proline.pl##div[id][style*="cursor"][title^="Przycisk "] > div[style*="fixed"]
 promopixel.pl###fitcher-container
 proshop.pl###dixa-widget-wrapper, #dixa-iframe-wrapper
 pro-mask.pl###telefon
