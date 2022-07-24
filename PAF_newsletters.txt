@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 2ozwAj22QzwODb099w+uug
+! Checksum: QECYIt6SiRvbc9K9rdVD4Q
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Thu, 21 Jul 2022, 17:30 UTC+02
-! Version: 2022.7.21.0
+! Last modified: Sun, 24 Jul 2022, 21:30 UTC+02
+! Version: 2022.7.24.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 21 lip 2022, 17:30 UTC+02
+! Aktualizacja: nie, 24 lip 2022, 21:30 UTC+02
 !
 !
 !
@@ -1297,6 +1297,7 @@ prnews.pl##.newsletter-header, a[href*="/newsletter"]
 profeto.pl###part-newsletter > h2, #part-newsletter > form
 projektowanie-wnetrz-online.pl##.e-container.e-container--column.elementor-element-fe48947.elementor-element
 proline.pl#?#td:nth-of-type(2) > .cell-round-title:nth-of-type(2):-abp-contains(Newsletter)
+proline.pl#?##tabbody > tbody > tr > td > table > tbody > tr > td:nth-child(2) > div:nth-child(2):-abp-has(#newsletter)
 promapolska.pl###newsletter_footer_form_ajax
 promienieslonca.pl###footer-in > .row > .col-sm-12.col-md-4
 promocje.al.to,promocje.x-kom.pl#?##app > div:only-child > div:last-child > div:nth-of-type(3) > div:only-child > div:nth-of-type(1) > div:nth-of-type(2):-abp-has( > .newsletter)
