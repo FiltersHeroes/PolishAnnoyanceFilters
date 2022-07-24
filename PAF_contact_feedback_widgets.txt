@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: P7fHsA/AF4Cd49Cz+PApVA
+! Checksum: 57XSeq+fskvVR2H+gqSkoQ
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 21 Jul 2022, 17:30 UTC+02
-! Version: 2022.7.21.0
+! Last modified: Sun, 24 Jul 2022, 21:30 UTC+02
+! Version: 2022.7.24.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 21 lip 2022, 17:30 UTC+02
+! Aktualizacja: nie, 24 lip 2022, 21:30 UTC+02
 !
 !
 !
@@ -523,6 +523,7 @@ profinfo.pl##.right-fix-widget > a[href*="sugestie"]
 progrower.eu###chatbc
 projektgamma.pl###face-slider3
 projektowanie-wnetrz-online.pl#?#.dialog-message.dialog-lightbox-message:-abp-has(.elementor-location-popup p:-abp-contains(/^Napisz do nas:$/))
+proline.pl##div[id][style*="cursor"][title^="Przycisk "] > div[style*="fixed"]
 promopixel.pl###fitcher-container
 proshop.pl###dixa-widget-wrapper, #dixa-iframe-wrapper
 pro-mask.pl###telefon
