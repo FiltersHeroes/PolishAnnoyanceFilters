@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Dit1bexUv2bUk9YL5Mg+fw
+! Checksum: IPP4moQlRL8uxp7HPKefcg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 31 Jul 2022, 00:43 UTC+02
-! Version: 2022.7.31.0
+! Last modified: Sun, 31 Jul 2022, 00:52 UTC+02
+! Version: 2022.7.31.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 31 lip 2022, 00:43 UTC+02
+! Aktualizacja: nie, 31 lip 2022, 00:52 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2071,8 +2071,6 @@ agroefekt.pl,apaczka.pl,blog.lh.pl,dekanex.pl,dobroplast.pl,dzisiajwgliwicach.pl
 agrofakt.pl##.seattle-simple.optin-monster-saas-overlay
 agrohandel.com.pl###jcemediabox-popup-page
 agrojumal.com.pl,akwarysta.eu,betamed.pl,dobiegania.pl,dobrewychowanie.pl,kisiel24.pl,lowicz24.eu,netlandcomputers.pl,opteam.pl,pinka.pl,pl.globalvoices.org,resulto.pl,tabal.pl,twojapogoda.pl###colorbox, #cboxOverlay
-agromer.pl,e-sas.pl,plantini.pl,tarti24.pl##.in.fade.modal-backdrop
-agromer.pl,tarti24.pl###popups
 agromix.agro.pl##.nivo-lightbox-overlay
 agropolska.pl,auto-gdansk.com.pl,blancz.pl,bookmaster.com.pl,chinskieprzepisy.pl,holiday.aquila.pl,honda.mojsiuk.pl,honda.torun.pl,hondabiela.pl,masa-honda.pl,ozptd.pl,promax.media.pl,strzalkowski.pl,www.hamol.pl,www.honda-kemag.pl,www.hondacichonski.com.pl,www.hondamalta.karlik.poznan.pl,www.hondaplaza.pl,zdobadzkobiete.pl###fancybox-wrap, #fancybox-overlay
 agrosiec.pl##.is-active.modal
@@ -2339,7 +2337,6 @@ e-konferencje.pl,ekliniki.pl,lumarte.eu,milenium.pl##.ui-widget.ui-dialog, .ui-w
 e-kwiaty.pl###exitpopup-newsletter
 e-podlogi24.pl##div[id$="czater"] > div[id][class$="CzaterSheet"]
 e-podlogidrzwi.pl###infoPage
-e-sas.pl##.in.fade.modal.newsletter-modal
 e-skladnica.pl###popup-sc1-exit
 e-spar.com.pl###modal-welcome
 e-spar.com.pl###modal-welcome[style] ~ .modal-backdrop
