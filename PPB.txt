@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: cCse7nrt8+5et6dyB8KFCQ
+! Checksum: XuNhJ5skPpVZxwEWuCOIoA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 15 Aug 2022, 21:30 UTC+02
-! Version: 2022.8.15.0
+! Last modified: Tue, 16 Aug 2022, 17:30 UTC+02
+! Version: 2022.8.16.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 15 sie 2022, 21:30 UTC+02
+! Aktualizacja: wto, 16 sie 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2205,7 +2205,7 @@ bssztum.pl###fireworks
 bs.skoczow.pl###window[ng-controller="myInfo"]
 btlstomatologia.pl###widget-19, .widget-dark-background2
 budujemydom.pl###byebye
-budujemydom.pl##.modal-wrapper
+budujemydom.pl,prenumerata.ruch.com.pl##.modal-wrapper
 butymarkowe.pl###pop_up_module
 bwfelix.pl###tp-popup
 byann.pl,domisad.pl,feriogaj.com,tpi.com.pl##.popup-overlay
@@ -2498,6 +2498,7 @@ kruger.pl###wmpci-popup-wrp
 ksiegarniarubikon.pl#?#.config-messages:-abp-contains(rabat)
 ktociewyleczy.pl##.box-wait.find-therapist
 ktociewyleczy.pl##.fb-popup
+kulinarne.info###holdon-overlay
 kulturaliberalna.pl##.newsletter-popup-bg, .newsletter-popup
 kulturaliberalna.pl##.popup-600nr, .popup-600nr-bg
 kupbilecik.pl###popup, #lean_overlay
@@ -2538,6 +2539,7 @@ madameedith.com,programistanaswoim.pl#?#.spu-bg:-abp-has( ~ .spu-box .fb-page)
 madameedith.com,programistanaswoim.pl#?#.spu-box:-abp-has(.fb-page)
 magicznabielizna.pl###dog-bg
 magnapolonia.org##.brave_popup__step__overlay, .has_overlay_close
+maldrew.com.pl##.modal-dialog
 malopolska.pl###newsletter-popover
 mamachemik.pl##.sfsi_outr_div
 mamalulu.pl,mojwzrok.pl,optes.pl,taniesoczewki.pl###ctk_np_popup, .reveal-modal-bg
@@ -2825,6 +2827,7 @@ sklep.phu-szczepan.pl###scLeaveAlert
 sklep.poshlady.pl###fx-welcome
 sklep.precio.pl,sklep5438865.homesklep.pl###onisoft-spu.modal, .mask
 sklep.psychologia.eu###skNewsletterPopupContainer
+sklep.swiatlnu.pl##.wce_popup-active
 sklep.zielonyogrodek.pl##.product-modal
 skorzany.com##.wceapp_popup
 sldc.eu###popup-over, #popup-overlay
