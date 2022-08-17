@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: XuNhJ5skPpVZxwEWuCOIoA
+! Checksum: hkiQcVXGzE7wqwuDeJfuwg
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Tue, 16 Aug 2022, 17:30 UTC+02
-! Version: 2022.8.16.0
+! Last modified: Wed, 17 Aug 2022, 17:30 UTC+02
+! Version: 2022.8.17.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 16 sie 2022, 17:30 UTC+02
+! Aktualizacja: śro, 17 sie 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -55,6 +55,7 @@ adwokat-gostkowski.pl###footer_news
 aeg-powertools.eu##.aeg-newsletter-subscribe
 aerowatch.pl,glycine.pl###bottom-newsletter-wrapper
 agagrzelak.pl##.ps-emailsubscription-block
+ageno.pl##.AgenoNewsletter
 agnieszkawielobob.pl##.et_bloom_below_post
 agrarsklep.pl,cyberdefence24.pl,defence24.pl,energetyka24.com,esdorado.com,florexpol.eu,import-maszyn.eu,infosecurity24.pl,ksiegarniainternetowa.co.uk,lukato.eu,space24.pl,thecamels.org,univexim.pl,wesoil.pl##.block-newsletter
 agriaffaires.pl###js-newsletterBlock
@@ -499,6 +500,7 @@ elnino-parfum.pl##.Subscribe > .Container
 eloblog.pl##a[href="https://eloblog.pl/newsletter/"]
 eltrox.pl##.footer > div:nth-of-type(1)
 emaks.pl##.newsletter--sitepanel
+emedyczny.com,pb.pl,sklep-wadima.pl###NewsletterBox
 emocje.pro###bloomwidget-3
 empik.com##.footerNewsletter__form-wrap
 empik.com##.newsletter-registration__banner.newsletter-registration
@@ -1187,7 +1189,6 @@ pasazer.com##.section:nth-of-type(4)
 pasazer.com##.\].slidein.\[.box
 pasieka24.pl###Mod238
 patyna.pl#?#.spb_content_element:-abp-has( > .container > .row > .spb-column-container[style*="bg3"] form)
-pb.pl,sklep-wadima.pl###NewsletterBox
 pcaction.pl##.CalyBox:nth-of-type(4)
 pch24.pl##.NewsletterBox
 pcomp3000.pl###LewaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
@@ -2476,6 +2477,7 @@ klasek.pl###spu-bg, #spu-main
 knowband.com###fancybox_ns-wrap, #fancybox_ns-overlay, .knowband-popup.kb_lightBox_popup, #exitpopup-modal
 kobietyipodryw.pl##.cd-popup
 kodano.pl###cboxOverlay, .bg_orange_popup, .i-am-new
+kokonki.pl,sklep.swiatlnu.pl##.wce_popup-active
 kolejedolnoslaskie.pl##.ays-pb-modals
 kolniak24.eu##.topLayer
 kolobrzeg.pl###dailyfullscreen
@@ -2827,7 +2829,6 @@ sklep.phu-szczepan.pl###scLeaveAlert
 sklep.poshlady.pl###fx-welcome
 sklep.precio.pl,sklep5438865.homesklep.pl###onisoft-spu.modal, .mask
 sklep.psychologia.eu###skNewsletterPopupContainer
-sklep.swiatlnu.pl##.wce_popup-active
 sklep.zielonyogrodek.pl##.product-modal
 skorzany.com##.wceapp_popup
 sldc.eu###popup-over, #popup-overlay
@@ -3514,8 +3515,8 @@ balex.eu,budujemywuk.co.uk,polska.travel,powiatowa.info,radioznin.fm,tvnakarte.e
 balterio.com,pergo.pl##.c-top
 baltyk.com,biosmaak.nl,blogspot.com,drzwionline.net,fajne.life,inzynieria.com,kapitalni.org,kup-komentarze.com,l37.eu,megasat.tv,showmag.info,stoicway.net,widoczni.com,www.etychy.org,www.rybnik.eu,zlomowisko.info##.scrollToTop
 bartyla.pl,biblioteka.bydgoszcz.pl,damskie.eu,holisticclinic.pl,jakpicwhisky.pl,kompleksowausluga.pl##.trx_addons_scroll_to_top
-batteryworld.eu###doDolu
-batteryworld.eu###doGory
+batteryworld.eu,goldplants.eu###doDolu
+batteryworld.eu,goldplants.eu###doGory
 baza-firm.com.pl###goTopArrow
 bdb.com.pl###powrotBT
 bekoczesci.pl###tbScrollToTop
@@ -4457,13 +4458,14 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 3giga.pl###contact-slider
-3i-store.com,dronexpert.eu,mam-fach.info,zrobtosam24.eu##.fb_reset
+3i-store.com,dronexpert.eu,emedyczny.com,mam-fach.info,zrobtosam24.eu##.fb_reset
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
 1944.pl###rasaWebchatPro
 51015kids.eu###custom_trustbadge
 aaaauto.pl###site-bottom-bar-content > .smoothbox
+adaudio.pl###pinnedBottomRight
 adidas.pl,reebok.pl##.QSISlider
 adra.pl,espritshop.pl,przetargi.info###feedback
 adwokat.co.uk##.cnct
@@ -5719,6 +5721,7 @@ kawro.pl###title
 kettei.pl###powrot
 kierunekspozywczy.pl###sb-b2b, #sb-magazine, #sb-conference
 kierunektoyota.pl##.overlay-white
+kierunekwodkan.pl##.sticky-sidebar
 kina.krakow.pl,repertuary.pl##.incap_bottom
 kinghome.pl##.menu
 klimacold.com.pl##div[id].dgd_stb_box
@@ -6067,7 +6070,7 @@ sklepmaniek.pl##.LastOrderBox
 sklepyinfo.pl##a#menu
 sklep-rolnicze.eu###oiTab
 sklep-wedkarski.info###ClPanelImg
-sklep.aladyn.pl###trzecia
+sklep.aladyn.pl,sklep.mariall.pl###trzecia
 sklep.farmona.pl##.tabs > section.product_link_nav
 sklep.pakrol.pl##.suggest-slider
 sklep.polskieradio.pl###tm-widget-lemur
