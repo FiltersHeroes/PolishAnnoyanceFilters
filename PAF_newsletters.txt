@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: dNbRXGKqy5fo4ARZ1phN3w
+! Checksum: Ui8unq4eCd0ONHRdSErsNA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 17 Aug 2022, 17:30 UTC+02
-! Version: 2022.8.17.0
+! Last modified: Wed, 17 Aug 2022, 21:30 UTC+02
+! Version: 2022.8.17.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 17 sie 2022, 17:30 UTC+02
+! Aktualizacja: śro, 17 sie 2022, 21:30 UTC+02
 !
 !
 !
@@ -61,7 +61,7 @@ agriaffaires.pl###js-newsletterBlock
 agrieko.pl##.footer_NewsletterBox
 agrodoradca24.pl##.newsletter-online
 agromat.pl#?##contact-box:-abp-has(div.title:-abp-contains(Zapisz się do newslettera))
-agromr.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
+agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
 ahe.lodz.pl###company-newsletter-column
 airstop.pl###snippet-newsletterSubscription-newsletterSubscription
@@ -593,6 +593,7 @@ foodsbyann.com##.custom_footer__box--left.custom_footer__box
 foodyas.com##footer > div > .row > div.col-lg-4:nth-of-type(3)
 forbot.pl###powiadomieniaMailowe
 foreo.com###block-subscriptionblock
+forsal.pl##.footerNewsletterContent
 forsal.pl##div > a[href="http://forsal.pl/newsletter"], .forsalHeaderLinks > .col-sm-off.col-xs-off:nth-of-type(1)
 forum-ekonomiczne.pl##footer div.col-lg-3.column_parent:nth-of-type(3)
 forum.android.com.pl##[data-blockid="app_core_newsletter_newsletter"]
@@ -1445,6 +1446,7 @@ sklep.kawa.pl##.NewsletterPopup
 sklep.kotrak.com##.newsletter1-wrapper > * > *
 sklep.legia.com##.ty-footer-menu > .row-fluid > .span8
 sklep.lemoniade.pl##.container > .row > div.col-md-6.col-sm-6.col-xs-12:nth-of-type(2) > .row
+sklep.mariall.pl##.NewsletterTlo
 sklep.milicon.eu##.box.newsletter, .menuBox_Newsletter
 sklep.nowaera.pl##.button__newsletter
 sklep.olekmotocykle.pl##.footer-col4 > h3.footer-colTitle:nth-of-type(1)
