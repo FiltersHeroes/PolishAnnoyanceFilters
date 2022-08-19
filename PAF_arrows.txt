@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: lWl3aN0Wlv7zzM9EE83Syw
+! Checksum: vAKCc2G8AIizPHAHgM6dvg
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Thu, 18 Aug 2022, 21:30 UTC+02
-! Version: 2022.8.18.0
+! Last modified: Sat, 20 Aug 2022, 01:36 UTC+02
+! Version: 2022.8.20.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 18 sie 2022, 21:30 UTC+02
+! Aktualizacja: sob, 20 sie 2022, 01:36 UTC+02
 !
 !
 ! Specyficzne reguły
@@ -824,6 +824,7 @@ teletorium.pl###gototopBtn
 termodomplus.pl,tfiagro.pl##.top-arrow
 thermomix.vorwerk.pl,worldoftanks.eu##.button-top
 the-first.pl###side_social_icons > ul > li:nth-of-type(1)
+tiktok.com##div[class*="VideoDetailContainer"] ~ div[class*="Bottom"] button[class*="IconContainer"]
 tiktok.com#?#div#app > div[class*="tiktok"] > div[class*="tiktok"] > button[class*="tiktok"]:not([class*="confirm" i]):-abp-has( > svg > *:empty)
 tme.eu##.o-arrow-up__wrapper
 tokyomask.pl##.g5core-back-to-top
