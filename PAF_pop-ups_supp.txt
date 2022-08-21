@@ -227,6 +227,8 @@ kontigo.com.pl,macris.com.pl###newsletter-popup
 koronawirusunas.pl###PatronModal, .modal-backdrop
 kosapopatelni.pl##html:style(overflow: auto !important;)
 kosapopatelni.pl##.mfp-ready
+koty.pl,psy.pl##html[style], body[class*="Modal"]:style(position: static !important; overflow: visible !important;)
+koty.pl,psy.pl##.ReactModal__Overlay:has(a[href*="/newsletter"])
 kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
 kurspolskiego.pl###banner, .modal-backdrop
 kurspolskiego.pl##.modal-open div#main:style(filter: none !important;)
