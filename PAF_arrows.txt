@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: BkZ31C9wbxp405glAb5zag
+! Checksum: qI7JYczMplwv1kSiDuqyZw
 ! Title: Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Mon, 22 Aug 2022, 17:30 UTC+02
-! Version: 2022.8.22.0
+! Last modified: Sat, 27 Aug 2022, 21:30 UTC+02
+! Version: 2022.8.27.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 22 sie 2022, 17:30 UTC+02
+! Aktualizacja: sob, 27 sie 2022, 21:30 UTC+02
 !
 !
 ! Specyficzne reguły
@@ -232,7 +232,7 @@ choinki.net,sherlocktrafika.pl,wyciagarki.eu###backtop
 ciechocinek.biz,drawskopomorskie.com,gniewkowo.eu,ki24.info,kolniak24.eu,lowiczanin.info,mohito.com,nizanskie.info,roztocze.net##.scroll-down
 citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl##.gw-grux-backToTop
 citymask.eu,globalna.info,lubawka.info##.scrolltop
-ciuchy.zizej.pl#?#footer ~ button:-abp-has( > span > svg)
+ciuchy.zizej.pl#?#footer ~ button:-abp-has(> span > svg)
 ckz.pl##.wpv-scroll-to-top
 claas.roltexkrasnystaw.pl##.top-link
 clineo.pl###to_up
@@ -325,7 +325,7 @@ enetproduction.com##div.vued-custom-scroll_to_top
 engineer.decorexpro.com###up.up
 enowiny.pl,mobileworld24.pl##.mnmd-go-top
 erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,wdrodze.pl,yellow.place###up
-erli.pl#?##root > header ~ main > button[class*=" "]:-abp-has( > svg:only-child :empty)
+erli.pl#?##root > header ~ main > button[class*=" "]:-abp-has(> svg:only-child :empty)
 esdorado.com,pm-m.pl,rolmarket.pl###scrollTopButton
 eset.com##.footer-scroll-to-top-wrapper
 esparto.pl##.clb-scroll-top
@@ -757,7 +757,7 @@ safegroup.pl##button[data-id="scroll-to-top-button"]
 sakolife.pl###powrot-do-gory
 salonydenon.pl,vvilk.com##.tvbottom-to-top
 salon-informacyjny.pl##.hotwp-scroll-top
-samorzad.pap.pl#?#svg ~ div[class]:-abp-has( > svg[title="ArrowUp"])
+samorzad.pap.pl#?#svg ~ div[class]:-abp-has(> svg[title="ArrowUp"])
 samsung.com##button[title="Go to Top"]
 samsung.com##.s-btn-gotop
 santanderconsumer.pl,www.rp.pl##.arrow-to-top
@@ -829,7 +829,7 @@ termodomplus.pl,tfiagro.pl##.top-arrow
 thermomix.vorwerk.pl,worldoftanks.eu##.button-top
 the-first.pl###side_social_icons > ul > li:nth-of-type(1)
 tiktok.com##div[class*="VideoDetailContainer"] ~ div[class*="Bottom"] button[class*="IconContainer"]
-tiktok.com#?#div#app > div[class*="tiktok"] > div[class*="tiktok"] > button[class*="tiktok"]:not([class*="confirm" i]):-abp-has( > svg > *:empty)
+tiktok.com#?#div#app > div[class*="tiktok"] > div[class*="tiktok"] > button[class*="tiktok"]:not([class*="confirm" i]):-abp-has(> svg > *:empty)
 tme.eu##.o-arrow-up__wrapper
 tokyomask.pl##.g5core-back-to-top
 tor-konferencje.pl##.tk-goto-top
@@ -870,7 +870,7 @@ wabisabi-store.jp##.scrolltopbtn
 wabisabi-store.jp##.tt-back-to-top
 wabrzezno.com##.on.scroll-top
 wago.com##.scroll-hint
-wakacje.pl#?##__next > div > header ~ div:last-of-type:-abp-has( > span > svg)
+wakacje.pl#?##__next > div > header ~ div:last-of-type:-abp-has(> span > svg)
 wasserman.eu##.ws-elevator-btn
 wbh.wp.mil.pl##.fi-arrow-up
 websiteplanet.com###new-vendor-scrolltop-button
@@ -921,7 +921,7 @@ zalecane.pl##.g1-teaser
 zaufane-apteki.pl###btn-scroll-top
 zbudujforme.com.pl##.cmsmasters_theme_icon_slide_top
 zdrowie.pap.pl##.show.m13
-zdrowie.pap.pl#?#section ~ div:-abp-has( > svg[title="Do góry"])
+zdrowie.pap.pl#?#section ~ div:-abp-has(> svg[title="Do góry"])
 ziemkiewicz.info##.back-to-start
 znamlek.pl##.btnScroll
 zooplus.pl##button[data-zta="btn-goTop"]
