@@ -78,10 +78,10 @@ oferty.dsautomobiles.pl,oferty.peugeot.pl##.row > .formularz:style(position: sta
 onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"]
 onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !important)
 onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important;)
-oohmagazine.pl##.cart-tab:has( > *:matches-css(display: none))
+oohmagazine.pl##.cart-tab:has(> *:matches-css(display: none))
 open.fm,wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
 open.fm,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
-open.fm,wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has( + a[data-st-area="Header-back"])
+open.fm,wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has(+ a[data-st-area="Header-back"])
 pecetowicz.pl##body:has(#elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)) .ipsNotificationGuest:has-text(1)
 pecetowicz.pl###elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)
 pepper.pl##main#main footer#footer.tGrid-row:style(display: block !important;)
@@ -118,9 +118,9 @@ wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:s
 wandermap.net###sidebar[style]:style(max-width: 390px)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
-www.youtube.com###contents ytd-rich-grid-row:has( > div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer) ytd-rich-grid-media:style(max-width: unset !important;)
-www.youtube.com###contents ytd-rich-grid-row:has( > div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer) > #contents:first-child:style(max-width: unset !important;)
-www.youtube.com###contents ytd-rich-grid-row:has( > div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer):style(--ytd-rich-grid-items-per-row: 1 !important;)
+www.youtube.com###contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer) ytd-rich-grid-media:style(max-width: unset !important;)
+www.youtube.com###contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer) > #contents:first-child:style(max-width: unset !important;)
+www.youtube.com###contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer):style(--ytd-rich-grid-items-per-row: 1 !important;)
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
