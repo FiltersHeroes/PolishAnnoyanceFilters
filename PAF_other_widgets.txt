@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 5reN5sPouczFIMiOksEEtQ
+! Checksum: Uyp32o3n+EIg8GQTYiV+RQ
 ! Title: Polskie Filtry Elementów Irytujących - Inne Elementy
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 25 Aug 2022, 17:30 UTC+02
-! Version: 2022.8.25.0
+! Last modified: Sat, 27 Aug 2022, 21:30 UTC+02
+! Version: 2022.8.27.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,13 +13,13 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 25 sie 2022, 17:30 UTC+02
+! Aktualizacja: sob, 27 sie 2022, 21:30 UTC+02
 !
 !
 !
 ! Specyficzne reguły
-~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has( > div > span ~ a[href*="wlacz-tryb-ciemny-"])
-~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has( > div > span ~ a[href="undefined"]:-abp-contains(Jak to działa?))
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href*="wlacz-tryb-ciemny-"])
+~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href="undefined"]:-abp-contains(Jak to działa?))
 4fun.tv##.app-popup
 4programmers.net##.sidebar-job-offers.box, .sidebar-offers.box
 4sun.eu##.left.pointer
@@ -146,7 +146,7 @@ biurorekordow.pl##.post_navigation-item
 biznes2biznes.com###zakladki > div:nth-child(-n+4)
 biznes2biznes.com###zakladki > div:nth-of-type(6)
 biznes2biznes.com##[src="img/1px.gif"]
-biznes2biznes.com#?#body > a[href^="klikniecia/index.php"]:-abp-has( > img[src*="materialy"])
+biznes2biznes.com#?#body > a[href^="klikniecia/index.php"]:-abp-has(> img[src*="materialy"])
 biznesalert.pl##.toolbar
 blog.siegnijpozdrowie.org##.limk-widget
 bluecity.pl##.js-loader.loader
@@ -351,8 +351,8 @@ forum.swiateczne.info##.av-preloader-box
 forum.szafa.pl###recommendation
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##.backToWp
 fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##article#main-content ~ div > style ~ div div > a[href^="/"]
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[id] > div > div ~ div:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?##main-content ~ div:-abp-has( > span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[id] > div > div ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
+fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?##main-content ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 freelancer.pl###fixed-banner
 fronda.pl##.slided-article
 gaia.com.pl###smAddonSizes
@@ -379,7 +379,7 @@ getinbank.pl##.quickMenuRow.row
 getinbank.pl##.sticky-buttons__wrapper
 github.com##h3 ~ details > summary:only-child
 github.com##.gh-header .gh-header-sticky.is-stuck, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow
-github.com#?#h3:-abp-has( + details > summary:only-child)
+github.com#?#h3:-abp-has(+ details > summary:only-child)
 gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
 global4net.com##.implementation-catalog
 globalna.info##.single-navigation[class*="post"]
@@ -438,8 +438,8 @@ inpost.pl###app-banner
 insomnia.pl##.ptw-articles.ptw-widget
 inspro.org.pl##.donate
 instagram.com###react-root > section > nav > div > div > section.xZ2Xk
-instagram.com#?##react-root > section > main + footer + div:-abp-has( > div > a[href^="https://play.google.com/store/apps/details?id=com.instagram.android"])
-instagram.com#?#.ZUqME:-abp-has(div:-abp-has( > a[href^="/accounts/login/"]) + div > a[href^="/accounts/emailsignup/"])
+instagram.com#?##react-root > section > main + footer + div:-abp-has(> div > a[href^="https://play.google.com/store/apps/details?id=com.instagram.android"])
+instagram.com#?#.ZUqME:-abp-has(div:-abp-has(> a[href^="/accounts/login/"]) + div > a[href^="/accounts/emailsignup/"])
 instalaton.pl###pd_cs_box
 instalhurt.sklep.pl,moto125.pl,sklephormann.pl,tylkostylowe.pl###widget_shop3
 instalki.pl##.plista_widget_slide
@@ -486,7 +486,7 @@ koleo.pl##.blik-hey
 kolorowymotylek.pl##.widgets_fcenter_left
 kolorowypokoik.pl##.sm-ceneo
 komorkomat.pl##.compare_widget_box, .single-post-inner .animated[href="https://komorkomat.pl/porownywarka/"]
-komorkomat.pl#?#.post-content h3:-abp-contains( > >>)
+komorkomat.pl#?#.post-content h3:-abp-contains(> >>)
 komputery.cieszyn.pl###serwisbok
 komputronik.pl,kresy.pl,powiedzdietomnie.pl,spirulina.pl##.avia-post-nav
 kontigo.com.pl##.match-cosmetics-avatar
@@ -595,7 +595,7 @@ mojeauto.pl##.pdr-contener.ui-helper-clearfix
 moneygrabbing.co.uk###older-nav
 moneygrabbing.co.uk##.related-wrap
 money.pl##.float.more-news
-monitor.firefox.com#?#.top-bar:-abp-has( > .join-fx-wrap)
+monitor.firefox.com#?#.top-bar:-abp-has(> .join-fx-wrap)
 morele.net##.js_get-app-bar.get-app-bar
 morizon.pl##.article__offer-bar__wrapper > .bar-sticky
 motofocus.pl###ArticleInSideBox
@@ -690,7 +690,7 @@ opoczno.eu##.js-toggle-list.button
 oponeo.pl###checkOrderStatus
 orange.pl##.payback-floating-sidebar__trigger
 ostatniatawerna.pl##.wp-post-nav > a > [id]
-outlook.live.com#?#div[data-skip-link-name="Przejdź do wiadomości"] > div > div > div > div > div:-abp-has( > div input.form-control[placeholder="+1 (702) 123-4567"])
+outlook.live.com#?#div[data-skip-link-name="Przejdź do wiadomości"] > div > div > div > div > div:-abp-has(> div input.form-control[placeholder="+1 (702) 123-4567"])
 ozonee.pl###free_shiping_info, #tws_i_2
 o.pl###codemanipulator-tools
 pakamera.pl###stats
@@ -710,12 +710,12 @@ pep.pl##.work-offers
 perfumeriatop10.pl##.perfumeria-allegro
 piaseczno.eu###acp-toggle-toolbar
 pieknojestwtobie.com,zbiorowy.info##.more-stories
-pinterest.com#?#div[role="main"] > div[class] > div[class] > div[class][style^="box-shadow"]:-abp-has( > div > div > div > button > div:-abp-contains(/^Pobierz$/))
+pinterest.com#?#div[role="main"] > div[class] > div[class] > div[class][style^="box-shadow"]:-abp-has(> div > div > div > button > div:-abp-contains(/^Pobierz$/))
 pityver.pl##.widget-allergo
 pit.pl##.floater[id^="floater"]
 pkobp.pl###smartbanner-desktop
 plastcom.pl###test
-plejada.pl#?#.logolink:-abp-has( > .arrow)
+plejada.pl#?#.logolink:-abp-has(> .arrow)
 plus.pl##.goToTop
 pl##.rssocial-icons > li > a[href*="google.com/maps"]
 pl##.rssocial-icons > li > a[href*="google.pl/maps"]
@@ -778,7 +778,7 @@ rankomat.pl##.searching-cheap-oc
 raportdrogowy.interia.pl,uroda.swiatkobiety.pl##.articleObjectSeeAlso
 rc.fm###rconline
 reddit.com##.read-next
-refunder.pl#?#.fixed:-abp-has( > div[data-id="sticky-register"])
+refunder.pl#?#.fixed:-abp-has(> div[data-id="sticky-register"])
 retailnet.pl##.elementor-popup-modal.dialog-widget
 rgbautomatyka.pl###repair-box
 rg-narzedzia.com.pl###allegroiko
@@ -928,7 +928,7 @@ univ.rzeszow.pl,ur.edu.pl###interreg, #radio-feniks, #wspolpraca-miedzynarodowa
 urbancity.pl###helpBox
 ur.edu.pl###interreg2
 ur.edu.pl###komunikaty-alergicy
-userstyles.org#?#div.us-stylecard--short:-abp-has( > .fallbackDiv > .fallbackImg[src="/ui/images/280x294.png"])
+userstyles.org#?#div.us-stylecard--short:-abp-has(> .fallbackDiv > .fallbackImg[src="/ui/images/280x294.png"])
 userstyles.org#?##top_android_button:-abp-has(.robot_android)
 userstyles.org#?#.android_button_banner:-abp-has(img[src="/ui/images/icons/x_button_big.svg"])
 userstyles.org#?#.android_button_button:-abp-has(.x_button)
@@ -972,7 +972,7 @@ www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
-www.google.com,www.google.pl#?#div.isv-r:-abp-has( > div[class] > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania)$/))
+www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div[class] > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania)$/))
 www.onet.pl##div[class^="BackToMainPage_backToMainPage"]
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
 www.pekao.com.pl##body.loader::before, body.loader::after
@@ -994,7 +994,7 @@ youtube.com##ytd-video-preview, #hover-overlays span
 youtube.com###alert-banner.ytd-browse, #watch-header > .mealbar-promo-renderer.yt-dialog, .yt-alert-info.yt-alert-actionable.yt-alert
 youtube.com#?#paper-dialog:-abp-has(ytd-mealbar-promo-renderer)
 youtube.com#?#ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer:-abp-has(h2:-abp-contains(Zacznij wspierać ten kanał))
-youtube.com#?##contentWrapper > .ytd-popup-container:-abp-has( > .yt-tooltip-renderer)
+youtube.com#?##contentWrapper > .ytd-popup-container:-abp-has(> .yt-tooltip-renderer)
 zadowolenie.pl##.b-bragLabel
 zapytaj.onet.pl##body > div > .bottom.onet-bar
 zapytaj.onet.pl##.know-better-answer
