@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: rx/0cD7vLEDg/R23C8KQkw
+! Checksum: lhGBEnGb7tYUR9zqqxrT1w
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 29 Aug 2022, 22:39 UTC+02
-! Version: 2022.8.29.0
+! Last modified: Fri, 02 Sep 2022, 17:30 UTC+02
+! Version: 2022.9.2.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,11 +15,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 29 sie 2022, 22:39 UTC+02
+! Aktualizacja: pią, 02 wrz 2022, 17:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
-3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
+3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,ksiazka.uk,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
 4adstudio.pl,rudeiczarne.pl##.widget_mc4wp_form_widget
@@ -575,6 +575,7 @@ fachowydekarz.pl##div.textWidget:nth-of-type(7)
 fajne.life##.post div[class*="form"][data-success_action_details]
 fajowo.eu###footer.row > div[class*="col"]:nth-of-type(1)
 faktyozywnosci.pl##.column-first.vmag-footer-widget
+fanbook.store##.abs-newsletter-panel
 fandroid.com.pl##.manohara-mailchimp--aligned-center, .widget-incredibbble-mailchimp-form
 farbykabe.pl##.newsletter_head, .newsletter_text
 fasardi.com,revouninstaller.com##.subscribe
@@ -843,6 +844,7 @@ krrit.gov.pl#?#.aktualnosci ~ div[class^="kontener"]:-abp-has(.newsletter-block)
 kruczek.pl##.post_mc_newsletter.mc_embed_signupm, #mc-embedded-subscribe-form
 krzywydomek.info###main > .row2.col1
 ksiegarniasztuki.pl###kolumny_k .prawa
+ksiegarnia-edukacyjna.pl##.footer-newsletter__content-wrapper
 ksiegarnia.beck.pl##.newspopup_up_bg
 ks.pl###nwsltr.extnewsletter
 kuchnialidla.pl##.home_newsletter_col1
@@ -1309,6 +1311,7 @@ printexpress.pl##.widget_bloomwidget.et_pb_widget
 print-me.pl#?#.elementor-top-column.elementor-column.elementor-element > .elementor-column-wrap > .elementor-widget-wrap:-abp-has(> div > div > form)
 prnews.pl##.newsletter-header, a[href*="/newsletter"]
 profeto.pl###part-newsletter > h2, #part-newsletter > form
+profinfo.pl##.newsletter__main
 projektowanie-wnetrz-online.pl##.e-container.e-container--column.elementor-element-fe48947.elementor-element
 proline.pl#?#td:nth-of-type(2) > .cell-round-title:nth-of-type(2):-abp-contains(Newsletter)
 proline.pl#?##tabbody > tbody > tr > td > table > tbody > tr > td:nth-child(2) > div:nth-child(2):-abp-has(#newsletter)
