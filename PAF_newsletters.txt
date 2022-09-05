@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: w3aJJHKpYVsEeynhKodt6w
+! Checksum: UD1Y9uRUTe5MNxvEiWtVEA
 ! Title: Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 02 Sep 2022, 17:30 UTC+02
-! Version: 2022.9.2.0
+! Last modified: Mon, 05 Sep 2022, 21:30 UTC+02
+! Version: 2022.9.5.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 02 wrz 2022, 17:30 UTC+02
+! Aktualizacja: pon, 05 wrz 2022, 21:30 UTC+02
 !
 !
 !
@@ -68,6 +68,7 @@ airstop.pl###snippet-newsletterSubscription-newsletterSubscription
 ajk-opakowania.eu,linktransport.eu,mierzeja.com###newsletter
 akademiawitalnosci.pl###text-2 > .textwidget, #text-2 > .title
 akademia-hotelarza.pl##div.col-xs-12.col-sm-12.col-md-5.col-lg-5:nth-of-type(3)
+akademicka.pl###footer-one #freshMailPopUp__background
 akardo.pl,asport.pl,eherbata.pl,kaszubi.pl,wsb.edu.pl##.newsletter-column
 aksiazka.pl##.stopkanewsletter
 aldi.pl##.mod-newsletter-popup
@@ -117,6 +118,7 @@ anna-urbanska.pl,forumgliwice.pl,londonshoes.pl,michalgrabarski.eu,projektwp.pl#
 anna-urbanska.pl,moneygrabbing.co.uk##.ml-block-form
 anotherdesign.pl###nw
 answear.com###bottomNewsletter
+antyksobieski.pl###social a[href="/newsletter/add"]
 antykwariatlibra.pl##.cms_newsletter_form
 antyweb.pl##.email.btn-tools
 apartamentywkarpaczu.eu##.site-footer__email
@@ -1255,6 +1257,7 @@ podyplomie.pl#?#.mt-2.block-right.block-lg.block:-abp-contains(Newsletter)
 pokoleniesmart.pl##.passionblogger-subscribe, .essb-subscribe-form
 polakpotrafi.pl##.w3.block:nth-of-type(3)
 polanglo.pl##.f_newsletter
+polanglo.pl##.newsletter-footer-wrapper.container
 polemi.co.uk###dropin
 polimex.net##app-footer-top > footer > div > .row > div:nth-of-type(3) > *:nth-child(-n+2)
 polishclub.org##.small.row > .col-md-4
@@ -1639,6 +1642,7 @@ triny.pl##.newsletter-sub-box
 trivago.pl###js-newsletter-registration
 triverna.pl##.ssPopupNewsletter, .ssHeaderNewsletter, .ssFooterNewsletter
 trojmiejska.com###st_news_letter_1
+tropy.pl##.footer-collumn-6
 trybawaryjny.pl###gr-form
 tsintegracje.com##.contNewsletter
 tucholanin.pl###sidebar-bottom > ul.widget-container:nth-of-type(1)
