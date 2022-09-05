@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: iIx1rtR2yABi8J55LEOYsQ
+! Checksum: pVCsvwKma8MJYqcRXA2XXw
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Sun, 04 Sep 2022, 17:30 UTC+02
-! Version: 2022.9.4.0
+! Last modified: Mon, 05 Sep 2022, 21:30 UTC+02
+! Version: 2022.9.5.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 04 wrz 2022, 17:30 UTC+02
+! Aktualizacja: pon, 05 wrz 2022, 21:30 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -69,6 +69,7 @@ airstop.pl###snippet-newsletterSubscription-newsletterSubscription
 ajk-opakowania.eu,linktransport.eu,mierzeja.com###newsletter
 akademiawitalnosci.pl###text-2 > .textwidget, #text-2 > .title
 akademia-hotelarza.pl##div.col-xs-12.col-sm-12.col-md-5.col-lg-5:nth-of-type(3)
+akademicka.pl###footer-one #freshMailPopUp__background
 akardo.pl,asport.pl,eherbata.pl,kaszubi.pl,wsb.edu.pl##.newsletter-column
 aksiazka.pl##.stopkanewsletter
 aldi.pl##.mod-newsletter-popup
@@ -118,6 +119,7 @@ anna-urbanska.pl,forumgliwice.pl,londonshoes.pl,michalgrabarski.eu,projektwp.pl#
 anna-urbanska.pl,moneygrabbing.co.uk##.ml-block-form
 anotherdesign.pl###nw
 answear.com###bottomNewsletter
+antyksobieski.pl###social a[href="/newsletter/add"]
 antykwariatlibra.pl##.cms_newsletter_form
 antyweb.pl##.email.btn-tools
 apartamentywkarpaczu.eu##.site-footer__email
@@ -1256,6 +1258,7 @@ podyplomie.pl#?#.mt-2.block-right.block-lg.block:-abp-contains(Newsletter)
 pokoleniesmart.pl##.passionblogger-subscribe, .essb-subscribe-form
 polakpotrafi.pl##.w3.block:nth-of-type(3)
 polanglo.pl##.f_newsletter
+polanglo.pl##.newsletter-footer-wrapper.container
 polemi.co.uk###dropin
 polimex.net##app-footer-top > footer > div > .row > div:nth-of-type(3) > *:nth-child(-n+2)
 polishclub.org##.small.row > .col-md-4
@@ -1640,6 +1643,7 @@ triny.pl##.newsletter-sub-box
 trivago.pl###js-newsletter-registration
 triverna.pl##.ssPopupNewsletter, .ssHeaderNewsletter, .ssFooterNewsletter
 trojmiejska.com###st_news_letter_1
+tropy.pl##.footer-collumn-6
 trybawaryjny.pl###gr-form
 tsintegracje.com##.contNewsletter
 tucholanin.pl###sidebar-bottom > ul.widget-container:nth-of-type(1)
@@ -3210,7 +3214,7 @@ pl##.stayMore__container
 !
 ! Powiadomienia push
 2conv.com,flv2mp3.by,flvto.biz##.push-offer
-agrarsklep.pl,esklep.polomarket.pl,morizon.pl,wsb.edu.pl###ue_popups
+agrarsklep.pl,elle.pl,esklep.polomarket.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,morizon.pl,national-geographic.pl,przyslijprzepis.pl,wsb.edu.pl###ue_popups
 allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
@@ -3884,6 +3888,7 @@ klodzko24.eu##.scroll_top
 kmdelikatesy.pl###scrollTopPage
 knorr.pl,lipton.com##.back-to-top-cta
 kod-rabatowy.pl,venezia.pl##.go_to_top
+kolibra.pl##.progress-wrap
 komed.pl###el-top
 komornik-marchaj.pl##.rstpl-go-top
 komputronik.pl##.rollup
