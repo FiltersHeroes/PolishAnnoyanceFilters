@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: W5oLyTtFgtqA1E3vMzg0yg
+! Checksum: j4eh7Dsw3i8SeSdApA/GqA
 ! Title: Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
-! Last modified: Mon, 05 Sep 2022, 23:44 UTC+02
-! Version: 2022.9.5.1
+! Last modified: Tue, 06 Sep 2022, 00:12 UTC+02
+! Version: 2022.9.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 05 wrz 2022, 23:44 UTC+02
+! Aktualizacja: wto, 06 wrz 2022, 00:12 UTC+02
 !
 !
 ! Newslettery (nie popupy)
@@ -2341,6 +2341,8 @@ enfamil.pl##.legal-alert-popup-content, .legal-alert-popup-overlay
 entelo.pl##.b-modal, .bpopup
 eporady24.pl##.zaczekaj
 eradon.pl###overlay-wrapper, #modal-overlay
+erp-view.pl##.eb-init .eb-dialog
+erp-view.pl,pracodawcagodnyzaufania.pl##.eb-backdrop
 erp-view.pl,waszaturystyka.pl##.rstbox, .rstbox_overlay
 esensja.pl###FBox
 eska.pl###_hj_survey_invite_container
@@ -2776,7 +2778,6 @@ powerjobs.pl##.newsletter-mailchimp-modal
 powerjobs.pl##.screen-newsletter-mailchimp
 poznaj-swiat.pl###popup, #overlay
 pracatobie.pl###Ankieta1PopupContent, #Ankieta1PopupBackground
-pracodawcagodnyzaufania.pl##.eb-backdrop
 pracujwsprzedazy.pl###modal-social
 pracuj.pl##.onboarding--opened.onboarding
 praisethewear.com#?#.elementor-popup-modal:-abp-contains(newsletter)
@@ -3731,7 +3732,7 @@ espritshop.pl###scrollbutton
 essilor.pl##.ScrollTop
 estyl.pl##.js-button-go-top.c-button-go-top
 es.lubuskie.pl##.page-up-button
-euromilk.pl##.c-layout-go2top
+euromilk.pl,speedomat.pl##.c-layout-go2top
 europages.pl##.js-backtop-btn
 europa.eu##.btn-back-top
 eur-lex.europa.eu##.EurlexTop
@@ -4715,7 +4716,7 @@ enfamil.pl##.float-chat
 eobuwie.com.pl###chatbotize
 eobuwie.com.pl###open-chat
 epodreczniki.pl##.send-suggestion-btn
-eska.pl,eskarock.pl,rivieraparkmarvipol.pl,senatkomorki.pl##.messenger
+eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,rivieraparkmarvipol.pl,senatkomorki.pl,voxfm.pl##.messenger
 eskk.pl##.ckontakt
 etoto.pl###sbChatMinimizedIdle
 eurobank.pl##.reviews
@@ -5427,7 +5428,7 @@ begio.pl,mnews.com.pl,nakolei.pl,radiopogoda.pl##.penci-rlt-popup
 bentawet.pl,sklep.rowmot.eu##.kac-sm-allegro
 beskidlive.pl,estrzelce.pl,finansovo.pl,rekinysukcesu.pl##div[id^="dj-suggester"]
 beskidzka24.pl##.page-preloader-cover
-beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##.quizv2--poll.quizv2--teaser.quizv2
+beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##.quizv2--poll.quizv2--teaser.quizv2
 bezgluten.pl.iziToast-message
 bgsw.pl##.left.ltr.a11y-toolbar.a11y-non-responsive
 bieganieuskrzydla.pl##.c-card--dock
@@ -6828,8 +6829,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2022.9.5.0
-!@ Last modified: Mon, 05 Sep 2022, 23:44 UTC+02
+!@ Version: 2022.9.6.0
+!@ Last modified: Tue, 06 Sep 2022, 00:12 UTC+02
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -6840,7 +6841,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Copyright © 2022 Certyficate IT
 !@ Copyright © 2022 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2022.9.5.0 aktualizacja: pon, 05 wrz 2022, 23:44 UTC+02
+!@ v.2022.9.6.0 aktualizacja: wto, 06 wrz 2022, 00:12 UTC+02
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -9794,6 +9795,8 @@ oetker.*/static/js/privacy-dialog/
 /gdpr/CookieConsent$~third-party,xmlhttprequest,domain=kayak.pl
 /images/banners/cookies_b2$domain=sklep.macmillan.pl
 /images/cookie.png$domain=loteriainpost.pl|loteriavelvet.pl
+/img/ig-icon.svg$image,domain=sldc.eu
+/img/ttr-icon.svg$image,domain=sldc.eu
 /includes/infocookies.js$domain=wici.info
 /informationbar.js$domain=stowarzyszenie-dyrektorow.pl|zgkim.zgora.pl
 /jquery.cookiebar$domain=selgros.pl
