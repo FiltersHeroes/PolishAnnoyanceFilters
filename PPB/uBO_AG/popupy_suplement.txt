@@ -55,8 +55,6 @@ ask.fm##.lightbox_overlay:has(> div.lightbox_container form#signupConversionForm
 atthost.pl##html[style], body[style]:style(overflow: auto !important;)
 atthost.pl##.popexit_active.popexit_bg
 at-outlet.pl,bilscy.info,nalepsze.pl,pantalerzyk.pl,selkar.pl,sklep.technica.pl,sklepkamil.pl,zico-bike.pl##.newsletter-modal, .modal-backdrop
-auchandirect.pl##.prehomepage.featherlight
-auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 autostrada-a4.com.pl##.topbaner
 autostrada-a4.com.pl##+js(aeld, scroll, event.dispatch)
 auto-swiat.pl,fakt.pl,forbes.pl,komputerswiat.pl,newsweek.pl,przegladsportowy.pl##.tp-modal, .tp-backdrop
@@ -405,6 +403,7 @@ tvokazje.pl###tvo-newsletter-popup-new-year, .modal-backdrop
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid="sheetDialog"] > :not(div[data-testid="IntentLoginSheet_Login_Sheet"]) div[role="button"]:not([data-testid]) + div[role="button"]:not([data-testid]):upward(div[role="group"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##html:style(overflow: unset !important;)
 twojekwiaty.pl###exitPopup
+voxfm,www.eska.pl##+js(aeld, , initCityPicker)
 ubraniadooddania.pl###popup-dialog, .modal-backdrop
 ubraniadooddania.pl##+js(ra, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]), stay)
 um24.pl##.zamow-katalog, .modal-backdrop
