@@ -59,8 +59,6 @@ ask.fm##.lightbox_overlay:has(> div.lightbox_container form#signupConversionForm
 atthost.pl##html[style], body[style]:style(overflow: auto !important;)
 atthost.pl##.popexit_active.popexit_bg
 at-outlet.pl,bilscy.info,nalepsze.pl,pantalerzyk.pl,selkar.pl,sklep.technica.pl,sklepkamil.pl,zico-bike.pl##.newsletter-modal, .modal-backdrop
-auchandirect.pl##.prehomepage.featherlight
-auchandirect.pl##html > body.modalOpen:style(overflow: visible !important; position: static !important;)
 autonaminuty.org##html[style]:style(overflow-y: auto !important; margin-right: 0 !important;)
 autonaminuty.org##.mfp-bg.mfp-ready
 autonaminuty.org##.mfp-wrap.mfp-ready
@@ -455,6 +453,7 @@ unityline.pl###newsletter-out-of-body
 upacjenta.pl##.newsletter-modal-bar.modal-banner
 upolujebooka.pl###myModalExit, .modal-backdrop
 ursus.com.pl##.opacity1.flexslider-container
+voxfm,www.eska.pl##+js(aeld, , initCityPicker)
 wakacje.pl##body > div[class*=" "]:has(> div[class*=" "] > div[height="auto"] > header > h3[class]:has-text(/^Pomóż nam usprawnić stronę$/))
 wakacje.pl##html.modal-active > body:style(overflow: visible !important; padding-right: 0 !important;)
 wakacje.pl##html.modal-active:style(overflow: visible !important;)
