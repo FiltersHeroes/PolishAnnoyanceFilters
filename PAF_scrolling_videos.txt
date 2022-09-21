@@ -1,24 +1,29 @@
 [Adblock Plus 2.0]
-! Checksum: 3Hd+Nvm2OPWi2q3r92niuw
-! Homepage: https://polishannoyancefilters.netlify.app
 ! Title: Polskie Filtry Elementów Irytujących - Scrollujące Filmiki
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 18 Sep 2022, 00:48 UTC+02
-! Version: 2022.9.18.0
+! Last modified: Wed, 21 Sep 2022, 21:30 UTC+02:00
+! Version: 2022.9.21.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
+! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 18 wrz 2022, 00:48 UTC+02
+! Aktualizacja: śro, 21 wrz 2022, 21:30 UTC+02:00
 !
 !
 !
 ! Specyficzne reguły
+!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
+!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
+||ppstatic.pl/js/floating-video/floatingVideo.js
+||ppstatic.pl^*/article/sticky-video.js
+||ppstatic.pl^*/article/top-sticky-video-mobile.js
+||ppstatic.pl^*/plywajace_wideo.js
 35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
 abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]
 agrii.pl###panel
@@ -42,13 +47,13 @@ kresy.pl###kresyTVPlayer_wrapper
 meczyki.pl##.veedmo-video.video-js.veedmo-ad-outstream-inslide
 medianarodowe.com,sadeczanin.info,transfery.info##div.miniature.onnetworkplayercontainer > div.alwplayer
 medianarodowe.com,sadeczanin.info,transfery.info##div.onnetworkplayercontainer > div.miniplayer
-medonet.pl,onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
 medonet.pl,onet.pl,~www.onet.pl##.active.player-float-wrap > .player-float-container
+medonet.pl,onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
 naekranie.pl#?#body > div[class][style*="position: fixed"]:-abp-has(.yt-player, video)
 niedziela.pl###featured-video-box[class*="sticky"]
 nowa.tv##.floating-video
-playgwent.com##.c-big-stream__video--sticked.c-big-stream__video
 pl.blogpascher.com###site-scroll-top
+playgwent.com##.c-big-stream__video--sticked.c-big-stream__video
 pogoda.interia.pl##.inpl-tout-sticky.body__common-header--fixed .vjs-fixedmonitor-wrapper-fixed
 poradnikzdrowie.pl##div.sticky-container_sticky.sticky-container__wrap > video-js[id^="video-player"]
 przeambitni.pl##.mvp-vid-fixed
@@ -69,17 +74,11 @@ wamiz.pl##div[class*="sticked"][class*="container"]
 webcamera.pl##.bigcam.floating-player > div > .fullscreen-wrap
 webcamera.pl##.floating-player #player, #float-box, .float-box
 wrc.net.pl##.sticky-video.sticky.is-stuck
-!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
-!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
-||ppstatic.pl/js/floating-video/floatingVideo.js
-||ppstatic.pl^*/article/sticky-video.js
-||ppstatic.pl^*/article/top-sticky-video-mobile.js
-||ppstatic.pl^*/plywajace_wideo.js
 !
 !
 ! Ogólne reguły
-pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 pl##.videoPlayer.is--persistent:not(.ended)
+pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 !
 !
 ! Reguły specjalne
