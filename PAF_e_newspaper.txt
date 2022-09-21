@@ -1,31 +1,54 @@
 [Adblock Plus 2.0]
-! Checksum: FCFwBdjX/Qzj+fthP9YWQw
 ! Title: Polskie Filtry Elementów Irytujących - Prenumeraty i E-wydania Gazet
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Tue, 06 Sep 2022, 17:30 UTC+02
-! Version: 2022.9.6.0
+! Last modified: Wed, 21 Sep 2022, 21:30 UTC+02:00
+! Version: 2022.9.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
+! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 06 wrz 2022, 17:30 UTC+02
+! Aktualizacja: śro, 21 wrz 2022, 21:30 UTC+02:00
 !
 !
 !
 ! Specyficzne reguły
+!parkiet.com##article cce[ccemodule="marketing_components"][additional-classes^="promo-block-2"]
+||assets.polskaniepodlegla.pl/images/*/reklama_iczytamy.jpg
+||assets.polskaniepodlegla.pl/images/okladka29.jpg
+||assets.polskaniepodlegla.pl/images/ZH_10_2019_okladka.jpg
+||dziennikwschodni.pl/media/public/dziennikwschodni.pl/e-wydanie-artykul.png
+||gpcodziennie.pl/images/360x200_4zl.jpg
+||gpcodziennie.pl/images/750x704zlartyku%c5%82y.jpg
+||gpcodziennie.pl/images/eprenumerata_bottom.png
+||gpcodziennie.pl/okl_gp.php$image
+||gpcodziennie.pl/okl_np.php$image
+||i.perspektywy.net/pages/jhovngq2lj/banners/Si3hnyb96kNP8I1TSSq2rl58g2fbiYxDNyQCR8LR.jpeg$domain=perspektywy.pl
+||i.perspektywy.pl/pages/jhovngq2lj/banners/dzxJ753hSuAaVE8nTYOtqs9TVrYVgsKe4WRvOFFn.jpeg
+||i.perspektywy.pl/pages/jhovngq2lj/banners/QIaYeglgZJIxBURaKzhEVaenkFbseSsBNabn5lcV.jpeg
+||jagodnik.pl/wp-content/uploads/2020/02/MF2018-1.png
+||michalici.pl/storage/_MICHALICI/Slaider/KJB/Slajder_kjb_new_2020_4.jpg
+||niezalezna.pl/images/gp/gp_*.jpg
+||niezalezna.pl/images/page/gpcodziennie_*.jpg
+||niezalezna.pl/images/page/prenumerata_*.jpg
+||prestiztrojmiasto.pl/sites/default/files/styles/dodatek/public/media/prestiz_privatebanking_1_2020*.png
+||sbp.pl/repository/buttony/2-ksiazki-20p.png
+||static.lokalna24.pl/data/boards/s3_czytaj_e-wydanie_$image
+||tabletowo.pl/wp-content/uploads/2020/06/banner-10-lecie-tabletowo-magazyn.png
+||ztm.gda.pl/images/MZKZG_przystanek_metropolitalny.jpg$image
 7dni.com.pl##.right_side
-24kurier.pl##.tMarg20.tGradient.wKurierze
 24kurier.pl###header_cyfrowy
+24kurier.pl##.tMarg20.tGradient.wKurierze
 24legnica.pl,wiesci.com.pl###text-2
 24tp.pl##.news-body > p:nth-of-type(2)
-administrator24.info###bCurrentNr
 administrator24.info###banner_box_825
 administrator24.info###banner_box_847
+administrator24.info###bCurrentNr
 administrator24.info###zRight > h3
 administrator24.info###zRight > p
 agrodoradca24.pl##.nf-newspaper
@@ -37,6 +60,10 @@ astromagia.pl##.other-services
 astromagia.pl##.section-current-numbers
 audio.com.pl,automatykab2b.pl,budujemydom.pl,elektronikab2b.pl,ep.com.pl,estradaistudio.pl,magazyngitarzysta.pl##.kiosk
 audio.com.pl,ekobudowanie.pl##.newspaper
+auto-motor-i-sport.pl##.new-hitbox-extra.part-1-4.item
+auto-motor-i-sport.pl##.visible-lg.visible-md.visible-sm.hidden-xs.footer-bar
+auto-swiat.pl##aside[class*="float"].promoFrame
+auto-swiat.pl,fakt.pl,forbes.pl,komputerswiat.pl,newsweek.pl,przegladsportowy.pl##.ebookBottomBar
 autoexpert.pl###carousel-whitepapers
 autoexpert.pl##.d-lg-block.d-none.magazine
 autoexpert.pl##.d-lg-flex.d-none.grey-box.row
@@ -46,12 +73,8 @@ automobilista.com.pl##.home1
 automobilista.com.pl##.home8 > .content > div.aos-animate.aos-init.box:nth-of-type(7)
 automobilista.com.pl##.owl-loaded.has2.owl-carousel
 automobilista.com.pl##.owl-loaded.has4.owl-carousel > .owl-stage-outer > .owl-stage > .active.owl-item
-auto-motor-i-sport.pl##.new-hitbox-extra.part-1-4.item
-auto-motor-i-sport.pl##.visible-lg.visible-md.visible-sm.hidden-xs.footer-bar
-auto-swiat.pl##aside[class*="float"].promoFrame
-auto-swiat.pl,fakt.pl,forbes.pl,komputerswiat.pl,newsweek.pl,przegladsportowy.pl##.ebookBottomBar
-avtest.pl##.feature.module
 avtest.pl###position-7 > div.module:nth-of-type(1)
+avtest.pl##.feature.module
 bialykruk.pl###magazine
 biznes-plus.pl##.middle-aside > #media_image-3
 budujemydom.pl##.d-lg-block.d-none.header__magazyn
@@ -64,16 +87,16 @@ cdaction.pl###promomodul
 centos.com.pl##.lmdiv
 charaktery.eu##div.block:nth-of-type(3)
 charaktery.eu,o-m.pl##div.block:nth-of-type(9)
-chcemybycrodzicami.pl##div.container:nth-of-type(2)
 chcemybycrodzicami.pl###post-58249 > .single-post-footer-a-wrap
 chcemybycrodzicami.pl##.is-hidden-button.wp-block-woocommerce-product-category
+chcemybycrodzicami.pl##div.container:nth-of-type(2)
 chcemybycrodzicami.pl#?#.row.front-row.front-issue-box.issue-box:-abp-has(h2:-abp-contains(Najnowszy numer magazynu))
 claudia.pl##.content-sidebar.col-lg-3.col-md-4.col-sm-12 > div.sidebar-box:nth-of-type(1)
 claudia.pl##.magazine-bottom
-computerworld.pl##.wraper-sticky > .separator
+co-slychac.pl###banerrewiry
 co-slychac.pl##.okladka
 co-slychac.pl##.promwyd
-co-slychac.pl###banerrewiry
+computerworld.pl##.wraper-sticky > .separator
 czary.pl##.prawa_kolumna_nowosci
 czytelniamedyczna.pl##.k80c
 dbajonerki.pl##.ebook-small, .guide-small
@@ -83,8 +106,8 @@ dobrewiadomosci.net.pl##p:nth-of-type(20)
 dorzeczy.pl##.box-list-item-rwd-row.box-list-item-to_right.size-1x2.box-list-item-type-issue.box-list-item-issue-dorzeczy-historia.box-list-item-issue.box-list-item-2.box-list-item
 dorzeczy.pl##.box-list-item-rwd-row.box-list-item-to_right.size-2x2.box-list-item-type-issue.box-list-item-issue-dorzeczy.box-list-item-issue.box-list-item-2.box-list-item
 dorzeczy.pl##.visible.disabled-select
-dziecisawazne.pl##a[href^="https://natuli.pl/"] picture
 dziecisawazne.pl##.alignwide.wp-block-group > .wp-block-group__inner-container
+dziecisawazne.pl##a[href^="https://natuli.pl/"] picture
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl##.component[data-event-params^="url=%2Fzabierz-swoja-gazete-na-wakacje-prenumeruj-przez-kwartal-w-nizszej-cenie"]
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl##a[href*="/wykup-dostep"][class*="redirect"]
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl#?#.atomsPromotionsLink.component:-abp-has(a[href*="/wykup-dostep/"][aria-label$="w formie gazety online"])
@@ -92,6 +115,9 @@ dziennikelblaski.pl###prenumerata
 dziennikelblaski.pl,wm.pl#?#.highlight:-abp-has(.box-ewydanie)
 dziennikwschodni.pl##.read-us-widget
 dziennikzachodni.pl##div[id^="componentsArticleBanner"] a[href*="/wykup-dostep?"]
+e-hotelarz.pl###page > nav + div[style*="background-color: #312c52;"], .row > div > #pws-current-magazine-cover
+e-hotelarz.pl#?#.pws-current-magazine-art > div:-abp-has(> a.btn ~ a.btn ~ a.btn)
+e-hotelarz.pl#?#div.pws-box-title:nth-of-type(3):-abp-contains(/^E-tygodnik$/)
 egarwolin.pl,gpr24.pl##.c-box-magazine
 eglos.pl##.carousel.newspaper
 ekspertbudowlany.pl##.miniatura-gazeta
@@ -100,17 +126,14 @@ elektrosystemy.pl###text-31
 elita-magazyn.pl##.subscription
 elle.pl##.promo-box
 elle.pl,focus.pl##.magazine-last-box
-ep.com.pl##.magazine
 ep.com.pl##.e-magazine
+ep.com.pl##.magazine
 ep.com.pl##.new-number
 esquire.pl##.magazine-subscription-widget.widget
 estradaistudio.pl##.col-29
 eurologistics.pl##.sidebar_okladka
 eurostudent.pl##.mainfooter-publ.row
 eurostudent.pl##.row-box > .scell-2.cell-3
-e-hotelarz.pl###page > nav + div[style*="background-color: #312c52;"], .row > div > #pws-current-magazine-cover
-e-hotelarz.pl#?#div.pws-box-title:nth-of-type(3):-abp-contains(/^E-tygodnik$/)
-e-hotelarz.pl#?#.pws-current-magazine-art > div:-abp-has(> a.btn ~ a.btn ~ a.btn)
 fachowydekarz.pl##div.textWidget:nth-of-type(10)
 fachowyelektryk.pl##.moduletable_najnowszy_numer
 fachowyinstalator.pl#?#.td-pb-span4.vc_column_container.wpb_column.vc_column > .wpb_wrapper:-abp-has(h2:-abp-contains(/^Zamów Prenumeratę$/))
@@ -121,27 +144,27 @@ forumakademickie.pl###miesieczniki
 fzz.pl###kwartalnik
 fzz.pl#?#section.elementor-top-section:-abp-has(h3:-abp-contains(/^Zamów prenumeratę$/))
 gala.pl##.magazine-list.row
+gazeta-mosina.pl##.first.mod-shadowbox.module
+gazeta-msp.pl##td > .tytuly_str[href*="archiwum"], .archiwum_prev, .archiwum_next, #archiwum_outer, .tapeta
 gazetaolsztynska.pl##.block-gazeta
-gazetapolska.pl##div#footer_wrapper:nth-of-type(2)
 gazetapolska.pl###block-views-baner-block-4
 gazetapolska.pl###block-views-baner-block-5
 gazetapolska.pl###block-views-najnowszy-spis-block-1, #block-views-ostatninumer-block-1, #header_footera
 gazetapolska.pl###sidebar-first > div.column:nth-of-type(1)
 gazetapolska.pl##.region-banergora.region .view-content
 gazetapolska.pl##.view-dom-id-31c1eed7b1515cd435d96893fb167f28.view-display-id-block_4.view-id-baner.view-baner.view > .view-content
+gazetapolska.pl##div#footer_wrapper:nth-of-type(2)
 gazetaprawna.pl,ikomunikaty.pl##.footerImageBlock > a[href="https://edgp.gazetaprawna.pl/"]
 gazetarumska.pl##.widget_media_image
 gazetasenior.pl###custom_html-19
-gazeta-mosina.pl##.first.mod-shadowbox.module
-gazeta-msp.pl##td > .tytuly_str[href*="archiwum"], .archiwum_prev, .archiwum_next, #archiwum_outer, .tapeta
-gf24.pl##p > .jch-lazyloaded
 gf24.pl###sppb-addon-1523617941456 > .sppb-text-left.sppb-addon-header.sppb-addon
 gf24.pl###sppb-addon-1523618120033
+gf24.pl##p > .jch-lazyloaded
 glamour.pl##.box-feature-3box
 globenergia.pl###content_sklep
 glowny-mechanik.pl###custom_html-7
-gosc.pl##div.wp-el.webpart-wrap-layout.wp-bd:nth-of-type(9) > .layout-1200.c > .Col0.LayoutColumn.c1200 > .wp-el.webpart-wrap-layout_column.wp-bd
 gosc.pl##.Col0.LayoutColumn.c-right-margin.c820 > .wp-el.webpart-wrap-layout_column.wp-bd > .wp-el.webpart-wrap-links.wp-bd
+gosc.pl##div.wp-el.webpart-wrap-layout.wp-bd:nth-of-type(9) > .layout-1200.c > .Col0.LayoutColumn.c1200 > .wp-el.webpart-wrap-layout_column.wp-bd
 gostynska.pl###switch-2
 gpcodziennie.pl,panstwo.net###footer_wrapper
 gwiazdybasketu.pl##li.col-md-12.item:nth-of-type(8)
@@ -153,10 +176,10 @@ historia.uwazamrze.pl##.photo-gallery-three.tr-section
 historia.uwazamrze.pl##.wydanie.kolor.tr-section
 huee.in##section.section--dark.section:nth-of-type(6)
 ican.pl##.mit-new-number
-ican.pl##.section-top-news.col-xs-12.col-md-5 > hr
 ican.pl##.section-top-news.col-xs-12.col-md-5 > .slider-container
-inzynierbudownictwa.pl##div.reviewwidget.widget:nth-of-type(3)
+ican.pl##.section-top-news.col-xs-12.col-md-5 > hr
 inzynier-medyczny.pl###sidebar div.widget:nth-of-type(1)
+inzynierbudownictwa.pl##div.reviewwidget.widget:nth-of-type(3)
 itreseller.com.pl#?#.widget_custom_html.widget.widget_text:-abp-contains(NAJNOWSZE WYDANIE)
 itwiz.pl###woocommerce_products-5
 jagodnik.pl##.td-pb-span3.tdc-column.vc_column_container.wpb_column > .wpb_wrapper
@@ -181,12 +204,12 @@ laj.pl,magazyn-ecommerce.pl,nowa-sprzedaz.pl,o-m.pl,sm-manager.pl##.promo-text
 liberte.pl##.entry-leftside > .headline, .entry-leftside > .headline + .row, .box-magazyn2
 log4.pl##.sideSlideWrapper
 log4.pl##.wydaniaSpecList
+magazyn.waszaturystyka.pl##div.row-container.vc_row:nth-of-type(8)
 magazynfakty.pl#?#.sidebar-home > .widget > .panel-layout > .panel-grid > .panel-grid-cell > .widget_text:-abp-contains(NAJNOWSZE WYDANIE)
 magazyngitarzysta.pl##.hidden-xs.new-issue-toggle
 magazyngitarzysta.pl##.new-newspaper.module
 magazynt3.pl###mvp-side-wrap
 magazynt3.pl##.mvp-top-sub-text
-magazyn.waszaturystyka.pl##div.row-container.vc_row:nth-of-type(8)
 magnapolonia.org##a[href^="https://sklep.magnapolonia.org/najnowszy/"]
 malygosc.pl##.pos-sticky
 malygosc.pl##.wp-el.webpart-wrap-media.wp-bd
@@ -195,17 +218,17 @@ mensis.pl###custom_html-3
 michalici.pl##.swiper-slide-active.swiper-slide > .side-left.center-text
 mitsmr.pl##.new-magazine
 mjakmama24.pl,poradnikzdrowie.pl##.teaser_wide
-mojegotowanie.pl##div.d-md-flex.no-padding.col-sm-12.col-md-4:nth-of-type(2)
-mojegotowanie.pl##p.main-header
 mojegotowanie.pl##.recipe-from-magazine
 mojegotowanie.pl##.sidebar-magazine.sidebar-box
+mojegotowanie.pl##div.d-md-flex.no-padding.col-sm-12.col-md-4:nth-of-type(2)
+mojegotowanie.pl##p.main-header
 mojogrodek.pl##.homepage-banner.container .homepage-banner-small
 mojogrodek.pl##.widget-area
 monitor-press.com##div#s5_pos_custom_2
 msportal.pl##body > a[href^="http://www.biznes2biznes.com/klikniecia/index.php"] > img[src*="/materialy/"]
-muratordom.pl##section:nth-of-type(3)
 muratordom.pl##.gl_plugin.topbar
 muratordom.pl##.main-content > .teaser_wide
+muratordom.pl##section:nth-of-type(3)
 muzykaitechnologia.pl##.elementor-top-column.elementor-col-50.elementor-column.elementor-element-5463722.elementor-element
 muzykaitechnologia.pl##.epic_module_20623_2_5f0331648da8f.jeg_col_2o3.jeg_pagination_disable.jeg_module_hook.jeg_postblock.jeg_postblock_2 > .jeg_subcat_right.jeg_block_heading_6.jeg_block_heading
 muzykaitechnologia.pl##.numer-lipiec.producent-prolights.tag-prolights.tag-oswietlenie.tag-malighting.tag-konsolety-oswietleniowe.tag-glowice.category-wywiady.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-26244.jeg_pl_lg_2.jeg_post
@@ -214,39 +237,39 @@ mycompanypolska.pl##.text-center.u-header__section
 naszesprawy.eu##div.add-inner:nth-of-type(2)
 national-geographic.pl##.content-sidebar div[class*="box-"][class*="magazin"]
 national-geographic.pl#?#div.col-md-6.col-12:-abp-has(a[href*="/prasa/"])
-nettg.pl##div.col-12.col-md-6.col-lg-3:nth-of-type(2)
 nettg.pl##.pl-3.list15.col-12.col-md-6.col-lg-3
+nettg.pl##div.col-12.col-md-6.col-lg-3:nth-of-type(2)
 ngodkrywca.pl##.banner__main-slider
 ngodkrywca.pl##.subscription--dark.widget-section.subscription.triptyca
 niedziela.pl##div.scroll-Tygodnik.background-logo.wrap:nth-of-type(4)
 nienawisc.pl###before-content-area
 nienawisc.pl###custom_html-10
 niepokalanow.pl##.mt-4.publish-container
-niezalezna.pl##div.row:nth-of-type(29)
 niezalezna.pl##.columnRight > a[href^="https://prenumerata.gazetapolska.pl/"]
 niezalezna.pl##.prenumerata-banner
 niezalezna.pl##[src="/images/page/gpcodziennie_lato.jpg?1"]
 niezalezna.pl##[src="/images/page/prenumerata_1140.jpg"]
+niezalezna.pl##div.row:nth-of-type(29)
 nowakonfederacja.pl##.col-lg-4.d-lg-block.d-none
 nowakonfederacja.pl##.mt-3.section-3.row
 nowaruda24.pl##.region-top-right.region .views-row-last.views-row-first.views-row > .row
 nowaruda24.pl#?#.region-sidebar-second.region > .block > .block-title:-abp-contains(/^W najnowszym numerze gazety$/)
 nowaruda24.pl#?#.region-sidebar-second.region > .block:-abp-has(> .block-title:-abp-contains(/^W najnowszym numerze gazety$/)) .view-gazeta.view
-nowinykrapkowickie.pl##.region-jedynka.region > .block .field-content
 nowiny.pl###box-epress
+nowinykrapkowickie.pl##.region-jedynka.region > .block .field-content
 nowodworski.info###black-studio-tinymce-3
 noworudzianin.pl###text-6
 nowykamieniarz.pl##div.sidebar:nth-of-type(1)
-nowyobywatel.pl##section#js-packery > div.js-packery__item:nth-of-type(2)
 nowyobywatel.pl##.container ~ div.u-mb\+\+
+nowyobywatel.pl##section#js-packery > div.js-packery__item:nth-of-type(2)
 nowypompon.pl##table:nth-of-type(2) > tbody > tr > .bodystyle
 nowypompon.pl##tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr > td > table:nth-of-type(4)
 nowypompon.pl##tr:nth-of-type(4) > td:nth-of-type(2) > table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) > table > tbody > tr > td > table:nth-of-type(1)
-oohmagazine.pl##div.widget_anthemes_banner300.widget:nth-of-type(1)
+o-m.pl##div.block:nth-of-type(13)
 oohmagazine.pl##.sidebar > div.widget_anthemes_video.widget:nth-of-type(1)
+oohmagazine.pl##div.widget_anthemes_banner300.widget:nth-of-type(1)
 orbiton.pl###sekcja-01
 orbiton.pl,poradnikasfaltowy.pl###formularz
-o-m.pl##div.block:nth-of-type(13)
 packaging-polska.pl##.numer
 panstwo.net###block-views-ostatninumer-block-1
 panstwo.net##.btn-block.btn-lg.btn-primary.btn
@@ -258,12 +281,12 @@ pcformat.pl##.current-paper
 pcformat.pl##.featured-4
 pcformat.pl##.paper-cont
 perspektywy.pl##div.module-banner:nth-of-type(4) > a[href*="/banner/4ycifizjhj/click"]
-pilkanoznadladzieci.pl##div.col-sm-4.spb-column-container:nth-of-type(1)
-pilkanoznadladzieci.pl##div.col-sm-4.spb-column-container:nth-of-type(3)
-pilkanoznadladzieci.pl##section.dynamic-header-change.fw-row.row:nth-of-type(1)
 pilkanozna.pl###przeciecie_JK
 pilkanozna.pl###tygodnik_prawy_top_JK
 pilkanozna.pl##.okladka_tygodnik_JK
+pilkanoznadladzieci.pl##div.col-sm-4.spb-column-container:nth-of-type(1)
+pilkanoznadladzieci.pl##div.col-sm-4.spb-column-container:nth-of-type(3)
+pilkanoznadladzieci.pl##section.dynamic-header-change.fw-row.row:nth-of-type(1)
 podroze.se.pl##.prenumerata.box
 podyplomie.pl##div.container:nth-of-type(7)
 podyplomie.pl##div.container:nth-of-type(9)
@@ -271,9 +294,9 @@ polonika.at###left > div.clearfix.module:nth-of-type(1)
 polskaniepodlegla.pl###sp-right
 polskaniepodlegla.pl##.sppb-addon-module.sppb-addon > .sppb-addon-content > .custom
 polskaniepodlegla.pl##.sppb-column-addons img.jch-lazyloaded[src*="/images/okladka"]
-polskaniepodlegla.pl#?#div.nspArt:-abp-has(h4 a[href*="-polska-niepodlegla-"])
 polskaniepodlegla.pl#?##sp-right .text-center:-abp-has(a[href*="iczytamy.pl/"])
 polskaniepodlegla.pl#?#.sppb-col-md-4 div[id^="sppb-addon"] > .sppb-addon-module.sppb-addon:-abp-has(h3:-abp-contains(/^Najnowszy numer!$/))
+polskaniepodlegla.pl#?#div.nspArt:-abp-has(h4 a[href*="-polska-niepodlegla-"])
 polskicaravaning.pl##.voffset4.row > .boffset4.voffset1.col-xs-24.col-md-24.col-lg-24
 polskiprzemysl.com.pl##.footer .issue-show-link
 poradnikasfaltowy.pl###o-poradniku
@@ -281,16 +304,16 @@ poradnikhandlowca.com.pl##.section-bar-newspaper
 poradnikhodowcy.pl#?#.art-content-layout-row .czerwony:-abp-contains(Prenumerata 2020)
 portalhodowcy.pl###sp-okladki
 posbistro.com##div[role="dialog"][aria-label="Zarabiaj na gastronomii"]
-poznaj-swiat.pl##.cover
 poznaj-swiat.pl###actual
+poznaj-swiat.pl##.cover
 poznaj-swiat.pl##.float-right.subscription
 pracedyplomowe.edu.pl###layer1[style]
 prawo.gazetaprawna.pl##.buySubscription
 prestizszczecin.pl##.pane-views-magazyn-okladka-aktualna.pane-block.panel-pane
 prestiztrojmiasto.pl##.pane-home-temat-glowny .dodatek
+pro-test.pl#?#div.blokRight:-abp-has(a:-abp-contains(/Nowość|Prenumerata/))
 profitechnika.pl##.sidebar__subsciption.sidebar__box
 profitechnika.pl##.subscription-banner-new
-pro-test.pl#?#div.blokRight:-abp-has(a:-abp-contains(/Nowość|Prenumerata/))
 przegladkoninski.pl##.kup_gazete
 przegladlokalny.eu##.right-sidebar > .right-header, .right-sidebar > .text-center
 przegladlokalny.eu##.section-special
@@ -309,10 +332,10 @@ reporterzy.info##div.coversBox:nth-of-type(3)
 rolniczeabc.pl##.block-archive
 rozaniec.eu##.container.bottom-articles
 rozaniec.eu##.widget_latest-publication.latest-publication-2.widget
+rynek-kolejowy.pl##.najnowszyNumerRK, .miesiecznikRotatorBox
+rynek-kolejowy.pl##.Wklejka
 rynekzdrowia.pl##.head > h2
 rynekzdrowia.pl##.list-43 > li:nth-of-type(1)
-rynek-kolejowy.pl##.Wklejka
-rynek-kolejowy.pl##.najnowszyNumerRK, .miesiecznikRotatorBox
 satkurier.pl###pasek_sk
 satkurier.pl###rightContainer > a.thumbnail:nth-of-type(2)
 sdb.org.pl#?#.uk-container-large div.uk-first-column.uk-grid-margin:nth-of-type(3):-abp-has(a[href*="/prenumerata"])
@@ -326,22 +349,24 @@ spliff.pl###k2ModuleBox103
 spliff.pl###nsp-nsp_111 > .bottom.nspArts
 staleo.pl###homepage-right-widgets > section:nth-of-type(2)
 starachowicki.eu##div.l-box--25.l-box:nth-of-type(2)
-strzal.pl##section.bgYellow
 strzal.pl##.my-auto.flex-item
+strzal.pl##section.bgYellow
 superhistoria.pl###footer > .section-issue
 swiat-szkla.pl#?##left > #left-in > div.moduletable:-abp-contains(Aktualne wydanie)
 swierszczyk.pl##.banner--green.banner
 swierszczyk.pl##.gallery--ship-run.js-gallery.swi-gallery.gallery
 swierszczyk.pl##.subscription--ship-run.subscription.triptyca
 sztafeta.pl##.widget_text.widget
-terazprudnik.pl#?#div[class*="td_block_homepage_full"] ~ div[class*="td_block_big_grid"] .td-big-grid-scroll > div.td-small-thumb:-abp-has(> div > a[href*="/tygodnikprudnicki-"])
 terazprudnik.pl#?#.td-pb-span4.tdc-column.vc_column > div > .td_block_padding.td-pb-border-top.td_block_wrap:-abp-has(h4:-abp-contains(Tygodnik Prudnicki))
 terazprudnik.pl#?#.td-post-header:-abp-has(h1 a:-abp-contains(Nowy numer))
+terazprudnik.pl#?#div[class*="td_block_homepage_full"] ~ div[class*="td_block_big_grid"] .td-big-grid-scroll > div.td-small-thumb:-abp-has(> div > a[href*="/tygodnikprudnicki-"])
 topagrar.pl##.sidebar__newspaper, .homepage__agrar
 topagrar.pl#?#.sidebar div.sidebar__box--grey.sidebar__box:-abp-has(h3:-abp-contains(/^Zamów online$/))
 trybunaczestochowska.pl###text-7
 tuolawa.pl##.widget-52.no-mt.no-bg.widget.row
 tuolawa.pl##.widget-52.widget-header.widget.row
+tygodnik-krapkowicki.info###Mod3
+tygodnik-rolniczy.pl##.box--subscribe
 tygodnikdzialdowski.pl##div.platform-content:nth-of-type(2)
 tygodnikponidzia.pl###bunyad-blocks-widget-7
 tygodnikpowszechny.pl###block-views-najnowsze-dodatki-block
@@ -350,26 +375,24 @@ tygodnikpowszechny.pl###block-views-wydanie-tp-block-1
 tygodnikprudnicki.pl#?#.prawa div.cien.panel:-abp-contains(/tygod/i)
 tygodnikprzeglad.pl###sidebar > .widget.first
 tygodniksiedlecki.com##.mockup-box.col-xs-12.col-sm-12.co-md-12.col-lg-12
-tygodnik-krapkowicki.info###Mod3
-tygodnik-rolniczy.pl##.box--subscribe
 tygodniowa.pl#?#.owl-item:-abp-has(> .item:only-child > a[href=""] > img)
 tygodniowa.pl#?#.sidebar h4:-abp-contains(Wydanie)
 tygodniowa.pl#?#.sidebar h4:-abp-contains(Wydanie) + a > img
 tylkotorun.pl#?#section[id^="media_image-"]:-abp-has(> a[href^="http://tylkotorun.pl/e-wydanie-"])
 viva.pl##.medium-order-210.subscription
-warszawskagazeta.pl##div.sp-module:nth-of-type(3)
 warszawskagazeta.pl###sppb-addon-1504787697990 > .sppb-addon-module.sppb-addon
+warszawskagazeta.pl##div.sp-module:nth-of-type(3)
 waszaturystyka.pl##.onepage-section.row-container
 waszaturystyka.pl##.wp-image-44120
 wedkarskiswiat.pl##.ad__top
 wedkarskiswiat.pl##.magazine.section__mag.section
 wiadomoscihandlowe.pl##.mb-4.col-sm-12.col-md-12.col-xl-12
 wiadomoscirudzkie.pl##div.no-tablet.no-mobile.transition:nth-of-type(2)
-wiescirolnicze.pl###hp-pdf-issues
 wiesci.com.pl###media_image-3
 wiesci.com.pl###media_image-6
 wiesci.com.pl###text-5
 wiesci.com.pl###text-13
+wiescirolnicze.pl###hp-pdf-issues
 wio.waw.pl##div.l-box--25.l-box:nth-of-type(1)
 wm.pl###header > a[href*="kupgazete.pl"]
 wnp.pl##.box-8-wrap
@@ -382,40 +405,17 @@ www.konstrukcjeinzynierskie.pl###g-aside > div.g-grid:nth-of-type(2)
 wyszkowiak.pl##.introCurrentIssue
 xn--przesy-energii-lnc.pl###custom_html-9
 zielonyogrodek.pl##.open.gardeners-promo
-znaczkipocztowe-kolekcja.pl##aside
 znaczkipocztowe-kolekcja.pl###intro
 znaczkipocztowe-kolekcja.pl###subscription
+znaczkipocztowe-kolekcja.pl##aside
 zobraczkaczybez.pl###custom_html-5
 zobraczkaczybez.pl###execphp-2
-zwierciadlo.pl##.boxpds.boxsklep.post.row
-zwierciadlo.pl##a[href*="bit.ly/"] > .lazyloaded
-zwierciadlo.pl##.post.boksborder > aside.boxappla:nth-of-type(2)
-zwierciadlo.pl#?#.post.boksborder:-abp-has(a[href*="/miesiecznik"] > img[src*="//zwierciadlo.pl"], a[href*="bit.ly"] > img[src*="//zwierciadlo.pl"])
 zw.com.pl##.list_share > li a[href*="/temat/81"]
+zwierciadlo.pl##.boxpds.boxsklep.post.row
+zwierciadlo.pl##.post.boksborder > aside.boxappla:nth-of-type(2)
+zwierciadlo.pl##a[href*="bit.ly/"] > .lazyloaded
+zwierciadlo.pl#?#.post.boksborder:-abp-has(a[href*="/miesiecznik"] > img[src*="//zwierciadlo.pl"], a[href*="bit.ly"] > img[src*="//zwierciadlo.pl"])
 zycie.pl##.right #multiple-versions, #premium-slide
-!parkiet.com##article cce[ccemodule="marketing_components"][additional-classes^="promo-block-2"]
-||assets.polskaniepodlegla.pl/images/ZH_10_2019_okladka.jpg
-||assets.polskaniepodlegla.pl/images/okladka29.jpg
-||assets.polskaniepodlegla.pl/images/*/reklama_iczytamy.jpg
-||dziennikwschodni.pl/media/public/dziennikwschodni.pl/e-wydanie-artykul.png
-||gpcodziennie.pl/images/360x200_4zl.jpg
-||gpcodziennie.pl/images/750x704zlartyku%c5%82y.jpg
-||gpcodziennie.pl/images/eprenumerata_bottom.png
-||gpcodziennie.pl/okl_gp.php$image
-||gpcodziennie.pl/okl_np.php$image
-||i.perspektywy.net/pages/jhovngq2lj/banners/Si3hnyb96kNP8I1TSSq2rl58g2fbiYxDNyQCR8LR.jpeg$domain=perspektywy.pl
-||i.perspektywy.pl/pages/jhovngq2lj/banners/QIaYeglgZJIxBURaKzhEVaenkFbseSsBNabn5lcV.jpeg
-||i.perspektywy.pl/pages/jhovngq2lj/banners/dzxJ753hSuAaVE8nTYOtqs9TVrYVgsKe4WRvOFFn.jpeg
-||jagodnik.pl/wp-content/uploads/2020/02/MF2018-1.png
-||michalici.pl/storage/_MICHALICI/Slaider/KJB/Slajder_kjb_new_2020_4.jpg
-||niezalezna.pl/images/gp/gp_*.jpg
-||niezalezna.pl/images/page/gpcodziennie_*.jpg
-||niezalezna.pl/images/page/prenumerata_*.jpg
-||prestiztrojmiasto.pl/sites/default/files/styles/dodatek/public/media/prestiz_privatebanking_1_2020*.png
-||sbp.pl/repository/buttony/2-ksiazki-20p.png
-||static.lokalna24.pl/data/boards/s3_czytaj_e-wydanie_$image
-||tabletowo.pl/wp-content/uploads/2020/06/banner-10-lecie-tabletowo-magazyn.png
-||ztm.gda.pl/images/MZKZG_przystanek_metropolitalny.jpg$image
 !
 !
 ! Reguły specjalne
