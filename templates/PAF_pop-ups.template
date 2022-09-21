@@ -1,6 +1,4 @@
 [Adblock Plus 2.0]
-! Checksum: @
-! Homepage: https://polishannoyancefilters.netlify.app
 ! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
@@ -13,17 +11,18 @@
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
+! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: @aktualizacja
+! Aktualizacja: @localizedDT
 !
 !
 !
 ! Specyficzne reguły
-@COMBINEinclude popupy https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy.txt
+@include popupy + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy.txt
 !
 !
 ! Ogólne reguły
-@COMBINEinclude popupy_ogolne https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy_ogolne.txt
+@include popupy_ogolne + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy_ogolne.txt
 !
 !
 ! Reguły specjalne

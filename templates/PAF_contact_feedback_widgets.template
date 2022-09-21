@@ -1,6 +1,4 @@
 [Adblock Plus 2.0]
-! Checksum: @
-! Homepage: https://polishannoyancefilters.netlify.app
 ! Title: Polskie Filtry Elementów Irytujących - Widżety Kontaktowe/Informacji Zwrotnej
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
@@ -13,13 +11,14 @@
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
+! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: @aktualizacja
+! Aktualizacja: @localizedDT
 !
 !
 !
 ! Specyficzne reguły
-@COMBINEinclude widgety_kontaktowe_informacji_zwrotnej https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
+@include widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/widgety_kontaktowe.txt
 !
 !
 ! Ogólne reguły
