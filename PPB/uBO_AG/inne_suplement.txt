@@ -1,3 +1,18 @@
+!/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
+!play.google.com###gba:style(height: 60px !important;)
+!play.google.com##div[aria-label="Święta pełne gier"][role="dialog"]
+!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item
+!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item:remove()
+!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll
+!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll:remove()
+!twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion###layers span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(4)
+!www.youtube.com###contents ytd-rich-grid-row:first-child > #contents:first-child, #contents ytd-rich-grid-row:first-child ytd-rich-grid-media:style(max-width: unset !important;)
+!www.youtube.com###contents ytd-rich-grid-row:first-child:style(--ytd-rich-grid-items-per-row: 1 !important;)
+/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
+||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
+||mokrenosy.pl/*/avada-nicescroll.js$script
+||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
+||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href*="wlacz-tryb-ciemny-"]:upward(2)
 ~poczta.wp.pl,wp.pl,~www.wp.pl##div > div > span ~ a[href="undefined"]:has-text(Jak to działa?):upward(2)
 2x45.info,agmar.biz.pl,airdron-polska.pl,awans-bhp.pl,boczkinabok.pl,brzeszcze.pl,caso-germany.pl,ceneo.pl,cukierniabezowa.pl,devdesign.pl,domkorkowy.com,e-marcom.pl,e-niemcy.de,e.ziebice.pl,fury-zone.com,grajewo.net.pl,intibs.pl,ironsky.pl,komputerytriton.pl,kuradomowa.net,minecraft.net,mojaholandia.nl,mokrenosy.pl,narcyz.com.pl,nuty-zapachowe.pl,oliwowo.pl,otop.org.pl,paralympic.org.pl,passion.pl,piaseckigagala.pl,promodor.pl,psi.wroc.pl,sanier.pl,sendbean.pl,softwaresystem.pl,techmlek.com.pl,timberwolf.pl,twojsezam.pl,wdrozenia-magento.pl,wsparciemagento.pl,www.consil.com.pl##div[id^="ascrail"]:not([id$="-hr"])
@@ -27,12 +42,12 @@ download.net.pl##dl > .date:style(width: auto !important; height: auto !importan
 download.net.pl##dl > .date:upward(dl):style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important;)
 dziary.com##.ps-container:style(overflow: auto !important;)
 dziary.com##.ps-scrollbar-y-rail
+e-monki.pl##.col_2 > p > img[src="images/emonki11.jpg"]:style(max-width: 100%; padding-top: 10px;)
 ebay.pl###desc_ifr:style(width: 100% !important;)
 egami-image.com##form input:style(color: white !important;)
 eredaktor.pl##body:style(overflow-x: unset !important;)
 euro.com.pl,oleole.pl###main-page > #main-footer ~ .bottom-bar-container #bottom-bar:style(height: 40px !important;)
 euro.com.pl,oleole.pl###main-page > #main-footer ~ .bottom-bar-container:style(position: relative !important; display: block !important; padding-top: 90px !important;top: -60px !important;)
-e-monki.pl##.col_2 > p > img[src="images/emonki11.jpg"]:style(max-width: 100%; padding-top: 10px;)
 facebook.com##div[class*="plugin"] video ~ div:not([id]):not([class]) a[href="/watch/?ref=external"]:upward(3)
 fandom.com###bodyContent ~ div[id^="siderail_"][id*="_gamepedia"]
 fandom.com###global-wrapper.with-siderail #content #bodyContent:style(width: 100% !important;)
@@ -41,9 +56,9 @@ filing.pl###switcher-posts:style(margin-right: 0 !important;)
 filing.pl##.nano-pane
 follow.vision##html > body:style(overflow: visible !important;)
 follow.vision##html:style(overflow: auto !important;)
-forum.dobreprogramy.pl##.mobile-device div[class*="footer"] div[class*="has"] ~ .emoji-picker-modal-overlay:style(background-color: var(--secondary) !important;)
-forum.dobreprogramy.pl##.mobile-device div[class*="footer"] .emoji-picker[class*="has"]:style(min-height: unset !important;)
 forum.dobreprogramy.pl##.mobile-device .topic-post.retort nav.post-controls .actions .post-retort-container:style(margin-left: 0 !important;)
+forum.dobreprogramy.pl##.mobile-device div[class*="footer"] .emoji-picker[class*="has"]:style(min-height: unset !important;)
+forum.dobreprogramy.pl##.mobile-device div[class*="footer"] div[class*="has"] ~ .emoji-picker-modal-overlay:style(background-color: var(--secondary) !important;)
 gfmod.pl##+js(acis, snowfall)
 github.com##+js(ra, href, details > summary > a[href*="user-images"]:first-child, stay)
 goldenmarketing.pl###ssb-btn-1:style(visibility: hidden !important;)
@@ -52,14 +67,17 @@ hondanews.eu###body > .vertical.simplebar-track
 hondanews.eu###body[data-simplebar]:style(overflow-x: hidden; overflow-y: auto !important;)
 interia.pl,pomponik.pl##.embed-citation-text > span:style(opacity: 1 !important;)
 ithardware.pl##+js(ra, href, a.authorlink[href="#"])
-jarmarktumski.plock.eu##body > .op0:style(opacity: 1 !important;)
 jarmarktumski.plock.eu##.gt3_preloader:after
+jarmarktumski.plock.eu##body > .op0:style(opacity: 1 !important;)
 kaespe.katowice.pl###main footer:style(bottom: -80px !important; left: 0 !important;)
 kawro.pl##.infobar-bar:style(position: static !important; clear: both; height: auto !important;)
 kawro.pl##.infobar-dismiss:style(position: relative !important; bottom: 70px !important; right: 0 !important;)
 klonowypark.pl###right_info2:style(height: auto !important;)
 kodiwpigulce.pl##.is-fixed.sidebar-box:style(position: static !important;)
 komp-net.eu###toTop
+m.box.com##.app-banner-enabled div.page:style(top: 0 !important;)
+m.box.com##.mobile-app-banner
+m.pl.aliexpress.com##body.smartbanner-placeholder[style]:style(padding-top: 0 !important;)
 mateuszgrzesiak.com,mg-pmm.com,posnania.eu##body:style(overflow-y: auto !important;)
 meblohurt.eu##body:style(padding-top: 0 !important;)
 megasat.tv##.country-selector:style(position: absolute !important;)
@@ -71,21 +89,18 @@ mokrenosy.pl##.no-overflow-y:style(overflow-y: auto !important;)
 muzykazreklam.pl##+js(ra, value|title, .login.box > p > input[value][title]:not([placeholder]))
 muzykotekaszkolna.pl##.filter-choise:style(background-color: rgb(220,0,0) !important;)
 mycenter.pl##.top_cart:style(position: absolute !important; top: -35px !important;)
-m.box.com##.app-banner-enabled div.page:style(top: 0 !important;)
-m.box.com##.mobile-app-banner
-m.pl.aliexpress.com##body.smartbanner-placeholder[style]:style(padding-top: 0 !important;)
 narcyz.com.pl##div[style^="overflow: hidden;"]:style(overflow: auto !important;)
 newonce.radio##a.sidenav-social-link:nth-of-type(2):style(color: red !important;)
 oferty.dsautomobiles.pl,oferty.peugeot.pl##.row > .formularz:style(position: static !important;)
+onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important;)
 onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"]
 onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !important)
-onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important;)
 oohmagazine.pl##.cart-tab:has(> *:matches-css(display: none))
-open.fm,wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
 open.fm,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
 open.fm,wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has(+ a[data-st-area="Header-back"])
-pecetowicz.pl##body:has(#elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)) .ipsNotificationGuest:has-text(1)
+open.fm,wp.pl,~www.wp.pl##a[data-st-area="Header-back"]:before
 pecetowicz.pl###elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)
+pecetowicz.pl##body:has(#elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)) .ipsNotificationGuest:has-text(1)
 pepper.pl##main#main footer#footer.tGrid-row:style(display: block !important;)
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"] h1:style(margin-top: 45px !important;)
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"]:style(height: 225px !important;)
@@ -119,25 +134,10 @@ wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:s
 wandermap.net###sidebar[style]:style(max-width: 390px)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important;)
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important;)
-www.youtube.com###contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer) ytd-rich-grid-media:style(max-width: unset !important;)
 www.youtube.com###contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer) > #contents:first-child:style(max-width: unset !important;)
+www.youtube.com###contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer) ytd-rich-grid-media:style(max-width: unset !important;)
 www.youtube.com###contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer ytd-display-ad-renderer):style(--ytd-rich-grid-items-per-row: 1 !important;)
-zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
+zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important;)
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
 zapytaj.onet.pl##.profile-actions > .music
-!play.google.com##div[aria-label="Święta pełne gier"][role="dialog"]
-!play.google.com###gba:style(height: 60px !important;)
-!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item
-!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item:remove()
-!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll
-!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll:remove()
-!twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion###layers span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(4)
-!www.youtube.com###contents ytd-rich-grid-row:first-child > #contents:first-child, #contents ytd-rich-grid-row:first-child ytd-rich-grid-media:style(max-width: unset !important;)
-!www.youtube.com###contents ytd-rich-grid-row:first-child:style(--ytd-rich-grid-items-per-row: 1 !important;)
-!/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
-/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
-||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
-||mokrenosy.pl/*/avada-nicescroll.js$script
-||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
-||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl

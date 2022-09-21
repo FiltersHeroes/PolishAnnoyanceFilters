@@ -1,24 +1,5 @@
-.facebooklikepopup.
-~chcemybycrodzicami.pl,pl,~zblogowani.pl###ouibounce-modal
-~pl##body:not(.x13popup-open) #x13popup-container:lang(pl)
-~pl##body:not(.x13popup-open) #x13popup-cover:lang(pl)
-~pl###edrone--main--pu--container:lang(pl)
-pl##.TloPopUpCiemne
-pl##body:not(.x13popup-open) #x13popup-container
-pl##body:not(.x13popup-open) #x13popup-cover
-pl###InfoNewsletter
-pl###InfoNewsletterOkno
-pl###dzinga .overlay, #dzinga .popup
-pl###edrone--main--pu--container
-pl###esns_background_layer
-pl###mail_zapisz
-pl###oknoPopUp
-pl###tloPopUp
-pl###topLayerBackDrop
-pl##.hejhej:not(body):not(html)
-pl##.livecall-widget-container
-pl##.stayMore__container
 !~pl###dzinga .overlay:lang(pl), #dzinga .popup:lang(pl)
+.facebooklikepopup.
 /axnewsletter.js
 /newsletter-leads/*/jquery.simplemodal.js
 /plugins/facebook-fanbox-popup
@@ -26,9 +7,9 @@ pl##.stayMore__container
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
 /wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
+||a.mailmunch.co/app/$script,third-party
 ||api.callpage.io/v2/widgets/
 ||app.getresponse.com/site2/elearning_news_gromar
-||a.mailmunch.co/app/$script,third-party
 ||downloads.mailchimp.com/js/signup-forms/popup/embed.js
 ||downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||mailerlite.com^$third-party,domain=~beitadmin.pl
@@ -37,3 +18,22 @@ pl##.stayMore__container
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||salesmanago.pl/dynamic/*/popups.js
 ||widget.contactleader.pl^$script,third-party
+~chcemybycrodzicami.pl,pl,~zblogowani.pl###ouibounce-modal
+~pl###edrone--main--pu--container:lang(pl)
+~pl##body:not(.x13popup-open) #x13popup-container:lang(pl)
+~pl##body:not(.x13popup-open) #x13popup-cover:lang(pl)
+pl###dzinga .overlay, #dzinga .popup
+pl###edrone--main--pu--container
+pl###esns_background_layer
+pl###InfoNewsletter
+pl###InfoNewsletterOkno
+pl###mail_zapisz
+pl###oknoPopUp
+pl###tloPopUp
+pl###topLayerBackDrop
+pl##.hejhej:not(body):not(html)
+pl##.livecall-widget-container
+pl##.stayMore__container
+pl##.TloPopUpCiemne
+pl##body:not(.x13popup-open) #x13popup-container
+pl##body:not(.x13popup-open) #x13popup-cover
