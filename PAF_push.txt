@@ -1,76 +1,23 @@
 [Adblock Plus 2.0]
-! Checksum: K05zn1kc9g3+L6JefNTPSg
-! Homepage: https://polishannoyancefilters.netlify.app
 ! Title: Polskie Filtry Elementów Irytujących - Powiadomienia Web Push
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Mon, 12 Sep 2022, 22:51 UTC+02
-! Version: 2022.9.12.0
+! Last modified: Wed, 21 Sep 2022, 21:30 UTC+02:00
+! Version: 2022.9.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
 !   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
+! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 12 wrz 2022, 22:51 UTC+02
+! Aktualizacja: śro, 21 wrz 2022, 21:30 UTC+02:00
 !
 !
 !
 ! Specyficzne reguły
-2conv.com,flv2mp3.by,flvto.biz##.push-offer
-agrarsklep.pl,elle.pl,esklep.polomarket.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,morizon.pl,national-geographic.pl,przyslijprzepis.pl,wsb.edu.pl###ue_popups
-allani.pl,domodi.pl##div[id*="FakePromptContainer"]
-andzela.com##.kb-cs-notify-container
-at-outlet.pl###WebPushAddSubscription
-autocentrum.pl##.web-push-box
-bnpparibas.pl,eneba.com,estyl.pl,semahead.pl###ue_push_dialog
-boardpc.pl,forum.dobreprogramy.pl,forum.manjaro.pl,hub.filterlists.com##.alert-info.alert.consent_banner
-boop.pl###smart_push_smio_window
-businessinsider.com.pl###pushDefaultPopUp
-businessinsider.com.pl,noizz.pl##.pushBell
-ceneo.pl###notifications-toast
-chillizet.pl,radiozet.pl,~www.radiozet.pl##.btn-notif
-codziennypoznan.pl,ipolska24.pl##.perfecty-push-dialog-box
-ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:-abp-has(span:-abp-contains(/^Powiadomienia$/))
-folk24.pl###pushFooter
-gazetkonosz.pl##.floating-dialog
-homebook.pl###qgraphFakePromptContainer
-kupbilecik.pl###btn-notification
-mbank.pl###push-message
-meczyki.pl##.notifications-icon
-mediarun.com##.jeg_push_notification
-miastonowydwor.pl##.webpushBell
-minecraft.org.pl##[aria-label="Powiadomienia"]
-moneygrabbing.co.uk###foxpush_native_html
-mtech.pl##.alertContainer
-mvno-gsm.pl###webpushr-prompt-wrapper
-m.zapytaj.onet.pl,zapytaj.onet.pl##.notification-widget
-noizz.pl##.pushDefaultPopUp
-ogrodosfera.pl##.bell-container
-onet.pl##.notificationPrompt
-pilot.wp.pl##.notification-container
-pl,typeofweb.com###onesignal-popover-dialog
-pl.aliexpress.com#?#body > div:last-of-type:-abp-contains(Zezwalaj na powiadomienia)
-pl.waterdrop.com##.pushowl-widget-node
-polsatnews.pl###pushwooshBellWidget
-pomponik.pl##.ppg__signin
-sklepsamsung.pl##.b-modal_webpushCentered
-sklepsamsung.pl##.b-modal_webpushVertical
-sprzedajemy.pl###webPushWidget
-termedia.pl##body #ue_popups > #ue_push_dialog
-travelplanet.pl##.fcx-push-modal
-tvn24.pl##.__ipPerunElement[style*="position"]
-tygodniowa.pl##iframe[style*="fixed"]:not([src])
-um.gorzow.pl,wielen.pl,wronki.pl###js__webpushBell
-wamiz.pl###batchsdk-ui-alert-container
-wazcar.pl###push-notification-button
-wnp.pl##amp-web-push-widget
-zapytaj.onet.pl##.push-notification-box
-zdrowie.pap.pl##section ~ span[onclick="window.scrollTo(0, 0);"]
-zegarkiipasja.pl##.fcx-push-bubble-container
-zegarkiipasja.pl##.fcx-push-modal-container
 */pushServiceWorker.js$script,domain=go.tvn24.pl|player.pl|topagrar.pl|tvn.pl|~www.tvn.pl
 /firebase-push.js$domain=cafago.com|tomtop.com
 /firebase/firebase-messaging.js$script,domain=kobieceinspiracje.pl
@@ -83,11 +30,11 @@ zegarkiipasja.pl##.fcx-push-modal-container
 /sw.js$domain=adaware.com|kinoseans.pl|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl|youtube.com|zippyshare.com
 ||api.sociaplus.com/views/push/js/sdk/insider-push-native-sdk.js
 ||cashless.pl/serviceworker.js
+||cdn.*.com/push_app.js$script,domain=2conv.com|flv2mp3.by|flvto.biz
 ||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
 ||cdn.qgraph.io/v3/r/qgraph.v2.js$domain=domodi.pl|homebook.pl
 ||cdn.siteswithcontent.com/js/push/subscribe.js$script,domain=postimg.cc
 ||cdn.subscribers.com/assets/subscribers-sw.js$script,domain=www.badzjeszczelepszy.pl
-||cdn.*.com/push_app.js$script,domain=2conv.com|flv2mp3.by|flvto.biz
 ||chamsko.pl/js/push-notifications.js
 ||codziennypoznan.pl/webnotf.js
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
@@ -113,30 +60,76 @@ zegarkiipasja.pl##.fcx-push-modal-container
 ||twojcel.to/?smpushprofile
 ||txm.pl/crm-push-service-worker$script
 ||txm.pl/js/assets/crm-web-push-service-worker.js$script
+||web.webpushs.com/js/push/$script,domain=wiencewiazanki.pl
 ||webpush.interia.pl/activator.js
 ||webpush.interia.pl/scripts/*/push.js
-||web.webpushs.com/js/push/$script,domain=wiencewiazanki.pl
-||wp.pl/webpush/static/js/webpush.desktop.js
-||wp.pl/webpush/static/js/webpush.js
-||wp.pl/*.webpush.chunk.js
 ||wp.pl/*.webpush-desktop.chunk.js
 ||wp.pl/*.webpush-desktop.legacy.chunk.js
+||wp.pl/*.webpush.chunk.js
+||wp.pl/webpush/static/js/webpush.desktop.js
+||wp.pl/webpush/static/js/webpush.js
 ||youlead.pl/WebpushPrompt.js
 ||youtubersi.pl/themes/default/js/notify.js
 ||zalukaj.vip/wp-content/plugins/front-end-pm/assets/js/notification.js
 ||zpr-webpush-api.growpoland.pl/webpush-api/subscriptions
+2conv.com,flv2mp3.by,flvto.biz##.push-offer
+agrarsklep.pl,elle.pl,esklep.polomarket.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,morizon.pl,national-geographic.pl,przyslijprzepis.pl,wsb.edu.pl###ue_popups
+allani.pl,domodi.pl##div[id*="FakePromptContainer"]
+andzela.com##.kb-cs-notify-container
+at-outlet.pl###WebPushAddSubscription
+autocentrum.pl##.web-push-box
+bnpparibas.pl,eneba.com,estyl.pl,semahead.pl###ue_push_dialog
+boardpc.pl,forum.dobreprogramy.pl,forum.manjaro.pl,hub.filterlists.com##.alert-info.alert.consent_banner
+boop.pl###smart_push_smio_window
+businessinsider.com.pl###pushDefaultPopUp
+businessinsider.com.pl,noizz.pl##.pushBell
+ceneo.pl###notifications-toast
+chillizet.pl,radiozet.pl,~www.radiozet.pl##.btn-notif
+codziennypoznan.pl,ipolska24.pl##.perfecty-push-dialog-box
+ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:-abp-has(span:-abp-contains(/^Powiadomienia$/))
+folk24.pl###pushFooter
+gazetkonosz.pl##.floating-dialog
+homebook.pl###qgraphFakePromptContainer
+kupbilecik.pl###btn-notification
+m.zapytaj.onet.pl,zapytaj.onet.pl##.notification-widget
+mbank.pl###push-message
+meczyki.pl##.notifications-icon
+mediarun.com##.jeg_push_notification
+miastonowydwor.pl##.webpushBell
+minecraft.org.pl##[aria-label="Powiadomienia"]
+moneygrabbing.co.uk###foxpush_native_html
+mtech.pl##.alertContainer
+mvno-gsm.pl###webpushr-prompt-wrapper
+noizz.pl##.pushDefaultPopUp
+ogrodosfera.pl##.bell-container
+onet.pl##.notificationPrompt
+pilot.wp.pl##.notification-container
+pl,typeofweb.com###onesignal-popover-dialog
+pl.aliexpress.com#?#body > div:last-of-type:-abp-contains(Zezwalaj na powiadomienia)
+pl.waterdrop.com##.pushowl-widget-node
+polsatnews.pl###pushwooshBellWidget
+pomponik.pl##.ppg__signin
+sklepsamsung.pl##.b-modal_webpushCentered
+sklepsamsung.pl##.b-modal_webpushVertical
+sprzedajemy.pl###webPushWidget
+termedia.pl##body #ue_popups > #ue_push_dialog
+travelplanet.pl##.fcx-push-modal
+tvn24.pl##.__ipPerunElement[style*="position"]
+tygodniowa.pl##iframe[style*="fixed"]:not([src])
+um.gorzow.pl,wielen.pl,wronki.pl###js__webpushBell
+wamiz.pl###batchsdk-ui-alert-container
+wazcar.pl###push-notification-button
+wnp.pl##amp-web-push-widget
+zapytaj.onet.pl##.push-notification-box
+zdrowie.pap.pl##section ~ span[onclick="window.scrollTo(0, 0);"]
+zegarkiipasja.pl##.fcx-push-bubble-container
+zegarkiipasja.pl##.fcx-push-modal-container
 !
 !
 ! Ogólne reguły
-~pl###edrone_push--bubble:lang(pl), #edrone--push--alert--box:lang(pl)
-pl###edrone_push--bubble, #edrone--push--alert--box
-pl###onesignal-bell-container
-pl###pushAdUpBanner
-pl###pushwoosh-pop
-pl###pushwoosh-subscription-widget-root
-/OneSignalSDK.js$third-party,domain=com|eu|info|pl
-/joompush.js
 /joompush-sw.js
+/joompush.js
+/OneSignalSDK.js$third-party,domain=com|eu|info|pl
 /web-push/get-public-config$third-party,xmlhttprequest
 ||cdn.gravitec.net/sites/*/client.js
 ||cdn.gravitec.net/storage/*/client.js
@@ -147,12 +140,18 @@ pl###pushwoosh-subscription-widget-root
 ||js.iplsc.com/inpl.webpush/*/inpl.webpush.js$script
 ||mxapis.com^
 ||onesignal.com/webPushIframe$third-party
+||push-ad.com^$script,third-party
 ||pushalert.co^$third-party
 ||pushapp.pro^$third-party
 ||pushcrew.com^$script,third-party
 ||pushengage.com/script.js
 ||pushpushgo.com/scripts*/push.js$third-party
-||push-ad.com^$script,third-party
+~pl###edrone_push--bubble:lang(pl), #edrone--push--alert--box:lang(pl)
+pl###edrone_push--bubble, #edrone--push--alert--box
+pl###onesignal-bell-container
+pl###pushAdUpBanner
+pl###pushwoosh-pop
+pl###pushwoosh-subscription-widget-root
 !
 !
 ! Reguły specjalne
