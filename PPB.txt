@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 21 Sep 2022, 22:31 UTC+02:00
-! Version: 2022.9.21.1
+! Last modified: Thu, 22 Sep 2022, 02:31 UTC+02:00
+! Version: 2022.9.22.0
 ! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 21 wrz 2022, 22:31 UTC+02:00
+! Aktualizacja: czw, 22 wrz 2022, 02:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6857,8 +6857,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Copyright © 2022 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
 !@ v.2022.9.9.0 aktualizacja: pią, 09 wrz 2022, 18:15 UTC+02
-!@ 
-!@ 
+!@
+!@
 !@ Specyficzne reguły ukrywające
 ~dm.pgi.gov.pl,pgi.gov.pl###ispmodal, .jquery-modal
 1-st.com.pl,agrojd.com,agrospec.pl,allnet24.pl,arx.pl,aspel.com.pl,babysensepolska.pl,bhp.dozamel.pl,bikeman.pl,bosch.com.pl,comarch-esklep.pl,cudnydom.pl,e-oazakrakow.pl,elabrick24.pl,esklep.brandvital.eu,estetiq.pl,galerialazienek.pl,haczykowo.pl,kopalniasrebra.com,kran.tychy.pl,ksiegarniarubikon.pl,oftadirect.pl,papier24h.pl,papieryczerpane.pl,profesjonalne-nawadnianie.pl,selene.pl,sklep.abydos.pl,sklep.agro-eko.com.pl,sklep.agromasz.pl,sklep.balcamp.pl,sklep.benedetto.com.pl,sklep.budowniczy.com.pl,sklep.kotrak.com,sklep.kskd.pl,sklep.mebloart.eu,sklep.miodyapis.pl,sklep.phalanxgames.pl,sklep.rol-mech.pl,sklep.salvatti.pl,sklep.stalco.pl,sklep.tayama.pl,spawalniczy-sklep.pl,swiatkoralikow.pl,swiatkoralikow2.pl,texasclub.pl,tvprodukt.pl,wierzynek.pl,workstyle.pl#?#div[class*="config"][class*="Messages" i]:-abp-contains(/pliki "?cookies"?/)
@@ -9796,8 +9796,8 @@ zygzaksnow.pl###jOverlayContent, #jOverlay, #ppCookies
 zyro.com##.zyro-cookies
 !polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
 !polsatboxgo.pl,polsatgo.pl#?##__next > div[class^="sc-"]:first-child:-abp-has( > div[class^="sc-"] > h2 + p:-abp-contains(/^Potrzebujemy Twojej zgody/))
-!@ 
-!@ 
+!@
+!@
 !@ Specyficzne reguły blokujące
 oetker.*/static/js/privacy-dialog/
 /ajax/privacy_popup$xmlhttprequest,domain=debica24.eu|narew.info|zvami.tv
@@ -9958,9 +9958,9 @@ oetker.*/static/js/privacy-dialog/
 ||wyprawyrowerem.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||zgody.infor.pl/build/assets/js/main.js
 ||ztm.kielce.pl/modules/mod_rppopup/js/jquery.gafancybox.min.js
-!@ 
-!@ 
-!@ 
+!@
+!@
+!@
 !@ Ogólne reguły blokujące
 cookie-law-popup.js$domain=pl
 pl/tcf/cookie.js$script,domain=pl
@@ -10001,8 +10001,8 @@ pl/tcf/cookie.js$script,domain=pl
 ||cookieform.pl/assets/js/plugin.js$third-party
 ||hokuspokus.pl/themes/webtheme/js/whrodo.js
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=pl
-!@ 
-!@ 
+!@
+!@
 !@ Ogólne reguły ukrywające
 ~pl##body > div#cookie[class=""]
 ~pl##div[id^="ck_dsclr"][class*="ck_dsclr"]:lang(pl)
@@ -10780,8 +10780,8 @@ pl##[id^="topInfo"]:not(body):not(html)
 ##[id*="coockie"]:not(body):not(html):not([class*="button"])
 ##[id^="PolitykaPrywatnosci"]:not(body):not(html)
 ##[id^="polityka-prywatnosci"]:not(body):not(html):not(article)
-!@ 
-!@ 
+!@
+!@
 !@ Blokowanie elementów po zastosowaniu generichide
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#body > #app > div > span:not([id]):not([class]) > div[class]:not([id]):-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?##app > div > table > tbody > tr:nth-child(2) > td > span > div:-abp-has(> div[class] > div[class] > a[href="http://onas.wp.pl/poufnosc.html"])
@@ -10798,12 +10798,12 @@ web.archive.org###popup-cookies
 wzory-cv.com##.gatewayBar
 xboxforum.pl##.notice--cookie
 ||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=jbzdy.cc|jbzdy.com.pl|jbzdy.pl
-!@ 
-!@ 
+!@
+!@
 !@ Bugi Prebake
 gg.pl#@#body > div:nth-of-type(2) > div
-!@ 
-!@ 
+!@
+!@
 !@ Bugi Kiboke
 agrohandel.com.pl,gtv.com.pl#@#.panel_cookie:not(body):not(html)
 aion.eu#@#.cookies-notification:not(body)
@@ -10899,8 +10899,8 @@ wolframalpha.com##footer ~ section
 @@||sdk.privacy-center.org^$domain=bonduelle.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikwschodni.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|filmweb.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|regiodom.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl
 @@||s.tvp.pl/files/portale-v*/polityka-prywatnosci/js/tvp-embed-cmp.js
 @@||wisla-plock.pl/scripts/jquery.ihavecookies.js$script,domain=www.wisla-plock.pl
-!@ 
-!@ 
+!@
+!@
 !@ Wyjątki
 allegro.pl,pikio.pl,sklep.winkhaus.pl#@#[class*="cookie-policy"]:not(body):not(html)
 bgk.pl#@#.cc-revoke:not(body):not(html)
@@ -10946,8 +10946,8 @@ wtk.pl#@#.privacy-container:not(body):not(html):not(.content-container)
 @@||pracatobie.pl/jscripts/cookieLaws.js
 @@||quantcast.mgr.consensu.org^$domain=fly4free.pl
 @@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=gry.pl
-!@ 
-!@ 
+!@
+!@
 !#if (!adguard_ext_android_cb && !adguard_app_ios)
 !#endif
 !@ <<<<<<<< https://raw.githubusercontent.com/PolishRoboDogHouse/polish-ads-filter/RTM/cookies_filters/adblock_cookies.txt
