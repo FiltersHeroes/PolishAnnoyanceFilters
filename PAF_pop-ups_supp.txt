@@ -1,7 +1,7 @@
 ! Codename: Pop-ups - supplement
 !@ >>>>>>>> popupy_suplement + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
-!rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"])
-!rossmann.pl##.modal:has( > div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
+!rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"])
+!rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !smaker.pl###popup.fanPlug, #overlay
 !smaker.pl##html > body.scrollingDisabled:style(overflow: visible !important;)
 ||mailerlite.com^$3p,important,domain=beitadmin.pl
@@ -523,6 +523,7 @@ homebook.pl##body.has-open-popup:style(overflow: visible !important; padding-rig
 it.tarnow.pl##+js(acis, $, #livingModal)
 kursszybkiegoczytania.pl##.et_bloom_popup[data-idle_timeout]:remove()
 lookcam.com###lookcam-fb-modal, .modal-backdrop
+lookcam.com##.modal-open[class]:style(overflow: visible !important; padding-right: 0 !important; margin-right: 0 !important;)
 makarun.pl###makarun-modal, .modal-backdrop
 mediasam.pl###myWorning, .modal-backdrop
 mprofi.pl##.tve-leads-lightbox
