@@ -1,5 +1,5 @@
 ! Codename: Pop-ups - supplement
-!@ >>>>>>>> popupy_suplement + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
+!@ >>>>>>>> popupy_suplement + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
 !rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 !smaker.pl###popup.fanPlug, #overlay
@@ -497,9 +497,9 @@ zlotymotocyklowe.pl##.fancybox-overlay:has([target="_blank"])
 zozsuchabeskidzka.pl###mpc-modal-4-0
 zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important; overflow-y: visible !important;)
 zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
-!@ <<<<<<<< popupy_suplement + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
+!@ <<<<<<<< popupy_suplement + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
 !#if !cap_html_filtering
-!@ >>>>>>>> popupy_bez_html + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_bez_html.txt
+!@ >>>>>>>> popupy_bez_html + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_bez_html.txt
 !annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
 !annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
 4kdownload.com##+js(ra, data-remodal-id, .thanks-modal)
@@ -534,10 +534,10 @@ ogrodosfera.pl###NewsletterExit, .modal-backdrop
 ogrodosfera.pl,zoo.bydgoszcz.com##.modal-open:style(overflow: auto !important;)
 sportowefakty.wp.pl##+js(ra, id, .exitpopup)
 zoo.bydgoszcz.com###NewsShow, .modal-backdrop
-!@ <<<<<<<< popupy_bez_html + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_bez_html.txt
+!@ <<<<<<<< popupy_bez_html + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_bez_html.txt
 !#endif
 !#if cap_html_filtering
-!@ >>>>>>>> popupy_html + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_html.txt
+!@ >>>>>>>> popupy_html + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_html.txt
 4kdownload.com##^.thanks-modal
 4kdownload.com##^.widget-modal
 alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
@@ -563,10 +563,10 @@ muscat.pl##^#discountPopup
 ogrodosfera.pl##^#NewsletterExit
 sportowefakty.wp.pl##^#exitpopup
 zoo.bydgoszcz.com##^#NewsShow
-!@ <<<<<<<< popupy_html + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_html.txt
+!@ <<<<<<<< popupy_html + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_html.txt
 !#endif
 !#if !ext_ublock
-!@ >>>>>>>> popupy_AG + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
+!@ >>>>>>>> popupy_AG + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
 !annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl#@?##colorbox:not(:has(.cboxPhoto))
 4kdownload.com##.remodal-overlay
 4kdownload.com##.remodal-wrapper:has(> .thanks-modal)
@@ -610,7 +610,7 @@ shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important;)
 shoplet.pl#?#.fancybox-overlay:has(#x13callback)
 sportowefakty.wp.pl$$#exitpopup
 zoo.bydgoszcz.com$$#NewsShow
-!@ <<<<<<<< popupy_AG + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
+!@ <<<<<<<< popupy_AG + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
 !#endif
 !#if ext_ublock
 annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:has(+ #colorbox:has(#newsletter_colorbox)):style(visibility: hidden !important;)
