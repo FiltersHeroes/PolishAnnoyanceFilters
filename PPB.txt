@@ -5,17 +5,17 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 24 Sep 2022, 11:28 UTC+02:00
-! Version: 2022.9.24.3
-! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
+! Last modified: Sat, 24 Sep 2022, 14:31 UTC+02:00
+! Version: 2022.9.24.4
+! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
-!   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
+!   GitHub => https://github.com/FiltersHeroes/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 24 wrz 2022, 11:28 UTC+02:00
+! Aktualizacja: sob, 24 wrz 2022, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2059,7 +2059,7 @@ pl,~znak.com.pl##.newsletter-container
 !
 !
 ! Popupy
-!@ >>>>>>>> popupy + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
 !agro-rolnik.pl##.sg-popup-content
 !chrzescijanin.pl###spu-6691, #spu-bg-6691
 !g2aarena.pl##.sg-popup-builder-content, .sgpb-popup-overlay
@@ -3162,11 +3162,11 @@ zlotemysli.pl##._form_show._form-wrapper
 zmianywzyciu.pl###popup_facebook
 zpierwszegotloczenia.pl###popup-ad, .modal-backdrop
 zszywka.pl###inv-request-popup
-!@ <<<<<<<< popupy + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!@ <<<<<<<< popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
 !
 !
 ! Popupy - ogólne reguły
-!@ >>>>>>>> popupy_ogolne + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
+!@ >>>>>>>> popupy_ogolne + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
 !~pl###dzinga .overlay:lang(pl), #dzinga .popup:lang(pl)
 .facebooklikepopup.
 /axnewsletter.js
@@ -3217,7 +3217,7 @@ pl##.stayMore__container
 pl##.TloPopUpCiemne
 pl##body:not(.x13popup-open) #x13popup-container
 pl##body:not(.x13popup-open) #x13popup-cover
-!@ <<<<<<<< popupy_ogolne + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
+!@ <<<<<<<< popupy_ogolne + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
 !
 !
 ! Powiadomienia push
@@ -4508,7 +4508,7 @@ zooplus.pl##.type_banner[id*="top-marki"]
 !
 !
 ! Widżety kontaktowe/informacji zwrotnej
-!@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
+!@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 ###chaty-channel-facebook_messenger
 /pl/at-call/call-me.js$script,domain=lessmess.storage
 /zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
@@ -5272,7 +5272,7 @@ zamg.klodzko.pl##.side-tab-widget > [href="kontakt.html"]
 zapowiedzi24.blogspot.com##widgetbot-crate
 zooart.com.pl###shower_desc.fast_desc
 zrzutka.pl##.uv-bottom-right
-!@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/PolishFiltersTeam/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
+!@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 !
 !
 ! Widżety kontaktowe/informacji zwrotnej - ogolne reguły
