@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 01 Oct 2022, 17:30 UTC+02:00
-! Version: 2022.10.1.0
+! Last modified: Sun, 02 Oct 2022, 17:15 UTC+02:00
+! Version: 2022.10.2.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,12 +13,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 01 paź 2022, 17:30 UTC+02:00
+! Aktualizacja: nie, 02 paź 2022, 17:15 UTC+02:00
 !
 !
 !
 ! Specyficzne reguły
-/assets/js/Cursor_1__1.min.js$domain=com|eu|info|pl
 /js/jquery.nicescroll.js$script,domain=2x45.info|akademiabambino.pl|kolczewska.pl|komp-net.eu|sklep.audiopunkt.com.pl
 /js/jquery.nicescroll.min.js$script,domain=doniczki-poznan.pl|podrogach.pl|sercedlazwierzat.pl
 /js/jquery.nicescroll.plus.js$script,domain=2x45.info|doniczki-poznan.pl
@@ -29,7 +28,6 @@
 /js/smoothPageScroll.min.js$script,domain=zse.leszno.pl
 /wp-content/plugins/wp-snow-effect/public/js/jsnow.js$script,domain=www.klimacold.com.pl
 ||anna-bielizna.pl/js/snowstorm.js
-||app.refericon.pl/js/ri.js
 ||assets.polskaniepodlegla.pl/images*/reklama_iczytamy.jpg
 ||cdn.pup.sosnowiec.pl/themes/default/pics/ico/ico_klawisze.png
 ||cdngr.pl/assets/gratka/*/images/logoPromo.svg$image
@@ -38,20 +36,21 @@
 ||finochelm.pl/images/olx-ico.png$image
 ||gfx.dlastudenta.pl/v3/tpl/dm.png$image
 ||images.fm.tuba.pl/tuba3/_js/plugin.min.js$domain=junior.sport.pl|polskabiega.sport.pl
+||jugrol.pl/wp-content/uploads/20*/0*/ikonka-olx-zielona-footer.jpg$image
+||jugrol.pl/wp-content/uploads/20*/0*/olx-ikona-na-www.jpg$image
 ||kariera.infopraca.pl/wp-content/themes/cv-tools/img/pracanaemail.jpg
-||leaselink.pl/js/slide-button-shoper.js
-||leaselink.pl/js/slide-button.js
 ||morele.unifiedfactory.com/widget/config.js
 ||niezbednik.mediraty.pl/img/widget_duzy_button_1.png
 ||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
 ||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
-||platformafinansowa.pl/assets/other/widget.png$third-party
+||opera.com/en/downloadassets/sticky-bar-auto$subdocument
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$xmlhttprequest
 ||sklepreklamowy.pl/skins/user/shoper_red_1/images/user/franczyza-b.png
 ||static.whatshelp.io/widget-send-button/js/init.js
 ||sucuri.net/monitoring/badge.js
+||telepolis.pl/next/*$xmlhttprequest,domain=www.telepolis.pl
 ||tessa.com.pl/uploads/images/olx.png
 ||trustisto.com/socialproof.js
 ||twardogora.pl/images/portal/tlo1.jpg
@@ -62,11 +61,7 @@
 ||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js
 ||widgets.okazje.info.pl^$third-party
-||www.jugrol.pl/wp-content/uploads/2018/06/ikonka-olx-zielona-footer.jpg$image
-||www.jugrol.pl/wp-content/uploads/2018/06/olx-ikona-na-www.jpg$image
-||www.opera.com/en/downloadassets/sticky-bar-auto$subdocument
-||www.telepolis.pl/next/*$xmlhttprequest,domain=www.telepolis.pl
-||www.windowsmania.pl/images/bar/portal.jpg
+||windowsmania.pl/images/bar/portal.jpg
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href*="wlacz-tryb-ciemny-"])
 ~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href="undefined"]:-abp-contains(Jak to działa?))
@@ -378,6 +373,7 @@ feriogaj.com##.riding-box
 filehippo.com###avast-seal, .avast-promo
 filehippo.pl##.program-actions-header__promo
 filman.cc#?#.alert-info.alert:-abp-has(a[href*="na-telefony-i-tablety-"])
+filmoterapia.pl###post_more_wrapper
 filmweb.pl##.loginEncourageTooltip
 filmweb.pl##.page.filmPage ~ .page, .page.newsPage ~ .page
 finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,turystyka.wp.pl,wiadomosci.wp.pl#?#div > div > div > div > div > div > div > div > div > div:-abp-has(aside:-abp-contains(następny artykuł))
@@ -1076,7 +1072,12 @@ zyciepabianic.pl##.paper
 ##.circle-cursor
 ##[class="cursor"]:empty
 ##body > .buttonHomepage, .buttonHomepage ~ .containerHomepage
+/assets/js/Cursor_1__1.min.js$domain=com|eu|info|pl
 /hello-elementor-child/pointer.$script,stylesheet,~third-party
+||app.refericon.pl/js/ri.js
+||leaselink.pl/js/slide-button-shoper.js
+||leaselink.pl/js/slide-button.js
+||platformafinansowa.pl/assets/other/widget.png$third-party
 ~pl##.mraty-widget:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
