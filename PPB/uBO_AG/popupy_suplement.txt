@@ -1,5 +1,6 @@
 !rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
+hejto.pl##.ReactModal__Overlay:has(div.ReactModalPortal p.font-bold:has-text(/^cześć!$/i))
 ||mailerlite.com^$3p,important,domain=beitadmin.pl
 99rent.pl##.invpopup
 99rent.pl##body.invpop-visible:style(overflow: visible !important;)
@@ -10,7 +11,8 @@ abrakadabra.sklep.pl,ilily.pl,sekrecik.pl###myWorning, .modal-backdrop
 action.com##+js(rc, is-locked, html, stay)
 action.com##.is-locked .scroll-bar
 action.com##.is-locked body:style(position: static !important; overflow-y: scroll !important;)
-action.com##.ReactModal__Body--open:style(overflow: auto!important;)
+action.com,hejto.pl##.ReactModal__Body--open:style(overflow: auto !important;)
+action.com,hejto.pl##.overflow-hidden:style(overflow: auto !important;)
 action.com##.ReactModalPortal
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
 action.com,euro.com.pl,mulan.pl,oleole.pl,pasmanteria.eu,shipgratis.eu,urwisydwa.sklep.pl,wetro.pl##body[style*="padding"]:style(padding-right: 0 !important;)
@@ -187,7 +189,7 @@ jzo.com.pl##.cp-overflow-hidden:style(overflow: visible !important;)
 jzo.com.pl,um.jaslo.pl##.cp-modal-popup-container
 kartafitsport.pl,kuriernet.pl##.modal.bootbox, .modal-backdrop
 kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1 !important;)
-kierunekwodkan.pl##.html :style(overflow: auto!important;)
+kierunekwodkan.pl##.html :style(overflow: auto !important;)
 kierunekwodkan.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 kierunekwodkan.pl##.mfp-ready.mfp-bg
 kioskpolis.pl###exit-intent
@@ -309,6 +311,7 @@ pl.dreamstime.com##html.documentLocked:style(margin-right: 0 !important;)
 pl.johnnybet.com##.modals.dimmer.ui:has(.common-offer)
 pl.johnnybet.com##body.dimmable, body.dimmed:style(overflow: auto !important;)
 pl.tommy.com##.ReactModal__Body--open:style(overflow: auto !important;)
+pl.tommy.com##.overflow-hidden:style(overflow: auto !important;)
 pl.tommy.com##.ReactModalPortal:has(.newsletter--modal)
 play.pl##.mobile-map-list .contact-us-modal, .mobile-map-list > .page-wrapper:before
 play.pl##.modal-open[class] > .mobile-map-list:style(overflow: auto !important;)
