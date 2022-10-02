@@ -14,10 +14,11 @@ abrakadabra.sklep.pl,ilily.pl,sekrecik.pl###myWorning, .modal-backdrop
 action.com##+js(rc, is-locked, html, stay)
 action.com##.is-locked .scroll-bar
 action.com##.is-locked body:style(position: static !important; overflow-y: scroll !important;)
-action.com##.ReactModal__Body--open:style(overflow: auto!important;)
 action.com##.ReactModalPortal
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
+action.com,czytamyetykiety.pl,hejto.pl,newtech.com.pl,pl.tommy.com##.overflow-hidden:style(overflow: auto !important;)
 action.com,euro.com.pl,mulan.pl,oleole.pl,pasmanteria.eu,shipgratis.eu,urwisydwa.sklep.pl,wetro.pl##body[style*="padding"]:style(padding-right: 0 !important;)
+action.com,hejto.pl,pl.tommy.com##.ReactModal__Body--open:style(overflow: auto !important;)
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important;)
 agatabielen.com##.remodal-overlay
@@ -125,7 +126,6 @@ confronter.pl###cfModal, .modal-backdrop
 confronter.pl##html:style(overflow-y: auto !important;)
 cyberdefence24.pl,defence24.com,defence24.pl,energetyka24.com,kidsworld.pl,ncez.pl,politykazdrowotna.com,space24.pl###newsletter-modal
 czytamyetykiety.pl###ebook-popup.ebook-popup
-czytamyetykiety.pl,newtech.com.pl##.overflow-hidden:style(overflow: auto !important;)
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important; padding-right: 0 !important;)
 deccoria.pl##.dc-layout--modal-active:style(overflow-y: auto !important; touch-action: unset !important;)
 deccoria.pl##.dc-modal-is-opened.dc-modal-wrapper, .dc-modal-is-opened.dc-modal-overlay
@@ -187,10 +187,14 @@ haart.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 haart.pl##.sgpb-overflow-hidden, .sgpb-overflow-hidden-body:style(overflow: auto !important;)
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
 hardreset.info###modal-facebook, .modal-backdrop
+hejto.pl##.ReactModal__Overlay:has(div.ReactModalPortal p.font-bold:has-text(/^cześć!$/i))
 husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
 husse.pl,royalpark.pl##body.fancybox-active:style(overflow: auto !important;)
 ibuk.pl###modal-pop, .modal-backdrop
+ideaart.com.pl##.remodal-is-locked, body:style(overflow: auto !important;)
+ideaart.com.pl##.remodal-is-opened.remodal-overlay
+ideaart.com.pl##.remodal-is-opened.remodal-wrapper
 ideau.pl##.pum[data-popmake*="nowy-produkt"], .overlay
 idream.pl###modal-getresponse, .modal-backdrop
 ifirma.pl###reklama-overlay
@@ -208,9 +212,9 @@ jzo.com.pl##.cp-overflow-hidden:style(overflow: visible !important;)
 jzo.com.pl,um.jaslo.pl##.cp-modal-popup-container
 kartafitsport.pl,kuriernet.pl##.modal.bootbox, .modal-backdrop
 kiep.pl##[style*="opacity: 0.3;"]:style(opacity: 1 !important;)
-kierunekwodkan.pl##.html :style(overflow: auto!important;)
 kierunekwodkan.pl##.mfp-ready.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 kierunekwodkan.pl##.mfp-ready.mfp-bg
+kierunekwodkan.pl,profbud.info,stradivarius.com##html[style]:style(overflow: auto !important;)
 kioskpolis.pl###exit-intent
 kioskpolis.pl##.exit-intent:style(overflow: visible !important;)
 kire.pl##.gafancybox-lock > body, html.gafancybox-lock:style(overflow: visible !important;)
@@ -343,7 +347,6 @@ pl.dreamstime.com##html.documentLocked header:style(padding-right: 0 !important;
 pl.dreamstime.com##html.documentLocked:style(margin-right: 0 !important;)
 pl.johnnybet.com##.modals.dimmer.ui:has(.common-offer)
 pl.johnnybet.com##body.dimmable, body.dimmed:style(overflow: auto !important;)
-pl.tommy.com##.ReactModal__Body--open:style(overflow: auto !important;)
 pl.tommy.com##.ReactModalPortal:has(.newsletter--modal)
 play.pl##.mobile-map-list .contact-us-modal, .mobile-map-list > .page-wrapper:before
 play.pl##.modal-open[class] > .mobile-map-list:style(overflow: auto !important;)
@@ -369,7 +372,6 @@ prawokonsumenckie.pl##.popup[role]
 prawokonsumenckie.pl##body:style(overflow: auto !important; height: initial !important;)
 profbud.info###yl-popup-wrapper-popupNewPrices
 profbud.info##.yl-popup-transparent:has(~ #yl-popup-wrapper-popupNewPrices)
-profbud.info,stradivarius.com##html[style]:style(overflow: auto !important;)
 prusice.pl,przemysl.pl###infoPageLayerModal, .modal-backdrop
 prywatnoscwsieci.pl##.CampaignType--popup.Campaign
 prywatnoscwsieci.pl##.om-position-popup:style(overflow: auto !important;)
@@ -390,6 +392,8 @@ rocks-jeans.com##.dialoged:style(position: static !important; overflow: auto !im
 roland-gazeta.pl##.eb-page_no_scroll, .eb-page_no_scroll body:style(overflow: auto !important;)
 roland-gazeta.pl##div[data-type="popup"][data-options*="Popup Exit"]
 rolbud.eu,wielkopolskaes.pl##.body-overlayed:style(overflow: auto !important;)
+rolmix.net.pl##.noscroll.noscroll, body:style(overflow: auto !important;)
+rolmix.net.pl##.popup-html
 rossmann.pl##body.modal-open[class] > div[tabindex][style^="position:"] > div > .modal:has(> .modal-news)
 rossmann.pl##body.modal-open[class] > div[tabindex][style^="position:"] > div > .modal:has(> .modal-news) + .modal-backdrop
 rowery-elektryczne.pl###popup, #popup-overlay
@@ -623,7 +627,7 @@ www.auchan.pl##.v-dialog__content:has(> div.v-dialog > div:not([id]):not([class]
 www.auchan.pl##.v-overlay:has(~ .v-dialog__content > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
 !#endif
 !#if cap_user_stylesheet
-!www.vivrehome.pl##.js-popup-subscribe:not([style]):watch-attr(style):has(.js-title-default.is-hidden:watch-attr(class))
+!
 !#endif
 !#if env_legacy
 lento.pl##footer ~ script:contains(showNotify())
