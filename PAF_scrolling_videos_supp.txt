@@ -1,6 +1,6 @@
 ! Codename: Scrolling Videos - Supplement
 ~music.youtube.com,youtube.com##ytd-miniplayer[has-playlist-data] #movie_player video:remove()
-~music.youtube.com,youtube.com##ytd-miniplayer[has-playlist-data][active]
+~music.youtube.com,youtube.com##ytd-miniplayer[has-playlist-data][active]:remove()
 ~music.youtube.com,youtube.com##ytd-miniplayer[has-playlist-data][closed] ~ * .ytp-miniplayer-button
 bankier.pl,bryla.pl,claudia.pl,czterykaty.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,medianarodowe.com,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to##+js(set, ONTVminiatureBlocked, trueFunc)
 bezpiecznystrazak.pl##+js(ra, autoplay, video)
