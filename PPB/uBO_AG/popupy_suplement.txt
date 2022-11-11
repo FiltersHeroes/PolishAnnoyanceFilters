@@ -12,7 +12,8 @@ action.com##.is-locked .scroll-bar
 action.com##.is-locked body:style(position: static !important; overflow-y: scroll !important;)
 action.com##.ReactModalPortal
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
-action.com,czytamyetykiety.pl,hejto.pl,newtech.com.pl,pl.tommy.com##.overflow-hidden:style(overflow: auto !important;)
+action.com,czytamyetykiety.pl,hejto.pl,newtech.com.pl,pl.tommy.com##body.overflow-hidden:style(overflow: auto !important;)
+action.com,czytamyetykiety.pl,hejto.pl,newtech.com.pl,pl.tommy.com##html.overflow-hidden:style(overflow: auto !important;)
 action.com,euro.com.pl,mulan.pl,oleole.pl,pasmanteria.eu,shipgratis.eu,urwisydwa.sklep.pl,wetro.pl##body[style*="padding"]:style(padding-right: 0 !important;)
 action.com,hejto.pl,pl.tommy.com##.ReactModal__Body--open:style(overflow: auto !important;)
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
@@ -166,7 +167,7 @@ giacomo.pl,miastakobiet.pl,teamquest.pl###newsletterModal
 gromada.pl##.fancybox-overlay-fixed
 gromada.pl,royalpark.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important;)
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
-hejto.pl##.ReactModal__Overlay:has(div.ReactModalPortal p.font-bold:has-text(/^cześć!$/i))
+hejto.pl##.ReactModalPortal:has(> div.ReactModal__Overlay > div#RegisterDialog)
 husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important;)
 husse.pl,royalpark.pl##body.fancybox-active:style(overflow: auto !important;)
