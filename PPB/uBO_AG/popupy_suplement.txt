@@ -1,5 +1,8 @@
 !rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"])
 !rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
+zadowolenie.pl##.modal:has(img[src*="ZDW_NL_box"])
+zadowolenie.pl##.modal-backdrop
+zadowolenie.pl##.modal-open[class]:style(overflow: visible !important; padding-right: 0 !important; margin-right: 0 !important;)
 ||mailerlite.com^$3p,important,domain=beitadmin.pl
 99rent.pl##.invpopup
 99rent.pl##body.invpop-visible:style(overflow: visible !important;)
