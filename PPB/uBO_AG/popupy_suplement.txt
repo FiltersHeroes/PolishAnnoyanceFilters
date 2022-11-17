@@ -2,7 +2,6 @@
 !rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
 ||mailerlite.com^$3p,important,domain=beitadmin.pl
 99rent.pl##.invpopup
-wakacje.pl#@##__next > div > div > div[class]:not([id]):has(button):has-text(Administratorem)
 99rent.pl##body.invpop-visible:style(overflow: visible !important;)
 abcsurf.pl,agroarm.pl,akcesoriabaristy.pl,allepaznokcie.pl,arapaima.eu,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,greckikiosk.pl,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,makarfish.pl,mencare.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sklep.mmagro.pl,sport2002.pl,sushi-sklep.pl##.mask + .modal
 abcsurf.pl,agroarm.pl,akcesoriabaristy.pl,allepaznokcie.pl,arapaima.eu,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,greckikiosk.pl,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,makarfish.pl,mencare.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sklep.mmagro.pl,sport2002.pl,sushi-sklep.pl##.mask:has(+ .modal)
@@ -157,6 +156,8 @@ extradom.pl###requestCallStart, #requestCallExit, .modal-backdrop
 farmer.pl###nowa_strona
 farmer.pl##.windowOpen:style(overflow: auto !important;)
 fdm.pl,galskor.com##+js(acis, $, fancybox)
+filehippo.pl,softonic.pl###modal-di-avast:remove()
+filehippo.pl,softonic.pl###modal-di-opera:remove()
 fmmobile.pl###lead-modal, .modal-backdrop
 forum.gofin.pl###KW_Tlo, #KW_Okno
 fpiec.pl##.full-screen-overlay
@@ -390,8 +391,6 @@ sklepmartes.pl##html.modalbox-is-visible body:style(overflow: auto !important;)
 sklepzrowerami.pl##.fancybox-overlay:has(.apc_modal)
 socialpress.pl##.bottom-content-newsletter
 sofine.pl##+js(nosiif, popcount, 1000)
-softonic.pl,filehippo.pl###modal-di-avast:remove()
-softonic.pl,filehippo.pl###modal-di-opera:remove()
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 spidersweb.pl##html:style(overflow: visible !important; margin-right: 0 !important;)
@@ -426,6 +425,7 @@ voxfm,www.eska.pl##+js(aeld, , initCityPicker)
 wakacje.pl##body > div[class*=" "]:has(> div[class*=" "] > div[height="auto"] > header > h3[class]:has-text(/^Pomóż nam usprawnić stronę$/))
 wakacje.pl##html.modal-active > body:style(overflow: visible !important; padding-right: 0 !important;)
 wakacje.pl##html.modal-active:style(overflow: visible !important;)
+wakacje.pl#@##__next > div > div > div[class]:not([id]):has(button):has-text(Administratorem)
 walizkazabawek.pl###Widget1, .modal-backdrop
 weathermap.netatmo.com##.blured #map, .blured .side-panel, .blured .navbar, .blured .button-control-ctn, .blured .small-banner, .side-panel.blured, .blured #mainwrapper .legend:style(filter: none !important;)
 weathermap.netatmo.com##first-use-slider
