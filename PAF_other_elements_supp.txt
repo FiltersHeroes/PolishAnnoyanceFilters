@@ -1,14 +1,5 @@
 ! Codename: Other Elements - Supplement
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
-!play.google.com###gba:style(height: 60px !important;)
-!play.google.com##div[aria-label="Święta pełne gier"][role="dialog"]
-!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item
-!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item ~ .infinite-item:remove()
-!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll
-!telepolis.pl,tlp.is##.infinite-content-container > .infinite-item:first-child > .infinite-more-scroll:remove()
-!twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion###layers span:has-text(/^(Bądź na bieżąco|Wykorzystaj cały potencjał Twittera)$/):matches-css(font-weight: 700):upward(4)
-!www.youtube.com###contents ytd-rich-grid-row:first-child > #contents:first-child, #contents ytd-rich-grid-row:first-child ytd-rich-grid-media:style(max-width: unset !important;)
-!www.youtube.com###contents ytd-rich-grid-row:first-child:style(--ytd-rich-grid-items-per-row: 1 !important;)
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
 ||mokrenosy.pl/*/avada-nicescroll.js$script
@@ -109,6 +100,7 @@ pepper.pl##main#main footer#footer.tGrid-row:style(display: block !important;)
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"] h1:style(margin-top: 45px !important;)
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"]:style(height: 225px !important;)
 pl##.cTopicPostArea .cGuestTeaser:upward(.cTopicPostArea)
+pl.accounts.ikea.com##.grecaptcha-badge:style(visibility: hidden !important;)
 pl.everli.com###smartbanner
 pl.everli.com##.with-smartbanner .external-header:style(top: 0 !important;)
 pl.everli.com##.with-smartbanner .top-band:style(margin-top: 0 !important;)
