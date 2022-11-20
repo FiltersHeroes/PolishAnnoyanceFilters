@@ -1,4 +1,3 @@
-pl.accounts.ikea.com##.grecaptcha-badge:style(visibility: hidden !important;)
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
 ||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
@@ -100,6 +99,7 @@ pepper.pl##main#main footer#footer.tGrid-row:style(display: block !important;)
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"] h1:style(margin-top: 45px !important;)
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"]:style(height: 225px !important;)
 pl##.cTopicPostArea .cGuestTeaser:upward(.cTopicPostArea)
+pl.accounts.ikea.com##.grecaptcha-badge:style(visibility: hidden !important;)
 pl.everli.com###smartbanner
 pl.everli.com##.with-smartbanner .external-header:style(top: 0 !important;)
 pl.everli.com##.with-smartbanner .top-band:style(margin-top: 0 !important;)
