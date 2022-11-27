@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 26 Nov 2022, 19:14 UTC+01:00
-! Version: 2022.11.26.2
+! Last modified: Mon, 28 Nov 2022, 00:28 UTC+01:00
+! Version: 2022.11.28.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 26 lis 2022, 19:14 UTC+01:00
+! Aktualizacja: pon, 28 lis 2022, 00:28 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -589,6 +589,7 @@ esprit.com.pl##.newsletter-gora
 espritshop.pl###newsletter-registration-form
 esselte.com##div.span6:nth-of-type(2)
 essilor.pl##.Footer-col--contact.Footer-col > .Footer-title--head.Footer-title
+estante.pl###block-5 > .mailpoet_form
 estella-shop.eu##.pxl-footer-container .pxl-newsletter > div > div:nth-of-type(1) > *
 estradaistudio.pl###subscribe-newsletter
 et.com.pl##.column > #be
@@ -2212,7 +2213,7 @@ agamasmaka.pl##.et_bloom_auto_popup.et_bloom_flyin
 agd-czesci.com.pl,sklepbazant.pl,swiatmodeli.eu##.mbank-top-layer, .mask
 agnieszkawielobob.pl,cyklo.info.pl##.et_bloom_popup
 agrarsklep.pl,go.tvn24.pl,inea.pl,player.pl,profitechnika.pl,teb.pl,topagrar.pl,www.pzu.pl##.__ipPerunElement[style*="position"]
-agro-rolnik.pl,agroefekt.pl,apaczka.pl,blog.lh.pl,dekanex.pl,dobroplast.pl,dzisiajwgliwicach.pl,g2aarena.pl,gf24.pl,glokalna.pl,komputerowapasja.pl,konopia-med.pl,ksm.org.pl,lukasiewicz.gov.pl,neworleans.pl,niw.gov.pl,no44.pl,prostamol.pl,siecprzedsiebiorczychkobiet.pl,sklep.lancray.pl,sulmierzyce.info,techfresh.pl,techsetter.pl,uroda.in,vratislavia-medica.pl,zostanwpolsce.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+agro-rolnik.pl,agroefekt.pl,apaczka.pl,blog.lh.pl,dekanex.pl,dobroplast.pl,dzisiajwgliwicach.pl,estante.pl,g2aarena.pl,gf24.pl,glokalna.pl,komputerowapasja.pl,konopia-med.pl,ksm.org.pl,lukasiewicz.gov.pl,neworleans.pl,niw.gov.pl,no44.pl,prostamol.pl,siecprzedsiebiorczychkobiet.pl,sklep.lancray.pl,sulmierzyce.info,techfresh.pl,techsetter.pl,uroda.in,vratislavia-medica.pl,zostanwpolsce.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 agro-star.com.pl##.lufcik, .lufcik__bg
 agro-trade.pl###f-popup, .popup-overlay
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
@@ -3446,13 +3447,6 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 !
 !
 ! Strzałki
-!agro-sklep.com,agromr.eu,avmarket.eu,czescirolnicze.eu,delllow.com,dronexpert.eu,drukowanie.net,e-hurtowo.eu,follynail.com,freshtec.eu,interlumen.com,kegel-aj.com,kochamzabawki.eu,marax.eu,ogrodzenia24.eu,rafex.eu,sklep-agrohurt.eu,sklep.serwiskotly.com,tusze.info###doDolu, #doGory
-!batteryworld.eu,goldplants.eu###doDolu, #doGory
-!ofeminin.pl##.backToMainPage
-!onholidays.pl,salttravel.pl,ilkus.com.pl,zatur.pl,mtour.net.pl,el-tour.com.pl##.top-bottom-btns > a[id^="btn-back-to-"]
-!pl.vivre.eu##.cd-top
-!vivrehome.pl##.btn-back2top
-!||back-to-top.appspot.com/app/index.html
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
 ||back-to-top.appspot.com^$subdocument
@@ -4400,8 +4394,6 @@ zszywka.pl###scroolToTop
 /wp-content/*/wpfront-scroll-top.$script
 /wp-content/plugins/dynamic-to-top/js/dynamic.to.top.min.js
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
-~active.sklep.pl,~bel-pol.pl,~beskidzka-akademia.pl,~betard.pl,~forum.dobreprogramy.pl,~gdansk.pl,~lenartowiczclinic.pl,~nasztalerz.pl,~ostredyzury.pl,pl##.fa-angle-up
-~cm-silesia.pl,~gafka.pl,~katowice.pl,pl,~proxima.pl,~wroc.pl##.fa-angle-double-up
 ~deweloper-interes.pl,pl###back_to_top
 ~douglas.pl,pl##.scroll-top:not(body):not(html)
 ~ifirma.pl,pl##.dogory
