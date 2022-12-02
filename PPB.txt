@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 02 Dec 2022, 16:30 UTC+01:00
-! Version: 2022.12.2.0
+! Last modified: Sat, 03 Dec 2022, 00:31 UTC+01:00
+! Version: 2022.12.3.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 02 gru 2022, 16:30 UTC+01:00
+! Aktualizacja: sob, 03 gru 2022, 00:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -350,7 +350,7 @@ cezar.eu##.container > div.col50.kolumna:nth-of-type(2)
 cgm.pl,forsal.pl,horsklep.pl,sklep.olekmotocykle.pl##.footerNewsletter
 channel9.msdn.com##.mouseClick.mediumIcon.email
 chatapolska.pl#?#a .yellow-bg:-abp-contains(e-mail i otrzymuj)
-chataskrzata.eu,genesis-zone.com,otwarte.eu###newsletter-box
+chataskrzata.eu,genesis-zone.com,otwarte.eu##:not(#newsletter-overlay) #newsletter-box
 chcemybycrodzicami.pl##.single-post-newsletter-wrap
 checiny.pl###div_newsletter
 chlodnictwoiklimatyzacja.pl###left-in > .moduletable:nth-of-type(1)
@@ -1954,7 +1954,6 @@ pl###footerNewsletter
 pl###home_newsletter
 pl###mailchimp-top-bar
 pl###mc_embed_signup_scroll
-pl###newsletter-box
 pl###newsletter-container
 pl###newsletter-footer
 pl###newsletter-promo
@@ -2065,6 +2064,7 @@ pl##.widget_newsletter
 pl##.widget_newsletterwidget
 pl##.widget_newsletterwidgeter_box
 pl##.widget_newsletterwidgetminimal
+pl##:not(#newsletter-overlay) #newsletter-box
 pl,~znak.com.pl##.newsletter-container
 !
 !
@@ -2312,6 +2312,7 @@ bartekwpodrozy.pl#?#.oxy-modal-backdrop:-abp-has(a[href*="//sklep."])
 batom.pl##div[class*="Modal__ModalPortalStyled-sc-"]
 bazarek-deco.com.pl###NewsPop
 bdl.lasy.gov.pl##.blockPage.blockMsg.blockUI, .blockOverlay.blockUI
+beardman.pl###newsletter-overlay
 beardman.pl,polskicaravaning.pl,swiatopon.info,warsztat.pl,wiadomoscihandlowe.pl,wiadomoscikosmetyczne.pl###newsletter-popup-wrapper
 beautikon.com###mteo_popup_bg_layer
 bemuke.pl##div[id^="tws_i_"]
@@ -5618,6 +5619,7 @@ dietetycy.org.pl,pokoleniesmart.pl##.previous, .next
 dietetyk-vital.pl,odczasudoczasu.pl,zegarkiipasja.pl##.fixed-nav
 diki.pl##body:not([style]) .popupBannerContainer
 ding.pl##section div[class*="_"][style*="transition"] > img[alt="Eu Badge"]
+dionp.pl##.fixed-nav
 direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
 discoverychannel.pl,itvn.pl,itvnextra.pl,metro.tv,tlcpolska.pl,tvn.pl,tvn7.pl,tvnfabula.pl,tvnstyle.pl,tvnturbo.pl###nextItem
