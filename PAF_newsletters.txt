@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 03 Dec 2022, 00:31 UTC+01:00
-! Version: 2022.12.3.0
+! Last modified: Tue, 06 Dec 2022, 01:01 UTC+01:00
+! Version: 2022.12.6.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,11 +13,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 03 gru 2022, 00:31 UTC+01:00
+! Aktualizacja: wto, 06 gru 2022, 01:01 UTC+01:00
 !
 !
 !
-! Specyficzne reguły
+! Specyficzne filtry
 ||4prm.pl/*/4p_newsletter.jpg
 ||a-ajurweda.pl/images/layout/ajurweda/newsletter_ajurweda.png
 ||biuroprasowe.pl/userfiles/_CMS_/EPR3/baner_newsletter.jpg
@@ -54,7 +54,7 @@
 ||www.horecabc.pl/wp-content/uploads/HBC-grupa-na-FB2.jpg
 ||www.pulshr.pl/images/newsletter/newsletter.png
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
-||zadowolenie.pl/media/cache/filemanager_original/images/zadowolenie/zdw-nowe/sg/okazjonalne/zdw-newsletter-
+||zadowolenie.pl/media/cache/*/zdw-newsletter-
 ||zooplus.pl/magazyn/wp-content/uploads/20*/*/*Newsletter_Promotion_$image
 3dom.pro,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,ksiazka.uk,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
@@ -1117,8 +1117,7 @@ naszhandel.pl##.box_02:nth-of-type(2) > .box_cnt
 naszraciborz.pl##.comments.right_box:nth-of-type(15)
 naszraciborz.pl,naszrybnik.com,naszwodzislaw.com#?#div.comments.right_box:-abp-contains(Newsletter)
 natvita.pl##div.footer_about:nth-of-type(4) > div.block.ApHtml:nth-of-type(1)
-naukawpolsce.pap.pl##.block-simple-blockzapisz-sie-na-newsletter
-naukawpolsce.pl##.block-simple-blockzapisz-sie-na-newsletter
+naukawpolsce.pap.pl,naukawpolsce.pl##.block-simple-blockzapisz-sie-na-newsletter
 nazdrowie.pl###subskrybuj
 nazdrowie.pl##.imd-footer.col-xs-12.col-sm-6.col-md-4.col-lg-4:nth-of-type(2)
 nazwa.pl###news_content
@@ -1926,7 +1925,7 @@ zyciepabianic.pl###col1 > .widget:nth-of-type(3)
 zyciepabianic.pl###widget-newsletter
 !
 !
-! Ogólne reguły
+! Ogólne filtry
 /btn-newsletter
 /button/newsletter.jpg
 /wp-content/plugins/wysija-newsletters
@@ -2068,7 +2067,7 @@ pl,~znak.com.pl##.newsletter-container
 !
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
 !
 !
