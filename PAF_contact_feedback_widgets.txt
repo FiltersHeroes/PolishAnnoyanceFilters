@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 01 Dec 2022, 21:31 UTC+01:00
-! Version: 2022.12.1.0
+! Last modified: Tue, 06 Dec 2022, 01:01 UTC+01:00
+! Version: 2022.12.6.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,15 +13,12 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 01 gru 2022, 21:31 UTC+01:00
+! Aktualizacja: wto, 06 gru 2022, 01:01 UTC+01:00
 !
 !
 !
-! Specyficzne reguły
-!@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
-###chaty-channel-facebook_messenger
+! Specyficzne filtry
 /pl/at-call/call-me.js$script,domain=lessmess.storage
-/zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ||airport.com.pl/livezilla/server.php
 ||amazonaws.com/app*.sugester.com/*/chat/*/widget.js$script,domain=www.dwdomel.pl
 ||amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
@@ -47,6 +44,7 @@
 ||czater.pl/assets/sounds/*$media,domain=www.czater.pl
 ||ebok.kierus.com.pl/scripts/button.php
 ||embed.tawk.to^$script,third-party
+||facebook.com/v*/plugins/customerchat.php$third-party
 ||google.com/shopping/customerreviews/badge$domain=specshop.pl
 ||helponclick.com^$script,third-party
 ||hubtalk.com/widgets/*/chat.js
@@ -80,9 +78,11 @@
 ||widget.intercom.io/widget/*$script
 ||widgets.trustedshops.com/js/*.js
 ||widgets.trustedshops.com/reviews/tsSticker/tsSticker.js
-||www.facebook.com/v*/plugins/customerchat.php$third-party
 ||znamibezpiecznie.pl/images/kontakt.png
 ||zopim.com^$third-party,domain=~apteline.pl|~egb.com|~nordvpn.com
+!@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
+###chaty-channel-facebook_messenger
+/zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 3giga.pl###contact-slider
@@ -153,7 +153,7 @@ autodoc.pl##.js-chat-buttons-container-genesys
 avans.pl##.b-reportFault
 axa.pl,biznes.gov.pl,cosinus.pl,kup.pl.canalplus.com,toyotabank.pl###dc-tab-button
 axadirect.pl###wirtualnyDoradcaPluginHome, #zadzwonPlugin
-axasecurity.com,drzwioknabramy.eu,eska.pl,meskiegacie.pl,optykwnecie.pl,zymetric.pl##.fb-customerchat
+axasecurity.com,doctorgun.eu,drzwioknabramy.eu,eska.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,zymetric.pl##.fb-customerchat
 badaniaprenatalne.pl##.contact-button-link
 balladine.com###widgetOpineo
 bankobranie.blogspot.com##.social > li:nth-child(n+6)
@@ -259,7 +259,6 @@ diversesystem.com###app > footer ~ .container
 dlaspania.pl##iframe[id^="mcs_"][src*="chat"]
 dmtrade.pl,militaria.pl##.floating-contact
 dobrefinanse.co.uk##.form-content-btn
-doctorgun.eu,metalowiecsc.pl##.fb-customerchat
 dodomku.pl##.btn-chat-toggle
 dolcar.auto.pl,jackvision.pl,mleczarze.pl###jz-callback-icon
 domesta.com.pl##.ask
@@ -297,7 +296,7 @@ eitca.pl###block-views-Opinie_EITCA-block_2
 ekantor.pl##.slideout-btn
 eko-life.pl###__ChatoBeeWidget__window
 eko-ue.pl##.fixed-right-menu
-ekookna.pl,quadralite.pl,selectshop.pl###fb-root
+ekookna.pl,o-shop.com,quadralite.pl,selectshop.pl###fb-root
 ekorekta24.pl##.opineo-link
 ekorekta24.pl,multilampy.pl##.opineo
 electro.pl##.is-complaintReport
@@ -311,7 +310,7 @@ enfamil.pl##.float-chat
 eobuwie.com.pl###chatbotize
 eobuwie.com.pl###open-chat
 epodreczniki.pl##.send-suggestion-btn
-eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,senatkomorki.pl,voxfm.pl##.messenger
+eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,rivieraparkmarvipol.pl,senatkomorki.pl,voxfm.pl##.messenger
 eskk.pl##.ckontakt
 etoto.pl###sbChatMinimizedIdle
 euro.com.pl,oleole.pl###main-footer > div[class$="-ad-tooltip-container"]
@@ -526,7 +525,6 @@ nowela.pl###contact-popup
 ntfy.pl###ntfy-zendesk, #ntfy-callpage
 nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
-o-shop.com###fb-root
 odnowa.jezuici.pl##.tab-contact
 ofix.pl##.thulium-chat-wrapper
 okazik.pl###btn-message
@@ -617,7 +615,6 @@ regalka.pl,sklep.grupamagnum.eu###gr-spnotifications
 rena.pl###contactFixed
 retromedia.pl###lite-fb-chat
 rgbautomatyka.pl###help-box
-rivieraparkmarvipol.pl##.messenger
 roseville.pl###banner_contact
 rum-lux.pl###gg
 s360.com.pl##footer ~ a#openModal.button
@@ -787,8 +784,12 @@ zrzutka.pl##.uv-bottom-right
 !@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 !
 !
-! Ogólne reguły
+! Ogólne filtry
 /livezillachat//script.php
+||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
+||tenantpluginapiserver*.conpeek.*/cdn
+/livezillachat//script.php
+||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
 ||tenantpluginapiserver*.conpeek.*/cdn
 ~pl###__ceneo-widgets:lang(pl)
 ~pl###_opineo_container:lang(pl)
@@ -839,7 +840,7 @@ pl##.popup__center[class*="call-me-"] .widget:not([class*="hide"])
 pl##.quickcontact-box
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
 !
 !
