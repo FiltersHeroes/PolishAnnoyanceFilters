@@ -17,11 +17,13 @@
 !
 !
 !
-! Specyficzne reguły
+! Specyficzne filtry
+@include e_gazety_sieciowe
 @include e_gazety
+
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 @include specjalne
 !#if !ext_ublock
 !#include PPB/uBO_AG/specjalne_AG.txt

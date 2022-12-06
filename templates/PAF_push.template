@@ -17,15 +17,17 @@
 !
 !
 !
-! Specyficzne reguły
+! Specyficzne filtry
+@include push_sieciowe
 @include push
 !
 !
-! Ogólne reguły
+! Ogólne filtry
+@include push_ogolne_sieciowe
 @include push_ogolne
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 @include specjalne
 !
 !

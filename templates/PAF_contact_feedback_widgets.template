@@ -17,15 +17,17 @@
 !
 !
 !
-! Specyficzne reguły
+! Specyficzne filtry
+@include widgety_kontaktowe_informacji_zwrotnej_sieciowe
 @include widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/widgety_kontaktowe.txt
 !
 !
-! Ogólne reguły
+! Ogólne filtry
+@include widgety_kontaktowe_informacji_zwrotnej_ogolne_sieciowe
 @include widgety_kontaktowe_informacji_zwrotnej_ogolne
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 @include specjalne
 !
 !

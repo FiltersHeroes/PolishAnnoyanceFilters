@@ -17,15 +17,16 @@
 !
 !
 !
-! Specyficzne reguły
+! Specyficzne filtry
+@include inne_sieciowe
 @include inne
 !
-!
-! Ogólne reguły
+! Ogólne filtry
+@include inne_ogolne_sieciowe
 @include inne_ogolne
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 @include specjalne
 !
 !

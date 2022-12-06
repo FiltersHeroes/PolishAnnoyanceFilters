@@ -17,16 +17,18 @@
 !
 !
 !
-! Specyficzne reguły
+! Specyficzne filtry
+@include newslettery_nie_popupy_sieciowe
 @include newslettery_nie_popupy
 !
 !
-! Ogólne reguły
+! Ogólne filtry
+@include newslettery_ogolne_sieciowe
 @include newslettery_ogolne
 !
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 @include specjalne
 !
 !

@@ -16,15 +16,17 @@
 ! Aktualizacja: @localizedDT
 !
 !
-! Specyficzne reguły
+! Specyficzne filtry
+@include strzalki_sieciowe
 @include strzalki
 !
 !
-! Ogólne reguły
+! Ogólne filtry
+@include strzalki_ogolne_sieciowe
 @include strzalki_ogolne
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 @include specjalne
 !#if !ext_ublock
 !#include PPB/uBO_AG/specjalne_AG.txt

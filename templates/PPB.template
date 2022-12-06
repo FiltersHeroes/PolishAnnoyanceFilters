@@ -19,70 +19,85 @@
 !
 !
 ! Newslettery (nie popupy)
+@include newslettery_nie_popupy_sieciowe
 @include newslettery_nie_popupy
 !
 !
-! Newslettery (nie popupy) - ogólne reguły
+! Newslettery (nie popupy) - Ogólne filtry
+@include newslettery_ogolne_sieciowe
 @include newslettery_ogolne
 !
 !
 ! Popupy
+@include popupy_sieciowe
 @include popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy.txt
 !
 !
-! Popupy - ogólne reguły
+! Popupy - Ogólne filtry
+@include popupy_ogolne_sieciowe
 @include popupy_ogolne + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy_ogolne.txt
 !
 !
 ! Powiadomienia push
+@include push_sieciowe
 @include push
 !
 !
-! Powiadomienia push - ogólne reguły
+! Powiadomienia push - Ogólne filtry
+@include push_ogolne_sieciowe
 @include push_ogolne
 !
 !
 ! Scrollujące filmiki
+@include scroll_film_sieciowe
 @include scroll_film
 !
 !
-! Scrollujące filmiki - ogólne reguły
+! Scrollujące filmiki - Ogólne filtry
 @include scroll_film_ogolne
 !
 !
 ! Strzałki
+@include strzalki_sieciowe
 @include strzalki
 !
 !
-! Strzałki - ogólne reguły
+! Strzałki - Ogólne filtry
+@include strzalki_ogolne_sieciowe
 @include strzalki_ogolne
 !
 !
 ! Tła zawierające autoreklamy
+@include tla_autoreklamy_sieciowe
 @include tla_autoreklamy
 !
 !
 ! Widżety kontaktowe/informacji zwrotnej
+@include widgety_kontaktowe_informacji_zwrotnej_sieciowe
 @include widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/widgety_kontaktowe.txt
 !
 !
-! Widżety kontaktowe/informacji zwrotnej - ogolne reguły
+! Widżety kontaktowe/informacji zwrotnej - Ogólne filtry
+@include widgety_kontaktowe_informacji_zwrotnej_ogolne_sieciowe
 @include widgety_kontaktowe_informacji_zwrotnej_ogolne
 !
 !
 ! Inne elementy
+@include inne_sieciowe
 @include inne
 !
 !
-! Inne elementy - ogólne reguły
+! Inne elementy - Ogólne filtry
+@include inne_ogolne_sieciowe
 @include inne_ogolne
 !
 !
 ! Prenumeraty
+@include e_gazety_sieciowe
 @include e_gazety
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 @include specjalne
 !
 !
