@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 11 Dec 2022, 20:30 UTC+01:00
-! Version: 2022.12.11.2
+! Last modified: Sun, 11 Dec 2022, 21:12 UTC+01:00
+! Version: 2022.12.11.3
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 gru 2022, 20:30 UTC+01:00
+! Aktualizacja: nie, 11 gru 2022, 21:12 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -222,6 +222,7 @@ bass-sklep.pl###box-5
 batorygdynia.com.pl##footer .menu_bottom1.row > .a_right
 bbhomeonline.pl##.footer_links_newsletter
 beautikon.com,imready.eu,shipgratis.eu,shop.albione.eu##.newsletter-wrapper
+beautyfair.pl#?#.td-footer-wrap .td-block-title-wrap > .td-block-title:-abp-contains(Inspiracje w Twojej skrzynce)
 beautysupply.pl###columns .freshmail-wrapper.row
 bebeconcept.pl##.newsletter-widget-7
 befado.pl##.kt_widget_newsletter
@@ -606,6 +607,7 @@ eura-tech.eu##.foo-newsletter
 euractiv.pl##.row > pnespwidget
 euro.com.pl###promo-banner
 euro.com.pl,oleole.pl#?##footer-shops > .column:-abp-contains(newsletter)
+euroelectronics.pl##.site-footer > div > .grid > div[class*="footer__item"].grid__item:nth-child(6) > div
 euroogrod.com.pl##.menu_newsletter_text
 europacentralna.eu,sare.pl##.nlblock
 eveline.pl##.subscribe-to-news
@@ -2254,6 +2256,7 @@ apple-user.pl,salon2kolka.pl##.mlab-modal
 apptoyou.pl##.greyout
 apteka-natura.eu,bludshop.com,ene-due.eu###tws_i_1
 apteka.sloneczna24.pl#?#.ligh7box:-abp-has(.newsletter)
+aptekaolmed.pl###home-popup, #home-popup-bg
 aptekarzpolski.pl##.brave_popup
 aquapark.wroc.pl##.popup-start.popup
 archispace.pl##.tbox, .tmask
@@ -2380,7 +2383,7 @@ chemiabudowlana.info,mylomza.pl###fadeinbox
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
 chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
-chopin.polskieradio.pl##.PopUpMainPage_popUp__CDr0M
+chopin.polskieradio.pl##div[class^="MarathonPopup_curtain_"]
 chronpesel.pl##.wh-popUp-overlay
 chrzypsko.pl,metaltech.com.pl,vas.com.pl###dhtml_popup
 ciechocinek.biz,drawskopomorskie.com,gniewkowo.eu,ki24.info,kolniak24.eu,lowiczanin.info,nizanskie.info,roztocze.net##.hejhej.hey-outer
@@ -2498,6 +2501,7 @@ estella-shop.eu##.pxl-newsletter-modal
 estyl.pl###ue_form
 euractiv.pl##pnespwidget[style*="position"]
 eurobolt.com.pl##.mybanners
+euroelectronics.pl###omnisend-dynamic-container > #omnisend-forms-container
 fabrykacukiernika.pl###gsNewsbox
 fabrykawafelkow.pl###someone-purchased
 fabrykazabawek.eu###helloModal
@@ -2903,8 +2907,9 @@ polityka.pl##div[class^="cg_promo"][class$="_popup"]
 politykazdrowotna.com##.modal-footer
 polomarket.pl###layer_box
 polskabezgotowkowa.pl###newsletter-form-modal, .modal-backdrop
-polskieradio.pl##.showBanner.tempBanner
 polskieradio.pl,polskieradio24.pl##.app-banner
+polskieradio.pl,polskieradio24.pl##.showBanner.tempBanner
+polskieradio.pl,polskieradio24.pl#?#div.box.StaticContent:-abp-has(.saski-popup-container)
 polskiesolitery.pl###jOverlay
 polskiesolitery.pl###jOverlayContent
 polskimarket.nl###rc_window_squeeze, #Overlay
@@ -4652,7 +4657,7 @@ arteodevelopment.pl###callback24widgetButton
 asta-net.pl###al_main_inviter_div
 asta-net.pl###go-to-contact
 atakto.pl###lhc_status_widget_v2
-audioexpert.pl,lombardwomi.pl,panele-sklepy.pl###up_talk0
+audioexpert.pl,lombardwomi.pl,panele-sklepy.pl,porcelanaart.pl###up_talk0
 audiosklep.pl,boboland24.pl,delkom.pl,interlazienka.pl,korzystneit.pl,shark.sklep.pl,sklep.milicon.eu,sklep.wisan.pl###contactBox
 aurum-optics.pl##.button-messenger
 aurum-optics.pl##a[href*="m.me/"]
@@ -4822,6 +4827,7 @@ eskk.pl##.ckontakt
 etoto.pl###sbChatMinimizedIdle
 euro.com.pl,oleole.pl###main-footer > div[class$="-ad-tooltip-container"]
 eurobank.pl##.reviews
+euroelectronics.pl,kompan.pl,lanesta.eu##.b24-widget-button-wrapper
 eventy-online.pl###phone-tag
 ewakacje.pl##.classNotesList_button
 ewozki.eu##div[id] > iframe[title="chat widget"]
@@ -4939,7 +4945,6 @@ klonowypark.pl###belka_phone2, #belka_mail2, #belka_map2, #belka_form2
 knall.com.pl##.socialTabs-tab--contact.socialTabs-tab
 kodologia.pl###cq-suggestion
 kompan.pl###circleWrap
-kompan.pl,lanesta.eu##.b24-widget-button-wrapper
 komputerswiat.pl##iframe[src^="https://cdn.brandmetrics.com/"][style*="fixed"]
 komputronik.pl##ktr-live-chat
 konicaminolta.info.pl##.kontakt-slide
@@ -5357,6 +5362,7 @@ pl##.quickcontact-box
 /js/nicescroll.js$script,domain=ovovita.pl
 /js/nicescroll.min.js$script,domain=bialykrzyz.com.pl|smaczna-strona.pl|takemehome.pl
 /js/smoothPageScroll.min.js$script,domain=zse.leszno.pl
+/js/snowfall.min.js$script,domain=sklep.delia.pl
 /wp-content/plugins/wp-snow-effect/public/js/jsnow.js$script,domain=www.klimacold.com.pl
 ||anna-bielizna.pl/js/snowstorm.js
 ||assets.polskaniepodlegla.pl/images*/reklama_iczytamy.jpg
