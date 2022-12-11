@@ -1,5 +1,5 @@
-!rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"])
-!rossmann.pl##.modal:has(> div > div > a > img[src*="/GalleryImages/PopupCMS/"]) ~ .modal-backdrop
+sklep.delia.pl##div[id^="rg_smartpopup_"]
+sklep.delia.pl##.rgModal-active:style(overflow: visible !important;)
 ||mailerlite.com^$3p,important,domain=beitadmin.pl
 99rent.pl##.invpopup
 99rent.pl##body.invpop-visible:style(overflow: visible !important;)
