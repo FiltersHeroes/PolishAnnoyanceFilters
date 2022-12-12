@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 11 Dec 2022, 21:31 UTC+01:00
-! Version: 2022.12.11.4
+! Last modified: Mon, 12 Dec 2022, 01:31 UTC+01:00
+! Version: 2022.12.12.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 gru 2022, 21:31 UTC+01:00
+! Aktualizacja: pon, 12 gru 2022, 01:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6108,6 +6108,7 @@ pep.pl##.work-offers
 pepsieliot.com,wprost.pl##.element-article-link
 perfumeriatop10.pl##.perfumeria-allegro
 piaseczno.eu###acp-toggle-toolbar
+piekary.info,chorzowski.pl,tarnowskiegory.info,rudzianin.pl,ngs24.pl,nowinytyskie.pl,bytomski.pl,24kato.pl,twojknurow.pl,zabrzenews.pl,24zaglebie.pl##.return-block
 pieknojestwtobie.com,zbiorowy.info##.more-stories
 pinterest.com#?#div[role="main"] > div[class] > div[class] > div[class][style^="box-shadow"]:-abp-has(> div > div > div > button > div:-abp-contains(/^Pobierz$/))
 pit.pl##.floater[id^="floater"]
