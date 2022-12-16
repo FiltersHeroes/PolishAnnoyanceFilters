@@ -156,8 +156,8 @@ extradom.pl###requestCallStart, #requestCallExit, .modal-backdrop
 farmer.pl###nowa_strona
 farmer.pl##.windowOpen:style(overflow: auto !important;)
 fdm.pl,galskor.com##+js(acis, $, fancybox)
-filehippo.pl,softonic.pl###modal-di-avast:remove()
-filehippo.pl,softonic.pl###modal-di-opera:remove()
+filehippo.pl,softonic.pl##div:is(#modal-di-avast, #modal-di-opera):remove()
+filehippo.pl,softonic.pl##.rv-di-modal:has(img[src*="avast"], img[src*="opera"]):remove()
 fmmobile.pl###lead-modal, .modal-backdrop
 forum.gofin.pl###KW_Tlo, #KW_Okno
 fpiec.pl##.full-screen-overlay
