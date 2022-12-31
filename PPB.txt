@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 31 Dec 2022, 01:31 UTC+01:00
-! Version: 2022.12.31.1
+! Last modified: Sat, 31 Dec 2022, 13:31 UTC+01:00
+! Version: 2022.12.31.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 31 gru 2022, 01:31 UTC+01:00
+! Aktualizacja: sob, 31 gru 2022, 13:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -66,6 +66,7 @@
 4lapki.eu,annalovestravelspl.wordpress.com,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,podkop.com,pskrk.com,tabloidonline.blog,techno-senior.com,zabieganamama.com,zpamietnikabuntownika.wordpress.com##.jetpack_subscription_widget
 4spaw.pl,bydgoszczak.pl,kaliszak.pl,katowiczak.pl,krakusik.pl,pro-jex.pl##.mini-newsletter
 4trucks.pl##.sInfo > .m209.box
+9c.com.pl##.col-md-auto.col-12
 9design.pl##.top_newsletter
 24hurt.pl##.row > .col-md-12
 24pr.pl##center > input, td:nth-of-type(2) > input, #carrington-subscribe > h3
@@ -2195,6 +2196,7 @@ pl,~znak.com.pl##.newsletter-container
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
+9c.com.pl##.showed-iqitpopupo, .showed-iqitpopup
 24hurt.pl##.wt-popup, #overlay
 29aleja.pl##.popupWrap
 80dni.pl,agroinstal.com.pl,aliholik.pl,ap-goal.pl,apgrojec.com.pl,asc-pro.pl,atutszkola.pl,badaniaprenatalne.pl,bellpolska.com.pl,bialekolnierzyki.com.pl,businesstraveller.pl,centrum-terapii.pl,codzienniefit.pl,computer-alliance.pl,dochodzeniewierzytelnosci.pl,ecochemia.pl,edbak.com,erif.pl,esportnow.pl,faktykonopne.pl,gameinn.pl,gdziejestdziecko.pl,infokonin.pl,infokonsument.pl,intercyza-blog.pl,inwestycjebudowlane.biz,ironsky.pl,jakzalozycfirmenaukrainie.com,kartanauczycielablog.pl,katechezanatana.pl,kukini.pl,lajtmobile.pl,leclerc.pl,leszekbloch.pl,maxbus.com.pl,mhtm.pl,monikahonory.pl,odroczenie-kary.pl,pandrwal.pl,pantabletka.pl,pierwsze-kroki.com,poloniawroclaw.pl,prawonaplacubudowy.pl,przedawnione.pl,przedszkolankowo.pl,psychologiazycia.com,radiowarszawa.com.pl,remekdabrowski.pl,sds-automatyka.pl,sherlocktrafika.pl,spjawna.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,studiosante.pl,towsrodku.pl,villacarpatia.com,wspa.pl,wspolnotakrzyzasmolec.pl,zabieganamama.com,zadowolonypacjent.pl,zarzadwspolcezoo.pl,zatorland.pl,zobraczkaczybez.pl##.spu-box, .spu-bg
@@ -5943,7 +5945,7 @@ linuxporady.pl,pskrk.com##.crestaPostsBox
 literackifestiwal.zakopane.eu###g-page-preloader
 lodzkie.pl##.jj_sl_custom2
 login.ingbank.pl###smart-app-banner-region
-lukato.eu,lwowecki.info,matbau.com,mojregion.eu,przegladpiaseczynski.pl,roltrans.eu##.grecaptcha-badge
+lukato.eu,lwowecki.info,matbau.com,mojregion.eu,przegladpiaseczynski.pl,roltrans.eu,strimeo.tv##.grecaptcha-badge
 lvbet.pl##splash-loader
 m.leroymerlin.pl##.smart-app-banner
 m.pl.aliexpress.com###header-float-banner
@@ -6265,6 +6267,7 @@ stopklatka.pl##.platforms_adfloor, .tickerPromo
 stradivarius.com###menuSmartBanner #smartbanner
 strajk.eu###bdCheckAlso
 strefainwestorow.pl###strefainwestorow-menu:not(:hover) > li ~ .tooltip
+strimeo.tv##.recommend-box-on.recommend-box.widget
 styl.pl##.mobile-topbar-container
 stylowydruk.pl##.kac-sm-mail
 suchylas.pl###jPanel_619
