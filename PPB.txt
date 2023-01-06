@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 06 Jan 2023, 17:45 UTC+01:00
-! Version: 2023.1.6.2
+! Last modified: Fri, 06 Jan 2023, 20:30 UTC+01:00
+! Version: 2023.1.6.3
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 06 sty 2023, 17:45 UTC+01:00
+! Aktualizacja: pią, 06 sty 2023, 20:30 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6596,6 +6596,10 @@ elektrosystemy.pl###text-31
 elita-magazyn.pl##.subscription
 elle.pl##.promo-box
 elle.pl,focus.pl##.magazine-last-box
+elportal.pl##.magazine-article__wrapper
+elportal.pl##.rate-number-sm
+elportal.pl##.subscription-media
+elportal.pl#?#.shop-slider ~ .slider-uk:-abp-has(+ footer)
 ep.com.pl##.e-magazine
 ep.com.pl##.magazine
 ep.com.pl##.new-number
