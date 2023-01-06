@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Thu, 08 Dec 2022, 16:30 UTC+01:00
-! Version: 2022.12.8.0
+! Last modified: Fri, 06 Jan 2023, 20:30 UTC+01:00
+! Version: 2023.1.6.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 08 gru 2022, 16:30 UTC+01:00
+! Aktualizacja: pią, 06 sty 2023, 20:30 UTC+01:00
 !
 !
 !
@@ -129,6 +129,10 @@ elektrosystemy.pl###text-31
 elita-magazyn.pl##.subscription
 elle.pl##.promo-box
 elle.pl,focus.pl##.magazine-last-box
+elportal.pl##.magazine-article__wrapper
+elportal.pl##.rate-number-sm
+elportal.pl##.subscription-media
+elportal.pl#?#.shop-slider ~ .slider-uk:-abp-has(+ footer)
 ep.com.pl##.e-magazine
 ep.com.pl##.magazine
 ep.com.pl##.new-number
