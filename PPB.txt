@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 09 Jan 2023, 21:37 UTC+01:00
-! Version: 2023.1.9.4
+! Last modified: Mon, 09 Jan 2023, 22:19 UTC+01:00
+! Version: 2023.1.9.5
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 09 sty 2023, 21:37 UTC+01:00
+! Aktualizacja: pon, 09 sty 2023, 22:19 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1346,8 +1346,8 @@ portalkryminalny.pl##footer > .container > div.row:nth-of-type(2) > div:nth-last
 portalkryminalny.pl##h3:nth-of-type(11), .moduletable:nth-of-type(11)
 portalpszczelarski.pl##.element.col-3-7
 portalsamorzadowy.pl##.news-box
-portalspozywczy.pl,sadyogrody.pl#?#.tabs-2.tabs > .navi > a:-abp-has(img[src*="mail"])
-portalspozywczy.pl,sadyogrody.pl#?#.tabs-2.tabs > .panes > .one:-abp-contains(NEWSLETTER)
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(6)
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(6)
 portaltatrzanski.pl#?#.promoadv:-abp-has(.formModalNewsletter)
 posbistro.com##div[aria-label="Zapisz się na gastronomiczny NEWSLETTER"]
 poscielone.pl##.newsletter-forms
@@ -1459,6 +1459,8 @@ rynek-rolny.pl##.punica-newsletter-widget.widget
 rytmynatury.pl###custom_html-11
 rywalbp.pl###sliding_box1
 rzetelnyregulamin.pl#?#main section.container:-abp-has(form input[type="email"])
+sadyogrody.pl###col2 .tabs .social.mail
+sadyogrody.pl#?##col2 .tabs.s2 .navi + .panes:-abp-has(> .one:nth-child(1))
 salaterka.pl##.fca_eoi_form
 salonydenon.pl#?#.row.tvfooter-storelogo-imformation > .tvfooter-title-wrapper > .tvfooter-title:-abp-contains(Newsletter)
 salonyhoff.pl###section_subReqForm
