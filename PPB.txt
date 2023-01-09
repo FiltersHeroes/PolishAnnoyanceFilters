@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 09 Jan 2023, 23:06 UTC+01:00
-! Version: 2023.1.9.8
+! Last modified: Mon, 09 Jan 2023, 23:11 UTC+01:00
+! Version: 2023.1.9.9
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 09 sty 2023, 23:06 UTC+01:00
+! Aktualizacja: pon, 09 sty 2023, 23:11 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6909,8 +6909,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies i EasyList/AdGuard Base!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2023.1.9.1
-!@ Last modified: Mon, 09 Jan 2023, 22:51 UTC+01:00
+!@ Version: 2023.1.9.2
+!@ Last modified: Mon, 09 Jan 2023, 23:10 UTC+01:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -6921,7 +6921,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Copyright © 2022 Certyficate IT
 !@ Copyright © 2022 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2023.1.9.1 aktualizacja: pon, 09 sty 2023, 22:51 UTC+01:00
+!@ v.2023.1.9.2 aktualizacja: pon, 09 sty 2023, 23:10 UTC+01:00
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -7055,6 +7055,7 @@ aktywniwregionie.pl,gorazdze.pl,lohmann-tapes.pl###bbcdBanner
 akwarysta.eu,alemeksyk.eu,dudek.eu,fakty.nl,hoegert.com,mm-gazeta.de,mobbingwpracy.com,pimot.eu,rynek.de###ca_banner
 albatrosbus.pl,atrakcje.com.pl,atrakcjenaimprezy.pl,bileteria-online.pl,dialog.mazovia.pl,edurosli.pl,gardenexpress.pl,innowacja.edu.pl,mail.bremex.pl,pks.elblag.pl,pkspolonus.pl,polonuspartner.pl,radziejewska.pl,webster-studio.pl,zakexpress.pl,zdo.pl###popek
 aldi.pl,dobrebistro.eatbu.com##.mod-cookie-consent
+aldi.pl,netgear.com,technisat.com###usercentrics-root
 alegotowka.pl,chwilowkomat.pl,halopozyczka.pl,quadralite.pl###cookies-law
 alekino.com###cookies-info-wrapper
 alepromocje.pl##.ale-cookies-info
@@ -8829,6 +8830,7 @@ namyslow.eu,netkoncept.com,zdm-przemysl.com##.page-cookie
 nanarty.info.pl,zamki.pl##body > div[style*="position"][style*="absolute"]:not([id]):not([class])
 nanodatex.pl###cookis-box
 naprzedwiosniu.waw.pl,npz.imw.lublin.pl###zf--alerts-panel
+narzedzia.pl,rotopino.pl##body .cookie-background
 narzedziowy.pl##.fx_cookie
 nastopy.pl##.mask
 naszbus.com,pod-okapnikiem.com##.CookieMessageBox
@@ -8846,7 +8848,6 @@ net4car.pl###notice_messages
 net2000.pl##div[id].jquery-notify-bar
 net-speak.pl##div.uwaga
 netflix.com###cookie-disclosure
-netgear.com,technisat.com###usercentrics-root
 netkoncept.com##.slabowidzacyCookie
 netpolska.com###privacy-policy-container
 nettg.pl##.fade
@@ -9025,6 +9026,7 @@ payukraine.com##.mainscreen_cookies
 pb.pl##.qc-cmp-ui-container
 pc.net.sosnowiec.pl###stopka > div[style*="position"][style*="absolute"]
 pcc.org.pl###info[style*="fixed"]
+pch24.pl##footer ~ .cw-container[data-cookie-name$="pch24"]
 pcpd.pl###spu-3232, #spu-bg-3232
 pcprwiecbork.pl##.mlab-modal
 peb.pl###jqibox
@@ -9070,6 +9072,7 @@ pl.chili.tv###_evh-ric
 pl.depositphotos.com##._notification
 pl.dst.roto-frank.com##.occ-inline
 pl.easeus.com##.usernotice_pop
+pl.factcool.com#?#body > div > div > div > div > div.fScrmm:-abp-has(> div > div > div > button > p)
 pl.farnell.com###mktg_Cookie_Wrap
 pl.godaddy.com###privacy_widget:not(body):not(html)
 pl.gorenje.com##.blurry-background
@@ -9287,6 +9290,7 @@ randkiprzezinternet.pl##.undefined.floating-box
 ranking.abczdrowie.pl#?##app > div > div > div > div:-abp-has(a[href="https://portal.abczdrowie.pl/strona/polityka-prywatnosci"])
 rankmath.com###mts_gdpr_popup
 rankomat.pl###rankomat-cookies-div
+rapiddc.pl###cookies-consent-container
 ras.net.pl##.prvpmsg
 ratujtenczyn.org.pl#?##root > div[id] > .text > span:-abp-contains(plików cookie)
 ravelo.pl##.use-cookie-box-n
@@ -10978,6 +10982,7 @@ promocodius.com#@##cookie-btn
 puratos.pl#@##cookieBannerModal
 ranking.perspektywy.pl#@##cookieModal ~ .modal-backdrop
 selgros.pl#@##cookie_accept
+senda.pl#@##__next div[class*="CookieConsent"]
 sonarhome.pl#@#.bg-facebook
 toteraz.pl#@##cookie-preferences
 tvp.pl#@#.tvp-cookie-overlay:not(body):not(html)
@@ -11003,7 +11008,7 @@ e-zikoapteka.pl,mcdonalds.pl#@#.cookies-info:not(body):not(html)
 ebilet.pl#@##cookies-overlay:not(body):not(html)
 ebilet.pl,orange.pl#@##cookies-info:not(body):not(html)
 elavon.pl#@#.cookiePolicy:not(.reveal):not(body):not(html)
-electrolux.pl#@#.CookieConsent:not(body):not(html)
+electrolux.pl,sedna.pl#@#.CookieConsent:not(body):not(html)
 eurogamer.pl#@##optanon:not(body):not(html)
 eurogamer.pl#@#.optanon-alert-box-wrapper:not(body):not(html)
 gdansk.pl,gokf.gda.pl,wins.pl#@##cookies:not(body):not(html):not(.section):not(.fade)
