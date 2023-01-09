@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 31 Dec 2022, 16:30 UTC+01:00
-! Version: 2022.12.31.0
+! Last modified: Mon, 09 Jan 2023, 22:19 UTC+01:00
+! Version: 2023.1.9.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 31 gru 2022, 16:30 UTC+01:00
+! Aktualizacja: pon, 09 sty 2023, 22:19 UTC+01:00
 !
 !
 !
@@ -1345,8 +1345,8 @@ portalkryminalny.pl##footer > .container > div.row:nth-of-type(2) > div:nth-last
 portalkryminalny.pl##h3:nth-of-type(11), .moduletable:nth-of-type(11)
 portalpszczelarski.pl##.element.col-3-7
 portalsamorzadowy.pl##.news-box
-portalspozywczy.pl,sadyogrody.pl#?#.tabs-2.tabs > .navi > a:-abp-has(img[src*="mail"])
-portalspozywczy.pl,sadyogrody.pl#?#.tabs-2.tabs > .panes > .one:-abp-contains(NEWSLETTER)
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(6)
+portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(6)
 portaltatrzanski.pl#?#.promoadv:-abp-has(.formModalNewsletter)
 posbistro.com##div[aria-label="Zapisz się na gastronomiczny NEWSLETTER"]
 poscielone.pl##.newsletter-forms
@@ -1458,6 +1458,8 @@ rynek-rolny.pl##.punica-newsletter-widget.widget
 rytmynatury.pl###custom_html-11
 rywalbp.pl###sliding_box1
 rzetelnyregulamin.pl#?#main section.container:-abp-has(form input[type="email"])
+sadyogrody.pl###col2 .tabs .social.mail
+sadyogrody.pl#?##col2 .tabs.s2 .navi + .panes:-abp-has(> .one:nth-child(1))
 salaterka.pl##.fca_eoi_form
 salonydenon.pl#?#.row.tvfooter-storelogo-imformation > .tvfooter-title-wrapper > .tvfooter-title:-abp-contains(Newsletter)
 salonyhoff.pl###section_subReqForm
