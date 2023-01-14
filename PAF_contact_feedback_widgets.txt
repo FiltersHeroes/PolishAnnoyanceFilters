@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sat, 14 Jan 2023, 01:31 UTC+01:00
-! Version: 2023.1.14.1
+! Last modified: Sat, 14 Jan 2023, 12:47 UTC+01:00
+! Version: 2023.1.14.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,12 +13,14 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 14 sty 2023, 01:31 UTC+01:00
+! Aktualizacja: sob, 14 sty 2023, 12:47 UTC+01:00
 !
 !
 !
 ! Specyficzne filtry
+!@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe_sieciowe.txt
 /pl/at-call/call-me.js$script,domain=lessmess.storage
+/zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ||airport.com.pl/livezilla/server.php
 ||amazonaws.com/app*.sugester.com/*/chat/*/widget.js$script,domain=www.dwdomel.pl
 ||amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
@@ -80,9 +82,9 @@
 ||widgets.trustedshops.com/reviews/tsSticker/tsSticker.js
 ||znamibezpiecznie.pl/images/kontakt.png
 ||zopim.com^$third-party,domain=~apteline.pl|~egb.com|~nordvpn.com
+!@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe_sieciowe.txt
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 ###chaty-channel-facebook_messenger
-/zdjecia/ikonki/logo_skype_t.jpg$domain=dietetyk.szczecin.pl|metabolic-balance.pl
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 3giga.pl###contact-slider
@@ -153,7 +155,7 @@ autodoc.pl##.js-chat-buttons-container-genesys
 avans.pl##.b-reportFault
 axa.pl,biznes.gov.pl,cosinus.pl,kup.pl.canalplus.com,toyotabank.pl###dc-tab-button
 axadirect.pl###wirtualnyDoradcaPluginHome, #zadzwonPlugin
-axasecurity.com,drzwioknabramy.eu,eska.pl,meskiegacie.pl,optykwnecie.pl,zymetric.pl##.fb-customerchat
+axasecurity.com,doctorgun.eu,drzwioknabramy.eu,eska.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,zymetric.pl##.fb-customerchat
 badaniaprenatalne.pl##.contact-button-link
 balladine.com###widgetOpineo
 bankobranie.blogspot.com##.social > li:nth-child(n+6)
@@ -259,7 +261,6 @@ diversesystem.com###app > footer ~ .container
 dlaspania.pl##iframe[id^="mcs_"][src*="chat"]
 dmtrade.pl,militaria.pl##.floating-contact
 dobrefinanse.co.uk##.form-content-btn
-doctorgun.eu,metalowiecsc.pl##.fb-customerchat
 dodomku.pl##.btn-chat-toggle
 dolcar.auto.pl,jackvision.pl,mleczarze.pl###jz-callback-icon
 domesta.com.pl##.ask
@@ -297,7 +298,7 @@ eitca.pl###block-views-Opinie_EITCA-block_2
 ekantor.pl##.slideout-btn
 eko-life.pl###__ChatoBeeWidget__window
 eko-ue.pl##.fixed-right-menu
-ekookna.pl,quadralite.pl,selectshop.pl###fb-root
+ekookna.pl,o-shop.com,quadralite.pl,selectshop.pl###fb-root
 ekorekta24.pl##.opineo-link
 ekorekta24.pl,multilampy.pl##.opineo
 electro.pl##.is-complaintReport
@@ -527,7 +528,6 @@ nowela.pl###contact-popup
 ntfy.pl###ntfy-zendesk, #ntfy-callpage
 nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
-o-shop.com###fb-root
 odnowa.jezuici.pl##.tab-contact
 ofix.pl##.thulium-chat-wrapper
 okazik.pl###btn-message
