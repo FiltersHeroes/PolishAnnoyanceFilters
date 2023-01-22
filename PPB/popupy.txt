@@ -192,6 +192,8 @@ change.shop.pl###popup-flex
 chemiabudowlana.info,mylomza.pl###fadeinbox
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
 chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
+alkoholeswiata24.pl##.simplemodal-container:not(:has(.PelnoletniPopup, #addToCartPopup))
+alkoholeswiata24.pl##.simplemodal-overlay:has(~ .simplemodal-container:not(:has(.PelnoletniPopup, #addToCartPopup)))
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chopin.polskieradio.pl##div[class^="MarathonPopup_curtain_"]
 chronpesel.pl##.wh-popUp-overlay
