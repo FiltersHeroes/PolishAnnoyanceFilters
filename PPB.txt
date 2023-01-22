@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 22 Jan 2023, 16:30 UTC+01:00
-! Version: 2023.1.22.1
+! Last modified: Sun, 22 Jan 2023, 21:31 UTC+01:00
+! Version: 2023.1.22.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 sty 2023, 16:30 UTC+01:00
+! Aktualizacja: nie, 22 sty 2023, 21:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2249,6 +2249,8 @@ aleleki.pl#?##fancybox-wrap:-abp-has(a[href="https://www.powerbiotic.pl/covid-19
 aleleki.pl,florini.pl###fancybox-overlay
 aliexpress.com##.coupon-poplayer-modal
 aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
+alkoholeswiata24.pl##.simplemodal-container:not(:has(.PelnoletniPopup, #addToCartPopup))
+alkoholeswiata24.pl##.simplemodal-overlay:has(~ .simplemodal-container:not(:has(.PelnoletniPopup, #addToCartPopup)))
 allegro.pl##[data-pathname="/koszyk/warstwa"] > [data-box-name="precart-layer"]
 allegro.pl##div[data-box-name="allegro.ratings.sellerRatingForm"] div[style*="relative"] > div[style*="absolute"]
 allegro.pl##div[data-box-name="modalBW"]
