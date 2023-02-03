@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 22 Jan 2023, 21:31 UTC+01:00
-! Version: 2023.1.22.2
+! Last modified: Fri, 03 Feb 2023, 13:31 UTC+01:00
+! Version: 2023.2.3.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 sty 2023, 21:31 UTC+01:00
+! Aktualizacja: pią, 03 lut 2023, 13:31 UTC+01:00
 !
 !
 !
@@ -583,6 +583,7 @@ katowice-airport.com###carwash-banner-c
 katowice.jumpcity.pl##.reveal-modal
 kawiarniany.pl,nawiedzone.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 kegel-aj.com##div[style="display: block; position: fixed; width: 100%; min-height: 100%; background-color: rgba(0, 0, 0, 0.5); overflow: hidden; z-index: 10000; inset: 0px;"]
+ketodietetyk.pl##.popup-visible.popup-custom.popup-delayed
 kfd.pl###popupslider, #dimBackgrnd
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 kierunekspozywczy.pl###skycrapper
@@ -713,6 +714,7 @@ mikolaj.org.pl##.SubscribePopup
 millihome.pl###black2, #newletter-wrap-container
 mirafaber.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 mlodytechnik.pl###newsletterContainer
+mobiletrends.pl##.info-pop
 mocak.pl###fancybox-loading
 moj.tauron.pl#?#div.ebok-pop-up:-abp-has([title^="Zyskaj dotację do 4000" i][title*="fotowolt" i])
 moja.foundtt.com##.holder-popup
@@ -873,7 +875,7 @@ powerjobs.pl##.newsletter-mailchimp-modal
 powerjobs.pl##.screen-newsletter-mailchimp
 poznaj-swiat.pl###popup, #overlay
 pracatobie.pl###Ankieta1PopupContent, #Ankieta1PopupBackground
-pracuj.pl##.onboarding--opened.onboarding
+pracuj.pl###popupContainer
 pracujwsprzedazy.pl###modal-social
 praisethewear.com#?#.elementor-popup-modal:-abp-contains(newsletter)
 prawodlasamorzadu.pl###lightbox-2
@@ -942,6 +944,7 @@ siligan.pl###contentWindow
 sillydesign.pl###blanket, #popUpDiv
 siriuspro.pl###sp-newsletter-popup-bg
 sjp.pwn.pl,slowniki.pwn.pl###floater
+skarbyroztocza.com###popup-sc1-exit
 sklep.bi-es.eu##.ybc-newsletter-popup
 sklep.mixmatch.pl,towarnafestyny.pl###popup-main
 sklep.phu-szczepan.pl###scLeaveAlert
