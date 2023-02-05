@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 11 Jan 2023, 20:30 UTC+01:00
-! Version: 2023.1.11.0
+! Last modified: Sun, 05 Feb 2023, 22:45 UTC+01:00
+! Version: 2023.2.5.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,13 +13,14 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 11 sty 2023, 20:30 UTC+01:00
+! Aktualizacja: nie, 05 lut 2023, 22:45 UTC+01:00
 !
 !
 !
 ! Specyficzne filtry
 ||4prm.pl/*/4p_newsletter.jpg
 ||a-ajurweda.pl/images/layout/ajurweda/newsletter_ajurweda.png
+||app2.salesmanago.pl/cf/*/zapis_na_newsletter_$subdocument
 ||biuroprasowe.pl/userfiles/_CMS_/EPR3/baner_newsletter.jpg
 ||biuroprasowe.pl/userfiles/_CMS_/EPR/biuroprasowe-reklama.jpg
 ||carry.pl//themes/default/img/newsletter1.png
@@ -289,7 +290,7 @@ bmwsklep.pl##.subscribero
 bochniaisol.pl,digi-tv.pl,podrozezantena.pl,satkurier.pl,solarkurier.pl###newsletterMsg
 bodypak.pl###pts-newsletter
 bold.net.pl##.fm-newsletter
-boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl#?#footer#footer p:nth-of-type(1):-abp-has(a:-abp-contains(Czym jest newsletter))
+boleslawiec.tv,bydgoszcz.com,dzienniknowy.pl,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl#?#footer#footer p:nth-of-type(1):-abp-has(a:-abp-contains(Czym jest newsletter))
 bolix.pl##.homepage-newsletter-box
 bombkisklep.com##.newsletter-inner
 bonprix.pl##.nl-benefits.row
@@ -1043,6 +1044,7 @@ miastons.pl#?#.sh-s1.sh-t2.section-heading:-abp-contains(Newsletter)
 midar.net.pl##.pomaranczowy.boks:nth-of-type(4)
 mieszkajwmiescie.pl##div.col-sm-4:nth-of-type(1) > p.txtNewsletterDesc:nth-of-type(2), .conNewsletterInput, div.col-sm-4:nth-of-type(1) > .txtNewsletterTitle
 milight.pl#?#div#produkty.section:-abp-has(#alo_easymail_widget_form)
+milmag.pl##.newsletter__wrap
 miloohome.pl##.footer-container-newsletter
 mimari.com.pl##body > div#contentWrapper
 mirat.eu,ursus.com##.box-newsletter
@@ -1850,6 +1852,7 @@ www.galeriehandlowe.pl##.newsletter-box-blue-big
 www.gemius.pl#?#.smaller.item:-abp-has(.newsletter-title)
 www.kinnarps.pl##.js__hubspot-form.signup-block
 www.lenovo.com##.m-footerSignUp
+www.lidl.pl##.footer__flap
 www.mazury.pl##.footer .stopka-prawa
 www.milmag.pl##.formNewsletter
 www.milmag.pl##div.foldMid.span_4_of_12.col:nth-of-type(2) > h3.footerLabel:nth-of-type(2)
