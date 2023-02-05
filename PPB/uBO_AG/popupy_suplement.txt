@@ -1,3 +1,6 @@
+rego-bis.pl##.modal-backdrop
+rego-bis.pl##.modal:has(.modal-body--newsletter)
+rego-bis.pl##.modal-open[class]:style(overflow: visible !important; padding-right: 0 !important; margin-right: 0 !important;)
 agrodoradca24.pl,odo.wip.pl##.modal-scrollable, .modal-backdrop
 dok-oswiata-kadry.pl,nadzornadszkola.wip.pl##.modal-scrollable, .modal-backdrop
 poradnik-dyrektora.pl,kwadransdyrektora.wip.pl##.modal-scrollable, .modal-backdrop
