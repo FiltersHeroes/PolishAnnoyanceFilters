@@ -3,21 +3,21 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Wed, 21 Sep 2022, 21:30 UTC+02:00
-! Version: 2022.9.21.0
+! Last modified: Sun, 05 Feb 2023, 22:45 UTC+01:00
+! Version: 2023.2.5.0
 ! Expires: 3 days
-! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
+! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
-!   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
+!   GitHub => https://github.com/FiltersHeroes/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 21 wrz 2022, 21:30 UTC+02:00
+! Aktualizacja: nie, 05 lut 2023, 22:45 UTC+01:00
 !
 !
 !
-! Specyficzne reguły
+! Specyficzne filtry
 */pushServiceWorker.js$script,domain=go.tvn24.pl|player.pl|topagrar.pl|tvn.pl|~www.tvn.pl
 /firebase-push.js$domain=cafago.com|tomtop.com
 /firebase/firebase-messaging.js$script,domain=kobieceinspiracje.pl
@@ -109,6 +109,7 @@ pl.aliexpress.com#?#body > div:last-of-type:-abp-contains(Zezwalaj na powiadomie
 pl.waterdrop.com##.pushowl-widget-node
 polsatnews.pl###pushwooshBellWidget
 pomponik.pl##.ppg__signin
+prawo.vulcan.edu.pl###bhr-iframe-consent-form
 sklepsamsung.pl##.b-modal_webpushCentered
 sklepsamsung.pl##.b-modal_webpushVertical
 sprzedajemy.pl###webPushWidget
@@ -126,7 +127,7 @@ zegarkiipasja.pl##.fcx-push-bubble-container
 zegarkiipasja.pl##.fcx-push-modal-container
 !
 !
-! Ogólne reguły
+! Ogólne filtry
 /joompush-sw.js
 /joompush.js
 /OneSignalSDK.js$third-party,domain=com|eu|info|pl
@@ -154,7 +155,7 @@ pl###pushwoosh-pop
 pl###pushwoosh-subscription-widget-root
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
 !
 !
