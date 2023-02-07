@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 05 Feb 2023, 22:45 UTC+01:00
-! Version: 2023.2.5.3
+! Last modified: Tue, 07 Feb 2023, 21:11 UTC+01:00
+! Version: 2023.2.7.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 05 lut 2023, 22:45 UTC+01:00
+! Aktualizacja: wto, 07 lut 2023, 21:11 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2232,13 +2232,13 @@ agro-rolnik.pl,agroefekt.pl,apaczka.pl,blog.lh.pl,dekanex.pl,dobroplast.pl,dzisi
 agro-star.com.pl##.lufcik, .lufcik__bg
 agro-trade.pl###f-popup, .popup-overlay
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
-agrodoradca24.pl,dok-oswiata-kadry.pl,kwadransdyrektora.wip.pl,nadzornadszkola.wip.pl,odo.wip.pl,poradnik-dyrektora.pl##.modal-message
+agrodoradca24.pl,dok-oswiata-kadry.pl,gospodarowaniewoda.pl,linux-magazine.pl,poradnik-dyrektora.pl,portaloswiatowy.pl,prawowaptece.pl,rodomed24.pl,stomatologiawpraktyce.pl,strefalogopedy.pl,wip.pl##.modal-message
 agrofakt.pl##.seattle-simple.optin-monster-saas-overlay
 agrohandel.com.pl###jcemediabox-popup-page
 agrojumal.com.pl,betamed.pl,dobiegania.pl,kisiel24.pl,lowicz24.eu,netlandcomputers.pl,opteam.pl,pl.globalvoices.org,resulto.pl,tabal.pl,twojapogoda.pl###colorbox, #cboxOverlay
 agromix.agro.pl##.nivo-lightbox-overlay
 agropolska.pl,auto-gdansk.com.pl,blancz.pl,bookmaster.com.pl,chinskieprzepisy.pl,holiday.aquila.pl,honda.mojsiuk.pl,honda.torun.pl,hondabiela.pl,masa-honda.pl,ozptd.pl,promax.media.pl,strzalkowski.pl,www.hamol.pl,www.honda-kemag.pl,www.hondacichonski.com.pl,www.hondamalta.karlik.poznan.pl,www.hondaplaza.pl,zdobadzkobiete.pl###fancybox-wrap, #fancybox-overlay
-agrosiec.pl##.is-active.modal
+agrosiec.pl,angelgold.pl,bolix.pl##.modal
 agrotopparts.pl###kartka, #kartka ~ #tlo
 airly.eu#?#.sidebar + div:-abp-has(> .welcome-modal)
 airport.com.pl,chinskieprzepisy.pl,holiday.aquila.pl,pl.canalplus.com,romantycznyweekend.eu,zus.pox.pl###fancybox-overlay, #fancybox-wrap
@@ -2261,7 +2261,6 @@ allmedica.pl###modalbox-1, .modalbox-overlay
 alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megasport.com,ksiegarnia-edukacyjna.pl,malowanebiela.pl,megazoologiczny.pl,mito-pharma.pl,surgepolonia.pl###tws_i_100000
 analizy.pl##.nl_toplayer.ui-draggable.ui-widget-content.ui-widget.ui-dialog
 android.com.pl##.social-popup
-angelgold.pl,bolix.pl##.modal
 anita-sklep.pl,ekopaka.pl,klasycznebuty.pl,lamaglama.pl,sklep-agroland.pl,stalowelove.com.pl,strefarolnika.pl,trustmysister.com,zina.pl##.wce_popup-consolidator
 answear.com###popupNewsletterWrap
 apaczka.pl##.popupPromoBox
@@ -2959,7 +2958,7 @@ proline.pl#?#div[id][style^="left:"][style*=" top:"][style*="visible"][style*="b
 protego.pl###newsletterInfo, body[data-news-modal="open"]:after
 pruszynski.com.pl###p_layer
 przegladpiaseczynski.pl##.tdc-footer-wrap
-przekroj.pl##.is-shown.js-modal.modal__content--offset.modal__content
+przekroj.pl##.js-modal.modal__content--offset.modal__content
 przepisy.pl##.modal:not(#modalDownloadEbook):not(#modalResult), .modal-backdrop
 przetargi.egospodarka.pl###js_popup_przetargi
 przewodnik-usa.pl##.mt-redirect.morningcatch
@@ -5828,7 +5827,7 @@ grupapietrzak.pl##.buyout
 gtasite.net,ppe.pl##.nextbox
 gwiazdybasketu.pl,strimeo.tv##.recommend-box-on.recommend-box.widget
 hbo.pl##.ribbon
-hebe.pl##.js-everyday-promo-place
+hebe.pl,home.biedronka.pl##.js-everyday-promo-place
 hefra.pl###social-widget-main
 helloangielski.pl,kariera.goldenline.pl###icegram_messages_container
 hellogadzet.pl##.newsletter_sidewidget
@@ -5840,6 +5839,7 @@ hitobuwie.pl##.fixedBaners__container
 hollex.pl###SrodekKolumna > h2.StrNaglowek:nth-of-type(1)
 hollex.pl###Strona > .ModulRwdUkryj
 hollex.pl##div.StrTresc:nth-of-type(2)
+home.biedronka.pl##.everyday-promo
 home.pl###bottom-box
 home.pl###buttonizer-button
 hostgrafia.pl##.side-tab-widget > a[href="jak-dzialamy.html"]
