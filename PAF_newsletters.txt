@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 05 Feb 2023, 22:45 UTC+01:00
-! Version: 2023.2.5.0
+! Last modified: Wed, 08 Feb 2023, 16:30 UTC+01:00
+! Version: 2023.2.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 05 lut 2023, 22:45 UTC+01:00
+! Aktualizacja: śro, 08 lut 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -68,7 +68,8 @@
 4lapki.eu,annalovestravelspl.wordpress.com,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,podkop.com,pskrk.com,tabloidonline.blog,techno-senior.com,zabieganamama.com,zpamietnikabuntownika.wordpress.com##.jetpack_subscription_widget
 4spaw.pl,bydgoszczak.pl,kaliszak.pl,katowiczak.pl,krakusik.pl,pro-jex.pl##.mini-newsletter
 4trucks.pl##.sInfo > .m209.box
-9c.com.pl##.col-md-auto.col-12
+9c.com.pl##footer .col-md-auto.col-12
+9c.com.pl#?#.elementor-section.elementor-top-section.elementor-section-stretched.elementor-section-boxed:-abp-has(.elementor-newsletter-form)
 9design.pl##.top_newsletter
 24hurt.pl##.row > .col-md-12
 24pr.pl##center > input, td:nth-of-type(2) > input, #carrington-subscribe > h3
@@ -425,7 +426,7 @@ dachyb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl#
 dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
 daemon-tools.cc###send-mail
 dagmara.pl###links_footer_3
-dajar.pl##div.css-770vd2:nth-of-type(13)
+dajar.pl#?#div.css-770vd2:nth-of-type(13):-abp-has([href="/newsletter/signup"])
 danko.pl##.nl-holder
 darymex.pl##.wce_footerinfo
 decathlon.pl#?##footer div[class*="column"]:nth-of-type(3):-abp-has(.ct-appBox)
@@ -1948,6 +1949,7 @@ zyciepabianic.pl###widget-newsletter
 ~aurum-optics.pl,pl##.footer-newsletter
 ~automatykab2b.pl,pl##.newsletter-box
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
+~dietyodbrokula.pl,pl##.newsletter-form
 ~dron.pl,pl##.widget_wysija
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
 ~lp.morele.net,~pl,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):lang(pl)
@@ -2031,7 +2033,6 @@ pl##.newsletter-col
 pl##.newsletter-component
 pl##.newsletter-content
 pl##.newsletter-footer
-pl##.newsletter-form
 pl##.newsletter-inner
 pl##.newsletter-link
 pl##.newsletter-mod
