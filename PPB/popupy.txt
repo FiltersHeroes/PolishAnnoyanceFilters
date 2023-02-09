@@ -511,7 +511,7 @@ medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
 medonet.pl##.haloDoctorPopup, .pushNotifiPopup
 medonet.pl##.medonet_healthtestpopup_opened
 medonet.pl##.ntzpPopup
-medonet.pl##.withHPU:before, .withPNP:before
+medonet.pl##.withHPU::before, .withPNP::before
 medonetmarket.pl##.safety-popup-rectangle
 mencare.pl###fx-popup
 merwinski.pl##.ppsPopupListsShell, #ppsPopupBgOverlay
@@ -690,7 +690,7 @@ projektowanie-wnetrz-online.pl###elementor-popup-modal-8730
 projektwp.pl###ga-popup-id-2817
 proline.pl##div[style*="visibility: visible; display: block;"]
 proline.pl#?#div[id][style^="left:"][style*=" top:"][style*="visible"][style*="block"]:-abp-has(a[onclick*="layer_close"])
-protego.pl###newsletterInfo, body[data-news-modal="open"]:after
+protego.pl###newsletterInfo, body[data-news-modal="open"]::after
 pruszynski.com.pl###p_layer
 przegladpiaseczynski.pl##.tdc-footer-wrap
 przekroj.pl##.js-modal.modal__content--offset.modal__content
