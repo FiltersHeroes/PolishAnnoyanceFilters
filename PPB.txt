@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 08 Feb 2023, 16:30 UTC+01:00
-! Version: 2023.2.8.1
+! Last modified: Thu, 09 Feb 2023, 21:14 UTC+01:00
+! Version: 2023.2.9.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 08 lut 2023, 16:30 UTC+01:00
+! Aktualizacja: czw, 09 lut 2023, 21:14 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2523,7 +2523,7 @@ fabrykazabawek.eu###helloModal
 faie.pl###searchPopUp
 fakro.pl#?#.fancybox-overlay:-abp-has([id^="fancybox-frame"])
 fakt.pl,medonet.pl##.facebookLikePopup
-fakt.pl,medonet.pl##.withFPU:before
+fakt.pl,medonet.pl##.withFPU::before
 fantoma.pl,militarialodz.pl,styleev-shop.pl###popup-scademy1
 farbotka.pl,uzdrowiskowespa.pl###fx-modal-2
 fashionata.pl##.nlpwContainer, .pwShade
@@ -2760,7 +2760,7 @@ medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
 medonet.pl##.haloDoctorPopup, .pushNotifiPopup
 medonet.pl##.medonet_healthtestpopup_opened
 medonet.pl##.ntzpPopup
-medonet.pl##.withHPU:before, .withPNP:before
+medonet.pl##.withHPU::before, .withPNP::before
 medonetmarket.pl##.safety-popup-rectangle
 mencare.pl###fx-popup
 merwinski.pl##.ppsPopupListsShell, #ppsPopupBgOverlay
@@ -2956,7 +2956,7 @@ projektowanie-wnetrz-online.pl###elementor-popup-modal-8730
 projektwp.pl###ga-popup-id-2817
 proline.pl##div[style*="visibility: visible; display: block;"]
 proline.pl#?#div[id][style^="left:"][style*=" top:"][style*="visible"][style*="block"]:-abp-has(a[onclick*="layer_close"])
-protego.pl###newsletterInfo, body[data-news-modal="open"]:after
+protego.pl###newsletterInfo, body[data-news-modal="open"]::after
 pruszynski.com.pl###p_layer
 przegladpiaseczynski.pl##.tdc-footer-wrap
 przekroj.pl##.js-modal.modal__content--offset.modal__content
