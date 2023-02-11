@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 09 Feb 2023, 21:14 UTC+01:00
-! Version: 2023.2.9.0
+! Last modified: Sat, 11 Feb 2023, 13:31 UTC+01:00
+! Version: 2023.2.11.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 09 lut 2023, 21:14 UTC+01:00
+! Aktualizacja: sob, 11 lut 2023, 13:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -502,7 +502,7 @@ drogeriepolskie.pl##.footer-newsletter-area
 drogerium.pl##.newsletterek
 drogowskazykariery.pl##.module_column_5-11-3.module_column_3.tb_5_column.module_column.last.col4-1.tb-column
 dronexpert.eu##div.BoxRwdUkryj:nth-of-type(8)
-drtusz.pl#?#.infoBoxContents tr:has(> td > a[href*=".com/"][target])
+drtusz.pl#?#.infoBoxContents tr:-abp-has(> td > a[href*=".com/"][target])
 drtusz.pl#?#table.ramka_sklep table[width="98%"] table table.infoBoxContents_Box table table tr form[action="newsletters_subscribe_checkout.php"]
 drtusz.pl#?#table.ramka_sklep table[width="98%"] table table.infoBoxContents_Box table table tr h4:-abp-contains(na nasz newsletter)
 drzwicallublin.pl#?#.wellcome-text:-abp-has(.contactForm)
@@ -6376,6 +6376,10 @@ vice.com##.up-next
 vida.pl##.home
 vida.pl##.panelpomoctechniczna
 villacarpatia.com##.ancr-sticky
+virustotal.com##div#message.opened > div.h-100 > span.text-center
+virustotal.com##div#message.opened > div.h-100 > span.text-center ~ a.text-right[href="#"]
+virustotal.com##div.row > div.col-12 > div.alert.alert-info
+virustotal.com##span[slot="header"] > div + a[href^="https://developers.virustotal.com/"]
 vod.tvp.pl###plywaczek
 vox.pl###fiszka
 vox.pl##.nearplace-frame
