@@ -1,3 +1,4 @@
+github.com##body:has(.commit) :target:style(scroll-margin-top: 45px;)
 !$permissions=autoplay=()
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
