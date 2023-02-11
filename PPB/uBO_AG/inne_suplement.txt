@@ -1,4 +1,3 @@
-github.com##body:has(.commit) :target:style(scroll-margin-top: 45px;)
 !$permissions=autoplay=()
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -57,6 +56,7 @@ gfmod.pl##+js(acis, snowfall)
 github.com##+js(ra, href, details > summary > a[href*="user-images"]:first-child, stay)
 github.com##.convert-to-issue-button:matches-path(/FiltersHeroes)
 github.com##blockquote div[class*="highlight-"] pre:style(color: var(--color-fg-default))
+github.com##body:has(.commit) :target:style(scroll-margin-top: 45px;)
 goldenmarketing.pl###ssb-btn-1:style(visibility: hidden !important;)
 greasyfork.org##+js(ra, href, input[value="markdown"] + a[target="markup_choice"][href*="/markdown/"], asap stay)
 grupa-icea.pl##.icea-pulse:style(animation: none !important;)
