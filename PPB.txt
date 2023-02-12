@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 11 Feb 2023, 16:30 UTC+01:00
-! Version: 2023.2.11.1
+! Last modified: Sun, 12 Feb 2023, 23:53 UTC+01:00
+! Version: 2023.2.12.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 11 lut 2023, 16:30 UTC+01:00
+! Aktualizacja: nie, 12 lut 2023, 23:53 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2174,9 +2174,7 @@ pl,~znak.com.pl##.newsletter-container
 ||wymarzonyogrod.pl/popup-newsletter/*
 ||znak.com.pl/popupNewsletter$xmlhttprequest
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
-!agro-rolnik.pl##.sg-popup-content
 !chrzescijanin.pl###spu-6691, #spu-bg-6691
-!g2aarena.pl##.sg-popup-builder-content, .sgpb-popup-overlay
 !naszamlawa.pl###spu-bg-75900, #spu-75900
 !obcasy.pl##.spu-box, .spu-bg
 !pierwsze-kroki.com###spu-26, #spu-bg-26
@@ -2229,7 +2227,7 @@ agamasmaka.pl##.et_bloom_auto_popup.et_bloom_flyin
 agd-czesci.com.pl,sklepbazant.pl,swiatmodeli.eu##.mbank-top-layer, .mask
 agnieszkawielobob.pl,cyklo.info.pl##.et_bloom_popup
 agrarsklep.pl,go.tvn24.pl,inea.pl,player.pl,profitechnika.pl,teb.pl,topagrar.pl,www.pzu.pl##.__ipPerunElement[style*="position"]
-agro-rolnik.pl,agroefekt.pl,apaczka.pl,blog.lh.pl,dekanex.pl,dobroplast.pl,dzisiajwgliwicach.pl,estante.pl,g2aarena.pl,gf24.pl,glokalna.pl,komputerowapasja.pl,konopia-med.pl,ksm.org.pl,lukasiewicz.gov.pl,neworleans.pl,niw.gov.pl,no44.pl,pantabletka.pl,prostamol.pl,siecprzedsiebiorczychkobiet.pl,sklep.lancray.pl,sulmierzyce.info,techfresh.pl,techsetter.pl,uroda.in,vratislavia-medica.pl,zostanwpolsce.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+agro-rolnik.pl,agroefekt.pl,apaczka.pl,blog.lh.pl,dekanex.pl,dobroplast.pl,dzisiajwgliwicach.pl,estante.pl,g2aarena.pl,gf24.pl,glokalna.pl,komputerowapasja.pl,konopia-med.pl,ksm.org.pl,lukasiewicz.gov.pl,neworleans.pl,niw.gov.pl,no44.pl,pantabletka.pl,prostamol.pl,sedna.pl,siecprzedsiebiorczychkobiet.pl,sklep.lancray.pl,sulmierzyce.info,techfresh.pl,techsetter.pl,uroda.in,vratislavia-medica.pl,zostanwpolsce.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 agro-star.com.pl##.lufcik, .lufcik__bg
 agro-trade.pl###f-popup, .popup-overlay
 agrobex.pl#?#.fancybox-overlay:-abp-has(.fancybox-type-inline)
@@ -4781,7 +4779,7 @@ darymex.pl##.edrone-chat-position
 darymex.pl,krukam.pl,sneakerpeeker.pl###edrone--main--chat--container
 dbcenter.pl,zizako.pl###widget_shop3
 ddd.com.pl###meeting
-debowewzgorze.eu,diamentustron.pl,szarotka.eu,warsawdowntown.pl##iframe[name="ca-review-widget"]
+debowewzgorze.eu,diamentustron.pl,sedna.pl,szarotka.eu,warsawdowntown.pl##iframe[name="ca-review-widget"]
 decathlon.pl,eltrox.pl,globtroter.pl,gomez.pl,renee.pl###yourcx_blk
 deccomeble.pl##[href="http://www.deccomeble.pl/kontakt"]
 decoliving.pl###swifttagdatacontaineraha9azkq59 > div > .hide_on_mobile
