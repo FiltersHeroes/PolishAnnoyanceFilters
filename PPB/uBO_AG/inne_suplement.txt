@@ -1,4 +1,5 @@
 !$permissions=autoplay=()
+ofeminin.pl##.quote:style(transform: unset !important; rotate: unset !important;)
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
