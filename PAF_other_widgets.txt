@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 11 Feb 2023, 16:30 UTC+01:00
-! Version: 2023.2.11.0
+! Last modified: Tue, 14 Feb 2023, 21:46 UTC+01:00
+! Version: 2023.2.14.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 11 lut 2023, 16:30 UTC+01:00
+! Aktualizacja: wto, 14 lut 2023, 21:46 UTC+01:00
 !
 !
 !
@@ -1095,12 +1095,12 @@ zyciepabianic.pl##.paper
 ||leaselink.pl/js/slide-button-shoper.js
 ||leaselink.pl/js/slide-button.js
 ||platformafinansowa.pl/assets/other/widget.png$third-party
+!##body > .buttonHomepage, .buttonHomepage ~ .containerHomepage
 ###cursor:empty
 ###gr-spnotifications
 ###grw_sidebox
 ##.circle-cursor
 ##[class="cursor"]:empty
-##body > .buttonHomepage, .buttonHomepage ~ .containerHomepage
 ~pl##.mraty-widget:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
