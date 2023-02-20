@@ -26,7 +26,8 @@ tokfm.pl##+js(set, gazeta_pl.Player.FloatingPlayer.floatPlayer, noopFunc)
 topagrar.pl##+js(aeld, scroll, [native code])
 wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important;)
 !#if !env_mobile
-abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
+!+ NOT_PLATFORM(ext_ff, ext_opera)
+~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
 !#endif
 !#if cap_user_stylesheet
 !
@@ -41,7 +42,7 @@ infozdrowie24.pl#$#.normplayer { transition: unset !important; }
 !#endif
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 !#if !ext_ublock
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
 !#endif
