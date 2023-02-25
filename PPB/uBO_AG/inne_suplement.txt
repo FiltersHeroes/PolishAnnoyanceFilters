@@ -1,3 +1,6 @@
+poczta.wp.pl,poczta.o2.pl##:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
+poczta.wp.pl,poczta.o2.pl##:matches-path(/login/login.html) body > style:last-child:has-text(/\._[a-z0-9]{12}/):remove()
+
 !$permissions=autoplay=()
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
 *##.buttonHomepage:remove()
