@@ -1,3 +1,5 @@
+allegro.pl###search-results:has(article[data-analytics-view-label*="Item"] + section:has(button):has-text(dopas)):matches-media((min-width: 1200px)):style(margin-top: 90px !important)
+allegro.pl###search-results article[data-analytics-view-label*="Item"] + section:has(button):has-text(dopas):matches-media((min-width: 1200px)):style(position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important;)
 !$permissions=autoplay=()
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
 *##.buttonHomepage:remove()
