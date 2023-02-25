@@ -113,6 +113,8 @@ pl.accounts.ikea.com##.grecaptcha-badge:style(visibility: hidden !important;)
 pl.everli.com###smartbanner
 pl.everli.com##.with-smartbanner .external-header:style(top: 0 !important;)
 pl.everli.com##.with-smartbanner .top-band:style(margin-top: 0 !important;)
+poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body > style:last-child:has-text(/\._[a-z0-9]{12}/):remove()
+poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
 poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"] div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):style(opacity: 0.3 !important;)
 poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):not(:has(div[id^="komentarz-"])):style(opacity: 0.3 !important;)
 polsatnews.pl##.series__item:remove()
