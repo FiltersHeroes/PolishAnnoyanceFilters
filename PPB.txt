@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 28 Feb 2023, 20:30 UTC+01:00
-! Version: 2023.2.28.2
+! Last modified: Wed, 01 Mar 2023, 01:31 UTC+01:00
+! Version: 2023.3.1.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 28 lut 2023, 20:30 UTC+01:00
+! Aktualizacja: śro, 01 mar 2023, 01:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -176,6 +176,7 @@ aptekagemini.pl,gemini.pl##.footer__subscription
 apteline.pl##.footer__connect-newsletter
 arbiton.com,indigo-nails.com,korbo.eu,krasnik.eu##.newsletter-section
 architektura.info###PopupSignupForm_0
+archiup.com##footer#footer.footer > div:first-child > div > div > div:nth-child(4) > div:nth-child(2)
 ardant.pl##.Newsletter_footer
 artmuseum.pl##.follow > div
 arystoteles.pl###dozapi
@@ -3584,6 +3585,7 @@ aptekagemini.pl,audilo.pl,douglas.pl,eadamex.pl,gemini.pl##.scroll-to-top-button
 aptekaolmed.pl###btn-going-top
 apteline.pl,bebiklub.pl,funnycat.pl,igkm.pl,itcontent.eu,piu.org.pl,quiosque.pl,selectivv.com##.scroll-top-button
 aquaelzoo.pl,ksiazka.uk,orsay.com##.material-scrolltop
+archiup.com##.btn-scroll-top
 arenanarciarska.pl,euforiafestivals.pl,pizzeriapaccino.pl###goto-top
 arhn.eu###gp-to-top
 aros.pl,bonito.pl##.circle_arrow
