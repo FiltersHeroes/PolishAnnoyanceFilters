@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 04 Mar 2023, 00:31 UTC+01:00
-! Version: 2023.3.4.0
+! Last modified: Sat, 04 Mar 2023, 13:31 UTC+01:00
+! Version: 2023.3.4.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 04 mar 2023, 00:31 UTC+01:00
+! Aktualizacja: sob, 04 mar 2023, 13:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -943,7 +943,6 @@ lawendowykredens.pl##.footer-static > div.col-sms-12:nth-of-type(3)
 lebork24.info###newsletterAdd
 lechia.pl##div.foot-cols.row:nth-of-type(2) > div.col-item:nth-of-type(3)
 lechpol.pl##.js__newsletter_form
-lechpol.pl,speckable.pl##.ins-l-footer__col-newsletter
 lectus24.pl###addme
 lectus24.pl##.mobile-addme
 legalnews24.pl##.bezplatny_bliuletyn
@@ -1576,7 +1575,6 @@ sonos.com##.newsletter.columns.medium-6
 sopot.naszemiasto.pl###dodaj-newsletter
 soselectronic.pl##.col-footer-newsletter.col
 speak-up.pl##.plywajacy-formularz-container
-speckable.pl##.ins-v-newsletter-signup-form
 spedycje.pl##[href*="newsletter_dodaj/"]
 spidersonline.pl##.st_news_letter_container
 spirulina.pl#?#.template-page:-abp-has(.av-special-heading-tag:-abp-contains(/^Newsletter Spirulina$/))
