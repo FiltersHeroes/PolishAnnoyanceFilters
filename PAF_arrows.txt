@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Mon, 06 Mar 2023, 16:30 UTC+01:00
-! Version: 2023.3.6.0
+! Last modified: Mon, 06 Mar 2023, 23:06 UTC+01:00
+! Version: 2023.3.6.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 06 mar 2023, 16:30 UTC+01:00
+! Aktualizacja: pon, 06 mar 2023, 23:06 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -30,6 +30,7 @@
 ||tomaszek.pl/index_pliki/top.png
 ||turek.net.pl/js/default/scroll_to_top.js
 ||tvpolsat.info/infusions/ui_top_button_panel/js/jquery.ui.totop.js
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 2x45.info,agro-hurt.eu,asus.com,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
 3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,bajki-grajki.pl,blackmonk.pl,domator24.com,e-rbud.pl,ettoi.pl,folcom.pl,futurefarm24.pl,greenhousedevelopment.pl,harposoftware.com,lampa-lampy.pl,laroxy.com,mojwzrok.pl,mrzepinski.pl,opakowania24.eu,optes.pl,plantica.pl,skitenis.pl,sklep.escribo.pl,skymaster24.pl,slowka.pl,swiatroslin.eu,swiatwokolkuchni.pl,tafmet.pl,taniesoczewki.pl,tortoweozdoby.pl,virgobooks.pl##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,pasmanteria.eu,poid.eu,stolmot.com###to-top
@@ -100,7 +101,7 @@ alergiapokarmowa.pl##.ct-totop
 aliexpress.com##.ui-fixed-panel-go-top
 alko-garden.pl###jumptotop
 alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,rebelelectro.com,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
-allegro.pl##div[data-box-name="Scroll Top"]
+allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
 allegro.pl,citroen.pl,domkulturywkodniu.pl,infocrypto.pl,ipon.pl,zhp.pl###scrolltop
 allpaka.eu,eperfumy.pl,influencja.pl,pro-mask.pl,siapre.pl,sklep.druk-pak.com###do_gory
 alltube.tv##.fa-angle-double-up
@@ -929,7 +930,6 @@ wojtki.eu##.mypresta_scrollup
 wolczanka.pl##.btn__scroll_to_top
 wolt.com##button[class*="ScrollToTop"]
 wolt.com##button[class^="ScrollToTop__"]
-wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 wrzesnia.powiat.pl###btn-up
 wsip.pl##.jsBackToTop
 www.aboutyou.pl#?#div[class*="pulse"][class*="wrapper"]:-abp-contains(do góry)
