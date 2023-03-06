@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 06 Mar 2023, 01:31 UTC+01:00
-! Version: 2023.3.6.0
+! Last modified: Mon, 06 Mar 2023, 16:30 UTC+01:00
+! Version: 2023.3.6.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 06 mar 2023, 01:31 UTC+01:00
+! Aktualizacja: pon, 06 mar 2023, 16:30 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3759,7 +3759,7 @@ dolinski.pl##.ab__scroll_to_top
 domodi.pl##.dm-go-up
 domodi.pl##.dml-page-return
 domowa.pizza##.smoothup
-domowe-wypieki.pl##.sunfw-scrollup
+domowe-wypieki.pl,kuchnia-domowa.pl##.sunfw-scrollup
 domowefrytki.com,hulubrushes.com,twojlekarz.info##.generate-back-to-top
 domy-wysoka.pl,dziennikprawny.pl,politykabezpieczenstwa.pl,prawokonsumenckie.pl,rzetelnyregulamin.pl,sprzedambiznes.pl##.js-go-to
 domzagadek.pl###scroll_strz
@@ -3986,7 +3986,6 @@ krainaoszczedzania.pl###finoScroll
 krakow.pl###footer-scroll-up
 krasnystaw.eu##.js-up
 kropleinternetu.biz###gora
-kuchnia-domowa.pl##.sunfw-scrollup
 kufer.poznajemyswiat.pl##.fa-arrow-up.ssttbutton-symbol
 kulinarnastronamocy.pl##.stick.stnsvn-btt
 kultura.krasnik.eu###skip_to
