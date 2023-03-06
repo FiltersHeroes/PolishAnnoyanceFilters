@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 04 Mar 2023, 00:31 UTC+01:00
-! Version: 2023.3.4.0
+! Last modified: Mon, 06 Mar 2023, 23:06 UTC+01:00
+! Version: 2023.3.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 04 mar 2023, 00:31 UTC+01:00
+! Aktualizacja: pon, 06 mar 2023, 23:06 UTC+01:00
 !
 !
 !
@@ -64,8 +64,13 @@
 ||widgets.okazje.info.pl^$third-party
 ||windowsmania.pl/images/bar/portal.jpg
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
-~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href*="wlacz-tryb-ciemny-"])
-~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href="undefined"]:-abp-contains(Jak to działa?))
+~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp
+~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content ~ div > style ~ div div > a[href^="/"]
+~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?##main-content ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
+~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#div[id] > div > div ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
+~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##.header div[class] > button[class][title^="Ustaw"], .header div[class] > button[class][title^="Ustaw"] + div[class]
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href*="wlacz-tryb-ciemny-"])
+~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href="undefined"]:-abp-contains(Jak to działa?))
 4fun.tv##.app-popup
 4programmers.net##.sidebar-job-offers.box, .sidebar-offers.box
 4sun.eu##.left.pointer
@@ -414,10 +419,6 @@ forum.muratordom.pl###left_circus > .dostepne_mobile
 forum.optymalizacja.com#?#.cTopicPostArea:-abp-has(.cGuestTeaser)
 forum.swiateczne.info##.av-preloader-box
 forum.szafa.pl###recommendation
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##.backToWp
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl##article#main-content ~ div > style ~ div div > a[href^="/"]
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?##main-content ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
-fotoblogia.pl,gadzetomania.pl,komorkomania.pl,polygamia.pl,www.dobreprogramy.pl#?#div[id] > div > div ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 freelancer.pl###fixed-banner
 fronda.pl##.slided-article
 gaia.com.pl###smAddonSizes
@@ -757,7 +758,6 @@ one.google.com###google-hats-survey
 online.citibank.pl##.call-to-action-bottom
 onlinezdrowie.pl###post-nav
 oohmagazine.pl##.festiwal_card_tab
-open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##.header div[class] > button[class][title^="Ustaw"], .header div[class] > button[class][title^="Ustaw"] + div[class]
 opiekunbloga.pl##.pum-position-fixed.popmake.pum-container
 opinie24.pl##.box-size.side-box-container
 opinie-perfumy.pl##.postNavigation
