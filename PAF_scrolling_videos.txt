@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Mon, 20 Feb 2023, 23:48 UTC+01:00
-! Version: 2023.2.20.1
+! Last modified: Thu, 09 Mar 2023, 16:30 UTC+01:00
+! Version: 2023.3.9.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 20 lut 2023, 23:48 UTC+01:00
+! Aktualizacja: czw, 09 mar 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -24,9 +24,9 @@
 ||ppstatic.pl^*/plywajace_wideo.js
 !dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
 !dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
+~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]
 16bit.pl##.crunchify-top
 35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
-abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]
 agrii.pl###panel
 antyweb.pl##.post-header__video.v-wrapper
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl##.player-floating, .player-move-up
