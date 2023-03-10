@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 06 Mar 2023, 16:30 UTC+01:00
-! Version: 2023.3.6.0
+! Last modified: Fri, 10 Mar 2023, 16:30 UTC+01:00
+! Version: 2023.3.10.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 06 mar 2023, 16:30 UTC+01:00
+! Aktualizacja: pią, 10 mar 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -313,7 +313,7 @@ brief.pl#?#.sticky-column > div > div:-abp-has(> div > form[action*="enewsletter
 brita.pl##.validation.form-group
 brownells.pl##.ic-popupLinkNewsletter
 brw.com.pl,brw.pl##.blok-newsletter
-btcpolska.com###text-12
+bto.pl###StopkaAktywnaNewsletter
 budujemydom.pl###newsBoxLeft
 budujemydom.pl,czasnawnetrze.pl,zielonyogrodek.pl###newsletterBoxLeft
 bulldogjob.pl##.spop-container
@@ -591,6 +591,7 @@ esaliens.pl##.news-btn.aside-btn
 escoli.pl##.no-left-padding.col-sm-6 > .footer-block-title, [id^="newsletter-validate-detail"]
 eskk.pl###footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > h4
 eskk.pl###main-container-newsletter
+esklep.brandvital.eu,eventory.cc,hegos.eu,mazidla.com##.newsletter
 esklep.niewiescin.pl##footer > #widgets > .container > div.widget:last-child
 esklep.poczta-polska.pl###footer > div:nth-of-type(3)
 esprit.com.pl##.newsletter-gora
@@ -616,7 +617,6 @@ euroogrod.com.pl##.menu_newsletter_text
 europacentralna.eu,sare.pl##.nlblock
 eveline.pl##.subscribe-to-news
 evenea.pl###subscribe-section
-eventory.cc,hegos.eu,mazidla.com##.newsletter
 evertiq.pl##.register.index.news
 evertourist.com##div.col-md-6.col-xs-12
 ewakacje.pl##footer div.classPageGenerator_default_container:nth-of-type(2) > .classPageGenerator_default_bottom_box1
@@ -791,7 +791,6 @@ ichi.pro##a[href*="eepurl.com/"]
 igimag.pl###freshMailPopUp__background
 imperiumromanum.edu.pl##div.wpb_raw_html.wpb_content_element.wpb_raw_code:nth-of-type(2)
 inexbuy.pl##.us-foooter-subscribe-row
-influentiq.pl###text-14
 infoair.pl,infobike.pl,infobus.pl,inforail.pl,infoship.pl,infotram.pl,transinfo.pl##div.right_content_box:nth-of-type(4)
 infobeskidy.eu,starysacz.info###NewsletterForm
 insert.com.pl##li:nth-of-type(2) > .info-channel
@@ -877,7 +876,6 @@ km-net.pl###wysuwane
 km-net.pl##a[href="/kontakt"]
 knowband.com##.kbGetUpdates
 kobieta.pl##.text-center.sidebar-box:nth-of-type(11)
-kobietydokodu.pl,marfafashion.com,niezlomni.com,woolloop.pl,zagranie.com###text-10
 kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER)
 kochamzabawki.eu#?##Strona > h2.StrNaglowek:-abp-contains(NEWSLETTER) + div.StrTresc
 kochanamama.pl##.pmpIMail
@@ -1836,6 +1834,7 @@ wnp.pl##.social > li:nth-of-type(1)
 wnp.pl##div[class^="box"] > .pageWidth > form[action*="/newsletter/"]
 woda.com.pl##nav > div:nth-of-type(2) > form
 woodrepublic.eu###newsletter_subscribe
+woolloop.pl###text-10
 worldbank.org##.lp__footersearch_section
 wprost.pl##.newsletter-plugin
 wprost.pl##.stay-updated
