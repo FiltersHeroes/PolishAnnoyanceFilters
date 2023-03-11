@@ -195,6 +195,8 @@ allegro.pl#$?#@media all and (min-width: 1200px) { #search-results:has(article[d
 karachan.org$$script[wildcard="style*xD"][min-length="100"]
 komputerswiat.pl$$#ks_breaking_news
 newonce.radio$$link[rel="shortcut icon"][href^=".gif"]
+pacjent.gov.pl#@#:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
+wbgroup.pl#@#:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important;)
 !#endif
 !#if env_mobile
 medipartner.pl##.sidebar-kontakt2 .wpcf7-form p:style(display: block !important;)
