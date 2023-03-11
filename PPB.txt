@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 11 Mar 2023, 13:31 UTC+01:00
-! Version: 2023.3.11.0
+! Last modified: Sat, 11 Mar 2023, 15:03 UTC+01:00
+! Version: 2023.3.11.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 11 mar 2023, 13:31 UTC+01:00
+! Aktualizacja: sob, 11 mar 2023, 15:03 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -280,7 +280,7 @@ blog.gdaq.pl###oh_newsletter_slideIn
 blog.gdaq.pl##.widget_custom_html.one-third
 blog.gdaq.pl,doktorania.pl,faktyozywnosci.pl,haart.pl,kryptopomocnik.pl,magnapolonia.org,naukatolubie.pl,ostatniatawerna.pl,refreszing.pl,stomatologianews.pl###custom_html-2
 blog.goeste.pl#?#.elementor-widget-heading:-abp-contains(newsletter)
-blog.kurasinski.com##.right-col, .newsletter
+blog.kurasinski.com,esklep.brandvital.eu,eventory.cc,hegos.eu,mazidla.com##.newsletter
 blog.lh.pl#?#article.post > .entry-content > div:-abp-has(a[href="/newsletter/"])
 blog.mozilla.org,olesnica24.com,zamek-krolewski.pl###newsletter_form
 blog.spotawheel.pl,oknarolety.com###subscribe-form
@@ -591,7 +591,6 @@ esaliens.pl##.news-btn.aside-btn
 escoli.pl##.no-left-padding.col-sm-6 > .footer-block-title, [id^="newsletter-validate-detail"]
 eskk.pl###footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > h4
 eskk.pl###main-container-newsletter
-esklep.brandvital.eu,eventory.cc,hegos.eu,mazidla.com##.newsletter
 esklep.niewiescin.pl##footer > #widgets > .container > div.widget:last-child
 esklep.poczta-polska.pl###footer > div:nth-of-type(3)
 esprit.com.pl##.newsletter-gora
@@ -913,7 +912,8 @@ kupbilecik.pl##.blinkGray.boxTopInfo
 kupiec.pl###vnlab-footer-before
 kuponrabatowy.net###social .mleft > h4, #social .email
 kupzegarek.com,sklep.platinet.pl,sorbenty.pl##.footer_nls
-kurasinski.com##.home-newsletter, .right-col
+kurasinski.com##.newsletter-link
+kurasinski.com,piroart.eu##.home-newsletter
 kurencja.com##.page-newsletter
 kurierhistoryczny.pl##div.newsletter__col:nth-of-type(6)
 kwestiasmaku.com###block-block-1
@@ -2684,6 +2684,7 @@ kulinarne.info###holdon-overlay
 kulturaliberalna.pl##.popup-600nr, .popup-600nr-bg
 kupbilecik.pl###popup, #lean_overlay
 kurasinski.com###bottom-newsletter-overlay
+kurasinski.com#?#.altumcode:-abp-contains(NEWSLETTER)
 kuriergarwolinski.pl###popup_div
 kursphp.com##.all-page-modals
 kwiaciarnia-olivia.pl###logo2a, #tlo2a
@@ -6221,6 +6222,7 @@ pzw.org.pl###body_google_play
 radio17.pl##.android-app-dialog
 radiobonton.pl##.hidden-xs.offbox-position-right.radio-play.offbox-radio
 radiopogoda.pl##.gra-pobierz_aplikacje
+radiozet.pl##.react.poll.embed
 radomsko.pl###media > ul > li > .tooltipMedia
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(-n+2)
 rallypl.com,sledcza24.tv###check-also-box
