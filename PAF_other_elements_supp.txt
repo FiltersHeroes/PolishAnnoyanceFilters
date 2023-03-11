@@ -177,6 +177,14 @@ semcamp.university##div > div > div.app::-webkit-scrollbar-thumb:style(backgroun
 semcamp.university##div > div > div.app::-webkit-scrollbar-track:style(background: black !important;)
 semcamp.university##div > div > div.app::-webkit-scrollbar:style(all: initial !important;)
 !#endif
+!#if env_firefox
+pacjent.gov.pl##:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
+wbgroup.pl##:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important;)
+!#endif
+!#if env_legacy
+pacjent.gov.pl##:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
+wbgroup.pl##:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important;)
+!#endif
 !#if !ext_ublock
 #$#.buttonHomepage { remove: true; }
 #$#.containerHomepage { remove: true; }
