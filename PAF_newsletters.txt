@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 10 Mar 2023, 16:30 UTC+01:00
-! Version: 2023.3.10.0
+! Last modified: Sat, 11 Mar 2023, 15:02 UTC+01:00
+! Version: 2023.3.11.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 10 mar 2023, 16:30 UTC+01:00
+! Aktualizacja: sob, 11 mar 2023, 15:02 UTC+01:00
 !
 !
 !
@@ -279,7 +279,7 @@ blog.gdaq.pl###oh_newsletter_slideIn
 blog.gdaq.pl##.widget_custom_html.one-third
 blog.gdaq.pl,doktorania.pl,faktyozywnosci.pl,haart.pl,kryptopomocnik.pl,magnapolonia.org,naukatolubie.pl,ostatniatawerna.pl,refreszing.pl,stomatologianews.pl###custom_html-2
 blog.goeste.pl#?#.elementor-widget-heading:-abp-contains(newsletter)
-blog.kurasinski.com##.right-col, .newsletter
+blog.kurasinski.com,esklep.brandvital.eu,eventory.cc,hegos.eu,mazidla.com##.newsletter
 blog.lh.pl#?#article.post > .entry-content > div:-abp-has(a[href="/newsletter/"])
 blog.mozilla.org,olesnica24.com,zamek-krolewski.pl###newsletter_form
 blog.spotawheel.pl,oknarolety.com###subscribe-form
@@ -398,7 +398,6 @@ costa.pl###wrapper-newsletter
 cottonina.pl##.in-viewport.t-alt.relative
 cozaile.pl##.c-guide-newsletter
 crocs.pl##.footer-email-signup
-crolove.pl###text-28
 cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
 crystal-albums.pl,monikahonory.pl##.ml-subscribe-form.ml-form-embedContainer
 ctek-ladowarki.pl###bestnewsletterbg
@@ -447,7 +446,7 @@ deviceranking.pl##.subscr-widget
 devmentor.pl##.mailerlite-form
 devstyle.pl###post-2135 > .ck_inline.ck_form_container
 devstyle.pl##li.widget_text.col-4.widget:nth-of-type(3)
-deweloper-interes.pl,niebieskimigdal.pl,paweltkaczyk.com,piroart.eu,selectivv.com###text-2
+deweloper-interes.pl,niebieskimigdal.pl###text-2
 dewocjonalia-niedziela.pl###footer_boxs > li:nth-of-type(4)
 dexpol.com##.stopka2_center > div.box_info:nth-of-type(1)
 di.com.pl##.footcol:nth-of-type(5) > form, .footcol:nth-of-type(5) > p, .footcol:nth-of-type(5) > .footnag:nth-of-type(1)
@@ -591,7 +590,6 @@ esaliens.pl##.news-btn.aside-btn
 escoli.pl##.no-left-padding.col-sm-6 > .footer-block-title, [id^="newsletter-validate-detail"]
 eskk.pl###footer-up > .container > div.col-xs-12.col-md-4:nth-of-type(3) > h4
 eskk.pl###main-container-newsletter
-esklep.brandvital.eu,eventory.cc,hegos.eu,mazidla.com##.newsletter
 esklep.niewiescin.pl##footer > #widgets > .container > div.widget:last-child
 esklep.poczta-polska.pl###footer > div:nth-of-type(3)
 esprit.com.pl##.newsletter-gora
@@ -840,7 +838,6 @@ kaktus24.pl#?##links_footer_2 > li > .footer_links_label > span:-abp-contains(NE
 kalibaby.pl#?#.center-block-last:-abp-has(.f_newsletter)
 kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-success
 kam-sport.pl##footer div.col-sm-4.vc_column_container.wpb_column.nm_column:nth-of-type(2) > .vc_column-inner
-kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
 kamilafrontino.com,mamonik.pl,naszebialeblota.pl,okultura.pl###text-3
 kappahl.com###news-footer
 karakter.pl##.newsletter-promo
@@ -914,10 +911,10 @@ kupbilecik.pl##.blinkGray.boxTopInfo
 kupiec.pl###vnlab-footer-before
 kuponrabatowy.net###social .mleft > h4, #social .email
 kupzegarek.com,sklep.platinet.pl,sorbenty.pl##.footer_nls
-kurasinski.com##.home-newsletter, .right-col
+kurasinski.com##.newsletter-link
+kurasinski.com,piroart.eu##.home-newsletter
 kurencja.com##.page-newsletter
 kurierhistoryczny.pl##div.newsletter__col:nth-of-type(6)
-kwadranszpodkopem.com###text-27
 kwestiasmaku.com###block-block-1
 kwiatowaprzesylka.pl##.footer1_13
 kwiatywoknach.pl##.block_newsletter_list
@@ -1178,7 +1175,6 @@ nowyrp.pl##.notifier-box, .promotions-popup-trigger, .offers-popup-trigger
 numizmatyczny.com##.footer #contactbox
 nuty-zapachowe.pl###musli > li:nth-of-type(2)
 nvidia.pl##.subscribe-container
-nzspw.pl###secondary > #text-2
 o-m.pl##.kafel-newsletter
 o.pl###email-bar, #nl-icon, #cs-newsletter
 oaza-palmy.pl##.gm-freshmailFooter-modify
@@ -1491,7 +1487,6 @@ shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .
 shop.techmot.com.pl###newsletterPanel
 shopgracz.pl##.newsletter_footer_block li:nth-child(-n+2)
 showroom.pl##.news-signup
-siecobywatelska.pl###widget-text-28
 sii.pl#?#section.wp-block-sii-block-section:-abp-has(form#form_newsletter_footer input[name="email"])
 silesiasem.pl##.entry-content > form
 silesion.pl##.pageFooter__newsletter
