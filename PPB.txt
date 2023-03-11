@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 10 Mar 2023, 16:30 UTC+01:00
-! Version: 2023.3.10.1
+! Last modified: Sat, 11 Mar 2023, 13:31 UTC+01:00
+! Version: 2023.3.11.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 10 mar 2023, 16:30 UTC+01:00
+! Aktualizacja: sob, 11 mar 2023, 13:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -399,7 +399,6 @@ costa.pl###wrapper-newsletter
 cottonina.pl##.in-viewport.t-alt.relative
 cozaile.pl##.c-guide-newsletter
 crocs.pl##.footer-email-signup
-crolove.pl###text-28
 cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
 crystal-albums.pl,monikahonory.pl##.ml-subscribe-form.ml-form-embedContainer
 ctek-ladowarki.pl###bestnewsletterbg
@@ -448,7 +447,7 @@ deviceranking.pl##.subscr-widget
 devmentor.pl##.mailerlite-form
 devstyle.pl###post-2135 > .ck_inline.ck_form_container
 devstyle.pl##li.widget_text.col-4.widget:nth-of-type(3)
-deweloper-interes.pl,niebieskimigdal.pl,paweltkaczyk.com,piroart.eu,selectivv.com###text-2
+deweloper-interes.pl,niebieskimigdal.pl###text-2
 dewocjonalia-niedziela.pl###footer_boxs > li:nth-of-type(4)
 dexpol.com##.stopka2_center > div.box_info:nth-of-type(1)
 di.com.pl##.footcol:nth-of-type(5) > form, .footcol:nth-of-type(5) > p, .footcol:nth-of-type(5) > .footnag:nth-of-type(1)
@@ -841,7 +840,6 @@ kaktus24.pl#?##links_footer_2 > li > .footer_links_label > span:-abp-contains(NE
 kalibaby.pl#?#.center-block-last:-abp-has(.f_newsletter)
 kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-success
 kam-sport.pl##footer div.col-sm-4.vc_column_container.wpb_column.nm_column:nth-of-type(2) > .vc_column-inner
-kameralna.com.pl###text-2 > .penci-border-arrow.widget-title
 kamilafrontino.com,mamonik.pl,naszebialeblota.pl,okultura.pl###text-3
 kappahl.com###news-footer
 karakter.pl##.newsletter-promo
@@ -918,7 +916,6 @@ kupzegarek.com,sklep.platinet.pl,sorbenty.pl##.footer_nls
 kurasinski.com##.home-newsletter, .right-col
 kurencja.com##.page-newsletter
 kurierhistoryczny.pl##div.newsletter__col:nth-of-type(6)
-kwadranszpodkopem.com###text-27
 kwestiasmaku.com###block-block-1
 kwiatowaprzesylka.pl##.footer1_13
 kwiatywoknach.pl##.block_newsletter_list
@@ -1179,7 +1176,6 @@ nowyrp.pl##.notifier-box, .promotions-popup-trigger, .offers-popup-trigger
 numizmatyczny.com##.footer #contactbox
 nuty-zapachowe.pl###musli > li:nth-of-type(2)
 nvidia.pl##.subscribe-container
-nzspw.pl###secondary > #text-2
 o-m.pl##.kafel-newsletter
 o.pl###email-bar, #nl-icon, #cs-newsletter
 oaza-palmy.pl##.gm-freshmailFooter-modify
@@ -1492,7 +1488,6 @@ shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .
 shop.techmot.com.pl###newsletterPanel
 shopgracz.pl##.newsletter_footer_block li:nth-child(-n+2)
 showroom.pl##.news-signup
-siecobywatelska.pl###widget-text-28
 sii.pl#?#section.wp-block-sii-block-section:-abp-has(form#form_newsletter_footer input[name="email"])
 silesiasem.pl##.entry-content > form
 silesion.pl##.pageFooter__newsletter
@@ -6565,13 +6560,7 @@ pl##iframe[src^="https://esa.nask.pl/widget/"]
 7dni.com.pl##.right_side
 24kurier.pl###header_cyfrowy
 24kurier.pl##.tMarg20.tGradient.wKurierze
-24legnica.pl,wiesci.com.pl###text-2
 24tp.pl##.news-body > p:nth-of-type(2)
-administrator24.info###banner_box_825
-administrator24.info###banner_box_847
-administrator24.info###bCurrentNr
-administrator24.info###zRight > h3
-administrator24.info###zRight > p
 agrodoradca24.pl##.nf-newspaper
 angielski-przedszkole.pl##.ksiazka_contener > .dd-object661798813.dd-textblock
 angielski-przedszkole.pl##[src="/images/book.png"]
@@ -6644,8 +6633,6 @@ e-hotelarz.pl#?#div.pws-box-title:nth-of-type(3):-abp-contains(/^E-tygodnik$/)
 egarwolin.pl,gpr24.pl##.c-box-magazine
 eglos.pl##.carousel.newspaper
 ekspertbudowlany.pl##.miniatura-gazeta
-elektrosystemy.pl###text-26
-elektrosystemy.pl###text-31
 elita-magazyn.pl##.subscription
 elle.pl##.promo-box
 elle.pl,focus.pl##.magazine-last-box
