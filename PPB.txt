@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 11 Mar 2023, 16:30 UTC+01:00
-! Version: 2023.3.11.3
+! Last modified: Sun, 12 Mar 2023, 13:31 UTC+01:00
+! Version: 2023.3.12.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 11 mar 2023, 16:30 UTC+01:00
+! Aktualizacja: nie, 12 mar 2023, 13:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -306,7 +306,6 @@ born2be.pl##[href="/newsletter/sign-in"]
 born86.pl##.nadstopa2
 borniak.pl##.mgz-element-newsletter_form
 bosch-professional.com##.m-newsletter_signup-a
-bosonamacie.pl##.newsletter-header, #widget-text-3
 braclowiecka.pl##div.widget:nth-of-type(3)
 bravebeaver.pl#?#.centered-container > .vc_column_container.wpb_column:-abp-has(#mc_embed_signup)
 bravebeaver.pl,nazdrowie.pl,semprewithlove.pl,smartbake.pl,vivio.pl###text-5
@@ -387,7 +386,6 @@ company.pl#?#.page-footer .row:nth-of-type(1) > div:nth-of-type(2):-abp-has(form
 comparic.pl,wiskitki.org###icegram_messages_container
 competitiveskills.com##.sc_contact_bg_color.sc_section_overlay
 comtrade.pl,topfish.pl##.n56467_container
-conet.pl,historykon.pl,michalgrabarski.eu,pierwsze-kroki.com,rehus.pl,spozywo.pl,yt360.pl###text-4
 confero.pl##.confero_newsletter_form
 confero.pl#?#.confero_social_icon:-abp-has(.icon-envelope)
 consumer.huawei.com##.title + .subscribe
@@ -565,7 +563,6 @@ elektromeks.pl##.newsletter_stopka
 elektronik-service.com.pl###form_newsletter_down
 elektroniksc.com.pl##.tpl-newsletter-form-widget
 elektrostymulatory.net###newsletter-fm
-elektrosystemy.pl###text-48
 elektrykapradnietyka.com##a[href="http://elektrykapradnietyka.com/newsletter/"]
 elle.pl,portalzp.pl##.bottom-newsletter
 elnino-parfum.pl##.Subscribe > .Container
@@ -839,7 +836,6 @@ kaktus24.pl#?##links_footer_2 > li > .footer_links_label > span:-abp-contains(NE
 kalibaby.pl#?#.center-block-last:-abp-has(.f_newsletter)
 kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-success
 kam-sport.pl##footer div.col-sm-4.vc_column_container.wpb_column.nm_column:nth-of-type(2) > .vc_column-inner
-kamilafrontino.com,mamonik.pl,naszebialeblota.pl,okultura.pl###text-3
 kappahl.com###news-footer
 karakter.pl##.newsletter-promo
 kariera.pl##.article-newsletter
@@ -981,6 +977,7 @@ majsterkowo.pl,moj-kawalek-podlogi.pl,spirulina.pl,tato.net,techformator.pl,zato
 makita.sklep.pl##.ModulNewsletterDol
 mam-serce.org#?#.footer-top + div.uk-section > div.uk-container:-abp-has(div.el-title:-abp-contains(Zapisz się))
 mamaplus.pl###mc_embed_signup
+mamonik.pl###text-3
 mamopracuj.pl##.newsletters
 mamotoja.pl##.nlt-footer
 mamstartup.pl##.hb-right.submitClearInput
@@ -1052,7 +1049,6 @@ mixmedia.pl,mycenter.pl##.b-footerNewsletter
 mlodeasyparkietow.pl##.foot_tit, .foot_news_info
 mlodytechnik.pl##[href="/newsletter"]
 mmo.pl###newsletter_subscriber
-mobileclick.pl###text-37
 mobileclick.pl##.essb_mailform
 mobileclick.pl##.single-newsletter
 mocak.pl###frm-subscribe-newsletter
@@ -1282,6 +1278,7 @@ photonrobot.com##.qodef-contact-form-7-widget
 picantecooking.com##.newsletter-block
 picodi.com##.newsletterContainer
 piekielko.com##._newsletter
+pierwsze-kroki.com,rehus.pl,spozywo.pl,yt360.pl###text-4
 pinkorblue.pl##div.econda-banner-click.stage-small:nth-of-type(2)
 piomax.pasaz24.pl##.newsletter-place
 pitbull.pl##.footer-blocks > .footer-block
@@ -6259,6 +6256,7 @@ schronisko.info.pl###gkVmCartSmall
 scooterkingz.com.pl##.sqterybox
 segafredo.pl##.rstboxes .eb-popup.rstbox
 sekretypoliglotow.pl###someone-purchased
+sekurak.pl##.callout-box
 selkar.pl##.my-open.side-banner
 semmelrock.pl###float_catalogue, #float_locations, #float_print, #float_merkliste
 send.firefox.com##send-promo
