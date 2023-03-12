@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 12 Mar 2023, 19:37 UTC+01:00
-! Version: 2023.3.12.1
+! Last modified: Sun, 12 Mar 2023, 20:30 UTC+01:00
+! Version: 2023.3.12.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 mar 2023, 19:37 UTC+01:00
+! Aktualizacja: nie, 12 mar 2023, 20:30 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1695,6 +1695,7 @@ tp-link.com##.tp-follow-subscribe
 tpi.com.pl##.cmn-newsletter
 traktor.com.pl##.footer-top4.col-md-3.col-sm-6.col-12
 traktorpool.pl#?#.layout-content > .md\:block.hidden.app\:hidden:-abp-has(div:-abp-contains(e-mailową))
+traktorpool.pl#?#footer div div:-abp-has(> form[action="/service/newsletter"])
 trans.info##.newsletter-popup
 travelplanet.pl##.col-footer-newsletter-block
 trec.pl##.b-footer-top__newsletter > :nth-child(-n+3)
