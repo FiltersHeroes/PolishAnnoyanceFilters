@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 12 Mar 2023, 20:30 UTC+01:00
-! Version: 2023.3.12.1
+! Last modified: Mon, 13 Mar 2023, 16:30 UTC+01:00
+! Version: 2023.3.13.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 mar 2023, 20:30 UTC+01:00
+! Aktualizacja: pon, 13 mar 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -307,7 +307,7 @@ borniak.pl##.mgz-element-newsletter_form
 bosch-professional.com##.m-newsletter_signup-a
 braclowiecka.pl##div.widget:nth-of-type(3)
 bravebeaver.pl#?#.centered-container > .vc_column_container.wpb_column:-abp-has(#mc_embed_signup)
-bravebeaver.pl,nazdrowie.pl,semprewithlove.pl,smartbake.pl,vivio.pl###text-5
+bravebeaver.pl,semprewithlove.pl,smartbake.pl###text-5
 brief.pl#?#.sticky-column > div > div:-abp-has(> div > form[action*="enewsletter.pl/"])
 brita.pl##.validation.form-group
 brownells.pl##.ic-popupLinkNewsletter
@@ -335,7 +335,7 @@ caritaspoznan.pl##.subReqArea.contentItem
 carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(4)
 carrefour.pl##.push-newsletter
 carry.pl,tani-laptop.com###block_newsletter
-cashless.pl##.overlay > .moduletable:nth-of-type(3)
+cashless.pl###footer footer > div > div:nth-child(5)
 castorama.pl###newsletterLabel
 castorama.pl##.newsletter-fold
 cba.pl##.links > div > div:nth-of-type(4)
@@ -396,6 +396,7 @@ costa.pl###wrapper-newsletter
 cottonina.pl##.in-viewport.t-alt.relative
 cozaile.pl##.c-guide-newsletter
 crocs.pl##.footer-email-signup
+crolove.pl##div.footer-container .widget_mc4wp_form_widget.widget
 cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
 crystal-albums.pl,monikahonory.pl##.ml-subscribe-form.ml-form-embedContainer
 ctek-ladowarki.pl###bestnewsletterbg
@@ -630,6 +631,7 @@ fandroid.com.pl##.manohara-mailchimp--aligned-center, .widget-incredibbble-mailc
 farbykabe.pl##.newsletter_head, .newsletter_text
 fasardi.com,revouninstaller.com##.subscribe
 fashyas.com,kolekcjonerki.com##footer div:nth-of-type(3)
+fc-moto.de##.NewsletterBox, .NewsletterBox + div
 felixcom.net##.ftop > .container > .right
 feniks.wroc.pl##.newsletter-wr
 festool.pl##.newsletter__footer
@@ -1132,6 +1134,7 @@ neon24.info,nowyekran24.com##.flickr-widget.widget
 neonet.pl##.joinNewsletterDesktop-root-2Mr
 neonet.pl##section[class*="joinNewsletter"]
 neonet.pl,wydawnictwokobiece.pl###newsletter-home
+netgear.com###footer-email-signup
 netmoda.pl###bk_wstawka_R
 nettg.pl##.input-newsletter1
 nettg.pl##.section-content > .heading
@@ -1277,7 +1280,6 @@ photonrobot.com##.qodef-contact-form-7-widget
 picantecooking.com##.newsletter-block
 picodi.com##.newsletterContainer
 piekielko.com##._newsletter
-pierwsze-kroki.com,rehus.pl,spozywo.pl,yt360.pl###text-4
 pinkorblue.pl##div.econda-banner-click.stage-small:nth-of-type(2)
 piomax.pasaz24.pl##.newsletter-place
 pitbull.pl##.footer-blocks > .footer-block
@@ -1410,7 +1412,6 @@ pzlsedziszow.pl###newsletter_pzl-2
 qagile.pl##div.footer-widget:nth-of-type(2)
 qnapclub.eu##.footer-block.col-xs12.col-sm-6.col-md-3
 qr-online.pl##div.col-md-4:nth-of-type(1) > form, div.col-md-4:nth-of-type(1) > p, h3.footer-widget-title:nth-of-type(2)
-qualitylife.pl##div.col-md-4.sidebar-column:nth-of-type(3)
 questus.pl##.newslett-main
 quiosque.pl##.nl-container, .mini-banner
 r-gol.com##.wrapper--newsletter
@@ -1427,6 +1428,7 @@ recman.pl##.col-md-8.col-sm-7.col-xs-12
 redcoon.pl###j-newsletterForm
 redro.pl###footer .subReqForm
 reformowani.info###email-subscribers-2
+rehus.pl###text-4
 rekinfinansow.pl##.cp-do-not-close-inline
 rekinysukcesu.pl###footer div.row:nth-child(1) div[id^="newsletter-code-"] ~ div[id^="newsletter-code-"] ~ div
 rekinysukcesu.pl###footer div.row:nth-child(1) figure.mockup-footer
@@ -1828,6 +1830,7 @@ wnp.pl##.social > li:nth-of-type(1)
 wnp.pl##div[class^="box"] > .pageWidth > form[action*="/newsletter/"]
 woda.com.pl##nav > div:nth-of-type(2) > form
 woodrepublic.eu###newsletter_subscribe
+woolloop.pl###text-8
 woolloop.pl###text-10
 worldbank.org##.lp__footersearch_section
 wprost.pl##.newsletter-plugin
