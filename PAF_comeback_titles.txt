@@ -2,8 +2,8 @@
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Sun, 12 Mar 2023, 19:37 UTC+01:00
-! Version: 2023.3.12.0
+! Last modified: Mon, 13 Mar 2023, 16:30 UTC+01:00
+! Version: 2023.3.13.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,13 +12,13 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 mar 2023, 19:37 UTC+01:00
+! Aktualizacja: pon, 13 mar 2023, 16:30 UTC+01:00
 !
 !
 /wp-content/plugins/change-browser-tab-title-when-tab-is-not-active/public/js/browser-tab-title-reminder-public.js$script,domain=pl
 ||inglot.pl/modules/inglotmisstab/misstab.js
 ||mbank.pl/.elements/alternative-title.html.i$xhr,domain=www.mbank.pl
-123lazienka.pl,keko.pl##+js(aopr, document.title)
+123lazienka.pl,keko.pl,www.pocztowy.pl##+js(aopr, document.title)
 ach-te-internety.pl##+js(acis, currentTitle, document.title)
 agroalex.pl##+js(aopr, x13favicon_title_text)
 asta-net.pl,atthost.pl,csi.pl,e-baseus.com,elementstore.pl,~mail.asta-net.pl,~mail.atthost.pl,~mailer.asta-net.pl,marionex.pl,myjki.com,~panel.atthost.pl,~secure.atthost.pl,~webmail.atthost.pl##+js(aopw, document.title)
