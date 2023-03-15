@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 12 Mar 2023, 19:37 UTC+01:00
-! Version: 2023.3.12.1
+! Last modified: Wed, 15 Mar 2023, 20:30 UTC+01:00
+! Version: 2023.3.15.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 mar 2023, 19:37 UTC+01:00
+! Aktualizacja: śro, 15 mar 2023, 20:30 UTC+01:00
 !
 !
 !
@@ -72,6 +72,8 @@
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href*="wlacz-tryb-ciemny-"])
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl#?#a[data-st-area="Header-back"] ~ div > div + div:-abp-has(> div > span ~ a[href="undefined"]:-abp-contains(Jak to działa?))
 4fun.tv##.app-popup
+4kdownload.com##.mascot
+4kdownload.com##.sale-line
 4programmers.net##.sidebar-job-offers.box, .sidebar-offers.box
 4sun.eu##.left.pointer
 24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,tarnowskiegory.info,twojknurow.pl,zabrzenews.pl##.return-block
