@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 16 Mar 2023, 20:30 UTC+01:00
-! Version: 2023.3.16.0
+! Last modified: Fri, 17 Mar 2023, 13:31 UTC+01:00
+! Version: 2023.3.17.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 16 mar 2023, 20:30 UTC+01:00
+! Aktualizacja: pią, 17 mar 2023, 13:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -158,7 +158,7 @@ andrzejgrzyb.eu##.widget_newsletterwidget
 andzela.com##.newsletter_block_right
 angielski-przedszkole.pl###rstbox_7.rstbox_top-right
 anmur.eu##.mod-newsletter-2.newsletter
-anna-urbanska.pl,forumgliwice.pl,londonshoes.pl,michalgrabarski.eu,projektwp.pl###text-7
+anna-urbanska.pl,londonshoes.pl###text-7
 anna-urbanska.pl,moneygrabbing.co.uk##.ml-block-form
 annapoplawska.pl##.newsletter_in_footer
 anotherdesign.pl###nw
@@ -261,7 +261,6 @@ bioenergiadlaregionu.eu##.pa-newsletter
 bioieko.pl,chinytolubie.pl,dietetycy.org.pl,effective-english.pl,miastons.pl,przewodnikmp.pl,socialpress.pl###fm_form_1
 biolindo.pl,ecco-verde.pl##.footer_newsletter--form
 bissole.pl##a[href="#newsletter"]
-bissole.pl,foodarea.pl,pierwszynamapie.pl,rozsadnibracia.pl###text-6
 bit-info.pl##.newsletters_block
 bitcoin-online.pl#?#.block-title:-abp-contains(Newsletter)
 bitcoin.pl#?#.flex > #article > div:last-child:-abp-has(> div form label[for="emailAddress"])
@@ -862,7 +861,6 @@ kiosk.ruch.com.pl##.footer-section--newsletter
 kioskpolis.pl##footer section div form.form[action*="freshmail"]
 kjb24.pl#?#.post-content > div.vc_row.style-accent-bg.row-container:-abp-has(form[class*="mailchimp-ext"])
 klasycznebuty.pl###myfooter div.f-grid-4:nth-of-type(2) > h3:nth-of-type(2)
-kliknijwzdrowie.pl###text-70, #text-71, #text-75
 kliknijwzdrowie.pl,retailmarketexperts.com###custom_html-12
 klinikaagd.pl##.stoka_newsletter .stoka_newsletter_btn
 klinikaagd.pl##.stoka_newsletter > div:nth-child(-n+3)
@@ -1281,6 +1279,7 @@ photonrobot.com##.qodef-contact-form-7-widget
 picantecooking.com##.newsletter-block
 picodi.com##.newsletterContainer
 piekielko.com##._newsletter
+pierwszynamapie.pl,rozsadnibracia.pl###text-6
 pinkorblue.pl##div.econda-banner-click.stage-small:nth-of-type(2)
 piomax.pasaz24.pl##.newsletter-place
 pitbull.pl##.footer-blocks > .footer-block
@@ -6785,7 +6784,6 @@ nowaruda24.pl#?#.region-sidebar-second.region > .block:-abp-has(> .block-title:-
 nowiny.pl###box-epress
 nowinykrapkowickie.pl##.region-jedynka.region > .block .field-content
 nowodworski.info###black-studio-tinymce-3
-noworudzianin.pl###text-6
 nowykamieniarz.pl##div.sidebar:nth-of-type(1)
 nowyobywatel.pl##.container ~ div.u-mb\+\+
 nowyobywatel.pl##section#js-packery > div.js-packery__item:nth-of-type(2)
@@ -6889,7 +6887,6 @@ terazprudnik.pl#?#.td-post-header:-abp-has(h1 a:-abp-contains(Nowy numer))
 terazprudnik.pl#?#div[class*="td_block_homepage_full"] ~ div[class*="td_block_big_grid"] .td-big-grid-scroll > div.td-small-thumb:-abp-has(> div > a[href*="/tygodnikprudnicki-"])
 topagrar.pl##.sidebar__newspaper, .homepage__agrar
 topagrar.pl#?#.sidebar div.sidebar__box--grey.sidebar__box:-abp-has(h3:-abp-contains(/^Zamów online$/))
-trybunaczestochowska.pl###text-7
 tuolawa.pl##.widget-52.no-mt.no-bg.widget.row
 tuolawa.pl##.widget-52.widget-header.widget.row
 tygodnik-krapkowicki.info###Mod3
