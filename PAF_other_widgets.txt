@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 17 Mar 2023, 22:03 UTC+01:00
-! Version: 2023.3.17.1
+! Last modified: Sat, 18 Mar 2023, 21:37 UTC+01:00
+! Version: 2023.3.18.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 17 mar 2023, 22:03 UTC+01:00
+! Aktualizacja: sob, 18 mar 2023, 21:37 UTC+01:00
 !
 !
 !
@@ -47,11 +47,10 @@
 ||opera.com/en/downloadassets/sticky-bar-auto$subdocument
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
-||rootblog.pl/wp-json/csco/v1/more-nextpost/$xmlhttprequest
 ||sklepreklamowy.pl/skins/user/shoper_red_1/images/user/franczyza-b.png
 ||static.whatshelp.io/widget-send-button/js/init.js
 ||sucuri.net/monitoring/badge.js
-||telepolis.pl/next/*$xmlhttprequest,domain=www.telepolis.pl
+||telepolis.pl/next/*$xmlhttprequest
 ||tessa.com.pl/uploads/images/olx.png
 ||trustisto.com/socialproof.js
 ||twardogora.pl/images/portal/tlo1.jpg
@@ -959,7 +958,6 @@ syngenta.pl##.pane-menu-menu-sticky-menu
 szkolajazdykoronamm.pl##.spjwidget-double a[href$="/szkola-jazdy-korona-mm,20821.htm?widget=register"]
 sznyt.pl##.recommended-articles
 szpitalepomorskie.eu###loftloader-wrapper
-tabletowo.pl##.wpisw, .under-title-line
 tablety.pl##p > .wp-embedded-content
 tamaj.pl###allwidget
 taniefototapety.eu##.opinions_badge
@@ -975,8 +973,8 @@ technologiczna.pl##.td-main-sidebar
 techpedia.pl##.border_header2
 telekarma.pl###flyCart
 telemedi.co###notifications-pop
-telepolis.pl,tlp.is##.ankieta.sidebar-poll
-telepolis.pl,tlp.is##.floor[style*="position"][style*="fixed"]
+telepolis.pl##.ankieta.sidebar-poll
+telepolis.pl##.floor[style*="position"][style*="fixed"]
 termokubki.com.pl###widget_shop6
 tiktok.com##div > button[class*="ButtonGetAppText"]
 tim.pl##.toolkit-bookmark-item-compare
@@ -1101,8 +1099,10 @@ ztm.gda.pl###mobile
 zyciepabianic.pl##.paper
 !
 ! Ogólne filtry
-/assets/js/Cursor_1__1.min.js$domain=com|eu|info|pl
+/assets/js/Cursor_1__1.min.js$script,xmlhttprequest,domain=com|eu|info|pl
 /hello-elementor-child/pointer.$script,stylesheet,~third-party
+/wp-json/codetipi-zeen/v*/ipl*$xmlhttprequest,domain=com|eu|info|pl
+/wp-json/csco/v*/more-nextpost/*$xmlhttprequest,domain=com|eu|info|pl
 ||app.refericon.pl/js/ri.js
 ||leaselink.pl/js/slide-button-shoper.js
 ||leaselink.pl/js/slide-button.js

@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 17 Mar 2023, 22:03 UTC+01:00
-! Version: 2023.3.17.3
+! Last modified: Sat, 18 Mar 2023, 21:37 UTC+01:00
+! Version: 2023.3.18.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 17 mar 2023, 22:03 UTC+01:00
+! Aktualizacja: sob, 18 mar 2023, 21:37 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5432,11 +5432,10 @@ pl##.quickcontact-box
 ||opera.com/en/downloadassets/sticky-bar-auto$subdocument
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
-||rootblog.pl/wp-json/csco/v1/more-nextpost/$xmlhttprequest
 ||sklepreklamowy.pl/skins/user/shoper_red_1/images/user/franczyza-b.png
 ||static.whatshelp.io/widget-send-button/js/init.js
 ||sucuri.net/monitoring/badge.js
-||telepolis.pl/next/*$xmlhttprequest,domain=www.telepolis.pl
+||telepolis.pl/next/*$xmlhttprequest
 ||tessa.com.pl/uploads/images/olx.png
 ||trustisto.com/socialproof.js
 ||twardogora.pl/images/portal/tlo1.jpg
@@ -6344,7 +6343,6 @@ syngenta.pl##.pane-menu-menu-sticky-menu
 szkolajazdykoronamm.pl##.spjwidget-double a[href$="/szkola-jazdy-korona-mm,20821.htm?widget=register"]
 sznyt.pl##.recommended-articles
 szpitalepomorskie.eu###loftloader-wrapper
-tabletowo.pl##.wpisw, .under-title-line
 tablety.pl##p > .wp-embedded-content
 tamaj.pl###allwidget
 taniefototapety.eu##.opinions_badge
@@ -6360,8 +6358,8 @@ technologiczna.pl##.td-main-sidebar
 techpedia.pl##.border_header2
 telekarma.pl###flyCart
 telemedi.co###notifications-pop
-telepolis.pl,tlp.is##.ankieta.sidebar-poll
-telepolis.pl,tlp.is##.floor[style*="position"][style*="fixed"]
+telepolis.pl##.ankieta.sidebar-poll
+telepolis.pl##.floor[style*="position"][style*="fixed"]
 termokubki.com.pl###widget_shop6
 tiktok.com##div > button[class*="ButtonGetAppText"]
 tim.pl##.toolkit-bookmark-item-compare
@@ -6487,8 +6485,10 @@ zyciepabianic.pl##.paper
 !
 !
 ! Inne elementy - Ogólne filtry
-/assets/js/Cursor_1__1.min.js$domain=com|eu|info|pl
+/assets/js/Cursor_1__1.min.js$script,xmlhttprequest,domain=com|eu|info|pl
 /hello-elementor-child/pointer.$script,stylesheet,~third-party
+/wp-json/codetipi-zeen/v*/ipl*$xmlhttprequest,domain=com|eu|info|pl
+/wp-json/csco/v*/more-nextpost/*$xmlhttprequest,domain=com|eu|info|pl
 ||app.refericon.pl/js/ri.js
 ||leaselink.pl/js/slide-button-shoper.js
 ||leaselink.pl/js/slide-button.js
