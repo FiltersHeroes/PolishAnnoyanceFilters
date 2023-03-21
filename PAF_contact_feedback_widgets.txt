@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 12 Mar 2023, 19:37 UTC+01:00
-! Version: 2023.3.12.0
+! Last modified: Tue, 21 Mar 2023, 20:30 UTC+01:00
+! Version: 2023.3.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 mar 2023, 19:37 UTC+01:00
+! Aktualizacja: wto, 21 mar 2023, 20:30 UTC+01:00
 !
 !
 !
@@ -799,6 +799,8 @@ zrzutka.pl##.uv-bottom-right
 ! Ogólne filtry
 /livezillachat//script.php
 ||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
+||app.chatwoot.com/packs/js/sdk.js$script,domain=pl
+||chatwoot.*/packs/js/sdk.js$script
 ||tenantpluginapiserver*.conpeek.*/cdn
 /livezillachat//script.php
 ||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
