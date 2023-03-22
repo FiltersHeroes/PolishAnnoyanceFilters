@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 21 Mar 2023, 22:52 UTC+01:00
-! Version: 2023.3.21.3
+! Last modified: Wed, 22 Mar 2023, 17:31 UTC+01:00
+! Version: 2023.3.22.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 21 mar 2023, 22:52 UTC+01:00
+! Aktualizacja: śro, 22 mar 2023, 17:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3537,6 +3537,7 @@ agromasa.com,koscian.net##.totop
 agroperfekt.pl,czemarol.pl,kwiaciarniahonoratka.pl,smolnik.com.pl,terfolbis.pl##.gotoup
 agrosimex.pl##.vue-back-to-top
 agrosystems.pl##.footer-utilities-back
+agrotechnika.co###topcontrol
 agrotuszyn.pl,niepodlegla.dzieje.pl,rozklad.klosok.eu##.toTop
 agtom.eu###scroll_to_top
 airbuy.pl##.js-gotop
@@ -3750,6 +3751,7 @@ deon.pl,muzarp.poznan.pl,tupowstalapolska.pl##.strzalka
 devilpage.pl,happynewyou.neonail.pl,herbapol.com.pl,kuprtvagd.pl,labhome.pl,musiclab.com.pl##.to_top
 dhl.com##.c-go-to-top-button
 dictionary.cambridge.org##.ctop
+digi-store.pl###buttonTop
 digitalvirgo.com,extrabukiet.pl,forum.budujemydom.pl,lispol.com##.fa-arrow-circle-up
 disco-polo.info,meizupolska.pl##.toup
 dobramine.com##.to_top_link
@@ -3820,7 +3822,9 @@ europa.eu##.btn-back-top
 europages.pl##.js-backtop-btn
 ewaipiotr.pl,leftlane.pl,oiot.pl,tabletowo.pl###to-top-wrap
 exerim.pl###footer a[href="#"]
+expressoffice.pl###move-up
 extraswiecie.pl,modr.pl###vscroll_to_top
+faceoffice.pl###move-up
 fastdeal.pl,jestok.eu,okazik.pl,polskiemedia.org###btn-scrollup
 festiwaldobregosmaku.eu###mkd-back-to-top
 filmpolski.pl##div[id^="dogory_"]
@@ -3985,6 +3989,7 @@ krainaoszczedzania.pl###finoScroll
 krakow.pl###footer-scroll-up
 krasnystaw.eu##.js-up
 kropleinternetu.biz###gora
+krugermatz.com##.up
 kufer.poznajemyswiat.pl##.fa-arrow-up.ssttbutton-symbol
 kulinarnastronamocy.pl##.stick.stnsvn-btt
 kultura.krasnik.eu###skip_to
@@ -4069,6 +4074,7 @@ miastonowydwor.pl,um.gorzow.pl,wronki.pl##.go_up__wrapper
 michelin.pl###btnBackToTop
 mil.link,psycholog-pisze.pl##.buttontop-top
 milicka.eu##.td-scroll-up
+militarnysklep.com.pl##.up
 millymally.pl##.page-up
 milmag.pl##.doScrollTop
 miloohome.pl###js-btn-gotop
@@ -4150,6 +4156,7 @@ panasonic.com##.pagetop
 pantuniestal.com##.tgm-to-the-top
 papu.io##.footer-scroll-top
 paradise-rpg.pl,sat-4-all.com###lk_gototop
+parasoledlaciebie.pl##.up
 pasmanteria-atlasek.pl###nasa-back-to-top
 paweltkaczyk.com##.johannes-goto-top
 payback.pl##.pb-back-to-top
@@ -4181,6 +4188,7 @@ pl.hisense.com###pageNavCorner_top
 pl.msi.com##[title="Go to top"][onclick="topFunction()"]
 pl.trip.com##.mod-back-top-block
 placek.katowice.pl,rol-mech.pl###hs-back-top
+planetaklockow.pl##.up
 planetasportu.com,sklepsportowy.pila.pl,slodkiehobby.pl##.right > .return
 player.pl##.footer-panel-toggle
 plejada.pl###goback
@@ -4192,6 +4200,7 @@ polona.pl,skycash.com##.js-to-top
 polot.net##.plane-to-top
 polsatnews.pl###fab
 polski-optyk.pl##a > [src="img/top.png"]
+pomagam.net##.czr-btt
 poprostuenergia.pl##.scroll_up
 poradnikbudowlany.eu##.footer-up > .col-md-1.col-xs-12
 portal-sadownik.pl###arrowtop
@@ -4258,6 +4267,7 @@ schiedel.com,zlotegory.com##.mk-go-top
 scottiego.com###to_top_scrollup
 screamit.pl###div_go_top.ct-div-block
 scroll.morele.net###scrollTop.scrollTop
+scyzoryki.net###scrollToTop
 seoheroes.pl##.clb-scroll-top-holder
 serafin-maszyny.com##.back_to_top
 sfinks.info###go_to_top
@@ -4304,6 +4314,7 @@ szczecin.prywatka.info,wsb.net.pl##.body-back-to-top
 szklanedrzwi.pl###GO_TOP
 szopi.pl###scisco-gototop
 szukajwarchiwach.gov.pl###scroolButton
+tablica.com##.go-to-top
 tadar.pl##.menu_up
 takeda.com##.totop__wrapper
 tally-weijl.com##footer > button[class][style]
@@ -4658,8 +4669,10 @@ aftermarket.pl##.helpcrunch-iframe-wrapper
 agri-truck.pl,agroalex.pl,aquario.pl,eelektryka.com,flowerstory.pl,shoplet.pl,wildcar.pl###x13callback_button
 agrofakt.pl##.agroreporter
 agromarek.pl,baronphotography.eu,cukierniabezowa.pl,topsolutions.pl###popup_contact
+agrotechnika.co##.fb_reset
 ahe.lodz.pl###chat-invite
 airdron-polska.pl,fakturownia.pl,hurtowniamuzyczna.pl,imker.pl,kamai.pl,meblujdom.pl,modele-centrum.pl,sugester.pl,upsell.pl,vagczesci.pl,wysylajtaniej.pl###sugester-chat
+airgun.pl###popup__toggle
 airport.com.pl##a[href*="http://airport.com.pl/livezilla/chat.php"]
 akumulatorki.com.pl###contact_form
 al.to,combat.pl,x-kom.pl##.gcb-hasChatBtn
@@ -4734,6 +4747,7 @@ bonami.pl###innvisichat
 bonami.pl,notino.pl###daktela-chat, #daktela-web
 booksy.com###page > a[class^="_"][href$="/viewform"]
 borcas.eu,e-dewocjonalia.eu,oknarolety.com###czater-contener
+borhunter.pl###ddg-launcher-frame-container
 born2be.pl,renee.pl##.help-chat-button-container
 born2be.pl,renee.pl##.helpButton
 bosch-extra.pl,extra-program.pl###contact-bar
@@ -4870,6 +4884,7 @@ etoto.pl###sbChatMinimizedIdle
 euro.com.pl,oleole.pl###main-footer > div[class$="-ad-tooltip-container"]
 eurobank.pl##.reviews
 euroelectronics.pl,kompan.pl,lanesta.eu##.b24-widget-button-wrapper
+eurotargetshow.pl##.chatContainer
 eventy-online.pl###phone-tag
 ewakacje.pl##.classNotesList_button
 ewozki.eu##div[id] > iframe[title="chat widget"]
@@ -5046,6 +5061,8 @@ medonet.pl##.medonet__healthcare_content_animation
 mera.eu##.footer__subbox--sm.footer__subbox:last-child
 mieszkanie.mitula.com.pl##.space-footer .wrap-send-comments
 militaria.pl###golivechat
+militaria.pl##.contact-wrapper
+military.pl##.contact-wrapper
 mistama.com,mojacukrzyca.org##.ggu-bot-snapped-launcher
 mobidziennik.pl###floating-contact-button
 mobilelanguage.pl###mail-right
@@ -5086,6 +5103,7 @@ ntfy.pl###ntfy-zendesk, #ntfy-callpage
 nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
 odnowa.jezuici.pl##.tab-contact
+officeexpert.pl###contactBox
 ofix.pl##.thulium-chat-wrapper
 okazik.pl###btn-message
 omeda.pl##.boxRight:not(.fb)
@@ -5152,6 +5170,7 @@ pracuj.pl###shareOpinionSticker
 prawo-jazdy-360.pl###help-panel
 pro-mask.pl###telefon
 profbud.info##.bocznemenu > a.socialicoplus
+profinfo.pl##.chatLauncherList
 profinfo.pl##.right-fix-widget > a[href*="sugestie"]
 progrower.eu###chatbc
 projektgamma.pl###face-slider3
@@ -5159,6 +5178,7 @@ projektowanie-wnetrz-online.pl#?#.dialog-message.dialog-lightbox-message:-abp-ha
 proline.pl##div[id][style*="cursor"][title^="Przycisk "] > div[style*="fixed"]
 promopixel.pl###fitcher-container
 proshop.pl###dixa-widget-wrapper, #dixa-iframe-wrapper
+proshop.pl##.solvemate-widget-button
 psprices.com###chatra
 punkta.pl##.callback-widget
 pup.gliwice.pl###sugestiaForm
@@ -5180,6 +5200,7 @@ rena.pl###contactFixed
 retromedia.pl###lite-fb-chat
 rgbautomatyka.pl###help-box
 roseville.pl###banner_contact
+rowinskabusinesscoaching.com##.kleo-quick-contact-wrapper
 rum-lux.pl###gg
 s360.com.pl##footer ~ a#openModal.button
 salesintelligence.pl##.popmake-overlay.pum-overlay.pum[data-popmake*="-zwiekszyc-"]
@@ -5252,6 +5273,7 @@ superpools.pl###callback24.cb24-main-container > div[class*="popup"] + div:not([
 support.forpsi.pl###chattab
 support.microsoft.com###smc-survey-external-feedback-button
 swiat-laptopow.pl###superOfferCallUs
+swiatbaterii.pl###launcher
 swiatekspresow.pl##.w-short-contact
 systell.pl##.rocketchat-widget
 szkolajazdykoronamm.pl##.spjwidget-double a[href$="/szkola-jazdy-korona-mm,20821.htm?widget=opinie"]
