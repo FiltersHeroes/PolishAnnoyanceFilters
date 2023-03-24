@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 24 Mar 2023, 13:31 UTC+01:00
-! Version: 2023.3.24.0
+! Last modified: Fri, 24 Mar 2023, 16:30 UTC+01:00
+! Version: 2023.3.24.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 24 mar 2023, 13:31 UTC+01:00
+! Aktualizacja: pią, 24 mar 2023, 16:30 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -186,6 +186,7 @@ astoreo.pl###newsletterFormgRecaptcha
 astratex.pl###MailNewsForm
 astromagia.pl###bottomMenu1
 astromagia.pl##.moduletablemailing
+atakto.pl##.sidebar-newsletter-wrapper
 atlastours.pl##div[style*="newsletter.png"]
 atrakcjenaimprezy.pl,kom-ster.pl,mebline.co.uk,mebline.nl,mebline.pl##.moduletable_newsletter
 atrexpress.com.pl##.nlsection
@@ -756,7 +757,7 @@ home.pl###nlForm
 homebook.pl#?#div > div > div > div:-abp-contains(newsletter)
 homedesign.pl#?#.nm-page-full > div > .nm-row-full-nopad.nm-row:-abp-has(h2:-abp-contains(Newslettera))
 homeoffice360.pl###footerColumn2 > h3:nth-of-type(2), #newsletterForm
-honia.pl##.widget_mc4wp_form_widget.widget
+honia.pl,niebieskimigdal.pl##.widget_mc4wp_form_widget.widget
 horecabc.pl##.et_pb_image > a[href="https://www.horecabc.pl/newsletter/"]
 horecatrends.pl##.dif-2.box-11
 horex.pl##.newsletter__input
@@ -1445,6 +1446,7 @@ rolnik.pl###block-bt
 rolserwis.pl###newslett
 romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
+rosenthal.pl##.st_news_letter_1
 rossmann.pl##.join-nsl
 rovus.pl##.footer-lower div.links:nth-of-type(4)
 royal-dental.pl##.s__newsletter
@@ -1551,8 +1553,8 @@ smaker.pl##.newsletterComponent
 smakistyl.pl##footer > div.container-fluid:nth-of-type(1) > div > div:nth-child(1)
 smalltronic.pl##.NaglowekNewsletter, .ModulNewsletter
 smart-grids.pl##main > .container > .row > div > .row > div.modules-arscreo:nth-of-type(2)
+smartbake.pl##.widget_mc4wp_form_widget.ashe-widget
 smyk.com###newsletter-link
-smyk.com##.border__gradient--right-green-calltoaction-bar.border__gradient--left-green-calltoaction-bar
 snowbitch.pl###emailNewsForm
 soczewki365.pl###footer > div.row:nth-of-type(2) > .col-md-5
 soczewki365.pl###jOverlayContent, #jOverlay
@@ -3500,7 +3502,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 51.75.43.155,aforyzmy-cytaty.pl###topBtn
 80dni.pl###backtotop_wpv
 123budujemy.pl,aptekarzpolski.pl,brandsit.pl,eurowizja.org,francuskie.pl,inwestycje.pl,mediarun.com,motoklub.pl,petronews.pl,radio.lublin.pl,skandynawiainfo.pl,slaskczyta.pl,wikilistka.pl##.jscroll-to-top
-1242.eu,2kc.pl,3dfilamenty.com,4fundesign.com,a-z-decor.eu,agora.pl,agrioutlet.eu,agroczescisklep.eu,akubike.com,alltronix.pl,ap-parts.eu,arapaima.eu,atramentowka.com,badura.pl,batteryguru.eu,bingospa.eu,biomak.eu,biosklep.com.pl,blachotrapez.eu,cebit.pl,choinka.online,ctxsport.com,dalchemyskincare.com,darymex.pl,dezald.com,dowozy.pl,dvbsklep.pl,dyskontbiurowy24.pl,e-dewocjonalia.eu,e-manufaktura.com,e-pilarz.com,e-plytki.eu,ecoflores.eu,ekopaka.pl,elektro-outlet.net,epiekarnia.com,ewozki.eu,experiencecorner.com,fostertechnologies.pl,fotoforma.pl,fotonegatyw.com,gardenoffood.com,gemlord.pl,ggarden.eu,go2us.eu,goshico.com,grafit24.com,grishop.eu,grubakreska.com,homehood.eu,homesklep.pl,hornpol.com,hurtmedyczny.pl,hurtowniachemiczna.com,hurtowniaogrodnicza-esklep.com,ibif.pl,idelikatesy24.pl,iglaco.com,interdesk.pl,jastrzabpost.pl,jezykipodroze.pl,johndog.pl,kartony24.eu,klamki-drzwiowe.com,kolonieiobozy.net,kozak.pl,kreatorium.com,krugermatz.com,kulig.pl,kupcochcesz.pl,laptok.com,m-czesci.eu,maciuszek.com,meblejarosz.info,meblohurt.eu,mellowform.com,militarnysklep.com.pl,modnie.eu,myamber.eu,naszogrodniczy.pl,numizmatyczny.com,ogrodolandia.pl,okazje.info.pl,okultura.pl,opakowaniaozdobne24.eu,osemkowa.pl,pancernik.eu,panlis.pl,parasoledlaciebie.pl,patandrub.eu,pl.gaminate.pro,pl.techinfus.com,planetaklockow.pl,podkowa.eu,pogotowie-komputerowe.org.pl,pol-skone.pl,poznan.pl,promedica.biz,promienieslonca.pl,przepisnadom.pl,rebelelectro.com,rozarium.eu,salonklockow.pl,seksuologbeztabu.pl,shuluv.com,skarbyroztocza.com,sklep-agroland.pl,sklep-zdrowia.eu,sklep.arcabit.pl,sklep.art-magazyn.eu,sklep.bbstudio.eu,sklep.esanatoria.eu,sklep.grupamagnum.eu,sklep.koralove.eu,sklep.mixmatch.pl,sklep.polbit.com,sklep.przybyszewski.eu,sklep.wygrajsukces.com.pl,sklep.zielonyogrodek.pl,skleppapierniczy.com,sklepy-cynamonowe.eu,skorzany.com,softbuy.eu,spawaj.eu,sprzetowo.pl,starecegly.com,stolarnia-bigmar.pl,szklanyswiat.org,tanikomputer.eu,tapety-sklep.com,traktorki.com,trustmysister.com,tunelefoliowe.eu,unimot.eu,uzywki.expert,valor-meble.pl,wagi.com,warsztatowski.com,wiecznepiora.eu,wzorniki.eu,zakreconysloik.com.pl,zakupywgodzine.pl,zenwire.eu,zicoracing.com##.up
+1242.eu,3dfilamenty.com,4fundesign.com,a-z-decor.eu,agrioutlet.eu,agroczescisklep.eu,akubike.com,ap-parts.eu,arapaima.eu,atramentowka.com,batteryguru.eu,bingospa.eu,biomak.eu,blachotrapez.eu,choinka.online,ctxsport.com,dalchemyskincare.com,dezald.com,e-dewocjonalia.eu,e-manufaktura.com,e-pilarz.com,e-plytki.eu,ecoflores.eu,elektro-outlet.net,epiekarnia.com,ewozki.eu,experiencecorner.com,fotonegatyw.com,gardenoffood.com,ggarden.eu,go2us.eu,goshico.com,grafit24.com,grishop.eu,grubakreska.com,homehood.eu,hornpol.com,hurtowniachemiczna.com,hurtowniaogrodnicza-esklep.com,iglaco.com,kartony24.eu,klamki-drzwiowe.com,kolonieiobozy.net,kreatorium.com,krugermatz.com,laptok.com,m-czesci.eu,maciuszek.com,meblejarosz.info,meblohurt.eu,mellowform.com,modnie.eu,myamber.eu,numizmatyczny.com,opakowaniaozdobne24.eu,pancernik.eu,patandrub.eu,pl.	promedica.biz,pl.gaminate.	podkowa.eu,pro,rebelelectro.com,rozarium.eu,shuluv.com,skarbyroztocza.com,sklep-zdrowia.eu,sklep.art-magazyn.eu,sklep.bbstudio.eu,sklep.esanatoria.eu,sklep.grupamagnum.eu,sklep.koralove.eu,sklep.polbit.com,sklep.przybyszewski.eu,skleppapierniczy.com,sklepy-cynamonowe.eu,skorzany.com,softbuy.eu,spawaj.eu,starecegly.com,szklanyswiat.org,tanikomputer.eu,tapety-sklep.com,techinfus.com,traktorki.com,trustmysister.com,tunelefoliowe.eu,unimot.eu,uzywki.expert,wagi.com,warsztatowski.com,wiecznepiora.eu,wzorniki.eu,zenwire.eu,zicoracing.com##.up
 51015kids.eu##.js--scroll-to-top
 a1komputery.pl,e-infonet.pl,fundacjadominikana.org,wp-piast.pl,wspkorczak.eu##.sp-totop
 aaparatysluchowe.com,cukiernia-danuta.pl,stalremdrzwi.pl,swiatbaterii.pl,thebat.com.pl##.right.czr-btta.czr-btt.btn
