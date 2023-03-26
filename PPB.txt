@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 25 Mar 2023, 16:59 UTC+01:00
-! Version: 2023.3.25.3
+! Last modified: Sun, 26 Mar 2023, 01:31 UTC+01:00
+! Version: 2023.3.26.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 25 mar 2023, 16:59 UTC+01:00
+! Aktualizacja: nie, 26 mar 2023, 01:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -824,6 +824,7 @@ joom.com##div[class*="promoCorner_"]
 jsystems.pl###zapisz-sie-newsletter, a[href="newsletter.do"]
 jupi24.pl##.rc-box-newsletter
 kabexdocieplenia.eu##.footer-wrapper > .footer > div.f-box:nth-of-type(1) > *
+kakadu.pl###newsletter_btn
 kaktus24.pl#?##links_footer_2 > li > .footer_links_label > span:-abp-contains(NEWSLETTER)
 kalibaby.pl#?#.center-block-last:-abp-has(.f_newsletter)
 kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-success
@@ -3947,6 +3948,7 @@ journals.viamedica.pl##.Back_To_Top_Button
 juventus-academy.rzeszow.pl###avatar-go-to-top
 kaercher.com##.fg-totop
 kajakiem.info##.bttn_up
+kakadu.pl##.material-scrolltop
 kamami.pl,mediaexpert.pl###go_top
 kamen.com.pl###footer_top
 kancelaria.info##.eut-top-btn
