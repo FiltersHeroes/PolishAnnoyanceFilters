@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Mon, 27 Mar 2023, 17:30 UTC+02:00
-! Version: 2023.3.27.0
+! Last modified: Mon, 27 Mar 2023, 21:30 UTC+02:00
+! Version: 2023.3.27.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 27 mar 2023, 17:30 UTC+02:00
+! Aktualizacja: pon, 27 mar 2023, 21:30 UTC+02:00
 !
 !
 !
@@ -440,6 +440,7 @@ gb.pl,wsieciprawdy.pl###showMoreButton
 gdansk.pl##.nast.bat2
 gdansk.pl##.pop.bat2
 gdanskstrefa.com,raportrolny.pl###related-posts-wrapper-flyout
+gdziepolek.pl#?#div > div[style="margin-left: -16px;"] + button.Mui-disabled[disabled][type="button"]:-abp-has(> span.MuiButton-label:empty)
 geek.justjoin.it##ul[id^="offers-list"]
 geek.justjoin.it,menworld.pl,oscarrak.pl,zxu.pl###slide-in-box
 gemini.pl##swiper-carousel[class*="adserver"]
