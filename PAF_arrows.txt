@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 26 Mar 2023, 21:30 UTC+02:00
-! Version: 2023.3.26.1
+! Last modified: Tue, 28 Mar 2023, 22:32 UTC+02:00
+! Version: 2023.3.28.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 26 mar 2023, 21:30 UTC+02:00
+! Aktualizacja: wto, 28 mar 2023, 22:32 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -46,7 +46,6 @@
 51.75.43.155,aforyzmy-cytaty.pl###topBtn
 80dni.pl###backtotop_wpv
 123budujemy.pl,aptekarzpolski.pl,brandsit.pl,eurowizja.org,francuskie.pl,inwestycje.pl,mediarun.com,motoklub.pl,petronews.pl,radio.lublin.pl,skandynawiainfo.pl,slaskczyta.pl,wikilistka.pl##.jscroll-to-top
-1242.eu,3dfilamenty.com,4fundesign.com,a-z-decor.eu,agrioutlet.eu,agroczescisklep.eu,akubike.com,ap-parts.eu,arapaima.eu,atramentowka.com,batteryguru.eu,bingospa.eu,biomak.eu,blachotrapez.eu,choinka.online,ctxsport.com,dalchemyskincare.com,dezald.com,e-dewocjonalia.eu,e-manufaktura.com,e-pilarz.com,e-plytki.eu,ecoflores.eu,elektro-outlet.net,epiekarnia.com,ewozki.eu,experiencecorner.com,fotonegatyw.com,gardenoffood.com,ggarden.eu,go2us.eu,goshico.com,grafit24.com,grishop.eu,grubakreska.com,homehood.eu,hornpol.com,hurtowniachemiczna.com,hurtowniaogrodnicza-esklep.com,iglaco.com,kartony24.eu,klamki-drzwiowe.com,kolonieiobozy.net,kreatorium.com,krugermatz.com,laptok.com,m-czesci.eu,maciuszek.com,meblejarosz.info,meblohurt.eu,mellowform.com,modnie.eu,myamber.eu,numizmatyczny.com,opakowaniaozdobne24.eu,pancernik.eu,patandrub.eu,pl.	promedica.biz,pl.gaminate.	podkowa.eu,pro,rebelelectro.com,rozarium.eu,shuluv.com,skarbyroztocza.com,sklep-zdrowia.eu,sklep.art-magazyn.eu,sklep.bbstudio.eu,sklep.esanatoria.eu,sklep.grupamagnum.eu,sklep.koralove.eu,sklep.polbit.com,sklep.przybyszewski.eu,skleppapierniczy.com,sklepy-cynamonowe.eu,skorzany.com,softbuy.eu,spawaj.eu,starecegly.com,szklanyswiat.org,tanikomputer.eu,tapety-sklep.com,techinfus.com,traktorki.com,trustmysister.com,tunelefoliowe.eu,unimot.eu,uzywki.expert,wagi.com,warsztatowski.com,wiecznepiora.eu,wzorniki.eu,zenwire.eu,zicoracing.com##.up
 51015kids.eu##.js--scroll-to-top
 a1komputery.pl,e-infonet.pl,fundacjadominikana.org,wp-piast.pl,wspkorczak.eu##.sp-totop
 aaparatysluchowe.com,cukiernia-danuta.pl,stalremdrzwi.pl,swiatbaterii.pl,thebat.com.pl##.right.czr-btta.czr-btt.btn
@@ -102,7 +101,7 @@ aleo.com##p-scrolltop
 alergiapokarmowa.pl##.ct-totop
 aliexpress.com##.ui-fixed-panel-go-top
 alko-garden.pl###jumptotop
-alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,rebelelectro.com,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
+alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
 allegro.pl,citroen.pl,domkulturywkodniu.pl,infocrypto.pl,ipon.pl,zhp.pl###scrolltop
 allpaka.eu,eperfumy.pl,influencja.pl,pro-mask.pl,siapre.pl,sklep.druk-pak.com###do_gory
@@ -979,6 +978,7 @@ zszywka.pl###scroolToTop
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
 ##.powrot_do_gory
 ##button[aria-label="Przejdź do góry"]
+##div.up > a[title="do góry"]
 ##footer ~ div.arrow-top
 ##footer ~ div.js-up.up
 ~deweloper-interes.pl,pl###back_to_top
@@ -1086,12 +1086,12 @@ pl##.to-top-container:not(body):not(html)
 pl##.top-bottom-btns > a[id^="btn-back-to-"]
 pl##.totop
 pl##.ui-to-top
-pl##.up:not(body):not(html):lang(pl)
 pl##.vw-scroll-to-top
 pl##.vw_m520_topbar
 pl##.w-toplink
 pl##.z-navigation-footer_backToTop
 pl##a#backTop
+pl##div.up > a[title="do góry"]
 pl,~sklep.lobos.pl##.to-the-top
 pl,~studioatrium.pl###back-to-top
 !
