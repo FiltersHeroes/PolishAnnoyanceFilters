@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 28 Mar 2023, 02:31 UTC+02:00
-! Version: 2023.3.28.0
+! Last modified: Tue, 28 Mar 2023, 07:46 UTC+02:00
+! Version: 2023.3.28.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 28 mar 2023, 02:31 UTC+02:00
+! Aktualizacja: wto, 28 mar 2023, 07:46 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6203,8 +6203,8 @@ pneumat.com.pl###wrapper > .sideButtons-tagCont > .sideButtons-tagWhite
 poczta.interia.pl##.app-promo-plywak
 poczta.interia.pl##.hektor-container, #createaccount2
 poczta.interia.pl##.settings.newsfeed.section--opened-sidebar.section
-poczta.wp.pl,poczta.o2.pl##nh-no-ads-banner-desktop-wp, nh-no-ads-banner-desktop
-poczta.wp.pl,poczta.o2.pl##nh-no-ads-banner-mobile-wp, nh-no-ads-banner-mobile
+poczta.o2.pl,poczta.wp.pl##nh-no-ads-banner-desktop-wp, nh-no-ads-banner-desktop-o2, nh-no-ads-banner-desktop
+poczta.o2.pl,poczta.wp.pl##nh-no-ads-banner-mobile-wp, nh-no-ads-banner-mobile-o2, nh-no-ads-banner-mobile
 pocztazdrowia.pl###baner2
 pocztowy.pl##.bg-navyBlue
 podatekvat.pl###SliderBox
