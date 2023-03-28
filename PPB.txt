@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 27 Mar 2023, 22:30 UTC+02:00
-! Version: 2023.3.27.2
+! Last modified: Tue, 28 Mar 2023, 02:31 UTC+02:00
+! Version: 2023.3.28.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 27 mar 2023, 22:30 UTC+02:00
+! Aktualizacja: wto, 28 mar 2023, 02:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -119,6 +119,7 @@ al.to,combat.pl,x-kom.pl##.box-newsletterbf
 al.to,combat.pl,x-kom.pl#?#.mediabar > .container:-abp-has(> .newsletter-input)
 al.to,combat.pl,x-kom.pl#?#footer[class*="footer"] > div[class*="sc-"]:nth-of-type(1) > div[class*=" "]:nth-of-type(1) > div[class*="sc-"]:-abp-has(> div[class*="sc-"] > h2[title="Newsletter"])
 al.to,combat.pl,x-kom.pl#?#section > .row:-abp-has(> div.col-sm-6 > .typ-newsletter-button)
+alawar.pl##div.b-footer div.b-subscribe
 albatros.pl##.alb-newsletter
 aldi.pl##.mod-newsletter-popup
 aldi.pl##.mod-newsletter-teaser
@@ -5503,6 +5504,7 @@ akademiaap.com###sidebar
 aktualnyodpis.pl###carq-iframe
 al.to,x-kom.pl#?#.mobile-app-alert:-abp-has(.app-details)
 alablaboratoria.pl###small-pop-up
+alawar.pl##.b-skin__push #actionBannerContainer.b-action-banner__container
 aldi.pl##.mod-cart__btn
 alkoholeswiata.com###right_toolbar
 allecco.pl,apteka-melissa.pl,aptekazawiszy.pl,nowafarmacja.pl,wapteka.pl##ins > div[id*="ulixes"], div#ulixes-paralaxa
@@ -6201,6 +6203,8 @@ pneumat.com.pl###wrapper > .sideButtons-tagCont > .sideButtons-tagWhite
 poczta.interia.pl##.app-promo-plywak
 poczta.interia.pl##.hektor-container, #createaccount2
 poczta.interia.pl##.settings.newsfeed.section--opened-sidebar.section
+poczta.wp.pl,poczta.o2.pl##nh-no-ads-banner-desktop-wp, nh-no-ads-banner-desktop
+poczta.wp.pl,poczta.o2.pl##nh-no-ads-banner-mobile-wp, nh-no-ads-banner-mobile
 pocztazdrowia.pl###baner2
 pocztowy.pl##.bg-navyBlue
 podatekvat.pl###SliderBox
