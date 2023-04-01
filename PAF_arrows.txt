@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sat, 01 Apr 2023, 17:30 UTC+02:00
-! Version: 2023.4.1.0
+! Last modified: Sat, 01 Apr 2023, 20:57 UTC+02:00
+! Version: 2023.4.1.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 01 kwi 2023, 17:30 UTC+02:00
+! Aktualizacja: sob, 01 kwi 2023, 20:57 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -102,8 +102,8 @@ alergiapokarmowa.pl##.ct-totop
 aliexpress.com##.ui-fixed-panel-go-top
 alko-garden.pl###jumptotop
 alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
+allegro.pl##button[data-analytics-interaction-label="scrollToTop"]
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
-allegro.pl,citroen.pl,domkulturywkodniu.pl,infocrypto.pl,ipon.pl,zhp.pl###scrolltop
 allpaka.eu,eperfumy.pl,influencja.pl,pro-mask.pl,siapre.pl,sklep.druk-pak.com###do_gory
 alltube.tv##.fa-angle-double-up
 alphavit.pl,ambulans.com.pl,athleticsport.pl,cukieteria.pl,getinbank.pl,grajtanio.pl,gustaf.pl,itmarket.pl,mkgsm.pl,mojedekoracje.eu,motoledy.pl,pakuten.pl,siecobywatelska.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,trojmiasto.pl,zoo365.pl###scroll_top
@@ -250,6 +250,7 @@ chmielnik.com###na_gore
 choinka-sztuczna.pl###ico_up
 choinki.net,sherlocktrafika.pl,wyciagarki.eu###backtop
 ciechocinek.biz,drawskopomorskie.com,gniewkowo.eu,ki24.info,kolniak24.eu,lowiczanin.info,mohito.com,nizanskie.info,roztocze.net##.scroll-down
+citroen.pl,domkulturywkodniu.pl,infocrypto.pl,ipon.pl,zhp.pl###scrolltop
 citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl##.gw-grux-backToTop
 citymask.eu,globalna.info,gogosmart.pro,lubawka.info##.scrolltop
 ciuchy.zizej.pl#?#footer ~ button:-abp-has(> span > svg)
@@ -938,6 +939,7 @@ wojtki.eu##.mypresta_scrollup
 wolczanka.pl##.btn__scroll_to_top
 wolt.com##button[class*="ScrollToTop"]
 wolt.com##button[class^="ScrollToTop__"]
+wosp.org.pl##.scrollArrowWrapper
 wrzesnia.powiat.pl###btn-up
 wsip.pl##.jsBackToTop
 www.aboutyou.pl#?#div[class*="pulse"][class*="wrapper"]:-abp-contains(do góry)
