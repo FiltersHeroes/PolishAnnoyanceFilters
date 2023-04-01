@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 28 Mar 2023, 07:46 UTC+02:00
-! Version: 2023.3.28.0
+! Last modified: Sat, 01 Apr 2023, 17:30 UTC+02:00
+! Version: 2023.4.1.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 28 mar 2023, 07:46 UTC+02:00
+! Aktualizacja: sob, 01 kwi 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -270,7 +270,7 @@ blip.pl,chcemybycrodzicami.pl##.front-newsletter
 blog-daneosobowe.pl,ekorekta24.pl,labosport.pl,niezlasztuka.net,sprawyzdrowia.pl##.nksub_hidden .nks_cc_trigger_tabs
 blog.gdaq.pl,doktorania.pl,faktyozywnosci.pl,haart.pl,kryptopomocnik.pl,magnapolonia.org,naukatolubie.pl,ostatniatawerna.pl,refreszing.pl,stomatologianews.pl###custom_html-2
 blog.goeste.pl#?#.elementor-widget-heading:-abp-contains(newsletter)
-blog.kurasinski.com,esklep.brandvital.eu,eventory.cc,hegos.eu,mazidla.com##.newsletter
+blog.kurasinski.com,dlabiura24.pl,esklep.brandvital.eu,eventory.cc,hegos.eu,mazidla.com##.newsletter
 blog.lh.pl#?#article.post > .entry-content > div:-abp-has(a[href="/newsletter/"])
 blog.mozilla.org,olesnica24.com,zamek-krolewski.pl###newsletter_form
 blog.spotawheel.pl,oknarolety.com###subscribe-form
@@ -539,6 +539,7 @@ edunews.pl##.moduleacy-email
 edutorial.pl###sendpress-widget-6
 edziecko.pl,ladnydom.pl,myfitness.pl,ugotuj.to,wyborcza.biz##.nlt
 efashionstudio.pl##footer > .top > .container
+egarden.pl##.newsletter-foot
 egospodarka.pl##.ego-ico3, .ego-newsletter
 ekoj.pl###newsletterbar
 ekomercyjnie.pl##.clearfix.main-menu > li:nth-of-type(1), .home-newsletter, .blog-newsletter, #bottom-newsletter
@@ -657,6 +658,7 @@ frenchtouchlabellevie.pl##.newsletter-mail
 fresh-market.pl###kolp > .ramka.box_p
 fresh-market.pl###kolp > h4
 freshmail.pl##.newsletter-shortcode-form
+fritzbox.com.pl##.nslt
 fundacjadominikana.org###bottom.row-fluid > #sp-bottom6
 fundacjajoannyradziwill.pl###custom_html-4 .custom-html-widget.textwidget > h4.widget-title:nth-of-type(1)
 fundacjajoannyradziwill.pl###custom_html-4 a[href="//fundacjajoannyradziwill.pl/#newsletter"]
@@ -1042,6 +1044,7 @@ mlodytechnik.pl##[href="/newsletter"]
 mmo.pl###newsletter_subscriber
 mobileclick.pl##.essb_mailform
 mobileclick.pl##.single-newsletter
+mobiwear.pl##.custom_newsletter
 mocak.pl###frm-subscribe-newsletter
 modbis.pl###menu_newsletter2
 modea.pl##.footer_wrap .col-md-5
@@ -1452,6 +1455,7 @@ rywalbp.pl###sliding_box1
 rzetelnyregulamin.pl#?#main section.container:-abp-has(form input[type="email"])
 sadyogrody.pl###col2 .tabs .social.mail
 sadyogrody.pl#?##col2 .tabs.s2 .navi + .panes:-abp-has(> .one:nth-child(1))
+sadzonki-truskawek.eu,xopero.com##.widget_newsletterwidgetminimal
 salaterka.pl##.fca_eoi_form
 salonydenon.pl#?#.row.tvfooter-storelogo-imformation > .tvfooter-title-wrapper > .tvfooter-title:-abp-contains(Newsletter)
 salonyhoff.pl###section_subReqForm
@@ -1879,7 +1883,6 @@ wylecz.to##.portlet-newsletter
 wymarzonyogrod.pl###contactable, #newsletter_ajax
 wysokienapiecie.pl##.topbar__item.e-open-newsletter-box
 xlm.pl##.newsletter-promo-cont
-xopero.com##.widget_newsletterwidgetminimal
 yerbanot.com###email-subscribers-3
 yes.pl##.footer-middle
 yieldbird.com##.hidden-widget.float-widget
