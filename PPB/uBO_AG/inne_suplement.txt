@@ -1,13 +1,6 @@
-!$permissions=autoplay=()
-!/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=~pinger.pl|pl|~wykop.pl
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
-/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
-||e-niemcy.de/wp-content/themes/goodnews/assets/vendors/jquery-nicescroll/jquery.nicescroll.min.js
-||mokrenosy.pl/*/avada-nicescroll.js$script
-||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
-||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has(+ a[data-st-area="Header-back"])
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##a[data-st-area="Header-back"]::before
