@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 02 Apr 2023, 17:17 UTC+02:00
-! Version: 2023.4.2.1
+! Last modified: Mon, 03 Apr 2023, 17:30 UTC+02:00
+! Version: 2023.4.3.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 kwi 2023, 17:17 UTC+02:00
+! Aktualizacja: pon, 03 kwi 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4646,7 +4646,7 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 3giga.pl###contact-slider
-3i-store.com,agrotechnika.co,dronexpert.eu,emedyczny.com,mam-fach.info,zrobtosam24.eu##.fb_reset
+3i-store.com,agrotechnika.co,cyberrescue.info,dronexpert.eu,emedyczny.com,mam-fach.info,zrobtosam24.eu##.fb_reset
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
@@ -5094,6 +5094,7 @@ nn.pl##.btn-opaque.floating-button-wrapper
 nordglass.pl###altar-chat-div-container, #altar-eye-catcher-div-container
 nowaruda24.pl##.share_your_event.box-inside.block
 nowela.pl###contact-popup
+noweogrody.pl##[src="/img/telephone-symbol-button.png"]
 ntfy.pl###ntfy-zendesk, #ntfy-callpage
 nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
@@ -5117,6 +5118,7 @@ panekcs.pl###module-293\#3-0-0
 panmaterac.pl###call-container-floating
 panmaterac.pl###lhc_container_v2
 parkrozrywkizawada.pl,poklocki.pl,quantec.pl##.fa-paper-plane
+partnerpapes.pl##.elementor-button-wrapper
 pasland.pl###panel
 payukraine.com###jvlabelWrap
 pbgorski.pl##.call-back
@@ -5153,6 +5155,7 @@ polnord.pl###contactForm
 poloniawroclaw.pl##body > iframe:nth-of-type(1)
 polskiled.com.pl##.joinus > [href*="://wa.me"]
 pomagamy-wszyscy.pl,um-swiecie.pl###formPopupHandler
+pomoc.bluemedia.pl##.icon_czat.ribbon
 poradnikprzedsiebiorcy.pl##.visible.text-right.widget-guide-online
 porowneo.pl##.agent-avaiable
 portal.lellek.pl###contact-img
@@ -5787,6 +5790,7 @@ euro.com.pl,oleole.pl###top > #promotion-bar
 eurobank.pl###labelElements
 eurogamer.pl##.in-article-search, .language-bar
 euromat.com.pl###tws_s_100000
+euroobuwie.pl##.bars__wrapper
 eurosport-fitness.pl##.nks_metro
 eventy-online.pl###przewodnik
 exceldlaksiegowych.pl###post-navigation
@@ -6034,6 +6038,7 @@ m.zapytaj.onet.pl##.onet-bar.bottom
 maciej.je##.related-posts
 mall.pl##.flt-bnr
 mamabezrecepty.pl##footer > .tips
+marax.eu###pierwsza_ikona, .vertical-button
 marbo-sport.pl###menu_basket_widget
 marenaspa.pl##.training, .reservation, .neighbourhood
 marketerplus.pl##.animateMe.magazynframe, .openmagazyn
@@ -6090,7 +6095,7 @@ money.pl##.float.more-news
 moneygrabbing.co.uk###older-nav
 moneygrabbing.co.uk##.related-wrap
 monitor.firefox.com#?#.top-bar:-abp-has(> .join-fx-wrap)
-morele.net##.js_get-app-bar.get-app-bar
+morele.net##.js_get-app-bar.get-app-bar, .get-app-side-section__button
 morizon.pl##.article__offer-bar__wrapper > .bar-sticky
 moto.lca.pl###myBtnOglo
 moto.pl###footerBack
@@ -6143,6 +6148,7 @@ nocowanie.pl##.hidden-sm.hidden-xs.tc:nth-of-type(3)
 nocowanie.pl##.js-nav-prev-next, .sticky__element
 noizz.pl###floatingShareWithNextArticle
 nosem.pl##.triggered
+noskinoski.pl##.announcement-bar, #app-embed-container
 nowegumy.pl###wysuwacz_reklama, #wysuwacz
 nowiny24.pl##.article-inset
 nowiny.com.pl##.slide-right
@@ -6267,6 +6273,7 @@ raportdrogowy.interia.pl,uroda.swiatkobiety.pl##.articleObjectSeeAlso
 rc.fm###rconline
 reddit.com##.read-next
 refunder.pl#?#.fixed:-abp-has(> div[data-id="sticky-register"])
+relaxinspa.pl##.buttonizer-button, .xoo-wsc-basket
 retailnet.pl##.elementor-popup-modal.dialog-widget
 rg-narzedzia.com.pl###allegroiko
 rgbautomatyka.pl###repair-box
