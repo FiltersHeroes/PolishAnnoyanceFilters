@@ -508,13 +508,9 @@ zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow: visible !important;)
 !@ <<<<<<<< popupy_suplement + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
 !#if !cap_html_filtering
 !@ >>>>>>>> popupy_bez_html + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_bez_html.txt
-!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
-!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###colorbox:has(#newsletter_colorbox)
 4kdownload.com##+js(ra, data-remodal-id, .thanks-modal)
-4kdownload.com##+js(ra, data-remodal-id, .widget-modal)
 alemeksyk.eu##.pweb-modal-open:style(overflow: auto !important;)
 alemeksyk.eu##.pwebbox-modal, .modal-backdrop
-annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###newsletter_colorbox:remove()
 apynews.pl###fb-modal, .modal-backdrop
 apynews.pl,cyberfolks.pl,lookcam.com,makarun.pl,mediasam.pl,muscat.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bartek.com.pl##+js(acis, $, popupNewsletter)
@@ -575,17 +571,12 @@ zoo.bydgoszcz.com##^#NewsShow
 !#endif
 !#if !ext_ublock
 !@ >>>>>>>> popupy_AG + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
-!annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl#@?##colorbox:not(:has(.cboxPhoto))
 4kdownload.com##.remodal-overlay
 4kdownload.com##.remodal-wrapper:has(> .thanks-modal)
 4kdownload.com##body[style]:style(padding-right: 0 !important;)
 4kdownload.com##html.remodal-is-locked:style(overflow: auto !important;)
-4kdownload.com#?#.remodal-wrapper:has(> .widget-modal)
 4kdownload.com$$.thanks-modal
-4kdownload.com$$.widget-modal
 alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
-annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl###cboxOverlay:not([style="opacity: 0.9; visibility: visible; display: block; cursor: pointer;"]) + #colorbox
-annalotan.pl,arms.com.pl,chrisbenzshop.pl,e-forma.pl,fajerwerki.shop.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl,zegarkizpasja.pl$$#newsletter_colorbox
 apynews.pl$$#fb-modal
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl#$#html { overflow: visible !important; margin-right: 0 !important; }
