@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Thu, 30 Mar 2023, 23:27 UTC+02:00
-! Version: 2023.3.30.0
+! Last modified: Wed, 05 Apr 2023, 00:02 UTC+02:00
+! Version: 2023.4.5.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 30 mar 2023, 23:27 UTC+02:00
+! Aktualizacja: śro, 05 kwi 2023, 00:02 UTC+02:00
 !
 !
 !
@@ -52,6 +52,7 @@
 ||redditstatic.com/*/PushNotifications.
 ||renee.pl/javascript/push_add.js
 ||rzetelnafirma.pl/Scripts/pushServiceWorker$script
+||salesmanago.com/api/push/notification/consent/content.html$subdocument
 ||salesmanago.pl/api/push/$xmlhttprequest
 ||savecart.pl/*/script.php
 ||static.api.sociaplus.com/css/web-push-popup.css
@@ -105,11 +106,12 @@ ogrodosfera.pl##.bell-container
 onet.pl##.notificationPrompt
 pilot.wp.pl##.notification-container
 pl,typeofweb.com###onesignal-popover-dialog
-pl.aliexpress.com#?#body > div:last-of-type:-abp-contains(Zezwalaj na powiadomienia)
+pl.aliexpress.com#?#body div ~ script ~ div:nth-last-of-type(2):nth-last-child(3) > div:nth-child(1):-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
+pl.oriflame.com,prawo.vulcan.edu.pl###bhr-iframe-consent-form
+pl.oriflame.com,prawo.vulcan.edu.pl##.bhr-web-push-consent-form
 pl.waterdrop.com##.pushowl-widget-node
 polsatnews.pl###pushwooshBellWidget
 pomponik.pl##.ppg__signin
-prawo.vulcan.edu.pl###bhr-iframe-consent-form
 sklepsamsung.pl##.b-modal_webpushCentered
 sklepsamsung.pl##.b-modal_webpushVertical
 sprzedajemy.pl###webPushWidget
