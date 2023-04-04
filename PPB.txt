@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 05 Apr 2023, 00:01 UTC+02:00
-! Version: 2023.4.5.0
+! Last modified: Wed, 05 Apr 2023, 00:21 UTC+02:00
+! Version: 2023.4.5.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 05 kwi 2023, 00:01 UTC+02:00
+! Aktualizacja: śro, 05 kwi 2023, 00:21 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3274,51 +3274,31 @@ pl##body:not(.x13popup-open) #x13popup-cover
 /sw-push.js$script,domain=m.zapytaj.onet.pl|medonet.pl
 /sw-rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
 /sw.js$domain=adaware.com|kinoseans.pl|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl|youtube.com|zippyshare.com
-||api.sociaplus.com/views/push/js/sdk/insider-push-native-sdk.js
-||cashless.pl/serviceworker.js
 ||cdn.*.com/push_app.js$script,domain=2conv.com|flv2mp3.by|flvto.biz
 ||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
 ||cdn.qgraph.io/v3/r/qgraph.v2.js$domain=domodi.pl|homebook.pl
-||cdn.siteswithcontent.com/js/push/subscribe.js$script,domain=postimg.cc
-||cdn.subscribers.com/assets/subscribers-sw.js$script,domain=www.badzjeszczelepszy.pl
+||cdn.siteswithcontent.com/js/push/subscribe.js$script,domain=postimages.org|postimg.cc
+||cdn.subscribers.com/assets/subscribers-sw.js$script,domain=badzjeszczelepszy.pl
 ||chamsko.pl/js/push-notifications.js
-||codziennypoznan.pl/webnotf.js
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
 ||konin24.info/tmpl/js/push.min.js
-||kreskoweczki.pl/js/pushNotification.js
 ||mojeppk.pl/*/push-notifications/*firebase-config.json$xmlhttprequest,domain=mojeppk.pl
-||moneygrabbingcouk.foxpush.net/http_native.html
-||nasze-gazetki.pl/public/notification/notification.js
-||newbalance.api.useinsider.com/views/push/js/sdk/insider-push-native-sdk.js$script,domain=nbsklep.pl
 ||ocdn.eu/ucs/static/*/build/js/pushModule.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
 ||onet.pl/push-mob-service-worker*.js$script,domain=onet.pl
 ||onet.pl/push-service-worker*.js$script,domain=onet.pl
 ||push.domodi.pl/pushweb/assets/init.js
 ||rankomat.pl/kalkulator/client_app/assets/push-notifications/push-notifications.script.js
 ||redditstatic.com/*/PushNotifications.
-||renee.pl/javascript/push_add.js
 ||rzetelnafirma.pl/Scripts/pushServiceWorker$script
-||salesmanago.com/api/push/notification/consent/content.html$subdocument
-||salesmanago.pl/api/push/$xmlhttprequest
+||salesmanago.*/api/push/$xmlhttprequest
+||salesmanago.*/api/push/notification/consent/content.html$subdocument
 ||savecart.pl/*/script.php
-||static.api.sociaplus.com/css/web-push-popup.css
 ||tauron.pl/pushAd/integration.js
-||teb.pl/js/pushServiceWorker.js
 ||twojcel.to/?smpushprofile
-||txm.pl/crm-push-service-worker$script
-||txm.pl/js/assets/crm-web-push-service-worker.js$script
 ||web.webpushs.com/js/push/$script,domain=wiencewiazanki.pl
 ||webpush.interia.pl/activator.js
 ||webpush.interia.pl/scripts/*/push.js
-||wp.pl/*.webpush-desktop.chunk.js
-||wp.pl/*.webpush-desktop.legacy.chunk.js
-||wp.pl/*.webpush.chunk.js
-||wp.pl/webpush/static/js/webpush.desktop.js
-||wp.pl/webpush/static/js/webpush.js
-||youlead.pl/WebpushPrompt.js
-||youtubersi.pl/themes/default/js/notify.js
-||zalukaj.vip/wp-content/plugins/front-end-pm/assets/js/notification.js
-||zpr-webpush-api.growpoland.pl/webpush-api/subscriptions
+||wides.pl/themes/default/js/notify.js
 2conv.com,flv2mp3.by,flvto.biz##.push-offer
 agrarsklep.pl,elle.pl,esklep.polomarket.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,morizon.pl,national-geographic.pl,przyslijprzepis.pl,wsb.edu.pl###ue_popups
 allani.pl,domodi.pl##div[id*="FakePromptContainer"]
