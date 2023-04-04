@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 04 Apr 2023, 11:23 UTC+02:00
-! Version: 2023.4.4.0
+! Last modified: Tue, 04 Apr 2023, 14:31 UTC+02:00
+! Version: 2023.4.4.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 04 kwi 2023, 11:23 UTC+02:00
+! Aktualizacja: wto, 04 kwi 2023, 14:31 UTC+02:00
 !
 !
 !
@@ -113,7 +113,6 @@
 !naszamlawa.pl###spu-bg-75900, #spu-75900
 !obcasy.pl##.spu-box, .spu-bg
 !pierwsze-kroki.com###spu-26, #spu-bg-26
-!zakupy.auchan.pl#?#header ~ div.vue-portal-target > div:-abp-has(.popup-image)
 !zuch.media###spu-10366, #spu-bg-10366
 /compress/popupFacebook.js$domain=chamskie.pl|motywujemy24.pl
 /compress/popups/popupFacebook_normal.css$domain=chamskie.pl|motywujemy24.pl
@@ -1126,6 +1125,7 @@ yoursclothing.pl##.slide-in-box--newsletter
 yumisu.pl#?#.custom-popup.clb-popup:-abp-has(.clb-subscribe)
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
+zakupy.auchan.pl##.vue-portal-target
 zawojski.pl##.news-overlay
 zblogowani.pl###more-posts-modal
 zdrowazupa.pl###container-module-newletter
