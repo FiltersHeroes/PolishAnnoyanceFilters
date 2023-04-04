@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 04 Apr 2023, 11:23 UTC+02:00
-! Version: 2023.4.4.0
+! Last modified: Tue, 04 Apr 2023, 14:31 UTC+02:00
+! Version: 2023.4.4.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 04 kwi 2023, 11:23 UTC+02:00
+! Aktualizacja: wto, 04 kwi 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2175,7 +2175,6 @@ pl,~znak.com.pl##.newsletter-container
 !naszamlawa.pl###spu-bg-75900, #spu-75900
 !obcasy.pl##.spu-box, .spu-bg
 !pierwsze-kroki.com###spu-26, #spu-bg-26
-!zakupy.auchan.pl#?#header ~ div.vue-portal-target > div:-abp-has(.popup-image)
 !zuch.media###spu-10366, #spu-bg-10366
 /compress/popupFacebook.js$domain=chamskie.pl|motywujemy24.pl
 /compress/popups/popupFacebook_normal.css$domain=chamskie.pl|motywujemy24.pl
@@ -3188,6 +3187,7 @@ yoursclothing.pl##.slide-in-box--newsletter
 yumisu.pl#?#.custom-popup.clb-popup:-abp-has(.clb-subscribe)
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
 zakazany-humor.pl##.snp-pop-111-wrap, .snp-pop-111-overlay
+zakupy.auchan.pl##.vue-portal-target
 zawojski.pl##.news-overlay
 zblogowani.pl###more-posts-modal
 zdrowazupa.pl###container-module-newletter
