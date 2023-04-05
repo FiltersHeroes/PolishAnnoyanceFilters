@@ -105,6 +105,8 @@
 !
 !
 ! Dołączenie listy uzupełniającej do uBlocka Origin i AdGuarda, by użytkownicy nie musieli jej subskrybować
-!#if (!adguard_ext_android_cb && !adguard_app_ios)
+!#if !adguard_ext_android_cb
+!#if !adguard_app_ios
 !#include PAF_supp.txt
+!#endif
 !#endif
