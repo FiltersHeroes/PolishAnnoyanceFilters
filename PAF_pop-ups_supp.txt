@@ -62,6 +62,7 @@ aptekakamagra.pl###promoModal, .modal-backdrop
 apynews.pl,gameonly.pl,gameswithgold.pl,hardreset.info,kocmyrzow-luborzyca.ug.gov.pl,mamalla.pl,n-switch.pl,ps-plus.pl,stollar.pl,wificalling-volte.pl##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 apynews.pl,gameonly.pl,gameswithgold.pl,n-switch.pl,ps-plus.pl###fb-modal, .modal-backdrop
 archonhome.pl,bitner.com.pl,eurobuty.com.pl,prnews.pl,s-pl.pl,super-polska.pl,swiatkwiatow.pl###myModal, .modal-backdrop
+arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl###newsletter_colorbox:remove()
 ask.fm##.lightbox_overlay:has(> div.lightbox_container form#signupConversionForm)
 ask.fm##body.lightbox-open:style(overflow: auto !important;)
 at-outlet.pl,bilscy.info,menspace.pl,nalepsze.pl,pantalerzyk.pl,selkar.pl,sklep.technica.pl,sklepkamil.pl,zico-bike.pl##.newsletter-modal, .modal-backdrop
@@ -578,6 +579,7 @@ zoo.bydgoszcz.com##^#NewsShow
 4kdownload.com$$.thanks-modal
 alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
 apynews.pl$$#fb-modal
+arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl$$#newsletter_colorbox
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl#$#html { overflow: visible !important; margin-right: 0 !important; }
 bartek.com.pl$$script[tag-content="popupNewsletter"]
@@ -612,8 +614,6 @@ zoo.bydgoszcz.com$$#NewsShow
 !@ <<<<<<<< popupy_AG + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
 !#endif
 !#if ext_ublock
-arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl###cboxOverlay:has(+ #colorbox:has(#newsletter_colorbox)):style(visibility: hidden !important;)
-arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl###colorbox:has(#newsletter_colorbox):style(visibility: hidden !important;)
 lento.pl##+js(ra, style, .box-modal-notify, #lightoverlay)
 pl###topLayerBackDrop:empty
 pl##div[id^="tws_i_"] :is(#toplayer_newsletter_popup, #toplayer_newsletter, #toplayer_newsletter_form, div[id^="tln"][id$="_wrap"]):upward(div[id^="tws_i_"])
