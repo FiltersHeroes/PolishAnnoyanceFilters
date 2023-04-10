@@ -171,14 +171,15 @@ progrupa.com,seniorka-z-plecakiem.pl,sparta.com.pl##body::-webkit-scrollbar-thum
 semcamp.university##div > div > div.app::-webkit-scrollbar-thumb:style(background-color: gray !important; border-radius: 0 !important; box-shadow: none !important;)
 semcamp.university##div > div > div.app::-webkit-scrollbar-track:style(background: black !important;)
 semcamp.university##div > div > div.app::-webkit-scrollbar:style(all: initial !important;)
+youtube.com###guide-inner-content::-webkit-scrollbar:style(width: 7px !important;)
+youtube.com##html:not([dark]) #guide-inner-content::-webkit-scrollbar-thumb:style(background: #fff !important;)
+youtube.com##html[dark] #guide-inner-content::-webkit-scrollbar-thumb:style(background: #999 !important;)
 !#endif
 !#if env_firefox
 pacjent.gov.pl##:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
 wbgroup.pl##:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important;)
-!#endif
-!#if env_legacy
-pacjent.gov.pl##:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
-wbgroup.pl##:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important;)
+youtube.com##html:not([dark]) #guide-inner-content:style(scrollbar-color: #000 #0000 !important;)
+youtube.com##html[dark] #guide-inner-content:style(scrollbar-color: #999 #9990 !important;)
 !#endif
 !#if !ext_ublock
 #$#.buttonHomepage { remove: true; }

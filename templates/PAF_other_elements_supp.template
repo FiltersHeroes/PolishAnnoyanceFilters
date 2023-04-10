@@ -14,9 +14,6 @@
 !#if env_firefox
 @include inne_Firefox
 !#endif
-!#if env_legacy
-@include inne_Firefox
-!#endif
 !#if !ext_ublock
 @include inne_AG
 !#endif

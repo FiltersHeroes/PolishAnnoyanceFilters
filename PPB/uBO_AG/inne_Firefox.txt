@@ -1,2 +1,4 @@
 pacjent.gov.pl##:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
 wbgroup.pl##:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important;)
+youtube.com##html:not([dark]) #guide-inner-content:style(scrollbar-color: #000 #0000 !important;)
+youtube.com##html[dark] #guide-inner-content:style(scrollbar-color: #999 #9990 !important;)
