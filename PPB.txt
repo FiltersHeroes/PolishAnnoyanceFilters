@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 15 Apr 2023, 14:31 UTC+02:00
-! Version: 2023.4.15.0
+! Last modified: Sat, 15 Apr 2023, 17:30 UTC+02:00
+! Version: 2023.4.15.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 15 kwi 2023, 14:31 UTC+02:00
+! Aktualizacja: sob, 15 kwi 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3473,7 +3473,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 ||tvpolsat.info/infusions/ui_top_button_panel/js/jquery.ui.totop.js
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 2x45.info,agro-hurt.eu,asus.com,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
-3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,bajki-grajki.pl,blackmonk.pl,domator24.com,e-rbud.pl,ettoi.pl,folcom.pl,futurefarm24.pl,greenhousedevelopment.pl,harposoftware.com,lampa-lampy.pl,laroxy.com,mojwzrok.pl,mrzepinski.pl,opakowania24.eu,optes.pl,plantica.pl,skitenis.pl,sklep.escribo.pl,skymaster24.pl,slowka.pl,swiatroslin.eu,swiatwokolkuchni.pl,tafmet.pl,taniesoczewki.pl,tortoweozdoby.pl,virgobooks.pl##.top_button
+3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,bajki-grajki.pl,blackmonk.pl,domator24.com,e-forma.pl,e-rbud.pl,ettoi.pl,folcom.pl,futurefarm24.pl,greenhousedevelopment.pl,harposoftware.com,lampa-lampy.pl,laroxy.com,mojwzrok.pl,mrzepinski.pl,opakowania24.eu,optes.pl,plantica.pl,skitenis.pl,sklep.escribo.pl,skymaster24.pl,slowka.pl,swiatroslin.eu,swiatwokolkuchni.pl,tafmet.pl,taniesoczewki.pl,tortoweozdoby.pl,virgobooks.pl##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,pasmanteria.eu,poid.eu,stolmot.com###to-top
 3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,domkorkowy.com,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
 4f.com.pl,adriatech.pl,agrojumal.com.pl,android.com.pl,answear.com,blaugrana.pl,cyfrowarepublika.pl,dachygt.pl,dorotafilipiuk.pl,drmax.pl,fenii.pl,karchercenter-ocean.pl,karnet.krakow.pl,myjki.com,myjki.eu,ocean-karcher.pl,oponeo.pl,pfron.org.pl,pracuj.pl,radiopoznan.fm,sagito.pl,sandraspa.pl,sport-shop.pl,tolpa.pl###scrollTop
@@ -3501,7 +3501,7 @@ addnature.pl,bikester.pl###iscjs_scroller
 addons.prestashop.com##.ontop.btn-top.btn
 adleragro.pl##.go-up-footer
 adwokat.co.uk,akademicka.pl,ccpartners.pl,diagnozainternetu.pl,ervegan.com,kunert.com.pl,mojlask.pl,rb.targi.pl##.top
-aeg.pl##.navigate-to-top
+aeg.pl,electrolux.pl,zanussi.pl##.navigate-to-top
 aeromixer.eu,audience.netsprint.eu,karta.piaseczno.eu,pl.mirakulin.com###scroll-top-link
 afgmarket.pl##.button-sticky-top
 aftermarket.pl###scroll-bottom
@@ -3515,7 +3515,7 @@ agro-factory2.eu,amfetamina.promo,choinkisztuczne.com,diavolo-meble.eu,historias
 agroas.pl##.to-the-top-link
 agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,clea.pl,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,sparta.com.pl,zaufanekliniki.pl###top-link
 agrofakt.pl##.go-down
-agrofakt.pl,badaniaprenatalne.pl,fn.org.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,robimytv.pl,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
+agrofakt.pl,badaniaprenatalne.pl,fn.org.pl,industra.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,robimytv.pl,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
 agrohandel.com.pl,dietlux.pl,eljacht.pl,opgj.pl,pruszczgdanski.pl,resztamamy.pl,shindaiwa.pl,smart-power.pl##.tm-totop-scroller
 agrohandler.pl,betterland.pl,porcja.eu,strefaucznia.pl,swiece-zaplonowe.pl###to_top_wrap
@@ -3547,16 +3547,16 @@ alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeri
 allegro.pl##button[data-analytics-interaction-label="scrollToTop"]
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
 allpaka.eu,eperfumy.pl,influencja.pl,pro-mask.pl,siapre.pl,sklep.druk-pak.com###do_gory
-alltronix.pl##.up
+alltronix.pl,pogotowie-komputerowe.org.pl##.up
 alltube.tv##.fa-angle-double-up
-alphavit.pl,ambulans.com.pl,athleticsport.pl,cukieteria.pl,getinbank.pl,grajtanio.pl,gustaf.pl,itmarket.pl,mkgsm.pl,mojedekoracje.eu,motoledy.pl,pakuten.pl,siecobywatelska.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,trojmiasto.pl,zoo365.pl###scroll_top
+alphavit.pl,ambulans.com.pl,athleticsport.pl,cukieteria.pl,getinbank.pl,grajtanio.pl,gustaf.pl,itmarket.pl,mkgsm.pl,mojedekoracje.eu,motoledy.pl,pakuten.pl,siecobywatelska.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,trojmiasto.pl,unimet.pl,zoo365.pl###scroll_top
 alter24.pl###page ~ div[id^="anb"]
 aluprof.eu##.sidebar__link--top
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,mall.pl,meblujesz.pl,morele.net,motoria.pl,panasonic-batteries.com,sklep-presto.pl,ubieramy.pl,whiteplate.com##.btn-back-to-top
 amooco.com###footer-backtop
 ams.com.pl,bohaterdomu.pl,inforfk.pl###back2top
 ams.edu.pl,apteka-natura.eu,bludshop.com,ehurt.eu,ene-due.eu,pakolorente.com,ptwp.pl,rowerlubon.pl,unbrokenstore.com,zapowiedzi24.blogspot.com##.backTop
-androidayuda.com###toplink
+androidayuda.com,todoandroid.es###toplink
 anetaduk.com,liletink.pl,lukasiewicz.gov.pl,moto.lca.pl###myBtn
 animalistka.pl,faltusdesign.wordpress.com,rygalo.com##.tothetop
 animeholik.pl,atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,bielskakraina.pl,dobregniazdka.pl,doran.com.pl,faktmobile.pl,focusbydgoszcz.pl,gazetasenior.pl,meble-wanat.pl,merkurymarket.pl,mtb-xc.pl,muzyczneradio.pl,pitbull.pl,promenada.com,promocyjni.pl,radiofon.fm,radiovia.com.pl,sanrol.go3.pl,skapiec.pl,tvn24.pl,websitestyle.pl,wikirose.pl,wizaz.pl,worldcam.pl,www.meczyki.pl,xkom.pl##.scroll-up
@@ -3769,7 +3769,6 @@ duka.com,electro.pl,mediaexpert.pl##.is-scrollToTop
 durszlak.pl##.button-icon-goup
 e-bliskoprzyrody.pl##.vlt-back-to-top
 e-dym.pl,sklep.mateuszciawlowski.pl###slidetop
-e-forma.pl##.top_button
 e-glamour.pl,elnino-parfum.pl##.js-scrollUp
 e-kiosk.pl##.fixed-menu
 e-militaria.pl##.to_top_wrap
@@ -3790,7 +3789,6 @@ ekrak.pl###zltop
 eksiegarnia.mnk.pl,renee.pl##.scroll__top
 ekspedyt.org###sbttBacktotop
 eksperymentalnie.com,finanse.egospodarka.pl,fundacjawolnosci.org##a[href="#top"]
-electrolux.pl,zanussi.pl##.navigate-to-top
 elektrosalon.pl###buttontotop
 elektrostymulatory.net,gorke.eu,hdtvpolska.com,kasta.news,kielce.eu,kopalniasrebra.com,ogrodniczy.com,pl.genesis-zone.com,polako.eu,szopienice.org,tablica.com,tacohemingway.store,twojcel.to##.go-to-top
 elektrykadlakazdego.pl##.crane-top
@@ -3917,7 +3915,6 @@ igimag.pl##.up-square
 ikapol.net,rolkom.net,wyczesani.com##.fa-angle-up
 ikc.pl##.ak-back-top
 ikea.com###btn-back-to-top
-industra.pl##.go-up
 industriehof.com,sportisimo.pl###jumptop
 info-tips.de,morfikov.github.io,onlinevideoconverter.com,pcsupport.lenovo.com,support.lenovo.com##.back-to-top
 infoaudio.pl,infomusic.pl,obiektyspa.com###slideup
@@ -4185,7 +4182,6 @@ poczta.gazeta.pl##button[title="Wróć na początek strony"]
 podatki.gov.pl###scrollDown
 podforak.rzeszow.pl##.nav-up
 poettinger.at##.icon-angle-up
-pogotowie-komputerowe.org.pl##.up
 polona.pl,skycash.com##.js-to-top
 polot.net##.plane-to-top
 polsatnews.pl###fab
@@ -4324,7 +4320,6 @@ tiktok.com##div[class*="VideoDetailContainer"] ~ div[class*="Bottom"] button[cla
 tiktok.com#?#div#app > div[class*="tiktok"] > div[class*="tiktok"] > button[class*="tiktok"]:not([class*="confirm" i]):-abp-has(> svg > *:empty)
 tkmaxx.pl,unitee.pl,winforum.pl##.scrolltotop
 tme.eu##.o-arrow-up__wrapper
-todoandroid.es###toplink
 tokyomask.pl##.g5core-back-to-top
 tor-konferencje.pl##.tk-goto-top
 toshiba.semicon-storage.com##.dt_pagetop
@@ -4344,7 +4339,6 @@ ugminy.ksawerow.com##.hw-back-to-top
 umebluje.pl###cs_bt_scroll_top
 umwelt-plakette.de###nachoben
 unilink.pl##.uptotop
-unimet.pl###scroll_top
 uroda.in##.trigger
 valtra.pl##.sticky-footer__back-to-top
 vanpur.com.pl###scroll_arrow
@@ -5437,17 +5431,15 @@ pl##.quickcontact-box
 /wp-content/plugins/wp-snow-effect/public/js/jsnow.js$script,domain=www.klimacold.com.pl
 ||anna-bielizna.pl/js/snowstorm.js
 ||assets.polskaniepodlegla.pl/images*/reklama_iczytamy.jpg
-||cdn.pup.sosnowiec.pl/themes/default/pics/ico/ico_klawisze.png
 ||cdngr.pl/assets/gratka/*/images/logoPromo.svg$image
 ||cdngr.pl/assets/gratka/*/promoButton.css$stylesheet
 ||crafted.pl/uploads/gwiazdki/*.gif$image
-||finochelm.pl/images/olx-ico.png$image
-||gfx.dlastudenta.pl/v3/tpl/dm.png$image
+||finochelm.pl/images/olx-ico.png
+||gfx.dlastudenta.pl/v3/tpl/dm.png
 ||images.fm.tuba.pl/tuba3/_js/plugin.min.js$domain=junior.sport.pl|polskabiega.sport.pl
 ||jugrol.pl/wp-content/uploads/20*/0*/ikonka-olx-zielona-footer.jpg$image
 ||jugrol.pl/wp-content/uploads/20*/0*/olx-ikona-na-www.jpg$image
 ||kariera.infopraca.pl/wp-content/themes/cv-tools/img/pracanaemail.jpg
-||morele.unifiedfactory.com/widget/config.js
 ||niezbednik.mediraty.pl/img/widget_duzy_button_1.png
 ||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
 ||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
@@ -5455,21 +5447,17 @@ pl##.quickcontact-box
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
 ||sklepreklamowy.pl/skins/user/shoper_red_1/images/user/franczyza-b.png
-||static.whatshelp.io/widget-send-button/js/init.js
-||sucuri.net/monitoring/badge.js
 ||telepolis.pl/next/*$xmlhttprequest
 ||tessa.com.pl/uploads/images/olx.png
 ||trustisto.com/socialproof.js
-||twardogora.pl/images/portal/tlo1.jpg
-||twardogora.pl/images/portal/tlo2.jpg
 ||twojsezam.pl/wp-content/uploads/*/*/*spot*$media,object
 ||variatkowo.pl/wp-content/*/js/smoothscroll-*.js$script
 ||web.archive.org/web/*js_/https://addons-amo.cdn.mozilla.net/amo-*.js$script,domain=web.archive.org
 ||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js
 ||widgets.okazje.info.pl^$third-party
-||windowsmania.pl/images/bar/portal.jpg
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
+||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content ~ div > style ~ div div > a[href^="/"]
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?##main-content ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
