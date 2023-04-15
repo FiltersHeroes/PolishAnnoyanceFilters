@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 13 Apr 2023, 21:43 UTC+02:00
-! Version: 2023.4.13.0
+! Last modified: Sat, 15 Apr 2023, 14:31 UTC+02:00
+! Version: 2023.4.15.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 13 kwi 2023, 21:43 UTC+02:00
+! Aktualizacja: sob, 15 kwi 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3501,6 +3501,7 @@ addnature.pl,bikester.pl###iscjs_scroller
 addons.prestashop.com##.ontop.btn-top.btn
 adleragro.pl##.go-up-footer
 adwokat.co.uk,akademicka.pl,ccpartners.pl,diagnozainternetu.pl,ervegan.com,kunert.com.pl,mojlask.pl,rb.targi.pl##.top
+aeg.pl##.navigate-to-top
 aeromixer.eu,audience.netsprint.eu,karta.piaseczno.eu,pl.mirakulin.com###scroll-top-link
 afgmarket.pl##.button-sticky-top
 aftermarket.pl###scroll-bottom
@@ -3546,6 +3547,7 @@ alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeri
 allegro.pl##button[data-analytics-interaction-label="scrollToTop"]
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
 allpaka.eu,eperfumy.pl,influencja.pl,pro-mask.pl,siapre.pl,sklep.druk-pak.com###do_gory
+alltronix.pl##.up
 alltube.tv##.fa-angle-double-up
 alphavit.pl,ambulans.com.pl,athleticsport.pl,cukieteria.pl,getinbank.pl,grajtanio.pl,gustaf.pl,itmarket.pl,mkgsm.pl,mojedekoracje.eu,motoledy.pl,pakuten.pl,siecobywatelska.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,trojmiasto.pl,zoo365.pl###scroll_top
 alter24.pl###page ~ div[id^="anb"]
@@ -3664,6 +3666,7 @@ borcas.eu##.scrollToTopPlugin
 borcas.eu##.scrollToTopPlugin_label
 bosch-extra.pl,extra-program.pl,fk-toys.pl,glovoapp.com##.to-top-button
 brodatyzbir.pl,jaktodaleko.pl,kalejdoskopbudowlany.pl,kasiapszonicka.pl,lifemanagerka.pl,linux.pl,rootblog.pl,zebza.net##.pk-scroll-to-top
+brymorex.pl###top-button-ui
 bs.limanowa.pl##.block-arrow--small
 btcpolska.com##.show-top-button
 budownictwob2b.pl,budujemydom.pl,cozaile.pl,dekavit.pl,habys.pl,informatorbudownictwa.pl,kpcen-torun.edu.pl,nowaera.pl,oczymlekarze.pl,satelitarnecyfrowe.pl,zielonyogrodek.pl##.return-top
@@ -3766,6 +3769,7 @@ duka.com,electro.pl,mediaexpert.pl##.is-scrollToTop
 durszlak.pl##.button-icon-goup
 e-bliskoprzyrody.pl##.vlt-back-to-top
 e-dym.pl,sklep.mateuszciawlowski.pl###slidetop
+e-forma.pl##.top_button
 e-glamour.pl,elnino-parfum.pl##.js-scrollUp
 e-kiosk.pl##.fixed-menu
 e-militaria.pl##.to_top_wrap
@@ -3913,6 +3917,7 @@ igimag.pl##.up-square
 ikapol.net,rolkom.net,wyczesani.com##.fa-angle-up
 ikc.pl##.ak-back-top
 ikea.com###btn-back-to-top
+industra.pl##.go-up
 industriehof.com,sportisimo.pl###jumptop
 info-tips.de,morfikov.github.io,onlinevideoconverter.com,pcsupport.lenovo.com,support.lenovo.com##.back-to-top
 infoaudio.pl,infomusic.pl,obiektyspa.com###slideup
@@ -4071,6 +4076,7 @@ modernbusiness.com.pl##.luxento-goto-top
 modne-gniazdka.pl###rightbar
 moja.biedronka.pl##.menu-bar > .btn-top
 mojebambino.pl###owl_scroll_top
+mojebambino.pl##.scroll-up-plugin
 mojeflagi.blogspot.de###NBT-top
 mojehobby.pl##.on-top-box-a
 mojewronki.pl,wlaczoszczedzanie.pl##.waypoints-goto-top
@@ -4179,6 +4185,7 @@ poczta.gazeta.pl##button[title="Wróć na początek strony"]
 podatki.gov.pl###scrollDown
 podforak.rzeszow.pl##.nav-up
 poettinger.at##.icon-angle-up
+pogotowie-komputerowe.org.pl##.up
 polona.pl,skycash.com##.js-to-top
 polot.net##.plane-to-top
 polsatnews.pl###fab
@@ -4228,6 +4235,7 @@ redcoon.pl##.icon-i_arr_up
 redditch.pl###astroid-backtotop
 redosystem.com.pl##.scrollToDown
 refreszing.pl###gpToTop
+reklamy-arek.pl###back-to-top-fixed
 rexona.com##.c-back-to-top-cta
 ricoh.pl##.page-link-top
 rodzice.pl##.rehub_scroll
@@ -4250,6 +4258,7 @@ schiedel.com,zlotegory.com##.mk-go-top
 scottiego.com###to_top_scrollup
 screamit.pl###div_go_top.ct-div-block
 scroll.morele.net###scrollTop.scrollTop
+secure.e-konsulat.gov.pl##.go-up-button
 seoheroes.pl##.clb-scroll-top-holder
 serafin-maszyny.com##.back_to_top
 sfinks.info###go_to_top
@@ -4315,6 +4324,7 @@ tiktok.com##div[class*="VideoDetailContainer"] ~ div[class*="Bottom"] button[cla
 tiktok.com#?#div#app > div[class*="tiktok"] > div[class*="tiktok"] > button[class*="tiktok"]:not([class*="confirm" i]):-abp-has(> svg > *:empty)
 tkmaxx.pl,unitee.pl,winforum.pl##.scrolltotop
 tme.eu##.o-arrow-up__wrapper
+todoandroid.es###toplink
 tokyomask.pl##.g5core-back-to-top
 tor-konferencje.pl##.tk-goto-top
 toshiba.semicon-storage.com##.dt_pagetop
@@ -4334,6 +4344,7 @@ ugminy.ksawerow.com##.hw-back-to-top
 umebluje.pl###cs_bt_scroll_top
 umwelt-plakette.de###nachoben
 unilink.pl##.uptotop
+unimet.pl###scroll_top
 uroda.in##.trigger
 valtra.pl##.sticky-footer__back-to-top
 vanpur.com.pl###scroll_arrow
