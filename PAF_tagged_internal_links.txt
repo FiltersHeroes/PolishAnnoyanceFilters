@@ -1,28 +1,28 @@
-! Checksum: nU1h4zciqMJzNux+pdc0Vw
 ! Title: Polskie Filtry Elementów Irytujących - Otagowane Linki Wewnętrzne
 ! Polish Annoyance Filters - Tagged Internal Links
 ! Codename: Tagged Internal Links
 ! Description: Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.
-! Last modified: Fri, 03 Jun 2022, 17:43 UTC+02
-! Version: 2022.6.3.0
+! Last modified: Sun, 16 Apr 2023, 21:42 UTC+02:00
+! Version: 2023.4.16.0
 ! Expires: 5 days
-! Najnowsza wersja zawsze na: https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters
+! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
-!   GitHub => https://github.com/PolishFiltersTeam/PolishAnnoyanceFilters/issues
+!   GitHub => https://github.com/FiltersHeroes/PolishAnnoyanceFilters/issues
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
+! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 03 cze 2022, 17:43 UTC+02
+! Aktualizacja: nie, 16 kwi 2023, 21:42 UTC+02:00
 !
 !
 bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##+js(ra, href, .external_link, stay)
-bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link:style(background: none !important;)
-bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link[href]:style(pointer-events: none !important; position: unset !important;)
+bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link:style(background: none !important)
+bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link[href]:style(pointer-events: none !important; position: unset !important)
 dziennikzachodni.pl##+js(ra, href, componentsArticleContent a[href*="&utm_campaign=artykul"], stay)
-dziennikzachodni.pl##.componentsArticleContent a[href*="&utm_campaign=artykul"]:style(pointer-events: none !important; color: initial !important;)
+dziennikzachodni.pl##.componentsArticleContent a[href*="&utm_campaign=artykul"]:style(pointer-events: none !important; color: initial !important)
 !
 !
-! Reguły specjalne
+! Filtry specjalne
 !#if !ext_ublock
 polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
 !#endif
