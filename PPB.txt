@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 16 Apr 2023, 17:30 UTC+02:00
-! Version: 2023.4.16.1
+! Last modified: Sun, 16 Apr 2023, 21:25 UTC+02:00
+! Version: 2023.4.16.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 16 kwi 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 16 kwi 2023, 21:25 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -106,6 +106,7 @@ agrieko.pl##.footer_NewsletterBox
 agrodoradca24.pl##.newsletter-online
 agromat.pl#?##contact-box:-abp-has(div.title:-abp-contains(Zapisz się do newslettera))
 agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
+agrosimex.pl##.footer-links .tablet-column:last-child
 agrosimex.pl##.p0.tablet-column.col-sm-4.col-xs-12
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
 ahe.lodz.pl###company-newsletter-column
@@ -4185,6 +4186,7 @@ pizzeria-vendetta.eu##.return-to-top
 pjspol.com###eltdf-back-to-top
 pkobp.pl,pkopte.pl,pkotfi.pl###scrollie
 pkw.gov.pl##.to_up
+pl.akyga.com###jumpUpBtn
 pl.ccm.net###gotop, .goLogo
 pl.chili.com###returnTop
 pl.depositphotos.com##.top-button-wrapper
@@ -6058,6 +6060,7 @@ meblohurt.eu,sklep.hultajpolski.pl###MX_hotinfo
 meblosfera.pl##.wp-side-menu-item:nth-of-type(n+2):nth-of-type(-n+4)
 media2.pl###news-readmore, #news-suggest
 mediaexpert.pl##.bottomrightbanner.snrs-modal
+mediaexpert.pl##.dynamic-social-proof
 mediasystem-tdi.pl##.right.ltr.a11y-toolbar
 medme.pl##.back-button
 medseven.eu###contactable_inner
@@ -6186,6 +6189,7 @@ opoczno.eu##.js-toggle-list.button
 oponeo.pl###checkOrderStatus
 orange.pl##.payback-floating-sidebar__trigger
 ostatniatawerna.pl##.wp-post-nav > a > [id]
+outlook.live.com#?#[data-app-section="Ribbon"] + div > div:first-child:-abp-has(> div:-abp-contains(/zaleca|recommends/) + button)
 outlook.live.com#?#div[data-skip-link-name="Przejdź do wiadomości"] > div > div > div > div > div:-abp-has(> div input.form-control[placeholder="+1 (702) 123-4567"])
 ozonee.pl###free_shiping_info, #tws_i_2
 p-programowanie.pl##progress
