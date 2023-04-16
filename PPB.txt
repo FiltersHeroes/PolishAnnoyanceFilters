@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 15 Apr 2023, 17:30 UTC+02:00
-! Version: 2023.4.15.1
+! Last modified: Sun, 16 Apr 2023, 14:31 UTC+02:00
+! Version: 2023.4.16.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 15 kwi 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 16 kwi 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -106,6 +106,7 @@ agrieko.pl##.footer_NewsletterBox
 agrodoradca24.pl##.newsletter-online
 agromat.pl#?##contact-box:-abp-has(div.title:-abp-contains(Zapisz się do newslettera))
 agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
+agrosimex.pl##.p0.tablet-column.col-sm-4.col-xs-12
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
 ahe.lodz.pl###company-newsletter-column
 airstop.pl###snippet-newsletterSubscription-newsletterSubscription
@@ -260,9 +261,12 @@ bit-info.pl##.newsletters_block
 bitcoin-online.pl#?#.block-title:-abp-contains(Newsletter)
 bitcoin.pl#?#.flex > #article > div:last-child:-abp-has(> div form label[for="emailAddress"])
 biurfan.pl###newsletter-wide
+biuronet.com##.bottom-subscription-form
 biuroprasowe.pl#?#.right-col p:nth-of-type(2) > b:-abp-contains(newsletter)
 biuroprasowe.porta.com.pl##.newsletter-home_page
 biurowezakupy24.pl,szkolnezakupy.pl###mod-newsletter
+bizay.pl##div.col-xs-3 > .footer-sub-title
+bizay.pl##div.col-xs-3 > .no-gutter.row
 biznes-wprost-pl.cdn.ampproject.org##.art-newsletter
 biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
 blik.com##.newsletter-iframe
@@ -303,6 +307,7 @@ brief.pl#?#.sticky-column > div > div:-abp-has(> div > form[action*="enewsletter
 brita.pl##.validation.form-group
 brownells.pl##.ic-popupLinkNewsletter
 brw.com.pl,brw.pl##.blok-newsletter
+brymorex.pl##.newsletter-ui
 bto.pl###StopkaAktywnaNewsletter
 budujemydom.pl###newsBoxLeft
 budujemydom.pl,czasnawnetrze.pl,zielonyogrodek.pl###newsletterBoxLeft
@@ -514,6 +519,7 @@ e-insportline.pl##.lastbox
 e-irwin.pl##.footer .row > div:nth-of-type(4)
 e-kidsplanet.com###newsletterBanner > div
 e-korepetycje.net##.offer-sidebar-banner
+e-militaria.pl##.st_news_letter
 e-pies.eu###m_footer_newsletter
 e-pies.eu###m_footer_newsletter#mc-embedded-subscribe-form
 e-prawnik.pl##.boxA2
@@ -585,6 +591,7 @@ esklep.niewiescin.pl##footer > #widgets > .container > div.widget:last-child
 esklep.poczta-polska.pl###footer > div:nth-of-type(3)
 esprit.com.pl##.newsletter-gora
 espritshop.pl###newsletter-registration-form
+esselte.com##.abc-footer__newsletter
 esselte.com##div.span6:nth-of-type(2)
 essilor.pl##.Footer-col--contact.Footer-col > .Footer-title--head.Footer-title
 estante.pl###block-5 > .mailpoet_form
@@ -720,6 +727,7 @@ gowork.pl##.notification-popover
 grafmag.pl##.footer__notify_newsletter
 gramwzielone.pl##.hidden-xs.hidden-sm.col-md-12
 grawerowanie.org.pl##.signup
+greencell.global##.nl-footer-container
 greenfelix.eu##.footer-container div[class]:nth-of-type(4)
 grene.pl###pollSlider-button
 grillmix.pl##.col-sm-3:nth-of-type(5)
@@ -740,6 +748,7 @@ hart.pl,herki.pl###_ctl0_NewsLetterInitC_NewsletterForm
 harting.com#?#.footer__pane > .footer__container:-abp-has(> .footer__newsletter-form)
 hello-body.pl,medestetis.pl,wei.org.pl###custom_html-3
 hermessk.pl###sliding_box_submit1
+hirschmann.pl##.subscribe-line
 histmag.org###calculatedSocials > a[href*="#newsletter"]
 histmag.org##.css-nil > a[href="https://old.histmag.org/#registerlink"]
 histmag.org#?##article > div[class$="border-box"] > div[class$="border-box"] > a:-abp-contains(/^Newsletter$/)
@@ -846,6 +855,7 @@ kaufland.pl##.m-teaser > .m-teaser__link[data-aa-pagename*="newsletter"]
 kaufland.pl##.o-form--footernewsletter
 kawerna.pl##.item-last.span4
 kayak.pl##[class^="Common-Frontdoor-EmailSubscriptionPanel"]
+kiddyfave.com##.col-xs-12.col-sm-12.col-md-12 > h3, .subReqForm
 kidsb2b.pl##div.footer-box:nth-of-type(3)
 kierunekspozywczy.pl###sb-newsletter
 kim24.pl###fboxNewsletter
@@ -893,6 +903,7 @@ krzywydomek.info###main > .row2.col1
 ks.pl###nwsltr.extnewsletter
 ksiegarnia-edukacyjna.pl##.footer-newsletter__content-wrapper
 ksiegarnia.beck.pl##.newspopup_up_bg
+ksiegarniamorska.pl###blockEmailSubscription_displayFooterRight
 ksiegarniasztuki.pl###kolumny_k .prawa
 kuchnialidla.pl##.home_newsletter_col1
 kulig.pl###newsletter-pasek-in > .row > div:first-child
@@ -924,6 +935,7 @@ laptopypoznan.pl##.ps-spotlight5
 laroche-posay.pl##.ctn_newsletter
 laroche-posay.pl##.ctn_newsletterl, .widget_popin_newsletter
 lasuch24.pl###box_biuletyn
+latarki.pl###newsletter_block_left
 latarki.pl##.bakedparallax-wrapper
 latarnia.teatrnn.pl###main_oferta > div:nth-of-type(2), #main_oferta > div:nth-of-type(2) + form
 lawendowykredens.pl##.footer-static > div.col-sms-12:nth-of-type(3)
@@ -976,6 +988,7 @@ mamonik.pl###text-3
 mamopracuj.pl##.newsletters
 mamotoja.pl##.nlt-footer
 mamstartup.pl##.hb-right.submitClearInput
+mamyje.pl##.subscribe_home
 managerka.com###zapiszSieNaNewsletter
 mango.pl###smSubscriptonBox
 mango.pl##.banner-slim
@@ -1305,6 +1318,7 @@ planet.pl###zapis-do-newsletter
 platforma.org##.footer > .newsletter-container
 plk.pl##footer div:nth-of-type(1) > h3:nth-of-type(2)
 plock.eu##.newsletter-component
+plytki-lazienki.pl##.col-md-offset-1.col-md-12
 pocztazdrowia.pl##.pull-right.col-xs-12.col-sm-12.col-md-5.col-lg-4
 podrywaj.org###block-block-34
 podyplomie.pl##.footer > .section > .row > div:nth-of-type(1) > .form-flex
@@ -1383,6 +1397,7 @@ propertynews.pl##.nl.one
 proshop.pl##div.col-md-6.col-sm-12:nth-of-type(2) > .row > .site-row-margin-top.col-sm-6
 prostyzysk.pl##.entry-content > iframe[id^="fm-"].lazyloaded
 proto.pl###block-entityform-block-newsletter
+proxer.com.pl###box_subReqForm
 pruszkow.pl###custom_html-7
 pryskaj.pl##.fx-newsletter
 przepis-na-lo.pl###sidebar > div.widget:nth-of-type(3)
@@ -1434,11 +1449,13 @@ rekinysukcesu.pl###footer div.row:nth-child(1) figure.mockup-footer
 remprodex.com.pl##.col_three.footer_widget
 rena.pl###newsletterBottomForm
 renee.pl##.newsletter__section
+renowa.pl##.col-4.col-sm-6.col-md-3
 reserved.com##.footer-links > .accordion > li.accordion-cat:nth-of-type(1) > .accordion-cat-title
 resortpro.ht-int.com###i-username
 rfbenchmark.pl##.col-lg-3.col-md-3.col-sm-4.col-xs-12
 ridex.pl##.mcSignupModule
 rik.pl##.footer_col_4 > div:nth-of-type(3)
+rolmet.biz.pl##.pt-subscribe
 rolnik.pl###block-bt
 rolserwis.pl###newslett
 romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
@@ -1517,6 +1534,7 @@ sklep.kawa.pl##.NewsletterPopup
 sklep.kotrak.com##.newsletter1-wrapper > * > *
 sklep.legia.com##.ty-footer-menu > .row-fluid > .span8
 sklep.lemoniade.pl##.container > .row > div.col-md-6.col-sm-6.col-xs-12:nth-of-type(2) > .row
+sklep.lobos.pl##.form.col-md-8 > form
 sklep.mariall.pl##.NewsletterTlo
 sklep.milicon.eu##.box.newsletter, .menuBox_Newsletter
 sklep.nowaera.pl##.button__newsletter
@@ -1603,6 +1621,7 @@ strefa-zakupowa.pl##.moduletable4
 strefainwestorow.pl###newsletter-ipo
 strefakursow.pl##.b-site-footer__margin-right-30.u-flex-direction-col.u-display-flex
 strefapmi.pl##.col_last.right-edge.one-fourths.span_3.col
+strefaucznia.pl##.block.st_news_letter_4
 stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of-type(3)
 subiektywnieofinansach.pl##.et_pb_cta_0.et_pb_text_align_center.et_pb_bg_layout_light.et_pb_module.et_pb_promos
 subiektywnieofinansach.pl##.et_pb_row_4.et_pb_row
@@ -1689,6 +1708,7 @@ tiptopol.pl#?#.footer__item:-abp-has(> div > #block-webform)
 tkmaxx.pl##.panels-flexible-region-1-newsletter_subscription
 tkom.pl###panelNEWS
 tme.eu##.c-newsletter
+todoandroid.es##.widget_newsletterwidget
 tokfm.pl##.container > ul > li:nth-of-type(3)
 tomi.pl##.ty-footer-menu .ty-mainbox-container
 tooway.pl##.contact3
@@ -1727,6 +1747,7 @@ tylkogrecja.com##.subscribe-email-wrapper
 u-jazdowski.pl###popup_banner > [href="/newsletter"]
 ubierzfona.pl##.medium--one-half.large--one-half.grid__item:nth-of-type(2)
 uchodzcy.info#?#.wpb_widgetised_column:-abp-has(.es_widget_form)
+uchwyt.pl###newsletterdiv
 ulicaekologiczna.pl###newsletter_wrap, .sidebar.columns.large-5.small-15
 um24.pl##.jsNewsletter
 undiz.com##.nsw-und-ft
