@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 16 Apr 2023, 21:42 UTC+02:00
-! Version: 2023.4.16.1
+! Last modified: Tue, 18 Apr 2023, 17:30 UTC+02:00
+! Version: 2023.4.18.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 16 kwi 2023, 21:42 UTC+02:00
+! Aktualizacja: wto, 18 kwi 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -129,7 +129,6 @@ antyweb.pl##header.header ~ div.wrapper > div[data-fetch-key*="PostProxy"] > div
 apis-sklep.pl##.cursor
 apkmirror.com###bottom-slider.apkm-timed-slider
 apkpure.com###ad-aegon-side
-aplikacje.onet.pl##.js-nav.hidden-sm.hidden-xs.dots-nav
 applemobile.pl##.cactus-post-suggestion > .post-suggestion-content
 apptoyou.pl##.column.flex.bubble-r-container.floating-group.CustomElement.bubble-element > .clickable-element.row.flex.bubble-r-container.Group.bubble-element
 aprmedia.pl##.et_bloom_header_outer
@@ -803,6 +802,7 @@ pl.gearbest.com##.siteBanner
 pl.hotels.com##.signin-signup-notification-container
 pl.msi.com###activity a[href="/redirect/app/MyMSI"]
 plastcom.pl###test
+plejada.pl##.articleDetail .afterDetailModules .pollType.quizAndPollModule
 plejada.pl#?#.logolink:-abp-has(> .arrow)
 plus.pl##.goToTop
 pneumat.com.pl###wrapper > .sideButtons-tagCont > .sideButtons-tagWhite
@@ -1064,6 +1064,7 @@ www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div[class] > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania)$/))
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
 www.onet.pl##div[class^="BackToMainPage_backToMainPage"]
+www.onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
 www.pekao.com.pl##body.loader::before, body.loader::after
 www.porta.com.pl##.side_home_slider_pl
 www.rp.pl###mk-paywall
