@@ -10,8 +10,8 @@ action.com##.is-locked body:style(position: static !important; overflow-y: scrol
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
 action.com,czytamyetykiety.pl,hejto.pl,newtech.com.pl,pl.tommy.com##body.overflow-hidden:style(overflow: auto !important)
 action.com,czytamyetykiety.pl,hejto.pl,newtech.com.pl,pl.tommy.com##html.overflow-hidden:style(overflow: auto !important)
-action.com,mulan.pl,pasmanteria.eu,shipgratis.eu,urwisydwa.sklep.pl,wetro.pl##body[style*="padding"]:style(padding-right: 0 !important)
 action.com,hejto.pl,pl.tommy.com##.ReactModal__Body--open:style(overflow: auto !important)
+action.com,mulan.pl,pasmanteria.eu,shipgratis.eu,urwisydwa.sklep.pl,wetro.pl##body[style*="padding"]:style(padding-right: 0 !important)
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important)
 agatabielen.com##.remodal-overlay
@@ -151,7 +151,6 @@ erecruiter.pl##.is-simple-popup.site-popup
 erecruiter.pl##body[style]:style(position: static !important; overflow: visible !important)
 erli.pl##body > div:not([id]):not([class]):has(div[click-tracking="pop-up 100 na start"])
 erli.pl##body[class]:style(overflow: auto !important)
-stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important)
 evertourist.com##.fancybox-overlay:has(#newsletterModal)
 extradom.pl###requestCallStart, #requestCallExit, .modal-backdrop
 farmer.pl###nowa_strona
@@ -396,6 +395,7 @@ spyshop.pl##+js(acis, $, #popUp)
 stacjaeksperta.pl##.no-scroll body:style(overflow: auto !important)
 stacjaeksperta.pl##.wph-modal, .wph-modal--mask
 stacjaeksperta.pl##html.no-scroll:style(overflow-y: auto !important)
+stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important)
 stradivarius.com###sidebar-component
 syngenta.pl###colorbox, #cboxOverlay
 syngenta.pl##body[style*="overflow:"]:style(overflow: visible !important)
