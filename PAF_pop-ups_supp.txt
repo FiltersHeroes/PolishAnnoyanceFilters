@@ -15,8 +15,8 @@ action.com##.is-locked body:style(position: static !important; overflow-y: scrol
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
 action.com,czytamyetykiety.pl,hejto.pl,newtech.com.pl,pl.tommy.com##body.overflow-hidden:style(overflow: auto !important)
 action.com,czytamyetykiety.pl,hejto.pl,newtech.com.pl,pl.tommy.com##html.overflow-hidden:style(overflow: auto !important)
-action.com,euro.com.pl,mulan.pl,oleole.pl,pasmanteria.eu,shipgratis.eu,urwisydwa.sklep.pl,wetro.pl##body[style*="padding"]:style(padding-right: 0 !important)
 action.com,hejto.pl,pl.tommy.com##.ReactModal__Body--open:style(overflow: auto !important)
+action.com,mulan.pl,pasmanteria.eu,shipgratis.eu,urwisydwa.sklep.pl,wetro.pl##body[style*="padding"]:style(padding-right: 0 !important)
 addnature.pl,bikester.pl##.cyc-dialog:has(.nlPopup)
 addnature.pl,bikester.pl##.no-overflow:style(overflow: auto !important)
 agatabielen.com##.remodal-overlay
@@ -168,9 +168,6 @@ erecruiter.pl##.is-simple-popup.site-popup
 erecruiter.pl##body[style]:style(position: static !important; overflow: visible !important)
 erli.pl##body > div:not([id]):not([class]):has(div[click-tracking="pop-up 100 na start"])
 erli.pl##body[class]:style(overflow: auto !important)
-euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper[class*="open"]:has(> .remodal span[class*="heading"]:has-text(/NEWSLETTER/i)))
-euro.com.pl,oleole.pl##.remodal-wrapper[class*="open"]:has(> .remodal span[class*="heading"]:has-text(/NEWSLETTER/i))
-euro.com.pl,stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important)
 evertourist.com##.fancybox-overlay:has(#newsletterModal)
 extradom.pl###requestCallStart, #requestCallExit, .modal-backdrop
 farmer.pl###nowa_strona
@@ -315,8 +312,6 @@ nowyrp.pl##html.remodal-is-locked:style(overflow: auto !important)
 oaza-palmy.pl##.fancybox-overlay:has(.modulesden-newsletter)
 obk.pl##.yith-opened:style(overflow: auto !important)
 obk.pl##.yith-popup, .yithpopup_overlay
-oleole.pl###main-page:style(overflow-x: visible !important)
-oleole.pl##html.remodal-is-locked:style(overflow-y: auto !important)
 onedaymore.pl###js-modal-info.modal-info, .modal-backdrop
 oneplus.com##.auto-subscribe-dialog, .auto-subscribe-tip
 oneplus.com##body.dialog-lock:style(position: unset !important)
@@ -444,6 +439,7 @@ stacjaeksperta.pl##.no-scroll body:style(overflow: auto !important)
 stacjaeksperta.pl##.wph-modal, .wph-modal--mask
 stacjaeksperta.pl##html.no-scroll:style(overflow-y: auto !important)
 stollar.pl###Advertise, .modal-backdrop
+stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important)
 stradivarius.com###sidebar-component
 stylowamoda.pl###pum-4908
 syngenta.pl###colorbox, #cboxOverlay
