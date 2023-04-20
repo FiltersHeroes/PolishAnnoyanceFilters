@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 20 Apr 2023, 14:31 UTC+02:00
-! Version: 2023.4.20.0
+! Last modified: Thu, 20 Apr 2023, 17:30 UTC+02:00
+! Version: 2023.4.20.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 20 kwi 2023, 14:31 UTC+02:00
+! Aktualizacja: czw, 20 kwi 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4657,7 +4657,7 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 3giga.pl###contact-slider
-3i-store.com,agrotechnika.co,cyberrescue.info,dronexpert.eu,emedyczny.com,mam-fach.info,zrobtosam24.eu##.fb_reset
+3i-store.com,agrotechnika.co,cyberrescue.info,dronexpert.eu,emedyczny.com,mam-fach.info,praisethewear.com,zrobtosam24.eu##.fb_reset
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
@@ -4780,8 +4780,8 @@ catawiki.pl##.registration-slide-in
 catom.pl,cebit.pl,verakom.pl##.fab-wrapper
 ccc.eu##.is-chatColumn-title
 cdp.pl###customTrustbadge
+cebit.pl,conet.pl,hotelcenturia.pl,neopak.pl,nsix.pl###cc-button-iframe, #czatercall-teaser
 cebit.pl,guzik.konin.pl##.fab
-cebit.pl,nsix.pl###czatercall-teaser, #cc-button-iframe
 ceneo.pl###recent-activity-toast
 centermed.pl,winotoskanii.pl##div[id^="gb-widget"][style*="position"][style*="fixed"]
 centrumpapieru.pl###ls-button-container
@@ -4967,7 +4967,6 @@ hebe.pl##.embeddedServiceHelpButton
 helios.pl##.openSuggestionFormButton
 hes.pl##.indywidual-offer
 hostovita.pl##.ts-contact-livechat-info
-hotelcenturia.pl###cc-button-iframe, #czatercall-teaser
 housemafia.pl###sbholder
 hpe.com###MoxieFlyoutHolder
 hurt.com.pl,seltrade.pl##.contactFormLink
@@ -5175,7 +5174,6 @@ powerflex.pl##.bkt--qfc_button
 ppr.pl##.btn-report
 pracatobie.pl###ankieta1
 pracuj.pl###shareOpinionSticker
-praisethewear.com##.fb_reset
 prawo-jazdy-360.pl###help-panel
 pro-mask.pl###telefon
 profbud.info##.bocznemenu > a.socialicoplus
