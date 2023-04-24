@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Wed, 05 Apr 2023, 20:51 UTC+02:00
-! Version: 2023.4.5.2
+! Last modified: Mon, 24 Apr 2023, 21:30 UTC+02:00
+! Version: 2023.4.24.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 05 kwi 2023, 20:51 UTC+02:00
+! Aktualizacja: pon, 24 kwi 2023, 21:30 UTC+02:00
 !
 !
 !
@@ -60,6 +60,7 @@ allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
 autocentrum.pl##.web-push-box
+best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div:nth-last-of-type(-n+3):nth-last-child(-n+3) > div:nth-child(1):-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
 bnpparibas.pl,eneba.com,estyl.pl,semahead.pl###ue_push_dialog
 boardpc.pl,forum.dobreprogramy.pl,forum.manjaro.pl,hub.filterlists.com##.alert-info.alert.consent_banner
 boop.pl###smart_push_smio_window
@@ -87,7 +88,6 @@ ogrodosfera.pl##.bell-container
 onet.pl##.notificationPrompt
 pilot.wp.pl##.notification-container
 pl,typeofweb.com###onesignal-popover-dialog
-pl.aliexpress.com#?#body div ~ script ~ div:nth-last-of-type(2):nth-last-child(3) > div:nth-child(1):-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
 pl.oriflame.com,prawo.vulcan.edu.pl###bhr-iframe-consent-form
 pl.oriflame.com,prawo.vulcan.edu.pl##.bhr-web-push-consent-form
 pl.waterdrop.com##.pushowl-widget-node
