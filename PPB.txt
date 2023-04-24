@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 24 Apr 2023, 19:22 UTC+02:00
-! Version: 2023.4.24.0
+! Last modified: Mon, 24 Apr 2023, 21:30 UTC+02:00
+! Version: 2023.4.24.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 24 kwi 2023, 19:22 UTC+02:00
+! Aktualizacja: pon, 24 kwi 2023, 21:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3325,6 +3325,7 @@ allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
 autocentrum.pl##.web-push-box
+best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div:nth-last-of-type(-n+3):nth-last-child(-n+3) > div:nth-child(1):-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
 bnpparibas.pl,eneba.com,estyl.pl,semahead.pl###ue_push_dialog
 boardpc.pl,forum.dobreprogramy.pl,forum.manjaro.pl,hub.filterlists.com##.alert-info.alert.consent_banner
 boop.pl###smart_push_smio_window
@@ -3352,7 +3353,6 @@ ogrodosfera.pl##.bell-container
 onet.pl##.notificationPrompt
 pilot.wp.pl##.notification-container
 pl,typeofweb.com###onesignal-popover-dialog
-pl.aliexpress.com#?#body div ~ script ~ div:nth-last-of-type(2):nth-last-child(3) > div:nth-child(1):-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
 pl.oriflame.com,prawo.vulcan.edu.pl###bhr-iframe-consent-form
 pl.oriflame.com,prawo.vulcan.edu.pl##.bhr-web-push-consent-form
 pl.waterdrop.com##.pushowl-widget-node
