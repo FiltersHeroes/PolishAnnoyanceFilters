@@ -1,5 +1,7 @@
 // Collection of userscripts to be used for scriptlet injection on domains.
 
+'use strict';
+
 /// grant-fake-notification.js
 /// alias gfn.js
 // example.com##+js(gfn)
