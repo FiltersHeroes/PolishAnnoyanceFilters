@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 20 Apr 2023, 17:30 UTC+02:00
-! Version: 2023.4.20.1
+! Last modified: Wed, 26 Apr 2023, 02:31 UTC+02:00
+! Version: 2023.4.26.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 20 kwi 2023, 17:30 UTC+02:00
+! Aktualizacja: śro, 26 kwi 2023, 02:31 UTC+02:00
 !
 !
 !
@@ -465,6 +465,8 @@ lenovo.com,~www.lenovo.com###confirmit-feedback
 lento.pl##.btn-suggest
 libertex.com###sherlockWidget
 lidl.pl##.feedback-flyout__button-box
+lidl.pl##button[aria-label="socialMediaBtn"][data-url*="m.me"]
+lidl.pl##span[id^="regionSocialMedia-"].label
 lighting.philips.pl##aside[class$="support-contact-details"]
 lightingcenter.pl,mniammniam.com,pimpmymask.pl,sklephonda.pl###o-widget-lws
 lightonline.pl###fixedBtn > .savBtn
