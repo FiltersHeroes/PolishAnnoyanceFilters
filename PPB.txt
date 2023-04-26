@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 26 Apr 2023, 02:31 UTC+02:00
-! Version: 2023.4.26.0
+! Last modified: Wed, 26 Apr 2023, 21:30 UTC+02:00
+! Version: 2023.4.26.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 26 kwi 2023, 02:31 UTC+02:00
+! Aktualizacja: śro, 26 kwi 2023, 21:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2320,8 +2320,8 @@ audioforte.com.pl##.christmas-popup
 audiomed.com.pl###popuphere
 audycje.tokfm.pl###gp--popup
 auto-swiat.pl##.natPopup
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.exitBox
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,przegladsportowy.pl,vod.pl##.pushPlatform
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,vod.pl##.exitBox
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl,vod.pl##.pushPlatform
 auto-swiat.pl,gymeltoro.pl,manorhouse.pl,meblejedrus.eu,pinio.com.pl,sklep.fanex.pl,sklep.krosno.com.pl,tpi.com.pl,wystroj-okien.pl,zabka.pl##.popup
 autokult.pl,fitness.wp.pl,fotoblogia.pl,medycyna24.pl,smaczneblogi.pl###exit-intent-modal
 automotiveceeday.eu,pracodawcagodnyzaufania.pl###rstbox_3
@@ -3303,7 +3303,7 @@ pl##body:not(.x13popup-open) #x13popup-cover
 ||gstatic.com/firebasejs/*/firebase-app.js$script,domain=parkiet.com
 ||konin24.info/tmpl/js/push.min.js
 ||mojeppk.pl/*/push-notifications/*firebase-config.json$xmlhttprequest,domain=mojeppk.pl
-||ocdn.eu/ucs/static/*/build/js/pushModule.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|przegladsportowy.pl|vod.pl
+||ocdn.eu/ucs/static/*/build/js/pushModule.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|vod.pl
 ||onet.pl/push-mob-service-worker*.js$script,domain=onet.pl
 ||onet.pl/push-service-worker*.js$script,domain=onet.pl
 ||push.domodi.pl/pushweb/assets/init.js
@@ -3415,7 +3415,7 @@ pl###pushwoosh-subscription-widget-root
 35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
 agrii.pl###panel
 antyweb.pl##.post-header__video.v-wrapper
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl##.player-floating, .player-move-up
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl##.player-floating, .player-move-up
 bankier.pl,bryla.pl,czterykaty.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,medianarodowe.com,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to,zeberka.pl###onNetworkContainer .miniature [style*="fixed"], .o-video-box__player .miniature [style*="fixed"]
 bankier.pl,bryla.pl,czterykaty.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,medianarodowe.com,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to,zeberka.pl##div[id*="ONNP"].miniature div[id*="ONNP"][style*="fixed"]
 beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##.vjs-minimized .video-js
@@ -5460,8 +5460,8 @@ pl##.quickcontact-box
 ||jugrol.pl/wp-content/uploads/20*/0*/olx-ikona-na-www.jpg$image
 ||kariera.infopraca.pl/wp-content/themes/cv-tools/img/pracanaemail.jpg
 ||niezbednik.mediraty.pl/img/widget_duzy_button_1.png
-||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
-||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
+||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
+||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
 ||opera.com/en/downloadassets/sticky-bar-auto$subdocument
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
@@ -5577,14 +5577,14 @@ augustow24.pl##.menu_oglo, .sonda
 auto-mobil.pl###metka-promocje
 auto-motor-i-sport.pl##.genewa-roll
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl###pdr
-auto-swiat.pl,businessinsider.com.pl,cdn.ampproject.org,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##html[amp-version] .barLink
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,nk.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##.backToOnet
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl#?#[class*="Body"] li:-abp-has(a[href*="utm_campaign=back_to_onet_bullet"])
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###backToOnet
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###content-share-top > .BackToMainPage, .backToOnetBottomBar
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##a[class^="backToOnet__"]
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl#?#ul li:last-child:-abp-has(a[href$="onet.pl/"], a[href$="onet.pl"])
-auto-swiat.pl,forbes.pl,komputerswiat.pl,newsweek.pl,przegladsportowy.pl##.bottomBar
+auto-swiat.pl,businessinsider.com.pl,cdn.ampproject.org,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl##html[amp-version] .barLink
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,nk.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl##.backToOnet
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl###backToOnet
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl###content-share-top > .BackToMainPage, .backToOnetBottomBar
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#[class*="Body"] li:-abp-has(a[href*="utm_campaign=back_to_onet_bullet"])
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#ul li:last-child:-abp-has(a[href$="onet.pl/"], a[href$="onet.pl"], a[href*="src=back_to_sg_bullet"])
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,~www.onet.pl##a[class^="backToOnet__"]
+auto-swiat.pl,forbes.pl,komputerswiat.pl,newsweek.pl##.bottomBar
 autokult.pl,fotoblogia.pl##.btn-comments
 avans.pl##.is-complaintReport.c-btn
 avans.pl##.is-stickyActive1558948916896.is-stickyWrapper
@@ -6625,7 +6625,7 @@ audio.com.pl,ekobudowanie.pl##.newspaper
 auto-motor-i-sport.pl##.new-hitbox-extra.part-1-4.item
 auto-motor-i-sport.pl##.visible-lg.visible-md.visible-sm.hidden-xs.footer-bar
 auto-swiat.pl##aside[class*="float"].promoFrame
-auto-swiat.pl,fakt.pl,forbes.pl,komputerswiat.pl,newsweek.pl,przegladsportowy.pl##.ebookBottomBar
+auto-swiat.pl,fakt.pl,forbes.pl,komputerswiat.pl,newsweek.pl##.ebookBottomBar
 autoexpert.pl###carousel-whitepapers
 autoexpert.pl##.d-lg-block.d-none.magazine
 autoexpert.pl##.d-lg-flex.d-none.grey-box.row
