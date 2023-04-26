@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 25 Apr 2023, 00:09 UTC+02:00
-! Version: 2023.4.25.0
+! Last modified: Wed, 26 Apr 2023, 21:30 UTC+02:00
+! Version: 2023.4.26.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 25 kwi 2023, 00:09 UTC+02:00
+! Aktualizacja: śro, 26 kwi 2023, 21:30 UTC+02:00
 !
 !
 !
@@ -40,8 +40,8 @@
 ||jugrol.pl/wp-content/uploads/20*/0*/olx-ikona-na-www.jpg$image
 ||kariera.infopraca.pl/wp-content/themes/cv-tools/img/pracanaemail.jpg
 ||niezbednik.mediraty.pl/img/widget_duzy_button_1.png
-||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
-||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl|przegladsportowy.pl
+||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
+||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
 ||opera.com/en/downloadassets/sticky-bar-auto$subdocument
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
@@ -157,14 +157,14 @@ augustow24.pl##.menu_oglo, .sonda
 auto-mobil.pl###metka-promocje
 auto-motor-i-sport.pl##.genewa-roll
 auto-motor-i-sport.pl,menshealth.pl,motocykl-online.pl,runners-world.pl,womenshealth.pl###pdr
-auto-swiat.pl,businessinsider.com.pl,cdn.ampproject.org,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##html[amp-version] .barLink
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,nk.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##.backToOnet
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl#?#[class*="Body"] li:-abp-has(a[href*="utm_campaign=back_to_onet_bullet"])
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###backToOnet
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl###content-share-top > .BackToMainPage, .backToOnetBottomBar
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl##a[class^="backToOnet__"]
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,przegladsportowy.pl,~www.onet.pl#?#ul li:last-child:-abp-has(a[href$="onet.pl/"], a[href$="onet.pl"])
-auto-swiat.pl,forbes.pl,komputerswiat.pl,newsweek.pl,przegladsportowy.pl##.bottomBar
+auto-swiat.pl,businessinsider.com.pl,cdn.ampproject.org,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl##html[amp-version] .barLink
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,nk.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl##.backToOnet
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl###backToOnet
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl###content-share-top > .BackToMainPage, .backToOnetBottomBar
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#[class*="Body"] li:-abp-has(a[href*="utm_campaign=back_to_onet_bullet"])
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#ul li:last-child:-abp-has(a[href$="onet.pl/"], a[href$="onet.pl"], a[href*="src=back_to_sg_bullet"])
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,~www.onet.pl##a[class^="backToOnet__"]
+auto-swiat.pl,forbes.pl,komputerswiat.pl,newsweek.pl##.bottomBar
 autokult.pl,fotoblogia.pl##.btn-comments
 avans.pl##.is-complaintReport.c-btn
 avans.pl##.is-stickyActive1558948916896.is-stickyWrapper
