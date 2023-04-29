@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 29 Apr 2023, 21:30 UTC+02:00
-! Version: 2023.4.29.0
+! Last modified: Sat, 29 Apr 2023, 22:31 UTC+02:00
+! Version: 2023.4.29.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 29 kwi 2023, 21:30 UTC+02:00
+! Aktualizacja: sob, 29 kwi 2023, 22:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2955,6 +2955,7 @@ pomady.pl##.newsletter-modal, .modal-backdrop
 pomiar24.pl###przyciemnianie, #div_news-popup
 poprostupycha.com.pl##.ulp-overlay, .ulp-window[data-title="Newsletter"]
 poradnikogrodniczy.pl#?##colorbox:-abp-has(#newsletter_3_day)
+porta.com.pl#?##bhr-items .bhr-popup-advanced:-abp-has(iframe[src*="salesmanago.pl/"])
 portel.pl###closeTL
 poscielone.pl###tk_popup
 powerjobs.pl##.newsletter-mailchimp-modal
