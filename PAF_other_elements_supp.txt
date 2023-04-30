@@ -4,6 +4,8 @@
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=~pinger.pl|pl
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
+!www.youtube.com##html > head ~ body[class=""] ytd-rich-grid-row > #contents, ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important)
+!www.youtube.com##html > head ~ body[class=""] ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -139,8 +141,6 @@ wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:s
 wandermap.net###sidebar[style]:style(max-width: 390px)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important)
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important)
-www.youtube.com##html > head:has(> link[rel="canonical"][href="https://www.youtube.com/"]) ~ body #ytd-rich-grid-row > #contents, ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important)
-www.youtube.com##html > head:has(> link[rel="canonical"][href="https://www.youtube.com/"]) ~ body #ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important)
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
