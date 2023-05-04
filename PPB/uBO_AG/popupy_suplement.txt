@@ -1,5 +1,4 @@
 99rent.pl##.invpopup
-swederm.com###welcome-screen.welcome-screen
 99rent.pl##body.invpop-visible:style(overflow: visible !important)
 abcsurf.pl,agroarm.pl,akcesoriabaristy.pl,allepaznokcie.pl,arapaima.eu,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,greckikiosk.pl,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,makarfish.pl,mencare.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sklep.mmagro.pl,sport2002.pl,sushi-sklep.pl##.mask + .modal
 abcsurf.pl,agroarm.pl,akcesoriabaristy.pl,allepaznokcie.pl,arapaima.eu,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,elektro-outlet.net,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,greckikiosk.pl,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,makarfish.pl,mencare.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sklep.mmagro.pl,sport2002.pl,sushi-sklep.pl##.mask:has(+ .modal)
@@ -103,7 +102,6 @@ brw.com.pl###yl-popup-shadow-popup, #yl-popup-wrapper-popup
 brw.com.pl##.js:style(overflow-y: visible !important)
 bryk.pl###last-chance-modal, .modal-backdrop
 cantino.pl,distance.pl,dpm.eu,ef.pl,moraj.pl,piernikowysklep.pl,pl.weber,sklephonda.pl,trenerangielskiego.com,zakoplan.pl,zaradnyfinansowo.pl,zryjzdrowocatering.com,zyciepabianic.pl##html[style]:style(overflow-y: auto !important; margin-right: 0 !important)
-swederm.com##html[style]:style(overflow-y: auto !important)
 carrefour.pl##body[style]:style(overflow: auto !important; padding-right: 0 !important)
 carrefour.pl##div[class*="jss"][role="dialog"]:has(> div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
 cateromarket.pl##.show-newsletter-popup:style(overflow: auto !important)
@@ -185,7 +183,7 @@ ideaart.com.pl##.remodal-wrapper, .remodal-overlay
 ideau.pl##.pum[data-popmake*="nowy-produkt"], .overlay
 idream.pl###modal-getresponse, .modal-backdrop
 ifirma.pl###reklama-overlay
-ifirma.pl##html[style]:style(overflow-y: auto !important)
+ifirma.pl,swederm.com##html[style]:style(overflow-y: auto !important)
 insert.com.pl##+js(aeld, DOMMouseScroll, preventDefault)
 instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
@@ -403,6 +401,7 @@ stacjaeksperta.pl##.wph-modal, .wph-modal--mask
 stacjaeksperta.pl##html.no-scroll:style(overflow-y: auto !important)
 stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important)
 stradivarius.com###sidebar-component
+swederm.com###welcome-screen.welcome-screen
 syngenta.pl###colorbox, #cboxOverlay
 syngenta.pl##body[style*="overflow:"]:style(overflow: visible !important)
 teatr-sabat.pl##.bootbox
