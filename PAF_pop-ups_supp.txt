@@ -205,7 +205,7 @@ ideaart.com.pl##.remodal-wrapper, .remodal-overlay
 ideau.pl##.pum[data-popmake*="nowy-produkt"], .overlay
 idream.pl###modal-getresponse, .modal-backdrop
 ifirma.pl###reklama-overlay
-ifirma.pl##html[style]:style(overflow-y: auto !important)
+ifirma.pl,swederm.com##html[style]:style(overflow-y: auto !important)
 insert.com.pl##+js(aeld, DOMMouseScroll, preventDefault)
 instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
@@ -446,6 +446,7 @@ stollar.pl###Advertise, .modal-backdrop
 stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important)
 stradivarius.com###sidebar-component
 stylowamoda.pl###pum-4908
+swederm.com###welcome-screen.welcome-screen
 syngenta.pl###colorbox, #cboxOverlay
 syngenta.pl##body[style*="overflow:"]:style(overflow: visible !important)
 teatr-sabat.pl##.bootbox
