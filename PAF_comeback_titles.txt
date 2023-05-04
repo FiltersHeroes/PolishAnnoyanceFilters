@@ -2,8 +2,8 @@
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Mon, 13 Mar 2023, 16:30 UTC+01:00
-! Version: 2023.3.13.0
+! Last modified: Thu, 04 May 2023, 21:30 UTC+02:00
+! Version: 2023.5.4.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 13 mar 2023, 16:30 UTC+01:00
+! Aktualizacja: czw, 04 maj 2023, 21:30 UTC+02:00
 !
 !
 /wp-content/plugins/change-browser-tab-title-when-tab-is-not-active/public/js/browser-tab-title-reminder-public.js$script,domain=pl
@@ -38,6 +38,7 @@ sestimi.pl##+js(aeld, blur, document.title = message)
 sklep.solier.pl##+js(acis, $, Wróć do nas)
 sklepbaterie.pl##+js(nosiif, lastTitle, 2500)
 taniaksiazka.pl##+js(set, BLUR_TITLE, '')
+wittchen.com##+js(nosiif, changeTitle(), 1000)
 www.pkobp.pl##+js(aeld, blur, blurTitle)
 !
 !
