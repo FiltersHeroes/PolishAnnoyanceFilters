@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 05 May 2023, 17:30 UTC+02:00
-! Version: 2023.5.5.1
+! Last modified: Sat, 06 May 2023, 17:30 UTC+02:00
+! Version: 2023.5.6.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 05 maj 2023, 17:30 UTC+02:00
+! Aktualizacja: sob, 06 maj 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6397,6 +6397,8 @@ tatryski.pl##.sidebuttons
 tb-polska.pl##.customtab-lewa > ul > li:nth-of-type(4)
 tcz.pl###pop-art-popup
 teamquest.pl##div.article__similar.article__blog__right.row:nth-of-type(1), .article__body > section > .joborders, .swim__frame
+tech2u.pl##.active.jeg_popup_post
+techno-senior.com##.active.subscribe-button-1.subscribe-wrap.slide-in-1.tipi-xs-0.tipi-tile.slide-in-box
 technologiczna.pl##.td-main-sidebar
 techpedia.pl##.border_header2
 telekarma.pl###flyCart
@@ -6434,12 +6436,6 @@ univ.rzeszow.pl,ur.edu.pl###interreg, #radio-feniks, #wspolpraca-miedzynarodowa
 ur.edu.pl###interreg2
 ur.edu.pl###komunikaty-alergicy
 urbancity.pl###helpBox
-userstyles.org#?##top_android_button:-abp-has(.robot_android)
-userstyles.org#?#.android_button_banner:-abp-has(img[src="/ui/images/icons/x_button_big.svg"])
-userstyles.org#?#.android_button_button:-abp-has(.x_button)
-userstyles.org#?#.flags:-abp-has(.close_button)
-userstyles.org#?#.walking:-abp-has(.x_button)
-userstyles.org#?#div.us-stylecard--short:-abp-has(> .fallbackDiv > .fallbackImg[src="/ui/images/280x294.png"])
 uzdrowisko-wieniec.pl##.sfl-widget--ribbon, .hidden-xs
 vibez.pl##a[class][title*=" "]:not([href]) > svg[aria-labelledby="drop down arrow"]
 vice.com##.up-next
