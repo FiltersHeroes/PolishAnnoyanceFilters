@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 06 May 2023, 17:30 UTC+02:00
-! Version: 2023.5.6.0
+! Last modified: Sun, 07 May 2023, 15:58 UTC+02:00
+! Version: 2023.5.7.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 06 maj 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 07 maj 2023, 15:58 UTC+02:00
 !
 !
 !
@@ -74,7 +74,7 @@
 24legnica.pl,agrofoto.pl,dziennikzbrojny.pl,engineer.decorexpro.com,goldenline.pl,life4style.pl,motospace.pl,opoczno.info,wymarzonyogrod.pl,zapytaj.onet.pl###slidebox
 24opony.pl##.alupin, .alupin2, .pasekIn
 50style.pl###help-arrow
-123budujemy.pl,francuskie.pl,mediarun.com,motoklub.pl,petronews.pl,skandynawiainfo.pl,slaskczyta.pl##.jeg_popup_post
+123budujemy.pl,francuskie.pl,mediarun.com,motoklub.pl,petronews.pl,skandynawiainfo.pl,slaskczyta.pl,tech2u.pl##.jeg_popup_post
 51015kids.eu##.sp-custom-19-1.insBlueWidget
 a-manada.pl,aptekamanada.pl,manada.pl##.banner-link
 aaaauto.pl##.noprint.careerLink
@@ -167,7 +167,7 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.
 auto-swiat.pl,forbes.pl,komputerswiat.pl,newsweek.pl##.bottomBar
 autokult.pl,fotoblogia.pl##.btn-comments
 avans.pl##.is-complaintReport.c-btn
-avans.pl##.is-stickyActive1558948916896.is-stickyWrapper
+avans.pl##.is-stickyWrapper[class*="is-stickyActive"]
 awa24.pl###delivery-info-drawer
 b365.pl###panel-pro
 babyboom.net.pl##.hide-on-mobile.tm-lemur-container
@@ -260,7 +260,7 @@ creativecommons.org###deed-donate-slide
 credstepfunds.pl##.page_loader
 crmodus.pl##.kac-sm-zl
 crolove.pl###see-more-box
-cybersport.pl##.is-active.pbox
+cybersport.pl##.pbox
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
 czestochowa.pl###left_bookmarks > a[href$="dodaj-do-ulubionych.html"]
@@ -973,8 +973,7 @@ tatryski.pl##.sidebuttons
 tb-polska.pl##.customtab-lewa > ul > li:nth-of-type(4)
 tcz.pl###pop-art-popup
 teamquest.pl##div.article__similar.article__blog__right.row:nth-of-type(1), .article__body > section > .joborders, .swim__frame
-tech2u.pl##.active.jeg_popup_post
-techno-senior.com##.active.subscribe-button-1.subscribe-wrap.slide-in-1.tipi-xs-0.tipi-tile.slide-in-box
+techno-senior.com##.subscribe-button-1.subscribe-wrap.slide-in-box
 technologiczna.pl##.td-main-sidebar
 techpedia.pl##.border_header2
 telekarma.pl###flyCart
