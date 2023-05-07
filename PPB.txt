@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 07 May 2023, 14:35 UTC+02:00
-! Version: 2023.5.7.1
+! Last modified: Sun, 07 May 2023, 15:58 UTC+02:00
+! Version: 2023.5.7.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 07 maj 2023, 14:35 UTC+02:00
+! Aktualizacja: nie, 07 maj 2023, 15:58 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2107,6 +2107,7 @@ pl,~znak.com.pl##.newsletter-container
 /js/jquery/plugins/fancybox/jquery.fancybox.js$domain=grawerton.pl|virgobooks.pl
 /js/popup.js$domain=grawitacyjny.pl|meblohaus.pl|mediaexpert.pl|multikurs.pl|slimebox.pl
 /media/system/js/modal.js$domain=gminamoszczenica.eu|nowawrzesnia.pl|perfectdating.pl
+/OneSignalSDKWorker.js$third-party,domain=tech2u.pl
 /plugins/easy-facebook-likebox/*$domain=tvkrosno.pl
 /sound/open.mp3$media,object,domain=info-przetargi.pl
 /wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
@@ -3506,7 +3507,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 50style.pl,agatameble.pl,e-timberland.pl,galeriamarek.pl,sklep.sizeer.com,vobis.pl###js-scrollTop
 51.75.43.155,aforyzmy-cytaty.pl###topBtn
 80dni.pl###backtotop_wpv
-123budujemy.pl,aptekarzpolski.pl,brandsit.pl,crast.net,eurowizja.org,francuskie.pl,inwestycje.pl,mediarun.com,motoklub.pl,petronews.pl,radio.lublin.pl,skandynawiainfo.pl,slaskczyta.pl,tech2u.pl,wikilistka.pl##.jscroll-to-top
+123budujemy.pl,aptekarzpolski.pl,brandsit.pl,crast.net,eurowizja.org,francuskie.pl,inwestycje.pl,mediarun.com,motoklub.pl,petronews.pl,radio.lublin.pl,radiokielce.pl,skandynawiainfo.pl,slaskczyta.pl,tech2u.pl,wikilistka.pl##.jscroll-to-top
 51015kids.eu##.js--scroll-to-top
 a1komputery.pl,e-infonet.pl,fundacjadominikana.org,wp-piast.pl,wspkorczak.eu##.sp-totop
 aaparatysluchowe.com,cukiernia-danuta.pl,stalremdrzwi.pl,swiatbaterii.pl,thebat.com.pl##.right.czr-btta.czr-btt.btn
@@ -4189,7 +4190,7 @@ pjspol.com###eltdf-back-to-top
 pkobp.pl,pkopte.pl,pkotfi.pl###scrollie
 pkw.gov.pl##.to_up
 pl.akyga.com###jumpUpBtn
-pl.ccm.net###jGoTop > [href]
+pl.ccm.net###jGoTop
 pl.chili.com###returnTop
 pl.depositphotos.com##.top-button-wrapper
 pl.hisense.com###pageNavCorner_top
@@ -4242,7 +4243,6 @@ rabanet.pl##.infinite-footer-back-to-top-button
 radelko.pl##.widget-go-up#widgetGoUp
 radio.katowice.pl,rybyakwariowe.eu###c-go-top.c-go-top
 radiohit.net.pl###teg-scrollup
-radiokielce.pl##.show.jscroll-to-top
 radiomaryja.pl##.avia-post-nav
 radiopik.pl##.scrollsoft
 radioszczecin.pl###backsite
@@ -4329,7 +4329,7 @@ tanio.co,vangraaf.com##.scroll-up-button
 tasmuj.pl##.sm-goTop
 tatuum.com##a.third-tkd-btn[href*="#"]
 tchibo.pl##.js-tp-backtotop
-tcl.com##.show.scroll-fab
+tcl.com##.scroll-fab
 teamviewer.com###back_to_top_button
 teksty.ovh##.toTop-show
 telepolis.pl,tlp.is##.footer-top
@@ -4433,7 +4433,7 @@ zalando.pl##.backToTopButton
 zalecane.pl##.g1-teaser
 zaufane-apteki.pl###btn-scroll-top
 zbudujforme.com.pl##.cmsmasters_theme_icon_slide_top
-zdrowie.pap.pl##.show.m13
+zdrowie.pap.pl##.m13
 zdrowie.pap.pl#?#section ~ div:-abp-has(> svg[title="Do góry"])
 ziemkiewicz.info##.back-to-start
 znamlek.pl##.btnScroll
@@ -5497,7 +5497,7 @@ pl##.quickcontact-box
 24legnica.pl,agrofoto.pl,dziennikzbrojny.pl,engineer.decorexpro.com,goldenline.pl,life4style.pl,motospace.pl,opoczno.info,wymarzonyogrod.pl,zapytaj.onet.pl###slidebox
 24opony.pl##.alupin, .alupin2, .pasekIn
 50style.pl###help-arrow
-123budujemy.pl,francuskie.pl,mediarun.com,motoklub.pl,petronews.pl,skandynawiainfo.pl,slaskczyta.pl##.jeg_popup_post
+123budujemy.pl,francuskie.pl,mediarun.com,motoklub.pl,petronews.pl,skandynawiainfo.pl,slaskczyta.pl,tech2u.pl##.jeg_popup_post
 51015kids.eu##.sp-custom-19-1.insBlueWidget
 a-manada.pl,aptekamanada.pl,manada.pl##.banner-link
 aaaauto.pl##.noprint.careerLink
@@ -5590,7 +5590,7 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.
 auto-swiat.pl,forbes.pl,komputerswiat.pl,newsweek.pl##.bottomBar
 autokult.pl,fotoblogia.pl##.btn-comments
 avans.pl##.is-complaintReport.c-btn
-avans.pl##.is-stickyActive1558948916896.is-stickyWrapper
+avans.pl##.is-stickyWrapper[class*="is-stickyActive"]
 awa24.pl###delivery-info-drawer
 b365.pl###panel-pro
 babyboom.net.pl##.hide-on-mobile.tm-lemur-container
@@ -5683,7 +5683,7 @@ creativecommons.org###deed-donate-slide
 credstepfunds.pl##.page_loader
 crmodus.pl##.kac-sm-zl
 crolove.pl###see-more-box
-cybersport.pl##.is-active.pbox
+cybersport.pl##.pbox
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
 czestochowa.pl###left_bookmarks > a[href$="dodaj-do-ulubionych.html"]
@@ -6396,8 +6396,7 @@ tatryski.pl##.sidebuttons
 tb-polska.pl##.customtab-lewa > ul > li:nth-of-type(4)
 tcz.pl###pop-art-popup
 teamquest.pl##div.article__similar.article__blog__right.row:nth-of-type(1), .article__body > section > .joborders, .swim__frame
-tech2u.pl##.active.jeg_popup_post
-techno-senior.com##.active.subscribe-button-1.subscribe-wrap.slide-in-1.tipi-xs-0.tipi-tile.slide-in-box
+techno-senior.com##.subscribe-button-1.subscribe-wrap.slide-in-box
 technologiczna.pl##.td-main-sidebar
 techpedia.pl##.border_header2
 telekarma.pl###flyCart
