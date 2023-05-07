@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 06 May 2023, 17:30 UTC+02:00
-! Version: 2023.5.6.0
+! Last modified: Sun, 07 May 2023, 14:31 UTC+02:00
+! Version: 2023.5.7.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 06 maj 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 07 maj 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1187,6 +1187,7 @@ o.pl###email-bar, #nl-icon, #cs-newsletter
 oaza-palmy.pl##.gm-freshmailFooter-modify
 obi.pl##.disc-footer > section:first-child > * > * > *
 obi.pl##.nl-sign
+obserwatorlogistyczny.pl###custom_html-2
 obuwiered.pl#?#.elementor-section section.elementor-section:-abp-has(.bdt-newsletter-wrapper)
 obywatele.news##.secondary-color
 obzarciuch.pl###HTML6
@@ -2466,6 +2467,7 @@ devoxx.pl##.subscribers-modal-container
 dietbox.pl##[id^="overlay"][style]
 dietbox.pl##[id^="popup"].cbt_popup
 digitalcamerapolska.pl,fotopolis.pl##.big-popup-wrap
+dingo-shop.com.pl##.wce_popup-consolidator
 dipol.com.pl###g-modal-pos, #g-overlay-wrap
 diversesystem.com###dvrs-newsletter-popup-body
 diversesystem.com###newsletter-popup-overlay
@@ -2681,7 +2683,7 @@ knowband.com###fancybox_ns-wrap, #fancybox_ns-overlay, .knowband-popup.kb_lightB
 kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 kobietyipodryw.pl##.cd-popup
 kodano.pl###cboxOverlay, .bg_orange_popup, .i-am-new
-kokonki.pl,roboexpert.pl,sklep.swiatlnu.pl##.wce_popup-active
+kokonki.pl,roboexpert.pl,sklep.swiatlnu.pl##.wce_popup-consolidator
 kolejedolnoslaskie.pl##.ays-pb-modals
 kolniak24.eu##.topLayer
 kolobrzeg.pl###dailyfullscreen
@@ -4332,6 +4334,7 @@ tatuum.com##a.third-tkd-btn[href*="#"]
 tchibo.pl##.js-tp-backtotop
 tcl.com##.show.scroll-fab
 teamviewer.com###back_to_top_button
+tech2u.pl##.jscroll-to-top
 teksty.ovh##.toTop-show
 telepolis.pl,tlp.is##.footer-top
 teletorium.pl###gototopBtn
