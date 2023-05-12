@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 12 May 2023, 02:31 UTC+02:00
-! Version: 2023.5.12.0
+! Last modified: Fri, 12 May 2023, 14:31 UTC+02:00
+! Version: 2023.5.12.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 12 maj 2023, 02:31 UTC+02:00
+! Aktualizacja: pią, 12 maj 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5534,7 +5534,7 @@ agrieko.pl,aura-centrumogrodnicze.pl,conner.pl,lidia.pl##.allegro
 agro-rolnik.pl##[href="https://www.olx.pl/oferty/uzytkownik/1MY2N/"]
 agroalex.pl,dlaroslin.pl,shopsisters.eu##.hotinfo_top
 agrohandler.pl##.storderpopup
-agroma-poznan.pl##[src="images/panel/olx_title1.png"]
+agroma-poznan.pl###panel2, #panel13, #panel14
 agrospec.pl##.configMessages__footer.configMessages
 ahe.lodz.pl###wysuwane7, #wysuwane2
 airly.eu##.app__map-container > .map-container > .map-container__onet
@@ -5637,7 +5637,9 @@ bilbordy.info,unitrailer.pl###tab
 biomak.eu###leaselinkSlideButton1
 bithub.pl##.st-comment
 bitland-b2c.platforma.ab.pl###rightBoxes
+biuroprasowe.play.pl##.floating-icon
 biurorekordow.pl##.post_navigation-item
+biurowe-zakupy.pl###BoczneZakladki
 biznes2biznes.com###zakladki > div:nth-child(-n+4)
 biznes2biznes.com###zakladki > div:nth-of-type(6)
 biznes2biznes.com##[src="img/1px.gif"]
@@ -5677,10 +5679,11 @@ cdaction.pl,pcformat.pl,poboczem.pl,pomponik.pl,smaker.pl,styl.pl,swiatkobiety.p
 cebit.pl,dowarsztatu.com,hitech.com.pl,sklep-drakpoltools.pl,sklep.art-magazyn.eu,sklep.narzedziawarszawa.pl,vedion.pl##.llSlideButton
 cefarm24.pl###drawer
 centrumdruku.com.pl##.ra-animated.ranking-wrapper
-cenyrolnicze.pl##.bd-margins.bd-headerarea-1, .zgloszeniaPanel
+cenyrolnicze.pl##.bd-margins.bd-headerarea-1, .jf_mm_trigger, .zgloszeniaPanel
 chojnow.pl###login-box
 chomikuj.pl###plugininInstallerDiv, .recommend_panel
 chorzow.eu##.col-sm-12 > p:nth-of-type(3)
+chrisbenzshop.pl###basketslider_front
 chrome.google.com##div[aria-labelledby="promo-header"][role="dialog"]
 chrzypsko.pl##.biegacz
 ciekawe.org,cyfrowyszpital.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl##.boxzilla-container:not([class*="center"]) > .boxzilla
@@ -5919,6 +5922,7 @@ hollex.pl##div.StrTresc:nth-of-type(2)
 home.biedronka.pl##.everyday-promo
 home.pl###bottom-box
 home.pl###buttonizer-button
+homeolek.pl###basketslider, #fastbasketslider
 hostgrafia.pl##.side-tab-widget > a[href="jak-dzialamy.html"]
 hoteladler.com##.bookingfixedtop.book-online-button
 hotelbonifacio.pl##.corner-pop-up
@@ -5958,6 +5962,7 @@ interia.pl,interia.tv,~poczta.interia.pl##.topbar, .topbar-container
 interia.pl,~poczta.interia.pl###sticker
 interia.pl,~poczta.interia.pl,swiatkobiety.pl##.articleObjectSeeAlso.box
 interlumen.com,ogrodzenia24.eu,sklepmuzyczny.eu###allegro_opinie_ikona
+interlumen.com,super-toys.pl###pierwsza
 interviewme.pl##.reading-indicator
 inzynierbudownictwa.pl##table[id^="slideright_"]:not(#slideright_yt) > tbody > .slideLeftItem
 irebu.pl###TOP-SOCIAL-MEDIA
@@ -6068,6 +6073,7 @@ marketerplus.pl##.animateMe.magazynframe, .openmagazyn
 marketingdlaludzi.pl##.case-study-box
 materace-dla-ciebie.pl##.outlet-btn
 mateuszgrzesiak.com,mg-pmm.com##.fade, .loading-text
+maxsklep.pl##.widgets
 mbank.pl##.covered.edge-menu
 mebline.co.uk,mebline.nl##.order.hidden-xs.hidden-sm
 meblohaus.pl##.big-link
@@ -6240,7 +6246,7 @@ pl.msi.com###activity a[href="/redirect/app/MyMSI"]
 plastcom.pl###test
 plejada.pl##.articleDetail .afterDetailModules .pollType.quizAndPollModule
 plejada.pl#?#.logolink:-abp-has(> .arrow)
-plus.pl##.goToTop
+plus.pl##.disney
 pneumat.com.pl###wrapper > .sideButtons-tagCont > .sideButtons-tagWhite
 poczta.interia.pl##.app-promo-plywak
 poczta.interia.pl##.hektor-container, #createaccount2
@@ -6291,6 +6297,7 @@ radiopogoda.pl##.gra-pobierz_aplikacje
 radiozet.pl##.react.poll.embed
 radomsko.pl###media > ul > li > .tooltipMedia
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(-n+2)
+rajbud.biz##.psb
 rallypl.com,sledcza24.tv###check-also-box
 rankomat.pl##.rank-notice-boomerang
 rankomat.pl##.searching-cheap-oc
@@ -6385,7 +6392,6 @@ styl.pl##.mobile-topbar-container
 stylowydruk.pl##.kac-sm-mail
 suchylas.pl###jPanel_619
 sukniesabe.pl##.qodef-smooth-transition-loader
-super-toys.pl###pierwsza
 superkopia.pl##.eraty-layer
 support.microsoft.com###bannerAboveUHF
 support.microsoft.com##.ng-scope.survey-background[style*="position"][style*="fixed"]
@@ -6418,6 +6424,7 @@ telekarma.pl###flyCart
 telemedi.co###notifications-pop
 telepolis.pl##.ankieta.sidebar-poll
 telepolis.pl##.floor[style*="position"][style*="fixed"]
+termalica.brukbet.com##.fortuna
 termokubki.com.pl###widget_shop6
 tiktok.com##div > button[class*="ButtonGetAppText"]
 tim.pl##.toolkit-bookmark-item-compare
@@ -6468,6 +6475,7 @@ wakai.pl###sod-drawer-handle
 wanika.pl###cloudBox
 wapteka.pl###app #footer-container
 wapteka.pl,www.e-medest.pl###baner_footer
+wartapoznan.pl##.pko-side-widget
 wasserman.eu##.jss372
 waze.com##.wz-downloadbar
 weathermap.netatmo.com###abtasty-banner
