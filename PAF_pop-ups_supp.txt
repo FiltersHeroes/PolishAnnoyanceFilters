@@ -342,6 +342,8 @@ payukraine.com##.pc_withoutCommissionBanner
 pepco.pl##.modal-newsletter, .modal-backdrop
 pewex.pl###popupStart
 pewex.pl##body, html:style(overflow: auto !important; margin-right: 0 !important)
+pixlr.com##body > div[id^="modal-"]:has(> div.announce > div.content > div#after-content)
+pixlr.com##body:style(overflow: auto !important;)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
 pl.blogpascher.com##+js(nostif, document.location)
 pl.blogpascher.com##.CampaignType--fullscreen.Campaign.trenton-campaign
