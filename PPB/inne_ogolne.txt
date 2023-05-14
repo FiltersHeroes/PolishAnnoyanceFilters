@@ -1,17 +1,13 @@
-pl##.rssocial-icons > li > a[href*="google.com/maps"]
-pl##.rssocial-icons > li > a[href*="google.pl/maps"]
-pl##.rssocial-icons > li > a[href*="maps.google."]
-pl##.x13socialfixed_links a[href*="allegro.pl/"]
-~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
-~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
-~pl##.rssocial-icons > li > a[href*="maps.google."]:lang(pl)
-~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ###cursor:empty
 ###gr-spnotifications
 ###grw_sidebox
 ##.circle-cursor
 ##[class="cursor"]:empty
 ~pl##.mraty-widget:lang(pl)
+~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
+~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
+~pl##.rssocial-icons > li > a[href*="maps.google."]:lang(pl)
+~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
@@ -46,6 +42,9 @@ pl##.llSlideButton
 pl##.mraty-widget
 pl##.polecamyBox
 pl##.reklama-box
+pl##.rssocial-icons > li > a[href*="google.com/maps"]
+pl##.rssocial-icons > li > a[href*="google.pl/maps"]
+pl##.rssocial-icons > li > a[href*="maps.google."]
 pl##.sales_pop__box
 pl##.side_widget
 pl##.slideout-widget
@@ -53,5 +52,6 @@ pl##.sm-gmap
 pl##.socialproof-new
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
+pl##.x13socialfixed_links a[href*="allegro.pl/"]
 pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
