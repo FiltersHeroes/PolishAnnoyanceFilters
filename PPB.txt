@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 14 May 2023, 22:29 UTC+02:00
-! Version: 2023.5.14.5
+! Last modified: Sun, 14 May 2023, 22:30 UTC+02:00
+! Version: 2023.5.14.6
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 14 maj 2023, 22:29 UTC+02:00
+! Aktualizacja: nie, 14 maj 2023, 22:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -573,7 +573,7 @@ elnino-parfum.pl##.Subscribe > .Container
 eloblog.pl##a[href="https://eloblog.pl/newsletter/"]
 eltrox.pl##.footer > div:nth-of-type(1)
 emaks.pl##.newsletter--sitepanel
-emedyczny.com,pb.pl,sklep-wadima.pl###NewsletterBox
+emedyczny.com,pb.pl,pro-skippers.com,sklep-wadima.pl###NewsletterBox
 emocje.pro###bloomwidget-3
 emp-shop.pl##.mb-sp-2.mb-1.order-md-12.order-8.d-flex.open-md.col-md.col-12
 empik.com##.footerNewsletter__form-wrap
@@ -1390,7 +1390,6 @@ primocappuccino.pl##.sidebar-box > div.widget-box:nth-of-type(10)
 print-me.pl#?#.elementor-top-column.elementor-column.elementor-element > .elementor-column-wrap > .elementor-widget-wrap:-abp-has(> div > div > form)
 printexpress.pl##.widget_bloomwidget.et_pb_widget
 prnews.pl##.newsletter-header, a[href*="/newsletter"]
-pro-skippers.com###NewsletterBox
 profeto.pl###part-newsletter > h2, #part-newsletter > form
 profinfo.pl##.newsletter__main
 projektowanie-wnetrz-online.pl##.e-container.e-container--column.elementor-element-fe48947.elementor-element
