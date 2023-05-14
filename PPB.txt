@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 14 May 2023, 21:52 UTC+02:00
-! Version: 2023.5.14.4
+! Last modified: Sun, 14 May 2023, 22:29 UTC+02:00
+! Version: 2023.5.14.5
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 14 maj 2023, 21:52 UTC+02:00
+! Aktualizacja: nie, 14 maj 2023, 22:29 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1390,6 +1390,7 @@ primocappuccino.pl##.sidebar-box > div.widget-box:nth-of-type(10)
 print-me.pl#?#.elementor-top-column.elementor-column.elementor-element > .elementor-column-wrap > .elementor-widget-wrap:-abp-has(> div > div > form)
 printexpress.pl##.widget_bloomwidget.et_pb_widget
 prnews.pl##.newsletter-header, a[href*="/newsletter"]
+pro-skippers.com###NewsletterBox
 profeto.pl###part-newsletter > h2, #part-newsletter > form
 profinfo.pl##.newsletter__main
 projektowanie-wnetrz-online.pl##.e-container.e-container--column.elementor-element-fe48947.elementor-element
@@ -1959,6 +1960,7 @@ znak.com.pl###subBox, #subBoxMini
 znak.com.pl##footer .newsletter
 zooart.com.pl##.z_leftnewsletter
 zrobtosam24.eu##.col-newsletter-box
+zryjzdrowocatering.com##.footer-contacts > .row > div:nth-child(2)
 ztm.waw.pl#?#.home-cell-iztm.home-cell:-abp-has(a[href$="/#subscribe"])
 zus.pox.pl##.moduletable:nth-of-type(5)
 zus.pox.pl##div:nth-of-type(3) > center
@@ -2276,6 +2278,7 @@ akwarysta.eu,dobrewychowanie.pl,pinka.pl###colorbox, #cboxOverlay
 aledobre.pl,mniammniam.com###universal-popup-wrapper
 aleleki.pl#?##fancybox-wrap:-abp-has(a[href="https://www.powerbiotic.pl/covid-19/"])
 aleleki.pl,florini.pl###fancybox-overlay
+alfaelektro.pl###bhr-items .bhr-popup-advanced div
 aliexpress.com##.coupon-poplayer-modal
 aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
 alkoholeswiata24.pl##.simplemodal-container:not(:has(.PelnoletniPopup, #addToCartPopup))
@@ -2463,6 +2466,7 @@ dailyweb.pl,jaworowi.cz,moneygrabbing.co.uk,probasket.pl,swinoujskie.info###snpp
 dalchemyskincare.com###mymodlaNewsletter, .mask
 dany-meble.pl,kim.elblag.pl###myPopModal, .modal-backdrop
 darymex.pl,skarbnicapomyslow.pl,wiecznepiora.eu##[data-type-popup="newsletter"]
+decathlon.pl##aside.ready.right.sidebar-container[data-type="popup-sidebar"]
 deccomeble.pl###jquery-lightbox, #jquery-overlay
 decoliving.pl###pop-up-newsletter
 decoliving.pl,intymna.pl###pop-up-powiadomienia
@@ -3825,7 +3829,7 @@ eelsner.eu,lvlup.pro,mobbingwpracy.com,polskaniepodlegla.pl,siecprzedsiebiorczyc
 eenergy.com.pl##.back-top-btn
 eko-asklepios.pl,forum.trojmiasto.pl,ithardware.pl##.go_top
 ekrak.pl###zltop
-eksiegarnia.mnk.pl,renee.pl##.scroll__top
+eksiegarnia.mnk.pl,mojepodlogi.com,renee.pl##.scroll__top
 ekspedyt.org###sbttBacktotop
 eksperymentalnie.com,finanse.egospodarka.pl,fundacjawolnosci.org##a[href="#top"]
 elektrosalon.pl###buttontotop
@@ -3912,6 +3916,7 @@ gotujwstylueko.pl##.move-up
 gpcodziennie.pl##.col-md-2
 gralandia.tv##img[src$="/images/arrow.png"]
 graszki.pl###slide_panel54
+green-fields.pl##.gf-back-to-top.ct-div-block
 greencell.global###js-top
 grobonet.com,wizja.net###ui-to-top
 gromgroup.pl,silesiasa.pl,singraph.pl,srw.org.pl###scroll-top-btn
