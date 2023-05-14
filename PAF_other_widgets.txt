@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 14 May 2023, 17:30 UTC+02:00
-! Version: 2023.5.14.0
+! Last modified: Sun, 14 May 2023, 22:30 UTC+02:00
+! Version: 2023.5.14.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 14 maj 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 14 maj 2023, 22:30 UTC+02:00
 !
 !
 !
@@ -266,6 +266,7 @@ credstepfunds.pl##.page_loader
 crmodus.pl##.kac-sm-zl
 crolove.pl###see-more-box
 cybersport.pl##.pbox
+cyfra.eu###tws_s_100001
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
 czestochowa.pl###left_bookmarks > a[href$="dodaj-do-ulubionych.html"]
@@ -800,9 +801,6 @@ pinterest.com#?#div[role="main"] > div[class] > div[class] > div[class][style^="
 pit.pl##.floater[id^="floater"]
 pityver.pl##.widget-allergo
 pkobp.pl###smartbanner-desktop
-pl##.rssocial-icons > li > a[href*="google.com/maps"]
-pl##.rssocial-icons > li > a[href*="google.pl/maps"]
-pl##.rssocial-icons > li > a[href*="maps.google."]
 pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #patron-popup-image
 pl.aliexpress.com##.top-banner-container
 pl.gearbest.com##.siteBanner
@@ -1123,6 +1121,10 @@ zyciepabianic.pl##.paper
 ##.circle-cursor
 ##[class="cursor"]:empty
 ~pl##.mraty-widget:lang(pl)
+~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
+~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
+~pl##.rssocial-icons > li > a[href*="maps.google."]:lang(pl)
+~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
@@ -1157,6 +1159,9 @@ pl##.llSlideButton
 pl##.mraty-widget
 pl##.polecamyBox
 pl##.reklama-box
+pl##.rssocial-icons > li > a[href*="google.com/maps"]
+pl##.rssocial-icons > li > a[href*="google.pl/maps"]
+pl##.rssocial-icons > li > a[href*="maps.google."]
 pl##.sales_pop__box
 pl##.side_widget
 pl##.slideout-widget
@@ -1164,6 +1169,7 @@ pl##.sm-gmap
 pl##.socialproof-new
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
+pl##.x13socialfixed_links a[href*="allegro.pl/"]
 pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
 !
