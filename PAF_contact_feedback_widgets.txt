@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 14 May 2023, 21:30 UTC+02:00
-! Version: 2023.5.14.0
+! Last modified: Sun, 14 May 2023, 21:52 UTC+02:00
+! Version: 2023.5.14.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 14 maj 2023, 21:30 UTC+02:00
+! Aktualizacja: nie, 14 maj 2023, 21:52 UTC+02:00
 !
 !
 !
@@ -87,6 +87,9 @@
 ###chaty-channel-facebook_messenger
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
+~pl##.x13socialfixed_links a[href*="/m.me/"]:lang(pl)
+~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
+~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
 3giga.pl###contact-slider
 3i-store.com,agrotechnika.co,cyberrescue.info,dronexpert.eu,emedyczny.com,mam-fach.info,praisethewear.com,zrobtosam24.eu##.fb_reset
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
@@ -355,6 +358,8 @@ fly.pl##.btn-sticky-feedback
 fm.tuba.pl###feed
 fmmobile.pl##.c-btn_suggestion
 followrap.com###wh-widget-send-button
+fonelab.com###share-list ul li.gmail
+fonelab.com###share-list ul li.whatsapp
 foodex24.pl##.ask-consultant
 foto.auchan.pl##.sidebar-link[href="http://www.foto.auchan.pl/obsluga-klienta.html"]
 foxstrategy.pl###fbMsg
@@ -577,6 +582,9 @@ picodi.com###oneSignalBell, #onesignal-bell-container
 pikio.pl###chatBot
 pityver.pl###widget.tada.widget
 pl##.sm-panel .sm-messenger
+pl##.x13socialfixed_links a[href*="/m.me/"]
+pl##.x13socialfixed_links a[href*="/wa.me/"]
+pl##.x13socialfixed_links a[href*="skype:"]
 pl##a[href^="fb-messenger://share/"]
 pl##a[href^="whatsapp://send"]
 pl.000webhost.com##div[style="cursor: pointer;"]
