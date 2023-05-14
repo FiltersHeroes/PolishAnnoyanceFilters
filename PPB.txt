@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 14 May 2023, 21:30 UTC+02:00
-! Version: 2023.5.14.3
+! Last modified: Sun, 14 May 2023, 21:52 UTC+02:00
+! Version: 2023.5.14.4
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 14 maj 2023, 21:30 UTC+02:00
+! Aktualizacja: nie, 14 maj 2023, 21:52 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4678,6 +4678,9 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ###chaty-channel-facebook_messenger
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
+~pl##.x13socialfixed_links a[href*="/m.me/"]:lang(pl)
+~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
+~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
 3giga.pl###contact-slider
 3i-store.com,agrotechnika.co,cyberrescue.info,dronexpert.eu,emedyczny.com,mam-fach.info,praisethewear.com,zrobtosam24.eu##.fb_reset
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
@@ -4946,6 +4949,8 @@ fly.pl##.btn-sticky-feedback
 fm.tuba.pl###feed
 fmmobile.pl##.c-btn_suggestion
 followrap.com###wh-widget-send-button
+fonelab.com###share-list ul li.gmail
+fonelab.com###share-list ul li.whatsapp
 foodex24.pl##.ask-consultant
 foto.auchan.pl##.sidebar-link[href="http://www.foto.auchan.pl/obsluga-klienta.html"]
 foxstrategy.pl###fbMsg
@@ -5168,6 +5173,9 @@ picodi.com###oneSignalBell, #onesignal-bell-container
 pikio.pl###chatBot
 pityver.pl###widget.tada.widget
 pl##.sm-panel .sm-messenger
+pl##.x13socialfixed_links a[href*="/m.me/"]
+pl##.x13socialfixed_links a[href*="/wa.me/"]
+pl##.x13socialfixed_links a[href*="skype:"]
 pl##a[href^="fb-messenger://share/"]
 pl##a[href^="whatsapp://send"]
 pl.000webhost.com##div[style="cursor: pointer;"]
@@ -5711,6 +5719,7 @@ credstepfunds.pl##.page_loader
 crmodus.pl##.kac-sm-zl
 crolove.pl###see-more-box
 cybersport.pl##.pbox
+cyfra.eu###tws_s_100001
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
 czestochowa.pl###left_bookmarks > a[href$="dodaj-do-ulubionych.html"]
@@ -6245,9 +6254,6 @@ pinterest.com#?#div[role="main"] > div[class] > div[class] > div[class][style^="
 pit.pl##.floater[id^="floater"]
 pityver.pl##.widget-allergo
 pkobp.pl###smartbanner-desktop
-pl##.rssocial-icons > li > a[href*="google.com/maps"]
-pl##.rssocial-icons > li > a[href*="google.pl/maps"]
-pl##.rssocial-icons > li > a[href*="maps.google."]
 pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #patron-popup-image
 pl.aliexpress.com##.top-banner-container
 pl.gearbest.com##.siteBanner
@@ -6569,6 +6575,10 @@ zyciepabianic.pl##.paper
 ##.circle-cursor
 ##[class="cursor"]:empty
 ~pl##.mraty-widget:lang(pl)
+~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
+~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
+~pl##.rssocial-icons > li > a[href*="maps.google."]:lang(pl)
+~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
@@ -6603,6 +6613,9 @@ pl##.llSlideButton
 pl##.mraty-widget
 pl##.polecamyBox
 pl##.reklama-box
+pl##.rssocial-icons > li > a[href*="google.com/maps"]
+pl##.rssocial-icons > li > a[href*="google.pl/maps"]
+pl##.rssocial-icons > li > a[href*="maps.google."]
 pl##.sales_pop__box
 pl##.side_widget
 pl##.slideout-widget
@@ -6610,6 +6623,7 @@ pl##.sm-gmap
 pl##.socialproof-new
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
+pl##.x13socialfixed_links a[href*="allegro.pl/"]
 pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
 !
