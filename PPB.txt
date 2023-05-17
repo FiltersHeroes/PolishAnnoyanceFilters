@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 16 May 2023, 00:03 UTC+02:00
-! Version: 2023.5.16.0
+! Last modified: Wed, 17 May 2023, 14:31 UTC+02:00
+! Version: 2023.5.17.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 16 maj 2023, 00:03 UTC+02:00
+! Aktualizacja: śro, 17 maj 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5555,6 +5555,7 @@ agro-rolnik.pl##[href="https://www.olx.pl/oferty/uzytkownik/1MY2N/"]
 agroalex.pl,dlaroslin.pl,shopsisters.eu##.hotinfo_top
 agrohandler.pl##.storderpopup
 agroma-poznan.pl###panel2, #panel13, #panel14
+agroperfekt.pl##.js-marquee-wrapper, #li:nth-of-type(4), #li:nth-of-type(5)
 agrospec.pl##.configMessages__footer.configMessages
 ahe.lodz.pl###wysuwane7, #wysuwane2
 airly.eu##.app__map-container > .map-container > .map-container__onet
@@ -5581,6 +5582,7 @@ amso.pl##footer .slide_box
 angelsadvertising.pl###qLoverlay
 animeon.pl##.alert-info
 anna-urbanska.pl##.amadeus_recent_posts_widget
+ansin.pl##.tm-lemur-container
 antykwariatlibra.pl##.guy
 antyradio.pl,chillizet.pl,meloradio.pl,planeta.pl,radiozet.pl##.back-to-home
 antyweb.pl##header.header ~ div.wrapper > div[data-fetch-key*="PostProxy"] > div:not([id]):not([class]) > div.pb-12 ~ div.pb-12
@@ -5655,6 +5657,7 @@ bigbrother.tvn.pl##.__ipPerunElement[style*="position"]
 bikeboard.pl###magazine-btn
 bilbordy.info,unitrailer.pl###tab
 biomak.eu###leaselinkSlideButton1
+bissole.pl##.last.first.in-menu-second-switch.near-logo-first-switch.show-on-desktop.email.mini-contacts
 bithub.pl##.st-comment
 bitland-b2c.platforma.ab.pl###rightBoxes
 biuroprasowe.play.pl##.floating-icon
@@ -5709,6 +5712,7 @@ chrome.google.com##div[aria-labelledby="promo-header"][role="dialog"]
 chrzypsko.pl##.biegacz
 ciekawe.org,cyfrowyszpital.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl##.boxzilla-container:not([class*="center"]) > .boxzilla
 cieplikpodrozuje.pl#?#.elementor-popup-modal:-abp-has(input[type*="email"])
+citibank.pl##.Sticky__CTA
 citroen.pl##.sidebarToolsDesktopReview
 ckr.pl##.sliding-platforma, .sliding-zwolnienie
 clineo.pl##.ceneo-widget
@@ -5838,11 +5842,12 @@ espritshop.pl##.smartappbanner
 estradaistudio.pl##.sticked.newsletter-custom
 eurobank.pl###labelElements
 eurogamer.pl##.in-article-search, .language-bar
-euromat.com.pl###tws_s_100000
+euromat.com.pl,kulturalnysklep.pl###tws_s_100000
 euroobuwie.pl##.bars__wrapper
 eurosport-fitness.pl##.nks_metro
 eventy-online.pl###przewodnik
 exceldlaksiegowych.pl###post-navigation
+expressoffice.pl,faceoffice.pl###popup-contact-form
 extramama.pl###widget_shop1
 ezebra.pl###dostawa_widget
 f1racing.pl###WpBg
@@ -5914,6 +5919,7 @@ gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
 global4net.com##.implementation-catalog
 globalna.info##.single-navigation[class*="post"]
 glossyme.eu###tm-widget-muskrat
+godanparty.pl##.shipping-info
 godealla.pl###top-offers, .hand
 godstoys.pl##.master-loading-overlay
 gomobi.pl##.blog-head
@@ -5950,6 +5956,7 @@ hostgrafia.pl##.side-tab-widget > a[href="jak-dzialamy.html"]
 hoteladler.com##.bookingfixedtop.book-online-button
 hotelbonifacio.pl##.corner-pop-up
 hotelforumlublin.pl##.sfl-widget--ribbon__fixed
+hotellogos.pl##.widget-container
 hubkolektyw.pl##.panel-boczny
 hurtowniarolnicza.pl##.recruitment
 hushaaabye.pl##.blog-pager-item
@@ -6283,6 +6290,7 @@ poloniawroclaw.pl##.sfl-widget--ribbon__fixed, .ys-sidebar-btn-2
 polskicaravaning.pl###\35 3419
 polstor.pl##.tax-free-shopping
 poradnikhandlowca.com.pl##.region-page-bottom > #slidead-popup
+poradyodo.pl##.baner-stopka
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
 porta.com.pl###popup-questionnaire
 portal.librus.pl#?##synergiaLogin + div[class]:-abp-has(picture > source[srcset] ~ img[src])
@@ -6326,6 +6334,7 @@ rc.fm###rconline
 reddit.com##.read-next
 refunder.pl#?#.fixed:-abp-has(> div[data-id="sticky-register"])
 relaxinspa.pl##.buttonizer-button, .xoo-wsc-basket
+remote-control-world.eu###paymentTab, #wifiTab
 retailnet.pl##.elementor-popup-modal.dialog-widget
 rg-narzedzia.com.pl###allegroiko
 rgbautomatyka.pl###repair-box
@@ -6376,6 +6385,7 @@ sklepbaterie.pl##.naskroty
 sklepmaniek.pl##.LastOrderBox
 sklepyinfo.pl##a#menu
 skokinarciarskie.pl##.pbox_sonda
+sky-shop.pl###promo-banner
 sky-shop.pl##.guide-popup.webinar_widget
 sky-shop.pl##.numberOfShopsCreatedToday
 slippersfamily.com###widget_shop8
@@ -6460,6 +6470,7 @@ trumpeters.pl###banner_div_empty
 tube.ad##.nav
 tugazeta.pl###sort_button, #koment_button
 tulodz.pl##.page__right__box--sonda
+tuwiazowna.pl##.belka
 tvdzierzgon.pl##.offbox-articles
 tvn24.pl##.shareContainerTop
 tvn.pl##.detail-next
@@ -6500,7 +6511,9 @@ wasserman.eu##.jss372
 waze.com##.wz-downloadbar
 weathermap.netatmo.com###abtasty-banner
 wedkarz.pro##.ikonkiw.hidden-xs > a[href="/koszyk"]
+werktuigen.pl###feedback-button
 wesolakraina.pl##.kontrast_tlo
+westwing.pl##.bwCMMf.OnboardingTooltip__OnboardingContentOverlay-mf-oww-header__fsqvc2-1
 weszlo.com##.suggester-box.position-fixed
 wiedza3g.pl##.wesprzyjNas
 wieszaki.info##.allegro-fiszka
