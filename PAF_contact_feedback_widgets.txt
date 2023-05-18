@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 18 May 2023, 14:31 UTC+02:00
-! Version: 2023.5.18.0
+! Last modified: Thu, 18 May 2023, 17:30 UTC+02:00
+! Version: 2023.5.18.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 18 maj 2023, 14:31 UTC+02:00
+! Aktualizacja: czw, 18 maj 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -136,9 +136,7 @@ apaczka.pl##.ekomi-widget-container
 apartamentyzdrowie.pl###aside a:not(.Facebook)
 apollo.pl##.tc-position-right.thulium-desktop-chat.thulium-chat-wrapper
 aptekaolmed.pl##.box-info-ab
-apteline.pl###lz_overlay_preview
-apteline.pl##.chat-fixed__wrapper
-apteline.pl,geselle.pl###lz_overlay_wm
+apteline.pl,zryjzdrowocatering.com###chat-widget-container
 aquamelior.pl###slaask-button
 arbonne.com###V4LLPanel_TCContainer
 archon.pl###archon-chat, .mobile-item-phone, #messenger_button
@@ -332,8 +330,6 @@ ewakacje.pl##.classNotesList_button
 ewozki.eu##div[id] > iframe[title="chat widget"]
 experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
-extradom.pl##.olark-chat-tab
-extradom.pl##div.hidden[style*="position: fixed"] > a.btn[data-target="#zamow-rozmowe"]
 fachowcy.pl###fav-callback-wrapper, #liveChatContainer
 fakturownia.pl##.sugester_callback_widget_outline
 fantasyliga.wp.pl##.show-chat
@@ -373,11 +369,11 @@ gandalf.com.pl##.fb_dialog_advanced
 gdaq.pl##.new.phone_btn_flat
 gdaq.pl##.nks_cc_trigger_tabs
 gdzietymrazem.pl##.td-icon-mail-1
-generali.pl###altar-chat-div-container
-generali.pl###cmb-contact-form-widget-button
+generali.pl,lancerto.com##.actionBotWindow
 generator.pl##.bottom.fixedPanel > a[href="/kontakt.html"]
 genway.pl##.leaveContactBtn
 gerdex.com.pl,polnord.pl,rivieraparkmarvipol.pl,solidnedrzwiokna.pl,wkret-met.com###fastcall
+geselle.pl###lz_overlay_wm
 getruck.eu,my-office.pl###zsiq_float.zsiq_float
 gkstychy.info###error_send
 glosbe.com##app-feedback-button
@@ -426,8 +422,7 @@ intimissimi.com##.js-bubble-open.botton-bubble
 investkomfort.pl###videocall-trigger
 inwestinfo.pl##.suggest-trigger
 irobot.pl###chat_floating_button
-isl.pl###contact-link, #lz_overlay_chat
-isl.pl###lz_eye_catcher
+isl.pl##.quick-actions
 ismserwis.pl###awesome-live-chat
 itlab.pl##.id-14.side-tab-widget
 jakwyjsczdlugow.pl##.btn-info
@@ -464,7 +459,6 @@ kwiatysztuczne.pl##.btn[data-action="add-feedback"]
 kylos.pl###chatstack-container
 lajtmobile.pl##.tlswebcall-init
 lan.sklep.pl,routery.sklep.pl###chatInCloud.chatInCloud
-lancerto.com##.actionBotWindow
 laserdelux.pl#?#.navbar-fixed-bottom:-abp-has(.footer-opinion.action)
 lenalighting.pl,lodzkie.pl##.jj_sl_custom1
 lenovo.com,~www.lenovo.com###confirmit-feedback
@@ -600,8 +594,7 @@ pl.pons.com###hj-feedback
 pl.trip.com##.mod-back-top-chat
 pl.tripadvisor.com#?#body > div[aria-live="polite"]:-abp-has(span:-abp-contains(Opowiedz nam o swoim doświadczeniu ze stroną Tripadvisor))
 planeta-budowlana.pl##.messenger_toggle
-pneumat.com.pl###liveChatButton
-pneumat.com.pl###sideContact-button
+pneumat.com.pl##.footer__top-wrapper
 pocztowy.pl##.goto-chat
 pokato.pl##.zoho-help-btn
 polanki.pl##.PamphletWidget
@@ -625,7 +618,6 @@ prawo-jazdy-360.pl###help-panel
 pro-mask.pl###telefon
 profbud.info##.bocznemenu > a.socialicoplus
 profinfo.pl##.chatLauncherList
-profinfo.pl##.right-fix-widget > a[href*="sugestie"]
 progrower.eu###chatbc
 projektgamma.pl###face-slider3
 proline.pl##div[id][style*="cursor"][title^="Przycisk "] > div[style*="fixed"]
@@ -753,8 +745,7 @@ tiktok.com##a[href="/feedback?lang=pl"]
 tim.pl##[data-toolkit="toolkit-page-bugs"]
 tipply.pl##.fb-toggle
 tja.pl###div_wysuwany_opinia
-tme.eu###feedback-widget
-tme.eu##.c-livechat__widget-container
+tme.eu##.c-livechat__widget
 totalcasino.pl###chatContainer
 tourist.pl###sc2_all_container
 trans.info##.wall-add-news
@@ -821,7 +812,6 @@ zapowiedzi24.blogspot.com##widgetbot-crate
 zbitaszybka.pl##.tcc-widget
 zdrowazupa.pl##.so-fb-message
 zooart.com.pl###shower_desc.fast_desc
-zryjzdrowocatering.com###chat-widget-container
 zrzutka.pl##.uv-bottom-right
 !@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 !
