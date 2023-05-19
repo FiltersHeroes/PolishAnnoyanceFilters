@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 18 May 2023, 17:30 UTC+02:00
-! Version: 2023.5.18.1
+! Last modified: Fri, 19 May 2023, 14:31 UTC+02:00
+! Version: 2023.5.19.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 18 maj 2023, 17:30 UTC+02:00
+! Aktualizacja: pią, 19 maj 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3511,7 +3511,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 2x45.info,agro-hurt.eu,asus.com,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
 3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,bajki-grajki.pl,blackmonk.pl,domator24.com,e-forma.pl,e-rbud.pl,ettoi.pl,folcom.pl,futurefarm24.pl,greenhousedevelopment.pl,harposoftware.com,lampa-lampy.pl,laroxy.com,mojwzrok.pl,mrzepinski.pl,opakowania24.eu,optes.pl,plantica.pl,skitenis.pl,sklep.escribo.pl,skymaster24.pl,slowka.pl,swiatroslin.eu,swiatwokolkuchni.pl,tafmet.pl,taniesoczewki.pl,tortoweozdoby.pl,virgobooks.pl##.top_button
-3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,pasmanteria.eu,poid.eu,stolmot.com###to-top
+3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com###to-top
 3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,domkorkowy.com,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
 4f.com.pl,adriatech.pl,agrojumal.com.pl,android.com.pl,answear.com,blaugrana.pl,cyfrowarepublika.pl,dachygt.pl,dorotafilipiuk.pl,drmax.pl,fenii.pl,karchercenter-ocean.pl,karnet.krakow.pl,myjki.com,myjki.eu,ocean-karcher.pl,oponeo.pl,pfron.org.pl,pracuj.pl,radiopoznan.fm,sagito.pl,sandraspa.pl,sport-shop.pl,tolpa.pl###scrollTop
 4funkids.pl###scroll_up
@@ -3528,7 +3528,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 a1komputery.pl,e-infonet.pl,fundacjadominikana.org,wp-piast.pl,wspkorczak.eu##.sp-totop
 aaparatysluchowe.com,cukiernia-danuta.pl,stalremdrzwi.pl,swiatbaterii.pl,thebat.com.pl##.right.czr-btta.czr-btt.btn
 acer-sj.pl,agro-las.com.pl,bkfwarszawa.com.pl,chaniewski.com.pl,ostroscwzroku.pl,poz-bud.com.pl,rolpolopalenica.pl,rozruch-startgum.pl,sklep-garbi-rol.pl,zelan.pl##.fixed-up
-acer.com,brandvital.eu,grobonet.com,grupaimage.eu,pl.gadget-info.com,programtv.naziemna.info,qnapclub.eu,rolety.eu,szpitalepomorskie.eu,techbite.eu###return-to-top
+acer.com##.btn--btt
 ach-te-internety.pl,applemania.pl###cenote-back-to-top
 active.sklep.pl,epicgames.com,grupawsparcia.pl##.up-button
 activefamily.pl##.moto-back-to-top-button_visible
@@ -3628,7 +3628,7 @@ astoreo.pl##.scrollButtons
 astra.pisz.pl,lencze.eu,pdm.pisz.pl,portalhodowcy.pl###nav_up
 asus.com,athleticsport.pl,bankier.pl,centrumelektroniki.pl,device.pl,e-konkursy.info,goldenmark.com,koelnerpolska.pl,m.gotowanie.onet.pl,rawlplug.com,sklepbiegacza.pl,teamquest.pl###goToTop
 asystentbhp.pl##.gototop-button.gototop
-atmp.pl,b2net.pl,encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl,telefon.info.pl###top
+atmp.pl,b2net.pl,elus.pl,encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl,telefon.info.pl###top
 auchan.pl##.button-go-top
 auchan.pl##.tooltip.right > button ~ button[style*="width: 10px"]
 auchanhetmanska.pl##.js-a-ScrollTop.a-ScrollTop
@@ -3699,8 +3699,7 @@ bodzio.pl,browserwall.com##.scroll-up-btn
 bogatynia.info.pl,comel-it.com,konstrukcjeinzynierskie.pl,mzktomaszow.pl,stanmar.eu##.g-totop
 bomameble.eu##img[src="img/top.png"]
 bonavita.pl###ot-jumplist-control
-bonprix.pl###slide-up
-bonprix.pl##.scroll-to-top-btn
+bonprix.pl##.btn-primary.scroll-to-top-btn
 bookland.com.pl,eduarena.pl###yt-totop-fix
 bookmaster.com.pl###utils-button-top
 boombook.pl##.active-progress
@@ -3708,6 +3707,7 @@ bor-met.eu,imagene.me,oaze.pl,polcovid.pl,zakpol.eu###smoothup
 borcas.eu##.scrollToTopPlugin
 borcas.eu##.scrollToTopPlugin_label
 bosch-extra.pl,extra-program.pl,fk-toys.pl,glovoapp.com##.to-top-button
+brandvital.eu,grobonet.com,grupaimage.eu,pl.gadget-info.com,programtv.naziemna.info,qnapclub.eu,rolety.eu,szpitalepomorskie.eu,techbite.eu###return-to-top
 brymorex.pl###top-button-ui
 bs.limanowa.pl##.block-arrow--small
 btcpolska.com##.show-top-button
@@ -3836,7 +3836,6 @@ elektrykadlakazdego.pl##.crane-top
 elk.zdz.bialystok.pl###dotop
 elmas.com.pl##.rise-to-top
 enetproduction.com##div.vued-custom-scroll_to_top
-engineer.decorexpro.com###up.up
 enowiny.pl,mobileworld24.pl##.mnmd-go-top
 erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,wdrodze.pl,yellow.place###up
 erli.pl#?##root > header ~ main > button[class*=" "]:-abp-has(> svg:only-child :empty)
@@ -3958,7 +3957,7 @@ ikapol.net,planeta-budowlana.pl,rolkom.net,wyczesani.com##.fa-angle-up
 ikc.pl##.ak-back-top
 ikea.com###btn-back-to-top
 industriehof.com,sportisimo.pl###jumptop
-info-tips.de,morfikov.github.io,onlinevideoconverter.com,pcsupport.lenovo.com,support.lenovo.com##.back-to-top
+info-tips.de,medion.com,morfikov.github.io,onlinevideoconverter.com,pcsupport.lenovo.com,support.lenovo.com##.back-to-top
 infoaudio.pl,infomusic.pl,obiektyspa.com###slideup
 infolinia.info.pl,memento.com.pl,mpolski.pl,pense.pl##.arrow
 infoplanet.pl##.goup-container
@@ -4049,6 +4048,7 @@ legalnakultura.pl,mojaniderlandia.pl,mojanorwegia.pl,trol.pl###goUp
 legalniewsieci.pl##.float-news-nav
 lenovo.com##.backToTop
 lfspareparts724.pl##.up.move, .down.move
+lgensol.pl##.footer-up
 lidl.pl##.n-footer__button__scroll__top
 lightonline.pl##.returnTop
 lilio.pl,lumex.pl,www.biedronka.pl##.arrow-top
@@ -4090,7 +4090,6 @@ mediaexpert.pl,mediamarkt.pl##.scroll-btn.scroll
 mediamarkt.pl###js-scrollTopDesktop
 medicover.pl##.scrollTopArrow
 medonet.pl,ogrodmacieja.pl##.goToTop
-medonetmarket.pl##.back2top
 medonetmarket.pl##.medo-scroll-to-top
 merida.com.pl##.scroll-top-up
 meskietematy.pl,przemiany.gniezno.pl,tranzystor.pl###vl-back-top
@@ -4348,6 +4347,7 @@ takeda.com##.totop__wrapper
 tally-weijl.com##footer > button[class][style]
 tanikomputer.eu###rr_side_widget
 tanio.co,vangraaf.com##.scroll-up-button
+targiehandlu.pl##.MuiFab-primary
 tasmuj.pl##.sm-goTop
 tatuum.com##a.third-tkd-btn[href*="#"]
 tchibo.pl##.js-tp-backtotop
@@ -4384,6 +4384,7 @@ umebluje.pl###cs_bt_scroll_top
 umwelt-plakette.de###nachoben
 unilink.pl##.uptotop
 uroda.in##.trigger
+urticadzieciom.pl##.uk-grid.uk-flex-middle.uk-flex-inline
 valtra.pl##.sticky-footer__back-to-top
 vanpur.com.pl###scroll_arrow
 velux.pl###ReturnToTop
@@ -4399,7 +4400,6 @@ vivo.com##.back-top-export
 volcano.pl##div.toolbar > .go-up > a[href="#"]
 vulcan.edu.pl###b_gora
 vwfs.pl##.c-back-to-top
-wabisabi-store.jp##.scrolltopbtn
 wabisabi-store.jp##.tt-back-to-top
 wabrzezno.com##.on.scroll-top
 wago.com##.scroll-hint
