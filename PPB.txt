@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 20 May 2023, 14:34 UTC+02:00
-! Version: 2023.5.20.0
+! Last modified: Sat, 20 May 2023, 14:45 UTC+02:00
+! Version: 2023.5.20.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 20 maj 2023, 14:34 UTC+02:00
+! Aktualizacja: sob, 20 maj 2023, 14:45 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2228,7 +2228,7 @@ pl,~znak.com.pl##.newsletter-container
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
 6paknutrition.com,porta.com.pl#?##bhr-items .bhr-popup-advanced:-abp-has(iframe[src*="salesmanago.pl/"])
-9c.com.pl##.showed-iqitpopup, .showed-iqitpopupo
+9c.com.pl,ledco.pl,sklepdlalekarza.com,tendina.pl,warsztatogrodnika.pl###iqitpopup, #iqitpopup-overlay
 24hurt.pl##.wt-popup, #overlay
 29aleja.pl##.popupWrap
 80dni.pl,agroinstal.com.pl,aliholik.pl,ap-goal.pl,apgrojec.com.pl,asc-pro.pl,atutszkola.pl,badaniaprenatalne.pl,bellpolska.com.pl,bialekolnierzyki.com.pl,businesstraveller.pl,centrum-terapii.pl,codzienniefit.pl,computer-alliance.pl,dochodzeniewierzytelnosci.pl,ecochemia.pl,edbak.com,erif.pl,esportnow.pl,faktykonopne.pl,gameinn.pl,gdziejestdziecko.pl,infokonin.pl,infokonsument.pl,intercyza-blog.pl,inwestycjebudowlane.biz,ironsky.pl,jakzalozycfirmenaukrainie.com,kartanauczycielablog.pl,katechezanatana.pl,kukini.pl,lajtmobile.pl,leclerc.pl,leszekbloch.pl,maxbus.com.pl,mhtm.pl,monikahonory.pl,odroczenie-kary.pl,pandrwal.pl,pantabletka.pl,pierwsze-kroki.com,poloniawroclaw.pl,prawonaplacubudowy.pl,przedawnione.pl,przedszkolankowo.pl,psychologiazycia.com,radiowarszawa.com.pl,remekdabrowski.pl,sds-automatyka.pl,sherlocktrafika.pl,spjawna.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,studiosante.pl,towsrodku.pl,villacarpatia.com,wspa.pl,wspolnotakrzyzasmolec.pl,zabieganamama.com,zadowolonypacjent.pl,zarzadwspolcezoo.pl,zatorland.pl,zobraczkaczybez.pl##.spu-box, .spu-bg
@@ -2392,14 +2392,14 @@ bodyland.pl,hairstore.pl###newsletter-lightbox-holder
 boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,portalwloclawek.pl,radiobonton.pl,regatv.pl,rolnik.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,wagner-polska.com.pl##.toplayer
 bolix.pl,pushpushgo.com###ebook-popup
 bonprix.pl,dragonmask.pl,virtualo.pl,walizkazabawek.pl,webcamera.pl##.newsletter-modal, .modal-backdrop
-born2be.pl,renee.pl##.snrs-modal-wrapper
+born2be.pl,helios.pl,neo24.pl,neonet.pl,renee.pl##.snrs-modal-wrapper
 braclowiecka.pl##div[id^="lepopup-popup"]
 brandpro.pl###mc_embed_signup
 brandpro.pl##.fancybox-skin
 brilu.pl,chefstore.pl##.popup__overlay
 brodatyzbir.pl##.adp-popup
 brodrene.eu###news_popup, #tlo_bg
-brw.pl##div.snrs-modal-wrapper.snrs-modal-show:nth-child(74)
+brw.pl#?#.snrs-modal-wrapper:-abp-has(#popup .firstname-form ~ .email-form)
 brylove.pl,mokosh.pl###popupWindow
 bs.skoczow.pl###window[ng-controller="myInfo"]
 bspruszczgd.pl##.sPopup, .sPopup__mask
@@ -2424,7 +2424,7 @@ cgm.pl##.bsaPopupWrapper, .bsaPopupWrapperBg
 chabin.pl###newsletterTerms, .modal-backdrop
 change.shop.pl###popup-flex
 chemiabudowlana.info,mylomza.pl###fadeinbox
-chillglobal.pl##.active.bounceright-popup-acm.popup-acm
+chillglobal.pl##.bounceright-popup-acm.popup-acm
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
 chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
@@ -2458,7 +2458,7 @@ cyberfolks.pl,drzwi-cal.pl###ue_widget
 czasnawnetrze.pl##.waitbox
 czasnawnetrze.pl,mlodytechnik.pl,zielonyogrodek.pl##.mod_avt_alert
 dabrowa-gornicza.pl##.pop-up-visit
-dabrowka.com.pl##.js-show.popup-hld--startpage
+dabrowka.com.pl##.popup-hld--startpage
 dachyb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl###newsletter-subscription
 dadada.pl###newsletterPopup
 dailyweb.pl,jaworowi.cz,moneygrabbing.co.uk,probasket.pl,swinoujskie.info###snppopup-welcome
@@ -2615,7 +2615,6 @@ haftprojekt.pl###popup_newsltr
 hebe.pl##.slide-desktop.image-responsive
 hebe.pl,modea.pl##.splash
 hegos.eu,sklep-wadima.pl##.popup, .popup-bg
-helios.pl##.snrs-modal-show
 hello-body.pl##.news-popup-container
 hellozdrowie.pl##.newsletter-popup-container
 heuristic.pl##.box-popup
@@ -2733,7 +2732,6 @@ labosport.pl###nksub_sidebar, #nksub-body-bg
 lagardere-tr.pl###banner-hds, #banner-hds-background
 laroxy.com,meblezet.com,motomat.eu###x13popup-container, #x13popup-cover
 lebork24.info###fanback
-ledco.pl,sklepdlalekarza.com,tendina.pl###iqitpopup, #iqitpopup-overlay
 legalnews24.pl###dialogNewsletter
 legato-motocykle.pl#?##tws_i_100000:-abp-has(#urlop_tl)
 levi.com###emailModal, .modal-backdrop
@@ -2841,21 +2839,19 @@ myloview.pl##.subskrypcja, .ui-widget-overlay
 myob.pl###popup-message-background
 myob.pl#?##popup-message-window:-abp-has(p > a >img[src*="popup_desktop"])
 mysize.com.pl###popup_box, #overlay
-nabory.kprm.gov.pl##.active.popup-newsletter
+nabory.kprm.gov.pl##.popup-newsletter
 naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
 naszawyspa.com#?#.wpb_content_element.wpb_widgetised_column:-abp-has(#wpsb_email)
 nasze-gazetki.pl###subscribeModal, .modal-backdrop
-naszeledy.pl##.mask
-naszeledy.pl##.modal-visible.modal
+naszeledy.pl##.modal, .mask
 naturbio.pl###rm_pop_up_entry
+nawado.pl##.inc_optin_1.inc_opt_popup
 nawado.pl##.inc_optin_1.wpoi-overlay-mask
-nawado.pl##.wpoi-show.inc_optin_1.inc_opt_popup
 nawakacje.eu,rytmynatury.pl##.ays-fpl-modals
 nawiedzone.pl##[data-title="Social Form - Popup #02"]
 nawozy.eu##.newsletterPopup
 nbsklep.pl##.sp-fancybox-wrap
-neo24.pl,neonet.pl##.snrs-modal-show.snrs-modal-wrapper
 niedziela.pl###entranceModal
 niedziela.pl###ewydanieModal
 njumobile.pl##.jquery-modal
@@ -3084,7 +3080,7 @@ sportujmy.pl###PR9P-Wrapper
 spozywo.pl##.facebook-overlay
 spozywo.pl##.newsletter-info
 sprawdzonakuchnia.pl##.essb-optinbooster, .essb-optinbooster-overlay
-spreadshirt.pl##.show.js-promo-layer
+spreadshirt.pl##.js-promo-layer
 sprzedam.pl###api817-banner
 sprzegla24.pl##.product-popup
 ssangyong.pl###hot_offer
@@ -3110,7 +3106,7 @@ sunbarrel.pl##.popup_back, .popup_cont
 superauto24.com##.sale2015area
 superksiegowa.pl###mksiegowosc-overlay, #mksiegowosc-popup-wrapper
 superpaczka.pl###apaczka-modal
-superpools.pl##.show-popup.callback24-container
+superpools.pl##.callback24-container[class*="popup"]
 swiat-szkla.pl##.jqmWindow
 swiatbaterii.pl##.baner3
 swiatdronow.cupsell.pl###shop_newsletter, .simplemodal-overlay
@@ -3176,11 +3172,10 @@ wakacje.pl##.curtainFull, #newsletterLb, .exitPopup
 wakacjezprocentem.pl##.playfair
 wakacyjnapolisa.pl##.wakacyjna-underlay, #ouibounce-modal
 walutomat.pl##.wt-response-modal
-warsztatogrodnika.pl###iqitpopup, .showed-iqitpopupo
 waze.com#?#.wz-popup-overlay:-abp-has(div > h3)
 wearmedicine.com#?##cboxLoadedContent:-abp-has(#nlPopup)
 webcamera.pl###exit-intercept
-wego.here.com##.active.fullBanner
+wego.here.com##.fullBanner
 westwing.pl##.sl
 whitervbbit.com###newsletter_background, #newsletter_wrapper
 widoczni.com##.leavedocumentlayer
@@ -3237,7 +3232,7 @@ zielonyogrodek.pl###newsletter-pp
 zielonyogrodek.pl##.popup-welcome
 zimorodek.pl##.body-layer
 zlota7.pl##.moModal
-zlotemysli.pl##._form_show._form-wrapper
+zlotemysli.pl##._form-wrapper
 zmianywzyciu.pl###popup_facebook
 zpierwszegotloczenia.pl###popup-ad, .modal-backdrop
 zszywka.pl###inv-request-popup
