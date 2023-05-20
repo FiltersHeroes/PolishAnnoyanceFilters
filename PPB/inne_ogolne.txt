@@ -10,6 +10,10 @@
 ~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
+pl##.csocial-link[href*="olx.pl"]
+pl##.csocial-link[href*="otomoto.pl"]
+~pl##.csocial-link[href*="olx.pl"]:lang(pl)
+~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 pl###acwp-toolbar-btn
 pl###allecomments_clips
