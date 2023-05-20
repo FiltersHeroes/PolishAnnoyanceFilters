@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 18 May 2023, 17:30 UTC+02:00
-! Version: 2023.5.18.0
+! Last modified: Sat, 20 May 2023, 14:45 UTC+02:00
+! Version: 2023.5.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 18 maj 2023, 17:30 UTC+02:00
+! Aktualizacja: sob, 20 maj 2023, 14:45 UTC+02:00
 !
 !
 !
@@ -99,7 +99,7 @@ agro-rolnik.pl##[href="https://www.olx.pl/oferty/uzytkownik/1MY2N/"]
 agroalex.pl,dlaroslin.pl,shopsisters.eu##.hotinfo_top
 agrohandler.pl##.storderpopup
 agroma-poznan.pl###panel2, #panel13, #panel14
-agroperfekt.pl##.js-marquee-wrapper, #li:nth-of-type(4), #li:nth-of-type(5)
+agroperfekt.pl##.js-marquee-wrapper
 agrospec.pl##.configMessages__footer.configMessages
 ahe.lodz.pl###wysuwane7, #wysuwane2
 airly.eu##.app__map-container > .map-container > .map-container__onet
@@ -202,7 +202,7 @@ bigbrother.tvn.pl##.__ipPerunElement[style*="position"]
 bikeboard.pl###magazine-btn
 bilbordy.info,unitrailer.pl###tab
 biomak.eu###leaselinkSlideButton1
-bissole.pl##.last.first.in-menu-second-switch.near-logo-first-switch.show-on-desktop.email.mini-contacts
+bissole.pl##.email.mini-contacts[href*="#bottom-bar"]
 bithub.pl##.st-comment
 bitland-b2c.platforma.ab.pl###rightBoxes
 biuroprasowe.play.pl##.floating-icon
@@ -873,7 +873,7 @@ pup.gliwice.pl,puplegnica.pl###accessKeys
 pytamy.pl##.fixFooter
 pytanienasniadanie.tvp.pl##.stream-button
 pzw.org.pl###body_google_play
-radio17.pl##.android-app-dialog
+radio17.pl##.sidebar-container
 radiobonton.pl##.hidden-xs.offbox-position-right.radio-play.offbox-radio
 radiopogoda.pl##.gra-pobierz_aplikacje
 radiozet.pl##.react.poll.embed
@@ -1148,6 +1148,8 @@ zyciepabianic.pl##.paper
 ###grw_sidebox
 ##.circle-cursor
 ##[class="cursor"]:empty
+~pl##.csocial-link[href*="olx.pl"]:lang(pl)
+~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
 ~pl##.mraty-widget:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
@@ -1178,6 +1180,8 @@ pl###wpd-bubble-wrapper
 pl###ZakladkaNewsletterOkno
 pl##.a11y-toolbar-list
 pl##.bilet
+pl##.csocial-link[href*="olx.pl"]
+pl##.csocial-link[href*="otomoto.pl"]
 pl##.floating-yt-player
 pl##.freeShipping
 pl##.header-back-link
