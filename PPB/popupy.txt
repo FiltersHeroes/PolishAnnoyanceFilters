@@ -346,7 +346,7 @@ girya.com.pl###popupanything
 gizchina.com.pl,selectivv.com##.popmake
 glas-hit.pl##.baner_przedni
 godealla.pl###coupon-groupon, #coupon-groupon-overlay
-goldbroker.pl##div:nth-of-type(9)
+goldbroker.pl#?#body > div:last-child:-abp-has(> div[style*="z-index"][style*="fixed"])
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
 goliard.pl##.bannerBg
 goodie.pl###video-banner-modal
