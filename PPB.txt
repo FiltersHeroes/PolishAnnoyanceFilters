@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 19 May 2023, 14:31 UTC+02:00
-! Version: 2023.5.19.0
+! Last modified: Sat, 20 May 2023, 14:34 UTC+02:00
+! Version: 2023.5.20.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 19 maj 2023, 14:31 UTC+02:00
+! Aktualizacja: sob, 20 maj 2023, 14:34 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2599,7 +2599,7 @@ gizchina.com.pl,selectivv.com##.popmake
 glas-hit.pl##.baner_przedni
 godealla.pl###coupon-groupon, #coupon-groupon-overlay
 godealla.pl,mpolska24.pl,wakacjezprocentem.pl##.overlay
-goldbroker.pl##div:nth-of-type(9)
+goldbroker.pl#?#body > div:last-child:-abp-has(> div[style*="z-index"][style*="fixed"])
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
 goliard.pl##.bannerBg
 goodie.pl###video-banner-modal
@@ -3553,7 +3553,7 @@ agro-factory2.eu,amfetamina.promo,choinkisztuczne.com,diavolo-meble.eu,historias
 agroas.pl##.to-the-top-link
 agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,clea.pl,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,sparta.com.pl,zaufanekliniki.pl###top-link
 agrofakt.pl##.go-down
-agrofakt.pl,badaniaprenatalne.pl,fn.org.pl,industra.pl,jaworzynakrynicka.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,robimytv.pl,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
+agrofakt.pl,badaniaprenatalne.pl,fn.org.pl,industra.pl,jaworzynakrynicka.pl,mas-sport.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,robimytv.pl,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
 agrohandel.com.pl,dietlux.pl,eljacht.pl,opgj.pl,pruszczgdanski.pl,resztamamy.pl,shindaiwa.pl,smart-power.pl##.tm-totop-scroller
 agrohandler.pl,betterland.pl,porcja.eu,strefaucznia.pl,swiece-zaplonowe.pl###to_top_wrap
@@ -3582,12 +3582,12 @@ aleo.com##p-scrolltop
 alergiapokarmowa.pl##.ct-totop
 aliexpress.com##.ui-fixed-panel-go-top
 alko-garden.pl###jumptotop
-alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
+alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,funnycase.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
 allegro.pl##button[data-analytics-interaction-label="scrollToTop"], button[title="Do góry"]
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
-allpaka.eu,eperfumy.pl,influencja.pl,pro-mask.pl,siapre.pl,sklep.druk-pak.com###do_gory
+allpaka.eu,asimexplus.com,eperfumy.pl,influencja.pl,pro-mask.pl,siapre.pl,sklep.druk-pak.com###do_gory
 alltube.tv##.fa-angle-double-up
-alphavit.pl,ambulans.com.pl,athleticsport.pl,cukieteria.pl,getinbank.pl,grajtanio.pl,gustaf.pl,itmarket.pl,mkgsm.pl,mojedekoracje.eu,motoledy.pl,pakuten.pl,siecobywatelska.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,trojmiasto.pl,unimet.pl,zoo365.pl###scroll_top
+alphavit.pl,ambulans.com.pl,athleticsport.pl,cukieteria.pl,getinbank.pl,grajtanio.pl,gustaf.pl,itmarket.pl,mkgsm.pl,mojedekoracje.eu,motoledy.pl,pakuten.pl,siecobywatelska.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,trojmiasto.pl,unimet.pl,zegarkisklep.com,zoo365.pl###scroll_top
 alter24.pl###page ~ div[id^="anb"]
 aluprof.eu##.sidebar__link--top
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,mall.pl,meblujesz.pl,morele.net,motoria.pl,panasonic-batteries.com,sklep-presto.pl,ubieramy.pl,whiteplate.com##.btn-back-to-top
@@ -3708,6 +3708,7 @@ borcas.eu##.scrollToTopPlugin
 borcas.eu##.scrollToTopPlugin_label
 bosch-extra.pl,extra-program.pl,fk-toys.pl,glovoapp.com##.to-top-button
 brandvital.eu,grobonet.com,grupaimage.eu,pl.gadget-info.com,programtv.naziemna.info,qnapclub.eu,rolety.eu,szpitalepomorskie.eu,techbite.eu###return-to-top
+brylant.net,eelsner.eu,lvlup.pro,mobbingwpracy.com,polskaniepodlegla.pl,siecprzedsiebiorczychkobiet.pl,zegarek.net##.scrollup
 brymorex.pl###top-button-ui
 bs.limanowa.pl##.block-arrow--small
 btcpolska.com##.show-top-button
@@ -3768,7 +3769,7 @@ czescizamienne.amica.pl##.sfa-scroll-top
 czytio.pl,jaw.com.pl###scrollTop-btn
 dakoma.com.pl##.spin-scroll-top
 damy-rade.info##.nav-up, .nav-down
-danrol-sklep.pl,ksiegarniamorska.pl,papiernicza.pl##.scroll-button
+danrol-sklep.pl,ksiegarniamorska.pl,papiernicza.pl,timetrend.pl##.scroll-button
 darent.net,netbiel.pl###scroll-top-top
 darkarea.pl###bttop
 darmowekontobankowe.org,mojelipsko.info,politycznapolska.info,polskacanada.com##.mh-back-to-top
@@ -3817,6 +3818,7 @@ e-kiosk.pl##.fixed-menu
 e-militaria.pl##.to_top_wrap
 e-sadownictwo.pl,gf24.pl,itee.pl,kosciolek.info,solispolska.pl,stempelek.info,wiadomoscipw.pl,wiesci.info.pl,wiwa.info.pl,www.kcez.pl,wysokomazowiecki24.pl##.sp-scroll-up
 e-szkolniak.pl,sklep.milicon.eu,sklepbaterie.pl,zmiksowani.pl,zrobisztosam.com###topLink
+e-zegarki.pl,tanio.co,vangraaf.com##.scroll-up-button
 ebay.pl##img[title="Przewiń na górę"]
 echodnia.eu##.scroll-back
 echomedia.info,przegladpiaseczynski.pl,slowopodlasia.pl,strzelce360.pl##.backtotop-btn
@@ -3824,7 +3826,6 @@ eclisse.pl##.top-page-scroll-button
 ecr.pl##.karma-scroll-top
 edgard.pl,pmsocho.com##.x-scroll-top
 edukatorek.pl###scroll-top-img
-eelsner.eu,lvlup.pro,mobbingwpracy.com,polskaniepodlegla.pl,siecprzedsiebiorczychkobiet.pl,zegarek.net##.scrollup
 eenergy.com.pl##.back-top-btn
 eko-asklepios.pl,forum.trojmiasto.pl,ithardware.pl##.go_top
 ekrak.pl###zltop
@@ -4105,7 +4106,7 @@ milmag.pl##.doScrollTop
 miloohome.pl###js-btn-gotop
 misjaangielski.pl##.ast-scroll-to-top-right
 mixit.pl###scroll-up-btn
-mmpartners.eu## .przewijak
+mmpartners.eu##.przewijak
 mobilneforum.pl###scrollblock
 mobilny-ranking.pl##.qodef-back-to-top-icon
 modernbusiness.com.pl##.luxento-goto-top
@@ -4134,6 +4135,7 @@ mustache.pl,www.mila.pl##.scroll-arrow
 mutti-jakoscbezkompromisow.pl,wyprobujdeveley.pl###btn-go-up
 muzeummw.pl##.site
 nagaba.pl###fixed_top
+najlepszekonto.pl##.footer__to-the-top
 napad.pl###ssRollTop
 naprzedwiosniu.waw.pl###zf--top-anchor-container
 nasz-gabinet.pl##.back-to-top-bttn
@@ -4173,7 +4175,7 @@ optinex.pl,rolnex.pl###btn_up
 organichouse.eu,podrogach.pl###ssttbutton
 osram.pl,pum.edu.pl##.jump-to-top
 ostredyzury.pl,zus.info.pl##.sm-up-container
-otoagent.pl##button[aria-label="scroll back to top"]
+otoagent.pl,targiehandlu.pl##button[aria-label="scroll back to top"]
 otoz.pl,tpnmm.pl##.goup
 ox.pl##.navIcons__scroll
 p2mforum.info###uix_jumpToFixed
@@ -4346,8 +4348,6 @@ tadar.pl##.menu_up
 takeda.com##.totop__wrapper
 tally-weijl.com##footer > button[class][style]
 tanikomputer.eu###rr_side_widget
-tanio.co,vangraaf.com##.scroll-up-button
-targiehandlu.pl##.MuiFab-primary
 tasmuj.pl##.sm-goTop
 tatuum.com##a.third-tkd-btn[href*="#"]
 tchibo.pl##.js-tp-backtotop
@@ -4384,7 +4384,6 @@ umebluje.pl###cs_bt_scroll_top
 umwelt-plakette.de###nachoben
 unilink.pl##.uptotop
 uroda.in##.trigger
-urticadzieciom.pl##.uk-grid.uk-flex-middle.uk-flex-inline
 valtra.pl##.sticky-footer__back-to-top
 vanpur.com.pl###scroll_arrow
 velux.pl###ReturnToTop
@@ -4455,12 +4454,8 @@ zalando.pl##.backToTopButton
 zalecane.pl##.g1-teaser
 zaufane-apteki.pl###btn-scroll-top
 zbudujforme.com.pl##.cmsmasters_theme_icon_slide_top
-zdrowie.pap.pl##.m13
-zdrowie.pap.pl#?#section ~ div:-abp-has(> svg[title="Do góry"])
 ziemkiewicz.info##.back-to-start
 znamlek.pl##.btnScroll
-zooplus.pl###btn-goTop
-zooplus.pl###topbutton
 zooplus.pl##button[data-zta="btn-goTop"]
 zszywka.pl###scroolToTop
 !
@@ -5551,7 +5546,7 @@ agro-rolnik.pl##[href="https://www.olx.pl/oferty/uzytkownik/1MY2N/"]
 agroalex.pl,dlaroslin.pl,shopsisters.eu##.hotinfo_top
 agrohandler.pl##.storderpopup
 agroma-poznan.pl###panel2, #panel13, #panel14
-agroperfekt.pl##.js-marquee-wrapper, #li:nth-of-type(4), #li:nth-of-type(5)
+agroperfekt.pl##.js-marquee-wrapper
 agrospec.pl##.configMessages__footer.configMessages
 ahe.lodz.pl###wysuwane7, #wysuwane2
 airly.eu##.app__map-container > .map-container > .map-container__onet
@@ -5654,7 +5649,7 @@ bigbrother.tvn.pl##.__ipPerunElement[style*="position"]
 bikeboard.pl###magazine-btn
 bilbordy.info,unitrailer.pl###tab
 biomak.eu###leaselinkSlideButton1
-bissole.pl##.last.first.in-menu-second-switch.near-logo-first-switch.show-on-desktop.email.mini-contacts
+bissole.pl##.email.mini-contacts[href*="#bottom-bar"]
 bithub.pl##.st-comment
 bitland-b2c.platforma.ab.pl###rightBoxes
 biuroprasowe.play.pl##.floating-icon
@@ -6325,7 +6320,7 @@ pup.gliwice.pl,puplegnica.pl###accessKeys
 pytamy.pl##.fixFooter
 pytanienasniadanie.tvp.pl##.stream-button
 pzw.org.pl###body_google_play
-radio17.pl##.android-app-dialog
+radio17.pl##.sidebar-container
 radiobonton.pl##.hidden-xs.offbox-position-right.radio-play.offbox-radio
 radiopogoda.pl##.gra-pobierz_aplikacje
 radiozet.pl##.react.poll.embed
@@ -6601,6 +6596,8 @@ zyciepabianic.pl##.paper
 ###grw_sidebox
 ##.circle-cursor
 ##[class="cursor"]:empty
+~pl##.csocial-link[href*="olx.pl"]:lang(pl)
+~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
 ~pl##.mraty-widget:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
@@ -6631,6 +6628,8 @@ pl###wpd-bubble-wrapper
 pl###ZakladkaNewsletterOkno
 pl##.a11y-toolbar-list
 pl##.bilet
+pl##.csocial-link[href*="olx.pl"]
+pl##.csocial-link[href*="otomoto.pl"]
 pl##.floating-yt-player
 pl##.freeShipping
 pl##.header-back-link
