@@ -3,6 +3,8 @@
 ###grw_sidebox
 ##.circle-cursor
 ##[class="cursor"]:empty
+~pl##.csocial-link[href*="olx.pl"]:lang(pl)
+~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
 ~pl##.mraty-widget:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
@@ -10,10 +12,6 @@
 ~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
-pl##.csocial-link[href*="olx.pl"]
-pl##.csocial-link[href*="otomoto.pl"]
-~pl##.csocial-link[href*="olx.pl"]:lang(pl)
-~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 pl###acwp-toolbar-btn
 pl###allecomments_clips
@@ -37,6 +35,8 @@ pl###wpd-bubble-wrapper
 pl###ZakladkaNewsletterOkno
 pl##.a11y-toolbar-list
 pl##.bilet
+pl##.csocial-link[href*="olx.pl"]
+pl##.csocial-link[href*="otomoto.pl"]
 pl##.floating-yt-player
 pl##.freeShipping
 pl##.header-back-link
