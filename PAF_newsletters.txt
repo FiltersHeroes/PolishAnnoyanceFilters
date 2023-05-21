@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Title: Polskie Filtry Elementów Irytujących - Newslettery
+! Title: 🇵🇱 Polskie Filtry Elementów Irytujących - Newslettery
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 14 May 2023, 22:30 UTC+02:00
-! Version: 2023.5.14.1
+! Last modified: Sun, 21 May 2023, 22:20 UTC+02:00
+! Version: 2023.5.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 14 maj 2023, 22:30 UTC+02:00
+! Aktualizacja: nie, 21 maj 2023, 22:20 UTC+02:00
 !
 !
 !
@@ -520,6 +520,7 @@ e-hotelarz.pl##form[onsubmit*="pwsSprawdzStronaGlownaBiuletyn"]
 e-insportline.pl##.lastbox
 e-irwin.pl##.footer .row > div:nth-of-type(4)
 e-kidsplanet.com###newsletterBanner > div
+e-konkursy.info,wittchen.com##.widget-newsletter
 e-korepetycje.net##.offer-sidebar-banner
 e-kwiaty.pl##.mnewsletter
 e-militaria.pl##.st_news_letter
@@ -905,6 +906,7 @@ krrit.gov.pl#?#.aktualnosci ~ div[class^="kontener"]:-abp-has(.newsletter-block)
 kruczek.pl##.post_mc_newsletter.mc_embed_signupm, #mc-embedded-subscribe-form
 krzywydomek.info###main > .row2.col1
 ks.pl###nwsltr.extnewsletter
+ks.pl##a[href*="#nwsltr"]
 ksiegarnia-edukacyjna.pl##.footer-newsletter__content-wrapper
 ksiegarnia.beck.pl##.newspopup_up_bg
 ksiegarniamorska.pl###blockEmailSubscription_displayFooterRight
@@ -1846,7 +1848,6 @@ wirtualnyspac3r.pl###footerGroupLayer_pl ~ #element_2218
 wiszniowka.pl##[id^="fm_form_"]
 witcherschool.com##.formularz
 wittchen.com###app-footer-newsletter
-wittchen.com##.widget-newsletter
 wizaz24.pl##.footer > div > div > div:nth-of-type(7) > h3, .footer > div > div > div:nth-of-type(7) > ul:nth-of-type(1)
 wkret-met.com##.block-simplenews.block
 wloczkiwarmii.pl###\#newslatter
