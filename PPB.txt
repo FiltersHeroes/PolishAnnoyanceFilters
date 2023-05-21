@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Title: Polskie Filtry Elementów Irytujących
+! Title: 🇵🇱 Polskie Filtry Elementów Irytujących
 ! Polish Annoyance Filters
 ! Codename: Annoyance - Main
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 21 May 2023, 17:30 UTC+02:00
-! Version: 2023.5.21.0
+! Last modified: Sun, 21 May 2023, 22:20 UTC+02:00
+! Version: 2023.5.21.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 21 maj 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 21 maj 2023, 22:20 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -521,6 +521,7 @@ e-hotelarz.pl##form[onsubmit*="pwsSprawdzStronaGlownaBiuletyn"]
 e-insportline.pl##.lastbox
 e-irwin.pl##.footer .row > div:nth-of-type(4)
 e-kidsplanet.com###newsletterBanner > div
+e-konkursy.info##.widget-newsletter
 e-korepetycje.net##.offer-sidebar-banner
 e-kwiaty.pl##.mnewsletter
 e-militaria.pl##.st_news_letter
@@ -906,6 +907,7 @@ krrit.gov.pl#?#.aktualnosci ~ div[class^="kontener"]:-abp-has(.newsletter-block)
 kruczek.pl##.post_mc_newsletter.mc_embed_signupm, #mc-embedded-subscribe-form
 krzywydomek.info###main > .row2.col1
 ks.pl###nwsltr.extnewsletter
+ks.pl##a[href*="#nwsltr"]
 ksiegarnia-edukacyjna.pl##.footer-newsletter__content-wrapper
 ksiegarnia.beck.pl##.newspopup_up_bg
 ksiegarniamorska.pl###blockEmailSubscription_displayFooterRight
@@ -3782,6 +3784,7 @@ dhl.com##.c-go-to-top-button
 dictionary.cambridge.org##.ctop
 digi-store.pl,techsat24.pl###buttonTop
 digitalvirgo.com,extrabukiet.pl,forum.budujemydom.pl,lispol.com##.fa-arrow-circle-up
+digitalx.pl,hauerpower.com,interaktywnie.com##.scroll-top-arrow
 disco-polo.info,meizupolska.pl##.toup
 dobramine.com##.to_top_link
 doleasingu.com,stalowa.info##.to-top-arrow
@@ -3926,7 +3929,6 @@ hairytale.eu,mo.pl,serwiskachniarz.pl,tajfuny.pl##.aux-goto-top-btn
 hanamipigments.eu###slide_panel54.return
 handen.pl##.mod_scrolltotop
 hangouts.google.com##div[class][style^="height"] + div[class][jsaction^="click"][style^="top"]
-hauerpower.com,interaktywnie.com##.scroll-top-arrow
 help.f-secure.com##a > img[alt="Go to top"]
 help.twitter.com##a[class*="_link"][href="#"]
 herbapol.krakow.pl###but_st_gora
@@ -4406,6 +4408,7 @@ wec.com.pl##.go2top
 weganon.pl##.button-to-top
 wgospodarce.pl##.js-btn-top.btn-top
 whatnext.pl###back-to-up
+wiadomoscihandlowe.pl##.scroll-up-box
 wielkahistoria.pl###johannes-goto-top
 wiesci.com.pl###divGoToTop
 wiktormeble.pl,znajdownik.pl###mt-scrollup
@@ -5492,6 +5495,7 @@ pl##.quickcontact-box
 ||tessa.com.pl/uploads/images/olx.png
 ||trustisto.com/socialproof.js
 ||twojsezam.pl/wp-content/uploads/*/*/*spot*$media,object
+||uniqueseo.pl/wp-content/uploads/2023/04/agencja-seo-sem-google-ads-reklama-facebook.png$image
 ||variatkowo.pl/wp-content/*/js/smoothscroll-*.js$script
 ||web.archive.org/web/*js_/https://addons-amo.cdn.mozilla.net/amo-*.js$script,domain=web.archive.org
 ||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
@@ -6025,7 +6029,7 @@ kolorowypokoik.pl##.sm-ceneo
 komorkomat.pl##.compare_widget_box, .single-post-inner .animated[href="https://komorkomat.pl/porownywarka/"]
 komorkomat.pl#?#.post-content h3:-abp-contains(> >>)
 komputery.cieszyn.pl###serwisbok
-komputronik.pl,kresy.pl,powiedzdietomnie.pl,spirulina.pl##.avia-post-nav
+komputronik.pl,kresy.pl,powiedzdietomnie.pl,spaceads.pl,spirulina.pl##.avia-post-nav
 kontigo.com.pl##.match-cosmetics-avatar
 konto.onet.pl###navright
 korzystneit.pl,shark.sklep.pl,sklep.milicon.eu###cartBox
