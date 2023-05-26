@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 22 May 2023, 21:30 UTC+02:00
-! Version: 2023.5.22.1
+! Last modified: Fri, 26 May 2023, 14:31 UTC+02:00
+! Version: 2023.5.26.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 22 maj 2023, 21:30 UTC+02:00
+! Aktualizacja: pią, 26 maj 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -145,6 +145,7 @@ allegro.pl#?#div[data-box-name^="allegro.marketing.consent" i]:-abp-has(> div > 
 almania.pl,glossyme.eu##.shb-newsletter-widget-1
 alsen.pl,kakto.pl##.m-footer_nsl
 aluprof.eu##.sidebar a[href="https://aluprof.eu/newsletter"]
+amazone.pl##.col-md-offset-3.col-md-4.col-sm-6
 amberexpo.pl##div.slide-out-div:nth-of-type(5) > .handle_fb
 amc.waw.pl##.footer h3:nth-of-type(3)
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,sklep-presto.pl,ubieramy.pl#?#.profile-section:-abp-has(> .newsletter ~ .newsletter-form)
@@ -277,7 +278,7 @@ blip.pl,chcemybycrodzicami.pl##.front-newsletter
 blog-daneosobowe.pl,ekorekta24.pl,labosport.pl,niezlasztuka.net,sprawyzdrowia.pl##.nksub_hidden .nks_cc_trigger_tabs
 blog.gdaq.pl,doktorania.pl,faktyozywnosci.pl,haart.pl,kryptopomocnik.pl,magnapolonia.org,naukatolubie.pl,obserwatorlogistyczny.pl,ostatniatawerna.pl,refreszing.pl,stomatologianews.pl###custom_html-2
 blog.goeste.pl#?#.elementor-widget-heading:-abp-contains(newsletter)
-blog.kurasinski.com,dlabiura24.pl,esklep.brandvital.eu,eventory.cc,hegos.eu,mazidla.com##.newsletter
+blog.kurasinski.com,dlabiura24.pl,esklep.brandvital.eu,eventory.cc,hegos.eu,lou.pl,mazidla.com,sklep.dalimex.pl,znak.com.pl##.newsletter
 blog.lh.pl#?#article.post > .entry-content > div:-abp-has(a[href="/newsletter/"])
 blog.mozilla.org,olesnica24.com,zamek-krolewski.pl###newsletter_form
 blog.spotawheel.pl,oknarolety.com###subscribe-form
@@ -322,7 +323,7 @@ buslapidus.pl,pasja-informatyki.pl##.widget_1
 butyjana.pl##.bjNewsletterText
 butyraj.pl##.hidden-phone.top_toplayer
 bydgoszcz.com,ct.jaworzno.pl,damitv.pl,e-widuchowa.pl,echotygodnik.info,kociewiak.pl,narew.info,pzl24.pl,telewizjazary.pl,tvobiektyw.pl,tvsudecka.pl,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:nth-of-type(1)
-byinsomnia.com,mniammniam.com,pl,r-gol.com,rylko.com,stoprocent.com##.newsletter-container
+byinsomnia.com,mniammniam.com,opakowania24.eu,pl,r-gol.com,rylko.com,stoprocent.com##.newsletter-container
 bytom.com.pl##[translate="main.footer.newsletter.header"]
 c-and-a.com##.footer__mail-form
 c-and-a.com##.util-visible-sm.util-add-margin-bottom-full.row
@@ -359,6 +360,7 @@ chatapolska.pl#?#a .yellow-bg:-abp-contains(e-mail i otrzymuj)
 chataskrzata.eu,genesis-zone.com,otwarte.eu##:not(#newsletter-overlay) #newsletter-box
 chcemybycrodzicami.pl##.single-post-newsletter-wrap
 checiny.pl###div_newsletter
+chillglobal.pl###tmpl-content-sortable_1196
 chlodnictwoiklimatyzacja.pl###left-in > .moduletable:nth-of-type(1)
 chocholowskietermy.pl##.wdform_section
 chocolissimo.pl##a[href="javascript:showNewsletterLayer();"]
@@ -649,6 +651,8 @@ florexpol.eu##.section--newsletter
 floribunda.pl###footer div.item:nth-of-type(4)
 flovery.pl###footgroup-newsletter
 focus.pl#?#.content-content.col-lg-9.col-md-8.col-sm-12 > div > div:-abp-has(> a[href*="newsletter"])
+foodarea.pl##.widget_custom_html
+foodarea.pl##div.has-background.alignfull.wp-block-group:nth-of-type(6)
 foodex24.pl##.layout__footer form[id*="subscribe-form"][action*="foodex24.pl/subscribe/send"]
 foodsbrothers.pl##.type_instagram.footer__top > div > .container > .row > div:nth-child(4) > aside > div > :not(:last-child)
 foodsbrothers.pl##.type_instagram.footer__top > div > .container > .row > div:nth-child(4) > aside > h3
@@ -695,6 +699,7 @@ gazetapowiatowa.pl###wysija-7
 gazetapraca.pl##.col-md-4:nth-of-type(14)
 gazetaprawna.pl,ikomunikaty.pl##.footerNewsletterContent label, .footerNewsL
 gazetasenior.pl#?#.fn-content > .fn-builder > p:-abp-has(> a[href*="/newsletter-gazeta"] > img)
+gazetawielicka.pl###text-35
 gazetkonosz.pl##.box:nth-of-type(2)
 gbsbank.pl##.newsletterFooter
 gdanskstrefa.com###blog_subscription-3
@@ -861,6 +866,7 @@ kaufland.pl##.m-teaser > .m-teaser__link[data-aa-pagename*="newsletter"]
 kaufland.pl##.o-form--footernewsletter
 kawerna.pl##.item-last.span4
 kayak.pl##[class^="Common-Frontdoor-EmailSubscriptionPanel"]
+kdk.pl##div.footer-bottom:nth-of-type(1)
 kiddyfave.com##.col-xs-12.col-sm-12.col-md-12 > h3, .subReqForm
 kidsb2b.pl##div.footer-box:nth-of-type(3)
 kierunekspozywczy.pl###sb-newsletter
@@ -1047,6 +1053,7 @@ meritum.gda.pl##.w234.fleft:nth-of-type(6)
 merlin.pl##.b-footer__icons-list
 meskarzecz.com#?##menu_buttons:-abp-has(.menu_button_wrapper .newsletter_form)
 metal-bud.eu##footer div.col-md-6:nth-of-type(2) > .row > div.col-md-6:nth-of-type(2)
+metalowiecsc.pl###Mod131 > .module-inner
 mi-home.pl###newsletter_block_left > div:nth-of-type(-n+2)
 mi.com##.span12.customer-relationship
 miastodzieci.pl##.pull-left > a[href="/zapisz"]
@@ -1060,6 +1067,7 @@ mimari.com.pl##body > div#contentWrapper
 mirat.eu,ursus.com##.box-newsletter
 misterminit.eu##.blue-banner .banner-wrapper h3, .blue-banner .banner-wrapper h3 + div > a
 mixmedia.pl,mycenter.pl##.b-footerNewsletter
+mksklep.pl##div.CalyBox:nth-of-type(7)
 mlodeasyparkietow.pl##.foot_tit, .foot_news_info
 mlodytechnik.pl##[href="/newsletter"]
 mmo.pl###newsletter_subscriber
@@ -1156,6 +1164,7 @@ netto.pl##.newsletter-subscription
 newcraft.eu##.block-subscribe
 newled.pl###footernewsletter
 newonce.net##.footer-desktop__newsletter-wrapper, .footer-desktop__right-side > h5.h5:nth-of-type(1)
+newsweek.pl##.pw-footer__top__links--newsletter
 newsweek.pl##.pw-newsletter
 newyorker.de##li > a[href="/pl/newsletter/"]
 niebezpiecznik.pl###text-3 > .widgettitle
@@ -1227,6 +1236,7 @@ oohmagazine.pl##div.widget_anthemes_video.widget:nth-of-type(3)
 opensecurity.pl,swiatoze.pl,terazprudnik.pl,zasnik.pl###mc-embedded-subscribe-form
 opera.pl##.prawyRegion > div.kontener1:nth-of-type(2)
 opinia-o-firmie.pl##footer .elp-widget
+opoltrans.com.pl##.right-footer-wrapper
 opornografii.pl##.article__newsletter
 optiva.pl##div.m_xs_bottom_30.m_bottom_50.col-sm-3.col-md-3.col-lg-3:nth-of-type(4)
 oracle.com##.cw21signup
@@ -1361,6 +1371,7 @@ poradnikogrodniczy.pl##.sidebar-menu > div.block:nth-of-type(4)
 poradybudowlane.com.pl###search2
 porcja.eu###footer-top-news
 porozmawiajmy.tv###text-36
+portal-sadownik.pl##div.box:nth-of-type(3)
 portalgames.pl##.columns.mimi-form.widget
 portalkryminalny.pl##footer > .container > div.row:nth-of-type(2) > div:nth-last-of-type(1)
 portalkryminalny.pl##h3:nth-of-type(11), .moduletable:nth-of-type(11)
@@ -1525,6 +1536,7 @@ skionline.pl##td:nth-of-type(2) > .boks:nth-of-type(3) > tbody
 sklep-agrohandel.pl##.footer_top_area
 sklep-elektron.com###newsletter-form
 sklep-milovia.eu###m_footer_bg
+sklep-nasiona.pl##.footer-stay-connected
 sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
 sklep.audiopunkt.com.pl###sec-newsletter > .banertab
 sklep.autopart.pl###newsletterPanel.abs-newsletter-panel
@@ -1581,6 +1593,7 @@ smyk.com###newsletter-link
 snowbitch.pl###emailNewsForm
 soczewki365.pl###footer > div.row:nth-of-type(2) > .col-md-5
 soczewki365.pl###jOverlayContent, #jOverlay
+soczko.pl##.subscribe_f
 sodexo.pl###content > #sg-form-row
 sofly.club##.newsletter-widget-1
 softekspert.pl##.left-block:nth-of-type(3)
@@ -1621,6 +1634,7 @@ stekro.pl##.stopka1
 stokrotka.pl##.swap.wdwl--banner-wrapper
 stolicawolnosci.pl##.foot-beam-full-color
 stopnop.com.pl##div.col:nth-of-type(1) > .footer-widget
+store.canon.pl##.primary-signup
 stosunki-miedzynarodowe.pl##.art-sidebar1 > .art-block
 stradivarius.com##.page-footer-news
 straz.gov.pl##.col-xs-10.col-sm-10.col-md-8.col-lg-3
@@ -1691,6 +1705,7 @@ telekarma.pl###footerInfo > .row div.box5:nth-of-type(3)
 telekarma.pl###footerInfo-newsletter
 telepolis.pl,tlp.is##footer > .footer-1 > .container > .row > .col-xl-3.col-12
 telepolska.pl###box_1
+teletropiciel.pl## .krotkie__zapytanie
 telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 telix.pl###mailster_signup-3
 telko.in##ul > li > .tip[data-tip="Biuletyny TELKO.in"]
@@ -1823,6 +1838,8 @@ webinsider.pl#?#h5:-abp-contains(Newsletter)
 websiteplanet.com##.sub-newsletter
 wegannerd.blogspot.com###HTML7
 wegeguru.pl##.bs-standard.home-header > div > .form.col
+wenahome.pl##.offer-bar--blue-to-red-gradient.offer-bar--shown.offer-bar
+wenahome.pl##div.footer__column:nth-of-type(5)
 weranda.pl##.newsletter-sign-block
 werandacountry.pl##div.gkmod-3.box:nth-of-type(1) > .header
 werandafamily.com##.home-nesletter
@@ -1965,6 +1982,7 @@ ztm.waw.pl#?#.home-cell-iztm.home-cell:-abp-has(a[href$="/#subscribe"])
 zus.pox.pl##.moduletable:nth-of-type(5)
 zus.pox.pl##div:nth-of-type(3) > center
 zwierciadlo.pl##.post.boksborder > aside.boxappla:nth-of-type(1)
+zycie.pl##div.icon-box:nth-of-type(4)
 zyciepabianic.pl###col1 > .widget:nth-of-type(3)
 zyciepabianic.pl###widget-newsletter
 !
@@ -5916,7 +5934,7 @@ github.com#?#h3:-abp-has(+ details > summary:only-child)
 gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
 global4net.com##.implementation-catalog
 globalna.info##.single-navigation[class*="post"]
-glossyme.eu###tm-widget-muskrat
+glossyme.eu,tanbiu.pl###tm-widget-muskrat
 godanparty.pl##.shipping-info
 godealla.pl###top-offers, .hand
 godstoys.pl##.master-loading-overlay
@@ -6031,6 +6049,7 @@ komputery.cieszyn.pl###serwisbok
 komputronik.pl,kresy.pl,powiedzdietomnie.pl,spaceads.pl,spirulina.pl##.avia-post-nav
 kontigo.com.pl##.match-cosmetics-avatar
 konto.onet.pl###navright
+kornik.com.pl###katalog-drzwi
 korzystneit.pl,shark.sklep.pl,sklep.milicon.eu###cartBox
 koscian.net##.wzf
 koszalin.pl##.region-infobar
@@ -6148,6 +6167,8 @@ moj.tauron.pl##div.promo-box[title^="Zobacz ofertę oczyszczaczy powietrza"][tit
 moja-gazeta.com.pl##.header-advertise
 mojataxi24.pl##h4#phone:nth-of-type(2) > .wiszacy
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
+mojebambino.pl##.baner
+mojebambino.pl##.widget-fast-navigation-container
 money.pl##.float.more-news
 moneygrabbing.co.uk###older-nav
 moneygrabbing.co.uk##.related-wrap
@@ -6548,6 +6569,7 @@ www.wp.pl##[class^="HomepageButton"]
 wyborcza.biz##.mod_swimmer
 wykop.pl##.text > p > cite:empty
 wylecz.to##.recommendedSideBox
+wyrobymennicze.pl##.gift_hover
 wysokieobcasy.pl##.bunny, .bunny-hp
 xgp.pl###hpb.hpb
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
@@ -6577,6 +6599,7 @@ zoo.torun.pl##div.torun-rp, .bip-rp
 zoo.wroclaw.pl##.sticky > li:nth-of-type(4)
 zrzutka.pl##.floating-apps
 ztm.gda.pl###mobile
+zut.com.pl###priceList
 zyciepabianic.pl##.paper
 !
 !
