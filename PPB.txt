@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 28 May 2023, 18:27 UTC+02:00
-! Version: 2023.5.28.2
+! Last modified: Sun, 28 May 2023, 21:12 UTC+02:00
+! Version: 2023.5.28.3
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 28 maj 2023, 18:27 UTC+02:00
+! Aktualizacja: nie, 28 maj 2023, 21:12 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3332,6 +3332,7 @@ pl##body:not(.x13popup-open) #x13popup-cover
 ||cdn.siteswithcontent.com/js/push/subscribe.js$script,domain=postimages.org|postimg.cc
 ||cdn.subscribers.com/assets/subscribers-sw.js$script,domain=badzjeszczelepszy.pl
 ||chamsko.pl/js/push-notifications.js
+||eurosport.tvn24.pl/batchsdk-worker-loader.js$script,domain=eurosport.tvn24.pl
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
 ||gstatic.com/firebasejs/*/firebase-app.js$script,domain=parkiet.com
 ||konin24.info/tmpl/js/push.min.js
@@ -3368,6 +3369,7 @@ ceneo.pl###notifications-toast
 chillizet.pl,radiozet.pl,~www.radiozet.pl##.btn-notif
 codziennypoznan.pl,ipolska24.pl##.perfecty-push-dialog-box
 ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:-abp-has(span:-abp-contains(/^Powiadomienia$/))
+eurosport.tvn24.pl###batchsdk-ui-banner
 folk24.pl###pushFooter
 gazetkonosz.pl##.floating-dialog
 homebook.pl###qgraphFakePromptContainer
