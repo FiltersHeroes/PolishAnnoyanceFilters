@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 28 May 2023, 17:30 UTC+02:00
-! Version: 2023.5.28.1
+! Last modified: Sun, 28 May 2023, 18:27 UTC+02:00
+! Version: 2023.5.28.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 28 maj 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 28 maj 2023, 18:27 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3444,15 +3444,15 @@ pl###pushwoosh-subscription-widget-root
 ||ppstatic.pl^*/plywajace_wideo.js
 !dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
 !dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
-~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]
+~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]
 16bit.pl##.crunchify-top
 35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
 agrii.pl###panel
 antyweb.pl##.post-header__video.v-wrapper
-aszdziennik.pl,bankier.pl,bryla.pl,czterykaty.pl,dadhero.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,innpoland.pl,kobieta.pl,mamadu.pl,medianarodowe.com,moto.pl,natemat.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to,zeberka.pl##div[id*="ONNP"].miniature div[id*="ONNP"][style*="fixed"]
+aszdziennik.pl,bankier.pl,bryla.pl,claudia.pl,czterykaty.pl,dadhero.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,genialne.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,innpoland.pl,kobieta.pl,mamadu.pl,medianarodowe.com,moto.pl,natemat.pl,pysznosci.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to,zeberka.pl###onNetworkContainer .miniature [style*="fixed"]
+aszdziennik.pl,bankier.pl,bryla.pl,claudia.pl,czterykaty.pl,dadhero.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,genialne.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,innpoland.pl,kobieta.pl,mamadu.pl,medianarodowe.com,moto.pl,natemat.pl,pysznosci.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to,zeberka.pl##.o-video-box__player .miniature [style*="fixed"]
+aszdziennik.pl,bankier.pl,bryla.pl,claudia.pl,czterykaty.pl,dadhero.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,genialne.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,innpoland.pl,kobieta.pl,mamadu.pl,medianarodowe.com,moto.pl,natemat.pl,pysznosci.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to,zeberka.pl##div[id*="ONNP"].miniature div[id*="ONNP"][style*="fixed"]
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl##.player-floating, .player-move-up
-bankier.pl,bryla.pl,czterykaty.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,medianarodowe.com,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to,zeberka.pl###onNetworkContainer .miniature [style*="fixed"]
-bankier.pl,bryla.pl,czterykaty.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,medianarodowe.com,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to,zeberka.pl##.o-video-box__player .miniature [style*="fixed"]
 beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##.vjs-minimized .video-js
 beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##div.sticky-container_sticky video-js
 bezpiecznystrazak.pl##.video_zminimalizowane
@@ -3464,6 +3464,7 @@ dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.videoScroll, .closeVideoBtn
 elle.pl,focus.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 eurosport.tvn24.pl##div.nuvi-video-wrapper.floating
+eurosport.tvn24.pl##div.picture-in-picture.fixed, div[data-testid="player-pip-active"]
 filmweb.pl##.isPinned.videoPlayer > .videoPlayer__container
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
@@ -4931,6 +4932,7 @@ eskk.pl##.ckontakt
 etoto.pl###sbChatMinimizedIdle
 eurobank.pl##.reviews
 euroelectronics.pl,kompan.pl,lanesta.eu##.b24-widget-button-wrapper
+eurosport.tvn24.pl##div[data-testid="share-icons"] > div[class*="title"] ~ div > span[data-social="whatsapp" i]
 eurotargetshow.pl##.chatContainer
 eventy-online.pl###phone-tag
 ewakacje.pl##.classNotesList_button
@@ -5931,6 +5933,7 @@ germany.travel##.popover-country
 getinbank.pl##.quickMenuRow.row
 getinbank.pl##.sticky-buttons__wrapper
 github.com##.gh-header .gh-header-sticky.is-stuck, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow
+github.com##.Subhead:has(> h2:only-child):has(+ a[href*="/commit/"])
 github.com##h3 ~ details > summary:only-child
 github.com#?#h3:-abp-has(+ details > summary:only-child)
 gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
