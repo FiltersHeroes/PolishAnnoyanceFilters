@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 26 May 2023, 17:30 UTC+02:00
-! Version: 2023.5.26.0
+! Last modified: Sun, 28 May 2023, 17:30 UTC+02:00
+! Version: 2023.5.28.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 26 maj 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 28 maj 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -123,6 +123,7 @@ al.to,combat.pl,x-kom.pl#?#footer[class*="footer"] > div[class*="sc-"]:nth-of-ty
 al.to,combat.pl,x-kom.pl#?#section > .row:-abp-has(> div.col-sm-6 > .typ-newsletter-button)
 alawar.pl##div.b-footer div.b-subscribe
 albatros.pl##.alb-newsletter
+albo24.pl##footer .call-to-action .card
 aldi.pl##.mod-newsletter-popup
 aldi.pl##.mod-newsletter-teaser
 aldrux.pl,qdecor.pl##.box:nth-of-type(4)
@@ -207,7 +208,7 @@ avans.pl##.b-main_newsletter
 avaro.pl##.smsapi-sidetitle
 avlab.pl#?#.elementor-cta:-abp-has(a[href*="/newsletter/"])
 awa24.pl##div[class^="stopka"] > div[class^="newsletter"]
-azbudownictwo.com,eglobalcentralpl.com,jogapiekna.com,media-tech.eu,reserved.com,sklep.ekotechnologia.eu,x-lander.com##.footer-newsletter
+azbudownictwo.com,eglobalcentralpl.com,futuryx.eu,jogapiekna.com,media-tech.eu,reserved.com,sklep.ekotechnologia.eu,x-lander.com##.footer-newsletter
 azdoc.pl##div.col-md-6.p-4:nth-of-type(2)
 azjatyckibazar.com##.site-footer__item-inner--newsletter
 azzun.pl##.site-footer__ezine-hld
@@ -680,6 +681,7 @@ fundacjajoannyradziwill.pl###custom_html-4 .custom-html-widget.textwidget > h4.w
 fundacjajoannyradziwill.pl###custom_html-4 a[href="//fundacjajoannyradziwill.pl/#newsletter"]
 fundacjawolnosci.org###email-subscription
 funnycase.pl###footer-top-newsletter
+futuryx.eu,i-meble.eu,outletarenamoravia.com,woblink.com###footer-newsletter
 gajusz.org.pl###bg-koperta
 galeria-warminska.pl##.nwsltr.box
 galeriakatowicka.eu##.footer-cta__newsletter
@@ -794,7 +796,6 @@ hydro.com.pl,mebline.ie##.newsletter-bg
 hygieia.pl##.footer-info div.grid_3:nth-of-type(3) > div.grid_3
 hykker.com##.widget_wysija
 hyperxgaming.com###email-signup-modal, .s-footer__email
-i-meble.eu,outletarenamoravia.com,woblink.com###footer-newsletter
 iautomatyka.pl##div.pfwidgetinner:nth-of-type(6), div.h2_belka:nth-of-type(5), #pf-footer-row > .pf-row > .mpc-column.col-md-3.col-lg-3.wpb_column:nth-of-type(2), .mailster-form
 iautomatyka.pl#?#.h2_belka:-abp-contains(Newsletter)
 ibrpolska.pl##.panel.widget-first.widget-1
