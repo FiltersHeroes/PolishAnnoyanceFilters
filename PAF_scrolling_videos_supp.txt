@@ -1,5 +1,4 @@
 ! Codename: Scrolling Videos - Supplement
-bankier.pl,bryla.pl,claudia.pl,czterykaty.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,medianarodowe.com,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to##+js(set, ONTVminiatureBlocked, trueFunc)
 bezpiecznystrazak.pl##+js(ra, autoplay, video)
 businessinsider.com.pl,fakt.pl,medonet.pl,onet.pl,plejada.pl,~poczta.onet.pl##+js(set, Object.prototype.isFloatingEnabled, false)
 dziennikzachodni.pl,echodnia.eu,naszemiasto.pl,nowiny24.pl,nto.pl##+js(aeld, scroll, xlinkEvent)
@@ -12,6 +11,7 @@ gamerweb.pl##.zox-video-embed-wrap .zox-vid-fixed:style(position: relative !impo
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important)
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 komputerswiat.pl,ofeminin.pl##+js(set, floatingPlayer.isFloatingEnabled, false)
+kozaczek.pl,papilot.pl##+js(set, Object.prototype.stickyEnabled, false)
 m.interia.pl##+js(aeld, /^(?:resize|scroll)$/, floatingPlayerEventHandler)
 meczyki.pl###vi-stories-main-container, #vi-stories-player-container:style(width: auto !important; height: auto !important)
 meczyki.pl###vi-stories-main-placeholder[class=""]
@@ -22,17 +22,16 @@ medianarodowe.com,parkiet.com,rp.pl##.linear-tv__iframe:style(position: static !
 onet.pl,~poczta.onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important)
 sportowefakty.wp.pl###randomplayer[class*="fixed"], #randomplayer[class*="fixed"] *:style(visibility: hidden !important)
 store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important)
-tokfm.pl##+js(set, gazeta_pl.Player.FloatingPlayer.floatPlayer, noopFunc)
 topagrar.pl##+js(aeld, scroll, [native code])
 wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important)
 !#if !env_mobile
-~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~pilot.wp.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
+~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~pilot.wp.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##+js(aeld, openFloatingPlayer, FloatingPlayer)
 !#endif
 !#if cap_user_stylesheet
 !
 !#endif
 !#if !cap_user_stylesheet
-~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]:style(visibility: hidden !important)
+~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]:style(visibility: hidden !important)
 !#endif
 !#if !ext_ublock
 infozdrowie24.pl#$#.miniplayer { position: absolute !important; transition: unset !important; }
