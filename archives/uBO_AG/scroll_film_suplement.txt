@@ -1,4 +1,4 @@
-!gazeta.pl,plotek.pl,sport.pl,tokfm.pl##+js(abort-on-property-read.js, gazeta_pl.Player.FloatingPlayer)
-!gazeta.pl,plotek.pl,sport.pl,tokfm.pl##+js(set-constant.js, ONTVshowMiniature, noopFunc)
-
-!infozdrowie24.pl##+js(set-constant.js, window.ONTVshowMiniature, noopFunc)
+!gazeta.pl,plotek.pl,sport.pl,tokfm.pl##+js(aopr, gazeta_pl.Player.FloatingPlayer)
+!gazeta.pl,plotek.pl,sport.pl,tokfm.pl,infozdrowie24.pl##+js(set, ONTVshowMiniature, noopFunc)
+bankier.pl,bryla.pl,claudia.pl,czterykaty.pl,domiporta.pl,dyskusje24.pl,edziecko.pl,gazeta.pl,haps.pl,infoladnydom.pl,infozdrowie24.pl,kobieta.pl,medianarodowe.com,moto.pl,sadeczanin.info,sport.pl,tokfm.pl,transfery.info,tuba.pl,ugotuj.to##+js(set, ONTVminiatureBlocked, trueFunc)
+tokfm.pl##+js(set, gazeta_pl.Player.FloatingPlayer.floatPlayer, noopFunc)
