@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 26 May 2023, 14:31 UTC+02:00
-! Version: 2023.5.26.0
+! Last modified: Sun, 28 May 2023, 17:20 UTC+02:00
+! Version: 2023.5.28.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 26 maj 2023, 14:31 UTC+02:00
+! Aktualizacja: nie, 28 maj 2023, 17:20 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -124,6 +124,7 @@ al.to,combat.pl,x-kom.pl#?#footer[class*="footer"] > div[class*="sc-"]:nth-of-ty
 al.to,combat.pl,x-kom.pl#?#section > .row:-abp-has(> div.col-sm-6 > .typ-newsletter-button)
 alawar.pl##div.b-footer div.b-subscribe
 albatros.pl##.alb-newsletter
+albo24.pl##footer .call-to-action .card
 aldi.pl##.mod-newsletter-popup
 aldi.pl##.mod-newsletter-teaser
 aldrux.pl,qdecor.pl##.box:nth-of-type(4)
@@ -681,6 +682,8 @@ fundacjajoannyradziwill.pl###custom_html-4 .custom-html-widget.textwidget > h4.w
 fundacjajoannyradziwill.pl###custom_html-4 a[href="//fundacjajoannyradziwill.pl/#newsletter"]
 fundacjawolnosci.org###email-subscription
 funnycase.pl###footer-top-newsletter
+futuryx.eu###footer-newsletter
+futuryx.eu##.footer-newsletter
 gajusz.org.pl###bg-koperta
 galeria-warminska.pl##.nwsltr.box
 galeriakatowicka.eu##.footer-cta__newsletter
@@ -2293,6 +2296,7 @@ akademos.pl###myModal, .reveal-modal-bg
 akson.pl###contactPopup
 akson.pl###eventPopup
 akwarysta.eu,dobrewychowanie.pl,pinka.pl###colorbox, #cboxOverlay
+albo24.pl##body > div:not([class]):not([id]) > div[class][style*="z-index"][style*="position"][style*="fixed"]
 aledobre.pl,mniammniam.com###universal-popup-wrapper
 aleleki.pl#?##fancybox-wrap:-abp-has(a[href="https://www.powerbiotic.pl/covid-19/"])
 aleleki.pl,florini.pl###fancybox-overlay
@@ -3588,6 +3592,7 @@ akademiabudowy.pl,al.to,annalovestravelspl.wordpress.com,asclepios.pl,avanttecno
 akardo.pl##.btn-scroll-up
 akariaryaca.com,domtuiteraz.eu,egger.com,gazetaolecka.com,gettinenglish.com,retailmarketexperts.com,sklepelektroniczny.com,wynalazca.tv,zamow.online##.back-top
 akonet.pl###up-href
+albo24.pl,awf.edu.pl,nbportal.pl###go-up
 aldi.pl##.mod-back-to-top
 aleksandrow-lodzki.pl,amus.pl,ap-goal.pl,campomoderngrill.pl,cryps.pl,curlymadeleine.pl,czesci-moto.pl,delikatesy.pl,drewmix.eu,euskadi.pl,evertourist.com,historia.org.pl,insoft.net.pl,jakzrobicwexcelu.pl,jestesmyrazem.org.pl,kettei.pl,ks.pl,kwiatemmalowane.pl,malygeniusz.org,mng.gda.pl,naturio.eu,nowyduninow.info.pl,ogniwo-znicze.pl,pizzeria-alforno.pl,pl.idcgames.com,pogorzale.pl,pogotowie-zamkowe.com.pl,polskie-cmentarze.com,powstaniewielkopolskie.pl,pragma.pl,pzszerm.pl,raportesg.allegro.pl,rozklad-pkp.pl,rozklad.pkp.pl,szansa-annopol.pl,szkolnastrona.pl,tube.ad,uniterra.pl,www.bialemurowanie.pl,wykryjangine.pl,zabki24.pl,zbigniewkielb.pulawy.pl##.go-top
 aleleki.pl,media-press.tv###back_to_top
@@ -3622,7 +3627,7 @@ aparaty-sluchowe.info,komputeria.eu###totop
 apartamenty.nawyspie.eu##.roll
 apo-discounter.pl###page_up_button
 apollo.pl##.tt-scroll-up
-apps-on-mac.com,elektrostymulatory.net,gorke.eu,hdtvpolska.com,kasta.news,kielce.eu,kopalniasrebra.com,ogrodniczy.com,pl.genesis-zone.com,polako.eu,szopienice.org,tablica.com,tacohemingway.store,twojcel.to##.go-to-top
+apps-on-mac.com,elektrostymulatory.net,futuryx.eu,gorke.eu,hdtvpolska.com,kasta.news,kielce.eu,kopalniasrebra.com,ogrodniczy.com,pl.genesis-zone.com,polako.eu,szopienice.org,tablica.com,tacohemingway.store,twojcel.to##.go-to-top
 appsource.microsoft.com##.appSourceScrollToTop
 aptekaolmed.pl###btn-going-top
 aptekazdrowie-24.pl,e-zikoapteka.pl##.site-scrolltop
@@ -3661,7 +3666,6 @@ avans.pl##.wf-arrow-circle-o-up
 avantea.pl,avenus.pl,dipol.com.pl,dpm.eu,junak.com.pl,karmello.pl,licencjefilmowe.pl,muovitech.com,papier99.pl,poettinger.at,sendgb.com,silesiaofficecenter.pl,spolkacywilna.info,zinkpower.com###gotoTop
 avaro.pl,kontri.pl,planplaneta.com###arrow_top
 avast.com###slide-top
-awf.edu.pl,nbportal.pl###go-up
 axeprim.eu,brytol.com,domel.com.pl,ekspert-nieruchomosci.com.pl,fanipogody.pl,fera.pl,gazetaslupecka.pl,gdanskstrefa.com,icyfrowypolsat.pl,ino-24.pl,itbiznes.pl,lincoln.edu.pl,meblosfera.pl,placesandplants.com,posbistro.com,radioopornik.eu,region24.pl,rrs24.net,skawina.eu,sluzby-ratownicze.pl,sp18.lublin.eu,sportdziennik.com,sportowiec.info,stalmielec.com,targowek.info,tarnobrzeg.info,techno-senior.com,tygodnikradomski.com.pl,wachtyrz.eu,wagrowiec-wydarzeniazostatniejchwili.pl,wbieszczady.pl,wiatrodyskretni.pl,wirtualnynowydwor.pl,wiskitki.org,wokolmotoryzacji.pl,zs12lublin.eu###scroll-up
 axtechnology.pl##.show_scroll
 b2b.metal-bud.eu,bat.pl,hmb.pl,sklep.elus.pl,wisko.eu##.go-to-top-ui
@@ -3669,6 +3673,7 @@ b2btrade.eu##.back-to-top-arrow
 baborow.pl###btn-totop
 balex.eu,budujemywuk.co.uk,polska.travel,powiatowa.info,radioznin.fm,tvnakarte.eu,zsckr.rzemien.eu###jm-back-top
 balterio.com,pergo.pl##.c-top
+bartfan.eu,hairytale.eu,mo.pl,serwiskachniarz.pl,tajfuny.pl##.aux-goto-top-btn
 bartyla.pl,biblioteka.bydgoszcz.pl,damskie.eu,holisticclinic.pl,jakpicwhisky.pl,kompleksowausluga.pl,zaflarscy.pl##.trx_addons_scroll_to_top
 baza-firm.com.pl###goTopArrow
 bdb.com.pl###powrotBT
@@ -3942,7 +3947,6 @@ gryna2.pl###back
 gsbk.pl##.scroll-link
 gunb.gov.pl##.slide-to-top
 gwarek.com.pl###nawigator
-hairytale.eu,mo.pl,serwiskachniarz.pl,tajfuny.pl##.aux-goto-top-btn
 hanamipigments.eu###slide_panel54.return
 handen.pl##.mod_scrolltotop
 hangouts.google.com##div[class][style^="height"] + div[class][jsaction^="click"][style^="top"]
@@ -5520,7 +5524,6 @@ pl##.quickcontact-box
 ||widgets.okazje.info.pl^$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
-!youtube.com##ytd-video-preview, #hover-overlays span
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content ~ div > style ~ div div > a[href^="/"]
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?##main-content ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
@@ -5573,6 +5576,7 @@ aktualnyodpis.pl###carq-iframe
 al.to,x-kom.pl#?#.mobile-app-alert:-abp-has(.app-details)
 alablaboratoria.pl###small-pop-up
 alawar.pl##.b-skin__push #actionBannerContainer.b-action-banner__container
+albo24.pl##.source-woocommerce.nx-notification.notification-item
 aldi.pl##.mod-cart__btn
 alkoholeswiata.com###right_toolbar
 allecco.pl,apteka-melissa.pl,aptekazawiszy.pl,nowafarmacja.pl,wapteka.pl##ins > div[id*="ulixes"], div#ulixes-paralaxa
@@ -5934,7 +5938,7 @@ github.com#?#h3:-abp-has(+ details > summary:only-child)
 gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
 global4net.com##.implementation-catalog
 globalna.info##.single-navigation[class*="post"]
-glossyme.eu,tanbiu.pl###tm-widget-muskrat
+glossyme.eu,stylion.pl,tanbiu.pl###tm-widget-muskrat
 godanparty.pl##.shipping-info
 godealla.pl###top-offers, .hand
 godstoys.pl##.master-loading-overlay
@@ -6620,6 +6624,7 @@ zyciepabianic.pl##.paper
 ~pl##.csocial-link[href*="olx.pl"]:lang(pl)
 ~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
 ~pl##.mraty-widget:lang(pl)
+~pl##.ratingBadgeWrapper:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="maps.google."]:lang(pl)
@@ -6659,6 +6664,7 @@ pl##.kac-sm-gmb
 pl##.llSlideButton
 pl##.mraty-widget
 pl##.polecamyBox
+pl##.ratingBadgeWrapper
 pl##.reklama-box
 pl##.rssocial-icons > li > a[href*="google.com/maps"]
 pl##.rssocial-icons > li > a[href*="google.pl/maps"]
