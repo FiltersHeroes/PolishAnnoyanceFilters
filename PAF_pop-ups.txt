@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Title: Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
+! Title: 🇵🇱 Polskie Filtry Elementów Irytujących - Wyskakujące Okienka
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 20 May 2023, 14:45 UTC+02:00
-! Version: 2023.5.20.1
+! Last modified: Sun, 28 May 2023, 17:20 UTC+02:00
+! Version: 2023.5.28.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 20 maj 2023, 14:45 UTC+02:00
+! Aktualizacja: nie, 28 maj 2023, 17:20 UTC+02:00
 !
 !
 !
@@ -182,6 +182,7 @@ akademos.pl###myModal, .reveal-modal-bg
 akson.pl###contactPopup
 akson.pl###eventPopup
 akwarysta.eu,dobrewychowanie.pl,pinka.pl###colorbox, #cboxOverlay
+albo24.pl##body > div:not([class]):not([id]) > div[class][style*="z-index"][style*="position"][style*="fixed"]
 aledobre.pl,mniammniam.com###universal-popup-wrapper
 aleleki.pl#?##fancybox-wrap:-abp-has(a[href="https://www.powerbiotic.pl/covid-19/"])
 aleleki.pl,florini.pl###fancybox-overlay
