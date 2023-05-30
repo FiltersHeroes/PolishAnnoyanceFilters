@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 30 May 2023, 23:00 UTC+02:00
-! Version: 2023.5.30.1
+! Last modified: Wed, 31 May 2023, 00:03 UTC+02:00
+! Version: 2023.5.31.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 30 maj 2023, 23:00 UTC+02:00
+! Aktualizacja: śro, 31 maj 2023, 00:03 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3543,6 +3543,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 51.75.43.155,aforyzmy-cytaty.pl###topBtn
 80dni.pl###backtotop_wpv
 123budujemy.pl,aptekarzpolski.pl,brandsit.pl,crast.net,eurowizja.org,francuskie.pl,inwestycje.pl,mediarun.com,motoklub.pl,petronews.pl,radio.lublin.pl,radiokielce.pl,skandynawiainfo.pl,slaskczyta.pl,tech2u.pl,wikilistka.pl##.jscroll-to-top
+123tlumacz.pl,reklamy-arek.pl###back-to-top-fixed
 51015kids.eu##.js--scroll-to-top
 a1komputery.pl,e-infonet.pl,fundacjadominikana.org,wp-piast.pl,wspkorczak.eu##.sp-totop
 aaparatysluchowe.com,cukiernia-danuta.pl,stalremdrzwi.pl,swiatbaterii.pl,thebat.com.pl##.right.czr-btta.czr-btt.btn
@@ -3646,7 +3647,7 @@ ashampoo.com,interhurt.eu,pl.kruk.eu##.backtotop
 asrock.com,buyblo.com,leyraa.blogspot.com,plustek.com###goTop
 astoreo.pl##.scrollButtons
 astra.pisz.pl,lencze.eu,pdm.pisz.pl,portalhodowcy.pl###nav_up
-asus.com,athleticsport.pl,bankier.pl,centrumelektroniki.pl,device.pl,e-konkursy.info,goldenmark.com,koelnerpolska.pl,m.gotowanie.onet.pl,rawlplug.com,sklepbiegacza.pl,teamquest.pl###goToTop
+asus.com,athleticsport.pl,bankier.pl,centrumelektroniki.pl,device.pl,e-konkursy.info,goldenmark.com,isystemy.pl,koelnerpolska.pl,m.gotowanie.onet.pl,rawlplug.com,sklepbiegacza.pl,teamquest.pl###goToTop
 asystentbhp.pl##.gototop-button.gototop
 atmp.pl,b2net.pl,elus.pl,encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl,telefon.info.pl###top
 auchan.pl##.button-go-top
@@ -4293,7 +4294,6 @@ redcoon.pl##.icon-i_arr_up
 redditch.pl###astroid-backtotop
 redosystem.com.pl##.scrollToDown
 refreszing.pl###gpToTop
-reklamy-arek.pl###back-to-top-fixed
 rexona.com##.c-back-to-top-cta
 ricoh.pl##.page-link-top
 rodzice.pl##.rehub_scroll
@@ -4706,12 +4706,12 @@ zooplus.pl##.type_banner[id*="top-marki"]
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
 123drukuj.pl###fc_widget
+123tlumacz.pl,adra.pl,espritshop.pl,przetargi.info###feedback
 1944.pl###rasaWebchatPro
 51015kids.eu###custom_trustbadge
 aaaauto.pl###site-bottom-bar-content > .smoothbox
 adaudio.pl###pinnedBottomRight
 adidas.pl,reebok.pl##.QSISlider
-adra.pl,espritshop.pl,przetargi.info###feedback
 aeg.pl,electrolux.pl,zanussi.pl##.website-feedback
 afrodytasalon.pl##.js--phone-button.ic-phone-button
 aftermarket.pl##.help-widget-invite, .help-widget-icon
@@ -5035,6 +5035,8 @@ inwestinfo.pl##.suggest-trigger
 irobot.pl###chat_floating_button
 isl.pl##.quick-actions
 ismserwis.pl###awesome-live-chat
+isystemy.pl##.chat-client-div-minimized
+isystemy.pl##.chat-client-div-send-message
 itlab.pl##.id-14.side-tab-widget
 jakwyjsczdlugow.pl##.btn-info
 jaw.com.pl###qcf-btn, #qcf-phone
@@ -5948,6 +5950,7 @@ godstoys.pl##.master-loading-overlay
 gomobi.pl##.blog-head
 goodair.pl###bestsellers_panel
 google.com,google.pl##iframe[src^="https://ogs.google.com/widget/callout?prid="], iframe[src^="https://ogs.google.pl/widget/callout?prid="]
+google.com,google.pl,one.google.com###google-hats-survey
 gorzow24.pl###nasze_serwisy
 gosc.pl##.fixedBottom
 gospodarkamorska.pl##.tb-gmtv
@@ -6254,7 +6257,6 @@ old.reddit.com,pl.reddit.com,www.reddit.com##.premium-banner-outer
 olx.pl##.favourites-bar
 ombre.pl###menu_buttons3 > .bxslider > li:nth-of-type(2)
 omega.om.pl##.right.ecp-button
-one.google.com###google-hats-survey
 online.citibank.pl##.call-to-action-bottom
 onlinezdrowie.pl###post-nav
 oohmagazine.pl##.festiwal_card_tab
