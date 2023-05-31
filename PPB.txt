@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 31 May 2023, 00:19 UTC+02:00
-! Version: 2023.5.31.1
+! Last modified: Wed, 31 May 2023, 21:30 UTC+02:00
+! Version: 2023.5.31.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 31 maj 2023, 00:19 UTC+02:00
+! Aktualizacja: śro, 31 maj 2023, 21:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3781,7 +3781,7 @@ cosmed24.pl##div#page ~ a#myBtn
 credit-suisse.com##.mod_scroll_to_top
 croatia.hr#?#.footer > .container > .row > .text-center.col-sm-12:-abp-has(.cd-top)
 ctb.com.pl,movieway.pl,oryginalnysmak.pl,phunetcom.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
-cyberplac.pl##.tg-scroll-to-top
+cyberplac.pl,swietawdomu.pl,wynajmijdostawczaka.pl###tg-scroll-to-top
 cyclonis.com,pantofelek24.pl###ScrollToTop
 czarodziejewspomnien.pl,hihome.pl###fount_to_top
 czeladz.pl,czerwionka-leszczyny.pl,powiatkepno.pl,psychologia.edu.pl,straz.gov.pl,tortydladzieci.pl,wetgiw.gov.pl,wkatowicach.eu###do-gory
@@ -4356,7 +4356,6 @@ swatt.pl##.gmfbtop
 swiat-agd.com.pl###up, #go_up
 swiatekspresow.pl###back_up
 swiatpodlog.com.pl,woprol.com.pl###scrolltotop
-swietawdomu.pl###tg-scroll-to-top
 szalonewalizki.pl###desert-back-top
 szarlatan.pl##.landing-back-top
 szczecin.prywatka.info,wsb.net.pl##.body-back-to-top
