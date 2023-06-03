@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 30 May 2023, 23:00 UTC+02:00
-! Version: 2023.5.30.0
+! Last modified: Sat, 03 Jun 2023, 17:30 UTC+02:00
+! Version: 2023.6.3.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 30 maj 2023, 23:00 UTC+02:00
+! Aktualizacja: sob, 03 cze 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -502,9 +502,7 @@ drogeriepolskie.pl##.footer-newsletter-area
 drogerium.pl##.newsletterek
 drogowskazykariery.pl##.module_column_5-11-3.module_column_3.tb_5_column.module_column.last.col4-1.tb-column
 dronexpert.eu##div.BoxRwdUkryj:nth-of-type(8)
-drtusz.pl#?#.infoBoxContents tr:-abp-has(> td > a[href*=".com/"][target])
-drtusz.pl#?#table.ramka_sklep table[width="98%"] table table.infoBoxContents_Box table table tr form[action="newsletters_subscribe_checkout.php"]
-drtusz.pl#?#table.ramka_sklep table[width="98%"] table table.infoBoxContents_Box table table tr h4:-abp-contains(na nasz newsletter)
+drtusz.pl##div.infoBoxHeading:nth-of-type(5), .smallText
 drzwicallublin.pl#?#.wellcome-text:-abp-has(.contactForm)
 duka.com,lot.com##.is-newsletter
 dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
@@ -512,8 +510,6 @@ dwdomel.pl#?#div[class*="sto"]:-abp-has(form input[type="email"])
 dystronet.pl##.post > #gr-form
 dzieje.pl#?#.most-popular > .m40:-abp-has(> .block-newsletter)
 dziennikprawny.pl##footer > div.container > div.row > div[class]:nth-of-type(3)
-dziennikprawny.pl#?#.justify-content-center.row:-abp-has(h4:-abp-contains(Newsletter))
-dziennikprawny.pl#?#section > .g-bg-secondary:-abp-has(h2:-abp-contains(Newsletter dla konsumenta))
 dziennikzbrojny.pl##.columns.four
 dziewczynynapolitechniki.pl##.col-sm-3:nth-of-type(3)
 e-clarena.eu###zapisz_newsletter_box
@@ -609,7 +605,7 @@ eszyneczka.pl###block_4 > #down > .container > .row > div:nth-of-type(5)
 et.com.pl##.column > #be
 etam.pl##.footer_nsw
 etsy.com##.not-signed-in.subscribe-form
-etuo.pl##.footer__col--join-newsletter
+etuo.pl##.footer__col--join-newsletter, #section.sec--home.sec:nth-of-type(6)
 eu.dlink.com##.newsletter-sign-up__container.container
 euh-e.edu.pl###sp-bottom3
 eura7.com,pl.malwarebytes.com###newsletter-signup
@@ -1761,6 +1757,7 @@ twojcel.to###footer-column-1 > .column-inner
 twojekwiaty.pl###newsletter-wrap > .newsl-wrap > *
 twojemeble.pl#?#.footer-menu-col:-abp-has(> .newsletter-homepage)
 twojeobuwie.pl##a[href*="twojeobuwie.pl/newsletter.php"] > img
+twojsklep.pima-agro.pl##.newsletter > .row
 tygodnik-rolniczy.pl##.sidebar > a[href="/newsletter/new/"]
 tygodnikdzialdowski.pl##.size-33.g-block:nth-of-type(3)
 tygodnikprzeglad.pl###sidebar > .widget.widget-2
@@ -1976,6 +1973,7 @@ zlotoryjska.pl##a[href="/newsletter.html"]
 znak.com.pl###subBox, #subBoxMini
 znak.com.pl##footer .newsletter
 zooart.com.pl##.z_leftnewsletter
+zooplus.pl##.Newsletter-module_newsletterBackground__2bq52
 zrobtosam24.eu##.col-newsletter-box
 zryjzdrowocatering.com##.footer-contacts > .row > div:nth-child(2)
 ztm.waw.pl#?#.home-cell-iztm.home-cell:-abp-has(a[href$="/#subscribe"])
@@ -1985,6 +1983,7 @@ zwierciadlo.pl##.post.boksborder > aside.boxappla:nth-of-type(1)
 zycie.pl##div.icon-box:nth-of-type(4)
 zyciepabianic.pl###col1 > .widget:nth-of-type(3)
 zyciepabianic.pl###widget-newsletter
+zyxel.com###block-newsletter-footer
 !
 !
 ! Ogólne filtry
