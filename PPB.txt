@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 31 May 2023, 21:30 UTC+02:00
-! Version: 2023.5.31.2
+! Last modified: Sat, 03 Jun 2023, 14:31 UTC+02:00
+! Version: 2023.6.3.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 31 maj 2023, 21:30 UTC+02:00
+! Aktualizacja: sob, 03 cze 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3547,6 +3547,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 51015kids.eu##.js--scroll-to-top
 a1komputery.pl,e-infonet.pl,fundacjadominikana.org,wp-piast.pl,wspkorczak.eu##.sp-totop
 aaparatysluchowe.com,cukiernia-danuta.pl,stalremdrzwi.pl,swiatbaterii.pl,thebat.com.pl##.right.czr-btta.czr-btt.btn
+abonamenty.pl,agripel.pl,felixcom.net,lulek.tv,magicznyswiatksiazki.pl,naszekluski.pl,wszystkookotach.pl###scrollup
 acer-sj.pl,agro-las.com.pl,bkfwarszawa.com.pl,chaniewski.com.pl,ostroscwzroku.pl,poz-bud.com.pl,rolpolopalenica.pl,rozruch-startgum.pl,sklep-garbi-rol.pl,zelan.pl##.fixed-up
 acer.com##.btn--btt
 ach-te-internety.pl,applemania.pl###cenote-back-to-top
@@ -3567,7 +3568,6 @@ agmarprzewozy.pl,agrosklad.com.pl,lalorraine.pl,ppe.pl,smartpozyczka.pl##.toTop,
 agnieszkakudela.pl,annapoplawska.pl,drogeriekoliber.pl,enger.pl,globstory.pl,netcomit.pl,pgs.net.pl,photonrobot.com,pixers.biz,r-media.pl,studiooptyczne.tychy.pl,topmarkety.pl,usecryptmessenger.com###qodef-back-to-top
 agora.pl,alltronix.pl,pl.techinfus.com,pogotowie-komputerowe.org.pl,sklep.zielonyogrodek.pl##.up
 agrarius.eu,combat.pl,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatrust.ro,niezlomni.com,olympia-electronics.com,ono24.info,radioznin.fm,sempre.eu.com,wkret-met.com###backtotop
-agripel.pl,felixcom.net,lulek.tv,magicznyswiatksiazki.pl,naszekluski.pl,wszystkookotach.pl###scrollup
 agro-eko.com.pl##.scrollIcon
 agro-factory2.eu,amfetamina.promo,choinkisztuczne.com,diavolo-meble.eu,historiasportu.info,laptopy24h.com,linkhouse.co,medbestshop.eu,mywspieramy.org,ostrzegamy.online,pomaranczowa.eu,ponadograniczeniami.org,skup-laptopow.com,stsublimacja.org##.et_pb_scroll_top
 agroas.pl##.to-the-top-link
@@ -3580,7 +3580,7 @@ agrohandler.pl,betterland.pl,porcja.eu,strefaucznia.pl,swiece-zaplonowe.pl###to_
 agrojd.com,audioservice.com,dobresystemy.eu,domnowoczesny.com,dronefilmfestival.eu,empik.com,esklep.brandvital.eu,fantasy.ekstraklasa.org,fuchs.com,hakpol.info,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,nprofit.net,pk-invest.eu,pl.ecco.com,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com##.scroll-to-top
 agromasa.com,fotostori.es,koscian.net,neway.mobi##.totop
 agromer.pl##.page-top-button
-agroperfekt.pl,czemarol.pl,kwiaciarniahonoratka.pl,smolnik.com.pl,terfolbis.pl##.gotoup
+agroperfekt.pl,czemarol.pl,kwiaciarniahonoratka.pl,rolmaszbien.pl,smolnik.com.pl,terfolbis.pl##.gotoup
 agrosimex.pl##.vue-back-to-top
 agrosystems.pl##.footer-utilities-back
 agrotechnika.co,bravebeaver.pl,drobne.fm,giszowiec.org,justyna.kowalcze.eu,kalendarzonline.com,kasz-bus.info,nowicka-misiewicz.com,nowy-sacz.info,presta.eu.org,rankingkont.org,sledcza24.tv,zdrowyportal.org###topcontrol
@@ -3592,7 +3592,7 @@ akacja.eu,baltyk.com,biosmaak.nl,biuronet.com,blogspot.com,drzwionline.net,fajne
 akademia.nask.pl,gorzow.com,poczet.com,saferinternet.pl,sklep.lobos.pl,spaeden.pl###dogory
 akademiabudowy.pl,al.to,annalovestravelspl.wordpress.com,asclepios.pl,avanttecno.com,bnpparibas.pl,calypso.com.pl,cookies.bosger.com,curlymadeleine.pl,dorotasmakuje.com,dziecieceinspiracje.pl,ecbedzin.pl,emisja.tv,enut.pl,ewaszalkowska.com,fsgeek.pl,gerardroofs.pl,ginlong.com,gls-group.com,hushaaabye.pl,koty24.pl,kruchebabeczki.blogspot.com,kuchareczkamala.blogspot.com,kuchniamagdaleny.pl,kuchniaviki.blogspot.com,kulinarnamaniusia.pl,mpm.pl,mullerpolska.pl,musicboxtv.pl,officeshoes.pl,ogloszeniowa.pl,ostra-na-slodko.pl,ozonemask.pl,patabloguje.pl,pinkorblue.pl,powiatwodzislawski.pl,psy24.pl,spozywo.pl,tiktok.com,virustotal.com,vwbank.pl,w10inspiracjidookolaswiata.pl,wegannerd.com,wieteska.net,wszystkiemojebziki.pl,yerbanot.com##.to-top
 akardo.pl##.btn-scroll-up
-akariaryaca.com,domtuiteraz.eu,egger.com,gazetaolecka.com,gettinenglish.com,retailmarketexperts.com,sklepelektroniczny.com,wynalazca.tv,zamow.online##.back-top
+akariaryaca.com,domtuiteraz.eu,egger.com,gazetaolecka.com,gettinenglish.com,retailmarketexperts.com,sklepelektroniczny.com,warsztatowski.com,wynalazca.tv,zamow.online##.back-top
 akonet.pl###up-href
 albo24.pl,awf.edu.pl,nbportal.pl###go-up
 aldi.pl##.mod-back-to-top
@@ -3869,6 +3869,7 @@ esparto.pl##.clb-scroll-top
 espritshop.pl###scrollbutton
 essilor.pl##.ScrollTop
 estyl.pl##.js-button-go-top.c-button-go-top
+etuo.pl##.footer__scroll-top
 eur-lex.europa.eu##.EurlexTop
 euromilk.pl,speedomat.pl##.c-layout-go2top
 europa.eu##.btn-back-top
@@ -4420,7 +4421,6 @@ vwfs.pl##.c-back-to-top
 wabisabi-store.jp##.tt-back-to-top
 wabrzezno.com##.on.scroll-top
 wago.com##.scroll-hint
-wakacje.pl#?##__next > div > header ~ div:last-of-type:-abp-has(> span > svg)
 wasserman.eu##.ws-elevator-btn
 wbh.wp.mil.pl##.fi-arrow-up
 websiteplanet.com###new-vendor-scrolltop-button
