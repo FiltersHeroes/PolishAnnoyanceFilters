@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 28 May 2023, 17:20 UTC+02:00
-! Version: 2023.5.28.0
+! Last modified: Sun, 04 Jun 2023, 14:31 UTC+02:00
+! Version: 2023.6.4.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 28 maj 2023, 17:20 UTC+02:00
+! Aktualizacja: nie, 04 cze 2023, 14:31 UTC+02:00
 !
 !
 !
@@ -420,6 +420,7 @@ e-konferencje.pl,ekliniki.pl,lumarte.eu,milenium.pl##.ui-widget.ui-dialog, .ui-w
 e-kwiaty.pl###exitpopup-newsletter
 e-podlogi24.pl##div[id$="czater"] > div[id][class$="CzaterSheet"]
 e-podlogidrzwi.pl###infoPage
+e-sas.pl##.in.fade.modal
 e-skladnica.pl,skarbyroztocza.com###popup-sc1-exit
 e-spar.com.pl###modal-welcome
 e-spar.com.pl###modal-welcome[style] ~ .modal-backdrop
@@ -512,6 +513,7 @@ goldbroker.pl#?#body > div:last-child:-abp-has(> div[style*="z-index"][style*="f
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
 goliard.pl##.bannerBg
 goodie.pl###video-banner-modal
+gotowibezgotowkowi.pl##.pt-20.container.newsletter
 gpcodziennie.pl###JPO
 greenelka.pl###cfblb_modal
 growbox.pl###pf_bg, .pf_sub
@@ -1064,6 +1066,7 @@ tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
 ukrainoczka.pl##.lepopup-popup-container, .lepopup-popup-overlay
 unia.pl##.banerjpg
 unileverfoodsolutions.pl##.newsletter-dialog
+urticadzieciom.pl##.lepopup-popup-container
 userstyles.org##.overlay_background
 ustyle.pl###message-purchased
 uwodzenie.org###szabelski_startowa
