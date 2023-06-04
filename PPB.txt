@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 03 Jun 2023, 17:30 UTC+02:00
-! Version: 2023.6.3.1
+! Last modified: Sun, 04 Jun 2023, 14:31 UTC+02:00
+! Version: 2023.6.4.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 03 cze 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 04 cze 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2531,6 +2531,7 @@ e-konferencje.pl,ekliniki.pl,lumarte.eu,milenium.pl##.ui-widget.ui-dialog, .ui-w
 e-kwiaty.pl###exitpopup-newsletter
 e-podlogi24.pl##div[id$="czater"] > div[id][class$="CzaterSheet"]
 e-podlogidrzwi.pl###infoPage
+e-sas.pl##.in.fade.modal
 e-skladnica.pl,skarbyroztocza.com###popup-sc1-exit
 e-spar.com.pl###modal-welcome
 e-spar.com.pl###modal-welcome[style] ~ .modal-backdrop
@@ -2623,6 +2624,7 @@ goldbroker.pl#?#body > div:last-child:-abp-has(> div[style*="z-index"][style*="f
 goldenline.pl###fbRegisterDialog, .ui-widget-overlay
 goliard.pl##.bannerBg
 goodie.pl###video-banner-modal
+gotowibezgotowkowi.pl##.pt-20.container.newsletter
 gpcodziennie.pl###JPO
 greenelka.pl###cfblb_modal
 growbox.pl###pf_bg, .pf_sub
@@ -3175,6 +3177,7 @@ tygertenis.pl##.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, #overlay
 ukrainoczka.pl##.lepopup-popup-container, .lepopup-popup-overlay
 unia.pl##.banerjpg
 unileverfoodsolutions.pl##.newsletter-dialog
+urticadzieciom.pl##.lepopup-popup-container
 userstyles.org##.overlay_background
 ustyle.pl###message-purchased
 uwodzenie.org###szabelski_startowa
