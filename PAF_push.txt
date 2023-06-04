@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sun, 28 May 2023, 21:12 UTC+02:00
-! Version: 2023.5.28.0
+! Last modified: Sun, 04 Jun 2023, 21:30 UTC+02:00
+! Version: 2023.6.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 28 maj 2023, 21:12 UTC+02:00
+! Aktualizacja: nie, 04 cze 2023, 21:30 UTC+02:00
 !
 !
 !
@@ -24,6 +24,7 @@
 /firebase/subscribe.js$domain=czesciauto24.pl
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.fm|planeta.pl|radiozet.pl
 /rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
+/rtom-proxy/rtom/web-push/*$xhr,domain=www.brw.pl
 /snr-sw.js$script,domain=mediaexpert.pl|pl.kruk.eu
 /sw-push.js$script,domain=m.zapytaj.onet.pl|medonet.pl
 /sw-rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
