@@ -39,8 +39,6 @@ czyjnumerek.pl##.table-opinion div[class^="vote-"]:nth-child(odd):style(display:
 czyjnumerek.pl##.table-opinion:nth-of-type(1):not(:nth-last-of-type(1)) div[class^="vote-"]:nth-child(odd):style(transform: none !important)
 diki.pl##.popupBannerContainer
 diki.pl##body[style]:style(top: 0 !important)
-download.net.pl##dl > .date:style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important)
-download.net.pl##dl > .date:upward(dl):style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important)
 dziary.com##.ps-container:style(overflow: auto !important)
 dziary.com##.ps-scrollbar-y-rail
 e-monki.pl##.col_2 > p > img[src="images/emonki11.jpg"]:style(max-width: 100%; padding-top: 10px)
@@ -139,6 +137,8 @@ tysol.pl##.section_name.uppercase:style(font-size: 18pt !important)
 vod.tvp.pl###siteServiceDetal.playerOpened .playerContainer:style(margin-top: 30px !important)
 wamiz.pl##.nav-visible .main-wrapper, .nav-visible footer, .nav-visible header:style(filter: none !important)
 wandermap.net###sidebar[style]:style(max-width: 390px)
+web.archive.org##dl > .date:style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important)
+web.archive.org##dl:has(> .date):style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important)
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important)
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row > #contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important)
