@@ -34,7 +34,7 @@ czyjnumerek.pl##.table-opinion:nth-of-type(1):not(:nth-last-of-type(1)) div[clas
 diki.pl##.popupBannerContainer
 diki.pl##body[style]:style(top: 0 !important)
 web.archive.org##dl > .date:style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important)
-web.archive.org##dl > .date:upward(dl):style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important)
+web.archive.org##dl:has(> .date):style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important)
 dziary.com##.ps-container:style(overflow: auto !important)
 dziary.com##.ps-scrollbar-y-rail
 e-monki.pl##.col_2 > p > img[src="images/emonki11.jpg"]:style(max-width: 100%; padding-top: 10px)
