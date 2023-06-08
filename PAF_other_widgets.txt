@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 06 Jun 2023, 21:30 UTC+02:00
-! Version: 2023.6.6.0
+! Last modified: Thu, 08 Jun 2023, 21:47 UTC+02:00
+! Version: 2023.6.8.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 06 cze 2023, 21:30 UTC+02:00
+! Aktualizacja: czw, 08 cze 2023, 21:47 UTC+02:00
 !
 !
 !
@@ -136,6 +136,7 @@ antyweb.pl##header.header ~ div.wrapper > div[data-fetch-key*="PostProxy"] > div
 apis-sklep.pl##.cursor
 apkmirror.com###bottom-slider.apkm-timed-slider
 apkpure.com###ad-aegon-side
+app.bitly.com##.filters > button.orb-button:not(:has(+ .horizontal-layout.hide))
 applemobile.pl##.cactus-post-suggestion > .post-suggestion-content
 apptoyou.pl##.column.flex.bubble-r-container.floating-group.CustomElement.bubble-element > .clickable-element.row.flex.bubble-r-container.Group.bubble-element
 aprmedia.pl##.et_bloom_header_outer
