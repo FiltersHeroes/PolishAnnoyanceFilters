@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 08 Jun 2023, 21:47 UTC+02:00
-! Version: 2023.6.8.4
+! Last modified: Sat, 10 Jun 2023, 18:31 UTC+02:00
+! Version: 2023.6.10.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 08 cze 2023, 21:47 UTC+02:00
+! Aktualizacja: sob, 10 cze 2023, 18:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2374,6 +2374,7 @@ automotiveceeday.eu,pracodawcagodnyzaufania.pl###rstbox_3
 avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,musictoolz.pl,okularymarkowe.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu#?#div[id^="tws_i_"]:-abp-has(#toplayer_newsletter_popup, #toplayer_newsletter, #toplayer_newsletter_form, div[id^="tln"][id$="_wrap"])
 avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,okularymarkowe.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu###toplayer_newsletter_popup, #toplayer_newsletter
 avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu##div[id^="tln"][id$="_bg"]
+avon.pl#?#.dy-act-overlay.dy-modal-container:-abp-has(#newsletter-page)
 axa.pl##.welcome-popup
 azzun.pl##.js-popup.popup
 b4internet.pl###newsletter_container
