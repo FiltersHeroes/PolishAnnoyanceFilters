@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 11 Jun 2023, 23:40 UTC+02:00
-! Version: 2023.6.11.1
+! Last modified: Sun, 11 Jun 2023, 23:50 UTC+02:00
+! Version: 2023.6.11.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,23 +13,30 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 cze 2023, 23:40 UTC+02:00
+! Aktualizacja: nie, 11 cze 2023, 23:50 UTC+02:00
 !
 !
 !
 ! Specyficzne filtry
+!@ >>>>>>>> popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 /assets/application-$script,domain=ask.fm
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
+/compress/popupFacebook.js$domain=chamskie.pl|motywujemy24.pl
+/compress/popups/popupFacebook_normal.css$domain=chamskie.pl|motywujemy24.pl
 /css/jquery.fancybox.css$domain=fakro.pl|modrzewiowy-dwor.pl
 /js/jquery/plugins/fancybox/jquery.fancybox.js$domain=grawerton.pl|virgobooks.pl
 /js/popup.js$domain=grawitacyjny.pl|meblohaus.pl|mediaexpert.pl|multikurs.pl|slimebox.pl
 /media/system/js/modal.js$domain=gminamoszczenica.eu|nowawrzesnia.pl|perfectdating.pl
 /OneSignalSDKWorker.js$third-party,domain=tech2u.pl
 /plugins/easy-facebook-likebox/*$domain=tvkrosno.pl
+/pum-site-scripts-$domain=prezeska.pl|topplant.pl
+/pum-site-scripts.$domain=prezeska.pl|topplant.pl
+/pum-site-styles-$domain=prezeska.pl|topplant.pl
+/pum-site-styles.$domain=prezeska.pl|topplant.pl
 /sound/open.mp3$media,object,domain=info-przetargi.pl
-/wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
+/wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|thebodyshopclub.pl|webinsider.pl
 /wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js$domain=jednoslad.pl
-/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|kulturawplot.pl|magnapolonia.org|zbudujsamdom.pl
+/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|kulturawplot.pl|magnapolonia.org|shareinfo.pl|zbudujsamdom.pl
 /wp-content/plugins/layered-popups/js/script.min.js$domain=akademia-internetu.pl|dih.pl|influentiq.pl
 /wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=bobbyburger.pl|fenixmotors.com|plportal.pl|ticker.pl|tygodnikprzeglad.pl
 /wp-content/plugins/popup-builder/public/sound/*$media,object,domain=polska-ie.com
@@ -46,6 +53,7 @@
 ||audio.com.pl/media/jui/js/jquery.cookie.min.js
 ||autodoc.pl/ajax/popup/on_leave
 ||brilum24.pl/skins/user/rwd_shoper_1/js/remodal.min.js
+||brytol.com/wp-content/plugins/auto-fb-popup/assets/remodal.min.js
 ||call.novocall.co/v1/widgets$script,domain=krainawody.pl|pij-wode.pl
 ||centrumprasowe.pap.pl/cp/pl/ajax/popup/*$xmlhttprequest
 ||claritine.pl/static/js/image_gallery/jquery.colorbox.js
@@ -57,16 +65,19 @@
 ||doradcasmaku.pl/index/get-popup$xmlhttprequest
 ||duzekubki.pl/wp-content/plugins/woocommerce-mailchimp-discount/assets/js/jquery.magnific-popup.min.js
 ||ebrokerpartner.pl/js/frontend/modules/popup.js
+||galeriabronowice.pl/templates/gb/js/fancybox/jquery.fancybox.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/js/popups.js
 ||gazetatrybunalska.pl/wp-content/plugins/uji-popup/modal/jquery.modal.min.js
 ||getall.pl/modules/popup/$script,stylesheet,domain=pl
 ||grouponcdn.com/app/subscriptions/assets/email_zip_main_*.js
 ||grupazprmedia.net/*sport$subdocument,domain=sport.se.pl
 ||grupazprmedia.net/popup_$subdocument,domain=muratorplus.pl|se.pl
+||haart.pl/wp-content/plugins/popup-builder/public/js/Popup.js
 ||heuristic.pl/css/magnific-popup.css
 ||home-you.com/themes/hy/popup/jquery.popup.js
 ||ibuk.pl/public/desktop/js/contentJs/aapopup.js
 ||img.babsft.com/site/images/babylon10/translation/popupScript.js
+||inffuse-fbpopup.appspot.com/widget.html
 ||izigsm.pl/js/newsletterpop.js
 ||jednoslad.pl/wp-content/plugins/custom-fan-gate-plugin/css/style.css
 ||jsystems.pl/resources/js/modal.js
@@ -96,19 +107,25 @@
 ||regus.pl/Home/OnExitModal$xmlhttprequest
 ||rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||salaterka.pl/wp-content/plugins/optin-cat-personal-wp/assets/vendor/featherlight/release/featherlight.min.js
+||sat-charts.eu/js/fcbkpopup.js
 ||sklep.jack-wolfskin.pl/*/js/newsletter-modal-
 ||sklep.rms.pl/js/rms_copy_copy/popup.js
 ||sky-shop.pl/view/scripts/sweetalert/dist/sweetalert.min.js
 ||starter.net.pl/wp-content/plugins/modal-window/assets/css/style.min.css
 ||super-toys.pl/javascript/banner_popup.php
 ||superkoszyk.pl/media/nl_modal/js/delay1page.js
+||timeandwatches.pl/modules/mod_onscreen_facebook_likebox_popup/assets/js/jquery.colorbox-min.js
 ||v2.getall.pl/modules/popup/*$domain=skladaniekomputera.pl
 ||virgobooks.pl/modules/advancedpopupcreator/lib/fancybox/jquery.fancybox.transitions.js
+||webfrik.pl/script/popup-fb
+||webfrik.pl/widgets/popup/popup.min.js
 ||woblink.com/js/newsletterPopup.js
 ||wszystkookotach.pl/wp-content/plugins/popslide/assets/js/front.js
 ||wydawnictwokobiece.pl/wp-content/plugins/newsletter_popup//newsletter_popup.js
 ||wymarzonyogrod.pl/popup-newsletter/*
+||zalajkowane.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
 ||znak.com.pl/popupNewsletter$xmlhttprequest
+!@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
 !analizy.pl##.nl_toplayer.ui-widget.ui-dialog
 !asics.com,delphiautoparts.com,emecze.pl,kazimierzdolny.pl,meczenazywo.tv,meczlive.pl##.ui-widget.ui-dialog, .ui-widget-overlay
@@ -1132,12 +1149,15 @@ zszywka.pl###inv-request-popup
 !
 !
 ! Ogólne filtry
+!@ >>>>>>>> popupy_ogolne_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne_blokujace.txt
 .facebooklikepopup.
 /axnewsletter.js
 /newsletter-leads/*/jquery.simplemodal.js
 /plugins/facebook-fanbox-popup
 /plugins/facebook-page-promoter-$~image,~stylesheet
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
+/wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
+/wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
 /wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 ||a.mailmunch.co/app/$script,third-party
@@ -1151,6 +1171,7 @@ zszywka.pl###inv-request-popup
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||salesmanago.pl/dynamic/*/popups.js
 ||widget.contactleader.pl^$script,third-party
+!@ <<<<<<<< popupy_ogolne_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne_blokujace.txt
 !@ >>>>>>>> popupy_ogolne + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
 !~pl###dzinga .overlay:lang(pl), #dzinga .popup:lang(pl)
 ~chcemybycrodzicami.pl,pl,~zblogowani.pl###ouibounce-modal
