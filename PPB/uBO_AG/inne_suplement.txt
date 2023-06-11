@@ -38,6 +38,8 @@ dziary.com##.ps-scrollbar-y-rail
 e-monki.pl##.col_2 > p > img[src="images/emonki11.jpg"]:style(max-width: 100%; padding-top: 10px)
 ebay.pl###desc_ifr:style(width: 100% !important)
 egami-image.com##form input:style(color: white !important)
+embed.reddit.com##a:has(shreddit-player):remove-attr(href)
+embed.reddit.com##shreddit-player:remove-attr(autoplay)
 eredaktor.pl##body:style(overflow-x: unset !important)
 facebook.com##div[class*="plugin"] video ~ div:not([id]):not([class]) a[href="/watch/?ref=external"]:upward(3)
 fandom.com###bodyContent ~ div[id^="siderail_"][id*="_gamepedia"]
@@ -52,8 +54,6 @@ forum.dobreprogramy.pl##.mobile-device div[class*="footer"] .emoji-picker[class*
 forum.dobreprogramy.pl##.mobile-device div[class*="footer"] div[class*="has"] ~ .emoji-picker-modal-overlay:style(background-color: var(--secondary) !important)
 gfmod.pl##+js(acis, snowfall)
 github.com##+js(ra, href, details > summary > a[href*="user-images"]:first-child, stay)
-embed.reddit.com##shreddit-player:remove-attr(autoplay)
-embed.reddit.com##a:has(shreddit-player):remove-attr(href)
 github.com##.convert-to-issue-button:matches-path(/FiltersHeroes)
 github.com##blockquote div[class*="highlight-"] pre:style(color: var(--color-fg-default) !important)
 github.com##body:has(.commit) :target:style(scroll-margin-top: 45px !important)
