@@ -44,6 +44,8 @@ dziary.com##.ps-scrollbar-y-rail
 e-monki.pl##.col_2 > p > img[src="images/emonki11.jpg"]:style(max-width: 100%; padding-top: 10px)
 ebay.pl###desc_ifr:style(width: 100% !important)
 egami-image.com##form input:style(color: white !important)
+embed.reddit.com##a:has(shreddit-player):remove-attr(href)
+embed.reddit.com##shreddit-player:remove-attr(autoplay)
 eredaktor.pl##body:style(overflow-x: unset !important)
 facebook.com##div[class*="plugin"] video ~ div:not([id]):not([class]) a[href="/watch/?ref=external"]:upward(3)
 fandom.com###bodyContent ~ div[id^="siderail_"][id*="_gamepedia"]
