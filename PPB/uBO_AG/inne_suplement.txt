@@ -52,6 +52,8 @@ forum.dobreprogramy.pl##.mobile-device div[class*="footer"] .emoji-picker[class*
 forum.dobreprogramy.pl##.mobile-device div[class*="footer"] div[class*="has"] ~ .emoji-picker-modal-overlay:style(background-color: var(--secondary) !important)
 gfmod.pl##+js(acis, snowfall)
 github.com##+js(ra, href, details > summary > a[href*="user-images"]:first-child, stay)
+embed.reddit.com##shreddit-player:remove-attr(autoplay)
+embed.reddit.com##a:has(shreddit-player):remove-attr(href)
 github.com##.convert-to-issue-button:matches-path(/FiltersHeroes)
 github.com##blockquote div[class*="highlight-"] pre:style(color: var(--color-fg-default) !important)
 github.com##body:has(.commit) :target:style(scroll-margin-top: 45px !important)
