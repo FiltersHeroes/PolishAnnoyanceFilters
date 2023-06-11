@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 11 Jun 2023, 23:40 UTC+02:00
-! Version: 2023.6.11.2
+! Last modified: Sun, 11 Jun 2023, 23:42 UTC+02:00
+! Version: 2023.6.11.3
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 cze 2023, 23:40 UTC+02:00
+! Aktualizacja: nie, 11 cze 2023, 23:42 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3268,8 +3268,6 @@ zszywka.pl###inv-request-popup
 /plugins/facebook-fanbox-popup
 /plugins/facebook-page-promoter-$~image,~stylesheet
 /wp-content/plugins/arscode-ninja-popups/js/ninjapopups.min.js
-/wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
-/wp-content/plugins/facebook-likebox-responsive-slider/templates/assets/js/facebook_likebox_slider.min.js
 /wp-content/plugins/wonderplugin-popup/engine/wonderplugin-popup-engine.js
 /wp-content/plugins/yeloni-free-exit-popup/common/loader.js
 ||a.mailmunch.co/app/$script,third-party
@@ -3283,6 +3281,15 @@ zszywka.pl###inv-request-popup
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||salesmanago.pl/dynamic/*/popups.js
 ||widget.contactleader.pl^$script,third-party
+pl###facebook-popup
+pl###fb-fan-pop
+pl###fb-fan-pop-background
+pl###fb_like_pop
+pl###fblikepop_ads
+pl###like_popup
+pl###popup-social-media
+pl##.facebook-bn_site-overlay
+pl##.facebook-popup
 !@ <<<<<<<< popupy_ogolne_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
 !@ >>>>>>>> popupy_ogolne + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
 !~pl###dzinga .overlay:lang(pl), #dzinga .popup:lang(pl)
