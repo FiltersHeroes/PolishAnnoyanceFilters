@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 10 Jun 2023, 18:31 UTC+02:00
-! Version: 2023.6.10.0
+! Last modified: Sun, 11 Jun 2023, 14:31 UTC+02:00
+! Version: 2023.6.11.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 10 cze 2023, 18:31 UTC+02:00
+! Aktualizacja: nie, 11 cze 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1007,6 +1007,7 @@ manorhouse.pl##.site-newsletter
 manta.com.pl##.col-md-6.news_right
 marbo-sport.pl###top_newsletter
 marcoshoes.eu##.footer_newsletter_form
+marketbio.pl##.item-newsletter.item
 marketingprzykawie.pl##.footerNewsleterContent, .footerNewsleterHeader, .toogleNewsletterBox
 marta-gotuje.pl##.pipdig_widget_subscribe
 martom-hurtownia.pl##.footer-top > div > .row > div:nth-of-type(2)
@@ -1065,6 +1066,7 @@ mirat.eu,ursus.com##.box-newsletter
 misterminit.eu##.blue-banner .banner-wrapper h3, .blue-banner .banner-wrapper h3 + div > a
 mixmedia.pl,mycenter.pl##.b-footerNewsletter
 mksklep.pl##div.CalyBox:nth-of-type(7)
+mlekovitka.pl##.block-newsletter
 mlodeasyparkietow.pl##.foot_tit, .foot_news_info
 mlodytechnik.pl##[href="/newsletter"]
 mmo.pl###newsletter_subscriber
@@ -3643,7 +3645,7 @@ apps-on-mac.com,elektrostymulatory.net,futuryx.eu,gorke.eu,hdtvpolska.com,kasta.
 appsource.microsoft.com##.appSourceScrollToTop
 aptekaolmed.pl###btn-going-top
 aptekazdrowie-24.pl,e-zikoapteka.pl##.site-scrolltop
-aquaelzoo.pl,kakadu.pl,ksiazka.uk,orsay.com##.material-scrolltop
+aquaelzoo.pl,kakadu.pl,ksiazka.uk,mlekovitka.pl,orsay.com##.material-scrolltop
 archiup.com,polskikoszyk.pl##.btn-scroll-top
 arenanarciarska.pl,euforiafestivals.pl,pizzeriapaccino.pl###goto-top
 arhn.eu###gp-to-top
@@ -5101,6 +5103,9 @@ lycamobile.pl###dragChat
 maczfit.pl###YLC
 mango.pl###chat-toggle
 mansys.org##body > jdiv
+marketbio.pl##.item-ceneo.item
+marketbio.pl##.item-google.item
+marketbio.pl##.item-trusted-shops.item
 masterlease.pl##.contact-form
 masterleasing.pl##.callus
 masterproject.pl##.trigger_popup_fricc
@@ -6124,6 +6129,8 @@ mamabezrecepty.pl##footer > .tips
 marax.eu###pierwsza_ikona, .vertical-button
 marbo-sport.pl###menu_basket_widget
 marenaspa.pl##.training, .reservation, .neighbourhood
+marketbio.pl##.qon-product-stats
+marketbio.pl#?##fixedBottom:-abp-has(#prodInfoContainer,.prices, .information)
 marketerplus.pl##.animateMe.magazynframe, .openmagazyn
 marketingdlaludzi.pl##.case-study-box
 materace-dla-ciebie.pl##.outlet-btn
