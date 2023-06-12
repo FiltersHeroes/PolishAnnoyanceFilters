@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 12 Jun 2023, 18:31 UTC+02:00
-! Version: 2023.6.12.1
+! Last modified: Mon, 12 Jun 2023, 23:35 UTC+02:00
+! Version: 2023.6.12.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 12 cze 2023, 18:31 UTC+02:00
+! Aktualizacja: pon, 12 cze 2023, 23:35 UTC+02:00
 !
 !
 !
@@ -127,6 +127,7 @@
 ||znak.com.pl/popupNewsletter$xmlhttprequest
 !@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!ekliniki.pl,lumarte.eu##.ui-widget.ui-dialog, .ui-widget-overlay
 !limonkowy.com##.ui-widget.ui-dialog, .ui-widget-overlay
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
@@ -330,6 +331,7 @@ change.shop.pl###popup-flex
 chemiabudowlana.info,mylomza.pl###fadeinbox
 chillglobal.pl##.bounceright-popup-acm.popup-acm
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
+chinytolubie.pl##div[data-gr="popup-container"]
 chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chopin.polskieradio.pl##div[class^="MarathonPopup_curtain_"]
@@ -427,7 +429,6 @@ ebizpro.pl###itro_opaco, #itro_popup
 edostawcze.pl##.popmake-overlay.pum-overlay.pum
 effective-english.pl###fm_popup_1
 eitalia.pl###facebox, #facebox_overlay
-ekliniki.pl,lumarte.eu##.ui-widget.ui-dialog, .ui-widget-overlay
 ekodrogeria.pl##.fancybox-overlay, .fancybox-wrap
 ekologia.pl##.parent-nlr, .parent-promote
 ekopolka.pl###pop-up
@@ -898,6 +899,7 @@ publicat.pl###newsletter-popup-form
 publicrelations.pl##.newsletter-signup
 pup.sosnowiec.pl###topbaner
 purellafood.pl##.popup-bg
+purina.pl##.ui-widget.ui-dialog, .ui-front.ui-widget-overlay
 quiosque.pl##.modals-wrapper
 raczynski-kominki.pl##.freecall_form
 raczynski-kominki.pl##.overlay_freecall
