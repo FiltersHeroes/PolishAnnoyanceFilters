@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 11 Jun 2023, 17:30 UTC+02:00
-! Version: 2023.6.11.0
+! Last modified: Mon, 12 Jun 2023, 23:51 UTC+02:00
+! Version: 2023.6.12.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 cze 2023, 17:30 UTC+02:00
+! Aktualizacja: pon, 12 cze 2023, 23:51 UTC+02:00
 !
 !
 !
@@ -43,6 +43,7 @@
 ||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
 ||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
 ||opera.com/en/downloadassets/sticky-bar-auto$subdocument
+||portalspozywczy.pl/js/postloader/*$script,domain=portalspozywczy.pl
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
 ||sklepreklamowy.pl/skins/user/shoper_red_1/images/user/franczyza-b.png
@@ -931,6 +932,7 @@ serwiswloclawek.pl##.et-visible.et_pb_side_nav
 sfd.pl##.search-cloud
 shareinfo.pl###install-button
 shipgratis.eu###soutez-wrapper
+shop-dent.pl##button.needsclick[style*="z-index"]
 siepisze.pl##.et_pb_code_inner
 sieradz.eu###site-loader
 siglo.pl##.lws-widget-container
