@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 12 Jun 2023, 21:30 UTC+02:00
-! Version: 2023.6.12.3
+! Last modified: Mon, 12 Jun 2023, 23:35 UTC+02:00
+! Version: 2023.6.12.4
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 12 cze 2023, 21:30 UTC+02:00
+! Aktualizacja: pon, 12 cze 2023, 23:35 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -156,6 +156,7 @@ amparts24.pl###i258
 amrest.eu###block-simplenews-1
 amso.pl###f_newsletter .f_form
 amw.com.pl##.footer-top__newsletter.footer-top__box
+analizy.pl##.footerFormWrapper
 analizy.pl##.nl-wrapper
 andrzejgrzyb.eu,todoandroid.es##.widget_newsletterwidget
 andzela.com##.newsletter_block_right
@@ -436,6 +437,7 @@ deccoria.pl##.dc-action-regiser-newsletter
 decoliving.pl,intymna.pl,ohso.pl##div.zwin.col-sm-3.footer-links.footer-widget:nth-of-type(3)
 defence24.pl,infosecurity24.pl,space24.pl##.newsletter-module__inner
 dekea.pl##div.mb40.mt40.row:nth-of-type(5) > .bg-grey.p20.col-md-4
+delphiautoparts.com##form .subscribe-form
 demagog.org.pl##.footer .mt-2.col-12
 demagog.org.pl,idream.pl##.main-newsletter
 deon.pl###region4 > .clear:nth-of-type(6), #region12 > .clear:nth-of-type(1)
@@ -980,6 +982,7 @@ lp.al.to,lp.x-kom.pl##.newsletter > div > div:nth-child(-n+2)
 lp.morele.net###moveToNewsletter
 luba-group.com##.footer-list > h6.title:nth-of-type(2), .footer-list > .oposite.theme-button-three
 lubimyczytac.pl##.footer__fixed.js-footer-fixed
+lumarte.eu###newsAnch
 luminosfera.pl,slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
 luxfood.pl###Left > .nyroModal:nth-of-type(1)
 luxmed-diagnostyka.pl##.newesletter-box
@@ -1375,8 +1378,10 @@ portalkryminalny.pl##footer > .container > div.row:nth-of-type(2) > div:nth-last
 portalkryminalny.pl##h3:nth-of-type(11), .moduletable:nth-of-type(11)
 portalpszczelarski.pl##.element.col-3-7
 portalsamorzadowy.pl##.news-box
+portalspozywczy.pl##.newsletter > .pageWidth > span:nth-of-type(1)
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(6)
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(6)
+portalspozywczy.pl##.v2.newsletter > .pageWidth > form
 portaltatrzanski.pl#?#.promoadv:-abp-has(.formModalNewsletter)
 posbistro.com##div[aria-label="Zapisz się na gastronomiczny NEWSLETTER"]
 poscielone.pl##.newsletter-forms
@@ -2239,6 +2244,7 @@ pl,~znak.com.pl##.newsletter-container
 ||znak.com.pl/popupNewsletter$xmlhttprequest
 !@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!ekliniki.pl,lumarte.eu##.ui-widget.ui-dialog, .ui-widget-overlay
 !limonkowy.com##.ui-widget.ui-dialog, .ui-widget-overlay
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
@@ -2442,6 +2448,7 @@ change.shop.pl###popup-flex
 chemiabudowlana.info,mylomza.pl###fadeinbox
 chillglobal.pl##.bounceright-popup-acm.popup-acm
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
+chinytolubie.pl##div[data-gr="popup-container"]
 chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chopin.polskieradio.pl##div[class^="MarathonPopup_curtain_"]
@@ -2539,7 +2546,6 @@ ebizpro.pl###itro_opaco, #itro_popup
 edostawcze.pl##.popmake-overlay.pum-overlay.pum
 effective-english.pl###fm_popup_1
 eitalia.pl###facebox, #facebox_overlay
-ekliniki.pl,lumarte.eu##.ui-widget.ui-dialog, .ui-widget-overlay
 ekodrogeria.pl##.fancybox-overlay, .fancybox-wrap
 ekologia.pl##.parent-nlr, .parent-promote
 ekopolka.pl###pop-up
@@ -3010,6 +3016,7 @@ publicat.pl###newsletter-popup-form
 publicrelations.pl##.newsletter-signup
 pup.sosnowiec.pl###topbaner
 purellafood.pl##.popup-bg
+purina.pl##.ui-widget.ui-dialog, .ui-front.ui-widget-overlay
 quiosque.pl##.modals-wrapper
 raczynski-kominki.pl##.freecall_form
 raczynski-kominki.pl##.overlay_freecall
@@ -3323,6 +3330,7 @@ pl##body:not(.x13popup-open) #x13popup-cover
 ||gstatic.com/firebasejs/*/firebase*.js$script,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
 ||gstatic.com/firebasejs/*/firebase-app.js$script,domain=parkiet.com
 ||konin24.info/tmpl/js/push.min.js
+||meczlive.pl/webpush.js$script
 ||mojeppk.pl/*/push-notifications/*firebase-config.json$xmlhttprequest,domain=mojeppk.pl
 ||ocdn.eu/ucs/static/*/build/js/pushModule.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|vod.pl
 ||onet.pl/push-mob-service-worker*.js$script,domain=onet.pl
@@ -3614,7 +3622,7 @@ antykikoneser.pl,lajkifb.pl,likefb.pl###jas-backtop
 antywirus.biz,bonturystyczny.polska.travel,gino-rossi.com,luba-group.com,motopoznan.com,nekla.eu,nesperta.com,nysa.eu,olgasmile.com,primark.com,restauracja.online,roto-frank.com,softelnet.com,urbanforms.org,wabrzezno.com,walerystasiak.com,warsawexpo.eu,wnt.com,zamawiaj.online##.scroll-top
 aparaty-sluchowe.info,komputeria.eu###totop
 apartamenty.nawyspie.eu##.roll
-aplikuj.pl,apteline.pl,bebiklub.pl,funnycat.pl,igkm.pl,itcontent.eu,piu.org.pl,quiosque.pl,selectivv.com##.scroll-top-button
+aplikuj.pl,apteline.pl,bebiklub.pl,funnycat.pl,igkm.pl,itcontent.eu,piu.org.pl,purina.pl,quiosque.pl,selectivv.com##.scroll-top-button
 apo-discounter.pl###page_up_button
 apollo.pl##.tt-scroll-up
 apps-on-mac.com,elektrostymulatory.net,futuryx.eu,gorke.eu,hdtvpolska.com,kasta.news,kielce.eu,kopalniasrebra.com,ogrodniczy.com,pl.genesis-zone.com,polako.eu,szopienice.org,tablica.com,tacohemingway.store,twojcel.to##.go-to-top
@@ -3937,6 +3945,7 @@ gwarek.com.pl###nawigator
 hanamipigments.eu###slide_panel54.return
 handen.pl##.mod_scrolltotop
 hangouts.google.com##div[class][style^="height"] + div[class][jsaction^="click"][style^="top"]
+hdmecze.com##a#btt.btn
 help.f-secure.com##a > img[alt="Go to top"]
 help.twitter.com##a[class*="_link"][href="#"]
 herbapol.krakow.pl###but_st_gora
@@ -5492,6 +5501,7 @@ pl##.quickcontact-box
 ||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
 ||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
 ||opera.com/en/downloadassets/sticky-bar-auto$subdocument
+||portalspozywczy.pl/js/postloader/*$script,domain=portalspozywczy.pl
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
 ||sklepreklamowy.pl/skins/user/shoper_red_1/images/user/franczyza-b.png
