@@ -254,6 +254,8 @@ lomilowka.pl###modalRazemRazniej, .modal-backdrop
 lubimyczytac.pl###modalAdv, .modal-backdrop
 lubimyczytac.pl###modalZoom
 lubimyczytac.pl###modalZoom ~ .modal-backdrop:not(:has(~ .modal-backdrop))
+lumarte.eu##.ui-widget-overlay:remove()
+lumarte.eu##.ui-widget.ui-dialog:remove()
 macris.com.pl##.noscroll:style(overflow: visible !important; position: relative !important)
 marchewkowepole.com###popup-modal, .modal-backdrop
 marketerplus.pl##body.is-reveal-open:style(overflow: auto !important)
@@ -554,6 +556,8 @@ cyberfolks.pl##^#myModalDomenowy
 diamante-wear.com##^.newsletter__popup
 drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl##^#modal-welcome
+ekliniki.pl##^.ui-widget-overlay
+ekliniki.pl##^.ui-widget.ui-dialog
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 intermarche.pl##^div[style="display:none"]:has(a[class="wplightbox"])
 it.tarnow.pl##^script:has-text(livingModal)
@@ -591,6 +595,8 @@ cyberfolks.pl$$#myModalDomenowy
 diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl$$#modal-welcome
+ekliniki.pl$$.ui-widget-overlay
+ekliniki.pl$$.ui-widget.ui-dialog
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
 it.tarnow.pl$$script[tag-content="livingModal"]
