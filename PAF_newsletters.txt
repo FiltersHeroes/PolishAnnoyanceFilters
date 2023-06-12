@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 11 Jun 2023, 17:30 UTC+02:00
-! Version: 2023.6.11.0
+! Last modified: Mon, 12 Jun 2023, 23:51 UTC+02:00
+! Version: 2023.6.12.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 cze 2023, 17:30 UTC+02:00
+! Aktualizacja: pon, 12 cze 2023, 23:51 UTC+02:00
 !
 !
 !
@@ -155,6 +155,7 @@ amparts24.pl###i258
 amrest.eu###block-simplenews-1
 amso.pl###f_newsletter .f_form
 amw.com.pl##.footer-top__newsletter.footer-top__box
+analizy.pl##.footerFormWrapper
 analizy.pl##.nl-wrapper
 andrzejgrzyb.eu,todoandroid.es##.widget_newsletterwidget
 andzela.com##.newsletter_block_right
@@ -435,6 +436,7 @@ deccoria.pl##.dc-action-regiser-newsletter
 decoliving.pl,intymna.pl,ohso.pl##div.zwin.col-sm-3.footer-links.footer-widget:nth-of-type(3)
 defence24.pl,infosecurity24.pl,space24.pl##.newsletter-module__inner
 dekea.pl##div.mb40.mt40.row:nth-of-type(5) > .bg-grey.p20.col-md-4
+delphiautoparts.com##form .subscribe-form
 demagog.org.pl##.footer .mt-2.col-12
 demagog.org.pl,idream.pl##.main-newsletter
 deon.pl###region4 > .clear:nth-of-type(6), #region12 > .clear:nth-of-type(1)
@@ -979,6 +981,7 @@ lp.al.to,lp.x-kom.pl##.newsletter > div > div:nth-child(-n+2)
 lp.morele.net###moveToNewsletter
 luba-group.com##.footer-list > h6.title:nth-of-type(2), .footer-list > .oposite.theme-button-three
 lubimyczytac.pl##.footer__fixed.js-footer-fixed
+lumarte.eu###newsAnch
 luminosfera.pl,slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
 luxfood.pl###Left > .nyroModal:nth-of-type(1)
 luxmed-diagnostyka.pl##.newesletter-box
@@ -1374,8 +1377,10 @@ portalkryminalny.pl##footer > .container > div.row:nth-of-type(2) > div:nth-last
 portalkryminalny.pl##h3:nth-of-type(11), .moduletable:nth-of-type(11)
 portalpszczelarski.pl##.element.col-3-7
 portalsamorzadowy.pl##.news-box
+portalspozywczy.pl##.newsletter > .pageWidth > span:nth-of-type(1)
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(6)
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(6)
+portalspozywczy.pl##.v2.newsletter > .pageWidth > form
 portaltatrzanski.pl#?#.promoadv:-abp-has(.formModalNewsletter)
 posbistro.com##div[aria-label="Zapisz się na gastronomiczny NEWSLETTER"]
 poscielone.pl##.newsletter-forms
