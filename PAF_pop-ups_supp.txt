@@ -155,6 +155,7 @@ ebroker.pl##.ngdialog-theme-popup-ebroker
 ecoxpress.pl###subscribe-now-modal, .modal-backdrop
 edulider.pl,fricke.pl###popup, .modal-backdrop
 ekai.pl##html > body:style(overflow: auto !important)
+ekliniki.pl###popup-message:remove()
 ekogram.pl##+js(set, Prestashop-x13popup_1, 1)
 ekoteka.pl###popUpModal:remove()
 ekoteka.pl,wpolu.pl###popUpModal, .modal-backdrop
@@ -544,6 +545,7 @@ zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 !#endif
 !#if cap_html_filtering
 !@ >>>>>>>> popupy_html + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_html.txt
+!ekliniki.pl##^#popup-message
 4kdownload.com##^.thanks-modal
 4kdownload.com##^.widget-modal
 alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
@@ -556,8 +558,6 @@ cyberfolks.pl##^#myModalDomenowy
 diamante-wear.com##^.newsletter__popup
 drzwi-cal.pl##^.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl##^#modal-welcome
-ekliniki.pl##^.ui-widget-overlay
-ekliniki.pl##^.ui-widget.ui-dialog
 homebook.pl##^script[id^="tpl-newsletter-popup"]
 intermarche.pl##^div[style="display:none"]:has(a[class="wplightbox"])
 it.tarnow.pl##^script:has-text(livingModal)
@@ -575,6 +575,7 @@ zoo.bydgoszcz.com##^#NewsShow
 !#endif
 !#if !ext_ublock
 !@ >>>>>>>> popupy_AG + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
+!ekliniki.pl$$#popup-message
 4kdownload.com##.remodal-overlay
 4kdownload.com##.remodal-wrapper:has(> .thanks-modal)
 4kdownload.com##body[style]:style(padding-right: 0 !important)
@@ -595,8 +596,6 @@ cyberfolks.pl$$#myModalDomenowy
 diamante-wear.com$$.newsletter__popup
 drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
 e-spar.com.pl$$#modal-welcome
-ekliniki.pl$$.ui-widget-overlay
-ekliniki.pl$$.ui-widget.ui-dialog
 homebook.pl$$script[id^="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
 it.tarnow.pl$$script[tag-content="livingModal"]
