@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 18 Jun 2023, 18:59 UTC+02:00
-! Version: 2023.6.18.1
+! Last modified: Mon, 19 Jun 2023, 14:31 UTC+02:00
+! Version: 2023.6.19.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 18 cze 2023, 18:59 UTC+02:00
+! Aktualizacja: pon, 19 cze 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3577,7 +3577,7 @@ alemeksyk.eu,armaturakrakowska.com,jakuby.eu,libertex.com,media-tech.eu,scyzoryk
 aleo.com##p-scrolltop
 alergiapokarmowa.pl##.ct-totop
 aliexpress.com##.ui-fixed-panel-go-top
-alko-garden.pl###jumptotop
+alko-garden.pl,pl.assmann.shop###jumptotop
 alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,funnycase.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
 allegro.pl##button[data-analytics-interaction-label="scrollToTop"], button[title="Do góry"]
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
@@ -3791,7 +3791,7 @@ domodi.pl##.dml-page-return
 domowa.pizza##.smoothup
 domowe-wypieki.pl,kuchnia-domowa.pl##.sunfw-scrollup
 domowefrytki.com,hulubrushes.com,twojlekarz.info##.generate-back-to-top
-domy-wysoka.pl,dziennikprawny.pl,politykabezpieczenstwa.pl,prawokonsumenckie.pl,rzetelnyregulamin.pl,sprzedambiznes.pl##.js-go-to
+domy-wysoka.pl,dziennikprawny.pl,politykabezpieczenstwa.pl,prawokonsumenckie.pl,rzetelnyregulamin.pl,side.com.pl,sprzedambiznes.pl##.js-go-to
 domzagadek.pl###scroll_strz
 doosanbabcock.com###dTop
 dopek.info,zenbox.pl##.scroll-page
@@ -4081,6 +4081,7 @@ mct.com.pl##.px-btn-to-top-fix
 mechanik-sc.pl##.abs-scroll-top
 mediaexpert.pl###sg_b > div.sg_arrow_up
 mediaexpert.pl,mediamarkt.pl##.scroll-btn.scroll
+medialove.pl###sns-totop
 mediamarkt.pl###js-scrollTopDesktop
 medicover.pl,rehasport.pl##.scrollTopArrow
 medonet.pl,ogrodmacieja.pl##.goToTop
@@ -4153,7 +4154,6 @@ obi.pl##.to-top-nav
 oc-spedytora.info##iframe[title="Back to Top"]
 odchudzanie.medicover.pl##.jumping
 oees.pl###iconup
-ogrodniczy.com##.btn.go-to-top
 okaidi.pl##.footer-top > .right-block
 okazje.eholiday.pl###bottom-newsletter
 oko-med.eu##.mediz-footer-back-to-top-button
@@ -4280,7 +4280,7 @@ samochody.pl###__next > div[class*="ToTop_totop_"]
 samsung.com##button[title="Go to Top"]
 santander.pl##.footer__scrollUpBtn--fixed
 savio.net.pl##.scrollup-button
-schiedel.com,zlotegory.com##.mk-go-top
+schiedel.com,weknowhow.tech,zlotegory.com##.mk-go-top
 scottiego.com###to_top_scrollup
 screamit.pl###div_go_top
 scroll.morele.net###scrollTop.scrollTop
@@ -4385,7 +4385,6 @@ volcano.pl##div.toolbar > .go-up > a[href="#"]
 vulcan.edu.pl###b_gora
 vwfs.pl##.c-back-to-top
 wabisabi-store.jp##.tt-back-to-top
-wabrzezno.com##.on.scroll-top
 wago.com##.scroll-hint
 wasserman.eu##.ws-elevator-btn
 wbh.wp.mil.pl##.fi-arrow-up
@@ -4393,7 +4392,6 @@ websiteplanet.com###new-vendor-scrolltop-button
 websyc.pl##.to-top-btn
 wec.com.pl##.go2top
 weganon.pl##.button-to-top
-wgospodarce.pl##.js-btn-top.btn-top
 whatnext.pl###back-to-up
 wiadomoscihandlowe.pl##.scroll-up-box
 wielkahistoria.pl###johannes-goto-top
