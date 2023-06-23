@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 23 Jun 2023, 02:31 UTC+02:00
-! Version: 2023.6.23.0
+! Last modified: Sat, 24 Jun 2023, 00:11 UTC+02:00
+! Version: 2023.6.24.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 23 cze 2023, 02:31 UTC+02:00
+! Aktualizacja: sob, 24 cze 2023, 00:11 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5344,6 +5344,8 @@ tunelefoliowe.eu##.my-float.fa-whatsapp
 turio.com.pl##.call-now-button
 tusponsor.pl###formWrapper
 tvokazje.pl###phone-webcallback
+tvs.pl##.messenger-share-btn
+tvs.pl##.viber-share-btn
 twojekwiaty.pl###motion-chat-iframe-tab
 ucando.pl##.call-us
 ukrainashop.com###oiOpinionWidget
@@ -5983,9 +5985,8 @@ ing.pl###get_ingmobile_app_wrapper
 inpost.pl###app-banner
 insomnia.pl##.ptw-articles.ptw-widget
 inspro.org.pl##.donate
-instagram.com###react-root > section > nav > div > div > section.xZ2Xk
-instagram.com#?##react-root > section > main + footer + div:-abp-has(> div > a[href^="https://play.google.com/store/apps/details?id=com.instagram.android"])
-instagram.com#?#.ZUqME:-abp-has(div:-abp-has(> a[href^="/accounts/login/"]) + div > a[href^="/accounts/emailsignup/"])
+instagram.com#?#section > main + footer + nav > div[class*=" "] > div[class*=" "]:-abp-has(div[class*=" "][role="button"]:-abp-contains(Pobierz aplikację))
+instagram.com#?#section > main + footer + nav > div[class*=" "] > div[class]:not([class*=" "]) > div[class]:not([class*=" "]) > div[class*=" "] > div[class]:not([class*=" "]) > div:not([class]) > div[class]:not([class*=" "]) > div[class*=" "][style*="width:"]:-abp-has(a[href^="/accounts/emailsignup/"])
 instalaton.pl###pd_cs_box
 instalhurt.sklep.pl,moto125.pl,sklephormann.pl,tylkostylowe.pl###widget_shop3
 instalki.pl##.plista_widget_slide
