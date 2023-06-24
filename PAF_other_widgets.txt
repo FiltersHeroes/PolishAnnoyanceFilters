@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 24 Jun 2023, 00:11 UTC+02:00
-! Version: 2023.6.24.0
+! Last modified: Sun, 25 Jun 2023, 00:16 UTC+02:00
+! Version: 2023.6.25.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 24 cze 2023, 00:11 UTC+02:00
+! Aktualizacja: nie, 25 cze 2023, 00:16 UTC+02:00
 !
 !
 !
@@ -1106,7 +1106,7 @@ www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##a[href^="/search?q="][href*="&uds="]
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
-www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div[class] > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
+www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
 www.onet.pl##div[class^="BackToMainPage_backToMainPage"]
 www.onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
