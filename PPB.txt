@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 26 Jun 2023, 02:31 UTC+02:00
-! Version: 2023.6.26.0
+! Last modified: Mon, 26 Jun 2023, 14:31 UTC+02:00
+! Version: 2023.6.26.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 26 cze 2023, 02:31 UTC+02:00
+! Aktualizacja: pon, 26 cze 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2276,7 +2276,7 @@ addhost.pl##.fsp-wrapper
 addons.opera.com,atcdevelopment.pl,bankobranie.blogspot.com,bobbyburger.pl###overlay
 adeste.eu##.cp-direct-download-container
 admiraltax.pl##iframe[id][src*="popups.landingi.com/api/popups/"]
-adra.pl##.sgpb-popup-dialog-main-div-wrapper
+adra.pl,elus.pl##.sgpb-popup-dialog-main-div-wrapper
 adresy.um.warszawa.pl,mapa.um.warszawa.pl,ulice.um.warszawa.pl###init_info[style], #komunikat[style]
 adria-art.pl###overlay, .popup.newsletter
 agamasmaka.pl##.et_bloom_auto_popup.et_bloom_flyin
@@ -5345,6 +5345,7 @@ trec.pl##li > a[href="https://www.facebook.com/messages/t/sklepTrecPl"]
 trena.pl##.lc_chatbox
 trofeasportowe.com##.widget-allegro
 truckonline.pl##.tcc-pos-bl.tcc-widget
+tunelefoliowe.eu##.float
 tunelefoliowe.eu##.my-float.fa-whatsapp
 turio.com.pl##.call-now-button
 tusponsor.pl###formWrapper
