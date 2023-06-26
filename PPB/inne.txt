@@ -1044,7 +1044,7 @@ wsse-poznan.pl###pwebbox216_toggler
 www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
-www.google.com,www.google.pl##a[href^="/search?q="][href*="&uds="]
+www.google.com,www.google.pl##a[href^="/search?"][href*="q="]][href*="&uds="]
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
