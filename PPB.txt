@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 28 Jun 2023, 00:35 UTC+02:00
-! Version: 2023.6.28.1
+! Last modified: Wed, 28 Jun 2023, 00:42 UTC+02:00
+! Version: 2023.6.28.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 28 cze 2023, 00:35 UTC+02:00
+! Aktualizacja: śro, 28 cze 2023, 00:42 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5705,7 +5705,7 @@ cebit.pl,dowarsztatu.com,hitech.com.pl,sklep-drakpoltools.pl,sklep.art-magazyn.e
 cefarm24.pl###drawer
 centrumdruku.com.pl##.ra-animated.ranking-wrapper
 cenyrolnicze.pl##.bd-margins.bd-headerarea-1, .jf_mm_trigger, .zgloszeniaPanel
-certyficate.it,github.com##a[href*="paypal.me/pools/c/87zNJ8OJ3I"], a[href*="paypal.com/pools/c/87zNJ8OJ3I"]
+certyficate.it,github.com,github.io##a[href*="paypal.me/pools/c/87zNJ8OJ3I"], a[href*="paypal.com/pools/c/87zNJ8OJ3I"]
 chojnow.pl###login-box
 chomikuj.pl###plugininInstallerDiv, .recommend_panel
 chorzow.eu##.col-sm-12 > p:nth-of-type(3)
