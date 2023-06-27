@@ -178,6 +178,7 @@ gromada.pl##.fancybox-overlay-fixed
 gromada.pl,royalpark.pl##html.fancybox-lock > body, html.fancybox-lock:style(overflow: auto !important)
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
 hejto.pl##.ReactModalPortal:has(> div.ReactModal__Overlay > div#RegisterDialog)
+hejto.pl##+js(set-cookie, homepage-dialog, 1, 1year)
 husse.pl###fancybox-container-1
 husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important)
 husse.pl,royalpark.pl##body.fancybox-active:style(overflow: auto !important)
