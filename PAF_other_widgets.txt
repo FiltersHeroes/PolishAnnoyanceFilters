@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Wed, 28 Jun 2023, 00:42 UTC+02:00
-! Version: 2023.6.28.1
+! Last modified: Thu, 29 Jun 2023, 06:59 UTC+02:00
+! Version: 2023.6.29.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 28 cze 2023, 00:42 UTC+02:00
+! Aktualizacja: czw, 29 cze 2023, 06:59 UTC+02:00
 !
 !
 !
@@ -1102,6 +1102,7 @@ wordpress-wdrozenia.pl###loader-wrapper
 wpzen.pl###wpzen-article-box
 wronki.pl##.mVote
 wsse-poznan.pl###pwebbox216_toggler
+wszystko.pl##body:not(:has(.wpl-header__right-side-container a[href*="register"])) .wpl-advert-bar__container:has(a[href*="register"])
 www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
