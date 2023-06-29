@@ -1,4 +1,3 @@
-wszystko.pl##body:not(:has(.wpl-header__right-side-container a[href*="register"])) .wpl-advert-bar__container:has(a[href*="register"])
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content ~ div > style ~ div div > a[href^="/"]
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?##main-content ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
@@ -1042,6 +1041,7 @@ wordpress-wdrozenia.pl###loader-wrapper
 wpzen.pl###wpzen-article-box
 wronki.pl##.mVote
 wsse-poznan.pl###pwebbox216_toggler
+wszystko.pl##body:not(:has(.wpl-header__right-side-container a[href*="register"])) .wpl-advert-bar__container:has(a[href*="register"])
 www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
