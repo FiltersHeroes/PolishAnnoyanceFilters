@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 30 Jun 2023, 09:35 UTC+02:00
-! Version: 2023.6.30.0
+! Last modified: Sun, 02 Jul 2023, 00:50 UTC+02:00
+! Version: 2023.7.2.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 30 cze 2023, 09:35 UTC+02:00
+! Aktualizacja: nie, 02 lip 2023, 00:50 UTC+02:00
 !
 !
 !
@@ -47,7 +47,8 @@
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
 ||sklepreklamowy.pl/skins/user/shoper_red_1/images/user/franczyza-b.png
-||telepolis.pl/next/*$xmlhttprequest
+||telepolis.pl/*?scroll=$xmlhttprequest,domain=telepolis.pl
+||telepolis.pl/home/_img/loader.gif$image,domain=telepolis.pl
 ||tessa.com.pl/uploads/images/olx.png
 ||trustisto.com/socialproof.js
 ||twojsezam.pl/wp-content/uploads/*/*/*spot*$media,object
@@ -509,6 +510,7 @@ hollex.pl###SrodekKolumna > h2.StrNaglowek:nth-of-type(1)
 hollex.pl###Strona > .ModulRwdUkryj
 hollex.pl##div.StrTresc:nth-of-type(2)
 home.biedronka.pl##.everyday-promo
+home.biedronka.pl##.floating-banner
 home.pl###bottom-box
 home.pl###buttonizer-button
 homeolek.pl###basketslider, #fastbasketslider
@@ -1027,6 +1029,7 @@ telemedi.co###notifications-pop
 telepolis.pl##.ankieta.sidebar-poll
 telepolis.pl##.artykul-content > .ankieta
 telepolis.pl##.floor[style*="position"][style*="fixed"]
+telepolis.pl##.infinite-content-container #spinner.spinner
 termalica.brukbet.com##.fortuna
 termokubki.com.pl###widget_shop6
 tiktok.com##div > button[class*="ButtonGetAppText"]
