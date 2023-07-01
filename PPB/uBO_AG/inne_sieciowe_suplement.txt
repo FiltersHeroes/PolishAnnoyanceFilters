@@ -1,7 +1,7 @@
 !$permissions=autoplay=()
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=pl|~wykop.pl
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=pl
+||doubleclick.net/pagead/managed/js/gpt$important,script,domain=downdetector.pl
+||doubleclick.net/pagead/managed/js/gpt$redirect-rule=googletagservices-gpt.js:5,script,domain=downdetector.pl
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
-||doubleclick.net/pagead/managed/js/gpt$script,domain=downdetector.pl,important
-||doubleclick.net/pagead/managed/js/gpt$script,domain=downdetector.pl,redirect-rule=googletagservices_gpt.js:5
