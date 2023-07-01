@@ -2,6 +2,8 @@
 !$permissions=autoplay=()
 !/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=pl|~wykop.pl
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=pl
+||doubleclick.net/pagead/managed/js/gpt$important,script,domain=downdetector.pl
+||doubleclick.net/pagead/managed/js/gpt$redirect-rule=googletagservices-gpt.js:5,script,domain=downdetector.pl
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
 !www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row > #contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important)
@@ -194,6 +196,7 @@ youtube.com##html[dark] #guide-inner-content:style(scrollbar-color: #999 #9990 !
 #$#.containerHomepage { remove: true; }
 #@#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
 #@?#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
+$permissions=autoplay=()
 allegro.pl#$?#@media all and (min-width: 1200px) { #search-results section:has(> button[title*="SORTUJ BEZ DOPASOWANIA" i]) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
 allegro.pl#$?#@media all and (min-width: 1200px) { #search-results section:has(> div > button[title*="SORTUJ BEZ DOPASOWANIA" i]) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
 allegro.pl#$?#@media all and (min-width: 1200px) { #search-results:has(section > button[title*="SORTUJ BEZ DOPASOWANIA" i]) { margin-top: 90px !important } }
