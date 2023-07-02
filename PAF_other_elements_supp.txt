@@ -206,8 +206,6 @@ komputerswiat.pl$$#ks_breaking_news
 newonce.radio$$link[rel="shortcut icon"][href^=".gif"]
 pacjent.gov.pl#@#:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
 wbgroup.pl#@#:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important)
-wszystko.pl#@#body:not(:has(.wpl-header__right-side-container a[href*="register"])) .wpl-advert-bar__container:has(a[href*="register"])
-wszystko.pl#@?#body:not(:has(.wpl-header__right-side-container a[href*="register"])) .wpl-advert-bar__container:has(a[href*="register"])
 !#endif
 !#if env_mobile
 twitter.com###layers span:has-text(/^Korzystanie z Twittera za pomocą aplikacji jest przyjemniejsze$/):upward(5)
