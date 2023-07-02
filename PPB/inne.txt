@@ -1043,20 +1043,18 @@ wordpress-wdrozenia.pl###loader-wrapper
 wpzen.pl###wpzen-article-box
 wronki.pl##.mVote
 wsse-poznan.pl###pwebbox216_toggler
-wszystko.pl##body:not(:has(.wpl-header__right-side-container a[href*="register"])) .wpl-advert-bar__container:has(a[href*="register"])
-www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
+wszystko.pl##body:has(.wpl-header__right-side-container button) wpl-advert-bar:has(a[href*="register"])
+aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##a[href^="/search?"][href*="q="][href*="&uds="]
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
-www.onet.pl##div[class^="BackToMainPage_backToMainPage"]
-www.onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
+onet.pl##div[class^="BackToMainPage_backToMainPage"]
+onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
 www.pekao.com.pl##body.loader::before, body.loader::after
-www.porta.com.pl##.side_home_slider_pl
 www.rp.pl###mk-paywall
-www.tumblr.com##.road-block-wrapper
 www.wp.pl##[class^="HomepageButton"]
 wyborcza.biz##.mod_swimmer
 wykop.pl##.text > p > cite:empty
