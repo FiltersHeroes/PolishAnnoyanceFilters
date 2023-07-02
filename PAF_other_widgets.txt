@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 02 Jul 2023, 14:29 UTC+02:00
-! Version: 2023.7.2.1
+! Last modified: Sun, 02 Jul 2023, 22:55 UTC+02:00
+! Version: 2023.7.2.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 lip 2023, 14:29 UTC+02:00
+! Aktualizacja: nie, 02 lip 2023, 22:55 UTC+02:00
 !
 !
 !
@@ -87,6 +87,7 @@ abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,money.pl,o2.pl,open.f
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,smaczneblogi.pl,wp.pl##a[data-st-area*="backTo" i], a[data-st-area*="goToSG" i]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,smaczneblogi.pl,wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"]
 abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,money.pl,o2.pl,open.fm,parenting.pl,pudelek.pl,smaczneblogi.pl,wp.pl##div[data-st-area="st-header-darkmode"]
+aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 adra.pl##.fanimani-widget-floatbanner
 afgcomputers.pl###menu3bar
 aftermarket.pl###scroll-left
@@ -796,6 +797,8 @@ old.reddit.com,pl.reddit.com,www.reddit.com##.premium-banner-outer
 olx.pl##.favourites-bar
 ombre.pl###menu_buttons3 > .bxslider > li:nth-of-type(2)
 omega.om.pl##.right.ecp-button
+onet.pl##div[class^="BackToMainPage_backToMainPage"]
+onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
 online.citibank.pl##.call-to-action-bottom
 onlinezdrowie.pl###post-nav
 oohmagazine.pl##.festiwal_card_tab
@@ -1105,20 +1108,15 @@ wordpress-wdrozenia.pl###loader-wrapper
 wpzen.pl###wpzen-article-box
 wronki.pl##.mVote
 wsse-poznan.pl###pwebbox216_toggler
-wszystko.pl##body:not(:has(.wpl-header__right-side-container a[href*="register"])) .wpl-advert-bar__container:has(a[href*="register"])
-www.aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
+wszystko.pl##body:has(.wpl-header__right-side-container button) wpl-advert-bar:has(a[href*="register"])
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##a[href^="/search?"][href*="q="][href*="&uds="]
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
-www.onet.pl##div[class^="BackToMainPage_backToMainPage"]
-www.onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
 www.pekao.com.pl##body.loader::before, body.loader::after
-www.porta.com.pl##.side_home_slider_pl
 www.rp.pl###mk-paywall
-www.tumblr.com##.road-block-wrapper
 www.wp.pl##[class^="HomepageButton"]
 wyborcza.biz##.mod_swimmer
 wykop.pl##.text > p > cite:empty
