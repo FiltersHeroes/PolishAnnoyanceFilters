@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Mon, 26 Jun 2023, 17:30 UTC+02:00
-! Version: 2023.6.26.0
+! Last modified: Sun, 02 Jul 2023, 14:29 UTC+02:00
+! Version: 2023.7.2.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 26 cze 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 02 lip 2023, 14:29 UTC+02:00
 !
 !
 !
@@ -63,7 +63,7 @@ allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
 autocentrum.pl##.web-push-box
-best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div:nth-last-of-type(-n+3):nth-last-child(-n+3) > div:nth-child(1):-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
+best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div:nth-last-of-type(-n+3):nth-last-child(-n+3) > div:first-child:-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
 bnpparibas.pl,eneba.com,estyl.pl,semahead.pl###ue_push_dialog
 boardpc.pl,forum.dobreprogramy.pl,forum.manjaro.pl,hub.filterlists.com##.alert-info.alert.consent_banner
 boop.pl###smart_push_smio_window
