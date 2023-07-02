@@ -41,7 +41,7 @@ cdn.ampproject.org,reddit.com##.XPromoPill
 cdn.ampproject.org,reddit.com##body.scroll-disabled:style(overflow: visible !important; position: static !important)
 cukierniabezowa.pl##body.nice-scroll:style(padding-right: 0 !important)
 czyjnumerek.pl##.table-opinion div[class^="vote-"]:nth-child(odd):style(display: inline-block !important)
-czyjnumerek.pl##.table-opinion:nth-of-type(1):not(:nth-last-of-type(1)) div[class^="vote-"]:nth-child(odd):style(transform: none !important)
+czyjnumerek.pl##.table-opinion:first-of-type:not(:nth-last-of-type(1)) div[class^="vote-"]:nth-child(odd):style(transform: none !important)
 diki.pl##.popupBannerContainer
 diki.pl##body[style]:style(top: 0 !important)
 dziary.com##.ps-container:style(overflow: auto !important)
@@ -130,7 +130,7 @@ proline.pl##blockquote:style(transform: unset !important; rotate: unset !importa
 przepisy.pl##.animation:style(animation: none !important)
 pyszne.pl###smartbnr.smartbnr
 pyszne.pl##.activesmartbanner .userpanel-tabs.show, .activesmartbanner .userpanel .modal-wrapper, .activesmartbanner header:style(margin-top: 0 !important)
-pytanienasniadanie.tvp.pl##div.bg-aplha.container:nth-of-type(1) > .row:style(padding-bottom: 20px)
+pytanienasniadanie.tvp.pl##div.bg-aplha.container:first-of-type > .row:style(padding-bottom: 20px)
 radio17.pl##footer.page-footer ~ .sidebar-container:style(position: absolute !important)
 radio17.pl#@#.sidebar-container
 radio17.pl#@#footer.page-footer ~ .sidebar-container
