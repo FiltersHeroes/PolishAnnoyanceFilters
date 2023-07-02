@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 26 Jun 2023, 22:31 UTC+02:00
-! Version: 2023.6.26.1
+! Last modified: Sun, 02 Jul 2023, 14:17 UTC+02:00
+! Version: 2023.7.2.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 26 cze 2023, 22:31 UTC+02:00
+! Aktualizacja: nie, 02 lip 2023, 14:17 UTC+02:00
 !
 !
 !
@@ -192,7 +192,7 @@ born2be.pl,hebe.pl,hebeapteka.pl,renee.pl,store.canon.pl##.helpButton
 born2be.pl,renee.pl##.help-chat-button-container
 bosbank.pl##df-messenger
 bosch-extra.pl,extra-program.pl###contact-bar
-braclowiecka.pl##a.shop:nth-of-type(1)
+braclowiecka.pl##a.shop:first-of-type
 braclowiecka.pl##a.shop:nth-of-type(2)
 brakestock.pl,pragmago.pl,vitamoc.pl###zcwMiniButton
 brand.ceo,jubilat.net.pl,mediariver.pl,tipmedia.pl,walizkazabawek.pl###ue_widget
@@ -382,7 +382,7 @@ gkstychy.info###error_send
 glosbe.com##app-feedback-button
 go-market.pl###contact-info, #phone-info
 google.com,google.pl##.gws-flights__feedback
-gorakalwaria.net##nav > ul > li > a[href="sygnal.html"], .footer-line > li:nth-of-type(1) > a[href="sygnal.html"]
+gorakalwaria.net##nav > ul > li > a[href="sygnal.html"], .footer-line > li:first-of-type > a[href="sygnal.html"]
 goral.info.pl##.btn.contact-button
 gothaer.pl##.callClickBar
 gplshop.pl###snapifyHidden
@@ -412,7 +412,7 @@ ifon.pl##.content > a[href="/kontakt"], .phone
 ikea.com##chat-widget
 ilewazy.pl##.utriggerbtn
 impel.pl###multitab_right > .multitab_box:nth-of-type(2)
-impel.pl,impelfm.pl###multitab_right > .multitab_box:nth-of-type(1)
+impel.pl,impelfm.pl###multitab_right > .multitab_box:first-of-type
 infolinia.info.pl###zadzwon-do-nas
 inford.eu##.button-contact-us
 informatyk-24.com##.sb-chat
@@ -502,7 +502,7 @@ masterlease.pl##.contact-form
 masterleasing.pl##.callus
 masterproject.pl##.trigger_popup_fricc
 matkakosciola.pl##.js-bottom-corner-btns.bottom-corner-btns
-meblosfera.pl##.wp-side-menu-item:nth-of-type(1)
+meblosfera.pl##.wp-side-menu-item:first-of-type
 mebloteka.eu###Facebook_Messenger
 meczelive.pl,meczelive.tv,meczlive.pl###task
 medonet.pl##.medonet__healthcare_content_animation
@@ -516,7 +516,7 @@ mobilelanguage.pl###mail-right
 modelerolnicze.pl###fb-customer-chat
 modivo.pl##.live-chat-button
 mojanorwegia.pl##.msg
-mojataxi24.pl##h4#phone:nth-of-type(1) > .wiszacy
+mojataxi24.pl##h4#phone:first-of-type > .wiszacy
 mojbank.pl##.uk-grid.uk-flex-middle.uk-grid-row-small.uk-grid-column-collapse.uk-child-width-expand
 mojeppk.pl###ppk-cx-webchat-chat-button
 monedo.pl###satellite
@@ -610,7 +610,7 @@ polisaplus.pl##.teltoggle.telbutton
 polish.wifilterouter.com##.chat-button-content
 polkurier.pl##.pk-chat-container
 polnord.pl###contactForm
-poloniawroclaw.pl##body > iframe:nth-of-type(1)
+poloniawroclaw.pl##body > iframe:first-of-type
 polskiled.com.pl##.joinus > [href*="://wa.me"]
 pomagamy-wszyscy.pl,um-swiecie.pl###formPopupHandler
 pomoc.bluemedia.pl##.icon_czat.ribbon
@@ -786,7 +786,7 @@ virginmobile.pl###crazycall-click-to-call-container
 virtualmedia.pl###formularz
 virustotal.com##vt-ui-contact-fab
 vitay.pl###serviceRatingBox
-vitopolska.com##a.c-fixed-buttons__button:nth-of-type(1)
+vitopolska.com##a.c-fixed-buttons__button:first-of-type
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(2)
 vivus.pl###chatbot-widget
 wakacje.pl###rightTabs > .rightSpeech
