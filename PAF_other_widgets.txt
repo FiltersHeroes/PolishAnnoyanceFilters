@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 02 Jul 2023, 22:55 UTC+02:00
-! Version: 2023.7.2.2
+! Last modified: Mon, 03 Jul 2023, 23:31 UTC+02:00
+! Version: 2023.7.3.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 lip 2023, 22:55 UTC+02:00
+! Aktualizacja: pon, 03 lip 2023, 23:31 UTC+02:00
 !
 !
 !
@@ -978,6 +978,7 @@ solidnedrzwi.pl##footer > .float
 solidnedrzwiokna.pl###tab_slide
 solidpak.pl###show-cart
 spidersweb.pl##.havetoread
+spidersweb.pl##.main--post .product-placement
 spidersweb.pl##div.loading-title
 spolem.olawa.pl##.elementor-widget-icon[alt*="Aktualne oferty pracy"]
 sportowefakty.wp.pl##.readMoreTeaser, .sgwpbutton, #sgfirstDrawer
@@ -1179,6 +1180,8 @@ zyciepabianic.pl##.paper
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+com,eu,info,pl###content > div#ipl-loader
+com,eu,info,pl###content > div#primary span.loaded.ipl
 pl###acwp-toolbar-btn
 pl###allecomments_clips
 pl###allegro-widget
