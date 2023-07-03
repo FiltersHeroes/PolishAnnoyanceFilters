@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 03 Jul 2023, 02:31 UTC+02:00
-! Version: 2023.7.3.0
+! Last modified: Mon, 03 Jul 2023, 23:31 UTC+02:00
+! Version: 2023.7.3.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 03 lip 2023, 02:31 UTC+02:00
+! Aktualizacja: pon, 03 lip 2023, 23:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3430,7 +3430,7 @@ pl###pushwoosh-subscription-widget-root
 ||ppstatic.pl^*/plywajace_wideo.js
 !dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
 !dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
-~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]
+~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .randomplayer--floating[id*="player"] > div[class*="wrap"]
 16bit.pl##.crunchify-top
 35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
 agrii.pl###panel
@@ -6431,6 +6431,7 @@ solidnedrzwi.pl##footer > .float
 solidnedrzwiokna.pl###tab_slide
 solidpak.pl###show-cart
 spidersweb.pl##.havetoread
+spidersweb.pl##.main--post .product-placement
 spidersweb.pl##div.loading-title
 spolem.olawa.pl##.elementor-widget-icon[alt*="Aktualne oferty pracy"]
 sportowefakty.wp.pl##.readMoreTeaser, .sgwpbutton, #sgfirstDrawer
@@ -6633,6 +6634,8 @@ zyciepabianic.pl##.paper
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+com,eu,info,pl###content > div#ipl-loader
+com,eu,info,pl###content > div#primary span.loaded.ipl
 pl###acwp-toolbar-btn
 pl###allecomments_clips
 pl###allegro-widget
