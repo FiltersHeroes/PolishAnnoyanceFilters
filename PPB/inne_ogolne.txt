@@ -1,5 +1,3 @@
-com,eu,info,pl###content > div#primary span.loaded.ipl
-com,eu,info,pl###content > div#ipl-loader
 ###cursor:empty
 ###gr-spnotifications
 ###grw_sidebox
@@ -16,6 +14,8 @@ com,eu,info,pl###content > div#ipl-loader
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+com,eu,info,pl###content > div#ipl-loader
+com,eu,info,pl###content > div#primary span.loaded.ipl
 pl###acwp-toolbar-btn
 pl###allecomments_clips
 pl###allegro-widget
