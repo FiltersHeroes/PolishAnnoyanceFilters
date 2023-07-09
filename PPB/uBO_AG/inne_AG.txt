@@ -2,7 +2,6 @@
 #$#.containerHomepage { remove: true; }
 #@#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
 #@?#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
-$permissions=autoplay=()
 allegro.pl#$?#@media all and (min-width: 1200px) { #search-results section:has(> button[title*="SORTUJ BEZ DOPASOWANIA" i]) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
 allegro.pl#$?#@media all and (min-width: 1200px) { #search-results section:has(> div > button[title*="SORTUJ BEZ DOPASOWANIA" i]) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
 allegro.pl#$?#@media all and (min-width: 1200px) { #search-results:has(section > button[title*="SORTUJ BEZ DOPASOWANIA" i]) { margin-top: 90px !important } }
