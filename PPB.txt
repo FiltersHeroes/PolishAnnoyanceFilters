@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 10 Jul 2023, 14:31 UTC+02:00
-! Version: 2023.7.10.1
+! Last modified: Mon, 10 Jul 2023, 22:42 UTC+02:00
+! Version: 2023.7.10.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 10 lip 2023, 14:31 UTC+02:00
+! Aktualizacja: pon, 10 lip 2023, 22:42 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2866,6 +2866,7 @@ opinie-perfumy.pl###lepopup-popup-15, #lepopup-popup-15-overlay
 opolshe.ru,otowroclawpowiat.pl###dropbox
 optiland.pl##.mod_popup, .bg_shadow
 orange.pl###advertslice
+orange.pl###yourcx_layer, #yourcx_bg
 osada-sniezka.pl###popModal, .modal-backdrop
 oszustwo.net##div[id^="ulp-"]
 otianna.pl,vous.pl##.wpmchimpa-overlay-bg
@@ -5095,7 +5096,7 @@ oponeo.pl##.contactOnline
 optitaxi.pl###uptocall-mini
 optykwnecie.pl##.whatsappchat-anchor
 oracle.com##.ochat_slideout, .cw21help
-orange.pl###OPLWCI
+orange.pl#@##OPLWCI
 oszczedzarka.co.uk##.textwidget > p > img[src="/img/ico/skype.png"]
 outside.com.pl##.bonfire-slideout-button
 ox.pl##.contact-with-office
@@ -6209,6 +6210,8 @@ opinie-perfumy.pl##.postNavigation
 opoczno.eu##.js-toggle-list.button
 oponeo.pl###checkOrderStatus
 orange.pl##.payback-floating-sidebar__trigger
+orange.pl#@##__next > div > section[role="region"], .opl-cookie-control
+orange.pl#@##__next > div > section[role="region"],.opl-cookie-control
 ostatniatawerna.pl##.wp-post-nav > a > [id]
 outlook.live.com#?#[data-app-section="Ribbon"] + div > div:first-child:-abp-has(> div:-abp-contains(/zaleca|recommends/) + button)
 outlook.live.com#?#div[data-skip-link-name="Przejdź do wiadomości"] > div > div > div > div > div:-abp-has(> div input.form-control[placeholder="+1 (702) 123-4567"])
