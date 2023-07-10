@@ -179,6 +179,8 @@ farmer.pl##.windowOpen:style(overflow: auto !important)
 fdm.pl,galskor.com##+js(acis, $, fancybox)
 filehippo.pl,softonic.pl##.rv-di-modal:has(img[src*="avast"], img[src*="opera"]):remove()
 filehippo.pl,softonic.pl##div:is(#modal-di-avast, #modal-di-opera):remove()
+fjordd.com##body[class*="pop"]:style(overflow: visible !important)
+fjordd.com##div[data-popup-subscribe-inited]
 fmmobile.pl###lead-modal, .modal-backdrop
 forum.gofin.pl###KW_Tlo, #KW_Okno
 fpiec.pl##.full-screen-overlay
