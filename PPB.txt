@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 14 Jul 2023, 17:30 UTC+02:00
-! Version: 2023.7.14.0
+! Last modified: Fri, 14 Jul 2023, 22:48 UTC+02:00
+! Version: 2023.7.14.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 14 lip 2023, 17:30 UTC+02:00
+! Aktualizacja: pią, 14 lip 2023, 22:48 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2256,6 +2256,7 @@ pl,~znak.com.pl##.newsletter-container
 2drink.pl,imperiumromanum.edu.pl,mirafaber.pl,olagosciniak.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
+6paknutrition.com,matopat24.pl,medonetmarket.pl,porta.com.pl#?##bhr-items .bhr-popup-advanced:-abp-has(iframe[src*="salesmanago.pl/"])
 9c.com.pl,ledco.pl,sklepdlalekarza.com,tendina.pl,warsztatogrodnika.pl###iqitpopup, #iqitpopup-overlay
 24hurt.pl##.wt-popup, #overlay
 29aleja.pl##.popupWrap
@@ -3497,7 +3498,7 @@ agrarius.eu,combat.pl,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatru
 agro-eko.com.pl##.scrollIcon
 agro-factory2.eu,amfetamina.promo,choinkisztuczne.com,diavolo-meble.eu,historiasportu.info,laptopy24h.com,linkhouse.co,medbestshop.eu,mywspieramy.org,ostrzegamy.online,pomaranczowa.eu,ponadograniczeniami.org,skup-laptopow.com,stsublimacja.org##.et_pb_scroll_top
 agroas.pl##.to-the-top-link
-agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,clea.pl,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,sparta.com.pl,zaufanekliniki.pl###top-link
+agrobex.pl,alkalicznystylzycia.com,bejot.eu,byinsomnia.com,clea.pl,deichmann.com,enigmatech.eu,klassikauto.pl,lifegeek.pl,macademiangirl.com,poezja-smaku.pl,sparta.com.pl,zaufanekliniki.pl###top-link
 agrofakt.pl##.go-down
 agrofakt.pl,badaniaprenatalne.pl,fn.org.pl,industra.pl,jaworzynakrynicka.pl,mas-sport.pl,miastozabrze.pl,myotym.pl,pizzeriaubatmana.pl,pol-skone.pl,reverso.net,robimytv.pl,telepolis.pl,tlp.is,tropicalsun.pl,trucks.com.pl,x-kom.pl,zoo.gda.pl##.go-up
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
