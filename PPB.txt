@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 16 Jul 2023, 16:09 UTC+02:00
-! Version: 2023.7.16.1
+! Last modified: Sun, 16 Jul 2023, 17:30 UTC+02:00
+! Version: 2023.7.16.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 16 lip 2023, 16:09 UTC+02:00
+! Aktualizacja: nie, 16 lip 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -61,7 +61,7 @@
 ||zooplus.pl/magazyn/wp-content/uploads/20*/*/*Newsletter_Promotion_$image
 !dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .navi > a:first-of-type
 !dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .panes > .one.active:first-child
-3dom.pro,6paknutrition.com,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,ksiazka.uk,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
+3dom.pro,6paknutrition.com,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,ksiazka.uk,lampynaowady.eu,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
 4adstudio.pl,rudeiczarne.pl##.widget_mc4wp_form_widget
@@ -1688,6 +1688,7 @@ szybkanauka.pro##.tcb-flex-center.tcb--cols--3.tcb-flex-row > div.tcb-flex-col.t
 szybkanauka.pro#?##tve_editor:-abp-has(input[type="email"][name="email"])
 tabelaofert.pl###newsletter_stopka
 tabloidonline.blog,techno-senior.com##.widget_blog_subscription
+tally-weijl.com##.newsletter-quick-mail
 tally-weijl.com##.page-footer .newsletter-container
 tamaj.pl##.lof-block.lofadva-block-4 > .lof-block-wrap > h4
 tan.io###newsletter-main
@@ -4342,6 +4343,7 @@ wabisabi-store.jp##.tt-back-to-top
 wago.com##.scroll-hint
 wasserman.eu##.ws-elevator-btn
 wbh.wp.mil.pl##.fi-arrow-up
+wearmedicine.com##div[class*="ScrollToTop_"]
 websiteplanet.com###new-vendor-scrolltop-button
 websyc.pl##.to-top-btn
 wec.com.pl##.go2top
@@ -4613,6 +4615,7 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ||zopim.com^$third-party,domain=~apteline.pl|~egb.com|~nordvpn.com
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 ###chaty-channel-facebook_messenger
+##.btn-share.btn.btn-whatsapp
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/m.me/"]:lang(pl)
@@ -4634,7 +4637,6 @@ aeg.pl,electrolux.pl,zanussi.pl##.website-feedback
 afrodytasalon.pl##.js--phone-button.ic-phone-button
 aftermarket.pl##.help-widget-invite, .help-widget-icon
 aftermarket.pl##.helpcrunch-iframe-wrapper
-agri-truck.pl,agroalex.pl,aquario.pl,eelektryka.com,flowerstory.pl,shoplet.pl,wildcar.pl###x13callback_button
 agrofakt.pl##.agroreporter
 agromarek.pl,baronphotography.eu,cukierniabezowa.pl,topsolutions.pl###popup_contact
 ahe.lodz.pl###chat-invite
@@ -4790,6 +4792,7 @@ dentalmedicenter.pl,mapsolutions.pl,stomatolog-smile.pl##.show_callback_icon
 dentalradio.pl###send_bt
 dewelopart.pl###leftquickcontact
 diag.pl##.show-chat-icon
+diag.pl,eobuwie.com.pl###chatbotize
 dietbox.pl##.phone_btn_flat
 dipol.com.pl##.iguider-btn
 diversesystem.com###app > footer ~ .container
@@ -4846,7 +4849,6 @@ emp-shop.pl##.overflow-hidden.position-fixed.js-service-button.bg-color-white.se
 endo.pl##.contact-container
 energylandia.pl##.floating-facebook-button
 enfamil.pl##.float-chat
-eobuwie.com.pl###chatbotize
 eobuwie.com.pl###open-chat
 epodreczniki.pl##.send-suggestion-btn
 eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,rivieraparkmarvipol.pl,senatkomorki.pl,voxfm.pl##.messenger
@@ -5358,6 +5360,7 @@ zrzutka.pl##.uv-bottom-right
 !
 ! Widżety kontaktowe/informacji zwrotnej - Ogólne filtry
 /livezillachat//script.php
+/web/live-chat/chatbotize-$script
 ||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
 ||app.chatwoot.com/packs/js/sdk.js$script,domain=pl
 ||chatwoot.*/packs/js/sdk.js$script
@@ -5379,6 +5382,7 @@ zrzutka.pl##.uv-bottom-right
 ~pl###opinions_badge:lang(pl)
 ~pl###sugester_widget:lang(pl)
 ~pl###telemedicoWidget:lang(pl)
+~pl###x13callback_button:lang(pl)
 ~pl##.fb-messengermessageus:lang(pl)
 ~pl##.feedback-button:lang(pl)
 ~pl##.ggu-bot-snapped-launcher:lang(pl)
@@ -5403,6 +5407,7 @@ pl###opinions_badge
 pl###sugester_widget
 pl###TelefonIkona
 pl###telemedicoWidget
+pl###x13callback_button
 pl##.fb-messengermessageus
 pl##.fb_reset
 pl##.feedback-button
