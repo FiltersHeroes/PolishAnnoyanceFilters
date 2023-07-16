@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 13 Jul 2023, 22:31 UTC+02:00
-! Version: 2023.7.13.0
+! Last modified: Sun, 16 Jul 2023, 17:30 UTC+02:00
+! Version: 2023.7.16.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 13 lip 2023, 22:31 UTC+02:00
+! Aktualizacja: nie, 16 lip 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -85,6 +85,7 @@
 !@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe_sieciowe.txt
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 ###chaty-channel-facebook_messenger
+##.btn-share.btn.btn-whatsapp
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/m.me/"]:lang(pl)
@@ -106,7 +107,6 @@ aeg.pl,electrolux.pl,zanussi.pl##.website-feedback
 afrodytasalon.pl##.js--phone-button.ic-phone-button
 aftermarket.pl##.help-widget-invite, .help-widget-icon
 aftermarket.pl##.helpcrunch-iframe-wrapper
-agri-truck.pl,agroalex.pl,aquario.pl,eelektryka.com,flowerstory.pl,shoplet.pl,wildcar.pl###x13callback_button
 agrofakt.pl##.agroreporter
 agromarek.pl,baronphotography.eu,cukierniabezowa.pl,topsolutions.pl###popup_contact
 ahe.lodz.pl###chat-invite
@@ -262,6 +262,7 @@ dentalmedicenter.pl,mapsolutions.pl,stomatolog-smile.pl##.show_callback_icon
 dentalradio.pl###send_bt
 dewelopart.pl###leftquickcontact
 diag.pl##.show-chat-icon
+diag.pl,eobuwie.com.pl###chatbotize
 dietbox.pl##.phone_btn_flat
 dipol.com.pl##.iguider-btn
 diversesystem.com###app > footer ~ .container
@@ -318,7 +319,6 @@ emp-shop.pl##.overflow-hidden.position-fixed.js-service-button.bg-color-white.se
 endo.pl##.contact-container
 energylandia.pl##.floating-facebook-button
 enfamil.pl##.float-chat
-eobuwie.com.pl###chatbotize
 eobuwie.com.pl###open-chat
 epodreczniki.pl##.send-suggestion-btn
 eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,rivieraparkmarvipol.pl,senatkomorki.pl,voxfm.pl##.messenger
@@ -830,6 +830,7 @@ zrzutka.pl##.uv-bottom-right
 !
 ! Ogólne filtry
 /livezillachat//script.php
+/web/live-chat/chatbotize-$script
 ||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
 ||app.chatwoot.com/packs/js/sdk.js$script,domain=pl
 ||chatwoot.*/packs/js/sdk.js$script
@@ -851,6 +852,7 @@ zrzutka.pl##.uv-bottom-right
 ~pl###opinions_badge:lang(pl)
 ~pl###sugester_widget:lang(pl)
 ~pl###telemedicoWidget:lang(pl)
+~pl###x13callback_button:lang(pl)
 ~pl##.fb-messengermessageus:lang(pl)
 ~pl##.feedback-button:lang(pl)
 ~pl##.ggu-bot-snapped-launcher:lang(pl)
@@ -875,6 +877,7 @@ pl###opinions_badge
 pl###sugester_widget
 pl###TelefonIkona
 pl###telemedicoWidget
+pl###x13callback_button
 pl##.fb-messengermessageus
 pl##.fb_reset
 pl##.feedback-button
