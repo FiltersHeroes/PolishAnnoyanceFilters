@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 23 Jul 2023, 21:44 UTC+02:00
-! Version: 2023.7.23.3
+! Last modified: Sun, 23 Jul 2023, 21:54 UTC+02:00
+! Version: 2023.7.23.4
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 23 lip 2023, 21:44 UTC+02:00
+! Aktualizacja: nie, 23 lip 2023, 21:54 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2018,11 +2018,9 @@ pl,~znak.com.pl##.newsletter-container
 /pum-site-styles-$domain=prezeska.pl|topplant.pl
 /pum-site-styles.$domain=prezeska.pl|topplant.pl
 /sound/open.mp3$media,object,domain=info-przetargi.pl
-/wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|webinsider.pl
-/wp-content/plugins/bloom/js/custom.js$domain=thebodyshopclub.pl
+/wp-content/plugins/bloom/js/custom.js$domain=majsterkowo.pl|mojmac.pl|subiektywnieofinansach.pl|thebodyshopclub.pl|webinsider.pl
 /wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js$domain=jednoslad.pl
-/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|kulturawplot.pl|magnapolonia.org|zbudujsamdom.pl
-/wp-content/plugins/exit-popup/js/exit-popup.js$domain=shareinfo.pl
+/wp-content/plugins/exit-popup/js/exit-popup.js$domain=bosonamacie.pl|kulturawplot.pl|magnapolonia.org|shareinfo.pl|zbudujsamdom.pl
 /wp-content/plugins/layered-popups/js/script.min.js$domain=akademia-internetu.pl|dih.pl|influentiq.pl
 /wp-content/plugins/popup-builder/javascript/jquery.sgcolorbox-min.js$domain=bobbyburger.pl|fenixmotors.com|plportal.pl|ticker.pl|tygodnikprzeglad.pl
 /wp-content/plugins/popup-builder/public/sound/*$media,object,domain=polska-ie.com
