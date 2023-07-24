@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 23 Jul 2023, 23:03 UTC+02:00
-! Version: 2023.7.23.10
+! Last modified: Mon, 24 Jul 2023, 02:31 UTC+02:00
+! Version: 2023.7.24.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 23 lip 2023, 23:03 UTC+02:00
+! Aktualizacja: pon, 24 lip 2023, 02:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -208,6 +208,8 @@ azzun.pl##.site-footer__ezine-hld
 babyboom.pl##.zapisz-newsletter
 babysensepolska.pl,sklep.sigma-max.pl,wierzynek.pl##.newsletter2-wrapper
 balladine.com,developer.mozilla.org,disqus.com,portalodo.com,unisono.eu##.newsletter-box
+bandi.pl###stopka_nwslt
+bandi.pl##.stopka .jednatrzecia > .bloczek > strong
 bankmillennium.pl###buttonSelectorChat
 bankobranie.blogspot.com###topNewsletter
 baramundi.pl##.footer-content-1 > .inner
@@ -4552,6 +4554,7 @@ axadirect.pl###wirtualnyDoradcaPluginHome, #zadzwonPlugin
 axasecurity.com,doctorgun.eu,drzwioknabramy.eu,e-security.com.pl,eska.pl,medicalclinic.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,peryskop.studio,plakatynasciany.pl,sita.pl,telefonek.pl,woopauto.com,zymetric.pl##.fb-customerchat, .fb_dialog_advanced
 badaniaprenatalne.pl##.contact-button-link
 balladine.com###widgetOpineo
+bandi.pl##.gr-visual-prompt
 bankobranie.blogspot.com##.social > li:nth-child(n+6)
 barlinek.com.pl,medonetmarket.pl##.bhr-chat-container
 batteryguru.eu###xcmb
