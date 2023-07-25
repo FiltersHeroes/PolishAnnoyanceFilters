@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 24 Jul 2023, 17:30 UTC+02:00
-! Version: 2023.7.24.1
+! Last modified: Tue, 25 Jul 2023, 02:31 UTC+02:00
+! Version: 2023.7.25.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 24 lip 2023, 17:30 UTC+02:00
+! Aktualizacja: wto, 25 lip 2023, 02:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -263,6 +263,7 @@ bizay.pl##div.col-xs-3 > .footer-sub-title
 bizay.pl##div.col-xs-3 > .no-gutter.row
 biznes-wprost-pl.cdn.ampproject.org##.art-newsletter
 biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
+biznes.wprost.pl##.art-newsletter
 blik.com,emaillabs.io##.newsletter-iframe
 blip.pl###salesmanagoIframe
 blip.pl,chcemybycrodzicami.pl##.front-newsletter
@@ -4002,6 +4003,7 @@ paweltkaczyk.com##.johannes-goto-top
 payback.pl##.pb-back-to-top
 peek-cloppenburg.pl##.qa-to-top.to-top
 pepper.pl##.btn--moveToTop
+pepper.pl#?#header ~ div > button:-abp-has(> span[style*="ArrowUp"])
 peryskop.studio##a.arrow-only
 peugeot.pl##.toplink
 pgi.gov.pl##.site-btn-tool-scroll-top
