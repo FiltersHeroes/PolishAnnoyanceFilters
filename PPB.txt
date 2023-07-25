@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 25 Jul 2023, 14:24 UTC+02:00
-! Version: 2023.7.25.1
+! Last modified: Tue, 25 Jul 2023, 17:30 UTC+02:00
+! Version: 2023.7.25.2
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 25 lip 2023, 14:24 UTC+02:00
+! Aktualizacja: wto, 25 lip 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3148,6 +3148,7 @@ allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
 autocentrum.pl##.web-push-box
+bandi.pl,wrp.pl,znak.com.pl##.gr-visual-prompt
 best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div:nth-last-of-type(-n+3):nth-last-child(-n+3) > div:first-child:-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
 bnpparibas.pl,eneba.com,estyl.pl,semahead.pl###ue_push_dialog
 boardpc.pl,forum.dobreprogramy.pl,forum.manjaro.pl,hub.filterlists.com##.alert-info.alert.consent_banner
@@ -3198,7 +3199,6 @@ zapytaj.onet.pl##.push-notification-box
 zdrowie.pap.pl##section ~ span[onclick="window.scrollTo(0, 0);"]
 zegarkiipasja.pl##.fcx-push-bubble-container
 zegarkiipasja.pl##.fcx-push-modal-container
-znak.com.pl##.gr-visual-prompt
 !
 !
 ! Powiadomienia push - Ogólne filtry
@@ -4555,7 +4555,6 @@ axadirect.pl###wirtualnyDoradcaPluginHome, #zadzwonPlugin
 axasecurity.com,doctorgun.eu,drzwioknabramy.eu,e-security.com.pl,eska.pl,medicalclinic.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,peryskop.studio,plakatynasciany.pl,sita.pl,telefonek.pl,woopauto.com,zymetric.pl##.fb-customerchat, .fb_dialog_advanced
 badaniaprenatalne.pl##.contact-button-link
 balladine.com###widgetOpineo
-bandi.pl##.gr-visual-prompt
 bankobranie.blogspot.com##.social > li:nth-child(n+6)
 barlinek.com.pl,medonetmarket.pl##.bhr-chat-container
 batteryguru.eu###xcmb
