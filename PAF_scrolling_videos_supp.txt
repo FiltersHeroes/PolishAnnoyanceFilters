@@ -36,6 +36,10 @@ wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !import
 !#if !ext_ublock
 infozdrowie24.pl#$#.miniplayer { position: absolute !important; transition: unset !important; }
 infozdrowie24.pl#$#.normplayer { transition: unset !important; }
+meczyki.pl#@##vi-stories-main-container, #vi-stories-player-container:style(width: auto !important; height: auto !important)
+meczyki.pl#@##vi-stories-main-placeholder[class=""]
+meczyki.pl#@#.vi-stories-floating:style(position: relative !important; transform: none !important)
+meczyki.pl#@#.vi-stories-social-share-button
 !#endif
 !
 !
