@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 29 Jul 2023, 17:30 UTC+02:00
-! Version: 2023.7.29.0
+! Last modified: Thu, 03 Aug 2023, 17:30 UTC+02:00
+! Version: 2023.8.3.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 29 lip 2023, 17:30 UTC+02:00
+! Aktualizacja: czw, 03 sie 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -60,6 +60,7 @@
 ||zooplus.pl/magazyn/wp-content/uploads/20*/*/*Newsletter_Promotion_$image
 !dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .navi > a:first-of-type
 !dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .panes > .one.active:first-child
+2max.pl###footer-container-first
 3dom.pro,6paknutrition.com,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,ksiazka.uk,lampynaowady.eu,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
@@ -169,6 +170,7 @@ apollo.pl##.newsletter-block-container
 apptoyou.pl##.row.flex.bubble-r-container.CustomElement.bubble-element > .row.flex.bubble-r-container.Group.bubble-element > div.column.flex.bubble-r-container.Group.bubble-element:nth-of-type(2) > .column.flex.bubble-r-container.Group.bubble-element
 apshop24.eu,paperlovers.pl###newsletter-bar
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href$="/Newsletter_akcept/"]
+aptekaolmed.pl##.py-md-5.py-3.row > .col-lg-8.col-12
 apteline.pl##.footer__connect-newsletter
 arbiton.com,indigo-nails.com,korbo.eu,krasnik.eu##.newsletter-section
 architektura.info###PopupSignupForm_0
@@ -203,7 +205,7 @@ avans.pl##.b-main_newsletter
 avaro.pl##.smsapi-sidetitle
 avlab.pl##.elementor-element-436a5fa, .elementor-element-beacb6d
 awa24.pl##div[class^="stopka"] > div[class^="newsletter"]
-azbudownictwo.com,eglobalcentralpl.com,futuryx.eu,jogapiekna.com,media-tech.eu,reserved.com,sklep.ekotechnologia.eu,x-lander.com##.footer-newsletter
+azbudownictwo.com,eglobalcentralpl.com,futuryx.eu,jogapiekna.com,media-tech.eu,produkty.tv,reserved.com,sklep.ekotechnologia.eu,x-lander.com##.footer-newsletter
 azdoc.pl##div.col-md-6.p-4:nth-of-type(2)
 azjatyckibazar.com##.site-footer__item-inner--newsletter
 azzun.pl##.site-footer__ezine-hld
@@ -272,7 +274,7 @@ blip.pl,chcemybycrodzicami.pl##.front-newsletter
 blog-daneosobowe.pl,ekorekta24.pl,labosport.pl,niezlasztuka.net,sprawyzdrowia.pl##.nksub_hidden .nks_cc_trigger_tabs
 blog.gdaq.pl,doktorania.pl,faktyozywnosci.pl,haart.pl,kryptopomocnik.pl,magnapolonia.org,naukatolubie.pl,obserwatorlogistyczny.pl,ostatniatawerna.pl,refreszing.pl,stomatologianews.pl###custom_html-2
 blog.kurasinski.com,dlabiura24.pl,esklep.brandvital.eu,eventory.cc,hegos.eu,lou.pl,mazidla.com,sklep.dalimex.pl,znak.com.pl##.newsletter
-blog.mozilla.org,olesnica24.com,zamek-krolewski.pl###newsletter_form
+blog.mozilla.org,legal-base.co.uk,olesnica24.com,zamek-krolewski.pl###newsletter_form
 blog.spotawheel.pl,oknarolety.com###subscribe-form
 blogmtb.pl##.kalais-newsletter
 bluecity.pl##.newsletter-short
@@ -289,6 +291,7 @@ bonprix.pl##a[href="/serwis/newsletter"], .contrast.container-fluid > .container
 bonvoyage.pl##.box_newsletter
 booking.com##.emk_footer_update
 booking.com##.newsletter_subscribe
+borcas.eu##div.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(5)
 born2be.pl##[href="/newsletter/sign-in"]
 born86.pl##.nadstopa2
 borniak.pl##.mgz-element-newsletter_form
@@ -344,6 +347,7 @@ cezal.lublin.pl###footgroup3
 cezar.eu##.container > div.col50.kolumna:nth-of-type(2)
 cgm.pl,forsal.pl,horsklep.pl,sklep.olekmotocykle.pl##.footerNewsletter
 channel9.msdn.com##.mouseClick.mediumIcon.email
+chatapolska.pl##.yellow-bg.no-padding.col-xs-12
 chataskrzata.eu,genesis-zone.com,otwarte.eu##:not(#newsletter-overlay) #newsletter-box
 chcemybycrodzicami.pl##.single-post-newsletter-wrap
 checiny.pl###div_newsletter
@@ -369,6 +373,7 @@ coccodrillo.eu###homeNewsletter, .newsletterWrap
 codojedzenia.pl,pushpushgo.com##.newsletter-post
 combat.pl##footer.page-footer > .block-footer-top
 commonvoice.mozilla.org##.subscribe-newsletter
+company.pl##div.mx-auto.col-md:nth-of-type(2)
 comparic.pl,wiskitki.org###icegram_messages_container
 competitiveskills.com##.sc_contact_bg_color.sc_section_overlay
 comtrade.pl,topfish.pl##.n56467_container
@@ -408,12 +413,14 @@ dachyb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl#
 dadelo.pl##.col-xs-1.col-s-1.col-md-2.col-xl-4:nth-of-type(4) > .item
 daemon-tools.cc###send-mail
 dagmara.pl###links_footer_3
+dajar.pl##div.css-770vd2:nth-of-type(12)
 danko.pl##.nl-holder
 darymex.pl##.wce_footerinfo
 deccoria.pl##.dc-action-regiser-newsletter
 decoliving.pl,intymna.pl,ohso.pl##div.zwin.col-sm-3.footer-links.footer-widget:nth-of-type(3)
 defence24.pl,infosecurity24.pl,space24.pl##.newsletter-module__inner
 dekea.pl##div.mb40.mt40.row:nth-of-type(5) > .bg-grey.p20.col-md-4
+delis.pl,diamir.sklep.pl,telefony-gdansk.pl,wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
 delphiautoparts.com##form .subscribe-form
 demagog.org.pl##.footer .mt-2.col-12
 demagog.org.pl,idream.pl##.main-newsletter
@@ -678,6 +685,7 @@ gettinenglish.com###easy-opt-in-widget-2, .sh-s11.sh-t6.section-heading > .h-tex
 giacomo-design.com##.newsletter.cell.large-3 > h3, .newsletter.cell.large-3 > div > .es_shortcode_form.es_subscription_form
 gieksainfo.pl##div.menu-wide:nth-of-type(3) > h2:first-of-type
 gieksainfo.pl##div.textwidget:nth-of-type(2)
+giftshop24.pl##.block-newsletter.col-md-4.col-sm-6
 ginlong.com##.pc-rss2
 gino-rossi.com##.footer .top > ul > li:nth-of-type(2)
 girya.com.pl##div.copy.container-fluid:nth-of-type(2) > .container > div.text-center.col-xs-12.col-md-6:first-of-type
@@ -944,6 +952,7 @@ magnatfarby.pl##.newsletter-sign-in-btn
 magnatfarby.pl##.sn-newsletter--homepage.sn-newsletter
 majsterkowo.pl,moj-kawalek-podlogi.pl,spirulina.pl,tato.net,techformator.pl,zatorland.pl###text-9
 makita.sklep.pl##.ModulNewsletterDol
+mam-serce.org##div.uk-section.uk-section-default:nth-of-type(10)
 mamaplus.pl###mc_embed_signup
 mamonik.pl###text-3
 mamopracuj.pl##.newsletters
@@ -1004,6 +1013,7 @@ mi.com##.span12.customer-relationship
 miastodzieci.pl##.pull-left > a[href="/zapisz"]
 midar.net.pl##.pomaranczowy.boks:nth-of-type(4)
 mieszkajwmiescie.pl##div.col-sm-4:first-of-type > p.txtNewsletterDesc:nth-of-type(2), .conNewsletterInput, div.col-sm-4:first-of-type > .txtNewsletterTitle
+milight.pl##div#produkty.section:nth-of-type(11)
 milmag.pl##.newsletter__wrap
 miloohome.pl##.footer-container-newsletter
 mimari.com.pl##body > div#contentWrapper
@@ -1204,6 +1214,7 @@ pannaannabiega.pl##.zl_newsletter
 panoptykon.org##.social_n
 pantabletka.pl##.ds-newsletter
 pap-mediaroom.pl,pap.pl,~zdrowie.pap.pl##div[class] > a[href="/newsletter/form"]
+paperconcept.pl##.footer-content-before
 paperconcept.pl##.footer__inner > .row
 papiernicza.pl##.clearfix.footer-top
 paranormalium.pl##div.mt.menus-right:nth-of-type(8), div.th:nth-of-type(7)
@@ -1217,6 +1228,7 @@ pasazer.com##.\].slidein.\[.box
 pasazer.com##.join
 pasazer.com##.section:nth-of-type(4)
 pasieka24.pl###Mod238
+patyna.pl##section.fw-row.row:nth-of-type(8)
 pcaction.pl##.CalyBox:nth-of-type(4)
 pch24.pl##.NewsletterBox
 pcomp3000.pl###LewaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
@@ -1356,6 +1368,7 @@ przychodnie-grudziadz.pl###footer\#1
 psycholog-pisze.pl###text-17
 psychologiazycia.com##.mymail-form, .newsletter > .title
 ptakmoda.com###newsletter_block_bottom
+ptbs.pl##section.mb70.mt50.contact-section:nth-of-type(5)
 ptfarm.pl##.flexWrap.flex.col-md-4
 ptfm-slask.pl,themuba.com###newsletter_container
 publicat.pl###section-right-newsletter
@@ -1517,6 +1530,7 @@ sodexo.pl###content > #sg-form-row
 sofly.club##.newsletter-widget-1
 softekspert.pl##.left-block:nth-of-type(3)
 softnet.com.pl###footer_section > .ogranicznik > div > div:nth-child(3)
+sokolow.pl##.clearfix.ds-1col.paragraph--view-mode-default.paragraph--type-block.paragraph
 solidnedrzwi.pl##.newletter-subscribe-container
 solnemiasto.eu##.alo_easymail_widget
 soniadraga.pl##.nl_bot
@@ -1644,6 +1658,7 @@ topagrar.pl##.sidebar__box--newletter
 tp-link.com##.tp-follow-subscribe
 tpi.com.pl##.cmn-newsletter
 traktor.com.pl##.footer-top4.col-md-3.col-sm-6.col-12
+traktorpool.pl##div.md\:py-16.p-4.border-t.app\:hidden:nth-of-type(2)
 trans.info##.newsletter-popup
 travelplanet.pl##.col-footer-newsletter-block
 trec.pl##.b-footer-top__newsletter > :nth-child(-n+3)
@@ -1726,6 +1741,7 @@ waldtour.pl##.mailpoet-newsletter
 walmark.pl##.footer div[class]:nth-of-type(3) > .footer__heading
 walutomat.pl###newsletter-signup-box
 wamiz.pl##footer > div:nth-child(2)
+warsztatowski.com##div.footer_block.links.col-md-4:nth-of-type(4)
 waszaturystyka.pl##.platform-content:nth-of-type(2)
 waw4free.pl###komunikat_newsletter, #spolecznosci > a[href="newsletter"], .footer-box:nth-of-type(2)
 wbpg.org.pl###block-freshmail-freshmail-block, #home_newsletter
@@ -1737,12 +1753,11 @@ wegannerd.blogspot.com###HTML7
 wegeguru.pl##.bs-standard.home-header > div > .form.col
 wenahome.pl##.offer-bar--blue-to-red-gradient.offer-bar--shown.offer-bar
 wenahome.pl##div.footer__column:nth-of-type(5)
-weranda.pl##.newsletter-sign-block
+weranda.pl,werandacountry.pl##.newsletter-sign-block
 werandacountry.pl##div.gkmod-3.box:first-of-type > .header
 werandafamily.com##.home-nesletter
 werandaweekend.pl##.right > div.title:first-of-type
 westwingnow.pl##[class^="ClubBarBanner__StyledWrapper"]
-wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
 wiadomoscihandlowe.pl##.footer__top > .row > div[class]:first-of-type
 wiadomoscispozywcze.pl###headerNewsletter
 wiara.pl##.nsl
