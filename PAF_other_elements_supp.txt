@@ -1,6 +1,5 @@
 ! Codename: Other Elements - Supplement
-!/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$3p,frame,object,redirect=click2load.html:10,domain=pl|~wykop.pl
-$permissions=autoplay=()
+$domain=~stooq.com|~stooq.pl,permissions=autoplay=()
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=pl
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
