@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 06 Aug 2023, 20:08 UTC+02:00
-! Version: 2023.8.6.1
+! Last modified: Mon, 07 Aug 2023, 17:30 UTC+02:00
+! Version: 2023.8.7.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 06 sie 2023, 20:08 UTC+02:00
+! Aktualizacja: pon, 07 sie 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2765,6 +2765,7 @@ otozlewy.pl###cp_footerPopup
 otvarta.pl###call-to-us-popup, .mfp-bg
 ozonee.pl###twsshadow2_bg
 paga.org.pl##.popup-container, .dark-bg
+pakolorente.com##div:nth-of-type(7)
 pamami.pl###edrone--main--wl--container
 papierniczystudent.pl###covid19-info, .covid19-overlay
 papilot.pl###keys-info-bg
@@ -3179,7 +3180,7 @@ allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
 autocentrum.pl##.web-push-box
-bandi.pl,wrp.pl,znak.com.pl##.gr-visual-prompt
+bandi.pl,pakolorente.com,wrp.pl,znak.com.pl##.gr-visual-prompt
 best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div:nth-last-of-type(-n+3):nth-last-child(-n+3) > div:first-child:-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
 bnpparibas.pl,eneba.com,estyl.pl,semahead.pl###ue_push_dialog
 boardpc.pl,forum.dobreprogramy.pl,forum.manjaro.pl,hub.filterlists.com##.alert-info.alert.consent_banner
@@ -4524,7 +4525,7 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
 3giga.pl###contact-slider
-3i-store.com,agrotechnika.co,cyberrescue.info,dronexpert.eu,emedyczny.com,hurtel.com,mam-fach.info,praisethewear.com,prawdziweokazje.com,taniejniekupisz.com,warsztatowski.com,zrobtosam24.eu##.fb_reset
+3i-store.com,agrotechnika.co,cyberrescue.info,dronexpert.eu,emedyczny.com,hurtel.com,mam-fach.info,pakolorente.com,praisethewear.com,prawdziweokazje.com,taniejniekupisz.com,warsztatowski.com,zrobtosam24.eu##.fb_reset
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
