@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 07 Aug 2023, 17:30 UTC+02:00
-! Version: 2023.8.7.0
+! Last modified: Tue, 08 Aug 2023, 14:31 UTC+02:00
+! Version: 2023.8.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 07 sie 2023, 17:30 UTC+02:00
+! Aktualizacja: wto, 08 sie 2023, 14:31 UTC+02:00
 !
 !
 !
@@ -92,7 +92,6 @@
 ~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
 3giga.pl###contact-slider
-3i-store.com,agrotechnika.co,cyberrescue.info,dronexpert.eu,emedyczny.com,hurtel.com,mam-fach.info,pakolorente.com,praisethewear.com,prawdziweokazje.com,taniejniekupisz.com,warsztatowski.com,zrobtosam24.eu##.fb_reset
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
@@ -112,7 +111,6 @@ agrobex.pl###grchat-button
 agrofakt.pl##.agroreporter
 agromarek.pl,baronphotography.eu,cukierniabezowa.pl,topsolutions.pl###popup_contact
 ahe.lodz.pl###chat-invite
-airdron-polska.pl,fakturownia.pl,hurtowniamuzyczna.pl,imker.pl,kamai.pl,meblujdom.pl,modele-centrum.pl,sugester.pl,upsell.pl,vagczesci.pl,wysylajtaniej.pl###sugester-chat
 airgun.pl###popup__toggle
 airport.com.pl##a[href*="http://airport.com.pl/livezilla/chat.php"]
 akumulatorki.com.pl###contact_form
@@ -857,6 +855,7 @@ zrzutka.pl##.uv-bottom-right
 ~pl###telemedicoWidget:lang(pl)
 ~pl###x13callback_button:lang(pl)
 ~pl##.fb-messengermessageus:lang(pl)
+~pl##.fb_reset:lang(pl)
 ~pl##.feedback-button:lang(pl)
 ~pl##.ggu-bot-snapped-launcher:lang(pl)
 ~pl##.livecall-callback-v1-overlay:lang(pl)
@@ -877,6 +876,7 @@ pl###oiOpinionWidget
 pl###opineo_slider
 pl###opinieIkona
 pl###opinions_badge
+pl###sugester-chat
 pl###sugester_widget
 pl###TelefonIkona
 pl###telemedicoWidget
