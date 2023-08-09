@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 08 Aug 2023, 14:31 UTC+02:00
-! Version: 2023.8.8.1
+! Last modified: Wed, 09 Aug 2023, 14:31 UTC+02:00
+! Version: 2023.8.9.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 08 sie 2023, 14:31 UTC+02:00
+! Aktualizacja: śro, 09 sie 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -62,7 +62,6 @@
 !dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .navi > a:first-of-type
 !dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .panes > .one.active:first-child
 2max.pl###footer-container-first
-3dom.pro,6paknutrition.com,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,ksiazka.uk,lampynaowady.eu,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
 4adstudio.pl,rudeiczarne.pl##.widget_mc4wp_form_widget
@@ -101,7 +100,6 @@ aerowatch.pl,glycine.pl###bottom-newsletter-wrapper
 agagrzelak.pl##.ps-emailsubscription-block
 ageno.pl##.AgenoNewsletter
 agnieszkawielobob.pl##.et_bloom_below_post
-agrarsklep.pl,cyberdefence24.pl,defence24.pl,energetyka24.com,esdorado.com,florexpol.eu,import-maszyn.eu,infosecurity24.pl,ksiegarniainternetowa.co.uk,lukato.eu,medpak.com.pl,medyczny.store,mlekovitka.pl,sklep.delia.pl,southwine.online,space24.pl,thecamels.org,univexim.pl,wesoil.pl##.block-newsletter
 agriaffaires.pl###js-newsletterBlock
 agrieko.pl##.footer_NewsletterBox
 agrodoradca24.pl##.newsletter-online
@@ -1905,6 +1903,8 @@ zyxel.com###block-newsletter-footer
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal):lang(pl)
+~pl##.block-newsletter:lang(pl)
+~pl##.block_newsletter:lang(pl)
 pl###box-newsletter
 pl###box_newsletter
 pl###email-subscribers-2
@@ -1940,6 +1940,7 @@ pl###wp-subscribe
 pl##.acymailing_module
 pl##.b-footer_newsletter
 pl##.banner-newsletter
+pl##.block-newsletter
 pl##.block-simplenews
 pl##.block-subscribe
 pl##.block_newsletter
@@ -3175,7 +3176,6 @@ pl##body:not(.x13popup-open) #x13popup-cover
 ||webpush.interia.pl/scripts/*/push.js
 ||wides.pl/themes/default/js/notify.js
 2conv.com,flv2mp3.by,flvto.biz##.push-offer
-agrarsklep.pl,elle.pl,esklep.polomarket.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,morizon.pl,national-geographic.pl,przyslijprzepis.pl,wsb.edu.pl###ue_popups
 allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
