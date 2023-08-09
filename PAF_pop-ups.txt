@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Mon, 07 Aug 2023, 17:30 UTC+02:00
-! Version: 2023.8.7.0
+! Last modified: Wed, 09 Aug 2023, 17:30 UTC+02:00
+! Version: 2023.8.9.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 07 sie 2023, 17:30 UTC+02:00
+! Aktualizacja: śro, 09 sie 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -346,7 +346,6 @@ creativetools.pl,monitoring-system.pl##.__b-popup1__
 cryptoqueen.pl###POPUPS_ROOT
 csi.pl###popupOverlay.overlay-popup
 csk.szczecin.pl##.in.bootbox-confirm.modal.bootbox
-cyberdefence24.pl,cyberfolks.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl###ue_popups
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl###popupModal, .modal-backdrop
 cyberfolks.pl,drzwi-cal.pl###ue_widget
 czasnawnetrze.pl,mlodytechnik.pl,zielonyogrodek.pl##.mod_avt_alert
@@ -1093,6 +1092,7 @@ zszywka.pl###inv-request-popup
 !~pl###dzinga .overlay:lang(pl), #dzinga .popup:lang(pl)
 ~chcemybycrodzicami.pl,pl,~zblogowani.pl###ouibounce-modal
 ~pl###edrone--main--pu--container:lang(pl)
+~pl###ue_popups:lang(pl)
 ~pl##body:not(.x13popup-open) #x13popup-container:lang(pl)
 ~pl##body:not(.x13popup-open) #x13popup-cover:lang(pl)
 pl###dzinga .overlay, #dzinga .popup
@@ -1111,6 +1111,7 @@ pl###oknoPopUp
 pl###popup-social-media
 pl###tloPopUp
 pl###topLayerBackDrop
+pl###ue_popups
 pl##.facebook-bn_site-overlay
 pl##.facebook-popup
 pl##.hejhej:not(body):not(html)
