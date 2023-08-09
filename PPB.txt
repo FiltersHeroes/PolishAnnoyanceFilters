@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 09 Aug 2023, 14:31 UTC+02:00
-! Version: 2023.8.9.0
+! Last modified: Wed, 09 Aug 2023, 17:30 UTC+02:00
+! Version: 2023.8.9.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 09 sie 2023, 14:31 UTC+02:00
+! Aktualizacja: śro, 09 sie 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2359,7 +2359,6 @@ creativetools.pl,monitoring-system.pl##.__b-popup1__
 cryptoqueen.pl###POPUPS_ROOT
 csi.pl###popupOverlay.overlay-popup
 csk.szczecin.pl##.in.bootbox-confirm.modal.bootbox
-cyberdefence24.pl,cyberfolks.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl###ue_popups
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl###popupModal, .modal-backdrop
 cyberfolks.pl,drzwi-cal.pl###ue_widget
 czasnawnetrze.pl,mlodytechnik.pl,zielonyogrodek.pl##.mod_avt_alert
@@ -3106,6 +3105,7 @@ zszywka.pl###inv-request-popup
 !~pl###dzinga .overlay:lang(pl), #dzinga .popup:lang(pl)
 ~chcemybycrodzicami.pl,pl,~zblogowani.pl###ouibounce-modal
 ~pl###edrone--main--pu--container:lang(pl)
+~pl###ue_popups:lang(pl)
 ~pl##body:not(.x13popup-open) #x13popup-container:lang(pl)
 ~pl##body:not(.x13popup-open) #x13popup-cover:lang(pl)
 pl###dzinga .overlay, #dzinga .popup
@@ -3124,6 +3124,7 @@ pl###oknoPopUp
 pl###popup-social-media
 pl###tloPopUp
 pl###topLayerBackDrop
+pl###ue_popups
 pl##.facebook-bn_site-overlay
 pl##.facebook-popup
 pl##.hejhej:not(body):not(html)
