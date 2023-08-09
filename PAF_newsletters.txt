@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Thu, 03 Aug 2023, 17:30 UTC+02:00
-! Version: 2023.8.3.0
+! Last modified: Wed, 09 Aug 2023, 17:30 UTC+02:00
+! Version: 2023.8.9.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 03 sie 2023, 17:30 UTC+02:00
+! Aktualizacja: śro, 09 sie 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -61,7 +61,6 @@
 !dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .navi > a:first-of-type
 !dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .panes > .one.active:first-child
 2max.pl###footer-container-first
-3dom.pro,6paknutrition.com,agrosam.eu,aksjomat.com,allemoda.eu,antbs.co.uk,donashop.eu,gardenoffood.com,karino.eu,karlloft.com,ksiazka.uk,lampynaowady.eu,marshallshoes.eu,merribel.eu,motomat.eu,ottig.com,tani-laptop.com##.block_newsletter
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
 4adstudio.pl,rudeiczarne.pl##.widget_mc4wp_form_widget
@@ -100,7 +99,6 @@ aerowatch.pl,glycine.pl###bottom-newsletter-wrapper
 agagrzelak.pl##.ps-emailsubscription-block
 ageno.pl##.AgenoNewsletter
 agnieszkawielobob.pl##.et_bloom_below_post
-agrarsklep.pl,cyberdefence24.pl,defence24.pl,energetyka24.com,esdorado.com,florexpol.eu,import-maszyn.eu,infosecurity24.pl,ksiegarniainternetowa.co.uk,lukato.eu,medpak.com.pl,medyczny.store,mlekovitka.pl,sklep.delia.pl,southwine.online,space24.pl,thecamels.org,univexim.pl,wesoil.pl##.block-newsletter
 agriaffaires.pl###js-newsletterBlock
 agrieko.pl##.footer_NewsletterBox
 agrodoradca24.pl##.newsletter-online
@@ -1904,6 +1902,8 @@ zyxel.com###block-newsletter-footer
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal):lang(pl)
+~pl##.block-newsletter:lang(pl)
+~pl##.block_newsletter:lang(pl)
 pl###box-newsletter
 pl###box_newsletter
 pl###email-subscribers-2
@@ -1939,6 +1939,7 @@ pl###wp-subscribe
 pl##.acymailing_module
 pl##.b-footer_newsletter
 pl##.banner-newsletter
+pl##.block-newsletter
 pl##.block-simplenews
 pl##.block-subscribe
 pl##.block_newsletter
