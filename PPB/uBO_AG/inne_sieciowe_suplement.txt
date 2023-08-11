@@ -1,4 +1,4 @@
-$domain=~stooq.com|~stooq.pl|~localhost|~127.0.0.1|~[::1]|~0.0.0.0|~[::]|~local,permissions=autoplay=()
+$domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=pl
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
