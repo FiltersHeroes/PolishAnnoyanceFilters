@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 12 Aug 2023, 20:19 UTC+02:00
-! Version: 2023.8.12.0
+! Last modified: Sat, 12 Aug 2023, 20:20 UTC+02:00
+! Version: 2023.8.12.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 12 sie 2023, 20:19 UTC+02:00
+! Aktualizacja: sob, 12 sie 2023, 20:20 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4463,17 +4463,12 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ||app.sugester.pl/tpbocian/widget.js
 ||app.userengage.com/api/user-chatping/*$xmlhttprequest,domain=brand.ceo
 ||callcenter.pl/static/chat_snippets/*.js$domain=lellek.pl|vobis.pl
-||cdn.inbox.shoplo.com/chat.html$third-party
 ||cdn.pup.sosnowiec.pl/themes/default/pics/ico/ico_sugestia.png
 ||chat-widget.thulium.com/app/chat-loader.js$script,third-party
-||chat.4finance.com^$third-party
-||chat.freshdesk.com^$third-party,xmlhttprequest
-||chatbro.com^$third-party,domain=pl
 ||client.crisp.chat/l.js$script,domain=totalbet.pl
 ||client.crisp.chat/static/javascripts/client.js$script,domain=puccini.pl|www.fabrykawafelkow.pl
 ||clivio.pl/wp-content/themes/clivio/img/cursor.png
 ||clivio.pl/wp-content/themes/clivio/img/cursorhover.png
-||code.tidio.co^$third-party
 ||collect.chat/forms-question/*$xmlhttprequest,domain=gilotynka.pl
 ||connect.facebook.net/en_US/sdk/xfbml.customerchat.js$domain=www.salonroman.pl
 ||cxel.fcc-online.pl/chat/widget.js
@@ -4481,20 +4476,16 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ||czater.pl/assets/sounds/*$media,domain=www.czater.pl
 ||ebok.kierus.com.pl/scripts/button.php
 ||embed.tawk.to^$script,third-party
-||facebook.com/v*/plugins/customerchat.php$third-party
 ||google.com/shopping/customerreviews/badge$domain=specshop.pl
 ||helponclick.com^$script,third-party
 ||hubtalk.com/widgets/*/chat.js
-||jivosite.com^$third-party,domain=pl
 ||kodilla.com/static/js/call-us.js$script
 ||livesupport.pl/chat/createBottom*.js
 ||livesupport.pl/chat/createFloat*.js
 ||livesupport.pl/chat/user*.js$script,domain=ekskluzywna.pl
-||mylivechat.com/livechat2/livechat2.aspx$third-party
 ||niszczarki.org/templates/standard/images/jestesmy_na_allegro.jpg
 ||node.unifiedfactory.com^$script,domain=www.accessibletour.pl
 ||opineo.pl/gfx/frontend/side_slider_gfx.png
-||opineo.pl/shop/slider.js.php$third-party
 ||papis.pl/livechat/php/app.php
 ||pcaction.pl/inne/allegro_komentarze.php
 ||pcaction.pl/szablony/standardowy.rwd/obrazki/zakladki/allegro.png
@@ -4502,8 +4493,6 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ||qdecor.pl/img/ceneo-widget.png
 ||salesmanago.pl/static/chunk/chat.js
 ||smartsuppchat.com/loader.js
-||ssl.ceneo.pl/shops/sw.js$third-party
-||ssl.ceneo.pl/shops/v3/script.js$third-party
 ||st.chatango.com/js/gz/emb.js
 ||static.zotabox.com/*/widgets.js
 ||terazteatr.pl/img/sugestie.jpg
@@ -4516,7 +4505,6 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ||widgets.trustedshops.com/js/*.js
 ||widgets.trustedshops.com/reviews/tsSticker/tsSticker.js
 ||znamibezpiecznie.pl/images/kontakt.png
-||zopim.com^$third-party,domain=~apteline.pl|~egb.com|~nordvpn.com
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
