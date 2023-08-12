@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 11 Aug 2023, 21:30 UTC+02:00
-! Version: 2023.8.11.0
+! Last modified: Sat, 12 Aug 2023, 20:19 UTC+02:00
+! Version: 2023.8.12.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 11 sie 2023, 21:30 UTC+02:00
+! Aktualizacja: sob, 12 sie 2023, 20:19 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4521,6 +4521,7 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ~pl###chaty-channel-facebook_messenger:lang(pl)
+~pl###fb-root:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/m.me/"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
@@ -4741,7 +4742,6 @@ eitca.pl###block-views-Opinie_EITCA-block_2
 ekantor.pl##.slideout-btn
 eko-life.pl###__ChatoBeeWidget__window
 eko-ue.pl##.fixed-right-menu
-ekookna.pl,o-shop.com,quadralite.pl,selectshop.pl###fb-root
 ekorekta24.pl##.opineo-link
 ekorekta24.pl,multilampy.pl##.opineo
 electro.pl##.is-complaintReport
@@ -5020,6 +5020,7 @@ phox.pl###chat.chat
 picodi.com###oneSignalBell, #onesignal-bell-container
 pikio.pl###chatBot
 pityver.pl###widget.tada.widget
+pl###fb-root
 pl##.sm-panel .sm-messenger
 pl##.x13socialfixed_links a[href*="/m.me/"]
 pl##.x13socialfixed_links a[href*="/wa.me/"]
@@ -5268,11 +5269,20 @@ zrzutka.pl##.uv-bottom-right
 /web/live-chat/chatbotize-$script
 ||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
 ||app.chatwoot.com/packs/js/sdk.js$script,domain=pl
+||cdn.inbox.shoplo.com/chat.html$third-party
+||chat.4finance.com^$third-party
+||chat.freshdesk.com^$third-party,xmlhttprequest
+||chatbro.com^$third-party,domain=pl
 ||chatwoot.*/packs/js/sdk.js$script
+||code.tidio.co^$third-party
+||facebook.com/v*/plugins/customerchat.php$third-party
+||jivosite.com^$third-party,domain=pl
+||mylivechat.com/livechat2/livechat2.aspx$third-party
+||opineo.pl/shop/slider.js.php$third-party
+||ssl.ceneo.pl/shops/sw.js$third-party
+||ssl.ceneo.pl/shops/v*/script.js$third-party
 ||tenantpluginapiserver*.conpeek.*/cdn
-/livezillachat//script.php
-||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
-||tenantpluginapiserver*.conpeek.*/cdn
+||zopim.com^$third-party,domain=~apteline.pl|~egb.com|~nordvpn.com
 ~pl###__ceneo-widgets:lang(pl)
 ~pl###_opineo_container:lang(pl)
 ~pl###chat-application-iframe:lang(pl)
