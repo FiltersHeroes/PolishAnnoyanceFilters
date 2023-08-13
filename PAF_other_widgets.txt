@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 11 Aug 2023, 21:30 UTC+02:00
-! Version: 2023.8.11.0
+! Last modified: Sun, 13 Aug 2023, 12:30 UTC+02:00
+! Version: 2023.8.13.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 11 sie 2023, 21:30 UTC+02:00
+! Aktualizacja: nie, 13 sie 2023, 12:30 UTC+02:00
 !
 !
 !
@@ -1181,6 +1181,7 @@ zyciepabianic.pl##.paper
 ~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
+~pl##ptwp-infinite:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 com,eu,info,pl###content > div#ipl-loader
 com,eu,info,pl###content > div#primary span.loaded.ipl
@@ -1231,6 +1232,7 @@ pl##.td-more-articles-box
 pl##.x13socialfixed_links a[href*="allegro.pl/"]
 pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
+pl##ptwp-infinite
 !
 !
 ! Filtry specjalne
