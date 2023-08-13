@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 13 Aug 2023, 12:30 UTC+02:00
-! Version: 2023.8.13.0
+! Last modified: Sun, 13 Aug 2023, 13:09 UTC+02:00
+! Version: 2023.8.13.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 13 sie 2023, 12:30 UTC+02:00
+! Aktualizacja: nie, 13 sie 2023, 13:09 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -193,6 +193,7 @@ attipas.pl##div.col-sm-6.col-md-3:nth-of-type(4) > .widget
 auchan.pl##a[href="/newsletter/ref/box"]
 audio.com.pl##.sticky-newsletter
 audytel.pl,eko-ue.pl##.fixed-newsletter
+australiangoldshop.pl###formNewsletterFooter > div:nth-child(3)
 austria.info##.sonata\.block\.service\.newsletter.u-section
 autodoc.pl##.subscribe_us
 autogaleria.pl##.col-lg-5.col-md-5.col-sm-6.col-xs-12
@@ -2276,7 +2277,7 @@ bestape.pl,instamarketing.pl##.popup, .popup-overlay
 bestcentrum.pl##.modal-popup
 bezgluten.pl,creativehobby.pl##.iziToast-wrapper, .iziToast-overlay
 bialykruk.pl,swiato-podglad.pl###popup-background
-bielskakraina.pl,delikatesy.pl,godealla.pl,kruksdifferent.com,mpolska24.pl,wakacjezprocentem.pl##.overlay
+bielskakraina.pl,delikatesy.pl,godealla.pl,kruksdifferent.com,mpolska24.pl,selectshop.pl,wakacjezprocentem.pl##.overlay
 bigchina.pl,pkwieruszow.pl,rzeszow4u.pl,solidsecurity.pl,sportgdansk.pl###myModal
 bikesalon.pl,snowshop.pl,surfshop.pl##.bonus-overlay
 bilety.laczynaspilka.pl##.shadowbox-popup, .shadowbox_overlay
@@ -2886,6 +2887,8 @@ scandi-city.pl###layer-banner
 scooterkingz.com.pl###promo_popup, #promo_popup_bg
 selectshop.pl###popup-center
 selectshop.pl###popup-overlay
+selectshop.pl##.ad.modal
+selectshop.pl##.products-popup.modal
 sewel.pl##.pierwszywidget.widgety
 shipgratis.eu###pgwModal, #pgwModalBackdrop
 shop-dent.pl,zenox.pl##.needsclick[style*="z-index"]:not(button)
@@ -3493,7 +3496,7 @@ autoplaza.com.pl###gw_footerSticky__backToTop
 ava-kosmetyki.pl##.icon-scroll
 aval.com.pl##.roll-top
 avans.pl##.wf-arrow-circle-o-up
-avantea.pl,avenus.pl,dipol.com.pl,dpm.eu,junak.com.pl,karmello.pl,licencjefilmowe.pl,muovitech.com,papier99.pl,poettinger.at,sendgb.com,silesiaofficecenter.pl,spolkacywilna.info,zinkpower.com###gotoTop
+avantea.pl,avenus.pl,dipol.com.pl,dpm.eu,junak.com.pl,karmello.pl,licencjefilmowe.pl,muovitech.com,papier99.pl,poettinger.at,sendgb.com,silesiaofficecenter.pl,spolkacywilna.info,westerntortilla.pl,zinkpower.com###gotoTop
 avaro.pl,kontri.pl,planplaneta.com###arrow_top
 avast.com###slide-top
 axeprim.eu,brytol.com,domel.com.pl,ekspert-nieruchomosci.com.pl,fanipogody.pl,fera.pl,gazetaslupecka.pl,gdanskstrefa.com,icyfrowypolsat.pl,ino-24.pl,itbiznes.pl,lincoln.edu.pl,meblosfera.pl,placesandplants.com,posbistro.com,radioopornik.eu,region24.pl,rrs24.net,silesion.pl,skawina.eu,sluzby-ratownicze.pl,sp18.lublin.eu,sportdziennik.com,sportowiec.info,stalmielec.com,targowek.info,tarnobrzeg.info,techno-senior.com,tygodnikradomski.com.pl,wachtyrz.eu,wagrowiec-wydarzeniazostatniejchwili.pl,wbieszczady.pl,wiatrodyskretni.pl,wirtualnynowydwor.pl,wiskitki.org,wokolmotoryzacji.pl,zs12lublin.eu###scroll-up
@@ -3893,7 +3896,7 @@ leadstar.pl,sklep.kobi.pl##.page-scroll
 leba.eu,niepolomice.eu,szema.eu##.to-top-container
 lebork24.info##.backto
 lechia.net###gkBackToTop
-leclerc-online.pl,leclerc.com.pl,santanderconsumer.pl,www.rp.pl##.arrow-to-top
+leclerc-online.pl,leclerc.com.pl,santanderconsumer.pl,www.rp.pl,zakupy-eleclerc.pl##.arrow-to-top
 legalnakultura.pl,mojaniderlandia.pl,mojanorwegia.pl,trol.pl###goUp
 legalniewsieci.pl##.float-news-nav
 lenovo.com##.backToTop
@@ -3956,7 +3959,7 @@ millymally.pl##.page-up
 milmag.pl##.doScrollTop
 miloohome.pl###js-btn-gotop
 misjaangielski.pl##.ast-scroll-to-top-right
-mixit.pl###scroll-up-btn
+mixit.pl,plus.pl###scroll-up-btn
 mmpartners.eu##.przewijak
 mobilneforum.pl###scrollblock
 mobilny-ranking.pl##.qodef-back-to-top-icon
@@ -4576,6 +4579,7 @@ atakto.pl###lhc_status_widget_v2
 audiosklep.pl,boboland24.pl,delkom.pl,interlazienka.pl,korzystneit.pl,officeexpert.pl,shark.sklep.pl,sklep.milicon.eu,sklep.wisan.pl###contactBox
 aurum-optics.pl##.button-messenger
 aurum-optics.pl##a[href*="m.me/"]
+australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com/"])
 autodoc.pl##.js-chat-buttons-container-genesys
 avans.pl##.b-reportFault
 axa.pl,biznes.gov.pl,cosinus.pl,kup.pl.canalplus.com,toyotabank.pl###dc-tab-button
