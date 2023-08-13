@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 12 Aug 2023, 20:20 UTC+02:00
-! Version: 2023.8.12.1
+! Last modified: Sun, 13 Aug 2023, 12:30 UTC+02:00
+! Version: 2023.8.13.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 12 sie 2023, 20:20 UTC+02:00
+! Aktualizacja: nie, 13 sie 2023, 12:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3138,12 +3138,17 @@ pl##body:not(.x13popup-open) #x13popup-cover
 !
 ! Powiadomienia push
 */pushServiceWorker.js$script,domain=go.tvn24.pl|player.pl|topagrar.pl|tvn.pl|~www.tvn.pl
+/batchsdk-worker-loader.js$script,domain=eurosport.tvn24.pl
+/firebase-messaging-sw.js$script,domain=rp.pl
 /firebase-push.js$domain=cafago.com|tomtop.com
 /firebase/firebase-messaging.js$script,domain=kobieceinspiracje.pl
 /firebase/subscribe.js$domain=czesciauto24.pl
+/firebasejs/*/firebase*.js$script,third-party,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
+/firebasejs/*/firebase-app.js$script,domain=parkiet.com
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.fm|planeta.pl|radiozet.pl
+/push-notifications/*firebase-config.json$xmlhttprequest,domain=mojeppk.pl
 /rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
-/rtom-proxy/rtom/web-push/*$xhr,domain=www.brw.pl
+/rtom-proxy/rtom/web-push/*$xhr,domain=brw.pl
 /snr-sw.js$script,domain=mediaexpert.pl|pl.kruk.eu
 /sw-push.js$script,domain=m.zapytaj.onet.pl|medonet.pl
 /sw-rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
@@ -3154,12 +3159,8 @@ pl##body:not(.x13popup-open) #x13popup-cover
 ||cdn.siteswithcontent.com/js/push/subscribe.js$script,domain=postimages.org|postimg.cc
 ||cdn.subscribers.com/assets/subscribers-sw.js$script,domain=badzjeszczelepszy.pl
 ||chamsko.pl/js/push-notifications.js
-||eurosport.tvn24.pl/batchsdk-worker-loader.js$script,domain=eurosport.tvn24.pl
-||gstatic.com/firebasejs/*/firebase*.js$script,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
-||gstatic.com/firebasejs/*/firebase-app.js$script,domain=parkiet.com
 ||konin24.info/tmpl/js/push.min.js
 ||meczlive.pl/webpush.js$script
-||mojeppk.pl/*/push-notifications/*firebase-config.json$xmlhttprequest,domain=mojeppk.pl
 ||ocdn.eu/ucs/static/*/build/js/pushModule.js$script,domain=auto-swiat.pl|businessinsider.com.pl|fakt.pl|komputerswiat.pl|medonet.pl|noizz.pl|onet.pl|plejada.pl|vod.pl
 ||onet.pl/push-mob-service-worker*.js$script,domain=onet.pl
 ||onet.pl/push-service-worker*.js$script,domain=onet.pl
@@ -3167,9 +3168,6 @@ pl##body:not(.x13popup-open) #x13popup-cover
 ||rankomat.pl/kalkulator/client_app/assets/push-notifications/push-notifications.script.js
 ||redditstatic.com/*/PushNotifications.
 ||rzetelnafirma.pl/Scripts/pushServiceWorker$script
-||salesmanago.*/api/push/$xmlhttprequest
-||salesmanago.*/api/push/notification/consent/content.html$subdocument
-||savecart.pl/*/script.php
 ||tauron.pl/pushAd/integration.js
 ||twojcel.to/?smpushprofile
 ||web.webpushs.com/js/push/$script,domain=wiencewiazanki.pl
@@ -3254,6 +3252,9 @@ zegarkiipasja.pl##.fcx-push-modal-container
 ||pushcrew.com^$script,third-party
 ||pushengage.com/script.js
 ||pushpushgo.com/scripts*/push.js$third-party
+||salesmanago.*/api/push/$xmlhttprequest
+||salesmanago.*/api/push/notification/consent/content.html$subdocument
+||savecart.pl/*/script.php
 ~pl###edrone_push--bubble:lang(pl), #edrone--push--alert--box:lang(pl)
 pl###edrone_push--bubble, #edrone--push--alert--box
 pl###onesignal-bell-container
@@ -6489,6 +6490,7 @@ zyciepabianic.pl##.paper
 ~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
+~pl##ptwp-infinite:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 com,eu,info,pl###content > div#ipl-loader
 com,eu,info,pl###content > div#primary span.loaded.ipl
@@ -6539,6 +6541,7 @@ pl##.td-more-articles-box
 pl##.x13socialfixed_links a[href*="allegro.pl/"]
 pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
+pl##ptwp-infinite
 !
 !
 ! Prenumeraty
