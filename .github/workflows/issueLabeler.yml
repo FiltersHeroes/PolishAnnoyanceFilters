@@ -5,98 +5,11 @@ on:
     types: [opened, edited]
 
 jobs:
-  letsgo:
+  apply-label:
     runs-on: ubuntu-latest
     permissions:
       issues: write
     steps:
-      - uses: actions/github-script@v6
+      - uses: hawkeye116477/issue-manager-action@v1
         with:
-          script: |
-            var body = context.payload.issue.body;
-            var labels = context.payload.issue.labels;
-            var labelSet = [
-              {
-                "body": "Błąd",
-                "label": "błąd",
-              },
-              {
-                "body": "Widżet kontaktowy\/informacji zwrotnej",
-                "label": "widżet kontaktowy/feedback",
-              },
-              {
-                "body": "Newsletter",
-                "label": "newsletter",
-              },
-              {
-                "body": "Otagowany link wewnętrzny",
-                "label": "otagowany link wewnętrzny",
-              },
-              {
-                "body": "Wyskakujące okienko",
-                "label": "popup",
-              },
-              {
-                "body": "Powiadomienie push",
-                "label": "push",
-              },
-              {
-                "body": "Scrollujący filmik",
-                "label": "scrollujący filmik",
-              },
-              {
-                "body": "Strzałka",
-                "label": "strzałka",
-              },
-              {
-                "body": "Tło zawierające autopromocję",
-                "label": "tło autopromocyjne",
-              },
-              {
-                "body": "Inny element",
-                "label": "inny element",
-              },
-              {
-                "body": "Tytuł strony zachęcający do powrotu",
-                "label": "powrotowy tytuł",
-              },
-              {
-                "body": "Reklama prenumeraty\/e-wydania gazety",
-                "label": "prenumerata",
-              },
-              {
-                "body": "Pytanie",
-                "label": "pytanie",
-              },
-              {
-                "body": "Ulepszenie",
-                "label": "ulepszenie",
-              }
-            ]
-
-            var labelsToAdd = [];
-
-            for (const i in labelSet) {
-              var re_add = new RegExp("- \\[[xX]] "+labelSet[i].body, "i");
-              var re_remove = new RegExp("- \\[[ ]] "+labelSet[i].body, "i");
-              if(body.match(re_add) && !labels.some(e => e.name === labelSet[i].label)) {
-                labelsToAdd.push(labelSet[i].label);
-              }
-              if(body.match(re_remove) && labels.some(e => e.name === labelSet[i].label)) {
-                github.rest.issues.removeLabel({
-                  issue_number: context.issue.number,
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  name: labelSet[i].label
-                })
-              }
-            }
-
-            if (labelsToAdd.length > 0) {
-              github.rest.issues.addLabels({
-                      issue_number: context.issue.number,
-                      owner: context.repo.owner,
-                      repo: context.repo.repo,
-                      labels: labelsToAdd
-              })
-            }
+          mode: "labelOpened"

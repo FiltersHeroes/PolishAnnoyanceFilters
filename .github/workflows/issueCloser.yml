@@ -1,30 +1,18 @@
 name: Portier
+
 on:
   issues:
     types: [labeled]
 
 jobs:
-  letsgo:
+  apply-label:
     if: github.event.label.name == 'zatwierdzone' || github.event.label.name == 'odrzucone'
     runs-on: ubuntu-latest
     permissions:
       issues: write
     steps:
-      - uses: actions/github-script@v6
+      - uses: hawkeye116477/issue-manager-action@v1
         with:
-          script: |
-              var reason;
-              var labels = context.payload.issue.labels;
-              if(labels.some(e => e.name === "zatwierdzone")) {
-                reason = "completed"
-              }
-              else {
-                reason = "not_planned"
-              }
-              github.rest.issues.update({
-                      owner: context.repo.owner,
-                      repo: context.repo.repo,
-                      issue_number: context.issue.number,
-                      state: "closed",
-                      state_reason: reason
-              })
+          mode: "close"
+          completed-label: "zatwierdzone"
+          not-planned-label: "odrzucone"
