@@ -11,8 +11,8 @@ komputerswiat.pl$$#ks_breaking_news
 newonce.radio$$link[rel="shortcut icon"][href^=".gif"]
 pacjent.gov.pl#@#:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
 wbgroup.pl#@#:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important)
-www.instalki.pl##media (max-width: 500px) { .blog .type-post .entry-header .entry-details, .archive .type-post .entry-header .entry-details { display: inline !important } }
-www.instalki.pl##media (max-width: 500px) { .post-categories, .post-categories li:style(background: none !important; padding: 0; margin: 3px -5px; display: inline-flex } }
+www.instalki.pl##@media (max-width: 500px) { .blog .type-post .entry-header .entry-details, .archive .type-post .entry-header .entry-details { display: inline !important } }
+www.instalki.pl##@media (max-width: 500px) { .post-categories, .post-categories li:style(background: none !important; padding: 0; margin: 3px -5px; display: inline-flex } }
 www.youtube.com#@#:matches-media((min-width: 1500px) and (max-width: 2000px)) [page-subtype="home"] ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important)
 www.youtube.com#@#ytd-browse[page-subtype="home"] ytd-rich-grid-row, ytd-browse[page-subtype="home"] #contents.ytd-rich-grid-row:style(display:contents !important)
 www.youtube.com#@?#:matches-media((min-width: 1500px) and (max-width: 2000px)) [page-subtype="home"] ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important)
