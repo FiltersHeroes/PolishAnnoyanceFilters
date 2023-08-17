@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 13 Aug 2023, 14:04 UTC+02:00
-! Version: 2023.8.13.1
+! Last modified: Thu, 17 Aug 2023, 14:31 UTC+02:00
+! Version: 2023.8.17.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 13 sie 2023, 14:04 UTC+02:00
+! Aktualizacja: czw, 17 sie 2023, 14:31 UTC+02:00
 !
 !
 !
@@ -182,8 +182,6 @@ aleleki.pl,florini.pl###fancybox-overlay
 alfaelektro.pl###bhr-items .bhr-popup-advanced div
 aliexpress.com##.coupon-poplayer-modal
 aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
-alkoholeswiata24.pl##.simplemodal-container:not(:has(.PelnoletniPopup, #addToCartPopup))
-alkoholeswiata24.pl##.simplemodal-overlay:has(~ .simplemodal-container:not(:has(.PelnoletniPopup, #addToCartPopup)))
 allegro.pl##[data-pathname="/koszyk/warstwa"] > [data-box-name="precart-layer"]
 allegro.pl##div[data-box-name="allegro.ratings.sellerRatingForm"] div[style*="relative"] > div[style*="absolute"]
 allegro.pl##div[data-box-name="modalBW"]
@@ -319,7 +317,7 @@ chemiabudowlana.info,mylomza.pl###fadeinbox
 chillglobal.pl##.bounceright-popup-acm.popup-acm
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
 chinytolubie.pl##div[data-gr="popup-container"]
-chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
+chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,max4.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chopin.polskieradio.pl##div[class^="MarathonPopup_curtain_"]
 chronpesel.pl##.wh-popUp-overlay
@@ -411,6 +409,7 @@ earlystage.pl###popup-home
 eastend.pl##.nl1.popup-opacity
 ebizneskrokpokroku.pl###qqOverlay
 ebizpro.pl,grywalizacja24.pl,iurico.pl,maszynadopisania.pl,rozwod-z-klasa.pl###itro_opaco, #itro_popup
+edusklep.pl,tanienurkowanie.pl##.mf-modal-iframe, .mf-modal-overlay
 effective-english.pl###fm_popup_1
 eitalia.pl###facebox, #facebox_overlay
 ekodrogeria.pl##.fancybox-overlay, .fancybox-wrap
@@ -843,6 +842,7 @@ quiosque.pl##.modals-wrapper
 raczynski-kominki.pl##.freecall_form
 raczynski-kominki.pl##.overlay_freecall
 radio111.pl##.modal[id], .modal-backdrop
+radiokierowcow.pl##.ENLGP.styles__AppPopUpContainer-sc-7zfns8-0
 radioolsztyn.pl###zmiana
 randstad.pl##.pop-up-wrapper
 rankingubezpieczennazycie.pl###exit_popup
@@ -953,7 +953,6 @@ sztuka-architektury.pl###newsletter_info
 szybka-moneta.pl###moneta_popup
 tanibilet.eu##.av_pop_modals_1.ays-pb-modals
 taniejdladomu.pl###newsletterBg, #newsletterContainer
-tanienurkowanie.pl##.mf-modal-iframe, .mf-modal-overlay
 taniewakacje.pl##.qtip-popup-widget.qtip-fullscreen, #qtip-overlay
 taxxo.pl##.novocall-modal, .novocall-in
 teatrkomedia.pl###splash
