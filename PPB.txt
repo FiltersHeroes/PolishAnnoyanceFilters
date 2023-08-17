@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 15 Aug 2023, 21:07 UTC+02:00
-! Version: 2023.8.15.1
+! Last modified: Thu, 17 Aug 2023, 14:31 UTC+02:00
+! Version: 2023.8.17.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 15 sie 2023, 21:07 UTC+02:00
+! Aktualizacja: czw, 17 sie 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2197,8 +2197,6 @@ aleleki.pl,florini.pl###fancybox-overlay
 alfaelektro.pl###bhr-items .bhr-popup-advanced div
 aliexpress.com##.coupon-poplayer-modal
 aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
-alkoholeswiata24.pl##.simplemodal-container:not(:has(.PelnoletniPopup, #addToCartPopup))
-alkoholeswiata24.pl##.simplemodal-overlay:has(~ .simplemodal-container:not(:has(.PelnoletniPopup, #addToCartPopup)))
 allegro.pl##[data-pathname="/koszyk/warstwa"] > [data-box-name="precart-layer"]
 allegro.pl##div[data-box-name="allegro.ratings.sellerRatingForm"] div[style*="relative"] > div[style*="absolute"]
 allegro.pl##div[data-box-name="modalBW"]
@@ -2334,7 +2332,7 @@ chemiabudowlana.info,mylomza.pl###fadeinbox
 chillglobal.pl##.bounceright-popup-acm.popup-acm
 chinytolubie.pl##.ui-dialog-titlebar-close, .ui-widget-overlay
 chinytolubie.pl##div[data-gr="popup-container"]
-chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
+chocholowskietermy.pl,grailpoint.com,hoho.sklep.pl,instalacjebudowlane.pl,max4.pl,outhorn.com,przegladbaltycki.pl,salonyhoff.pl,sklep.chomik.pl,wentylacyjny.pl,wydawnictwomartel.pl,zapachdomu.pl##.simplemodal-container, .simplemodal-overlay
 cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chopin.polskieradio.pl##div[class^="MarathonPopup_curtain_"]
 chronpesel.pl##.wh-popUp-overlay
@@ -2426,6 +2424,7 @@ earlystage.pl###popup-home
 eastend.pl##.nl1.popup-opacity
 ebizneskrokpokroku.pl###qqOverlay
 ebizpro.pl,grywalizacja24.pl,iurico.pl,maszynadopisania.pl,rozwod-z-klasa.pl###itro_opaco, #itro_popup
+edusklep.pl,tanienurkowanie.pl##.mf-modal-iframe, .mf-modal-overlay
 effective-english.pl###fm_popup_1
 eitalia.pl###facebox, #facebox_overlay
 ekodrogeria.pl##.fancybox-overlay, .fancybox-wrap
@@ -2858,6 +2857,7 @@ quiosque.pl##.modals-wrapper
 raczynski-kominki.pl##.freecall_form
 raczynski-kominki.pl##.overlay_freecall
 radio111.pl##.modal[id], .modal-backdrop
+radiokierowcow.pl##.ENLGP.styles__AppPopUpContainer-sc-7zfns8-0
 radioolsztyn.pl###zmiana
 randstad.pl##.pop-up-wrapper
 rankingubezpieczennazycie.pl###exit_popup
@@ -2968,7 +2968,6 @@ sztuka-architektury.pl###newsletter_info
 szybka-moneta.pl###moneta_popup
 tanibilet.eu##.av_pop_modals_1.ays-pb-modals
 taniejdladomu.pl###newsletterBg, #newsletterContainer
-tanienurkowanie.pl##.mf-modal-iframe, .mf-modal-overlay
 taniewakacje.pl##.qtip-popup-widget.qtip-fullscreen, #qtip-overlay
 taxxo.pl##.novocall-modal, .novocall-in
 teatrkomedia.pl###splash
@@ -5622,7 +5621,7 @@ direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
 discoverychannel.pl,itvn.pl,itvnextra.pl,metro.tv,tlcpolska.pl,tvn.pl,tvn7.pl,tvnfabula.pl,tvnstyle.pl,tvnturbo.pl###nextItem
 divanii.pl,kupujdrzwi.pl,printer4.pl,sklep.audiopunkt.com.pl##div[class*="prat-widget"]
-dmtrade.pl##.floating-newest-products
+dmtrade.pl##.floating-newest-products, .floating-commercial-box
 dobredomy.pl##.right.sidemenu
 dobredrzwi.pl##.google-opinions
 dobreprogramy.pl###divGoToWp
