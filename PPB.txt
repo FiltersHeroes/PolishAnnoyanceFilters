@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 21 Aug 2023, 21:30 UTC+02:00
-! Version: 2023.8.21.0
+! Last modified: Thu, 24 Aug 2023, 14:31 UTC+02:00
+! Version: 2023.8.24.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 21 sie 2023, 21:30 UTC+02:00
+! Aktualizacja: czw, 24 sie 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3362,7 +3362,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 4f.com.pl,adriatech.pl,agrojumal.com.pl,android.com.pl,answear.com,blaugrana.pl,cyfrowarepublika.pl,dachygt.pl,dorotafilipiuk.pl,drmax.pl,fenii.pl,karchercenter-ocean.pl,karnet.krakow.pl,myjki.com,myjki.eu,ocean-karcher.pl,oponeo.pl,pfron.org.pl,pracuj.pl,radiopoznan.fm,sagito.pl,sandraspa.pl,sport-shop.pl,tolpa.pl###scrollTop
 4funkids.pl###scroll_up
 4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu###scroll-to-top
-4turbo.pl,agro-parts24.pl,bratnizew.pl,ceberd.pl,dayupstore.pl,dlakatolika.pl,e-sporting.pl,elektryknet.pl,fhuoskar.pl,klinkierbud.pl,magazynlamp.pl,no10.pl,nygus.pl,palis.pl,polskiled.com.pl,sklep-narzedzia.pl,sklep.agroas.pl,sklep.loakepolska.pl,sklep.monster.pl,sklep.platinet.pl,sorbenty.pl,sportbazar.pl,topserw.pl,twp.sklep.pl###moveTop
+4turbo.pl,agro-parts24.pl,bratnizew.pl,ceberd.pl,dayupstore.pl,dlakatolika.pl,e-sporting.pl,eelsner24.eu,elektryknet.pl,fhuoskar.pl,klinkierbud.pl,magazynlamp.pl,no10.pl,nygus.pl,palis.pl,polskiled.com.pl,sklep-narzedzia.pl,sklep.agroas.pl,sklep.loakepolska.pl,sklep.monster.pl,sklep.platinet.pl,sorbenty.pl,sportbazar.pl,topserw.pl,twp.sklep.pl###moveTop
 5wszk.com.pl,brwmielec.pl,creagroup.com.pl,crmodus.pl,dietetyczne-przepisy.net,dietetyk-proporcja.pl,dziekanka.net,e-theart.pl,galeriajurowiecka.com.pl,gchmanhattan.pl,krolismok.pl,rubbens.pl,staragotowka.pl,supersam-katowice.pl,wieniecwarszawa.pl###slide_top
 6paknutrition.com,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
 24hurt.pl,haftpasja.pl,mirjan24.pl,pm-m.pl,polagriparts.pl,uczyibawi.pl###wt_scroll_top
@@ -3478,11 +3478,13 @@ ashampoo.com,citroen-shop.eu,interhurt.eu,pl.kruk.eu##.backtotop
 asrock.com,buyblo.com,leyraa.blogspot.com,plustek.com###goTop
 astoreo.pl##.scrollButtons
 astra.pisz.pl,lencze.eu,pdm.pisz.pl,portalhodowcy.pl###nav_up
+asus.com##.ScrollTop__scrollTopIcon__32D5F
 asus.com,athleticsport.pl,bankier.pl,centrumelektroniki.pl,device.pl,e-konkursy.info,goldenmark.com,isystemy.pl,koelnerpolska.pl,m.gotowanie.onet.pl,rawlplug.com,sklepbiegacza.pl,teamquest.pl###goToTop
 asystentbhp.pl##.gototop-button.gototop
 atmp.pl,b2net.pl,elus.pl,encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl,telefon.info.pl###top
 auchan.pl##.button-go-top
 auchan.pl##.tooltip.right > button ~ button[style*="width: 10px"]
+auchanhetmanska.pl##.a-ScrollTop
 auchanhetmanska.pl##.js-a-ScrollTop.a-ScrollTop
 audilo.pl,douglas.pl,eadamex.pl##.scroll-to-top-button
 audio.com.pl###return-btn
@@ -3516,7 +3518,7 @@ beltone-polska.eu,beltone-polska.pl##.cc-FloatingButtonBarContainer-button-scrol
 benchmark.pl##.jsScrollToTop.btn--to-top
 benler.pl,lento.pl,restaurantguru.com###scroller
 beskidy.news,intimissimi.com,nawa.gov.pl,powiatslubicki.pl##.js-scroll-top
-bettingexpert.com##.slideInUp
+bettingexpert.com,florini.pl##.slideInUp
 bezbiku.info,dolnyslask.travel,niebieski.net,planetamarvel.net,silvermet.eu###wpfront-scroll-top-container
 bezpiecznapodroz.org,jogapiekna.com,szczodrymarket.com,termyszaflary.com,witanet.net###go-top
 bibleserver.com##.bs-app__scroll-top-btn
@@ -3532,7 +3534,7 @@ bisko.pl,cng.auto.pl,iwetto.com,olbud.com.pl,penguinbm.com,pl.vpnmentor.com,retr
 bithub.pl##.st-site-scroll-top
 bitserwis.com.pl##.flaticon-home
 biura-rachunkowe.waw.pl,biznesfinder.pl,pomysly-na.pl,swiat-uslug.pl,welcome2poland.eu##.action-scroll-top
-biurfan.pl,ekoj.pl,helvetia-meble.pl,heronews.pl,kalisz24.info.pl,kiwimag.pl,kosapopatelni.pl,oksport.pl,palcelizac.pl,podlasianin.com.pl,racjonalista.tv,sklep.soled.pl,strajk.eu,strefapsx.pl,tygodnik.szczytno.pl,zawojski.pl,ztedevices.com##.gotop
+biurfan.pl,centralne.co,ekoj.pl,helvetia-meble.pl,heronews.pl,kalisz24.info.pl,kiwimag.pl,kosapopatelni.pl,oksport.pl,palcelizac.pl,podlasianin.com.pl,racjonalista.tv,sklep.soled.pl,strajk.eu,strefapsx.pl,tygodnik.szczytno.pl,zawojski.pl,ztedevices.com##.gotop
 biurowazszywka.pl##.ast-scroll-top-icon
 biznesomania.com.pl,igomedia.pl,notebooki.pl##.goto-top
 biznesplan.net.pl##.ta_upscr
@@ -3547,10 +3549,12 @@ blog.spacetronik.eu,moneygrabbing.co.uk,szeffer.expert##.sh-back-to-top
 blogzapetytem.pl##.tc-btt-wrapper
 bluestilo.com,bombkichoinkowe.com,bombkisklep.com##.btn-to-top
 bodybuilder.scania.com,maxelektro.pl###button-to-top
-bodzio.pl,browserwall.com##.scroll-up-btn
+bodzio.pl,browserwall.com,cezar.eu##.scroll-up-btn
 bogatynia.info.pl,comel-it.com,konstrukcjeinzynierskie.pl,mzktomaszow.pl,stanmar.eu##.g-totop
+boguslaw.io##.ScrollUpButtonstyle__ScrollUpButtonWrapper-bedw5x-0
 bomameble.eu##img[src="img/top.png"]
 bonami.pl##.ScrollToTop_fadeIn__cKcX9
+bonami.pl##.ScrollToTop_scrollToTop__5HWy4
 bonavita.pl###ot-jumplist-control
 bonprix.pl##.btn-primary.scroll-to-top-btn
 bookland.com.pl,eduarena.pl###yt-totop-fix
@@ -3661,7 +3665,7 @@ douglas.pl##.rd__back-to-top
 drillo.co,jelenia.tv,kostes.eu,krasiczyn.info,pastebin.com,proveg.com,serwis-zamkow.com,szklomal.eu##.cd-top
 drweb-av.pl###scrollup_button
 drzwi-cal.pl##.js-site-scroll-up.site-scroll-up
-dstreet.pl###backTop
+dstreet.pl,e-baseus.com###backTop
 dts24.pl##.nav-btn
 duka.com,electro.pl,mediaexpert.pl##.is-scrollToTop
 durszlak.pl##.button-icon-goup
@@ -3871,6 +3875,7 @@ kosmetyczna-hedonistka.blogspot.com##.totop-arrow
 krainaoszczedzania.pl###finoScroll
 krakow.pl###footer-scroll-up
 krasnystaw.eu##.js-up
+krd.pl##.krd-footer-scroller
 kropleinternetu.biz###gora
 kufer.poznajemyswiat.pl##.fa-arrow-up.ssttbutton-symbol
 kulinarnastronamocy.pl##.stick.stnsvn-btt
@@ -3909,6 +3914,7 @@ lilio.pl,lumex.pl,www.biedronka.pl##.arrow-top
 limango.pl###footer-container ~ div[class*="shop"][style]
 linuxiarze.pl##.fa-chevron-up
 littleforest.pl##.smoothscroll
+littlelights.pl##.btn-backtotop
 littletownshoes.com##.penci-go-to-top-floating
 lotnisko-chopina.pl###btn_back_top, .scroll.btn_up
 lubimyczytac.pl###js-btn-scroll-top.btn-scroll-up
@@ -4103,6 +4109,7 @@ prestizowakuchnia.pl###page-scroll-up
 profinamiot.pl,puma.com##.back-to-top-button
 profitroom.pl##.arrow-back-to-top
 programyzadarmo.net.pl,xboxforum.pl##.js-scrollButtons
+prosportowy.pl###rb-back-top
 proveg.com##.back-to-inner
 przedszkoledzierzgon.pl###btn-scroll-up
 przegladpiaseczynski.pl##.td-scroll-up-visible
@@ -4121,6 +4128,7 @@ radiohit.net.pl###teg-scrollup
 radiomaryja.pl##.avia-post-nav
 radiopik.pl##.scrollsoft
 radioszczecin.pl###backsite
+raitech.pl##[href="#ToTop"]
 rebornlab.com##.js-fullpage-goto
 redcoon.pl##.icon-i_arr_up
 redditch.pl###astroid-backtotop
@@ -4303,6 +4311,7 @@ zaufane-apteki.pl###btn-scroll-top
 zbudujforme.com.pl##.cmsmasters_theme_icon_slide_top
 ziemkiewicz.info##.back-to-start
 znamlek.pl##.btnScroll
+zooexpress.pl###toTop2
 zooplus.pl##button[data-zta="btn-goTop"]
 zszywka.pl###scroolToTop
 !
@@ -5391,7 +5400,7 @@ pl##.quickcontact-box
 24legnica.pl,agrofoto.pl,dziennikzbrojny.pl,engineer.decorexpro.com,goldenline.pl,life4style.pl,motospace.pl,opoczno.info,wymarzonyogrod.pl,zapytaj.onet.pl###slidebox
 24opony.pl##.alupin, .alupin2, .pasekIn
 50style.pl###help-arrow
-123budujemy.pl,francuskie.pl,mediarun.com,motoklub.pl,petronews.pl,skandynawiainfo.pl,slaskczyta.pl,tech2u.pl##.jeg_popup_post
+123budujemy.pl,francuskie.pl,mediarun.com,motoklub.pl,outdoormagazyn.pl,petronews.pl,skandynawiainfo.pl,slaskczyta.pl,tech2u.pl##.jeg_popup_post
 51015kids.eu##.sp-custom-19-1.insBlueWidget
 a-manada.pl##.banners.paralaxa-banners
 a-manada.pl,aptekamanada.pl,manada.pl##.banner-link
