@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 21 Aug 2023, 21:30 UTC+02:00
-! Version: 2023.8.21.0
+! Last modified: Sat, 26 Aug 2023, 13:53 UTC+02:00
+! Version: 2023.8.26.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 21 sie 2023, 21:30 UTC+02:00
+! Aktualizacja: sob, 26 sie 2023, 13:53 UTC+02:00
 !
 !
 !
@@ -76,6 +76,7 @@
 ##.btn-share.btn.btn-whatsapp
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl###fb-root:lang(pl)
+~pl##.c-messenger-share:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/m.me/"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
@@ -211,6 +212,7 @@ ceneo.pl###recent-activity-toast
 centermed.pl,winotoskanii.pl##div[id^="gb-widget"][style*="position"][style*="fixed"]
 centrumpapieru.pl###ls-button-container
 cersanit.com.pl,darnatury.pl,eforia.pl,euromobil.com.pl,euromotor.pl,japanmotors.pl,koreamotors.pl,mymeest.pl,opoczno.eu,pgd.pl##.FTChat_window, .FTChat_bar
+change.shop.pl,elektro-outlet.net,experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 cinema3d.pl###popupBoxInvitation
 cinkciarz.pl,eurosender.com,extradom.pl,olini.pl###hbl-live-chat-wrapper
 citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl,ursyncar.pl###gw_signpost
@@ -270,6 +272,7 @@ dreamtours.pl###info-box
 dreamtours.pl##.popup-call-me-now > .widget
 dressinn.com##.chat_icono
 drhtv.com.pl###rootChatbot
+drzwi-cal.pl##.facebook-messenger-avatar
 duckduckgo.com##.js-feedback-btn-wrap
 dulux.pl###as-wc-id
 dwa-t.pl,imm.com.pl,placowka.znanylekarz.pl,speak-up.pl###hubspot-messages-iframe-container
@@ -309,7 +312,7 @@ energylandia.pl##.floating-facebook-button
 enfamil.pl##.float-chat
 eobuwie.com.pl###open-chat
 epodreczniki.pl##.send-suggestion-btn
-eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,rivieraparkmarvipol.pl,senatkomorki.pl,stopcafe.pl,voxfm.pl##.messenger
+eska.pl,eskarock.pl,onet.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,rivieraparkmarvipol.pl,senatkomorki.pl,stopcafe.pl,viva.pl,voxfm.pl##.messenger
 eskk.pl##.ckontakt
 etoto.pl###sbChatMinimizedIdle
 eurobank.pl##.reviews
@@ -319,7 +322,6 @@ eurotargetshow.pl##.chatContainer
 eventy-online.pl###phone-tag
 ewakacje.pl##.classNotesList_button
 ewozki.eu##div[id] > iframe[title="chat widget"]
-experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
 fachowcy.pl###fav-callback-wrapper, #liveChatContainer
 fakturownia.pl##.sugester_callback_widget_outline
@@ -371,6 +373,7 @@ gkstychy.info###error_send
 glosbe.com##app-feedback-button
 go-market.pl###contact-info, #phone-info
 google.com,google.pl##.gws-flights__feedback
+google.com,google.pl##a[aria-label="Udostępnij w WhatsApp"]
 gorakalwaria.net##nav > ul > li > a[href="sygnal.html"], .footer-line > li:first-of-type > a[href="sygnal.html"]
 goral.info.pl##.btn.contact-button
 gothaer.pl##.callClickBar
@@ -509,6 +512,8 @@ modivo.pl##.live-chat-button
 mojanorwegia.pl##.msg
 mojataxi24.pl##h4#phone:first-of-type > .wiszacy
 mojbank.pl##.uk-grid.uk-flex-middle.uk-grid-row-small.uk-grid-column-collapse.uk-child-width-expand
+mojegotowanie.pl##.socializer-messenger.socializer-icon
+mojegotowanie.pl##.socializer-whatsapp.socializer-icon
 mojeppk.pl###ppk-cx-webchat-chat-button
 monedo.pl###satellite
 morele.net##.why-us-widget
@@ -531,6 +536,7 @@ nagaba.pl##.ocenyLeft
 narzedzia.pl###chatToggle
 nasz-gabinet.pl##.icon-phone
 naszamlawa.pl##.kontakt-link
+national-geographic.pl##.socializer-icon.socializer-whatsapp
 naukawpolsce.pap.pl###social > ul > .mail, .social > .mail
 niebieski.net##.slidebar, #livesite_engage_button
 nj24.pl##.jduty-container
@@ -578,6 +584,7 @@ picodi.com###oneSignalBell, #onesignal-bell-container
 pikio.pl###chatBot
 pityver.pl###widget.tada.widget
 pl###fb-root
+pl##.c-messenger-share
 pl##.sm-panel .sm-messenger
 pl##.x13socialfixed_links a[href*="/m.me/"]
 pl##.x13socialfixed_links a[href*="/wa.me/"]
@@ -734,6 +741,7 @@ teamviewer.com##.userlike
 teb.pl##.fab-contact.fab
 technikarolna.pl##.b24-widget-button-visible
 tefal24.pl###widget-button
+tekstowo.pl##.btn-messenger
 teleaudio.pl##.pulse
 telekarma.pl###flyHelp
 telepolis.pl,tlp.is##.daj-cynk
@@ -783,8 +791,11 @@ vitay.pl###serviceRatingBox
 vitopolska.com##a.c-fixed-buttons__button:first-of-type
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(2)
 vivus.pl###chatbot-widget
+voxfm.pl,www.eska.pl##.messenger #messenger
+voxfm.pl,www.eska.pl##.messenger::after
 wakacje.pl###rightTabs > .rightSpeech
 wakacyjnipiraci.pl##.widget-whatsapp__broadcast
+wakacyjnipiraci.pl##a[href*="wakacyjnipiraci.pl/pages/whatsapp"]
 westhill.pl##.wh-cta
 widokimokotow.pl###js-omp-trigger
 wielton.com.pl##.fast-contact-widget
@@ -817,6 +828,7 @@ zapowiedzi24.blogspot.com##widgetbot-crate
 zbitaszybka.pl##.tcc-widget
 zdrowazupa.pl##.so-fb-message
 zooart.com.pl###shower_desc.fast_desc
+zooart.com.pl##.fbs-svg-messenger
 zrzutka.pl##.uv-bottom-right
 !@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 !
