@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 26 Aug 2023, 13:53 UTC+02:00
-! Version: 2023.8.26.0
+! Last modified: Sat, 26 Aug 2023, 16:29 UTC+02:00
+! Version: 2023.8.26.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 26 sie 2023, 13:53 UTC+02:00
+! Aktualizacja: sob, 26 sie 2023, 16:29 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5989,7 +5989,6 @@ m.pl.aliexpress.com##.download-bar
 m.sts.pl##.promo-app-download
 m.teksciory.interia.pl###bottomPromo
 m.trojmiasto.pl###floating_more_news[class*="--fixed"]
-m.youtube.com##.mealbar-promo-renderer
 m.zalando.pl#?#div > x-wrapper-re-1-12:-abp-has(div:-abp-contains(Przejdź do aplikacji))
 m.zapytaj.onet.pl##.onet-bar.bottom
 maciej.je##.related-posts
@@ -6070,6 +6069,7 @@ mpec.olsztyn.pl###bip, #widget-btn
 mubi.pl##.back-to-calculated
 multikino.pl###qb
 multikurs.pl##.topbar-discount.row
+music.youtube.com#?#tp-yt-paper-dialog:-abp-has(ytmusic-mealbar-promo-renderer:-abp-contains(Karta Sample jest już w aplikacji))
 muve.pl###d-f-notif
 muzyczny.eu,progres24.pl,sklep.drabiny.info,sklep.maszynykrawieckie.eu,sklepzrowerami.pl,spawaj.eu,wzorniki.eu##.vertical-button
 muzykazreklam.pl###see-also
@@ -6468,13 +6468,8 @@ xgp.pl###hpb.hpb
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
 youtube-nocookie.com,youtube.com##.ytp-ce-element
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
-youtube.com###alert-banner.ytd-browse, #watch-header > .mealbar-promo-renderer.yt-dialog, .yt-alert-info.yt-alert-actionable.yt-alert
-youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
-youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[style_*="BUBBLE_HINT"][style_*="BLUE_TOOLTIP"]
-youtube.com#?##contentWrapper > .ytd-popup-container:-abp-has(> .yt-tooltip-renderer)
-youtube.com#?#paper-dialog:-abp-has(ytd-mealbar-promo-renderer)
+youtube.com#?#tp-yt-paper-dialog:-abp-has(yt-mealbar-promo-renderer:-abp-contains(Przedstawiamy Sample))
 youtube.com#?#tp-yt-paper-dialog:-abp-has(yt-mealbar-promo-renderer:-abp-contains(Zacznij wspierać ten kanał))
-youtube.com#?#ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer:-abp-has(h2:-abp-contains(Zacznij wspierać ten kanał))
 yves-rocher.pl##.layout-banner__top.layout-banner
 z-hotel.com###repuso_floating
 zadowolenie.pl##.b-bragLabel
