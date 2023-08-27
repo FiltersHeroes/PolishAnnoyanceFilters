@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 27 Aug 2023, 13:48 UTC+02:00
-! Version: 2023.8.27.0
+! Last modified: Sun, 27 Aug 2023, 14:31 UTC+02:00
+! Version: 2023.8.27.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 27 sie 2023, 13:48 UTC+02:00
+! Aktualizacja: nie, 27 sie 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4129,7 +4129,7 @@ radiohit.net.pl###teg-scrollup
 radiomaryja.pl##.avia-post-nav
 radiopik.pl##.scrollsoft
 radioszczecin.pl###backsite
-raitech.pl##[href="#ToTop"]
+raitech.pl##a[href="#ToTop"]
 rebornlab.com##.js-fullpage-goto
 redcoon.pl##.icon-i_arr_up
 redditch.pl###astroid-backtotop
