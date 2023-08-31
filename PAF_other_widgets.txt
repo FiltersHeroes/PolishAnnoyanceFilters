@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 27 Aug 2023, 19:59 UTC+02:00
-! Version: 2023.8.27.0
+! Last modified: Thu, 31 Aug 2023, 17:30 UTC+02:00
+! Version: 2023.8.31.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 27 sie 2023, 19:59 UTC+02:00
+! Aktualizacja: czw, 31 sie 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -898,6 +898,7 @@ pzw.org.pl###body_google_play
 radiobonton.pl##.hidden-xs.offbox-position-right.radio-play.offbox-radio
 radiopogoda.pl##.gra-pobierz_aplikacje
 radiozet.pl##.react.poll.embed
+radiozet.pl##div[class*="_article_"] p ~ div[class*="poll"]
 radomsko.pl###media > ul > li > .tooltipMedia
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(-n+2)
 rajbud.biz##.psb
