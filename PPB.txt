@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 31 Aug 2023, 19:02 UTC+02:00
-! Version: 2023.8.31.1
+! Last modified: Sat, 02 Sep 2023, 18:31 UTC+02:00
+! Version: 2023.9.2.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 31 sie 2023, 19:02 UTC+02:00
+! Aktualizacja: sob, 02 wrz 2023, 18:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -739,6 +739,7 @@ histografy.pl,swobodnie.eu###wysija-2
 hoegert.com##.moduletable
 home.pl###nlForm
 homeoffice360.pl###footerColumn2 > h3:nth-of-type(2), #newsletterForm
+homla.com.pl##.multichannel-newsletter
 honia.pl,niebieskimigdal.pl##.widget_mc4wp_form_widget.widget
 horecabc.pl##.et_pb_image > a[href="https://www.horecabc.pl/newsletter/"]
 horecatrends.pl##.dif-2.box-11
@@ -2522,6 +2523,7 @@ heyah.pl##.an_fullscr_one_choise
 hipp.pl##.m-promo
 hitcena.pl,podrogach.pl###popup_container
 hitze.pl##.darkNotice, #darkBg
+homla.com.pl##.snrs-modal-background
 homodigital.pl###newsletter-overlay-wrapper
 hopnatop.pl##.pop_up, .pop_up_center
 horoskop.wp.pl,pep.pl###popup, #fade
