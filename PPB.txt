@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 02 Sep 2023, 18:31 UTC+02:00
-! Version: 2023.9.2.0
+! Last modified: Sat, 02 Sep 2023, 20:53 UTC+02:00
+! Version: 2023.9.2.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 02 wrz 2023, 18:31 UTC+02:00
+! Aktualizacja: sob, 02 wrz 2023, 20:53 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4596,7 +4596,7 @@ autodoc.pl##.js-chat-buttons-container-genesys
 avans.pl##.b-reportFault
 axa.pl,biznes.gov.pl,cosinus.pl,kup.pl.canalplus.com,toyotabank.pl###dc-tab-button
 axadirect.pl###wirtualnyDoradcaPluginHome, #zadzwonPlugin
-axasecurity.com,doctorgun.eu,drzwioknabramy.eu,e-security.com.pl,eska.pl,medicalclinic.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,peryskop.studio,plakatynasciany.pl,sita.pl,telefonek.pl,woopauto.com,zymetric.pl##.fb-customerchat, .fb_dialog_advanced
+axasecurity.com,beko.com,doctorgun.eu,drzwioknabramy.eu,e-security.com.pl,eska.pl,medicalclinic.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,peryskop.studio,plakatynasciany.pl,sita.pl,sprawnymarketing.pl,telefonek.pl,woopauto.com,zymetric.pl##.fb-customerchat, .fb_dialog_advanced
 badaniaprenatalne.pl##.contact-button-link
 balladine.com###widgetOpineo
 bankobranie.blogspot.com##.social > li:nth-child(n+6)
@@ -4605,7 +4605,6 @@ batteryguru.eu###xcmb
 bdi.com.pl###contact_popup
 bechtle.com##.communication-box
 bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(4)
-beko.com##.fb-customerchat, .fb_dialog_advanced##.fb-customerchat
 bershka.com##chat
 bezpieczny.pl###call_phone
 biedronka.pl##.social-media a[href*="m.me/"]
@@ -5571,7 +5570,7 @@ brainly.pl##.js-katie-message.js-katie-message-container, .js-katie-badge, .js-r
 brief.pl##.next-prev-post, .post-related
 brodatyzbir.pl,kasiapszonicka.pl##.posts-pagination > .post-pagination
 brw.pl###nscoretab-box, .banner-text
-bryk.pl,cdaction.pl,deccoria.pl,fishki.pl,interia.pl,maxmodels.pl,pcformat.pl,poboczem.pl,~poczta.interia.pl,pomponik.pl,smaker.pl,styl.pl,swiatkobiety.pl##.inpl-tout
+bryk.pl,cdaction.pl,deccoria.pl,fishki.pl,interia.pl,maxmodels.pl,pcformat.pl,poboczem.pl,~poczta.interia.pl,pomponik.pl,smaker.pl,styl.pl,swiatkobiety.pl,top.pl##.inpl-tout
 bsigroup.com###loading-screen
 budujemydom.pl##.mod-zajawka, .box-zajawkowe, .monthly-advertisment
 burbonik.pl,popkulturysci.pl##a.g1-teaser
@@ -5732,8 +5731,8 @@ envelo.pl###user-notification
 eobuwie.com.pl##.header-callout
 eobuwie.com.pl##.promotion-widget
 eplecaki.pl##.GoogleReviewButton, .offset-left
-esporter.pl,interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl##.common-header__interia-back-button
-esporter.pl,interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl##.recommend-flybar-block
+esporter.pl,interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl,top.pl##.common-header__interia-back-button
+esporter.pl,interia.pl,~poczta.interia.pl,pomponik.pl,styl.pl,top.pl##.recommend-flybar-block
 espritshop.pl##.smartappbanner
 estradaistudio.pl##.sticked.newsletter-custom
 eurobank.pl###labelElements
@@ -5889,9 +5888,9 @@ instalhurt.sklep.pl,moto125.pl,sklephormann.pl,tylkostylowe.pl###widget_shop3
 instalki.pl##.plista_widget_slide
 instytutleczeniabolu.pl###newsy1_pan, #newsy2_pan
 intel.pl##.right-rail-tab.support
-interia.pl,interia.tv,~poczta.interia.pl##.topbar, .topbar-container
-interia.pl,~poczta.interia.pl###sticker
-interia.pl,~poczta.interia.pl,swiatkobiety.pl##.articleObjectSeeAlso.box
+interia.pl,interia.tv,~poczta.interia.pl,top.pl##.topbar, .topbar-container
+interia.pl,~poczta.interia.pl,swiatkobiety.pl,top.pl##.articleObjectSeeAlso.box
+interia.pl,~poczta.interia.pl,top.pl###sticker
 interlumen.com,ogrodzenia24.eu,sklepmuzyczny.eu###allegro_opinie_ikona
 interlumen.com,super-toys.pl###pierwsza
 interviewme.pl##.reading-indicator
