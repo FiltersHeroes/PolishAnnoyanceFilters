@@ -156,6 +156,7 @@ erecruiter.pl##.is-simple-popup.site-popup
 erecruiter.pl##body[style]:style(position: static !important; overflow: visible !important)
 erli.pl##body > div:not([id]):not([class]):has(div[click-tracking="pop-up 100 na start"])
 erli.pl##body[class]:style(overflow: visible !important)
+euro.com.pl,oleole.pl##.remodal-wrapper:has([class*="newsletter" i])
 euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper[class*="open"]:has(> .remodal span[class*="heading"]:has-text(/NEWSLETTER/i)))
 euro.com.pl,oleole.pl##body[style*="padding"]:style(padding-right: 0 !important; margin-right: 0 !important)
 euro.com.pl,oleole.pl##html.remodal-is-locked:style(overflow-y: visible !important; margin-right: 0 !important; touch-action: auto !important)
