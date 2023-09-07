@@ -1,4 +1,3 @@
-euro.com.pl,oleole.pl##.input-block._disabled:style(color: gray !important)
 !www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row > #contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important)
 !www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important)
 *##.buttonHomepage:remove()
@@ -46,6 +45,7 @@ egami-image.com##form input:style(color: white !important)
 embed.reddit.com##a:has(shreddit-player):remove-attr(href)
 embed.reddit.com##shreddit-player:remove-attr(autoplay)
 eredaktor.pl##body:style(overflow-x: unset !important)
+euro.com.pl,oleole.pl##.input-block._disabled:style(color: gray !important)
 facebook.com##div[class*="plugin"] video ~ div:not([id]):not([class]) a[href="/watch/?ref=external"]:upward(3)
 fandom.com###bodyContent ~ div[id^="siderail_"][id*="_gamepedia"]
 fandom.com###global-wrapper.with-siderail #content #bodyContent:style(width: 100% !important)
