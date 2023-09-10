@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 10 Sep 2023, 17:30 UTC+02:00
-! Version: 2023.9.10.0
+! Last modified: Sun, 10 Sep 2023, 22:47 UTC+02:00
+! Version: 2023.9.10.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 10 wrz 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 10 wrz 2023, 22:47 UTC+02:00
 !
 !
 !
@@ -1652,7 +1652,7 @@ thermomix.vorwerk.pl##.footer__newsletterform
 thomas-krenn.com##.tk-footer-newsletter
 tim.pl###newsletter-component-footer
 tiptop.com.pl###content > .row > #bg_orange
-tkmaxx.pl##li.menu-item:nth-of-type(2) ,#div.field__item:nth-of-type(4)
+tkmaxx.pl##header li.menu-item:nth-of-type(2), form[class*="webform-submission-newsletter"], form[id*="webform-submission-newsletter"]
 tkom.pl###panelNEWS
 tme.eu##.c-newsletter
 tokfm.pl##.container > ul > li:nth-of-type(3)
