@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 10 Sep 2023, 14:31 UTC+02:00
-! Version: 2023.9.10.0
+! Last modified: Sun, 10 Sep 2023, 22:47 UTC+02:00
+! Version: 2023.9.10.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 10 wrz 2023, 14:31 UTC+02:00
+! Aktualizacja: nie, 10 wrz 2023, 22:47 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1653,7 +1653,7 @@ thermomix.vorwerk.pl##.footer__newsletterform
 thomas-krenn.com##.tk-footer-newsletter
 tim.pl###newsletter-component-footer
 tiptop.com.pl###content > .row > #bg_orange
-tkmaxx.pl##li.menu-item:nth-of-type(2) ,#div.field__item:nth-of-type(4)
+tkmaxx.pl##header li.menu-item:nth-of-type(2), form[class*="webform-submission-newsletter"], form[id*="webform-submission-newsletter"]
 tkom.pl###panelNEWS
 tme.eu##.c-newsletter
 tokfm.pl##.container > ul > li:nth-of-type(3)
@@ -3436,7 +3436,7 @@ aleo.com##p-scrolltop
 alergiapokarmowa.pl##.ct-totop
 aliexpress.com##.ui-fixed-panel-go-top
 alko-garden.pl,pl.assmann.shop###jumptotop
-alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,funnycase.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
+alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,bestbody.com.pl,cena33.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,funnycase.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
 allegro.pl##button[data-analytics-interaction-label="scrollToTop"], button[title="Do góry"]
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
 allpaka.eu,asimexplus.com,eperfumy.pl,influencja.pl,pro-mask.pl,siapre.pl,sklep.druk-pak.com###do_gory
