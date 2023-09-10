@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 08 Sep 2023, 23:36 UTC+02:00
-! Version: 2023.9.8.1
+! Last modified: Sun, 10 Sep 2023, 14:31 UTC+02:00
+! Version: 2023.9.10.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 08 wrz 2023, 23:36 UTC+02:00
+! Aktualizacja: nie, 10 wrz 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1653,7 +1653,7 @@ thermomix.vorwerk.pl##.footer__newsletterform
 thomas-krenn.com##.tk-footer-newsletter
 tim.pl###newsletter-component-footer
 tiptop.com.pl###content > .row > #bg_orange
-tkmaxx.pl##.panels-flexible-region-1-newsletter_subscription
+tkmaxx.pl##li.menu-item:nth-of-type(2) ,#div.field__item:nth-of-type(4)
 tkom.pl###panelNEWS
 tme.eu##.c-newsletter
 tokfm.pl##.container > ul > li:nth-of-type(3)
@@ -2781,7 +2781,7 @@ papilot.pl###keys-info-bg
 paranienormalni.com###newsletter_wrap_bg, .sendpress
 parenting.pl,parenting.wp.pl,portal.abczdrowie.pl##.exitintent
 parkiet.com##body > tqwidget
-paskarz.pl###popup-modal, .modal-backdrop
+paskarz.pl,tkmaxx.pl###popup-modal, .modal-backdrop
 patiimaks.pl,puchary-sklep.pl###shadow_layer
 patiimaks.pl,puchary-sklep.pl##.exit_popup
 pb.pl##.smPopupContainer, #smPopupBackground
