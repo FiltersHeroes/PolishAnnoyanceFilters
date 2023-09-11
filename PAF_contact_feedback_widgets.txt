@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 11 Sep 2023, 21:30 UTC+02:00
-! Version: 2023.9.11.0
+! Last modified: Tue, 12 Sep 2023, 00:32 UTC+02:00
+! Version: 2023.9.12.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 11 wrz 2023, 21:30 UTC+02:00
+! Aktualizacja: wto, 12 wrz 2023, 00:32 UTC+02:00
 !
 !
 !
@@ -28,7 +28,6 @@
 ||app.sugester.pl/tpbocian/widget.js
 ||app.userengage.com/api/user-chatping/*$xmlhttprequest,domain=brand.ceo
 ||callcenter.pl/static/chat_snippets/*.js$domain=lellek.pl|vobis.pl
-||cdn.pup.sosnowiec.pl/themes/default/pics/ico/ico_sugestia.png
 ||chat-widget.thulium.com/app/chat-loader.js$script,third-party
 ||client.crisp.chat/l.js$script,domain=totalbet.pl
 ||client.crisp.chat/static/javascripts/client.js$script,domain=puccini.pl|www.fabrykawafelkow.pl
@@ -49,11 +48,8 @@
 ||livesupport.pl/chat/createFloat*.js
 ||livesupport.pl/chat/user*.js$script,domain=ekskluzywna.pl
 ||niszczarki.org/templates/standard/images/jestesmy_na_allegro.jpg
-||node.unifiedfactory.com^$script,domain=www.accessibletour.pl
 ||opineo.pl/gfx/frontend/side_slider_gfx.png
 ||papis.pl/livechat/php/app.php
-||pcaction.pl/inne/allegro_komentarze.php
-||pcaction.pl/szablony/standardowy.rwd/obrazki/zakladki/allegro.png
 ||projektowanie-wnetrz-online.pl/wp-content/uploads/*/*/*-Wyslij-Zapytanie*$image
 ||qdecor.pl/img/ceneo-widget.png
 ||salesmanago.pl/static/chunk/chat.js
@@ -96,7 +92,7 @@ aeg.pl,electrolux.pl,zanussi.pl##.website-feedback
 afrodytasalon.pl##.js--phone-button.ic-phone-button
 aftermarket.pl##.help-widget-invite, .help-widget-icon
 aftermarket.pl##.helpcrunch-iframe-wrapper
-agro-sklep.com,audioexpert.pl,lombardwomi.pl,panele-sklepy.pl,porcelanaart.pl###up_talk0
+agro-sklep.com,audioexpert.pl,panele-sklepy.pl,porcelanaart.pl###up_talk0
 agrobex.pl###grchat-button
 agrofakt.pl##.agroreporter
 agromarek.pl,baronphotography.eu,cukierniabezowa.pl,topsolutions.pl###popup_contact
@@ -165,7 +161,6 @@ bigbaddice.pl##.icon-social-whatsapp
 bike-parts-honda.pl###fleche_popin_contact
 bilgorajska.pl##.pod_feedback
 bilgorajska.pl,bobbyburger.pl,godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
-biskvit.pl,choinkowo.pl,olini.pl,pluszowasowa.pl,wearethecoffee.com###appReviewsWidgetWrapper
 bitrix24.pl,kegel-aj.com,upominki24.pl,webiso.pl##div[class*="-widget-button-wrapper"]
 biznes.gov.pl,decathlon.pl,dollarro.com,mediaexpert.pl,uniqa.pl,vox.pl,wodociagi.krakow.pl###InteliwiseSaaSModule_win_wrapper
 bizuteria-eshop.pl###IMS_box1
@@ -212,7 +207,8 @@ ceneo.pl###recent-activity-toast
 centermed.pl,winotoskanii.pl##div[id^="gb-widget"][style*="position"][style*="fixed"]
 centrumpapieru.pl###ls-button-container
 cersanit.com.pl,darnatury.pl,eforia.pl,euromobil.com.pl,euromotor.pl,japanmotors.pl,koreamotors.pl,mymeest.pl,opoczno.eu,pgd.pl##.FTChat_window, .FTChat_bar
-change.shop.pl,elektro-outlet.net,experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
+change.shop.pl,experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
+choinkowo.pl,olini.pl,pluszowasowa.pl,wearethecoffee.com###appReviewsWidgetWrapper
 cinema3d.pl###popupBoxInvitation
 cinkciarz.pl,eurosender.com,extradom.pl,olini.pl###hbl-live-chat-wrapper
 citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl,ursyncar.pl###gw_signpost
@@ -283,7 +279,6 @@ e-irwin.pl##.callMe
 e-kwiaty.pl###ecatcher.ecatcher
 e-prawnik.pl##.o-window.windowTop
 e-sano.pl###report_error_box_button
-e-saving.pl###contact
 e-urzad.grodzisk.pl##.message
 e-vasco.pl##.contact-box-slider
 easygo.pl###reportBug, .reportBug
@@ -467,7 +462,7 @@ lidl.pl##.feedback-flyout__button-box
 lidl.pl##button[aria-label="socialMediaBtn"][data-url*="m.me"]
 lidl.pl##span[id^="regionSocialMedia-"].label
 lighting.philips.pl##aside[class$="support-contact-details"]
-lightingcenter.pl,mniammniam.com,pimpmymask.pl,sklephonda.pl###o-widget-lws
+lightingcenter.pl,mniammniam.com,sklephonda.pl###o-widget-lws
 lightonline.pl###fixedBtn > .savBtn
 limpol.com##.messengerchat
 lincoln.edu.pl##.s_kontakt
@@ -596,7 +591,6 @@ pl.canalplus.com###button-call, #button-lead
 pl.canalplus.com##.AsideButtons
 pl.factcool.com###daktela-web
 pl.farnell.com##.live-chat
-pl.gearbest.com##a[href="https://support.gearbest.com/ticket/ticket/cat"] > .siteAside_linkIcon, .js_feedback
 pl.malwarebytes.com###cta-feedback-flyout-en
 pl.pons.com###hj-feedback
 pl.trip.com##.mod-back-top-chat
@@ -623,7 +617,6 @@ ppr.pl##.btn-report
 pracatobie.pl###ankieta1
 pracuj.pl###shareOpinionSticker
 prawo-jazdy-360.pl###help-panel
-pro-mask.pl###telefon
 profbud.info##.bocznemenu > a.socialicoplus
 profinfo.pl##.chatLauncherList
 progrower.eu###chatbc
@@ -699,7 +692,6 @@ sklep.siapre.pl###btn_telefon
 sklep.uchowanca.pl###tm-widget-lemur
 sklep.zielonyogrodek.pl##.contact-sidebar__btn
 sklephonda.pl###phone_widget
-sklepsportowy.pila.pl###fc_frame
 skoda-auto.pl##div[id^="wb"] > iframe[id^="wframe"]
 skrivanek.pl###ssb-btn-0
 skrivanek.pl##.rplg-badge_left-fixed.rplg-badge-cnt
@@ -840,7 +832,6 @@ zrzutka.pl##.uv-bottom-right
 ||app.chatwoot.com/packs/js/sdk.js$script,domain=pl
 ||cdn.inbox.shoplo.com/chat.html$third-party
 ||chat.4finance.com^$third-party
-||chat.freshdesk.com^$third-party,xmlhttprequest
 ||chatbro.com^$third-party,domain=pl
 ||chatwoot.*/packs/js/sdk.js$script
 ||code.tidio.co^$third-party
