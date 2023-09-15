@@ -181,7 +181,7 @@ habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
 hejto.pl##+js(set-cookie, homepage-dialog, 1, 1year)
 hejto.pl##.ReactModalPortal:has(> div.ReactModal__Overlay > div#RegisterDialog)
 husse.pl###fancybox-container-1
-husse.pl##.compensate-for-scrollbar:style(margin-right: 0 !important)
+husse.pl##.compensate-for-scrollbar[class]:style(overflow: visible !important; margin-right: 0 !important)
 husse.pl,royalpark.pl##body.fancybox-active:style(overflow: visible !important)
 ibuk.pl###modal-pop, .modal-backdrop
 ideaart.com.pl##.remodal-is-locked, body:style(overflow: visible !important)
@@ -300,7 +300,7 @@ otodom.pl###__next > div[class] + div:not([class]):not([id]):has(div[data-cy="mo
 ozogtomczykowski.pl###homeModal
 pakamera.pl###fancybox-container-1:has(a[href*="sale"] img)
 pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
-pakamera.pl##body.compensate-for-scrollbar:style(overflow: visible !important; margin-right: 0 !important)
+pakamera.pl##.compensate-for-scrollbar[class]:style(overflow: visible !important; margin-right: 0 !important)
 panel.kei.pl##.popup-modal:has(a[href*="/polls/ankieta"])
 panwybierak.pl##.iziModal-isOverflow:style(position: static !important; overflow: visible !important)
 panwybierak.pl##.modal--remind.iziModal, .iziModal-overlay
