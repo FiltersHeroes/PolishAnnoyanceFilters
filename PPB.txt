@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 16 Sep 2023, 21:30 UTC+02:00
-! Version: 2023.9.16.0
+! Last modified: Sun, 17 Sep 2023, 17:30 UTC+02:00
+! Version: 2023.9.17.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 16 wrz 2023, 21:30 UTC+02:00
+! Aktualizacja: nie, 17 wrz 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3021,6 +3021,7 @@ widoczni.com##.leavedocumentlayer
 wielen.pl,wronki.pl##.webpush_modal
 winicjatywa.pl##h2:nth-of-type(3)
 wispol.eu##.popup_news
+wittchen.com##.qon-exit-popup, .ReactModalPortal
 wkd.com.pl###pop-up-bg
 woblink.com###nw_popup
 woliniusz.pl##div[class*="Modal__ModalPortalStyled-sc"]
@@ -6416,6 +6417,7 @@ wiedza3g.pl##.wesprzyjNas
 wieszaki.info##.allegro-fiszka
 wiktormeble.pl##.sm-twitter
 wirtualnemedia.pl###swim_box
+wittchen.com##.darmowa-row
 wlaczoszczedzanie.pl##.fm-icon
 wlkp24.info##.totalpoll-view-vote
 wnet.fm##.powrot
