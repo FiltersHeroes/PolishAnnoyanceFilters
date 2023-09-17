@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 17 Sep 2023, 17:30 UTC+02:00
-! Version: 2023.9.17.0
+! Last modified: Sun, 17 Sep 2023, 18:31 UTC+02:00
+! Version: 2023.9.17.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 17 wrz 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 17 wrz 2023, 18:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5872,6 +5872,7 @@ interia.pl,~poczta.interia.pl,top.pl###sticker
 interlumen.com,ogrodzenia24.eu,sklepmuzyczny.eu###allegro_opinie_ikona
 interlumen.com,super-toys.pl###pierwsza
 interviewme.pl##.reading-indicator
+inverso.pl##.icon-help, .btn-close-box
 inzynierbudownictwa.pl##table[id^="slideright_"]:not(#slideright_yt) > tbody > .slideLeftItem
 irebu.pl###TOP-SOCIAL-MEDIA
 izielnik.pl##div[class*="wrapper"] .banner-link
