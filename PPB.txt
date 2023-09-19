@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 17 Sep 2023, 23:42 UTC+02:00
-! Version: 2023.9.17.4
+! Last modified: Tue, 19 Sep 2023, 02:31 UTC+02:00
+! Version: 2023.9.19.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 17 wrz 2023, 23:42 UTC+02:00
+! Aktualizacja: wto, 19 wrz 2023, 02:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -114,6 +114,7 @@ akademiawitalnosci.pl###text-2 > .textwidget, #text-2 > .title
 akademicka.pl###footer-one #freshMailPopUp__background
 akardo.pl,asport.pl,eherbata.pl,kaszubi.pl,wsb.edu.pl##.newsletter-column
 aksiazka.pl##.stopkanewsletter
+al.to,combat.pl,x-kom.pl###newsletterBox
 al.to,combat.pl,x-kom.pl##.box-newsletterbf
 alawar.pl##div.b-footer div.b-subscribe
 albatros.pl##.alb-newsletter
@@ -3351,7 +3352,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 ||tvpolsat.info/infusions/ui_top_button_panel/js/jquery.ui.totop.js
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 2x45.info,agro-hurt.eu,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
-3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,bajki-grajki.pl,blackmonk.pl,domator24.com,e-forma.pl,e-rbud.pl,ettoi.pl,folcom.pl,futurefarm24.pl,greenhousedevelopment.pl,harposoftware.com,lampa-lampy.pl,laroxy.com,mojwzrok.pl,mrzepinski.pl,opakowania24.eu,optes.pl,plantica.pl,skitenis.pl,sklep.escribo.pl,skymaster24.pl,slowka.pl,swiatroslin.eu,swiatwokolkuchni.pl,tafmet.pl,taniesoczewki.pl,tortoweozdoby.pl,virgobooks.pl##.top_button
+3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,bajki-grajki.pl,blackmonk.pl,domator24.com,e-forma.pl,e-rbud.pl,ettoi.pl,folcom.pl,futurefarm24.pl,greenhousedevelopment.pl,harposoftware.com,lampa-lampy.pl,laroxy.com,mojwzrok.pl,opakowania24.eu,optes.pl,plantica.pl,skitenis.pl,sklep.escribo.pl,skymaster24.pl,slowka.pl,swiatroslin.eu,swiatwokolkuchni.pl,tafmet.pl,taniesoczewki.pl,tortoweozdoby.pl,virgobooks.pl##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com###to-top
 3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,domkorkowy.com,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
 4f.com.pl,adriatech.pl,agrojumal.com.pl,android.com.pl,answear.com,blaugrana.pl,cyfrowarepublika.pl,dachygt.pl,dorotafilipiuk.pl,drmax.pl,fenii.pl,karchercenter-ocean.pl,karnet.krakow.pl,myjki.com,myjki.eu,ocean-karcher.pl,oponeo.pl,pfron.org.pl,pracuj.pl,radiopoznan.fm,sagito.pl,sandraspa.pl,sport-shop.pl,tolpa.pl###scrollTop
@@ -3412,7 +3413,7 @@ agrotuszyn.pl,forum.gazeta.pl,niepodlegla.dzieje.pl,rozklad.klosok.eu##.toTop
 agtom.eu###scroll_to_top
 airbuy.pl##.js-gotop
 airwick.pl###top-btn
-akacja.eu,baltyk.com,biosmaak.nl,biuronet.com,blogspot.com,drzwionline.net,fajne.life,fesswybitnie.com,inzynieria.com,kapitalni.org,ksiazwielki.eu,kup-komentarze.com,l37.eu,megasat.tv,showmag.info,stoicway.net,widoczni.com,www.etychy.org,www.rybnik.eu,zlomowisko.info##.scrollToTop
+akacja.eu,baltyk.com,biosmaak.nl,biuronet.com,blogspot.com,drzwionline.net,fajne.life,fesswybitnie.com,inzynieria.com,kapitalni.org,ksiazwielki.eu,l37.eu,megasat.tv,showmag.info,stoicway.net,widoczni.com,www.etychy.org,www.rybnik.eu,zlomowisko.info##.scrollToTop
 akademia.nask.pl,gorzow.com,poczet.com,saferinternet.pl,sklep.lobos.pl,spaeden.pl###dogory
 akademiabudowy.pl,al.to,annalovestravelspl.wordpress.com,asclepios.pl,avanttecno.com,bnpparibas.pl,calypso.com.pl,cookies.bosger.com,curlymadeleine.pl,dorotasmakuje.com,dziecieceinspiracje.pl,ecbedzin.pl,emisja.tv,enut.pl,ewaszalkowska.com,fsgeek.pl,gerardroofs.pl,ginlong.com,gls-group.com,hushaaabye.pl,koty24.pl,kruchebabeczki.blogspot.com,kuchareczkamala.blogspot.com,kuchniamagdaleny.pl,kuchniaviki.blogspot.com,kulinarnamaniusia.pl,mpm.pl,mullerpolska.pl,musicboxtv.pl,officeshoes.pl,ogloszeniowa.pl,ostra-na-slodko.pl,ozonemask.pl,patabloguje.pl,pinkorblue.pl,powiatwodzislawski.pl,psy24.pl,spozywo.pl,tiktok.com,virustotal.com,vwbank.pl,w10inspiracjidookolaswiata.pl,wegannerd.com,wieteska.net,wszystkiemojebziki.pl,yerbanot.com##.to-top
 akardo.pl##.btn-scroll-up
@@ -3420,7 +3421,7 @@ akariaryaca.com,domtuiteraz.eu,egger.com,gazetaolecka.com,gettinenglish.com,reta
 akonet.pl###up-href
 albo24.pl,awf.edu.pl,nbportal.pl###go-up
 aldi.pl##.mod-back-to-top
-aleksandrow-lodzki.pl,amus.pl,ap-goal.pl,campomoderngrill.pl,cryps.pl,curlymadeleine.pl,czesci-moto.pl,delikatesy.pl,drewmix.eu,euskadi.pl,evertourist.com,historia.org.pl,insoft.net.pl,jakzrobicwexcelu.pl,jestesmyrazem.org.pl,kettei.pl,ks.pl,kwiatemmalowane.pl,malygeniusz.org,mng.gda.pl,naturio.eu,nowyduninow.info.pl,ogniwo-znicze.pl,pizzeria-alforno.pl,pl.idcgames.com,pogorzale.pl,pogotowie-zamkowe.com.pl,polskie-cmentarze.com,powstaniewielkopolskie.pl,pragma.pl,pzszerm.pl,raportesg.allegro.pl,rozklad-pkp.pl,rozklad.pkp.pl,szansa-annopol.pl,szkolnastrona.pl,tube.ad,uniterra.pl,www.bialemurowanie.pl,wykryjangine.pl,zabki24.pl,zbigniewkielb.pulawy.pl##.go-top
+aleksandrow-lodzki.pl,amus.pl,ap-goal.pl,campomoderngrill.pl,cryps.pl,curlymadeleine.pl,czesci-moto.pl,delikatesy.pl,drewmix.eu,euskadi.pl,evertourist.com,historia.org.pl,insoft.net.pl,jakzrobicwexcelu.pl,jestesmyrazem.org.pl,kettei.pl,ks.pl,kwiatemmalowane.pl,malygeniusz.org,mng.gda.pl,naturio.eu,nowyduninow.info.pl,ogniwo-znicze.pl,pizzeria-alforno.pl,pl.idcgames.com,pogorzale.pl,pogotowie-zamkowe.com.pl,polskie-cmentarze.com,powstaniewielkopolskie.pl,pragma.pl,pzszerm.pl,raportesg.allegro.pl,rozklad-pkp.pl,rozklad.pkp.pl,szansa-annopol.pl,szkolnastrona.pl,tube.ad,uniterra.pl,www.bialemurowanie.pl,wykryjangine.pl,zabki24.pl##.go-top
 aleleki.pl,media-press.tv###back_to_top
 alemeksyk.eu,armaturakrakowska.com,jakuby.eu,libertex.com,media-tech.eu,scyzoryki.net,swiatkoszy.eu###scrollToTop
 aleo.com##p-scrolltop
@@ -3440,7 +3441,7 @@ amooco.com###footer-backtop
 ams.com.pl,bohaterdomu.pl,inforfk.pl###back2top
 ams.edu.pl,apteka-natura.eu,bludshop.com,cyberpower.com,ehurt.eu,ene-due.eu,pakolorente.com,ptwp.pl,rowerlubon.pl,unbrokenstore.com,zapowiedzi24.blogspot.com##.backTop
 androidayuda.com,desdelinux.net,iphonea2.com,todoandroid.es,ubunlog.com###toplink
-androidowy.pl,brodatyzbir.pl,coffeedesk.pl,jaktodaleko.pl,kalejdoskopbudowlany.pl,kasiapszonicka.pl,lifemanagerka.pl,linux.pl,pl.showmetech.com.br,rootblog.pl,zebza.net##.pk-scroll-to-top
+androidowy.pl,brodatyzbir.pl,coffeedesk.pl,jaktodaleko.pl,kalejdoskopbudowlany.pl,kasiapszonicka.pl,lifemanagerka.pl,linux.pl,rootblog.pl,zebza.net##.pk-scroll-to-top
 anetaduk.com,liletink.pl,lukasiewicz.gov.pl,moto.lca.pl###myBtn
 animalistka.pl,faltusdesign.wordpress.com,rygalo.com##.tothetop
 animeholik.pl,atrium-biala.pl,atrium-ch.pl,atrium-copernicus.pl,atrium-felicity.pl,atrium-gama.pl,atrium-kasztanowa.pl,atrium-koszalin.pl,atrium-molo.pl,atrium-mosty.pl,atrium-plejada.pl,atrium-reduta.pl,atrium-targowek.pl,bielskakraina.pl,dobregniazdka.pl,doran.com.pl,faktmobile.pl,focusbydgoszcz.pl,gazetasenior.pl,meble-wanat.pl,merkurymarket.pl,mtb-xc.pl,muzyczneradio.pl,pitbull.pl,promenada.com,promocyjni.pl,radiofon.fm,radiovia.com.pl,sanrol.go3.pl,skapiec.pl,tvn24.pl,websitestyle.pl,wikirose.pl,wizaz.pl,worldcam.pl,www.meczyki.pl,xkom.pl##.scroll-up
@@ -3503,7 +3504,7 @@ baborow.pl###btn-totop
 balex.eu,budujemywuk.co.uk,polska.travel,powiatowa.info,radioznin.fm,tvnakarte.eu,zsckr.rzemien.eu###jm-back-top
 balterio.com,pergo.pl##.c-top
 bartfan.eu,hairytale.eu,mo.pl,serwiskachniarz.pl,tajfuny.pl##.aux-goto-top-btn
-bartyla.pl,biblioteka.bydgoszcz.pl,damskie.eu,holisticclinic.pl,jakpicwhisky.pl,kompleksowausluga.pl,zaflarscy.pl##.trx_addons_scroll_to_top
+bartyla.pl,biblioteka.bydgoszcz.pl,damskie.eu,holisticclinic.pl,jakpicwhisky.pl,kompleksowausluga.pl##.trx_addons_scroll_to_top
 baza-firm.com.pl###goTopArrow
 bdb.com.pl###powrotBT
 bekoczesci.pl###tbScrollToTop
@@ -3553,7 +3554,7 @@ bonprix.pl##.btn-primary.scroll-to-top-btn
 bookland.com.pl,eduarena.pl###yt-totop-fix
 bookmaster.com.pl###utils-button-top
 boombook.pl##.active-progress
-bor-met.eu,imagene.me,oaze.pl,polcovid.pl,zakpol.eu###smoothup
+bor-met.eu,imagene.me,polcovid.pl,zakpol.eu###smoothup
 borcas.eu##.scrollToTopPlugin
 borcas.eu##.scrollToTopPlugin_label
 bosch-extra.pl,extra-program.pl,fk-toys.pl,glovoapp.com##.to-top-button
@@ -4133,7 +4134,6 @@ ricoh.pl##.page-link-top
 rodzice.pl##.rehub_scroll
 roltrans.eu###back-top
 rossmann.pl###__next > .page-up
-ruah.eu##.xt-back-to-top
 rybyakwariowe.eu##.c-go-top
 sadeczanin.info###page-scrollup
 sadzonki-truskawek.eu###ak-top
@@ -5660,7 +5660,6 @@ drogerienatura.pl###pb
 drzwipartnerkrakow.pl##.storefront-product-pagination > a
 dts24.pl,goldenmark.com##.recommend-box
 duzekubki.pl###sweet-fixed-box
-dyskusjebiblijne.info.pl##.guest_warn
 dziennik.pl###close
 dziennik.pl##.switcher-button, #nextArticleWidget
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,e-izolacje.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gratka.pl,gs24.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nekrologi.net,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,wspolczesna.pl##.atomsNavigationStickyReturnHome
