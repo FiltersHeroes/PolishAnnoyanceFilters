@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 17 Sep 2023, 21:30 UTC+02:00
-! Version: 2023.9.17.0
+! Last modified: Thu, 28 Sep 2023, 02:31 UTC+02:00
+! Version: 2023.9.28.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 17 wrz 2023, 21:30 UTC+02:00
+! Aktualizacja: czw, 28 wrz 2023, 02:31 UTC+02:00
 !
 !
 !
@@ -439,7 +439,7 @@ kompan.pl###circleWrap
 komputerswiat.pl##iframe[src^="https://cdn.brandmetrics.com/"][style*="fixed"]
 komputronik.pl##ktr-live-chat
 konicaminolta.info.pl##.kontakt-slide
-kontakty.info.pl,telefon.info.pl###zadzwon-div
+kontakty.info.pl,poczta-polska.info.pl,telefon.info.pl###zadzwon-div
 kontri.pl###widget_opineo
 korzystneit.pl,ombre.pl##div > .fab-wrapper
 koszulkiznadrukiem.biz##a[href*="widget.gg.pl"]
@@ -598,6 +598,7 @@ pl.trip.com##.mod-back-top-chat
 pl.tripadvisor.com#?#body > div[aria-live="polite"]:-abp-has(span:-abp-contains(Opowiedz nam o swoim doświadczeniu ze stroną Tripadvisor))
 planeta-budowlana.pl##.messenger_toggle
 pneumat.com.pl##.footer__top-wrapper
+poczta-polska.info.pl##.social-links a.bxl-skype
 pocztowy.pl##.goto-chat
 pokato.pl##.zoho-help-btn
 polanki.pl##.PamphletWidget
