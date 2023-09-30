@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 21 Sep 2023, 14:31 UTC+02:00
-! Version: 2023.9.21.0
+! Last modified: Sat, 30 Sep 2023, 14:31 UTC+02:00
+! Version: 2023.9.30.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 21 wrz 2023, 14:31 UTC+02:00
+! Aktualizacja: sob, 30 wrz 2023, 14:31 UTC+02:00
 !
 !
 !
@@ -185,7 +185,7 @@ aliexpress.com##.coupon-poplayer-modal
 aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
 alkoholeswiata24.pl#?#.simplemodal-container:-abp-has(a[href*="/reklama.php"])
 alkoholeswiata24.pl#?#.simplemodal-overlay:-abp-has(~ .simplemodal-container a[href*="/reklama.php"])
-allegro.pl##[data-pathname="/koszyk/warstwa"] > [data-box-name="precart-layer"]
+allegro.pl##[data-opbox-fragment-pathname="/koszyk/warstwa"] > [data-box-name="precart-layer"]
 allegro.pl##div[data-box-name="allegro.ratings.sellerRatingForm"] div[style*="relative"] > div[style*="absolute"]
 allegro.pl##div[data-box-name="modalBW"]
 allmedica.pl###modalbox-1, .modalbox-overlay
@@ -279,7 +279,7 @@ biznesoutfit.pl##body > div[style*="position"][style*="fixed"]:not([id]):not([cl
 black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
 blackstarstudio.pl,powerflex.pl##.moOptinForm
 blizejprzedszkola.pl##.bp-modal-sm.bp-modal
-blogojciec.pl,kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
+blogojciec.pl,facetikuchnia.com.pl,kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 bluecity.pl##.popupContent
 bluecity.pl,oponeo.pl,wearmedicine.com,word.czest.pl###cboxOverlay
 blueskypolska.pl###tws_i_0.mobile_toplayer
