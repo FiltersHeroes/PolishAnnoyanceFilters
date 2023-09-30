@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 28 Sep 2023, 02:31 UTC+02:00
-! Version: 2023.9.28.0
+! Last modified: Sat, 30 Sep 2023, 14:31 UTC+02:00
+! Version: 2023.9.30.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 28 wrz 2023, 02:31 UTC+02:00
+! Aktualizacja: sob, 30 wrz 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2200,7 +2200,7 @@ aliexpress.com##.coupon-poplayer-modal
 aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
 alkoholeswiata24.pl#?#.simplemodal-container:-abp-has(a[href*="/reklama.php"])
 alkoholeswiata24.pl#?#.simplemodal-overlay:-abp-has(~ .simplemodal-container a[href*="/reklama.php"])
-allegro.pl##[data-pathname="/koszyk/warstwa"] > [data-box-name="precart-layer"]
+allegro.pl##[data-opbox-fragment-pathname="/koszyk/warstwa"] > [data-box-name="precart-layer"]
 allegro.pl##div[data-box-name="allegro.ratings.sellerRatingForm"] div[style*="relative"] > div[style*="absolute"]
 allegro.pl##div[data-box-name="modalBW"]
 allmedica.pl###modalbox-1, .modalbox-overlay
@@ -2294,7 +2294,7 @@ biznesoutfit.pl##body > div[style*="position"][style*="fixed"]:not([id]):not([cl
 black-friday.pl,cryptoprofit.pl,e-przepisykulinarne.pl,funfashion.pl,kucharenka.pl,kuchniawedwoje.pl,magazyninformacyjny.pl,wielkopolskamagazyn.pl,zatrzymujacczas.pl###ffbp, #ffbp-bg
 blackstarstudio.pl,powerflex.pl##.moOptinForm
 blizejprzedszkola.pl##.bp-modal-sm.bp-modal
-blogojciec.pl,kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
+blogojciec.pl,facetikuchnia.com.pl,kobiecyhumor.pl,telewizja-cyfrowa.com,znaczkijakrobaczki.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
 bluecity.pl##.popupContent
 bluecity.pl,oponeo.pl,wearmedicine.com,word.czest.pl###cboxOverlay
 blueskypolska.pl###tws_i_0.mobile_toplayer
@@ -3946,7 +3946,7 @@ mediaexpert.pl,mediamarkt.pl##.scroll-btn.scroll
 medialove.pl###sns-totop
 mediamarkt.pl###js-scrollTopDesktop
 medicover.pl,rehasport.pl##.scrollTopArrow
-medonet.pl,ogrodmacieja.pl##.goToTop
+medonet.pl,ogrodmacieja.pl,plus.pl##.goToTop
 medonetmarket.pl##.medo-scroll-to-top
 merida.com.pl##.scroll-top-up
 meskietematy.pl,przemiany.gniezno.pl,tranzystor.pl###vl-back-top
