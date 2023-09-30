@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 23 Sep 2023, 01:31 UTC+02:00
-! Version: 2023.9.23.0
+! Last modified: Sat, 30 Sep 2023, 21:30 UTC+02:00
+! Version: 2023.9.30.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 23 wrz 2023, 01:31 UTC+02:00
+! Aktualizacja: sob, 30 wrz 2023, 21:30 UTC+02:00
 !
 !
 !
@@ -1725,8 +1725,8 @@ virtualo.pl##.banner-newsletter-wrapper
 virtualo.pl##.newsletter-bottom-wrapper
 vissavi.pl###newsletter-header-holder
 vistula.edu.pl###vistula-newsletter
-vistula.pl##.footer-top-bar > div:last-child
 vistula.pl##.three_footer__single--newsletter
+vistula.pl#?#.footer-top-bar.row > div:-abp-has(.footer-newsletter)
 vivaldi.com###newsletterpromo
 vivo-shopping.com##.site-newsletter__content
 vogue.pl###homepagenewsletter
