@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 28 Sep 2023, 02:31 UTC+02:00
-! Version: 2023.9.28.0
+! Last modified: Mon, 02 Oct 2023, 22:20 UTC+02:00
+! Version: 2023.10.2.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 28 wrz 2023, 02:31 UTC+02:00
+! Aktualizacja: pon, 02 paź 2023, 22:20 UTC+02:00
 !
 !
 !
@@ -549,6 +549,8 @@ ofix.pl##.thulium-chat-wrapper
 okazik.pl###btn-message
 omeda.pl##.boxRight:not(.fb)
 onet.pl,plejada.pl##.whatsapp
+onet.pl,plejada.pl##span[data-gtm*="-whatsapp"]
+onet.pl,plejada.pl##span[data-gtm*="messengerShare"]
 open.pl##div[class^="kodabots-widget"]
 operon.pl##.contact-trigger
 opoka.tv###pwebcontact3_toggler
