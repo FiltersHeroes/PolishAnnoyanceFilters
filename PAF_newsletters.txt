@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 30 Sep 2023, 21:30 UTC+02:00
-! Version: 2023.9.30.0
+! Last modified: Tue, 03 Oct 2023, 17:30 UTC+02:00
+! Version: 2023.10.3.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 30 wrz 2023, 21:30 UTC+02:00
+! Aktualizacja: wto, 03 paź 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -996,6 +996,7 @@ med-store.pl##.tlo_news
 media-tech.eu##.footer-container > .container-fluid > .row > div:nth-child(4)
 media.ing.pl##div.column:nth-of-type(3) .footer-section-text, div.column:nth-of-type(3) .footer-section-text + div
 mediaarena.pl###fx-newsletter-freshmail
+mediaexpert.pl##.layout:not([class*="landing" i]) #section_newsletter
 mediamarkt.pl##.b-header_metaItem:nth-of-type(3), .m-newsletterBox
 medianarodowe.com##.widget_radium_newsletter
 mediarun.com,siecprzedsiebiorczychkobiet.pl##.vc_row-has-fill
@@ -1318,7 +1319,7 @@ portalgames.pl##.columns.mimi-form.widget
 portalkryminalny.pl##footer > .container > div.row:nth-of-type(2) > div:nth-last-of-type(1)
 portalkryminalny.pl##h3:nth-of-type(11), .moduletable:nth-of-type(11)
 portalpszczelarski.pl##.element.col-3-7
-portalsamorzadowy.pl##.news-box
+portalsamorzadowy.pl,wnp.pl##.news-box
 portalspozywczy.pl##.newsletter > .pageWidth > span:first-of-type
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(6)
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(6)
@@ -1892,14 +1893,15 @@ zyxel.com###block-newsletter-footer
 /button/newsletter.jpg
 /wp-content/plugins/wysija-newsletters
 ~activejet.pl,pl##.newsletterBox
-~apteka.sloneczna24.pl,~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.al.to,~lp.x-kom.pl,~pap-mediaroom.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"])
+~apteka.sloneczna24.pl,~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.al.to,~lp.x-kom.pl,~mediaexpert.pl,~pap-mediaroom.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"])
 ~aurum-optics.pl,pl##.footer-newsletter
 ~automatykab2b.pl,pl##.newsletter-box
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
-~dietyodbrokula.pl,pl##.newsletter-form
+~dietyodbrokula.pl,~mediaexpert.pl,pl##.newsletter-form
 ~dron.pl,pl##.widget_wysija
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
 ~lp.morele.net,~pl,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"]):lang(pl)
+~mediaexpert.pl,pl##.form-newsletter
 ~pap.pl,pl###newsletter-form
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
@@ -1959,7 +1961,6 @@ pl##.footer-newsletter-form
 pl##.footer-subscribe
 pl##.footer__newsletter
 pl##.footer_newsletter
-pl##.form-newsletter
 pl##.ft_newsletter
 pl##.g1-newsletter
 pl##.homepage-newsletter
