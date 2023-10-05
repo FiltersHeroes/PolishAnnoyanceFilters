@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Tue, 12 Sep 2023, 00:32 UTC+02:00
-! Version: 2023.9.12.0
+! Last modified: Thu, 05 Oct 2023, 23:05 UTC+02:00
+! Version: 2023.10.5.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 12 wrz 2023, 00:32 UTC+02:00
+! Aktualizacja: czw, 05 paź 2023, 23:05 UTC+02:00
 !
 !
 !
@@ -33,7 +33,8 @@
 /snr-sw.js$script,domain=mediaexpert.pl|pl.kruk.eu
 /sw-push.js$script,domain=m.zapytaj.onet.pl|medonet.pl
 /sw-rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
-/sw.js$domain=adaware.com|kinoseans.pl|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl|youtube.com|zippyshare.com
+/sw.js$domain=adaware.com|kinoseans.pl|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl
+@@/sw.js$domain=youtube.com
 ||cdn.*.com/push_app.js$script,domain=2conv.com|flv2mp3.by|flvto.biz
 ||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
 ||cdn.qgraph.io/v3/r/qgraph.v2.js$domain=domodi.pl|homebook.pl
