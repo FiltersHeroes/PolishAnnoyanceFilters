@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Tue, 03 Oct 2023, 17:30 UTC+02:00
-! Version: 2023.10.3.0
+! Last modified: Fri, 06 Oct 2023, 17:30 UTC+02:00
+! Version: 2023.10.6.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 03 paź 2023, 17:30 UTC+02:00
+! Aktualizacja: pią, 06 paź 2023, 17:30 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -32,7 +32,7 @@
 ||tvpolsat.info/infusions/ui_top_button_panel/js/jquery.ui.totop.js
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 2x45.info,agro-hurt.eu,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
-3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,bajki-grajki.pl,blackmonk.pl,domator24.com,e-forma.pl,e-rbud.pl,ettoi.pl,folcom.pl,futurefarm24.pl,greenhousedevelopment.pl,harposoftware.com,lampa-lampy.pl,laroxy.com,mojwzrok.pl,opakowania24.eu,optes.pl,plantica.pl,skitenis.pl,sklep.escribo.pl,skymaster24.pl,slowka.pl,swiatroslin.eu,swiatwokolkuchni.pl,tafmet.pl,taniesoczewki.pl,tortoweozdoby.pl,virgobooks.pl##.top_button
+3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,bajki-grajki.pl,blackmonk.pl,domator24.com,e-forma.pl,e-rbud.pl,ettoi.pl,folcom.pl,futurefarm24.pl,greenhousedevelopment.pl,harposoftware.com,lampa-lampy.pl,laroxy.com,lorenbag.pl,mojwzrok.pl,opakowania24.eu,optes.pl,plantica.pl,skitenis.pl,sklep.escribo.pl,skymaster24.pl,slowka.pl,swiatroslin.eu,swiatwokolkuchni.pl,tafmet.pl,taniesoczewki.pl,tortoweozdoby.pl,virgobooks.pl##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com###to-top
 3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,domkorkowy.com,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
 4f.com.pl,adriatech.pl,agrojumal.com.pl,android.com.pl,answear.com,blaugrana.pl,cyfrowarepublika.pl,dachygt.pl,dorotafilipiuk.pl,drmax.pl,fenii.pl,karchercenter-ocean.pl,karnet.krakow.pl,myjki.com,myjki.eu,ocean-karcher.pl,oponeo.pl,pfron.org.pl,pracuj.pl,radiopoznan.fm,sagito.pl,sandraspa.pl,sport-shop.pl,tolpa.pl###scrollTop
@@ -60,7 +60,7 @@ adata.com###back-2-top.back-2-top-rocket
 addnature.pl,bikester.pl###iscjs_scroller
 addons.prestashop.com##.ontop.btn-top.btn
 adleragro.pl##.go-up-footer
-adwokat.co.uk,akademicka.pl,ccpartners.pl,diagnozainternetu.pl,ervegan.com,kunert.com.pl,mojlask.pl,rb.targi.pl##.top
+adwokat.co.uk,akademicka.pl,ccpartners.pl,diagnozainternetu.pl,ervegan.com,kunert.com.pl,mojlask.pl,przejazdy.info,rb.targi.pl##.top
 adwokatgabrysiak.pl,ikapol.net,planeta-budowlana.pl,rolkom.net,wyczesani.com##.fa-angle-up
 aeg.pl,electrolux.pl,zanussi.pl##.navigate-to-top
 aeromixer.eu,audience.netsprint.eu,karta.piaseczno.eu,pl.mirakulin.com###scroll-top-link
@@ -72,7 +72,7 @@ agmarprzewozy.pl,agrosklad.com.pl,lalorraine.pl,ppe.pl,smartpozyczka.pl##.toTop,
 agnieszkakudela.pl,annapoplawska.pl,drogeriekoliber.pl,enger.pl,globstory.pl,netcomit.pl,pgs.net.pl,photonrobot.com,pixers.biz,r-media.pl,studiooptyczne.tychy.pl,topmarkety.pl,usecryptmessenger.com###qodef-back-to-top
 agora.pl,alltronix.pl,domczasuhurt.pl,forcell.pl,pl.techinfus.com,pogotowie-komputerowe.org.pl,sklep.zielonyogrodek.pl##.up
 agrarius.eu,combat.pl,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatrust.ro,niezlomni.com,olympia-electronics.com,ono24.info,radioznin.fm,sempre.eu.com,wkret-met.com###backtotop
-agriculture.newholland.com,ipa-katowice.org,lakiernictwo.net,medianarodowe.com,porozmawiajmy.tv,pulawy.eu,roztocze.net###gototop
+agriculture.newholland.com,ipa-katowice.org,lakiernictwo.net,medianarodowe.com,porozmawiajmy.tv,pulawy.eu,roztocze.net,swiatopon.info###gototop
 agro-eko.com.pl##.scrollIcon
 agro-factory2.eu,amfetamina.promo,choinkisztuczne.com,diavolo-meble.eu,historiasportu.info,laptopy24h.com,linkhouse.co,medbestshop.eu,mywspieramy.org,ostrzegamy.online,pomaranczowa.eu,ponadograniczeniami.org,skup-laptopow.com,stsublimacja.org##.et_pb_scroll_top
 agroas.pl##.to-the-top-link
@@ -82,13 +82,13 @@ agrofakt.pl,badaniaprenatalne.pl,fn.org.pl,industra.pl,jaworzynakrynicka.pl,mas-
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
 agrohandel.com.pl,dietlux.pl,eljacht.pl,opgj.pl,pruszczgdanski.pl,resztamamy.pl,shindaiwa.pl,smart-power.pl##.tm-totop-scroller
 agrohandler.pl,betterland.pl,porcja.eu,strefaucznia.pl,swiece-zaplonowe.pl###to_top_wrap
-agrojd.com,audioservice.com,dobresystemy.eu,domnowoczesny.com,dronefilmfestival.eu,empik.com,esklep.brandvital.eu,fantasy.ekstraklasa.org,fuchs.com,hakpol.info,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,nprofit.net,pk-invest.eu,pl.ecco.com,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com##.scroll-to-top
+agrojd.com,audioservice.com,dobresystemy.eu,domnowoczesny.com,dronefilmfestival.eu,empik.com,esklep.brandvital.eu,fantasy.ekstraklasa.org,fuchs.com,hakpol.info,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,nowy-sacz.info,nprofit.net,pk-invest.eu,pl.ecco.com,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com##.scroll-to-top
 agromasa.com,fotostori.es,koscian.net,neway.mobi##.totop
 agromer.pl##.page-top-button
 agroperfekt.pl,czemarol.pl,kunert.com.pl,kwiaciarniahonoratka.pl,radiator-service.pl,rolmaszbien.pl,smolnik.com.pl,terfolbis.pl##.gotoup
 agrosimex.pl##.vue-back-to-top
 agrosystems.pl##.footer-utilities-back
-agrotechnika.co,bravebeaver.pl,byvioleta.com,drobne.fm,giszowiec.org,justyna.kowalcze.eu,kalendarzonline.com,kasz-bus.info,nowicka-misiewicz.com,nowy-sacz.info,presta.eu.org,rankingkont.org,sledcza24.tv,zdrowyportal.org###topcontrol
+agrotechnika.co,bravebeaver.pl,byvioleta.com,drobne.fm,giszowiec.org,inteligentnydom.co,justyna.kowalcze.eu,kalendarzonline.com,kasz-bus.info,nowicka-misiewicz.com,nowy-sacz.info,presta.eu.org,rankingkont.org,sledcza24.tv,zdrowyportal.org###topcontrol
 agrotuszyn.pl,forum.gazeta.pl,niepodlegla.dzieje.pl,rozklad.klosok.eu##.toTop
 agtom.eu###scroll_to_top
 airbuy.pl##.js-gotop
@@ -111,7 +111,7 @@ alko-garden.pl,pl.assmann.shop###jumptotop
 alkomaty-sklep.eu,azaliaonline.pl,baterie-hurt.pl,bestbody.com.pl,dompolpro.pl,drogeria-ekologiczna.pl,etroniks.pl,funnycase.pl,metaltech.com.pl,muzyczny.eu,omasz.pl,pmi.org.pl,postwood.pl,sklep.farmona.pl,sklep.yasumi.pl,staypoland.com,terazteatr.pl,wieszaki.info###to_top
 allegro.pl##button[data-analytics-interaction-label="scrollToTop"], button[title="Do góry"]
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
-allpaka.eu,asimexplus.com,eperfumy.pl,influencja.pl,siapre.pl,sklep.druk-pak.com###do_gory
+allpaka.eu,asimexplus.com,eperfumy.pl,influencja.pl,siapre.pl,sklep.druk-pak.com,vivosklep.pl###do_gory
 alltube.tv##.fa-angle-double-up
 alphavit.pl,ambulans.com.pl,athleticsport.pl,cukieteria.pl,getinbank.pl,grajtanio.pl,gustaf.pl,itmarket.pl,mkgsm.pl,mojedekoracje.eu,motoledy.pl,pakuten.pl,siecobywatelska.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,trojmiasto.pl,unimet.pl,zegarkisklep.com,zoo365.pl###scroll_top
 alter24.pl###page ~ div[id^="anb"]
@@ -176,7 +176,7 @@ avans.pl##.wf-arrow-circle-o-up
 avantea.pl,avenus.pl,dipol.com.pl,dpm.eu,junak.com.pl,karmello.pl,licencjefilmowe.pl,muovitech.com,papier99.pl,poettinger.at,sendgb.com,silesiaofficecenter.pl,spolkacywilna.info,westerntortilla.pl,zinkpower.com###gotoTop
 avaro.pl,kontri.pl###arrow_top
 avast.com###slide-top
-axeprim.eu,brytol.com,domel.com.pl,ekspert-nieruchomosci.com.pl,fanipogody.pl,fera.pl,gazetaslupecka.pl,gdanskstrefa.com,halohalo.pl,icyfrowypolsat.pl,ino-24.pl,itbiznes.pl,lincoln.edu.pl,meblosfera.pl,placesandplants.com,posbistro.com,region24.pl,rrs24.net,silesion.pl,skawina.eu,sluzby-ratownicze.pl,sp18.lublin.eu,sportdziennik.com,sportowiec.info,stalmielec.com,targowek.info,tarnobrzeg.info,techno-senior.com,tygodnikradomski.com.pl,wachtyrz.eu,wagrowiec-wydarzeniazostatniejchwili.pl,wbieszczady.pl,wiatrodyskretni.pl,wirtualnynowydwor.pl,wiskitki.org,wokolmotoryzacji.pl,zs12lublin.eu###scroll-up
+axeprim.eu,brytol.com,domel.com.pl,ekspert-nieruchomosci.com.pl,fanipogody.pl,fera.pl,gazetaslupecka.pl,gdanskstrefa.com,halohalo.pl,icyfrowypolsat.pl,ino-24.pl,itbiznes.pl,kurierprzasnyski.pl,lincoln.edu.pl,meblosfera.pl,ochrona24.info,placesandplants.com,posbistro.com,region24.pl,rrs24.net,silesion.pl,skawina.eu,sluzby-ratownicze.pl,sp18.lublin.eu,sportdziennik.com,sportowiec.info,stalmielec.com,targowek.info,tarnobrzeg.info,techno-senior.com,tygodnikradomski.com.pl,wachtyrz.eu,wagrowiec-wydarzeniazostatniejchwili.pl,wbieszczady.pl,wiatrodyskretni.pl,wirtualnynowydwor.pl,wiskitki.org,wokolmotoryzacji.pl,zs12lublin.eu###scroll-up
 axtechnology.pl##.show_scroll
 b2b.metal-bud.eu,bat.pl,hmb.pl,sklep.elus.pl,wisko.eu##.go-to-top-ui
 b2btrade.eu##.back-to-top-arrow
@@ -201,14 +201,14 @@ biblioteka-jablonna.eu,e-sano.pl,eurofirany.com.pl,retrolab.pl,sklep.stokrotka.p
 bibliotekarium.pl,halonet.pl,poettinger.at,rutkowscy.pl##.icon-angle-up
 bikesalon.pl,snowshop.pl,surfshop.pl##.js-go-up
 bilety.termymaltanskie.com.pl##._show.scroll-top-button
-bioeco.pl,dekolo.pl,dolasu.pl,szachownica.com.pl,witek.pl##.to_top_btn
+bioeco.pl,dekolo.pl,dolasu.pl,happytime.com.pl,szachownica.com.pl,witek.pl##.to_top_btn
 bip.powiat.poznan.pl,e-marcom.pl,fotoprint.pl,kwestiasmaku.com,zloty-pociag.com##.do_gory
 bip.slaskie.pl,mazovia.pl,pulawy.eu###totopicon
 bisko.pl,cng.auto.pl,iwetto.com,olbud.com.pl,penguinbm.com,pl.vpnmentor.com,retromedia.pl###scroll
 bithub.pl##.st-site-scroll-top
 bitserwis.com.pl##.flaticon-home
 biura-rachunkowe.waw.pl,biznesfinder.pl,pomysly-na.pl,swiat-uslug.pl,welcome2poland.eu##.action-scroll-top
-biurfan.pl,centralne.co,ekoj.pl,helvetia-meble.pl,heronews.pl,kalisz24.info.pl,kiwimag.pl,kosapopatelni.pl,oksport.pl,palcelizac.pl,podlasianin.com.pl,racjonalista.tv,sklep.soled.pl,strajk.eu,strefapsx.pl,tygodnik.szczytno.pl,zawojski.pl,ztedevices.com##.gotop
+biurfan.pl,centralne.co,ekoj.pl,helvetia-meble.pl,heronews.pl,kalisz24.info.pl,kiwimag.pl,kosapopatelni.pl,oksport.pl,palcelizac.pl,podlasianin.com.pl,racjonalista.tv,sarzyna.info,sklep.soled.pl,strajk.eu,strefapsx.pl,tygodnik.szczytno.pl,zawojski.pl,ztedevices.com##.gotop
 biurowazszywka.pl##.ast-scroll-top-icon
 biznesomania.com.pl,igomedia.pl,notebooki.pl##.goto-top
 biznesplan.net.pl##.ta_upscr
@@ -216,7 +216,7 @@ blasty.pl,chamskie.pl,hulaka.pl###widget-back-to-top
 blix.pl##.rewindTopButton.footer__rewind-button
 blog.bloomboard.co##.go-to-top-wrap
 blog.cochlear.com,wojciechpietrzak.com.pl##.scrollUp
-blog.lh.pl,muzyczny-krakow.eu##.ct-back-to-top
+blog.lh.pl,dekoelectronics.com,muzyczny-krakow.eu##.ct-back-to-top
 blog.noblehealth.pl##footer .slide-up
 blog.polskiekino.com.pl##.tidymag-scroll-top
 blog.spacetronik.eu,moneygrabbing.co.uk,szeffer.expert##.sh-back-to-top
@@ -297,6 +297,7 @@ czarodziejewspomnien.pl,hihome.pl###fount_to_top
 czescidobmw.pl##.pageToTop
 czescirolnicze.eu,mechanik-sc.pl##.abs-scroll-top
 czescizamienne.amica.pl##.sfa-scroll-top
+czops.pl,neuf.tv###kt-scroll-up
 czytio.pl,jaw.com.pl###scrollTop-btn
 dakoma.com.pl##.spin-scroll-top
 damy-rade.info##.nav-up, .nav-down
@@ -313,6 +314,7 @@ dekoracjascian.com,lightinthebox.com,opensolution.org,technisat.com###backToTop
 denso.com##.Pagetop
 dentalmedicenter.pl,jackvision.pl,mapsolutions.pl###to_the_top
 deon.pl,muzarp.poznan.pl,tupowstalapolska.pl##.strzalka
+deubaxxlshop.pl###scrolltopbutton
 devilpage.pl,happynewyou.neonail.pl,herbapol.com.pl,kuprtvagd.pl,labhome.pl,musiclab.com.pl##.to_top
 dhl.com##.c-go-to-top-button
 dictionary.cambridge.org##.ctop
@@ -343,7 +345,7 @@ dts24.pl##.nav-btn
 duka.com,electro.pl,mediaexpert.pl##.is-scrollToTop
 durszlak.pl##.button-icon-goup
 e-bliskoprzyrody.pl##.vlt-back-to-top
-e-dym.pl,sklep.mateuszciawlowski.pl###slidetop
+e-dym.pl,sklep.mateuszciawlowski.pl,walizkownia.pl###slidetop
 e-glamour.pl,elnino-parfum.pl##.js-scrollUp
 e-kiosk.pl##.fixed-menu
 e-militaria.pl##.to_top_wrap
@@ -370,7 +372,7 @@ elk.zdz.bialystok.pl###dotop
 elmas.com.pl##.rise-to-top
 enel.pl###afario-back-top
 enetproduction.com##div.vued-custom-scroll_to_top
-enowiny.pl,mobileworld24.pl##.mnmd-go-top
+enowiny.pl,getlevel.info,mobileworld24.pl##.mnmd-go-top
 erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,wdrodze.pl,yellow.place###up
 es.lubuskie.pl##.page-up-button
 esdorado.com,pm-m.pl,rolmarket.pl,zniczeadam.pl###scrollTopButton
@@ -480,6 +482,7 @@ hoteladler.com,pl.aorus.com,pl.msi.com,pl.vision1cyclings.com,platinet.eu###goto
 hotelbania.pl##.js-scroll-to
 humanitas.edu.pl##.jump_arrow
 hungryeyes.pl##.w-inline-block.anchor-link
+hurtowniawalizek.pl##.pk-scroll-totop
 hurtowniazabawek.pl##.footerBox_btop
 hurtum.pl,juvepoland.com,myphone.pl##.scroller
 i-apteka.pl##.n60972_main_cop_right
@@ -514,7 +517,7 @@ jagerfundacja.pl,kosmopolis.com.pl,polska-ie.com,promocjomat.pl,scottiego.com,sw
 janssen.tv##.move-btn__parent
 jarock.pl,mentel.com.pl###back-to-top-btn
 jawis.pl,stalko.net.pl,techrol.com,webreklama.pl##.scrollDown
-jaworzynka.info,naszswiat.it,option.news,polskiobserwator.de,webniusy.com##.g1-back-to-top
+jaworzynka.info,naszswiat.it,option.news,ostrowczanie.info,polskiobserwator.de,webniusy.com##.g1-back-to-top
 jmlnet.pl##.pi-scroll-top-arrow
 journals.viamedica.pl##.Back_To_Top_Button
 juventus-academy.rzeszow.pl###avatar-go-to-top
@@ -573,7 +576,7 @@ lasery.pl##.t4c_go_top
 lca.pl###page > #container_logo > #myBtn
 leadstar.pl,sklep.kobi.pl##.page-scroll
 leba.eu,niepolomice.eu,szema.eu##.to-top-container
-lebork24.info##.backto
+lebork24.info,otowejherowo.pl##.backto
 lechia.net###gkBackToTop
 leclerc-online.pl,leclerc.com.pl,santanderconsumer.pl,truck1-pl.com,www.rp.pl,zakupy-eleclerc.pl##.arrow-to-top
 legalnakultura.pl,mojaniderlandia.pl,mojanorwegia.pl,trol.pl###goUp
@@ -681,7 +684,6 @@ neo24.pl,neonet.pl##div[class*="scrollTopArrowCss"]
 neon24.info,nowyekran24.com###button-top
 neonet.pl##div[class^="scrollTopArrow-wrapper"]
 network-systems.pl,sp124.nazwa.pl,wypozyczalniachoinek.eu,zawisza.szkola.pl##.enigma_scrollup
-neuf.tv###kt-scroll-up
 news.samsung.com###btn_top
 newtonmedia.pl##.take-me-up
 nfon.com##.page-back-to-top
