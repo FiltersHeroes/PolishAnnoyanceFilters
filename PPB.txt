@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 09 Oct 2023, 14:31 UTC+02:00
-! Version: 2023.10.9.0
+! Last modified: Mon, 09 Oct 2023, 17:30 UTC+02:00
+! Version: 2023.10.9.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 09 paź 2023, 14:31 UTC+02:00
+! Aktualizacja: pon, 09 paź 2023, 17:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3356,13 +3356,11 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 ||tvpolsat.info/infusions/ui_top_button_panel/js/jquery.ui.totop.js
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 2x45.info,agro-hurt.eu,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
-3dom.pro,adihome.pl,agrosam.eu,alget.pl,antbs.co.uk,bajki-grajki.pl,blackmonk.pl,domator24.com,e-forma.pl,e-rbud.pl,ettoi.pl,folcom.pl,futurefarm24.pl,greenhousedevelopment.pl,harposoftware.com,lampa-lampy.pl,laroxy.com,lorenbag.pl,mojwzrok.pl,opakowania24.eu,optes.pl,plantica.pl,skitenis.pl,sklep.escribo.pl,skymaster24.pl,slowka.pl,swiatroslin.eu,swiatwokolkuchni.pl,tafmet.pl,taniesoczewki.pl,tortoweozdoby.pl,virgobooks.pl##.top_button
+3dom.pro,agrosam.eu,antbs.co.uk,domator24.com,harposoftware.com,laroxy.com,opakowania24.eu,swiatroslin.eu##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com###to-top
 3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,domkorkowy.com,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
-4f.com.pl,adriatech.pl,agrojumal.com.pl,android.com.pl,answear.com,blaugrana.pl,cyfrowarepublika.pl,dachygt.pl,dorotafilipiuk.pl,drmax.pl,fenii.pl,karchercenter-ocean.pl,karnet.krakow.pl,myjki.com,myjki.eu,ocean-karcher.pl,oponeo.pl,pfron.org.pl,pracuj.pl,radiopoznan.fm,sagito.pl,sandraspa.pl,sport-shop.pl,tolpa.pl###scrollTop
 4funkids.pl###scroll_up
 4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,malygeniusz.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu###scroll-to-top
-4turbo.pl,agro-parts24.pl,bratnizew.pl,ceberd.pl,dlakatolika.pl,e-sporting.pl,eelsner24.eu,elektryknet.pl,fhuoskar.pl,klinkierbud.pl,magazynlamp.pl,no10.pl,nygus.pl,palis.pl,polskiled.com.pl,sklep-narzedzia.pl,sklep.agroas.pl,sklep.loakepolska.pl,sklep.monster.pl,sklep.platinet.pl,sorbenty.pl,sportbazar.pl,topserw.pl,twp.sklep.pl###moveTop
 5wszk.com.pl,brwmielec.pl,creagroup.com.pl,crmodus.pl,dietetyczne-przepisy.net,dietetyk-proporcja.pl,dziekanka.net,e-theart.pl,galeriajurowiecka.com.pl,gchmanhattan.pl,rubbens.pl,staragotowka.pl,supersam-katowice.pl,wieniecwarszawa.pl###slide_top
 6paknutrition.com,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
 24hurt.pl,haftpasja.pl,mirjan24.pl,pm-m.pl,polagriparts.pl,uczyibawi.pl###wt_scroll_top
@@ -3436,7 +3434,6 @@ allegro.pl##button[data-analytics-interaction-label="scrollToTop"], button[title
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
 allpaka.eu,asimexplus.com,eperfumy.pl,influencja.pl,siapre.pl,sklep.druk-pak.com,vivosklep.pl###do_gory
 alltube.tv##.fa-angle-double-up
-alphavit.pl,ambulans.com.pl,athleticsport.pl,cukieteria.pl,getinbank.pl,grajtanio.pl,gustaf.pl,itmarket.pl,mkgsm.pl,mojedekoracje.eu,motoledy.pl,pakuten.pl,siecobywatelska.pl,skagro.pl,sklep-elektronik.pl,sklep.kwiaciarniakozacka.pl,sklep.lack-service.pl,trojmiasto.pl,unimet.pl,zegarkisklep.com,zoo365.pl###scroll_top
 alter24.pl###page ~ div[id^="anb"]
 aluprof.eu##.sidebar__link--top
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,mall.pl,meblujesz.pl,morele.net,motoria.pl,panasonic-batteries.com,sklep-presto.pl,ubieramy.pl,whiteplate.com##.btn-back-to-top
@@ -3448,6 +3445,7 @@ androidowy.pl,brodatyzbir.pl,coffeedesk.pl,jaktodaleko.pl,kalejdoskopbudowlany.p
 anetaduk.com,liletink.pl,lukasiewicz.gov.pl,moto.lca.pl###myBtn
 animalistka.pl,faltusdesign.wordpress.com,rygalo.com##.tothetop
 anmarniemcz.pl,icrow.pl,nat.pl,odrzanska.eu,ti-ksiaz.iap.pl##.page-scroll-up
+answear.com,myjki.com,myjki.eu,radiopoznan.fm###scrollTop
 anton-paar.com,brand.ceo,gregsoft.com.pl,ore.edu.pl,salami.pl,sokolow.pl,teb.pl,zgruntudobre.com##.gototop
 antrax.com.pl###nawTop
 antykikoneser.pl,lajkifb.pl,likefb.pl###jas-backtop
@@ -3682,6 +3680,7 @@ eclisse.pl##.top-page-scroll-button
 ecr.pl##.karma-scroll-top
 edgard.pl,pmsocho.com##.x-scroll-top
 edukatorek.pl###scroll-top-img
+eelsner24.eu###moveTop
 eenergy.com.pl##.back-top-btn
 eko-asklepios.pl,forum.trojmiasto.pl,ithardware.pl##.go_top
 ekrak.pl###zltop
@@ -3974,6 +3973,7 @@ modernbusiness.com.pl##.luxento-goto-top
 modne-gniazdka.pl###rightbar
 moja.biedronka.pl##.menu-bar > .btn-top
 mojebambino.pl##.scroll-up-plugin
+mojedekoracje.eu,zegarkisklep.com###scroll_top
 mojeflagi.blogspot.de###NBT-top
 mojehobby.pl##.on-top-box-a
 mojewronki.pl,wlaczoszczedzanie.pl##.waypoints-goto-top
@@ -4367,6 +4367,7 @@ pl###jsn-gotoplink
 pl###link_przewin
 pl###m7-go-top:not(body):not(html)
 pl###move-to-top
+pl###moveTop
 pl###mt-scrollup:not(body):not(html)
 pl###np-scrollup
 pl###return-to-top
@@ -4377,7 +4378,9 @@ pl###scroll-top-link
 pl###scroll-top:not(body):not(html):not(.page)
 pl###scroll-up[href="#masthead"]
 pl###scroll_to_top
+pl###scroll_top
 pl###scroll_totop
+pl###scrollTop
 pl###scrollToTop
 pl###scrollUp
 pl###sttotop
@@ -4443,6 +4446,7 @@ pl##div.up > a[title="do góry"]
 pl##scroll-up
 pl,~sklep.lobos.pl##.to-the-top
 pl,~studioatrium.pl###back-to-top
+pll##.top_button
 !
 !
 ! Tła zawierające autoreklamy
