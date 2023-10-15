@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 13 Oct 2023, 17:30 UTC+02:00
-! Version: 2023.10.13.0
+! Last modified: Sun, 15 Oct 2023, 17:30 UTC+02:00
+! Version: 2023.10.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 13 paź 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 15 paź 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -1852,7 +1852,7 @@ zadowolenie.pl##.image_widget.widget > .js-imageWidget
 zaffiro.shop###newsletterWidget
 zakamarki.pl###newsletter-validate-detail
 zakoplan.pl##.footer-row > div.columns:nth-of-type(4)
-zakupy.auchan.pl##a[href*="dla-klienta"][href*="kupon"][style*="background-image"]
+zakupy.auchan.pl#?#div[class][content="[object Object]"][add-background="true"] section:-abp-has(> h3:-abp-contains(Zamów nasz newsletter) ~ form)
 zakupydladziecka.pl##.modNewsltter
 zakupywm1.pl##.hidden-xs.row > .col-sm-4:nth-of-type(3)
 zamek-krolewski.pl###footer_top
