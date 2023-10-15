@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 15 Oct 2023, 02:31 UTC+02:00
-! Version: 2023.10.15.0
+! Last modified: Sun, 15 Oct 2023, 19:52 UTC+02:00
+! Version: 2023.10.15.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 15 paź 2023, 02:31 UTC+02:00
+! Aktualizacja: nie, 15 paź 2023, 19:52 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3472,7 +3472,6 @@ astoreo.pl##.scrollButtons
 astra.pisz.pl,lencze.eu,pdm.pisz.pl,portalhodowcy.pl###nav_up
 asus.com##div[class*="ScrollTop_"]
 asystentbhp.pl##.gototop-button.gototop
-atmp.pl,b2net.pl,elus.pl,encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl,telefon.info.pl###top
 auchan.pl##.button-go-top
 auchan.pl##.tooltip.right > button ~ button[style*="width: 10px"]
 auchanhetmanska.pl##.a-ScrollTop
@@ -3494,6 +3493,7 @@ axeprim.eu,brytol.com,gdanskstrefa.com,ochrona24.info,placesandplants.com,posbis
 axtechnology.pl##.show_scroll
 b2b.metal-bud.eu,bat.pl,hmb.pl,sklep.elus.pl,wisko.eu##.go-to-top-ui
 b2btrade.eu##.back-to-top-arrow
+b2net.pl,elus.pl,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl,telefon.info.pl##a#top
 baborow.pl###btn-totop
 balex.eu,budujemywuk.co.uk,polska.travel,powiatowa.info,radioznin.fm,tvnakarte.eu,zsckr.rzemien.eu###jm-back-top
 balterio.com,pergo.pl##.c-top
@@ -3684,6 +3684,7 @@ elektrosalon.pl###buttontotop
 elektrykadlakazdego.pl##.crane-top
 elk.zdz.bialystok.pl###dotop
 elmas.com.pl##.rise-to-top
+encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info###top
 enel.pl###afario-back-top
 enetproduction.com##div.vued-custom-scroll_to_top
 enowiny.pl,getlevel.info,mobileworld24.pl##.mnmd-go-top
