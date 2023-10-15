@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 15 Oct 2023, 21:30 UTC+02:00
-! Version: 2023.10.15.1
+! Last modified: Sun, 15 Oct 2023, 23:33 UTC+02:00
+! Version: 2023.10.15.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 15 paź 2023, 21:30 UTC+02:00
+! Aktualizacja: nie, 15 paź 2023, 23:33 UTC+02:00
 !
 !
 !
@@ -493,6 +493,7 @@ drtusz.pl##div.infoBoxHeading:nth-of-type(5), .smallText
 duka.com,lot.com##.is-newsletter
 dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
 dystronet.pl##.post > #gr-form
+dziennik.pl,forsal.pl,gazetaprawna.pl##.footerNewsletterContent
 dziennikprawny.pl##footer > div.container > div.row > div[class]:nth-of-type(3)
 dziennikzbrojny.pl##.columns.four
 dziewczynynapolitechniki.pl##.col-sm-3:nth-of-type(3)
@@ -636,7 +637,6 @@ foodsbyann.com##.custom_footer__box--left.custom_footer__box
 foodyas.com##footer > div > .row > div.col-lg-4:nth-of-type(3)
 forbot.pl###powiadomieniaMailowe
 foreo.com###block-subscriptionblock
-forsal.pl##.footerNewsletterContent
 forsal.pl##div > a[href="http://forsal.pl/newsletter"], .forsalHeaderLinks > .col-sm-off.col-xs-off:first-of-type
 forum-ekonomiczne.pl##footer div.col-lg-3.column_parent:nth-of-type(3)
 forum.android.com.pl##[data-blockid="app_core_newsletter_newsletter"]
@@ -1425,6 +1425,7 @@ rossmann.pl##.join-nsl
 rovus.pl##.footer-lower div.links:nth-of-type(4)
 royal-dental.pl##.s__newsletter
 rozterkistartuperki.pl##.mab-pad
+rp.pl##[data-mrf-section="Article / Body"][data-gtm-section="page:article/section:body"] ~ div #salesmanagoIframe
 runeat.pl###subscribe-blog-blog_subscription-2
 runeat.pl##.line:nth-of-type(2) > span
 runeat.pl##.widget:nth-of-type(2)
