@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 15 Oct 2023, 23:33 UTC+02:00
-! Version: 2023.10.15.2
+! Last modified: Wed, 18 Oct 2023, 17:30 UTC+02:00
+! Version: 2023.10.18.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 15 paź 2023, 23:33 UTC+02:00
+! Aktualizacja: śro, 18 paź 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -423,8 +423,8 @@ defence24.pl,infosecurity24.pl,space24.pl##.newsletter-module__inner
 dekea.pl##div.mb40.mt40.row:nth-of-type(5) > .bg-grey.p20.col-md-4
 delis.pl,diamir.sklep.pl,telefony-gdansk.pl,wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
 delphiautoparts.com##form .subscribe-form
-demagog.org.pl##.footer .mt-2.col-12
-demagog.org.pl,idream.pl##.main-newsletter
+demagog.org.pl##footer .dg-newsletter
+demagog.org.pl##section .column .dg-newsletter
 deon.pl###region4 > .clear:nth-of-type(6), #region12 > .clear:first-of-type
 deon.pl##.footer-right__newsletter
 deon.pl##.sl > li:nth-of-type(5)
@@ -767,6 +767,7 @@ hyperxgaming.com###email-signup-modal, .s-footer__email
 iautomatyka.pl##div.pfwidgetinner:nth-of-type(6), div.h2_belka:nth-of-type(5), #pf-footer-row > .pf-row > .mpc-column.col-md-3.col-lg-3.wpb_column:nth-of-type(2), .mailster-form
 ibrpolska.pl##.panel.widget-first.widget-1
 ichi.pro##a[href*="eepurl.com/"]
+idream.pl##.main-newsletter
 igimag.pl###freshMailPopUp__background
 imperiumromanum.edu.pl##div.wpb_raw_html.wpb_content_element.wpb_raw_code:nth-of-type(2)
 inexbuy.pl##.us-foooter-subscribe-row
@@ -1897,7 +1898,7 @@ zyxel.com###block-newsletter-footer
 ~activejet.pl,pl##.newsletterBox
 ~apteka.sloneczna24.pl,~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.al.to,~lp.x-kom.pl,~mediaexpert.pl,~pap-mediaroom.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"])
 ~aurum-optics.pl,pl##.footer-newsletter
-~automatykab2b.pl,pl##.newsletter-box
+~automatykab2b.pl,~~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
 ~dietyodbrokula.pl,~mediaexpert.pl,pl##.newsletter-form
 ~dron.pl,pl##.widget_wysija
