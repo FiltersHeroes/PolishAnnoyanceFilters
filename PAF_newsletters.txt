@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 22 Oct 2023, 02:38 UTC+02:00
-! Version: 2023.10.22.0
+! Last modified: Sun, 22 Oct 2023, 17:30 UTC+02:00
+! Version: 2023.10.22.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 paź 2023, 02:38 UTC+02:00
+! Aktualizacja: nie, 22 paź 2023, 17:30 UTC+02:00
 !
 !
 !
@@ -620,6 +620,7 @@ fc-moto.de##.NewsletterBox, .NewsletterBox + div
 felixcom.net##.ftop > .container > .right
 feniks.wroc.pl##.newsletter-wr
 festool.pl##.newsletter__footer
+fielmann.pl##div[data-cy="newsletter-"]
 finereader.pl##footer > .container-fluid > .container > .row > div:first-of-type > .text-white:nth-of-type(2)
 finereader.pl##footer > .container-fluid > .container > .row > div:first-of-type > .textwidget:nth-of-type(3)
 fish24.pl##.newsletter_foot
