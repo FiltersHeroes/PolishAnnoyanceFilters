@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 22 Oct 2023, 02:38 UTC+02:00
-! Version: 2023.10.22.0
+! Last modified: Sun, 22 Oct 2023, 14:31 UTC+02:00
+! Version: 2023.10.22.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 paź 2023, 02:38 UTC+02:00
+! Aktualizacja: nie, 22 paź 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -621,6 +621,7 @@ fc-moto.de##.NewsletterBox, .NewsletterBox + div
 felixcom.net##.ftop > .container > .right
 feniks.wroc.pl##.newsletter-wr
 festool.pl##.newsletter__footer
+fielmann.pl##div[data-cy="newsletter-"]
 finereader.pl##footer > .container-fluid > .container > .row > div:first-of-type > .text-white:nth-of-type(2)
 finereader.pl##footer > .container-fluid > .container > .row > div:first-of-type > .textwidget:nth-of-type(3)
 fish24.pl##.newsletter_foot
