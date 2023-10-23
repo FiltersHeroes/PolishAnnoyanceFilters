@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 22 Oct 2023, 21:30 UTC+02:00
-! Version: 2023.10.22.2
+! Last modified: Mon, 23 Oct 2023, 14:31 UTC+02:00
+! Version: 2023.10.23.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 paź 2023, 21:30 UTC+02:00
+! Aktualizacja: pon, 23 paź 2023, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2385,6 +2385,7 @@ decoliving.pl###pop-up-newsletter
 decoliving.pl,intymna.pl###pop-up-powiadomienia
 decoliving.pl,intymna.pl,ohso.pl##.pop-up-newsletter-wrapper
 deepl.com###dl_app_banner_popup
+dekoelectronics.com,szalonewalizki.pl##.mailpoet_form_popup.mailpoet_form, .mailpoet_form_popup_overlay
 dekoria.pl,lee.pl,morebananas.pl,patiimaks.pl,puchary-sklep.pl##.newsletter_popup
 demagog.org.pl##.popup-delay.main-pop-up.info-hide
 develey.pl###pum-201993
@@ -2967,7 +2968,6 @@ swiatbaterii.pl##.baner3
 swiatdronow.cupsell.pl###shop_newsletter, .simplemodal-overlay
 swiatkierowcy.pl###max
 systim.pl###pop2
-szalonewalizki.pl##.mailpoet_form_popup.mailpoet_form, .mailpoet_form_popup_overlay
 szkolycelne.infoserwis.elk.pl###scyscraper
 szlachetnygest.pl##.zgarnij_misia.fpopup_overlay
 sztuka-architektury.pl###newsletter_info
