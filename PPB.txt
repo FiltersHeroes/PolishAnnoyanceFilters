@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 28 Oct 2023, 17:30 UTC+02:00
-! Version: 2023.10.28.0
+! Last modified: Sun, 29 Oct 2023, 00:00 UTC+02:00
+! Version: 2023.10.29.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 28 paź 2023, 17:30 UTC+02:00
+! Aktualizacja: nie, 29 paź 2023, 00:00 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1901,7 +1901,7 @@ zyxel.com###block-newsletter-footer
 !~lp.morele.net,~pl,~lp.al.to,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"]):lang(pl)
 ~activejet.pl,pl##.newsletterBox
 ~aurum-optics.pl,pl##.footer-newsletter
-~automatykab2b.pl,~~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
+~automatykab2b.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
 ~dietyodbrokula.pl,~mediaexpert.pl,pl##.newsletter-form
 ~dron.pl,pl##.widget_wysija
