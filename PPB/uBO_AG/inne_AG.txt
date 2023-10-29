@@ -2,10 +2,10 @@
 #$#.containerHomepage { remove: true; }
 #@#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
 #@?#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
-allegro.pl#$?#@media (min-width: 1200px) { #search-results section:has(> button[title*="SORTUJ BEZ DOPASOWANIA" i]) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
-allegro.pl#$?#@media (min-width: 1200px) { #search-results:has(section > button[title*="SORTUJ BEZ DOPASOWANIA" i]) { margin-top: 90px !important } }
-allegro.pl#$?#@media (min-width: 1200px) { #search-results:has(section > div > button[title*="SORTUJ BEZ DOPASOWANIA" i]) { margin-top: 90px !important } }
-allegro.pl#$?#@media all and (min-width: 1200px) { #search-results section:has(> div > button[title*="SORTUJ BEZ DOPASOWANIA" i]) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
+allegro.pl#$?#@media (min-width: 1200px) { #search-results div[data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> button) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
+allegro.pl#$?#@media (min-width: 1200px) { #search-results:has(div[data-analytics-view-label="BETTER_SORT_APPLIED"]) { margin-top: 90px !important } }
+allegro.pl#$?#@media (min-width: 1200px) { #search-results:has(div[data-analytics-view-label="BETTER_SORT_APPLIED"]) { margin-top: 90px !important } }
+allegro.pl#$?#@media all and (min-width: 1200px) { #search-results div[data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> div > button) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
 karachan.org$$script[wildcard="style*xD"][min-length="100"]
 komputerswiat.pl$$#ks_breaking_news
 pacjent.gov.pl#@#:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
