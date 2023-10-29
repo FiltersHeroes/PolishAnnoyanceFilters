@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 24 Oct 2023, 21:30 UTC+02:00
-! Version: 2023.10.24.0
+! Last modified: Sun, 29 Oct 2023, 16:30 UTC+01:00
+! Version: 2023.10.29.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 24 paź 2023, 21:30 UTC+02:00
+! Aktualizacja: nie, 29 paź 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -654,6 +654,7 @@ media-tech.eu,vanitysklep.pl###OverlayContainer_rcw
 mediaexpert.pl##.is-exit-popup
 mediaexpert.pl##.precart
 mediaexpert.pl##[id^="popup-"] > .snrs-modal-wrapper
+mediaexpert.pl#?#.dynamic-modal:-abp-has(h2:-abp-contains(mogą Cię zainteresować))
 medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
 medonet.pl##.haloDoctorPopup, .pushNotifiPopup
 medonet.pl##.medonet_healthtestpopup_opened
