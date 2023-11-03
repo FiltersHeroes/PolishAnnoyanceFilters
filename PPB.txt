@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 01 Nov 2023, 16:30 UTC+01:00
-! Version: 2023.11.1.0
+! Last modified: Sat, 04 Nov 2023, 00:31 UTC+01:00
+! Version: 2023.11.4.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 01 lis 2023, 16:30 UTC+01:00
+! Aktualizacja: sob, 04 lis 2023, 00:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5457,7 +5457,7 @@ aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-
 adra.pl##.fanimani-widget-floatbanner
 afgcomputers.pl###menu3bar
 aftermarket.pl###scroll-left
-agdlab.pl,ekstraklasa.tv,esportmania.pl,forbes.pl,ofeminin.pl,softonet.pl,verdykt.pl###nitro-block
+agdlab.pl,ekstraklasa.tv,esportmania.pl,forbes.pl,ofeminin.pl,verdykt.pl###nitro-block
 agdrtv24.pl###baner_rog
 agmarprzewozy.pl,bursztynowa.pl###loader
 agora.pl###toolbar-btn
@@ -5538,8 +5538,8 @@ auto-swiat.pl,businessinsider.com.pl,cdn.ampproject.org,fakt.pl,komputerswiat.pl
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,nk.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl##.backToOnet
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl###backToOnet
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl###content-share-top > .BackToMainPage, .backToOnetBottomBar
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#:is(atricle, [class*="art" i]. [id*="art" i]) ul li:last-child:-abp-has(a[href$="onet.pl/"], a[href$="onet.pl"], a[href*="src=back_to_sg_bullet"])
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#[class*="Body"] li:-abp-has(a[href*="utm_campaign=back_to_onet_bullet"])
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#ul li:last-child:-abp-has(a[href$="onet.pl/"], a[href$="onet.pl"], a[href*="src=back_to_sg_bullet"])
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,~www.onet.pl##a[class^="backToOnet__"]
 auto-swiat.pl,forbes.pl,komputerswiat.pl,newsweek.pl##.bottomBar
 autokult.pl,fotoblogia.pl##.btn-comments
@@ -6048,6 +6048,7 @@ mediaexpert.pl##.bottomrightbanner.snrs-modal
 mediaexpert.pl##.dynamic-social-proof
 mediasystem-tdi.pl##.right.ltr.a11y-toolbar
 medme.pl##.back-button
+medonet.pl#?#.artList li:-abp-has(a[href*="utm_campaign=back_to_onet_bullet"])
 medseven.eu###contactable_inner
 medseven.eu,sklep.rowmot.eu##.kac-sm-gmap
 melbo.pl,sewel.pl###tws_i_2
