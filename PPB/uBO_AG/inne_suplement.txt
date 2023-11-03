@@ -83,6 +83,7 @@ m.box.com##.mobile-app-banner
 m.pl.aliexpress.com##body.smartbanner-placeholder[style]:style(padding-top: 0 !important)
 mateuszgrzesiak.com,mg-pmm.com,posnania.eu##body:style(overflow-y: visible !important)
 meblohurt.eu##body:style(padding-top: 0 !important)
+medonet.pl##footer + div:not([class]):not([id]):not([style]):remove()
 megasat.tv##.country-selector:style(position: absolute !important)
 menshealth.pl##.mh-community-floating:style(position: static !important)
 meskiegacie.pl###counter_holder_bottom.counter_container:style(position: static !important)
@@ -101,7 +102,6 @@ oferty.dsautomobiles.pl,oferty.peugeot.pl##.row > .formularz:style(position: sta
 onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important)
 onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"]
 onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !important)
-medonet.pl##footer + div:not([class]):not([id]):not([style]):remove()
 oohmagazine.pl##.cart-tab:has(> *:matches-css(display: none))
 pecetowicz.pl###elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)
 pecetowicz.pl##body:has(#elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)) .ipsNotificationGuest:has-text(1)
