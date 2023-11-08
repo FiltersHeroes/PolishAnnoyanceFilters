@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Thu, 05 Oct 2023, 23:05 UTC+02:00
-! Version: 2023.10.5.0
+! Last modified: Wed, 08 Nov 2023, 16:30 UTC+01:00
+! Version: 2023.11.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 05 paź 2023, 23:05 UTC+02:00
+! Aktualizacja: śro, 08 lis 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -72,7 +72,8 @@ ceneo.pl###notifications-toast
 chillizet.pl,radiozet.pl,~www.radiozet.pl##.btn-notif
 codziennypoznan.pl,ipolska24.pl##.perfecty-push-dialog-box
 ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:-abp-has(span:-abp-contains(/^Powiadomienia$/))
-eurosport.tvn24.pl###batchsdk-ui-banner
+eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-alert-container
+eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-banner
 folk24.pl###pushFooter
 gazetkonosz.pl##.floating-dialog
 homebook.pl###qgraphFakePromptContainer
@@ -105,7 +106,6 @@ tunelefoliowe.eu##.wce_has-label.wce_popup-consolidator-trigger
 tvn24.pl##.__ipPerunElement[style*="position"]
 tygodniowa.pl##iframe[style*="fixed"]:not([src])
 um.gorzow.pl,wielen.pl,wronki.pl###js__webpushBell
-wamiz.pl###batchsdk-ui-alert-container
 wazcar.pl###push-notification-button
 wnp.pl##amp-web-push-widget
 zapytaj.onet.pl##.push-notification-box
