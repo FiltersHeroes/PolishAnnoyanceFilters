@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 29 Oct 2023, 00:00 UTC+02:00
-! Version: 2023.10.29.0
+! Last modified: Wed, 08 Nov 2023, 16:30 UTC+01:00
+! Version: 2023.11.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 29 paź 2023, 00:00 UTC+02:00
+! Aktualizacja: śro, 08 lis 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -328,6 +328,7 @@ carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(4)
 carrefour.pl##.push-newsletter
 carry.pl,tani-laptop.com###block_newsletter
 cashless.pl###footer footer > div > div:nth-child(5)
+cashless.pl#?#header ~ div.container > div:-abp-has(> h2 ~ div.text-newsletter)
 castorama.pl###newsletterLabel
 castorama.pl##.newsletter-fold
 cba.pl##.links > div > div:nth-of-type(4)
@@ -647,6 +648,7 @@ foto.auchan.pl##.cw_newsletter, .sidebar-link[href="http://www.foto.auchan.pl/ne
 fotografwdrodze.pl##.sidebar > div.widget_text.widget:nth-of-type(4)
 fotokoszyk.pl##.follow_news:nth-of-type(4)
 fotopanorama.pl##.newsletter-group, #social > a[href="/newsletter/add"]
+franczyzainfo.pl##footer > .container > div:first-child > .footer-box > .footer-form
 frenchtouchlabellevie.pl##.newsletter-mail
 fresh-market.pl###kolp > .ramka.box_p
 fresh-market.pl###kolp > h4
