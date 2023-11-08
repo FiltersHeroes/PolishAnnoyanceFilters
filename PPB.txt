@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 05 Nov 2023, 00:24 UTC+01:00
-! Version: 2023.11.5.0
+! Last modified: Wed, 08 Nov 2023, 01:31 UTC+01:00
+! Version: 2023.11.8.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 05 lis 2023, 00:24 UTC+01:00
+! Aktualizacja: śro, 08 lis 2023, 01:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -329,6 +329,7 @@ carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(4)
 carrefour.pl##.push-newsletter
 carry.pl,tani-laptop.com###block_newsletter
 cashless.pl###footer footer > div > div:nth-child(5)
+cashless.pl#?#header ~ div.container > div:-abp-has(> h2 ~ div.text-newsletter)
 castorama.pl###newsletterLabel
 castorama.pl##.newsletter-fold
 cba.pl##.links > div > div:nth-of-type(4)
@@ -648,6 +649,7 @@ foto.auchan.pl##.cw_newsletter, .sidebar-link[href="http://www.foto.auchan.pl/ne
 fotografwdrodze.pl##.sidebar > div.widget_text.widget:nth-of-type(4)
 fotokoszyk.pl##.follow_news:nth-of-type(4)
 fotopanorama.pl##.newsletter-group, #social > a[href="/newsletter/add"]
+franczyzainfo.pl##footer > .container > div:first-child > .footer-box > .footer-form
 frenchtouchlabellevie.pl##.newsletter-mail
 fresh-market.pl###kolp > .ramka.box_p
 fresh-market.pl###kolp > h4
@@ -3201,7 +3203,8 @@ ceneo.pl###notifications-toast
 chillizet.pl,radiozet.pl,~www.radiozet.pl##.btn-notif
 codziennypoznan.pl,ipolska24.pl##.perfecty-push-dialog-box
 ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:-abp-has(span:-abp-contains(/^Powiadomienia$/))
-eurosport.tvn24.pl###batchsdk-ui-banner
+eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-alert-container
+eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-banner
 folk24.pl###pushFooter
 gazetkonosz.pl##.floating-dialog
 homebook.pl###qgraphFakePromptContainer
@@ -3234,7 +3237,6 @@ tunelefoliowe.eu##.wce_has-label.wce_popup-consolidator-trigger
 tvn24.pl##.__ipPerunElement[style*="position"]
 tygodniowa.pl##iframe[style*="fixed"]:not([src])
 um.gorzow.pl,wielen.pl,wronki.pl###js__webpushBell
-wamiz.pl###batchsdk-ui-alert-container
 wazcar.pl###push-notification-button
 wnp.pl##amp-web-push-widget
 zapytaj.onet.pl##.push-notification-box
@@ -3911,6 +3913,7 @@ lfspareparts724.pl##.up.move, .down.move
 lgensol.pl##.footer-up
 liderlamp.pl,podatki.gov.pl###scrollDown
 lidl.pl##.n-footer__button__scroll__top
+lidl.pl##.n-navigation__button__scroll__top
 lightonline.pl##.returnTop
 lilio.pl,lumex.pl,www.biedronka.pl##.arrow-top
 limango.pl###footer-container ~ div[class*="shop"][style]
