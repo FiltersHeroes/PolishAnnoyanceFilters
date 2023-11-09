@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 08 Nov 2023, 16:30 UTC+01:00
-! Version: 2023.11.8.0
+! Last modified: Thu, 09 Nov 2023, 16:30 UTC+01:00
+! Version: 2023.11.9.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 08 lis 2023, 16:30 UTC+01:00
+! Aktualizacja: czw, 09 lis 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -101,8 +101,9 @@ agnieszkawielobob.pl##.et_bloom_below_post
 agriaffaires.pl###js-newsletterBlock
 agrieko.pl##.footer_NewsletterBox
 agrodoradca24.pl##.newsletter-online
+agromat.pl##.column-double.content > .flex
 agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
-agrosimex.pl##.footer-links .tablet-column:last-child
+agroprofil.pl##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_185.vc_column
 agrosimex.pl##.p0.tablet-column.col-sm-4.col-xs-12
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
 ahe.lodz.pl###company-newsletter-column
@@ -362,6 +363,7 @@ choinkowo.pl##.shb-newsletter-widget-5
 cholewinski.com##.cho-subscribe
 ciekawostkihistoryczne.pl##.footer-fixed
 citroen.pl##.column_50.columns:first-of-type
+cityboard.pl,euh-e.edu.pl###sp-bottom3
 ckmuza.eu###wysija-3
 ckr.pl##.sliding-newsletter
 ckzamek.pl##.footer__newsletter-btn
@@ -467,7 +469,7 @@ domar.pl##.footer-newsletter__section
 domena.pl##.section-newsletter-front div[class*="green"]
 dominospizza.pl##.m-Newsletter__formContainer
 domisad.pl###wrap-newsletter
-domix-agro.pl,maleomi.pl,manufakturastylu.pl,omasz.pl,zygzaksnow.pl###blocknewsletter
+domix-agro.pl,emulus.pl,maleomi.pl,manufakturastylu.pl,omasz.pl,zygzaksnow.pl###blocknewsletter
 domjozefa.tv##.widget_wysija.footer-widget.widget.col-sm-3.col-md-3
 domnowoczesny.com##.sticked-newsletter
 domodi.pl##.dm-box--newsletter, .dm-footer-newsletter
@@ -533,6 +535,7 @@ edulider.pl###block-mailchimp-signup-mailchimp
 edunews.pl##.moduleacy-email
 edutorial.pl###sendpress-widget-6
 edziecko.pl,ladnydom.pl,myfitness.pl,ugotuj.to,wyborcza.biz##.nlt
+eelsner24.eu,kupzegarek.com,sklep.platinet.pl,sorbenty.pl##.footer_nls
 efashionstudio.pl##footer > .top > .container
 egarden.pl##.newsletter-foot
 egospodarka.pl##.ego-ico3, .ego-newsletter
@@ -541,8 +544,6 @@ ekomercyjnie.pl##.clearfix.main-menu > li:first-of-type, .home-newsletter, .blog
 ekopaka.pl,naszogrodniczy.pl,sklep-agroland.pl,zakreconysloik.com.pl##.wce_footerinfo > .wce.overlay > li > ul > li:nth-of-type(5)
 eksiazki.az.pl##.subscribe > p, .subscribe > h2, .feedburner
 ekskluzywnymenel.com##.marlene-widget-newsletter
-eksperymentalnie.com##a[href="https://www.eksperymentalnie.com/zapisz-sie-do-newslettera/"], .form.ck-column
-eksperymentalnie.com##iframe[src*="app.getresponse.com"][src*="eksperymentalnie"]
 eksperymentalnie.com,pozdrozkrld.com##.widget_mailchimpsf_widget
 eksperymentalnie.com,totalnareklama.pl##.widget_getresponse-widget.widget
 eldomagd.eu##.pro-footer-newsletter
@@ -591,7 +592,6 @@ etam.pl##.footer_nsw
 etsy.com##.not-signed-in.subscribe-form
 etuo.pl##.footer__col--join-newsletter, #section.sec--home.sec:nth-of-type(6)
 eu.dlink.com##.newsletter-sign-up__container.container
-euh-e.edu.pl###sp-bottom3
 eura7.com,pl.malwarebytes.com###newsletter-signup
 eura-tech.eu##.foo-newsletter
 euractiv.pl##.row > pnespwidget
@@ -892,7 +892,6 @@ kulturalnysklep.pl##.b-banner-newsletter
 kupbilecik.pl##.blinkGray.boxTopInfo
 kupiec.pl###vnlab-footer-before
 kuponrabatowy.net###social .mleft > h4, #social .email
-kupzegarek.com,sklep.platinet.pl,sorbenty.pl##.footer_nls
 kurasinski.com##.newsletter-link
 kurencja.com##.page-newsletter
 kurierhistoryczny.pl##div.newsletter__col:nth-of-type(6)
@@ -1660,6 +1659,7 @@ tokfm.pl##.container > ul > li:nth-of-type(3)
 tomi.pl##.ty-footer-menu .ty-mainbox-container
 tooway.pl##.contact3
 topagrar.pl##.sidebar__box--newletter
+toys4boys.pl##.footer-container getresponse-form
 tp-link.com##.tp-follow-subscribe
 tpi.com.pl##.cmn-newsletter
 traktor.com.pl##.footer-top4.col-md-3.col-sm-6.col-12
