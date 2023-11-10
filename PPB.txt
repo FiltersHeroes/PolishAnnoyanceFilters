@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 10 Nov 2023, 13:31 UTC+01:00
-! Version: 2023.11.10.0
+! Last modified: Fri, 10 Nov 2023, 16:30 UTC+01:00
+! Version: 2023.11.10.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 10 lis 2023, 13:31 UTC+01:00
+! Aktualizacja: pią, 10 lis 2023, 16:30 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4563,7 +4563,7 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ~pl##.x13socialfixed_links a[href*="/wa.me/"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
 3giga.pl###contact-slider
-3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,zhr.pl##.cresta-facebook-messenger-box
+3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,siecobywatelska.pl,zhr.pl##.cresta-facebook-messenger-box
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
 123drukuj.pl###fc_widget
@@ -4594,6 +4594,7 @@ alejabielany.pl##form > input.floatingWidget
 aleleki.pl##.social_contact
 aliexpress.com##.ui-fixed-panel-survey
 allegro.pl###chatPlugin
+allekurier.pl##.send-help-fixed-div
 allekurier.pl,brewa.pl,iautomatyka.pl###chatContentHolder
 almatur.pl###telefondiv
 alx.pl##.zadaj-szybkie-pytanie
@@ -5153,10 +5154,12 @@ sawataxi.pl###zamow
 sbys.pl##iframe[id^="comp"][id$="iframe"][aria-label="Wix Chat"]
 scandi-city.pl##.scroll > .widget > .phone
 sck.pl###popupTest
+scyzoryki.net###widget_shop1
 seat.pl##div[id^="wb_drag_wrapper"]
 selly.pl,x-lander.com###kayako-messenger
 semcamp.university###witbee-call-page-container
 semcore.pl###LeadboosterContainer, .proactiveChat
+semhub.pl##.no-text.arcu-message-button
 semmelrock.pl###float_mail, #float_phone
 sempai.pl##.sempai_contact_widget
 semtec.pl##.sticky-button, .sticky-button ~ .sticky-tooltip
