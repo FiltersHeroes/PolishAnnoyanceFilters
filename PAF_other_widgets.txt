@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 09 Nov 2023, 16:30 UTC+01:00
-! Version: 2023.11.9.0
+! Last modified: Sat, 11 Nov 2023, 16:30 UTC+01:00
+! Version: 2023.11.11.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 09 lis 2023, 16:30 UTC+01:00
+! Aktualizacja: sob, 11 lis 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -122,7 +122,7 @@ allegro.pl##div[data-analytics-groups*="allegro.bar.mobileAppBanner"][data-proto
 allegro.pl##div[data-box-name="allegro.login.form"] > div:nth-last-child(2) > div:not(:only-child) > div:last-child:nth-child(2)
 allegro.pl#?#.grid:-abp-has([data-box-name="Recommended Articles Container"])
 allegrolokalnie.pl###masthead.masthead[class*="app"][class*="mobile"] .topheader
-ampershop.pl###widget_shop2
+ampershop.pl,scyzoryki.net###widget_shop2
 ampolska.net,dbpolska.net,reefshop.pl,uni-tech.pl###panel
 amrest.eu##.tour-info
 amso.pl###returns_popup
@@ -154,7 +154,7 @@ architekturaibiznes.pl##.fixed-navigation-beetween.navigation-beetwen-articles
 archonhome.pl,pizzapelati.pl###musli
 arkady.info##.repository.side_widget
 arminar.pl,doniczki-poznan.pl,odpady.chorzow.eu,sare.pl###preloader
-arms.com.pl,chipkomputery.pl###basketslider
+arms.com.pl,chipkomputery.pl,mdron.pl###basketslider
 artelis.pl##.art-navstripe
 artlazienkowe.pl###widget_shop1 > div:nth-of-type(2)
 asport.pl##.hit-tygodnia
@@ -214,6 +214,7 @@ bissole.pl##.email.mini-contacts[href*="#bottom-bar"]
 bithub.pl##.st-comment
 bitland-b2c.platforma.ab.pl###rightBoxes
 biuronet.com###biuronetTsBadgeStatic.biuronet-ts-badge
+biuronet.com##.gift-banner-box
 biuroprasowe.play.pl##.floating-icon
 biurorekordow.pl##.post_navigation-item
 biurowe-zakupy.pl###BoczneZakladki
@@ -422,6 +423,7 @@ filmoterapia.pl###post_more_wrapper
 filmweb.pl##.loginEncourageTooltip
 filmweb.pl##.page.filmPage ~ .page, .page.newsPage ~ .page
 finanse.wp.pl,gry.wp.pl,gwiazdy.wp.pl,kobieta.wp.pl,moto.wp.pl,opinie.wp.pl,tech.wp.pl,turystyka.wp.pl,wiadomosci.wp.pl#?#div > div > div > div > div > div > div > div > div > div:-abp-has(aside:-abp-contains(następny artykuł))
+finochelm.pl###rssocial-custom-icon-2
 firmyinzynieria.com###sideButtons.load
 fitdiet.pl,poid.eu###ajax-loading-screen
 fixitpc.pl##i.f-fe:empty
@@ -511,6 +513,7 @@ hitobuwie.pl##.fixedBaners__container
 hollex.pl###SrodekKolumna > h2.StrNaglowek:first-of-type
 hollex.pl###Strona > .ModulRwdUkryj
 hollex.pl##div.StrTresc:nth-of-type(2)
+home-net.pl###utils
 home.biedronka.pl##.everyday-promo
 home.biedronka.pl##.floating-banner
 home.pl###bottom-box
@@ -542,6 +545,7 @@ infodent24.pl##referal-btn
 infor.pl###prenumerata2018
 inforfk.pl###reka-box-banner-mobile
 ing.pl###get_ingmobile_app_wrapper
+inochelm.pl###rssocial-custom-icon-1
 inpost.pl###app-banner
 insomnia.pl##.ptw-articles.ptw-widget
 inspro.org.pl##.donate
@@ -552,6 +556,7 @@ instalhurt.sklep.pl,moto125.pl,sklephormann.pl,tylkostylowe.pl###widget_shop3
 instalki.pl##.plista_widget_slide
 instytutleczeniabolu.pl###newsy1_pan, #newsy2_pan
 intel.pl##.right-rail-tab.support
+interhurt.eu##.module-inner1
 interia.pl,interia.tv,~poczta.interia.pl,top.pl##.topbar, .topbar-container
 interia.pl,~poczta.interia.pl,swiatkobiety.pl,top.pl##.articleObjectSeeAlso.box
 interia.pl,~poczta.interia.pl,top.pl###sticker
@@ -668,6 +673,8 @@ marketbio.pl##.qon-product-stats
 marketbio.pl#?##fixedBottom:-abp-has(#prodInfoContainer,.prices, .information)
 marketerplus.pl##.animateMe.magazynframe, .openmagazyn
 marketingdlaludzi.pl##.case-study-box
+marwiz.pl##div.mx_zakladki:nth-of-type(10)
+marwiz.pl##div.mx_zakladki:nth-of-type(11)
 materace-dla-ciebie.pl##.outlet-btn
 mateuszgrzesiak.com,mg-pmm.com##.fade, .loading-text
 matopat24.pl##.aks-about
@@ -722,6 +729,7 @@ mojataxi24.pl##h4#phone:nth-of-type(2) > .wiszacy
 mojeauto.pl##.pdr-contener.ui-helper-clearfix
 mojebambino.pl##.baner
 mojebambino.pl##.widget-fast-navigation-container
+mojedziecikreatywnie.pl,podkop.com###glt-translate-trigger
 money.pl##.float.more-news
 moneygrabbing.co.uk###older-nav
 moneygrabbing.co.uk##.related-wrap
@@ -794,7 +802,6 @@ oddslivesport.com###task
 odjazdowenaklejki.pl##.sm-panel > div[id^="side"]:nth-of-type(4)
 oees.pl###floating-button-en
 ofertapracy.monsterpolska.pl###AppliesFooterHolder, #iaactionfixed
-ogrodzenia24.eu##.SluchawkaDolnyPrawy
 oksport.pl##.best-of-week
 olagosciniak.pl,psychetee.pl###post-navigation > a > div[class]:not(id)
 old.reddit.com,pl.reddit.com,www.reddit.com##.premium-banner-outer
@@ -862,7 +869,6 @@ pocztazdrowia.pl###baner2
 pocztowy.pl##.bg-navyBlue
 podajdalej.info.pl##.sticky
 podatekvat.pl###SliderBox
-podkop.com###glt-translate-trigger
 podlaska.policja.gov.pl##div:nth-of-type(5)
 polityka.pl##.commentArt
 poloniawroclaw.pl##.sfl-widget--ribbon__fixed, .ys-sidebar-btn-2
@@ -1013,6 +1019,7 @@ suwalki24.pl###sideCard
 swiatbaterii.pl###growls
 swiatkwiatow.pl###cards-next-link
 swiatkwiatow.pl###cards-prev-link
+swiatnarzedzi.pl##.__service_rr
 swiatrolnika.info##.sonda .mod-sppoll
 swiatrolnika.info##.sonda > .akt
 sympatia.onet.pl###iconsBar
@@ -1065,6 +1072,7 @@ twitter.com#?##layers > div[class*=" "]:first-of-type:-abp-has(a[href="/i/flow/s
 tymbark.com,winiary.pl###kwit_brandwidget_btn
 tysol.pl###poll
 tysol.pl##.fiszka
+uap.edu.pl###DOFINANSOWANIA_LOGOS
 um.jaslo.pl###wp_access_helper_container
 uml.lodz.pl##.sticked-widgets__widget-trigger
 unia.pl###bottom7, #bottom8, #bottom9
