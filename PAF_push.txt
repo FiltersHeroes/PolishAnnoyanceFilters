@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Thu, 09 Nov 2023, 16:30 UTC+01:00
-! Version: 2023.11.9.0
+! Last modified: Tue, 14 Nov 2023, 16:30 UTC+01:00
+! Version: 2023.11.14.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 09 lis 2023, 16:30 UTC+01:00
+! Aktualizacja: wto, 14 lis 2023, 16:30 UTC+01:00
 !
 !
 !
@@ -72,6 +72,7 @@ ceneo.pl###notifications-toast
 chillizet.pl,radiozet.pl,~www.radiozet.pl##.btn-notif
 codziennypoznan.pl,ipolska24.pl##.perfecty-push-dialog-box
 ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:-abp-has(span:-abp-contains(/^Powiadomienia$/))
+dobredrzwi.pl###yl__prompt-container.yl__prompt-container
 eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-alert-container
 eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-banner
 folk24.pl###pushFooter
@@ -90,6 +91,7 @@ mvno-gsm.pl###webpushr-prompt-wrapper
 noizz.pl##.pushDefaultPopUp
 ogrodosfera.pl##.bell-container
 onet.pl##.notificationPrompt
+panwybierak.pl###yl__prompt.yl__prompt
 pilot.wp.pl##.notification-container
 pl,typeofweb.com###onesignal-popover-dialog
 pl.oriflame.com,prawo.vulcan.edu.pl###bhr-iframe-consent-form
