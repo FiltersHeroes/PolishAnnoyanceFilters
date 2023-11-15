@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 14 Nov 2023, 01:31 UTC+01:00
-! Version: 2023.11.14.0
+! Last modified: Wed, 15 Nov 2023, 13:31 UTC+01:00
+! Version: 2023.11.15.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 14 lis 2023, 01:31 UTC+01:00
+! Aktualizacja: śro, 15 lis 2023, 13:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4807,6 +4807,7 @@ eitca.pl###block-views-Opinie_EITCA-block_2
 ekantor.pl##.slideout-btn
 eko-life.pl###__ChatoBeeWidget__window
 eko-ue.pl##.fixed-right-menu
+ekookna.pl,gerdex.com.pl,polnord.pl,rivieraparkmarvipol.pl,solidnedrzwiokna.pl,wkret-met.com###fastcall
 ekorekta24.pl##.opineo-link
 ekorekta24.pl,multilampy.pl##.opineo
 electro.pl##.is-complaintReport
@@ -4872,7 +4873,6 @@ gdzietymrazem.pl##.td-icon-mail-1
 generali.pl,lancerto.com##.actionBotWindow
 generator.pl##.bottom.fixedPanel > a[href="/kontakt.html"]
 genway.pl##.leaveContactBtn
-gerdex.com.pl,polnord.pl,rivieraparkmarvipol.pl,solidnedrzwiokna.pl,wkret-met.com###fastcall
 geselle.pl###lz_overlay_wm
 getruck.eu,my-office.pl###zsiq_float.zsiq_float
 giacomo.pl###livechatincBack
@@ -4957,6 +4957,7 @@ korzystneit.pl,ombre.pl##div > .fab-wrapper
 koszulkiznadrukiem.biz##a[href*="widget.gg.pl"]
 krainawody.pl,pij-wode.pl,taxxo.pl##.novocall-button
 krakow.pl##.alert__item--red.alert__item
+krd.pl##.krd-fiche
 krir.pl##.mn-panel > .sms
 kserokopiarki-netcan.pl##.pwebbox_toggler
 ktomalek.pl###chatSpace
@@ -5171,7 +5172,8 @@ salon2kolka.pl##.msl-envelope-o
 salon-kosiarek.pl##.tm-sticker
 samochod.porowneo.pl##header ~ div[class*="sc-"] > button[class*="sc-"]
 sanbetdevelopment.pl###fastcontact
-santanderconsumer.pl##.chat-cc__header
+santanderconsumer.pl##.chat-cc__header]
+sat-system.uk###gg_ikona
 sawataxi.pl###zamow
 sbys.pl##iframe[id^="comp"][id$="iframe"][aria-label="Wix Chat"]
 scandi-city.pl##.scroll > .widget > .phone
@@ -5204,6 +5206,7 @@ sklep-agrohandel.pl##.contact_email
 sklep-muzyczny.com.pl###widget_shop9
 sklep-tvsat.com##.emi-contact-box
 sklep.acana.com.pl,szpot.pl##call-us
+sklep.nowaera.pl###ASEE_chat_chatbutton
 sklep.polsatbox.pl###__layout .hydrated
 sklep.siapre.pl###btn_telefon
 sklep.uchowanca.pl###tm-widget-lemur
