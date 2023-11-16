@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 15 Nov 2023, 23:19 UTC+01:00
-! Version: 2023.11.15.3
+! Last modified: Thu, 16 Nov 2023, 13:31 UTC+01:00
+! Version: 2023.11.16.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 15 lis 2023, 23:19 UTC+01:00
+! Aktualizacja: czw, 16 lis 2023, 13:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5950,6 +5950,7 @@ instalhurt.sklep.pl,moto125.pl,sklephormann.pl,tylkostylowe.pl###widget_shop3
 instalki.pl##.plista_widget_slide
 instytutleczeniabolu.pl###newsy1_pan, #newsy2_pan
 intel.pl##.right-rail-tab.support
+inteligentnydom.co##.header__promobar
 interhurt.eu##.module-inner1
 interia.pl,interia.tv,~poczta.interia.pl,top.pl##.topbar, .topbar-container
 interia.pl,~poczta.interia.pl,swiatkobiety.pl,top.pl##.articleObjectSeeAlso.box
@@ -5972,6 +5973,7 @@ kalendarzrolnikow.pl##.carousel_wrap
 karointhekitchen.com##.next, .prev
 kastu.pl##.anketa-button-mobile
 kaufland.pl##.o-info-overlay
+kawa.pl###shopify-section-announcement
 kawaly.tja.pl###div_wysuwany_pomoc
 kawro.pl###title
 ketodietetyk.pl##img[src*="/banner_ebook.png"]
@@ -6029,6 +6031,7 @@ lamaglama.pl##.c-side-buttons__tab
 latarki.pl##.floatingdeal
 laziska.com.pl,m-ce.pl,mojbytom.pl,mojchorzow.pl,mojegliwice.pl,mojekatowice.pl,mojetychy.pl,mojmikolow.pl,orzesze.com.pl,piekaryslaskie.com.pl,pyskowice.com.pl,rudaslaska.com.pl,rybnicki.com,siemianowice.net.pl,sosnowiecki.pl,swiony.pl,wodzislaw.com.pl,zabrze.com.pl,zory.com.pl###next_prev_news
 lebork24.info###bottom-banner, #news_feed_container
+lebork24.info##.cp-slidein
 legalnakultura.pl###konkursy-plugin-button
 legalniewsieci.pl##.more-news-bar
 lejtmotyw.info###related-wrap, .ib-nav
@@ -6061,6 +6064,7 @@ mall.pl##.flt-bnr
 mamabezrecepty.pl##footer > .tips
 marax.eu###pierwsza_ikona, .vertical-button
 marbo-sport.pl###menu_basket_widget
+marenaspa.pl##.clean-air, #desktop-bottom-bar-pfr
 marenaspa.pl##.training, .reservation, .neighbourhood
 marketbio.pl##.qon-product-stats
 marketbio.pl#?##fixedBottom:-abp-has(#prodInfoContainer,.prices, .information)
@@ -6266,6 +6270,7 @@ polityka.pl##.commentArt
 poloniawroclaw.pl##.sfl-widget--ribbon__fixed, .ys-sidebar-btn-2
 polskicaravaning.pl###\35 3419
 polstor.pl##.tax-free-shopping
+pomocedlaseniora.pl##.justreview-badge
 poradnikhandlowca.com.pl##.region-page-bottom > #slidead-popup
 poradyodo.pl##.baner-stopka
 poranny.pl##a[href*="&utm_campaign=prenumerata-swiateczna"]
@@ -6297,6 +6302,7 @@ pytanienasniadanie.tvp.pl##.stream-button
 pzw.org.pl###body_google_play
 radiobonton.pl##.hidden-xs.offbox-position-right.radio-play.offbox-radio
 radiopogoda.pl##.gra-pobierz_aplikacje
+radiosochaczew.pl##.ready.is-fixed
 radiozet.pl##.react.poll.embed
 radiozet.pl##div[class*="_article_"] p ~ div[class*="poll"]
 radomsko.pl###media > ul > li > .tooltipMedia
@@ -6312,6 +6318,7 @@ refunder.pl#?#.fixed:-abp-has(> div[data-id="sticky-register"])
 relaxinspa.pl##.buttonizer-button, .xoo-wsc-basket
 remote-control-world.eu###paymentTab, #wifiTab
 retailnet.pl##.elementor-popup-modal.dialog-widget
+rettpol.pl##.Sh-koszyk
 rg-narzedzia.com.pl###allegroiko
 rgbautomatyka.pl###repair-box
 robobat.pl###ReferenceBox
@@ -6343,6 +6350,7 @@ serialomaniak.pl##.join-us
 servecom.pl###sliders_right
 serwiswloclawek.pl##.et-visible.et_pb_side_nav
 sfd.pl##.search-cloud
+sferis.pl###TopBarScroll
 shareinfo.pl###install-button
 shipgratis.eu###soutez-wrapper
 shop-dent.pl##button.needsclick[style*="z-index"]
@@ -6353,6 +6361,7 @@ silesion.pl##.art-tripwire-big
 siligan.pl##.widget_cartbox, .widget_left_wrapper
 skarbyroztocza.com##.resetcss.box
 skladaniekomputera.pl###dgd_scrollbox-10511
+skladnicaksiegarska.pl##.hotinfo_top, #countdown
 sklep-rolnicze.eu###oiTab
 sklep-wedkarski.info###ClPanelImg
 sklep.aladyn.pl,sklep.mariall.pl###trzecia
@@ -6543,6 +6552,7 @@ zapytaj.onet.pl##.onet-redirect-banner
 zapytaj.onet.pl##body > div > .bottom.onet-bar
 zatorland.pl##.pogoda
 zdrowie.gazeta.pl###bottom_wrap
+zdrowyportal.org##.floatBottom
 zeberka.pl###gallery-widget
 zenox.pl##.toast-container.toast-bottom-right
 zimowynarodowy.pl##.ticket
