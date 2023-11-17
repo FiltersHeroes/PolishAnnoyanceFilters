@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 17 Nov 2023, 16:30 UTC+01:00
-! Version: 2023.11.17.0
+! Last modified: Fri, 17 Nov 2023, 23:51 UTC+01:00
+! Version: 2023.11.17.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 17 lis 2023, 16:30 UTC+01:00
+! Aktualizacja: pią, 17 lis 2023, 23:51 UTC+01:00
 !
 !
 !
@@ -173,7 +173,7 @@ auto-swiat.pl,businessinsider.com.pl,cdn.ampproject.org,fakt.pl,komputerswiat.pl
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,nk.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl##.backToOnet
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl###backToOnet
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl###content-share-top > .BackToMainPage, .backToOnetBottomBar
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#:is(atricle, [class*="art" i]. [id*="art" i]) ul li:last-child:-abp-has(a[href$="onet.pl/"], a[href$="onet.pl"], a[href*="src=back_to_sg_bullet"])
+auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#:is(atricle, [class*="art" i], [id*="art" i]) ul li:last-child:-abp-has(a[href$="onet.pl/"], a[href$="onet.pl"], a[href*="src=back_to_sg_bullet"])
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl#?#[class*="Body"] li:-abp-has(a[href*="utm_campaign=back_to_onet_bullet"])
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,noizz.pl,ofeminin.pl,onet.pl,plejada.pl,~www.onet.pl##a[class^="backToOnet__"]
 auto-swiat.pl,forbes.pl,komputerswiat.pl,newsweek.pl##.bottomBar
