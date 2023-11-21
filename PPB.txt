@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Mon, 20 Nov 2023, 13:31 UTC+01:00
-! Version: 2023.11.20.0
+! Last modified: Tue, 21 Nov 2023, 23:40 UTC+01:00
+! Version: 2023.11.21.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 20 lis 2023, 13:31 UTC+01:00
+! Aktualizacja: wto, 21 lis 2023, 23:40 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1921,6 +1921,7 @@ zyxel.com###block-newsletter-footer
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
 ~mediaexpert.pl,pl##.form-newsletter
 ~pap.pl,pl,~poradnikprzedsiebiorcy.pl###newsletter-form
+~pip.gov.pl,pl##.newsletter-content
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal):lang(pl)
@@ -2000,7 +2001,6 @@ pl##.newsletter-btn
 pl##.newsletter-button
 pl##.newsletter-col
 pl##.newsletter-component
-pl##.newsletter-content
 pl##.newsletter-footer
 pl##.newsletter-inner
 pl##.newsletter-link
