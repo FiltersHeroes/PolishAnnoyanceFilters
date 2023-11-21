@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 17 Nov 2023, 23:51 UTC+01:00
-! Version: 2023.11.17.1
+! Last modified: Tue, 21 Nov 2023, 23:40 UTC+01:00
+! Version: 2023.11.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 17 lis 2023, 23:51 UTC+01:00
+! Aktualizacja: wto, 21 lis 2023, 23:40 UTC+01:00
 !
 !
 !
@@ -1920,6 +1920,7 @@ zyxel.com###block-newsletter-footer
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
 ~mediaexpert.pl,pl##.form-newsletter
 ~pap.pl,pl,~poradnikprzedsiebiorcy.pl###newsletter-form
+~pip.gov.pl,pl##.newsletter-content
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal):lang(pl)
@@ -1999,7 +2000,6 @@ pl##.newsletter-btn
 pl##.newsletter-button
 pl##.newsletter-col
 pl##.newsletter-component
-pl##.newsletter-content
 pl##.newsletter-footer
 pl##.newsletter-inner
 pl##.newsletter-link
