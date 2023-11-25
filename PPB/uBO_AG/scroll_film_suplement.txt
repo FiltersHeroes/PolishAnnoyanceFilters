@@ -20,6 +20,9 @@ meczyki.pl##.vi-stories-social-share-button
 medianarodowe.com,parkiet.com,rp.pl##.component-tv__video:style(position: static !important)
 medianarodowe.com,parkiet.com,rp.pl##.linear-tv__iframe:style(position: static !important)
 onet.pl,~poczta.onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important)
+wydarzenia.interia.pl,sport.interia.pl##.vjs-fixedmonitor-wrapper-fixed:not(.vjs-fixedmonitor-fixed-slide-down):has(+ .vjs-fixedmonitor-placeholder.visible)
+wydarzenia.interia.pl,sport.interia.pl#@#div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important)
+wydarzenia.interia.pl,sport.interia.pl#@#div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 sportowefakty.wp.pl###randomplayer[class*="fixed"], #randomplayer[class*="fixed"] *:style(visibility: hidden !important)
 store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important)
 topagrar.pl##+js(aeld, scroll, [native code])
