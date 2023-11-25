@@ -110,6 +110,7 @@ onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !
 oohmagazine.pl##.cart-tab:has(> *:matches-css(display: none))
 pecetowicz.pl###elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)
 pecetowicz.pl##body:has(#elFullNotifications_menu:has-text(Nie czekaj, zaloguj się już teraz)) .ipsNotificationGuest:has-text(1)
+pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="https://"], [title])
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"] h1:style(margin-top: 45px !important)
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"]:style(height: 225px !important)
 pl##.CodeMirror-search-label ~ input.CodeMirror-search-field[style]:style(width: 60% !important)
