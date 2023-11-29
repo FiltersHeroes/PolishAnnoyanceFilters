@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Tue, 28 Nov 2023, 23:59 UTC+01:00
-! Version: 2023.11.28.0
+! Last modified: Wed, 29 Nov 2023, 23:50 UTC+01:00
+! Version: 2023.11.29.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 28 lis 2023, 23:59 UTC+01:00
+! Aktualizacja: śro, 29 lis 2023, 23:50 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2297,6 +2297,8 @@ beslow.pl##.ulp-window[data-title*="Newsletter"], .ulp-overlay
 bestape.pl,instamarketing.pl##.popup, .popup-overlay
 bestcentrum.pl##.modal-popup
 bezgluten.pl,creativehobby.pl##.iziToast-wrapper, .iziToast-overlay
+bezpiecznedane.gov.pl##.cookie-popup-modal
+bezpiecznedane.gov.pl,lomilowka.pl,pkwieruszow.pl##.modal-backdrop
 bialykruk.pl,swiato-podglad.pl###popup-background
 bielskakraina.pl,delikatesy.pl,godealla.pl,kruksdifferent.com,mpolska24.pl,selectshop.pl,wakacjezprocentem.pl##.overlay
 bigchina.pl,pkwieruszow.pl,rzeszow4u.pl,solidsecurity.pl,sportgdansk.pl###myModal
@@ -2651,7 +2653,6 @@ listymikolaja.pl###newsletter_layer
 loanme.pl##.exit-popup-block
 lodzkietargi.pl,slaskietargi.pl,targipolnocne.pl###popup_mlm
 lomilowka.pl###modalRazemRazniej
-lomilowka.pl,pkwieruszow.pl##.modal-backdrop
 longterm.pl###list-builder
 longterm.pl###popup-box
 lookfantastic.pl,myprotein.pl##.emailReengagement
