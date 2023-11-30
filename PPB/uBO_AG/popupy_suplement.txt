@@ -200,6 +200,7 @@ insert.com.pl##+js(aeld, DOMMouseScroll, preventDefault)
 instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
+isostore.eu###topLayerBackDrop, #toplayer_newsletter
 jogapiekna.com###odbierz-prezent-modal, .modal-backdrop
 jooble.org###popup
 jooble.org##body.no_scroll:style(overflow: visible !important; height: 100% !important; width: 100% !important)
