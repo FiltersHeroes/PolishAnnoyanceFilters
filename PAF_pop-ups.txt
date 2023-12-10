@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 06 Dec 2023, 22:50 UTC+01:00
-! Version: 2023.12.6.1
+! Last modified: Sun, 10 Dec 2023, 01:31 UTC+01:00
+! Version: 2023.12.10.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 06 gru 2023, 22:50 UTC+01:00
+! Aktualizacja: nie, 10 gru 2023, 01:31 UTC+01:00
 !
 !
 !
@@ -751,6 +751,8 @@ optiland.pl##.mod_popup, .bg_shadow
 orange.pl###advertslice
 orange.pl###yourcx_layer, #yourcx_bg
 osada-sniezka.pl###popModal, .modal-backdrop
+ostra-na-slodko.pl##.ArevicoModal-bg
+ostra-na-slodko.pl#?#.ArevicoModal:-abp-has(.fb-page, .fb_iframe_widget)
 oszustwo.net##div[id^="ulp-"]
 otianna.pl,vous.pl##.wpmchimpa-overlay-bg
 otmuchow.pl,poradnikogrodniczy.pl##script ~ #cboxOverlay
