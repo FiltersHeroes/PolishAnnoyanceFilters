@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 17 Dec 2023, 20:30 UTC+01:00
-! Version: 2023.12.17.0
+! Last modified: Sun, 17 Dec 2023, 21:13 UTC+01:00
+! Version: 2023.12.17.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 17 gru 2023, 20:30 UTC+01:00
+! Aktualizacja: nie, 17 gru 2023, 21:13 UTC+01:00
 !
 !
 !
@@ -168,7 +168,7 @@ apetete.pl##.footer__block__payment.footer__block > .footer_container
 apollo.pl##.newsletter-block-container
 apptoyou.pl##.row.flex.bubble-r-container.CustomElement.bubble-element > .row.flex.bubble-r-container.Group.bubble-element > div.column.flex.bubble-r-container.Group.bubble-element:nth-of-type(2) > .column.flex.bubble-r-container.Group.bubble-element
 apshop24.eu,paperlovers.pl###newsletter-bar
-apte.pl,blizejciebie.pl,blog.kurasinski.com,dlabiura24.pl,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,sklep.dalimex.pl,znak.com.pl##.newsletter
+apte.pl,blizejciebie.pl,blog.kurasinski.com,dlabiura24.pl,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,sklep.dalimex.pl,vidaxl.pl,znak.com.pl##.newsletter
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href$="/Newsletter_akcept/"]
 aptekaolmed.pl##.py-md-5.py-3.row > .col-lg-8.col-12
 apteline.pl##.footer__connect-newsletter
@@ -1178,6 +1178,7 @@ ogloszenia.trojmiasto.pl##.let-me-know
 okazik.pl##.container:first-of-type > .row-wrap.row > .col-md-3:nth-of-type(2)
 okazje.info.pl###newsletterTab
 okazjum.pl##.newsletter-modal__reveal-button
+okna-pasywne.pl##div:not([class]):not([id]) > div[class*="NewsletterArticle"]:not([class*="content"])
 oknadrzwi.net##.widget_buildplus_core_newsletter
 oknonet.pl##div.lbox:nth-of-type(8)
 olsztyn24.com##.katalog_newsletter_content
