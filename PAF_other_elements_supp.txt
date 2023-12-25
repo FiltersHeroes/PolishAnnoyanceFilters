@@ -116,6 +116,8 @@ photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-im
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"]:style(height: 225px !important)
 pl##.CodeMirror-search-label ~ input.CodeMirror-search-field[style]:style(width: 60% !important)
 pl##.cTopicPostArea .cGuestTeaser:upward(.cTopicPostArea)
+pl##.smartbanner
+pl##html[data-smartbanner-original-margin-top^="0"][style]:style(margin-top: 0 !important)
 pl.everli.com###smartbanner
 pl.everli.com##.with-smartbanner .external-header:style(top: 0 !important)
 pl.everli.com##.with-smartbanner .top-band:style(margin-top: 0 !important)
