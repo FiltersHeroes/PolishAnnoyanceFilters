@@ -1,3 +1,6 @@
+pl##.smartbanner
+pl##html[data-smartbanner-original-margin-top^="0"][style]:style(margin-top: 0 !important)
+pl##.smartbanner
 !www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row > #contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important)
 !www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important)
 *##.buttonHomepage:remove()
