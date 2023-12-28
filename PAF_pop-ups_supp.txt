@@ -257,6 +257,8 @@ lancerto.com##.modals-wrapper:has(.popup-newsletter)
 leftlane.pl###timed-pup:has(.zeen-widget)
 leftlane.pl###tipi-overlay
 leftlane.pl##.modal-active:style(overflow: auto !important)
+lento.pl##+js(rnt, script, showNotify())
+lento.pl##+js(set-cookie, notifybox, 1)
 lewmik.pl##.modal-open[class]:style(padding-right: 0 !important; margin-right: 0 !important)
 limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
 logitechg.com##.email-subscription-modal
@@ -341,6 +343,9 @@ panel.kei.pl##.popup-modal:has(a[href*="/polls/ankieta"])
 panwybierak.pl##.iziModal-isOverflow:style(position: static !important; overflow: auto !important)
 panwybierak.pl##.modal--remind.iziModal, .iziModal-overlay
 panwybierak.pl##.modal-unload, .modal-backdrop
+panwybierak.pl,readspeaker.com,sfd.pl##html.show--consent[class], html.show--consent[class] body:style(overflow-y: auto !important)
+panwybierak.pl,readspeaker.com,sfd.pl#@#html.show--consent[class], html.show--consent[class] body:style(overflow: auto !important)
+panwybierak.pl,readspeaker.com,sfd.pl#@#html.show--consent[class], html.show--consent[class] body:style(overflow: visible !important)
 pasmanteria.eu##.swal2-modal, .swal2-container
 payukraine.com##.gl-blur:style(filter: none !important)
 payukraine.com##.pc_withoutCommissionBanner
@@ -593,37 +598,37 @@ zoo.bydgoszcz.com##^#NewsShow
 !#endif
 !#if !ext_ublock
 !@ >>>>>>>> popupy_AG + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
-!ekliniki.pl$$#popup-message
+!ekliniki.pl$$[id="popup-message"]
 4kdownload.com##.remodal-overlay
 4kdownload.com##.remodal-wrapper:has(> .thanks-modal)
 4kdownload.com##body[style]:style(padding-right: 0 !important)
 4kdownload.com##html.remodal-is-locked:style(overflow: auto !important)
-4kdownload.com$$.thanks-modal
-alemeksyk.eu$$.pwebbox-plugin-facebook_page_plugin
-apynews.pl$$#fb-modal
-arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl$$#newsletter_colorbox
+4kdownload.com$$[class="thanks-modal"]
+alemeksyk.eu$$[class="pwebbox-plugin-facebook_page_plugin"]
+apynews.pl$$[id="fb-modal"]
+arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl$$[id="newsletter_colorbox"]
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl#$#html { overflow: auto !important; margin-right: 0 !important; }
 bartek.com.pl$$script[tag-content="popupNewsletter"]
 biznes-host.pl###myModalPromo, .modal-backdrop
 biznes-host.pl#$#.modal-open { overflow: auto !important; }
-biznes-host.pl$$#myModalPromo
+biznes-host.pl$$[id="myModalPromo"]
 biznesinfo.pl,domekiogrodek.pl,goniec.pl,pacjenci.pl,rolnikinfo.pl,swiatgwiazd.pl,swiatsportu.pl,swiatzwierzat.pl,techgame.pl,turysci.pl,wawainfo.pl,wtv.pl,zdrogi.pl#%#//scriptlet('set-local-storage-item', '__iberion__publisherPromptSeen', '3')
-comperia.pl$$#modal_woman
-cyberfolks.pl$$#myModalDomenowy
-diamante-wear.com$$.newsletter__popup
-drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
-e-spar.com.pl$$#modal-welcome
-homebook.pl$$script[id^="tpl-newsletter-popup"]
+comperia.pl$$[id="modal_woman"]
+cyberfolks.pl$$[id="myModalDomenowy"]
+diamante-wear.com$$[class="newsletter__popup"]
+drzwi-cal.pl$$[class="pum-theme-promocja-urodzinowa.popmake-overlay"]
+e-spar.com.pl$$[id="modal-welcome"]
+homebook.pl$$script[id="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
 it.tarnow.pl$$script[tag-content="livingModal"]
 lento.pl$$script[tag-content="showNotify()"]
-lookcam.com$$#lookcam-fb-modal
-makarun.pl$$.makarun-modal
-mediasam.pl$$#myWorning
-mprofi.pl$$.tve-leads-lightbox
-muscat.pl$$#discountPopup
-ogrodosfera.pl$$#NewsletterExit
+lookcam.com$$[id="lookcam-fb-modal"]
+makarun.pl$$[class="makarun-modal"]
+mediasam.pl$$[id="myWorning"]
+mprofi.pl$$[class="tve-leads-lightbox"]
+muscat.pl$$[id="discountPopup"]
+ogrodosfera.pl$$[id="NewsletterExit"]
 sferis.pl#$#html.fancybox-lock > body { overflow: auto !important; }
 sferis.pl#$#html.fancybox-lock { overflow: auto !important; margin-right: 0 !important; }
 sferis.pl#?#.fancybox-overlay:has(#newsletter-popup)
@@ -631,12 +636,12 @@ shoplet.pl##html.fancybox-lock > body:style(overflow: auto !important)
 shoplet.pl##html.fancybox-lock:style(overflow: auto !important)
 shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important)
 shoplet.pl#?#.fancybox-overlay:has(#x13callback)
-sportowefakty.wp.pl$$#exitpopup
-zoo.bydgoszcz.com$$#NewsShow
+sportowefakty.wp.pl$$[id="exitpopup"]
+zoo.bydgoszcz.com$$[id="NewsShow"]
 !@ <<<<<<<< popupy_AG + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
 !#endif
 !#if ext_ublock
-lento.pl##+js(ra, style, .box-modal-notify, #lightoverlay)
+!lento.pl##+js(ra, style, .box-modal-notify\, #lightoverlay)
 pl###topLayerBackDrop:empty
 pl##div[id^="tws_i_"] :is(#toplayer_newsletter_popup, #toplayer_newsletter, #toplayer_newsletter_form, div[id^="tln"][id$="_wrap"]):upward(div[id^="tws_i_"])
 www.auchan.pl##.v-dialog__content:has(> div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
@@ -646,9 +651,7 @@ www.auchan.pl##.v-overlay:has(~ .v-dialog__content > div.v-dialog > div:not([id]
 !
 !#endif
 !#if env_legacy
-lento.pl##footer ~ script:contains(showNotify())
-softonic.pl###modal-di-avast:remove()
-softonic.pl###modal-di-opera:remove()
+lento.pl##script:contains(/^showNotify\(\)$/)
 !#endif
 !
 !
