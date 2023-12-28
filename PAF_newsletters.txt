@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 29 Dec 2023, 00:10 UTC+01:00
-! Version: 2023.12.29.0
+! Last modified: Fri, 29 Dec 2023, 00:21 UTC+01:00
+! Version: 2023.12.29.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 29 gru 2023, 00:10 UTC+01:00
+! Aktualizacja: pią, 29 gru 2023, 00:21 UTC+01:00
 !
 !
 !
@@ -491,7 +491,8 @@ dressler.com.pl###features > div > div:first-of-type
 drewno.pl###nl_sticky
 drmaxdrogeria.pl##.subscription-wrapper
 drogeriausa.pl###newsletter_el
-drogerienatura.pl##.items-center.xl\:px-0.px-4.flex-col.flex.z-10.relative.xl\:max-w-full.max-w-\[580px\].mx-auto
+drogerienatura.pl##img[src*="/subscribe/bg.jpg"]
+drogerienatura.pl,zakamarki.pl###newsletter-validate-detail
 drogeriepolskie.pl##.footer-newsletter-area
 drogerium.pl##.newsletterek
 drogowskazykariery.pl##.module_column_5-11-3.module_column_3.tb_5_column.module_column.last.col4-1.tb-column
@@ -1863,7 +1864,6 @@ zadowolenie.pl###NewsletterLP
 zadowolenie.pl##.b-adZone_wide:nth-of-type(7)
 zadowolenie.pl##.image_widget.widget > .js-imageWidget
 zaffiro.shop###newsletterWidget
-zakamarki.pl###newsletter-validate-detail
 zakoplan.pl##.footer-row > div.columns:nth-of-type(4)
 zakupy.auchan.pl#?#div[class][content="[object Object]"][add-background="true"] section:-abp-has(> h3:-abp-contains(Zamów nasz newsletter) ~ form)
 zakupydladziecka.pl##.modNewsltter
