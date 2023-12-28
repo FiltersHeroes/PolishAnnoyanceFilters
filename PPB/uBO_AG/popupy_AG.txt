@@ -1,27 +1,29 @@
-!ekliniki.pl$$#popup-message
-apynews.pl$$#fb-modal
-arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl$$#newsletter_colorbox
+!ekliniki.pl$$[id="popup-message"]
+apynews.pl$$[id="fb-modal"]
+arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl$$[id="newsletter_colorbox"]
+biznes-host.pl$$[id="myModalPromo"]
+comperia.pl$$[id="modal_woman"]
+cyberfolks.pl$$[id="myModalDomenowy"]
+e-spar.com.pl$$[id="modal-welcome"]
+mediasam.pl$$[id="myWorning"]
+muscat.pl$$[id="discountPopup"]
+ogrodosfera.pl$$[id="NewsletterExit"]
+sportowefakty.wp.pl$$[id="exitpopup"]
+zoo.bydgoszcz.com$$[id="NewsShow"]
+diamante-wear.com$$[class="newsletter__popup"]
+drzwi-cal.pl$$[class="pum-theme-promocja-urodzinowa.popmake-overlay"]
+makarun.pl$$[class="makarun-modal"]
+mprofi.pl$$[class="tve-leads-lightbox"]
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl#$#html { overflow: auto !important; margin-right: 0 !important; }
 bartek.com.pl$$script[tag-content="popupNewsletter"]
 biznes-host.pl###myModalPromo, .modal-backdrop
 biznes-host.pl#$#.modal-open { overflow: auto !important; }
-biznes-host.pl$$#myModalPromo
 biznesinfo.pl,domekiogrodek.pl,goniec.pl,pacjenci.pl,rolnikinfo.pl,swiatgwiazd.pl,swiatsportu.pl,swiatzwierzat.pl,techgame.pl,turysci.pl,wawainfo.pl,wtv.pl,zdrogi.pl#%#//scriptlet('set-local-storage-item', '__iberion__publisherPromptSeen', '3')
-comperia.pl$$#modal_woman
-cyberfolks.pl$$#myModalDomenowy
-diamante-wear.com$$.newsletter__popup
-drzwi-cal.pl$$.pum-theme-promocja-urodzinowa.popmake-overlay
-e-spar.com.pl$$#modal-welcome
-homebook.pl$$script[id^="tpl-newsletter-popup"]
+homebook.pl$$script[id="tpl-newsletter-popup"]
 intermarche.pl$$div[style="display:none"][tag-content="wplightbox"]
 it.tarnow.pl$$script[tag-content="livingModal"]
 lento.pl$$script[tag-content="showNotify()"]
-makarun.pl$$.makarun-modal
-mediasam.pl$$#myWorning
-mprofi.pl$$.tve-leads-lightbox
-muscat.pl$$#discountPopup
-ogrodosfera.pl$$#NewsletterExit
 sferis.pl#$#html.fancybox-lock > body { overflow: auto !important; }
 sferis.pl#$#html.fancybox-lock { overflow: auto !important; margin-right: 0 !important; }
 sferis.pl#?#.fancybox-overlay:has(#newsletter-popup)
@@ -29,5 +31,3 @@ shoplet.pl##html.fancybox-lock > body:style(overflow: auto !important)
 shoplet.pl##html.fancybox-lock:style(overflow: auto !important)
 shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important)
 shoplet.pl#?#.fancybox-overlay:has(#x13callback)
-sportowefakty.wp.pl$$#exitpopup
-zoo.bydgoszcz.com$$#NewsShow
