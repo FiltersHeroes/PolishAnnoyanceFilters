@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 29 Dec 2023, 00:21 UTC+01:00
-! Version: 2023.12.29.1
+! Last modified: Sun, 31 Dec 2023, 21:27 UTC+01:00
+! Version: 2023.12.31.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 29 gru 2023, 00:21 UTC+01:00
+! Aktualizacja: nie, 31 gru 2023, 21:27 UTC+01:00
 !
 !
 !
@@ -1910,7 +1910,7 @@ zyxel.com###block-newsletter-footer
 ~activejet.pl,pl##.newsletterBox
 ~aurum-optics.pl,pl##.footer-newsletter
 ~automatykab2b.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
-~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
+~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal):not(input)
 ~dietyodbrokula.pl,~mediaexpert.pl,~muzyczneradio.pl,pl##.newsletter-form
 ~dron.pl,pl##.widget_wysija
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
@@ -1919,7 +1919,7 @@ zyxel.com###block-newsletter-footer
 ~pip.gov.pl,pl##.newsletter-content
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
-~pl###newsletter:not(.modal):lang(pl)
+~pl###newsletter:not(.modal):not(input):lang(pl)
 ~pl##.block-newsletter:lang(pl)
 ~pl##.block_newsletter:lang(pl)
 pl###box-newsletter
