@@ -3,7 +3,7 @@
 ~activejet.pl,pl##.newsletterBox
 ~aurum-optics.pl,pl##.footer-newsletter
 ~automatykab2b.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
-~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal)
+~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal):not(input)
 ~dietyodbrokula.pl,~mediaexpert.pl,~muzyczneradio.pl,pl##.newsletter-form
 ~dron.pl,pl##.widget_wysija
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
@@ -12,7 +12,7 @@
 ~pip.gov.pl,pl##.newsletter-content
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
-~pl###newsletter:not(.modal):lang(pl)
+~pl###newsletter:not(.modal):not(input):lang(pl)
 ~pl##.block-newsletter:lang(pl)
 ~pl##.block_newsletter:lang(pl)
 pl###box-newsletter
