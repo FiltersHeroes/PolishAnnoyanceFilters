@@ -9,8 +9,8 @@ karachan.org$$script[wildcard="style*xD"][min-length="100"]
 komputerswiat.pl$$[id="ks_breaking_news"]
 pacjent.gov.pl#@#:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
 wbgroup.pl#@#:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important)
-www.instalki.pl##@media (max-width: 500px) { .blog .type-post .entry-header .entry-details, .archive .type-post .entry-header .entry-details { display: inline !important } }
-www.instalki.pl##@media (max-width: 500px) { .post-categories, .post-categories li { background: none !important; padding: 0; margin: 3px -5px; display: inline-flex } }
+www.instalki.pl#$#@media (max-width: 500px) { .blog .type-post .entry-header .entry-details, .archive .type-post .entry-header .entry-details { display: inline !important } }
+www.instalki.pl#$#@media (max-width: 500px) { .post-categories, .post-categories li { background: none !important; padding: 0; margin: 3px -5px; display: inline-flex } }
 www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) > #contents:first-child { max-width: unset !important; }
 www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) ytd-rich-grid-media { max-width: unset !important; }
 www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) { --ytd-rich-grid-items-per-row: 1 !important; }
