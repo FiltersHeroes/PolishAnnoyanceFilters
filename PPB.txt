@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 06 Jan 2024, 09:20 UTC+01:00
-! Version: 2024.1.6.0
+! Last modified: Sat, 06 Jan 2024, 10:09 UTC+01:00
+! Version: 2024.1.6.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 06 sty 2024, 09:20 UTC+01:00
+! Aktualizacja: sob, 06 sty 2024, 10:09 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4363,6 +4363,7 @@ zszywka.pl###scroolToTop
 ##footer ~ div.js-up.up
 ~deweloper-interes.pl,pl###back_to_top
 ~douglas.pl,pl##.scroll-top:not(body):not(html)
+~foodtura.pl,pl##.scroll-up
 ~ifirma.pl,pl##.dogory
 ~mediaexpert.pl,~mediamarkt.pl,pl##.scroll-down:not(body):not(html)
 ~obi.pl,pl##.scrollup:not(body):not(html)
@@ -4482,7 +4483,6 @@ pl##.scroll-to-top
 pl##.scroll-top-button
 pl##.scroll-top-inner
 pl##.scroll-top-wrapper:not(body):not(html)
-pl##.scroll-up
 pl##.scroll_to_top
 pl##.scroll_top:not(body):not(html):not(header)
 pl##.scrollTo_top
