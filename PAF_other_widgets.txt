@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 06 Jan 2024, 09:20 UTC+01:00
-! Version: 2024.1.6.0
+! Last modified: Sun, 07 Jan 2024, 22:14 UTC+01:00
+! Version: 2024.1.7.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 06 sty 2024, 09:20 UTC+01:00
+! Aktualizacja: nie, 07 sty 2024, 22:14 UTC+01:00
 !
 !
 !
@@ -33,6 +33,7 @@
 ||cdngr.pl/assets/gratka/*/images/logoPromo.svg$image
 ||cdngr.pl/assets/gratka/*/promoButton.css$stylesheet
 ||crafted.pl/uploads/gwiazdki/*.gif$image
+||datapremiery.pl/scripts/libs/snowstorm-min.js$script
 ||finochelm.pl/images/olx-ico.png
 ||gfx.dlastudenta.pl/v3/tpl/dm.png
 ||images.fm.tuba.pl/tuba3/_js/plugin.min.js$domain=junior.sport.pl|polskabiega.sport.pl
@@ -60,6 +61,7 @@
 ||widgets.okazje.info.pl^$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
+!www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?##main-content ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#div[id] > div > div ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp, #goToSG
@@ -1129,7 +1131,7 @@ www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##a[href^="/search?"][href*="q="][href*="&uds="]
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
-www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
+www.google.com,www.google.pl#?#div[data-attrid*="images"] ~ div[class][data-ved]:not([class*=" "]):-abp-has(> h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/) ~ a)
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
 www.pekao.com.pl##body.loader::before, body.loader::after
 www.rp.pl###mk-paywall
