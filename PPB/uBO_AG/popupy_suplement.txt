@@ -326,7 +326,7 @@ pepper.pl##+js(set-local-storage-item, guestBpnModalSeen, true)
 pewex.pl###popupStart
 pewex.pl##body, html:style(overflow: auto !important; margin-right: 0 !important)
 pixlr.com##body > div[id^="modal-"]:has(> div.announce > div.content > div#after-content)
-pixlr.com##body:style(overflow: auto !important;)
+pixlr.com##body:style(overflow: auto !important)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
 pl.blogpascher.com##+js(nostif, document.location)
 pl.blogpascher.com##.CampaignType--fullscreen.Campaign.trenton-campaign
@@ -357,7 +357,8 @@ porcelanaart.pl###dont_go_overlay
 porcelanaart.pl##body.lock:style(overflow: auto !important)
 portal-polski.pl##.hustle_module_id_4
 portal-polski.pl##html.hustle-no-scroll[class]:style(overflow: auto !important)
-portal.kartaskup.pl###popup, #popup2:style(width: unset !important; height: unset !important; position: static !important; margin: 50px 50px 0 50px !important)
+portal.kartaskup.pl###popup, #popup2:style(width: unset !important; height: unset !important; position: static !important; margin: 45px 45px 0 45px !important)
+portal.kartaskup.pl###popup, #popup2:style(overflow: scroll !important; max-height: 90vh !important; padding: 5px 15px !important)
 portaloswiatowy.pl##.modal-open[class] .container:style(filter: none !important)
 portalpogrzebowy.pl##.fancybox-overlay-fixed.fancybox-overlay:has(iframe[src="/gfx/newsletter.jpg"])
 poznan.factory.pl##body.open:style(overflow-y: auto !important)
