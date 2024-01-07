@@ -61,7 +61,7 @@ aluprof.eu##body._--modal-on:style(overflow: auto !important)
 andzela.com##html.with-featherlight:style(overflow: auto !important)
 andzela.com,dziennikprawny.pl,kiep.pl##.popup
 apptoyou.pl##div.column.flex.bubble-r-container.Popup.bubble-element
-apptoyou.pl,forum.gofin.pl,kiribaticlub.pl,ozogtomczykowski.pl,rowery-elektryczne.pl,socialpress.pl,unityline.pl,upacjenta.pl,zegarkiipasja.pl,zielonasowa.pl##body:style(overflow: auto !important)
+apptoyou.pl,forum.gofin.pl,kiribaticlub.pl,ozogtomczykowski.pl,pixlr.com,rowery-elektryczne.pl,socialpress.pl,unityline.pl,upacjenta.pl,zegarkiipasja.pl,zielonasowa.pl##body:style(overflow: auto !important)
 aptekakamagra.pl###promoModal, .modal-backdrop
 apynews.pl,gameonly.pl,gameswithgold.pl,hardreset.info,kocmyrzow-luborzyca.ug.gov.pl,mamalla.pl,mrcleaner.pl,n-switch.pl,ps-plus.pl,stollar.pl,wificalling-volte.pl##body.modal-open:style(overflow: auto !important; padding-right: 0 !important; margin-rigth: 0 !important)
 apynews.pl,gameonly.pl,gameswithgold.pl,n-switch.pl,ps-plus.pl###fb-modal, .modal-backdrop
@@ -354,7 +354,6 @@ pepper.pl##+js(set-local-storage-item, guestBpnModalSeen, true)
 pewex.pl###popupStart
 pewex.pl##body, html:style(overflow: auto !important; margin-right: 0 !important)
 pixlr.com##body > div[id^="modal-"]:has(> div.announce > div.content > div#after-content)
-pixlr.com##body:style(overflow: auto !important;)
 pl.aleteia.org##.fancybox-overlay:has(.mouse-leave)
 pl.blogpascher.com##+js(nostif, document.location)
 pl.blogpascher.com##.CampaignType--fullscreen.Campaign.trenton-campaign
@@ -385,7 +384,8 @@ porcelanaart.pl###dont_go_overlay
 porcelanaart.pl##body.lock:style(overflow: auto !important)
 portal-polski.pl##.hustle_module_id_4
 portal-polski.pl##html.hustle-no-scroll[class]:style(overflow: auto !important)
-portal.kartaskup.pl###popup, #popup2:style(width: unset !important; height: unset !important; position: static !important; margin: 50px 50px 0 50px !important)
+portal.kartaskup.pl###popup, #popup2:style(overflow: scroll !important; max-height: 90vh !important; padding: 5px 15px !important)
+portal.kartaskup.pl###popup, #popup2:style(width: unset !important; height: unset !important; position: static !important; margin: 45px 45px 0 45px !important)
 portaloswiatowy.pl##.modal-open[class] .container:style(filter: none !important)
 portalpogrzebowy.pl##.fancybox-overlay-fixed.fancybox-overlay:has(iframe[src="/gfx/newsletter.jpg"])
 poznan.factory.pl##body.open:style(overflow-y: auto !important)
