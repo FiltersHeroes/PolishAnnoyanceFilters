@@ -1,4 +1,6 @@
 ! Codename: Scrolling Videos - Supplement
+/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=pl
+://*.*$domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
 bezpiecznystrazak.pl##+js(ra, autoplay, video)
 businessinsider.com.pl,fakt.pl,medonet.pl,onet.pl,plejada.pl,~poczta.onet.pl##+js(set, Object.prototype.isFloatingEnabled, false)
 dziennikzachodni.pl,echodnia.eu,naszemiasto.pl,nowiny24.pl,nto.pl##+js(aeld, scroll, xlinkEvent)
