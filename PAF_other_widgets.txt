@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 11 Jan 2024, 19:09 UTC+01:00
-! Version: 2024.1.11.0
+! Last modified: Mon, 15 Jan 2024, 21:51 UTC+01:00
+! Version: 2024.1.15.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 11 sty 2024, 19:09 UTC+01:00
+! Aktualizacja: pon, 15 sty 2024, 21:51 UTC+01:00
 !
 !
 !
@@ -320,7 +320,7 @@ dolsat.pl##.migowyButton, .niedowidzButton
 domenomania.pl##.domen-w_rogu[id]
 domiogrod.e-sas.pl###zmien_dzial
 domiporta.pl##.notus-widget__tab
-domix-agro.pl##div.footer_light_bg:nth-child(13), #rr_side_widget
+domix-agro.pl##div.footer_light_bg:nth-child(13)
 domodi.pl##.tf-v1-sidetab-button
 douglas.pl##.app-banner
 download.komputerswiat.pl###breadcrumbs_floating, #dl_breaking_news
@@ -967,7 +967,6 @@ sklep-rolnicze.eu###oiTab
 sklep-wedkarski.info###ClPanelImg
 sklep.aladyn.pl,sklep.mariall.pl###trzecia
 sklep.farmona.pl##.tabs > section.product_link_nav
-sklep.narzedziawarszawa.pl###rr_side_widget
 sklep.pakrol.pl##.suggest-slider
 sklep.polskieradio.pl###tm-widget-lemur
 sklep.vivamix.pl##.main-question-form
@@ -1021,7 +1020,6 @@ suwalki24.pl###sideCard
 swiatbaterii.pl###growls
 swiatkwiatow.pl###cards-next-link
 swiatkwiatow.pl###cards-prev-link
-swiatnarzedzi.pl##.__service_rr
 swiatrolnika.info##.sonda .mod-sppoll
 swiatrolnika.info##.sonda > .akt
 sympatia.onet.pl###iconsBar
@@ -1182,6 +1180,7 @@ zyciepabianic.pl##.paper
 ###grw_sidebox
 ##.circle-cursor
 ##[class="cursor"]:empty
+~pl###rr_side_widget.__service_rr.pl_PL
 ~pl##.csocial-link[href*="olx.pl"]:lang(pl)
 ~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
 ~pl##.mraty-widget:lang(pl)
@@ -1209,6 +1208,7 @@ pl###mobileAppsbadge
 pl###oglmetka
 pl###pojo-a11y-toolbar
 pl###poza-szkieletem
+pl###rr_side_widget.__service_rr
 pl###SliderPrzycisk
 pl###socialproof-container
 pl###upprev_box
