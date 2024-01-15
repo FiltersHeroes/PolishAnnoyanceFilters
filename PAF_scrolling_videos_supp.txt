@@ -1,13 +1,15 @@
 ! Codename: Scrolling Videos - Supplement
 /^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=pl
 ://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~mbank.pl|~stooq.com|~stooq.pl,permissions=autoplay=()
+!elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-video:not(.ediplayer-ui-fullscreen) .ediplayer-aspect-padding:style(padding-top: 100% !important)
 bezpiecznystrazak.pl##+js(ra, autoplay, video)
+bezpiecznystrazak.pl##+js(ra, autoplay, video, asap)
+bezpiecznystrazak.pl##+js(ra, autoplay, video, complete)
 businessinsider.com.pl,fakt.pl,medonet.pl,onet.pl,plejada.pl,~poczta.onet.pl##+js(set, Object.prototype.isFloatingEnabled, false)
 dziennikzachodni.pl,echodnia.eu,naszemiasto.pl,nowiny24.pl,nto.pl##+js(aeld, scroll, xlinkEvent)
 elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##+js(aeld, scroll, d.stopPropagation)
 elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
 elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-ui-floating:not(.ediplayer-ui-fullscreen) .ediplayer-container:style(position: static !important; width: 100% !important)
-elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-video:not(.ediplayer-ui-fullscreen) .ediplayer-aspect-padding:style(padding-top: 100% !important)
 eurosport.tvn24.pl##+js(norafif, toggleFloatingClass)
 forsal.pl##+js(set, parseFloat, noopFunc)
 gamerweb.pl##.zox-video-embed-wrap .zox-vid-fixed:style(position: relative !important)
