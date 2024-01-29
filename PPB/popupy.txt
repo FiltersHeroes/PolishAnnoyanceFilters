@@ -701,7 +701,7 @@ selectshop.pl##.ad.modal
 selectshop.pl##.products-popup.modal
 sewel.pl##.pierwszywidget.widgety
 shipgratis.eu###pgwModal, #pgwModalBackdrop
-shop-dent.pl,zenox.pl##.needsclick[style*="z-index"]:not(button)
+!shop-dent.pl,zenox.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
 siatka.org##.scroll-top-wr
 siligan.pl###blackout
 siligan.pl###contentWindow
@@ -830,7 +830,7 @@ wispol.eu##.popup_news
 wittchen.com##.qon-exit-popup, .ReactModalPortal
 wkd.com.pl###pop-up-bg
 woblink.com###nw_popup
-woliniusz.pl##body > div > .kl-private-reset-css-Xuajs1.needsclick
+woliniusz.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
 woliniusz.pl##div[class*="Modal__ModalPortalStyled-sc"]
 wolnelektury.pl##.annoy-banner_blackout.annoy-banner
 wrp.pl##.moModal.mo-has-email
