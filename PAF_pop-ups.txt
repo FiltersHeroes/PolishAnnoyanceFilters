@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 30 Jan 2024, 00:33 UTC+01:00
-! Version: 2024.1.30.0
+! Last modified: Tue, 30 Jan 2024, 00:34 UTC+01:00
+! Version: 2024.1.30.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 30 sty 2024, 00:33 UTC+01:00
+! Aktualizacja: wto, 30 sty 2024, 00:34 UTC+01:00
 !
 !
 !
@@ -129,7 +129,6 @@
 ||znak.com.pl/popupNewsletter$xmlhttprequest
 !@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
-!shop-dent.pl,zenox.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
 2drink.pl,imperiumromanum.edu.pl,mirafaber.pl,olagosciniak.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
@@ -706,7 +705,7 @@ nabory.kprm.gov.pl##.popup-newsletter
 naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
 naszeledy.pl##.modal, .mask
-natural.pl,woliniusz.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
+natural.pl,shop-dent.pl,woliniusz.pl,zenox.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
 naturbio.pl###rm_pop_up_entry
 nawado.pl##.inc_optin_1.inc_opt_popup
 nawado.pl##.inc_optin_1.wpoi-overlay-mask
