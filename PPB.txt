@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sat, 27 Jan 2024, 13:31 UTC+01:00
-! Version: 2024.1.27.0
+! Last modified: Tue, 30 Jan 2024, 00:33 UTC+01:00
+! Version: 2024.1.30.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 27 sty 2024, 13:31 UTC+01:00
+! Aktualizacja: wto, 30 sty 2024, 00:33 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1112,6 +1112,7 @@ naszerecenzje.wordpress.com###blog_subscription-4
 naszesprawy.eu##.theiaStickySidebar > div.add-inner:first-of-type, .theiaStickySidebar > div.add-inner:nth-of-type(3)
 naszhandel.pl##.box_02:nth-of-type(2) > .box_cnt
 naszraciborz.pl##.comments.right_box:nth-of-type(15)
+natural.pl#?#footer aside p:-abp-has(+ form.newsletter-form)
 natvita.pl##div.footer_about:nth-of-type(4) > div.block.ApHtml:first-of-type
 naukawpolsce.pap.pl,naukawpolsce.pl##.block-simple-blockzapisz-sie-na-newsletter
 nazdrowie.pl###subskrybuj
@@ -2163,6 +2164,7 @@ pl,~znak.com.pl##.newsletter-container
 ||znak.com.pl/popupNewsletter$xmlhttprequest
 !@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!shop-dent.pl,zenox.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
 2drink.pl,imperiumromanum.edu.pl,mirafaber.pl,olagosciniak.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
@@ -2739,6 +2741,7 @@ nabory.kprm.gov.pl##.popup-newsletter
 naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
 naszeledy.pl##.modal, .mask
+natural.pl,woliniusz.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
 naturbio.pl###rm_pop_up_entry
 nawado.pl##.inc_optin_1.inc_opt_popup
 nawado.pl##.inc_optin_1.wpoi-overlay-mask
@@ -2919,7 +2922,6 @@ selectshop.pl##.ad.modal
 selectshop.pl##.products-popup.modal
 sewel.pl##.pierwszywidget.widgety
 shipgratis.eu###pgwModal, #pgwModalBackdrop
-shop-dent.pl,zenox.pl##.needsclick[style*="z-index"]:not(button)
 siatka.org##.scroll-top-wr
 siligan.pl###blackout
 siligan.pl###contentWindow
@@ -3057,7 +3059,6 @@ wispol.eu##.popup_news
 wittchen.com##.qon-exit-popup, .ReactModalPortal
 wkd.com.pl###pop-up-bg
 woblink.com###nw_popup
-woliniusz.pl##body > div > .kl-private-reset-css-Xuajs1.needsclick
 woliniusz.pl##div[class*="Modal__ModalPortalStyled-sc"]
 wolnelektury.pl##.annoy-banner_blackout.annoy-banner
 womanadvice.pl###facebook_modal, #dark_popup
@@ -6187,6 +6188,7 @@ nastopy.pl,zycietoprzygoda.pl###ceneo-widget
 naszemiasto.pl###magazyn-boks
 nasztomaszow.pl#?#.sidebar > .widget:-abp-has(.poll_list)
 national-geographic.pl##.affix-bottom.row.prev-next-item
+natural.pl,sekretypoliglotow.pl###someone-purchased
 naukajazdy-kowalik.pl##.side-tab-widget > a[href="kierowcy.html"]
 nbi.com.pl###pasek_bottom
 nbportal.pl###show-tools
@@ -6364,7 +6366,6 @@ samsung.com###oo_tab
 schronisko.info.pl###gkVmCartSmall
 scroll.morele.net#?#article[id^="post"].post .wp-block-image:-abp-has(figcaption:-abp-contains(Kliknij w baner))
 segafredo.pl##.rstboxes .eb-popup.rstbox
-sekretypoliglotow.pl###someone-purchased
 sekurak.pl##.callout-box
 selkar.pl##.my-open.side-banner
 semmelrock.pl###float_catalogue, #float_locations, #float_print, #float_merkliste
