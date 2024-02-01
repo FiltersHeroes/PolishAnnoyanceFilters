@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 01 Feb 2024, 01:31 UTC+01:00
-! Version: 2024.2.1.0
+! Last modified: Thu, 01 Feb 2024, 22:14 UTC+01:00
+! Version: 2024.2.1.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 01 lut 2024, 01:31 UTC+01:00
+! Aktualizacja: czw, 01 lut 2024, 22:14 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -396,7 +396,7 @@ cozaile.pl##.c-guide-newsletter
 crocs.pl##.footer-email-signup
 crolove.pl##div.footer-container .widget_mc4wp_form_widget.widget
 cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
-crystal-albums.pl,monikahonory.pl##.ml-subscribe-form.ml-form-embedContainer
+crystal-albums.pl,monikahonory.pl,wielkishoe.com##.ml-subscribe-form.ml-form-embedContainer
 ctek-ladowarki.pl###bestnewsletterbg
 ctpartners.pl##.ftresc2
 cudmoda.pl##.ps-emailsubscription-block > :nth-child(-n+2)
@@ -3478,7 +3478,7 @@ androidowy.pl,brodatyzbir.pl,coffeedesk.pl,jaktodaleko.pl,kalejdoskopbudowlany.p
 anetaduk.com,liletink.pl,lukasiewicz.gov.pl,moto.lca.pl,potplayerclub.pl###myBtn
 animalistka.pl,faltusdesign.wordpress.com,rygalo.com##.tothetop
 anmarniemcz.pl,apia.pl,icrow.pl,nat.pl,odrzanska.eu,ti-ksiaz.iap.pl##.page-scroll-up
-answear.com,myjki.com,myjki.eu,radiopoznan.fm###scrollTop
+answear.com,myjki.com,myjki.eu,radiopoznan.fm,wielkishoe.com###scrollTop
 anton-paar.com,brand.ceo,gregsoft.com.pl,ore.edu.pl,salami.pl,sokolow.pl,teb.pl,zgruntudobre.com##.gototop
 antrax.com.pl###nawTop
 antykikoneser.pl,lajkifb.pl,likefb.pl###jas-backtop
@@ -3863,6 +3863,7 @@ infoaudio.pl,infomusic.pl,obiektyspa.com###slideup
 infolinia.info.pl,memento.com.pl,mpolski.pl,pense.pl##.arrow
 infoplanet.pl##.goup-container
 infores.net###icon-mobile-scroll-top
+informacjakredytowa.com###move-to-top
 informatique-mania.com##.go-to-top-button
 inpost.pl##.footerMatToTop
 inspirander.pl##.htheme_icon_backtop
