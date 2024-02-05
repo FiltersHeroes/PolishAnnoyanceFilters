@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Mon, 05 Feb 2024, 11:15 UTC+01:00
-! Version: 2024.2.5.0
+! Last modified: Tue, 06 Feb 2024, 00:02 UTC+01:00
+! Version: 2024.2.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 05 lut 2024, 11:15 UTC+01:00
+! Aktualizacja: wto, 06 lut 2024, 00:02 UTC+01:00
 !
 !
 !
@@ -1129,7 +1129,7 @@ wsse-poznan.pl###pwebbox216_toggler
 wszystko.pl##body:has(.wpl-header__right-side-container button) wpl-advert-bar:has(a[href*="register"])
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
-www.google.com,www.google.pl##a[href^="/search?"][href*="q="][href*="&uds="]
+www.google.com,www.google.pl##a[href^="/search?"][href*="q="][href*="&uds="]:not([aria-label="Dodaj: Grafika"]):lang(pl)
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
 www.google.com,www.google.pl#?#div[data-attrid*="images"] ~ div[class][data-ved]:not([class*=" "]):-abp-has(> h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/) ~ a)
