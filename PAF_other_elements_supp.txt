@@ -118,6 +118,7 @@ pl##.CodeMirror-search-label ~ input.CodeMirror-search-field[style]:style(width:
 pl##.cTopicPostArea .cGuestTeaser:upward(.cTopicPostArea)
 pl##.header.header--smart-banner-visible:remove-class(header--smart-banner-visible)
 pl##.smartbanner:not(body):not(html)
+pl##body.smartbanner #smartbanner
 pl##html[data-smartbanner-original-margin-top^="0"][style]:style(margin-top: 0 !important)
 pl.everli.com###smartbanner
 pl.everli.com##.with-smartbanner .external-header:style(top: 0 !important)
