@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Fri, 09 Feb 2024, 10:43 UTC+01:00
-! Version: 2024.2.9.0
+! Last modified: Sat, 10 Feb 2024, 18:13 UTC+01:00
+! Version: 2024.2.10.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 09 lut 2024, 10:43 UTC+01:00
+! Aktualizacja: sob, 10 lut 2024, 18:13 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -766,7 +766,6 @@ housebrand.com##.containerNl
 housebrand.com##.footer-newsletter-form
 hoyavision.com##.footer__subscribe
 humint.pl##.widget_custom_html.widget-footer.widget-default.widget.widget_text
-hurtowezakupy.com##.footer-container > div > .row > div:nth-of-type(4)
 hurtownia-format.pl##.footer.row > .col-md-4
 hurtownia-spozywcza.pl###accordion_footer > div.list-group.foot-group:nth-of-type(4)
 hurtowniabartel.pl###dor_custom_newsletter_block
@@ -2399,7 +2398,6 @@ dachyb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl#
 dadada.pl###newsletterPopup
 dailyweb.pl,jaworowi.cz,moneygrabbing.co.uk,probasket.pl,swinoujskie.info###snppopup-welcome
 dalchemyskincare.com###mymodlaNewsletter, .mask
-dany-meble.pl,kim.elblag.pl###myPopModal, .modal-backdrop
 darymex.pl,skarbnicapomyslow.pl,wiecznepiora.eu##[data-type-popup="newsletter"]
 deccomeble.pl###jquery-lightbox, #jquery-overlay
 decoliving.pl###pop-up-newsletter
@@ -2589,7 +2587,6 @@ jakdojade.pl###container > starting-screen.ng-isolate-scope
 janssen.tv##.fancybox-wrap, .fancybox-overlay-fixed.fancybox-overlay
 justjoin.it##.join-fb-popup
 kalkulatorkalorii.net###getresponse, .modal-backdrop
-kameshop.pl##.background, #tws_s_100001, #tws_i_100001
 kamira90.blogspot.com,pelnytalerz.com,vetopedia.pl###fbox-background, #fbox-close
 kapitalni.org,walutomat.pl##.exit-popup
 karmiepsiaki.pl###fb-back
@@ -2608,6 +2605,7 @@ kfd.pl###popupslider, #dimBackgrnd
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
 kierunekspozywczy.pl###skycrapper
 killhouse.pl###sgcolorbox, .sgcboxOverlayBg
+kim.elblag.pl###myPopModal, .modal-backdrop
 kisiel.info###popup.iziModal, .iziModal-overlay
 klasek.pl###spu-bg, #spu-main
 klinikaagd.pl##.koszyk
@@ -3394,8 +3392,8 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 2x45.info,agro-hurt.eu,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
 3dom.pro,agrosam.eu,alget.pl,antbs.co.uk,domator24.com,harposoftware.com,laroxy.com,odszewca.pl,opakowania24.eu,swiatroslin.eu##.top_button
-3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hurtowezakupy.com,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com,zyjzdrowo.info###to-top
-3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com,znicze.net###toTop
+3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com,zyjzdrowo.info###to-top
+3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com###toTop
 4funkids.pl###scroll_up
 4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,malygeniusz.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu###scroll-to-top
 6paknutrition.com,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
@@ -3465,7 +3463,7 @@ alko-garden.pl,pl.assmann.shop###jumptotop
 alkomaty-sklep.eu,muzyczny.eu,staypoland.com,wieszaki.info###to_top
 allegro.pl##button[data-analytics-interaction-label="scrollToTop"], button[title="Do góry"]
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
-allpaka.eu,asimexplus.com,eperfumy.pl,influencja.pl,siapre.pl,sklep.druk-pak.com,vivosklep.pl###do_gory
+allpaka.eu,asimexplus.com,eperfumy.pl,influencja.pl,siapre.pl,vivosklep.pl###do_gory
 alltube.tv##.fa-angle-double-up
 alter24.pl###page ~ div[id^="anb"]
 aluprof.eu##.sidebar__link--top
@@ -3733,7 +3731,7 @@ elmas.com.pl##.rise-to-top
 encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info###top
 enel.pl###afario-back-top
 enetproduction.com##div.vued-custom-scroll_to_top
-enowiny.pl,getlevel.info,mobileworld24.pl##.mnmd-go-top
+enowiny.pl,mobileworld24.pl##.mnmd-go-top
 epoqum.io,mettosport.eu,opieka.farm,simplyyourself.online###ast-scroll-top
 erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,wdrodze.pl,yellow.place###up
 erkado.pl##.skip--top
@@ -4559,7 +4557,6 @@ zooplus.pl##.type_banner[id*="top-marki"]
 ||app.sugester.pl/tpbocian/widget.js
 ||app.userengage.com/api/user-chatping/*$xmlhttprequest,domain=brand.ceo
 ||callcenter.pl/static/chat_snippets/*.js$domain=lellek.pl|vobis.pl
-||chat-widget.thulium.com/app/chat-loader.js$script,third-party
 ||client.crisp.chat/l.js$script,domain=totalbet.pl
 ||client.crisp.chat/static/javascripts/client.js$script,domain=puccini.pl|www.fabrykawafelkow.pl
 ||clivio.pl/wp-content/themes/clivio/img/cursor.png
@@ -5306,7 +5303,6 @@ truckonline.pl##.tcc-pos-bl.tcc-widget
 tunelefoliowe.eu##.my-float.fa-whatsapp
 tunelefoliowe.eu##a[href^="tel:"].float
 turio.com.pl##.call-now-button
-tusponsor.pl###formWrapper
 tvokazje.pl###phone-webcallback
 tvs.pl##.messenger-share-btn
 tvs.pl##.viber-share-btn
@@ -5715,7 +5711,6 @@ czesciauto24.pl##.promotion-header
 czytamyetykiety.pl##.metaslider
 czyztak.pl##.header__patronite
 dailyweb.pl##.promo-bar-box
-dany-meble.pl##body > .hidden-sm.hidden-xs
 deccoria.pl###ostatnio-oceniane-galerie
 deccoria.pl##.dc-layout__nav-bar
 decofire.pl##.header-belt-top
