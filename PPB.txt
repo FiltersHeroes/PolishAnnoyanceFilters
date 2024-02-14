@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 14 Feb 2024, 13:31 UTC+01:00
-! Version: 2024.2.14.0
+! Last modified: Wed, 14 Feb 2024, 18:40 UTC+01:00
+! Version: 2024.2.14.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 14 lut 2024, 13:31 UTC+01:00
+! Aktualizacja: śro, 14 lut 2024, 18:40 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1756,6 +1756,7 @@ vivaldi.com###newsletterpromo
 vivo-shopping.com##.site-newsletter__content
 vogue.pl###homepagenewsletter
 vox.pl##.footcol5.onecol.col-md-2
+vox.pl#?#footer form:-abp-has(> div > label ~ input[name="newsletterEmail"])
 vuch.pl##footer > .row > .nl-column.large-3.medium-6.xsmall-12.columns
 wabisabi-store.jp##.footer-newsletter_block
 wakacje-hiszpania.pl###newsletterteaser
@@ -3393,7 +3394,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 2x45.info,agro-hurt.eu,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
 3dom.pro,agrosam.eu,alget.pl,antbs.co.uk,domator24.com,harposoftware.com,laroxy.com,odszewca.pl,opakowania24.eu,swiatroslin.eu##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com,zyjzdrowo.info###to-top
-3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com###toTop
+3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,eipro.de,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com###toTop
 4funkids.pl###scroll_up
 4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,malygeniusz.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu###scroll-to-top
 6paknutrition.com,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
@@ -3589,6 +3590,7 @@ borcas.eu##.scrollToTopPlugin_label
 bosch-extra.pl,extra-program.pl,glovoapp.com##.to-top-button
 brandvital.eu,grobonet.com,grupaimage.eu,pl.gadget-info.com,programtv.naziemna.info,qnapclub.eu,rolety.eu,szpitalepomorskie.eu,techbite.eu,zdrowyportal.org###return-to-top
 briju.pl##.Footer-BackToTop
+browhennapolska.pl,czops.pl,neuf.tv,vikking.eu###kt-scroll-up
 brylant.net,eelsner.eu,lvlup.pro,mobbingwpracy.com,polskaniepodlegla.pl,siecprzedsiebiorczychkobiet.pl,zegarek.net##.scrollup
 brymorex.pl###top-button-ui
 bs.limanowa.pl##.block-arrow--small
@@ -3649,7 +3651,6 @@ czarodziejewspomnien.pl,hihome.pl###fount_to_top
 czescidobmw.pl##.pageToTop
 czescirolnicze.eu,mechanik-sc.pl##.abs-scroll-top
 czescizamienne.amica.pl##.sfa-scroll-top
-czops.pl,neuf.tv,vikking.eu###kt-scroll-up
 czystyszop.pl##.ib-scroll-top
 czytio.pl,jaw.com.pl###scrollTop-btn
 dakoma.com.pl##.spin-scroll-top
@@ -3870,6 +3871,7 @@ intergama.pl,support.kaspersky.com##.up-arrow
 interia.pl##.top-of-site-link
 intermarche.pl##.trigger--page-up
 intertraktor.pl###up_talk0
+invest.przemysl.eu###totop.goto-top
 irass.pl##body > div.right.btn[class*="czr"]
 isabellenails.pl,odzyskamyodszkodowanie.pl,raraavis.krakow.pl,vwfs.pl##.js-back-to-top
 isp.org.pl##.icon-arrow-up
@@ -4137,6 +4139,7 @@ polski-optyk.pl##a > [src="img/top.png"]
 pomagam.net##.czr-btt
 poprostuenergia.pl##.scroll_up
 poradnikbudowlany.eu##.footer-up > .col-md-1.col-xs-12
+porta.com.pl##a [alt="Go to top"]
 portal-sadownik.pl###arrowtop
 portalprzemyski.pl##.footer-scroll-to-top
 portalpszczelarski.pl###APPliftPageUp
@@ -4265,6 +4268,7 @@ teletorium.pl###gototopBtn
 teletorium.pl,tkmaxx.pl,unitee.pl,winforum.pl##.scrolltotop
 termodomplus.pl,tfiagro.pl##.top-arrow
 the-first.pl###side_social_icons > ul > li:first-of-type
+thebodyshop.pl###back_top
 thermomix.vorwerk.pl,worldoftanks.eu##.button-top
 tiktok.com##div[class*="VideoDetailContainer"] ~ div[class*="Bottom"] button[class*="IconContainer"]
 tme.eu##.o-arrow-up__wrapper
@@ -6060,6 +6064,7 @@ legalnakultura.pl###konkursy-plugin-button
 legalniewsieci.pl##.more-news-bar
 lejtmotyw.info###related-wrap, .ib-nav
 leki.pl###floating-nextprev
+lento.pl##a[href^="https://www.lento.pl/dodaj-ogloszenie.html"] > img[src]
 lesniow.pl##.socialTabs-tab--pogoda
 lexlog.pl###post-nav > .tranz
 lfspareparts724.pl##.banner-app
@@ -6507,6 +6512,7 @@ univ.rzeszow.pl,ur.edu.pl###interreg, #radio-feniks, #wspolpraca-miedzynarodowa
 ur.edu.pl###interreg2
 ur.edu.pl###komunikaty-alergicy
 uzdrowisko-wieniec.pl##.sfl-widget--ribbon, .hidden-xs
+veganbanda.pl##.rcps-next-prev
 vibez.pl##a[class][title*=" "]:not([href]) > svg[aria-labelledby="drop down arrow"]
 vice.com##.up-next
 vida.pl##.home
