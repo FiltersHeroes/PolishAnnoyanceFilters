@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 14 Feb 2024, 20:30 UTC+01:00
-! Version: 2024.2.14.4
+! Last modified: Sun, 18 Feb 2024, 01:31 UTC+01:00
+! Version: 2024.2.18.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 14 lut 2024, 20:30 UTC+01:00
+! Aktualizacja: nie, 18 lut 2024, 01:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -59,8 +59,6 @@
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
 ||zadowolenie.pl/media/cache/*/zdw-newsletter-
 ||zooplus.pl/magazyn/wp-content/uploads/20*/*/*Newsletter_Promotion_$image
-!dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .navi > a:first-of-type
-!dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .panes > .one.active:first-child
 2max.pl###footer-container-first
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
@@ -167,7 +165,7 @@ antykwariatlibra.pl##.cms_newsletter_form
 antyweb.pl##.email.btn-tools
 apartamentywkarpaczu.eu##.site-footer__email
 apetete.pl##.footer__block__payment.footer__block > .footer_container
-apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,dealz.pl,dlabiura24.pl,drzwi-cal.pl,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,obuwiestyl.pl,sklep.dalimex.pl,topsecret.pl,vidaxl.pl,znak.com.pl##.newsletter
+apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,obuwiestyl.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,sklep.dalimex.pl,topsecret.pl,vidaxl.pl,znak.com.pl##.newsletter
 apollo.pl##.newsletter-block-container
 apptoyou.pl##.row.flex.bubble-r-container.CustomElement.bubble-element > .row.flex.bubble-r-container.Group.bubble-element > div.column.flex.bubble-r-container.Group.bubble-element:nth-of-type(2) > .column.flex.bubble-r-container.Group.bubble-element
 apshop24.eu,paperlovers.pl###newsletter-bar
@@ -5131,6 +5129,7 @@ pl##.x13socialfixed_links a[href*="skype:"]
 pl##a[href^="fb-messenger://share/"]
 pl##a[href^="whatsapp://send"]
 pl.000webhost.com##div[style="cursor: pointer;"]
+pl.aleteia.org##a[aria-label="Whatsapp share"]
 pl.canalplus.com###button-call, #button-lead
 pl.canalplus.com##.AsideButtons
 pl.factcool.com###daktela-web
@@ -5488,7 +5487,6 @@ pl##.quickcontact-box
 ||widgets.okazje.info.pl^$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
-!youtube.com#?#ytd-popup-container tp-yt-paper-dialog:-abp-has(yt-touch-feedback-shape)
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?##main-content ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?#div[id] > div > div ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
 ~1login.wp.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp, #goToSG
@@ -6576,6 +6574,7 @@ xgp.pl###hpb.hpb
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
 youtube-nocookie.com,youtube.com##.ytp-ce-element
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
+youtube.com#?#tp-yt-paper-dialog:-abp-has(yt-mealbar-promo-renderer:-abp-contains(Odblokuj bonusy specjalne))
 youtube.com#?#tp-yt-paper-dialog:-abp-has(yt-mealbar-promo-renderer:-abp-contains(Przedstawiamy Sample))
 youtube.com#?#tp-yt-paper-dialog:-abp-has(yt-mealbar-promo-renderer:-abp-contains(Zacznij wspierać ten kanał))
 yves-rocher.pl##.layout-banner__top.layout-banner
