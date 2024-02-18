@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 14 Feb 2024, 20:30 UTC+01:00
-! Version: 2024.2.14.0
+! Last modified: Sun, 18 Feb 2024, 16:30 UTC+01:00
+! Version: 2024.2.18.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 14 lut 2024, 20:30 UTC+01:00
+! Aktualizacja: nie, 18 lut 2024, 16:30 UTC+01:00
 !
 !
 !
@@ -58,8 +58,6 @@
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
 ||zadowolenie.pl/media/cache/*/zdw-newsletter-
 ||zooplus.pl/magazyn/wp-content/uploads/20*/*/*Newsletter_Promotion_$image
-!dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .navi > a:first-of-type
-!dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl###socialBox > .panes > .one.active:first-child
 2max.pl###footer-container-first
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
@@ -103,7 +101,7 @@ agriaffaires.pl###js-newsletterBlock
 agrieko.pl##.footer_NewsletterBox
 agrodoradca24.pl##.newsletter-online
 agromat.pl##.column-double.content > .flex
-agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
+agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu,www.e-hurtowo.eu##.ModulNewsletter
 agroprofil.pl##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_185.vc_column
 agrosimex.pl##.p0.tablet-column.col-sm-4.col-xs-12
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
@@ -166,7 +164,7 @@ antykwariatlibra.pl##.cms_newsletter_form
 antyweb.pl##.email.btn-tools
 apartamentywkarpaczu.eu##.site-footer__email
 apetete.pl##.footer__block__payment.footer__block > .footer_container
-apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,dealz.pl,dlabiura24.pl,drzwi-cal.pl,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,obuwiestyl.pl,sklep.dalimex.pl,topsecret.pl,vidaxl.pl,znak.com.pl##.newsletter
+apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,obuwiestyl.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,sklep.dalimex.pl,topsecret.pl,trzymajsiecieplo.pl,vidaxl.pl,www.naszapraca.com,znak.com.pl##.newsletter
 apollo.pl##.newsletter-block-container
 apptoyou.pl##.row.flex.bubble-r-container.CustomElement.bubble-element > .row.flex.bubble-r-container.Group.bubble-element > div.column.flex.bubble-r-container.Group.bubble-element:nth-of-type(2) > .column.flex.bubble-r-container.Group.bubble-element
 apshop24.eu,paperlovers.pl###newsletter-bar
@@ -229,7 +227,7 @@ baseuspolska.pl##.newsletter-home
 bass-sklep.pl###box-5
 batorygdynia.com.pl##footer .menu_bottom1.row > .a_right
 bbhomeonline.pl##.footer_links_newsletter
-beautikon.com,imready.eu,shipgratis.eu,shop.albione.eu##.newsletter-wrapper
+beautikon.com,geek.justjoin.it,imready.eu,shipgratis.eu,shop.albione.eu##.newsletter-wrapper
 beautysupply.pl###columns .freshmail-wrapper.row
 bebeconcept.pl##.newsletter-widget-7
 befado.pl##.kt_widget_newsletter
@@ -316,6 +314,7 @@ business.link###Form_SubscribeForm
 businessinsider.com.pl##.article_newsletter
 businesstraveller.pl##.widget:nth-of-type(2) > h4
 buslapidus.pl,pasja-informatyki.pl##.widget_1
+butybuty.pl,delis.pl,diamir.sklep.pl,telefony-gdansk.pl,wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
 butyjana.pl##.bjNewsletterText
 butyraj.pl##.hidden-phone.top_toplayer
 bydgoszcz.com,ct.jaworzno.pl,damitv.pl,e-widuchowa.pl,echotygodnik.info,kociewiak.pl,narew.info,pzl24.pl,telewizjazary.pl,tvobiektyw.pl,tvsudecka.pl,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:first-of-type
@@ -364,6 +363,7 @@ chocolissimo.pl##a[href="javascript:showNewsletterLayer();"]
 chodnikliteracki.pl##a[href*="/newsletter/"] > img[src$="/newsletter.png"]
 choinkowo.pl##.shb-newsletter-widget-5
 cholewinski.com##.cho-subscribe
+ciara.pl##.col-md-4.col-sm-12.col-xs-12.footer-widgets-area.footer-widgets-area-4
 ciekawostkihistoryczne.pl##.footer-fixed
 citroen.pl##.column_50.columns:first-of-type
 cityboard.pl,euh-e.edu.pl###sp-bottom3
@@ -428,7 +428,6 @@ deccoria.pl##.dc-action-regiser-newsletter
 decoliving.pl,intymna.pl,ohso.pl##div.zwin.col-sm-3.footer-links.footer-widget:nth-of-type(3)
 defence24.pl,infosecurity24.pl,space24.pl##.newsletter-module__inner
 dekea.pl##div.mb40.mt40.row:nth-of-type(5) > .bg-grey.p20.col-md-4
-delis.pl,diamir.sklep.pl,telefony-gdansk.pl,wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
 delphiautoparts.com##form .subscribe-form
 demagog.org.pl##footer .dg-newsletter
 demagog.org.pl##section .column .dg-newsletter
@@ -617,6 +616,7 @@ expresspaslek.pl,slowopodlasia.pl##footer > div > div:first-child > div > div > 
 eyeforfashion.pl,renee.pl##.newsletter__section
 fabrykazabawek.eu##.col-md-3.trzecia
 faceandlook.pl##.newsletter-right-block
+faceoffice.pl##div.col-md-12.col-sm-24:nth-of-type(2) > .row > div.col-md-12.col-sm-12:nth-of-type(2)
 fachowydekarz.pl##div.textWidget:nth-of-type(7)
 fajne.life##.post div[class*="form"][data-success_action_details]
 fajowo.eu###footer.row > div[class*="col"]:first-of-type
@@ -1062,6 +1062,7 @@ mojmac.pl##.et_pb_code > .bloom-privacy
 mojpieknyogrod.pl##div.sidebar-box > a[href="/newsletter"] > img
 mokosh.pl##.rightSection.col-md-5.col-sm-12.col-xs-12
 molly.pl###bottom-boxes > .box-left
+molton.pl##div.col-6.menu_button_wrapper:nth-of-type(1)
 monsterpolska.pl###jsa-top
 monsterpolska.pl###twoColumnEmailWidget
 morele.net##.col-md-9.col-sm-7
@@ -1526,6 +1527,7 @@ sklep.zakrecovnia.pl##.shb-newsletter-background
 sklepagnex.pl###box_custom99 > div
 sklepkoszykarza.pl###footer__newsletter
 sklepkupiec.pl##.footer-block.newsllt
+sklepmarka.pl##.newletter-header
 sklepsaturn.pl,sprzet-fryzjerski.pl###social > a[href="/newsletter/add"]
 skorzany.com###zapisz-sie
 skuteczneraporty.pl##.post .wf2-embedded.grwf2-wrapper
@@ -1827,6 +1829,7 @@ wspieramrozwoj.pl##.newslatter
 wszystkiegoslodkiego.pl##.ws-footer__center > div > div > div > div > .text-lg-left.col-12
 wtk.pl###newsletter-animated-box
 www.auchan.pl##.footer-newsletter-block > * > * > *
+www.dzienniknowy.pl##.mb-4.extended
 www.fotouslugi.pl##.cw_newsletter
 www.galeriehandlowe.pl##.newsletter-box-blue-big
 www.kinnarps.pl##.js__hubspot-form.signup-block
@@ -1898,6 +1901,7 @@ zikom.pl##.vertical-button
 zlotoryjska.pl##a[href="/newsletter.html"]
 znak.com.pl###subBox, #subBoxMini
 zooart.com.pl##.z_leftnewsletter
+zoopers.pl##div.col-sm-4.col-md-3:nth-of-type(5)
 zooplus.pl##.Newsletter-module_newsletterBackground__2bq52
 zrobtosam24.eu##.col-newsletter-box
 zryjzdrowocatering.com##.footer-contacts > .row > div:nth-child(2)
