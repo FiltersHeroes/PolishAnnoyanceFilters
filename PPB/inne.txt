@@ -1067,7 +1067,7 @@ wsse-poznan.pl###pwebbox216_toggler
 wszystko.pl##body:has(.wpl-header__right-side-container button) wpl-advert-bar:has(a[href*="register"])
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
-www.google.com,www.google.pl##a[href^="/search?"][href*="q="][href*="&uds="]:not([aria-label="Dodaj: Grafika"]):lang(pl)
+www.google.com,www.google.pl##a[href^="/search?"][href*="q="][href*="&uds="]:not([href*="&udm=2"]):not([href*="&tbm=isch"])
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
 www.google.com,www.google.pl#?#div[data-attrid*="images"] ~ div[class][data-ved]:not([class*=" "]):-abp-has(> h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/) ~ a)
