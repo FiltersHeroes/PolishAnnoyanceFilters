@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 10 Mar 2024, 17:31 UTC+01:00
-! Version: 2024.3.10.0
+! Last modified: Sun, 10 Mar 2024, 19:46 UTC+01:00
+! Version: 2024.3.10.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 10 mar 2024, 17:31 UTC+01:00
+! Aktualizacja: nie, 10 mar 2024, 19:46 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -994,6 +994,7 @@ maszynadopisania.pl##.form_subscribe[class*="freshmail"]
 maszynadopisania.pl##header a[href="/#fm_form_1"]
 matio-med.pl##.newsletter_home
 max-protect.pl,sklep-smile.pl##.footer-block-contain > .block1
+maxcom.pl##.main-footer.container > div:nth-child(5) > div:nth-child(2)
 maxibike.pl##.newsletter-holder
 maylily.pl##.newsletter-footer-edrone
 mazovia.pl##.clearfix > .nice-shadow.search-block
@@ -3493,7 +3494,7 @@ apartamenty.nawyspie.eu##.roll
 aplikuj.pl,apteline.pl,bebiklub.pl,craftincode.com,funnycat.pl,igkm.pl,itcontent.eu,piu.org.pl,purina.pl,quiosque.pl,selectivv.com##.scroll-top-button
 apo-discounter.pl###page_up_button
 apollo.pl##.tt-scroll-up
-apps-on-mac.com,elektrostymulatory.net,futuryx.eu,gorke.eu,hdtvpolska.com,kasta.news,kielce.eu,kopalniasrebra.com,ogrodniczy.com,osheeshop.eu,pl.genesis-zone.com,polako.eu,szopienice.org,tablica.com,tacohemingway.store,twojcel.to,wbrew.org##.go-to-top
+apps-on-mac.com,elektrostymulatory.net,futuryx.eu,gorke.eu,hdtvpolska.com,kasta.news,kielce.eu,kopalniasrebra.com,ogrodniczy.com,osheeshop.eu,pl.genesis-zone.com,polako.eu,rockwool.com,szopienice.org,tablica.com,tacohemingway.store,twojcel.to,wbrew.org##.go-to-top
 appsource.microsoft.com##.appSourceScrollToTop
 aptekaolmed.pl###btn-going-top
 aptekazdrowie-24.pl,e-zikoapteka.pl##.site-scrolltop
@@ -4538,13 +4539,11 @@ pll##.top_button
 !
 !
 ! Tła zawierające autoreklamy
+/grafika_zmienna/tlo_info.jpgg$domain=rii.pl|stargard.pl
+/grafika_zmienna/tlo_wiadomosci.jpg$domain=rii.pl|stargard.pl
 ||3kropki.pl/i/varia/*_3kropki_screening_pop.jpg
 ||e-stargard.pl/_upload/background.png
-||info.stargard.pl/grafika_zmienna/tlo_info.jpg
 ||mediaexpert.pl/temp/filemanager_up/*_tlo.jpg
-||mediamarkt.pl/media/cache/resolve/filemanager_original/images/background/*.jpg
-||mediamarkt.pl/media/cache/resolve/filemanager_original/images/lp/*tapeta*.jpg
-||mediamarkt.pl/media/cache/resolve/filemanager_original/images/lp/tla/*.jpg
 aptekagemini.pl,gemini.pl##.background-advertisement
 boleslawiec.tv,bydgoszcz.com,echotygodnik.info,halogorlice.info,korso24.pl,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl##.bgad
 czary.pl###klikalne_tlo_calosci a[href="https://sklepmagiczny.pl/pl/p/Astrologia-mundalna/88"]
@@ -4691,7 +4690,7 @@ axasecurity.com,beko.com,doctorgun.eu,drzwioknabramy.eu,e-security.com.pl,eska.p
 badaniaprenatalne.pl##.contact-button-link
 balladine.com###widgetOpineo
 bankobranie.blogspot.com##.social > li:nth-child(n+6)
-barlinek.com.pl,medonetmarket.pl##.bhr-chat-container
+barlinek.com.pl,medonetmarket.pl,sparta.com.pl##.bhr-chat-container
 batteryguru.eu###xcmb
 batteryland.com##.tw-chat
 bboptic.com##footer > .pinnedBottomLeft > div[id^="comp-"]
@@ -5733,6 +5732,7 @@ dekavit.pl##.dekavit-kids-button
 dekordia.pl##.koszyk.right
 depilconcept.pl##.badge-voucher
 designconcept.pl#?##topbelka:-abp-contains(/[\w\W]{1,2}/)
+designhandles.com##.tvcms-prod-popup
 developer.mozilla.org##.mdn-cta-container.developer-needs
 devoxx.pl##.subscribers-position-right.subscribers-chicklet
 dietbox.pl##.get-app
@@ -6106,8 +6106,8 @@ marketbio.pl##.qon-product-stats
 marketbio.pl#?##fixedBottom:-abp-has(#prodInfoContainer,.prices, .information)
 marketerplus.pl##.animateMe.magazynframe, .openmagazyn
 marketingdlaludzi.pl##.case-study-box
-marwiz.pl##div.mx_zakladki:nth-of-type(10)
-marwiz.pl##div.mx_zakladki:nth-of-type(11)
+marwiz.pl##div.mx_zakladki a[href*="allegro.pl/"]
+marwiz.pl##div.mx_zakladki a[href*="Certyfikaty-sklepu"]
 materace-dla-ciebie.pl##.outlet-btn
 mateuszgrzesiak.com,mg-pmm.com##.fade, .loading-text
 matopat24.pl##.aks-about
