@@ -1,6 +1,6 @@
 ! Codename: Other Elements - Supplement
 @sectionsPath PPB/uBO_AG
-@include inne_sieciowe_suplement + scroll_film_suplement_sieciowe
+@include inne_sieciowe_suplement
 @include inne_suplement
 !#if !cap_html_filtering
 @include inne_bez_html
@@ -9,6 +9,7 @@
 @include inne_html
 !#endif
 !#if !env_firefox
+@include scroll_film_suplement_sieciowe
 @include inne_Chromium
 !#endif
 !#if env_firefox
