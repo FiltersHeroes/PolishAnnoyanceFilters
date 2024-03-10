@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Wed, 06 Mar 2024, 16:30 UTC+01:00
-! Version: 2024.3.6.0
+! Last modified: Sun, 10 Mar 2024, 17:31 UTC+01:00
+! Version: 2024.3.10.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 06 mar 2024, 16:30 UTC+01:00
+! Aktualizacja: nie, 10 mar 2024, 17:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3813,6 +3813,7 @@ gol24.pl,sportowy24.pl,telemagazyn.pl##.doGory
 goldwell.com###area-PageTop
 gomez.pl##.custom-top-fixed.btn
 goodie.pl###main-container > .ax > #header ~ footer.s5 + .hf.he > .hg
+goodie.pl##footer + button
 goodie.pl##footer ~ div[role="button"]
 google.com##.step-scroller
 gorlice.pl,przedszkole.tymbark.iap.pl,wieliczka.eu###global-scrollup
@@ -4780,7 +4781,6 @@ cyberfolks.pl###livechat_close_btn
 cyberfolks.pl##div[id^="phplive_"], span[id^="phplive_"]
 czerwona-skarbonka.pl###chatbot-chat
 czescidobmw.pl##.closegg
-czystyszop.pl###tm-widget-muskrat2 .tm-muskrat2 .tm-muskrat2__sticker
 czytio.pl###qcf-btn
 darymex.pl##.edrone-chat-position
 darymex.pl,krukam.pl,sneakerpeeker.pl###edrone--main--chat--container
@@ -4977,7 +4977,6 @@ kaktus24.pl###messenger_chat
 kamaciuch.pl###bonwhatsappchat
 karmi.pl##.scrolled.homecontact
 kawaly.tja.pl,tapeciarnia.pl###div_okienko_shoutbox_schowane
-kids-trendy.pl###tm-widget-muskrat
 kind.com##.AP_mod--button-symbol
 king-poligrafia.pl###face-slider
 klimacold.com.pl###ssb-btn-0,#ssb-btn-1, #ssb-btn-2, #ssb-btn-4
@@ -5720,6 +5719,7 @@ cybersport.pl##.pbox
 cyfra.eu###tws_s_100001
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
+czystyszop.pl,glossyme.eu,iexpert.pl,kids-trendy.pl,miadora.pl,sklepqueenfryz.pl,smakitucholi.sklep.pl,stylion.pl,tanbiu.pl,zenwire.eu##[id^="tm-widget-muskrat"]
 czytamyetykiety.pl##.metaslider
 czyztak.pl##.header__patronite
 dailyweb.pl##.promo-bar-box
@@ -5909,7 +5909,6 @@ github.com#?#h3:-abp-has(+ details > summary:only-child)
 gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
 global4net.com##.implementation-catalog
 globalna.info##.single-navigation[class*="post"]
-glossyme.eu,stylion.pl,tanbiu.pl###tm-widget-muskrat
 godanparty.pl##.shipping-info
 godealla.pl###top-offers, .hand
 godstoys.pl##.master-loading-overlay
@@ -5959,7 +5958,6 @@ hushaaabye.pl##.blog-pager-item
 i-apteka.pl,rolmarket.pl###menu_hotspot_zone3
 i-ekosystem.pl###wptime-plugin-preloader
 ican.pl###drawer_bar
-iexpert.pl,miadora.pl,tanbiu.pl,zenwire.eu##.tm-muskrat-container
 iglazura24.pl##.sold-item-popup
 iiyama-sklep.pl###foot-lastbought-button
 ilewazy.pl##.calculator-widget
