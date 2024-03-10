@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Sun, 10 Mar 2024, 22:10 UTC+01:00
-! Version: 2024.3.10.5
+! Last modified: Sun, 10 Mar 2024, 22:12 UTC+01:00
+! Version: 2024.3.10.6
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 10 mar 2024, 22:10 UTC+01:00
+! Aktualizacja: nie, 10 mar 2024, 22:12 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6566,7 +6566,6 @@ wordpress-wdrozenia.pl###loader-wrapper
 wpzen.pl###wpzen-article-box
 wronki.pl##.mVote
 wsse-poznan.pl###pwebbox216_toggler
-wszystko.pl##body:has(.wpl-header__right-side-container button) wpl-advert-bar:has(a[href*="register"])
 www.gazeta.pl##div[data-alias="weekend"]
 www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##a[href^="/search?"][href*="q="][href*="&uds="]:not([href*="&udm=2"]):not([href*="&tbm=isch"])
@@ -7055,8 +7054,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2024.3.10.0
-!@ Last modified: Sun, 10 Mar 2024, 19:50 UTC+01:00
+!@ Version: 2024.3.10.1
+!@ Last modified: Sun, 10 Mar 2024, 22:12 UTC+01:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -7067,7 +7066,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Copyright © 2023 Certyficate IT
 !@ Copyright © 2023 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2024.3.10.0 aktualizacja: nie, 10 mar 2024, 19:50 UTC+01:00
+!@ v.2024.3.10.1 aktualizacja: nie, 10 mar 2024, 22:12 UTC+01:00
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -7266,7 +7265,7 @@ apo-discounter.pl###landing_page_popup
 appgallery.huawei.com##.cookieBootom
 apra.pl,przegladlokalny.eu###popup-overlay
 apsdata.pl###alert
-aptekacud.pl,cenka.pl,flowerstory.pl,majstero.pl,medyczny.store,megakabel.pl###pdcookielaw
+aptekacud.pl,cenka.pl,flowerstory.pl,loknabok.pl,majstero.pl,medyczny.store,megakabel.pl###pdcookielaw
 aptekarski.com,media.pl.canalplus.com,prowly.com##.pr-cookie-policy
 aptekarzpolski.pl,opp-ostrow.pl###sgcolorbox.colorbox4
 aptekarzpolski.pl,opp-ostrow.pl##.sgcboxOverlayBg.sg-popup-overlay
@@ -7274,6 +7273,7 @@ arachnea.org##div.guestwarn
 aranzujemy.pl,kobieceporady.pl,kosmogadka.pl,przelewy24.pl,samouczek.info,spacex.com.pl##.gdpr
 arch.kpcen.pl###colorbox
 arch.kpcen.pl,laboratoria.net###cboxOverlay
+archicom.pl,bilety.transportgzm.pl,campery-zlotniccy.pl,galeriakatowicka.eu,sosnowiec.pl##.modal-cacsp-position
 archiconnect.pl,biznesmeblowy.pl,lazienka.pl,mamkuchnie.pl,meble.com.pl,najlepszedomy.pl###axn
 archiconnect.pl,dowozy.pl,e-kolo.pl,eszyneczka.pl,gieldarolna.pl,imgw.pl,jpd.com.pl,kanokajaki.pl,madlen.pl,mas-sport.pl,minecraft.org.pl,nastopy.pl.karpmax.pl,polskieradio.pl,pracownia.org.pl,ptbs.pl,robimytv.pl,terramar.pl,tubachorzowa.pl,tubagliwic.pl,tubamarek.pl,tubaostrowa.pl,tubawyszkowa.pl##.rodo
 architektura.info##.cookies-warning
@@ -7450,7 +7450,6 @@ bik.pl##.page-cookies-info, #cmsg
 bike-parts-honda.pl###cookieConsent
 bilera.pl,biurotech.net.pl,brewa.pl,dekavit.pl,jesienna.mediaprod.com.pl,kalisz.caritas.pl,lanko.pl,letniskowo.pl,opiekun.kalisz.pl,parafia-slupia.pl,parafiachynowa.pl,przp.pl,radiorodzina.kalisz.pl,technikum.kalisz.pl,tygodnikkepinski.pl##.module-abovebox[style^="position: fixed;"]
 bilety.arenazabrze.pl,bilety.arka.gdynia.pl,korona-kielce.pl##.cookie-notice-bin
-bilety.transportgzm.pl,campery-zlotniccy.pl,galeriakatowicka.eu,sosnowiec.pl##.modal-cacsp-position
 bilety.wok.walbrzych.pl###social
 bilka.com.pl##footer > div > #mod99
 billbook.com##app-cookies
@@ -8759,7 +8758,6 @@ loco.pl###privacyCurtain
 logistics.dhl##.c-cookie-disclaimer
 lokalna24.pl#?##jm-right .custom > table:-abp-contains(RODO)
 lokalnyrolnik.pl###cdk-overlay-0
-loknabok.pl###pdcookielaw.pdcookielaw
 lomianki.pl###splash
 lomzynska.com.pl##.c-cookie-alert
 londynek.net##.jd-rodo, .jd-rodo-2
