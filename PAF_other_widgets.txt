@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Wed, 06 Mar 2024, 16:30 UTC+01:00
-! Version: 2024.3.6.0
+! Last modified: Sun, 10 Mar 2024, 19:56 UTC+01:00
+! Version: 2024.3.10.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 06 mar 2024, 16:30 UTC+01:00
+! Aktualizacja: nie, 10 mar 2024, 19:56 UTC+01:00
 !
 !
 !
@@ -283,6 +283,7 @@ cybersport.pl##.pbox
 cyfra.eu###tws_s_100001
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
+czystyszop.pl,glossyme.eu,iexpert.pl,kids-trendy.pl,miadora.pl,sklepqueenfryz.pl,smakitucholi.sklep.pl,stylion.pl,tanbiu.pl,zenwire.eu##[id^="tm-widget-muskrat"]
 czytamyetykiety.pl##.metaslider
 czyztak.pl##.header__patronite
 dailyweb.pl##.promo-bar-box
@@ -296,6 +297,7 @@ dekavit.pl##.dekavit-kids-button
 dekordia.pl##.koszyk.right
 depilconcept.pl##.badge-voucher
 designconcept.pl#?##topbelka:-abp-contains(/[\w\W]{1,2}/)
+designhandles.com##.tvcms-prod-popup
 developer.mozilla.org##.mdn-cta-container.developer-needs
 devoxx.pl##.subscribers-position-right.subscribers-chicklet
 dietbox.pl##.get-app
@@ -472,7 +474,6 @@ github.com#?#h3:-abp-has(+ details > summary:only-child)
 gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
 global4net.com##.implementation-catalog
 globalna.info##.single-navigation[class*="post"]
-glossyme.eu,stylion.pl,tanbiu.pl###tm-widget-muskrat
 godanparty.pl##.shipping-info
 godealla.pl###top-offers, .hand
 godstoys.pl##.master-loading-overlay
@@ -522,7 +523,6 @@ hushaaabye.pl##.blog-pager-item
 i-apteka.pl,rolmarket.pl###menu_hotspot_zone3
 i-ekosystem.pl###wptime-plugin-preloader
 ican.pl###drawer_bar
-iexpert.pl,miadora.pl,tanbiu.pl,zenwire.eu##.tm-muskrat-container
 iglazura24.pl##.sold-item-popup
 iiyama-sklep.pl###foot-lastbought-button
 ilewazy.pl##.calculator-widget
@@ -671,8 +671,8 @@ marketbio.pl##.qon-product-stats
 marketbio.pl#?##fixedBottom:-abp-has(#prodInfoContainer,.prices, .information)
 marketerplus.pl##.animateMe.magazynframe, .openmagazyn
 marketingdlaludzi.pl##.case-study-box
-marwiz.pl##div.mx_zakladki:nth-of-type(10)
-marwiz.pl##div.mx_zakladki:nth-of-type(11)
+marwiz.pl##div.mx_zakladki a[href*="allegro.pl/"]
+marwiz.pl##div.mx_zakladki a[href*="Certyfikaty-sklepu"]
 materace-dla-ciebie.pl##.outlet-btn
 mateuszgrzesiak.com,mg-pmm.com##.fade, .loading-text
 matopat24.pl##.aks-about
