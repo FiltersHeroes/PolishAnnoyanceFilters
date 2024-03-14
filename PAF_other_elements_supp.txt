@@ -159,8 +159,9 @@ web.archive.org##dl > .date:style(width: auto !important; height: auto !importan
 web.archive.org##dl:has(> .date):style(width: auto !important; height: auto !important; clip: unset !important; display: inline-block !important)
 webowe.gadu-gadu.pl##body#webowe > #footer:style(position: static !important; padding: 20px 0; margin: auto !important)
 www.auchan.pl##img[height="40px"][src*="birdy"]:style(height: 40px !important)
-www.instalki.pl##:matches-media((max-width: 500px)) .blog .type-post .entry-header .entry-details, .archive .type-post .entry-header .entry-details:style(display: inline !important)
 www.instalki.pl##:matches-media((max-width: 500px)) .post-categories, .post-categories li:style(background: none !important; padding: 0; margin: 3px -5px; display: inline-flex)
+www.instalki.pl##:matches-media((max-width: 500px)) :is(.blog, .archive) .type-post .entry-header .entry-details .sponsored-label
+www.instalki.pl##:matches-media((max-width: 500px)) :is(.blog, .archive) .type-post .entry-header .entry-details :style(display: inline !important)
 www.youtube.com##:matches-media((min-width: 1500px) and (max-width: 2000px)) [page-subtype="home"] ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important)
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row, ytd-browse[page-subtype="home"] #contents.ytd-rich-grid-row:style(display:contents !important)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
@@ -205,9 +206,6 @@ youtube.com##html:not([dark]) #guide-inner-content:style(scrollbar-color: #000 #
 youtube.com##html[dark] #guide-inner-content:style(scrollbar-color: #999 #9990 !important)
 !#endif
 !#if !ext_ublock
-!allegro.pl#$?#@media (min-width: 1200px) { #search-results div[data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> button) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
-!allegro.pl#$?#@media (min-width: 1200px) { #search-results:has(div[data-analytics-view-label="BETTER_SORT_APPLIED"]) { margin-top: 90px !important } }
-!allegro.pl#$?#@media all and (min-width: 1200px) { #search-results div[data-analytics-view-label="BETTER_SORT_APPLIED"]:has(> div > button) { position: absolute !important; z-index: 2147483647 !important; top: 240px !important; background: white !important; } }
 #$#.buttonHomepage { remove: true; }
 #$#.containerHomepage { remove: true; }
 #@#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -216,8 +214,9 @@ karachan.org$$script[wildcard="style*xD"][min-length="100"]
 komputerswiat.pl$$[id="ks_breaking_news"]
 pacjent.gov.pl#@#:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
 wbgroup.pl#@#:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important)
-www.instalki.pl#$#@media (max-width: 500px) { .blog .type-post .entry-header .entry-details, .archive .type-post .entry-header .entry-details { display: inline !important } }
 www.instalki.pl#$#@media (max-width: 500px) { .post-categories, .post-categories li { background: none !important; padding: 0; margin: 3px -5px; display: inline-flex } }
+www.instalki.pl#$#@media (max-width: 500px) { :is(.blog, .archive) .type-post .entry-header .entry-details .sponsored-label { display: none !important } }
+www.instalki.pl#$#@media (max-width: 500px) { :is(.blog, .archive) .type-post .entry-header .entry-details { display: inline !important } }
 www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) > #contents:first-child { max-width: unset !important; }
 www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) ytd-rich-grid-media { max-width: unset !important; }
 www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-rich-item-renderer[style="display: none !important;"]) { --ytd-rich-grid-items-per-row: 1 !important; }
