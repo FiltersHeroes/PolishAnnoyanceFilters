@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 14 Mar 2024, 21:31 UTC+01:00
-! Version: 2024.3.14.0
+! Last modified: Fri, 15 Mar 2024, 17:31 UTC+01:00
+! Version: 2024.3.15.0
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 14 mar 2024, 21:31 UTC+01:00
+! Aktualizacja: pią, 15 mar 2024, 17:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2426,6 +2426,7 @@ digitalcamerapolska.pl,fotopolis.pl##.big-popup-wrap
 dipol.com.pl###g-modal-pos, #g-overlay-wrap
 diversesystem.com###dvrs-newsletter-popup-body
 diversesystem.com###newsletter-popup-overlay
+dlapacjenta.pl##.bhr-iframe-holder--custom
 dluta.pl###fx-modal-3
 dobredomy.pl###pop_promocja
 dobremiejsce.org,haart.pl,serialowy.info##.wph-modal
@@ -5471,6 +5472,7 @@ pl##.quickcontact-box
 ||cdngr.pl/assets/gratka/*/promoButton.css$stylesheet
 ||crafted.pl/uploads/gwiazdki/*.gif$image
 ||datapremiery.pl/scripts/libs/snowstorm-min.js$script
+||dlapacjenta.pl/img/banner/*$image
 ||finochelm.pl/images/olx-ico.png
 ||gfx.dlastudenta.pl/v3/tpl/dm.png
 ||images.fm.tuba.pl/tuba3/_js/plugin.min.js$domain=junior.sport.pl|polskabiega.sport.pl
