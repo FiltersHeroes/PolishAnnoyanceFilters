@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 10 Mar 2024, 19:56 UTC+01:00
-! Version: 2024.3.10.0
+! Last modified: Sun, 17 Mar 2024, 20:30 UTC+01:00
+! Version: 2024.3.17.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 10 mar 2024, 19:56 UTC+01:00
+! Aktualizacja: nie, 17 mar 2024, 20:30 UTC+01:00
 !
 !
 !
@@ -1725,6 +1725,7 @@ up8.com##.b-footer_nsltr, .b-infoBox_newsletterInner
 upacjenta.pl##.newsletter-wp
 upominki24.pl##.footer-container > div > .row > div[class]:nth-of-type(4)
 urbancity.pl##.box2
+urbancity.pl#?#footer .row .text-center:-abp-has([class*="-newsletter"])
 urbnews.pl##.sb-widget:nth-of-type(4)
 usg.com.pl###panel2
 ustolema.pl##td:first-of-type > div > div:nth-of-type(3)
