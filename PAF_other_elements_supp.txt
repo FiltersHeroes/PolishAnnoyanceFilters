@@ -210,9 +210,14 @@ youtube.com##html[dark] #guide-inner-content:style(scrollbar-color: #999 #9990 !
 #$#.containerHomepage { remove: true; }
 #@#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
 #@?#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
+cda.pl#@#a[href*="dla-dzieci"] span[style]:remove-attr(style)
+embed.reddit.com#@#a:has(shreddit-player):remove-attr(href)
+embed.reddit.com#@#shreddit-player:remove-attr(autoplay)
 karachan.org$$script[wildcard="style*xD"][min-length="100"]
 komputerswiat.pl$$[id="ks_breaking_news"]
 pacjent.gov.pl#@#:matches-media((max-width: 639px)) footer picture source[srcset="/sites/default/files/2019-08/unia-europejska-mobile_0.svg"]:remove()
+pl#@#.header.header--smart-banner-visible:remove-class(header--smart-banner-visible)
+poczta.o2.pl,poczta.wp.pl#@#:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
 wbgroup.pl#@#:matches-media((max-width: 999px)) header > .Header-content:style(display: flex !important)
 www.instalki.pl#$#@media (max-width: 500px) { .post-categories, .post-categories li { background: none !important; padding: 0; margin: 3px -5px; display: inline-flex } }
 www.instalki.pl#$#@media (max-width: 500px) { :is(.blog, .archive) .type-post .entry-header .entry-details .sponsored-label { display: none !important } }
