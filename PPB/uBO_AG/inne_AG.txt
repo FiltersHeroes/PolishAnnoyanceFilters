@@ -1,3 +1,8 @@
+cda.pl#@#a[href*="dla-dzieci"] span[style]:remove-attr(style)
+embed.reddit.com#@#a:has(shreddit-player):remove-attr(href)
+embed.reddit.com#@#shreddit-player:remove-attr(autoplay)
+pl#@#.header.header--smart-banner-visible:remove-class(header--smart-banner-visible)
+poczta.o2.pl,poczta.wp.pl#@#:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
 #$#.buttonHomepage { remove: true; }
 #$#.containerHomepage { remove: true; }
 #@#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
