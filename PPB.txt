@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego działania wymagana jest lista lub rozszerzenie I don't care about cookies!
 ! Expires: 2 days
-! Last modified: Thu, 04 Apr 2024, 17:30 UTC+02:00
-! Version: 2024.4.4.0
+! Last modified: Thu, 04 Apr 2024, 20:40 UTC+02:00
+! Version: 2024.4.4.1
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
 !   Formularz (nie wymaga rejestracji) => https://polishannoyancefilters.netlify.app/issues
@@ -15,7 +15,7 @@
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 04 kwi 2024, 17:30 UTC+02:00
+! Aktualizacja: czw, 04 kwi 2024, 20:40 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -454,8 +454,6 @@ digikids.pl##.vc_col-sm-3.vc_column_container.wpb_column:nth-of-type(3)
 dimedic.eu,listymikolaja.pl##.r-newsletter
 direct-sender.com###section-8 > .container > .row > div.col-lg-6:first-of-type
 dji-ars.pl###newsletter-bottom-banner
-dlabydgoszczy.pl##footer > div > .row > .form-inline
-dlabydgoszczy.pl##footer > div > .row > .text-left:nth-of-type(5) > h4
 dlabystrzakow.pl##.footer-form-newsletter
 dlh.pl##.footer_left_newsletter
 dobiegania.pl##.superMailing
@@ -1083,7 +1081,6 @@ mp.pl##.box-newsletter-pacjent
 mpk.poznan.pl##.rnd.module:nth-of-type(4)
 mr-fix.pl##.six
 mragowo.pl##div[class*="footer"] > .container > .row[class*="footer"] > div:nth-of-type(4)
-mrowka24.eu###block_newsletter_footer
 multiform.pl###mainContact .writeToUs
 muratorplus.pl##.right > form > button
 muve.pl##.newsl-box
@@ -3200,7 +3197,7 @@ pl##body:not(.x13popup-open) #x13popup-cover
 /snr-sw.js$script,domain=mediaexpert.pl|pl.kruk.eu
 /sw-push.js$script,domain=m.zapytaj.onet.pl|medonet.pl
 /sw-rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
-/sw.js$domain=adaware.com|kinoseans.pl|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl
+/sw.js$domain=adaware.com|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl
 @@/sw.js$domain=youtube.com
 ||cdn.*.com/push_app.js$script,domain=2conv.com|flv2mp3.by|flvto.biz
 ||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
@@ -3402,10 +3399,9 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 ||turek.net.pl/js/default/scroll_to_top.js
 ||tvpolsat.info/infusions/ui_top_button_panel/js/jquery.ui.totop.js
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
-2x45.info,agro-hurt.eu,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
 3dom.pro,agrosam.eu,alget.pl,antbs.co.uk,domator24.com,harposoftware.com,laroxy.com,odszewca.pl,opakowania24.eu,swiatroslin.eu##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com,zyjzdrowo.info###to-top
-3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,eipro.de,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowosci-mp3.eu,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com###toTop
+3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,eipro.de,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com###toTop
 4funkids.pl###scroll_up
 4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,malygeniusz.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu,www.livescore.in###scroll-to-top
 6paknutrition.com,aparatsluchowy.com,e-sonido.pl,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
@@ -3441,7 +3437,8 @@ agrarius.eu,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatrust.ro,niez
 agricom.pl##.bd-backtotop-5
 agriculture.newholland.com,ipa-katowice.org,lakiernictwo.net,medianarodowe.com,porozmawiajmy.tv,pulawy.eu,roztocze.net,swiatopon.info###gototop
 agro-eko.com.pl##.scrollIcon
-agro-factory2.eu,amfetamina.promo,choinkisztuczne.com,diavolo-meble.eu,historiasportu.info,laptopy24h.com,linkhouse.co,medbestshop.eu,mywspieramy.org,ostrzegamy.online,pomaranczowa.eu,ponadograniczeniami.org,skup-laptopow.com,stsublimacja.org##.et_pb_scroll_top
+agro-factory2.eu,amfetamina.promo,diavolo-meble.eu,historiasportu.info,laptopy24h.com,linkhouse.co,medbestshop.eu,mywspieramy.org,ostrzegamy.online,pomaranczowa.eu,ponadograniczeniami.org,skup-laptopow.com,stsublimacja.org##.et_pb_scroll_top
+agro-hurt.eu,decoratorium.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiadmin.ru,pl.delfi.lt,satservice.co.uk,sciezkimojegoswiata.com###scrollUp
 agroas.pl##.to-the-top-link
 agrofakt.pl##.go-down
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
@@ -3560,7 +3557,7 @@ benler.pl,lenovogaming.pl,lento.pl,restaurantguru.com###scroller
 beskidy.news,intimissimi.com,nawa.gov.pl,powiatslubicki.pl##.js-scroll-top
 bettingexpert.com,florini.pl##.slideInUp
 bezbiku.info,dolnyslask.travel,niebieski.net,planetamarvel.net,silvermet.eu###wpfront-scroll-top-container
-bezpiecznapodroz.org,jogapiekna.com,szczodrymarket.com,termyszaflary.com,witanet.net###go-top
+bezpiecznapodroz.org,jogapiekna.com,termyszaflary.com,witanet.net###go-top
 bibleserver.com##.bs-app__scroll-top-btn
 biblioteka-jablonna.eu,e-sano.pl,eurofirany.com.pl,retrolab.pl,sklep.stokrotka.pl###go_up
 bibliotekarium.pl,halonet.pl,poettinger.at,rutkowscy.pl##.icon-angle-up
@@ -3575,7 +3572,7 @@ biura-rachunkowe.waw.pl,biznesfinder.pl,e-goods.pl,pomysly-na.pl,swiat-uslug.pl,
 biurowazszywka.pl##.ast-scroll-top-icon
 biznesomania.com.pl,igomedia.pl,notebooki.pl##.goto-top
 biznesplan.net.pl##.ta_upscr
-blasty.pl,chamskie.pl,hulaka.pl###widget-back-to-top
+blasty.pl,hulaka.pl###widget-back-to-top
 blix.pl##.rewindTopButton.footer__rewind-button
 blizejciebie.pl##.quicknav-to-top
 blog.bloomboard.co##.go-to-top-wrap
@@ -3676,7 +3673,6 @@ decathlon.pl###messagetop
 deccoria.pl##.dc-action-scroll-page
 decoliving.pl,intymna.pl,ohso.pl##.ftop1
 deezee.pl##.is-scrollToTopContainer
-dekoracjascian.com,lightinthebox.com,opensolution.org,technisat.com###backToTop
 denso.com##.Pagetop
 dentalmedicenter.pl,jackvision.pl,mapsolutions.pl###to_the_top
 deon.pl,muzarp.poznan.pl,tupowstalapolska.pl##.strzalka
@@ -3750,7 +3746,6 @@ enowiny.pl,mobileworld24.pl##.mnmd-go-top
 epoqum.io,mettosport.eu,opieka.farm,simplyyourself.online###ast-scroll-top
 erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,starachowice-net.pl,wdrodze.pl,yellow.place###up
 erkado.pl##.skip--top
-es.lubuskie.pl##.page-up-button
 esdorado.com,pm-m.pl,rolmarket.pl,zniczeadam.pl###scrollTopButton
 eset.com##.footer-scroll-to-top-wrapper
 esparto.pl##.clb-scroll-top
@@ -3968,6 +3963,7 @@ lgensol.pl##.footer-up
 liderlamp.pl,podatki.gov.pl###scrollDown
 lidl.pl##.n-footer__button__scroll__top
 lidl.pl##.n-navigation__button__scroll__top
+lightinthebox.com,opensolution.org,technisat.com###backToTop
 lightonline.pl##.returnTop
 lilio.pl,lumex.pl,www.biedronka.pl##.arrow-top
 limango.pl###footer-container ~ div[class*="shop"][style]
@@ -4799,7 +4795,6 @@ decathlon.pl,eltrox.pl,globtroter.pl,gomez.pl,renee.pl###yourcx_blk
 deccomeble.pl##[href="http://www.deccomeble.pl/kontakt"]
 decoliving.pl###swifttagdatacontaineraha9azkq59 > div > .hide_on_mobile
 decoraliki.pl###sideTab
-dekoracjascian.com,pep.pl##.quick-contact
 dekordia.pl##.info.left.fixed-module
 delikatesylosos.pl###arlsf-notification
 dentalmedicenter.pl,mapsolutions.pl,stomatolog-smile.pl##.show_callback_icon
@@ -5130,6 +5125,7 @@ pbgorski.pl##.call-back
 pbkm.pl##.side-bar__item--phone
 pccentre.pl###zak_error
 pcprojekt.pl##.knowledgebase-slide-btn, .whyus-tab
+pep.pl##.quick-contact
 pepper.pl##button[data-t^="shareOn"][data-t*="Whatsapp"], button[data-t^="shareOn"][data-t*="Messenger"]
 perfectblue.pl,twojcel.to###message-purchased
 perfekcyjnawdomu.pl##.joinchat
@@ -5462,9 +5458,9 @@ pl##.quickcontact-box
 !
 !
 ! Inne elementy
-/js/jquery.nicescroll.js$script,domain=2x45.info|akademiabambino.pl|kolczewska.pl|komp-net.eu|sklep.audiopunkt.com.pl
+/js/jquery.nicescroll.js$script,domain=akademiabambino.pl|kolczewska.pl|komp-net.eu|sklep.audiopunkt.com.pl
 /js/jquery.nicescroll.min.js$script,domain=doniczki-poznan.pl|podrogach.pl|sercedlazwierzat.pl
-/js/jquery.nicescroll.plus.js$script,domain=2x45.info|doniczki-poznan.pl
+/js/jquery.nicescroll.plus.js$script,domain=doniczki-poznan.pl
 /js/jquery.simplr.smoothscroll.min.js$script,domain=agmarprzewozy.pl
 /js/nicescroll-init.js$script,domain=podrogach.pl|sercedlazwierzat.pl
 /js/nicescroll.js$script,domain=ovovita.pl
