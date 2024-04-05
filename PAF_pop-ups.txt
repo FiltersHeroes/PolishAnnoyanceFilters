@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 04 Apr 2024, 20:40 UTC+02:00
-! Version: 2024.4.4.1
+! Last modified: Fri, 05 Apr 2024, 14:31 UTC+02:00
+! Version: 2024.4.5.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 04 kwi 2024, 20:40 UTC+02:00
+! Aktualizacja: pią, 05 kwi 2024, 14:31 UTC+02:00
 !
 !
 !
@@ -21,8 +21,8 @@
 !@ >>>>>>>> popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 /assets/application-$script,domain=ask.fm
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
-/compress/popupFacebook.js$domain=chamskie.pl|motywujemy24.pl
-/compress/popups/popupFacebook_normal.css$domain=chamskie.pl|motywujemy24.pl
+/compress/popupFacebook.js$domain=motywujemy24.pl
+/compress/popups/popupFacebook_normal.css$domain=motywujemy24.pl
 /css/jquery.fancybox.css$domain=fakro.pl|modrzewiowy-dwor.pl
 /js/jquery/plugins/fancybox/jquery.fancybox.js$domain=grawerton.pl|virgobooks.pl
 /js/popup.js$domain=grawitacyjny.pl|meblohaus.pl|mediaexpert.pl|multikurs.pl|slimebox.pl
@@ -731,7 +731,6 @@ nova.edu.pl###popup_overlay, #popup_content
 nowafarmacja.pl###newsletter-overlay, #freshmail-form
 nowakonfederacja.pl###imagePopUp, #overlayPopUp
 nowakonfederacja.pl##.qookies
-nowosci-mp3.eu###pop-slap, .bg-pop-over
 nowymarketing.pl###overlay-campaign
 nportal.no###fb-overlay
 obi.pl##.open.ankieta
