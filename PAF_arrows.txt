@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Thu, 04 Apr 2024, 20:40 UTC+02:00
-! Version: 2024.4.4.0
+! Last modified: Sun, 07 Apr 2024, 16:45 UTC+02:00
+! Version: 2024.4.7.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 04 kwi 2024, 20:40 UTC+02:00
+! Aktualizacja: nie, 07 kwi 2024, 16:45 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -39,11 +39,9 @@
 6paknutrition.com,aparatsluchowy.com,e-sonido.pl,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
 24hurt.pl,haftpasja.pl,mirjan24.pl,pm-m.pl,polagriparts.pl,uczyibawi.pl###wt_scroll_top
 50style.pl,agatameble.pl,e-timberland.pl,galeriamarek.pl,sklep.sizeer.com,vobis.pl###js-scrollTop
-51.75.43.155,aforyzmy-cytaty.pl###topBtn
 80dni.pl###backtotop_wpv
 123tlumacz.pl,reklamy-arek.pl###back-to-top-fixed
-51015kids.eu##.js--scroll-to-top
-51015kids.eu##div:nth-of-type(22)
+51015kids.eu##div[suppresshydrationwarning] div[class=""] button[type="button"][class]
 a1komputery.pl,fundacjadominikana.org,wp-piast.pl,wspkorczak.eu##.sp-totop
 abonamenty.pl,agripel.pl,felixcom.net,lulek.tv,magicznyswiatksiazki.pl,naszekluski.pl,wszystkookotach.pl###scrollup
 acer.com##.btn--btt
@@ -60,6 +58,7 @@ adwokatgabrysiak.pl,hebo.com.pl,ikapol.net,planeta-budowlana.pl,rolkom.net,wycze
 aeg.pl,electrolux.pl,zanussi.pl##.navigate-to-top
 aeromixer.eu,audience.netsprint.eu,karta.piaseczno.eu,pl.mirakulin.com###scroll-top-link
 afgmarket.pl##.button-sticky-top
+aforyzmy-cytaty.pl###topBtn
 aftermarket.pl###scroll-bottom
 aga-toma.pl##.pow_start
 agkoperty.com.pl,eurobit.pl,komlogo.pl###totop-scroller
@@ -500,7 +499,7 @@ igimag.pl##.up-square
 ikc.pl##.ak-back-top
 ikea.com###btn-back-to-top
 industriehof.com,sportisimo.pl###jumptop
-info-tips.de,medion.com,morfikov.github.io,onlinevideoconverter.com,pcsupport.lenovo.com,support.lenovo.com##.back-to-top
+info-tips.de,medion.com,morfikov.github.io,onlinevideoconverter.com,pcsupport.lenovo.com,sklepmedyczny.com,support.lenovo.com##.back-to-top
 infoaudio.pl,infomusic.pl,obiektyspa.com###slideup
 infolinia.info.pl,memento.com.pl,mpolski.pl,pense.pl##.arrow
 infoplanet.pl##.goup-container
@@ -869,7 +868,6 @@ sklep.korbanek.pl##.scrollToTopBtn
 sklep.lemoniade.pl##.btn-up-page
 sklep.panasonic.pl##.btn-go-top
 sklepjubilerski.com##app-scroll-to-top
-sklepmedyczny.com##.iconn-arrow_up.back-to-top
 sklepyinfo.pl##.direction-top.fixed-action-btn
 skrzynie.com.pl###wsa_button_up
 skutecznie.tv##.to_the_top
