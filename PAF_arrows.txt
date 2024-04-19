@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 07 Apr 2024, 16:45 UTC+02:00
-! Version: 2024.4.7.0
+! Last modified: Fri, 19 Apr 2024, 17:30 UTC+02:00
+! Version: 2024.4.19.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 07 kwi 2024, 16:45 UTC+02:00
+! Aktualizacja: pią, 19 kwi 2024, 17:30 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -34,7 +34,7 @@
 3dom.pro,agrosam.eu,alget.pl,antbs.co.uk,domator24.com,harposoftware.com,laroxy.com,odszewca.pl,opakowania24.eu,swiatroslin.eu##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com,zyjzdrowo.info###to-top
 3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,eipro.de,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com###toTop
-4funkids.pl###scroll_up
+4funkids.pl,mri-lab.pl###scroll_up
 4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,malygeniusz.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu,www.livescore.in###scroll-to-top
 6paknutrition.com,aparatsluchowy.com,e-sonido.pl,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
 24hurt.pl,haftpasja.pl,mirjan24.pl,pm-m.pl,polagriparts.pl,uczyibawi.pl###wt_scroll_top
@@ -169,7 +169,7 @@ avaro.pl,kontri.pl###arrow_top
 avast.com###slide-top
 axeprim.eu,brytol.com,gdanskstrefa.com,ochrona24.info,placesandplants.com,posbistro.com,rrs24.net,skawina.eu,sp18.lublin.eu,sportdziennik.com,sportowiec.info,stalmielec.com,swiebodzice.info,targowek.info,tarnobrzeg.info,techno-senior.com,wachtyrz.eu,wiskitki.org,zs12lublin.eu###scroll-up
 axtechnology.pl##.show_scroll
-b2b.metal-bud.eu,bat.pl,esklep.agroas.pl,hmb.pl,sklep.elus.pl,wisko.eu##.go-to-top-ui
+b2b.metal-bud.eu,bat.pl,esklep.agroas.pl,hmb.pl,mak24h.pl,sklep.elus.pl,wisko.eu##.go-to-top-ui
 b2btrade.eu##.back-to-top-arrow
 b2net.pl,elus.pl,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl,telefon.info.pl##a#top
 baborow.pl###btn-totop
@@ -588,7 +588,7 @@ lechia.net###gkBackToTop
 leclerc-online.pl,leclerc.com.pl,leclerckatowice24.pl,santanderconsumer.pl,truck1-pl.com,www.rp.pl,zakupy-eleclerc.pl##.arrow-to-top
 legalnakultura.pl,mojaniderlandia.pl,mojanorwegia.pl,trol.pl###goUp
 legalniewsieci.pl##.float-news-nav
-lenovo.com##.backToTop
+lenovo.com,pl.remington-europe.com##.backToTop
 lfspareparts724.pl##.up.move, .down.move
 lgensol.pl##.footer-up
 liderlamp.pl,podatki.gov.pl###scrollDown
@@ -775,6 +775,7 @@ plejada.pl###goback
 poczta.gazeta.pl##button[title="Wróć na początek strony"]
 pod24.info###ybscrollup
 podforak.rzeszow.pl##.nav-up
+polaridad.es,promenada.com,radiofon.fm##.scroll-up
 polkurier.pl##.mouse
 polona.pl,skycash.com##.js-to-top
 polot.net##.plane-to-top
@@ -802,7 +803,6 @@ prestizowakuchnia.pl###page-scroll-up
 profinamiot.pl,puma.com##.back-to-top-button
 profitroom.pl##.arrow-back-to-top
 programyzadarmo.net.pl,xboxforum.pl##.js-scrollButtons
-promenada.com,radiofon.fm##.scroll-up
 prosportowy.pl###rb-back-top
 proveg.com##.back-to-inner
 przedszkoledzierzgon.pl###btn-scroll-up
@@ -916,6 +916,7 @@ the-first.pl###side_social_icons > ul > li:first-of-type
 thebodyshop.pl###back_top
 thermomix.vorwerk.pl,worldoftanks.eu##.button-top
 tiktok.com##div[class*="VideoDetailContainer"] ~ div[class*="Bottom"] button[class*="IconContainer"]
+tintadlaplastykow.pl###arrowScroll
 tme.eu##.o-arrow-up__wrapper
 tor-konferencje.pl##.tk-goto-top
 toshiba.semicon-storage.com##.dt_pagetop
