@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Thu, 04 Apr 2024, 20:40 UTC+02:00
-! Version: 2024.4.4.0
+! Last modified: Sun, 21 Apr 2024, 17:30 UTC+02:00
+! Version: 2024.4.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 04 kwi 2024, 20:40 UTC+02:00
+! Aktualizacja: nie, 21 kwi 2024, 17:30 UTC+02:00
 !
 !
 !
@@ -79,6 +79,7 @@ eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-banner
 folk24.pl###pushFooter
 gazetkonosz.pl##.floating-dialog
 homebook.pl###qgraphFakePromptContainer
+investmap.pl#?#main > div > div:-abp-has(> a[href*="opinie"] + button) + div:-abp-contains(obserwuj)
 kupbilecik.pl###btn-notification
 m.zapytaj.onet.pl,zapytaj.onet.pl##.notification-widget
 mbank.pl###push-message
