@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 25 Apr 2024, 17:30 UTC+02:00
-! Version: 2024.4.25.0
+! Last modified: Sat, 27 Apr 2024, 17:30 UTC+02:00
+! Version: 2024.4.27.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 25 kwi 2024, 17:30 UTC+02:00
+! Aktualizacja: sob, 27 kwi 2024, 17:30 UTC+02:00
 !
 !
 !
@@ -840,6 +840,7 @@ pakamera.pl###carcont
 pakamera.pl###stats
 pakerzy.org##.ads2
 pakomarket.pl,sloikwiedzy.pl##.storefront-product-pagination
+panel.paypo.pl#?#noscript ~ noscript ~ div#application > div[class^="sc-"]:-abp-contains(Aplikacja Paypo)
 papajohns.pl###ingridients-fix
 papierowo.pl###contant-widget
 paranormalne.pl##.mobile_banner_inner
@@ -848,6 +849,7 @@ parenting.pl,portal.abczdrowie.pl##.morealike__recomended
 parkwodny.pl##.fixed-text, .dl-bubble
 partneragdrtv.com.pl###js-sis_menu
 pasazer.com##.fixed-search-tabs
+paypo.pl##div.mobile-app-bar
 paypo.pl##div[class*="MobileAppBanner-"]
 pcworld.pl###newsmore
 pep.pl##.work-offers
