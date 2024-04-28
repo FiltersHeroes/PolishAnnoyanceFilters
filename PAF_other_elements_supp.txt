@@ -1,8 +1,6 @@
 ! Codename: Other Elements - Supplement
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
-!www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row > #contents, ytd-browse[page-subtype="home"] ytd-rich-grid-row ytd-rich-grid-media:style(max-width: unset !important)
-!www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row:style(--ytd-rich-grid-items-per-row: 1 !important)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -32,6 +30,7 @@ budujemydom.pl##.magazyn-label .m-okladka:style(bottom: 0 !important)
 budujemydom.pl##.magazyn-label:style(position:static !important)
 build.opensuse.org##.flash-and-announcement:style(position: static !important; z-index: 10 !important)
 canva.com##section[class] ~ div[class] > div[class] > div[class]:matches-css(position: sticky)
+castorama.pl##+js(set-local-storage-item, tool-tip-header-visibility, false)
 cda.pl##a[href*="dla-dzieci"] span[style]:remove-attr(style)
 cdn.ampproject.org,reddit.com##.XPromoPill
 cdn.ampproject.org,reddit.com##body.scroll-disabled:style(overflow: auto !important; position: static !important)
@@ -166,6 +165,7 @@ www.youtube.com##:matches-media((min-width: 1500px) and (max-width: 2000px)) [pa
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row, ytd-browse[page-subtype="home"] #contents.ytd-rich-grid-row:style(display:contents !important)
 zalando.pl##.js_z-mask-smartbanner.z-mask-smartbanner
 zalando.pl##html[style*="margin-top"]:style(margin-top: 0 !important)
+zamowienia.lajtmobile.pl##.StepTwo__content--containers .el-form-item__content .el-input__inner:style(text-transform: unset !important)
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
 zapytaj.onet.pl##.profile-actions > .music
 znaki.edu.pl##+js(aeld, keydown, ssc_keydown)
