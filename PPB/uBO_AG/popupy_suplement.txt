@@ -186,7 +186,6 @@ gazetkonosz.pl###subscribeModal, .modal-backdrop
 gromada.pl##.fancybox-overlay-fixed
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
 hejto.pl##+js(set-cookie, homepage-dialog, 1)
-kwit.pl##+js(set-cookie, no-postal, true)
 hejto.pl##.ReactModalPortal:has(> div.ReactModal__Overlay > div#RegisterDialog)
 husse.pl###fancybox-container-1
 husse.pl,royalpark.pl##body.fancybox-active:style(overflow: auto !important)
@@ -232,6 +231,7 @@ koty.pl,psy.pl##html[style], body[class*="Modal"]:style(position: static !import
 kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
 kurspolskiego.pl###banner, .modal-backdrop
 kurspolskiego.pl##.modal-open[class] div#main:style(filter: none !important)
+kwit.pl##+js(set-cookie, no-postal, true)
 lalorraine.pl,mypersonaltrainer.pl,sw-rita.pl,wishbone.pl##html:style(overflow: auto !important)
 lalorraine.pl,sw-rita.pl##.sg-popup-overlay, .sgpb-popup-dialog-main-div-wrapper
 lancerto.com##.modals-wrapper:has(.popup-newsletter)
