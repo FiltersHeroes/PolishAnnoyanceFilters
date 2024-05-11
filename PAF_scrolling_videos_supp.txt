@@ -42,7 +42,7 @@ wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !import
 ~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .sticky[id^="Player"]:not(.floating), .randomplayer--floating[id*="player"] > div[class*="wrap"]:style(visibility: hidden !important)
 !#endif
 !#if !env_firefox
-/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$removeparam=autoplay,domain=pl
+/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$frame,redirect=click2load.html,domain=pl|~wykop.pl
 ://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~mbank.pl|~stooq.com|~stooq.pl,permissions=autoplay=()
 !#endif
 !#if !ext_ublock
