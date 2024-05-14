@@ -1,4 +1,5 @@
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
+depositphotos.com##button[aria-label="Do góry"]
 3dom.pro,agrosam.eu,alget.pl,antbs.co.uk,domator24.com,harposoftware.com,laroxy.com,odszewca.pl,opakowania24.eu,swiatroslin.eu##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com,zyjzdrowo.info###to-top
 3i-store.com,agro-bis.eu,aleokulary.com,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,eipro.de,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com###toTop
@@ -328,7 +329,8 @@ edgard.pl,pmsocho.com##.x-scroll-top
 edukacjafarmaceutyczna.pl,edukacjamedyczna.pl,forumneurologiczne.pl,forumpediatryczne.pl,forumstomatologiczne.pl,psychiatria.pl###pageUp
 edukatorek.pl###scroll-top-img
 eelsner24.eu###moveTop
-eko-asklepios.pl,forum.trojmiasto.pl,ithardware.pl##.go_top
+eko-asklepios.pl,forum.trojmiasto.pl##.go_top
+ithardware.pl##.btnScrollToTop
 ekrak.pl###zltop
 eksiegarnia.mnk.pl,mojepodlogi.com,renee.pl##.scroll__top
 ekspedyt.org###sbttBacktotop
@@ -781,8 +783,7 @@ przelewy24.pl##.bottom-zero
 przemyskie.info##.fixed-action-btn .btn-floating
 psychowiedza.com,smartlean.pl###cesis_to_top
 puck.naszemiasto.pl###kotwica
-pyszne.pl##button[data-qa="scroll-top"]
-pyszne.pl##div[data-qa="scroll-top"]
+pyszne.pl##[data-qa="scroll-top"]:is(button, div)
 pzlsedziszow.pl##.scroll-top-wr
 quercus.co##.scroll-back-to-top-wrapper
 r-gol.com##.go__top
