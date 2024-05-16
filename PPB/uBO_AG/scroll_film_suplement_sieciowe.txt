@@ -1,2 +1,2 @@
-/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$frame,redirect=click2load.html,domain=pl|~wykop.pl
+!/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$frame,redirect=click2load.html,domain=pl|~wykop.pl
 ://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~mbank.pl|~stooq.com|~stooq.pl,permissions=autoplay=()
