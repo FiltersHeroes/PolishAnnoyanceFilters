@@ -309,7 +309,7 @@ myloview.pl,redro.pl##body.dialog_open:style(overflow: auto !important)
 mypersonaltrainer.pl##.popup-container
 mytrendyphone.pl##div[id^="om-holder-campaign-"].om-holder-fixed.om-holder
 mytrendyphone.pl##html[style*="overflow"], body[style*="overflow"]:style(overflow: auto !important)
-ncez.pl,panel.kei.pl,rego-bis.pl,wificalling-volte.pl,zadowolenie.pl##.modal-backdrop
+ncez.pl,ogladajanime.pl,panel.kei.pl,rego-bis.pl,wificalling-volte.pl,zadowolenie.pl##.modal-backdrop
 new.reddit.com,www.reddit.com###SHORTCUT_FOCUSABLE_DIV > div > div[class*=" "]:has(> div[role="dialog"][aria-modal]:empty)
 new.reddit.com,www.reddit.com##body[data-previous-overflow][style^="overflow:"]:style(overflow: auto !important; margin-right: 0 !important)
 newsweek.pl##.tp-modal-open:style(overflow: auto !important)
@@ -328,6 +328,9 @@ nowyrp.pl##html.remodal-is-locked:style(overflow: auto !important)
 oaza-palmy.pl##.fancybox-overlay:has(.modulesden-newsletter)
 obk.pl##.yith-opened:style(overflow: auto !important)
 obk.pl##.yith-popup, .yithpopup_overlay
+ogladajanime.pl##+js(set-cookie, discord, true)
+ogladajanime.pl##.bootbox-confirm.bootbox:has(a[href*="discord.gg/"])
+ogladajanime.pl##.modal-open[class]:style(overflow: auto !important)
 onedaymore.pl###js-modal-info.modal-info, .modal-backdrop
 oneplus.com##.auto-subscribe-dialog, .auto-subscribe-tip
 oneplus.com##body.dialog-lock:style(position: unset !important)
@@ -472,6 +475,9 @@ stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !importa
 stradivarius.com###sidebar-component
 stylowamoda.pl###pum-4908
 swederm.com###welcome-screen.welcome-screen
+swiatksiazki.pl##.NewsletterPopup
+swiatksiazki.pl##html.scrollDisabled:remove-class(.scrollDisabled)
+swiatksiazki.pl##html.scrollDisabled[class]:style(position: static !important; overflow: auto !important)
 syngenta.pl###colorbox, #cboxOverlay
 syngenta.pl##body[style*="overflow:"]:style(overflow: auto !important)
 szlachetneinwestycje.pl###shop-modal.modal, .modal-backdrop
