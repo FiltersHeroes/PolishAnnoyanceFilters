@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 16 May 2024, 14:31 UTC+02:00
-! Version: 2024.5.16.0
+! Last modified: Sat, 18 May 2024, 15:46 UTC+02:00
+! Version: 2024.5.18.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 16 maj 2024, 14:31 UTC+02:00
+! Aktualizacja: sob, 18 maj 2024, 15:46 UTC+02:00
 !
 !
 !
@@ -427,6 +427,7 @@ edusklep.pl,tanienurkowanie.pl##.mf-modal-iframe, .mf-modal-overlay
 effective-english.pl###fm_popup_1
 eitalia.pl###facebox, #facebox_overlay
 ekodrogeria.pl##.fancybox-overlay, .fancybox-wrap
+ekogram.pl,natural.pl,shop-dent.pl,woliniusz.pl,zenox.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
 ekologia.pl##.parent-nlr, .parent-promote
 ekopolka.pl###pop-up
 ekskluzywna.pl,tuszedodrukarki.pl,tv-zakupy.pl###pp1
@@ -711,7 +712,6 @@ nabory.kprm.gov.pl##.popup-newsletter
 naekranie.pl###welcome_screen-content
 najlepszebuty.com.pl##.pp-wrapper, .pp-overlay
 naszeledy.pl##.modal, .mask
-natural.pl,shop-dent.pl,woliniusz.pl,zenox.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
 naturbio.pl###rm_pop_up_entry
 nawado.pl##.inc_optin_1.inc_opt_popup
 nawado.pl##.inc_optin_1.wpoi-overlay-mask
@@ -963,7 +963,6 @@ swiat-szkla.pl##.jqmWindow
 swiatbaterii.pl##.baner3
 swiatdronow.cupsell.pl###shop_newsletter, .simplemodal-overlay
 swiatkierowcy.pl###max
-swiatksiazki.pl##.NewsletterPopup_isVisible.NewsletterPopup.Popup_isVisible.Popup
 systim.pl###pop2
 szkolycelne.infoserwis.elk.pl###scyscraper
 sztuka-architektury.pl###newsletter_info
