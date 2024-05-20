@@ -1383,7 +1383,8 @@ rolserwis.pl###newslett
 romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rosenthal.pl##.st_news_letter_1
-rossmann.pl##.join-nsl
+rossmann.pl#?#hr ~ section > div > div:first-child > div:first-child > .h3:-abp-contains(newsletter)
+rossmann.pl#?#hr ~ section > div > div:first-child > div:first-child > .h3:-abp-contains(newsletter) ~ *
 rovus.pl##.footer-lower div.links:nth-of-type(4)
 royal-dental.pl##.s__newsletter
 rozterkistartuperki.pl##.mab-pad
