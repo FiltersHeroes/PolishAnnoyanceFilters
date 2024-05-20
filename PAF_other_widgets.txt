@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 16 May 2024, 12:10 UTC+02:00
-! Version: 2024.5.16.0
+! Last modified: Mon, 20 May 2024, 21:44 UTC+02:00
+! Version: 2024.5.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 16 maj 2024, 12:10 UTC+02:00
+! Aktualizacja: pon, 20 maj 2024, 21:44 UTC+02:00
 !
 !
 !
@@ -948,8 +948,7 @@ rolmax-sklep.pl###index-banner
 rootblog.pl###main > .cs-site-content ~ .cs-nextpost-inner, #main > .cs-site-content ~ .cs-nextpost-inner + .cs-nextpost-loading
 rosarosie.iai-shop.com,zapachyswiata.eu###tws_s_0
 rosebelle.pl##.page-loader
-rossmann.pl##div[id*="_next"] > section:has(> div > a[href="https://rossmann.page.link/smart-banner"])
-rossmann.pl##section[class*="layout-anim_"]
+rossmann.pl###__next > section.block:has(> section > a[href*="/smart-banner"])
 rowery-elektryczne.pl###b2b-link, #download-catalogue
 rozprza.info###useronline-count
 roztocze.net###guzik_edukacja2
