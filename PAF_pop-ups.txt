@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 18 May 2024, 15:46 UTC+02:00
-! Version: 2024.5.18.0
+! Last modified: Mon, 20 May 2024, 21:44 UTC+02:00
+! Version: 2024.5.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 18 maj 2024, 15:46 UTC+02:00
+! Aktualizacja: pon, 20 maj 2024, 21:44 UTC+02:00
 !
 !
 !
@@ -107,7 +107,6 @@
 ||prohibita.pl/addons/welcome/welcome.js
 ||proto.pl/popup_newsletter/settings
 ||regus.pl/Home/OnExitModal$xmlhttprequest
-||rossmann.pl/DesktopModules/RossmannV4Modules/FreeDeliveryPopup/Js/bundle.js
 ||salaterka.pl/wp-content/plugins/optin-cat-personal-wp/assets/vendor/featherlight/release/featherlight.min.js
 ||sat-charts.eu/js/fcbkpopup.js
 ||sklep.jack-wolfskin.pl/*/js/newsletter-modal-
@@ -129,6 +128,7 @@
 ||znak.com.pl/popupNewsletter$xmlhttprequest
 !@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!rossmann.pl###webPush, .webpush
 2drink.pl,imperiumromanum.edu.pl,mirafaber.pl,olagosciniak.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
@@ -872,7 +872,6 @@ rivieraparkmarvipol.pl##.fastcall_popup
 rms.pl##.sj-popup-container
 robojet.pl###modal_home_page, .modal-backdrop
 rosenthal.pl###cac_popup_tlo, #cac_popup_obr
-rossmann.pl###webPush, .webpush
 rovicky.eu###toplayer_newsletter
 royalcanin.pl###popOverlay
 royalcollection.pl##.newsletter-popup-fancy
