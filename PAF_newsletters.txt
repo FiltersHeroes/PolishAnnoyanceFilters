@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 11 May 2024, 21:17 UTC+02:00
-! Version: 2024.5.11.0
+! Last modified: Mon, 20 May 2024, 21:30 UTC+02:00
+! Version: 2024.5.20.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 11 maj 2024, 21:17 UTC+02:00
+! Aktualizacja: pon, 20 maj 2024, 21:30 UTC+02:00
 !
 !
 !
@@ -1443,7 +1443,8 @@ rolserwis.pl###newslett
 romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rosenthal.pl##.st_news_letter_1
-rossmann.pl##.join-nsl
+rossmann.pl#?#hr ~ section > div > div:first-child > div:first-child > .h3:-abp-contains(newsletter)
+rossmann.pl#?#hr ~ section > div > div:first-child > div:first-child > .h3:-abp-contains(newsletter) ~ *
 rovus.pl##.footer-lower div.links:nth-of-type(4)
 royal-dental.pl##.s__newsletter
 rozterkistartuperki.pl##.mab-pad
