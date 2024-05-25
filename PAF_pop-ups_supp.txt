@@ -379,7 +379,7 @@ play.pl##.mobile-map-list .contact-us-modal, .mobile-map-list > .page-wrapper::b
 play.pl##.modal-open[class] > .mobile-map-list:style(overflow: auto !important)
 player.pl###nscorepop-wrapper, #nscorepop-content
 player.pl##+js(ra, style, body[style*="overflow"], stay)
-player.pl##body[style*="overflow"]:style(overflow: auto !important)
+player.pl,sportowefakty.wp.pl##body[style*="overflow"]:style(overflow: auto !important)
 playstation.com##+js(acis, $, PopupManager)
 pmsocho.com##.cp-custom-viewport, .cp-oveflow-hidden, .cp-window-viewport:style(overflow: auto !important)
 pmsocho.com##.cp-webinar-container.cp-modal-popup-container.cp-module
@@ -463,6 +463,7 @@ sofine.pl##+js(nosiif, popcount, 1000)
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 spidersweb.pl##html:style(overflow: auto !important; margin-right: 0 !important)
+sportowefakty.wp.pl##.modal:has-text(Już uciekasz?)
 sprawnymarketing.pl###pop_facebook
 sprawnymarketing.pl##.blur:style(filter: none !important)
 sprawyzdrowia.pl##+js(nostif, i(), 3000)
