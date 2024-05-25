@@ -1,5 +1,3 @@
-sportowefakty.wp.pl##.modal:has-text(Już uciekasz?)
-sportowefakty.wp.pl##body[style*="overflow"]:style(overflow: auto !important)
 !rossmann.pl##body.modal-open[class] > div[tabindex][style^="position:"] > div > .modal:has(> .modal-news)
 !rossmann.pl##body.modal-open[class] > div[tabindex][style^="position:"] > div > .modal:has(> .modal-news) + .modal-backdrop
 99rent.pl##.invpopup
@@ -428,6 +426,8 @@ sofine.pl##+js(nosiif, popcount, 1000)
 solven.pl###dontGoModal, .modal-backdrop
 spidersweb.pl##.mfp-ready:has(.popoup-content)
 spidersweb.pl##html:style(overflow: auto !important; margin-right: 0 !important)
+sportowefakty.wp.pl##.modal:has-text(Już uciekasz?)
+sportowefakty.wp.pl##body[style*="overflow"]:style(overflow: auto !important)
 sprawyzdrowia.pl##+js(nostif, i(), 3000)
 spyshop.pl##+js(acis, $, #popUp)
 stacjaeksperta.pl##.no-scroll body:style(overflow: auto !important)
