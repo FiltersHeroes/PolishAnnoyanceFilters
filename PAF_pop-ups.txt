@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 25 May 2024, 20:30 UTC+02:00
-! Version: 2024.5.25.1
+! Last modified: Sat, 25 May 2024, 21:30 UTC+02:00
+! Version: 2024.5.25.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 25 maj 2024, 20:30 UTC+02:00
+! Aktualizacja: sob, 25 maj 2024, 21:30 UTC+02:00
 !
 !
 !
@@ -359,6 +359,8 @@ csk.szczecin.pl##.in.bootbox-confirm.modal.bootbox
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl###popupModal, .modal-backdrop
 cyberfolks.pl,drzwi-cal.pl###ue_widget
 czasnawnetrze.pl,mlodytechnik.pl,zielonyogrodek.pl##.mod_avt_alert
+czysklepyczynne.pl##a[data-target="#modalSubscribeForm"]:not(.btn)
+czysklepyczynne.pl#?##footer.page-footer > .text-center:-abp-has(a.btn[data-target="#modalSubscribeForm"])
 dabrowa-gornicza.pl##.pop-up-visit
 dabrowka.com.pl##.popup-hld--startpage
 dachyb2b.pl,instalacjeb2b.pl,oknaidrzwib2b.pl,przegrodyb2b.pl,wykanczanieb2b.pl###newsletter-subscription
