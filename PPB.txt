@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Mon, 27 May 2024, 22:31 UTC+02:00
-! Version: 2024.5.27.1
+! Last modified: Tue, 28 May 2024, 02:31 UTC+02:00
+! Version: 2024.5.28.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 27 maj 2024, 22:31 UTC+02:00
+! Aktualizacja: wto, 28 maj 2024, 02:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -81,7 +81,7 @@
 365dowolnosci.pl###getall_widget-3
 abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 ac.com.pl##.form-group
-action.com##footer > section:first-child > div
+action.com##footer div[data-testid="newsletter-section"]
 active.fibrain.pl##.newsletterWithFacebook
 active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
 activejet.pl##.newsletterBanner
@@ -1840,6 +1840,7 @@ www.auchan.pl##.footer-newsletter-block > * > * > *
 www.dzienniknowy.pl##.mb-4.extended
 www.fotouslugi.pl##.cw_newsletter
 www.galeriehandlowe.pl##.newsletter-box-blue-big
+www.kik.pl##.grid-layout .fields:has(a[href*="firma.kik.pl/newsletter-subscribe?"])
 www.kinnarps.pl##.js__hubspot-form.signup-block
 www.lenovo.com##.m-footerSignUp
 www.lidl.pl##.footer__flap
@@ -2181,9 +2182,9 @@ pl,~znak.com.pl##.newsletter-container
 2drink.pl,imperiumromanum.edu.pl,mirafaber.pl,olagosciniak.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
-6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,matopat24.pl,medonetmarket.pl,porta.com.pl###bhr-items .bhr-image-popup-container
-6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,matopat24.pl,medonetmarket.pl,porta.com.pl#?##bhr-items .bhr-popup-advanced:-abp-has(iframe[src*="salesmanago.pl/"])
-6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,matopat24.pl,medonetmarket.pl,porta.com.pl#?##bhr-items .bhr-popup-basic:-abp-has(iframe[src*="salesmanago.pl/"])
+6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,matopat24.pl,medonetmarket.pl,porta.com.pl,sympatia.onet.pl###bhr-items .bhr-image-popup-container
+6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,matopat24.pl,medonetmarket.pl,porta.com.pl,sympatia.onet.pl#?##bhr-items .bhr-popup-advanced:-abp-has(iframe[src*="salesmanago.pl/"])
+6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,matopat24.pl,medonetmarket.pl,porta.com.pl,sympatia.onet.pl#?##bhr-items .bhr-popup-basic:-abp-has(iframe[src*="salesmanago.pl/"])
 9c.com.pl,agagrzelak.pl,ledco.pl,sklepdlalekarza.com,tendina.pl,warsztatogrodnika.pl###iqitpopup, #iqitpopup-overlay
 24hurt.pl##.wt-popup, #overlay
 29aleja.pl##.popupWrap
@@ -3923,6 +3924,7 @@ katowice.kwpsp.gov.pl###go-to-up
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
 kierunekfarmacja.pl###top_layer
+kik.pl##button[aria-label="Scroll up"]
 kimjestesmy.lidl.pl##.nuc-m-to-top-button
 kind.com##.AP_obj-top-button
 kioxia.com##.icon-top
