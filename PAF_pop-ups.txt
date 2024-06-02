@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 28 May 2024, 02:31 UTC+02:00
-! Version: 2024.5.28.0
+! Last modified: Sun, 02 Jun 2024, 12:39 UTC+02:00
+! Version: 2024.6.2.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 28 maj 2024, 02:31 UTC+02:00
+! Aktualizacja: nie, 02 cze 2024, 12:39 UTC+02:00
 !
 !
 !
@@ -292,13 +292,14 @@ bodyland.pl,hairstore.pl###newsletter-lightbox-holder
 boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,portalwloclawek.pl,radiobonton.pl,regatv.pl,rolnik.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,wagner-polska.com.pl##.toplayer
 bolix.pl,pushpushgo.com###ebook-popup
 bonprix.pl,dragonmask.pl,dziergaczkowo.pl,virtualo.pl,walizkazabawek.pl,webcamera.pl##body:not(.modal-open) .newsletter-modal, .modal-backdrop
-born2be.pl,helios.pl,neo24.pl,neonet.pl,renee.pl##.snrs-modal-wrapper
+born2be.pl,butysportowe.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl##.snrs-modal-wrapper
 braclowiecka.pl##div[id^="lepopup-popup"]
 brandpro.pl###mc_embed_signup
 brandpro.pl##.fancybox-skin
 brilu.pl,chefstore.pl##.popup__overlay
 brodatyzbir.pl##.adp-popup
 brodrene.eu###news_popup, #tlo_bg
+brw.pl##.snrs-modal-wrapper:has([title="ZAPISZ SIĘ TERAZ"])
 brylove.pl,mokosh.pl###popupWindow
 bs.skoczow.pl###window[ng-controller="myInfo"]
 bspruszczgd.pl##.sPopup, .sPopup__mask
@@ -307,7 +308,6 @@ btlstomatologia.pl###widget-19, .widget-dark-background2
 budujemydom.pl###byebye
 budujemydom.pl,prenumerata.ruch.com.pl##.modal-wrapper
 butymarkowe.pl###pop_up_module
-butysportowe.pl##div.snrs-modal-wrapper.snrs-modal-show:nth-child(3)
 bwfelix.pl###tp-popup
 byann.pl,domisad.pl,feriogaj.com,tpi.com.pl##.popup-overlay
 byinsomnia.com,goshico.com,hitobuwie.pl,miyomakeup.com###esns_background_layer
@@ -667,7 +667,6 @@ media-tech.eu,polskimarket.de,vanitysklep.pl###rc_window_squeeze
 media-tech.eu,vanitysklep.pl###OverlayContainer_rcw
 mediaexpert.pl##.is-exit-popup
 mediaexpert.pl##.precart
-mediaexpert.pl##[id^="popup-"] > .snrs-modal-wrapper
 mediaexpert.pl#?#.dynamic-modal:-abp-has(h2:-abp-contains(mogą Cię zainteresować))
 medicenter.pl###formillaFacebookPopupContainer, #formillaModalBackground
 medonet.pl##.haloDoctorPopup, .pushNotifiPopup
