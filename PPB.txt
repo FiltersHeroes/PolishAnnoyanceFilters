@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Thu, 13 Jun 2024, 14:31 UTC+02:00
-! Version: 2024.6.13.0
+! Last modified: Sat, 15 Jun 2024, 18:31 UTC+02:00
+! Version: 2024.6.15.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 13 cze 2024, 14:31 UTC+02:00
+! Aktualizacja: sob, 15 cze 2024, 18:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -165,7 +165,7 @@ antykwariatlibra.pl##.cms_newsletter_form
 antyweb.pl##.email.btn-tools
 apartamentywkarpaczu.eu##.site-footer__email
 apetete.pl##.footer__block__payment.footer__block > .footer_container
-apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mumla.pl,obuwiestyl.pl,pakomat.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,sklep.dalimex.pl,studiohifi.pl,topsecret.pl,trzymajsiecieplo.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,znak.com.pl,zycierolnika.pl##.newsletter
+apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mumla.pl,obuwiestyl.pl,pakomat.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,sklep.dalimex.pl,studiohifi.pl,topsecret.pl,trzymajsiecieplo.pl,urbangames.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,znak.com.pl,zycierolnika.pl##.newsletter
 apollo.pl##.newsletter-block-container
 apptoyou.pl##.row.flex.bubble-r-container.CustomElement.bubble-element > .row.flex.bubble-r-container.Group.bubble-element > div.column.flex.bubble-r-container.Group.bubble-element:nth-of-type(2) > .column.flex.bubble-r-container.Group.bubble-element
 apshop24.eu,paperlovers.pl###newsletter-bar
@@ -1490,6 +1490,7 @@ silesion.pl##.pageFooter__newsletter
 sinsay.com##.home-ss20-newsletter
 sipma.pl###newslet
 site-call.pl##.wpc-subcribe .form-subscribe
+skalnik.pl##.newsletter_content.footer
 skionline.pl##.boks_tytul_out_cp:nth-of-type(3)
 skionline.pl##.boks_tytul_out_cs, .okno_gl_s > .boks
 skionline.pl##td:nth-of-type(2) > .boks:nth-of-type(3) > tbody
@@ -1749,6 +1750,7 @@ verdykt.pl##.contact.item
 vertedrzwi.eu##.newsletter_fixed_button
 vezzi.pl##.box-newsletter-lp
 vichy.pl###exposeMask
+vichy.pl##.footer-content > .newsletter
 victoria-niemodlin.pl##div.box_margin:nth-of-type(2)
 vidart.com.pl##.moduletableacy-email-footer
 vidaxl.pl##.newsletter-item
@@ -3416,6 +3418,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 4funkids.pl,mri-lab.pl###scroll_up
 4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,malygeniusz.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu,www.livescore.in###scroll-to-top
 6paknutrition.com,aparatsluchowy.com,e-sonido.pl,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
+7box.eu###btnScrollTo
 24hurt.pl,haftpasja.pl,mirjan24.pl,pm-m.pl,polagriparts.pl,uczyibawi.pl###wt_scroll_top
 50style.pl,agatameble.pl,e-timberland.pl,galeriamarek.pl,sklep.sizeer.com,vobis.pl###js-scrollTop
 80dni.pl###backtotop_wpv
@@ -4151,6 +4154,7 @@ pl.chili.com###returnTop
 pl.depositphotos.com##.top-button-wrapper
 pl.hisense.com###pageNavCorner_top
 pl.msi.com##[title="Go to top"][onclick="topFunction()"]
+pl.promocodie.com##.mgotop
 pl.trip.com##.mod-back-top-block
 placek.katowice.pl,rol-mech.pl###hs-back-top
 planetasportu.com,slodkiehobby.pl##.right > .return
@@ -4667,6 +4671,7 @@ allegro.pl###chatPlugin
 allekurier.pl##.send-help-fixed-div
 allekurier.pl,brewa.pl,iautomatyka.pl###chatContentHolder
 almatur.pl###telefondiv
+alsen.pl##.thulium-chat-frame-wrapper
 alx.pl##.zadaj-szybkie-pytanie
 amart.pl,marketubezpieczen.eu,wysylajtaniej.pl##.sugester-chat
 amazone.pl##.c-btn-contact
