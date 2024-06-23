@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sat, 15 Jun 2024, 18:31 UTC+02:00
-! Version: 2024.6.15.0
+! Last modified: Sun, 23 Jun 2024, 22:19 UTC+02:00
+! Version: 2024.6.23.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 15 cze 2024, 18:31 UTC+02:00
+! Aktualizacja: nie, 23 cze 2024, 22:19 UTC+02:00
 !
 !
 !
@@ -68,6 +68,7 @@
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
+##a[aria-label="Udostępnij w WhatsApp"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl###fb-root:lang(pl)
 ~pl##.c-messenger-share:lang(pl)
@@ -81,6 +82,7 @@
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
 123drukuj.pl###fc_widget
 123tlumacz.pl,adra.pl,espritshop.pl,przetargi.info###feedback
+303avenue.pl###shopify-chat #ShopifyChat.needsclick
 1944.pl###rasaWebchatPro
 51015kids.eu###custom_trustbadge
 aaaauto.pl###site-bottom-bar-content > .smoothbox
