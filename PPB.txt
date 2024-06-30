@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Fri, 28 Jun 2024, 17:30 UTC+02:00
-! Version: 2024.6.28.1
+! Last modified: Sun, 30 Jun 2024, 02:31 UTC+02:00
+! Version: 2024.6.30.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 28 cze 2024, 17:30 UTC+02:00
+! Aktualizacja: nie, 30 cze 2024, 02:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -71,6 +71,8 @@
 9c.com.pl##footer .col-md-auto.col-12
 9design.pl##.top_newsletter
 24hurt.pl##.row > .col-md-12
+24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,tarnowskiegory.info,zabrzenews.pl##.invitation-newsletter
+24kato.pl,24zaglebie.pl,bytomski.pl,chorzowski.pl,glivice.pl,ngs24.pl,nowinytyskie.pl,piekary.info,rudzianin.pl,tarnowskiegory.info,zabrzenews.pl##.logo-bar__right > form > .newsletter-form__input
 24pr.pl##center > input, td:nth-of-type(2) > input, #carrington-subscribe > h3
 50style.pl##.footer-item-wide
 85.128.114.72,gkn.pl###lewa > .box_newsletter
@@ -2848,6 +2850,7 @@ pirbinstytut.pl##.sj-popup-container, .sj_newletter_popup
 pitax.pl###popupZbieraj
 piterparts.pl##.banner-special-fixed
 pityver.pl###LayerExit
+pl##.socializer-messenger-pop
 pl.aleteia.org##.newsletter-popups
 pl.geofumadas.com,webmastah.pl##.ulp-window, .ulp-overlay
 pl.kronospan-express.com###modalWindowCMSubscribes, .iziModal-overlay
@@ -3563,7 +3566,7 @@ badamydzieci.pl,bor-met.eu,imagene.me,polcovid.pl,zakpol.eu###smoothup
 balex.eu,budujemywuk.co.uk,pgm-chorzow.eu,polska.travel,powiatowa.info,radioznin.fm,sokolka.tv,tvnakarte.eu,zsckr.rzemien.eu###jm-back-top
 balterio.com,pergo.pl##.c-top
 bartfan.eu,hairytale.eu,mo.pl,serwiskachniarz.pl,tajfuny.pl##.aux-goto-top-btn
-bartyla.pl,biblioteka.bydgoszcz.pl,damskie.eu,holisticclinic.pl,jakpicwhisky.pl,kompleksowausluga.pl##.trx_addons_scroll_to_top
+bartyla.pl,biblioteka.bydgoszcz.pl,damskie.eu,holisticclinic.pl,jakpicwhisky.pl,kompleksowausluga.pl,nova-stomatologia.pl##.trx_addons_scroll_to_top
 baza-firm.com.pl###goTopArrow
 bdb.com.pl###powrotBT
 bekoczesci.pl###tbScrollToTop
@@ -5148,6 +5151,7 @@ orange.pl#@##OPLWCI
 oszczedzarka.co.uk##.textwidget > p > img[src="/img/ico/skype.png"]
 outside.com.pl##.bonfire-slideout-button
 ox.pl##.contact-with-office
+pancernik.eu###arcontactus
 panekcs.pl###module-293\#3-0-0
 panmaterac.pl###call-container-floating
 panmaterac.pl###lhc_container_v2
@@ -5169,8 +5173,10 @@ picodi.com###oneSignalBell, #onesignal-bell-container
 pikio.pl###chatBot
 pityver.pl###widget.tada.widget
 pl###fb-root
+pl###wwwa.wwwa--widget.wwwa
 pl##.c-messenger-share
 pl##.sm-panel .sm-messenger
+pl##.socializer-whatsapp
 pl##.x13socialfixed_links a[href*="/m.me/"]
 pl##.x13socialfixed_links a[href*="/wa.me/"]
 pl##.x13socialfixed_links a[href*="skype:"]
