@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 30 Jun 2024, 22:21 UTC+02:00
-! Version: 2024.6.30.1
+! Last modified: Wed, 03 Jul 2024, 14:31 UTC+02:00
+! Version: 2024.7.3.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 30 cze 2024, 22:21 UTC+02:00
+! Aktualizacja: śro, 03 lip 2024, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3559,6 +3559,7 @@ avaro.pl,kontri.pl###arrow_top
 avast.com###slide-top
 axeprim.eu,brytol.com,gdanskstrefa.com,ochrona24.info,placesandplants.com,posbistro.com,rrs24.net,skawina.eu,sp18.lublin.eu,sportdziennik.com,sportowiec.info,stalmielec.com,swiebodzice.info,targowek.info,tarnobrzeg.info,techno-senior.com,wachtyrz.eu,wiskitki.org,zs12lublin.eu###scroll-up
 axtechnology.pl##.show_scroll
+b2b.fen.pl##.rollup
 b2b.metal-bud.eu,bat.pl,esklep.agroas.pl,hmb.pl,mak24h.pl,sklep.elus.pl,wisko.eu##.go-to-top-ui
 b2btrade.eu##.back-to-top-arrow
 b2net.pl,elus.pl,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl,telefon.info.pl##a#top
@@ -4001,6 +4002,7 @@ linuxiarze.pl##.fa-chevron-up
 littleforest.pl##.smoothscroll
 littlelights.pl##.btn-backtotop
 littletownshoes.com##.penci-go-to-top-floating
+lot.com,polaridad.es,promenada.com,radiofon.fm##.scroll-up
 lotnisko-chopina.pl###btn_back_top, .scroll.btn_up
 lubimyczytac.pl###js-btn-scroll-top.btn-scroll-up
 lubliniec.starostwo.gov.pl##.przycisk_dogory2
@@ -4177,7 +4179,6 @@ poczta.gazeta.pl##button[title="Wróć na początek strony"]
 pod24.info###ybscrollup
 podforak.rzeszow.pl##.nav-up
 pogoda.interia.pl##.service-lift
-polaridad.es,promenada.com,radiofon.fm##.scroll-up
 polkurier.pl##.mouse
 polona.pl,skycash.com##.js-to-top
 polot.net##.plane-to-top
@@ -5153,6 +5154,7 @@ oszczedzarka.co.uk##.textwidget > p > img[src="/img/ico/skype.png"]
 outside.com.pl##.bonfire-slideout-button
 ox.pl##.contact-with-office
 pancernik.eu###arcontactus
+pancernik.eu##.arcu-message-button
 panekcs.pl###module-293\#3-0-0
 panmaterac.pl###call-container-floating
 panmaterac.pl###lhc_container_v2
