@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Thu, 11 Jul 2024, 17:30 UTC+02:00
-! Version: 2024.7.11.0
+! Last modified: Sat, 13 Jul 2024, 14:31 UTC+02:00
+! Version: 2024.7.13.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 11 lip 2024, 17:30 UTC+02:00
+! Aktualizacja: sob, 13 lip 2024, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1018,8 +1018,7 @@ med-store.pl##.tlo_news
 media-tech.eu##.footer-container > .container-fluid > .row > div:nth-child(4)
 media.ing.pl##div.column:nth-of-type(3) .footer-section-text, div.column:nth-of-type(3) .footer-section-text + div
 mediaarena.pl###fx-newsletter-freshmail
-mediaexpert.pl##.layout:not([class*="landing" i]) #section_newsletter
-mediamarkt.pl##.b-header_metaItem:nth-of-type(3), .m-newsletterBox
+mediaexpert.pl###section-newsletter, .m-newsletterBox
 medianarodowe.com##.widget_radium_newsletter
 mediarun.com,siecprzedsiebiorczychkobiet.pl##.vc_row-has-fill
 medicover.pl##.block-footer-menu-1 > .unbulleted.poziom1 > li:nth-of-type(4), .reg15
@@ -6188,8 +6187,7 @@ meblohurt.eu###box_slider_3
 meblohurt.eu,sklep.hultajpolski.pl###MX_hotinfo
 meblosfera.pl##.wp-side-menu-item:nth-of-type(n+2):nth-of-type(-n+4)
 media2.pl###news-readmore, #news-suggest
-mediaexpert.pl##.bottomrightbanner.snrs-modal
-mediaexpert.pl##.dynamic-social-proof
+mediaexpert.pl##.is-visible.inteliwise-loader
 mediarun.com##.jeg_popup_post
 mediasystem-tdi.pl##.right.ltr.a11y-toolbar
 medme.pl##.back-button
