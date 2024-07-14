@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Mon, 08 Jul 2024, 21:30 UTC+02:00
-! Version: 2024.7.8.0
+! Last modified: Sun, 14 Jul 2024, 20:24 UTC+02:00
+! Version: 2024.7.14.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 08 lip 2024, 21:30 UTC+02:00
+! Aktualizacja: nie, 14 lip 2024, 20:24 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -320,6 +320,7 @@ dietetyczne-przepisy.net,dziekanka.net###slide_top
 digi-store.pl,techsat24.pl###buttonTop
 digitalvirgo.com,extrabukiet.pl,forum.budujemydom.pl,lispol.com##.fa-arrow-circle-up
 digitalx.pl,drzwi-dabs.pl,hauerpower.com,interaktywnie.com##.scroll-top-arrow
+directfloor.pl,infolinia.info.pl,memento.com.pl,mpolski.pl,pense.pl##.arrow
 disco-polo.info,meizupolska.pl##.toup
 dobramine.com##.to_top_link
 docs.github.com##footer button[class*="scroll-to-top"]
@@ -508,7 +509,6 @@ ikea.com###btn-back-to-top
 industriehof.com,sportisimo.pl###jumptop
 info-tips.de,medion.com,morfikov.github.io,onlinevideoconverter.com,pcsupport.lenovo.com,sklepmedyczny.com,support.lenovo.com##.back-to-top
 infoaudio.pl,infomusic.pl,obiektyspa.com###slideup
-infolinia.info.pl,memento.com.pl,mpolski.pl,pense.pl##.arrow
 infoplanet.pl##.goup-container
 infores.net###icon-mobile-scroll-top
 informacjakredytowa.com###move-to-top
@@ -1039,10 +1039,12 @@ zszywka.pl###scroolToTop
 ##footer ~ div.arrow-top
 ##footer ~ div.js-up.up
 ~deweloper-interes.pl,pl###back_to_top
-~dietazliscia.pl,~foodtura.pl,pl##.scroll-up:not(body):not(html):not(nav)
+~dietazliscia.pl,~foodtura.pl,pl##a.scroll-up
+~dietazliscia.pl,~foodtura.pl,pl##button.scroll-up
 ~douglas.pl,pl##.scroll-top:not(body):not(html)
 ~ifirma.pl,pl##.dogory
-~mediaexpert.pl,~mediamarkt.pl,pl##.scroll-down:not(body):not(html)
+~mediaexpert.pl,~mediamarkt.pl,pl##a.scroll-down
+~mediaexpert.pl,~mediamarkt.pl,pl##button.scroll-down
 ~obi.pl,pl##.scrollup:not(body):not(html)
 ~pl###back-to-top:lang(pl)
 ~pl###back-top:lang(pl)
