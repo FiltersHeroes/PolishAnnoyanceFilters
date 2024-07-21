@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 21 Jul 2024, 14:31 UTC+02:00
-! Version: 2024.7.21.0
+! Last modified: Sun, 21 Jul 2024, 19:47 UTC+02:00
+! Version: 2024.7.21.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 21 lip 2024, 14:31 UTC+02:00
+! Aktualizacja: nie, 21 lip 2024, 19:47 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1350,6 +1350,8 @@ portalkryminalny.pl##footer > .container > div.row:nth-of-type(2) > div:nth-last
 portalkryminalny.pl##h3:nth-of-type(11), .moduletable:nth-of-type(11)
 portalpszczelarski.pl##.element.col-3-7
 portalsamorzadowy.pl,wnp.pl##.news-box
+portalspozywczy.pl##.newsletter .head
+portalspozywczy.pl##.newsletter .head + ul
 portalspozywczy.pl##.newsletter > .pageWidth > span:first-of-type
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(6)
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(6)
@@ -3424,7 +3426,7 @@ pl##div.miniature.onnetworkplayercontainer > div.alwplayer
 3i-store.com,agro-bis.eu,aleokulary.com,all.biz,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,eipro.de,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszekielce.com,naszesprawy.eu,nieidealnaanna.com,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com###toTop
 4funkids.pl,mri-lab.pl###scroll_up
 4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,malygeniusz.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu,www.livescore.in###scroll-to-top
-6paknutrition.com,aparatsluchowy.com,e-sonido.pl,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
+6paknutrition.com,aparatsluchowy.com,e-sonido.pl,oneorganic.eu,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
 7box.eu###btnScrollTo
 24hurt.pl,haftpasja.pl,mirjan24.pl,pm-m.pl,polagriparts.pl,uczyibawi.pl###wt_scroll_top
 50style.pl,agatameble.pl,e-timberland.pl,galeriamarek.pl,sklep.sizeer.com,vobis.pl###js-scrollTop
@@ -3464,7 +3466,7 @@ agrofakt.pl##.go-down
 agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scroll_mini
 agrohandel.com.pl,dietlux.pl,eljacht.pl,opgj.pl,pruszczgdanski.pl,resztamamy.pl,shindaiwa.pl,smart-power.pl##.tm-totop-scroller
 agrohandler.pl,betterland.pl,porcja.eu,strefaucznia.pl,swiece-zaplonowe.pl###to_top_wrap
-agrojd.com,audioservice.com,chelmski.eu,dobresystemy.eu,domnowoczesny.com,dronefilmfestival.eu,empik.com,esklep.brandvital.eu,fantasy.ekstraklasa.org,fuchs.com,hakpol.info,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,nowy-sacz.info,nprofit.net,pk-invest.eu,pl.ecco.com,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com,widex.com##.scroll-to-top
+agrojd.com,audioservice.com,chelmski.eu,dobresystemy.eu,domnowoczesny.com,dronefilmfestival.eu,empik.com,esklep.brandvital.eu,fantasy.ekstraklasa.org,fuchs.com,hakpol.info,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,nowy-sacz.info,nprofit.net,pk-invest.eu,pl.ecco.com,polski-supermarket.de,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com,widex.com##.scroll-to-top
 agromasa.com,fonepaw.com,fotostori.es,koscian.net,neway.mobi##.totop
 agromer.pl##.page-top-button
 agroperfekt.pl,czemarol.pl,kunert.com.pl,naturio.eu,radiator-service.pl,rolmaszbien.pl,smolnik.com.pl,terfolbis.pl##.gotoup
@@ -4407,6 +4409,7 @@ xiaomi.eu##.button--scroll
 yara.pl###backToTopButton
 zakupersi.com##.atbs-ceris-go-top
 zalando.pl##.backToTopButton
+zalando.pl##main ~ button:has(span + i[role="presentation"][aria-hidden="true"])
 zalecane.pl##.g1-teaser
 zaufane-apteki.pl###btn-scroll-top
 zbudujforme.com.pl##.cmsmasters_theme_icon_slide_top
@@ -5584,6 +5587,7 @@ pl##.quickcontact-box
 a-manada.pl##.banners.paralaxa-banners
 a-manada.pl,aptekamanada.pl,manada.pl##.banner-link
 aaaauto.pl##.noprint.careerLink
+abcapteka.pl##footer .menu_button_wrapper + .menu_button_wrapper:has(a[class=""])
 aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 adra.pl##.fanimani-widget-floatbanner
 afgcomputers.pl###menu3bar
@@ -5797,6 +5801,7 @@ defence24.pl##.header-bottom-link-widget
 dekavit.pl##.dekavit-kids-button
 dekordia.pl##.koszyk.right
 depilconcept.pl##.badge-voucher
+deporvillage.pl##.SponsoredPromobanner_container-mobile__ONn_V
 designconcept.pl#?##topbelka:-abp-contains(/[\w\W]{1,2}/)
 designhandles.com##.tvcms-prod-popup
 developer.mozilla.org##.mdn-cta-container.developer-needs
@@ -5805,6 +5810,7 @@ dietbox.pl##.get-app
 dietetycy.org.pl,pokoleniesmart.pl##.previous, .next
 dietetyk-vital.pl,dionp.pl,odczasudoczasu.pl,zegarkiipasja.pl##.fixed-nav
 diki.pl##body:not([style]) .popupBannerContainer
+dine4fit.pl##.appBanner
 ding.pl##section div[class*="_"][style*="transition"] > img[alt="Eu Badge"]
 direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
@@ -6368,6 +6374,7 @@ pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #p
 pl.aliexpress.com##.top-banner-container
 pl.hotels.com##.signin-signup-notification-container
 pl.jooble.org##._3fEpKH
+pl.linkedin.com##.cta-modal:has(a[href^="ms-windows-store://"])
 pl.msi.com###activity a[href="/redirect/app/MyMSI"]
 plastcom.pl###test
 plejada.pl##.articleDetail .afterDetailModules .pollType.quizAndPollModule
