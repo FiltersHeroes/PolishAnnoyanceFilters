@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 14 Jul 2024, 20:24 UTC+02:00
-! Version: 2024.7.14.0
+! Last modified: Sun, 21 Jul 2024, 17:30 UTC+02:00
+! Version: 2024.7.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 14 lip 2024, 20:24 UTC+02:00
+! Aktualizacja: nie, 21 lip 2024, 17:30 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -77,7 +77,7 @@ agrogajda.pl,elektronik-service.com.pl,pomalujmy.pl,sklepfarmer.pl###search_scro
 agrohandel.com.pl,dietlux.pl,eljacht.pl,opgj.pl,pruszczgdanski.pl,resztamamy.pl,shindaiwa.pl,smart-power.pl##.tm-totop-scroller
 agrohandler.pl,betterland.pl,porcja.eu,strefaucznia.pl,swiece-zaplonowe.pl###to_top_wrap
 agrojd.com,audioservice.com,chelmski.eu,dobresystemy.eu,domnowoczesny.com,dronefilmfestival.eu,empik.com,esklep.brandvital.eu,fantasy.ekstraklasa.org,fuchs.com,hakpol.info,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,nowy-sacz.info,nprofit.net,pk-invest.eu,pl.ecco.com,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com,widex.com##.scroll-to-top
-agromasa.com,fotostori.es,koscian.net,neway.mobi##.totop
+agromasa.com,fonepaw.com,fotostori.es,koscian.net,neway.mobi##.totop
 agromer.pl##.page-top-button
 agroperfekt.pl,czemarol.pl,kunert.com.pl,naturio.eu,radiator-service.pl,rolmaszbien.pl,smolnik.com.pl,terfolbis.pl##.gotoup
 agrosimex.pl##.vue-back-to-top
@@ -154,7 +154,7 @@ auchan.pl##.button-go-top
 auchan.pl##.scroll-to-top-btn
 auchan.pl##.tooltip.right > button ~ button[style*="width: 10px"]
 auchanhetmanska.pl##.a-ScrollTop
-audilo.pl,douglas.pl,eadamex.pl##.scroll-to-top-button
+audilo.pl,douglas.pl,eadamex.pl,mediaexpert.pl##.scroll-to-top-button
 audio.com.pl###return-btn
 audio.com.pl,babymanager.pl,florydziak.com,ktociewyleczy.pl,stacmnienato.pl###return-top
 audio.com.pl,jagiellonski.pl,laciate.pl,neo24.pl,neonet.pl,nowaruda-broumov.eu,rankomat.pl##.arrow-up
@@ -172,7 +172,7 @@ avaro.pl,kontri.pl###arrow_top
 avast.com###slide-top
 axeprim.eu,brytol.com,gdanskstrefa.com,ochrona24.info,placesandplants.com,posbistro.com,rrs24.net,skawina.eu,sp18.lublin.eu,sportdziennik.com,sportowiec.info,stalmielec.com,swiebodzice.info,targowek.info,tarnobrzeg.info,techno-senior.com,wachtyrz.eu,wiskitki.org,zs12lublin.eu###scroll-up
 axtechnology.pl##.show_scroll
-b2b.fen.pl##.rollup
+b2b.fen.pl,hurt.techrol.com##.rollup
 b2b.metal-bud.eu,bat.pl,esklep.agroas.pl,hmb.pl,mak24h.pl,sklep.elus.pl,wisko.eu##.go-to-top-ui
 b2btrade.eu##.back-to-top-arrow
 b2net.pl,elus.pl,rower.com.pl,sprzedaz-mieszkanie-czestochowa.wgn.pl,telefon.info.pl##a#top
@@ -200,7 +200,7 @@ bikesalon.pl,snowshop.pl,surfshop.pl##.js-go-up
 bioeco.pl,dekolo.pl,dolasu.pl,happytime.com.pl,szachownica.com.pl,witek.pl##.to_top_btn
 bip.powiat.poznan.pl,e-marcom.pl,fotoprint.pl,kwestiasmaku.com,zloty-pociag.com##.do_gory
 bip.slaskie.pl,mazovia.pl,pulawy.eu###totopicon
-bisko.pl,cng.auto.pl,iwetto.com,olbud.com.pl,penguinbm.com,pl.vpnmentor.com,retromedia.pl###scroll
+bisko.pl,cng.auto.pl,iwetto.com,montaz-anten.pl,olbud.com.pl,penguinbm.com,pl.vpnmentor.com,retromedia.pl###scroll
 bithub.pl##.st-site-scroll-top
 bitserwis.com.pl##.flaticon-home
 biura-rachunkowe.waw.pl,biznesfinder.pl,e-goods.pl,pomysly-na.pl,swiat-uslug.pl,welcome2poland.eu##.action-scroll-top
@@ -212,6 +212,7 @@ blix.pl##.rewindTopButton.footer__rewind-button
 blizejciebie.pl##.quicknav-to-top
 blog.bloomboard.co##.go-to-top-wrap
 blog.cochlear.com,wojciechpietrzak.com.pl##.scrollUp
+blog.doktortusz.pl##.mb-to-top
 blog.lh.pl,bookowska.pl,dekoelectronics.com,muzyczny-krakow.eu##.ct-back-to-top
 blog.noblehealth.pl##footer .slide-up
 blog.polskiekino.com.pl##.tidymag-scroll-top
@@ -906,6 +907,7 @@ swiat-agd.com.pl###up, #go_up
 swiatekspresow.pl###back_up
 swiatksiazki.pl##.ScrollToTop
 swiatpodlog.com.pl,woprol.com.pl###scrolltotop
+swiernet.com##.bd-backtotop-1
 szalonewalizki.pl###desert-back-top
 szarlatan.pl##.landing-back-top
 szczecin.prywatka.info,wsb.net.pl##.body-back-to-top
@@ -979,6 +981,7 @@ wielkahistoria.pl###johannes-goto-top
 wiesci.com.pl###divGoToTop
 wiktormeble.pl,znajdownik.pl###mt-scrollup
 wilkuchnia.pl##.show-up
+winclub.pl##.fa-chevron-circle-up
 winers.pl##.upToScroll.buttonScrollUp
 winterpol.eu##.s5_scrolltotop
 wirtualnemedia.pl##.to-up
