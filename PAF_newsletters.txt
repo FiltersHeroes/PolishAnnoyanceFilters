@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 13 Jul 2024, 17:30 UTC+02:00
-! Version: 2024.7.13.0
+! Last modified: Sun, 21 Jul 2024, 21:30 UTC+02:00
+! Version: 2024.7.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 13 lip 2024, 17:30 UTC+02:00
+! Aktualizacja: nie, 21 lip 2024, 21:30 UTC+02:00
 !
 !
 !
@@ -1349,6 +1349,8 @@ portalkryminalny.pl##footer > .container > div.row:nth-of-type(2) > div:nth-last
 portalkryminalny.pl##h3:nth-of-type(11), .moduletable:nth-of-type(11)
 portalpszczelarski.pl##.element.col-3-7
 portalsamorzadowy.pl,wnp.pl##.news-box
+portalspozywczy.pl##.newsletter .head
+portalspozywczy.pl##.newsletter .head + ul
 portalspozywczy.pl##.newsletter > .pageWidth > span:first-of-type
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .navi > a:nth-child(6)
 portalspozywczy.pl##.right > div[class*="box"] ~ div[class*="box"] ~ div[class*="box"] .tabs-1 > .panes > .one:nth-child(6)
