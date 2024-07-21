@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 18 Jul 2024, 17:30 UTC+02:00
-! Version: 2024.7.18.0
+! Last modified: Sun, 21 Jul 2024, 21:30 UTC+02:00
+! Version: 2024.7.21.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 18 lip 2024, 17:30 UTC+02:00
+! Aktualizacja: nie, 21 lip 2024, 21:30 UTC+02:00
 !
 !
 !
@@ -89,6 +89,7 @@
 a-manada.pl##.banners.paralaxa-banners
 a-manada.pl,aptekamanada.pl,manada.pl##.banner-link
 aaaauto.pl##.noprint.careerLink
+abcapteka.pl##footer .menu_button_wrapper + .menu_button_wrapper:has(a[class=""])
 aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 adra.pl##.fanimani-widget-floatbanner
 afgcomputers.pl###menu3bar
@@ -302,6 +303,7 @@ defence24.pl##.header-bottom-link-widget
 dekavit.pl##.dekavit-kids-button
 dekordia.pl##.koszyk.right
 depilconcept.pl##.badge-voucher
+deporvillage.pl##.SponsoredPromobanner_container-mobile__ONn_V
 designconcept.pl#?##topbelka:-abp-contains(/[\w\W]{1,2}/)
 designhandles.com##.tvcms-prod-popup
 developer.mozilla.org##.mdn-cta-container.developer-needs
@@ -310,6 +312,7 @@ dietbox.pl##.get-app
 dietetycy.org.pl,pokoleniesmart.pl##.previous, .next
 dietetyk-vital.pl,dionp.pl,odczasudoczasu.pl,zegarkiipasja.pl##.fixed-nav
 diki.pl##body:not([style]) .popupBannerContainer
+dine4fit.pl##.appBanner
 ding.pl##section div[class*="_"][style*="transition"] > img[alt="Eu Badge"]
 direct.money.pl,totalmoney.pl###widget-fc-mobile-button
 discordapp.com##.notice
@@ -873,6 +876,7 @@ pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #p
 pl.aliexpress.com##.top-banner-container
 pl.hotels.com##.signin-signup-notification-container
 pl.jooble.org##._3fEpKH
+pl.linkedin.com##.cta-modal:has(a[href^="ms-windows-store://"])
 pl.msi.com###activity a[href="/redirect/app/MyMSI"]
 plastcom.pl###test
 plejada.pl##.articleDetail .afterDetailModules .pollType.quizAndPollModule
