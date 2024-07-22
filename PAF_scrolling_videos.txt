@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Thu, 16 May 2024, 12:10 UTC+02:00
-! Version: 2024.5.16.0
+! Last modified: Mon, 22 Jul 2024, 20:19 UTC+02:00
+! Version: 2024.7.22.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 16 maj 2024, 12:10 UTC+02:00
+! Aktualizacja: pon, 22 lip 2024, 20:19 UTC+02:00
 !
 !
 !
@@ -22,8 +22,6 @@
 ||ppstatic.pl^*/article/sticky-video.js
 ||ppstatic.pl^*/article/top-sticky-video-mobile.js
 ||ppstatic.pl^*/plywajace_wideo.js
-!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video > .videoScroll, .closeVideoBtn
-!dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.video-box > .videoScroll, .closeVideoBtn
 ~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .sticky[id^="Player"]:not(.floating), .randomplayer--floating[id*="player"] > div[class*="wrap"]
 16bit.pl##.crunchify-top
 35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
@@ -33,6 +31,7 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.
 beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##.vjs-minimized .video-js
 beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##div.sticky-container_sticky video-js
 bezpiecznystrazak.pl##.video_zminimalizowane
+businessinsider.com.pl##.sticky.article_video-container
 codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 crazypig.pl##.wengdo-scroll-to-top
 czasdzieci.pl##.pushNews[class*="section"]
