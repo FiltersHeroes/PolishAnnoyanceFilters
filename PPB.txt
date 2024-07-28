@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 27 Jul 2024, 18:31 UTC+02:00
-! Version: 2024.7.27.0
+! Last modified: Sun, 28 Jul 2024, 16:53 UTC+02:00
+! Version: 2024.7.28.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 27 lip 2024, 18:31 UTC+02:00
+! Aktualizacja: nie, 28 lip 2024, 16:53 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -106,7 +106,7 @@ agrodoradca24.pl##.newsletter-online
 agromat.pl##.column-double.content > .flex
 agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu,www.e-hurtowo.eu##.ModulNewsletter
 agroprofil.pl##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_185.vc_column
-agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mumla.pl,obuwiestyl.pl,pakomat.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,topsecret.pl,trzymajsiecieplo.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
+agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mumla.pl,naukawpolsce.pl,obuwiestyl.pl,pakomat.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,topsecret.pl,trzymajsiecieplo.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
 agrosimex.pl##.p0.tablet-column.col-sm-4.col-xs-12
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
 ahe.lodz.pl###company-newsletter-column
@@ -2282,7 +2282,8 @@ arturjablonski.com,eswinoujscie.pl##.ulp-layer, .ulp-overlay
 asd.pl##.popUpHolder, #Fader
 ashampoo.com##.exitlayer
 askarzeznik.pl,greenpolska.com,ogrodnictwo.expert,primadance.pl###popup-box-gfcr-1
-asta-net.pl###popup-call, #popup-call-shadow
+asta-net.pl##html:not([style*="overflow"]) body:not([style*="overflow"]) #popup-call
+asta-net.pl##html:not([style*="overflow"]) body:not([style*="overflow"]) #popup-call-shadow
 astratex.pl###PopUpBanner
 astromagia.pl###calendar-popup-overlay
 astromagia.pl,gazeta.pl,kulturaliberalna.pl,mohito.com,monacollection.pl,ochnik.com,porcelana.pl,reserved.com,taniaksiazka.pl,winnicalidla.pl,woblink.com,znak.com.pl##.newsletter-popup
@@ -4441,6 +4442,7 @@ zszywka.pl###scroolToTop
 ~ifirma.pl,pl##.dogory
 ~mediaexpert.pl,~mediamarkt.pl,pl##a.scroll-down
 ~mediaexpert.pl,~mediamarkt.pl,pl##button.scroll-down
+~naukawpolsce.pl,pl###toTop:not(body):not(html)
 ~obi.pl,pl##.scrollup:not(body):not(html)
 ~pl###back-to-top:lang(pl)
 ~pl###back-top:lang(pl)
@@ -4509,7 +4511,6 @@ pl###to_top
 pl###to_top_scrollup
 pl###top-link
 pl###topcontrol
-pl###toTop:not(body):not(html)
 pl###totop:not(body):not(html)
 pl###toTopNew
 pl###ts-back-to-top
@@ -5837,7 +5838,7 @@ download.komputerswiat.pl###breadcrumbs_floating, #dl_breaking_news
 doz.pl###salesmanagoPopupContainer
 doz.pl##.app-redirect
 doz.pl##.bhr-social-proof
-doz.pl##.product-of-the-week.product.product__list-item
+doz.pl##.product-of-the-week, .product-list-item--product-of-the-week, .product-list-item--sponsored
 doz.pl##.site-header__app
 drerowery.pl###caRatySideup
 dresowka.pl###newsletter-popup-box
@@ -6170,6 +6171,7 @@ linuxporady.pl,pskrk.com##.crestaPostsBox
 literackifestiwal.zakopane.eu###g-page-preloader
 lodzkie.pl##.jj_sl_custom2
 login.ingbank.pl###smart-app-banner-region
+losgustos.pl###smi-kulikow li:has(a[href*="/maps/"])
 lvbet.pl##splash-loader
 m.leroymerlin.pl##.smart-app-banner
 m.pl.aliexpress.com###header-float-banner
