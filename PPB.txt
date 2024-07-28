@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 28 Jul 2024, 17:07 UTC+02:00
-! Version: 2024.7.28.2
+! Last modified: Sun, 28 Jul 2024, 18:31 UTC+02:00
+! Version: 2024.7.28.3
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 28 lip 2024, 17:07 UTC+02:00
+! Aktualizacja: nie, 28 lip 2024, 18:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -172,7 +172,7 @@ apollo.pl##.newsletter-block-container
 apptoyou.pl##.row.flex.bubble-r-container.CustomElement.bubble-element > .row.flex.bubble-r-container.Group.bubble-element > div.column.flex.bubble-r-container.Group.bubble-element:nth-of-type(2) > .column.flex.bubble-r-container.Group.bubble-element
 apshop24.eu,paperlovers.pl###newsletter-bar
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href$="/Newsletter_akcept/"]
-aptekaolmed.pl##.py-md-5.py-3.row > .col-lg-8.col-12
+aptekaolmed.pl,drogeriaolmed.pl###footer > div:nth-child(2) > div:only-child > div:nth-child(1)
 apteline.pl##.footer__connect-newsletter
 arbiton.com,indigo-nails.com,korbo.eu,krasnik.eu##.newsletter-section
 architektura.info###PopupSignupForm_0
@@ -1545,6 +1545,9 @@ sklepkupiec.pl##.footer-block.newsllt
 sklepmarka.pl##.newletter-header
 sklepsaturn.pl,sprzet-fryzjerski.pl###social > a[href="/newsletter/add"]
 skorzany.com###zapisz-sie
+skrivanek.pl###custom_html-3 > div > a[href*="newsletter"]
+skrivanek.pl#?##custom_html-3 > div > p:-abp-contains(newslettera)
+skrivanek.pl#?##custom_html-3 > h3:-abp-contains(Newsletter)
 skuteczneraporty.pl##.post .wf2-embedded.grwf2-wrapper
 slaskietrendy.pl##.kp-newsletter-widget.widget
 slawomirzawislak.pl##.moduletable-newsletter
@@ -1623,6 +1626,7 @@ suwalki24.pl###content_right > .box:nth-of-type(7)
 suwalki24.pl##.box:nth-of-type(5)
 suwalszczyzna.com.pl##.widget_recent_news
 swappie.com##.newsletter-subscription-box
+sweetcbdstore.com##div[class*="footer"] > div > section > div > div > div > div > div > section:has(> div > div > div > div > div > div > div > form)
 sweetliving.pl##.llg_footer_col_three.col-sm-3 > h4:first-of-type, #llg_newsletter
 swiatbaterii.pl##div.col-md-4:nth-of-type(3) > div:first-of-type
 swiatkoszy.eu##.footer-newsletter > .container > div.row:first-of-type
@@ -1805,6 +1809,7 @@ werandafamily.com##.home-nesletter
 werandaweekend.pl##.right > div.title:first-of-type
 westwingnow.pl##[class^="ClubBarBanner__StyledWrapper"]
 wiadomoscihandlowe.pl##.footer__top > .row > div[class]:first-of-type
+wiadomoscihandlowe.pl,wiadomoscispozywcze.pl##.impressum--newsletter
 wiadomoscispozywcze.pl###headerNewsletter
 wiara.pl##.nsl
 widzialni.pl##.widget_widzialni_newsletter
@@ -1946,6 +1951,7 @@ zyxel.com###block-newsletter-footer
 ~automatykab2b.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
 ~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal):not(input)
 ~dietyodbrokula.pl,~mediaexpert.pl,~muzyczneradio.pl,pl##.newsletter-form
+~drogeriaolmed.pl,pl##.newsletter-btn
 ~dron.pl,pl##.widget_wysija
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
 ~mediaexpert.pl,pl##.form-newsletter
@@ -1979,7 +1985,7 @@ pl###newsletter_footer
 pl###newsletter_link
 pl###newsletter_wrapper
 pl###newsletterBox
-pl###newsletterFooter
+pl###newsletterFooter:not(input)
 pl###newsletterform
 pl###newsletterWidget
 pl###post-newsletter
@@ -2026,7 +2032,6 @@ pl##.newsletter-banner
 pl##.newsletter-bar
 pl##.newsletter-block
 pl##.newsletter-bottom
-pl##.newsletter-btn
 pl##.newsletter-button
 pl##.newsletter-col
 pl##.newsletter-component
@@ -2340,7 +2345,7 @@ bikesalon.pl,snowshop.pl,surfshop.pl##.bonus-overlay
 bilety.laczynaspilka.pl##.shadowbox-popup, .shadowbox_overlay
 bioindygo.pl###popup-1
 biologia.net.pl,historia.azv.pl,twojfrancuski.pl,twojniemiecki.pl,wos.net.pl###dropin
-bissole.pl,elbau.com.pl,lovesimple.pl,luminapark.pl,modesta.com.pl,nasztalerz.pl,oclean.pl,ogrod-marzen24.pl,praisethewear.com,retailnet.pl,sklepzprawem.pl,wysmakowane.pl##.elementor-popup-modal
+bissole.pl,elbau.com.pl,lovesimple.pl,luminapark.pl,modesta.com.pl,naszenaturalne.pl,nasztalerz.pl,oclean.pl,ogrod-marzen24.pl,praisethewear.com,projektowanie-wnetrz-online.pl,retailnet.pl,sklepzprawem.pl,wysmakowane.pl##.elementor-popup-modal
 bitdefender.pl###popup, .popup-overlay
 biuroprasowe.pl###global_overlay_cont, #global_overlay
 biznesoutfit.pl###formWrapper, #formOverlay
@@ -2905,7 +2910,6 @@ prettyone.pl###popup_prettyone
 prettyone.pl##.modal-backdrop, .pwebbox-modal
 pro-test.pl###abonament_top
 profbud.info##.popupvr
-projektowanie-wnetrz-online.pl###elementor-popup-modal-8730
 projektwp.pl###ga-popup-id-2817
 proline.pl##div[style*="visibility: visible; display: block;"]
 protego.pl###newsletterInfo, body[data-news-modal="open"]::after
@@ -3864,7 +3868,7 @@ groupon.pl###ls-back-to-top
 grupa.unimet.pl###ht-back-top
 gry-online.pl,muve.pl###return-up
 gryfino.pl,mzpnkrakow.pl,raiffeisenpolbank.com,totalcasino.pl##.top-button
-gryna2.pl###back
+gryna2.pl,migre.pl###back
 gsbk.pl##.scroll-link
 gunb.gov.pl##.slide-to-top
 gwarek.com.pl###nawigator
@@ -4700,7 +4704,7 @@ allegro.pl###chatPlugin
 allekurier.pl##.send-help-fixed-div
 allekurier.pl,brewa.pl,iautomatyka.pl###chatContentHolder
 almatur.pl###telefondiv
-alsen.pl##.thulium-chat-frame-wrapper
+alsen.pl,apollo.pl,biurowi.pl,cfsklep.pl,dlapacjenta.pl,energiapolska.com.pl,filippo.pl,ofix.pl##.thulium-chat-wrapper
 alx.pl##.zadaj-szybkie-pytanie
 amart.pl,marketubezpieczen.eu,wysylajtaniej.pl##.sugester-chat
 amazone.pl##.c-btn-contact
@@ -4713,8 +4717,7 @@ anton-paar.com,bisnode.pl###iframe-designstudio-button
 antykwariat-amicus.pl###vdz_cb_widget
 apaczka.pl##.ekomi-widget-container
 apartamentyzdrowie.pl###aside a:not(.Facebook)
-apollo.pl##.tc-position-right.thulium-desktop-chat.thulium-chat-wrapper
-aptekaolmed.pl##.box-info-ab
+aptekaolmed.pl,drogeriaolmed.pl##.box-info-ab
 apteline.pl,zryjzdrowocatering.com###chat-widget-container
 aquamelior.pl###slaask-button
 arbonne.com###V4LLPanel_TCContainer
@@ -4757,7 +4760,6 @@ bike-parts-honda.pl###fleche_popin_contact
 bilgorajska.pl##.pod_feedback
 bilgorajska.pl,bobbyburger.pl,godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
 bitrix24.pl,kegel-aj.com,upominki24.pl,webiso.pl##div[class*="-widget-button-wrapper"]
-biurowi.pl,cfsklep.pl,dlapacjenta.pl,filippo.pl,ofix.pl##.thulium-chat-wrapper
 biznes.gov.pl,decathlon.pl,dollarro.com,mediaexpert.pl,uniqa.pl,vox.pl,wodociagi.krakow.pl###InteliwiseSaaSModule_win_wrapper
 bizuteria-eshop.pl###IMS_box1
 blendberg.com###collect-chat-launcher-container
@@ -5316,6 +5318,7 @@ sklephonda.pl###phone_widget
 skoda-auto.pl##div[id^="wb"] > iframe[id^="wframe"]
 skrivanek.pl###ssb-btn-0
 skrivanek.pl##.rplg-badge_left-fixed.rplg-badge-cnt
+skrivanek.pl##chat-bot
 sky-shop.pl,toyota-centrum.pl###livechat-eye-catcher
 slusarczyk-bmw.pl###musli > li:nth-of-type(4)
 smartney.pl##app-smartney-float-button
@@ -5652,7 +5655,7 @@ aprmedia.pl##.et_bloom_header_outer
 apsdata.pl###slide_box
 apteka.sloneczna24.pl,euro-drogeria.pl,euromat.com.pl,kulturalnysklep.pl###tws_s_100000
 aptekagalen.pl##div.banners.aside-banners
-aptekaolmed.pl###productOfTheDay
+aptekaolmed.pl,drogeriaolmed.pl###productOfTheDay
 arcanagis.pl##.article__popup
 architekturaibiznes.pl##.baner-metka
 architekturaibiznes.pl##.fixed-navigation-beetween.navigation-beetwen-articles
@@ -5791,7 +5794,7 @@ cybersport.pl##.pbox
 cyfra.eu###tws_s_100001
 czasnadmorze.pl,legiobiznes.pl,stylowamoda.pl###rum_sst_tab
 czesciauto24.pl##.promotion-header
-czystyszop.pl,glossyme.eu,iexpert.pl,kids-trendy.pl,miadora.pl,sklepqueenfryz.pl,smakitucholi.sklep.pl,stylion.pl,tanbiu.pl,zenwire.eu##[id^="tm-widget-muskrat"]
+czystyszop.pl,elektro-met.pl,glossyme.eu,iexpert.pl,kids-trendy.pl,miadora.pl,sklepqueenfryz.pl,smakitucholi.sklep.pl,stylion.pl,tanbiu.pl,zenwire.eu##[id^="tm-widget-muskrat"]
 czytamyetykiety.pl##.metaslider
 czyztak.pl##.header__patronite
 dailyweb.pl##.promo-bar-box
@@ -6651,6 +6654,7 @@ werktuigen.pl###feedback-button
 wesolakraina.pl##.kontrast_tlo
 westwing.pl##.bwCMMf.OnboardingTooltip__OnboardingContentOverlay-mf-oww-header__fsqvc2-1
 weszlo.com##.suggester-box.position-fixed
+wiadomoscihandlowe.pl##.container--first-item ~ .container--second-item
 wiedza3g.pl##.wesprzyjNas
 wieszaki.info##.allegro-fiszka
 wiktormeble.pl##.sm-twitter
