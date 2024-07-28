@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 25 Jul 2024, 21:30 UTC+02:00
-! Version: 2024.7.25.0
+! Last modified: Sun, 28 Jul 2024, 17:02 UTC+02:00
+! Version: 2024.7.28.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 25 lip 2024, 21:30 UTC+02:00
+! Aktualizacja: nie, 28 lip 2024, 17:02 UTC+02:00
 !
 !
 !
@@ -337,7 +337,7 @@ download.komputerswiat.pl###breadcrumbs_floating, #dl_breaking_news
 doz.pl###salesmanagoPopupContainer
 doz.pl##.app-redirect
 doz.pl##.bhr-social-proof
-doz.pl##.product-of-the-week.product.product__list-item
+doz.pl##.product-of-the-week, .product-list-item--product-of-the-week, .product-list-item--sponsored
 doz.pl##.site-header__app
 drerowery.pl###caRatySideup
 dresowka.pl###newsletter-popup-box
@@ -670,6 +670,7 @@ linuxporady.pl,pskrk.com##.crestaPostsBox
 literackifestiwal.zakopane.eu###g-page-preloader
 lodzkie.pl##.jj_sl_custom2
 login.ingbank.pl###smart-app-banner-region
+losgustos.pl###smi-kulikow li:has(a[href*="/maps/"])
 lvbet.pl##splash-loader
 m.leroymerlin.pl##.smart-app-banner
 m.pl.aliexpress.com###header-float-banner
