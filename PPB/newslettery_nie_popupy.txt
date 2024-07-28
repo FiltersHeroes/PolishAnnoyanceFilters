@@ -1,8 +1,3 @@
-skrivanek.pl#?##custom_html-3 > h3:-abp-contains(Newsletter)
-skrivanek.pl###custom_html-3 > div > a[href*="newsletter"]
-skrivanek.pl#?##custom_html-3 > div > p:-abp-contains(newslettera)
-sweetcbdstore.com##div[class*="footer"] > div > section > div > div > div > div > div > section:has(> div > div > div > div > div > div > div > form)
-drogeriaolmed.pl###footer > div:nth-child(2) > div:only-child > div:nth-child(1)
 2max.pl###footer-container-first
 3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
 3i-store.com,addons.prestashop.com##.newsletter-subscribe
@@ -116,7 +111,7 @@ apollo.pl##.newsletter-block-container
 apptoyou.pl##.row.flex.bubble-r-container.CustomElement.bubble-element > .row.flex.bubble-r-container.Group.bubble-element > div.column.flex.bubble-r-container.Group.bubble-element:nth-of-type(2) > .column.flex.bubble-r-container.Group.bubble-element
 apshop24.eu,paperlovers.pl###newsletter-bar
 apteka-niezapominajka.pl##.tnp-widget.tnp > a[href$="/Newsletter_akcept/"]
-aptekaolmed.pl###footer > div:nth-child(2) > div:only-child > div:nth-child(1)
+aptekaolmed.pl,drogeriaolmed.pl###footer > div:nth-child(2) > div:only-child > div:nth-child(1)
 apteline.pl##.footer__connect-newsletter
 arbiton.com,indigo-nails.com,korbo.eu,krasnik.eu##.newsletter-section
 architektura.info###PopupSignupForm_0
@@ -1489,6 +1484,9 @@ sklepkupiec.pl##.footer-block.newsllt
 sklepmarka.pl##.newletter-header
 sklepsaturn.pl,sprzet-fryzjerski.pl###social > a[href="/newsletter/add"]
 skorzany.com###zapisz-sie
+skrivanek.pl###custom_html-3 > div > a[href*="newsletter"]
+skrivanek.pl#?##custom_html-3 > div > p:-abp-contains(newslettera)
+skrivanek.pl#?##custom_html-3 > h3:-abp-contains(Newsletter)
 skuteczneraporty.pl##.post .wf2-embedded.grwf2-wrapper
 slaskietrendy.pl##.kp-newsletter-widget.widget
 slawomirzawislak.pl##.moduletable-newsletter
@@ -1567,6 +1565,7 @@ suwalki24.pl###content_right > .box:nth-of-type(7)
 suwalki24.pl##.box:nth-of-type(5)
 suwalszczyzna.com.pl##.widget_recent_news
 swappie.com##.newsletter-subscription-box
+sweetcbdstore.com##div[class*="footer"] > div > section > div > div > div > div > div > section:has(> div > div > div > div > div > div > div > form)
 sweetliving.pl##.llg_footer_col_three.col-sm-3 > h4:first-of-type, #llg_newsletter
 swiatbaterii.pl##div.col-md-4:nth-of-type(3) > div:first-of-type
 swiatkoszy.eu##.footer-newsletter > .container > div.row:first-of-type
