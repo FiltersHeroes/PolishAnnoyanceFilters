@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 28 Jul 2024, 21:30 UTC+02:00
-! Version: 2024.7.28.1
+! Last modified: Wed, 07 Aug 2024, 21:30 UTC+02:00
+! Version: 2024.8.7.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 28 lip 2024, 21:30 UTC+02:00
+! Aktualizacja: śro, 07 sie 2024, 21:30 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -258,7 +258,6 @@ centrum-marino.com,systempartnerski.pl,ubraniadooddania.pl###scroll-up-button
 centrumdom.info##.tm-my-totop-scroller
 centrumxp.pl##.OnTop
 cepik.gov.pl##.btn__scroll-top
-cewe.pl##cwc-to-top-button
 chemko.com.pl##.go-to-top-ui #top-button-ui
 chimmo.pl###arrow-up
 chmielnik.com###na_gore
@@ -497,7 +496,7 @@ humanitas.edu.pl##.jump_arrow
 hungryeyes.pl##.w-inline-block.anchor-link
 hurtowniawalizek.pl##.pk-scroll-totop
 hurtowniazabawek.pl##.footerBox_btop
-hurtum.pl,juvepoland.com,myphone.pl##.scroller
+hurtum.pl,juvepoland.com,myphone.pl,reeva-foods.com##.scroller
 i-apteka.pl##.n60972_main_cop_right
 iautomatyka.pl##.pf-up-but
 ibif.pl##.js-up.up
@@ -1063,6 +1062,7 @@ zszywka.pl###scroolToTop
 ~pl##.scrollup:lang(pl):not(body):not(html)
 ~pl##.td-scroll-up:lang(pl)
 ~pl##a#backTop:lang(pl)
+~pl##cwc-to-top-button:lang(pl)
 com,pl###profilki_uparrow
 pl###ast-scroll-top
 pl###back-top
@@ -1186,6 +1186,7 @@ pl##.vw_m520_topbar
 pl##.w-toplink
 pl##.z-navigation-footer_backToTop
 pl##a#backTop
+pl##cwc-to-top-button
 pl##div.up > a[title="do góry"]
 pl##scroll-up
 pl,~sklep.lobos.pl##.to-the-top
