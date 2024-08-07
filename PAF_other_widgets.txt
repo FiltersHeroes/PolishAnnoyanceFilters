@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Wed, 07 Aug 2024, 17:30 UTC+02:00
-! Version: 2024.8.7.0
+! Last modified: Wed, 07 Aug 2024, 21:30 UTC+02:00
+! Version: 2024.8.7.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 07 sie 2024, 17:30 UTC+02:00
+! Aktualizacja: śro, 07 sie 2024, 21:30 UTC+02:00
 !
 !
 !
@@ -63,6 +63,8 @@
 ||widgets.okazje.info.pl^$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
+!instagram.com#?#section > main + footer + nav > div[class*=" "] > div[class*=" "]:-abp-has(div[class*=" "][role="button"]:-abp-contains(Pobierz aplikację))
+!instagram.com#?#section > main + footer + nav > div[class*=" "] > div[class]:not([class*=" "]) > div[class]:not([class*=" "]) > div[class*=" "] > div[class]:not([class*=" "]) > div:not([class]) > div[class]:not([class*=" "]) > div[class*=" "][style*="width:"]:-abp-has(a[href^="/accounts/emailsignup/"])
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.back-arrow[href*="//wp.pl/"], .back-arrow[href*="//ww.wp.pl/"]
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.back_bar
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp, #goToSG
@@ -558,8 +560,6 @@ ing.pl###get_ingmobile_app_wrapper
 inpost.pl###app-banner
 insomnia.pl##.ptw-articles.ptw-widget
 inspro.org.pl##.donate
-instagram.com#?#section > main + footer + nav > div[class*=" "] > div[class*=" "]:-abp-has(div[class*=" "][role="button"]:-abp-contains(Pobierz aplikację))
-instagram.com#?#section > main + footer + nav > div[class*=" "] > div[class]:not([class*=" "]) > div[class]:not([class*=" "]) > div[class*=" "] > div[class]:not([class*=" "]) > div:not([class]) > div[class]:not([class*=" "]) > div[class*=" "][style*="width:"]:-abp-has(a[href^="/accounts/emailsignup/"])
 instalaton.pl###pd_cs_box
 instalhurt.sklep.pl,moto125.pl,sklephormann.pl,tylkostylowe.pl###widget_shop3
 instalki.pl##.plista_widget_slide
