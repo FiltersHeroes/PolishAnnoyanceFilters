@@ -1,6 +1,8 @@
 ! Codename: Other Elements - Supplement
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
+!pyszne.pl###smartbnr.smartbnr
+!pyszne.pl##.activesmartbanner .userpanel-tabs.show, .activesmartbanner .userpanel .modal-wrapper, .activesmartbanner header:style(margin-top: 0 !important)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -138,8 +140,6 @@ portalpogrzebowy.pl##.center ~ .baner:style(margin-right: 0 !important)
 posnania.eu##.customScroll__bar
 proline.pl##blockquote:style(transform: unset !important; rotate: unset !important)
 przepisy.pl##.animation:style(animation: none !important)
-pyszne.pl###smartbnr.smartbnr
-pyszne.pl##.activesmartbanner .userpanel-tabs.show, .activesmartbanner .userpanel .modal-wrapper, .activesmartbanner header:style(margin-top: 0 !important)
 pytanienasniadanie.tvp.pl##div.bg-aplha.container:first-of-type > .row:style(padding-bottom: 20px)
 radio17.pl##footer.page-footer ~ .sidebar-container:style(position: absolute !important)
 radio17.pl#@#.sidebar-container
