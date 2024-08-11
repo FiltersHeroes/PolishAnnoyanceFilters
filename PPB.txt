@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 10 Aug 2024, 21:15 UTC+02:00
-! Version: 2024.8.10.0
+! Last modified: Sun, 11 Aug 2024, 18:31 UTC+02:00
+! Version: 2024.8.11.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 10 sie 2024, 21:15 UTC+02:00
+! Aktualizacja: nie, 11 sie 2024, 18:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -5857,6 +5857,7 @@ drivingexperience.pl###gift-slide
 drogeria-ekologiczna.pl##section.rightbar_wrap:nth-of-type(n+2):nth-of-type(-n+3)
 drogerielaboo.pl###panelmojagazetka
 drogerienatura.pl###pb
+drogerienatura.pl##.products .product:has(> .ribbon)
 drzwipartnerkrakow.pl##.storefront-product-pagination > a
 dts24.pl,goldenmark.com##.recommend-box
 duzekubki.pl###sweet-fixed-box
@@ -6443,6 +6444,7 @@ psy-pies.com,swiatkwiatow.pl###wyskakujaca
 ptakoutlet.pl###kp, .pasek-right
 pultusk24.pl##form[action^="https://poll.pollcode.com/"]
 pup.gliwice.pl,puplegnica.pl###accessKeys
+pyszne.pl##div[data-qa="app-banner"]
 pysznieczyprzepysznie.pl##.next-post, .previous-post
 pytamy.pl##.fixFooter
 pytanienasniadanie.tvp.pl##.stream-button
