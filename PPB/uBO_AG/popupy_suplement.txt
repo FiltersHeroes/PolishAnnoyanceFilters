@@ -41,9 +41,6 @@ agromer.pl,czescirolnicze.eu,poltalento.pl,sklep-lubar.pl,tarti24.pl###popups, .
 agromer.pl,dieta.hpba.pl,dwdomel.pl,inverso.pl,minecraft.org.pl,neo-net.com.pl,plantini.pl,tarti24.pl##.modal, .modal-backdrop
 airalo.com###ten-million-users-modal, #ten-million-users-modal___BV_modal_outer_
 airalo.com##+js(set-cookie, Airalo.10million, true)
-oko.press##+js(set-cookie, animated-donation-icon, true)
-oko.press##+js(set-cookie, support-popup-skarbonka, true)
-oko.press##+js(set-cookie, exit-popup-poczekaj, true)
 akademiaversum.pl###newsletter-pp
 akademiaversum.pl##body.with-overlay:style(overflow: auto !important)
 aktualnyodpis.pl##iframe[src^="//quic.pl/popups/"]
@@ -314,6 +311,9 @@ nowyrp.pl##html.remodal-is-locked:style(overflow: auto !important)
 oaza-palmy.pl##.fancybox-overlay:has(.modulesden-newsletter)
 obk.pl##.yith-opened:style(overflow: auto !important)
 obk.pl##.yith-popup, .yithpopup_overlay
+oko.press##+js(set-cookie, animated-donation-icon, true)
+oko.press##+js(set-cookie, exit-popup-poczekaj, true)
+oko.press##+js(set-cookie, support-popup-skarbonka, true)
 onedaymore.pl###js-modal-info.modal-info, .modal-backdrop
 online.citibank.pl###AdventPopup, .modal-backdrop
 open.fm##+js(aeld, unload)
