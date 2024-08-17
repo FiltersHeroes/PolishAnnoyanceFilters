@@ -1,7 +1,7 @@
 !elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-video:not(.ediplayer-ui-fullscreen) .ediplayer-aspect-padding:style(padding-top: 100% !important)
-bezpiecznystrazak.pl##+js(ra, autoplay, video)
-bezpiecznystrazak.pl##+js(ra, autoplay, video, asap)
-bezpiecznystrazak.pl##+js(ra, autoplay, video, complete)
+bezpiecznystrazak.pl##video[autoplay]:remove-attr(autoplay)
+bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], asap)
+bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], complete)
 businessinsider.com.pl,fakt.pl,medonet.pl,onet.pl,plejada.pl,~poczta.onet.pl##+js(set, Object.prototype.isFloatingEnabled, false)
 dziennikzachodni.pl,echodnia.eu,naszemiasto.pl,nowiny24.pl,nto.pl##+js(aeld, scroll, xlinkEvent)
 elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##+js(aeld, scroll, d.stopPropagation)
@@ -22,6 +22,7 @@ meczyki.pl##.vi-stories-social-share-button
 medianarodowe.com,parkiet.com,rp.pl##.component-tv__video:style(position: static !important)
 medianarodowe.com,parkiet.com,rp.pl##.linear-tv__iframe:style(position: static !important)
 onet.pl,~poczta.onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important)
+przegladsportowy.onet.p###videoPlayer.sticky[style*="top"]:remove-attr(style)
 sport.interia.pl,wydarzenia.interia.pl##.vjs-fixedmonitor-wrapper-fixed:not(.vjs-fixedmonitor-fixed-slide-down):has(+ .vjs-fixedmonitor-placeholder.visible)
 sport.interia.pl,wydarzenia.interia.pl#@#div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important)
 sport.interia.pl,wydarzenia.interia.pl#@#div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
