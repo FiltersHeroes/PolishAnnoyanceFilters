@@ -46,6 +46,7 @@ airalo.com###ten-million-users-modal, #ten-million-users-modal___BV_modal_outer_
 airalo.com##+js(set-cookie, Airalo.10million, true)
 akademiaversum.pl###newsletter-pp
 akademiaversum.pl##body.with-overlay:style(overflow: auto !important)
+akelektronik-kalisz.pl##+js(set-cookie, labpopupnewsletter, true)
 aktualnyodpis.pl##iframe[src^="//quic.pl/popups/"]
 aktualnyodpis.pl,arslege.pl,befado.pl,instagram.com,kler.eu,logitechg.com,nowyobywatel.pl,www.microsoft.com##body[style*="hidden"]:style(overflow: auto !important)
 akuakcesoria.pl,bedziepieklo.pl,media-tech.eu,mulan.pl,opakowania24.eu,pakomat.pl,urwisydwa.sklep.pl,wetro.pl##.swal2-container
@@ -306,6 +307,9 @@ mojaszkola.pl##.pwebbox-modal, .modal-backdrop
 mojaszkola.pl##body.pweb-modal-open:style(overflow: auto !important)
 moora.pl##.showed-iqitpopup, .showed-iqitpopupo
 moraj.pl##.mfp-popupNewsletter
+mrgugu.com###welcomeDialog, #welcomeDialog ~ span[role="button"]:empty[style]
+mrgugu.com##body.is-scroll-disabled, html.is-scroll-disabled:style(overflow-y: auto !important)
+mrgugu.com##div > span[role="button"][style]:empty:has(~ #welcomeDialog)
 mspdion.org.pl,termyszaflary.com##.fancybox-overlay
 mulan.pl,opakowania24.eu,pakomat.pl,urwisydwa.sklep.pl,wetro.pl##html.prevent-scroll:style(overflow: auto !important)
 multinor.no##.filter-blur:style(filter: none !important)
