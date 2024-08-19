@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 18 Aug 2024, 17:30 UTC+02:00
-! Version: 2024.8.18.0
+! Last modified: Mon, 19 Aug 2024, 21:30 UTC+02:00
+! Version: 2024.8.19.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 18 sie 2024, 17:30 UTC+02:00
+! Aktualizacja: pon, 19 sie 2024, 21:30 UTC+02:00
 !
 !
 !
@@ -72,6 +72,7 @@ trojmiasto.pl,trojmiasto.tv##div[id^="video"].vjs-mini
 tvn24.pl##.mainContainer .hideVideoPlayer .stuck--desktop, .mainContainer .hideVideoPlayer .stuck--wide-tablet
 tvn24.pl##.nuvi-player div.floating.floatable, .videoPlayer.stuck--top
 tvn.pl##.videoPlayerFloatEnabled.videoPlayerFloat.videoPlayer
+tvn.pl,tvn24.pl##.floating.VideoContainer div[data-scope="nuvi-placeholder"] ~ div[data-scope="nuvi-player"]
 tvn.pl,tvn24.pl##div[class*="player"] .floating_placeholder ~ .floating
 tvp.info##.mini-player-container
 wamiz.pl##div[class*="sticked"][class*="container"]
