@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 18 Aug 2024, 22:31 UTC+02:00
-! Version: 2024.8.18.4
+! Last modified: Mon, 19 Aug 2024, 21:30 UTC+02:00
+! Version: 2024.8.19.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 18 sie 2024, 22:31 UTC+02:00
+! Aktualizacja: pon, 19 sie 2024, 21:30 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3303,7 +3303,7 @@ sprzedajemy.pl###webPushWidget
 termedia.pl##body #ue_popups > #ue_push_dialog
 travelplanet.pl##.fcx-push-modal
 tunelefoliowe.eu##.wce_has-label.wce_popup-consolidator-trigger
-tvn24.pl##.__ipPerunElement[style*="position"]
+tvn.pl,tvn24.pl##.__ipPerunElement[style*="position"]
 tygodniowa.pl##iframe[style*="fixed"]:not([src])
 um.gorzow.pl,wielen.pl,wronki.pl###js__webpushBell
 wazcar.pl###push-notification-button
@@ -3401,6 +3401,7 @@ trojmiasto.pl,trojmiasto.tv##div[id^="video"].vjs-mini
 tvn24.pl##.mainContainer .hideVideoPlayer .stuck--desktop, .mainContainer .hideVideoPlayer .stuck--wide-tablet
 tvn24.pl##.nuvi-player div.floating.floatable, .videoPlayer.stuck--top
 tvn.pl##.videoPlayerFloatEnabled.videoPlayerFloat.videoPlayer
+tvn.pl,tvn24.pl##.floating.VideoContainer div[data-scope="nuvi-placeholder"] ~ div[data-scope="nuvi-player"]
 tvn.pl,tvn24.pl##div[class*="player"] .floating_placeholder ~ .floating
 tvp.info##.mini-player-container
 wamiz.pl##div[class*="sticked"][class*="container"]
