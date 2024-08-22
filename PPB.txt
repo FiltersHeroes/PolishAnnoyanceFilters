@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Thu, 22 Aug 2024, 21:57 UTC+02:00
-! Version: 2024.8.22.1
+! Last modified: Thu, 22 Aug 2024, 22:03 UTC+02:00
+! Version: 2024.8.22.2
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 22 sie 2024, 21:57 UTC+02:00
+! Aktualizacja: czw, 22 sie 2024, 22:03 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -7193,8 +7193,8 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2024.8.18.0
-!@ Last modified: Sun, 18 Aug 2024, 21:19 UTC+02:00
+!@ Version: 2024.8.22.0
+!@ Last modified: Thu, 22 Aug 2024, 22:03 UTC+02:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -7206,7 +7206,7 @@ polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetec
 !@ Copyright © 2024 Certyficate IT
 !@ Copyright © 2024 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2024.8.18.0 aktualizacja: nie, 18 sie 2024, 21:19 UTC+02:00
+!@ v.2024.8.22.0 aktualizacja: czw, 22 sie 2024, 22:03 UTC+02:00
 !@
 !@
 !@ Specyficzne reguły ukrywające
@@ -7669,6 +7669,7 @@ bluestilo.com,bytom.com.pl##ma-cookie-law-info
 blulink.pl##.privatepolicy
 bnpparibas.pl###kg-cookie-content.kg-cookie-content
 bnpparibas.pl##div[class^="CookiesPopUp_popup-container"]
+bnx.pl###mySitePopupLayer_xas123
 bobrowniki.tv###cookie_policy_popup
 bodyfit.pl,proszynski.pl,seriale.co,woda.slupsk.pl,wodociagi.slupsk.pl,zarmen.pl###komunikat
 boehringer-ingelheim.pl##.it-eprivacy-banner.it-eprivacy-banner--bottom
@@ -8673,6 +8674,7 @@ ists.pl,lokalnabiznes.pl,old.gbl.waw.pl,zmienimyswiat.pl##.polityka
 it-szkola.edu.pl###cookieLayerBoxModal
 it-szkola.edu.pl##.md-cookie-blocker
 it.tarnow.pl##.cookies-rodo
+ita.tools##.CookiesAgreementsBackground
 italiapozaszlakiem.com,lawyerka.pl,pafere.org,zs12lublin.eu##.ginger_banner-wrapper > .ginger_banner
 iturek.net###cookie_message_website_policy
 itvwisla.tv,polska-ie.com,stoicway.net,twojcel.to,wachtyrz.eu##.gdpr-privacy-bar
