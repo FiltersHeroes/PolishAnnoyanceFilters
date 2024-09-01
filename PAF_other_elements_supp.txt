@@ -1,8 +1,6 @@
 ! Codename: Other Elements - Supplement
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
-!pyszne.pl###smartbnr.smartbnr
-!pyszne.pl##.activesmartbanner .userpanel-tabs.show, .activesmartbanner .userpanel .modal-wrapper, .activesmartbanner header:style(margin-top: 0 !important)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -188,8 +186,9 @@ karachan.org##^script:not([src]):min-text-length(100):has-text(/style.*xD/)
 komputerswiat.pl##^#ks_breaking_news
 !#endif
 !#if !env_firefox
-!/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$frame,redirect=click2load.html,domain=pl|~wykop.pl
-://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~mbank.pl|~stooq.com|~stooq.pl,permissions=autoplay=()
+! permissions=autoplay=()|unsized-media=()
+|http*://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
+||dailymotion.com^$permissions=autoplay=()|unsized-media=()
 cs-harnas.pl,gearbest.com,jaguar.pl,kwit.pl,progrupa.com,przeswietl.pl,seniorka-z-plecakiem.pl,sparta.com.pl,start.me##body::-webkit-scrollbar:style(all: initial !important)
 czestochowskie24.pl,farmacja.net##body::-webkit-scrollbar, div::-webkit-scrollbar:style(all: initial !important)
 farmacja.net##:style(background-color: gray !important)
