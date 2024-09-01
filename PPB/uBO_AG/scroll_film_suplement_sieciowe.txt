@@ -1,2 +1,3 @@
-!/^https:\/\/(www\.)?youtube(-nocookie)?\.com\/embed\/.*autoplay=1/$frame,redirect=click2load.html,domain=pl|~wykop.pl
+! permissions=autoplay=()|unsized-media=()
+||dailymotion.com^$permissions=autoplay=()|unsized-media=()
 ://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~mbank.pl|~stooq.com|~stooq.pl,permissions=autoplay=()
