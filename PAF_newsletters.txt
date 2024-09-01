@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 01 Sep 2024, 17:30 UTC+02:00
-! Version: 2024.9.1.0
+! Last modified: Sun, 01 Sep 2024, 21:30 UTC+02:00
+! Version: 2024.9.1.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 01 wrz 2024, 17:30 UTC+02:00
+! Aktualizacja: nie, 01 wrz 2024, 21:30 UTC+02:00
 !
 !
 !
@@ -266,6 +266,7 @@ bissole.pl##a[href="#newsletter"]
 bit-info.pl##.newsletters_block
 biurfan.pl###newsletter-wide
 biuronet.com##.bottom-subscription-form
+biuroprasowe.porta.com.pl###newsletter-story-page.newsletter-story_page
 biuroprasowe.porta.com.pl##.newsletter-home_page
 biurowezakupy24.pl,szkolnezakupy.pl###mod-newsletter
 bizay.pl##div.col-xs-3 > .footer-sub-title
@@ -725,6 +726,8 @@ gowork.pl##.notification-popover
 grafmag.pl##.footer__notify_newsletter
 gramwzielone.pl##.hidden-xs.hidden-sm.col-md-12
 grawerowanie.org.pl##.signup
+green-news.pl###footer .order-first:has(> form[action="/newsletter"])
+green-news.pl##.container > .container:has(> h2 ~ div form[action="/newsletter"])
 greencell.global##.nl-footer-container
 greenfelix.eu##.footer-container div[class]:nth-of-type(4)
 grene.pl###pollSlider-button
