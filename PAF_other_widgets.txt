@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 31 Aug 2024, 17:31 UTC+02:00
-! Version: 2024.8.31.0
+! Last modified: Sun, 01 Sep 2024, 17:30 UTC+02:00
+! Version: 2024.9.1.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 31 sie 2024, 17:31 UTC+02:00
+! Aktualizacja: nie, 01 wrz 2024, 17:30 UTC+02:00
 !
 !
 !
@@ -63,8 +63,6 @@
 ||widgets.okazje.info.pl^$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
-!instagram.com#?#section > main + footer + nav > div[class*=" "] > div[class*=" "]:-abp-has(div[class*=" "][role="button"]:-abp-contains(Pobierz aplikację))
-!instagram.com#?#section > main + footer + nav > div[class*=" "] > div[class]:not([class*=" "]) > div[class]:not([class*=" "]) > div[class*=" "] > div[class]:not([class*=" "]) > div:not([class]) > div[class]:not([class*=" "]) > div[class*=" "][style*="width:"]:-abp-has(a[href^="/accounts/emailsignup/"])
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.back-arrow[href*="//wp.pl/"], .back-arrow[href*="//ww.wp.pl/"]
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.back_bar
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,cdn.ampproject.org,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp, #goToSG
@@ -672,6 +670,7 @@ lidia.pl,porcja.eu###allecomments
 lifemanagerka.pl##.posts-pagination
 lightingcenter.pl,smakus.eu,spawaj.eu##.kac-sm-gmb
 lincoln.edu.pl##.s_kurs, .s_online
+linkedin.com##.cta-modal:has(a[href^="ms-windows-store://"])
 linuxporady.pl,pskrk.com##.crestaPostsBox
 literackifestiwal.zakopane.eu###g-page-preloader
 lodzkie.pl##.jj_sl_custom2
@@ -885,10 +884,10 @@ pit.pl##.floater[id^="floater"]
 pityver.pl##.widget-allergo
 pkobp.pl###smartbanner-desktop
 pl.aleteia.org###fancybox-container-1, #campaigns-right-column-not-logged-in, #patron-popup-image
+pl.aliexpress.com###header #header-float-banner
 pl.aliexpress.com##.top-banner-container
 pl.hotels.com##.signin-signup-notification-container
 pl.jooble.org##._3fEpKH
-pl.linkedin.com##.cta-modal:has(a[href^="ms-windows-store://"])
 pl.msi.com###activity a[href="/redirect/app/MyMSI"]
 plastcom.pl###test
 plejada.pl##.articleDetail .afterDetailModules .pollType.quizAndPollModule
