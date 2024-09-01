@@ -1,7 +1,7 @@
-!download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;)
-!download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
-!mobileclick.pl##body[class*="post"] #content ~ #content:remove()
-!m.youtube.com##+js(aeld, visibilitychange, [native code])
-!pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
-!pomponik.pl##^div[class="topbar-container"], a[class="common-header__interia-back-button"]
-!spolem.katowice.pl##html > body:style(overflow-x: visible !important;)
+download.net.pl##.box-news-detail .details dd.date, .box-news ol li p.date, #news-new p.date, #news-popular p.date:style(display: block !important;)
+download.net.pl##.box-news-detail .details dt:style(display: block !important; float: left; padding: 0 5px 0 0;)
+mobileclick.pl##body[class*="post"] #content ~ #content:remove()
+m.youtube.com##+js(aeld, visibilitychange, [native code])
+pomponik.pl##+js(nano-remove-elements-onready.js, a[class="common-header__interia-back-button"])
+pomponik.pl##^div[class="topbar-container"], a[class="common-header__interia-back-button"]
+spolem.katowice.pl##html > body:style(overflow-x: visible !important;)
