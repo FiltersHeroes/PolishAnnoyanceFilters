@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 25 Aug 2024, 21:30 UTC+02:00
-! Version: 2024.8.25.0
+! Last modified: Sun, 01 Sep 2024, 17:30 UTC+02:00
+! Version: 2024.9.1.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 25 sie 2024, 21:30 UTC+02:00
+! Aktualizacja: nie, 01 wrz 2024, 17:30 UTC+02:00
 !
 !
 !
@@ -693,6 +693,7 @@ gdzietymrazem.pl##.td-pb-span4:first-of-type > .widget_text.widget.td_block_temp
 gdzietymrazem.pl##.widget_custom_html.widget.td_block_template_1.widget_text:nth-of-type(2) > .custom-html-widget.textwidget
 geekbuying.pl,lightingcenter.pl,perfumeriatop10.pl,toys4boys.pl###newsletter_block_home
 geekwork.pl###newsletter-head
+gemini.pl##div[class*="12"] > section[class*="12"][style*="background"]:has(> div > div > header ~ div #newsletter_form)
 germany.travel###footer_inner_wrapper > div:first-of-type > .list-inline > li:nth-of-type(9), li.divider:nth-of-type(10)
 getmailbird.com,roshen.com##.footer-subscribe
 gettinenglish.com###easy-opt-in-widget-2, .sh-s11.sh-t6.section-heading > .h-text
