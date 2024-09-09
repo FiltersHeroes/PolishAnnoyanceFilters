@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 08 Sep 2024, 22:31 UTC+02:00
-! Version: 2024.9.8.2
+! Last modified: Mon, 09 Sep 2024, 22:31 UTC+02:00
+! Version: 2024.9.9.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 08 wrz 2024, 22:31 UTC+02:00
+! Aktualizacja: pon, 09 wrz 2024, 22:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -410,6 +410,7 @@ cybsecurity.org,duzekubki.pl###mc4wp_form_widget-2
 cybsecurity.org,itcontent.eu##[id^="mc4wp-form"].mc4wp-form
 cyfrowynauczyciel.pl###mab-widget-2
 cyfrowyszpital.pl##.widget-area > .theiaStickySidebar > div:nth-of-type(3):nth-child(4)
+czajnikowy.com.pl##footer .banner:has(.tnp-subscription)
 czasdzieci.pl###id_boxNews
 czasfinansow.pl##.site-footer > .row > div:nth-of-type(3)
 czasnawnetrze.pl###contentRight > div.module:nth-of-type(4)
@@ -713,6 +714,7 @@ girya.com.pl##div.copy.container-fluid:nth-of-type(2) > .container > div.text-ce
 gliwice.eu,ukrainashop.com##.newsletter_wrap
 global4net.com##.footer-grid-el2.col-xl-6.col-12
 gloria24.pl##.tg-info-cookie
+gminabiskupiec.pl,swietokrzyskisztetl.pl##ul[class*="menu"] li[id*="menu"] .subskrypcja
 go-market.pl###newsletter-info
 gofin.pl##img[src="https://www.gofin.pl/images/newslettery_gofin_dzial.png"]
 goldbroker.pl,kurasinski.com,piroart.eu##.home-newsletter
@@ -930,6 +932,7 @@ lamisi.pl##.widget-newsletter-subscribe
 lamoda.pl##.min-h-newsletter
 lampy.pl###newsletterbox_1
 lancut4u.pl##.lsvr-mailchimp-subscribe
+lancut.pl,rakoniewice.pl##div[class*="modul"] .subskrypcja
 languagetool.org###newsletter_reg
 laptopypoznan.pl##.ps-spotlight5
 laroche-posay.pl##.ctn_newsletter
@@ -3610,7 +3613,7 @@ bibliotekarium.pl,halonet.pl,poettinger.at,rutkowscy.pl##.icon-angle-up
 bikesalon.pl,snowshop.pl,surfshop.pl##.js-go-up
 bioeco.pl,dekolo.pl,dolasu.pl,happytime.com.pl,szachownica.com.pl,witek.pl##.to_top_btn
 bip.powiat.poznan.pl,e-marcom.pl,fotoprint.pl,kwestiasmaku.com,zloty-pociag.com##.do_gory
-bip.slaskie.pl,mazovia.pl,pulawy.eu###totopicon
+bip.slaskie.pl,bipum.kielce.eu,mazovia.pl,pulawy.eu###totopicon
 bisko.pl,cng.auto.pl,iwetto.com,montaz-anten.pl,olbud.com.pl,penguinbm.com,pl.vpnmentor.com,retromedia.pl###scroll
 bithub.pl##.st-site-scroll-top
 bitserwis.com.pl##.flaticon-home
