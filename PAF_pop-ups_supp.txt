@@ -365,6 +365,8 @@ payukraine.com##.gl-blur:style(filter: none !important)
 payukraine.com##.pc_withoutCommissionBanner
 pepco.pl##.modal-newsletter, .modal-backdrop
 pepper.pl##+js(set-local-storage-item, guestBpnModalSeen, true)
+pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]:has(.oreo-message-emoticon)
+pepper.pl#@#.zIndex--modal[class^="popover"][class*="bottom"]
 pewex.pl###popupStart
 pewex.pl##body, html:style(overflow-y: auto !important; margin-right: 0 !important)
 pixlr.com##body > div[id^="modal-"]:has(> div.announce > div.content > div#after-content)
