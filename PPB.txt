@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Mon, 09 Sep 2024, 22:31 UTC+02:00
-! Version: 2024.9.9.0
+! Last modified: Wed, 11 Sep 2024, 17:34 UTC+02:00
+! Version: 2024.9.11.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 09 wrz 2024, 22:31 UTC+02:00
+! Aktualizacja: śro, 11 wrz 2024, 17:34 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -323,7 +323,7 @@ buslapidus.pl,pasja-informatyki.pl##.widget_1
 butybuty.pl,delis.pl,diamir.sklep.pl,telefony-gdansk.pl,wetro.pl##div.col-md-3.col-sm-6.col-xs-12.col-xxs:nth-of-type(4)
 butyjana.pl##.bjNewsletterText
 butyraj.pl##.hidden-phone.top_toplayer
-bydgoszcz.com,ct.jaworzno.pl,damitv.pl,e-widuchowa.pl,echotygodnik.info,kociewiak.pl,narew.info,pzl24.pl,telewizjazary.pl,tvobiektyw.pl,tvsudecka.pl,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:first-of-type
+bydgoszcz.com,ct.jaworzno.pl,damitv.pl,echotygodnik.info,kociewiak.pl,narew.info,pzl24.pl,telewizjazary.pl,tvobiektyw.pl,tvsudecka.pl,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:first-of-type
 byinsomnia.com,mniammniam.com,opakowania24.eu,pl,r-gol.com,rylko.com,stoprocent.com##.newsletter-container
 bytom.com.pl##[translate="main.footer.newsletter.header"]
 c-and-a.com##.footer__mail-form
@@ -344,7 +344,6 @@ cba.pl##.links > div > div:nth-of-type(4)
 ccpartners.pl##.nl
 cebit.pl##a[href="http://net.cebit.pl/newsletter/"]
 centos.com.pl##form:first-of-type
-centrum-marino.com###stay-connected, #footer-social-icons
 centrum-terapii.pl###sml_subscribe_widget
 centrumdialogu.com##.clearfix.bd-no-margins.hidden-xs.bd-layoutbox-9
 centrumhandlowerobi.pl##.footer-container div.col-xxs:nth-of-type(4)
@@ -759,7 +758,7 @@ hermessk.pl###sliding_box_submit1
 hirschmann.pl##.subscribe-line
 histmag.org###calculatedSocials > a[href*="#newsletter"]
 histmag.org##.css-nil > a[href="https://old.histmag.org/#registerlink"]
-histografy.pl,swobodnie.eu###wysija-2
+histografy.pl###wysija-2
 hoegert.com##.moduletable
 home.pl###nlForm
 homeoffice360.pl###footerColumn2 > h3:nth-of-type(2), #newsletterForm
@@ -826,7 +825,6 @@ jagodnik.pl##.td_uid_52_5f019c1f4f05b_rand.vc_widget_sidebar.td_block_wrap.wpb_w
 jagodnik.pl##.textwidget
 jagodnik.pl##.widget_text > .block-title
 jagodnik.pl##a[href="http://www.jagodnik.pl/newsletter/"]
-jak.tv##.nav-newsletter
 jakiwniosek.pl##.footer > div > div > div:first-child > :nth-last-child(n+2):nth-last-child(-n+4)
 jakrobicmarketing.pl###\31 -2
 jaroslawiak.pl###nwslBoxCnt
@@ -1140,7 +1138,7 @@ nazwa.pl###news_content
 nbsklep.pl##.subscribe_newsletter
 nck.pl##.footer-banners-wrapper a.has-icon[href*="/newsletter"]
 neo24.pl##a[class^="joinNewsletter"]
-neon24.info,nowyekran24.com##.flickr-widget.widget
+neon24.info##.flickr-widget.widget
 neonet.pl##.joinNewsletterDesktop-root-2Mr
 neonet.pl##section[class*="joinNewsletter"]
 neonet.pl,wydawnictwokobiece.pl###newsletter-home
@@ -1500,7 +1498,6 @@ selgros.pl##.home-box3
 senetic.pl##.nws-popup__wrapper
 senetic.pl##.nwsBlock
 seniorplus.edu.pl###boczne_ikonki > a[href$="newsletter"]
-sfinks.info##.t_align_r.m_xs_bottom_30.m_bottom_20.m_xs_top_0.m_top_40.col-sm-6.col-md-6.col-lg-6
 shop.albione.eu###newsletter-slide
 shop.massdnm.com,taniefototapety.eu###menu_newsletter
 shop.prettyone.pl##.container-fluid:nth-of-type(2) > .doubleBox > .container > .row > .col-xs-6:nth-of-type(2) > h2
@@ -1517,7 +1514,6 @@ skionline.pl##.boks_tytul_out_cs, .okno_gl_s > .boks
 skionline.pl##td:nth-of-type(2) > .boks:nth-of-type(3) > tbody
 sklep-agrohandel.pl##.footer_top_area
 sklep-elektron.com###newsletter-form
-sklep-milovia.eu###m_footer_bg
 sklep-nasiona.pl##.footer-stay-connected
 sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
 sklep.audiopunkt.com.pl###sec-newsletter > .banertab
@@ -2221,8 +2217,8 @@ pl,~znak.com.pl##.newsletter-container
 1000dni.pl###news-popup
 51015kids.eu,lee.pl,willsoor.pl###newsletter_popup
 aasapolska.pl###leave-page-modal
-aba-sport.pl,alpinsklep.pl,apteka-natura.eu,autochemia.pl,avaro.pl,awangardashoes.com,barokko.pl,bludshop.com,blueskypolska.pl,bogulandia.pl,bugo.pl,butosklep.pl,butylukow.pl,cafeborowka.pl,californiaskateshop.pl,candleworld.com.pl,cosslodkiego.com.pl,cyfra.eu,czasnabuty.pl,damizabawki.pl,denicler.eu,divanii.pl,dowarsztatu.com,e-baseus.com,e-megasport.com,efutro.com.pl,ene-due.eu,gratoria.pl,groomer.com.pl,hile.pl,hydromech.eu,korob.pl,ksiegarnia-edukacyjna.pl,kupbuty.com,littlejungle.pl,malowanebiela.pl,megazoologiczny.pl,meskiegacie.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rovicky.eu,sestimi.pl,sewel.pl,shop.s-a.pl,sportowybazar.pl,stili.pl,surgepolonia.pl,twojeobuwie.pl,ulubionabielizna.pl,unbrokenstore.com,vitasport.pl,wispol.eu,zapachyswiata.eu###topLayerBackDrop
-aba-sport.pl,autochemia.pl,awangardashoes.com,bogulandia.pl,californiaskateshop.pl,cosslodkiego.com.pl,cyfra.eu,damizabawki.pl,dowarsztatu.com,efutro.com.pl,gratoria.pl,groomer.com.pl,hydromech.eu,kupbuty.com,meskiegacie.pl,mobile-city.pl,obuwie-lizuraj.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rasowear.pl,sewel.pl,sportowybazar.pl,unbrokenstore.com,vitasport.pl,wispol.eu###tws_i_0
+aba-sport.pl,alpinsklep.pl,apteka-natura.eu,autochemia.pl,avaro.pl,barokko.pl,bludshop.com,blueskypolska.pl,bogulandia.pl,bugo.pl,butosklep.pl,butylukow.pl,cafeborowka.pl,californiaskateshop.pl,candleworld.com.pl,cosslodkiego.com.pl,cyfra.eu,czasnabuty.pl,damizabawki.pl,denicler.eu,divanii.pl,dowarsztatu.com,e-baseus.com,e-megasport.com,efutro.com.pl,ene-due.eu,gratoria.pl,groomer.com.pl,hile.pl,hydromech.eu,korob.pl,ksiegarnia-edukacyjna.pl,kupbuty.com,littlejungle.pl,malowanebiela.pl,megazoologiczny.pl,meskiegacie.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rovicky.eu,sestimi.pl,sewel.pl,shop.s-a.pl,sportowybazar.pl,stili.pl,surgepolonia.pl,twojeobuwie.pl,ulubionabielizna.pl,unbrokenstore.com,vitasport.pl,wispol.eu,zapachyswiata.eu###topLayerBackDrop
+aba-sport.pl,autochemia.pl,bogulandia.pl,californiaskateshop.pl,cosslodkiego.com.pl,cyfra.eu,damizabawki.pl,dowarsztatu.com,efutro.com.pl,gratoria.pl,groomer.com.pl,hydromech.eu,kupbuty.com,meskiegacie.pl,mobile-city.pl,obuwie-lizuraj.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rasowear.pl,sewel.pl,sportowybazar.pl,unbrokenstore.com,vitasport.pl,wispol.eu###tws_i_0
 abcfirany.pl,kochamzabawki.eu###InfoNewsletterOkno, #InfoNewsletter
 ac.com.pl,actaenergetica.org,atomstore.pl,ccnews.pl,deku.pl,holum.pl,jagiellonski.pl,l37.eu,meczelive.pl,meczelive.tv,meczenazywo.pl,mutyzm.org.pl,platan.pl,portalmorski.pl,regalka.pl,rejs.eu,rozsadnibracia.pl,secretlashes.pl,sukcesja.eu,teatrsyrena.pl,uczyibawi.pl,wokolmotoryzacji.pl,yenn.eu###fm-pu-container
 accent-bikes.com###lang_popup
@@ -2249,7 +2245,7 @@ agrofakt.pl##.seattle-simple.optin-monster-saas-overlay
 agrohandel.com.pl###jcemediabox-popup-page
 agrojumal.com.pl,akwarysta.eu,betamed.pl,dobiegania.pl,dobrewychowanie.pl,hurtidetal.pl,lowicz24.eu,netlandcomputers.pl,opteam.pl,pinka.pl,pl.globalvoices.org,resulto.pl,tabal.pl,twojapogoda.pl###colorbox, #cboxOverlay
 agromix.agro.pl##.nivo-lightbox-overlay
-agropolska.pl,auto-gdansk.com.pl,blancz.pl,bookmaster.com.pl,chinskieprzepisy.pl,holiday.aquila.pl,honda.mojsiuk.pl,honda.torun.pl,hondabiela.pl,masa-honda.pl,ozptd.pl,promax.media.pl,strzalkowski.pl,www.hamol.pl,www.honda-kemag.pl,www.hondacichonski.com.pl,www.hondamalta.karlik.poznan.pl,www.hondaplaza.pl,zdobadzkobiete.pl###fancybox-wrap, #fancybox-overlay
+agropolska.pl,auto-gdansk.com.pl,blancz.pl,chinskieprzepisy.pl,holiday.aquila.pl,honda.mojsiuk.pl,honda.torun.pl,hondabiela.pl,masa-honda.pl,ozptd.pl,promax.media.pl,strzalkowski.pl,www.hamol.pl,www.honda-kemag.pl,www.hondacichonski.com.pl,www.hondamalta.karlik.poznan.pl,www.hondaplaza.pl,zdobadzkobiete.pl###fancybox-wrap, #fancybox-overlay
 agrosiec.pl,angelgold.pl,bolix.pl##.modal
 agrotopparts.pl###kartka, #kartka ~ #tlo
 airport.com.pl,chinskieprzepisy.pl,forum.joomla.pl,holiday.aquila.pl,pl.canalplus.com,romantycznyweekend.eu,zus.pox.pl###fancybox-overlay, #fancybox-wrap
@@ -2322,8 +2318,8 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.p
 auto-swiat.pl,e-pamir.pl,gymeltoro.pl,manorhouse.pl,meblejedrus.eu,pinio.com.pl,sklep.fanex.pl,sklep.krosno.com.pl,tpi.com.pl,wystroj-okien.pl,zakupowo.sklep.pl##.popup
 autokult.pl,fitness.wp.pl,fotoblogia.pl,medycyna24.pl,smaczneblogi.pl###exit-intent-modal
 automotiveceeday.eu,pracodawcagodnyzaufania.pl###rstbox_3
-avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,okularymarkowe.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu###toplayer_newsletter_popup, #toplayer_newsletter
-avaro.pl,awangardashoes.com,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu##div[id^="tln"][id$="_bg"]
+avaro.pl,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,okularymarkowe.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu###toplayer_newsletter_popup, #toplayer_newsletter
+avaro.pl,blueskypolska.pl,bugo.pl,butosklep.pl,cafeborowka.pl,czasnabuty.pl,hile.pl,littlejungle.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,sestimi.pl,shop.s-a.pl,stili.pl,twojeobuwie.pl,ulubionabielizna.pl,zapachyswiata.eu##div[id^="tln"][id$="_bg"]
 axa.pl##.welcome-popup
 azzun.pl##.js-popup.popup
 b4internet.pl###newsletter_container
@@ -2370,7 +2366,7 @@ bluecity.pl##.popupContent
 bluecity.pl,oponeo.pl,wearmedicine.com,word.czest.pl###cboxOverlay
 blueskypolska.pl###tws_i_0.mobile_toplayer
 bodyland.pl,hairstore.pl###newsletter-lightbox-holder
-boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,portalwloclawek.pl,radiobonton.pl,regatv.pl,rolnik.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,wagner-polska.com.pl##.toplayer
+boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,portalwloclawek.pl,radiobonton.pl,regatv.pl,rolnik.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,wagner-polska.com.pl##.toplayer
 bolix.pl,pushpushgo.com###ebook-popup
 bonprix.pl,dragonmask.pl,dziergaczkowo.pl,virtualo.pl,walizkazabawek.pl,webcamera.pl##body:not(.modal-open) .newsletter-modal, .modal-backdrop
 born2be.pl,butysportowe.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl##.snrs-modal-wrapper
@@ -2413,7 +2409,7 @@ cholewinski.com###egnewsletter_popup_container.egnewsletter-popup-container
 chopin.polskieradio.pl##div[class^="MarathonPopup_curtain_"]
 chronpesel.pl##.wh-popUp-overlay
 chrzypsko.pl,metaltech.com.pl,vas.com.pl###dhtml_popup
-ciechocinek.biz,drawskopomorskie.com,gniewkowo.eu,ki24.info,kolniak24.eu,lowiczanin.info,nizanskie.info,roztocze.net##.hejhej.hey-outer
+ciechocinek.biz,gniewkowo.eu,ki24.info,kolniak24.eu,lowiczanin.info,nizanskie.info,roztocze.net##.hejhej.hey-outer
 ciekawe.org,cyfrowyszpital.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl##html:not([style*="overflow"]) .boxzilla, .boxzilla-overlay
 cieszanowrockfestiwal.pl,wantmore.pl##.et_bloom_trigger_bottom.et_bloom_popup
 citroen-shop.eu##.cp-popup, .cp-popup-overlay
@@ -2654,7 +2650,6 @@ kasotronik.pl,medpozyczka.pl,okmoneta.pl,pozyczymyci.pl###popupEmailPhone
 kataloog.info###mask, #lorem
 katowice-airport.com###carwash-banner-c
 katowice.jumpcity.pl##.reveal-modal
-kegel-aj.com##div[style="display: block; position: fixed; width: 100%; min-height: 100%; background-color: rgba(0, 0, 0, 0.5); overflow: hidden; z-index: 10000; inset: 0px;"]
 ketodietetyk.pl##.popup-custom.popup-delayed
 kfd.pl###popupslider, #dimBackgrnd
 kierunekchorwacja.pl,temysli.pl###cboxOverlay, #colorbox
@@ -2835,7 +2830,6 @@ ombre.pl###tws_c_0
 omeda.pl###window1
 onet.pl##div[data-run-module*="stayOnServicePopup"]
 onkyo.pl##div#dwbox-bkg, div#dwbox-box
-ono24.info##.bts-popup
 opencard.pl###trialModal, .modal-backdrop
 opensubtitles.org###fadeSub, #lightSub
 opiekunkaradzi.pl##.esPopupWrapper, .b-modal
@@ -3479,7 +3473,7 @@ aga-toma.pl##.pow_start
 agkoperty.com.pl,eurobit.pl,komlogo.pl###totop-scroller
 agmarprzewozy.pl,agrosklad.com.pl,lalorraine.pl,ppe.pl,smartpozyczka.pl##.toTop, .toTopRWD
 agora.pl,alfasan.pl,alltronix.pl,cicius.pl,domczasuhurt.pl,forcell.pl,kulig.pl,margoshoes.pl,mia-manu.com,oleksy.pl,pl.techinfus.com,pogotowie-komputerowe.org.pl,skladprosty.pl,sklep.zielonyogrodek.pl##.up
-agrarius.eu,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatrust.ro,niezlomni.com,olympia-electronics.com,ono24.info,radioznin.fm,sempre.eu.com,wkret-met.com###backtotop
+agrarius.eu,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatrust.ro,niezlomni.com,olympia-electronics.com,radioznin.fm,sempre.eu.com,wkret-met.com###backtotop
 agricom.pl,bychawa.pl,centrumdialogu.com,ets2mods.com,iwp.pl,oknaibramy.eu,rynek.de##div a[class*="bd-backtotop-"]
 agriculture.newholland.com,ipa-katowice.org,lakiernictwo.net,medianarodowe.com,porozmawiajmy.tv,pulawy.eu,roztocze.net,swiatopon.info###gototop
 agro-eko.com.pl##.scrollIcon
@@ -3644,7 +3638,6 @@ bonami.pl,wearmedicine.com##div[class*="ScrollToTop_"]
 bonavita.pl###ot-jumplist-control
 bonprix.pl##.btn-primary.scroll-to-top-btn
 bookland.com.pl,eduarena.pl###yt-totop-fix
-bookmaster.com.pl###utils-button-top
 boombook.pl##.active-progress
 borcas.eu##.scrollToTopPlugin
 borcas.eu##.scrollToTopPlugin_label
@@ -3669,7 +3662,6 @@ cds-lider.com.pl,polsero.pl,www.nowiny.gliwice.pl##.btn-up
 cedynia.pl,napisy24.pl,wegemaluch.pl###smoothtop
 cellbes.pl,www.akademiareklamy.edu.pl###topscroller
 centralne.co,decobazaar.com,racjonalista.tv,sarzyna.info,strajk.eu,ztedevices.com##.gotop
-centrum-marino.com,systempartnerski.pl,ubraniadooddania.pl###scroll-up-button
 centrumdom.info##.tm-my-totop-scroller
 centrumxp.pl##.OnTop
 cepik.gov.pl##.btn__scroll-top
@@ -3678,7 +3670,7 @@ chimmo.pl###arrow-up
 chmielnik.com###na_gore
 choinka-sztuczna.pl###ico_up
 choinki.net,sherlocktrafika.pl,wyciagarki.eu###backtop
-ciechocinek.biz,drawskopomorskie.com,gniewkowo.eu,i-tec.pro,ki24.info,kolniak24.eu,lowiczanin.info,mohito.com,nizanskie.info,roztocze.net##.scroll-down
+ciechocinek.biz,gniewkowo.eu,i-tec.pro,ki24.info,kolniak24.eu,lowiczanin.info,mohito.com,nizanskie.info,roztocze.net##.scroll-down
 citroen.pl,domkulturywkodniu.pl,infocrypto.pl,ipon.pl,zhp.pl###scrolltop
 citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl##.gw-grux-backToTop
 citymask.eu,gagadget.com,globalna.info,gogosmart.pro,lubawka.info##.scrolltop
@@ -3702,7 +3694,7 @@ cosmed24.pl##div#page ~ a#myBtn
 crast.net,eurowizja.org,mediarun.com,zebrra.tv##.jscroll-to-top
 credit-suisse.com##.mod_scroll_to_top
 ctb.com.pl,movieway.pl,oryginalnysmak.pl,phunetcom.pl,portal.sklep.pl,prokomp-bochnia.pl,slotlodz.pl###tc-footer-btt-wrapper
-cukiernia-danuta.pl,stalremdrzwi.pl,swiatbaterii.pl,thebat.com.pl##.right.czr-btta.czr-btt.btn
+cukiernia-danuta.pl,stalremdrzwi.pl,swiatbaterii.pl##.right.czr-btta.czr-btt.btn
 cyberplac.pl,strona24.pl,swietawdomu.pl,wynajmijdostawczaka.pl###tg-scroll-to-top
 cyberrescue.info,osram.pl,pum.edu.pl##.jump-to-top
 cyclonis.com,pantofelek24.pl###ScrollToTop
@@ -3769,7 +3761,7 @@ e-dym.pl,sklep.mateuszciawlowski.pl,walizkownia.pl###slidetop
 e-glamour.pl,elnino-parfum.pl##.js-scrollUp
 e-kiosk.pl##.fixed-menu
 e-militaria.pl##.to_top_wrap
-e-sadownictwo.pl,gf24.pl,itee.pl,jawor.tv,kosciolek.info,solispolska.pl,stempelek.info,wiadomoscipw.pl,wiesci.info.pl,wiwa.info.pl,www.kcez.pl,wysokomazowiecki24.pl##.sp-scroll-up
+e-sadownictwo.pl,gf24.pl,itee.pl,kosciolek.info,solispolska.pl,stempelek.info,wiadomoscipw.pl,wiesci.info.pl,wiwa.info.pl,www.kcez.pl,wysokomazowiecki24.pl##.sp-scroll-up
 e-szkolniak.pl,sklep.milicon.eu,sklepbaterie.pl,zmiksowani.pl,zrobisztosam.com###topLink
 e-zegarki.pl,tanio.co,vangraaf.com##.scroll-up-button
 ebay.pl##img[title="Przewiń na górę"]
@@ -3988,7 +3980,6 @@ krainaoszczedzania.pl###finoScroll
 krakow.pl###footer-scroll-up
 krasnystaw.eu##.js-up
 krd.pl##.krd-footer-scroller
-kropleinternetu.biz###gora
 kufer.poznajemyswiat.pl##.fa-arrow-up.ssttbutton-symbol
 kulinarnastronamocy.pl##.stick.stnsvn-btt
 kultura.krasnik.eu###skip_to
@@ -4122,7 +4113,7 @@ naszesmieci.mos.gov.pl##.nav_up
 naszoptyk.pl##.icon-backToTop
 nazwa.pl##.arrowUp__wrapper
 neo24.pl,neonet.pl##div[class*="scrollTopArrowCss"]
-neon24.info,nowyekran24.com###button-top
+neon24.info###button-top
 neonet.pl##div[class^="scrollTopArrow-wrapper"]
 network-systems.pl,sp124.nazwa.pl,wypozyczalniachoinek.eu,zawisza.szkola.pl##.enigma_scrollup
 news.samsung.com###btn_top
@@ -4285,7 +4276,6 @@ screamit.pl###div_go_top
 secure.e-konsulat.gov.pl##.go-up-button
 seoheroes.pl##.clb-scroll-top-holder
 serafin-maszyny.com##.back_to_top
-sfinks.info###go_to_top
 sfmeble.pl###chatBtn ~ div > button.w-color-orange
 sgb.pl##.jsScrollToTop
 shell.pl##.site-footer__back-to-top
@@ -4326,6 +4316,7 @@ swiatekspresow.pl###back_up
 swiatksiazki.pl##.ScrollToTop
 swiatpodlog.com.pl,woprol.com.pl###scrolltotop
 swiernet.com##.bd-backtotop-1
+systempartnerski.pl,ubraniadooddania.pl###scroll-up-button
 szalonewalizki.pl###desert-back-top
 szarlatan.pl##.landing-back-top
 szczecin.prywatka.info,wsb.net.pl##.body-back-to-top
@@ -4618,7 +4609,7 @@ pl,~studioatrium.pl###back-to-top
 ||e-stargard.pl/_upload/background.png
 ||mediaexpert.pl/temp/filemanager_up/*_tlo.jpg
 aptekagemini.pl,gemini.pl##.background-advertisement
-boleslawiec.tv,bydgoszcz.com,echotygodnik.info,halogorlice.info,korso24.pl,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,swiebodzin.tv,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl##.bgad
+boleslawiec.tv,bydgoszcz.com,echotygodnik.info,halogorlice.info,korso24.pl,koscierzyna24.info,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,radiobonton.pl,regatv.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl##.bgad
 czary.pl###klikalne_tlo_calosci a[href="https://sklepmagiczny.pl/pl/p/Astrologia-mundalna/88"]
 czarymary.pl###checkWidthFullMain1
 ebok.vectra.pl###main-container > .login__custom-bg
@@ -4780,7 +4771,7 @@ bigbaddice.pl##.icon-social-whatsapp
 bike-parts-honda.pl###fleche_popin_contact
 bilgorajska.pl##.pod_feedback
 bilgorajska.pl,bobbyburger.pl,godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
-bitrix24.pl,kegel-aj.com,upominki24.pl,webiso.pl##div[class*="-widget-button-wrapper"]
+bitrix24.pl,upominki24.pl,webiso.pl##div[class*="-widget-button-wrapper"]
 biznes.gov.pl,decathlon.pl,dollarro.com,mediaexpert.pl,uniqa.pl,vox.pl,wodociagi.krakow.pl###InteliwiseSaaSModule_win_wrapper
 bizuteria-eshop.pl###IMS_box1
 blendberg.com###collect-chat-launcher-container
@@ -6081,7 +6072,6 @@ hotellogos.pl##.widget-container
 hrstandard.pl###float-posts-nav
 hubkolektyw.pl##.panel-boczny
 hurtowniarolnicza.pl##.recruitment
-hushaaabye.pl##.blog-pager-item
 i-apteka.pl,rolmarket.pl###menu_hotspot_zone3
 i-ekosystem.pl###wptime-plugin-preloader
 ican.pl###drawer_bar
@@ -6535,7 +6525,6 @@ sferis.pl###TopBarScroll
 shareinfo.pl###install-button
 shipgratis.eu###soutez-wrapper
 shop-dent.pl##button.needsclick[style*="z-index"]
-siepisze.pl##.et_pb_code_inner
 sieradz.eu###site-loader
 siglo.pl##.lws-widget-container
 silesion.pl##.art-tripwire-big
@@ -6977,7 +6966,6 @@ gwiazdybasketu.pl##li.col-md-12.item:nth-of-type(8)
 hebe.pl##.footer-content.footer-item
 historia.uwazamrze.pl##.photo-gallery-three.tr-section
 historia.uwazamrze.pl##.wydanie.kolor.tr-section
-huee.in##section.section--dark.section:nth-of-type(6)
 ican.pl##.mit-new-number
 ican.pl##.section-top-news.col-xs-12.col-md-5 > .slider-container
 ican.pl##.section-top-news.col-xs-12.col-md-5 > hr
