@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Wed, 11 Sep 2024, 17:34 UTC+02:00
-! Version: 2024.9.11.0
+! Last modified: Wed, 11 Sep 2024, 21:33 UTC+02:00
+! Version: 2024.9.11.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 11 wrz 2024, 17:34 UTC+02:00
+! Aktualizacja: śro, 11 wrz 2024, 21:33 UTC+02:00
 !
 !
 !
@@ -99,6 +99,7 @@ a-manada.pl##.banners.paralaxa-banners
 a-manada.pl,aptekamanada.pl,manada.pl##.banner-link
 aaaauto.pl##.noprint.careerLink
 abcapteka.pl##footer .menu_button_wrapper + .menu_button_wrapper:has(a[class=""])
+about.google,google.com,google.pl###google-hats-survey
 aboutyou.pl#?#div[class*="container"][data-test-id="CampaignHeaderBanner"]:-abp-contains(zniżki)
 adra.pl##.fanimani-widget-floatbanner
 afgcomputers.pl###menu3bar
@@ -512,7 +513,6 @@ godealla.pl###top-offers, .hand
 godstoys.pl##.master-loading-overlay
 gomobi.pl##.blog-head
 goodair.pl###bestsellers_panel
-google.com,google.pl###google-hats-survey
 google.com,google.pl##iframe[src^="https://ogs.google.com/widget/callout?prid="], iframe[src^="https://ogs.google.pl/widget/callout?prid="]
 gorzow24.pl###nasze_serwisy
 gosc.pl##.fixedBottom
