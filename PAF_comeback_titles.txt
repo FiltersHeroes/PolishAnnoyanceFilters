@@ -2,8 +2,8 @@
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Fri, 15 Sep 2023, 18:47 UTC+02:00
-! Version: 2023.9.15.0
+! Last modified: Tue, 17 Sep 2024, 21:33 UTC+02:00
+! Version: 2024.9.17.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 15 wrz 2023, 18:47 UTC+02:00
+! Aktualizacja: wto, 17 wrz 2024, 21:33 UTC+02:00
 !
 !
 /wp-content/plugins/change-browser-tab-title-when-tab-is-not-active/public/js/browser-tab-title-reminder-public.js$script,domain=pl
@@ -30,6 +30,7 @@ dommania.pl##+js(nosiif, flashTitle, 1500)
 drtusz.pl##+js(acis, $, Wróć na)
 dziennikprawny.pl##+js(aopr, titleBack)
 futuryx.eu##+js(nostif, document.title = attentionMessage, 2000)
+malinowynos.pl##+js(set, gc__newTitle, 0)
 naekranie.pl##+js(nostif, Zzzz, 100)
 nocowanie.pl##+js(acis, changeTitle, Wróć)
 polt.pl,socialteam.pl##+js(aeld, visibilitychange, handleVisibilityChange)
