@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Tue, 17 Sep 2024, 21:33 UTC+02:00
-! Version: 2024.9.17.1
+! Last modified: Thu, 19 Sep 2024, 17:36 UTC+02:00
+! Version: 2024.9.19.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 17 wrz 2024, 21:33 UTC+02:00
+! Aktualizacja: czw, 19 wrz 2024, 17:36 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4721,7 +4721,6 @@ allegro.pl###chatPlugin
 allekurier.pl##.send-help-fixed-div
 allekurier.pl,brewa.pl,iautomatyka.pl###chatContentHolder
 almatur.pl###telefondiv
-alsen.pl,apollo.pl,biurowi.pl,cfsklep.pl,dlapacjenta.pl,energiapolska.com.pl,filippo.pl,kakto.pl,mpay.pl,ofix.pl##.thulium-chat-wrapper
 alx.pl##.zadaj-szybkie-pytanie
 amart.pl,marketubezpieczen.eu,wysylajtaniej.pl##.sugester-chat
 amazone.pl##.c-btn-contact
@@ -5538,6 +5537,7 @@ pl##.mtp-contact-button
 pl##.mtp-contact-message
 pl##.popup__center[class*="call-me-"] .widget:not([class*="hide"])
 pl##.quickcontact-box
+pl##.thulium-chat-wrapper
 !
 !
 ! Inne elementy
