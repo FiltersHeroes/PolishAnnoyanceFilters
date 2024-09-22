@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 19 Sep 2024, 17:36 UTC+02:00
-! Version: 2024.9.19.0
+! Last modified: Sun, 22 Sep 2024, 17:32 UTC+02:00
+! Version: 2024.9.22.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 19 wrz 2024, 17:36 UTC+02:00
+! Aktualizacja: nie, 22 wrz 2024, 17:32 UTC+02:00
 !
 !
 !
@@ -66,6 +66,7 @@
 ||znamibezpiecznie.pl/images/kontakt.png
 !@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe_sieciowe.txt
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
+!bboptic.com##footer > .pinnedBottomLeft > div[id^="comp-"]
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
@@ -112,7 +113,6 @@ allekurier.pl##.send-help-fixed-div
 allekurier.pl,brewa.pl,iautomatyka.pl###chatContentHolder
 almatur.pl###telefondiv
 alx.pl##.zadaj-szybkie-pytanie
-amart.pl,marketubezpieczen.eu,wysylajtaniej.pl##.sugester-chat
 amazone.pl##.c-btn-contact
 amfora.pl,hulahop.pl##.why-us-show-button
 amracing.pl##.sale-contact-box
@@ -153,7 +153,7 @@ bankobranie.blogspot.com##.social > li:nth-child(n+6)
 barlinek.com.pl,manada.pl,medonetmarket.pl,sparta.com.pl##.bhr-chat-container
 batteryguru.eu###xcmb
 batteryland.com##.tw-chat
-bboptic.com##footer > .pinnedBottomLeft > div[id^="comp-"]
+bboptic.com,cocochoco.com.pl,sbys.pl##iframe[aria-label="Wix Chat"]
 bdi.com.pl###contact_popup
 bechtle.com##.communication-box
 bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(4)
@@ -506,6 +506,7 @@ mansys.org##body > jdiv
 marketbio.pl##.item-ceneo.item
 marketbio.pl##.item-google.item
 marketbio.pl##.item-trusted-shops.item
+marketubezpieczen.eu##.sugester-chat
 masterlease.pl##.contact-form
 masterleasing.pl##.callus
 masterproject.pl##.trigger_popup_fricc
@@ -688,7 +689,6 @@ sanbetdevelopment.pl###fastcontact
 santanderconsumer.pl##.chat-cc__header
 sat-system.uk###gg_ikona
 sawataxi.pl###zamow
-sbys.pl##iframe[id^="comp"][id$="iframe"][aria-label="Wix Chat"]
 scandi-city.pl##.scroll > .widget > .phone
 sck.pl###popupTest
 screennetwork.pl##.button_info_box
