@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 22 Sep 2024, 17:33 UTC+02:00
-! Version: 2024.9.22.0
+! Last modified: Wed, 25 Sep 2024, 15:01 UTC+02:00
+! Version: 2024.9.25.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 wrz 2024, 17:33 UTC+02:00
+! Aktualizacja: śro, 25 wrz 2024, 15:01 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -81,6 +81,7 @@
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
+abc-zoosklep.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,naukawpolsce.pl,obuwiestyl.pl,pakomat.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,topsecret.pl,trzymajsiecieplo.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
 abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 ac.com.pl##.form-group
 action.com##footer div[data-testid="newsletter-section"]
@@ -107,7 +108,6 @@ agrodoradca24.pl##.newsletter-online
 agromat.pl##.column-double.content > .flex
 agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu,www.e-hurtowo.eu##.ModulNewsletter
 agroprofil.pl##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_185.vc_column
-agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,naukawpolsce.pl,obuwiestyl.pl,pakomat.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,topsecret.pl,trzymajsiecieplo.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
 agrosimex.pl##.p0.tablet-column.col-sm-4.col-xs-12
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
 ahe.lodz.pl###company-newsletter-column
@@ -1340,6 +1340,7 @@ polish-airports.com###cookies_message_container
 polishclub.org##.small.row > .col-md-4
 polishexpress.co.uk##.ng-scope.peSection--news
 polityka.pl##.cg_newsletter
+polityka.pl##.cg_newsletter_signup_wrapper
 polityka.pl##.md-side-newsletter-signup
 polnox.pl##ul:nth-of-type(3)
 polska.travel##.fixed-elements
@@ -1553,6 +1554,7 @@ sklepkupiec.pl##.footer-block.newsllt
 sklepmarka.pl##.newletter-header
 sklepsaturn.pl,sprzet-fryzjerski.pl###social > a[href="/newsletter/add"]
 skorzany.com###zapisz-sie
+skorzewo.chatapolska.pl##.footer_block.st_news_letter_2
 skrivanek.pl###custom_html-3 > div > a[href*="newsletter"]
 skrivanek.pl#?##custom_html-3 > div > p:-abp-contains(newslettera)
 skrivanek.pl#?##custom_html-3 > h3:-abp-contains(Newsletter)
@@ -2219,6 +2221,7 @@ pl,~znak.com.pl##.newsletter-container
 aasapolska.pl###leave-page-modal
 aba-sport.pl,alpinsklep.pl,apteka-natura.eu,autochemia.pl,avaro.pl,barokko.pl,bludshop.com,blueskypolska.pl,bogulandia.pl,bugo.pl,butosklep.pl,butylukow.pl,cafeborowka.pl,californiaskateshop.pl,candleworld.com.pl,cosslodkiego.com.pl,cyfra.eu,czasnabuty.pl,damizabawki.pl,denicler.eu,divanii.pl,dowarsztatu.com,e-baseus.com,e-megasport.com,efutro.com.pl,ene-due.eu,gratoria.pl,groomer.com.pl,hile.pl,hydromech.eu,korob.pl,ksiegarnia-edukacyjna.pl,kupbuty.com,littlejungle.pl,malowanebiela.pl,megazoologiczny.pl,meskiegacie.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rovicky.eu,sestimi.pl,sewel.pl,shop.s-a.pl,sportowybazar.pl,stili.pl,surgepolonia.pl,twojeobuwie.pl,ulubionabielizna.pl,unbrokenstore.com,vitasport.pl,wispol.eu,zapachyswiata.eu###topLayerBackDrop
 aba-sport.pl,autochemia.pl,bogulandia.pl,californiaskateshop.pl,cosslodkiego.com.pl,cyfra.eu,damizabawki.pl,dowarsztatu.com,efutro.com.pl,gratoria.pl,groomer.com.pl,hydromech.eu,kupbuty.com,meskiegacie.pl,mobile-city.pl,obuwie-lizuraj.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rasowear.pl,sewel.pl,sportowybazar.pl,unbrokenstore.com,vitasport.pl,wispol.eu###tws_i_0
+abc-zoosklep.pl###ec-v-from-popup-cover
 abcfirany.pl,kochamzabawki.eu###InfoNewsletterOkno, #InfoNewsletter
 ac.com.pl,actaenergetica.org,atomstore.pl,ccnews.pl,deku.pl,holum.pl,jagiellonski.pl,l37.eu,meczelive.pl,meczelive.tv,meczenazywo.pl,mutyzm.org.pl,platan.pl,portalmorski.pl,regalka.pl,rejs.eu,rozsadnibracia.pl,secretlashes.pl,sukcesja.eu,teatrsyrena.pl,uczyibawi.pl,wokolmotoryzacji.pl,yenn.eu###fm-pu-container
 accent-bikes.com###lang_popup
@@ -3760,7 +3763,7 @@ e-bliskoprzyrody.pl##.vlt-back-to-top
 e-dym.pl,sklep.mateuszciawlowski.pl,walizkownia.pl###slidetop
 e-glamour.pl,elnino-parfum.pl##.js-scrollUp
 e-kiosk.pl##.fixed-menu
-e-militaria.pl##.to_top_wrap
+e-militaria.pl,skorzewo.chatapolska.pl##.to_top_wrap
 e-sadownictwo.pl,gf24.pl,itee.pl,kosciolek.info,solispolska.pl,stempelek.info,wiadomoscipw.pl,wiesci.info.pl,wiwa.info.pl,www.kcez.pl,wysokomazowiecki24.pl##.sp-scroll-up
 e-szkolniak.pl,sklep.milicon.eu,sklepbaterie.pl,zmiksowani.pl,zrobisztosam.com###topLink
 e-zegarki.pl,tanio.co,vangraaf.com##.scroll-up-button
@@ -4190,6 +4193,7 @@ pl.aliexpress.com##div[class*="elevator--container"]
 pl.ccm.net###jGoTop
 pl.chili.com###returnTop
 pl.depositphotos.com##.top-button-wrapper
+pl.factcool.com##button.fcicon-return
 pl.hisense.com###pageNavCorner_top
 pl.msi.com##[title="Go to top"][onclick="topFunction()"]
 pl.promocodie.com##.mgotop
@@ -4627,6 +4631,7 @@ topmarkety.pl###banner-sponsorski
 www.yahoo.com###app > div > div > div > #YDC-MainCanvas > a[href="https://www.yahoo.com/"]
 zooplus.pl##.type_banner[id*="right"]
 zooplus.pl##.type_banner[id*="top-marki"]
+zooplus.pl##div:not([class*="sidebar"]) > div[id*="tracker_banner-yt-channel-"].type_banner
 !
 !
 ! Widżety kontaktowe/informacji zwrotnej
@@ -4696,6 +4701,7 @@ zooplus.pl##.type_banner[id*="top-marki"]
 1944.pl###rasaWebchatPro
 51015kids.eu###custom_trustbadge
 aaaauto.pl###site-bottom-bar-content > .smoothbox
+abc-zoosklep.pl,bonami.pl,notino.pl,pl.factcool.com###daktela-chat, #daktela-web
 adaudio.pl###pinnedBottomRight
 adidas.pl,reebok.pl##.QSISlider
 aeg.pl,electrolux.pl,zanussi.pl##.website-feedback
@@ -4783,7 +4789,6 @@ blinkmedia.pl##.phone_widget
 bludshop.com##.trusted_wrapper
 bodyshock.pro###___ratingbadge_0
 bonami.pl###innvisichat
-bonami.pl,notino.pl###daktela-chat, #daktela-web
 booksy.com###page > a[class^="_"][href$="/viewform"]
 borcas.eu,e-dewocjonalia.eu,oknarolety.com###czater-contener
 borhunter.pl###ddg-launcher-frame-container
@@ -5227,7 +5232,6 @@ pl.000webhost.com##div[style="cursor: pointer;"]
 pl.aleteia.org##a[aria-label="Whatsapp share"]
 pl.canalplus.com###button-call, #button-lead
 pl.canalplus.com##.AsideButtons
-pl.factcool.com###daktela-web
 pl.farnell.com##.live-chat
 pl.malwarebytes.com###cta-feedback-flyout-en
 pl.pons.com###hj-feedback
@@ -6436,6 +6440,7 @@ pocztowy.pl##.bg-navyBlue
 podajdalej.info.pl##.sticky
 podatekvat.pl###SliderBox
 podlaska.policja.gov.pl##div:nth-of-type(5)
+polityka.pl###cg_cm_app_banner.cg_cm_app_banner
 polityka.pl##.commentArt
 poloniawroclaw.pl##.sfl-widget--ribbon__fixed, .ys-sidebar-btn-2
 polskicaravaning.pl###\35 3419
