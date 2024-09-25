@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 20 Sep 2024, 17:35 UTC+02:00
-! Version: 2024.9.20.0
+! Last modified: Wed, 25 Sep 2024, 17:37 UTC+02:00
+! Version: 2024.9.25.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 20 wrz 2024, 17:35 UTC+02:00
+! Aktualizacja: śro, 25 wrz 2024, 17:37 UTC+02:00
 !
 !
 !
@@ -80,6 +80,7 @@
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
+abc-zoosklep.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,naukawpolsce.pl,obuwiestyl.pl,pakomat.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,topsecret.pl,trzymajsiecieplo.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
 abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 ac.com.pl##.form-group
 action.com##footer div[data-testid="newsletter-section"]
@@ -106,7 +107,6 @@ agrodoradca24.pl##.newsletter-online
 agromat.pl##.column-double.content > .flex
 agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu,www.e-hurtowo.eu##.ModulNewsletter
 agroprofil.pl##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_185.vc_column
-agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,naukawpolsce.pl,obuwiestyl.pl,pakomat.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,topsecret.pl,trzymajsiecieplo.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
 agrosimex.pl##.p0.tablet-column.col-sm-4.col-xs-12
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
 ahe.lodz.pl###company-newsletter-column
@@ -1339,6 +1339,7 @@ polish-airports.com###cookies_message_container
 polishclub.org##.small.row > .col-md-4
 polishexpress.co.uk##.ng-scope.peSection--news
 polityka.pl##.cg_newsletter
+polityka.pl##.cg_newsletter_signup_wrapper
 polityka.pl##.md-side-newsletter-signup
 polnox.pl##ul:nth-of-type(3)
 polska.travel##.fixed-elements
@@ -1552,6 +1553,7 @@ sklepkupiec.pl##.footer-block.newsllt
 sklepmarka.pl##.newletter-header
 sklepsaturn.pl,sprzet-fryzjerski.pl###social > a[href="/newsletter/add"]
 skorzany.com###zapisz-sie
+skorzewo.chatapolska.pl##.footer_block.st_news_letter_2
 skrivanek.pl###custom_html-3 > div > a[href*="newsletter"]
 skrivanek.pl#?##custom_html-3 > div > p:-abp-contains(newslettera)
 skrivanek.pl#?##custom_html-3 > h3:-abp-contains(Newsletter)
