@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Wed, 25 Sep 2024, 15:01 UTC+02:00
-! Version: 2024.9.25.0
+! Last modified: Fri, 27 Sep 2024, 22:39 UTC+02:00
+! Version: 2024.9.27.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 25 wrz 2024, 15:01 UTC+02:00
+! Aktualizacja: pią, 27 wrz 2024, 22:39 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -526,6 +526,7 @@ e-pies.eu###m_footer_newsletter#mc-embedded-subscribe-form
 e-prawnik.pl##.boxA2
 e-sas.pl###fbbok
 e-security.com.pl###footerTopPasek
+e-spar.com.pl##.action-boxes-home div[class*="action-boxes-hom"]:has(> .inner #newsletter-form)
 e-spar.com.pl##.icon-xl.icon-envelope-white.spar-icon ~ *, .icon-xl.icon-envelope-white.spar-icon
 e-warzywnictwo.pl##.stopka-newsletter-kontener
 ebroker.pl###ft_t_in
@@ -2209,9 +2210,9 @@ pl,~znak.com.pl##.newsletter-container
 2drink.pl,imperiumromanum.edu.pl,mirafaber.pl,olagosciniak.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
-6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,porta.com.pl,sympatia.onet.pl###bhr-items .bhr-image-popup-container
-6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,porta.com.pl,sympatia.onet.pl#?##bhr-items .bhr-popup-advanced:-abp-has(iframe[src*="salesmanago.pl/"])
-6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,porta.com.pl,sympatia.onet.pl#?##bhr-items .bhr-popup-basic:-abp-has(iframe[src*="salesmanago.pl/"])
+6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,monikasmulewicz.pl,porta.com.pl,sympatia.onet.pl###bhr-items .bhr-image-popup-container
+6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,monikasmulewicz.pl,porta.com.pl,sympatia.onet.pl#?##bhr-items .bhr-popup-advanced:-abp-has(iframe[src*="salesmanago.pl/"])
+6paknutrition.com,alfaelektro.pl,archicom.pl,cebit.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,monikasmulewicz.pl,porta.com.pl,sympatia.onet.pl#?##bhr-items .bhr-popup-basic:-abp-has(iframe[src*="salesmanago.pl/"])
 9c.com.pl,agagrzelak.pl,ledco.pl,sklepdlalekarza.com,tendina.pl,warsztatogrodnika.pl###iqitpopup, #iqitpopup-overlay
 24hurt.pl##.wt-popup, #overlay
 29aleja.pl##.popupWrap
@@ -3498,7 +3499,7 @@ agrotuszyn.pl,forum.gazeta.pl,niepodlegla.dzieje.pl,rozklad.klosok.eu##.toTop
 agtom.eu###scroll_to_top
 airbuy.pl##.js-gotop
 airwick.pl###top-btn
-akacja.eu,baltyk.com,biosmaak.nl,biuronet.com,blogspot.com,cemom.fr,drzwionline.net,fajne.life,fesswybitnie.com,inzynieria.com,kapitalni.org,ksiazwielki.eu,l37.eu,megasat.tv,showmag.info,stoicway.net,widoczni.com,www.etychy.org,www.rybnik.eu,zlomowisko.info##.scrollToTop
+akacja.eu,baltyk.com,biosmaak.nl,biuronet.com,blogspot.com,cemom.fr,drzwionline.net,fajne.life,fesswybitnie.com,inzynieria.com,kapitalni.org,ksiazwielki.eu,l37.eu,megasat.tv,showmag.info,stoicway.net,widoczni.com,www.etychy.org,www.rybnik.eu,zapieksy.com,zlomowisko.info##.scrollToTop
 akademia.nask.pl,gorzow.com,poczet.com,saferinternet.pl,sklep.lobos.pl,spaeden.pl###dogory
 akardo.pl##.btn-scroll-up
 akariaryaca.com,domtuiteraz.eu,egger.com,gettinenglish.com,infoprzasnysz.com,retailmarketexperts.com,sklepelektroniczny.com,warsztatowski.com,wynalazca.tv,zamow.online##.back-top
@@ -3780,7 +3781,7 @@ eelsner24.eu###moveTop
 eko-asklepios.pl,forum.trojmiasto.pl##.go_top
 ekrak.pl###zltop
 eksiegarnia.mnk.pl,mojepodlogi.com,renee.pl##.scroll__top
-ekspedyt.org###sbttBacktotop
+ekspedyt.org,rawa.katowice.pl###sbttBacktotop
 eksperymentalnie.com,finanse.egospodarka.pl,fundacjawolnosci.org##a[href="#top"]
 ekstrastats.pl##.site-scroll-top
 electropapa.com##.scroll-up-container
@@ -3847,7 +3848,7 @@ gazetaspoleczna.pl###top-return
 gdansk.pl##button.btn.rounded-circle[style]
 gearbest.com##.js-toTop.siteAside_toTop
 gemini.pl##button[aria-label="przejdz do góry strony"]
-gemius.pl,ifrancja.fr,inford.eu,instalterm.eu,wgospodarce.pl##.btn-top
+gemius.pl,ifrancja.fr,inford.eu,instalterm.eu,symbioza.it,wgospodarce.pl##.btn-top
 generali.pl###fe-scroll-nav
 getruck.eu###scrollUp_arrow
 gigabyte.pl###divGoTop
@@ -3955,6 +3956,7 @@ journals.viamedica.pl##.Back_To_Top_Button
 juventus-academy.rzeszow.pl###avatar-go-to-top
 kaercher.com##.fg-totop
 kajakiem.info##.bttn_up
+kakadu.pl##.kakadu_scroll_to_top
 kamami.pl,mediaexpert.pl###go_top
 kamen.com.pl###footer_top
 kancelaria.info##.eut-top-btn
@@ -4443,6 +4445,7 @@ zbudujforme.com.pl##.cmsmasters_theme_icon_slide_top
 ziemkiewicz.info##.back-to-start
 zjedz.my##.scroll_top_arrow
 znamlek.pl##.btnScroll
+zooplus.pl###topbutton
 zooplus.pl##button[data-zta="btn-goTop"]
 zszywka.pl###scroolToTop
 !
@@ -4722,6 +4725,7 @@ al.to,x-kom.pl##div[class*="parts__ChatWrapper"]
 al.to,x-kom.pl##footer a[href*="whatsapp.com/"]
 alejabielany.pl##form > input.floatingWidget
 aleleki.pl##.social_contact
+alfaromeo.pgd.pl##iframe[id*="fcc-chat-"]
 aliexpress.com##.ui-fixed-panel-survey
 allegro.pl###chatPlugin
 allekurier.pl##.send-help-fixed-div
@@ -4765,7 +4769,7 @@ axasecurity.com,beko.com,doctorgun.eu,drzwioknabramy.eu,e-security.com.pl,eska.p
 badaniaprenatalne.pl##.contact-button-link
 balladine.com###widgetOpineo
 bankobranie.blogspot.com##.social > li:nth-child(n+6)
-barlinek.com.pl,manada.pl,medonetmarket.pl,sparta.com.pl##.bhr-chat-container
+barlinek.com.pl,manada.pl,medonetmarket.pl,monikasmulewicz.pl,sparta.com.pl##.bhr-chat-container
 batteryguru.eu###xcmb
 batteryland.com##.tw-chat
 bboptic.com,cocochoco.com.pl,sbys.pl##iframe[aria-label="Wix Chat"]
