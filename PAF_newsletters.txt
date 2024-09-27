@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 25 Sep 2024, 17:37 UTC+02:00
-! Version: 2024.9.25.0
+! Last modified: Sat, 28 Sep 2024, 01:31 UTC+02:00
+! Version: 2024.9.28.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 25 wrz 2024, 17:37 UTC+02:00
+! Aktualizacja: sob, 28 wrz 2024, 01:31 UTC+02:00
 !
 !
 !
@@ -525,6 +525,7 @@ e-pies.eu###m_footer_newsletter#mc-embedded-subscribe-form
 e-prawnik.pl##.boxA2
 e-sas.pl###fbbok
 e-security.com.pl###footerTopPasek
+e-spar.com.pl##.action-boxes-home div[class*="action-boxes-hom"]:has(> .inner #newsletter-form)
 e-spar.com.pl##.icon-xl.icon-envelope-white.spar-icon ~ *, .icon-xl.icon-envelope-white.spar-icon
 e-warzywnictwo.pl##.stopka-newsletter-kontener
 ebroker.pl###ft_t_in
