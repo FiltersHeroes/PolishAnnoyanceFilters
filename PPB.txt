@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 28 Sep 2024, 01:31 UTC+02:00
-! Version: 2024.9.28.0
+! Last modified: Sun, 29 Sep 2024, 14:56 UTC+02:00
+! Version: 2024.9.29.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 28 wrz 2024, 01:31 UTC+02:00
+! Aktualizacja: nie, 29 wrz 2024, 14:56 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4683,7 +4683,6 @@ zooplus.pl##div:not([class*="sidebar"]) > div[id*="tracker_banner-yt-channel-"].
 ||widgets.trustedshops.com/reviews/tsSticker/tsSticker.js
 ||znamibezpiecznie.pl/images/kontakt.png
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
-!bboptic.com##footer > .pinnedBottomLeft > div[id^="comp-"]
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
@@ -4727,6 +4726,7 @@ alejabielany.pl##form > input.floatingWidget
 aleleki.pl##.social_contact
 alfaromeo.pgd.pl##iframe[id*="fcc-chat-"]
 aliexpress.com##.ui-fixed-panel-survey
+aliorbank.pl##.socui-chat__button-iframe
 allegro.pl###chatPlugin
 allekurier.pl##.send-help-fixed-div
 allekurier.pl,brewa.pl,iautomatyka.pl###chatContentHolder
@@ -4735,7 +4735,7 @@ alx.pl##.zadaj-szybkie-pytanie
 amazone.pl##.c-btn-contact
 amfora.pl,hulahop.pl##.why-us-show-button
 amracing.pl##.sale-contact-box
-andrychow.eu,odzyskamyodszkodowanie.pl,pasmasz.pl###wp-live-chat
+andrychow.eu,odzyskamyodszkodowanie.pl,pasmasz.pl,wit-mot.pl###wp-live-chat
 angelsadvertising.pl,baccata.com.pl,www.sendbean.pl###sendbean
 anton-paar.com###footer-contact-us
 anton-paar.com,bisnode.pl###iframe-designstudio-button
@@ -4762,6 +4762,10 @@ aurum-optics.pl##.button-messenger
 aurum-optics.pl##a[href*="m.me/"]
 australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com/"])
 autodoc.pl##.js-chat-buttons-container-genesys
+autohero.com##.root___o8kuv
+autokomis-berlin.pl##.ctc_s_2.ctc-analytics
+autoplac.pl##nwa-floating-button
+autoria.pl##.a-contact-bottom
 avans.pl##.b-reportFault
 axa.pl,biznes.gov.pl,cosinus.pl,kup.pl.canalplus.com,toyotabank.pl###dc-tab-button
 axadirect.pl###wirtualnyDoradcaPluginHome, #zadzwonPlugin
@@ -5222,6 +5226,7 @@ phox.pl###chat.chat
 picodi.com###oneSignalBell, #onesignal-bell-container
 pikio.pl###chatBot
 pityver.pl###widget.tada.widget
+pkobp.pl###chat-prod-widget
 pl###fb-root
 pl###wwwa.wwwa--widget.wwwa
 pl##.c-messenger-share
@@ -5242,6 +5247,7 @@ pl.pons.com###hj-feedback
 pl.trip.com##.mod-back-top-chat
 pl.tripadvisor.com#?#body > div[aria-live="polite"]:-abp-has(span:-abp-contains(Opowiedz nam o swoim doświadczeniu ze stroną Tripadvisor))
 planeta-budowlana.pl##.messenger_toggle
+plushbezlimitu.pl##.default-layout > .hydrated
 pneumat.com.pl##.footer__top-wrapper
 poczta-polska.info.pl##.social-links a.bxl-skype
 pocztowy.pl##.goto-chat
@@ -5265,6 +5271,7 @@ ppr.pl##.btn-report
 pracatobie.pl###ankieta1
 pracuj.pl###shareOpinionSticker
 prawo-jazdy-360.pl###help-panel
+premiummobile.pl##.facebook-messenger-avatar.circle
 profbud.info##.bocznemenu > a.socialicoplus
 profinfo.pl##.chatLauncherList
 progrower.eu###chatbc
