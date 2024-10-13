@@ -1,4 +1,3 @@
-store.steampowered.com##div[data-featuretarget="broadcast-embed"] div:matches-css(position: fixed)
 !elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,viva.pl,wizaz.pl##.ediplayer-video:not(.ediplayer-ui-fullscreen) .ediplayer-aspect-padding:style(padding-top: 100% !important)
 bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], asap)
 bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], complete)
@@ -29,6 +28,7 @@ sport.interia.pl,wydarzenia.interia.pl#@#div[class*="video"] div[class="vjs-fixe
 sport.interia.pl,wydarzenia.interia.pl#@#div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 sportowefakty.wp.pl###randomplayer[class*="fixed"], #randomplayer[class*="fixed"] *:style(visibility: hidden !important)
 store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important)
+store.steampowered.com##div[data-featuretarget="broadcast-embed"] div:matches-css(position: fixed)
 swiatgwiazd.pl###player-container .veedmo-video-player .vjs-layout-small *:style(visibility: hidden !important)
 swiatgwiazd.pl###player-container .veedmo-video-player .vjs-layout-small:style(visibility: hidden !important)
 topagrar.pl##+js(aeld, scroll, [native code])
