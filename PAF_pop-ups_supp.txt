@@ -588,7 +588,6 @@ zoo.bydgoszcz.com###NewsShow, .modal-backdrop
 !#endif
 !#if cap_html_filtering
 !@ >>>>>>>> popupy_html + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_html.txt
-!ekliniki.pl##^#popup-message
 4kdownload.com##^.thanks-modal
 4kdownload.com##^.widget-modal
 alemeksyk.eu##^.pwebbox-plugin-facebook_page_plugin
@@ -613,6 +612,7 @@ mprofi.pl##^.tve-leads-lightbox
 muscat.pl##^#discountPopup
 ogrodosfera.pl##^#NewsletterExit
 sportowefakty.wp.pl##^#exitpopup
+warzywapolowe.pl#@#^script[id="real-cookie-banner-banner-js"]
 zoo.bydgoszcz.com##^#NewsShow
 !@ <<<<<<<< popupy_html + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_html.txt
 !#endif
