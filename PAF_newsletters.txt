@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 15 Oct 2024, 17:37 UTC+02:00
-! Version: 2024.10.15.0
+! Last modified: Sun, 20 Oct 2024, 19:07 UTC+02:00
+! Version: 2024.10.20.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 15 paź 2024, 17:37 UTC+02:00
+! Aktualizacja: nie, 20 paź 2024, 19:07 UTC+02:00
 !
 !
 !
@@ -1510,6 +1510,7 @@ sinsay.com##.home-ss20-newsletter
 sipma.pl###newslet
 site-call.pl##.wpc-subcribe .form-subscribe
 skalnik.pl##.newsletter_content.footer
+skapiec.pl##section.newsletter
 skionline.pl##.boks_tytul_out_cp:nth-of-type(3)
 skionline.pl##.boks_tytul_out_cs, .okno_gl_s > .boks
 skionline.pl##td:nth-of-type(2) > .boks:nth-of-type(3) > tbody
@@ -1807,6 +1808,7 @@ warzywapolowe.pl##.tdm-social-item[href*="/newsletter"]
 waszaturystyka.pl##.platform-content:nth-of-type(2)
 waw4free.pl###komunikat_newsletter, #spolecznosci > a[href="newsletter"], .footer-box:nth-of-type(2)
 wbpg.org.pl###block-freshmail-freshmail-block, #home_newsletter
+wdi24.pl##.site-footer__header:has(+ #newsletterform)
 wearmedicine.com##.newsletter, #nlThanks
 webcamera.pl###footer-newsletter-box
 webinsider.pl##.gofollow[onclick*=Newsletter]
