@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Wed, 16 Oct 2024, 22:40 UTC+02:00
-! Version: 2024.10.16.1
+! Last modified: Sun, 20 Oct 2024, 18:43 UTC+02:00
+! Version: 2024.10.20.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 16 paź 2024, 22:40 UTC+02:00
+! Aktualizacja: nie, 20 paź 2024, 18:43 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1511,6 +1511,7 @@ sinsay.com##.home-ss20-newsletter
 sipma.pl###newslet
 site-call.pl##.wpc-subcribe .form-subscribe
 skalnik.pl##.newsletter_content.footer
+skapiec.pl##section.newsletter
 skionline.pl##.boks_tytul_out_cp:nth-of-type(3)
 skionline.pl##.boks_tytul_out_cs, .okno_gl_s > .boks
 skionline.pl##td:nth-of-type(2) > .boks:nth-of-type(3) > tbody
@@ -1808,6 +1809,7 @@ warzywapolowe.pl##.tdm-social-item[href*="/newsletter"]
 waszaturystyka.pl##.platform-content:nth-of-type(2)
 waw4free.pl###komunikat_newsletter, #spolecznosci > a[href="newsletter"], .footer-box:nth-of-type(2)
 wbpg.org.pl###block-freshmail-freshmail-block, #home_newsletter
+wdi24.pl##.site-footer__header:has(+ #newsletterform)
 wearmedicine.com##.newsletter, #nlThanks
 webcamera.pl###footer-newsletter-box
 webinsider.pl##.gofollow[onclick*=Newsletter]
@@ -3811,6 +3813,7 @@ expressoffice.pl,faceoffice.pl###move-up
 extraswiecie.pl,modr.pl###vscroll_to_top
 fastdeal.pl,jestok.eu,okazik.pl,polskiemedia.org###btn-scrollup
 festiwaldobregosmaku.eu,twojaslupca.pl###mkd-back-to-top
+fibreo.pl###btn-to-top-wrap
 filmpolski.pl##div[id^="dogory_"]
 fintek.pl###button-backtotop
 floryday.com##.side-bar-back
@@ -4212,6 +4215,7 @@ polski-optyk.pl##a > [src="img/top.png"]
 pomagam.net##.czr-btt
 poprostuenergia.pl##.scroll_up
 poradnikbudowlany.eu##.footer-up > .col-md-1.col-xs-12
+porta-sklep.pl##.go_top_btn
 porta.com.pl##a [alt="Go to top"]
 portal-sadownik.pl###arrowtop
 portalprzemyski.pl##.footer-scroll-to-top
@@ -5264,6 +5268,7 @@ porowneo.pl##.agent-avaiable
 portal.lellek.pl###contact-img
 poscielone.pl##.ceneo_right
 powerflex.pl##.bkt--qfc_button
+poznajwp.pl##.taku_launcher, .taku_popup_message
 ppr.pl##.btn-report
 pracatobie.pl###ankieta1
 pracuj.pl###shareOpinionSticker
@@ -5698,7 +5703,7 @@ arms.com.pl,chipkomputery.pl,mdron.pl###basketslider
 artelis.pl##.art-navstripe
 artlazienkowe.pl###widget_shop1 > div:nth-of-type(2)
 asport.pl##.hit-tygodnia
-astronomia.media.pl,mocnezarcie.pl,szybkaprzemiana.pl##.single-navigation
+astronomia.media.pl,globalna.info,mocnezarcie.pl,szybkaprzemiana.pl##.single-navigation[class*="post"]
 ataksja.org.pl,przyszloscdladzieci.org##.fm-teaser
 atrakcjenaimprezy.pl###boxes
 atthost.pl,~mail.atthost.pl,~panel.atthost.pl,~secure.atthost.pl,~webmail.atthost.pl##.hosting_info
@@ -6028,7 +6033,6 @@ github.com##legend h4[id*="comment-form"]
 github.com#?#h3:-abp-has(+ details > summary:only-child)
 gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
 global4net.com##.implementation-catalog
-globalna.info##.single-navigation[class*="post"]
 godanparty.pl##.shipping-info
 godealla.pl###top-offers, .hand
 godstoys.pl##.master-loading-overlay
@@ -6051,6 +6055,8 @@ hebe.pl,home.biedronka.pl##.js-everyday-promo-place
 hefra.pl###social-widget-main
 helloangielski.pl###icegram_messages_container
 hellogadzet.pl##.newsletter_sidewidget
+hiperpharm.pl###side_widget
+hiperpharm.pl##.banner-underpage
 histmag.org###article > div[style*="fixed"]:not([id]):not([class])
 histmag.org##.print\:hidden
 histmag.org##div[evergreen-portal-container] > div > div[role="dialog"]
@@ -6578,6 +6584,11 @@ sprzedawacz.pl##.bookmark
 staleo.pl###MultiCookieInfo-regulaminInfo
 stanmed24.pl###about, #contact, #airmini
 starter.net.pl##.mk-portfolio-pagination
+startpage.com##.hamburger-app-promo-banner
+startpage.com##.home-app-promo
+startpage.com##.serp-sidebar-app-promo-widget
+startpage.com##.serp-toast-container[aria-label^="app"]
+startpage.com##main:is(#home, .home) div:is(#below-the-fold, .below-the-fold) > section a[href*="//app."][aria-label="Pobierz aplikację"]
 stilord.pl###sv-rbadge-box
 stopcafe.pl##.app-widget
 stopklatka.pl##.platforms_adfloor, .tickerPromo
@@ -6613,6 +6624,7 @@ tanienurkowanie.pl##.mf-notification-iframe
 tapenda.pl###wysuwany_jezyk, #wysuwany_jezyk2
 targi.krakow.pl##.language-picker
 targsmaku.pl##.page-bottom-bar
+tasti.pl###salertWrapper .popup_template
 tatryski.pl##.sidebuttons
 tb-polska.pl##.customtab-lewa > ul > li:nth-of-type(4)
 tcz.pl###pop-art-popup
@@ -6680,6 +6692,7 @@ wapteka.pl###app #footer-container
 wapteka.pl,www.e-medest.pl###baner_footer
 wartapoznan.pl##.pko-side-widget
 wasserman.eu##.jss372
+waterpikpolska.pl##single-navigation[class*="post"]
 waze.com##.wz-downloadbar
 weathermap.netatmo.com###abtasty-banner
 wedkarz.pro##.ikonkiw.hidden-xs > a[href="/koszyk"]
