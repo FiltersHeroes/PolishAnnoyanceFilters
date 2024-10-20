@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 15 Oct 2024, 15:01 UTC+02:00
-! Version: 2024.10.15.1
+! Last modified: Sun, 20 Oct 2024, 19:07 UTC+02:00
+! Version: 2024.10.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 15 paź 2024, 15:01 UTC+02:00
+! Aktualizacja: nie, 20 paź 2024, 19:07 UTC+02:00
 !
 !
 !
@@ -128,6 +128,9 @@
 ||znak.com.pl/popupNewsletter$xmlhttprequest
 !@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!brw.pl##.snrs-modal-wrapper:has([title="ZAPISZ SIĘ TERAZ"])
+!coffeedesk.pl###snrs-popup-wrapper-ns
+!homla.com.pl##.snrs-modal-background
 2drink.pl,imperiumromanum.edu.pl,mirafaber.pl,olagosciniak.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
@@ -155,7 +158,7 @@ addhost.pl##.fsp-wrapper
 addons.opera.com,atcdevelopment.pl,bankobranie.blogspot.com,bobbyburger.pl###overlay
 adeste.eu##.cp-direct-download-container
 admiraltax.pl##iframe[id][src*="popups.landingi.com/api/popups/"]
-adra.pl,agro-rolnik.pl,agroefekt.pl,agrosiec.pl,apaczka.pl,blog.lh.pl,dekanex.pl,dobroplast.pl,dzisiajwgliwicach.pl,elus.pl,estante.pl,g2aarena.pl,gazetasenior.pl,gf24.pl,glokalna.pl,kawiarniany.pl,komputerowapasja.pl,konopia-med.pl,ksm.org.pl,lukasiewicz.gov.pl,nawiedzone.pl,neworleans.pl,niw.gov.pl,no44.pl,pantabletka.pl,polska-ie.com,prostamol.pl,sedna.pl,siecprzedsiebiorczychkobiet.pl,sklep.lancray.pl,sulmierzyce.info,techfresh.pl,techsetter.pl,uroda.in,vratislavia-medica.pl,zostanwpolsce.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
+adra.pl,agro-rolnik.pl,agroefekt.pl,agrosiec.pl,apaczka.pl,blog.lh.pl,dekanex.pl,dobroplast.pl,dzisiajwgliwicach.pl,elus.pl,estante.pl,g2aarena.pl,gazetasenior.pl,gf24.pl,glokalna.pl,kawiarniany.pl,komputerowapasja.pl,konopia-med.pl,ksm.org.pl,lukasiewicz.gov.pl,nawiedzone.pl,neworleans.pl,niw.gov.pl,no44.pl,pantabletka.pl,pewnedrzwi.pl,polska-ie.com,prostamol.pl,sedna.pl,siecprzedsiebiorczychkobiet.pl,sklep.lancray.pl,sulmierzyce.info,techfresh.pl,techsetter.pl,uroda.in,vratislavia-medica.pl,zostanwpolsce.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 adresy.um.warszawa.pl,mapa.um.warszawa.pl,ulice.um.warszawa.pl###init_info[style], #komunikat[style]
 adria-art.pl###overlay, .popup.newsletter
 agamasmaka.pl##.et_bloom_auto_popup.et_bloom_flyin
@@ -294,14 +297,13 @@ bodyland.pl,hairstore.pl###newsletter-lightbox-holder
 boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,portalwloclawek.pl,radiobonton.pl,regatv.pl,rolnik.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,wagner-polska.com.pl##.toplayer
 bolix.pl,pushpushgo.com###ebook-popup
 bonprix.pl,dragonmask.pl,dziergaczkowo.pl,virtualo.pl,walizkazabawek.pl,webcamera.pl##body:not(.modal-open) .newsletter-modal, .modal-backdrop
-born2be.pl,butysportowe.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl##.snrs-modal-wrapper
+born2be.pl,butysportowe.pl,decathlon.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl##.snrs-modal-wrapper, .snrs-modal-content
 braclowiecka.pl##div[id^="lepopup-popup"]
 brandpro.pl###mc_embed_signup
 brandpro.pl##.fancybox-skin
 brilu.pl,chefstore.pl##.popup__overlay
 brodatyzbir.pl##.adp-popup
 brodrene.eu###news_popup, #tlo_bg
-brw.pl##.snrs-modal-wrapper:has([title="ZAPISZ SIĘ TERAZ"])
 brylove.pl,mokosh.pl###popupWindow
 bs.skoczow.pl###window[ng-controller="myInfo"]
 bspruszczgd.pl##.sPopup, .sPopup__mask
@@ -342,7 +344,6 @@ clickfashion.pl##.layer_cart_overlay
 clickfashion.pl,dzwignice.info,embryolisse.pl,lenovozone.pl,mohito.com,woblink.com,xlm.pl,zdrowie.pap.pl###newsletter-popup
 clinic4car.pl##.newsletter-popup-zone
 cocomoda.pl###welcome_newsletter
-coffeedesk.pl###snrs-popup-wrapper-ns
 colian.pl,imgw.pl##.home-popup
 colway.pl##.modal_movie
 compensa.pl##.main .popup-wrapper
@@ -521,7 +522,6 @@ heyah.pl##.an_fullscr_one_choise
 hipp.pl##.m-promo
 hitcena.pl,podrogach.pl###popup_container
 hitze.pl##.darkNotice, #darkBg
-homla.com.pl##.snrs-modal-background
 homodigital.pl###newsletter-overlay-wrapper
 hopnatop.pl##.pop_up, .pop_up_center
 horoskop.wp.pl,pep.pl###popup, #fade
