@@ -2,8 +2,8 @@
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Sun, 20 Oct 2024, 19:19 UTC+02:00
-! Version: 2024.10.20.1
+! Last modified: Fri, 25 Oct 2024, 00:00 UTC+02:00
+! Version: 2024.10.25.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,9 +12,10 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 20 paź 2024, 19:19 UTC+02:00
+! Aktualizacja: pią, 25 paź 2024, 00:00 UTC+02:00
 !
 !
+!wrc.net.pl##+js(aeld, blur, function(e){return"undefined"!=typeof S&&S.event.triggered!==e.type?S.event.dispatch.apply(t,arguments):void 0})
 /wp-content/plugins/change-browser-tab-title-when-tab-is-not-active/public/js/browser-tab-title-reminder-public.js$script,domain=pl
 ||inglot.pl/modules/inglotmisstab/misstab.js
 ||mbank.pl/.elements/alternative-title.html.i$xhr,domain=www.mbank.pl
@@ -25,7 +26,6 @@ asta-net.pl,atthost.pl,csi.pl,e-baseus.com,elementstore.pl,~mail.asta-net.pl,~ma
 bludshop.com,sportclub.com.pl##+js(acis, window.onblur, Wróć na )
 casedrop.eu##+js(aeld, blur, title_on_blur)
 czasnabuty.pl##+js(set, cnbtitle_ch, false)
-demagog.org.pl,wrc.net.pl##+js(aeld, blur, function(e){return"undefined"!=typeof S&&S.event.triggered!==e.type?S.event.dispatch.apply(t,arguments):void 0})
 dommania.pl##+js(nosiif, flashTitle, 1500)
 drtusz.pl##+js(acis, $, Wróć na)
 dziennikprawny.pl##+js(aopr, titleBack)
@@ -38,6 +38,7 @@ prawokonsumenckie.pl##+js(set, setReplyTitle, noopFunc)
 przepisy.pl##+js(aeld, visibilitychange, zone_symbol__propagationStopped)
 sestimi.pl##+js(aeld, blur, document.title = message)
 siriuspro.pl##+js(aopr, document.hidden)
+sklep.porta.com.pl##+js(aopr, window.dynamic_browser_title)
 sklep.solier.pl##+js(acis, $, Wróć do nas)
 sklepbaterie.pl##+js(nosiif, lastTitle, 2500)
 taniaksiazka.pl##+js(set, BLUR_TITLE, '')
