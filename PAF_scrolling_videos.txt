@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 20 Oct 2024, 19:07 UTC+02:00
-! Version: 2024.10.20.0
+! Last modified: Sun, 10 Nov 2024, 23:16 UTC+01:00
+! Version: 2024.11.10.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 20 paź 2024, 19:07 UTC+02:00
+! Aktualizacja: nie, 10 lis 2024, 23:16 UTC+01:00
 !
 !
 !
@@ -42,6 +42,7 @@ elle.pl,focus.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.p
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 eurosport.tvn24.pl##div.picture-in-picture.fixed, div[data-testid="player-pip-active"]
 filmweb.pl##.isPinned.videoPlayer > .videoPlayer__container
+gamereactor.pl##.playersmall
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
@@ -66,6 +67,7 @@ softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
 telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvrep-live-box
 telewizjatvt.pl#?#div[id^="elementor-popup-modal-"]:-abp-has(iframe[src*="/player/"])
 topagrar.pl,tygodnik-rolniczy.pl##.vast-player__thumbnail[style*="top:"]
+trojmiasto.pl##.vjs-trojmiasto-mini.video-js
 trojmiasto.pl,trojmiasto.tv##div[id^="video"].vjs-mini
 tvn24.pl##.mainContainer .hideVideoPlayer .stuck--desktop, .mainContainer .hideVideoPlayer .stuck--wide-tablet
 tvn24.pl##.nuvi-player div.floating.floatable, .videoPlayer.stuck--top
