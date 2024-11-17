@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 10 Nov 2024, 23:18 UTC+01:00
-! Version: 2024.11.10.1
+! Last modified: Sun, 17 Nov 2024, 19:21 UTC+01:00
+! Version: 2024.11.17.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 10 lis 2024, 23:18 UTC+01:00
+! Aktualizacja: nie, 17 lis 2024, 19:21 UTC+01:00
 !
 !
 !
@@ -128,9 +128,6 @@
 ||znak.com.pl/popupNewsletter$xmlhttprequest
 !@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
-!brw.pl##.snrs-modal-wrapper:has([title="ZAPISZ SIĘ TERAZ"])
-!coffeedesk.pl###snrs-popup-wrapper-ns
-!homla.com.pl##.snrs-modal-background
 2drink.pl,imperiumromanum.edu.pl,mirafaber.pl,olagosciniak.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 3i-store.com,biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 4lifedirect.pl##.leadinModal
@@ -559,6 +556,7 @@ jajco.pl###popupDiv
 jakbudowac.pl,twojogrodek.pl##.exit-popup.dialog, .overlay
 jakdojade.pl###container > starting-screen.ng-isolate-scope
 janssen.tv##.fancybox-wrap, .fancybox-overlay-fixed.fancybox-overlay
+jawo2008.pl##.newsletter-popup, .overlay
 justjoin.it##.join-fb-popup
 kalkulatorkalorii.net###getresponse, .modal-backdrop
 kamira90.blogspot.com,pelnytalerz.com,vetopedia.pl###fbox-background, #fbox-close
