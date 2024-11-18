@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 17 Nov 2024, 23:37 UTC+01:00
-! Version: 2024.11.17.0
+! Last modified: Mon, 18 Nov 2024, 16:38 UTC+01:00
+! Version: 2024.11.18.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 17 lis 2024, 23:37 UTC+01:00
+! Aktualizacja: pon, 18 lis 2024, 16:38 UTC+01:00
 !
 !
 !
@@ -59,8 +59,6 @@
 ||zadowolenie.pl/media/cache/*/zdw-newsletter-
 ||zooplus.pl/magazyn/wp-content/uploads/20*/*/*Newsletter_Promotion_$image
 2max.pl###footer-container-first
-3i-store.com##.footer-section2-content.row > div.col-md-3.col-sm-6.col-xs-12.mobile-toggle:last-child > h4.no-padding-mob
-3i-store.com,addons.prestashop.com##.newsletter-subscribe
 4adstudio.pl,rudeiczarne.pl##.widget_mc4wp_form_widget
 4kdownload.com##.footer__section > .footer__col--updates
 4kom.pl##.newsletter-custom
@@ -89,6 +87,7 @@ active.sklep.pl###footer_full .footer--social-block ~ div[class]:last-child
 activejet.pl##.newsletterBanner
 adapter.pl##.main-top-wrapper > .container > h2
 addnature.pl,bikester.pl##.newsletterModule
+addons.prestashop.com##.newsletter-subscribe
 adequate.pl##.hidden-xs.col-sm-4.col-md-4.col-lg-4
 adguard.com##.annoyance.email-collector
 adidas.pl,reebok.pl##div[class^="footer_newsletter___"]
@@ -459,7 +458,6 @@ dlabystrzakow.pl##.footer-form-newsletter
 dlh.pl##.footer_left_newsletter
 dobiegania.pl##.superMailing
 dobrarelacja.pl##.elementor-element-783e75a2
-dobre-driny.pl###newsletter > div
 dobredomy.pl###footerForm
 dobremiejsce.org##.popupaoc-button
 dobreprogramy.pl###phContent_SubscriptionsControl_lnkNewsletter
@@ -1970,7 +1968,7 @@ zyxel.com###block-newsletter-footer
 ~activejet.pl,pl##.newsletterBox
 ~aurum-optics.pl,pl##.footer-newsletter
 ~automatykab2b.pl,~ekodrogeria.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
-~budus.pl,~carrefour.pl,~dobre-driny.pl,~olx.pl,pl###newsletter:not(.modal):not(input)
+~budus.pl,~carrefour.pl,~~olx.pl,pl###newsletter:not(.modal):not(input)
 ~dietyodbrokula.pl,~ekodrogeria.pl,~mediaexpert.pl,~muzyczneradio.pl,pl##.newsletter-form
 ~drogeriaolmed.pl,pl##.newsletter-btn
 ~dron.pl,pl##.widget_wysija
