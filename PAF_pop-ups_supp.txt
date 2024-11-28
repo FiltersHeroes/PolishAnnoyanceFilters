@@ -228,7 +228,8 @@ insert.com.pl##+js(aeld, DOMMouseScroll, preventDefault)
 instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
-isostore.eu###topLayerBackDrop, #toplayer_newsletter
+isostore.eu###toplayer_newsletter
+isostore.eu###topLayerBackDrop, .iai-toplayer__background
 jogapiekna.com###odbierz-prezent-modal, .modal-backdrop
 jooble.org###popup
 jooble.org##body.no_scroll:style(overflow-y: auto !important; height: 100% !important; width: 100% !important)
@@ -663,6 +664,7 @@ zoo.bydgoszcz.com$$[id="NewsShow"]
 !#if ext_ublock
 !lento.pl##+js(ra, style, .box-modal-notify\, #lightoverlay)
 pl###topLayerBackDrop:empty
+pl##.iai-toplayer__background:empty
 pl##div[id^="tws_i_"] :is(#toplayer_newsletter_popup, #toplayer_newsletter, #toplayer_newsletter_form, div[id^="tln"][id$="_wrap"]):upward(div[id^="tws_i_"])
 www.auchan.pl##.v-dialog__content:has(> div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
 www.auchan.pl##.v-overlay:has(~ .v-dialog__content > div.v-dialog > div:not([id]):not([class]) > button ~ a > picture:only-child)
