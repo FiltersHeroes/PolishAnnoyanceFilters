@@ -196,6 +196,8 @@ farmer.pl##.windowOpen:style(overflow-y: auto !important)
 fdm.pl,galskor.com##+js(acis, $, fancybox)
 filehippo.pl,softonic.pl##.rv-di-modal:has(img[src*="avast"], img[src*="opera"]):remove()
 filehippo.pl,softonic.pl##div:is(#modal-di-avast, #modal-di-opera):remove()
+filmweb.pl##.exitPopup.popup
+filmweb.pl##body[class]:not(.rodo):style(overflow: auto !important)
 fjordd.com##body[class*="pop"]:style(overflow-y: auto !important)
 fjordd.com##div[data-popup-subscribe-inited]
 fmmobile.pl###lead-modal, .modal-backdrop
