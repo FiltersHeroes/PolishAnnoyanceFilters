@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Wed, 11 Sep 2024, 17:34 UTC+02:00
-! Version: 2024.9.11.0
+! Last modified: Wed, 11 Dec 2024, 16:39 UTC+01:00
+! Version: 2024.12.11.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 11 wrz 2024, 17:34 UTC+02:00
+! Aktualizacja: śro, 11 gru 2024, 16:39 UTC+01:00
 !
 !
 !
@@ -368,7 +368,7 @@ zycie.pl##.right #multiple-versions, #premium-slide
 !
 !
 ! Filtry specjalne
-polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafdetect
+polishannoyancefilters.netlify.app###pafdetect
 !#if !ext_ublock
 !#include PPB/uBO_AG/specjalne_AG.txt
 !#endif
