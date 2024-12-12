@@ -2,8 +2,8 @@
 ! Polish Annoyance Filters - Tagged Internal Links
 ! Codename: Tagged Internal Links
 ! Description: Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.
-! Last modified: Sun, 16 Apr 2023, 21:42 UTC+02:00
-! Version: 2023.4.16.0
+! Last modified: Thu, 12 Dec 2024, 16:39 UTC+01:00
+! Version: 2024.12.12.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,12 +12,12 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 16 kwi 2023, 21:42 UTC+02:00
+! Aktualizacja: czw, 12 gru 2024, 16:39 UTC+01:00
 !
 !
-bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##+js(ra, href, .external_link, stay)
-bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link:style(background: none !important)
-bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,ugotuj.to,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link[href]:style(pointer-events: none !important; position: unset !important)
+bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##+js(ra, href, .external_link, stay)
+bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link:style(background: none !important)
+bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##.external_link[href]:style(pointer-events: none !important; position: unset !important)
 dziennikzachodni.pl##+js(ra, href, componentsArticleContent a[href*="&utm_campaign=artykul"], stay)
 dziennikzachodni.pl##.componentsArticleContent a[href*="&utm_campaign=artykul"]:style(pointer-events: none !important; color: initial !important)
 !
