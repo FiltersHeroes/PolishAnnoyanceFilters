@@ -2,8 +2,8 @@
 ! Polish Annoyance Filters - Tagged Internal Links
 ! Codename: Tagged Internal Links
 ! Description: Filtry usuwające niezgodne z tematem artykułów otagowane linki wewnętrzne, które łatwo przypadkowo kliknąć. Inspirowane rozszerzeniem Agora Tag Links Remove.
-! Last modified: Thu, 12 Dec 2024, 16:39 UTC+01:00
-! Version: 2024.12.12.0
+! Last modified: Sat, 14 Dec 2024, 00:33 UTC+01:00
+! Version: 2024.12.14.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 12 gru 2024, 16:39 UTC+01:00
+! Aktualizacja: sob, 14 gru 2024, 00:33 UTC+01:00
 !
 !
 bryla.pl,czterykaty.pl,gazeta.biz,gazeta.pl,gazetapraca.pl,moto.pl,sport.pl,tokfm.pl,wyborcza.biz,wyborcza.pl,wysokieobcasy.pl##+js(ra, href, .external_link, stay)
@@ -24,8 +24,8 @@ dziennikzachodni.pl##.componentsArticleContent a[href*="&utm_campaign=artykul"]:
 !
 ! Filtry specjalne
 !#if !ext_ublock
-polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
+polishannoyancefilters.netlify.app###pafadguard
 !#endif
 !#if ext_ublock
-polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com##+js(set, pafDetect, true)
+polishannoyancefilters.netlify.app##+js(set, pafDetect, true)
 !#endif
