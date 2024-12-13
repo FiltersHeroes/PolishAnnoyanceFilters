@@ -8,8 +8,8 @@ twojahistoria.pl##.single, .home:style(background-image: none !important)
 !
 ! Filtry specjalne
 !#if !ext_ublock
-polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com###pafadguard
+polishannoyancefilters.netlify.app###pafadguard
 !#endif
 !#if ext_ublock
-polishannoyancefilters.netlify.app,polishannoyancefilters.netlify.com##+js(set, pafDetect, true)
+polishannoyancefilters.netlify.app##+js(set, pafDetect, true)
 !#endif
