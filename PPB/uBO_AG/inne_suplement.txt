@@ -1,3 +1,5 @@
+aflofarm.com.pl###suplement-info[style*="fixed"]:has(img[src^="https://web.archive.org"][src$="sa.png"]):style(position: static !important)
+||aflofarm.com.pl/*/suplementy-diety/$doc,replace=/https:\/\/fpe-sklep.pl\/static\/sa.png/https:\/\/web.archive.org\/web\/20170929173235if_\/https:\/\/fpe-sklep.pl\/static\/sa.png/,domain=aflofarm.com.pl
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
