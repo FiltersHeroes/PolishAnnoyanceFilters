@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Thu, 19 Dec 2024, 16:37 UTC+01:00
-! Version: 2024.12.19.0
+! Last modified: Sat, 21 Dec 2024, 00:31 UTC+01:00
+! Version: 2024.12.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 19 gru 2024, 16:37 UTC+01:00
+! Aktualizacja: sob, 21 gru 2024, 00:31 UTC+01:00
 !
 !
 !
@@ -484,7 +484,7 @@ douglas.pl##.newsletter-confirmation__wrapper
 douglas.pl##.rd__footer__block--newsletter
 doz.pl##.footer__top
 doz.pl##.newsletter div[class*="title"]
-dpcraft.pl##.newsletter_popup.module
+dpcraft.pl###stopka .newsletter :is(.module_head, .module_body .text, .module_body .newsletter_input > :not(.social_media))
 dpn.pl##.column-right > div.box:nth-of-type(2)
 dre.pl##.main__col--newsletter
 dressler.com.pl###features > div > div:first-of-type
