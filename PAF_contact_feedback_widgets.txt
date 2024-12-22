@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 22 Dec 2024, 16:59 UTC+01:00
-! Version: 2024.12.22.1
+! Last modified: Sun, 22 Dec 2024, 17:41 UTC+01:00
+! Version: 2024.12.22.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 gru 2024, 16:59 UTC+01:00
+! Aktualizacja: nie, 22 gru 2024, 17:41 UTC+01:00
 !
 !
 !
@@ -67,6 +67,8 @@
 ||znamibezpiecznie.pl/images/kontakt.png
 !@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe_sieciowe.txt
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
+!borcas.eu,e-dewocjonalia.eu,oknarolety.com###czater-contener
+!woliniusz.pl##div[id$="_czater"]
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
@@ -187,7 +189,7 @@ bludshop.com##.trusted_wrapper
 bodyshock.pro###___ratingbadge_0
 bonami.pl###innvisichat
 booksy.com###page > a[class^="_"][href$="/viewform"]
-borcas.eu,e-dewocjonalia.eu,oknarolety.com###czater-contener
+borcas.eu,cebit.pl,conet.pl,e-dewocjonalia.eu,hotelcenturia.pl,neopak.pl,nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl,woliniusz.pl###cc-button-iframe, #czatercall-teaser, #czater-contener
 borhunter.pl###ddg-launcher-frame-container
 born2be.pl,carrefour.pl,hebe.pl,hebeapteka.pl,renee.pl,store.canon.pl##.helpButton
 born2be.pl,renee.pl##.help-chat-button-container
@@ -220,7 +222,6 @@ catawiki.pl##.registration-slide-in
 catom.pl,cebit.pl,verakom.pl##.fab-wrapper
 ccc.eu##.is-chatColumn-title
 cdp.pl###customTrustbadge
-cebit.pl,conet.pl,hotelcenturia.pl,neopak.pl,nsix.pl###cc-button-iframe, #czatercall-teaser
 cebit.pl,guzik.konin.pl##.fab
 ceneo.pl###recent-activity-toast
 centermed.pl,winotoskanii.pl##div[id^="gb-widget"][style*="position"][style*="fixed"]
@@ -238,6 +239,7 @@ clineo.pl###contact_widget
 cmolmed.pl###footer > .module:last-child
 cmp.med.pl###altar-eye-catcher-div-container
 colorland.pl###block-block-23
+comarch.pl##aside[id^="widget-"][class*="eyecatcher"]
 computer-alliance.pl,icrow.pl##.bazz-widget
 concordiaubezpieczenia.pl##.sidebarContact
 confronter.pl###cfModalOpen
@@ -853,7 +855,6 @@ wienerberger.pl##.social-sharing-overlay > .list-unstyled
 wiked.pl##div[id^="menuboczne"]:nth-of-type(8)
 wizjamed.pl###callbutton
 wnt.com##.sticky-contact
-woliniusz.pl##div[id$="_czater"]
 wolnekonopie.org##.kleo-quick-contact-link
 wseit.edu.pl###btn-tel
 wspieram.to###staff-chat-button
