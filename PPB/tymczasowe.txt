@@ -5,6 +5,8 @@ nat.pl#@##cookies-modal
 nat.pl#@##cookieWarning
 nat.pl#@##cookieWarning:not(body):not(html)
 nat.pl#@#.cookieContent:not(body):not(html)
+milopiwo.pl#@#div[class*="config"][class*="messages" i]:has-text(/((cookies? i podobnych)|((P|p)lik(i|ów) "?cookies"?)|(RODO))/)
+milopiwo.pl#@#.configMessages:has(.closeCookieBtn)
 podlaskie.eu#@#.gdprcookie
 sinsay.com#@##cookiebanner
 sinsay.com#@##cookieBannerOverlay
