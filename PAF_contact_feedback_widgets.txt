@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 22 Dec 2024, 13:55 UTC+01:00
-! Version: 2024.12.22.0
+! Last modified: Sun, 22 Dec 2024, 16:59 UTC+01:00
+! Version: 2024.12.22.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 gru 2024, 13:55 UTC+01:00
+! Aktualizacja: nie, 22 gru 2024, 16:59 UTC+01:00
 !
 !
 !
@@ -145,6 +145,11 @@ audiosklep.pl,boboland24.pl,delkom.pl,interlazienka.pl,korzystneit.pl,officeexpe
 aurum-optics.pl##.button-messenger
 aurum-optics.pl##a[href*="m.me/"]
 australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com/"])
+authority.com.pl##.cb24-messenger-widget
+authority.com.pl##div[style*="fixed"][style*="border-radius"]:not([class], [id]):empty
+authority.com.pl,punkta.pl,superpools.pl###callback24-btn-container .callback-widget
+authority.com.pl,punkta.pl,superpools.pl###callback24.cb24-main-container > div[class*="popup"] + div:not([class])
+authority.com.pl,punkta.pl,superpools.pl###callbackWidgetInfo
 autodoc.pl##.js-chat-buttons-container-genesys
 autohero.com##.root___o8kuv
 autokomis-berlin.pl##.ctc_s_2.ctc-analytics
@@ -428,6 +433,7 @@ informatyk-24.com##.sb-chat
 inglot.pl##.tagove-livechat-widget
 instalaton.pl##.extraBoxMail
 instalhurt.sklep.pl###widget_shop5
+instytutcyber.pl,shootingcracow.com###qlwapp.qlwapp
 inter-kop.pl##.phone
 interankiety.pl,simplyyourself.pl###beacon-container
 interviewme.pl##.social-media__item[title="Share on Whatsapp"]
@@ -678,7 +684,6 @@ promopixel.pl###fitcher-container
 proshop.pl###dixa-widget-wrapper, #dixa-iframe-wrapper
 proshop.pl##.solvemate-widget-button
 psprices.com###chatra
-punkta.pl##.callback-widget
 pup.gliwice.pl###sugestiaForm
 pytamy.pl##.tabZB
 pzu.pl###baner-doradcy, #metka-przycisk
@@ -729,7 +734,6 @@ seohost.pl##.circleContactButtonWrap
 setcomp.net##.estp-tab-link.estp-internal-link
 sewel.pl###tws_i_1
 sferis.pl##.help__title
-shootingcracow.com###qlwapp.qlwapp
 shopalike.pl###feedback-btn
 showroom.pl###_elev_io
 siligan.pl###widget_5, #widget_6
@@ -772,7 +776,6 @@ strefawystawcy.pl##.contact-button, .contact-message
 strimi.pl##.bugs
 studiofabryka.pl##.callme
 sumiennyksiegowy.pl##.kontakt-vert-button
-superpools.pl###callback24.cb24-main-container > div[class*="popup"] + div:not([class])
 support-pl.panasonic.eu###noj-chat-inlay.noj-chat-inlay
 support.forpsi.pl###chattab
 support.microsoft.com###smc-survey-external-feedback-button
