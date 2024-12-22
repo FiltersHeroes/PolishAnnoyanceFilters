@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 22 Dec 2024, 17:02 UTC+01:00
-! Version: 2024.12.22.4
+! Last modified: Sun, 22 Dec 2024, 17:41 UTC+01:00
+! Version: 2024.12.22.5
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 gru 2024, 17:02 UTC+01:00
+! Aktualizacja: nie, 22 gru 2024, 17:41 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2391,6 +2391,7 @@ bodyland.pl,hairstore.pl###newsletter-lightbox-holder
 boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,portalwloclawek.pl,radiobonton.pl,regatv.pl,rolnik.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,wagner-polska.com.pl##.toplayer
 bolix.pl,pushpushgo.com###ebook-popup
 bonprix.pl,dragonmask.pl,dziergaczkowo.pl,virtualo.pl,walizkazabawek.pl,webcamera.pl##body:not(.modal-open) .newsletter-modal, .modal-backdrop
+borcas.eu,cebit.pl,conet.pl,e-dewocjonalia.eu,hotelcenturia.pl,neopak.pl,nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl,woliniusz.pl##cc-banner-iframe
 born2be.pl,butysportowe.pl,decathlon.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl,tvp.info##.snrs-modal-wrapper, .snrs-modal-content
 braclowiecka.pl##div[id^="lepopup-popup"]
 brandpro.pl###mc_embed_signup
@@ -2416,7 +2417,7 @@ calzado.waw.pl,giftshop24.pl###x13popup-cover
 casedrop.eu##div[class^="bonus-popup"]:not([class*=" "]):not([class*="timer"])
 casu.pl,dji-ars.pl,drmax.pl###freshmail-main-wrapper, #freshmail_backdrop
 cdn.ampproject.org,www.reddit.com##.XPromoPopup
-cebit.pl,nsix.pl###cc-banner-iframe
+cebit.pl,nsix.pl,optima-demo.com.pl,optima-sklep.pl###cc-banner-iframe
 centrumwitalnosci.pl###formOverlay, #formWrapper
 cezar.eu###window_overlay, #window_entrance
 cgm.pl##.bsaPopupWrapper, .bsaPopupWrapperBg
@@ -4711,6 +4712,8 @@ zooplus.pl##div:not([class*="sidebar"]) > div[id*="tracker_banner-yt-channel-"].
 ||widgets.trustedshops.com/reviews/tsSticker/tsSticker.js
 ||znamibezpiecznie.pl/images/kontakt.png
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
+!borcas.eu,e-dewocjonalia.eu,oknarolety.com###czater-contener
+!woliniusz.pl##div[id$="_czater"]
 ###chaty-channel-facebook_messenger
 ##.btn-share.btn.btn-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
@@ -4831,7 +4834,7 @@ bludshop.com##.trusted_wrapper
 bodyshock.pro###___ratingbadge_0
 bonami.pl###innvisichat
 booksy.com###page > a[class^="_"][href$="/viewform"]
-borcas.eu,e-dewocjonalia.eu,oknarolety.com###czater-contener
+borcas.eu,cebit.pl,conet.pl,e-dewocjonalia.eu,hotelcenturia.pl,neopak.pl,nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl,woliniusz.pl###cc-button-iframe, #czatercall-teaser, #czater-contener
 borhunter.pl###ddg-launcher-frame-container
 born2be.pl,carrefour.pl,hebe.pl,hebeapteka.pl,renee.pl,store.canon.pl##.helpButton
 born2be.pl,renee.pl##.help-chat-button-container
@@ -4864,7 +4867,6 @@ catawiki.pl##.registration-slide-in
 catom.pl,cebit.pl,verakom.pl##.fab-wrapper
 ccc.eu##.is-chatColumn-title
 cdp.pl###customTrustbadge
-cebit.pl,conet.pl,hotelcenturia.pl,neopak.pl,nsix.pl###cc-button-iframe, #czatercall-teaser
 cebit.pl,guzik.konin.pl##.fab
 ceneo.pl###recent-activity-toast
 centermed.pl,winotoskanii.pl##div[id^="gb-widget"][style*="position"][style*="fixed"]
@@ -4882,6 +4884,7 @@ clineo.pl###contact_widget
 cmolmed.pl###footer > .module:last-child
 cmp.med.pl###altar-eye-catcher-div-container
 colorland.pl###block-block-23
+comarch.pl##aside[id^="widget-"][class*="eyecatcher"]
 computer-alliance.pl,icrow.pl##.bazz-widget
 concordiaubezpieczenia.pl##.sidebarContact
 confronter.pl###cfModalOpen
@@ -5497,7 +5500,6 @@ wienerberger.pl##.social-sharing-overlay > .list-unstyled
 wiked.pl##div[id^="menuboczne"]:nth-of-type(8)
 wizjamed.pl###callbutton
 wnt.com##.sticky-contact
-woliniusz.pl##div[id$="_czater"]
 wolnekonopie.org##.kleo-quick-contact-link
 wseit.edu.pl###btn-tel
 wspieram.to###staff-chat-button
