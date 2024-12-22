@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 22 Dec 2024, 16:31 UTC+01:00
-! Version: 2024.12.22.2
+! Last modified: Sun, 22 Dec 2024, 16:59 UTC+01:00
+! Version: 2024.12.22.3
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 gru 2024, 16:31 UTC+01:00
+! Aktualizacja: nie, 22 gru 2024, 16:59 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2331,6 +2331,7 @@ audio.com.pl,czasnawnetrze.pl,estradaistudio.pl##.waitbox
 audioforte.com.pl##.christmas-popup
 audiomed.com.pl###popuphere
 audycje.tokfm.pl###gp--popup
+authority.com.pl,punkta.pl,superpools.pl##.callback24-container[class*="popup"]
 auto-swiat.pl##.natPopup
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl##.exitBox
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,noizz.pl,onet.pl,plejada.pl##.pushPlatform
@@ -3056,7 +3057,6 @@ sunbarrel.pl##.popup_back, .popup_cont
 superauto24.com##.sale2015area
 superksiegowa.pl###mksiegowosc-overlay, #mksiegowosc-popup-wrapper
 superpaczka.pl###apaczka-modal
-superpools.pl##.callback24-container[class*="popup"]
 swiat-szkla.pl##.jqmWindow
 swiatbaterii.pl##.baner3
 swiatdronow.cupsell.pl###shop_newsletter, .simplemodal-overlay
@@ -3553,7 +3553,7 @@ answear.com,myjki.com,myjki.eu,radiopoznan.fm,wielkishoe.com###scrollTop
 anton-paar.com,brand.ceo,gregsoft.com.pl,ore.edu.pl,salami.pl,sokolow.pl,teb.pl,zgruntudobre.com##.gototop
 antrax.com.pl###nawTop
 antykikoneser.pl,lajkifb.pl,likefb.pl###jas-backtop
-antywirus.biz,forumrowerowe.org,gino-rossi.com,hg.eu,luba-group.com,medyk.online,motopoznan.com,muzeum.rypin.eu,nekla.eu,nesperta.com,nysa.eu,olgasmile.com,primark.com,restauracja.online,roto-frank.com,softelnet.com,urbanforms.org,wabrzezno.com,walerystasiak.com,warsawexpo.eu,wnt.com,zamawiaj.online##.scroll-top
+antywirus.biz,forumrowerowe.org,gino-rossi.com,hg.eu,luba-group.com,medyk.online,motopoznan.com,muzeum.rypin.eu,nekla.eu,nesperta.com,nysa.eu,olgasmile.com,primark.com,restauracja.online,roto-frank.com,softelnet.com,stava.eu,urbanforms.org,wabrzezno.com,walerystasiak.com,warsawexpo.eu,wnt.com,zamawiaj.online##.scroll-top
 aparaty-sluchowe.info,komputeria.eu###totop
 apartamenty.nawyspie.eu##.roll
 aplikuj.pl,apteline.pl,bebiklub.pl,craftincode.com,funnycat.pl,igkm.pl,itcontent.eu,piu.org.pl,purina.pl,quiosque.pl,selectivv.com##.scroll-top-button
@@ -3708,6 +3708,7 @@ cmpw-pan.edu.pl###s5_scrolltopvar
 codetwo.pl###back-to-top-scroller, #show-more-hp-scroller
 coinforum.pl##.quickScroll-container
 coinpaprika.com##.cp-footer-scroll-top
+comarch.pl##.go-to-top__wrapper
 comperiaagent.pl##.bt_goToTop
 competitiveskills.com,krowki.eu##.scroll_to_top
 computerwelt24.com##.back-top-top
@@ -3879,6 +3880,7 @@ giorre.com,home.morele.net,maufer.pl,moliera2.com,ostrovit.com,rockwellautomatio
 giorre.com,steamcommunity.com###BackToTop
 gison.pl,klasykami.pl###totopLink
 gitarzysci.pl###foot-center > a[href="#phpbb"]
+github.com##.BackToTop
 gloria24.pl##.tg-btnbacktotop
 gloskultury.pl##.top-up-btn
 gloswagrowiecki.pl##.rt-totop
@@ -4066,6 +4068,7 @@ lysamowi.pl##.wishbone_backtotop
 m3system.pl##.ish-back_to_top
 m.digitalcamerapolska.pl###gtop
 m.wirtualnemedia.pl##.button_up
+magazyn-firma.pl##.oxy-back-to-top
 magazynmotomi.pl,moneygrabbing.co.uk,rowinskabusinesscoaching.com,wolnekonopie.org##.kleo-go-top
 magrebud.pl,szczebrzeszyn.info##.u-back-to-top
 make-cash.pl##.back-to-top-icon
@@ -4319,6 +4322,7 @@ sinsay.com###app button + div:has(> svg[viewBox="0 0 24 24"] > path:empty)
 sip.lex.pl##.wk-back-to-top-button
 siriuspro.pl###sp-scroll-to-top-button
 skierniewice.istrefa.com##.circle.jq-elevator
+sklep.comarch.pl##.js-go-to-top.footer__btn--goToTop
 sklep.dafi.pl###btn_control_totop
 sklep.geers.pl##.j-scroll-top
 sklep.korbanek.pl##.scrollToTopBtn
@@ -4785,6 +4789,11 @@ audiosklep.pl,boboland24.pl,delkom.pl,interlazienka.pl,korzystneit.pl,officeexpe
 aurum-optics.pl##.button-messenger
 aurum-optics.pl##a[href*="m.me/"]
 australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com/"])
+authority.com.pl##.cb24-messenger-widget
+authority.com.pl##div[style*="fixed"][style*="border-radius"]:not([class], [id]):empty
+authority.com.pl,punkta.pl,superpools.pl###callback24-btn-container .callback-widget
+authority.com.pl,punkta.pl,superpools.pl###callback24.cb24-main-container > div[class*="popup"] + div:not([class])
+authority.com.pl,punkta.pl,superpools.pl###callbackWidgetInfo
 autodoc.pl##.js-chat-buttons-container-genesys
 autohero.com##.root___o8kuv
 autokomis-berlin.pl##.ctc_s_2.ctc-analytics
@@ -5068,6 +5077,7 @@ informatyk-24.com##.sb-chat
 inglot.pl##.tagove-livechat-widget
 instalaton.pl##.extraBoxMail
 instalhurt.sklep.pl###widget_shop5
+instytutcyber.pl,shootingcracow.com###qlwapp.qlwapp
 inter-kop.pl##.phone
 interankiety.pl,simplyyourself.pl###beacon-container
 interviewme.pl##.social-media__item[title="Share on Whatsapp"]
@@ -5318,7 +5328,6 @@ promopixel.pl###fitcher-container
 proshop.pl###dixa-widget-wrapper, #dixa-iframe-wrapper
 proshop.pl##.solvemate-widget-button
 psprices.com###chatra
-punkta.pl##.callback-widget
 pup.gliwice.pl###sugestiaForm
 pytamy.pl##.tabZB
 pzu.pl###baner-doradcy, #metka-przycisk
@@ -5369,7 +5378,6 @@ seohost.pl##.circleContactButtonWrap
 setcomp.net##.estp-tab-link.estp-internal-link
 sewel.pl###tws_i_1
 sferis.pl##.help__title
-shootingcracow.com###qlwapp.qlwapp
 shopalike.pl###feedback-btn
 showroom.pl###_elev_io
 siligan.pl###widget_5, #widget_6
@@ -5412,7 +5420,6 @@ strefawystawcy.pl##.contact-button, .contact-message
 strimi.pl##.bugs
 studiofabryka.pl##.callme
 sumiennyksiegowy.pl##.kontakt-vert-button
-superpools.pl###callback24.cb24-main-container > div[class*="popup"] + div:not([class])
 support-pl.panasonic.eu###noj-chat-inlay.noj-chat-inlay
 support.forpsi.pl###chattab
 support.microsoft.com###smc-survey-external-feedback-button
