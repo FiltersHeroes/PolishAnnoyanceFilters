@@ -2,7 +2,8 @@ dpcraft.pl#@#.cookiesBackground
 dpcraft.pl#@#.cookiesPopup
 dpcraft.pl#@#div#cookiePopup
 milopiwo.pl#@#.configMessages:has(.closeCookieBtn)
-milopiwo.pl#@#div[class*="config"][class*="messages" i]:has-text(/((cookies? i podobnych)|((P|p)lik(i|ów) "?cookies"?)|(RODO))/)
+milopiwo.pl#@#div[class*="config"][class*="messages" i]:-abp-contains(/((cookies? i podobnych)|((P|p)lik(i|ów) "?cookies"?)|(RODO))/)
+milopiwo.pl#@?#div[class*="config"][class*="messages" i]:-abp-contains(/((cookies? i podobnych)|((P|p)lik(i|ów) "?cookies"?)|(RODO))/)
 nat.pl#@##cookies-modal
 nat.pl#@##cookieWarning
 nat.pl#@##cookieWarning:not(body):not(html)
