@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 22 Dec 2024, 17:02 UTC+01:00
-! Version: 2024.12.22.1
+! Last modified: Mon, 23 Dec 2024, 16:34 UTC+01:00
+! Version: 2024.12.23.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 gru 2024, 17:02 UTC+01:00
+! Aktualizacja: pon, 23 gru 2024, 16:34 UTC+01:00
 !
 !
 !
@@ -1188,6 +1188,7 @@ www.goldenline.pl##.fixed-modal
 www.google.com,www.google.pl##mobile-promo > div[class*="mobile-promo"]
 www.google.com,www.google.pl#?#div.isv-r:-abp-has(> div > div[class] > h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/))
 www.google.com,www.google.pl#?#div[data-attrid*="images"] ~ div[class][data-ved]:not([class*=" "]):-abp-has(> h2:-abp-contains(/^Po(dob|pular)ne (strony|wyszukiwania|tematy)$/) ~ a)
+www.olx.pl##.css-xowrj1
 www.onet.pl##.Phx-back, .Phx__backToOnetBottomBar
 www.pekao.com.pl##body.loader::before, body.loader::after
 www.rp.pl###mk-paywall
