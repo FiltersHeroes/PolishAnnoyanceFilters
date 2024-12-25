@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Mon, 23 Dec 2024, 16:34 UTC+01:00
-! Version: 2024.12.23.0
+! Last modified: Wed, 25 Dec 2024, 20:31 UTC+01:00
+! Version: 2024.12.25.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 23 gru 2024, 16:34 UTC+01:00
+! Aktualizacja: śro, 25 gru 2024, 20:31 UTC+01:00
 !
 !
 !
@@ -50,8 +50,8 @@
 ||ppstatic.pl/p/css/boks_magazyn.css$domain=naszemiasto.pl
 ||prokonsumencki.pl/certyfikat/widget/*$script,third-party
 ||sklepreklamowy.pl/skins/user/shoper_red_1/images/user/franczyza-b.png
-||telepolis.pl/*?scroll=$xmlhttprequest,domain=telepolis.pl
-||telepolis.pl/home/_img/loader.gif$image,domain=telepolis.pl
+||telepolis.pl/api/content/load-more?$xmlhttprequest,domain=telepolis.pl
+||telepolis.pl/build/images/telepolis-loading.$image,domain=telepolis.pl
 ||tessa.com.pl/uploads/images/olx.png
 ||trustisto.com/socialproof.js
 ||twojsezam.pl/wp-content/uploads/*/*/*spot*$media,object
@@ -1105,7 +1105,6 @@ telemedi.co###notifications-pop
 telepolis.pl##.ankieta.sidebar-poll
 telepolis.pl##.artykul-content > .ankieta
 telepolis.pl##.floor[style*="position"][style*="fixed"]
-telepolis.pl##.infinite-content-container #spinner.spinner
 termalica.brukbet.com##.fortuna
 termokubki.com.pl###widget_shop6
 tiktok.com##div > button[class*="ButtonGetAppText"]
