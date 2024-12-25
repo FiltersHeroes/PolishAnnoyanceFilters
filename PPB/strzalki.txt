@@ -1014,8 +1014,8 @@ wylecz.to##.btn-top-page
 xiaomi.eu##.button--scroll
 yara.pl###backToTopButton
 zakupersi.com##.atbs-ceris-go-top
-zalando.pl##.backToTopButton
-zalando.pl##main ~ button:has(span + i[role="presentation"][aria-hidden="true"])
+zalando.pl##a[href="#top"]
+zalando.pl##a[data-testid="back-to-top-button"]
 zalecane.pl##.g1-teaser
 zaufane-apteki.pl###btn-scroll-top
 zbudujforme.com.pl##.cmsmasters_theme_icon_slide_top
