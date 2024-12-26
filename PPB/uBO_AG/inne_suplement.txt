@@ -133,7 +133,6 @@ poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body[class*=" _"]:re
 poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"] div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):style(opacity: 0.3 !important)
 poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):not(:has(div[id^="komentarz-"])):style(opacity: 0.3 !important)
 polsatnews.pl##.series__item:remove()
-portalpogrzebowy.pl##.center ~ .baner:style(margin-right: 0 !important)
 posnania.eu##.customScroll__bar
 proline.pl##blockquote:style(transform: unset !important; rotate: unset !important)
 przepisy.pl##.animation:style(animation: none !important)
