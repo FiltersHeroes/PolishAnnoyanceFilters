@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Thu, 26 Dec 2024, 16:34 UTC+01:00
-! Version: 2024.12.26.0
+! Last modified: Thu, 26 Dec 2024, 20:33 UTC+01:00
+! Version: 2024.12.26.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,29 +13,27 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 26 gru 2024, 16:34 UTC+01:00
+! Aktualizacja: czw, 26 gru 2024, 20:33 UTC+01:00
 !
 !
 ! Specyficzne filtry
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
-||back-to-top.appspot.com^$subdocument
+||back-to-top.appspot.$subdocument
 ||dih.pl/wp-content/themes/twentyseventeen-child/assets/js/topbutton.js
 ||eu.edu.pl/wp-content/plugins/go-to-top-button/js/scrolltop.js
 ||greencanoe.pl/wp-content/themes/cookbook/js/jquery.scrollUp.min.js
-||imperiumromanum.edu.pl/wp-content/themes/romanum/ex/img/goToTop.png
 ||joemonster.org/js/jquery.scrollUp.min.js
 ||loteriainpost.pl/images/up.png
 ||tapeciarnia.pl/img/do_gory.png
 ||tomaszek.pl/index_pliki/top.png
 ||turek.net.pl/js/default/scroll_to_top.js
-||tvpolsat.info/infusions/ui_top_button_panel/js/jquery.ui.totop.js
 ~1login.wp.pl,~poczta.wp.pl,wp.pl,~www.wp.pl##div[data-st-area="gallery-gallery"] div[class*=" "][style*="background-color:"]
 3-a.eu,shootingcracow.com##.w-toplink
 3dom.pro,agrosam.eu,alget.pl,antbs.co.uk,domator24.com,harposoftware.com,laroxy.com,odszewca.pl,opakowania24.eu,swiatroslin.eu##.top_button
 3dom.pro,akwarystyczny.eu,anmur.eu,greenfelix.eu,homedoors.eu,homehood.eu,hydrosan.eu,hykker.com,lambre.eu,limonkowy.com,magazynkuchenny.com,media-tech.eu,motogron.com,narzedziowy24.eu,opakowania24.eu,pasmanteria.eu,poid.eu,stolmot.com,zyjzdrowo.info###to-top
 4funkids.pl,mri-lab.pl###scroll_up
-4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,happy-surfer.com,integracja.org,malygeniusz.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,sklep.mptech.eu,www.livescore.in###scroll-to-top
+4programmers.net,alezabawki.co,andrzejgrzyb.eu,beautikon.com,cholewinski.com,finnair.com,integracja.org,malygeniusz.org,nasze.fm,oknarolety.com,orion.fm,pl.coccodrillo.eu,praisethewear.com,shipgratis.eu,www.livescore.in###scroll-to-top
 6paknutrition.com,aparatsluchowy.com,e-sonido.pl,oneorganic.eu,partner-panele.pl,proficook.pl,skleprowerowy.pl###scrolltopbtn
 7box.eu###btnScrollTo
 8a.pl,tasmuj.pl##.sm-goTop
@@ -49,7 +47,7 @@ a4-klub.pl,forum.optymalizacja.com,psxextreme.info###backtoTop
 abonamenty.pl,agripel.pl,felixcom.net,lulek.tv,magicznyswiatksiazki.pl,naszekluski.pl,wszystkookotach.pl###scrollup
 acer.com##.btn--btt
 ach-te-internety.pl,applemania.pl###cenote-back-to-top
-active.sklep.pl,epicgames.com,grupawsparcia.pl##.up-button
+active.sklep.pl,epicgames.com,grupawsparcia.pl,wprost.pl##.up-button
 activefamily.pl##.moto-back-to-top-button_visible
 ad-al.pl,barszcz.edu.pl,misericordia.media.pl##.hc_scrollup
 adata.com###back-2-top.back-2-top-rocket
@@ -67,7 +65,7 @@ aga-toma.pl##.pow_start
 agkoperty.com.pl,eurobit.pl,komlogo.pl###totop-scroller
 agmarprzewozy.pl,agrosklad.com.pl,lalorraine.pl,ppe.pl,smartpozyczka.pl##.toTop, .toTopRWD
 agora.pl,alfasan.pl,alltronix.pl,cicius.pl,domczasuhurt.pl,forcell.pl,hotelsmile.pl,kulig.pl,margoshoes.pl,mia-manu.com,oleksy.pl,pl.techinfus.com,pogotowie-komputerowe.org.pl,skladprosty.pl,sklep.zielonyogrodek.pl##.up
-agrarius.eu,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatrust.ro,niezlomni.com,olympia-electronics.com,radioznin.fm,sempre.eu.com,wkret-met.com###backtotop
+agrarius.eu,dictionary.cambridge.org,infobeskidy.eu,mediam.eu,mediatrust.ro,niezlomni.com,olympia-electronics.com,radioznin.fm,wkret-met.com###backtotop
 agricom.pl,bychawa.pl,centrumdialogu.com,ets2mods.com,iwp.pl,oknaibramy.eu,rynek.de##div a[class*="bd-backtotop-"]
 agriculture.newholland.com,ipa-katowice.org,lakiernictwo.net,medianarodowe.com,porozmawiajmy.tv,pulawy.eu,roztocze.net,swiatopon.info###gototop
 agro-bis.eu,aleokulary.com,all.biz,antrans.com.pl,baranowscy.eu,bejbi.eu,bioevolution.com,bizserver.eu,domkorkowy.com,eipro.de,ferguson-digital.eu,gembird.com,greenmousestudio.com,grzechhair.com,holender.info,home-you.com,huaweimobileservices.com,kamilbelz.com,kiddyfave.com,konin24.info,krzywcza.eu,kuradomowa.net,majbus.eu,mixremedia.eu,naszesprawy.eu,nieidealnaanna.com,nowyzmigrod.eu,osheeshop.eu,outhorn.com,pl.softoware.org,podstacja.com,poldruk.com,polskaekologia.org,programtv.naziemna.info,redge.com,ristorio.com,rocketpoland.com,savethefloppy.com,sklep.regalia.eu,sklepdlalekarza.com,spodlady.com,stopwiatrakom.eu,sweet.tv,szema.eu,typeofweb.com,vikking.eu,weddingdream.com,weganskie-zakupy.blogspot.com,zakupersi.com,zielenina.eu,zippedshoes.com,zlotarybka24.com###toTop
@@ -77,7 +75,7 @@ agro-hurt.eu,ichi.pro,luxorna.com,mojewypiekiinietylko.com,naziemna.info,peskiad
 agroas.pl##.to-the-top-link
 agrofakt.pl##.go-down
 agrogajda.pl,elektronik-service.com.pl,sklepfarmer.pl###search_scroll_mini
-agrohandel.com.pl,dietlux.pl,eljacht.pl,opgj.pl,pruszczgdanski.pl,resztamamy.pl,shindaiwa.pl,smart-power.pl##.tm-totop-scroller
+agrohandel.com.pl,dietlux.pl,eljacht.pl,opgj.pl,pruszczgdanski.pl,shindaiwa.pl,smart-power.pl##.tm-totop-scroller
 agrohandler.pl,betterland.pl,porcja.eu,strefaucznia.pl,swiece-zaplonowe.pl###to_top_wrap
 agrojd.com,audioservice.com,chelmski.eu,dobresystemy.eu,domnowoczesny.com,dronefilmfestival.eu,empik.com,esklep.brandvital.eu,fantasy.ekstraklasa.org,farbex.eu,fuchs.com,hakpol.info,kappahl.com,knowband.com,krokdozdrowia.com,memi.eu,mirat.eu,myanimals.com,nowy-sacz.info,nprofit.net,pk-invest.eu,pl.ecco.com,polski-supermarket.de,pozytywni.info,pzsnstart.eu,sklep.mebloart.eu,tedi.com,tp-link.com,widex.com##.scroll-to-top
 agromasa.com,fonepaw.com,fotostori.es,koscian.net,neway.mobi##.totop
@@ -86,7 +84,6 @@ agroperfekt.pl,czemarol.pl,kunert.com.pl,naturio.eu,partnerokno.eu,radiator-serv
 agrosimex.pl##.vue-back-to-top
 agrosystems.pl##.footer-utilities-back
 agrotechnika.co,bravebeaver.pl,byvioleta.com,drobne.fm,giszowiec.org,inteligentnydom.co,justyna.kowalcze.eu,kalendarzonline.com,kasz-bus.info,nowicka-misiewicz.com,nowy-sacz.info,polukr.net,presta.eu.org,rankingkont.org,sledcza24.tv,zdrowyportal.org###topcontrol
-agrotuszyn.pl,anteny-wroclaw.com,forum.gazeta.pl,niepodlegla.dzieje.pl,rozklad.klosok.eu##.toTop
 agtom.eu###scroll_to_top
 airbuy.pl##.js-gotop
 airwick.pl###top-btn
@@ -104,7 +101,7 @@ aleo.com##p-scrolltop
 alergiapokarmowa.pl##.ct-totop
 aliexpress.com##.ui-fixed-panel-go-top
 alkalicznystylzycia.com,bejot.eu,byinsomnia.com,deichmann.com,enigmatech.eu,macademiangirl.com###top-link
-alko-garden.pl,pl.assmann.shop###jumptotop
+alko-garden.pl###jumptotop
 alkomaty-sklep.eu,muzyczny.eu,staypoland.com,wieszaki.info###to_top
 allegro.pl##button[data-analytics-interaction-label="scrollToTop"], button[title="Do góry"]
 allegro.pl##div[data-box-name="Scroll Top"], div[data-box-name="allegro.navigation.scrollTop"]
@@ -115,7 +112,7 @@ aluprof.eu##.sidebar__link--top
 amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,mall.pl,meblujesz.pl,morele.net,motoria.pl,panasonic-batteries.com,sklep-presto.pl,ubieramy.pl,whiteplate.com##.btn-back-to-top
 amooco.com###footer-backtop
 ams.com.pl,bohaterdomu.pl,inforfk.pl###back2top
-ams.edu.pl,apteka-natura.eu,bludshop.com,cyberpower.com,ehurt.eu,ene-due.eu,pakolorente.com,ptwp.pl,rowerlubon.pl,unbrokenstore.com,zapowiedzi24.blogspot.com##.backTop
+ams.edu.pl,apteka-natura.eu,bludshop.com,cyberpower.com,ehurt.eu,pakolorente.com,ptwp.pl,rowerlubon.pl,unbrokenstore.com##.backTop
 amway.pl##div[class*="scroll-to-top--"]
 androidayuda.com,desdelinux.net,iphonea2.com,todoandroid.es,ubunlog.com###toplink
 androidowy.pl,brodatyzbir.pl,coffeedesk.pl,jaktodaleko.pl,kalejdoskopbudowlany.pl,kasiapszonicka.pl,lifemanagerka.pl,linux.pl,rootblog.pl,zebza.net##.pk-scroll-to-top
@@ -123,6 +120,7 @@ anetaduk.com,liletink.pl,lukasiewicz.gov.pl,moto.lca.pl,nowemiasto.com.pl###myBt
 animalistka.pl,faltusdesign.wordpress.com,faramuszka.pl,rygalo.com##.tothetop
 anmarniemcz.pl,apia.pl,icrow.pl,nat.pl,odrzanska.eu,ti-ksiaz.iap.pl##.page-scroll-up
 answear.com,myjki.com,myjki.eu,radiopoznan.fm,wielkishoe.com###scrollTop
+anteny-wroclaw.com,forum.gazeta.pl,niepodlegla.dzieje.pl,rozklad.klosok.eu##.toTop
 anton-paar.com,brand.ceo,gregsoft.com.pl,ore.edu.pl,salami.pl,sokolow.pl,teb.pl,zgruntudobre.com##.gototop
 antrax.com.pl###nawTop
 antykikoneser.pl,lajkifb.pl,likefb.pl###jas-backtop
@@ -218,7 +216,6 @@ biznesplan.net.pl##.ta_upscr
 blasty.pl,hulaka.pl###widget-back-to-top
 blix.pl##.rewindTopButton.footer__rewind-button
 blizejciebie.pl##.quicknav-to-top
-blog.bloomboard.co##.go-to-top-wrap
 blog.cochlear.com,wojciechpietrzak.com.pl##.scrollUp
 blog.doktortusz.pl##.mb-to-top
 blog.lh.pl,bookowska.pl,dekoelectronics.com,muzyczny-krakow.eu##.ct-back-to-top
@@ -258,7 +255,6 @@ camil.pl,pizzeria-vendetta.eu##.return-to-top
 cashback.getdify.com###back-button
 casu.pl##.btn_scroll
 catzy.pl,paypo.pl,reklama.gazeta.pl##.scroll-top-btn
-cdn.nperf.com###btntop
 cds-lider.com.pl,polsero.pl,www.nowiny.gliwice.pl##.btn-up
 cedynia.pl,napisy24.pl,wegemaluch.pl###smoothtop
 cellbes.pl,www.akademiareklamy.edu.pl###topscroller
@@ -281,7 +277,6 @@ claas.roltexkrasnystaw.pl##.top-link
 clineo.pl###to_up
 clivio.pl,emecze.pl,mecze24.pl,meczenazywo.pl,pbr-finanse.com.pl###btt
 cmarnica.pl,zabrzewsercuslaska.pl###zozo-backtotop
-cmpw-pan.edu.pl###s5_scrolltopvar
 codetwo.pl###back-to-top-scroller, #show-more-hp-scroller
 coinforum.pl##.quickScroll-container
 coinpaprika.com##.cp-footer-scroll-top
@@ -351,19 +346,21 @@ doradcasmaku.pl,porta.com.pl##.floating_scroll_top
 dotd.pl###arrow_up
 douglas.pl##.rd__back-to-top
 dpm.eu,muovitech.com,poettinger.at,sendgb.com,spolkacywilna.info,zinkpower.com###gotoTop
-drewmix.eu,mi.com,pl.idcgames.com,polskie-cmentarze.com,tube.ad##.go-top
+drewmix.eu,mi.com,polskie-cmentarze.com##.go-top
 drillo.co,jelenia.tv,kostes.eu,krasiczyn.info,pastebin.com,proveg.com,serwis-zamkow.com,szklomal.eu##.cd-top
 drweb-av.pl###scrollup_button
 drzwi-cal.pl##.js-site-scroll-up.site-scroll-up
 dstreet.pl,e-baseus.com,evertourist.com###backTop
 dts24.pl##.nav-btn
 duka.com,electro.pl,mediaexpert.pl##.is-scrollToTop
-durex.pl##button[onclick="topFunction()"]
+durex.pl,laboosiedlce.pl,pl.msi.com,viasatexplore.pl,viasathistory.pl,viasatnature.pl##[onclick="topFunction()"]
+durex.pl,laboosiedlce.pl,pl.msi.com,viasatexplore.pl,viasathistory.pl,viasatnature.pl##[title="Go to top"]
 durszlak.pl##.button-icon-goup
 dwutygodniksuwalski.pl,lilio.pl,lumex.pl,www.biedronka.pl##.arrow-top
 e-bliskoprzyrody.pl##.vlt-back-to-top
-e-dym.pl,sklep.mateuszciawlowski.pl,walizkownia.pl###slidetop
+e-dym.pl,walizkownia.pl###slidetop
 e-glamour.pl,elnino-parfum.pl##.js-scrollUp
+e-katalog.pl,lot.com,luxmarket.pl,otolampy.pl,polaridad.es,promenada.com,radiofon.fm,store-media.pl##.scroll-up
 e-kiosk.pl##.fixed-menu
 e-militaria.pl,skorzewo.chatapolska.pl##.to_top_wrap
 e-sadownictwo.pl,gf24.pl,itee.pl,kosciolek.info,solispolska.pl,stempelek.info,wiadomoscipw.pl,wiesci.info.pl,wiwa.info.pl,www.kcez.pl,wysokomazowiecki24.pl##.sp-scroll-up
@@ -420,7 +417,6 @@ filmpolski.pl##div[id^="dogory_"]
 fintek.pl###button-backtotop
 floryday.com##.side-bar-back
 flyingatom.com,mamalyga.org##.oxel_back_to_top_container
-fn.org.pl,tim.pl##.btn-scroll
 foodex24.pl##.up-button.button--go-to-top
 foodsbrothers.pl,gotem.pl###nt_backtop
 fordogtrainers.pl##.vpf-scroll-top-button
@@ -495,7 +491,6 @@ gunb.gov.pl##.slide-to-top
 gwarek.com.pl###nawigator
 hanamipigments.eu###slide_panel54.return
 handen.pl##.mod_scrolltotop
-hangouts.google.com##div[class][style^="height"] + div[class][jsaction^="click"][style^="top"]
 hdmecze.com##a#btt.btn
 help.f-secure.com##a > img[alt="Go to top"]
 help.twitter.com##a[class*="_link"][href="#"]
@@ -504,7 +499,6 @@ heuristic.pl###backtotop-box
 hihonor.com##.go-back-top
 hikoki-narzedzia.pl##.j-scroll_pagetop.footer-pagetop
 hilti.pl##.m-nav-totop
-homesi.pl###button-btt
 honda.pl##.buttonWrap
 hondanews.eu,woblink.com###backToTopBtn
 honia.pl###conj-scroll-to-top__btn
@@ -537,7 +531,6 @@ inka.pl,klarta.pl##.slide-up-btn
 inlago.pl,sklep.maxkuchnie.pl##.button-scroll
 inpost.pl##.footerMatToTop
 inspirander.pl##.htheme_icon_backtop
-intereffective.pl##.c-button-top
 intergama.pl,support.kaspersky.com##.up-arrow
 interia.pl##.top-of-site-link
 intermarche.pl##.trigger--page-up
@@ -570,7 +563,6 @@ kamen.com.pl###footer_top
 kancelaria.info##.eut-top-btn
 karcz.eu##.ce_toplink
 karointhekitchen.com,kasiagandor.com###ts-back-to-top
-katowice.kwpsp.gov.pl###go-to-up
 kaufland.pl##.a-back-to-top__button
 kfc.pl##.main-scroll
 kierunekfarmacja.pl###top_layer
@@ -638,7 +630,6 @@ linuxiarze.pl##.fa-chevron-up
 littleforest.pl##.smoothscroll
 littlelights.pl##.btn-backtotop
 littletownshoes.com##.penci-go-to-top-floating
-lot.com,luxmarket.pl,otolampy.pl,polaridad.es,promenada.com,radiofon.fm,store-media.pl##.scroll-up
 lotnisko-chopina.pl###btn_back_top, .scroll.btn_up
 lubimyczytac.pl###js-btn-scroll-top.btn-scroll-up
 lubliniec.starostwo.gov.pl##.przycisk_dogory2
@@ -668,7 +659,6 @@ matopat24.pl###sohoshop_totop
 maxcom.pl###miniMenuScroll
 maxibike.pl,timtech.pl###to-the-top
 mbank.pl##.at-top.button-top
-mct.com.pl##.px-btn-to-top-fix
 meble-kass.pl,wzso.pl##.btn-right-side.progress-wrap
 mediaexpert.pl###sg_b > div.sg_arrow_up
 mediaexpert.pl,mediamarkt.pl##.scroll-btn.scroll
@@ -678,7 +668,7 @@ medicover.pl,rehasport.pl##.scrollTopArrow
 medonet.pl,ogrodmacieja.pl,plus.pl##.goToTop
 medonetmarket.pl##.medo-scroll-to-top
 merida.com.pl##.scroll-top-up
-meskietematy.pl,przemiany.gniezno.pl,tranzystor.pl###vl-back-top
+meskietematy.pl,tranzystor.pl###vl-back-top
 metalgearsolid.pl###return_top
 mghome.pl###footgroup-last
 miasto.zgierz.pl###slidetotop.slidetotop
@@ -701,7 +691,7 @@ moja.biedronka.pl##.menu-bar > .btn-top
 mojagwiazdka.pl,oaza-palmy.pl###gmToTop
 mojebambino.pl##.scroll-up-plugin
 mojedekoracje.eu,zegarkisklep.com###scroll_top
-mojeflagi.blogspot.de###NBT-top
+mojeflagi.blogspot.com###NBT-top
 mojehobby.pl##.on-top-box-a
 mojewronki.pl,wlaczoszczedzanie.pl##.waypoints-goto-top
 mojewypieki.com###jumpup
@@ -802,13 +792,10 @@ pkw.gov.pl##.to_up
 pl.aliexpress.com##div[class*="elevator--container"]
 pl.ccm.net###jGoTop
 pl.chili.com###returnTop
-pl.depositphotos.com##.top-button-wrapper
 pl.factcool.com##button.fcicon-return
 pl.hisense.com###pageNavCorner_top
-pl.msi.com##[title="Go to top"][onclick="topFunction()"]
 pl.promocodie.com##.mgotop
 pl.trip.com##.mod-back-top-block
-placek.katowice.pl,rol-mech.pl###hs-back-top
 planetasportu.com,slodkiehobby.pl##.right > .return
 player.pl##.footer-panel-toggle
 plejada.pl###goback
@@ -873,6 +860,7 @@ reverso.net##.go-up
 rexona.com##.c-back-to-top-cta
 ricoh.pl##.page-link-top
 rodzice.pl##.rehub_scroll
+rol-mech.pl###hs-back-top
 roltrans.eu###back-top
 rossmann.pl##a.fixed[style]:not([href])
 rozetka.pl##rz-top-scroll
@@ -889,7 +877,6 @@ santander.pl##.footer__scrollUpBtn--fixed
 savio.net.pl##.scrollup-button
 schiedel.com,weknowhow.tech,zlotegory.com##.mk-go-top
 scottiego.com###to_top_scrollup
-screamit.pl###div_go_top
 secure.e-konsulat.gov.pl##.go-up-button
 seoheroes.pl##.clb-scroll-top-holder
 serafin-maszyny.com##.back_to_top
@@ -927,7 +914,6 @@ stomatologiacichon.pl##.new-to-top
 storck.pl##.icon-toolbar-back-to-top
 store.ubi.com##.scroll-top-button-wrapper
 stylem.pl##.v-btn.goToTop
-sumin.com.pl###gpToTop.gp-back-to-top
 swatt.pl##.gmfbtop
 swiat-agd.com.pl###up, #go_up
 swiatekspresow.pl###back_up
@@ -939,7 +925,6 @@ swisskrono.com##.row-top-up
 systempartnerski.pl,ubraniadooddania.pl###scroll-up-button
 szalonewalizki.pl###desert-back-top
 szarlatan.pl##.landing-back-top
-szczecin.prywatka.info,wsb.net.pl##.body-back-to-top
 szklanedrzwi.pl###GO_TOP
 szopi.pl###scisco-gototop
 szukajwarchiwach.gov.pl###scroolButton
@@ -960,6 +945,7 @@ the-first.pl###side_social_icons > ul > li:first-of-type
 thebodyshop.pl###back_top
 thermomix.vorwerk.pl,worldoftanks.eu##.button-top
 tiktok.com##div[class*="VideoDetailContainer"] ~ div[class*="Bottom"] button[class*="IconContainer"]
+tim.pl##.btn-scroll
 tintadlaplastykow.pl###arrowScroll
 tme.eu##.o-arrow-up__wrapper
 tor-konferencje.pl##.tk-goto-top
@@ -985,7 +971,6 @@ uroda.in##.trigger
 valtra.pl##.sticky-footer__back-to-top
 vanpur.com.pl###scroll_arrow
 velux.pl###ReturnToTop
-viasatexplore.pl,viasathistory.pl,viasatnature.pl###myBtn[onclick="topFunction()"]
 videotesty.pl##.go_up_v3
 vigantoletten.pl###banderole > .box-toggler > #box-toggler
 villeroy-boch.pl###btn--page_up
@@ -1027,7 +1012,6 @@ wolczanka.pl##.btn__scroll_to_top
 wolt.com##button[class*="ScrollToTop"]
 wolt.com##button[class^="ScrollToTop__"]
 wosp.org.pl##.scrollArrowWrapper
-wprost.pl##.assigned.up-button
 wrzesnia.powiat.pl###btn-up
 wsip.pl##.jsBackToTop
 www.dfr.org.pl##.pageup
