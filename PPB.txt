@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Fri, 27 Dec 2024, 13:57 UTC+01:00
-! Version: 2024.12.27.0
+! Last modified: Fri, 27 Dec 2024, 19:14 UTC+01:00
+! Version: 2024.12.27.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 27 gru 2024, 13:57 UTC+01:00
+! Aktualizacja: pią, 27 gru 2024, 19:14 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6655,9 +6655,7 @@ technologiczna.pl##.td-main-sidebar
 techpedia.pl##.border_header2
 telekarma.pl###flyCart
 telemedi.co###notifications-pop
-telepolis.pl##.ankieta.sidebar-poll
-telepolis.pl##.artykul-content > .ankieta
-telepolis.pl##.floor[style*="position"][style*="fixed"]
+telepolis.pl##.poll__vue_wrapper
 termalica.brukbet.com##.fortuna
 termokubki.com.pl###widget_shop6
 tiktok.com##div > button[class*="ButtonGetAppText"]
