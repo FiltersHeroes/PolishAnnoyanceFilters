@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Fri, 27 Dec 2024, 20:32 UTC+01:00
-! Version: 2024.12.27.0
+! Last modified: Sun, 29 Dec 2024, 23:45 UTC+01:00
+! Version: 2024.12.29.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 27 gru 2024, 20:32 UTC+01:00
+! Aktualizacja: nie, 29 gru 2024, 23:45 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -119,7 +119,7 @@ androidowy.pl,brodatyzbir.pl,coffeedesk.pl,jaktodaleko.pl,kalejdoskopbudowlany.p
 anetaduk.com,liletink.pl,lukasiewicz.gov.pl,moto.lca.pl,nowemiasto.com.pl###myBtn
 animalistka.pl,faltusdesign.wordpress.com,faramuszka.pl,rygalo.com##.tothetop
 anmarniemcz.pl,apia.pl,icrow.pl,nat.pl,odrzanska.eu,ti-ksiaz.iap.pl##.page-scroll-up
-answear.com,myjki.com,myjki.eu,radiopoznan.fm,wielkishoe.com###scrollTop
+answear.com,bonami.pl,wearmedicine.com##div[class*="ScrollToTop_"]
 anteny-wroclaw.com,forum.gazeta.pl,niepodlegla.dzieje.pl,rozklad.klosok.eu##.toTop
 anton-paar.com,brand.ceo,gregsoft.com.pl,ore.edu.pl,salami.pl,sokolow.pl,teb.pl,zgruntudobre.com##.gototop
 antrax.com.pl###nawTop
@@ -130,7 +130,7 @@ apartamenty.nawyspie.eu##.roll
 aplikuj.pl,apteline.pl,bebiklub.pl,craftincode.com,funnycat.pl,igkm.pl,itcontent.eu,piu.org.pl,purina.pl,quiosque.pl,selectivv.com##.scroll-top-button
 apo-discounter.pl###page_up_button
 apollo.pl##.tt-scroll-up
-apps-on-mac.com,barline.eu,eatyx.com,elektrostymulatory.net,futuryx.eu,gorke.eu,hdtvpolska.com,kasta.news,kielce.eu,kopalniasrebra.com,ogrodniczy.com,osheeshop.eu,pl.genesis-zone.com,polako.eu,rockwool.com,szopienice.org,tablica.com,tacohemingway.store,twojcel.to,wbrew.org##.go-to-top
+apps-on-mac.com,barline.eu,eatyx.com,elektrostymulatory.net,futuryx.eu,gorke.eu,hdtvpolska.com,kasta.news,kielce.eu,kopalniasrebra.com,ogrodniczy.com,osheeshop.eu,pl.genesis-zone.com,polako.eu,rockwool.com,tablica.com,tacohemingway.store,twojcel.to,wbrew.org##.go-to-top
 appsource.microsoft.com##.appSourceScrollToTop
 aptekaolmed.pl###btn-going-top
 aptekazdrowie-24.pl,e-zikoapteka.pl##.site-scrolltop
@@ -230,7 +230,6 @@ bogatynia.info.pl,comel-it.com,konstrukcjeinzynierskie.pl,mzktomaszow.pl,stanmar
 boguslaw.io##div[class*="ScrollUpButton"]
 bomameble.eu##img[src="img/top.png"]
 bombkichoinkowe.com,bombkisklep.com##.btn-to-top
-bonami.pl,wearmedicine.com##div[class*="ScrollToTop_"]
 bonavita.pl###ot-jumplist-control
 bonprix.pl##.btn-primary.scroll-to-top-btn
 bookland.com.pl,eduarena.pl###yt-totop-fix
@@ -712,6 +711,7 @@ muscat.pl##.tp-back-to-top
 musicexpert.pl###sp-totop
 mustache.pl,www.mila.pl##.scroll-arrow
 mutti-jakoscbezkompromisow.pl,wyprobujdeveley.pl###btn-go-up
+myjki.com,myjki.eu,radiopoznan.fm,wielkishoe.com###scrollTop
 nagaba.pl###fixed_top
 najlepszekonto.pl##.footer__to-the-top
 napad.pl###ssRollTop
@@ -1010,7 +1010,7 @@ wkatowicach.eu###do-gory
 wojtki.eu##.mypresta_scrollup
 wolczanka.pl##.btn__scroll_to_top
 wolt.com##button[class*="ScrollToTop"]
-wolt.com##button[class^="ScrollToTop__"]
+wolt.com##button[class^="ScrollToTop_"]
 wosp.org.pl##.scrollArrowWrapper
 wrzesnia.powiat.pl###btn-up
 wsip.pl##.jsBackToTop
