@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 30 Dec 2024, 13:58 UTC+01:00
-! Version: 2024.12.30.0
+! Last modified: Mon, 30 Dec 2024, 20:33 UTC+01:00
+! Version: 2024.12.30.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 30 gru 2024, 13:58 UTC+01:00
+! Aktualizacja: pon, 30 gru 2024, 20:33 UTC+01:00
 !
 !
 !
@@ -177,6 +177,7 @@ bludshop.com##.trusted_wrapper
 bmw-slusarczyk.pl##.button-joomly-callback-form
 bodyshock.pro###___ratingbadge_0
 bonami.pl###innvisichat
+bonprix.pl##.product-page__livechat
 booksy.com###page > a[class^="_"][href$="/viewform"]
 borcas.eu,cebit.pl,conet.pl,e-dewocjonalia.eu,hotelcenturia.pl,neopak.pl,nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl,woliniusz.pl###cc-button-iframe, #czatercall-teaser, #czater-contener
 borhunter.pl###ddg-launcher-frame-container
@@ -268,7 +269,7 @@ dobrefinanse.co.uk##.form-content-btn
 dodomku.pl##.btn-chat-toggle
 dolcar.auto.pl,jackvision.pl,mleczarze.pl###jz-callback-icon
 domesta.com.pl##.ask
-domiporta.pl##.chatbot
+domiporta.pl,maxelektro.pl##.chatbot
 domisad.pl,eduweb.pl,eneba.com,evenea.pl,fotc.com,kappahl.com,oneskyapp.com,swiatbaterii.pl###usercom-widget
 domisad.pl,eneba.com,evenea.pl,fotc.com,kappahl.com,oneskyapp.com,swiatbaterii.pl###launcher
 doniczki-poznan.pl##.cd-nav-trigger
@@ -445,7 +446,8 @@ kodologia.pl###cq-suggestion
 komfort.pl###chatbase-bubble-window, #chatbase-bubble-button
 kompan.pl###circleWrap
 komputerswiat.pl##iframe[src^="https://cdn.brandmetrics.com/"][style*="fixed"]
-komputronik.pl##aside
+komputronik.pl##a[href*="/kontakt"] + button[title="Czat"]
+komputronik.pl##aside button:has(img[alt="chat"])
 komputronik.pl##div[data-name="shareLinks"] div:has(.i-whatsapp)
 konicaminolta.info.pl##.kontakt-slide
 kontakty.info.pl,poczta-polska.info.pl,telefon.info.pl###zadzwon-div
