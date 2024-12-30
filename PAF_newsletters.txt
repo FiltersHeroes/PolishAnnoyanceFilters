@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 29 Dec 2024, 23:45 UTC+01:00
-! Version: 2024.12.29.1
+! Last modified: Mon, 30 Dec 2024, 16:34 UTC+01:00
+! Version: 2024.12.30.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 29 gru 2024, 23:45 UTC+01:00
+! Aktualizacja: pon, 30 gru 2024, 16:34 UTC+01:00
 !
 !
 !
@@ -465,8 +465,6 @@ duka.com,lot.com##.is-newsletter
 dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
 dystronet.pl##.post > #gr-form
 dziennik.pl,forsal.pl,gazetaprawna.pl##.footerNewsletterContent
-dziennikprawny.pl##.justify-content-center
-dziennikprawny.pl##footer > div.container > div.row > div[class]:nth-of-type(3)
 dziennikzbrojny.pl##.columns.four
 dziewczynynapolitechniki.pl##.col-sm-3:nth-of-type(3)
 e-clarena.eu###zapisz_newsletter_box
@@ -1566,8 +1564,7 @@ uniwexaudio.pl##.container-fluid .pull-right.col-xs-12.col-sm-3
 up8.com##.b-footer_nsltr, .b-infoBox_newsletterInner
 upacjenta.pl##.newsletter-wp
 upominki24.pl##.footer-container > div > .row > div[class]:nth-of-type(4)
-urbancity.pl##.box2
-urbancity.pl#?#footer .row .text-center:-abp-has([class*="-newsletter"])
+urbancity.pl##.pb-md-4.f-row.no-gutters
 urbnews.pl##.sb-widget:nth-of-type(4)
 usg.com.pl###panel2
 ustolema.pl##td:first-of-type > div > div:nth-of-type(3)
@@ -1593,13 +1590,10 @@ villeroy-boch.pl##.global-footer-services-newsletter
 virgobooks.pl##.block_newsletter-wrapper
 vissavi.pl###newsletter-header-holder
 vistula.edu.pl###vistula-newsletter
-vistula.pl##.three_footer__single--newsletter
-vistula.pl#?#.footer-top-bar.row > div:-abp-has(.footer-newsletter)
 vivaldi.com###newsletterpromo
 vivo-shopping.com##.site-newsletter__content
 vogue.pl###homepagenewsletter
-vox.pl##.footcol5.onecol.col-md-2
-vox.pl#?#footer form:-abp-has(> div > label ~ input[name="newsletterEmail"])
+vox.pl##.css-rgm1sd
 vuch.pl##footer > .row > .nl-column.large-3.medium-6.xsmall-12.columns
 wabisabi-store.jp##.footer-newsletter_block
 waldtour.pl##.mailpoet-newsletter
@@ -1644,8 +1638,6 @@ woda.com.pl##nav > div:nth-of-type(2) > form
 woodrepublic.eu###newsletter_subscribe
 woolloop.pl###text-10
 worldbank.org##.lp__footersearch_section
-wprost.pl##.newsletter-plugin
-wprost.pl##.stay-updated
 wroclaw.pl##.boxNewsletterRegister
 wroclawfashionoutlet.com##.via-footer__newsletter-signup
 wrozka.com.pl##td:first-of-type, .newsletter_right, .footer_newsletter_container
