@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Mon, 30 Dec 2024, 16:34 UTC+01:00
-! Version: 2024.12.30.2
+! Last modified: Mon, 30 Dec 2024, 19:31 UTC+01:00
+! Version: 2024.12.30.3
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 30 gru 2024, 16:34 UTC+01:00
+! Aktualizacja: pon, 30 gru 2024, 19:31 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4538,6 +4538,7 @@ bludshop.com##.trusted_wrapper
 bmw-slusarczyk.pl##.button-joomly-callback-form
 bodyshock.pro###___ratingbadge_0
 bonami.pl###innvisichat
+bonprix.pl##.product-page__livechat
 booksy.com###page > a[class^="_"][href$="/viewform"]
 borcas.eu,cebit.pl,conet.pl,e-dewocjonalia.eu,hotelcenturia.pl,neopak.pl,nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl,woliniusz.pl###cc-button-iframe, #czatercall-teaser, #czater-contener
 borhunter.pl###ddg-launcher-frame-container
@@ -4629,7 +4630,7 @@ dobrefinanse.co.uk##.form-content-btn
 dodomku.pl##.btn-chat-toggle
 dolcar.auto.pl,jackvision.pl,mleczarze.pl###jz-callback-icon
 domesta.com.pl##.ask
-domiporta.pl##.chatbot
+domiporta.pl,maxelektro.pl##.chatbot
 domisad.pl,eduweb.pl,eneba.com,evenea.pl,fotc.com,kappahl.com,oneskyapp.com,swiatbaterii.pl###usercom-widget
 domisad.pl,eneba.com,evenea.pl,fotc.com,kappahl.com,oneskyapp.com,swiatbaterii.pl###launcher
 doniczki-poznan.pl##.cd-nav-trigger
@@ -6930,8 +6931,8 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2024.12.30.0
-!@ Last modified: Mon, 30 Dec 2024, 00:01 UTC+01:00
+!@ Version: 2024.12.30.1
+!@ Last modified: Mon, 30 Dec 2024, 19:31 UTC+01:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -6943,7 +6944,7 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Copyright © 2024 Certyficate IT
 !@ Copyright © 2024 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2024.12.30.0 aktualizacja: pon, 30 gru 2024, 00:01 UTC+01:00
+!@ v.2024.12.30.1 aktualizacja: pon, 30 gru 2024, 19:31 UTC+01:00
 !@
 !@
 !@ Specyficzne filtry ukrywające
@@ -8111,7 +8112,7 @@ gamasalon.pl###scc_powiadomienie
 gamedot.pl##.policy_warning
 gamepedia.com###policy-notice-root
 gameplay.pl##div#CP_box
-gamerhash.com,styl.fm,szukajka.tv,wizzair.com##.cookie-policy
+gamerhash.com,pl.remington-europe.com,styl.fm,szukajka.tv,wizzair.com##.cookie-policy
 gamet.eu###webixa-cookie-app
 gamisport.pl###nextcreBotDialog
 gardinia.pl,mactronic.pl,ogradzamy.pl##body > div[id*="cookie"]
