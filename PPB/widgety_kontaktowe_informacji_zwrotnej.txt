@@ -332,7 +332,8 @@ kodologia.pl###cq-suggestion
 komfort.pl###chatbase-bubble-window, #chatbase-bubble-button
 kompan.pl###circleWrap
 komputerswiat.pl##iframe[src^="https://cdn.brandmetrics.com/"][style*="fixed"]
-komputronik.pl##aside
+komputronik.pl##a[href*="/kontakt"] + button[title="Czat"]
+komputronik.pl##aside button:has(img[alt="chat"])
 konicaminolta.info.pl##.kontakt-slide
 kontakty.info.pl,poczta-polska.info.pl,telefon.info.pl###zadzwon-div
 kontri.pl###widget_opineo
