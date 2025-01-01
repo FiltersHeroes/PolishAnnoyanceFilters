@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 31 Dec 2024, 16:34 UTC+01:00
-! Version: 2024.12.31.0
+! Last modified: Wed, 01 Jan 2025, 20:33 UTC+01:00
+! Version: 2025.1.1.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 31 gru 2024, 16:34 UTC+01:00
+! Aktualizacja: śro, 01 sty 2025, 20:33 UTC+01:00
 !
 !
 !
@@ -1018,7 +1018,8 @@ naszerecenzje.wordpress.com###blog_subscription-4
 naszesprawy.eu##.theiaStickySidebar > div.add-inner:first-of-type, .theiaStickySidebar > div.add-inner:nth-of-type(3)
 naszhandel.pl##.box_02:nth-of-type(2) > .box_cnt
 naszraciborz.pl##.comments.right_box:nth-of-type(15)
-natural.pl##aside.mt-lg-0.mt-3.col-lg-3.col-sm-6.col-12
+natural.pl##footer aside form.newsletter-form
+natural.pl#?#footer aside:-abp-has(> form.newsletter-form)
 natvita.pl##div.footer_about:nth-of-type(4) > div.block.ApHtml:first-of-type
 naukawpolsce.pl##.followUsElement:not(.mail, .rss)
 nazdrowie.pl##.widget_custom_html.widget.widget_text
