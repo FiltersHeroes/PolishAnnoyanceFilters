@@ -958,7 +958,8 @@ naszerecenzje.wordpress.com###blog_subscription-4
 naszesprawy.eu##.theiaStickySidebar > div.add-inner:first-of-type, .theiaStickySidebar > div.add-inner:nth-of-type(3)
 naszhandel.pl##.box_02:nth-of-type(2) > .box_cnt
 naszraciborz.pl##.comments.right_box:nth-of-type(15)
-natural.pl##aside.mt-lg-0.mt-3.col-lg-3.col-sm-6.col-12
+natural.pl#?#footer aside:-abp-has(> form.newsletter-form)
+natural.pl##footer aside form.newsletter-form
 natvita.pl##div.footer_about:nth-of-type(4) > div.block.ApHtml:first-of-type
 naukawpolsce.pl##.followUsElement:not(.mail, .rss)
 nazdrowie.pl##.widget_custom_html.widget.widget_text
