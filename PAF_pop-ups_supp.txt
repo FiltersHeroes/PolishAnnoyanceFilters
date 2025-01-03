@@ -10,9 +10,9 @@ abcsurf.pl,agroarm.pl,allepaznokcie.pl,asnew.pl,belleparis.pl,biomak.eu,catom.pl
 abcsurf.pl,agroarm.pl,allepaznokcie.pl,asnew.pl,belleparis.pl,biomak.eu,catom.pl,center-camp.pl,e-belka.pl,epiekarnia.com,fantoma.pl,faxtel.com.pl,goshico.com,greckikiosk.pl,infloris.pl,justmeble.pl,kokonhome.pl,lachlach.pl,makarfish.pl,mencare.pl,pclider.pl,poltechparts.pl,reefshop.pl,saabix.pl,sandisk-store.pl,sauna-czapka.pl,sklep-kajkosz.pl,sklep.art-magazyn.eu,sklep.mmagro.pl,sport2002.pl,sushi-sklep.pl##.mask:has(+ .modal)
 abrakadabra.sklep.pl,ilily.pl,sekrecik.pl###myWorning, .modal-backdrop
 action.com##+js(rc, is-locked, html, stay)
+action.com##+js(set-local-storage-item, newsletterPopupCount, 1)
 action.com##.is-locked .scroll-bar
 action.com##.is-locked body:style(position: static !important; overflow-y: scroll !important)
-action.com##.ReactModal__Content.newsletter, .modalOverlay
 action.com,aluprof.eu,cateromarket.pl,ekai.pl,jezykiobce.pl##.newsletter-popup
 action.com,czytamyetykiety.pl,hejto.pl,megogo.net,newtech.com.pl,pl.tommy.com##body.overflow-hidden, html.overflow-hidden:style(overflow-y: auto !important)
 action.com,hejto.pl,pl.tommy.com##.ReactModal__Body--open:style(overflow-y: auto !important)
@@ -369,7 +369,6 @@ payukraine.com##.pc_withoutCommissionBanner
 pepco.pl##.modal-newsletter, .modal-backdrop
 pepper.pl##+js(set-local-storage-item, guestBpnModalSeen, true)
 pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]:has(.oreo-message-emoticon)
-pepper.pl#@#.zIndex--modal[class^="popover"][class*="bottom"]
 pewex.pl###popupStart
 pewex.pl##body, html:style(overflow-y: auto !important; margin-right: 0 !important)
 pixlr.com##body > div[id^="modal-"]:has(> div.announce > div.content > div#after-content)
