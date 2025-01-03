@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 01 Jan 2025, 20:33 UTC+01:00
-! Version: 2025.1.1.0
+! Last modified: Fri, 03 Jan 2025, 16:34 UTC+01:00
+! Version: 2025.1.3.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 01 sty 2025, 20:33 UTC+01:00
+! Aktualizacja: pią, 03 sty 2025, 16:34 UTC+01:00
 !
 !
 !
@@ -62,7 +62,6 @@
 4adstudio.pl,rudeiczarne.pl##.widget_mc4wp_form_widget
 4kdownload.com##.footer__section > .footer__col--updates
 4kom.pl##.newsletter-custom
-4lapki.eu,annalovestravelspl.wordpress.com,infomiasto.eu,kulinarnamuza.wordpress.com,kwadranszpodkopem.com,podkop.com,pskrk.com,tabloidonline.blog,techno-senior.com,zabieganamama.com,zpamietnikabuntownika.wordpress.com##.jetpack_subscription_widget
 4spaw.pl,bydgoszczak.pl,kaliszak.pl,katowiczak.pl,krakusik.pl,pro-jex.pl##.mini-newsletter
 4trucks.pl##.sInfo > .m209.box
 9c.com.pl##footer .col-md-auto.col-12
@@ -403,7 +402,6 @@ dagmara.pl###links_footer_3
 dajar.pl##div.css-770vd2:nth-of-type(12)
 danko.pl##.nl-holder
 darymex.pl##.wce_footerinfo
-debica24.eu,ekoscian.eu,kartuzy.info,koscierski.info,kulisy.net,losice.info,lowicz24.eu,lukow.tv,mojestrone.com,politykazdrowotna.com,powiatowa.info,sejny.net,skarzyski.eu,starachowicki.eu,szydlowiecki.eu,temat.net,wideoportal.tv,zambrow.org###newsletterform
 deccoria.pl##.dc-action-regiser-newsletter
 decoliving.pl,intymna.pl,ohso.pl##div.zwin.col-sm-3.footer-links.footer-widget:nth-of-type(3)
 defence24.pl,infosecurity24.pl,space24.pl##.newsletter-module__inner
@@ -1725,8 +1723,10 @@ zyxel.com###block-newsletter-footer
 !~apteka.sloneczna24.pl,~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.x-kom.pl,~mediaexpert.pl,~pap-mediaroom.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl,~fielmann.pl##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"])
 !~lp.morele.net,~pl,~lp.al.to,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"]):lang(pl)
 ###footer-newsletter:lang(pl)
+###newsletterform:lang(pl)
 ##.footer-newsletter:lang(pl)
 ##.footer__newsletter:lang(pl)
+##.jetpack_subscription_widget:lang(pl)
 ##.newsletter-box:lang(pl)
 ##.newsletter-form:lang(pl)
 ##.newsletter-wrapper:lang(pl)
