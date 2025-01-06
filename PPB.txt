@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Mon, 06 Jan 2025, 16:34 UTC+01:00
-! Version: 2025.1.6.2
+! Last modified: Mon, 06 Jan 2025, 18:50 UTC+01:00
+! Version: 2025.1.6.3
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 06 sty 2025, 16:34 UTC+01:00
+! Aktualizacja: pon, 06 sty 2025, 18:50 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2148,7 +2148,7 @@ boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kocie
 bolix.pl,pushpushgo.com###ebook-popup
 bonprix.pl,dragonmask.pl,dziergaczkowo.pl,virtualo.pl,walizkazabawek.pl,webcamera.pl##body:not(.modal-open) .newsletter-modal, .modal-backdrop
 borcas.eu,cebit.pl,conet.pl,e-dewocjonalia.eu,hotelcenturia.pl,neopak.pl,nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl,woliniusz.pl##cc-banner-iframe
-born2be.pl,butysportowe.pl,decathlon.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl,tvp.info##.snrs-modal-wrapper, .snrs-modal-content
+born2be.pl,butysportowe.pl,cortland.pl,decathlon.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl,tvp.info##.snrs-modal-wrapper, .snrs-modal-content
 braclowiecka.pl##div[id^="lepopup-popup"]
 brandpro.pl###mc_embed_signup
 brandpro.pl##.fancybox-skin
@@ -3376,7 +3376,7 @@ bikesalon.pl,snowshop.pl,surfshop.pl##.js-go-up
 bioeco.pl,dekolo.pl,dolasu.pl,happytime.com.pl,szachownica.com.pl,witek.pl##.to_top_btn
 bip.nieborow.pl##.gotoTop
 bip.powiat.poznan.pl,e-marcom.pl,fotoprint.pl,kwestiasmaku.com,zloty-pociag.com##.do_gory
-bip.slaskie.pl,bipum.kielce.eu,mazovia.pl,podlaskie.eu,pulawy.eu###totopicon
+bip.slaskie.pl,bipum.kielce.eu,mazovia.pl,podlaskie.eu,pulawy.eu,starachowice.eu###totopicon
 bisko.pl,cng.auto.pl,iwetto.com,montaz-anten.pl,olbud.com.pl,penguinbm.com,pl.vpnmentor.com,retromedia.pl,zielonylistek.com.pl###scroll
 bithub.pl##.st-site-scroll-top
 bitserwis.com.pl##.flaticon-home
@@ -4872,6 +4872,7 @@ mediaexpert.pl,ucando.pl##.call-us
 medonet.pl##.medonet__healthcare_content_animation
 mera.eu##.footer__subbox--sm.footer__subbox:last-child
 metalmarket.eu###czat_main_content
+miasto.zgierz.pl###chatbotIframe
 mieszkanie.mitula.com.pl##.space-footer .wrap-send-comments
 militaria.pl###golivechat
 militaria.pl,military.pl##.contact-wrapper
@@ -5986,6 +5987,7 @@ meskiegacie.pl###counter_holder_top.counter_container[style^="position: fixed;"]
 mettosport.eu###wpbs_slider
 mgotuje.pl###ajaxsearchpro2_1
 mgsm.pl##.promo-sticky
+miasto.zgierz.pl##.socialbar > .gp:has(a[href=""])
 miastons.pl##.stckbottom.cms_see_more
 miastopoznaj.pl###similarArticle
 microsoft.com##.epb-container.f-information[class*="alert"]
