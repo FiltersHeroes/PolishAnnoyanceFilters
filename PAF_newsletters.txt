@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 06 Jan 2025, 23:37 UTC+01:00
-! Version: 2025.1.6.1
+! Last modified: Sat, 11 Jan 2025, 20:38 UTC+01:00
+! Version: 2025.1.11.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 06 sty 2025, 23:37 UTC+01:00
+! Aktualizacja: sob, 11 sty 2025, 20:38 UTC+01:00
 !
 !
 !
@@ -1312,6 +1312,7 @@ royal-dental.pl##.s__newsletter
 rozterkistartuperki.pl##.mab-pad
 rp.pl##[data-mrf-section="Article / Body"][data-gtm-section="page:article/section:body"] ~ div #salesmanagoIframe
 rybnicki.com##.informator-rejestracja
+rybnik.com.pl,slaskibiznes.pl,tujastrzebie.pl,tuwodzislaw.pl,tuwroclaw.com,tuzory.pl##footer h3:has(+ #newsletterform)
 ryms.pl###frm-newsletter
 rynek-kolejowy.pl##.zawartoscBox > .ok
 rynek-rolny.pl##.punica-newsletter-widget.widget
