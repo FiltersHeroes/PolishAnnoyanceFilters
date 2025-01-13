@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 12 Jan 2025, 23:06 UTC+01:00
-! Version: 2025.1.12.1
+! Last modified: Mon, 13 Jan 2025, 20:33 UTC+01:00
+! Version: 2025.1.13.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 sty 2025, 23:06 UTC+01:00
+! Aktualizacja: pon, 13 sty 2025, 20:33 UTC+01:00
 !
 !
 !
@@ -69,6 +69,7 @@
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp, .btn__back-to-wp, .footer-back-link, .wp-pl-redirect
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##a[data-st-area*="backTo" i], a[data-st-area*="goToSG" i]
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##article#main-content ~ div > style ~ div div > a[href^="/"]
+~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##div:not([class], [id]) > a[href^="https://www.wp.pl"][data-st-area]
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##div[class][style^="background-color:"]:not([id]) > a[data-st-area][href="https://www.wp.pl/"]
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##div[data-st-area="st-header-darkmode"]
 ~1login.wp.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,~poczta.wp.pl,polygamia.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl#?##main-content ~ div:-abp-has(> span:first-child:-abp-contains(Wybrane dla Ciebie) ~ div[role="list"])
@@ -119,6 +120,7 @@ alablaboratoria.pl###small-pop-up
 alawar.pl##.b-skin__push #actionBannerContainer.b-action-banner__container
 albo24.pl##.source-woocommerce.nx-notification.notification-item
 aldi.pl##.mod-cart__btn
+aldi.pl##.mod-newsletter-popup
 alkoholeswiata.com###right_toolbar
 allecco.pl,apteka-melissa.pl,aptekarosa.pl,aptekazawiszy.pl,nowafarmacja.pl,wapteka.pl##ins > div[id*="ulixes"], div#ulixes-paralaxa
 allegro.pl##[data-box-name="Recommended Articles Container"]
