@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Mon, 13 Jan 2025, 16:37 UTC+01:00
-! Version: 2025.1.13.0
+! Last modified: Tue, 14 Jan 2025, 19:34 UTC+01:00
+! Version: 2025.1.14.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 13 sty 2025, 16:37 UTC+01:00
+! Aktualizacja: wto, 14 sty 2025, 19:34 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -1005,12 +1005,10 @@ zszywka.pl###scroolToTop
 ##.return-top:lang(pl)
 ##.scroll-back:lang(pl)
 ##.scroll-button:lang(pl)
-##.scroll-down:lang(pl)
 ##.scroll-to-top:lang(pl)
 ##.scroll-top-button:lang(pl)
 ##.scroll-top-inner:lang(pl)
 ##.scroll-top:lang(pl)
-##.scroll-up:lang(pl)
 ##.scroll_to_top:lang(pl)
 ##.scrollTo_top:lang(pl)
 ##.scrollTop:lang(pl)
@@ -1036,6 +1034,8 @@ zszywka.pl###scroolToTop
 ##.w-toplink:lang(pl)
 ##.z-navigation-footer_backToTop:lang(pl)
 ##a#backTop:lang(pl)
+##a.scroll-down:lang(pl)
+##button.scroll-down:lang(pl)
 ##button[onclick="topFunction()"]
 ##button[title="Go to top"]
 ##cwc-to-top-button:lang(pl)
@@ -1043,6 +1043,8 @@ zszywka.pl###scroolToTop
 ~deweloper-interes.pl,pl###back_to_top
 ~dietazliscia.pl,~foodtura.pl,pl##a.scroll-up
 ~dietazliscia.pl,~foodtura.pl,pl##button.scroll-up
+~dietazliscia.pl,~gastropaczka.pl##a.scroll-up:lang(pl)
+~dietazliscia.pl,~gastropaczka.pl##button.scroll-up:lang(pl)
 ~douglas.pl,pl##.scroll-top:not(body):not(html)
 ~ifirma.pl,pl##.dogory
 ~mediaexpert.pl,~mediamarkt.pl,pl##a.scroll-down
