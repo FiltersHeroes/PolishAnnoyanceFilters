@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Tue, 07 Jan 2025, 03:05 UTC+01:00
-! Version: 2025.1.7.0
+! Last modified: Wed, 15 Jan 2025, 02:56 UTC+01:00
+! Version: 2025.1.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 07 sty 2025, 03:05 UTC+01:00
+! Aktualizacja: śro, 15 sty 2025, 02:56 UTC+01:00
 !
 !
 !
@@ -817,6 +817,7 @@ wspieram.to###staff-chat-button
 www.bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(3)
 www.google.com,www.google.pl##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
+www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^WhatsApp$/)
 www.ibm.com###contact-module
 www.ideafairplay.pl###userlike-tab
 www.microsoft.com##.feedback-dialog-opener
