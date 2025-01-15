@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 13 Jan 2025, 16:37 UTC+01:00
-! Version: 2025.1.13.0
+! Last modified: Wed, 15 Jan 2025, 20:32 UTC+01:00
+! Version: 2025.1.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 13 sty 2025, 16:37 UTC+01:00
+! Aktualizacja: śro, 15 sty 2025, 20:32 UTC+01:00
 !
 !
 !
@@ -1250,6 +1250,7 @@ propertynews.pl##.nl.one
 proshop.pl##div.col-md-6.col-sm-12:nth-of-type(2) > .row > .site-row-margin-top.col-sm-6
 prostyzysk.pl##.entry-content > iframe[id^="fm-"].lazyloaded
 proto.pl###block-entityform-block-newsletter
+proto.pl##.vc_column + .vc_column:last-child .td_block_title:has(+ div .tnp-subscription)
 prusa3d.com##div[class*="ScrollToTop__Wrapper"]
 pruszkow.pl###custom_html-7
 pryskaj.pl##.fx-newsletter
