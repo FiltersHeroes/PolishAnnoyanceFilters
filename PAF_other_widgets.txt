@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 14 Jan 2025, 16:34 UTC+01:00
-! Version: 2025.1.14.0
+! Last modified: Sat, 18 Jan 2025, 16:32 UTC+01:00
+! Version: 2025.1.18.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 14 sty 2025, 16:34 UTC+01:00
+! Aktualizacja: sob, 18 sty 2025, 16:32 UTC+01:00
 !
 !
 !
@@ -63,6 +63,9 @@
 ||widgets.okazje.info.pl^$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
+!github.com##.gh-header .gh-header-sticky.is-stuck, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow
+!github.com##legend h3[id*="comment-form"]
+!github.com##legend h4[id*="comment-form"]
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.back-arrow[href*="//wp.pl/"], .back-arrow[href*="//ww.wp.pl/"]
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.back_bar
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,smaczneblogi.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.backToWp, #goToSG
@@ -494,12 +497,10 @@ gerde.pl##.floating-button
 germany.travel##.popover-country
 getinbank.pl##.quickMenuRow.row
 getinbank.pl##.sticky-buttons__wrapper
-github.com##.gh-header .gh-header-sticky.is-stuck, .gh-header .gh-header-sticky.is-stuck + .gh-header-shadow
+github.com###react-issue-comment-composer > div > :is(h2, a)
 github.com##.Subhead:has(> h2:only-child):has(+ a[href*="/commit/"])
 github.com##div[data-testid="issue-metadata-sticky"]
 github.com##h3 ~ details > summary:only-child
-github.com##legend h3[id*="comment-form"]
-github.com##legend h4[id*="comment-form"]
 github.com#?#h3:-abp-has(+ details > summary:only-child)
 gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
 global4net.com##.implementation-catalog
