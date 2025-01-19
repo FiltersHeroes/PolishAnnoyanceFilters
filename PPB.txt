@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 19 Jan 2025, 17:40 UTC+01:00
-! Version: 2025.1.19.1
+! Last modified: Sun, 19 Jan 2025, 20:21 UTC+01:00
+! Version: 2025.1.19.2
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 19 sty 2025, 17:40 UTC+01:00
+! Aktualizacja: nie, 19 sty 2025, 20:21 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -79,7 +79,7 @@
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl,warzywapolowe.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
-abc-zoosklep.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,fresh-market.pl,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,nestor.com.pl,obuwiestyl.pl,pakomat.pl,portalspozywczy.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,yves-rocher.pl,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
+abc-zoosklep.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,fresh-market.pl,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,nestor.com.pl,obuwiestyl.pl,pakomat.pl,portalspozywczy.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,yves-rocher.pl,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
 abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 ac.com.pl##.form-group
 action.com##footer div[data-testid="newsletter-section"]
@@ -1349,6 +1349,7 @@ sipma.pl###newslet
 site-call.pl##.wpc-subcribe .form-subscribe
 skalnik.pl##.newsletter_content.footer
 skapiec.pl##section.newsletter
+ski4you.pl##footer#footer.footer .widget--signup
 sklep-agrohandel.pl##.footer_top_area
 sklep-elektron.com###newsletter-form
 sklep-nasiona.pl##.footer-stay-connected
@@ -3473,7 +3474,7 @@ encycolorpedia.pl,fama.org.pl,jakzarabiaconline.blogspot.com,podemski.info###top
 enel.pl###afario-back-top
 enetproduction.com##div.vued-custom-scroll_to_top
 enowiny.pl,mobileworld24.pl##.mnmd-go-top
-erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,starachowice-net.pl,wdrodze.pl,yellow.place###up
+erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,starachowice-net.pl,swis-shop.pl,wdrodze.pl,yellow.place###up
 erkado.pl##.skip--top
 esdorado.com,pm-m.pl,rolmarket.pl,zniczeadam.pl###scrollTopButton
 eset.com##.footer-scroll-to-top-wrapper
@@ -3580,7 +3581,7 @@ hurtowniazabawek.pl##.footerBox_btop
 hurtum.pl,juvepoland.com,myphone.pl,reeva-foods.com##.scroller
 i-apteka.pl##.n60972_main_cop_right
 iautomatyka.pl##.pf-up-but
-ibif.pl##.js-up.up
+ibif.pl,krasnystaw.eu,pol-skone.pl##.js-up
 ideagetinleasing.pl##.js-footer-scroll-up
 idream.pl##.ab__scroll_to_top_button
 iform4u.com##.uk-totop.uk-icon
@@ -3647,7 +3648,6 @@ kontigo.com.pl##[class*="scrollTop-scrollTopBtn-"]
 kosmetyczna-hedonistka.blogspot.com##.totop-arrow
 krainaoszczedzania.pl###finoScroll
 krakow.pl###footer-scroll-up
-krasnystaw.eu##.js-up
 krd.pl##.krd-footer-scroller
 kufer.poznajemyswiat.pl##.fa-arrow-up.ssttbutton-symbol
 kulinarnastronamocy.pl##.stick.stnsvn-btt
@@ -4792,6 +4792,7 @@ mojanorwegia.pl##.msg
 mojataxi24.pl##h4#phone:first-of-type > .wiszacy
 mojbank.pl##.uk-grid.uk-flex-middle.uk-grid-row-small.uk-grid-column-collapse.uk-child-width-expand
 moje.pzu.pl##.pak-footer__call-container
+mojehobby.pl##.report-bug
 mojeppk.pl###ppk-cx-webchat-chat-button
 monedo.pl###satellite
 monikasmulewicz.pl##.bhr-notification-center
