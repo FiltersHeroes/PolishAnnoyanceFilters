@@ -364,6 +364,7 @@ panwybierak.pl##.iziModal-isOverflow:style(position: static !important; overflow
 panwybierak.pl##.modal--remind.iziModal, .iziModal-overlay
 panwybierak.pl##.modal-unload, .modal-backdrop
 pasmanteria.eu##.swal2-modal, .swal2-container
+paypo.pl##+js(set-cookie, pp_registration_modal_rejected, true)
 payukraine.com##.gl-blur:style(filter: none !important)
 payukraine.com##.pc_withoutCommissionBanner
 pepco.pl##.modal-newsletter, .modal-backdrop
@@ -679,6 +680,7 @@ lento.pl##script:contains(/^showNotify\(\)$/)
 ! Filtry specjalne
 !#if !ext_ublock
 polishannoyancefilters.netlify.app###pafadguard
+polishannoyancefilters.netlify.app##+js(set-cookie, dummy, 1, , reload, 1)
 !#endif
 !#if ext_ublock
 polishannoyancefilters.netlify.app##+js(set, pafDetect, true)
