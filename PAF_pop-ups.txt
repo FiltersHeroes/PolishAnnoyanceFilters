@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 21 Jan 2025, 21:15 UTC+01:00
-! Version: 2025.1.21.0
+! Last modified: Tue, 21 Jan 2025, 22:16 UTC+01:00
+! Version: 2025.1.21.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 21 sty 2025, 21:15 UTC+01:00
+! Aktualizacja: wto, 21 sty 2025, 22:16 UTC+01:00
 !
 !
 !
@@ -1083,6 +1083,18 @@ zpierwszegotloczenia.pl###popup-ad, .modal-backdrop
 zszywka.pl###inv-request-popup
 zyrtec.pl##.buy-now
 !@ <<<<<<<< popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!#if ext_abp
+agrarada.pl###basic-modal-content iframe[src*="autoplay=1"] { remove: true }
+arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl###newsletter_colorbox { remove: true }
+e-spar.com.pl###modal-welcome { remove: true }
+ekliniki.pl###popup-message { remove: true }
+ekoteka.pl###popUpModal { remove: true }
+filehippo.pl,softonic.pl##.rv-di-modal:has(img[src*="avast"], img[src*="opera"]) { remove: true }
+filehippo.pl,softonic.pl##div:is(#modal-di-avast, #modal-di-opera) { remove: true }
+kursszybkiegoczytania.pl##.et_bloom_popup[data-idle_timeout] { remove: true }
+lumarte.eu##.ui-widget-overlay { remove: true }
+lumarte.eu##.ui-widget.ui-dialog { remove: true }
+!#endif
 !
 !
 ! Ogólne filtry
