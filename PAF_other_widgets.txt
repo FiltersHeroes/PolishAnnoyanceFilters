@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 21 Jan 2025, 16:36 UTC+01:00
-! Version: 2025.1.21.0
+! Last modified: Tue, 21 Jan 2025, 20:33 UTC+01:00
+! Version: 2025.1.21.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 21 sty 2025, 16:36 UTC+01:00
+! Aktualizacja: wto, 21 sty 2025, 20:33 UTC+01:00
 !
 !
 !
@@ -43,6 +43,7 @@
 ||jugrol.pl/wp-content/uploads/20*/0*/olx-ikona-na-www.jpg$image
 ||kariera.infopraca.pl/wp-content/themes/cv-tools/img/pracanaemail.jpg
 ||niezbednik.mediraty.pl/img/widget_duzy_button_1.png
+||niszczarki.org/templates/standard/images/jestesmy_na_allegro.jpg
 ||ocdn.eu/*/sg-loader.$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
 ||ocdn.eu/*/sgLoader$script,domain=auto-swiat.pl|businessinsider.com.pl|cdn.ampproject.org|fakt.pl|komputerswiat.pl|noizz.pl|ofeminin.pl|onet.pl|plejada.pl
 ||opera.com/en/downloadassets/sticky-bar-auto$subdocument
@@ -874,7 +875,6 @@ pakamera.pl###carcont
 pakamera.pl###stats
 pakerzy.org##.ads2
 pakomarket.pl,sloikwiedzy.pl##.storefront-product-pagination
-panel.paypo.pl#?#noscript ~ noscript ~ div#application > div[class^="sc-"]:-abp-contains(Aplikacja Paypo)
 papajohns.pl###ingridients-fix
 papierowo.pl###contant-widget
 paranormalne.pl##.mobile_banner_inner
@@ -885,6 +885,7 @@ partneragdrtv.com.pl###js-sis_menu
 pasazer.com##.fixed-search-tabs
 paypo.pl##div.mobile-app-bar
 paypo.pl##div[class*="MobileAppBanner-"]
+paypo.pl##header > div:has(> div > img[alt="PayPo Squares"] ~ a[href*=".com/"])
 pcworld.pl###newsmore
 pep.pl##.work-offers
 pepper.pl##.browserExtension-promotionBanner
@@ -1228,6 +1229,7 @@ zenox.pl##.toast-container.toast-bottom-right
 zimowynarodowy.pl##.ticket
 zmiksowani.pl,zrobisztosam.com##.socialContainerRrssb.fixed
 znamlek.pl###mobileAndroidAppPage > *
+zondacrypto.com##.zonda-app-bar
 zoo.torun.pl##div.torun-rp, .bip-rp
 zoo.wroclaw.pl##.sticky > li:nth-of-type(4)
 zrzutka.pl##.floating-apps
