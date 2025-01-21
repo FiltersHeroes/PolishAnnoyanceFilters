@@ -12,6 +12,7 @@ groove.pl##+js(set, push_notification_ready, true)
 ! Filtry specjalne
 !#if !ext_ublock
 polishannoyancefilters.netlify.app###pafadguard
+polishannoyancefilters.netlify.app##+js(set-cookie, dummy, 1, , reload, 1)
 !#endif
 !#if ext_ublock
 polishannoyancefilters.netlify.app##+js(set, pafDetect, true)
