@@ -20,6 +20,9 @@
 ! Specyficzne filtry
 @include popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy_blokujace.txt
 @include popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt PolishSocialCookiesFiltersDev/sections/adblock_social_list/popupy.txt
+!#if ext_abp
+@include popupy_ABP
+!#endif
 !
 !
 ! Ogólne filtry

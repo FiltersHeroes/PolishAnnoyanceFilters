@@ -20,6 +20,9 @@
 ! Specyficzne filtry
 @include inne_sieciowe
 @include inne
+!#if ext_abp
+@include inne_ABP
+!#endif
 !
 ! Ogólne filtry
 @include inne_ogolne_sieciowe

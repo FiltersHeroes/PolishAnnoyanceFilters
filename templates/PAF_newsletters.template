@@ -20,6 +20,9 @@
 ! Specyficzne filtry
 @include newslettery_nie_popupy_sieciowe
 @include newslettery_nie_popupy
+!#if ext_abp
+@include newslettery_ABP
+!#endif
 !
 !
 ! Ogólne filtry
