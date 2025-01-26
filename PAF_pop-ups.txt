@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 25 Jan 2025, 00:31 UTC+01:00
-! Version: 2025.1.25.0
+! Last modified: Sun, 26 Jan 2025, 03:02 UTC+01:00
+! Version: 2025.1.26.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 25 sty 2025, 00:31 UTC+01:00
+! Aktualizacja: nie, 26 sty 2025, 03:02 UTC+01:00
 !
 !
 !
@@ -1148,7 +1148,7 @@ pl###tloPopUp
 pl###ue_popups
 pl##.facebook-bn_site-overlay
 pl##.facebook-popup
-pl##.hejhej:not(body):not(html)
+pl##.hejhej:not(body, html)
 pl##.livecall-widget-container
 pl##.stayMore__container
 pl##.TloPopUpCiemne
