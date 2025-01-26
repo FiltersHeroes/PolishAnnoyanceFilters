@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 26 Jan 2025, 16:32 UTC+01:00
-! Version: 2025.1.26.0
+! Last modified: Sun, 26 Jan 2025, 20:33 UTC+01:00
+! Version: 2025.1.26.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 26 sty 2025, 16:32 UTC+01:00
+! Aktualizacja: nie, 26 sty 2025, 20:33 UTC+01:00
 !
 !
 !
@@ -236,7 +236,7 @@ blog.doktortusz.pl##.code-block-5.code-block
 blog.doktortusz.pl##[href^="https://drtusz.pl"]
 blog.siegnijpozdrowie.org##.limk-widget
 bluecity.pl##.js-loader.loader
-bluelife.pl,pieknojestwtobie.com,zbiorowy.info##.more-stories
+bluelife.pl,zbiorowy.info##.more-stories
 blueskypolska.pl###iai_mraty
 bodyshock.pro##div[id^="___ratingbadge_"]
 bodyshock.pro,e-baseus.com,e-dewocjonalia.eu,trainingshowroom.com,wentsystem.com,zielonysklep.com###socialproof-container
@@ -1260,6 +1260,7 @@ polsatnews.pl##.series__item { remove: true }
 ~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="maps.google."]:lang(pl)
+~pl##.widget_times_social_widget a[href*="podcasts.google"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
@@ -1317,6 +1318,7 @@ pl##.socialproof-new
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
 pl##.tm-lemur-position
+pl##.widget_times_social_widget a[href*="podcasts.google"]
 pl##.x13socialfixed_links a[href*="allegro.pl/"]
 pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
