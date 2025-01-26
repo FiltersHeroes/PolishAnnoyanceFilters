@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 26 Jan 2025, 13:53 UTC+01:00
-! Version: 2025.1.26.1
+! Last modified: Sun, 26 Jan 2025, 19:18 UTC+01:00
+! Version: 2025.1.26.2
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 26 sty 2025, 13:53 UTC+01:00
+! Aktualizacja: nie, 26 sty 2025, 19:18 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -259,7 +259,7 @@ blip.pl###salesmanagoIframe
 blip.pl,chcemybycrodzicami.pl##.front-newsletter
 blog-daneosobowe.pl,ekorekta24.pl,labosport.pl,niezlasztuka.net,sprawyzdrowia.pl##.nksub_hidden .nks_cc_trigger_tabs
 blog.gdaq.pl,doktorania.pl,faktyozywnosci.pl,haart.pl,kryptopomocnik.pl,magnapolonia.org,naukatolubie.pl,obserwatorlogistyczny.pl,ostatniatawerna.pl,refreszing.pl,stomatologianews.pl###custom_html-2
-blog.mozilla.org,legal-base.co.uk,olesnica24.com,zamek-krolewski.pl###newsletter_form
+blog.mozilla.org,legal-base.co.uk,olesnica24.com,peak-bike.pl,zamek-krolewski.pl###newsletter_form
 blog.spotawheel.pl,oknarolety.com###subscribe-form
 blogmtb.pl##.kalais-newsletter
 bluecity.pl##.newsletter-short
@@ -852,6 +852,7 @@ legalnews24.pl##.bezplatny_bliuletyn
 lego.com##.jxmAQk.EmailSubscriptionstyles__Wrapper-sc-48ulj8-1
 lemonpixel.pl###footer > .col1_3Wrap.wrap > div.col1_3:nth-of-type(3)
 lenovo24.pl##.newsletter-section-2
+letsboard.pl##footer .mc4wp-form
 levi.com###newsletterSignup
 libra.pl##.footer-bg #block-12
 lideria.pl###box_newsletter_text_books
@@ -1403,6 +1404,7 @@ smartwings.com##.mod-custom__mailing
 smyk.com###newsletter-link
 sniezka.pl###newsletter-button
 snowbitch.pl###emailNewsForm
+snowsport.pl##.core-newsletter
 soczewki365.pl##.col-md-5
 soczko.pl##.subscribe_f
 sodexo.pl###content > #sg-form-row
@@ -4533,6 +4535,7 @@ domiporta.pl,maxelektro.pl##.chatbot
 domisad.pl,eduweb.pl,eneba.com,evenea.pl,fotc.com,kappahl.com,oneskyapp.com,swiatbaterii.pl###usercom-widget
 domisad.pl,eneba.com,evenea.pl,fotc.com,kappahl.com,oneskyapp.com,swiatbaterii.pl###launcher
 doniczki-poznan.pl##.cd-nav-trigger
+dopesnow.com##.intercom-button
 dormeo.pl,topshop.pl###slider_k2c
 dressinn.com##.chat_icono
 drhtv.com.pl###rootChatbot
@@ -6437,6 +6440,7 @@ polsatnews.pl##.series__item { remove: true }
 ~pl##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
 ~pl##.rssocial-icons > li > a[href*="maps.google."]:lang(pl)
+~pl##.widget_times_social_widget a[href*="podcasts.google"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ~pl##div[id^="___ratingbadge_"]:lang(pl)
 ~pl##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
@@ -6494,6 +6498,7 @@ pl##.socialproof-new
 pl##.strefa_wystawcy
 pl##.td-more-articles-box
 pl##.tm-lemur-position
+pl##.widget_times_social_widget a[href*="podcasts.google"]
 pl##.x13socialfixed_links a[href*="allegro.pl/"]
 pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
