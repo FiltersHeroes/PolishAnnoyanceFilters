@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 25 Jan 2025, 22:21 UTC+01:00
-! Version: 2025.1.25.2
+! Last modified: Sun, 26 Jan 2025, 16:32 UTC+01:00
+! Version: 2025.1.26.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 25 sty 2025, 22:21 UTC+01:00
+! Aktualizacja: nie, 26 sty 2025, 16:32 UTC+01:00
 !
 !
 !
@@ -756,7 +756,6 @@ mobilitynews.pl##.swiper-wrapper
 moblo.pl##.plusik_widget
 modbis.pl##.n67021_out
 moj.tauron.pl##div.promo-box[title^="Klimatyzacja od TAURONA."][title*="Przejdź do strony"]
-moja-gazeta.com.pl##.header-advertise
 mojataxi24.pl##h4#phone:nth-of-type(2) > .wiszacy
 mojebambino.pl##.baner
 mojebambino.pl##.widget-fast-navigation-container
@@ -868,7 +867,6 @@ ozonee.pl###free_shiping_info, #tws_i_2
 p-programowanie.pl##progress
 pakamera.pl###carcont
 pakamera.pl###stats
-pakerzy.org##.ads2
 pakomarket.pl,sloikwiedzy.pl##.storefront-product-pagination
 papajohns.pl###ingridients-fix
 papierowo.pl###contant-widget
@@ -1234,7 +1232,7 @@ zyciepabianic.pl##.paper
 !#if ext_abp
 ##.buttonHomepage { remove: true }
 ##.containerHomepage { remove: true }
-medonet.pl##footer + div:not([class]):not([id]):not([style]) { remove: true }
+medonet.pl##footer + div:not([class], [id], [style]) { remove: true }
 polsatnews.pl##.series__item { remove: true }
 !#endif
 !
