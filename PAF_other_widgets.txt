@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 02 Feb 2025, 16:34 UTC+01:00
-! Version: 2025.2.2.0
+! Last modified: Sun, 02 Feb 2025, 20:32 UTC+01:00
+! Version: 2025.2.2.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 lut 2025, 16:34 UTC+01:00
+! Aktualizacja: nie, 02 lut 2025, 20:32 UTC+01:00
 !
 !
 !
@@ -127,6 +127,9 @@ allegro.pl##div[data-analytics-groups*="allegro.bar.mobileAppBanner"][data-proto
 allegro.pl##div[data-box-name="allegro.login.form"] > div:nth-last-child(2) > div:not(:only-child) > div:last-child:nth-child(2)
 allegro.pl#?#.grid:-abp-has([data-box-name="Recommended Articles Container"])
 allegrolokalnie.pl###masthead.masthead[class*="app"][class*="mobile"] .topheader
+amazon.de,amazon.pl###nav-app-banner-container
+amazon.de,amazon.pl##a > img[alt="Pobierz aplikację Amazon"]
+amazon.de,amazon.pl#?#.sparkle-container:-abp-contains(Pobierz aplikację Amazon)
 ampershop.pl,scyzoryki.net###widget_shop2
 ampolska.net,dbpolska.net,reefshop.pl,uni-tech.pl###panel
 amrest.eu##.tour-info
@@ -995,6 +998,7 @@ scroll.morele.net#?#article[id^="post"].post .wp-block-image:-abp-has(figcaption
 segafredo.pl##.rstboxes .eb-popup.rstbox
 sekurak.pl##.callout-box
 selkar.pl##.my-open.side-banner
+semgence.pl##div[id^="kadence-conversion"][class*="close"]:has(a[href*="oferta"])
 semmelrock.pl###float_catalogue, #float_locations, #float_print, #float_merkliste
 send.firefox.com##send-promo
 seniorka-z-plecakiem.pl###preloader-container
