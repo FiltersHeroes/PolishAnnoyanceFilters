@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 02 Feb 2025, 17:41 UTC+01:00
-! Version: 2025.2.2.1
+! Last modified: Sun, 02 Feb 2025, 20:33 UTC+01:00
+! Version: 2025.2.2.2
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 lut 2025, 17:41 UTC+01:00
+! Aktualizacja: nie, 02 lut 2025, 20:33 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -308,7 +308,6 @@ carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(4)
 carrefour.pl##.push-newsletter
 carry.pl,tani-laptop.com###block_newsletter
 cba.pl##.links > div > div:nth-of-type(4)
-ccpartners.pl##.nl
 cebit.pl##a[href="http://net.cebit.pl/newsletter/"]
 centos.com.pl##form:first-of-type
 centrum-terapii.pl###sml_subscribe_widget
@@ -1213,6 +1212,7 @@ porozmawiajmy.tv###text-36
 portal-sadownik.pl##div.box:nth-of-type(3)
 portalgames.pl##.columns.mimi-form.widget
 portalkryminalny.pl##.newsletter_info
+portalmorski.pl##.nl
 portalodo.com##.newsletter-box
 portalpszczelarski.pl##.element.col-3-7
 portalsamorzadowy.pl,wnp.pl##.news-box
@@ -1242,7 +1242,6 @@ projektowanie-wnetrz-online.pl##.e-container.e-container--column.elementor-eleme
 promapolska.pl###newsletter_footer_form_ajax
 promienieslonca.pl###footer-in > .row > .col-sm-12.col-md-4
 propaganda24h.pl###fx-before-footer
-propertynews.pl##.nl.one
 proshop.pl##div.col-md-6.col-sm-12:nth-of-type(2) > .row > .site-row-margin-top.col-sm-6
 prostyzysk.pl##.entry-content > iframe[id^="fm-"].lazyloaded
 proto.pl###block-entityform-block-newsletter
@@ -1358,7 +1357,6 @@ sklep.bispol.pl##.footer-item.i4
 sklep.carinii.com.pl##.footer > .email-signup
 sklep.elitpolska.pl##.newsletter-block-sticky
 sklep.grupamagnum.eu##.leftcol > #box_custom81 > center > iframe[src^="https://media-grupamagnum.ipresso.pl"]
-sklep.gry-online.pl##.mt, #add-newsletter-email, #add-newsletter
 sklep.jelp.pl###freshmail > .pull-left
 sklep.kawa.pl##.NewsletterPopup
 sklep.kotrak.com##.newsletter1-wrapper > * > *
@@ -2051,7 +2049,7 @@ allegro.pl##div[data-box-name="modalBW"]
 allegro.pl##div[data-prototype-id="allegro.app.promotion"]
 allmedica.pl###modalbox-1, .modalbox-overlay
 alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megasport.com,ksiegarnia-edukacyjna.pl,malowanebiela.pl,megazoologiczny.pl,mito-pharma.pl,rm.com.pl,rpolanski.com,surgepolonia.pl###tws_i_100000
-amazfitpolska.pl,device.pl,it-develop.pl,jagiellonski.pl,luqam.com,luxmedlublin.pl,mensis.pl,nanowosmieci.pl,ombre.pl,pl.horn.eu,salonydenon.pl,sklep.apet.pl,tvokazje.pl,winotoskanii.pl,wyborkierowcow.pl,yumisu.pl,zbigniewsyc.pl##.wf2-popover.grwf2-wrapper, .grwf2_backdrop
+amazfitpolska.pl,device.pl,it-develop.pl,jagiellonski.pl,luqam.com,luxmedlublin.pl,mensis.pl,nanowosmieci.pl,ombre.pl,pl.horn.eu,portalmorski.pl,salonydenon.pl,sklep.apet.pl,tvokazje.pl,winotoskanii.pl,wyborkierowcow.pl,yumisu.pl,zbigniewsyc.pl##.wf2-popover.grwf2-wrapper, .grwf2_backdrop
 android.com.pl##.social-popup
 anita-sklep.pl,csk-med.pl,designbywomen.pl,dingo-shop.com.pl,ekopaka.pl,klasycznebuty.pl,kokonki.pl,lamaglama.pl,newled.pl,roboexpert.pl,sklep-agroland.pl,sklep.swiatlnu.pl,stalowelove.com.pl,strefarolnika.pl,tasmuj.pl,trustmysister.com,zina.pl##.wce_popup-consolidator
 answear.com###popupNewsletterWrap
@@ -3150,7 +3148,6 @@ pl##.gr-visual-prompt
 ||ppstatic.pl^*/article/sticky-video.js
 ||ppstatic.pl^*/article/top-sticky-video-mobile.js
 ||ppstatic.pl^*/plywajace_wideo.js
-!meczyki.pl##.veedmo-video.video-js.veedmo-ad-outstream-inslide
 ~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.floating[id^="Player"], .sticky[id^="Player"]:not(.floating), .randomplayer--floating[id*="player"] > div[class*="wrap"]
 16bit.pl##.crunchify-top
 35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
@@ -3172,6 +3169,7 @@ eurosport.tvn24.pl##div.picture-in-picture.fixed, div[data-testid="player-pip-ac
 filmweb.pl##.isPinned.videoPlayer > .videoPlayer__container
 gamereactor.pl##.playersmall
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
+gram.pl,gry-online.pl##div[id^="dailymotion-pip-"]
 gry.pl,waznygry.pl##.wt-notification-container, #veediWTbtn
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
 inwestycje.pl,petronews.pl##.jeg_feature_video_wrapper .floating
@@ -3187,6 +3185,7 @@ ortograf.pl##.vj-fixed
 pl.blogpascher.com###site-scroll-top
 playgwent.com##.c-big-stream__video--sticked.c-big-stream__video
 pogoda.interia.pl##.inpl-tout-sticky.body__common-header--fixed .vjs-fixedmonitor-wrapper-fixed
+propertynews.pl##.detached.do-stick.featured-movie
 przeambitni.pl##.mvp-vid-fixed
 punkt.media##div[id^="em"][style*="position: fixed;"]
 radio.katowice.pl##div[id^="sidebar"].fixed-player
@@ -3693,6 +3692,7 @@ lenovo.com##.back2top
 lfspareparts724.pl##.up.move, .down.move
 lgensol.pl##.footer-up
 liderlamp.pl,podatki.gov.pl###scrollDown
+lidl.pl##.base-to-top-button
 lightonline.pl##.returnTop
 limango.pl###footer-container ~ div[class*="shop"][style]
 linuxiarze.pl##.fa-chevron-up
