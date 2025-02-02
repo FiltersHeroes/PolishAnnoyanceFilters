@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 02 Feb 2025, 21:38 UTC+01:00
-! Version: 2025.2.2.4
+! Last modified: Sun, 02 Feb 2025, 23:11 UTC+01:00
+! Version: 2025.2.2.5
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 lut 2025, 21:38 UTC+01:00
+! Aktualizacja: nie, 02 lut 2025, 23:11 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1346,6 +1346,7 @@ skalnik.pl##.newsletter_content.footer
 skapiec.pl##section.newsletter
 ski4you.pl##footer#footer.footer .widget--signup
 sklep-agrohandel.pl##.footer_top_area
+sklep-columbia.pl,trekkersport.com.pl##.footer-border-desktop.mobile-toggle > .accordion > :nth-child(-n+2)
 sklep-elektron.com###newsletter-form
 sklep-nasiona.pl##.footer-stay-connected
 sklep-rolnicze.eu##.col-xs-12.col-sm-12.col-md-4.col-lg-4:nth-of-type(2)
@@ -3425,7 +3426,7 @@ darent.net,netbiel.pl###scroll-top-top
 darkarea.pl###bttop
 decathlon.pl###messagetop
 deccoria.pl##.dc-action-scroll-page
-decobazaar.com##.goTop
+decobazaar.com,sklep-butypolska.com##.goTop
 decoliving.pl,intymna.pl,ohso.pl##.ftop1
 deezee.pl##.is-scrollToTopContainer
 denso.com##.Pagetop
@@ -3940,6 +3941,7 @@ sinsay.com###app button + div:has(> svg[viewBox="0 0 24 24"] > path:empty)
 sip.lex.pl##.wk-back-to-top-button
 siriuspro.pl###sp-scroll-to-top-button
 skierniewice.istrefa.com##.circle.jq-elevator
+sklep-columbia.pl,trekkersport.com.pl##button[title="Back To Top"]
 sklep.comarch.pl##.js-go-to-top.footer__btn--goToTop
 sklep.dafi.pl###btn_control_totop
 sklep.geers.pl##.j-scroll-top
@@ -4337,6 +4339,7 @@ zooplus.pl##div:not([class*="sidebar"]) > div[id*="tracker_banner-yt-channel-"].
 ##a[aria-label="Udostępnij w WhatsApp"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
 ~pl###fb-root:lang(pl)
+~pl###whatsapp-chat-footer:lang(pl)
 ~pl##.c-messenger-share:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
 ~pl##.x13socialfixed_links a[href*="m.me/"]:lang(pl)
@@ -4868,6 +4871,7 @@ pikio.pl###chatBot
 pityver.pl###widget.tada.widget
 pkobp.pl###chat-prod-widget
 pl###fb-root
+pl###whatsapp-chat-footer
 pl###wwwa.wwwa--widget.wwwa
 pl##.c-messenger-share
 pl##.sm-panel .sm-messenger
@@ -5324,6 +5328,7 @@ amso.pl##footer .slide_box
 android.com.pl##.cmp-btn.align-center.d-flex
 angelsadvertising.pl###qLoverlay
 ani-wet.pl##.leo-fly-cart-icon-wrapper
+anime-odcinki.pl##div[id][style*="fixed"][style*="bottom"][style*="right"]:has(> a[href*="e-neko.pl"])
 animeon.pl##.alert-info
 anna-urbanska.pl##.amadeus_recent_posts_widget
 annopol.info##.boxSettings
