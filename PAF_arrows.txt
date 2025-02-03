@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 02 Feb 2025, 20:32 UTC+01:00
-! Version: 2025.2.2.0
+! Last modified: Mon, 03 Feb 2025, 16:35 UTC+01:00
+! Version: 2025.2.3.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 lut 2025, 20:32 UTC+01:00
+! Aktualizacja: pon, 03 lut 2025, 16:35 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -221,7 +221,7 @@ darent.net,netbiel.pl###scroll-top-top
 darkarea.pl###bttop
 decathlon.pl###messagetop
 deccoria.pl##.dc-action-scroll-page
-decobazaar.com##.goTop
+decobazaar.com,sklep-butypolska.com##.goTop
 decoliving.pl,intymna.pl,ohso.pl##.ftop1
 deezee.pl##.is-scrollToTopContainer
 denso.com##.Pagetop
@@ -693,6 +693,7 @@ puck.naszemiasto.pl###kotwica
 pyszne.pl##[data-qa="scroll-top"]:is(button, div)
 pzlsedziszow.pl##.scroll-top-wr
 quercus.co##.scroll-back-to-top-wrapper
+quiosque.pl##button.fixed[\@click\.prevent*="scroll"]
 r-gol.com##.go__top
 rabanet.pl##.infinite-footer-back-to-top-button
 radelko.pl##.widget-go-up
@@ -735,6 +736,7 @@ sinsay.com###app button + div:has(> svg[viewBox="0 0 24 24"] > path:empty)
 sip.lex.pl##.wk-back-to-top-button
 siriuspro.pl###sp-scroll-to-top-button
 skierniewice.istrefa.com##.circle.jq-elevator
+sklep-columbia.pl,trekkersport.com.pl##button[title="Back To Top"]
 sklep.comarch.pl##.js-go-to-top.footer__btn--goToTop
 sklep.dafi.pl###btn_control_totop
 sklep.geers.pl##.j-scroll-top
