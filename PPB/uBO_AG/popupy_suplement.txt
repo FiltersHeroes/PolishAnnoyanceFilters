@@ -435,8 +435,8 @@ sklepzrowerami.pl##.fancybox-overlay:has(.apc_modal)
 socialpress.pl##.bottom-content-newsletter
 sofine.pl##+js(nosiif, popcount, 1000)
 solven.pl###dontGoModal, .modal-backdrop
-spidersweb.pl##:has(.popoup-content)
-spidersweb.pl,stoprocent.com##html:style(overflow-y: auto !important; margin-right: 0 !important)
+spidersweb.pl##.mfp-wrap:has(.popoup-content)
+spidersweb.pl,stoprocent.com##html[style*="overflow"]:style(overflow-y: auto !important; margin-right: 0 !important; padding-right: 0 !important)
 sportowefakty.wp.pl##.modal:has-text(Już uciekasz?)
 sprawyzdrowia.pl##+js(nostif, i(), 3000)
 spyshop.pl##+js(acis, $, #popUp)
