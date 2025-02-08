@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 06 Feb 2025, 16:36 UTC+01:00
-! Version: 2025.2.6.0
+! Last modified: Sat, 08 Feb 2025, 16:32 UTC+01:00
+! Version: 2025.2.8.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 06 lut 2025, 16:36 UTC+01:00
+! Aktualizacja: sob, 08 lut 2025, 16:32 UTC+01:00
 !
 !
 !
@@ -149,7 +149,7 @@ ansin.pl,babyboom.net.pl,czystyszop.pl,elektro-met.pl,glossyme.eu,iexpert.pl,kid
 answear.com##div[class*="MobileWidget__appWidgetMobileContainer_"]
 antykwariatlibra.pl##.guy
 antyradio.pl,chillizet.pl,meloradio.pl,planeta.pl,radiozet.pl##.back-to-home
-antyweb.pl##header.header ~ div.wrapper > div[data-fetch-key*="PostProxy"] > div:not([id]):not([class]) > div.pb-12 ~ div.pb-12
+antyweb.pl##header.header ~ div.wrapper > div[data-fetch-key*="PostProxy"] > div:not([id], [class]) > div.pb-12 ~ div.pb-12
 apis-sklep.pl,hellomood.pl##.cursor
 apkmirror.com###bottom-slider.apkm-timed-slider
 apkpure.com###ad-aegon-side
@@ -261,7 +261,7 @@ burgerking.pl##.redirect-banner
 bursiak.pl,lionteam.pl,meblosfera.pl,network-interactive.pl,siecportali.pl,uzdrowiska-pgu.pl,wizja.net##.preloader
 bursztynowa.pl###loader
 busko.net.pl###upPrevSlide
-cantino.pl###Form > div[style]:not([id]):not([class]):nth-of-type(6)
+cantino.pl###Form > div[style]:not([id], [class]):nth-of-type(6)
 caritas.pl###floating-pomagam, .one_proc, #floating-icons
 caritaspoznan.pl##.footer
 carrefour.pl###snrs-corner-pop
@@ -530,7 +530,7 @@ helloangielski.pl###icegram_messages_container
 hellogadzet.pl##.newsletter_sidewidget
 hiperpharm.pl###side_widget
 hiperpharm.pl##.banner-underpage
-histmag.org###article > div[style*="fixed"]:not([id]):not([class])
+histmag.org###article > div[style*="fixed"]:not([id], [class])
 histmag.org##.print\:hidden
 histmag.org##div[evergreen-portal-container] > div > div[role="dialog"]
 historykon.pl##.erpProContainer
