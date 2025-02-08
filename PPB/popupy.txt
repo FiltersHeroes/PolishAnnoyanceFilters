@@ -48,7 +48,7 @@ akademia.nask.pl###newsletterall
 akademos.pl###myModal, .reveal-modal-bg
 akson.pl###contactPopup
 akson.pl###eventPopup
-albo24.pl##body > div:not([class]):not([id]) > div[class][style*="z-index"][style*="position"][style*="fixed"]
+albo24.pl##body > div:not([class], [id]) > div[class][style*="z-index"][style*="position"][style*="fixed"]
 aledobre.pl,mniammniam.com###universal-popup-wrapper
 aleleki.pl,florini.pl###fancybox-overlay
 alget.pl,kontaktowe.pl,polskiesolitery.pl###jOverlayContent, #jOverlay
@@ -155,7 +155,7 @@ bissole.pl,elbau.com.pl,laboosiedlce.pl,lovesimple.pl,luminapark.pl,modesta.com.
 bitdefender.pl###popup, .popup-overlay
 biuroprasowe.pl###global_overlay_cont, #global_overlay
 biznesoutfit.pl###formWrapper, #formOverlay
-biznesoutfit.pl##body > div[style*="position"][style*="fixed"]:not([id]):not([class])
+biznesoutfit.pl##body > div[style*="position"][style*="fixed"]:not([id], [class])
 blackstarstudio.pl,powerflex.pl##.moOptinForm
 blizejprzedszkola.pl##.bp-modal-sm.bp-modal
 blogojciec.pl##.ppsPopupFbLikeShell, #ppsPopupBgOverlay
@@ -190,7 +190,7 @@ cafago.com##.freePointWrap
 calzado.waw.pl###x13popup-container
 calzado.waw.pl,giftshop24.pl###x13popup-cover
 carrefour.pl##.snrs-modal-wrapper:has(a[href^="https://www.carrefour.pl/promocje/zakupy-bez-rejestracji"])
-casedrop.eu##div[class^="bonus-popup"]:not([class*=" "]):not([class*="timer"])
+casedrop.eu##div[class^="bonus-popup"]:not([class*=" "], [class*="timer"])
 casu.pl,dji-ars.pl,drmax.pl###freshmail-main-wrapper, #freshmail_backdrop
 cdn.ampproject.org,www.reddit.com##.XPromoPopup
 cebit.pl,nsix.pl,optima-demo.com.pl,optima-sklep.pl###cc-banner-iframe
@@ -211,7 +211,7 @@ chrzypsko.pl,metaltech.com.pl,vas.com.pl###dhtml_popup
 ciechocinek.biz,gniewkowo.eu,ki24.info,kolniak24.eu,lowiczanin.info,nizanskie.info,roztocze.net##.hejhej.hey-outer
 cieszanowrockfestiwal.pl,wantmore.pl##.et_bloom_trigger_bottom.et_bloom_popup
 citroen-shop.eu##.cp-popup, .cp-popup-overlay
-cleangang.pl,ekogram.pl,natural.pl,shop-dent.pl,stylion.pl,woliniusz.pl,zenox.pl##body > div:not([class]):not([id]):has(> .needsclick[class*="kl-private"])
+cleangang.pl,ekogram.pl,natural.pl,shop-dent.pl,stylion.pl,woliniusz.pl,zenox.pl##body > div:not([class], [id]):has(> .needsclick[class*="kl-private"])
 clickfashion.pl##.layer_cart_overlay
 clickfashion.pl,dzwignice.info,embryolisse.pl,lenovozone.pl,mohito.com,woblink.com,xlm.pl,zdrowie.pap.pl###newsletter-popup
 clinic4car.pl##.newsletter-popup-zone
@@ -669,7 +669,7 @@ protego.pl###newsletterInfo, body[data-news-modal="open"]::after
 pruszynski.com.pl###p_layer
 przegladpiaseczynski.pl##.tdc-footer-wrap
 przekroj.pl##.js-modal.modal__content--offset.modal__content
-przepisy.pl##.modal:not(#modalDownloadEbook):not(#modalResult), .modal-backdrop
+przepisy.pl##.modal:not(#modalDownloadEbook, #modalResult), .modal-backdrop
 przetargi.egospodarka.pl###js_popup_przetargi
 przystan-psychologiczna.pl##.infowindow
 publicat.pl###newsletter-popup-form

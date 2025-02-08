@@ -169,7 +169,7 @@ endo.pl,toysrus.pl###modalNL, .modal-backdrop
 epione.pl,royalpark.pl##.fancybox-lock body:style(overflow-y: auto !important)
 erecruiter.pl##.is-simple-popup.site-popup
 erecruiter.pl##body[style]:style(position: static !important; overflow-y: auto !important)
-erli.pl##body > div:not([id]):not([class]):has(div[click-tracking="pop-up 100 na start"])
+erli.pl##body > div:not([id], [class]):has(div[click-tracking="pop-up 100 na start"])
 erli.pl##body[class]:style(overflow-y: auto !important)
 esoleo.pl##.s-Popup
 esoleo.pl##html[style="overflow: hidden;"],body[style="overflow: hidden;"]:style(overflow-y: auto !important)
@@ -210,7 +210,7 @@ ideau.pl##.pum[data-popmake*="nowy-produkt"], .overlay
 idream.pl###modal-getresponse, .modal-backdrop
 ifirma.pl###reklama-overlay
 insert.com.pl##+js(aeld, DOMMouseScroll, preventDefault)
-instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
+!instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
 isostore.eu###toplayer_newsletter
@@ -302,8 +302,6 @@ newsweek.pl##.tp-modal-open:style(overflow-y: auto !important)
 newtech.com.pl###vq-popup-cnt
 niedziela.pl###exitIntentModal, .modal-backdrop
 niezlasztuka.net##+js(nostif, i(), 35000)
-nike.com##body[data-overlay*="Modal" i]:style(position: static !important)
-nike.com##body[data-overlay*="Modal" i]:watch-attr(data-overlay):not([data-overlay="true"]) #gen-nav-commerce-header-v2 > div.pre-modal-window:has(> .pre-modal > .pre-modal-view > .unite-container):has-text(/newsletter/i)
 njumobile.pl##+js(aopr, window.onbeforeunload)
 north.pl###article-choose-modal, .modal-backdrop
 nowafarmacja.pl##.freshmail-modal, .modal-backdrop
@@ -324,7 +322,7 @@ opoczno.eu,royalpark.pl##html.fancybox-lock:style(overflow-y: auto !important; m
 orlencharge.pl##.show.modal.fade, .show.modal-backdrop.fade
 orlencharge.pl##body.modal-open:style(overflow-y: auto !important)
 osehero.pl##.cookies-modal, .modal-backdrop
-otodom.pl###__next > div[class] + div:not([class]):not([id]):has(div[data-cy="modal"][role="dialog"] p:has-text(Zapisuj))
+otodom.pl###__next > div[class] + div:not([class], [id]):has(div[data-cy="modal"][role="dialog"] p:has-text(Zapisuj))
 ozogtomczykowski.pl###homeModal
 pakamera.pl##.fancybox-container:has(a[href*="sale"] img)
 pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
@@ -484,11 +482,11 @@ wiadomoscispozywcze.pl##body > div[data-gr="popup-container"]
 wiadomoscispozywcze.pl##html body.gr-body-popup-open:style(overflow-y: auto !important)
 winnicalidla.pl##+js(ra, style, html[style*="overflow"][style*="auto"], stay)
 wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
-wokularach.pl###__next > div[style] > div:not([id]):not([class]):not([style]):has(form #newsletter-modal)
+wokularach.pl###__next > div[style] > div:not([id], [class], [style]):has(form #newsletter-modal)
 wokularach.pl##.blocked-scroll:style(overflow-y: auto !important)
 www.auchan.pl##+js(aeld, /^(?:wheel|keydown)$/, [native code])
-www.auchan.pl##.v-dialog__content:has(> div.v-dialog > div:not([id]):not([class]) > button ~ div > picture:only-child)
-www.auchan.pl##.v-overlay:has(~ .v-dialog__content > div.v-dialog > div:not([id]):not([class]) > button ~ div > picture:only-child)
+www.auchan.pl##.v-dialog__content:has(> div.v-dialog > div:not([id], [class]) > button ~ div > picture:only-child)
+www.auchan.pl##.v-overlay:has(~ .v-dialog__content > div.v-dialog > div:not([id], [class]) > button ~ div > picture:only-child)
 www.facebook.com##body > div.uiLayer[style="opacity: 1; min-width: 40px;"]:has(> div:first-child:empty)
 www.microsoft.com###email-newsletter-dialog
 www.pkobp.pl##.locked-scroll:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important)
