@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 07 Feb 2025, 15:14 UTC+01:00
-! Version: 2025.2.7.0
+! Last modified: Sat, 08 Feb 2025, 16:32 UTC+01:00
+! Version: 2025.2.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 07 lut 2025, 15:14 UTC+01:00
+! Aktualizacja: sob, 08 lut 2025, 16:32 UTC+01:00
 !
 !
 !
@@ -243,7 +243,7 @@ bilscy.info,ogrodniczy.com,sarenka.eu##.footer-newsletter-box
 bioenergiadlaregionu.eu##.pa-newsletter
 bioieko.pl,chinytolubie.pl,dietetycy.org.pl,effective-english.pl,miastons.pl,przewodnikmp.pl,socialpress.pl###fm_form_1
 biolindo.pl,ecco-verde.pl##.footer_newsletter--form
-bissole.pl##a[href="#newsletter"]
+bissole.pl,marketdino.pl##a[href="#newsletter"]
 bit-info.pl##.newsletters_block
 biurfan.pl###newsletter-wide
 biuronet.com##.bottom-subscription-form
@@ -1080,7 +1080,7 @@ ogloszenia.trojmiasto.pl##.let-me-know
 okazik.pl##.container:first-of-type > .row-wrap.row > .col-md-3:nth-of-type(2)
 okazje.info.pl###newsletterTab
 okazjum.pl##.newsletter-modal__reveal-button
-okna-pasywne.pl##div:not([class]):not([id]) > div[class*="NewsletterArticle"]:not([class*="content"])
+okna-pasywne.pl##div:not([class], [id]) > div[class*="NewsletterArticle"]:not([class*="content"])
 oknadrzwi.net##.widget_buildplus_core_newsletter
 oknonet.pl##div.lbox:nth-of-type(8)
 oknoplast.com.pl##.ivn-BlockNewsletter__content
@@ -1727,8 +1727,8 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 /button/newsletter.jpg
 /wp-content/plugins/wysija-newsletters
 ||forms.freshmail.io^$subdocument,domain=pl
-!~apteka.sloneczna24.pl,~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.x-kom.pl,~mediaexpert.pl,~pap-mediaroom.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl,~fielmann.pl##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"])
-!~lp.morele.net,~pl,~lp.al.to,~pl.tommy.com##.newsletter:not(#popup_newsletter):not(#popup):not(.in-line):not(.curvyIgnore):not(.popup):not(.ui-dialog):not(input):not(section):not([class*="modal"]):lang(pl)
+!~apteka.sloneczna24.pl,~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.x-kom.pl,~mediaexpert.pl,~pap-mediaroom.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl,~fielmann.pl##.newsletter:not(#popup_newsletter, #popup, .in-line, .curvyIgnore, .popup, .ui-dialog, input, section, [class*="modal"])
+!~lp.morele.net,~pl,~lp.al.to,~pl.tommy.com##.newsletter:not(#popup_newsletter, #popup, .in-line, .curvyIgnore, .popup, .ui-dialog, input, section, [class*="modal"]):lang(pl)
 ###footer-newsletter:lang(pl)
 ###newsletterform:lang(pl)
 ##.footer-newsletter:lang(pl)
@@ -1740,7 +1740,7 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ~activejet.pl,pl##.newsletterBox
 ~aurum-optics.pl,pl##.footer-newsletter
 ~automatykab2b.pl,~ekodrogeria.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
-~budus.pl,~carrefour.pl,~olx.pl,pl###newsletter:not(.modal):not(input)
+~carrefour.pl,~olx.pl,pl###newsletter:not(.modal, input, :target)
 ~dietyodbrokula.pl,~ekodrogeria.pl,~mediaexpert.pl,~muzyczneradio.pl,pl##.newsletter-form
 ~drogeriaolmed.pl,pl##.newsletter-btn
 ~dron.pl,pl##.widget_wysija
@@ -1750,7 +1750,7 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ~pip.gov.pl,pl##.newsletter-content
 ~pl###box_newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
-~pl###newsletter:not(.modal):not(input):lang(pl)
+~pl###newsletter:not(.modal, input):lang(pl)
 ~pl##.block-newsletter:lang(pl)
 ~pl##.block_newsletter:lang(pl)
 pl###box-newsletter
