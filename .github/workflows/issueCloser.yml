@@ -1,12 +1,12 @@
-name: Portier
+name: Zamykanie etykietami dla otwartych zgłoszeń
 
 on:
   issues:
     types: [labeled]
 
 jobs:
-  apply-label:
-    if: github.event.label.name == 'zatwierdzone' || github.event.label.name == 'odrzucone'
+  close:
+    if: github.event.label.name == 'zatwierdzone' || github.event.label.name == 'odrzucone' || github.event.label.name == 'dawno zrobione'
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -14,5 +14,7 @@ jobs:
       - uses: hawkeye116477/issue-manager-action@v1
         with:
           mode: "close"
-          completed-label: "zatwierdzone"
+          completed-label: |
+            zatwierdzone
+            dawno zrobione
           not-planned-label: "odrzucone"
