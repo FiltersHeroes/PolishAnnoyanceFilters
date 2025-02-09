@@ -1,5 +1,7 @@
 ikonka.eu###Widget2, .modal-backdrop
 ikonka.eu##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
+zabawki.esklep.info###dont_go_overlay
+zabawki.esklep.info##body.lock:style(overflow-y: auto !important)
 zabawki.esklep.info##+js(set-cookie, sStore_news, 1)
 zabawki.esklep.info##+js(set-cookie, sStore_dont, 1)
 !instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
