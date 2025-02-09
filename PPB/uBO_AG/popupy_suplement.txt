@@ -1,12 +1,3 @@
-nerdstore.pl,krasnal.sklep.pl##+js(set-cookie, posnewsletterpopup, 1)
-bonarka.com.pl##.ReactModalPortal:has(form input[type="email"])
-bonarka.com.pl##.ReactModal__Body--open:style(overflow-y: auto !important)
-ikonka.eu###Widget2, .modal-backdrop
-ikonka.eu##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
-zabawki.esklep.info###dont_go_overlay
-zabawki.esklep.info##body.lock:style(overflow-y: auto !important)
-zabawki.esklep.info##+js(set-cookie, sStore_news, 1)
-zabawki.esklep.info##+js(set-cookie, sStore_dont, 1)
 !instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"]):not(:has-text(Zaloguj się, aby wyświetlić posty))
 99rent.pl##.invpopup
 99rent.pl,agro-top.com.pl##body.invpop-visible:style(overflow-y: auto !important)
@@ -113,6 +104,8 @@ blix.pl##body, html:style(overflow-y: auto !important)
 blog-daneosobowe.pl##+js(nostif, i(), 5000)
 bonami.pl##.blurred:style(filter: none !important)
 bonami.pl##.overlayPan
+bonarka.com.pl##.ReactModal__Body--open:style(overflow-y: auto !important)
+bonarka.com.pl##.ReactModalPortal:has(form input[type="email"])
 bonprix.pl###newsletter-subscribe, .modal-backdrop
 bookbook.pl,darmarsklep.pl,sklep.polmarkus.com.pl###WebPushAddSubscription, .modal-backdrop
 botland.com.pl###blockcart-modal, .modal-backdrop
@@ -216,6 +209,8 @@ ideaart.com.pl##.remodal-wrapper, .remodal-overlay
 ideau.pl##.pum[data-popmake*="nowy-produkt"], .overlay
 idream.pl###modal-getresponse, .modal-backdrop
 ifirma.pl###reklama-overlay
+ikonka.eu###Widget2, .modal-backdrop
+ikonka.eu##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 insert.com.pl##+js(aeld, DOMMouseScroll, preventDefault)
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
@@ -245,6 +240,7 @@ kontigo.com.pl,macris.com.pl###newsletter-popup
 koronawirusunas.pl###PatronModal, .modal-backdrop
 koty.pl,psy.pl##.ReactModal__Overlay:has(a[href*="/newsletter"])
 koty.pl,psy.pl##html[style], body[class*="Modal"]:style(position: static !important; overflow-y: auto !important)
+krasnal.sklep.pl,nerdstore.pl##+js(set-cookie, posnewsletterpopup, 1)
 kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
 kurspolskiego.pl###banner, .modal-backdrop
 kurspolskiego.pl##.modal-open[class] div#main:style(filter: none !important)
@@ -503,6 +499,10 @@ www.pkobp.pl##.modal:has(form[id*="exitpopup"])
 wynagrodzenia.pl###isbusiness-modal, .modal-backdrop
 yieldbird.com##.home:style(overflow-y: auto !important)
 yieldbird.com##.overlay-layer, .default-modal
+zabawki.esklep.info###dont_go_overlay
+zabawki.esklep.info##+js(set-cookie, sStore_dont, 1)
+zabawki.esklep.info##+js(set-cookie, sStore_news, 1)
+zabawki.esklep.info##body.lock:style(overflow-y: auto !important)
 zadowolenie.pl##.modal:has(img[src*="ZDW_NL_box"])
 zakupy.auchan.pl##+js(set-cookie, startup_popup_closed, true)
 zamknijkonto.pl###md_popups
