@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 09 Feb 2025, 17:40 UTC+01:00
-! Version: 2025.2.9.1
+! Last modified: Sun, 09 Feb 2025, 19:25 UTC+01:00
+! Version: 2025.2.9.2
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 09 lut 2025, 17:40 UTC+01:00
+! Aktualizacja: nie, 09 lut 2025, 19:25 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -72,7 +72,7 @@
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl,warzywapolowe.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
-abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,fresh-market.pl,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,nestor.com.pl,obuwiestyl.pl,pakomat.pl,portalspozywczy.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,yves-rocher.pl,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
+abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,fresh-market.pl,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,nestor.com.pl,obuwiestyl.pl,pakomat.pl,portalspozywczy.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,www.naszapraca.com,yves-rocher.pl,zabawki.esklep.info,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
 abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 ac.com.pl##.form-group
 action.com##footer div[data-testid="newsletter-section"]
@@ -799,8 +799,10 @@ koszulkowo.com##.sec--foot__main__box:nth-of-type(2)
 kotarbinski.wordpress.com###media_image-33
 kozackadrogeria.pl##.block-newsletter-footer
 kozigrod.pl###newsletterHld
+krainazabawek.com.pl##.sc_section-newsletter > div > div:first-child + div:last-child
 krainazabawy.pl###footer .col-md-3
 krasiczyn.com.pl##.side_newsletter
+krasnal.sklep.pl,nerdstore.pl##.elementor-widget-pos_title:has(+ .elementor-widget-pos-newsletter)
 kratki.com##.cs-newsletter__wrapper
 kreatorium.com###nsl
 kronosfera.pl##.widget-subscription
@@ -1687,6 +1689,7 @@ yfood.com##.newsletter-form__field-wrapper
 yieldbird.com##.hidden-widget.float-widget
 yoursclothing.pl##.footer-v2__info-items > .row > .col-sm-6
 youtubersi.pl##.newsletter.container, .click_news
+zabawkinaczasie.pl##div[style="background-color: rgb(255, 255, 255);"]:has(.newsletter)
 zaffiro.shop###newsletterWidget
 zakoplan.pl##.footer-row > div.columns:nth-of-type(4)
 zakupydladziecka.pl##.modNewsltter
@@ -2466,6 +2469,7 @@ korczyk.pl##.pop-up
 koszalin.pl##.region-popup
 koszulkowo.com,modelerolnicze.pl,parkmania.pl###bio_ep, #bio_ep_bg
 krakweb.pl###callpage_box
+krasnal.sklep.pl,nerdstore.pl###posnewsletterpopup
 kresy.pl,okiemrolnika.pl##.ls-popup, .ls-popup-overlay
 krosno.com.pl###mteo_popup_content, #mteo_popup_bg_layer
 krsystem.pl###kasymodalpopup, #kasymodalpopupoverlay
@@ -4342,7 +4346,10 @@ zooplus.pl##div:not([class*="sidebar"]) > div[id*="tracker_banner-yt-channel-"].
 ||widget.customer-alliance.com/reviews/js/standard/*$script,domain=excelsior.com.pl
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 ###chaty-channel-facebook_messenger
+###facebookbc
+###whatsappbc
 ##.btn-share.btn.btn-whatsapp
+##.pos-socials-widget .ei-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
 ##div[data-hook="social-sharing"] button[aria-label="Udostępnij na WhatsApp"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
@@ -4369,7 +4376,7 @@ adaudio.pl###pinnedBottomRight
 adidas.pl,reebok.pl##.QSISlider
 aeg.pl,electrolux.pl,zanussi.pl##.website-feedback
 afrodytasalon.pl##.js--phone-button.ic-phone-button
-agro-sklep.com,audioexpert.pl,otosklep24.pl,panele-sklepy.pl,porcelanaart.pl###up_talk0
+agro-sklep.com,audioexpert.pl,otosklep24.pl,panele-sklepy.pl,porcelanaart.pl,zabawki.esklep.info###up_talk0
 agroas.pl##.aside-fixed-menu__link--contact
 agrobex.pl,chlonne24.pl###grchat-button
 agrodane.pl##.socialblok-social-whatsapp
