@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sat, 08 Feb 2025, 16:32 UTC+01:00
-! Version: 2025.2.8.0
+! Last modified: Sun, 16 Feb 2025, 18:11 UTC+01:00
+! Version: 2025.2.16.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,13 +13,12 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 08 lut 2025, 16:32 UTC+01:00
+! Aktualizacja: nie, 16 lut 2025, 18:11 UTC+01:00
 !
 !
 ! Specyficzne filtry
 /common/js/enp/modules/scrollTop.js$domain=mixmedia.pl|mycenter.pl
 /theme/Dictionary/assets/plugins/back-to-top.min.js$script,domain=encyklopedia.pwn.pl|sjp.pwn.pl|translatica.pl
-||back-to-top.appspot.$subdocument
 ||dih.pl/wp-content/themes/twentyseventeen-child/assets/js/topbutton.js
 ||eu.edu.pl/wp-content/plugins/go-to-top-button/js/scrolltop.js
 ||greencanoe.pl/wp-content/themes/cookbook/js/jquery.scrollUp.min.js
@@ -892,6 +891,7 @@ zszywka.pl###scroolToTop
 /wp-content/*/wpfront-scroll-top.$script
 /wp-content/plugins/dynamic-to-top/js/dynamic.to.top.min.js
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
+||back-to-top.appspot.*^$subdocument
 ###ast-scroll-top:not(body, html, .wrapper):lang(pl)
 ###back-top:not(body, html, .wrapper):lang(pl)
 ###BackToTop:not(body, html, .wrapper):lang(pl)
