@@ -1,5 +1,6 @@
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
+urzadskarbowy.gov.pl##+js(set-session-storage-item, smartBannerVisible, false)
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##[data-st-area="Header"] > div > figure[style^="border-color"]:has(+ a[data-st-area="Header-back"])
