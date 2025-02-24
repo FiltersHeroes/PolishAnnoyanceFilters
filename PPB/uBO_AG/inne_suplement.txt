@@ -1,5 +1,3 @@
-m.olx.pl##img[data-testid="app-install-banner-logo"]:upward(div)
-m.olx.pl##button[data-testid="app-install-banner-close"]:upward(div)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -91,6 +89,8 @@ lubimyczytac.pl##.banner-mobile-app
 lubimyczytac.pl##.banner-mobile-app:not(.is-off) ~ .header:style(top: 0 !important; margin-bottom: 0 !important)
 m.box.com##.app-banner-enabled div.page:style(top: 0 !important)
 m.box.com##.mobile-app-banner
+m.olx.pl##button[data-testid="app-install-banner-close"]:upward(div)
+m.olx.pl##img[data-testid="app-install-banner-logo"]:upward(div)
 m.pl.aliexpress.com##body.smartbanner-placeholder[style]:style(padding-top: 0 !important)
 mateuszgrzesiak.com,mg-pmm.com,posnania.eu##body:style(overflow-y: auto !important)
 meblohurt.eu##body:style(padding-top: 0 !important)
