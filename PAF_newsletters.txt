@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 23 Feb 2025, 20:33 UTC+01:00
-! Version: 2025.2.23.0
+! Last modified: Tue, 25 Feb 2025, 16:38 UTC+01:00
+! Version: 2025.2.25.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 23 lut 2025, 20:33 UTC+01:00
+! Aktualizacja: wto, 25 lut 2025, 16:38 UTC+01:00
 !
 !
 !
@@ -309,6 +309,7 @@ carry.pl,tani-laptop.com###block_newsletter
 cba.pl##.links > div > div:nth-of-type(4)
 cebit.pl##a[href="http://net.cebit.pl/newsletter/"]
 centos.com.pl##form:first-of-type
+centrum-hiperbaryczne.pl##.bok:has(.acymailing_modulebok)
 centrum-terapii.pl###sml_subscribe_widget
 centrum.mocniwduchu.pl##.gm-newsletter
 centrumdialogu.com##.clearfix.bd-no-margins.hidden-xs.bd-layoutbox-9
@@ -517,6 +518,7 @@ empik.com##.newsletter-registration
 enerad.pl###g1-prefooter-widget-area > .g1-grid > .g1-one-fourth.g1-column:nth-of-type(3)
 englishcollege.pl##.menudol > .calosc > #kontakt
 enova.pl##.ipb-newsletter-form, .ipb-newsletter-info
+entra.pl##.elementor-location-footer .elementor-element.e-con.e-child:has(> div form[name="Newsletter Form"])
 eofficemedia.pl,fairbee.pl###tab_newsletter
 epicdrama.pl##.epic-footer-nav > .row > .col-md-6
 epoznan.pl##a[href="about-newsletter"]
@@ -566,7 +568,7 @@ faktyozywnosci.pl##.column-first.vmag-footer-widget
 fanbook.store##.abs-newsletter-panel
 fandroid.com.pl##.manohara-mailchimp--aligned-center, .widget-incredibbble-mailchimp-form
 farbykabe.pl##.newsletter_head, .newsletter_text
-fasardi.com,revouninstaller.com##.subscribe
+fasardi.com,iobit.com,revouninstaller.com##.subscribe
 fashyas.com,kolekcjonerki.com##footer div:nth-of-type(3)
 fc-moto.de##.NewsletterBox, .NewsletterBox + div
 felixcom.net##.ftop > .container > .right
