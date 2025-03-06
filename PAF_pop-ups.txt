@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Wed, 05 Mar 2025, 14:01 UTC+01:00
-! Version: 2025.3.5.0
+! Last modified: Thu, 06 Mar 2025, 03:08 UTC+01:00
+! Version: 2025.3.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 05 mar 2025, 14:01 UTC+01:00
+! Aktualizacja: czw, 06 mar 2025, 03:08 UTC+01:00
 !
 !
 !
@@ -410,6 +410,8 @@ dowbit.pl,generacjasmart.pl,moneygrabbing.co.uk##.mcwidget-overlay
 dragonmask.pl###Widget1
 dreweks.eu,laroxy.com,meblezet.com,motomat.eu###x13popup-container, #x13popup-cover
 drogeriaolmed.pl###home-popup-bg, .p-sm-1.p-2
+dropbox.com##.ReactModalPortal:has(a[href*="/buy/plus"]):has(a[href*="/try/teams"])
+dropbox.com##.ReactModalPortal:has(img[src*="/will/mobile-qr-code"])
 drukmistrz.pl##.mf-loaded.mf-animate.mf-modal-iframe-middle.mf-modal-iframe
 drukmistrz.pl##.mf-modal-overlay
 dutchhouse.pl##.modal-backdrop, .newsletter-modal
