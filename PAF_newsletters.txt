@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 12 Mar 2025, 20:33 UTC+01:00
-! Version: 2025.3.12.0
+! Last modified: Tue, 25 Mar 2025, 16:39 UTC+01:00
+! Version: 2025.3.25.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 12 mar 2025, 20:33 UTC+01:00
+! Aktualizacja: wto, 25 mar 2025, 16:39 UTC+01:00
 !
 !
 !
@@ -761,7 +761,7 @@ karoseria.eu##.info-newsletter
 karpiowy.pl##.newsletter-group > .container
 kasastefczyka.pl###InteliwiseSaaSModule_win_wrapper
 katalogmarzen.pl##.bottom-box.content-box > .container > .row > div:nth-of-type(2)
-katowice24.info##.top-footer > div.col-md-3.col-sm-12:nth-of-type(3)
+katowice24.info##h3.site-footer__header:has(+ #newsletterform)
 katowice-drzwi.pl##.foot-news
 katowice.eu##.newsletter_title, .newsletterTitle
 kawerna.pl##.item-last.span4
