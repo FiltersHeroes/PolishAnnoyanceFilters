@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 24 Mar 2025, 01:05 UTC+01:00
-! Version: 2025.3.24.0
+! Last modified: Sat, 29 Mar 2025, 17:45 UTC+01:00
+! Version: 2025.3.29.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 24 mar 2025, 01:05 UTC+01:00
+! Aktualizacja: sob, 29 mar 2025, 17:45 UTC+01:00
 !
 !
 !
@@ -436,6 +436,7 @@ komfort.pl###chatbase-bubble-window, #chatbase-bubble-button
 kompan.pl###circleWrap
 komputerswiat.pl##iframe[src^="https://cdn.brandmetrics.com/"][style*="fixed"]
 komputronik.pl##a[href*="/kontakt"] + button[title="Czat"]
+komputronik.pl##a[title="Oceń stronę"]
 komputronik.pl##aside button:has(img[alt="chat"])
 komputronik.pl##div[data-name="shareLinks"] div:has(.i-whatsapp)
 konicaminolta.info.pl##.kontakt-slide
