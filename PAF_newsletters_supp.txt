@@ -1,5 +1,4 @@
 ! Codename: Newsletters - Supplement
-!dlahandlu.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl##.social.tabs:has( > div.navi > a.active:first-child:watch-attr(class)) > .panes
 allebiznes.pl##.elementor-widget-wrap .elementor-widget-jet-subscribe-form:upward(.elementor-widget-wrap)
 allebiznes.pl##.jet-sticky-column .elementor-widget-wrap .elementor-widget-jet-subscribe-form:upward(section.elementor-element)
 aquario.pl##div[id*="newsletter_block"], .newsletter-text:style(visibility: hidden !important)
@@ -21,6 +20,8 @@ gomobi.pl##.onp-sl-overlap-box
 horex.pl##.footer_block_wrapper > .footer_block > picture > img[src*="/shop_banner_picture/"]:style(visibility: hidden !important)
 horex.pl##.newsletter--wrapper ~ div .footer .footer_block:first-child picture img:style(visibility: hidden !important)
 ibood.com##footer div form[data-testid="subscribe-form"]:upward(1)
+komputerswiat.pl##.ods-c-salesmanago-slot div[id^="wes-"]:shadow(div):has(> .bhr-widget form button[title="ZAPISZ SIĘ"])
+komputerswiat.pl#%#//scriptlet('hide-in-shadow-dom', '.bhr-widget form:has(button[title="ZAPISZ SIĘ"])', '.ods-c-salesmanago-slot div[id^="wes-"]')
 kremdelakrem.pl###milo-footer-main.footer-default div:nth-of-type(2) .vc_column-inner > .wpb_wrapper:first-of-type:has-text(newsletter) form:upward(.vc_column-inner)
 ksiegarnia-edukacyjna.pl###menu_newsletter:style(visibility: hidden !important)
 lectus24.pl###addme-footer #addme-side[class*="33"]:style(width: 100% !important)
