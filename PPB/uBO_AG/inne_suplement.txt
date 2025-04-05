@@ -1,4 +1,3 @@
-plus.pl##+js(set-cookie, isIplusClosed, true)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -131,6 +130,7 @@ pl##.with-smartbanner .external-header:style(top: 0 !important)
 pl##.with-smartbanner .top-band:style(margin-top: 0 !important)
 pl##body.smartbanner #smartbanner
 pl##html[data-smartbanner-original-margin-top^="0"][style]:style(margin-top: 0 !important)
+plus.pl##+js(set-cookie, isIplusClosed, true)
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body > style:last-child:has-text(/\._[a-z0-9]{12}/):remove()
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
 poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"] div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):style(opacity: 0.3 !important)
