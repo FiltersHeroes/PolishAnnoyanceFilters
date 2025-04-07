@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Mon, 07 Apr 2025, 15:04 UTC+02:00
-! Version: 2025.4.7.0
+! Last modified: Mon, 07 Apr 2025, 17:38 UTC+02:00
+! Version: 2025.4.7.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 07 kwi 2025, 15:04 UTC+02:00
+! Aktualizacja: pon, 07 kwi 2025, 17:38 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6516,22 +6516,16 @@ polsatnews.pl##.series__item { remove: true }
 ||platformafinansowa.pl/assets/other/widget.png$third-party
 ###allegro-widget
 ###allegro_ikona
-###cursor:empty
-###gr-spnotifications
-###grw_sidebox
 ###poza-szkieletem
 ###SliderPrzycisk
 ###widget-allegro
 ###xloteria-zawsze
 ###ZakladkaNewsletterOkno
 ##.bilet
-##.circle-cursor
-##.custom-social-proof
 ##.mraty-widget
 ##.polecamyBox
 ##.reklama-box
 ##.strefa_wystawcy
-##[class="cursor"]:empty
 ~pl###rr_side_widget.__service_rr.pl_PL
 ~pl###xloteria-zawsze:lang(pl)
 ~pl##.csocial-link[href*="olx.pl"]:lang(pl)
@@ -6554,8 +6548,11 @@ pl###allecomments_clips
 pl###bdCheckAlso
 pl###check-also-box
 pl###ClPanel
+pl###cursor:empty
 pl###el_lottery_widget
+pl###gr-spnotifications
 pl###graton-main-container.promoContainer
+pl###grw_sidebox
 pl###hs-web-interactives-bottom-anchor
 pl###mobileAppsbadge
 pl###oglmetka
@@ -6568,8 +6565,10 @@ pl###widget_easytoread
 pl###wpd-bubble-wrapper
 pl##.a11y-toolbar-list
 pl##.callback-widget
+pl##.circle-cursor
 pl##.csocial-link[href*="olx.pl"]
 pl##.csocial-link[href*="otomoto.pl"]
+pl##.custom-social-proof
 pl##.floating-yt-player
 pl##.freeShipping
 pl##.header-back-link
@@ -6591,6 +6590,7 @@ pl##.td-more-articles-box
 pl##.tm-lemur-position
 pl##.widget_times_social_widget a[href*="podcasts.google"]
 pl##.x13socialfixed_links a[href*="allegro.pl/"]
+pl##[class="cursor"]:empty
 pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
 pl##ptwp-infinite
