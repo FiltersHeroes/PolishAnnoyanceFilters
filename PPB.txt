@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 06 Apr 2025, 23:36 UTC+02:00
-! Version: 2025.4.6.3
+! Last modified: Mon, 07 Apr 2025, 15:04 UTC+02:00
+! Version: 2025.4.7.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 06 kwi 2025, 23:36 UTC+02:00
+! Aktualizacja: pon, 07 kwi 2025, 15:04 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6514,11 +6514,23 @@ polsatnews.pl##.series__item { remove: true }
 ||leaselink.pl/js/slide-button-shoper.js
 ||leaselink.pl/js/slide-button.js
 ||platformafinansowa.pl/assets/other/widget.png$third-party
+###allegro-widget
+###allegro_ikona
 ###cursor:empty
 ###gr-spnotifications
 ###grw_sidebox
+###poza-szkieletem
+###SliderPrzycisk
+###widget-allegro
+###xloteria-zawsze
+###ZakladkaNewsletterOkno
+##.bilet
 ##.circle-cursor
 ##.custom-social-proof
+##.mraty-widget
+##.polecamyBox
+##.reklama-box
+##.strefa_wystawcy
 ##[class="cursor"]:empty
 ~pl###rr_side_widget.__service_rr.pl_PL
 ~pl###xloteria-zawsze:lang(pl)
@@ -6539,8 +6551,6 @@ com,eu,info,pl###content > div#ipl-loader
 com,eu,info,pl###content > div#primary span.loaded.ipl
 pl###acwp-toolbar-btn
 pl###allecomments_clips
-pl###allegro-widget
-pl###allegro_ikona
 pl###bdCheckAlso
 pl###check-also-box
 pl###ClPanel
@@ -6550,19 +6560,13 @@ pl###hs-web-interactives-bottom-anchor
 pl###mobileAppsbadge
 pl###oglmetka
 pl###pojo-a11y-toolbar
-pl###poza-szkieletem
 pl###rr_side_widget.__service_rr
-pl###SliderPrzycisk
 pl###socialproof-container
 pl###upprev_box
 pl###userwayAccessibilityIcon
-pl###widget-allegro
 pl###widget_easytoread
 pl###wpd-bubble-wrapper
-pl###xloteria-zawsze
-pl###ZakladkaNewsletterOkno
 pl##.a11y-toolbar-list
-pl##.bilet
 pl##.callback-widget
 pl##.csocial-link[href*="olx.pl"]
 pl##.csocial-link[href*="otomoto.pl"]
@@ -6573,10 +6577,8 @@ pl##.jeg_popup_post
 pl##.kac-sm-gmap
 pl##.kac-sm-gmb
 pl##.llSlideButton
-pl##.mraty-widget
-pl##.polecamyBox
+pl##.opinions_badge
 pl##.ratingBadgeWrapper
-pl##.reklama-box
 pl##.rssocial-icons > li > a[href*="google.com/maps"]
 pl##.rssocial-icons > li > a[href*="google.pl/maps"]
 pl##.rssocial-icons > li > a[href*="maps.google."]
@@ -6585,7 +6587,6 @@ pl##.side_widget
 pl##.slideout-widget
 pl##.sm-gmap
 pl##.socialproof-new
-pl##.strefa_wystawcy
 pl##.td-more-articles-box
 pl##.tm-lemur-position
 pl##.widget_times_social_widget a[href*="podcasts.google"]
