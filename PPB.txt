@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Tue, 08 Apr 2025, 17:40 UTC+02:00
-! Version: 2025.4.8.0
+! Last modified: Tue, 08 Apr 2025, 22:42 UTC+02:00
+! Version: 2025.4.8.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 08 kwi 2025, 17:40 UTC+02:00
+! Aktualizacja: wto, 08 kwi 2025, 22:42 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4609,6 +4609,7 @@ e-kolo.pl##a[title*="lij whatsup"][href*="web.whatsapp.com/send?text="]
 e-kwiaty.pl###ecatcher.ecatcher
 e-medest.pl,gromar.eu,netia.pl##.contact-widget
 e-prawnik.pl##.o-window.windowTop
+e-pyrzyce.pl,onet.pl,plejada.pl##.whatsapp
 e-sano.pl###report_error_box_button
 e-urzad.grodzisk.pl##.message
 e-vasco.pl##.contact-box-slider
@@ -4885,7 +4886,6 @@ nvt.pl##.buttonWycena
 okazik.pl###btn-message
 oknarolety.com##.attachment-mobile-bottom-right
 omeda.pl##.boxRight:not(.fb)
-onet.pl,plejada.pl##.whatsapp
 onet.pl,plejada.pl##span[data-gtm*="-whatsapp"]
 onet.pl,plejada.pl##span[data-gtm*="messengerShare"]
 onet.pl,radioplus.pl,radiosupernova.pl,rivieraparkmarvipol.pl,senatkomorki.pl,stopcafe.pl,viva.pl,wp.pl##.messenger
