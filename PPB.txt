@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Tue, 08 Apr 2025, 22:42 UTC+02:00
-! Version: 2025.4.8.1
+! Last modified: Wed, 09 Apr 2025, 21:33 UTC+02:00
+! Version: 2025.4.9.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 08 kwi 2025, 22:42 UTC+02:00
+! Aktualizacja: śro, 09 kwi 2025, 21:33 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -72,7 +72,7 @@
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl,warzywapolowe.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
-abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,fresh-market.pl,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,nestor.com.pl,obuwiestyl.pl,pakomat.pl,portalspozywczy.pl,pwn.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,wroclaw.pl,www.naszapraca.com,yves-rocher.pl,zabawki.esklep.info,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
+abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,fresh-market.pl,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,mypewex.com,nestor.com.pl,obuwiestyl.pl,pakomat.pl,portalspozywczy.pl,pwn.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,wroclaw.pl,www.naszapraca.com,yves-rocher.pl,zabawki.esklep.info,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
 abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 ac.com.pl##.form-group
 action.com##section[data-testid="newsletter-section"]
@@ -1740,18 +1740,8 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 /button/newsletter.jpg
 /wp-content/plugins/wysija-newsletters
 ||forms.freshmail.io^$subdocument,domain=pl
-!~apteka.sloneczna24.pl,~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.x-kom.pl,~mediaexpert.pl,~pap-mediaroom.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl,~fielmann.pl##.newsletter:not(#popup_newsletter, #popup, .in-line, .curvyIgnore, .popup, .ui-dialog, input, section, [class*="modal"])
-!~lp.morele.net,~pl,~lp.al.to,~pl.tommy.com##.newsletter:not(#popup_newsletter, #popup, .in-line, .curvyIgnore, .popup, .ui-dialog, input, section, [class*="modal"]):lang(pl)
-###footer-newsletter:lang(pl)
-###newsletterform:lang(pl)
-##.footer-newsletter:lang(pl)
-##.footer__newsletter:lang(pl)
-##.jetpack_subscription_widget:lang(pl)
-##.newsletter-box:lang(pl)
-##.newsletter-form:lang(pl)
-##.newsletter-wrapper:lang(pl)
 ~activejet.pl,pl##.newsletterBox
-~aurum-optics.pl,pl##.footer-newsletter
+~aurum-optics.pl,~hellotuttifrutti.pl,pl##.footer-newsletter
 ~automatykab2b.pl,~ekodrogeria.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
 ~carrefour.pl,~olx.pl,pl###newsletter:not(.modal, input, :target)
 ~dietyodbrokula.pl,~ekodrogeria.pl,~mediaexpert.pl,~muzyczneradio.pl,pl##.newsletter-form
@@ -1762,10 +1752,19 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ~pap.pl,pl,~poradnikprzedsiebiorcy.pl###newsletter-form
 ~pip.gov.pl,pl##.newsletter-content
 ~pl###box_newsletter:lang(pl)
+~pl###footer-newsletter-subscribe:lang(pl)
+~pl###footer-newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal, input):lang(pl)
+~pl###newsletterform:lang(pl)
 ~pl##.block-newsletter:lang(pl)
 ~pl##.block_newsletter:lang(pl)
+~pl##.footer-newsletter:lang(pl)
+~pl##.footer__newsletter:lang(pl)
+~pl##.jetpack_subscription_widget:lang(pl)
+~pl##.newsletter-box:lang(pl)
+~pl##.newsletter-form:lang(pl)
+~pl##.newsletter-wrapper:lang(pl)
 pl###box-newsletter
 pl###box_newsletter
 pl###email-subscribers-2
@@ -3809,6 +3808,7 @@ muscat.pl##.tp-back-to-top
 musicexpert.pl###sp-totop
 mustache.pl,www.mila.pl##.scroll-arrow
 mutti-jakoscbezkompromisow.pl,wyprobujdeveley.pl###btn-go-up
+mypewex.com###goToTop
 nagaba.pl###fixed_top
 najlepszekonto.pl##.footer__to-the-top
 napad.pl###ssRollTop
@@ -5164,7 +5164,7 @@ xtb.com##.js-xchat-btn-wrapper.xchat-btn-wrapper
 zabawkahurtownia.pl###becontact
 zabiegidavinci.pl##.contactwidget
 zaczytaj.pl##.box-contact
-zalando.pl##button[aria-label="Fashion Assistant"]
+zalando.pl##button[aria-label="Fashion Assistant"], div[aria-label="Fashion Assistant"]
 zamg.klodzko.pl##.side-tab-widget > [href="kontakt.html"]
 zdrowazupa.pl##.so-fb-message
 zondacrypto.com###chat-btn.livechat-button
