@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 04 Apr 2025, 21:33 UTC+02:00
-! Version: 2025.4.4.0
+! Last modified: Wed, 09 Apr 2025, 21:33 UTC+02:00
+! Version: 2025.4.9.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 04 kwi 2025, 21:33 UTC+02:00
+! Aktualizacja: śro, 09 kwi 2025, 21:33 UTC+02:00
 !
 !
 !
@@ -71,7 +71,7 @@
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl,warzywapolowe.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
-abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,fresh-market.pl,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,nestor.com.pl,obuwiestyl.pl,pakomat.pl,portalspozywczy.pl,pwn.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,wroclaw.pl,www.naszapraca.com,yves-rocher.pl,zabawki.esklep.info,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
+abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,eatyx.com,esklep.brandvital.eu,eventory.cc,fresh-market.pl,hbt.com.pl,hegos.eu,lou.pl,mazidla.com,mrdiy.com,mumla.pl,mypewex.com,nestor.com.pl,obuwiestyl.pl,pakomat.pl,portalspozywczy.pl,pwn.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,vivelo.pl,wroclaw.pl,www.naszapraca.com,yves-rocher.pl,zabawki.esklep.info,znak.com.pl,znomet.pl,zycierolnika.pl##.newsletter
 abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 ac.com.pl##.form-group
 action.com##section[data-testid="newsletter-section"]
@@ -1739,18 +1739,8 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 /button/newsletter.jpg
 /wp-content/plugins/wysija-newsletters
 ||forms.freshmail.io^$subdocument,domain=pl
-!~apteka.sloneczna24.pl,~audio.com.pl,~bnpparibas.pl,~karta.org.pl,~leroymerlin.pl,~lp.x-kom.pl,~mediaexpert.pl,~pap-mediaroom.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~totylkoteoria.pl,~znak.com.pl,~fielmann.pl##.newsletter:not(#popup_newsletter, #popup, .in-line, .curvyIgnore, .popup, .ui-dialog, input, section, [class*="modal"])
-!~lp.morele.net,~pl,~lp.al.to,~pl.tommy.com##.newsletter:not(#popup_newsletter, #popup, .in-line, .curvyIgnore, .popup, .ui-dialog, input, section, [class*="modal"]):lang(pl)
-###footer-newsletter:lang(pl)
-###newsletterform:lang(pl)
-##.footer-newsletter:lang(pl)
-##.footer__newsletter:lang(pl)
-##.jetpack_subscription_widget:lang(pl)
-##.newsletter-box:lang(pl)
-##.newsletter-form:lang(pl)
-##.newsletter-wrapper:lang(pl)
 ~activejet.pl,pl##.newsletterBox
-~aurum-optics.pl,pl##.footer-newsletter
+~aurum-optics.pl,~hellotuttifrutti.pl,pl##.footer-newsletter
 ~automatykab2b.pl,~ekodrogeria.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
 ~carrefour.pl,~olx.pl,pl###newsletter:not(.modal, input, :target)
 ~dietyodbrokula.pl,~ekodrogeria.pl,~mediaexpert.pl,~muzyczneradio.pl,pl##.newsletter-form
@@ -1761,10 +1751,19 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ~pap.pl,pl,~poradnikprzedsiebiorcy.pl###newsletter-form
 ~pip.gov.pl,pl##.newsletter-content
 ~pl###box_newsletter:lang(pl)
+~pl###footer-newsletter-subscribe:lang(pl)
+~pl###footer-newsletter:lang(pl)
 ~pl###menu_newsletter:lang(pl)
 ~pl###newsletter:not(.modal, input):lang(pl)
+~pl###newsletterform:lang(pl)
 ~pl##.block-newsletter:lang(pl)
 ~pl##.block_newsletter:lang(pl)
+~pl##.footer-newsletter:lang(pl)
+~pl##.footer__newsletter:lang(pl)
+~pl##.jetpack_subscription_widget:lang(pl)
+~pl##.newsletter-box:lang(pl)
+~pl##.newsletter-form:lang(pl)
+~pl##.newsletter-wrapper:lang(pl)
 pl###box-newsletter
 pl###box_newsletter
 pl###email-subscribers-2
