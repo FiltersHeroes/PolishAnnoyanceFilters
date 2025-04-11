@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 10 Apr 2025, 21:33 UTC+02:00
-! Version: 2025.4.10.1
+! Last modified: Fri, 11 Apr 2025, 17:38 UTC+02:00
+! Version: 2025.4.11.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 10 kwi 2025, 21:33 UTC+02:00
+! Aktualizacja: pią, 11 kwi 2025, 17:38 UTC+02:00
 !
 !
 !
@@ -288,7 +288,6 @@ cieplikpodrozuje.pl#?#.elementor-popup-modal:-abp-has(input[type*="email"])
 citibank.pl##.Sticky__CTA
 citroen.pl##.sidebarToolsDesktopReview
 ckr.pl##.sliding-platforma, .sliding-zwolnienie
-clineo.pl##.ceneo-widget
 codojedzenia.pl,teraz-wilanow.pl,zlotaproporcja.pl##.slide-dock
 comarch.pl##.widget-detach-right-bar-container
 context.reverso.net###register-popup-bottom
@@ -808,7 +807,6 @@ namyslow.eu##.hidden-sm.hidden-xs.airly-boczny, .hidden-sm.hidden-xs.pasek-boczn
 napiachu.pl#?#.blueNotification:-abp-has(a[href="/konto-plazowicza"])
 nastopy.pl###ri-widget
 nastopy.pl##.rightSlide
-nastopy.pl,zycietoprzygoda.pl###ceneo-widget
 naszemiasto.pl###magazyn-boks
 nasztomaszow.pl#?#.sidebar > .widget:-abp-has(.poll_list)
 national-geographic.pl##.affix-bottom.row.prev-next-item
@@ -853,7 +851,6 @@ odjazdowenaklejki.pl##.sm-panel > div[id^="side"]:nth-of-type(4)
 oees.pl###floating-button-en
 ofertapracy.monsterpolska.pl###AppliesFooterHolder, #iaactionfixed
 offshorewindpoland.pl##.related_posts_popup_sidebar .single-related-posts-section
-okapytoflesz.pl##.allegro-widget
 oknoserwis.pl##.suggestion-box
 oksport.pl##.best-of-week
 olagosciniak.pl,psychetee.pl###post-navigation > a > div[class]:not(id)
@@ -1138,7 +1135,6 @@ tourette.pl###blog-a
 tpay.com###main-preloader
 trafica.eu##.shop__access
 transfering.pl##.ramka_przeczytaj_rowniez_container
-trofeasportowe.com##.widget-allegro
 trojmiasto.pl##.AnkietaNews
 trumpeters.pl###banner_div_empty
 tube.ad##.nav
@@ -1269,19 +1265,34 @@ polsatnews.pl##.series__item { remove: true }
 ||leaselink.pl/js/slide-button-shoper.js
 ||leaselink.pl/js/slide-button.js
 ||platformafinansowa.pl/assets/other/widget.png$third-party
-###.allegro-widget
 ###allegro-widget
 ###allegro_ikona
+###bilet
+###ceneo-widget
+###mraty-widget
+###opinieIkona
+###polecamyBox
 ###poza-szkieletem
+###reklama-box
 ###SliderPrzycisk
+###strefa_wystawcy
 ###widget-allegro
 ###xloteria-zawsze
 ###ZakladkaNewsletterOkno
+##.allegro-widget
+##.allegro_ikona
 ##.bilet
+##.ceneo-widget
 ##.mraty-widget
+##.opinieIkona
 ##.polecamyBox
+##.poza-szkieletem
 ##.reklama-box
+##.SliderPrzycisk
 ##.strefa_wystawcy
+##.widget-allegro
+##.xloteria-zawsze
+##.ZakladkaNewsletterOkno
 ~pl###rr_side_widget.__service_rr.pl_PL
 ~pl##.csocial-link[href*="olx.pl"]:lang(pl)
 ~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
