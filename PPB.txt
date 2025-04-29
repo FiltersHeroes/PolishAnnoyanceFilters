@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Mon, 28 Apr 2025, 17:39 UTC+02:00
-! Version: 2025.4.28.2
+! Last modified: Tue, 29 Apr 2025, 04:17 UTC+02:00
+! Version: 2025.4.29.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 28 kwi 2025, 17:39 UTC+02:00
+! Aktualizacja: wto, 29 kwi 2025, 04:17 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1159,7 +1159,6 @@ pepsieliot.com##.container:first-of-type > .row > .col-lg-3:nth-of-type(4)
 perfectfitness.pl###MailIndexForm
 perfekcyjnawdomu.pl##.footer > .container > .row > div.col-md-4:nth-of-type(2)
 perspektywy.pl##.col-md-4 > aside > div.moduletable:first-of-type > a[href*="/banner/1t6qegj5jb/click"]
-petner.com.pl###footer-container > div > section > div > div > div > div > div:nth-of-type(4)
 pewex.pl##.footerBanner:first-of-type
 phlov.com##.email-subscription-box
 photonrobot.com##.qodef-contact-form-7-widget
@@ -2152,7 +2151,6 @@ bezgluten.pl,creativehobby.pl##.iziToast-wrapper, .iziToast-overlay
 bialykruk.pl,swiato-podglad.pl###popup-background
 bielskakraina.pl,delikatesy.pl,godealla.pl,kruksdifferent.com,mpolska24.pl,selectshop.pl,wakacjezprocentem.pl##.overlay
 bigchina.pl,pkwieruszow.pl,rzeszow4u.pl,solidsecurity.pl,sportgdansk.pl###myModal
-bikesalon.pl,snowshop.pl,surfshop.pl##.bonus-overlay
 bilety.laczynaspilka.pl##.shadowbox-popup, .shadowbox_overlay
 biogo.pl,bodyhouse.pl,eltrox.pl,megascena.pl,militarialodz.pl,modini.pl,yalu.pl###exit--popup--container
 bioindygo.pl###popup-1
@@ -2799,6 +2797,7 @@ slodkiesny.pl##span[id][aria-hidden][style$="z-index: 99999;"]
 smaker.pl##.newWebsiteNotification
 smaker.pl##.popupLeaveWindowComponent
 smakowitychleb.pl###r-newsleeter-content, .bg-newsletter
+snowshop.pl,surfshop.pl##.bonus-overlay
 soczewki24.pl###salesmanagoPopupContainer, div[style*="opacity"]:empty
 softonic.pl###modal-download-now
 softonic.pl###modal-ei-avast-ei
@@ -3367,7 +3366,6 @@ bettingexpert.com,florini.pl##.slideInUp
 bezpiecznapodroz.org,jogapiekna.com,termyszaflary.com,witanet.net###go-top
 bibleserver.com##.bs-app__scroll-top-btn
 bibliotekarium.pl,halonet.pl,poettinger.at,rutkowscy.pl##.icon-angle-up
-bikesalon.pl,snowshop.pl,surfshop.pl##.js-go-up
 bip.nieborow.pl##.gotoTop
 bithub.pl##.st-site-scroll-top
 bitserwis.com.pl##.flaticon-home
@@ -3997,6 +3995,7 @@ sklepyinfo.pl##.direction-top.fixed-action-btn
 skrzynie.com.pl###wsa_button_up
 skutecznie.tv##.to_the_top
 smartpage.pl##.right_top_scroll
+snowshop.pl,surfshop.pl##.js-go-up
 soselectronic.pl###btn-top
 spolecznosc.allegro.pl##.li-common-scroll-to-wrapper
 stalowa.info##.to-top-arrow
@@ -5024,7 +5023,6 @@ screennetwork.pl##.button_info_box
 scyzoryki.net###widget_shop1
 seat.pl##div[id^="wb_drag_wrapper"]
 selly.pl,x-lander.com###kayako-messenger
-semcamp.university###witbee-call-page-container
 semcore.pl###LeadboosterContainer, .proactiveChat
 semhub.pl##.no-text.arcu-message-button
 semmelrock.pl###float_mail, #float_phone
