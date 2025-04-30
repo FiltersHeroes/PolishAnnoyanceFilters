@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Tue, 29 Apr 2025, 04:17 UTC+02:00
-! Version: 2025.4.29.0
+! Last modified: Wed, 30 Apr 2025, 18:48 UTC+02:00
+! Version: 2025.4.30.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 29 kwi 2025, 04:17 UTC+02:00
+! Aktualizacja: śro, 30 kwi 2025, 18:48 UTC+02:00
 !
 !
 !
@@ -126,6 +126,7 @@ aurum-optics.pl##a[href*="m.me/"]
 australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com/"])
 authority.com.pl##.cb24-messenger-widget
 authority.com.pl##div[style*="fixed"][style*="border-radius"]:not([class], [id]):empty
+auto-swiat.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me/"])
 autodoc.pl##.js-chat-buttons-container-genesys
 autohero.com##.root___o8kuv
 autokomis-berlin.pl##.ctc_s_2.ctc-analytics
