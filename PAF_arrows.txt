@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Tue, 29 Apr 2025, 10:57 UTC+02:00
-! Version: 2025.4.29.0
+! Last modified: Wed, 30 Apr 2025, 17:38 UTC+02:00
+! Version: 2025.4.30.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 29 kwi 2025, 10:57 UTC+02:00
+! Aktualizacja: śro, 30 kwi 2025, 17:38 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -60,7 +60,6 @@ agromer.pl##.page-top-button
 agrosimex.pl###pagetop
 agrosimex.pl##.vue-back-to-top
 agrosystems.pl##.footer-utilities-back
-agrotechniczny.pl,ecozoo.pl,lebko.pl,miodoland.pl,ortezka.pl,wyposazenie-sklepowe.pl,wyprawkowy.pl##.-back-to-top-visible
 airbuy.pl##.js-gotop
 airwick.pl###top-btn
 akardo.pl##.btn-scroll-up
@@ -985,6 +984,7 @@ ztedevices.com##.back-top
 ###wpfront-scroll-top-container:not(body, html, .wrapper):lang(pl)
 ###wt_scroll_top:not(body, html, .wrapper):lang(pl)
 ###yt-totop:not(body, html, .wrapper):lang(pl)
+##.-back-to-top-visible:lang(pl)
 ##.action-scroll-top:not(body, html, .wrapper):lang(pl)
 ##.arrow-to-top:not(body, html, .wrapper):lang(pl)
 ##.arrow-up:not(body, html, .wrapper):lang(pl)
@@ -1010,7 +1010,6 @@ ztedevices.com##.back-top
 ##.do_gory:not(body, html, .wrapper)
 ##.enigma_scrollup:not(body, html, .wrapper):lang(pl)
 ##.et_pb_scroll_top:not(body, html, .wrapper):lang(pl)
-##.fa-angle-up:not(body, html, .wrapper):lang(pl)
 ##.fixed-up:not(body, html, .wrapper):lang(pl)
 ##.footer-backtotop:not(body, html, .wrapper):lang(pl)
 ##.g1-back-to-top:not(body, html, .wrapper):lang(pl)
