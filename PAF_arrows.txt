@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Wed, 30 Apr 2025, 17:38 UTC+02:00
-! Version: 2025.4.30.0
+! Last modified: Thu, 01 May 2025, 17:38 UTC+02:00
+! Version: 2025.5.1.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 30 kwi 2025, 17:38 UTC+02:00
+! Aktualizacja: czw, 01 maj 2025, 17:38 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -70,6 +70,7 @@ aleleki.pl,media-press.tv###back_to_top
 aleo.com##p-scrolltop
 alergiapokarmowa.pl##.ct-totop
 aliexpress.com##.ui-fixed-panel-go-top
+aligator.net.pl##.newslet
 alko-garden.pl###jumptotop
 allegro.pl##button[title="Do góry"]
 allpaka.eu,asimexplus.com,eperfumy.pl,influencja.pl,serygoralskie.pl,siapre.pl,skirace.pl,vivosklep.pl###do_gory
@@ -170,6 +171,7 @@ brymorex.pl,sklep.enger.pl,tayamagroup.pl###top-button-ui
 bs.limanowa.pl##.block-arrow--small
 btcpolska.com##.show-top-button
 budujzdrewna.pl,cnc.info.pl,forum-bron.pl,zenox.pl##.scroll-btn
+bugasport.pl##.blocknewsletter
 buki.org.pl###__next > div > a[class^="styles_arrow_"]:first-child
 butysportowe.pl##.b-scrollTop
 c-and-a.com##.js-scroll
@@ -472,6 +474,7 @@ kosmetyczna-hedonistka.blogspot.com##.totop-arrow
 krainaoszczedzania.pl###finoScroll
 krakow.pl###footer-scroll-up
 krd.pl##.krd-footer-scroller
+krysiak.pl##.footer-newsletter-container
 kufer.poznajemyswiat.pl##.fa-arrow-up.ssttbutton-symbol
 kulinarnastronamocy.pl##.stick.stnsvn-btt
 kultura.krasnik.eu###skip_to
@@ -731,6 +734,7 @@ rodzice.pl##.rehub_scroll
 rol-mech.pl,wnetrzaplusogrody.pl###hs-back-top
 rolgut.pl,salonydenon.pl,sklepogrodowy.pl,vvilk.com##.tvbottom-to-top
 rossmann.pl##a.fixed[style]:not([href])
+rowerzysta.pl##.block_newsletter
 rozetka.pl##rz-top-scroll
 rybyakwariowe.eu##.c-go-top
 sadeczanin.info###page-scrollup
@@ -757,12 +761,15 @@ sip.lex.pl##.wk-back-to-top-button
 siriuspro.pl###sp-scroll-to-top-button
 skierniewice.istrefa.com##.circle.jq-elevator
 sklep-columbia.pl,trekkersport.com.pl##button[title="Back To Top"]
+sklep.agrofor.pl##.block_newsletter_new
 sklep.comarch.pl##.js-go-to-top.footer__btn--goToTop
 sklep.dafi.pl###btn_control_totop
+sklep.daisyzoologia.pl##.newsletter-box
 sklep.geers.pl##.j-scroll-top
 sklep.lemoniade.pl##.btn-up-page
 sklep.panasonic.pl##.btn-go-top
 sklepjubilerski.com##app-scroll-to-top
+skleprafa.com.pl###newsletter_form
 skleprolniczy.com##.scroll-up
 sklepyinfo.pl##.direction-top.fixed-action-btn
 skrzynie.com.pl###wsa_button_up
@@ -817,6 +824,7 @@ tim.pl##.btn-scroll
 tintadlaplastykow.pl###arrowScroll
 tipo.live##.tipo__home--back-to-top
 tme.eu##.o-arrow-up__wrapper
+tofivet.pl##.f-box-newsletter
 tor-konferencje.pl##.tk-goto-top
 toshiba.semicon-storage.com##.dt_pagetop
 tourde.pl###imPageToTop_img
@@ -839,6 +847,7 @@ uroda.in##.trigger
 valtra.pl##.sticky-footer__back-to-top
 vanpur.com.pl###scroll_arrow
 velux.pl###ReturnToTop
+vetamicus.pl###box__newsletter__growcommerce
 videotesty.pl##.go_up_v3
 vigantoletten.pl###banderole > .box-toggler > #box-toggler
 villeroy-boch.pl###btn--page_up
@@ -851,6 +860,7 @@ vulcan.edu.pl###b_gora
 vwfs.pl##.c-back-to-top
 wabisabi-store.jp##.tt-back-to-top
 wago.com##.scroll-hint
+warsztatpiekna.pl,zoona.pl##.newsletter
 wasserman.eu##.ws-elevator-btn
 wbh.wp.mil.pl##.fi-arrow-up
 websiteplanet.com###new-vendor-scrolltop-button
