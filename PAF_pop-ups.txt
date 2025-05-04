@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 04 May 2025, 18:41 UTC+02:00
-! Version: 2025.5.4.0
+! Last modified: Sun, 04 May 2025, 21:33 UTC+02:00
+! Version: 2025.5.4.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 04 maj 2025, 18:41 UTC+02:00
+! Aktualizacja: nie, 04 maj 2025, 21:33 UTC+02:00
 !
 !
 !
@@ -301,7 +301,7 @@ boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kocie
 bolix.pl,pushpushgo.com###ebook-popup
 bonprix.pl,dragonmask.pl,dziergaczkowo.pl,virtualo.pl,walizkazabawek.pl,webcamera.pl##body:not(.modal-open) .newsletter-modal, .modal-backdrop
 borcas.eu,cebit.pl,conet.pl,e-dewocjonalia.eu,hotelcenturia.pl,neopak.pl,nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl,woliniusz.pl##cc-banner-iframe
-born2be.pl,brw.pl,butysportowe.pl,cortland.pl,decathlon.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl,tvp.info##.snrs-modal-wrapper, .snrs-modal-content
+born2be.pl,brw.pl,butysportowe.pl,cortland.pl,crocs.pl,decathlon.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl,tvp.info##.snrs-modal-wrapper, .snrs-modal-content
 braclowiecka.pl##div[id^="lepopup-popup"]
 brandpro.pl###mc_embed_signup
 brandpro.pl##.fancybox-skin
@@ -323,6 +323,7 @@ byinsomnia.com,goshico.com,hitobuwie.pl,miyomakeup.com###esns_background_layer
 cafago.com##.freePointWrap
 calzado.waw.pl###x13popup-container
 calzado.waw.pl,giftshop24.pl###x13popup-cover
+carrefour.pl##.snrs-modal-content:has(a[href^="https://www.carrefour.pl/promocje/zakupy-bez-rejestracji"])
 carrefour.pl##.snrs-modal-wrapper:has(a[href^="https://www.carrefour.pl/promocje/zakupy-bez-rejestracji"])
 casedrop.eu##div[class^="bonus-popup"]:not([class*=" "], [class*="timer"])
 casu.pl,dji-ars.pl,drmax.pl###freshmail-main-wrapper, #freshmail_backdrop
