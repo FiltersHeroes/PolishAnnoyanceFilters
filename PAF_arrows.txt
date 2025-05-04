@@ -1,10 +1,10 @@
-[Adblock Plus 2.0]
+[Adblock Plus 3.13]
 ! Title: 🇵🇱 Polskie Filtry Elementów Irytujących - Strzałki
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 04 May 2025, 21:33 UTC+02:00
-! Version: 2025.5.4.0
+! Last modified: Sun, 04 May 2025, 22:28 UTC+02:00
+! Version: 2025.5.4.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 04 maj 2025, 21:33 UTC+02:00
+! Aktualizacja: nie, 04 maj 2025, 22:28 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -770,6 +770,7 @@ sklep.daisyzoologia.pl##.newsletter-box
 sklep.geers.pl##.j-scroll-top
 sklep.lemoniade.pl##.btn-up-page
 sklep.panasonic.pl##.btn-go-top
+sklep.party###toTop
 sklepjubilerski.com##app-scroll-to-top
 skleprafa.com.pl###newsletter_form
 skleprolniczy.com##.scroll-up
@@ -1077,7 +1078,6 @@ ztedevices.com##.back-top
 ##.totop:not(body, html, .wrapper):lang(pl)
 ##.trx_addons_scroll_to_top:not(body, html, .wrapper):lang(pl)
 ##.ui-to-top:not(body, html, .wrapper):lang(pl)
-##.up a.btn[href="#"]
 ##.vw-scroll-to-top:not(body, html, .wrapper):lang(pl)
 ##.vw_m520_topbar:not(body, html, .wrapper):lang(pl)
 ##.w-toplink:not(body, html, .wrapper):lang(pl)
@@ -1088,6 +1088,7 @@ ztedevices.com##.back-top
 ##button[onclick="topFunction()"]
 ##button[title="Go to top"]
 ##cwc-to-top-button:lang(pl)
+##div.up:has(> a.btn[href="#"]:only-child)
 ##scroll-up:lang(pl)
 ~deweloper-interes.pl,pl###back_to_top:not(body, html, .wrapper)
 ~douglas.pl,pl##.scroll-top:not(body, html, .wrapper)
