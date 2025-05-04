@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sat, 03 May 2025, 17:35 UTC+02:00
-! Version: 2025.5.3.0
+! Last modified: Sun, 04 May 2025, 21:33 UTC+02:00
+! Version: 2025.5.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 03 maj 2025, 17:35 UTC+02:00
+! Aktualizacja: nie, 04 maj 2025, 21:33 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -250,6 +250,7 @@ domdlaciebie.com.pl##.fix-scroll-top
 domenergo.com###to-to
 domowa.pizza##.smoothup
 domowe-wypieki.pl,kuchnia-domowa.pl##.sunfw-scrollup
+domusfari.pl,swiatekspresow.pl###back_up
 domzagadek.pl###scroll_strz
 dopek.info,zenbox.pl##.scroll-page
 doppelherz.pl##.link--scroll-to-top
@@ -518,6 +519,7 @@ lubliniec.starostwo.gov.pl##.przycisk_dogory2
 lukar.pl,prosportowy.pl###rb-back-top
 lurker.pl###scrollTopBtn
 lvbet.pl##.sb-scroll-top
+lycamobile.pl##button[class*="goToTop"]
 lysamowi.pl##.wishbone_backtotop
 m3system.pl##.ish-back_to_top
 m.digitalcamerapolska.pl###gtop
@@ -791,7 +793,6 @@ store.ubi.com##.scroll-top-button-wrapper
 stylem.pl##.v-btn.goToTop
 swatt.pl##.gmfbtop
 swiat-agd.com.pl###up, #go_up
-swiatekspresow.pl###back_up
 swiatksiazki.pl##.ScrollToTop
 swiatpodlog.com.pl,woprol.com.pl###scrolltotop
 swietawgorach.pl##.joinchat__button
@@ -933,8 +934,10 @@ ztedevices.com##.back-top
 ###backtoTop:not(body, html, .wrapper):lang(pl)
 ###backtotop:not(body, html, .wrapper):lang(pl)
 ###btn-go-to-bottom:not(body, html, .wrapper):lang(pl)
+###do-dolu
 ###do-gory
 ###doDolu
+###dodolu
 ###doGory
 ###dogory
 ###eltdf-back-to-top:not(body, html, .wrapper):lang(pl)
@@ -1074,6 +1077,7 @@ ztedevices.com##.back-top
 ##.totop:not(body, html, .wrapper):lang(pl)
 ##.trx_addons_scroll_to_top:not(body, html, .wrapper):lang(pl)
 ##.ui-to-top:not(body, html, .wrapper):lang(pl)
+##.up a.btn[href="#"]
 ##.vw-scroll-to-top:not(body, html, .wrapper):lang(pl)
 ##.vw_m520_topbar:not(body, html, .wrapper):lang(pl)
 ##.w-toplink:not(body, html, .wrapper):lang(pl)
