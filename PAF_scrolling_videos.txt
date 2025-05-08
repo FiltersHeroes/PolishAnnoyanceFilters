@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 04 May 2025, 22:28 UTC+02:00
-! Version: 2025.5.4.0
+! Last modified: Thu, 08 May 2025, 17:40 UTC+02:00
+! Version: 2025.5.8.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 04 maj 2025, 22:28 UTC+02:00
+! Aktualizacja: czw, 08 maj 2025, 17:40 UTC+02:00
 !
 !
 !
@@ -54,7 +54,7 @@ medianarodowe.com,sadeczanin.info,transfery.info##div.miniature.onnetworkplayerc
 medianarodowe.com,sadeczanin.info,transfery.info##div.onnetworkplayercontainer > div.miniplayer
 medonet.pl,onet.pl,~www.onet.pl##.active.player-float-wrap > .player-float-container
 medonet.pl,onet.pl,~www.onet.pl##div[class="mainVideo toFix fixedVideo"]
-naekranie.pl#?#body > div[class][style*="position: fixed"]:-abp-has(.yt-player, video)
+naekranie.pl##body > div[class][style*="position: fixed"]:has(.yt-player, video)
 niedziela.pl###featured-video-box[class*="sticky"]
 nowa.tv##.floating-video
 ortograf.pl##.vj-fixed
@@ -68,7 +68,7 @@ radio.katowice.pl##div[id^="sidebar"].fixed-player
 rodzicielskieinspiracje.pl##div[id^="rehub_sticky_on_scroll-"].scrollsticky.stickyscroll_widget
 softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
 telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvrep-live-box
-telewizjatvt.pl#?#div[id^="elementor-popup-modal-"]:-abp-has(iframe[src*="/player/"])
+telewizjatvt.pl##div[id^="elementor-popup-modal-"]:has(iframe[src*="/player/"])
 topagrar.pl,tygodnik-rolniczy.pl##.vast-player__thumbnail[style*="top:"]
 trojmiasto.pl##.vjs-trojmiasto-mini.video-js
 trojmiasto.pl,trojmiasto.tv##div[id^="video"].vjs-mini
