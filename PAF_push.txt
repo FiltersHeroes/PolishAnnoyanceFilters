@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sun, 04 May 2025, 22:28 UTC+02:00
-! Version: 2025.5.4.1
+! Last modified: Thu, 08 May 2025, 17:40 UTC+02:00
+! Version: 2025.5.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 04 maj 2025, 22:28 UTC+02:00
+! Aktualizacja: czw, 08 maj 2025, 17:40 UTC+02:00
 !
 !
 !
@@ -63,7 +63,7 @@ andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
 aurum-optics.pl,panwybierak.pl###yl__prompt, .yl__prompt
 autocentrum.pl##.web-push-box
-best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div:nth-last-of-type(-n+3):nth-last-child(-n+3) > div:first-child:-abp-has(div:-abp-contains(Zezwalaj na powiadomienia))
+best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div:nth-last-of-type(-n+3):nth-last-child(-n+3) > div:first-child:has(div:has-text(Zezwalaj na powiadomienia))
 bnpparibas.pl,eneba.com,estyl.pl,semahead.pl###ue_push_dialog
 boardpc.pl,forum.dobreprogramy.pl,forum.manjaro.pl##.alert-info.alert.consent_banner
 boop.pl###smart_push_smio_window
@@ -74,14 +74,14 @@ ceneo.pl###notifications-toast
 chillizet.pl,radiozet.pl,~www.radiozet.pl##.btn-notif
 codziennypoznan.pl,ipolska24.pl##.perfecty-push-dialog-box
 crocs.pl##.webpush-wrapper
-ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:-abp-has(span:-abp-contains(/^Powiadomienia$/))
+ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:has(span:has-text(/^Powiadomienia$/))
 dobredrzwi.pl,klasycznebuty.pl,nagaba.pl###yl__prompt-container, .yl__prompt-container
 eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-alert-container
 eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-banner
 folk24.pl###pushFooter
 gazetkonosz.pl##.floating-dialog
 homebook.pl###qgraphFakePromptContainer
-investmap.pl#?#main > div > div:-abp-has(> a[href*="opinie"] + button) + div:-abp-contains(obserwuj)
+investmap.pl#?#main > div > div:has(> a[href*="opinie"] + button) + div:has-text(obserwuj)
 kupbilecik.pl###btn-notification
 m.zapytaj.onet.pl,zapytaj.onet.pl##.notification-widget
 mbank.pl###push-message
