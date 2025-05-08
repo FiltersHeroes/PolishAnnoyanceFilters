@@ -11,6 +11,8 @@
 ###dodolu
 ###doGory
 ###dogory
+pl##.js-up.up
+~pl##.js-up.up:lang(pl)
 ###eltdf-back-to-top:not(body, html, .wrapper):lang(pl)
 ###footer-back-to-top:not(body, html, .wrapper):lang(pl)
 ###g1-back-to-top:not(body, html, .wrapper):lang(pl)
@@ -158,7 +160,7 @@
 ##button[onclick="topFunction()"]
 ##button[title="Go to top"]
 ##cwc-to-top-button:lang(pl)
-##div.up:has(> a.btn[href="#"]:only-child)
+##div.up:has(> a.btn[href="#"]:only-child):not(.js-up)
 ##scroll-up:lang(pl)
 ~deweloper-interes.pl,pl###back_to_top:not(body, html, .wrapper)
 ~douglas.pl,pl##.scroll-top:not(body, html, .wrapper)
