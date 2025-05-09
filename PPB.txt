@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Fri, 09 May 2025, 15:05 UTC+02:00
-! Version: 2025.5.9.0
+! Last modified: Fri, 09 May 2025, 18:46 UTC+02:00
+! Version: 2025.5.9.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 09 maj 2025, 15:05 UTC+02:00
+! Aktualizacja: pią, 09 maj 2025, 18:46 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -562,6 +562,7 @@ expondo.pl##.footer--newsletter-wrapper
 express.pl##.footerBanner_el-newsletter
 expresspaslek.pl,slowopodlasia.pl##footer > div > div:first-child > div > div > div:last-child
 eyeforfashion.pl,renee.pl##.newsletter__section
+ezebra.pl###idm_menu_newsletter, .idm_menu_newsletter
 fabrykazabawek.eu##.col-md-3.trzecia
 faceandlook.pl##.newsletter-right-block
 faceoffice.pl##div.col-md-12.col-sm-24:nth-of-type(2) > .row > div.col-md-12.col-sm-12:nth-of-type(2)
@@ -3769,6 +3770,7 @@ marbo-sport.pl##.upArrow
 marenaspa.pl###desktop-bottom-bar-arrow
 marfafashion.com,sklep.energylandia.pl,sklep.mpay.pl##.scroll-visible
 marketdino.pl##button.fixed:has(icon-arrow-up)
+marketdino.pl##button:has(> .icon-arrow-up)
 marketing.org.pl###nav_down, #nav_up
 marki.pl###linktop
 maszynydlafarmera.pl##.topshow
@@ -6230,8 +6232,7 @@ pzw.org.pl###body_google_play
 radiobonton.pl##.hidden-xs.offbox-position-right.radio-play.offbox-radio
 radiopogoda.pl##.gra-pobierz_aplikacje
 radiosochaczew.pl##.ready.is-fixed
-radiozet.pl##.react.poll.embed
-radiozet.pl##div[class*="_article_"] p ~ div[class*="poll"]
+radiozet.pl##.full-content__main__body > .quiz__article
 radomsko.pl###media > ul > li > .tooltipMedia
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(-n+2)
 rajbud.biz##.psb
