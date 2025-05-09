@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Thu, 08 May 2025, 17:40 UTC+02:00
-! Version: 2025.5.8.0
+! Last modified: Fri, 09 May 2025, 17:38 UTC+02:00
+! Version: 2025.5.9.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 08 maj 2025, 17:40 UTC+02:00
+! Aktualizacja: pią, 09 maj 2025, 17:38 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -930,12 +930,14 @@ ztedevices.com##.back-top
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
 ||back-to-top.appspot.*^$subdocument
 ###ast-scroll-top:not(body, html, .wrapper):lang(pl)
+###back-to-top:lang(pl)
 ###back-top:not(body, html, .wrapper):lang(pl)
 ###BackToTop:not(body, html, .wrapper):lang(pl)
 ###backToTop:not(body, html, .wrapper):lang(pl)
 ###backtoTop:not(body, html, .wrapper):lang(pl)
 ###backtotop:not(body, html, .wrapper):lang(pl)
 ###btn-go-to-bottom:not(body, html, .wrapper):lang(pl)
+###cb-to-top:not(body, html, .wrapper):lang(pl)
 ###do-dolu
 ###do-gory
 ###doDolu
@@ -947,6 +949,7 @@ ztedevices.com##.back-top
 ###g1-back-to-top:not(body, html, .wrapper):lang(pl)
 ###gantry-totop:not(body, html, .wrapper):lang(pl)
 ###go-to-top:not(body, html, .wrapper):lang(pl)
+###go-top:not(body, html, .wrapper):lang(pl)
 ###go_up:not(body, html, .wrapper):lang(pl)
 ###goTop:not(body, html, .wrapper):lang(pl)
 ###gotop:not(body, html, .wrapper):lang(pl)
@@ -959,17 +962,21 @@ ztedevices.com##.back-top
 ###js-scrollTop:not(body, html, .wrapper):lang(pl)
 ###jsn-gotoplink:not(body, html, .wrapper):lang(pl)
 ###link_przewin:not(body, html, .wrapper):lang(pl)
+###m7-go-top:not(body, html, .wrapper):lang(pl)
 ###mkdf-back-to-top:not(body, html, .wrapper):lang(pl)
 ###move-to-top:not(body, html, .wrapper):lang(pl)
 ###moveTop:not(body, html, .wrapper):lang(pl)
+###mt-scrollup:not(body, html, .wrapper):lang(pl)
 ###np-scrollup:not(body, html, .wrapper):lang(pl)
 ###pageUp:not(body, html, .wrapper):lang(pl)
 ###qodef-back-to-top:not(body, html, .wrapper):lang(pl)
 ###return-to-top:not(body, html, .wrapper):lang(pl)
 ###return-top:not(body, html, .wrapper):lang(pl)
 ###ruby-back-top:not(body, html, .wrapper):lang(pl)
+###s5_scrolltop_a:not(body, html, .wrapper):lang(pl)
 ###scroll-to-top:not(body, html, .wrapper):lang(pl)
 ###scroll-top-link:not(body, html, .wrapper):lang(pl)
+###scroll-top:not(body, html, .page, .wrapper):lang(pl)
 ###scroll-top:not(body, html, .wrapper):lang(pl)
 ###scroll-up:not(body, html, .wrapper):lang(pl)
 ###scroll:not(body, html, .wrapper):lang(pl)
@@ -992,6 +999,7 @@ ztedevices.com##.back-top
 ###top-link:not(body, html, .wrapper):lang(pl)
 ###topcontrol:not(body, html, .wrapper):lang(pl)
 ###topLink:not(body, html, .wrapper):lang(pl)
+###totop:not(body, html, .wrapper):lang(pl)
 ###totopicon:not(body, html, .wrapper):lang(pl)
 ###toTopNew:not(body, html, .wrapper):lang(pl)
 ###ts-back-to-top:not(body, html, .wrapper):lang(pl)
@@ -999,8 +1007,7 @@ ztedevices.com##.back-top
 ###uix_jumpToFixed:not(body, html, .wrapper):lang(pl)
 ###wpfront-scroll-top-container:not(body, html, .wrapper):lang(pl)
 ###wt_scroll_top:not(body, html, .wrapper):lang(pl)
-###yt-totop:not(body, html, .wrapper):lang(pl)
-##.-back-to-top-visible:lang(pl)
+###yt-totop:not(body, html, .wrapper):lang(pl
 ##.action-scroll-top:not(body, html, .wrapper):lang(pl)
 ##.arrow-to-top:not(body, html, .wrapper):lang(pl)
 ##.arrow-up:not(body, html, .wrapper):lang(pl)
@@ -1042,7 +1049,9 @@ ztedevices.com##.back-top
 ##.hestia-scroll-to-top:not(body, html, .wrapper):lang(pl)
 ##.js-back-to-top:not(body, html, .wrapper):lang(pl)
 ##.js-go-to:not(body, html, .wrapper):lang(pl)
+##.js-up.up:lang(pl)
 ##.jscroll-to-top:not(body, html, .wrapper):lang(pl)
+##.jump-to-top:not(body, html, .wrapper):lang(pl)
 ##.jupiterx-scroll-top:not(body, html, .wrapper):lang(pl)
 ##.kadence-scroll-to-top:not(body, html, .wrapper):lang(pl)
 ##.kleo-go-top:not(body, html, .wrapper):lang(pl)
@@ -1058,9 +1067,13 @@ ztedevices.com##.back-top
 ##.scroll-to-top:not(body, html, .wrapper):lang(pl)
 ##.scroll-top-button:not(body, html, .wrapper):lang(pl)
 ##.scroll-top-inner:not(body, html, .wrapper):lang(pl)
+##.scroll-top-wrapper:not(body, html, .wrapper):lang(pl)
 ##.scroll-top:not(body, html, .wrapper):lang(pl)
 ##.scroll_to_top:not(body, html, .wrapper):lang(pl)
+##.scroll_top:not(body, header, html, .wrapper):lang(pl)
 ##.scrollTo_top:not(body, html, .wrapper):lang(pl)
+##.scrollTop:not(body, header, html, .row, .wrapper):lang(pl)
+##.scrolltop:not(body, header, html, .row, .wrapper):lang(pl)
 ##.scrollTop:not(body, html, .wrapper):lang(pl)
 ##.scrolltop:not(body, html, .wrapper):lang(pl)
 ##.scrollToTop:not(body, html, .wrapper):lang(pl)
@@ -1070,6 +1083,7 @@ ztedevices.com##.back-top
 ##.sp-scroll-up:not(body, html, .wrapper):lang(pl)
 ##.td-scroll-up:not(body, html, .wrapper):lang(pl)
 ##.tm-totop-scroller:not(body, html, .wrapper):lang(pl)
+##.to-top-container:not(body, html, .wrapper):lang(pl)
 ##.to-top:not(body, html, .wrapper):lang(pl)
 ##.to_top:not(body, html, .wrapper):lang(pl)
 ##.to_top_btn:not(body, html, .wrapper):lang(pl)
@@ -1085,11 +1099,13 @@ ztedevices.com##.back-top
 ##.z-navigation-footer_backToTop:not(body, html, .wrapper):lang(pl)
 ##a#backTop:lang(pl)
 ##a.scroll-down:lang(pl)
+##a.scroll-up:lang(pl)
 ##button.scroll-down:lang(pl)
+##button.scroll-up:lang(pl)
 ##button[onclick="topFunction()"]
 ##button[title="Go to top"]
 ##cwc-to-top-button:lang(pl)
-##div.up:has(> a.btn[href="#"]:only-child)
+##div.up:has(> a.btn[href="#"]:only-child):not(.js-up)
 ##scroll-up:lang(pl)
 ~deweloper-interes.pl,pl###back_to_top:not(body, html, .wrapper)
 ~douglas.pl,pl##.scroll-top:not(body, html, .wrapper)
@@ -1100,28 +1116,12 @@ ztedevices.com##.back-top
 ~pl###back_to_top:lang(pl)
 ~pl###m7-go-top:not(body, html, .wrapper):lang(pl)
 ~pl###mt-scrollup:not(body, html, .wrapper):lang(pl)
+~pl##.js-up.up:lang(pl)
 ~pl##.scrollup:not(body, html, .wrapper):lang(pl)
 ~pl##a.scroll-up:lang(pl)
 ~pl##button.scroll-up:lang(pl)
-~pl,~studioatrium.pl###back-to-top:lang(pl)
 ~sklep.lobos.pl##.to-the-top:lang(pl)
 com,pl###profilki_uparrow:not(body, html, .wrapper)
-pl###cb-to-top:not(body, html, .wrapper)
-pl###go-top:not(body, html, .wrapper)
-pl###m7-go-top:not(body, html, .wrapper)
-pl###mt-scrollup:not(body, html, .wrapper)
-pl###s5_scrolltop_a:not(body, html, .wrapper)
-pl###scroll-top:not(body, html, .page, .wrapper)
-pl###to-top:not(body, html, .wrapper)
-pl###totop:not(body, html, .wrapper)
-pl##.jump-to-top:not(body, html, .wrapper)
-pl##.scroll-top-wrapper:not(body, html, .wrapper)
-pl##.scroll_top:not(body, header, html, .wrapper)
-pl##.scrollTop:not(body, header, html, .row, .wrapper)
-pl##.scrolltop:not(body, header, html, .row, .wrapper)
-pl##.to-top-container:not(body, html, .wrapper)
-pl##a.scroll-up
-pl##button.scroll-up
 !
 !
 ! Filtry specjalne
