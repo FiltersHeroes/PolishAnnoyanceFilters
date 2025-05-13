@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Fri, 09 May 2025, 21:33 UTC+02:00
-! Version: 2025.5.9.1
+! Last modified: Tue, 13 May 2025, 21:33 UTC+02:00
+! Version: 2025.5.13.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 09 maj 2025, 21:33 UTC+02:00
+! Aktualizacja: wto, 13 maj 2025, 21:33 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -248,6 +248,7 @@ disco-polo.info,meizupolska.pl##.toup
 dns.pl##footer + button[class=""]
 dobramine.com##.to_top_link
 docs.github.com##footer button[class*="scroll-to-top"]
+dodadeau.com###ast-scroll-top
 domdlaciebie.com.pl##.fix-scroll-top
 domenergo.com###to-to
 domowa.pizza##.smoothup
@@ -930,7 +931,7 @@ ztedevices.com##.back-top
 /wp-content/plugins/dynamic-to-top/js/dynamic.to.top.min.js
 /wp-content/plugins/scroll-back-to-top/assets/js/scroll-back-to-top.js
 ||back-to-top.appspot.*^$subdocument
-###ast-scroll-top:not(body, html, .wrapper):lang(pl)
+###ast-scroll-top:lang(pl)
 ###back-to-top:lang(pl)
 ###back-top:not(body, html, .wrapper):lang(pl)
 ###BackToTop:not(body, html, .wrapper):lang(pl)
@@ -1110,7 +1111,7 @@ ztedevices.com##.back-top
 ##scroll-up:lang(pl)
 ~deweloper-interes.pl,pl###back_to_top:not(body, html, .wrapper)
 ~douglas.pl,pl##.scroll-top:not(body, html, .wrapper)
-~ifirma.pl,pl##.dogory:not(body, html, .wrapper)
+~ifirma.pl,pl##.dogory:not(body, html)
 ~mediaexpert.pl,~mediamarkt.pl,pl##a.scroll-down
 ~mediaexpert.pl,~mediamarkt.pl,pl##button.scroll-down
 ~naukawpolsce.pl,pl###toTop:not(body, html, .wrapper)
@@ -1122,7 +1123,7 @@ ztedevices.com##.back-top
 ~pl##a.scroll-up:lang(pl)
 ~pl##button.scroll-up:lang(pl)
 ~sklep.lobos.pl##.to-the-top:lang(pl)
-com,pl###profilki_uparrow:not(body, html, .wrapper)
+com,pl###profilki_uparrow
 !
 !
 ! Filtry specjalne
