@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 11 May 2025, 18:45 UTC+02:00
-! Version: 2025.5.11.1
+! Last modified: Fri, 16 May 2025, 17:38 UTC+02:00
+! Version: 2025.5.16.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 maj 2025, 18:45 UTC+02:00
+! Aktualizacja: pią, 16 maj 2025, 17:38 UTC+02:00
 !
 !
 !
@@ -46,23 +46,7 @@
 ||widget.customer-alliance.com/reviews/js/standard/*$script,domain=excelsior.com.pl
 !@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe_sieciowe.txt
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
-###chaty-channel-facebook_messenger
-###facebookbc
-###whatsappbc
-##.btn-share.btn.btn-whatsapp
-##.pos-socials-widget .ei-whatsapp
-##a[aria-label="Udostępnij w WhatsApp"]
-##div[data-hook="social-sharing"] button[aria-label="Udostępnij na WhatsApp"]
-~pl###chaty-channel-facebook_messenger:lang(pl)
-~pl###fb-root:lang(pl)
-~pl###whatsapp-chat-footer:lang(pl)
-~pl##.c-messenger-share:lang(pl)
-~pl##.sm-panel .sm-messenger:lang(pl)
-~pl##.x13socialfixed_links a[href*="m.me/"]:lang(pl)
-~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
-~pl##.x13socialfixed_links a[href*="wa.me/"]:lang(pl)
 3giga.pl###contact-slider
-3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,siecobywatelska.pl,zhr.pl##.cresta-facebook-messenger-box
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
 123drukuj.pl###fc_widget
@@ -90,7 +74,6 @@ agromat.com.pl###callBack
 ahe.lodz.pl###chat-invite
 airgun.pl###popup__toggle
 al.to,x-kom.pl##div[class*="parts__ChatWrapper"]
-al.to,x-kom.pl##footer a[href*="whatsapp.com/"]
 alejabielany.pl##form > input.floatingWidget
 aleleki.pl##.social_contact
 aliexpress.com##.ui-fixed-panel-survey
@@ -115,7 +98,6 @@ aptekaolmed.pl,drogeriaolmed.pl##.box-info-ab
 apteline.pl,zryjzdrowocatering.com###chat-widget-container
 aquamelior.pl###slaask-button
 arbonne.com###V4LLPanel_TCContainer
-architekcibiznesu.pl##.massenger-log0-contact
 archon.pl###archon-chat, .mobile-item-phone, #messenger_button
 arenadesign.pl,bilety.termymaltanskie.com.pl,mtp.pl###mtp-chat
 arenadesign.pl,cavaliada.pl###ssb-btn-0 > p > a[href="#kontakt"]
@@ -124,14 +106,7 @@ artdelarte.pl###slideit
 artefakt.pl##[data-module="phone_popup"]
 arteodevelopment.pl###callback24widgetButton
 atakto.pl###lhc_status_widget_v2
-auchan.pl##.social-sharing-list:has(span[data-link="#share-whatsapp"])
 audiosklep.pl,boboland24.pl,delkom.pl,interlazienka.pl,korzystneit.pl,officeexpert.pl,shark.sklep.pl,sklep.wisan.pl###contactBox
-aurum-optics.pl##.button-messenger
-aurum-optics.pl##a[href*="m.me/"]
-australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com/"])
-authority.com.pl##.cb24-messenger-widget
-authority.com.pl##div[style*="fixed"][style*="border-radius"]:not([class], [id]):empty
-auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me/"])
 autodoc.pl##.js-chat-buttons-container-genesys
 autohero.com##.root___o8kuv
 autokomis-berlin.pl##.ctc_s_2.ctc-analytics
@@ -140,7 +115,6 @@ autoria.pl##.a-contact-bottom
 avans.pl##.b-reportFault
 axa.pl,biznes.gov.pl,cosinus.pl,kup.pl.canalplus.com,toyotabank.pl###dc-tab-button
 axadirect.pl###wirtualnyDoradcaPluginHome, #zadzwonPlugin
-axasecurity.com,beko.com,doctorgun.eu,drzwioknabramy.eu,e-security.com.pl,eska.pl,medicalclinic.pl,meskiegacie.pl,metalowiecsc.pl,optykwnecie.pl,peryskop.studio,plakatynasciany.pl,sita.pl,sprawnymarketing.pl,telefonek.pl,woopauto.com,zymetric.pl##.fb-customerchat, .fb_dialog_advanced
 badaniaprenatalne.pl##.contact-button-link
 balladine.com###widgetOpineo
 bankobranie.blogspot.com##.social > li:nth-child(n+6)
@@ -149,13 +123,8 @@ batteryguru.eu###xcmb
 batteryland.com##.tw-chat
 bdi.com.pl###contact_popup
 bechtle.com##.communication-box
-bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(4)
 bershka.com##chat
 bezpieczny.pl###call_phone
-biedronka.pl##.social-media a[href*="m.me/"]
-biedronka.pl##.social-media a[href*="wa.me/"]
-biedronka.pl##.widget-smartsection .footer-links ~ a[href*=".me/"]:is([href*="wa.me"], [href*="m.me"])
-bigbaddice.pl##.icon-social-whatsapp
 bike-parts-honda.pl###fleche_popin_contact
 bikeinn.com,dressinn.com,goalinn.com,kidinn.com,motardinn.com,outletinn.com,runnerinn.com,scubastore.com,smashinn.com,snowinn.com,swiminn.com,techinn.com,traininn.com,trekkinn.com,waveinn.com,xtremeinn.com###bim-ifr
 bilgorajska.pl##.pod_feedback
@@ -181,17 +150,14 @@ brand.ceo,jubilat.net.pl,mediariver.pl,tipmedia.pl,walizkazabawek.pl###ue_widget
 brandvital.eu,ciagutek.pl,twojdent.pl###callnowbutton
 brief.pl##.fab-desktop
 brw.pl##.brw_opineo.icon-menu
-brykizameryki.pl,dyskretne-opinie.pl##.elfsight-widget-facebook-chat
 bssztum.pl###widget_social2
 budus-developer.pl##.footer-floating-button
 bulwaryksiazece.pl##.ask-form
-busy.info.pl###contact-user-messenger-button
 buy-it.pl###crisp-chatbox
 cadenas.de##.notification_bar_content > .item.contact
 cadsoft.pl##.arrow-seeMe
 cafepads.pl###aa-supportallinone-wrapper
 canon.pl##.feedback-btn
-capcut.com##a[href*="whatsapp.com/send?text="]
 carq.pl##div[id^="qc-quic-widget-"]
 carrefour.pl,czasnaherbate.net,doz.pl,wroclaw.pl##div[class*="kodabots-promo"], div[class*="kodabots-widget"]
 caseczesci.pl##[href="https://www.caseczesci.pl/my-account/"]
@@ -206,14 +172,10 @@ ccm.pl###pierwsza_ikona
 cdp.pl###customTrustbadge
 cebit.pl,guzik.konin.pl##.fab
 ceneo.pl###recent-activity-toast
-centermed.pl,winotoskanii.pl##div[id^="gb-widget"][style*="position"][style*="fixed"]
 centrumelektroniki.pl,technikarolna.pl##.b24-widget-button-visible
 centrumpapieru.pl##.sb-chat-btn
 cersanit.com.pl,darnatury.pl,eforia.pl,euromobil.com.pl,euromotor.pl,japanmotors.pl,koreamotors.pl,mymeest.pl,opoczno.eu,pgd.pl##.FTChat_window, .FTChat_bar
-change.shop.pl,experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
-choiceqr.com##li.footer__contact-links-item:has(a[href*="."]:is([href*="facebook.com/"], [href*="t.me/"]))
 choinkowo.pl,olini.pl,wearethecoffee.com###appReviewsWidgetWrapper
-chromewebstore.google.com##button[aria-label^="Udostępnij"][aria-label*="WhatsApp"]
 cinema3d.pl###popupBoxInvitation
 cinkciarz.pl,eurosender.com,extradom.pl,olini.pl###hbl-live-chat-wrapper
 citycar.com.pl,ford-krosno.pl,ford-lublin.pl,ford.bemo-motors.pl,ford.biacomex.pl,ford.golebiewski.com.pl,ursyncar.pl###gw_signpost
@@ -240,7 +202,6 @@ czescirolnicze.net##.drift-chat-open
 czytio.pl###qcf-btn
 darymex.pl##.edrone-chat-position
 darymex.pl,krukam.pl,sneakerpeeker.pl###edrone--main--chat--container
-dayspashe.pl##.whatsappBlock
 dbcenter.pl,zizako.pl###widget_shop3
 ddd.com.pl###meeting
 debowewzgorze.eu,diamentustron.pl,sedna.pl,szarotka.eu,warsawdowntown.pl##iframe[name="ca-review-widget"]
@@ -271,7 +232,6 @@ dopesnow.com##.intercom-button
 dormeo.pl,topshop.pl###slider_k2c
 dressinn.com##.chat_icono
 drhtv.com.pl###rootChatbot
-drzwi-cal.pl##.facebook-messenger-avatar
 duckduckgo.com##.js-feedback-btn-wrap
 dulux.pl###as-wc-id
 dvbsklep.pl##gg-widget
@@ -280,11 +240,9 @@ e-dewocjonalia.eu,e-swiece.pl###smartsupp-widget-container
 e-dym.pl###open_ochat_conversion
 e-hurtowo.eu,ogrodzenia24.eu###TelefonIkona
 e-irwin.pl##.callMe
-e-kolo.pl##a[title*="lij whatsup"][href*="web.whatsapp.com/send?text="]
 e-kwiaty.pl###ecatcher.ecatcher
 e-medest.pl,gromar.eu,netia.pl##.contact-widget
 e-prawnik.pl##.o-window.windowTop
-e-pyrzyce.pl,onet.pl,plejada.pl##.whatsapp
 e-sano.pl###report_error_box_button
 e-urzad.grodzisk.pl##.message
 e-vasco.pl##.contact-box-slider
@@ -311,13 +269,10 @@ energylandia.pl##.floating-facebook-button
 enfamil.pl##.float-chat
 eobuwie.com.pl###open-chat
 epodreczniki.pl##.send-suggestion-btn
-eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,vibefm.pl,voxfm.pl##.open-messenger
 eskk.pl##.ckontakt
 etoto.pl###sbChatMinimizedIdle
 eurobank.pl##.reviews
 euroelectronics.pl,kompan.pl,lanesta.eu##.b24-widget-button-wrapper
-eurosport.tvn24.pl##div[data-testid="share-icons"] > div[class*="title"] ~ div > span[data-social="whatsapp" i]
-eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div button[aria-label="whatsapp"]
 eurotargetshow.pl##.chatContainer
 eventy-online.pl###phone-tag
 ewakacje.pl##.classNotesList_button
@@ -346,12 +301,9 @@ flowerstory.pl###box_wysuwany
 fly.pl##.btn-sticky-feedback
 fm.tuba.pl###feed
 fmmobile.pl##.c-btn_suggestion
-followrap.com###wh-widget-send-button
 fonelab.com###share-list ul li.gmail
-fonelab.com###share-list ul li.whatsapp
 foodex24.pl##.ask-consultant
 foto.auchan.pl##.sidebar-link[href="http://www.foto.auchan.pl/obsluga-klienta.html"]
-foxstrategy.pl###fbMsg
 fsmm.pl##body > .contactform
 fundacjakibica.pl###contact_rozwin
 galskor.com###yotpo_testimonials_btn
@@ -370,7 +322,6 @@ gkstychy.info###error_send
 glosbe.com##app-feedback-button
 go-market.pl###contact-info, #phone-info
 google.com,google.pl##.gws-flights__feedback
-google.com,google.pl##a[aria-label="Udostępnij w WhatsApp"]
 gorakalwaria.net##nav > ul > li > a[href="sygnal.html"], .footer-line > li:first-of-type > a[href="sygnal.html"]
 goral.info.pl##.btn.contact-button
 gothaer.pl##.callClickBar
@@ -378,7 +329,6 @@ gplshop.pl###snapifyHidden
 grafcraft.pl###wpcs_tab_745
 graff.pl###rocketchat-iframe
 grafiqa.pl,puch-kotlowski.pl,treningkrakow.pl##.side-tab-widget > a[href="kontakt.html"]
-grechmoto.pl##.jfab_main_btn
 greenhousedevelopment.pl,sew-eurodrive.pl,super-soco.pl##.contact
 groupon.pl,row.hyperx.com##.bcFloat
 grupazero.pl##.contact-btn
@@ -409,11 +359,9 @@ informatyk-24.com##.sb-chat
 inglot.pl##.tagove-livechat-widget
 instalaton.pl##.extraBoxMail
 instalhurt.sklep.pl###widget_shop5
-instytutcyber.pl,shootingcracow.com###qlwapp.qlwapp
 inter-kop.pl##.phone
 interankiety.pl,simplyyourself.pl###beacon-container
 intercars.pl##.btn-chat
-interviewme.pl##.social-media__item[title="Share on Whatsapp"]
 interwencja.polsatnews.pl##.icon-mail.platform__link
 intimissimi.com##.js-bubble-open.botton-bubble
 investkomfort.pl###videocall-trigger
@@ -424,19 +372,13 @@ ismserwis.pl###awesome-live-chat
 isystemy.pl##.chat-client-div-minimized
 ith.eu##.proactiveChat
 itlab.pl##.id-14.side-tab-widget
-itlublin.pl##.social-whatsapp
 jakwyjsczdlugow.pl##.btn-info
 jaw.com.pl###qcf-btn, #qcf-phone
-jbzdy.com.pl,jbzdy.pl##.btn-send-messenger, .fb-like
-jomfruland.net##.li-whatsapp
 jsystems.pl##.metka
 juwentus.pl##[id="--lc-init-container"]
 kajakom.pl###help
-kaktus24.pl###messenger_chat
-kamaciuch.pl###bonwhatsappchat
 kamaciuch.pl###btn-boncall-wrapper-bottom
 karmi.pl##.scrolled.homecontact
-kaufland.pl##.rd-footer-social-media__channels > a.rd-footer-social-media__anchor--whatsapp
 kawaly.tja.pl,tapeciarnia.pl###div_okienko_shoutbox_schowane
 kind.com##.AP_mod--button-symbol
 king-poligrafia.pl###face-slider
@@ -451,7 +393,6 @@ komputerswiat.pl##iframe[src^="https://cdn.brandmetrics.com/"][style*="fixed"]
 komputronik.pl##a[href*="/kontakt"] + button[title="Czat"]
 komputronik.pl##a[title="Oceń stronę"]
 komputronik.pl##aside button:has(img[alt="chat"])
-komputronik.pl##div[data-name="shareLinks"] div:has(.i-whatsapp)
 konicaminolta.info.pl##.kontakt-slide
 kontakty.info.pl,poczta-polska.info.pl,telefon.info.pl###zadzwon-div
 kontri.pl###widget_opineo
@@ -476,12 +417,9 @@ lenovo.com,~www.lenovo.com###confirmit-feedback
 lento.pl##.btn-suggest
 libertex.com###sherlockWidget
 lidl.pl##.feedback-flyout__button-box
-lidl.pl##button[aria-label="socialMediaBtn"][data-url*="m.me"]
-lidl.pl##span[id^="regionSocialMedia-"].label
 lighting.philips.pl##aside[class$="support-contact-details"]
 lightingcenter.pl,mniammniam.com,sklephonda.pl###o-widget-lws
 lightonline.pl###fixedBtn > .savBtn
-limpol.com##.messengerchat
 lincoln.edu.pl##.s_kontakt
 link4.pl##.stuck
 linux-magazine.pl###floater-tel
@@ -508,7 +446,6 @@ masterleasing.pl##.callus
 masterproject.pl##.trigger_popup_fricc
 matkakosciola.pl##.js-bottom-corner-btns.bottom-corner-btns
 meblosfera.pl##.wp-side-menu-item:first-of-type
-mebloteka.eu###Facebook_Messenger
 meczelive.pl,meczelive.tv,meczlive.pl###task
 mediaexpert.pl,ucando.pl##.call-us
 medonet.pl##.medonet__healthcare_content_animation
@@ -523,7 +460,6 @@ mobidziennik.pl###floating-contact-button
 mobilelanguage.pl###mail-right
 modelerolnicze.pl###fb-customer-chat
 modivo.pl##.live-chat-button
-mojanorwegia.pl##.msg
 mojataxi24.pl##h4#phone:first-of-type > .wiszacy
 mojbank.pl##.uk-grid.uk-flex-middle.uk-grid-row-small.uk-grid-column-collapse.uk-child-width-expand
 moje.pzu.pl##.pak-footer__call-container
@@ -533,8 +469,6 @@ monedo.pl###satellite
 monikasmulewicz.pl##.bhr-notification-center
 morele.net##.why-us-widget
 motocombo.pl,tylkostylowe.pl###widget_shop2
-motoledy.pl##.fb-open
-motomaszyny.pl##.footer > div:nth-child(6) > div:nth-child(n+3)
 multilampy.pl##.ceneo
 multimed.pl###call-me
 multinorfinans.no##.mod-contact-widget
@@ -550,7 +484,6 @@ narzedzia.pl###chatToggle
 nasz-gabinet.pl##.icon-phone
 naszamlawa.pl##.kontakt-link
 niebieski.net##.slidebar, #livesite_engage_button
-niemirka.com##.messenger-contact-container
 nj24.pl##.jduty-container
 nn.pl##.btn-opaque.floating-button-wrapper
 nordglass.pl###altar-chat-div-container, #altar-eye-catcher-div-container
@@ -562,22 +495,16 @@ nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl###cc-button-iframe, #c
 ntfy.pl###ntfy-zendesk, #ntfy-callpage
 nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
-okazik.pl###btn-message
 oknarolety.com##.attachment-mobile-bottom-right
 olimpstore.pl##.chat-widget
 omeda.pl##.boxRight:not(.fb)
-onet.pl,plejada.pl##span[data-gtm*="-whatsapp"]
-onet.pl,plejada.pl##span[data-gtm*="messengerShare"]
-onet.pl,radioplus.pl,radiosupernova.pl,rivieraparkmarvipol.pl,senatkomorki.pl,ss24.pl,stopcafe.pl,viva.pl,wp.pl##.messenger
 operon.pl##.contact-trigger
 opoka.tv###pwebcontact3_toggler
 oponeo.pl##.contactOnline
 oponex.eu##.home-chat
 optitaxi.pl###uptocall-mini
-optykwnecie.pl##.whatsappchat-anchor
 oracle.com##.ochat_slideout, .cw21help
 orange.pl#@##OPLWCI
-oszczedzarka.co.uk##.textwidget > p > img[src="/img/ico/skype.png"]
 outside.com.pl##.bonfire-slideout-button
 ox.pl##.contact-with-office
 pancernik.eu##.arcu-message-button
@@ -592,29 +519,12 @@ pbkm.pl##.side-bar__item--phone
 pccentre.pl###zak_error
 pcprojekt.pl##.knowledgebase-slide-btn, .whyus-tab
 pep.pl##.quick-contact
-pepper.pl##button[data-t^="shareOn"][data-t*="Whatsapp"], button[data-t^="shareOn"][data-t*="Messenger"]
 perfectblue.pl,twojcel.to###message-purchased
-perfekcyjnawdomu.pl##.joinchat
 philipsagd.pl###fixed-contact
 phox.pl###chat.chat
 picodi.com###oneSignalBell, #onesignal-bell-container
-pikio.pl###chatBot
 pityver.pl###widget.tada.widget
 pkobp.pl###chat-prod-widget
-pl###fb-root
-pl###whatsapp-chat-footer
-pl###wwwa.wwwa--widget.wwwa
-pl##.c-messenger-share
-pl##.sm-panel .sm-messenger
-pl##.socializer-messenger.socializer-icon
-pl##.socializer-whatsapp.socializer-icon
-pl##.whats-float
-pl##.x13socialfixed_links a[href*="m.me/"]
-pl##.x13socialfixed_links a[href*="skype:"]
-pl##.x13socialfixed_links a[href*="wa.me/"]
-pl##a[href^="fb-messenger://share/"]
-pl##a[href^="whatsapp://send"]
-pl.aleteia.org##a[aria-label="Whatsapp share"]
 pl.farnell.com##.live-chat
 pl.malwarebytes.com###cta-feedback-flyout-en
 pl.pons.com###hj-feedback
@@ -623,7 +533,6 @@ pl.tripadvisor.com#?#body > div[aria-live="polite"]:has(span:has-text(Opowiedz n
 planeta-budowlana.pl##.messenger_toggle
 plushbezlimitu.pl##.default-layout > .hydrated
 pneumat.com.pl##.footer__top-wrapper
-poczta-polska.info.pl##.social-links a.bxl-skype
 pocztowy.pl##.goto-chat
 pokato.pl##.zoho-help-btn
 polanki.pl##.PamphletWidget
@@ -633,10 +542,6 @@ polkurier.pl##.pk-chat-container
 polnord.pl###contactForm
 poloniawroclaw.pl##body > iframe:first-of-type
 polsatbox.pl##.chat_display
-polski-supermarket.de##.whatsapp-chat
-polskiled.com.pl##.joinus > a[href*="wa.me/"]
-pomagam.pl###share-popup-messenger-btn
-pomagam.pl###share-popup-wa-btn
 pomagamy-wszyscy.pl,um-swiecie.pl###formPopupHandler
 pomoc.bluemedia.pl##.icon_czat.ribbon
 poradnikprzedsiebiorcy.pl##.visible.text-right.widget-guide-online
@@ -671,7 +576,6 @@ ratujlaptopa.pl##.fbcha
 recepta.pl##.help-widget
 redosystem.com.pl###customer-chat-iframe
 rena.pl###contactFixed
-retromedia.pl###lite-fb-chat
 rgbautomatyka.pl###help-box
 roseville.pl###banner_contact
 rower-express.pl##.ds-fixed-contact-pulsation
@@ -679,7 +583,6 @@ rowinskabusinesscoaching.com##.kleo-quick-contact-wrapper
 rsrh-radom.pl##.skype
 rum-lux.pl###gg
 s360.com.pl##footer ~ a#openModal.button
-sadeczanin.info##.ant-btn[href*="api.whatsapp.com/send?text"]
 salesintelligence.pl##.popmake-overlay.pum-overlay.pum[data-popmake*="-zwiekszyc-"]
 salesmanago.pl###sm-bot
 salomon.com##.chatbot-box
@@ -701,7 +604,6 @@ semhub.pl##.no-text.arcu-message-button
 semmelrock.pl###float_mail, #float_phone
 sempai.pl##.sempai_contact_widget
 semtec.pl##.sticky-button, .sticky-button ~ .sticky-tooltip
-senatkomorki.pl##.whatsup
 sendgb.com##.sendnow
 senetic.pl##.livechat-space
 seohost.pl##.circleContactButtonWrap
@@ -710,6 +612,7 @@ sewel.pl###tws_i_1
 sferis.pl##.help__title
 shopalike.pl###feedback-btn
 showroom.pl###_elev_io
+siecobywatelska.pl##.cresta-facebook-messenger-box
 sip.lex.pl###fixed-sugester
 sklep-agrohandel.pl##.contact_email
 sklep-muzyczny.com.pl###widget_shop9
@@ -735,17 +638,15 @@ specshop.pl###edge-slide-box
 sportofino.com##.fake-thulium-chat
 sprzedajemy.pl###openUserSuggestionWindowBtn
 sprzet-poz.pl###widget.box
+ss24.pl##.messenger
 starachowice.eu##.feedback-text
 start4ktv.com##.chaty-cta-button
-start4ktv.com##.Whatsapp-channel-link
 starter.net.pl##.mk-quick-contact-link
 starysacz.info##.fb-livechat
-stella.com.pl##.contact__buttonFb
 stradivarius.com##.need-help-container
 strefawystawcy.pl##.contact-button, .contact-message
 strimi.pl##.bugs
 studiofabryka.pl##.callme
-sugarcubes.pl###phone-block-module
 sumiennyksiegowy.pl##.kontakt-vert-button
 support-pl.panasonic.eu###noj-chat-inlay.noj-chat-inlay
 support.forpsi.pl###chattab
@@ -763,31 +664,24 @@ targimodypoznan.pl###ssb-btn-0, .chatFab
 teamviewer.com##.userlike
 teb.pl##.fab-contact.fab
 tefal24.pl###widget-button
-tekstowo.pl##.btn-messenger
 teleaudio.pl##.pulse
 telekarma.pl###flyHelp
 telepolis.pl##.daj-cynk
 telmor.pl##.contact-float-wrapper
 tesa.com##.js-open-contact.icon-mail
 the-first.pl###side_social_icons > ul > li:nth-of-type(2)
-thenewlook.pl##.facebook-chat
 tiktok.com##a[href="/feedback?lang=pl"]
 tim.pl##[data-toolkit="toolkit-page-bugs"]
-tipply.pl##.fb-toggle
 tja.pl###div_wysuwany_opinia
 tme.eu##.c-livechat__widget
 totalcasino.pl###chatContainer
 tourist.pl###sc2_all_container
 trans.info##.wall-add-news
 travelplanet.pl##.open--feedback--popup
-trec.pl##li > a[href="https://www.facebook.com/messages/t/sklepTrecPl"]
 trena.pl##.lc_chatbox
 truckonline.pl,zbitaszybka.pl##.tcc-widget
-tunelefoliowe.eu##.my-float.fa-whatsapp
 tunelefoliowe.eu##a[href^="tel:"].float
 tvokazje.pl###phone-webcallback
-tvs.pl##.messenger-share-btn
-tvs.pl##.viber-share-btn
 twojekwiaty.pl###motion-chat-iframe-tab
 twojemeble.pl###reve-chat-container-div
 ukrainashop.com###oiOpinionWidget
@@ -797,7 +691,6 @@ union-investment.pl###woa-widget
 unisport.pl###kindly-chat-api
 uzbira.pl###reviewsWidgetButton
 valtra.pl##.floating-cta
-veki.es##.whats-float:lang(pl)
 velux.pl##.LPMcontainer
 vidok.com##.box-special-contact-icon
 viessmann.pl##.callmeweb-button-container
@@ -807,16 +700,10 @@ virginmobile.pl###crazycall-click-to-call-container
 virtualmedia.pl###formularz
 virustotal.com##vt-ui-contact-fab
 vitay.pl###serviceRatingBox
-vitopolska.com##a.c-fixed-buttons__button:first-of-type
 vitopolska.com##a.c-fixed-buttons__button:nth-of-type(2)
 vivus.pl###chatbot-widget
 vox.pl##.livechat_button
-vox.pl##.Whatsapp
-voxfm.pl,www.eska.pl##.messenger #messenger
-voxfm.pl,www.eska.pl##.messenger::after
 wakacje.pl###rightTabs > .rightSpeech
-wakacyjnipiraci.pl##.widget-whatsapp__broadcast
-wakacyjnipiraci.pl##a[href*="wakacyjnipiraci.pl/pages/whatsapp"]
 westhill.pl##.wh-cta
 widokimokotow.pl###js-omp-trigger
 wielton.com.pl##.fast-contact-widget
@@ -829,9 +716,6 @@ wolnekonopie.org##.kleo-quick-contact-link
 wseit.edu.pl###btn-tel
 wspieram.to###staff-chat-button
 www.bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(3)
-www.google.com,www.google.pl##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
-www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
-www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^WhatsApp$/)
 www.ibm.com###contact-module
 www.ideafairplay.pl###userlike-tab
 www.microsoft.com##.feedback-dialog-opener
@@ -851,11 +735,9 @@ zabiegidavinci.pl##.contactwidget
 zaczytaj.pl##.box-contact
 zalando.pl##button[aria-label="Fashion Assistant"], div[aria-label="Fashion Assistant"]
 zamg.klodzko.pl##.side-tab-widget > [href="kontakt.html"]
-zdrowazupa.pl##.so-fb-message
 zondacrypto.com###chat-btn.livechat-button
 zoo24.sklep.pl##.crisp-client
 zooart.com.pl###shower_desc.fast_desc
-zooart.com.pl##.fbs-svg-messenger
 zrzutka.pl##.uv-bottom-right
 !@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
 !
