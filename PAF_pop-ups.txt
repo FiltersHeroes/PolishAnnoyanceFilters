@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 27 May 2025, 15:01 UTC+02:00
-! Version: 2025.5.27.0
+! Last modified: Thu, 29 May 2025, 15:07 UTC+02:00
+! Version: 2025.5.29.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 27 maj 2025, 15:01 UTC+02:00
+! Aktualizacja: czw, 29 maj 2025, 15:07 UTC+02:00
 !
 !
 !
@@ -299,6 +299,7 @@ blueskypolska.pl###tws_i_0.mobile_toplayer
 bodyland.pl,hairstore.pl###newsletter-lightbox-holder
 boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,portalwloclawek.pl,radiobonton.pl,regatv.pl,rolnik.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,wagner-polska.com.pl##.toplayer
 bolix.pl,pushpushgo.com###ebook-popup
+bonprix.pl,dragonmask.pl,dziergaczkowo.pl,virtualo.pl,walizkazabawek.pl,webcamera.pl##body:not(.modal-open) .newsletter-modal, .modal-backdrop
 borcas.eu,cebit.pl,conet.pl,e-dewocjonalia.eu,hotelcenturia.pl,neopak.pl,nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl,woliniusz.pl##cc-banner-iframe
 born2be.pl,brw.pl,butysportowe.pl,cortland.pl,crocs.pl,decathlon.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl,tvp.info##.snrs-modal-wrapper, .snrs-modal-content
 braclowiecka.pl##div[id^="lepopup-popup"]
@@ -427,7 +428,6 @@ e-kidsplanet.com##.banner, .banner-curtain
 e-kwiaty.pl###exitpopup-newsletter
 e-podlogi24.pl##div[id$="czater"] > div[id][class$="CzaterSheet"]
 e-podlogidrzwi.pl,szyszybkikoszyk.pl###infoPage
-e-sas.pl##.in.fade.modal
 e-skladnica.pl,skarbyroztocza.com###popup-sc1-exit
 e-spar.com.pl###modal-welcome
 e-spar.com.pl###modal-welcome[style] ~ .modal-backdrop
@@ -832,6 +832,7 @@ polskieradio.pl,polskieradio24.pl##.app-banner
 polskieradio.pl,polskieradio24.pl##.showBanner.tempBanner
 polskimarket.nl###rc_window_squeeze, #Overlay
 poltalento.pl##.module_popup
+pomady.pl##.newsletter-modal, .modal-backdrop
 pomiar24.pl###przyciemnianie, #div_news-popup
 poprostupycha.com.pl##.ulp-overlay, .ulp-window[data-title="Newsletter"]
 portel.pl###closeTL
