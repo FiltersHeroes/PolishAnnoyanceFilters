@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 30 May 2025, 17:39 UTC+02:00
-! Version: 2025.5.30.0
+! Last modified: Sat, 31 May 2025, 00:21 UTC+02:00
+! Version: 2025.5.31.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 30 maj 2025, 17:39 UTC+02:00
+! Aktualizacja: sob, 31 maj 2025, 00:21 UTC+02:00
 !
 !
 !
@@ -118,7 +118,6 @@ airly.eu##.map-container ~ div > .widget-block
 akademiaap.com###sidebar
 akson.pl,di-polska.pl###medical-comp-info-bar
 aktualnyodpis.pl###carq-iframe
-al.to,x-kom.pl##.mobile-app-alert:has(.app-details)
 alablaboratoria.pl###small-pop-up
 alawar.pl##.b-skin__push #actionBannerContainer.b-action-banner__container
 albo24.pl##.source-woocommerce.nx-notification.notification-item
@@ -1313,8 +1312,6 @@ polsatnews.pl##.series__item { remove: true }
 ##.callback-widget:lang(pl)
 ##.ceneo-widget
 ##.circle-cursor:lang(pl)
-##.csocial-link[href*="olx.pl"]:lang(pl)
-##.csocial-link[href*="otomoto.pl"]:lang(pl)
 ##.custom-social-proof:lang(pl)
 ##.ekomi-widget-container:lang(pl)
 ##.floating-yt-player:lang(pl)
@@ -1329,11 +1326,7 @@ polsatnews.pl##.series__item { remove: true }
 ##.opinions_badge:lang(pl)
 ##.polecamyBox
 ##.poza-szkieletem
-##.ratingBadgeWrapper:lang(pl)
 ##.reklama-box
-##.rssocial-icons > li > a[href*="google.com/maps"]:lang(pl)
-##.rssocial-icons > li > a[href*="google.pl/maps"]:lang(pl)
-##.rssocial-icons > li > a[href*="maps.google."]:lang(pl)
 ##.sales_pop__box:lang(pl)
 ##.side_widget:lang(pl)
 ##.slideout-widget:lang(pl)
@@ -1345,14 +1338,9 @@ polsatnews.pl##.series__item { remove: true }
 ##.tm-lemur-position:lang(pl)
 ##.tm-muskrat2:lang(pl)
 ##.widget-allegro
-##.widget_times_social_widget a[href*="podcasts.google"]:lang(pl)
-##.x13socialfixed_links a[href*="allegro.pl/"]:lang(pl)
 ##.xloteria-zawsze
 ##.ZakladkaNewsletterOkno
 ##[class="cursor"]:empty:lang(pl)
-##div[id^="___ratingbadge_"]:lang(pl)
-##iframe[src^="https://esa.nask.pl/widget/"]:lang(pl)
-##ptwp-infinite:lang(pl)
 ~pl###rr_side_widget.__service_rr.pl_PL
 ~pl##.csocial-link[href*="olx.pl"]:lang(pl)
 ~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
@@ -1368,6 +1356,17 @@ polsatnews.pl##.series__item { remove: true }
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 com,eu,info,pl###content > div#ipl-loader
 com,eu,info,pl###content > div#primary span.loaded.ipl
+pl##.csocial-link[href*="olx.pl"]
+pl##.csocial-link[href*="otomoto.pl"]
+pl##.ratingBadgeWrapper
+pl##.rssocial-icons > li > a[href*="google.com/maps"]
+pl##.rssocial-icons > li > a[href*="google.pl/maps"]
+pl##.rssocial-icons > li > a[href*="maps.google."]
+pl##.widget_times_social_widget a[href*="podcasts.google"]
+pl##.x13socialfixed_links a[href*="allegro.pl/"]
+pl##div[id^="___ratingbadge_"]
+pl##iframe[src^="https://esa.nask.pl/widget/"]
+pl##ptwp-infinite
 !
 !
 ! Filtry specjalne
