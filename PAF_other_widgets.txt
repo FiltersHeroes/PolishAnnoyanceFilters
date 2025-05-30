@@ -3,7 +3,7 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 31 May 2025, 00:21 UTC+02:00
+! Last modified: Sat, 31 May 2025, 00:38 UTC+02:00
 ! Version: 2025.5.31.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 31 maj 2025, 00:21 UTC+02:00
+! Aktualizacja: sob, 31 maj 2025, 00:38 UTC+02:00
 !
 !
 !
@@ -1293,6 +1293,7 @@ polsatnews.pl##.series__item { remove: true }
 ###polecamyBox
 ###poza-szkieletem
 ###reklama-box
+###rr_side_widget.__service_rr.pl_PL
 ###rr_side_widget.__service_rr:lang(pl)
 ###SliderPrzycisk
 ###socialproof-container:lang(pl)
@@ -1341,7 +1342,7 @@ polsatnews.pl##.series__item { remove: true }
 ##.xloteria-zawsze
 ##.ZakladkaNewsletterOkno
 ##[class="cursor"]:empty:lang(pl)
-~pl###rr_side_widget.__service_rr.pl_PL
+##ptwp-infinite:lang(pl)
 ~pl##.csocial-link[href*="olx.pl"]:lang(pl)
 ~pl##.csocial-link[href*="otomoto.pl"]:lang(pl)
 ~pl##.ratingBadgeWrapper:lang(pl)
@@ -1366,7 +1367,6 @@ pl##.widget_times_social_widget a[href*="podcasts.google"]
 pl##.x13socialfixed_links a[href*="allegro.pl/"]
 pl##div[id^="___ratingbadge_"]
 pl##iframe[src^="https://esa.nask.pl/widget/"]
-pl##ptwp-infinite
 !
 !
 ! Filtry specjalne
