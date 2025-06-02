@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 01 Jun 2025, 17:36 UTC+02:00
-! Version: 2025.6.1.0
+! Last modified: Mon, 02 Jun 2025, 21:33 UTC+02:00
+! Version: 2025.6.2.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 01 cze 2025, 17:36 UTC+02:00
+! Aktualizacja: pon, 02 cze 2025, 21:33 UTC+02:00
 !
 !
 !
@@ -629,6 +629,7 @@ gazetapowiatowa.pl###wysija-7
 gazetapraca.pl##.col-md-4:nth-of-type(14)
 gazetaprawna.pl,ikomunikaty.pl##.footerNewsletterContent label, .footerNewsL
 gazetawielicka.pl###text-35
+gazetkapromocyjna.com.pl##header ~ main ~ section div.absolute:has(form#subscribe-form)
 gazetkonosz.pl##.box:nth-of-type(2)
 gbsbank.pl##.newsletterFooter
 gdanskstrefa.com###blog_subscription-3
