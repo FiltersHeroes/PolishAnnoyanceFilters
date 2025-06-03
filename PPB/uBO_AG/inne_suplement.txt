@@ -77,6 +77,7 @@ hejto.pl##header > .fixed.bottom-0
 hondanews.eu###body > .vertical.simplebar-track
 hondanews.eu###body[data-simplebar]:style(overflow-x: hidden; overflow-y: auto !important)
 hub.pl,interia.pl,pomponik.pl##[class*="embed"] > span[style*="opacity"]:style(opacity: 1 !important)
+onet.pl##+js(set-local-storage-item, sg.notificationsCounter.fake, 0)
 instalki.pl##:matches-media((min-width: 1488px)) .dracula-toggle-wrap.floating:style(--toggle-position: absolute !important; --bottom-offset: unset !important; top: 25px !important)
 irfanview.com##.mirror-icon:style(background-position-y: -150px !important;)
 ithardware.pl##+js(ra, href, a.authorlink[href="#"])
