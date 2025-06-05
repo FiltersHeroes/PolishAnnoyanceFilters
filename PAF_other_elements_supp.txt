@@ -152,6 +152,7 @@ radio17.pl#@#footer.page-footer ~ .sidebar-container
 roland-gazeta.pl##.skontakt:style(animation: none !important)
 rossmann.pl##+js(set-cookie, isSmartBannerClosed, true)
 rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !important)
+sellpy.pl##+js(set-local-storage-item, appDownloadBannerDismissedAt, true)
 semmelrock.pl###sidebar_float_icons
 stooq.pl##table table table table table table table:has([id] b:has-text(Sonda))
 stooq.pl##table table table table table table table:has([id] b:has-text(Sonda)) + div + table
@@ -228,6 +229,7 @@ www.youtube.com#@$?##contents ytd-rich-grid-row:has(> div[id="contents"] > ytd-r
 !#endif
 !#if env_mobile
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##body .article-share
+katowice24.info##.app-promote
 lajtmobile.pl#@#.grecaptcha-badge:style(visibility: hidden !important)
 !#endif
 !
