@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 02 Jun 2025, 21:33 UTC+02:00
-! Version: 2025.6.2.0
+! Last modified: Thu, 05 Jun 2025, 21:32 UTC+02:00
+! Version: 2025.6.5.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 02 cze 2025, 21:33 UTC+02:00
+! Aktualizacja: czw, 05 cze 2025, 21:32 UTC+02:00
 !
 !
 !
@@ -1350,6 +1350,9 @@ segway-polska.pl###email-alert-signup
 sekurak.pl##.widget_text.widget:nth-of-type(4)
 selene.pl##.blog-full-wrapper-newsletterin
 selgros.pl##.home-box3
+sellpy.pl##img[src*="/newsletter"]
+sellpy.pl##img[src*="/newsletter"] + div
+sellpy.pl##img[src*="/newsletter"] ~ form
 senetic.pl##.nwsBlock--redesign
 seniorplus.edu.pl###boczne_ikonki > a[href$="newsletter"]
 shop.albione.eu###newsletter-slide
