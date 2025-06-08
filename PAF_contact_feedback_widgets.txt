@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 08 Jun 2025, 15:03 UTC+02:00
-! Version: 2025.6.8.0
+! Last modified: Sun, 08 Jun 2025, 17:38 UTC+02:00
+! Version: 2025.6.8.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 08 cze 2025, 15:03 UTC+02:00
+! Aktualizacja: nie, 08 cze 2025, 17:38 UTC+02:00
 !
 !
 !
@@ -398,8 +398,7 @@ ideabank.pl##iframe[src^="https://videomill-bot.audiencevideo.com/"]
 ifon.pl##.content > a[href="/kontakt"], .phone
 ikea.com##chat-widget
 ilewazy.pl##.utriggerbtn
-impel.pl###multitab_right > .multitab_box:nth-of-type(2)
-impel.pl,impelfm.pl###multitab_right > .multitab_box:first-of-type
+impel.pl##.footer-icons
 inewi.pl##.crisp-client #crisp-chatbox
 infolinia.info.pl###zadzwon-do-nas
 inford.eu##.button-contact-us
@@ -446,8 +445,6 @@ kodologia.pl###cq-suggestion
 komfort.pl###chatbase-bubble-window, #chatbase-bubble-button
 kompan.pl###circleWrap
 komputerswiat.pl##iframe[src^="https://cdn.brandmetrics.com/"][style*="fixed"]
-komputronik.pl##a[href*="/kontakt"] + button[title="Czat"]
-komputronik.pl##a[title="Oceń stronę"]
 komputronik.pl##aside button:has(img[alt="chat"])
 komputronik.pl##div[data-name="shareLinks"] div:has(.i-whatsapp)
 konicaminolta.info.pl##.kontakt-slide
@@ -514,7 +511,7 @@ metalmarket.eu###czat_main_content
 miasto.zgierz.pl###chatbotIframe
 mieszkanie.mitula.com.pl##.space-footer .wrap-send-comments
 militaria.pl###golivechat
-militaria.pl,military.pl##.contact-wrapper
+militaria.pl,military.pl##.fc-widget-placeholder
 mistama.com,mojacukrzyca.org##.ggu-bot-snapped-launcher
 mobidziennik.pl###floating-contact-button
 mobilelanguage.pl###mail-right
