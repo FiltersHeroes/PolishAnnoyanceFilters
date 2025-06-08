@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sun, 08 Jun 2025, 21:33 UTC+02:00
-! Version: 2025.6.8.0
+! Last modified: Sun, 08 Jun 2025, 22:44 UTC+02:00
+! Version: 2025.6.8.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 08 cze 2025, 21:33 UTC+02:00
+! Aktualizacja: nie, 08 cze 2025, 22:44 UTC+02:00
 !
 !
 !
@@ -29,12 +29,12 @@
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.fm|planeta.pl|radiozet.pl
 /push-notifications/*firebase-config.json$xmlhttprequest,domain=mojeppk.pl
 /rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
-/rtom-proxy/rtom/web-push/*$xmlhttprequest,domain=brw.pl
 /snr-sw.js$script,domain=mediaexpert.pl|pl.kruk.eu
 /store/web-push-settings$xmlhttprequest,domain=adventuresports.pl
 /sw-push.js$script,domain=m.zapytaj.onet.pl|medonet.pl
 /sw-rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
 /sw.js$domain=adaware.com|mojwzrok.pl|openload.co|optes.pl|podaj.to|taniesoczewki.pl
+/web-push/*$xmlhttprequest,domain=brw.pl|military.pl
 @@/sw.js$domain=youtube.com
 ||cdn.*.com/push_app.js$script,domain=2conv.com|flv2mp3.by|flvto.biz
 ||cdn.foxpush.net/sdk/foxpush_SDK_min.js$domain=media4web.pl
