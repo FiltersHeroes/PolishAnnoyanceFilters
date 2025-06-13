@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Thu, 08 May 2025, 17:40 UTC+02:00
-! Version: 2025.5.8.0
+! Last modified: Fri, 13 Jun 2025, 14:34 UTC+02:00
+! Version: 2025.6.13.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 08 maj 2025, 17:40 UTC+02:00
+! Aktualizacja: pią, 13 cze 2025, 14:34 UTC+02:00
 !
 !
 !
@@ -79,6 +79,7 @@ tvn.pl,tvn24.pl##.floating.VideoContainer div[data-scope="nuvi-placeholder"] ~ d
 tvn.pl,tvn24.pl##div[class*="player"] .floating_placeholder ~ .floating
 tvp.info##.mini-player-container
 tvp.info##.nav .module-mini-section .module-mini-player__show.module-mini-player
+vida.pl##.dialog-widget:has([data-settings*="youtube.com"])
 wamiz.pl##div[class*="sticked"][class*="container"]
 webcamera.pl##.bigcam.floating-player > div > .fullscreen-wrap
 webcamera.pl##.floating-player #player, #float-box, .float-box
