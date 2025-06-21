@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Wed, 18 Jun 2025, 21:34 UTC+02:00
-! Version: 2025.6.18.1
+! Last modified: Sat, 21 Jun 2025, 09:46 UTC+02:00
+! Version: 2025.6.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 18 cze 2025, 21:34 UTC+02:00
+! Aktualizacja: sob, 21 cze 2025, 09:46 UTC+02:00
 !
 !
 !
@@ -57,9 +57,9 @@
 ~pl###whatsapp-chat-footer:lang(pl)
 ~pl##.c-messenger-share:lang(pl)
 ~pl##.sm-panel .sm-messenger:lang(pl)
-~pl##.x13socialfixed_links a[href*="m.me/"]:lang(pl)
+~pl##.x13socialfixed_links a[href*="m.me"]:lang(pl)
 ~pl##.x13socialfixed_links a[href*="skype:"]:lang(pl)
-~pl##.x13socialfixed_links a[href*="wa.me/"]:lang(pl)
+~pl##.x13socialfixed_links a[href*="wa.me"]:lang(pl)
 3giga.pl###contact-slider
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,siecobywatelska.pl,zhr.pl##.cresta-facebook-messenger-box
 99rent.pl###rodo-chat-button
@@ -89,7 +89,7 @@ agromat.com.pl###callBack
 ahe.lodz.pl###chat-invite
 airgun.pl###popup__toggle
 al.to,x-kom.pl##div[class*="parts__ChatWrapper"]
-al.to,x-kom.pl##footer a[href*="whatsapp.com/"]
+al.to,x-kom.pl##footer a[href*="whatsapp.com"]
 alejabielany.pl##form > input.floatingWidget
 aleleki.pl##.social_contact
 aliexpress.com##.ui-fixed-panel-survey
@@ -126,11 +126,11 @@ atakto.pl###lhc_status_widget_v2
 auchan.pl##.social-sharing-list:has(span[data-link="#share-whatsapp"])
 audiosklep.pl,boboland24.pl,delkom.pl,interlazienka.pl,korzystneit.pl,officeexpert.pl,shark.sklep.pl,sklep.wisan.pl###contactBox
 aurum-optics.pl##.button-messenger
-aurum-optics.pl##a[href*="m.me/"]
-australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com/"])
+aurum-optics.pl##a[href*="m.me"]
+australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com"])
 authority.com.pl##.cb24-messenger-widget
 authority.com.pl##div[style*="fixed"][style*="border-radius"]:not([class], [id]):empty
-auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me/"])
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me"])
 autodoc.pl##.js-chat-buttons-container-genesys
 autohero.com##.root___o8kuv
 autokomis-berlin.pl##.ctc_s_2.ctc-analytics
@@ -151,9 +151,9 @@ bechtle.com##.communication-box
 bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(4)
 bershka.com##chat
 bezpieczny.pl###call_phone
-biedronka.pl##.social-media a[href*="m.me/"]
-biedronka.pl##.social-media a[href*="wa.me/"]
-biedronka.pl##.widget-smartsection .footer-links ~ a[href*=".me/"]:is([href*="wa.me"], [href*="m.me"])
+biedronka.pl##.social-media a[href*="m.me"]
+biedronka.pl##.social-media a[href*="wa.me"]
+biedronka.pl##.widget-smartsection .footer-links ~ a[href*=".me"]:is([href*="wa.me"], [href*="m.me"])
 bigbaddice.pl##.icon-social-whatsapp
 bike-parts-honda.pl###fleche_popin_contact
 bikeinn.com,dressinn.com,goalinn.com,kidinn.com,motardinn.com,outletinn.com,runnerinn.com,scubastore.com,smashinn.com,snowinn.com,swiminn.com,techinn.com,traininn.com,trekkinn.com,waveinn.com,xtremeinn.com###bim-ifr
@@ -189,7 +189,7 @@ cadenas.de##.notification_bar_content > .item.contact
 cadsoft.pl##.arrow-seeMe
 cafepads.pl###aa-supportallinone-wrapper
 canon.pl##.feedback-btn
-capcut.com##a[href*="whatsapp.com/send?text="]
+capcut.com##a[href*="whatsapp.com/send?"]
 carq.pl##div[id^="qc-quic-widget-"]
 carrefour.pl,czasnaherbate.net,doz.pl,wroclaw.pl##div[class*="kodabots-promo"], div[class*="kodabots-widget"]
 caseczesci.pl##[href="https://www.caseczesci.pl/my-account/"]
@@ -209,7 +209,7 @@ centrumelektroniki.pl,technikarolna.pl##.b24-widget-button-visible
 centrumpapieru.pl##.sb-chat-btn
 cersanit.com.pl,darnatury.pl,eforia.pl,euromobil.com.pl,euromotor.pl,japanmotors.pl,koreamotors.pl,mymeest.pl,opoczno.eu,pgd.pl##.FTChat_window, .FTChat_bar
 change.shop.pl,experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
-choiceqr.com##li.footer__contact-links-item:has(a[href*="."]:is([href*="facebook.com/"], [href*="t.me/"]))
+choiceqr.com##li.footer__contact-links-item:has(a[href*="."]:is([href*="facebook.com"], [href*="t.me"]))
 choinkowo.pl,olini.pl,wearethecoffee.com###appReviewsWidgetWrapper
 chromewebstore.google.com##button[aria-label^="Udostępnij"][aria-label*="WhatsApp"]
 cinema3d.pl###popupBoxInvitation
@@ -278,7 +278,7 @@ e-dewocjonalia.eu,e-swiece.pl###smartsupp-widget-container
 e-dym.pl###open_ochat_conversion
 e-hurtowo.eu,ogrodzenia24.eu###TelefonIkona
 e-irwin.pl##.callMe
-e-kolo.pl##a[title*="lij whatsup"][href*="web.whatsapp.com/send?text="]
+e-kolo.pl##a[title*="lij whatsup"][href*="web.whatsapp.com/send?"]
 e-kwiaty.pl###ecatcher.ecatcher
 e-medest.pl,gromar.eu,netia.pl##.contact-widget
 e-prawnik.pl##.o-window.windowTop
@@ -590,6 +590,7 @@ pccentre.pl###zak_error
 pcprojekt.pl##.knowledgebase-slide-btn, .whyus-tab
 pep.pl##.quick-contact
 pepper.pl##button[data-t^="shareOn"][data-t*="Whatsapp"], button[data-t^="shareOn"][data-t*="Messenger"]
+pepper.pl##footer a[href*=".com/"]:is([href*="whatsapp.com"], [href*="messenger.com"]. [href*="wa.me"], [href*="m.me"])
 perfectblue.pl,twojcel.to###message-purchased
 perfekcyjnawdomu.pl##.joinchat
 philipsagd.pl###fixed-contact
@@ -606,9 +607,9 @@ pl##.sm-panel .sm-messenger
 pl##.socializer-messenger.socializer-icon
 pl##.socializer-whatsapp.socializer-icon
 pl##.whats-float
-pl##.x13socialfixed_links a[href*="m.me/"]
+pl##.x13socialfixed_links a[href*="m.me"]
 pl##.x13socialfixed_links a[href*="skype:"]
-pl##.x13socialfixed_links a[href*="wa.me/"]
+pl##.x13socialfixed_links a[href*="wa.me"]
 pl##a[href^="fb-messenger://share/"]
 pl##a[href^="whatsapp://send"]
 pl.aleteia.org##a[aria-label="Whatsapp share"]
@@ -676,7 +677,7 @@ rowinskabusinesscoaching.com##.kleo-quick-contact-wrapper
 rsrh-radom.pl##.skype
 rum-lux.pl###gg
 s360.com.pl##footer ~ a#openModal.button
-sadeczanin.info##.ant-btn[href*="api.whatsapp.com/send?text"]
+sadeczanin.info##.ant-btn[href*="whatsapp.com/send?"]
 salesintelligence.pl##.popmake-overlay.pum-overlay.pum[data-popmake*="-zwiekszyc-"]
 salesmanago.pl###sm-bot
 salomon.com##.chatbot-box
@@ -778,7 +779,7 @@ totalcasino.pl###chatContainer
 tourist.pl###sc2_all_container
 trans.info##.wall-add-news
 travelplanet.pl##.open--feedback--popup
-trec.pl##li > a[href="https://www.facebook.com/messages/t/sklepTrecPl"]
+trec.pl##li > a[href*="facebook.com/messages"]
 trena.pl##.lc_chatbox
 truckonline.pl,zbitaszybka.pl##.tcc-widget
 tunelefoliowe.eu##.my-float.fa-whatsapp
