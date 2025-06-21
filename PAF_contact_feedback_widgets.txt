@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sat, 21 Jun 2025, 09:46 UTC+02:00
-! Version: 2025.6.21.0
+! Last modified: Sat, 21 Jun 2025, 15:03 UTC+02:00
+! Version: 2025.6.21.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 21 cze 2025, 09:46 UTC+02:00
+! Aktualizacja: sob, 21 cze 2025, 15:03 UTC+02:00
 !
 !
 !
@@ -127,7 +127,7 @@ auchan.pl##.social-sharing-list:has(span[data-link="#share-whatsapp"])
 audiosklep.pl,boboland24.pl,delkom.pl,interlazienka.pl,korzystneit.pl,officeexpert.pl,shark.sklep.pl,sklep.wisan.pl###contactBox
 aurum-optics.pl##.button-messenger
 aurum-optics.pl##a[href*="m.me"]
-australiangoldshop.pl#?#.list-contact li:-abp-has(a[href*="messenger.com"])
+australiangoldshop.pl##.list-contact li:has(a[href*="messenger.com"])
 authority.com.pl##.cb24-messenger-widget
 authority.com.pl##div[style*="fixed"][style*="border-radius"]:not([class], [id]):empty
 auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me"])
@@ -830,7 +830,7 @@ wspieram.to###staff-chat-button
 www.bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(3)
 www.google.com,www.google.pl##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
 www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
-www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:-abp-contains(/^WhatsApp$/)
+www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:has-text(/^WhatsApp$/)
 www.ibm.com###contact-module
 www.ideafairplay.pl###userlike-tab
 www.microsoft.com##.feedback-dialog-opener
