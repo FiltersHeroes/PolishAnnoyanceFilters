@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 21 Jun 2025, 15:03 UTC+02:00
-! Version: 2025.6.21.0
+! Last modified: Sun, 22 Jun 2025, 21:34 UTC+02:00
+! Version: 2025.6.22.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 21 cze 2025, 15:03 UTC+02:00
+! Aktualizacja: nie, 22 cze 2025, 21:34 UTC+02:00
 !
 !
 !
@@ -186,6 +186,7 @@ aliexpress.com##.image-poplayer-modal
 aliexpress.com##iframe[src*="campaign"][style*="position"][style*="fixed"]
 alkoholeswiata24.pl##.simplemodal-container:has(a[href*="/reklama.php"])
 alkoholeswiata24.pl##.simplemodal-overlay:has(~ .simplemodal-container a[href*="/reklama.php"])
+all4pets.com.pl,ekodrogeria.pl,janssen.tv,reporteryoung.pl##.fancybox-wrap, .fancybox-overlay
 allegro.pl##[data-opbox-fragment-pathname="/koszyk/warstwa"] > [data-box-name="precart-layer"]
 allegro.pl##div[data-analytics-category="allegro.app.promotion"]
 allegro.pl##div[data-box-name="allegro.app.promotion.pl.loggedout"]
@@ -440,7 +441,6 @@ ebizpro.pl,grywalizacja24.pl,iurico.pl,maszynadopisania.pl,rozwod-z-klasa.pl###i
 edusklep.pl,tanienurkowanie.pl##.mf-modal-iframe, .mf-modal-overlay
 effective-english.pl###fm_popup_1
 eitalia.pl###facebox, #facebox_overlay
-ekodrogeria.pl,janssen.tv,reporteryoung.pl##.fancybox-overlay, .fancybox-wrap
 ekologia.pl##.parent-nlr, .parent-promote
 ekopolka.pl###pop-up
 ekskluzywna.pl,tuszedodrukarki.pl,tv-zakupy.pl###pp1
@@ -517,7 +517,7 @@ greenelka.pl###cfblb_modal
 growbox.pl###pf_bg, .pf_sub
 gs1pl.org###section-newsletter-popup
 gu.com.pl##.acym__subscription__form__popup__overlay
-hael.pl,modrzewiowy-dwor.pl,stamary.pl,swiece-zaplonowe.pl##.fancybox-overlay
+hael.pl,marenaspa.pl,modrzewiowy-dwor.pl,obtkarma.pl,stamary.pl,swiece-zaplonowe.pl##.fancybox-overlay
 hafija.pl##.dgd_overlay, .dgd_stb_box
 haftprojekt.pl###popup_newsltr
 hardreset.info###w6CybzT8tLqC > div.subscription-box > div.push-service-modal:last-child
@@ -661,7 +661,6 @@ mamopracuj.pl##.kurs-popup4
 mango.pl##.popup-mango, #sm_ext_floater-bg
 manutea.pl###teatipsModal, .modal-backdrop
 mapsolutions.pl###jz-overlay-callback
-marenaspa.pl###fancybox-overlay[style^="background-color: rgb(0, 0, 0); opacity: 0.6; cursor: pointer;"]
 marketerplus.pl##.popup--hidden-on-mobile
 marketingdlaludzi.pl##.ulp-window-middle-center.ulp-window, .ulp-overlay
 masterproject.pl##.hover_bkgr_fricc
@@ -732,7 +731,7 @@ niedziela.pl###entranceModal
 niedziela.pl###ewydanieModal
 njumobile.pl##.jquery-modal
 nm.pl###newsletter-modal, .modal-backdrop
-nocowanie.pl##.fancybox-overlay-fixed.fancybox-overlay, .fancybox-type-html
+nocowanie.pl##.fancybox-type-html, .fancybox-overlay
 nokaut.pl###letter-shopping-Plugin.letter-shopping-modal-container
 nokautbiznes.pl,nokautdom.pl,nokautdziecko.pl,nokautelektronika.pl,nokautrozrywka.pl,nokautstyl.pl,nokauttrening.pl,nokautzdrowie.pl###letter-shopping-Plugin
 norauto.pl,otvarta.pl,txm.pl##.mfp-bg
@@ -745,7 +744,6 @@ nowakonfederacja.pl##.qookies
 nowymarketing.pl###overlay-campaign
 nportal.no###fb-overlay
 obi.pl##.open.ankieta
-obtkarma.pl##.fancybox-overlay[style="display: block; width: auto; height: auto; background: rgba(255, 255, 255, 0.4);"]
 oczymlekarze.pl##.box-pozegnalny
 oferty-biznesowe.pl##.touch-callback
 officeexpert.pl,toptun.pl###dis_wrapper
