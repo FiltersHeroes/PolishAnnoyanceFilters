@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 22 Jun 2025, 23:28 UTC+02:00
-! Version: 2025.6.22.3
+! Last modified: Sun, 22 Jun 2025, 23:32 UTC+02:00
+! Version: 2025.6.22.4
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 cze 2025, 23:28 UTC+02:00
+! Aktualizacja: nie, 22 cze 2025, 23:32 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6813,8 +6813,8 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2025.6.22.0
-!@ Last modified: Sun, 22 Jun 2025, 23:16 UTC+02:00
+!@ Version: 2025.6.22.1
+!@ Last modified: Sun, 22 Jun 2025, 23:32 UTC+02:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -6826,7 +6826,7 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Copyright © 2025 Certyficate IT
 !@ Copyright © 2025 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2025.6.22.0 aktualizacja: nie, 22 cze 2025, 23:16 UTC+02:00
+!@ v.2025.6.22.1 aktualizacja: nie, 22 cze 2025, 23:32 UTC+02:00
 !@
 !@
 !@ Specyficzne filtry ukrywające
@@ -7523,6 +7523,7 @@ cupsell.pl##.rodo-popup
 curlingevent.pl##.alert-bg
 cyanmod.pl##.cm-message, .ipsfocus_globalMessage
 cyberbajt.pl##div#message0
+cyberfolks.pl##.cfGdprCookieConsentPopupLink
 cyberfolks.pl,domeny.pl,kei.pl##.cfGdprCookieConsentPopup
 cyberpolicy.nask.pl###gdpr-info
 cyberprofilaktyka.pl###mcookie-container
@@ -8314,6 +8315,7 @@ itvwisla.tv,polska-ie.com,stoicway.net,twojcel.to,wachtyrz.eu##.gdpr-privacy-bar
 ivona.com###cookiePane
 iwanowice.pl###privacy-policy-box
 iwanowice.pl,organiczni.eu##.eu-cookies-bar-cookies-bar-button-settings
+iworks.pl###scm-icon.scm-icon
 ixon.cloud###privacyConsent
 izabawka.pl,wetzoo.pl##.black_overlay
 izabela-bus.eu,woobykids.com###cookie-law-bar
@@ -9891,6 +9893,7 @@ yesim.app##div[class^="CookiesAlert_wrapper"]
 za-miastem.pl###bzm-popup-disclaimer
 zabierzow.org.pl###modal-rodo, .cook_wrap
 zabka.pl##.footer-cookies
+zabkowiceslaskie.pl###cookiesjsr
 zadluzenia.com###CookiesInfo
 zaiks.org.pl##div[class^="cookiesInformation_wrapper_"]
 zajadam.pl##.infobar-bottom
@@ -11190,6 +11193,7 @@ centrum24.pl#@##__tealiumGDPRecModal
 cooltura24.co.uk,debica24.eu,korsokolbuszowskie.pl,koscierzyna24.info,lokalna24.pl,radiobonton.pl,tarnowska.tv,truso.tv,zgl.pl###popModal2 { remove: true }
 gemini.pl###modal-cookies, .vue-modal--privacy-policy { remove: true }
 horecanet.pl###gdpr-popup.gdprmodal { remove: true }
+iworks.pl###scm-dialog.scm-dialog { remove: true }
 jelenia.tv###rodoModal { remove: true }
 kaliber.pl###cookieModal { remove: true }
 mcdonalds.pl##body > .cookies { remove: true }
