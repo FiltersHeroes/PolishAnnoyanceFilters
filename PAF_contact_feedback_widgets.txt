@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 22 Jun 2025, 22:31 UTC+02:00
-! Version: 2025.6.22.0
+! Last modified: Sun, 22 Jun 2025, 23:28 UTC+02:00
+! Version: 2025.6.22.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 cze 2025, 22:31 UTC+02:00
+! Aktualizacja: nie, 22 cze 2025, 23:28 UTC+02:00
 !
 !
 !
@@ -78,7 +78,7 @@ aeg.pl,electrolux.pl,zanussi.pl##.website-feedback
 afrodytasalon.pl##.js--phone-button.ic-phone-button
 agasport.com.pl,dmtrade.pl,militaria.pl##.floating-contact
 agrido.pl,agropol24.pl,exparto.pl###shadow-root
-agro-sklep.com,audioexpert.pl,otosklep24.pl,panele-sklepy.pl,porcelanaart.pl,zabawki.esklep.info###up_talk0
+agro-sklep.com,audioexpert.pl,esklep.info,otosklep24.pl,panele-sklepy.pl,porcelanaart.pl,sklepywww.pl###up_talk0
 agroas.pl##.aside-fixed-menu__link--contact
 agrobex.pl,chlonne24.pl###grchat-button
 agrodane.pl##.socialblok-social-whatsapp
@@ -232,6 +232,7 @@ creative.media.pl##.side_contact_us
 credit-agricole.pl##.modal__button.link--chatbot.chatbot-img
 csi.pl,mesco.com.pl##div[id^="bazo_form_callback"]
 cyberbajt.pl,karchercenter-ocean.pl,klinikasnu.pl,merida.com.pl,swiss.com.pl,wspa.pl,yachtguru.pl###lhc_status_container
+cyberfolks.pl##.launcher
 czerwona-skarbonka.pl###chatbot-chat
 czescidobmw.pl##.closegg
 czescirolnicze.net##.drift-chat-open
@@ -797,6 +798,8 @@ union-investment.pl###woa-widget
 unisport.pl###kindly-chat-api
 uzbira.pl###reviewsWidgetButton
 valtra.pl##.floating-cta
+veepn.com##div[style^="position: fixed; bottom: 16px; right: 16px; width: 64px; height: 64px; display: flex;"]
+veepn.com##iframe:is(#launcher, [title="Zamknij wiadomość"], [title="Wiadomość od firmy"], [title="Okno komunikatora"])
 veki.es##.whats-float:lang(pl)
 velux.pl##.LPMcontainer
 vidok.com##.box-special-contact-icon
@@ -849,6 +852,8 @@ xtb.com##.js-xchat-btn-wrapper.xchat-btn-wrapper
 yesim.app###intercomLauncher
 zabawkahurtownia.pl###becontact
 zabiegidavinci.pl##.contactwidget
+zabkowiceslaskie.pl##._queryproof_chatIcon
+zabkowiceslaskie.pl##._queryproof_messageBubble
 zaczytaj.pl##.box-contact
 zak.edu.pl##.ktt10-btn
 zalando.pl##button[aria-label="Fashion Assistant"], div[aria-label="Fashion Assistant"]
