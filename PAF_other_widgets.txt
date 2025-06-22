@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 21 Jun 2025, 17:37 UTC+02:00
-! Version: 2025.6.21.0
+! Last modified: Sun, 22 Jun 2025, 21:34 UTC+02:00
+! Version: 2025.6.22.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 21 cze 2025, 17:37 UTC+02:00
+! Aktualizacja: nie, 22 cze 2025, 21:34 UTC+02:00
 !
 !
 !
@@ -430,6 +430,8 @@ forum.swiateczne.info##.av-preloader-box
 forum.szafa.pl###recommendation
 franowocentrum.pl###fixed-cs-mobile
 freelancer.pl###fixed-banner
+frisco.pl##+js(set-cookie, go-to-app-ribbon, 1)
+frisco.pl##+js(set-cookie, go-to-app-ribbon-session, yes)
 fronda.pl##.slided-article
 gaia.com.pl###smAddonSizes
 galeriamorena.pl###nav-aside
