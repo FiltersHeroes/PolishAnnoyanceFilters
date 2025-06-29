@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 24 Jun 2025, 21:34 UTC+02:00
-! Version: 2025.6.24.0
+! Last modified: Sun, 29 Jun 2025, 17:38 UTC+02:00
+! Version: 2025.6.29.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 24 cze 2025, 21:34 UTC+02:00
+! Aktualizacja: nie, 29 cze 2025, 17:38 UTC+02:00
 !
 !
 !
@@ -715,7 +715,7 @@ mpec.olsztyn.pl###bip, #widget-btn
 mubi.pl##.back-to-calculated
 multikino.pl###qb
 multikurs.pl##.topbar-discount.row
-music.youtube.com#?#tp-yt-paper-dialog:has(ytmusic-mealbar-promo-renderer:has-text(Karta Sample jest już w aplikacji))
+music.youtube.com#?#tp-yt-paper-toast:has(ytmusic-mealbar-promo-renderer:has-text(Karta Sample jest już w aplikacji))
 muve.pl###d-f-notif
 muzeummw.pl##.wcag
 muzyczny.eu,progres24.pl,sklep.drabiny.info,sklep.maszynykrawieckie.eu,sklepzrowerami.pl,spawaj.eu,wzorniki.eu##.vertical-button
@@ -1113,7 +1113,8 @@ xgp.pl###hpb.hpb
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
 youtube-nocookie.com,youtube.com##.ytp-ce-element
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
-youtube.com#?#tp-yt-paper-dialog:has(yt-mealbar-promo-renderer:has-text(/Odblokuj bonusy specjalne|Przedstawiamy Sample|Zacznij wspierać ten kanał|Szukasz więcej funkcji muzycznych/))
+youtube.com##tp-yt-paper-toast:has(a[href*="#check_ad_blockers"], a[href*="check-your-extensions-including-ad-blockers"])
+youtube.com#?#tp-yt-paper-toast:has(yt-mealbar-promo-renderer:has-text(/Odblokuj bonusy specjalne|Przedstawiamy Sample|Zacznij wspierać ten kanał|Szukasz więcej funkcji muzycznych/))
 yves-rocher.pl##.layout-banner__top.layout-banner
 z-hotel.com###repuso_floating
 zadowolenie.pl##.b-bragLabel
