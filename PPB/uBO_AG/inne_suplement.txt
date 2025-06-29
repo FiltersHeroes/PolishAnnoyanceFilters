@@ -1,6 +1,4 @@
-rj.metropoliaztm.pl,rj.transportgzm.pl##table[style]:has(input[placeholder]:not(:placeholder-shown)):style(height: unset !important)  
 !rj.metropoliaztm.pl,rj.transportgzm.pl##table[style] tr span[style*="font"]:remove-attr(style)
-rj.metropoliaztm.pl,rj.transportgzm.pl##+js(ra, style, table[style] tr span[style*="font"], complete)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -152,6 +150,8 @@ pytanienasniadanie.tvp.pl##div.bg-aplha.container:first-of-type > .row:style(pad
 radio17.pl##footer.page-footer ~ .sidebar-container:style(position: absolute !important)
 radio17.pl#@#.sidebar-container
 radio17.pl#@#footer.page-footer ~ .sidebar-container
+rj.metropoliaztm.pl,rj.transportgzm.pl##+js(ra, style, table[style] tr span[style*="font"], complete)
+rj.metropoliaztm.pl,rj.transportgzm.pl##table[style]:has(input[placeholder]:not(:placeholder-shown)):style(height: unset !important)
 roland-gazeta.pl##.skontakt:style(animation: none !important)
 rossmann.pl##+js(set-cookie, isSmartBannerClosed, true)
 rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !important)
