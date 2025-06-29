@@ -2,6 +2,7 @@
 |https://www.aflofarm.com.pl/pl/produkty/suplementy-diety/*/|$doc,replace=/https:\/\/fpe-sklep.pl\/static\/sa.png/https:\/\/web.archive.org\/web\/20170929173235if_\/https:\/\/fpe-sklep.pl\/static\/sa.png/,domain=aflofarm.com.pl
 ||mokrenosy.pl/*/avada-nicescroll.js$script
 ||rootblog.pl/wp-json/csco/v1/more-nextpost/$redirect=noop.txt,xhr
+!rj.metropoliaztm.pl,rj.transportgzm.pl##table[style] tr span[style*="font"]:remove-attr(style)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
@@ -41,6 +42,8 @@ cda.pl##a[href*="dla-dzieci"] span[style]:remove-attr(style)
 cdn.ampproject.org,reddit.com##.XPromoPill
 cdn.ampproject.org,reddit.com##body.scroll-disabled:style(overflow: auto !important; position: static !important)
 ch,com,cz,eu,farm,fm,group,info,io,it,me,net,org,promo,przegladpiaseczynski.pl,tv##.grecaptcha-badge:lang(pl):style(visibility: hidden !important)
+ch,com,cz,eu,fm,info,io,it,me,net,org,tv###shop-hcaptcha-badge-container:lang(pl):style(visibility: hidden !important)
+ch,com,cz,eu,fm,info,io,it,me,net,org,tv##.custom-grecaptcha-badge:lang(pl):style(visibility: hidden !important)
 cukierniabezowa.pl##body.nice-scroll:style(padding-right: 0 !important)
 cyberdefence24.pl,defence24.pl,energetyka24.com,infosecurity24.pl,space24.pl##:matches-media((max-width: 1020px)) .article-share
 czyjnumerek.pl##.table-opinion div[class^="vote-"]:nth-child(odd):style(display: inline-block !important)
@@ -128,8 +131,10 @@ pecetowicz.pl##body:has(#elFullNotifications_menu:has-text(Nie czekaj, zaloguj s
 pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="https://"], [title])
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"] h1:style(margin-top: 45px !important)
 photoblog.pl###frontpage .frontpage-teaser-photo-container[style*="background-image: url()"]:style(height: 225px !important)
+pl###shop-hcaptcha-badge-container:style(visibility: hidden !important)
 pl##.CodeMirror-search-label ~ input.CodeMirror-search-field[style]:style(width: 60% !important)
 pl##.cTopicPostArea .cGuestTeaser:upward(.cTopicPostArea)
+pl##.custom-grecaptcha-badge:style(visibility: hidden !important)
 pl##.header.header--smart-banner-visible:remove-class(header--smart-banner-visible)
 pl##.smartbanner:not(body, html)
 pl##.with-smartbanner .external-header:style(top: 0 !important)
@@ -149,6 +154,8 @@ pytanienasniadanie.tvp.pl##div.bg-aplha.container:first-of-type > .row:style(pad
 radio17.pl##footer.page-footer ~ .sidebar-container:style(position: absolute !important)
 radio17.pl#@#.sidebar-container
 radio17.pl#@#footer.page-footer ~ .sidebar-container
+rj.metropoliaztm.pl,rj.transportgzm.pl##+js(ra, style, table[style] tr span[style*="font"], complete)
+rj.metropoliaztm.pl,rj.transportgzm.pl##table[style]:has(input[placeholder]:not(:placeholder-shown)):style(height: unset !important)
 roland-gazeta.pl##.skontakt:style(animation: none !important)
 rossmann.pl##+js(set-cookie, isSmartBannerClosed, true)
 rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !important)
@@ -160,7 +167,6 @@ strefakodera.pl##html:style(overflow-x: unset !important)
 tabletowo.pl##.bwswitch:style(position: absolute !important)
 tablety.pl##.image-ticker-news:style(left: 0 !important)
 teatr.bedzin.pl##html.intro-is-opened, html.intro-is-opened body.intro-is-opened:style(overflow-y: auto !important)
-tecno-store.pl###shop-hcaptcha-badge-container:style(visibility: hidden !important)
 teletoonplus.pl##.drizzle_l:style(z-index: 0 !important)
 tvn24.pl##+js(json-prune, options.auto_play)
 tysol.pl##.section_name.uppercase:style(font-size: 18pt !important)
