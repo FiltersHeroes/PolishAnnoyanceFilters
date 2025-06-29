@@ -1,3 +1,6 @@
+rj.metropoliaztm.pl,rj.transportgzm.pl##table[style]:has(input[placeholder]:not(:placeholder-shown)):style(height: unset !important)  
+!rj.metropoliaztm.pl,rj.transportgzm.pl##table[style] tr span[style*="font"]:remove-attr(style)
+rj.metropoliaztm.pl,rj.transportgzm.pl##+js(ra, style, table[style] tr span[style*="font"], complete)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 *##body > div[style^="font-family:"]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
