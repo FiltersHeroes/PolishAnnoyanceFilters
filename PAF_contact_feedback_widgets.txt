@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 22 Jun 2025, 23:54 UTC+02:00
-! Version: 2025.6.22.2
+! Last modified: Wed, 09 Jul 2025, 21:34 UTC+02:00
+! Version: 2025.7.9.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 cze 2025, 23:54 UTC+02:00
+! Aktualizacja: śro, 09 lip 2025, 21:34 UTC+02:00
 !
 !
 !
@@ -27,6 +27,7 @@
 ||amazonaws.com/inteliwise-client/saas/embed/*$script,domain=modbis.pl
 ||app.userengage.com/api/user-chatping/*$xmlhttprequest,domain=brand.ceo
 ||callcenter.pl/static/chat_snippets/*.js$domain=lellek.pl|vobis.pl
+||cdn.bitrix24.pl/*/crm/site_button/$script,domain=centrumelektroniki.pl|euroelectronics.pl|kompan.pl|lanesta.eu|papatka.pl|technikarolna.pl
 ||client.crisp.chat/l.js$script,domain=totalbet.pl
 ||client.crisp.chat/static/javascripts/client.js$script,domain=fabrykawafelkow.pl|puccini.pl
 ||clivio.pl/wp-content/themes/clivio/img/cursor.png
@@ -45,6 +46,8 @@
 ||widget.customer-alliance.com/reviews/js/standard/*$script,domain=excelsior.com.pl
 !@ <<<<<<<< widgety_kontaktowe_informacji_zwrotnej_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe_sieciowe.txt
 !@ >>>>>>>> widgety_kontaktowe_informacji_zwrotnej + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/widgety_kontaktowe.txt
+!centrumelektroniki.pl,technikarolna.pl##.b24-widget-button-visible
+!euroelectronics.pl,kompan.pl,lanesta.eu##.b24-widget-button-wrapper
 ###chaty-channel-facebook_messenger
 ###facebookbc
 ###whatsappbc
@@ -205,7 +208,6 @@ cdp.pl###customTrustbadge
 cebit.pl,guzik.konin.pl##.fab
 ceneo.pl###recent-activity-toast
 centermed.pl,winotoskanii.pl##div[id^="gb-widget"][style*="position"][style*="fixed"]
-centrumelektroniki.pl,technikarolna.pl##.b24-widget-button-visible
 centrumpapieru.pl##.sb-chat-btn
 cersanit.com.pl,darnatury.pl,eforia.pl,euromobil.com.pl,euromotor.pl,japanmotors.pl,koreamotors.pl,mymeest.pl,opoczno.eu,pgd.pl##.FTChat_window, .FTChat_bar
 change.shop.pl,experiencecorner.com,sklep.art-magazyn.eu,sklep.koralove.eu##.fb-messengermessageus
@@ -315,7 +317,6 @@ eska.pl,eskarock.pl,radioplus.pl,radiosupernova.pl,vibefm.pl,voxfm.pl##.open-mes
 eskk.pl##.ckontakt
 etoto.pl###sbChatMinimizedIdle
 eurobank.pl##.reviews
-euroelectronics.pl,kompan.pl,lanesta.eu##.b24-widget-button-wrapper
 eurosport.tvn24.pl##div[data-testid="share-icons"] > div[class*="title"] ~ div > span[data-social="whatsapp" i]
 eurosport.tvn24.pl##div[data-testid="social-share-block-molecule"] > div button[aria-label="whatsapp"]
 eurotargetshow.pl##.chatContainer
