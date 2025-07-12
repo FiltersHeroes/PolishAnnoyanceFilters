@@ -33,6 +33,8 @@ polishannoyancefilters.netlify.app###pafadguard
 !#if ext_ublock
 polishannoyancefilters.netlify.app##+js(set, pafDetect, true)
 !#endif
+! Filtry potrzebne przed RTM
+filmweb.pl#@#+js(set, rodo.waitForConsent, noopPromiseResolve)
 !
 !
 !@ >>>>>>>> https://raw.githubusercontent.com/PolishRoboDogHouse/polish-ads-filter/RTM/cookies_filters/cookies_uB_AG.txt
