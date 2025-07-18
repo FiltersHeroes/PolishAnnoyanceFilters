@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Fri, 18 Jul 2025, 17:41 UTC+02:00
-! Version: 2025.7.18.0
+! Last modified: Fri, 18 Jul 2025, 18:54 UTC+02:00
+! Version: 2025.7.18.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 18 lip 2025, 17:41 UTC+02:00
+! Aktualizacja: pią, 18 lip 2025, 18:54 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1128,6 +1128,7 @@ onexstore.pl##.footer-col--subscription
 oohmagazine.pl##div.widget_anthemes_video.widget:nth-of-type(3)
 opensecurity.pl,swiatoze.pl,terazprudnik.pl,zasnik.pl###mc-embedded-subscribe-form
 opera.pl##.prawyRegion > div.kontener1:nth-of-type(2)
+opieka.farm##.elementor-element:has(> div > .elementor-element .newsl)
 opinia-o-firmie.pl##footer .elp-widget
 opoltrans.com.pl##.right-footer-wrapper
 opornografii.pl##.article__newsletter
@@ -6091,6 +6092,7 @@ onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_sectio
 online.citibank.pl##.call-to-action-bottom
 onlinezdrowie.pl###post-nav
 oohmagazine.pl##.festiwal_card_tab
+opieka.farm##.CampaignType--slide:has(.anchorage-close)
 opiekunbloga.pl##.pum-position-fixed.popmake.pum-container
 opinie24.pl##.box-size.side-box-container
 opinie-perfumy.pl##.postNavigation
@@ -6718,6 +6720,7 @@ nowykamieniarz.pl##div.sidebar:first-of-type
 nowyobywatel.pl##.container ~ div.u-mb\+\+
 oohmagazine.pl##.sidebar > div.widget_anthemes_video.widget:first-of-type
 oohmagazine.pl##div.widget_anthemes_banner300.widget:first-of-type
+opieka.farm##.CampaignType--slide:has(.anchorage-close)
 orbiton.pl###sekcja-01
 orbiton.pl,poradnikasfaltowy.pl###formularz
 packaging-polska.pl##.numer
