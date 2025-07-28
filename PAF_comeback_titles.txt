@@ -2,8 +2,8 @@
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Wed, 22 Jan 2025, 20:33 UTC+01:00
-! Version: 2025.1.22.0
+! Last modified: Mon, 28 Jul 2025, 21:37 UTC+02:00
+! Version: 2025.7.28.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 22 sty 2025, 20:33 UTC+01:00
+! Aktualizacja: pon, 28 lip 2025, 21:37 UTC+02:00
 !
 !
 !wrc.net.pl##+js(aeld, blur, function(e){return"undefined"!=typeof S&&S.event.triggered!==e.type?S.event.dispatch.apply(t,arguments):void 0})
@@ -35,6 +35,7 @@ naekranie.pl##+js(nostif, Zzzz, 100)
 nocowanie.pl##+js(acis, changeTitle, Wróć)
 polt.pl,socialteam.pl##+js(aeld, visibilitychange, handleVisibilityChange)
 prawokonsumenckie.pl##+js(set, setReplyTitle, noopFunc)
+primabiotic.pl##+js(nosiif, newTitle, 1000)
 przepisy.pl##+js(aeld, visibilitychange, zone_symbol__propagationStopped)
 sestimi.pl##+js(aeld, blur, document.title = message)
 siriuspro.pl##+js(aopr, document.hidden)
