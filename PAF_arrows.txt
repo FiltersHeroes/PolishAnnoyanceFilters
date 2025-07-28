@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 27 Jul 2025, 17:39 UTC+02:00
-! Version: 2025.7.27.0
+! Last modified: Mon, 28 Jul 2025, 17:43 UTC+02:00
+! Version: 2025.7.28.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 27 lip 2025, 17:39 UTC+02:00
+! Aktualizacja: pon, 28 lip 2025, 17:43 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -338,6 +338,7 @@ forum.bukmacherskie.com###toTopHover
 forum.optometria.info.pl###OnBottom
 forum.optometria.info.pl,goscinnygaj.pl,pl.horn.eu###ToTop
 forum.shinden.pl##.BRRT_logoSmall
+forumgdansk.pl,magnoliapark.pl,silesiacitycenter.com.pl##.w-4 > svg
 fotoplus.pl,knf.gov.pl###up-button
 fratria.pl##.pageTop
 frisco.pl##.go-top-button
@@ -1004,6 +1005,7 @@ ztedevices.com##.back-top
 ###scrollUp:not(body, html, .wrapper):lang(pl)
 ###scrollup:not(body, html, .wrapper):lang(pl)
 ###slide_top:not(body, html, .wrapper):lang(pl)
+###strzalka-w-gore
 ###sttotop:not(body, html, .wrapper):lang(pl)
 ###tc-footer-btt-wrapper:not(body, html, .wrapper):lang(pl)
 ###to-top:not(body, html, .wrapper):lang(pl)
