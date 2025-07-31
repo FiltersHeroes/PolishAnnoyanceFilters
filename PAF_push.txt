@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sun, 27 Jul 2025, 17:39 UTC+02:00
-! Version: 2025.7.27.0
+! Last modified: Thu, 31 Jul 2025, 21:37 UTC+02:00
+! Version: 2025.7.31.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 27 lip 2025, 17:39 UTC+02:00
+! Aktualizacja: czw, 31 lip 2025, 21:37 UTC+02:00
 !
 !
 !
@@ -92,6 +92,7 @@ mediarun.com##.jeg_push_notification
 miastonowydwor.pl##.webpushBell
 military.pl###fc_frame-placeholder.fc-widget-placeholder
 minecraft.org.pl##[aria-label="Powiadomienia"]
+mokar.pl,saros.com.pl,wazcar.pl###push-notification-button
 moneygrabbing.co.uk###foxpush_native_html
 mtech.pl##.alertContainer
 mvno-gsm.pl###webpushr-prompt-wrapper
@@ -114,13 +115,10 @@ tunelefoliowe.eu##.wce_has-label.wce_popup-consolidator-trigger
 tygodniowa.pl##iframe[style*="fixed"]:not([src])
 um.gorzow.pl,wielen.pl,wronki.pl###js__webpushBell
 urban-vpn.com##.rgbc-slidedown-dialog
-wazcar.pl###push-notification-button
 wnp.pl##amp-web-push-widget
 www.interia.pl##header.page-header:has(#header_push_list .push-list-lock ~ .push-list-ul:empty) nav .push-number:only-child:not(:has(> *))
 zapytaj.onet.pl##.push-notification-box
 zdrowie.pap.pl##section ~ span[onclick="window.scrollTo(0, 0);"]
-zegarkiipasja.pl##.fcx-push-bubble-container
-zegarkiipasja.pl##.fcx-push-modal-container
 !
 !
 ! Ogólne filtry
