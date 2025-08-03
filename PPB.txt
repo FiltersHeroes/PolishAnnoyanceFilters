@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 02 Aug 2025, 17:40 UTC+02:00
-! Version: 2025.8.2.0
+! Last modified: Sun, 03 Aug 2025, 17:11 UTC+02:00
+! Version: 2025.8.3.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 02 sie 2025, 17:40 UTC+02:00
+! Aktualizacja: nie, 03 sie 2025, 17:11 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1268,6 +1268,7 @@ press.pl##.pressletter
 prestashop.com##.footer-nl
 prezydent.pl##.js-widget-subscription.widget-subscription.widget
 prgok.pl##footer .col-sm-9.col-xs-12
+primabiotic.pl##.newsletter-subscribe-container
 primavika.pl##.container-inner.bottom > .box3.box
 primocappuccino.pl##.sidebar-box > div.widget-box:nth-of-type(10)
 print-me.pl##.elementor-element-856293d
@@ -4005,7 +4006,7 @@ rexona.com##.c-back-to-top-cta
 ricoh.pl##.page-link-top
 rodzice.pl##.rehub_scroll
 rol-mech.pl,wnetrzaplusogrody.pl###hs-back-top
-rolgut.pl,salonydenon.pl,sklepogrodowy.pl,strojesportowe.eu,vvilk.com##.tvbottom-to-top
+rolgut.pl,salonydenon.pl,strojesportowe.eu,vvilk.com##.tvbottom-to-top
 rossmann.pl##a.fixed[style]:not([href])
 rowerzysta.pl##.block_newsletter
 rozetka.pl##rz-top-scroll
@@ -4571,7 +4572,6 @@ bilgorajska.pl,bobbyburger.pl,godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##
 bitrix24.pl,upominki24.pl,webiso.pl##div[class*="-widget-button-wrapper"]
 biznes.gov.pl,decathlon.pl,dollarro.com,mediaexpert.pl,uniqa.pl,vox.pl,wodociagi.krakow.pl###InteliwiseSaaSModule_win_wrapper
 bizuteria-eshop.pl###IMS_box1
-blinkee.city,expose.pl###ue_widget > #ue_launcher
 blinkmedia.pl##.phone_widget
 bludshop.com##.trusted_wrapper
 bmw-slusarczyk.pl##.button-joomly-callback-form
@@ -4730,6 +4730,7 @@ eventy-online.pl###phone-tag
 ewakacje.pl##.classNotesList_button
 ewl.com.pl##.side-contact
 ewozki.eu##div[id] > iframe[title="chat widget"]
+expose.pl###ue_widget > #ue_launcher
 expressit.pl###lz_eye_catcher, #lz_overlay_wm
 fachowcy.pl###fav-callback-wrapper, #liveChatContainer
 fakturownia.pl,inspiro.online,sugester.pl##.sugester_callback_widget_outline
@@ -4798,6 +4799,7 @@ hdmb.com.pl##.afc_popup
 hebe.pl,hebeapteka.pl##.embeddedServiceHelpButton
 helios.pl##.openSuggestionFormButton
 hes.pl##.indywidual-offer
+hm.com###CXButtonContainer
 homla.com.pl##.thulium-chat-placeholder-icon
 hostovita.pl##.ts-contact-livechat-info
 housemafia.pl###sbholder
@@ -5740,7 +5742,6 @@ forum.muratordom.pl###left_circus > .dostepne_mobile
 forum.optymalizacja.com##.cTopicPostArea:has(.cGuestTeaser)
 forum.swiateczne.info##.av-preloader-box
 forum.szafa.pl###recommendation
-franowocentrum.pl###fixed-cs-mobile
 freelancer.pl###fixed-banner
 frisco.pl##+js(set-cookie, go-to-app-ribbon, 1)
 frisco.pl##+js(set-cookie, go-to-app-ribbon-session, yes)
