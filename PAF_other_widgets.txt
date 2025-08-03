@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Tue, 22 Jul 2025, 17:43 UTC+02:00
-! Version: 2025.7.22.0
+! Last modified: Sun, 03 Aug 2025, 21:35 UTC+02:00
+! Version: 2025.8.3.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 22 lip 2025, 17:43 UTC+02:00
+! Aktualizacja: nie, 03 sie 2025, 21:35 UTC+02:00
 !
 !
 !
@@ -428,7 +428,6 @@ forum.muratordom.pl###left_circus > .dostepne_mobile
 forum.optymalizacja.com##.cTopicPostArea:has(.cGuestTeaser)
 forum.swiateczne.info##.av-preloader-box
 forum.szafa.pl###recommendation
-franowocentrum.pl###fixed-cs-mobile
 freelancer.pl###fixed-banner
 frisco.pl##+js(set-cookie, go-to-app-ribbon, 1)
 frisco.pl##+js(set-cookie, go-to-app-ribbon-session, yes)
@@ -774,6 +773,7 @@ oksport.pl##.best-of-week
 olagosciniak.pl,psychetee.pl###post-navigation > a > div[class]:not(id)
 old.reddit.com,pl.reddit.com,www.reddit.com##.premium-banner-outer
 oleole.pl##.header-banner
+olx.pl##.baxter-container:has(#calculator-loan_form, a[id*="PriceBoxLink"])
 olx.pl##.favourites-bar
 ombre.pl###menu_buttons3 > .bxslider > li:nth-of-type(2)
 omega.om.pl##.right.ecp-button
@@ -791,6 +791,7 @@ oponeo.pl###checkOrderStatus
 oponex.eu##.widget-allegro-2
 orange.pl##.payback-floating-sidebar__trigger
 ostatniatawerna.pl##.wp-post-nav > a > [id]
+otomoto.pl###financing-widget-simulator-entrypoint, #financing-widget-ad-under-price-entrypoint
 outlook.live.com##div[data-skip-link-name="Przejdź do wiadomości"] > div > div > div > div > div:has(> div input.form-control[placeholder="+1 (702) 123-4567"])
 outlook.live.com#?#[data-app-section="Ribbon"] + div > div:first-child:has(> div:has-text(/zaleca|recommends/) + button)
 ozonee.pl###free_shiping_info, #tws_i_2
