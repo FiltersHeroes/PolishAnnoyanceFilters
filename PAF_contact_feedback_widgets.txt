@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Wed, 20 Aug 2025, 21:33 UTC+00:00
-! Version: 2025.8.20.0
+! Last modified: Fri, 22 Aug 2025, 16:47 UTC+00:00
+! Version: 2025.8.22.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 20 sie 2025, 21:33 UTC+00:00
+! Aktualizacja: pią, 22 sie 2025, 16:47 UTC+00:00
 !
 !
 !
@@ -156,8 +156,8 @@ bechtle.com##.communication-box
 bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(4)
 bershka.com##chat
 bezpieczny.pl###call_phone
-biedronka.pl##.social-media a[href*="m.me"]
-biedronka.pl##.social-media a[href*="wa.me"]
+biedronka.pl##.social-icons a[href]:is([href*="/send"], [href*="messege"], [href*="wa.me/"], [href*="m.me/"])
+biedronka.pl##.social-media a[href*=".me"]:is([href*="wa.me"], [href*="m.me"])
 biedronka.pl##.widget-smartsection .footer-links ~ a[href*=".me"]:is([href*="wa.me"], [href*="m.me"])
 bigbaddice.pl##.icon-social-whatsapp
 bike-parts-honda.pl###fleche_popin_contact
