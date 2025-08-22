@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Thu, 21 Aug 2025, 17:39 UTC+02:00
-! Version: 2025.8.21.0
+! Last modified: Fri, 22 Aug 2025, 21:33 UTC+02:00
+! Version: 2025.8.22.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 21 sie 2025, 17:39 UTC+02:00
+! Aktualizacja: pią, 22 sie 2025, 21:33 UTC+02:00
 !
 !
 !
@@ -916,6 +916,7 @@ maciej.je##p:nth-of-type(47)
 magnapolonia.org##.tnp-subscription
 magnatfarby.pl##.sn-newsletter--homepage
 magusz.com.pl##a[href="#collapse_newsletter"]
+mailerlite.com##footer > div:only-child > div:first-child > div:last-child > :nth-child(-n+3)
 majsterkowo.pl,moj-kawalek-podlogi.pl,spirulina.pl,tato.net,techformator.pl,zatorland.pl###text-9
 makita.sklep.pl##.ModulNewsletterDol
 mam-serce.org##div.uk-section.uk-section-default:nth-of-type(10)
@@ -1368,6 +1369,7 @@ samorzad.pap.pl##.block-newsletter-block
 sandecja.org##.newsletter_bg
 scandinavian-clinic.pl###footer .footer-sidebar4
 scanner.com.pl##div.span3.top-in:nth-of-type(3)
+scentre.pl##.ui-comp-newsletter
 sck.com.pl,sck.pl###ms-newsletter-box
 scyzoryki.net,zielonysklep.com###footer_newsletters
 sdk.waw.pl##.mod_acymailing
