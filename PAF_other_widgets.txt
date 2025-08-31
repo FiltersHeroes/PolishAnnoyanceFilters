@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 29 Aug 2025, 21:33 UTC+02:00
-! Version: 2025.8.29.1
+! Last modified: Sun, 31 Aug 2025, 16:22 UTC+02:00
+! Version: 2025.8.31.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 29 sie 2025, 21:33 UTC+02:00
+! Aktualizacja: nie, 31 sie 2025, 16:22 UTC+02:00
 !
 !
 !
@@ -1246,9 +1246,11 @@ polsatnews.pl##.series__item { remove: true }
 ##.ZakladkaNewsletterOkno
 ##[class="cursor"]:empty:lang(pl)
 ##ptwp-infinite:lang(pl)
+~pl###tm-widget-alpaca:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 com,eu,info,pl###content > div#ipl-loader
 com,eu,info,pl###content > div#primary span.loaded.ipl
+pl###tm-widget-alpaca
 pl##.csocial-link[href*="olx.pl"]
 pl##.csocial-link[href*="otomoto.pl"]
 pl##.ratingBadgeWrapper
