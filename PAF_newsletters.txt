@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 31 Aug 2025, 16:22 UTC+02:00
-! Version: 2025.8.31.0
+! Last modified: Sun, 31 Aug 2025, 21:31 UTC+02:00
+! Version: 2025.8.31.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 31 sie 2025, 16:22 UTC+02:00
+! Aktualizacja: nie, 31 sie 2025, 21:31 UTC+02:00
 !
 !
 !
@@ -1837,7 +1837,6 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ##.block-simplenews:lang(pl)
 ##.block-subscribe:lang(pl)
 ##.block_newsletter:lang(pl)
-##.box-newsletter:lang(pl)
 ##.boxNewsletter:lang(pl)
 ##.btn-newsletter:lang(pl)
 ##.c-newsletter:lang(pl)
@@ -1924,6 +1923,7 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ~drogeriaolmed.pl,pl##.newsletter-btn
 ~dron.pl,pl##.widget_wysija
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
+~lantre.pl##.box-newsletter:lang(pl)
 ~mediaexpert.pl,pl##.form-newsletter
 ~pap.pl,pl,~poradnikprzedsiebiorcy.pl###newsletter-form
 ~pip.gov.pl,pl##.newsletter-content
