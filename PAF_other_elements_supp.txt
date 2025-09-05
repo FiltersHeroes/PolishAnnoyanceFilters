@@ -167,8 +167,6 @@ tabletowo.pl##.bwswitch:style(position: absolute !important)
 tablety.pl##.image-ticker-news:style(left: 0 !important)
 teatr.bedzin.pl##html.intro-is-opened, html.intro-is-opened body.intro-is-opened:style(overflow-y: auto !important)
 teletoonplus.pl##.drizzle_l:style(z-index: 0 !important)
-tvn.pl##+js(json-prune, playlist.options.auto_play_when_visible)
-tvn.pl,tvn24.pl##+js(json-prune, options.auto_play)
 tysol.pl##.section_name.uppercase:style(font-size: 18pt !important)
 urzadskarbowy.gov.pl##+js(set-session-storage-item, smartBannerVisible, false)
 vod.tvp.pl###siteServiceDetal.playerOpened .playerContainer:style(margin-top: 30px !important)
@@ -189,6 +187,8 @@ zapytaj.onet.pl##.profile-actions > .music
 znaki.edu.pl##+js(aeld, keydown, ssc_keydown)
 znaki.edu.pl##+js(aeld, wheel, ssc_wheel)
 znanylekarz.pl##+js(set-local-storage-item, banner.wasFullPageBannerDisplayed, true)
+tvn.pl##+js(json-prune, playlist.options.auto_play_when_visible)
+tvn.pl,tvn24.pl##+js(json-prune, options.auto_play)
 !#if !cap_html_filtering
 karachan.org##+js(acis, setInterval, Math.random)
 komputerswiat.pl###ks_breaking_news:style(position: absolute !important; left: -3000px !important)
@@ -198,9 +198,6 @@ karachan.org##^script:not([src]):min-text-length(100):has-text(/style.*xD/)
 komputerswiat.pl##^#ks_breaking_news
 !#endif
 !#if !env_firefox
-! permissions=autoplay=()|unsized-media=()
-|http*://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
-||dailymotion.com^$permissions=autoplay=()|unsized-media=()
 cs-harnas.pl,gearbest.com,jaguar.pl,kwit.pl,progrupa.com,przeswietl.pl,seniorka-z-plecakiem.pl,sparta.com.pl,start.me##body:style(scrollbar-color: #C1C1C1 #F1F1F1 !important; scrollbar-width: auto !important)
 czestochowskie24.pl,farmacja.net##body, div:style(scrollbar-color: #C1C1C1 #F1F1F1 !important; scrollbar-width: auto !important)
 youtube.com###guide-inner-content:style(scrollbar-color: #C1C1C1 #F1F1F1 !important; scrollbar-width: auto !important)
