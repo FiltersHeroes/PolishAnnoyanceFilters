@@ -1,3 +1,5 @@
 ! permissions=autoplay=()|unsized-media=()
 |http*://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
 ||dailymotion.com^$permissions=autoplay=()|unsized-media=()
+tvn.pl##+js(json-prune, playlist.options.auto_play_when_visible)
+tvn.pl,tvn24.pl##+js(json-prune, options.auto_play)
