@@ -2,6 +2,7 @@
 @sectionsPath PPB/uBO_AG
 @include inne_sieciowe_suplement
 @include inne_suplement
+@include scroll_film_i_inne_suplement
 !#if !cap_html_filtering
 @include inne_bez_html
 !#endif
@@ -9,7 +10,6 @@
 @include inne_html
 !#endif
 !#if !env_firefox
-@include scroll_film_suplement_sieciowe
 @include inne_Chromium
 !#endif
 !#if env_firefox
