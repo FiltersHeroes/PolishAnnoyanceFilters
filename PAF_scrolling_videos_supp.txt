@@ -34,9 +34,9 @@ sportowefakty.wp.pl###randomplayer[class*="fixed"], #randomplayer[class*="fixed"
 store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important)
 store.steampowered.com##div[data-featuretarget="broadcast-embed"] div:matches-css(position: fixed)
 topagrar.pl##+js(aeld, scroll, [native code])
+wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important)
 tvn.pl##+js(json-prune, playlist.options.auto_play_when_visible)
 tvn.pl,tvn24.pl##+js(json-prune, options.auto_play)
-wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important)
 !#if !env_mobile
 !
 !#endif
@@ -45,11 +45,6 @@ wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !import
 !#endif
 !#if !cap_user_stylesheet
 !
-!#endif
-!#if !env_firefox
-! permissions=autoplay=()|unsized-media=()
-|http*://*.*$doc,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost|~stooq.com|~stooq.pl,permissions=autoplay=()
-||dailymotion.com^$permissions=autoplay=()|unsized-media=()
 !#endif
 !#if !ext_ublock
 infozdrowie24.pl#$#.miniplayer { position: absolute !important; transition: unset !important; }
