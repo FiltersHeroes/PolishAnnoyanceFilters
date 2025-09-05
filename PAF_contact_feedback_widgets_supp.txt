@@ -1,6 +1,5 @@
 ! Codename: Contact Widgets - Supplement
-orange.pl##iframe#OPLWCI[style*="fixed"][style*="z-index"][style*="height: 110px"]:style(visibility: hidden !important)
-orange.pl##iframe#OPLWCI[style*="fixed"][style*="z-index"][style*="height: 238px"]:style(visibility: hidden !important)
+orange.pl##iframe#OPLWCI[style*="fixed"][style*="z-index"][style]:is([style*="height: 110px"], [style*="height: 238px"]):style(visibility: hidden !important)
 !
 ! Filtry specjalne
 !#if !ext_ublock
