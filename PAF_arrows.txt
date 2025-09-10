@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Tue, 09 Sep 2025, 21:33 UTC+02:00
-! Version: 2025.9.9.0
+! Last modified: Wed, 10 Sep 2025, 17:37 UTC+02:00
+! Version: 2025.9.10.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 09 wrz 2025, 21:33 UTC+02:00
+! Aktualizacja: śro, 10 wrz 2025, 17:37 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -77,7 +77,6 @@ aliexpress.com##.ui-fixed-panel-go-top
 aligator.net.pl##.newslet
 alko-garden.pl###jumptotop
 allegro.pl##button[title="Do góry"]
-allpaka.eu,asimexplus.com,eperfumy.pl,influencja.pl,serygoralskie.pl,siapre.pl,skirace.pl,vivosklep.pl###do_gory
 aluprof.eu##.sidebar__link--top
 amooco.com###footer-backtop
 ams.com.pl,bohaterdomu.pl,inforfk.pl###back2top
@@ -944,7 +943,6 @@ zjedz.my##.scroll_top_arrow
 znamlek.pl##.btnScroll
 zooplus.pl##button[class*="GoTopButton_button_"]
 zszywka.pl###scroolToTop
-ztedevices.com##.back-top
 zzachodu.pl##.in.g5core-back-to-top
 !
 !
@@ -965,6 +963,7 @@ zzachodu.pl##.in.g5core-back-to-top
 ###cb-to-top:not(body, html, .wrapper):lang(pl)
 ###do-dolu
 ###do-gory
+###do_gory
 ###doDolu
 ###dodolu
 ###doGory
