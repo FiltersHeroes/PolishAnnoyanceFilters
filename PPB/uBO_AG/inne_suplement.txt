@@ -1,3 +1,5 @@
+!poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"] div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):style(opacity: 0.3 !important)
+!poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):not(:has(div[id^="komentarz-"])):style(opacity: 0.3 !important)
 !rj.metropoliaztm.pl,rj.transportgzm.pl##table[style] tr span[style*="font"]:remove-attr(style)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
@@ -137,8 +139,6 @@ pl##html[data-smartbanner-original-margin-top^="0"][style]:style(margin-top: 0 !
 plus.pl##+js(set-cookie, isIplusClosed, true)
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body > style:last-child:has-text(/\._[a-z0-9]{12}/):remove()
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
-!poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"] div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):style(opacity: 0.3 !important)
-!poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):not(:has(div[id^="komentarz-"])):style(opacity: 0.3 !important)
 polsatnews.pl##.series__item:remove()
 posnania.eu##.customScroll__bar
 proline.pl##blockquote:style(transform: unset !important; rotate: unset !important)
