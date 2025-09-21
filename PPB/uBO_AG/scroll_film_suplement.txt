@@ -9,7 +9,6 @@ elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl
 eurosport.tvn24.pl##+js(norafif, toggleFloatingClass)
 forsal.pl##+js(set, parseFloat, noopFunc)
 gamerweb.pl##.zox-video-embed-wrap .zox-vid-fixed:style(position: relative !important)
-pogoda.interia.pl##+js(set, Object.prototype.forcingFixedMonitorOff, true)
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important)
 interia.pl,interia.tv,poboczem.pl,pomponik.pl,styl.pl##div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 interia.pl,~m.interia.pl,pomponik.pl##.floating-player-started > .xlink-floating-wsx
@@ -25,6 +24,7 @@ medianarodowe.com,parkiet.com,rp.pl##.linear-tv__iframe:style(position: static !
 onet.pl,~poczta.onet.pl,~www.onet.pl##div[class="player-mvp-wrap js-player-mvp-wrap active"]:style(visibility: hidden !important)
 pl###player-container .veedmo-video-player .vjs-layout-small > *:not(meta):style(visibility: hidden !important)
 pl###player-container .veedmo-video-player .vjs-layout-small:style(visibility: hidden !important)
+pogoda.interia.pl##+js(set, Object.prototype.forcingFixedMonitorOff, true)
 przegladsportowy.onet.p###videoPlayer.sticky[style*="top"]:remove-attr(style)
 sport.interia.pl,wydarzenia.interia.pl##.vjs-fixedmonitor-wrapper-fixed:not(.vjs-fixedmonitor-fixed-slide-down):has(+ .vjs-fixedmonitor-placeholder.visible)
 sport.interia.pl,wydarzenia.interia.pl#@#div[class*="video"] div[class="vjs-fixedmonitor-wrapper"] > div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"]:style(visibility: hidden !important)
