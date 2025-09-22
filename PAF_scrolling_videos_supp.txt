@@ -38,7 +38,9 @@ wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !import
 tvn.pl##+js(json-prune, playlist.options.auto_play_when_visible)
 tvn.pl,tvn24.pl##+js(json-prune, options.auto_play)
 !#if !env_mobile
-!
+!mcdonalds.pl##:matches-media((min-width: 901px)) iframe:style(z-index: 999 !important)
+mcdonalds.pl##:matches-media((min-width: 901px)) .mc-story__side > *:style(pointer-events: auto !important)
+mcdonalds.pl##:matches-media((min-width: 901px)) .mc-story__side:style(pointer-events: none !important)
 !#endif
 !#if cap_user_stylesheet
 !
