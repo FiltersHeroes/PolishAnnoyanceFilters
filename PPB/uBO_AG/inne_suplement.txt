@@ -1,4 +1,3 @@
-ithardware.pl##iframe[title="Disqus"]:style(filter: none !important)
 !poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"] div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):style(opacity: 0.3 !important)
 !poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):not(:has(div[id^="komentarz-"])):style(opacity: 0.3 !important)
 !rj.metropoliaztm.pl,rj.transportgzm.pl##table[style] tr span[style*="font"]:remove-attr(style)
@@ -82,6 +81,7 @@ hondanews.eu###body[data-simplebar]:style(overflow-x: hidden; overflow-y: auto !
 hub.pl,interia.pl,pomponik.pl##[class*="embed"] > span[style*="opacity"]:style(opacity: 1 !important)
 instalki.pl##:matches-media((min-width: 1488px)) .dracula-toggle-wrap.floating:style(--toggle-position: absolute !important; --bottom-offset: unset !important; top: 25px !important)
 irfanview.com##.mirror-icon:style(background-position-y: -150px !important;)
+ithardware.pl##iframe[title="Disqus"]:style(filter: none !important)
 jarmarktumski.pl##.gt3_preloader::after
 jarmarktumski.pl##body > .op0:style(opacity: 1 !important)
 kawro.pl##.infobar-bar:style(position: static !important; clear: both; height: auto !important)
