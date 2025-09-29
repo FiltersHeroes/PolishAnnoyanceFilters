@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 26 Sep 2025, 17:37 UTC+02:00
-! Version: 2025.9.26.0
+! Last modified: Mon, 29 Sep 2025, 21:33 UTC+02:00
+! Version: 2025.9.29.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 26 wrz 2025, 17:37 UTC+02:00
+! Aktualizacja: pon, 29 wrz 2025, 21:33 UTC+02:00
 !
 !
 !
@@ -159,6 +159,7 @@ aptekacurate.pl,aptekapomocna24.pl,pomocna24.pl###eyeAble_container_ID
 aptekaolmed.pl,drogeriaolmed.pl###productOfTheDay
 aptekazawiszy.pl##article:has(.auto-promo)
 aptekazawiszy.pl##div.banner a.banner
+apteline.pl##.product-list__item:has(.product-item--product-of-the-week)
 arcanagis.pl##.article__popup
 architekturaibiznes.pl###BRAKING_NEWS
 archonhome.pl,pizzapelati.pl###musli
@@ -984,6 +985,7 @@ spozywo.pl##.adj-next, .adj-previous
 sprezarki.info.pl###stickypromocja
 sprzedajemy.pl##.newest_offers, .offerDetailsRightBlueBox, .land15mln
 sprzedawacz.pl##.bookmark
+ssl.webh.pro##.float-gp
 staleo.pl###MultiCookieInfo-regulaminInfo
 stanmed24.pl###about, #contact, #airmini
 starter.net.pl##.mk-portfolio-pagination
