@@ -115,7 +115,6 @@ nbsklep.pl##+js(set-cookie, mobile_application_installed, false)
 ofeminin.pl##.quote:style(transform: unset !important; rotate: unset !important)
 oferty.dsautomobiles.pl,oferty.peugeot.pl##.row > .formularz:style(position: static !important)
 onet.pl##+js(set-local-storage-item, sg.notificationsCounter.fake, 0)
-polsatnews.pl##+js(set-local-storage-item, mailClicked, 1)
 onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important)
 onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"]
 onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !important)
@@ -140,6 +139,7 @@ pl##html[data-smartbanner-original-margin-top^="0"][style]:style(margin-top: 0 !
 plus.pl##+js(set-cookie, isIplusClosed, true)
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body > style:last-child:has-text(/\._[a-z0-9]{12}/):remove()
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
+polsatnews.pl##+js(set-local-storage-item, mailClicked, 1)
 polsatnews.pl##.series__item:remove()
 posnania.eu##.customScroll__bar
 proline.pl##blockquote:style(transform: unset !important; rotate: unset !important)
