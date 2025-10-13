@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 05 Oct 2025, 17:33 UTC+02:00
-! Version: 2025.10.5.0
+! Last modified: Mon, 13 Oct 2025, 21:33 UTC+02:00
+! Version: 2025.10.13.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 05 paź 2025, 17:33 UTC+02:00
+! Aktualizacja: pon, 13 paź 2025, 21:33 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -680,6 +680,7 @@ pl.ccm.net###jGoTop
 pl.chili.com###returnTop
 pl.factcool.com##button.fcicon-return
 pl.hisense.com###pageNavCorner_top
+pl.pons.com##.back-to-top-button-bottom
 pl.promocodie.com##.mgotop
 pl.trip.com##.mod-back-top-block
 planetasportu.com,slodkiehobby.pl##.right > .return
@@ -1036,7 +1037,7 @@ zzachodu.pl##.in.g5core-back-to-top
 ###yt-totop:not(body, html, .wrapper):lang(pl)
 ##.action-scroll-top:not(body, html, .wrapper):lang(pl)
 ##.arrow-to-top:not(body, html, .wrapper):lang(pl)
-##.arrow-up:not(body, html, .wrapper):lang(pl)
+##.arrow-up:not(body, html, .wrapper, .dropdown-menu):lang(pl)
 ##.atomsNavigationFooterScroller__link:not(body, html, .wrapper):lang(pl)
 ##.aux-goto-top-btn:not(body, html, .wrapper):lang(pl)
 ##.avt-arrow-wrapper:not(body, html, .wrapper):lang(pl)
