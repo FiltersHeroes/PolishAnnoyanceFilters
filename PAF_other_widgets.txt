@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Wed, 08 Oct 2025, 21:33 UTC+02:00
-! Version: 2025.10.8.0
+! Last modified: Wed, 15 Oct 2025, 17:37 UTC+02:00
+! Version: 2025.10.15.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 08 paź 2025, 21:33 UTC+02:00
+! Aktualizacja: śro, 15 paź 2025, 17:37 UTC+02:00
 !
 !
 !
@@ -724,7 +724,7 @@ myfitnessplace.pl##.app-ico
 myspeed.pl###load.ring-loader
 nadmorski24.pl##.popup-see-more
 naekranie.pl###prezentownik
-naekranie.pl##.side-promo, .weekend-edition-header, .floating.share-buttons, .floating.social-buttons
+naekranie.pl##.side-promo, .weekend-edition-header, .floating:is(.share-buttons, .social-buttons)
 najlepszebuty.com.pl##.fixed-promo-banner
 namyslow.eu##.hidden-sm.hidden-xs.airly-boczny, .hidden-sm.hidden-xs.pasek-boczny
 napiachu.pl##.blueNotification:has(a[href="/konto-plazowicza"])
@@ -1010,6 +1010,7 @@ szkolajazdykoronamm.pl##.spjwidget-double a[href$="/szkola-jazdy-korona-mm,20821
 szkolnastrona.pl##.btn-fav
 sznyt.pl##.recommended-articles
 szpitalepomorskie.eu###loftloader-wrapper
+tabletowo.pl##.share-buttons
 tablety.pl##p > .wp-embedded-content
 tamaj.pl###allwidget
 taniefototapety.eu##.opinions_badge
@@ -1120,8 +1121,10 @@ x.com###layers > div[class*=" "]:first-of-type:has(a[href="/i/flow/signup"])
 x.com#?##layers > div[class*="css-"][class*=" r-"] > div[style*="position:"][style*="absolute"] > div:only-child > div:only-child > div:only-child:has(> div:not(:only-child) > div:not(:only-child) > div:not(:only-child):has-text(Bądź na bieżąco))
 xgp.pl###hpb.hpb
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
+youtube-nocookie.com,youtube.com####.ytp-endscreen-content
 youtube-nocookie.com,youtube.com##.ytp-ce-element
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
+youtube-nocookie.com,youtube.com##div[title*="Więcej filmów"][aria-label*="Ukryj filmy"]
 youtube.com##tp-yt-paper-toast:has(a[href*="#check_ad_blockers"], a[href*="check-your-extensions-including-ad-blockers"])
 youtube.com#?#tp-yt-paper-toast:has(yt-mealbar-promo-renderer:has-text(/Odblokuj bonusy specjalne|Przedstawiamy Sample|Zacznij wspierać ten kanał|Szukasz więcej funkcji muzycznych/))
 yves-rocher.pl##.layout-banner__top.layout-banner
