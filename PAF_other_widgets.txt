@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Wed, 15 Oct 2025, 17:37 UTC+02:00
-! Version: 2025.10.15.0
+! Last modified: Thu, 16 Oct 2025, 19:46 UTC+02:00
+! Version: 2025.10.16.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 15 paź 2025, 17:37 UTC+02:00
+! Aktualizacja: czw, 16 paź 2025, 19:46 UTC+02:00
 !
 !
 !
@@ -1121,8 +1121,8 @@ x.com###layers > div[class*=" "]:first-of-type:has(a[href="/i/flow/signup"])
 x.com#?##layers > div[class*="css-"][class*=" r-"] > div[style*="position:"][style*="absolute"] > div:only-child > div:only-child > div:only-child:has(> div:not(:only-child) > div:not(:only-child) > div:not(:only-child):has-text(Bądź na bieżąco))
 xgp.pl###hpb.hpb
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
-youtube-nocookie.com,youtube.com####.ytp-endscreen-content
 youtube-nocookie.com,youtube.com##.ytp-ce-element
+youtube-nocookie.com,youtube.com##.ytp-endscreen-content
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
 youtube-nocookie.com,youtube.com##div[title*="Więcej filmów"][aria-label*="Ukryj filmy"]
 youtube.com##tp-yt-paper-toast:has(a[href*="#check_ad_blockers"], a[href*="check-your-extensions-including-ad-blockers"])
