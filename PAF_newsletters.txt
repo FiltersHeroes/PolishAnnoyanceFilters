@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Wed, 08 Oct 2025, 21:33 UTC+02:00
-! Version: 2025.10.8.0
+! Last modified: Tue, 21 Oct 2025, 17:37 UTC+02:00
+! Version: 2025.10.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 08 paź 2025, 21:33 UTC+02:00
+! Aktualizacja: wto, 21 paź 2025, 17:37 UTC+02:00
 !
 !
 !
@@ -346,6 +346,7 @@ chocolissimo.pl##a[href="javascript:showNewsletterLayer();"]
 chodnikliteracki.pl##a[href*="/newsletter/"] > img[src$="/newsletter.png"]
 choinkowo.pl##.shb-newsletter-widget-5
 cholewinski.com##.cho-subscribe
+chrobok.eu###kontakt > div:first-child > div:first-child:has(form [type="email"])
 ciara.pl##.col-md-4.col-sm-12.col-xs-12.footer-widgets-area.footer-widgets-area-4
 ciekawostkihistoryczne.pl##.footer-fixed
 citroen.pl##.column_50.columns:first-of-type
