@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 25 Oct 2025, 20:31 UTC+02:00
-! Version: 2025.10.25.0
+! Last modified: Sat, 25 Oct 2025, 21:33 UTC+02:00
+! Version: 2025.10.25.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 25 paź 2025, 20:31 UTC+02:00
+! Aktualizacja: sob, 25 paź 2025, 21:33 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2642,7 +2642,7 @@ naturbio.pl###rm_pop_up_entry
 nawado.pl##.inc_optin_1.inc_opt_popup
 nawado.pl##.inc_optin_1.wpoi-overlay-mask
 nawakacje.eu,rytmynatury.pl##.ays-fpl-modals
-nawozy.eu##.newsletterPopup
+nawozy.eu,specto.com.pl##.newsletterPopup
 nbsklep.pl##.sp-fancybox-wrap
 niedziela.pl###entranceModal
 niedziela.pl###ewydanieModal
@@ -3711,7 +3711,7 @@ industriehof.com,sportisimo.pl###jumptop
 infoaudio.pl,infomusic.pl,obiektyspa.com###slideup
 infoplanet.pl##.goup-container
 infores.net###icon-mobile-scroll-top
-informatique-mania.com##.go-to-top-button
+informatique-mania.com,specto.com.pl##.go-to-top-button
 inka.pl,klarta.pl##.slide-up-btn
 inlago.pl,sklep.maxkuchnie.pl##.button-scroll
 inpost.pl##.footerMatToTop
