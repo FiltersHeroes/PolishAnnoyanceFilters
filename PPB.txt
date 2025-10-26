@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 26 Oct 2025, 11:04 UTC+00:00
-! Version: 2025.10.26.0
+! Last modified: Sun, 26 Oct 2025, 12:37 UTC+00:00
+! Version: 2025.10.26.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 26 paź 2025, 11:04 UTC+00:00
+! Aktualizacja: nie, 26 paź 2025, 12:37 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -291,7 +291,7 @@ bravebeaver.pl,semprewithlove.pl,smartbake.pl###text-5
 brita.pl##.validation.form-group
 brownells.pl##.ic-popupLinkNewsletter
 brw.pl##.blok-newsletter
-brymorex.pl,sklep.enger.pl##.newsletter-ui
+brymorex.pl##.newsletter-ui
 brytyjka.pl###gsNewsbox
 bto.pl###StopkaAktywnaNewsletter
 budujemydom.pl###newsBoxLeft
@@ -1117,7 +1117,6 @@ ochnik.com##.footer__block--newsletter
 ock.gov.pl##.col-xs-10.col-sm-10.col-md-3.col-lg-offset-2.col-lg-3
 odblask.com.pl##.scrollToNewsletter
 odessamarket.pl###footer.footer .widget_presscore-contact-form-widget.widget
-ofertapracy.monsterpolska.pl###liteRegDiv
 ofertatorun.pl##.content_bottom.row
 oficynafk.pl##.col-md-4 > .row:nth-of-type(3)
 ofix.pl##.newsletterHome__wrapper
@@ -1434,7 +1433,6 @@ sklep.rai-bud.pl##div.CalyBox:nth-of-type(3)
 sklep.regalia.eu##footer > .row > .footer-block:only-child
 sklep.sizeer.com##.b-footer_newsletter
 sklep.skrypt.com.pl##.footer-conteiner > ul:nth-of-type(3)
-sklep.spidersweb.pl###nslt
 sklep.szeged.pl##section ~ section:has(> div .elementor-widget-wp-widget-mc4wp_form_widget .mc4wp-form input[placeholder="Twój adres e-mail"])
 sklep.thepartners.pl##footer > div > .vc_row:has(.mailpoet_form)
 sklep.tonerylublin.pl##ul:nth-of-type(4)
@@ -1468,7 +1466,6 @@ soczko.pl##.subscribe_f
 sodexo.pl###content > #sg-form-row
 sofly.club##.newsletter-widget-1
 softekspert.pl##.left-block:nth-of-type(3)
-softnet.com.pl###footer_section > .ogranicznik > div > div:nth-child(3)
 sokolow.pl##.clearfix.ds-1col.paragraph--view-mode-default.paragraph--type-block.paragraph
 solidnedrzwi.pl##.newletter-subscribe-container
 solnemiasto.eu##.alo_easymail_widget
@@ -1507,7 +1504,6 @@ stopnop.com.pl##div.col:first-of-type > .footer-widget
 store.canon.pl##.primary-signup
 stosunki-miedzynarodowe.pl##.art-sidebar1 > .art-block
 stradivarius.com##.page-footer-news
-straz.gov.pl##.col-xs-10.col-sm-10.col-md-8.col-lg-3
 strefa-zakupowa.pl##.moduletable4
 strefainwestorow.pl###newsletter-ipo
 strefakursow.pl##.b-site-footer__margin-right-30.u-flex-direction-col.u-display-flex
@@ -1532,7 +1528,6 @@ szaron.pl##.fl-row-align-center.fl-row-default-height.fl-node-u5i3tozmndkg.fl-ro
 szarotka.eu##.Footer_L
 szerokadroga.pl##.gum_footer_widget.widget:nth-of-type(3)
 szopi.pl##.scisco-widget.widget_mc4wp_form_widget
-szukampracownika.monsterpolska.pl###mailreg_cont
 szybkanauka.pro##.tcb-flex-center.tcb--cols--3.tcb-flex-row > div.tcb-flex-col.tve_empty_dropzone:nth-of-type(3)
 tabelaofert.pl###newsletter_stopka
 tabloidonline.blog,techno-senior.com##.widget_blog_subscription
@@ -1772,7 +1767,6 @@ zdrowie.pap.pl##section ~ a[href="/newsletter/form"]
 zdrowie.wprost.pl##.newsletter-plugin-info
 zegarek.net##footer > .backGroundX.container-fluid > .container
 zegarkiipasja.pl###contactBoxForm
-zeropln.antyweb.pl##div > .relative.bg-grey-light
 zgarden.pl##.col-xs-6.col-sm-5.col-lg2-offset-5.col-lg2-3
 zhp.pl##.static-area.mh-el:nth-of-type(5)
 zielonepogotowie.pl###footgroup_newsletter
@@ -2972,7 +2966,6 @@ www.auchan.pl##.popin, .v-overlay
 www.auto8.pl##.cover
 www.chcemybycrodzicami.pl###a-welcome
 www.dobreprogramy.pl###exitPopupContainer
-www.kei.pl##div[id^="modal"][style].modal
 www.motorola.com##.ReactModalPortal
 wyborcza.pl##.mcBan > .mod_swimmer[data-cta-category="plywak"]
 wyborcza.pl##.mod_ddbox
@@ -3435,7 +3428,7 @@ biuropodrozymax.pl###ui-up-arrow
 biurowazszywka.pl,montaz-anten.tv##.ast-scroll-top-icon
 biznesomania.com.pl,igomedia.pl,notebooki.pl##.goto-top
 biznesplan.net.pl##.ta_upscr
-blasty.pl,hulaka.pl###widget-back-to-top
+blasty.pl###widget-back-to-top
 blix.pl##.rewindTopButton.footer__rewind-button
 blizejciebie.pl,seni24.pl##.quicknav-to-top
 blog.doktortusz.pl##.mb-to-top
@@ -3455,7 +3448,7 @@ bosch-extra.pl,extra-program.pl,florens.pl,glovoapp.com##.to-top-button
 bozejow.pl##.active-progress.cursor-pointer.progress-wrap
 briju.pl##.Footer-BackToTop
 browhennapolska.pl,czops.pl,neuf.tv,vikking.eu###kt-scroll-up
-brymorex.pl,sklep.enger.pl,tayamagroup.pl###top-button-ui
+brymorex.pl,tayamagroup.pl###top-button-ui
 bs.limanowa.pl##.block-arrow--small
 btcpolska.com##.show-top-button
 budujzdrewna.pl,cnc.info.pl,electro.pl,forum-bron.pl,zenox.pl##.scroll-btn
@@ -3817,7 +3810,6 @@ lycamobile.pl##button[class*="goToTop"]
 lysamowi.pl##.wishbone_backtotop
 m3system.pl##.ish-back_to_top
 m.digitalcamerapolska.pl###gtop
-m.wirtualnemedia.pl##.button_up
 magazyn-firma.pl##.oxy-back-to-top
 magrebud.pl,szczebrzeszyn.info##.u-back-to-top
 make-cash.pl##.back-to-top-icon
@@ -3846,6 +3838,7 @@ mediamarkt.pl###js-scrollTopDesktop
 medicover.pl,rehasport.pl##.scrollTopArrow
 medonet.pl,ogrodmacieja.pl,plus.pl##.goToTop
 medonetmarket.pl##.medo-scroll-to-top
+medycyna24.pl###toTopBtn
 medycznie.com.pl,sklep.korbanek.pl##.scrollToTopBtn
 mercureszczyrk.pl,otoz.pl,tpnmm.pl##.goup
 merida.com.pl##.scroll-top-up
@@ -5019,7 +5012,6 @@ optitaxi.pl###uptocall-mini
 optykwnecie.pl##.whatsappchat-anchor
 oracle.com##.ochat_slideout, .cw21help
 orange.pl#@##OPLWCI
-oszczedzarka.co.uk##.textwidget > p > img[src="/img/ico/skype.png"]
 outside.com.pl##.bonfire-slideout-button
 ox.pl##.contact-with-office
 pancernik.eu##.arcu-message-button
@@ -5062,7 +5054,6 @@ pl.farnell.com##.live-chat
 pl.malwarebytes.com###cta-feedback-flyout-en
 pl.pons.com###hj-feedback
 pl.trip.com##.mod-back-top-chat
-pl.tripadvisor.com#?#body > div[aria-live="polite"]:has(span:has-text(Opowiedz nam o swoim doświadczeniu ze stroną Tripadvisor))
 planeta-budowlana.pl##.messenger_toggle
 pleso.me##.__icon-messenger
 pleso.me##.fixed a[href*="messenger"]
@@ -6127,7 +6118,6 @@ ombre.pl###menu_buttons3 > .bxslider > li:nth-of-type(2)
 omega.om.pl##.right.ecp-button
 onet.pl##div[class^="BackToMainPage_backToMainPage"]
 onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
-online.citibank.pl##.call-to-action-bottom
 onlinezdrowie.pl###post-nav
 oohmagazine.pl##.festiwal_card_tab
 opieka.farm##.CampaignType--slide:has(.anchorage-close)
