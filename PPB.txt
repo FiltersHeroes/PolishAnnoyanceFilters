@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 25 Oct 2025, 21:33 UTC+02:00
-! Version: 2025.10.25.1
+! Last modified: Sun, 26 Oct 2025, 11:04 UTC+00:00
+! Version: 2025.10.26.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 25 paź 2025, 21:33 UTC+02:00
+! Aktualizacja: nie, 26 paź 2025, 11:04 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1621,6 +1621,7 @@ uchwyt.pl###newsletterdiv
 ulicaekologiczna.pl###newsletter_wrap, .sidebar.columns.large-5.small-15
 um24.pl##.jsNewsletter
 undiz.com##.nsw-und-ft
+unhuman.pl###footer_newsletter > form
 unia-sklep.pl##.et_pb_module .mc4wp-form
 unia.pl###bottom1, #bottom2
 union-investment.pl##.bottom-left.col-xs-12.col-sm-6.col-md-5
@@ -1804,12 +1805,12 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ###email-subscribers-2:lang(pl)
 ###footer-newsletter-subscribe:lang(pl)
 ###footer-newsletter:lang(pl)
-###footer_newsletter:lang(pl)
 ###footer_newsletters:lang(pl)
 ###footerNewsletter:lang(pl)
 ###home_newsletter:lang(pl)
 ###mailchimp-top-bar:lang(pl)
 ###mc_embed_signup_scroll:lang(pl)
+###menu_buttons .newsletter_section .newsletter
 ###newsletter-container:lang(pl)
 ###newsletter-footer:lang(pl)
 ###newsletter-promo:lang(pl)
@@ -1850,6 +1851,7 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ##.footer-newsletter-form:lang(pl)
 ##.footer-subscribe:lang(pl)
 ##.footer__newsletter:lang(pl)
+##.footer_links_label[title="Newsletter"]
 ##.footer_newsletter:lang(pl)
 ##.ft_newsletter:lang(pl)
 ##.g1-newsletter:lang(pl)
@@ -1928,6 +1930,7 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ~pap.pl,pl,~poradnikprzedsiebiorcy.pl###newsletter-form
 ~pip.gov.pl,pl##.newsletter-content
 ~tvn24.pl##.newsletter-subscribe:lang(pl)
+~unhuman.pl###footer_newsletter:lang(pl)
 pl##:not(#newsletter-overlay) #newsletter-box
 pl##div[id*="tws_i_"]:has(#menu_newsletterwidget)
 pl,~znak.com.pl##.newsletter-container
@@ -2111,7 +2114,7 @@ allegro.pl##div[data-box-name="allegro.ratings.sellerRatingForm"] div[style*="re
 allegro.pl##div[data-box-name="modalBW"]
 allegro.pl##div[data-prototype-id="allegro.app.promotion"]
 allmedica.pl###modalbox-1, .modalbox-overlay
-alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megasport.com,ksiegarnia-edukacyjna.pl,malowanebiela.pl,megazoologiczny.pl,mito-pharma.pl,rm.com.pl,rpolanski.com,surgepolonia.pl###tws_i_100000
+alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megasport.com,ksiegarnia-edukacyjna.pl,malowanebiela.pl,megazoologiczny.pl,membrana.pl,mito-pharma.pl,rm.com.pl,rpolanski.com,surgepolonia.pl###tws_i_100000
 amazfitpolska.pl,device.pl,it-develop.pl,jagiellonski.pl,luqam.com,luxmedlublin.pl,mensis.pl,nanowosmieci.pl,ombre.pl,pl.horn.eu,portalmorski.pl,salonydenon.pl,sklep.apet.pl,tvokazje.pl,winotoskanii.pl,wyborkierowcow.pl,yumisu.pl,zbigniewsyc.pl##.wf2-popover.grwf2-wrapper, .grwf2_backdrop
 android.com.pl##.social-popup
 anita-sklep.pl,csk-med.pl,designbywomen.pl,dingo-shop.com.pl,ekopaka.pl,klasycznebuty.pl,kokonki.pl,lamaglama.pl,newled.pl,roboexpert.pl,sklep-agroland.pl,sklep.swiatlnu.pl,stalowelove.com.pl,strefarolnika.pl,tasmuj.pl,trustmysister.com,zina.pl##.wce_popup-consolidator
@@ -2672,7 +2675,7 @@ oknoline.pl###modalSocial, .modal-backdrop
 oko.press###super-modal-container
 okularywsieci.pl##.xrootBox, .xrootBoxOverlay
 olsztyn24.com###top_layer
-ombre.pl###tws_c_0
+ombre.pl,skin-science.pl###tws_c_0
 omeda.pl###window1
 onet.pl##div[data-run-module*="stayOnServicePopup"]
 onkyo.pl##div#dwbox-bkg, div#dwbox-box
@@ -3466,6 +3469,7 @@ camil.pl,pizzeria-vendetta.eu##.return-to-top
 canagri.pl##.btt-button
 cashback.getdify.com###back-button
 casu.pl##.btn_scroll
+cateromarket.pl##footer a[href="javascript:void(0)"]:has(> svg)
 catzy.pl,paypo.pl,reklama.gazeta.pl##.scroll-top-btn
 cds-lider.com.pl,polsero.pl,www.nowiny.gliwice.pl##.btn-up
 cedynia.pl,napisy24.pl,wegemaluch.pl###smoothtop
@@ -3997,7 +4001,7 @@ ppe.pl###elevator.elevator-wrapper
 praca.pl##.app-footer__scroll-to-top
 pracownia.org.pl##body > a[href="#"].btn
 pracowniakresek.pl##.cd-vertical-nav
-praktykulinarni.com##.backtotopout
+praktykulinarni.com,smartwoods.pl##.backtotopout
 prawo.amu.edu.pl##.arrow.arrow-to-top
 profinamiot.pl,puma.com##.back-to-top-button
 profitroom.pl##.arrow-back-to-top
@@ -4500,7 +4504,7 @@ zooplus.pl##div:not([class*="sidebar"]) > div[id*="tracker_banner-yt-channel-"].
 ~pl##.x13socialfixed_links a[href*="wa.me"]:lang(pl)
 3giga.pl###contact-slider
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,siecobywatelska.pl,zhr.pl##.cresta-facebook-messenger-box
-4swiss.pl,nutridome.pl,warsawsneakerstore.com##.askspot-chat-widget
+4swiss.pl,nutridome.pl,snowsport.pl,warsawsneakerstore.com##.askspot-chat-widget
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
 123drukuj.pl###fc_widget
