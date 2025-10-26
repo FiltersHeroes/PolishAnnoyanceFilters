@@ -7,8 +7,7 @@ bookland.com.pl##footer .NewsletterSubscription:style(visibility: hidden !import
 claudia.pl,elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.content-content > div > a[href*="/newsletter"]:upward(div)
 energysports.pl#@##menu_newsletter
 energysports.pl##.form_newsletter:style(display: block !important; visibility: hidden !important)
-energysports.pl#@#body #menu_newsletter:style(display: block !important; visibility: hidden !important)
-com,eu,info,pl##body #menu_newsletter:style(display: block !important; visibility: hidden !important)
+com,eu,info,pl,~energysports.pl,~lovepolanddesign.pl##body #menu_newsletter:style(display: block !important; visibility: hidden !important)
 com,eu,info,pl##body #newsletter_block_left:style(display: block !important; visibility: hidden !important)
 corona-fishing.pl##div.footer-box:nth-of-type(5):style(color: #FFF0)
 diversesystem.com##div.item > img[alt*="Newsletter"] ~ a[href="/pl/user/newsletter"]:style(pointer-events: none !important; background: #dfdfdf !important)
