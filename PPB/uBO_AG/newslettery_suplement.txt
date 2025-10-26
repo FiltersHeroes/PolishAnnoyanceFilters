@@ -5,13 +5,13 @@ austria.info##main + div:has(> div > div > div > div.prose.newsletter):style(vis
 autakrajowe.com.pl###multiBoxHome > div.col-md-6:nth-of-type(2):style(width: 100%)
 bookland.com.pl##footer .NewsletterSubscription:style(visibility: hidden !important)
 claudia.pl,elle.pl,elleman.pl,focus.pl,focusnauka.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.content-content > div > a[href*="/newsletter"]:upward(div)
-energysports.pl#@##menu_newsletter
-energysports.pl##.form_newsletter:style(display: block !important; visibility: hidden !important)
-com,eu,info,pl,~energysports.pl,~lovepolanddesign.pl##body #menu_newsletter:style(display: block !important; visibility: hidden !important)
 com,eu,info,pl##body #newsletter_block_left:style(display: block !important; visibility: hidden !important)
+com,~energysports.pl,eu,info,~lovepolanddesign.pl,pl##body #menu_newsletter:style(display: block !important; visibility: hidden !important)
 corona-fishing.pl##div.footer-box:nth-of-type(5):style(color: #FFF0)
 diversesystem.com##div.item > img[alt*="Newsletter"] ~ a[href="/pl/user/newsletter"]:style(pointer-events: none !important; background: #dfdfdf !important)
 e-nobi.pl###social:style(height: auto !Important;)
+energysports.pl##.form_newsletter:style(display: block !important; visibility: hidden !important)
+energysports.pl#@##menu_newsletter
 essentiala3.pl##.box-slider li:has(a[title="Newsletter subskrypcja rabat"]):remove()
 euroogrod.com.pl##footer:style(border-top: none !important)
 farmer.pl##.box-14 .right .box-11 > form, .box-14 .right .box-11 > h2, .box-14 .right .box-11 > p:style(visibility: hidden !important)
