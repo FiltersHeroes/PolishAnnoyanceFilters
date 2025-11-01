@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 01 Nov 2025, 16:33 UTC+01:00
-! Version: 2025.11.1.0
+! Last modified: Sat, 01 Nov 2025, 17:41 UTC+01:00
+! Version: 2025.11.1.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 01 lis 2025, 16:33 UTC+01:00
+! Aktualizacja: sob, 01 lis 2025, 17:41 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1932,7 +1932,6 @@ pl,~znak.com.pl##.newsletter-container
 !
 !
 ! Popupy
-!@ >>>>>>>> popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 /assets/application-$script,domain=ask.fm
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /css/jquery.fancybox.css$domain=fakro.pl|modrzewiowy-dwor.pl
@@ -2022,8 +2021,6 @@ pl,~znak.com.pl##.newsletter-container
 ||wydawnictwokobiece.pl/wp-content/plugins/newsletter_popup//newsletter_popup.js
 ||wymarzonyogrod.pl/popup-newsletter/*
 ||znak.com.pl/popupNewsletter$xmlhttprequest
-404: Not Found
-!@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
 /compress/popupFacebook.js$domain=motywujemy24.pl
 /compress/popups/popupFacebook_normal.css$domain=motywujemy24.pl
@@ -3016,7 +3013,6 @@ lumarte.eu##.ui-widget.ui-dialog { remove: true }
 !
 !
 ! Popupy - Ogólne filtry
-!@ >>>>>>>> popupy_ogolne_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne_blokujace.txt
 .facebooklikepopup.
 /axnewsletter.js
 /newsletter-leads/*/jquery.simplemodal.js
@@ -3036,8 +3032,6 @@ lumarte.eu##.ui-widget.ui-dialog { remove: true }
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||salesmanago.pl/dynamic/*/popups.js
 ||widget.contactleader.pl^$script,third-party
-404: Not Found
-!@ <<<<<<<< popupy_ogolne_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne_blokujace.txt
 !@ >>>>>>>> popupy_ogolne + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
 !~pl###dzinga .overlay:lang(pl), #dzinga .popup:lang(pl)
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
