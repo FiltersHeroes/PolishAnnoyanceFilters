@@ -1,4 +1,3 @@
-sinsay.com##+js(set-cookie, mobilePromoBannerActive, 0)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
@@ -153,6 +152,7 @@ rossmann.pl##+js(set-cookie, isSmartBannerClosed, true)
 rynek-kolejowy.pl##.sledzNasContainer > .zawartoscBox:style(height: auto !important)
 sellpy.pl##+js(set-local-storage-item, appDownloadBannerDismissedAt, true)
 semmelrock.pl###sidebar_float_icons
+sinsay.com##+js(set-cookie, mobilePromoBannerActive, 0)
 stooq.pl##table table table table table table table:has([id] b:has-text(Sonda))
 stooq.pl##table table table table table table table:has([id] b:has-text(Sonda)) + div + table
 strefakodera.pl##html:style(overflow-x: unset !important)
