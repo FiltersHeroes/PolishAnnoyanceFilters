@@ -1,7 +1,4 @@
 sinsay.com##+js(set-cookie, mobilePromoBannerActive, 0)
-!poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"] div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):style(opacity: 0.3 !important)
-!poligamia.pl,www.dobreprogramy.pl###komentarze div[id^="komentarz-"]:has(p:has-text(/^Komentarz ukryty$/)):not(:has(div[id^="komentarz-"])):style(opacity: 0.3 !important)
-!rj.metropoliaztm.pl,rj.transportgzm.pl##table[style] tr span[style*="font"]:remove-attr(style)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
