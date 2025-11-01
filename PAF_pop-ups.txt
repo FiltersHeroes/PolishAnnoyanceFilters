@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Thu, 30 Oct 2025, 01:11 UTC+01:00
-! Version: 2025.10.30.0
+! Last modified: Sat, 01 Nov 2025, 17:41 UTC+01:00
+! Version: 2025.11.1.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,12 +13,11 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 30 paź 2025, 01:11 UTC+01:00
+! Aktualizacja: sob, 01 lis 2025, 17:41 UTC+01:00
 !
 !
 !
 ! Specyficzne filtry
-!@ >>>>>>>> popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 /assets/application-$script,domain=ask.fm
 /common/js/enp/modules/newsletterPopup/newsletterPopup.js$domain=mixmedia.pl|mycenter.pl
 /css/jquery.fancybox.css$domain=fakro.pl|modrzewiowy-dwor.pl
@@ -108,8 +107,6 @@
 ||wydawnictwokobiece.pl/wp-content/plugins/newsletter_popup//newsletter_popup.js
 ||wymarzonyogrod.pl/popup-newsletter/*
 ||znak.com.pl/popupNewsletter$xmlhttprequest
-404: Not Found
-!@ <<<<<<<< popupy_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_blokujace.txt
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
 /compress/popupFacebook.js$domain=motywujemy24.pl
 /compress/popups/popupFacebook_normal.css$domain=motywujemy24.pl
@@ -1102,7 +1099,6 @@ lumarte.eu##.ui-widget.ui-dialog { remove: true }
 !
 !
 ! Ogólne filtry
-!@ >>>>>>>> popupy_ogolne_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne_blokujace.txt
 .facebooklikepopup.
 /axnewsletter.js
 /newsletter-leads/*/jquery.simplemodal.js
@@ -1122,8 +1118,6 @@ lumarte.eu##.ui-widget.ui-dialog { remove: true }
 ||s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js
 ||salesmanago.pl/dynamic/*/popups.js
 ||widget.contactleader.pl^$script,third-party
-404: Not Found
-!@ <<<<<<<< popupy_ogolne_sieciowe + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne_blokujace.txt
 !@ >>>>>>>> popupy_ogolne + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy_ogolne.txt
 !~pl###dzinga .overlay:lang(pl), #dzinga .popup:lang(pl)
 /wp-content/plugins/dc-facebook-like-box-popup-increase-facebook-fans
