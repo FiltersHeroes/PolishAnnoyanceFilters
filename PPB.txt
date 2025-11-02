@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 01 Nov 2025, 17:41 UTC+01:00
-! Version: 2025.11.1.1
+! Last modified: Sun, 02 Nov 2025, 13:00 UTC+00:00
+! Version: 2025.11.2.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 01 lis 2025, 17:41 UTC+01:00
+! Aktualizacja: nie, 02 lis 2025, 13:00 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -68,7 +68,7 @@
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl,warzywapolowe.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
-abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,apteko.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,czystelle.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,e-clematis.com,eatyx.com,esklep.brandvital.eu,eventory.cc,farmer.pl,fresh-market.pl,hbt.com.pl,hegos.eu,karmazdostawa.pl,lou.pl,mazidla.com,mieszkancy.chorzow.eu,morenova.com.pl,mrdiy.com,mumla.pl,mypewex.com,nestor.com.pl,niespodziewajka.com,obuwiestyl.pl,pakomat.pl,pl.mova.tech,portalspozywczy.pl,presim.pl,pwn.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,silcopolska.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,starwaxathome.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,viking-europe.com,vivelo.pl,warsztatpiekna.pl,wroclaw.pl,www.naszapraca.com,yves-rocher.pl,zabawki.esklep.info,znak.com.pl,znomet.pl,zoona.pl,zycierolnika.pl##.newsletter
+abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,apteko.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,czystelle.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,e-clematis.com,eatyx.com,esklep.brandvital.eu,eventory.cc,farmer.pl,fresh-market.pl,hbt.com.pl,hegos.eu,karmazdostawa.pl,lou.pl,mazidla.com,mieszkancy.chorzow.eu,morenova.com.pl,mrdiy.com,mumla.pl,mypewex.com,nestor.com.pl,niespodziewajka.com,obuwiestyl.pl,pakomat.pl,pl.mova.tech,portalspozywczy.pl,presim.pl,pwn.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,silcopolska.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,starwaxathome.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,viking-europe.com,vivelo.pl,warsztatpiekna.pl,wroclaw.pl,www.naszapraca.com,yves-rocher.pl,zabawki.esklep.info,znak.com.pl,zniczownia.pl,znomet.pl,zoona.pl,zycierolnika.pl##.newsletter
 abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 ac.com.pl##.form-group
 action.com##section[data-testid="newsletter-section"]
@@ -93,6 +93,7 @@ agnieszkawielobob.pl##.et_bloom_below_post
 agriaffaires.pl###js-newsletterBlock
 agrieko.pl##.footer_NewsletterBox
 agrihandler.pl##.footermain__col:has(> .footermain__newsshort)
+agrii.pl##.newsletter > :nth-child(-n+3)
 agro-sklep.com##.contNewsLetter
 agrodoradca24.pl##.newsletter-online
 agromat.pl##.column-double.content > .flex
@@ -863,6 +864,7 @@ kurasinski.com##.newsletter-link
 kurencja.com##.page-newsletter
 kurierhistoryczny.pl##div.newsletter__col:nth-of-type(6)
 kwestiasmaku.com###block-block-1
+kwiatowapolanka.pl,wallflower.pl##body > main > .grid_full:has(> div > div > div > div > div[data-module-name="newsletter"])
 kwiatowaprzesylka.pl##.footer1_13
 kwiatywoknach.pl##.block_newsletter_list
 l37.eu###footer-container > div.row:first-of-type > div.footer-menu:nth-of-type(5) > :nth-child(-n+5)
@@ -1232,6 +1234,7 @@ platforma.org##.footer > .newsletter-container
 pleso.me##section[class^="subscribeToNewsletterForm_mailing_"]
 plk.pl##footer div:first-of-type > h3:nth-of-type(2)
 plock.eu##.newsletter-component
+plomienswiec.pl##.m-footer-1__column--with-newsletter
 plytki-lazienki.pl##.col-md-offset-1.col-md-12
 pocztazdrowia.pl##.pull-right.col-xs-12.col-sm-12.col-md-5.col-lg-4
 podrywaj.org###block-block-34
@@ -2109,7 +2112,7 @@ allmedica.pl###modalbox-1, .modalbox-overlay
 alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megasport.com,ksiegarnia-edukacyjna.pl,malowanebiela.pl,megazoologiczny.pl,membrana.pl,mito-pharma.pl,rm.com.pl,rpolanski.com,surgepolonia.pl###tws_i_100000
 amazfitpolska.pl,device.pl,it-develop.pl,jagiellonski.pl,luqam.com,luxmedlublin.pl,mensis.pl,nanowosmieci.pl,ombre.pl,pl.horn.eu,portalmorski.pl,salonydenon.pl,sklep.apet.pl,tvokazje.pl,winotoskanii.pl,wyborkierowcow.pl,yumisu.pl,zbigniewsyc.pl##.wf2-popover.grwf2-wrapper, .grwf2_backdrop
 android.com.pl##.social-popup
-anita-sklep.pl,csk-med.pl,designbywomen.pl,dingo-shop.com.pl,ekopaka.pl,klasycznebuty.pl,kokonki.pl,lamaglama.pl,newled.pl,roboexpert.pl,sklep-agroland.pl,sklep.swiatlnu.pl,stalowelove.com.pl,strefarolnika.pl,tasmuj.pl,trustmysister.com,zina.pl##.wce_popup-consolidator
+anita-sklep.pl,blosmi.com,csk-med.pl,designbywomen.pl,dingo-shop.com.pl,ekopaka.pl,klasycznebuty.pl,kokonki.pl,lamaglama.pl,newled.pl,roboexpert.pl,sklep-agroland.pl,sklep.swiatlnu.pl,stalowelove.com.pl,strefarolnika.pl,tasmuj.pl,trustmysister.com,zina.pl##.wce_popup-consolidator
 answear.com###popupNewsletterWrap
 apaczka.pl##.popupPromoBox
 app.electricitymaps.com##.modal, .modal-background-overlay
@@ -2802,7 +2805,7 @@ rynek-lotniczy.pl,transport-publiczny.pl##.popupElement, .popupModal
 rzeszowairport.pl###infoPopup
 saintbody.com##.subscribe-me, .sb-overlay
 sakolife.pl###nspopup_wrapper, #nspopup_wrapper_bg
-saluti.pl,uzywki.expert##.wceapp_popup.modal, .wceapp_popup.mask
+saluti.pl,skorzany.com,uzywki.expert##.wceapp_popup.modal, .wceapp_popup.mask
 sare.pl###popup, #popUp, .modal-backdrop
 saturn-fitness.pl###chooseclubpopup, #chooseclubpopup_overlay
 saz.org.pl###news-overlay
@@ -2832,7 +2835,6 @@ sklepbaterie.pl##.wyskakujacypopup
 sklepdrapieznik.pl###backgroundPopup, #toPopup
 sklepikdzieciecy.pl###oknoPopUp, #tloPopUp
 sklepkokosowy.pl###js-popup
-skorzany.com##.wceapp_popup
 sldc.eu###popup-over, #popup-overlay
 sledczy24.pl##.spu-bg, .spu-total-1
 slodkiesny.pl##span[id][aria-hidden][style$="z-index: 99999;"]
@@ -5819,6 +5821,7 @@ hiperpharm.pl###side_widget
 historykon.pl##.erpProContainer
 hitobuwie.pl##.fixedBaners__container
 home-net.pl###utils
+home.biedronka.pl##.count-down-banner
 homeolek.pl###basketslider, #fastbasketslider
 hostgrafia.pl##.side-tab-widget > a[href="jak-dzialamy.html"]
 hoteladler.com##.bookingfixedtop.book-online-button
