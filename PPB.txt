@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 02 Nov 2025, 13:00 UTC+00:00
-! Version: 2025.11.2.0
+! Last modified: Sun, 02 Nov 2025, 13:10 UTC+00:00
+! Version: 2025.11.2.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 lis 2025, 13:00 UTC+00:00
+! Aktualizacja: nie, 02 lis 2025, 13:10 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -68,7 +68,7 @@
 300gospodarka.pl,ccnews.pl,faktyozywnosci.pl,warzywapolowe.pl###custom_html-5
 360studio.org,brykizameryki.pl##.nks_cc_trigger_tabs
 365dowolnosci.pl###getall_widget-3
-abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,apteko.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,czystelle.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,e-clematis.com,eatyx.com,esklep.brandvital.eu,eventory.cc,farmer.pl,fresh-market.pl,hbt.com.pl,hegos.eu,karmazdostawa.pl,lou.pl,mazidla.com,mieszkancy.chorzow.eu,morenova.com.pl,mrdiy.com,mumla.pl,mypewex.com,nestor.com.pl,niespodziewajka.com,obuwiestyl.pl,pakomat.pl,pl.mova.tech,portalspozywczy.pl,presim.pl,pwn.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,silcopolska.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,starwaxathome.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,viking-europe.com,vivelo.pl,warsztatpiekna.pl,wroclaw.pl,www.naszapraca.com,yves-rocher.pl,zabawki.esklep.info,znak.com.pl,zniczownia.pl,znomet.pl,zoona.pl,zycierolnika.pl##.newsletter
+abc-zoosklep.pl,aco.com.pl,agrorami.pl,apia.pl,apte.pl,apteko.pl,blizejciebie.pl,blog.kurasinski.com,bozecialo.info.pl,czystelle.pl,dealz.pl,dlabiura24.pl,dlahandlu.pl,doz.pl,drzwi-cal.pl,e-clematis.com,eatyx.com,esklep.brandvital.eu,eventory.cc,farmer.pl,fresh-market.pl,hbt.com.pl,hegos.eu,karmazdostawa.pl,lou.pl,mazidla.com,mieszkancy.chorzow.eu,morenova.com.pl,mrdiy.com,mumla.pl,mypewex.com,naszapraca.com,nestor.com.pl,niespodziewajka.com,obuwiestyl.pl,pakomat.pl,pl.mova.tech,portalspozywczy.pl,presim.pl,pwn.pl,rynekaptek.pl,rynekseniora.pl,rynekzdrowia.pl,sadyogrody.pl,silcopolska.pl,skin79-sklep.pl,sklep.agroczesci.pl,sklep.dalimex.pl,starwaxathome.pl,studiohifi.pl,supersklep.pl,swis-shop.pl,topsecret.pl,trzymajsiecieplo.pl,tutumi.pl,urbangames.pl,vichy.pl,vidaxl.pl,viking-europe.com,vivelo.pl,warsztatpiekna.pl,wroclaw.pl,yves-rocher.pl,zabawki.esklep.info,znak.com.pl,zniczownia.pl,znomet.pl,zoona.pl,zycierolnika.pl##.newsletter
 abmax.eu,latarki.pl,multimaszyny.eu,shopsisters.eu###newsletter_block_left
 ac.com.pl##.form-group
 action.com##section[data-testid="newsletter-section"]
@@ -97,7 +97,7 @@ agrii.pl##.newsletter > :nth-child(-n+3)
 agro-sklep.com##.contNewsLetter
 agrodoradca24.pl##.newsletter-online
 agromat.pl##.column-double.content > .flex
-agromr.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu,www.e-hurtowo.eu##.ModulNewsletter
+agromr.eu,e-hurtowo.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
 agroprofil.pl##.td-is-sticky.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_185.vc_column
 agrosimex.pl##.p0.tablet-column.col-sm-4.col-xs-12
 agrosklad.com.pl,agrotuszyn.pl##.zostaw_numer
@@ -293,7 +293,7 @@ bravebeaver.pl,semprewithlove.pl,smartbake.pl###text-5
 brita.pl##.validation.form-group
 brownells.pl##.ic-popupLinkNewsletter
 brw.pl##.blok-newsletter
-brymorex.pl##.newsletter-ui
+brymorex.pl,esklep.agroas.pl##.newsletter-ui
 brytyjka.pl###gsNewsbox
 bto.pl###StopkaAktywnaNewsletter
 budujemydom.pl###newsBoxLeft
@@ -552,7 +552,6 @@ erp-view.pl###top-mod
 esaliens.pl##.news-btn.aside-btn
 escoli.pl##.no-left-padding.col-sm-6 > .footer-block-title, [id^="newsletter-validate-detail"]
 eskk.pl###main-container-newsletter
-esklep.agroas.pl##.newsletter-homepage-ui
 esklep.niewiescin.pl##footer > #widgets > .container > div.widget:last-child
 esklep.poczta-polska.pl###footer > div:nth-of-type(3)
 esprit.com.pl##.newsletter-gora
@@ -1765,6 +1764,7 @@ zapiskizeswiata.pl###mc_embed_signup > #mc-embedded-subscribe-form
 zara.com##.layout-footer-newsletter
 zaradnyfinansowo.pl##.widget_subscribe_sidebar_czyt.widget, .widget_subscribe.widget
 zarzadcy.com.pl##.menu_right > div:first-of-type
+zasiejpole.pl##main > div.grid:has(> div > div > div[data-module-name="newsletter"] > div.newsletter)
 zawady.com.pl###subscribe
 zdobadzkobiete.pl###access
 zdrowie.pap.pl##section ~ a[href="/newsletter/form"]
