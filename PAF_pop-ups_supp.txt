@@ -185,6 +185,8 @@ erli.pl##body > div:not([class], [id]):has(div[click-tracking="pop-up 100 na sta
 erli.pl##body[class]:style(overflow-y: auto !important)
 esoleo.pl##.s-Popup
 esoleo.pl##html[style="overflow: hidden;"],body[style="overflow: hidden;"]:style(overflow-y: auto !important)
+euro.com.pl,oleole.pl##.cdk-global-scrollblock[class], .eui-global-scrollblock[class]:style(position: static !important; overflow-y: auto !important)
+euro.com.pl,oleole.pl##.cdk-overlay-container:has([data-test="site-popup-newsletter-email"])
 euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper [class*="newsletter" i])
 euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper[class*="open"] > .remodal span[class*="heading"]:has-text(/NEWSLETTER/i))
 euro.com.pl,oleole.pl##.remodal-wrapper:has([class*="newsletter" i])
@@ -197,7 +199,7 @@ fdm.pl,galskor.com##+js(acis, $, fancybox)
 filehippo.pl,softonic.pl##.rv-di-modal:has(img[src*="avast"], img[src*="opera"]):remove()
 filehippo.pl,softonic.pl##div[id^="modal-"]:is(#modal-di-avast, #modal-di-opera):remove()
 filmweb.pl##.exitPopup.popup
-filmweb.pl##body[class]:not(.rodo):style(overflow: auto !important)
+filmweb.pl##body[class]:not(.rodo):style(overflow-y: auto !important)
 fjordd.com##body[class*="pop"]:style(overflow-y: auto !important)
 fjordd.com##div[data-popup-subscribe-inited]
 fmmobile.pl###lead-modal, .modal-backdrop
