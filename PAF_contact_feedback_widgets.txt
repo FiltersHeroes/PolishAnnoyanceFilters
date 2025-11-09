@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 09 Nov 2025, 16:33 UTC+01:00
-! Version: 2025.11.9.0
+! Last modified: Sun, 09 Nov 2025, 16:43 UTC+00:00
+! Version: 2025.11.9.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 09 lis 2025, 16:33 UTC+01:00
+! Aktualizacja: nie, 09 lis 2025, 16:43 UTC+00:00
 !
 !
 !
@@ -135,6 +135,7 @@ aurum-optics.pl##a[href*="m.me"]
 australiangoldshop.pl##.list-contact li:has(a[href*="messenger.com"])
 authority.com.pl##.cb24-messenger-widget
 authority.com.pl##div[style*="fixed"][style*="border-radius"]:not([class], [id]):empty
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.ods-m-socials-stream a[href*="wa.me"]
 auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me"])
 autodoc.pl##.js-chat-buttons-container-genesys
 autohero.com##.root___o8kuv
@@ -286,7 +287,7 @@ e-kolo.pl##a[title*="lij whatsup"][href*="web.whatsapp.com/send?"]
 e-kwiaty.pl###ecatcher.ecatcher
 e-medest.pl,gromar.eu,netia.pl##.contact-widget
 e-prawnik.pl##.o-window.windowTop
-e-pyrzyce.pl,e-starogard.pl,onet.pl,plejada.pl##.whatsapp
+e-pyrzyce.pl,e-starogard.pl##.whatsapp
 e-sano.pl###report_error_box_button
 e-urzad.grodzisk.pl##.message
 e-vasco.pl##.contact-box-slider
@@ -567,10 +568,6 @@ oknarolety.com##.attachment-mobile-bottom-right
 olimpstore.pl##.chat-widget
 olx.pl##.css-sqayck
 omeda.pl##.boxRight:not(.fb)
-onet.pl##span[class*="ShareLayerItem"]:has([class*="IconMessenger"], [class*="IconWhatsApp"])
-onet.pl,plejada.pl##span[data-gtm*="-whatsapp"]
-onet.pl,plejada.pl##span[data-gtm*="messengerShare"]
-onet.pl,radioplus.pl,radiosupernova.pl,rivieraparkmarvipol.pl,senatkomorki.pl,ss24.pl,stopcafe.pl,viva.pl,wp.pl##.messenger
 operon.pl##.contact-trigger
 opoka.tv###pwebcontact3_toggler
 oponeo.pl##.contactOnline
@@ -668,6 +665,7 @@ racing-planet.pl###contactable_inner
 raczynski-kominki.pl###pozvonim-button
 radio17.pl##.chat
 radio17.pl##.sidebar-buttons li:has(.mdi-message)
+radioplus.pl,radiosupernova.pl,rivieraparkmarvipol.pl,senatkomorki.pl,ss24.pl,stopcafe.pl,viva.pl,wp.pl##.messenger
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(n+3)
 rainbowzoom.pl###lz_overlay_chat
 ratujlaptopa.pl##.fbcha
