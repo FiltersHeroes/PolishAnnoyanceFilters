@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 09 Nov 2025, 20:33 UTC+01:00
-! Version: 2025.11.9.1
+! Last modified: Mon, 10 Nov 2025, 16:40 UTC+01:00
+! Version: 2025.11.10.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 09 lis 2025, 20:33 UTC+01:00
+! Aktualizacja: pon, 10 lis 2025, 16:40 UTC+01:00
 !
 !
 !
@@ -755,6 +755,8 @@ interferie.pl##.newsl, #footNL, #newsletterBtn
 internetmatters.org##footer .last > div:nth-child(5)
 intexpc.pl##.newsletter-form-wrapper
 intimissimi.com##.border-right.footer-box.align-center-middle.grid-x.large-5.cell
+intimissimi.com##.cc-footer-boxTop_contact_title:has(+ .registerNewsletterFooter)
+intimissimi.com##.registerNewsletterFooter
 inzynier-medyczny.pl###sidebar #fm_form_1
 inzynierbudownictwa.pl##.subscribewidget
 ip-sa.pl###PageLeft_ContentPlaceHolder_PageLeft_NewsTable
