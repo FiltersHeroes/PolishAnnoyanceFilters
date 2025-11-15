@@ -1,4 +1,3 @@
-politykazdrowotna.com##:matches-media((max-width: 768px)) a[title="Kliknij żeby dodać komentarz do tekstu"]
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
@@ -137,6 +136,7 @@ pl##html[data-smartbanner-original-margin-top^="0"][style]:style(margin-top: 0 !
 plus.pl##+js(set-cookie, isIplusClosed, true)
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body > style:last-child:has-text(/\._[a-z0-9]{12}/):remove()
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
+politykazdrowotna.com##:matches-media((max-width: 768px)) a[title="Kliknij żeby dodać komentarz do tekstu"]
 polsatnews.pl##+js(set-local-storage-item, mailClicked, 1)
 polsatnews.pl##.series__item:remove()
 posnania.eu##.customScroll__bar
