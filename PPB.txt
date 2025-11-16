@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 15 Nov 2025, 23:26 UTC+00:00
-! Version: 2025.11.15.1
+! Last modified: Sun, 16 Nov 2025, 13:01 UTC+00:00
+! Version: 2025.11.16.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 15 lis 2025, 23:26 UTC+00:00
+! Aktualizacja: nie, 16 lis 2025, 13:01 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1173,6 +1173,7 @@ paleosmak.pl###emailSub-form
 pangrono.pl##.sidebar > .widget_bloomwidget.widget
 pannaannabiega.pl##.zl_newsletter
 panoptykon.org##.social_n
+panoramafirm.pl###newsletterBtn
 pantabletka.pl##.ds-newsletter
 pap-mediaroom.pl,pap.pl,~zdrowie.pap.pl##div[class] > a[href="/newsletter/form"]
 paperconcept.pl##.footer-content-before
@@ -3331,6 +3332,7 @@ aftermarket.pl###scroll-bottom
 aga-toma.pl##.pow_start
 agdserwis.eu,sklep.party###toTop
 agkoperty.com.pl,eurobit.pl,komlogo.pl###totop-scroller
+agora.pl,b2c.vds.pl,buyava.pl,domczasuhurt.pl,ewozki.eu,forcell.pl,kociewie24.eu,kulig.pl,pl.techinfus.com,pogotowie-komputerowe.org.pl,yummo.pl##.up
 agro-eko.com.pl##.scrollIcon
 agroas.pl##.to-the-top-link
 agrofakt.pl##.go-down
@@ -3402,7 +3404,6 @@ avast.com###slide-top
 axtechnology.pl##.show_scroll
 b2b.fen.pl,hurt.techrol.com##.rollup
 b2btrade.eu##.back-to-top-arrow
-b2c.vds.pl,buyava.pl,domczasuhurt.pl,ewozki.eu,forcell.pl,kociewie24.eu,kulig.pl,pl.techinfus.com,pogotowie-komputerowe.org.pl,yummo.pl##.up
 baborow.pl###btn-totop
 badamydzieci.pl,bor-met.eu,imagene.me,polcovid.pl,zakpol.eu###smoothup
 balterio.com,pergo.pl##.c-top
@@ -3418,6 +3419,7 @@ beltone-polska.eu,beltone-polska.pl##.cc-FloatingButtonBarContainer-button-scrol
 benchmark.pl##.jsScrollToTop.btn--to-top
 benler.pl,lenovogaming.pl,lento.pl,restaurantguru.com###scroller
 beskidy.news,hg.eu,intimissimi.com,nawa.gov.pl,powiatslubicki.pl##.js-scroll-top
+bet.mbp.olsztyn.pl,fastdeal.pl,jestok.eu,okazik.pl,polskiemedia.org,serwistvsat.pl###btn-scrollup
 bet.pl,citroen.pl,domkulturywkodniu.pl,infocrypto.pl,ipon.pl,zhp.pl###scrolltop
 bettingexpert.com,florini.pl##.slideInUp
 bezpiecznapodroz.org,jogapiekna.com,sprawdzonyfizjoterapeuta.pl,termyszaflary.com,witanet.net###go-top
@@ -3454,7 +3456,7 @@ brymorex.pl,tayamagroup.pl###top-button-ui
 bs.limanowa.pl##.block-arrow--small
 btcpolska.com##.show-top-button
 budujzdrewna.pl,cnc.info.pl,electro.pl,forum-bron.pl,zenox.pl##.scroll-btn
-bugasport.pl###back-top
+bugasport.pl,garmondpress.pl###back-top
 buki.org.pl###__next > div > a[class^="styles_arrow_"]:first-child
 butysportowe.pl##.b-scrollTop
 c-and-a.com##.js-scroll
@@ -3476,7 +3478,7 @@ chimmo.pl###arrow-up
 chmielnik.com###na_gore
 choinka-sztuczna.pl###ico_up
 choinki.net,sherlocktrafika.pl,wyciagarki.eu###backtop
-ciechpress.pl,redditch.pl###astroid-backtotop
+ciechpress.pl,niesamowitapolska.eu,redditch.pl###astroid-backtotop
 ckz.pl##.wpv-scroll-to-top
 claas.roltexkrasnystaw.pl##.top-link
 cleangang.pl##main button.cursor-pointer[type="button"][class*="36"]:has(> svg[viewBox="0 0 15 15"])
@@ -3498,6 +3500,7 @@ cyberplac.pl,strona24.pl,swietawdomu.pl,wynajmijdostawczaka.pl###tg-scroll-to-to
 cyberrescue.info,osram.pl,pum.edu.pl##.jump-to-top
 cyclonis.com,help.hbomax.com,pantofelek24.pl###ScrollToTop
 czarodziejewspomnien.pl,hihome.pl###fount_to_top
+czasopisma.fbc.net.pl##.vue-back-to-top
 czescidobmw.pl##.pageToTop
 czescirolnicze.eu,mechanik-sc.pl,sklep-lubar.pl,sklep.incorsa.pl##.abs-scroll-top
 czescizamienne.amica.pl##.sfa-scroll-top
@@ -3577,6 +3580,7 @@ electropapa.com,mrowka.com,sklep.poczta-polska.pl##.scroll-up-container
 elektrosalon.pl###buttontotop
 elektrykadlakazdego.pl##.crane-top
 elenovo.pl,goldsport.pl,komorkomat.pl,morfikov.github.io,red-note.com.pl,rozaria.pl,skvet.pl,sportsshop.com.pl,stubai.at,vaporshop.pl,wrosport.pl,xn--bolesawiec-e0b.pl###back-to-top
+elipublishing.pl##.e-fas-arrow-alt-circle-up
 elk.zdz.bialystok.pl###dotop
 elmas.com.pl##.rise-to-top
 emos.pl##.js-scroll-tops
@@ -3603,7 +3607,6 @@ extraswiecie.pl,modr.pl###vscroll_to_top
 fachowiec.opoczno.pl##.do-gory a[href="#top"]
 fajnafabryka.pl,hortex.pl,sosen-blog.pl##.topbutton
 farmer-sj.pl###topScroll
-fastdeal.pl,jestok.eu,okazik.pl,polskiemedia.org,serwistvsat.pl###btn-scrollup
 festiwaldobregosmaku.eu,fonmed.pl,twojaslupca.pl###mkd-back-to-top
 fibreo.pl###btn-to-top-wrap
 filmpolski.pl##div[id^="dogory_"]
@@ -3634,6 +3637,7 @@ garneczki.pl##.go-to-up
 gazeta-fotograficzna.org,gmoto.pl,iberogast.pl,mp.pl###top-link-block
 gazeta-mosina.pl,sztutowo.pl,vmc.org.pl##.anchor
 gazeta-msp.pl###strzalka_top
+gazetabaltycka.pl##[href="#top"]
 gazetaspoleczna.pl###top-return
 gdansk.pl##button.btn.rounded-circle[style]
 gdynia.klif.pl,lastrada.eu##.rey-scrollTop
@@ -4085,6 +4089,7 @@ stalowa.info##.to-top-arrow
 stalremdrzwi.pl,zaliniamety.pl##.icn-up-small
 stareforumpoly.pl##.u-scrollButtons
 start24.pl###bottom
+stat.gov.pl##.go-top-btn
 stawiszynski.org##.jupiterx-scrolled
 stiga.pl##.quick-top-jumper
 stoklasa.pl###sipka_nahoru
@@ -6141,6 +6146,7 @@ ozonee.pl###free_shiping_info, #tws_i_2
 p-programowanie.pl##progress
 pakamera.pl###carcont
 pakomarket.pl,sloikwiedzy.pl##.storefront-product-pagination
+panoramafirm.pl###hs-web-interactives-top-anchor
 papajohns.pl###ingridients-fix
 papierowo.pl###contant-widget
 paranormalne.pl##.mobile_banner_inner
