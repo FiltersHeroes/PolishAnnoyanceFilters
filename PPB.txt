@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 16 Nov 2025, 14:29 UTC+00:00
-! Version: 2025.11.16.2
+! Last modified: Sun, 16 Nov 2025, 14:58 UTC+00:00
+! Version: 2025.11.16.3
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 16 lis 2025, 14:29 UTC+00:00
+! Aktualizacja: nie, 16 lis 2025, 14:58 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3738,6 +3738,7 @@ jackpot.pl##back-to-top
 janssen.tv##.move-btn__parent
 jarock.pl,mentel.com.pl###back-to-top-btn
 jawis.pl,stalko.net.pl,techrol.com,webreklama.pl##.scrollDown
+jbc.bj.uj.edu.pl,sbc.org.pl##button[class*="ScrollToTop_scroll-to-top_"]
 jmlnet.pl##.pi-scroll-top-arrow
 jomfruland.net##.scrollup__placeholder
 journals.viamedica.pl##.Back_To_Top_Button
@@ -3854,7 +3855,7 @@ meskietematy.pl,tranzystor.pl###vl-back-top
 metalgearsolid.pl###return_top
 mghome.pl###footgroup-last
 miasto.zgierz.pl###slidetotop.slidetotop
-miastonowydwor.pl,um.gorzow.pl,wronki.pl##.go_up__wrapper
+miastonowydwor.pl,um.gorzow.pl,wimbp.gorzow.pl,wronki.pl##.go_up__wrapper
 mil.link,psycholog-pisze.pl##.buttontop-top
 millymally.pl##.page-up
 milmag.pl##.doScrollTop
