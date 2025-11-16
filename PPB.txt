@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 16 Nov 2025, 13:01 UTC+00:00
-! Version: 2025.11.16.0
+! Last modified: Sun, 16 Nov 2025, 14:23 UTC+00:00
+! Version: 2025.11.16.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 16 lis 2025, 13:01 UTC+00:00
+! Aktualizacja: nie, 16 lis 2025, 14:23 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1354,6 +1354,7 @@ remprodex.com.pl##.col_three.footer_widget
 rena.pl###newsletterBottomForm
 renowa.pl##.col-4.col-sm-6.col-md-3
 reserved.com##.footer-links > .accordion > li.accordion-cat:first-of-type > .accordion-cat-title
+revolutionrace.pl###embedded-newsletter, .embedded-newsletter
 rfbenchmark.pl##.col-lg-3.col-md-3.col-sm-4.col-xs-12
 ridex.pl##.mcSignupModule
 rik.pl##.footer_col_4 > div:nth-of-type(3)
@@ -1527,6 +1528,7 @@ swappie.com##.newsletter-subscription-box
 sweetliving.pl##.llg_footer_col_three.col-sm-3 > h4:first-of-type, #llg_newsletter
 swiatbaterii.pl##div.col-md-4:nth-of-type(3) > div:first-of-type
 swiatchoinek.com##.newsletter-div
+swiatksiazki.pl##.Newsletter-Container
 swiatoze.pl##.post-subscribe
 swiss.com.pl##footer #footer div.grid_3:nth-of-type(3) > :not(#fsocial)
 swissfon.pl##.last.footer-widget
@@ -2756,6 +2758,7 @@ pomiar24.pl###przyciemnianie, #div_news-popup
 poprostupycha.com.pl##.ulp-overlay, .ulp-window[data-title="Newsletter"]
 portel.pl###closeTL
 poscielone.pl###tk_popup
+potreningu.pl##.mobile-popup-window
 powerjobs.pl##.newsletter-mailchimp-modal
 powerjobs.pl##.screen-newsletter-mailchimp
 poznaj-swiat.pl###popup, #overlay
@@ -5115,6 +5118,7 @@ recepta.pl##.help-widget
 redosystem.com.pl###customer-chat-iframe
 rena.pl###contactFixed
 retromedia.pl###lite-fb-chat
+revolutionrace.pl##.website-feedback-banner
 rgbautomatyka.pl###help-box
 roseville.pl###banner_contact
 rower-express.pl##.ds_fixed_contact_button
