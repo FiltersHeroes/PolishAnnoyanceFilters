@@ -1,7 +1,5 @@
 #$#.buttonHomepage { remove: true; }
 #$#.containerHomepage { remove: true; }
-#@#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
-#@?#div[style]:not([id], [class]):has(> h2 ~ span[title*="-extension://"][title*="/web_accessible_resources/epicker-ui.html"])
 cda.pl#@#a[href*="dla-dzieci"] span[style]:remove-attr(style)
 embed.reddit.com#@#a:has(shreddit-player):remove-attr(href)
 embed.reddit.com#@#shreddit-player:remove-attr(autoplay)
