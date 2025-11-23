@@ -1,3 +1,4 @@
+sklep.sizeer.com##.snrs-modal-wrapper, .snrs-modal-content
 2drink.pl,imperiumromanum.edu.pl,olagosciniak.pl###wbounce-modal
 4lifedirect.pl##.leadinModal
 6paknutrition.com,8a.pl,alfaelektro.pl,archicom.pl,atlantic.pl,budujmase.pl,cebit.pl,dietazliscia.pl,dlaroslin.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,monikasmulewicz.pl,porta.com.pl,rp.pl,sympatia.onet.pl###bhr-items .bhr-image-popup-container
@@ -166,7 +167,7 @@ bodyland.pl,hairstore.pl###newsletter-lightbox-holder
 boleslawiec.tv,bydgoszcz.com,echotygodnik.info,gorlice.tv,halogorlice.info,kociewiak.pl,koscierzyna24.info,kwidzyn1.pl,lokalna24.pl,lokalnatelewizja.pl,narew.info,naszrynek.pl,nasztomaszow.pl,obserwatorlokalny.pl,olesnica24.com,portalpomorza.pl,portalwloclawek.pl,radiobonton.pl,regatv.pl,rolnik.pl,sandomierztv.pl,starachowice.pl,supertydzien.pl,tczewska.pl,telewizjazary.pl,tv-kwidzyn.pl,tvmorag.pl,wagner-polska.com.pl##.toplayer
 bolix.pl,pushpushgo.com###ebook-popup
 bonprix.pl,dragonmask.pl,dziergaczkowo.pl,virtualo.pl,walizkazabawek.pl,webcamera.pl##body:not(.modal-open) .newsletter-modal, .modal-backdrop
-borcas.eu,cebit.pl,conet.pl,e-dewocjonalia.eu,hotelcenturia.pl,neopak.pl,nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl,woliniusz.pl##cc-banner-iframe
+neopak.pl###newsletter-cookies
 born2be.pl,brw.pl,butysportowe.pl,cortland.pl,crocs.pl,decathlon.pl,helios.pl,mediaexpert.pl,neo24.pl,neonet.pl,renee.pl,tvp.info##.snrs-modal-wrapper, .snrs-modal-content
 braclowiecka.pl##div[id^="lepopup-popup"]
 brandpro.pl###mc_embed_signup
@@ -188,8 +189,7 @@ byinsomnia.com,goshico.com,hitobuwie.pl,miyomakeup.com###esns_background_layer
 cafago.com##.freePointWrap
 calzado.waw.pl###x13popup-container
 calzado.waw.pl,giftshop24.pl###x13popup-cover
-carrefour.pl##.snrs-modal-content:has(a[href^="https://www.carrefour.pl/promocje/zakupy-bez-rejestracji"])
-carrefour.pl##.snrs-modal-wrapper:has(a[href^="https://www.carrefour.pl/promocje/zakupy-bez-rejestracji"])
+carrefour.pl##[class*="snrs-modal"]:is(.snrs-modal-wrapper, .snrs-modal-content):has(a[href^="https://www.carrefour.pl/promocje/zakupy-bez-rejestracji"])
 casedrop.eu##div[class^="bonus-popup"]:not([class*=" "], [class*="timer"])
 casu.pl,dji-ars.pl,drmax.pl###freshmail-main-wrapper, #freshmail_backdrop
 cdn.ampproject.org,www.reddit.com##.XPromoPopup
