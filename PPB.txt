@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Tue, 25 Nov 2025, 02:20 UTC+00:00
-! Version: 2025.11.25.0
+! Last modified: Tue, 25 Nov 2025, 13:09 UTC+00:00
+! Version: 2025.11.25.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 25 lis 2025, 02:20 UTC+00:00
+! Aktualizacja: wto, 25 lis 2025, 13:09 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -3384,7 +3384,6 @@ armytek.pl,dolinski.pl##.ab__scroll_to_top
 aros.pl,bonito.pl##.circle_arrow
 arriva.pl###move
 art-pol.pl,pl.akyga.com###jumpUpBtn
-artillo.pl,dstreet.pl,e-baseus.com,evertourist.com###backTop
 astoreo.pl##.scrollButtons
 asus.com##div[class*="scrollTopWrapper_"]
 asystentbhp.pl##.gototop-button.gototop
@@ -3433,7 +3432,6 @@ bip.nieborow.pl##.gotoTop
 bithub.pl##.st-site-scroll-top
 bitserwis.com.pl##.flaticon-home
 biuropodrozymax.pl###ui-up-arrow
-biurowazszywka.pl,dodadeau.com,montaz-anten.tv,zrozumotylosc.pl###ast-scroll-top
 biznesomania.com.pl,igomedia.pl,notebooki.pl##.goto-top
 biznesplan.net.pl##.ta_upscr
 blasty.pl###widget-back-to-top
@@ -3501,7 +3499,6 @@ cyberplac.pl,strona24.pl,swietawdomu.pl,wynajmijdostawczaka.pl###tg-scroll-to-to
 cyberrescue.info,osram.pl,pum.edu.pl##.jump-to-top
 cyclonis.com,help.hbomax.com,pantofelek24.pl###ScrollToTop
 czarodziejewspomnien.pl,hihome.pl###fount_to_top
-czasopisma.fbc.net.pl##.vue-back-to-top
 czescidobmw.pl##.pageToTop
 czescirolnicze.eu,mechanik-sc.pl,sklep-lubar.pl,sklep.incorsa.pl##.abs-scroll-top
 czescizamienne.amica.pl##.sfa-scroll-top
@@ -3978,7 +3975,7 @@ powiat.kielce.pl##.ikon-up
 powiat.konin.pl##.upscroll
 poznan.pl##.icon-up-new
 pozycjonowanie.net###zak-scroll-to-top
-ppe.pl###elevator.elevator-wrapper
+ppe.pl,tumblr.com##.elevator-wrapper
 praca.pl##.app-footer__scroll-to-top
 pracownia.org.pl##body > a[href="#"].btn
 pracowniakresek.pl##.cd-vertical-nav
@@ -4183,7 +4180,6 @@ www.microsoft.com##.m-back-to-top
 www.pl.weber##nav.nav-page > a.btn
 www.pudelek.pl##.button--go-top
 www.purepc.pl##.mtotop
-www.tumblr.com##.elevator-wrapper
 www.wittchen.com##.widget-goto-top
 wydawnictwoliteratura.pl##.hmztop
 wykop.pl##.big.button
@@ -4381,7 +4377,6 @@ zzachodu.pl##.in.g5core-back-to-top
 ##.vw_m520_topbar:not(body, html, .wrapper):lang(pl)
 ##.w-toplink:not(body, html, .wrapper):lang(pl)
 ##.z-navigation-footer_backToTop:not(body, html, .wrapper):lang(pl)
-##a#backTop:lang(pl)
 ##a.scroll-down:lang(pl)
 ##a.scroll-up:lang(pl)
 ##button.scroll-down:lang(pl)
@@ -4400,13 +4395,11 @@ zzachodu.pl##.in.g5core-back-to-top
 ~pl###back_to_top:lang(pl)
 ~pl###m7-go-top:not(body, html, .wrapper):lang(pl)
 ~pl###mt-scrollup:not(body, html, .wrapper):lang(pl)
-~pl##.js-up.up:lang(pl)
 ~pl##.scrollup:not(body, html, .wrapper):lang(pl)
 ~pl##a.scroll-up:lang(pl)
 ~pl##button.scroll-up:lang(pl)
 ~sklep.lobos.pl##.to-the-top:lang(pl)
 com,pl###profilki_uparrow
-pl##.js-up.up
 !
 !
 ! Tła zawierające autoreklamy
