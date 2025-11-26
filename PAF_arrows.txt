@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Tue, 25 Nov 2025, 16:42 UTC+01:00
-! Version: 2025.11.25.0
+! Last modified: Wed, 26 Nov 2025, 23:40 UTC+01:00
+! Version: 2025.11.26.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 25 lis 2025, 16:42 UTC+01:00
+! Aktualizacja: śro, 26 lis 2025, 23:40 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -103,6 +103,7 @@ armytek.pl,dolinski.pl##.ab__scroll_to_top
 aros.pl,bonito.pl##.circle_arrow
 arriva.pl###move
 art-pol.pl,pl.akyga.com###jumpUpBtn
+artillo.pl,dstreet.pl,e-baseus.com,evertourist.com###backTop
 astoreo.pl##.scrollButtons
 asus.com##div[class*="scrollTopWrapper_"]
 asystentbhp.pl##.gototop-button.gototop
@@ -921,7 +922,6 @@ zzachodu.pl##.in.g5core-back-to-top
 ###ast-scroll-top:lang(pl)
 ###back-to-top:lang(pl)
 ###back-top:not(body, html, .wrapper):lang(pl)
-###backTop:lang(pl)
 ###BackToTop:not(body, html, .wrapper):lang(pl)
 ###backToTop:not(body, html, .wrapper):lang(pl)
 ###backtoTop:not(body, html, .wrapper):lang(pl)
@@ -1086,13 +1086,16 @@ zzachodu.pl##.in.g5core-back-to-top
 ##.totop:not(body, html, .wrapper):lang(pl)
 ##.trx_addons_scroll_to_top:not(body, html, .wrapper):lang(pl)
 ##.ui-to-top:not(body, html, .wrapper):lang(pl)
+##.up.js-up:lang(pl)
 ##.vue-back-to-top
 ##.vw-scroll-to-top:not(body, html, .wrapper):lang(pl)
 ##.vw_m520_topbar:not(body, html, .wrapper):lang(pl)
 ##.w-toplink:not(body, html, .wrapper):lang(pl)
 ##.z-navigation-footer_backToTop:not(body, html, .wrapper):lang(pl)
+##a#backTop:lang(pl)
 ##a.scroll-down:lang(pl)
 ##a.scroll-up:lang(pl)
+##button#backTop:lang(pl)
 ##button.scroll-down:lang(pl)
 ##button.scroll-up:lang(pl)
 ##button[onclick="topFunction()"]
