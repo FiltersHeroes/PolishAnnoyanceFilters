@@ -1,7 +1,8 @@
 ###ast-scroll-top:lang(pl)
 ###back-to-top:lang(pl)
 ###back-top:not(body, html, .wrapper):lang(pl)
-###backTop:lang(pl)
+##a#backTop:lang(pl)
+##button#backTop:lang(pl)
 ###BackToTop:not(body, html, .wrapper):lang(pl)
 ###backToTop:not(body, html, .wrapper):lang(pl)
 ###backtoTop:not(body, html, .wrapper):lang(pl)
@@ -179,6 +180,7 @@
 ##button[title="Go to top"]
 ##cwc-to-top-button:lang(pl)
 ##div.up:has(> a.btn[href="#"]:only-child):not(.js-up)
+##.up.js-up:lang(pl)
 ##scroll-up:lang(pl)
 ~deweloper-interes.pl,pl###back_to_top:not(body, html, .wrapper)
 ~douglas.pl,pl##.scroll-top:not(body, html, .wrapper)
