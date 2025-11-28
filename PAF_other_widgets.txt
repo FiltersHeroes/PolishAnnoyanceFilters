@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Thu, 27 Nov 2025, 16:39 UTC+01:00
-! Version: 2025.11.27.0
+! Last modified: Sat, 29 Nov 2025, 00:33 UTC+01:00
+! Version: 2025.11.29.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 27 lis 2025, 16:39 UTC+01:00
+! Aktualizacja: sob, 29 lis 2025, 00:33 UTC+01:00
 !
 !
 !
@@ -875,6 +875,7 @@ programyzadarmo.net.pl##.notice--dark.js-notice.notice
 promocjomat.pl##.mkdf-blog-single-navigation
 promocyjni.pl##.new-dymek-holde
 pruszynski.com.pl###order-outbox
+prymat.pl##body > div[style*="fixed"]:has(a[href*="promocje"] div[style*="Circle"])
 przeglad-finansowy.pl###mobile_sticker-sticky-wrapper
 przepisy.pl###recentlySeenWidget
 przewodnikmp.pl##.slide-dock-on.slide-dock.widget
@@ -1122,6 +1123,7 @@ www.rp.pl###mk-paywall
 www.wp.pl##[class^="HomepageButton"]
 wyborcza.biz##.mod_swimmer
 wykop.pl##.text > p > cite:empty
+wykop.pl##section.observer.content:has([href="/rejestracja"])
 wylecz.to##.recommendedSideBox
 wyrobymennicze.pl##.gift_hover
 wysokieobcasy.pl##.bunny, .bunny-hp
