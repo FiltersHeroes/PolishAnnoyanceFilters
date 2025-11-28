@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Tue, 23 Sep 2025, 00:48 UTC+02:00
-! Version: 2025.9.23.0
+! Last modified: Sat, 29 Nov 2025, 00:33 UTC+01:00
+! Version: 2025.11.29.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 23 wrz 2025, 00:48 UTC+02:00
+! Aktualizacja: sob, 29 lis 2025, 00:33 UTC+01:00
 !
 !
 !
@@ -62,6 +62,7 @@ pl.blogpascher.com###site-scroll-top
 playgwent.com##.c-big-stream__video--sticked.c-big-stream__video
 pogoda.interia.pl##.inpl-tout-sticky.body__common-header--fixed .vjs-fixedmonitor-wrapper-fixed
 propertynews.pl##.detached.do-stick.featured-movie
+prymat.pl##body > div[style*="fixed"]:has(a[href*="promocje"] video)
 przeambitni.pl##.mvp-vid-fixed
 punkt.media##div[id^="em"][style*="position: fixed;"]
 radio.katowice.pl##div[id^="sidebar"].fixed-player
