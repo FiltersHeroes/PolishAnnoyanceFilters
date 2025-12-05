@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Wed, 03 Dec 2025, 11:43 UTC+01:00
-! Version: 2025.12.3.0
+! Last modified: Fri, 05 Dec 2025, 20:33 UTC+01:00
+! Version: 2025.12.5.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 03 gru 2025, 11:43 UTC+01:00
+! Aktualizacja: pią, 05 gru 2025, 20:33 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -226,6 +226,7 @@ czystyszop.pl##.ib-scroll-top
 czytio.pl,jaw.com.pl###scrollTop-btn
 dakoma.com.pl##.spin-scroll-top
 damy-rade.info,podforak.rzeszow.pl##.nav-up, .nav-down
+danrol-sklep.pl,ksiegarniamorska.pl,papiernicza.pl,sklep.najlepszy-przyjaciel.pl,timetrend.pl##.scroll-button
 darent.net,netbiel.pl###scroll-top-top
 darkarea.pl###bttop
 decathlon.pl###messagetop
@@ -1103,6 +1104,7 @@ zzachodu.pl##.in.g5core-back-to-top
 ##cwc-to-top-button:lang(pl)
 ##div.up:has(> a.btn[href="#"]:only-child):not(.js-up)
 ##scroll-up:lang(pl)
+##span[class="scroll scroll-btn"]:lang(pl)
 ~deweloper-interes.pl,pl###back_to_top:not(body, html, .wrapper)
 ~douglas.pl,pl##.scroll-top:not(body, html, .wrapper)
 ~ifirma.pl,pl##.dogory:not(body, html)
