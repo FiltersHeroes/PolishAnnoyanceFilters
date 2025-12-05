@@ -1,4 +1,4 @@
-pepper.pl##.browserExtension-promotionBanner
+!pepper.pl##div[id*="Banner" i]:has([alt="Recruitment_mod" i], [href*="dzien-ojca" i])
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###wp-back-button, #wp-sg-back-button
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###bottom-sticky-container > div[class]:has(a[href*="wp.pl/"])
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###wp-back-bottombar-button.wp-comments-bottombar > #wp-back-bottombar-button
@@ -748,7 +748,7 @@ paypo.pl##header > div:has(> div > img[alt="PayPo Squares"] ~ a[href*=".com/"])
 pch24.pl##.counter-widget
 pcworld.pl###newsmore
 pep.pl##.work-offers
-!pepper.pl##div[id*="Banner" i]:has([alt="Recruitment_mod" i], [href*="dzien-ojca" i])
+pepper.pl##.browserExtension-promotionBanner
 pepsieliot.com,wprost.pl##.element-article-link
 perfumeriatop10.pl##.perfumeria-allegro
 piaseczno.eu###acp-toggle-toolbar
