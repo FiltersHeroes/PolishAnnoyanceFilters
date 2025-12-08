@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 06 Dec 2025, 00:34 UTC+01:00
-! Version: 2025.12.6.0
+! Last modified: Mon, 08 Dec 2025, 19:10 UTC+01:00
+! Version: 2025.12.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,12 +13,13 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 06 gru 2025, 00:34 UTC+01:00
+! Aktualizacja: pon, 08 gru 2025, 19:10 UTC+01:00
 !
 !
 !
 ! Specyficzne filtry
 ||app*.salesmanago.pl/cf/*/zapis_na_newsletter_$subdocument
+||app.getresponse.com/site2/newsletter-zapisy/$subdocument
 ||bee.pl/System/Files/*/theme/*zapisz-sie*.jpg
 ||biuroprasowe.pl/userfiles/_CMS_/EPR3/baner_newsletter.jpg
 ||biuroprasowe.pl/userfiles/_CMS_/EPR/biuroprasowe-reklama.jpg
