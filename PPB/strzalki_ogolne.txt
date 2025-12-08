@@ -170,14 +170,14 @@
 ##.vw_m520_topbar:not(body, html, .wrapper):lang(pl)
 ##.w-toplink:not(body, html, .wrapper):lang(pl)
 ##.z-navigation-footer_backToTop:lang(pl)
-~pl##a#backTop:lang(pl)
-##a.scroll-down:lang(pl)
-##a.scroll-up:lang(pl)
-~pl##button#backTop:lang(pl)
-##button.scroll-down:lang(pl)
-pl##a#backTop
-pl##button#backTop
-##button.scroll-up:lang(pl)
+~pl###backTop:is(a, button):lang(pl)
+##.scroll-down:is(a, button):lang(pl)
+##.scroll-up:is(a, button):lang(pl)
+~pl###backTop:is(a, button):lang(pl)
+##.scroll-down:is(a, button):lang(pl)
+pl###backTop:is(a, button)
+pl###backTop:is(a, button)
+##.scroll-up:is(a, button):lang(pl)
 ##button[onclick="topFunction()"]
 ##button[title="Go to top"]
 ##cwc-to-top-button:lang(pl)
@@ -187,14 +187,14 @@ pl##button#backTop
 ~deweloper-interes.pl,pl###back_to_top:not(body, html, .wrapper)
 ~douglas.pl,pl##.scroll-top:not(body, html, .wrapper)
 ~ifirma.pl,pl##.dogory:not(body, html)
-~mediaexpert.pl,~mediamarkt.pl,pl##a.scroll-down
-~mediaexpert.pl,~mediamarkt.pl,pl##button.scroll-down
+~mediaexpert.pl,~mediamarkt.pl,pl##.scroll-down:is(a, button)
+~mediaexpert.pl,~mediamarkt.pl,pl##.scroll-down:is(a, button)
 ~naukawpolsce.pl,pl###toTop:not(body, html, .wrapper)
 ~pl###back_to_top:lang(pl)
 ~pl###m7-go-top:not(body, html, .wrapper):lang(pl)
 ~pl###mt-scrollup:not(body, html, .wrapper):lang(pl)
 ~pl##.scrollup:not(body, html, .wrapper):lang(pl)
-~pl##a.scroll-up:lang(pl)
-~pl##button.scroll-up:lang(pl)
+~pl##.scroll-up:is(a, button):lang(pl)
+~pl##.scroll-up:is(a, button):lang(pl)
 ~sklep.lobos.pl##.to-the-top:lang(pl)
 com,pl###profilki_uparrow
