@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Thu, 11 Dec 2025, 16:45 UTC+01:00
-! Version: 2025.12.11.0
+! Last modified: Sun, 14 Dec 2025, 20:33 UTC+01:00
+! Version: 2025.12.14.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 11 gru 2025, 16:45 UTC+01:00
+! Aktualizacja: nie, 14 gru 2025, 20:33 UTC+01:00
 !
 !
 !
@@ -26,7 +26,6 @@
 ||carry.pl//themes/default/img/newsletter1.png
 ||dobremiejsce.org/wp-content/themes/dobremiejsce_org_pds/images/s2-980.jpg
 ||duckuckgo.com/assets/icons/footer/newsletter.svg
-||forms.freshmail.io^$subdocument,domain=1242.eu|ita.tools|pulsembed.eu
 ||genway.pl/images/frontend/theme/whitegen/social/newsletter.png
 ||gofin.pl/images/newslettery_swl.png
 ||i.perspektywy.net/pages/jhovngq2lj/banners/H41N57ow3HyikR9iXCxK4vKmEyIGFXSVPZHc9ABq.jpeg
@@ -1070,8 +1069,6 @@ naszerecenzje.wordpress.com###blog_subscription-4
 naszesprawy.eu##.theiaStickySidebar > div.add-inner:first-of-type, .theiaStickySidebar > div.add-inner:nth-of-type(3)
 naszhandel.pl##.box_02:nth-of-type(2) > .box_cnt
 naszraciborz.pl##.comments.right_box:nth-of-type(15)
-natural.pl##footer aside form.newsletter-form
-natural.pl##footer aside:has(> form.newsletter-form)
 natvita.pl##div.footer_about:nth-of-type(4) > div.block.ApHtml:first-of-type
 naukawpolsce.pl##.followUsElement:not(.mail, .rss)
 nazdrowie.pl##.widget_custom_html.widget.widget_text
@@ -1814,7 +1811,6 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 /btn-newsletter
 /button/newsletter.jpg
 /wp-content/plugins/wysija-newsletters
-||forms.freshmail.io^$subdocument,domain=pl
 ###box-newsletter:lang(pl)
 ###box_newsletter:lang(pl)
 ###email-subscribers-2:lang(pl)
