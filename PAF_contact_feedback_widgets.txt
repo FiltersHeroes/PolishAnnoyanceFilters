@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Tue, 09 Dec 2025, 02:24 UTC+00:00
-! Version: 2025.12.9.0
+! Last modified: Mon, 15 Dec 2025, 16:57 UTC+00:00
+! Version: 2025.12.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 09 gru 2025, 02:24 UTC+00:00
+! Aktualizacja: pon, 15 gru 2025, 16:57 UTC+00:00
 !
 !
 !
@@ -265,6 +265,7 @@ diversesystem.com###app > footer ~ .container
 dlaspania.pl##iframe[id^="mcs_"][src*="chat"]
 dobrefinanse.co.uk##.form-content-btn
 dodomku.pl##.btn-chat-toggle
+dodomku.pl##.contact-info-tel > p + p:has(> a > img[src*="WhatsApp"])
 dolcar.auto.pl,jackvision.pl,mleczarze.pl###jz-callback-icon
 domesta.com.pl##.ask
 domiporta.pl,maxelektro.pl##.chatbot
