@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Mon, 15 Dec 2025, 23:04 UTC+01:00
-! Version: 2025.12.15.0
+! Last modified: Thu, 25 Dec 2025, 20:10 UTC+01:00
+! Version: 2025.12.25.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 15 gru 2025, 23:04 UTC+01:00
+! Aktualizacja: czw, 25 gru 2025, 20:10 UTC+01:00
 !
 !
 !
@@ -63,6 +63,7 @@
 ||widgets.okazje.info.pl^$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
+##app-m-obywatel-app-download-banner
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###wp-back-button, #wp-sg-back-button
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###bottom-sticky-container > div[class]:has(a[href*="wp.pl/"])
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###wp-back-bottombar-button.wp-comments-bottombar > #wp-back-bottombar-button
@@ -318,7 +319,7 @@ domix-agro.pl##div.footer_light_bg:nth-child(13)
 domodi.pl##.tf-v1-sidetab-button
 douglas.pl##.app-banner
 download.komputerswiat.pl###breadcrumbs_floating, #dl_breaking_news
-doz.pl##.product-card__about > .wrapper > .rich-content
+doz.pl##.product-card__about > .wrapper > #rich-content, a[href="#rich-content"]
 doz.pl##.product-list-item[class*=" "]:is([class*="from-tv"], [class*="of-the-week"], [class*="sponsored"])
 drerowery.pl###caRatySideup
 dresowka.pl###newsletter-popup-box
@@ -1227,6 +1228,7 @@ polsatnews.pl##.series__item { remove: true }
 ##.floating-yt-player:lang(pl)
 ##.freeShipping:lang(pl)
 ##.header-back-link:lang(pl)
+##.IkonaDostepnosci
 ##.jeg_popup_post:lang(pl)
 ##.kac-sm-gmap:lang(pl)
 ##.kac-sm-gmb:lang(pl)

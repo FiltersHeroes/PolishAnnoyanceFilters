@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 15 Dec 2025, 20:37 UTC+01:00
-! Version: 2025.12.15.0
+! Last modified: Thu, 25 Dec 2025, 16:39 UTC+01:00
+! Version: 2025.12.25.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 15 gru 2025, 20:37 UTC+01:00
+! Aktualizacja: czw, 25 gru 2025, 16:39 UTC+01:00
 !
 !
 !
@@ -1902,7 +1902,6 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ##.newsletter_bar:lang(pl)
 ##.newsletter_box:lang(pl)
 ##.newsletter_footer:lang(pl)
-##.newsletter_form:lang(pl)
 ##.newsletter_wrapper:lang(pl)
 ##.newsletterbox:lang(pl)
 ##.newsletterCont:lang(pl)
@@ -1936,6 +1935,7 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ~dietyodbrokula.pl,~ekodrogeria.pl,~mediaexpert.pl,~muzyczneradio.pl,pl##.newsletter-form
 ~drogeriaolmed.pl,pl##.newsletter-btn
 ~dron.pl,pl##.widget_wysija
+~ezebra.pl##.newsletter_form:lang(pl)
 ~ksiegarnia-edukacyjna.pl,pl,~sportclub.com.pl###menu_newsletter
 ~lantre.pl##.box-newsletter:lang(pl)
 ~mediaexpert.pl,pl##.form-newsletter
