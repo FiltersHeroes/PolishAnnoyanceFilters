@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Mon, 29 Dec 2025, 23:16 UTC+01:00
-! Version: 2025.12.29.2
+! Last modified: Wed, 31 Dec 2025, 16:40 UTC+01:00
+! Version: 2025.12.31.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 29 gru 2025, 23:16 UTC+01:00
+! Aktualizacja: śro, 31 gru 2025, 16:40 UTC+01:00
 !
 !
 !
@@ -147,13 +147,14 @@ zdrowie.pap.pl##section ~ span[onclick="window.scrollTo(0, 0);"]
 ||salesmanago.*/api/push/$xmlhttprequest
 ||salesmanago.*/api/push/notification/consent/content.html$subdocument
 ||savecart.pl/*/script.php
+###edrone_push--bubble, #edrone--push--alert--box:lang(pl)
+###onesignal-bell-container:lang(pl)
+###pushAdUpBanner:lang(pl)
+###pushwoosh-pop:lang(pl)
+###pushwoosh-subscription-widget-root:lang(pl)
+##.gr-visual-prompt:lang(pl)
+##.webpushBell:lang(pl)
 ~pl###edrone_push--bubble:lang(pl), #edrone--push--alert--box:lang(pl)
-pl###edrone_push--bubble, #edrone--push--alert--box
-pl###onesignal-bell-container
-pl###pushAdUpBanner
-pl###pushwoosh-pop
-pl###pushwoosh-subscription-widget-root
-pl##.gr-visual-prompt
 !
 !
 ! Filtry specjalne
