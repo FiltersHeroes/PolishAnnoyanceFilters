@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Mon, 15 Dec 2025, 16:57 UTC+00:00
-! Version: 2025.12.15.0
+! Last modified: Sun, 04 Jan 2026, 13:07 UTC+00:00
+! Version: 2026.1.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 15 gru 2025, 16:57 UTC+00:00
+! Aktualizacja: nie, 04 sty 2026, 13:07 UTC+00:00
 !
 !
 !
@@ -51,6 +51,7 @@
 ###facebookbc
 ###whatsappbc
 ##.btn-share.btn.btn-whatsapp
+##.chat-button:has(a[id^="chat-button-"][id*="messenger"], a[id^="chat-button-"][id*="whatsapp" i])
 ##.pos-socials-widget .ei-whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
 ##div[data-hook="social-sharing"] button[aria-label="Udostępnij na WhatsApp"]
@@ -71,7 +72,6 @@
 123tlumacz.pl,adra.pl,espritshop.pl,przetargi.info###feedback
 303avenue.pl,4kidspoint.pl,ergopoint.com.pl,wabisabi-store.jp###shopify-chat
 1944.pl###rasaWebchatPro
-51015kids.eu###custom_trustbadge
 aaaauto.pl###site-bottom-bar-content > .smoothbox
 abc-zoosklep.pl,bonami.pl,notino.pl,pl.factcool.com###daktela-chat, #daktela-web
 aco.com.pl,alfaromeo.pgd.pl##iframe[id*="fcc-chat-"]
