@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Thu, 01 Jan 2026, 16:40 UTC+01:00
-! Version: 2026.1.1.0
+! Last modified: Sun, 04 Jan 2026, 16:38 UTC+01:00
+! Version: 2026.1.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 01 sty 2026, 16:40 UTC+01:00
+! Aktualizacja: nie, 04 sty 2026, 16:38 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -36,7 +36,6 @@
 50style.pl##div.scroll
 80dni.pl###backtotop_wpv
 123tlumacz.pl,reklamy-arek.pl###back-to-top-fixed
-51015kids.eu##div[suppresshydrationwarning] div[class=""] button[type="button"][class]
 a1komputery.pl,fundacjadominikana.org,wp-piast.pl,wspkorczak.eu##.sp-totop
 account.dm.pl##button[title="scrollTop"]
 acer.com##.btn--btt
@@ -242,6 +241,7 @@ deubaxxlshop.pl###scrolltopbutton
 dhl.com##.c-go-to-top-button
 diabetyk24.pl##.btn-success
 dictionary.cambridge.org##.ctop
+dictionary.cambridge.org##header + .cc:not(.cc-ns) span[on="tap:top.scrollTo"]
 digi-store.pl,techsat24.pl###buttonTop
 digitalvirgo.com,extrabukiet.pl,forum.budujemydom.pl,lispol.com##.fa-arrow-circle-up
 digitalx.pl,drzwi-dabs.pl,hauerpower.com,interaktywnie.com,tertio.pl##.scroll-top-arrow
