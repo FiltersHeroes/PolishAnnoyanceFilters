@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 04 Jan 2026, 16:38 UTC+01:00
-! Version: 2026.1.4.0
+! Last modified: Sun, 04 Jan 2026, 20:33 UTC+01:00
+! Version: 2026.1.4.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 04 sty 2026, 16:38 UTC+01:00
+! Aktualizacja: nie, 04 sty 2026, 20:33 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -1008,6 +1008,7 @@ zzachodu.pl##.in.g5core-back-to-top
 ##.vw-scroll-to-top:lang(pl)
 ##.z-navigation-footer_backToTop:lang(pl)
 ##a.top-button[href="#"]
+##a.up:not([href])
 ##arrowscrolltop:lang(pl)
 ##body #back-top:not(.wrapper):lang(pl)
 ##body #go-top:not(.wrapper):lang(pl)
