@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 04 Jan 2026, 13:07 UTC+00:00
-! Version: 2026.1.4.0
+! Last modified: Tue, 06 Jan 2026, 16:43 UTC+01:00
+! Version: 2026.1.6.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 04 sty 2026, 13:07 UTC+00:00
+! Aktualizacja: wto, 06 sty 2026, 16:43 UTC+01:00
 !
 !
 !
@@ -116,6 +116,7 @@ anton-paar.com,bisnode.pl###iframe-designstudio-button
 antykwariat-amicus.pl###vdz_cb_widget
 apartamentyzdrowie.pl###aside a:not(.Facebook)
 aptekaolmed.pl,drogeriaolmed.pl##.box-info-ab
+aptekapasewalk.pl##a[href^="tel:+49"]:has(img:is([src*="WA"], [src*="whatsapp"]))
 aptekapomocna24.pl,dolina-noteci.pl,drogeriausa.pl###sensbot-chat
 apteline.pl,zryjzdrowocatering.com###chat-widget-container
 aquamelior.pl###slaask-button
