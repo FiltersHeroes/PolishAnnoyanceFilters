@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 06 Jan 2026, 16:43 UTC+01:00
-! Version: 2026.1.6.0
+! Last modified: Tue, 06 Jan 2026, 20:36 UTC+01:00
+! Version: 2026.1.6.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 06 sty 2026, 16:43 UTC+01:00
+! Aktualizacja: wto, 06 sty 2026, 20:36 UTC+01:00
 !
 !
 !
@@ -1912,7 +1912,6 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ##.newsletter-wrap:lang(pl)
 ##.newsletter-wrapper:lang(pl)
 ##.newsletter.col1.module:lang(pl)
-##.newsletter__form:lang(pl)
 ##.newsletter__wrapper:lang(pl)
 ##.newsletter_bar:lang(pl)
 ##.newsletter_box:lang(pl)
@@ -1944,6 +1943,7 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ##.widget_newsletterwidgeter_box:lang(pl)
 ##.widget_newsletterwidgetminimal:lang(pl)
 ~activejet.pl,pl##.newsletterBox
+~al.to,~x-kom.pl##.newsletter__form:lang(pl)
 ~aurum-optics.pl,~hellotuttifrutti.pl,pl##.footer-newsletter
 ~automatykab2b.pl,~ekodrogeria.pl,~gazeta.pl,pl,~wyborcza.pl##.newsletter-box
 ~carrefour.pl,~olx.pl,pl###newsletter:not(.modal, input, :target)
