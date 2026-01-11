@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 11 Jan 2026, 16:38 UTC+01:00
-! Version: 2026.1.11.0
+! Last modified: Sun, 11 Jan 2026, 17:28 UTC+00:00
+! Version: 2026.1.11.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 sty 2026, 16:38 UTC+01:00
+! Aktualizacja: nie, 11 sty 2026, 17:28 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -2217,7 +2217,6 @@ bboptic.com###POPUPS_ROOT.POPUPS_ROOT:has(#lmsjg, .lmsjg)
 bdl.lasy.gov.pl##.blockPage.blockMsg.blockUI, .blockOverlay.blockUI
 beardman.pl,polskicaravaning.pl,swiatopon.info,warsztat.pl,wiadomoscihandlowe.pl,wiadomoscikosmetyczne.pl###newsletter-popup-wrapper
 beardman.pl,subiektywnieofinansach.pl###newsletter-overlay
-beautikon.com###mteo_popup_bg_layer
 beliani.pl###front_overlay_subscription
 bemuke.pl##div[id^="tws_i_"]
 beskidy.news##.c-pop-up
@@ -4429,6 +4428,7 @@ zzachodu.pl##.in.g5core-back-to-top
 ~pl##body #mt-scrollup:not(.wrapper):lang(pl)
 ~pl##body .scrollup:not(.wrapper):lang(pl)
 ~sklep.lobos.pl##.to-the-top:lang(pl)
+com,eu,info,pl,tv##button.buttonUp
 com,pl###profilki_uparrow
 pl###backTop:is(a, button)
 !
