@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 11 Jan 2026, 20:33 UTC+01:00
-! Version: 2026.1.11.2
+! Last modified: Mon, 12 Jan 2026, 22:04 UTC+01:00
+! Version: 2026.1.12.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 sty 2026, 20:33 UTC+01:00
+! Aktualizacja: pon, 12 sty 2026, 22:04 UTC+01:00
 !
 !
 !
@@ -1382,6 +1382,7 @@ romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rosarosie.com##div[id*="tws_i_"]:has(form[action="settings.php"] input[name="mailing_email"])
 rosenthal.pl##.st_news_letter_1
+rossmann.pl##section[class*="container"] > div:only-child > div:first-child > div:first-child:has(button[aria-label^="Zapisz się na newsletter"])
 rovus.pl##.footer-lower div.links:nth-of-type(4)
 royal-dental.pl##.s__newsletter
 rozterkistartuperki.pl##.mab-pad
