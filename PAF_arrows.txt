@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Thu, 15 Jan 2026, 20:42 UTC+01:00
-! Version: 2026.1.15.0
+! Last modified: Fri, 16 Jan 2026, 16:43 UTC+01:00
+! Version: 2026.1.16.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 15 sty 2026, 20:42 UTC+01:00
+! Aktualizacja: pią, 16 sty 2026, 16:43 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -310,6 +310,7 @@ epiotrkow.pl,swiatkwiatow.pl,wyspa.tv##.back-to-top
 ergolife.com.pl,pib-nio.pl###es-top
 erhem.pl,inwestinfo.pl,lift.pl,maximedia.pl,prawdziweswieta.pl,scie24.pl,starachowice-net.pl,swis-shop.pl,wdrodze.pl,yellow.place###up
 erkado.pl##.skip--top
+erli.pl###root > header ~ button:has(> svg:only-child):has(~ footer)
 eset.com##.footer-scroll-to-top-wrapper
 esparto.pl##.clb-scroll-top
 espritshop.pl###scrollbutton
