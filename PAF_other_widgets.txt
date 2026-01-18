@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 16 Jan 2026, 16:43 UTC+01:00
-! Version: 2026.1.16.0
+! Last modified: Sun, 18 Jan 2026, 14:44 UTC+01:00
+! Version: 2026.1.18.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 16 sty 2026, 16:43 UTC+01:00
+! Aktualizacja: nie, 18 sty 2026, 14:44 UTC+01:00
 !
 !
 !
@@ -69,6 +69,8 @@
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###wp-back-button, #wp-sg-back-button, a[data-st-area="xbal"]
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.wp-bottombar #wp-back-bottombar-button:has(~ .wp-bottombar-actions-active)
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.wp-bottombar:has(> #wp-back-bottombar-button ~ .wp-bottombar-actions-hidden)
+4dd.pl##.app-eec-desktop
+4dd.pl##.app-eec-mobile
 4fun.tv##.app-popup
 4programmers.net##.sidebar-job-offers.box, .sidebar-offers.box
 4sun.eu##.left.pointer
@@ -666,6 +668,7 @@ meblosfera.pl##.wp-side-menu-item:nth-of-type(n+2):nth-of-type(-n+4)
 med-store.pl###social_prof.social_prof
 media2.pl###news-readmore, #news-suggest
 mediaexpert.pl##.is-visible.inteliwise-loader
+mediaexpert.pl##body > #spark ~ #help-bubble
 mediarun.com##.jeg_popup_post
 mediasystem-tdi.pl##.right.ltr.a11y-toolbar
 medme.pl##.back-button
