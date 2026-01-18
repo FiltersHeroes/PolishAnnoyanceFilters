@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 18 Jan 2026, 13:14 UTC+01:00
-! Version: 2026.1.18.0
+! Last modified: Sun, 18 Jan 2026, 14:44 UTC+01:00
+! Version: 2026.1.18.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 18 sty 2026, 13:14 UTC+01:00
+! Aktualizacja: nie, 18 sty 2026, 14:44 UTC+01:00
 !
 !
 !
@@ -143,6 +143,7 @@ amrest.eu###block-simplenews-1
 amso.pl###f_newsletter .f_form
 amw.com.pl##.footer-top__newsletter.footer-top__box
 analizy.pl##.footerFormWrapper
+android.com.pl##.wp-block-acp-newsletter-form
 andrzejgrzyb.eu,todoandroid.es##.widget_newsletterwidget
 andzela.com##.newsletter_block_right
 aniagemma.com###SITE_FOOTER form[id][class]
@@ -315,6 +316,7 @@ butyraj.pl##.hidden-phone.top_toplayer
 bydgoszcz.com,ct.jaworzno.pl,damitv.pl,echotygodnik.info,kociewiak.pl,narew.info,pzl24.pl,telewizjazary.pl,tvobiektyw.pl,tvsudecka.pl,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:first-of-type
 byinsomnia.com,mniammniam.com,opakowania24.eu,r-gol.com,rylko.com,stoprocent.com,unisono.eu##.newsletter-container
 bytom.com.pl##.footer-new__newsletter
+cadprojekt.com.pl,moyamatcha.com###custom_html-6
 cafago.com,tomtop.com##.m_subscribe_input
 cafessima.pl###block-23
 calisia.pl##footer .container > .row > div:nth-of-type(4)
@@ -515,6 +517,7 @@ edziecko.pl,ladnydom.pl,myfitness.pl,wyborcza.biz##.nlt
 eelsner24.eu,kupzegarek.com,sklep.platinet.pl,sorbenty.pl##.footer_nls
 efashionstudio.pl##footer > .top > .container
 egarden.pl##.newsletter-foot
+egger.com,empik.com##.newsletter-registration
 egospodarka.pl##.ego-ico3, .ego-newsletter
 ekodrogeria.pl##.wrap-newsletter :is(.newsletter-box, .newsletter-form)
 ekoj.pl###newsletterbar
@@ -539,7 +542,6 @@ emedyczny.com,emedyczny.pl##.m-footer-1__column--with-newsletter > div:first-chi
 emedyczny.com,pb.pl,pro-skippers.com,sklep-wadima.pl###NewsletterBox
 emocje.pro###bloomwidget-3
 emp-shop.pl##.mb-sp-2.mb-1.order-md-12.order-8.d-flex.open-md.col-md.col-12
-empik.com##.newsletter-registration
 enerad.pl###g1-prefooter-widget-area > .g1-grid > .g1-one-fourth.g1-column:nth-of-type(3)
 englishcollege.pl##.menudol > .calosc > #kontakt
 enjoyment.pl##.ec-v-form-holder.ec-v-form-holder-mobile_popup
@@ -1040,7 +1042,6 @@ motocombo.pl##.footer-conteiner > ul:nth-of-type(4) > h3, .footer-conteiner > ul
 motocykle-krakow.pl###CustomLayoutWidget_6, .tpl-custom-newsletter-form-widget
 motocyklowysklep24.pl##.NewsletterStrona
 motogen.pl##.region-7 > .blok-jasny:nth-of-type(3)
-moyamatcha.com###custom_html-6
 mozilla.org##.mzp-c-newsletter
 mp-office.eu###cta-newsletter
 mp.pl##.box-newsletter-pacjent
