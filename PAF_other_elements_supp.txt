@@ -139,6 +139,8 @@ pl##.with-smartbanner .top-band:style(margin-top: 0 !important)
 pl##body.smartbanner #smartbanner
 pl##html[data-smartbanner-original-margin-top^="0"][style]:style(margin-top: 0 !important)
 plus.pl##+js(set-cookie, isIplusClosed, true)
+poczta.interia.pl##:matches-media((min-width: 1026px)) #main-app :is(#sitebar, #sitebar FORM):style(width: 100% !important; max-width: 100% !important)
+poczta.interia.pl#@##main-app #sitebar, #main-app #sitebar FORM:style(width: 100% !important; max-width: 100% !important)
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body > style:last-child:has-text(/\._[a-z0-9]{12}/):remove()
 poczta.o2.pl,poczta.wp.pl##:matches-path(/login/login.html) body[class*=" _"]:remove-class(/_[a-z0-9]{12}/)
 politykazdrowotna.com##:matches-media((max-width: 768px)) a[title="Kliknij żeby dodać komentarz do tekstu"]
