@@ -187,7 +187,7 @@ endo.pl,toysrus.pl###modalNL, .modal-backdrop
 epione.pl,royalpark.pl##.fancybox-lock body:style(overflow-y: auto !important)
 erecruiter.pl##.is-simple-popup.site-popup
 erecruiter.pl##body[style]:style(position: static !important; overflow-y: auto !important)
-erli.pl###root ~ div:has(a[href*="/kupon"])
+erli.pl###root ~ div:has(a[href]:is([href*="/kupon"], [href*="/polowanie-na-hit"]))
 esoleo.pl##.s-Popup
 esoleo.pl##html[style="overflow: hidden;"],body[style="overflow: hidden;"]:style(overflow-y: auto !important)
 euro.com.pl,oleole.pl##.cdk-global-scrollblock[class], .eui-global-scrollblock[class]:style(position: static !important; overflow-y: auto !important)
