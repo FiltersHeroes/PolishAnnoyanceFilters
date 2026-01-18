@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Tue, 06 Jan 2026, 16:43 UTC+01:00
-! Version: 2026.1.6.0
+! Last modified: Sun, 18 Jan 2026, 13:37 UTC+00:00
+! Version: 2026.1.18.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 06 sty 2026, 16:43 UTC+01:00
+! Aktualizacja: nie, 18 sty 2026, 13:37 UTC+00:00
 !
 !
 !
@@ -53,6 +53,7 @@
 ##.btn-share.btn.btn-whatsapp
 ##.chat-button:has(a[id^="chat-button-"][id*="messenger"], a[id^="chat-button-"][id*="whatsapp" i])
 ##.pos-socials-widget .ei-whatsapp
+##.scriptlesssocialsharing .button.whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
 ##div[data-hook="social-sharing"] button[aria-label="Udostępnij na WhatsApp"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
