@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 18 Jan 2026, 13:14 UTC+01:00
-! Version: 2026.1.18.0
+! Last modified: Sun, 18 Jan 2026, 13:07 UTC+00:00
+! Version: 2026.1.18.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 18 sty 2026, 13:14 UTC+01:00
+! Aktualizacja: nie, 18 sty 2026, 13:07 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -144,6 +144,7 @@ amrest.eu###block-simplenews-1
 amso.pl###f_newsletter .f_form
 amw.com.pl##.footer-top__newsletter.footer-top__box
 analizy.pl##.footerFormWrapper
+android.com.pl##.wp-block-acp-newsletter-form
 andrzejgrzyb.eu,todoandroid.es##.widget_newsletterwidget
 andzela.com##.newsletter_block_right
 aniagemma.com###SITE_FOOTER form[id][class]
@@ -316,6 +317,7 @@ butyraj.pl##.hidden-phone.top_toplayer
 bydgoszcz.com,ct.jaworzno.pl,damitv.pl,echotygodnik.info,kociewiak.pl,narew.info,pzl24.pl,telewizjazary.pl,tvobiektyw.pl,tvsudecka.pl,tvswinoujscie.pl##div.sm-text-center.mb15.col-sm-6:first-of-type
 byinsomnia.com,mniammniam.com,opakowania24.eu,r-gol.com,rylko.com,stoprocent.com,unisono.eu##.newsletter-container
 bytom.com.pl##.footer-new__newsletter
+cadprojekt.com.pl,moyamatcha.com###custom_html-6
 cafago.com,tomtop.com##.m_subscribe_input
 cafessima.pl###block-23
 calisia.pl##footer .container > .row > div:nth-of-type(4)
@@ -516,6 +518,7 @@ edziecko.pl,ladnydom.pl,myfitness.pl,wyborcza.biz##.nlt
 eelsner24.eu,kupzegarek.com,sklep.platinet.pl,sorbenty.pl##.footer_nls
 efashionstudio.pl##footer > .top > .container
 egarden.pl##.newsletter-foot
+egger.com,empik.com##.newsletter-registration
 egospodarka.pl##.ego-ico3, .ego-newsletter
 ekodrogeria.pl##.wrap-newsletter :is(.newsletter-box, .newsletter-form)
 ekoj.pl###newsletterbar
@@ -540,7 +543,6 @@ emedyczny.com,emedyczny.pl##.m-footer-1__column--with-newsletter > div:first-chi
 emedyczny.com,pb.pl,pro-skippers.com,sklep-wadima.pl###NewsletterBox
 emocje.pro###bloomwidget-3
 emp-shop.pl##.mb-sp-2.mb-1.order-md-12.order-8.d-flex.open-md.col-md.col-12
-empik.com##.newsletter-registration
 enerad.pl###g1-prefooter-widget-area > .g1-grid > .g1-one-fourth.g1-column:nth-of-type(3)
 englishcollege.pl##.menudol > .calosc > #kontakt
 enjoyment.pl##.ec-v-form-holder.ec-v-form-holder-mobile_popup
@@ -1041,7 +1043,6 @@ motocombo.pl##.footer-conteiner > ul:nth-of-type(4) > h3, .footer-conteiner > ul
 motocykle-krakow.pl###CustomLayoutWidget_6, .tpl-custom-newsletter-form-widget
 motocyklowysklep24.pl##.NewsletterStrona
 motogen.pl##.region-7 > .blok-jasny:nth-of-type(3)
-moyamatcha.com###custom_html-6
 mozilla.org##.mzp-c-newsletter
 mp-office.eu###cta-newsletter
 mp.pl##.box-newsletter-pacjent
@@ -3153,7 +3154,7 @@ pl##cwc-floating-box[name="newsletterSignupFloatingBox"]
 ||web.webpushs.com/js/push/$script,domain=wiencewiazanki.pl
 ||webpush.interia.pl/activator.js
 ||webpush.interia.pl/scripts/*/push.js
-~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.wp-push-main-container
+~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl##.wp-push-main-container
 2conv.com,flv2mp3.by,flvto.biz##.push-offer
 50style.pl,carrefour.pl,sklep.sizeer.com,www.komputronik.pl###snrs-wp-subscriber
 allani.pl,domodi.pl##div[id*="FakePromptContainer"]
@@ -5435,6 +5436,8 @@ zrzutka.pl##.uv-bottom-right
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###wp-back-button, #wp-sg-back-button, a[data-st-area="xbal"]
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.wp-bottombar #wp-back-bottombar-button:has(~ .wp-bottombar-actions-active)
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl##.wp-bottombar:has(> #wp-back-bottombar-button ~ .wp-bottombar-actions-hidden)
+4dd.pl##.app-eec-desktop
+4dd.pl##.app-eec-mobile
 4fun.tv##.app-popup
 4programmers.net##.sidebar-job-offers.box, .sidebar-offers.box
 4sun.eu##.left.pointer
@@ -6032,6 +6035,7 @@ meblosfera.pl##.wp-side-menu-item:nth-of-type(n+2):nth-of-type(-n+4)
 med-store.pl###social_prof.social_prof
 media2.pl###news-readmore, #news-suggest
 mediaexpert.pl##.is-visible.inteliwise-loader
+mediaexpert.pl##body > #spark ~ #help-bubble
 mediarun.com##.jeg_popup_post
 mediasystem-tdi.pl##.right.ltr.a11y-toolbar
 medme.pl##.back-button
