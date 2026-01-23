@@ -749,9 +749,7 @@ parenting.pl,portal.abczdrowie.pl##.morealike__recomended
 parkwodny.pl##.fixed-text, .dl-bubble
 partneragdrtv.com.pl###js-sis_menu
 pasazer.com##.fixed-search-tabs
-paypo.pl##div.mobile-app-bar
-paypo.pl##div[class*="MobileAppBanner-"]
-paypo.pl##header > div:has(> div > img[alt="PayPo Squares"] ~ a[href*=".com/"])
+paypo.pl##[data-testid="mobile-app-bar"]
 pch24.pl##.counter-widget
 pcworld.pl###newsmore
 pep.pl##.work-offers
