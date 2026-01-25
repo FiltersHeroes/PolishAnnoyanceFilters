@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 25 Jan 2026, 16:50 UTC+00:00
-! Version: 2026.1.25.0
+! Last modified: Sun, 25 Jan 2026, 20:34 UTC+01:00
+! Version: 2026.1.25.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 25 sty 2026, 16:50 UTC+00:00
+! Aktualizacja: nie, 25 sty 2026, 20:34 UTC+01:00
 !
 !
 !
@@ -140,6 +140,7 @@ authority.com.pl##.cb24-messenger-widget
 authority.com.pl##div[style*="fixed"][style*="border-radius"]:not([class], [id]):empty
 auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##.ods-m-socials-stream a[href*="wa.me"]
 auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##li.ods-c-share__li:has(> a[href*="wa.me"])
+auto-swiat.pl,fakt.pl,komputerswiat.pl,medonet.pl,onet.pl,plejada.pl,przegladsportowy.pl##span[class*="ShareLayerItem_"]:has([class*="Messenger"], [class*="WhatsApp"])
 autodoc.pl##.js-chat-buttons-container-genesys
 autohero.com##.root___o8kuv
 autokomis-berlin.pl##.ctc_s_2.ctc-analytics
