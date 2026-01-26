@@ -1,3 +1,7 @@
+gazeta.pl###article_wrapper .bottom_section .poll
+infor.pl##.quizUnderDocument
+infor.pl##h2[id*="sonda"] + div + .psavpoll
+infor.pl##h2[id*="sonda"]:ha(+ div + .psavpoll)
 ##app-m-obywatel-app-download-banner
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###bottom-sticky-container > div[class]:has(a[href*="wp.pl/"])
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,www.dobreprogramy.pl,~www.wp.pl###wp-back-bottombar-button.wp-comments-bottombar > #wp-back-bottombar-button
