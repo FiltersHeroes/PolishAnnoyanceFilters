@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 25 Jan 2026, 20:34 UTC+01:00
-! Version: 2026.1.25.0
+! Last modified: Sun, 01 Feb 2026, 16:34 UTC+01:00
+! Version: 2026.2.1.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 25 sty 2026, 20:34 UTC+01:00
+! Aktualizacja: nie, 01 lut 2026, 16:34 UTC+01:00
 !
 !
 !
@@ -207,6 +207,7 @@ awa24.pl##div[class^="stopka"] > div[class^="newsletter"]
 azjanatalerzu.pl###menu_newsletter_footer
 azjanatalerzu.pl##.footer_links_label:has(+ #menu_newsletter_footer)
 azzun.pl##.site-footer__ezine-hld
+b2b.mdmnt.com,politykazdrowotna.com###newsletter-section
 babyboom.pl##.zapisz-newsletter
 babysensepolska.pl,sklep.sigma-max.pl,wierzynek.pl##.newsletter2-wrapper
 bakeshop.pl,softmm.com.pl###box__newsletter__growcommerce
@@ -601,6 +602,8 @@ fakt.pl##.article-contact--newsletter
 faktyozywnosci.pl##.column-first.vmag-footer-widget
 fanbook.store##.abs-newsletter-panel
 fandroid.com.pl##.manohara-mailchimp--aligned-center, .widget-incredibbble-mailchimp-form
+farbykabe.pl###footer1 #signUP
+farbykabe.pl###footer1 > div.textwidget > p + p
 farbykabe.pl##.newsletter_head, .newsletter_text
 fasardi.com,iobit.com,revouninstaller.com##.subscribe
 fashyas.com,kolekcjonerki.com##footer div:nth-of-type(3)
@@ -829,6 +832,7 @@ kler.eu###section_newsletter > .parts > .left-part > *
 kliknijwzdrowie.pl,retailmarketexperts.com###custom_html-12
 klinikaagd.pl##.stopka_menu_newsletter_info, .stopka_menu_nag_news
 klinikamiracki.pl##.km-newsletter
+klinkieronline.pl,warsztatowski.com##div.footer_block.links.col-md-4:nth-of-type(4)
 klockolandia.pl###footer > .boxBlue
 klubjagiellonski.pl##.block-content_breaker_newsletter
 knowband.com##.kbGetUpdates
@@ -1267,7 +1271,6 @@ polish-airports.com###cookies_message_container
 polishclub.org##.small.row > .col-md-4
 polishexpress.co.uk##.ng-scope.peSection--news
 polityka.pl##.cg_footer_upper_buttons
-politykazdrowotna.com###newsletter-section
 polnox.pl##ul:nth-of-type(3)
 polska.travel##.fixed-elements
 polskacanada.com###alo_easymail_widget_form
@@ -1471,6 +1474,7 @@ sklepagnex.pl###box_custom99 > div
 sklepkoszykarza.pl###footer__newsletter
 sklepkupiec.pl##.footer-block.newsllt
 sklepmarka.pl##.newletter-header
+sklepzwhisky.pl##footer > section:first-child:has(.tnp)
 skorzany.com###zapisz-sie
 skorzewo.chatapolska.pl##.footer_block.st_news_letter_2
 skottsberg.com##.footer-title-newsletter
@@ -1695,7 +1699,6 @@ walmark.pl##.footer div[class]:nth-of-type(3) > .footer__heading
 walutomat.pl###newsletter-signup-box
 wamiz.pl##footer > div:nth-child(2)
 warsawsneakerstore.com##.newsletter__info
-warsztatowski.com##div.footer_block.links.col-md-4:nth-of-type(4)
 warzywapolowe.pl##.td-pb-span4.tdc-column.vc_column_container.wpb_column.tdi_77.vc_column
 waszaturystyka.pl##.platform-content:nth-of-type(2)
 waterdrop.pl##footer form[data-testid^="klaviyo-form-"]
