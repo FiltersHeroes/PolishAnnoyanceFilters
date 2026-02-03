@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 01 Feb 2026, 16:34 UTC+01:00
-! Version: 2026.2.1.0
+! Last modified: Tue, 03 Feb 2026, 17:09 UTC+01:00
+! Version: 2026.2.3.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 01 lut 2026, 16:34 UTC+01:00
+! Aktualizacja: wto, 03 lut 2026, 17:09 UTC+01:00
 !
 !
 !
@@ -835,6 +835,7 @@ klinikamiracki.pl##.km-newsletter
 klinkieronline.pl,warsztatowski.com##div.footer_block.links.col-md-4:nth-of-type(4)
 klockolandia.pl###footer > .boxBlue
 klubjagiellonski.pl##.block-content_breaker_newsletter
+kmag.pl##div[data-nosnippet="true"]:has(> div > h2 ~ p ~ form #newsletter-email)
 knowband.com##.kbGetUpdates
 kobieta.pl##.text-center.sidebar-box:nth-of-type(11)
 kochanamama.pl##.pmpIMail
