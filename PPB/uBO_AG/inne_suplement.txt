@@ -116,6 +116,7 @@ onet.pl##+js(set-local-storage-item, sg.notificationsCounter.fake, 0)
 onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important)
 onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"]
 onet.pl##div[class*="SlideToClose"]:style(width: 48px !important; height: 48px !important)
+onet.pl##a[data-section="return-to-mp-button"], div[class*="SimulatingMainPage_section_"]:style(visibility: hidden !important)
 onlygames.io##._show-top-banner .header--comp, ._show-top-banner .mobile--menu:style(top: 0 !important)
 onlygames.io##.mobile--banner
 oohmagazine.pl##.cart-tab:has(> *:matches-css(display: none))
