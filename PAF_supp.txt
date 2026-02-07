@@ -818,7 +818,7 @@ tlumacz-in.pl##.jconfirm:has(.jconfirm-scrollpane)
 tlumacz-in.pl##body.jconfirm-noscroll:style(overflow-y: auto !important)
 totalizator.pl##.popup
 toyotabank.pl##.cookies__popup
-transportgzm.pl##.mdc-dialog
+transportgzm.pl##div[x-data*="policyUrl" i]:has(.mdc-dialog[x-data*="cookiesPolicyModal" i])
 trendyopticians.pl###bpr_rodo-info
 trendyopticians.pl##.bpr_body[style]:style(overflow-y: auto !important; background-position-x: 50% !important)
 trendyradio.pl##.fancybox-container:has(#rodo_1)
