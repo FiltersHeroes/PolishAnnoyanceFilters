@@ -941,7 +941,7 @@ meczenazywo.pl###p-right > div:nth-of-type(11)
 med-store.pl##.tlo_news
 medestetis.pl,wei.org.pl###custom_html-3
 skrivanek.pl###custom_html-3 > h3
-skrivanek.pl###custom_html-3 > div > :nth-child(-n+11)
+skrivanek.pl###custom_html-3 > div:nth-child(2) > :is(p, a.button[href*="/zapisz-sie-newsletter"])
 media-tech.eu##.footer-container > .container-fluid > .row > div:nth-child(4)
 media.ing.pl##div.column:nth-of-type(3) .footer-section-text, div.column:nth-of-type(3) .footer-section-text + div
 mediaarena.pl###fx-newsletter-freshmail
