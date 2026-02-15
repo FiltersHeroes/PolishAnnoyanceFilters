@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 15 Feb 2026, 13:55 UTC+00:00
-! Version: 2026.2.15.4
+! Last modified: Sun, 15 Feb 2026, 16:45 UTC+01:00
+! Version: 2026.2.15.5
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 15 lut 2026, 13:55 UTC+00:00
+! Aktualizacja: nie, 15 lut 2026, 16:45 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4590,8 +4590,6 @@ aquamelior.pl###slaask-button
 arbonne.com###V4LLPanel_TCContainer
 architekcibiznesu.pl##.massenger-log0-contact
 archon.pl###archon-chat, .mobile-item-phone, #messenger_button
-arenadesign.pl,bilety.termymaltanskie.com.pl,mtp.pl###mtp-chat
-arenadesign.pl,cavaliada.pl###ssb-btn-0 > p > a[href="#kontakt"]
 armax.com.pl###klik
 artdecor24.pl,teleaudio.pl##.pulse
 artdelarte.pl###slideit
@@ -4634,6 +4632,7 @@ biedronka.pl##.widget-smartsection .footer-links ~ a[href*=".me"]:is([href*="wa.
 bigbaddice.pl##.icon-social-whatsapp
 bike-parts-honda.pl###fleche_popin_contact
 bikeinn.com,dressinn.com,goalinn.com,kidinn.com,motardinn.com,outletinn.com,runnerinn.com,scubastore.com,smashinn.com,snowinn.com,swiminn.com,techinn.com,traininn.com,trekkinn.com,waveinn.com,xtremeinn.com###bim-ifr
+bilety.termymaltanskie.com.pl,mtp.pl###mtp-chat
 bilgorajska.pl##.pod_feedback
 bilgorajska.pl,bobbyburger.pl,godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
 bitrix24.pl,upominki24.pl,webiso.pl##div[class*="-widget-button-wrapper"]
@@ -4920,7 +4919,6 @@ kawaly.tja.pl,tapeciarnia.pl###div_okienko_shoutbox_schowane
 ketowpraktyce.pl###chatbox
 kind.com##.AP_mod--button-symbol
 king-poligrafia.pl###face-slider
-klimacold.com.pl###ssb-btn-0, #ssb-btn-1, #ssb-btn-2, #ssb-btn-4
 klinikawitaminowa.pl##.ic-phone-button
 klonowypark.pl###belka_phone2, #belka_mail2, #belka_map2, #belka_form2
 knall.com.pl##.socialTabs-tab--contact.socialTabs-tab
@@ -5240,7 +5238,6 @@ t-mobilebankowe.pl##.vd-status-box
 tabletowo.pl##div[class^="container"][style^="z-index:"]
 taniefototapety.eu###opinions_badge
 taniejdladomu.pl###allegroKomentarze
-targimodypoznan.pl###ssb-btn-0, .chatFab
 teamviewer.com##.userlike
 teb.pl##.fab-contact.fab
 techmlek.com.pl##.my-custom-sticky-button
@@ -5959,7 +5956,6 @@ kierunektoyota.pl##.overlay-white
 kierunekwodkan.pl##.sticky-sidebar
 kina.krakow.pl,repertuary.pl##.incap_bottom
 kinghome.pl##.menu
-klimacold.com.pl##div[id].dgd_stb_box
 klinkierbud.pl###widget-prokonsumencki
 klodzko24.eu###tomeknr_ads_custom
 klorane.com##.js-immersive-modal.c-immersive-modal
