@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Fri, 13 Feb 2026, 13:42 UTC+00:00
-! Version: 2026.2.13.0
+! Last modified: Sun, 15 Feb 2026, 00:27 UTC+00:00
+! Version: 2026.2.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 13 lut 2026, 13:42 UTC+00:00
+! Aktualizacja: nie, 15 lut 2026, 00:27 UTC+00:00
 !
 !
 !
@@ -379,8 +379,8 @@ giacomo.pl###livechatincBack
 gkstychy.info###error_send
 glosbe.com##app-feedback-button
 go-market.pl###contact-info, #phone-info
+google.com##a[aria-label="Udostępnij w WhatsApp"]
 google.com,google.pl##.gws-flights__feedback
-google.com,google.pl##a[aria-label="Udostępnij w WhatsApp"]
 gorakalwaria.net##nav > ul > li > a[href="sygnal.html"], .footer-line > li:first-of-type > a[href="sygnal.html"]
 goral.info.pl##.btn.contact-button
 gothaer.pl##.callClickBar
@@ -848,9 +848,10 @@ wolnekonopie.org##.kleo-quick-contact-link
 wseit.edu.pl###btn-tel
 wspieram.to###staff-chat-button
 www.bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(3)
-www.google.com,www.google.pl##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
-www.google.com,www.google.pl##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
-www.google.com,www.google.pl#?#div[role="dialog"] > span > div > a:has-text(/^WhatsApp$/)
+www.google.com##.app-imagery-mode div[jsaction="modal.backgroundClick"] > div[jsan] div.k9Fsie > button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
+www.google.com##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
+www.google.com#?#div[role="dialog"] > span > div > a:has-text(/^WhatsApp$/)
+www.google.com,www.google.pl##button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
 www.ibm.com###contact-module
 www.ideafairplay.pl###userlike-tab
 www.microsoft.com##.feedback-dialog-opener
