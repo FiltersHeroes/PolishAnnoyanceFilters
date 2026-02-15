@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 15 Feb 2026, 14:28 UTC+01:00
-! Version: 2026.2.15.0
+! Last modified: Sun, 15 Feb 2026, 20:43 UTC+01:00
+! Version: 2026.2.15.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 15 lut 2026, 14:28 UTC+01:00
+! Aktualizacja: nie, 15 lut 2026, 20:43 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -117,7 +117,6 @@ austria.info##.has-ScrollHint.b-scroll-hint
 autoplaza.com.pl###gw_footerSticky__backToTop
 ava-kosmetyki.pl##.icon-scroll
 aval.com.pl##.roll-top
-avangarda.sklep.pl,blog.lh.pl,bookowska.pl,dekoelectronics.com,elsefix.com,goracypotok.pl,malopolskizpn.pl,muzyczny-krakow.eu,nowaconcept.pl,szybmaciej.pl,tetnoregionu.pl,wdopony.pl##.ct-back-to-top
 avans.pl##.wf-arrow-circle-o-up
 avaro.pl,kontri.pl###arrow_top
 avast.com###slide-top
@@ -1116,6 +1115,7 @@ zzachodu.pl##.in.g5core-back-to-top
 ~naukawpolsce.pl,pl##body #toTop:not(.wrapper)
 ~pl###back_to_top:lang(pl)
 ~pl###backTop:is(a, button):lang(pl)
+~pl##.ct-back-to-top:lang(pl)
 ~pl##.scroll-up:is(a, button):lang(pl)
 ~pl##body #m7-go-top:not(.wrapper):lang(pl)
 ~pl##body #mt-scrollup:not(.wrapper):lang(pl)
@@ -1124,6 +1124,7 @@ zzachodu.pl##.in.g5core-back-to-top
 com,eu,info,pl,tv##button.buttonUp
 com,pl###profilki_uparrow
 pl###backTop:is(a, button)
+pl##.ct-back-to-top
 !
 !
 ! Filtry specjalne
