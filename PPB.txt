@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 15 Feb 2026, 03:28 UTC+00:00
-! Version: 2026.2.15.1
+! Last modified: Sun, 15 Feb 2026, 13:27 UTC+00:00
+! Version: 2026.2.15.2
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 15 lut 2026, 03:28 UTC+00:00
+! Aktualizacja: nie, 15 lut 2026, 13:27 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -340,6 +340,7 @@ centrumpapieru.pl##.cp_footer__newsletter
 centrumprasowe.pap.pl##a[href="/cp/pl/newsletter/"]
 centrumxp.pl##.foot-nav__right
 cersanit.com.pl###footer-page .js-medium-col-1.medium-4.small-6.columns
+cezal24.pl,rehus.pl###text-4
 cezal.lublin.pl###footgroup3
 cezar.eu##.container > div.col50.kolumna:nth-of-type(2)
 cgm.pl,forsal.pl,horsklep.pl,sklep.olekmotocykle.pl##.footerNewsletter
@@ -386,6 +387,7 @@ cortland.pl##.letter
 costa.pl###wrapper-newsletter
 cottonina.pl##.in-viewport.t-alt.relative
 cozaile.pl##.c-guide-newsletter
+crazyshop.pl,elle.pl,partybox.pl,portalzp.pl##.bottom-newsletter
 crocs.pl,pl.pandora.net##.footer-email-signup
 crolove.pl##div.footer-container .widget_mc4wp_form_widget.widget
 cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
@@ -536,7 +538,6 @@ elektronik-service.com.pl###form_newsletter_down
 elektroniksc.com.pl##.tpl-newsletter-form-widget
 elektrostymulatory.net###newsletter-fm
 elektrykapradnietyka.com##a[href="http://elektrykapradnietyka.com/newsletter/"]
-elle.pl,portalzp.pl##.bottom-newsletter
 elnino-parfum.pl##.Subscribe > .Container
 eloblog.pl##a[href$="/newsletter/"]
 eltrox.pl##.footer > div:first-of-type
@@ -986,7 +987,7 @@ meble.pl##.row-flex > div:nth-of-type(6)
 meblohaus.pl##.moduletable_left
 meczenazywo.pl###p-right > div:nth-of-type(11)
 med-store.pl##.tlo_news
-medestetis.pl,skrivanek.pl,wei.org.pl###custom_html-3
+medestetis.pl,wei.org.pl###custom_html-3
 media-tech.eu##.footer-container > .container-fluid > .row > div:nth-child(4)
 media.ing.pl##div.column:nth-of-type(3) .footer-section-text, div.column:nth-of-type(3) .footer-section-text + div
 mediaarena.pl###fx-newsletter-freshmail
@@ -1369,7 +1370,6 @@ recman.pl##.col-md-8.col-sm-7.col-xs-12
 redcoon.pl###j-newsletterForm
 redro.pl###footer .subReqForm
 reformowani.info###email-subscribers-2
-rehus.pl###text-4
 rekinysukcesu.pl##.mod-mailerlite
 remax-gold.pl##.sidebar > .widget:first-child:has(.mc4wp-form)
 remprodex.com.pl##.col_three.footer_widget
@@ -1482,6 +1482,8 @@ skorzewo.chatapolska.pl##.footer_block.st_news_letter_2
 skottsberg.com##.footer-title-newsletter
 skottsberg.com##.footer-title-newsletter + p
 skottsberg.com##.footer-title-newsletter + p + div
+skrivanek.pl###custom_html-3 > div:nth-child(2) > :is(p, a.button[href*="/zapisz-sie-newsletter"])
+skrivanek.pl###custom_html-3 > h3
 skuteczneraporty.pl##.post .wf2-embedded.grwf2-wrapper
 slaskietrendy.pl##.kp-newsletter-widget.widget
 slawomirzawislak.pl##.moduletable-newsletter
@@ -3450,7 +3452,7 @@ austria.info##.has-ScrollHint.b-scroll-hint
 autoplaza.com.pl###gw_footerSticky__backToTop
 ava-kosmetyki.pl##.icon-scroll
 aval.com.pl##.roll-top
-avangarda.sklep.pl,blog.lh.pl,bookowska.pl,dekoelectronics.com,elsefix.com,goracypotok.pl,muzyczny-krakow.eu,nowaconcept.pl,szybmaciej.pl,tetnoregionu.pl,wdopony.pl##.ct-back-to-top
+avangarda.sklep.pl,blog.lh.pl,bookowska.pl,dekoelectronics.com,elsefix.com,goracypotok.pl,malopolskizpn.pl,muzyczny-krakow.eu,nowaconcept.pl,szybmaciej.pl,tetnoregionu.pl,wdopony.pl##.ct-back-to-top
 avans.pl##.wf-arrow-circle-o-up
 avaro.pl,kontri.pl###arrow_top
 avast.com###slide-top
@@ -3464,6 +3466,7 @@ barbrafeszyn.pl##.tn-back-top
 batyra.pl,krasnystaw.eu,rolnex.pl##.js-up
 baza-firm.com.pl###goTopArrow
 bdb.com.pl###powrotBT
+beardrust.pl,gazetasenior.pl,gezeta.pl,mamygadzety.pl,pitbull.pl,skleprolniczy.com##.scroll-up
 beaton.pl###btn-to-top
 begryf.pl##.base-scroll-to-top
 bekoczesci.pl###tbScrollToTop
@@ -3689,7 +3692,6 @@ gazeta-fotograficzna.org,gmoto.pl,iberogast.pl,mp.pl###top-link-block
 gazeta-mosina.pl,sztutowo.pl,vmc.org.pl##.anchor
 gazeta-msp.pl###strzalka_top
 gazetabaltycka.pl##[href="#top"]
-gazetasenior.pl,gezeta.pl,mamygadzety.pl,pitbull.pl,skleprolniczy.com##.scroll-up
 gazetaspoleczna.pl###top-return
 gdansk.pl##button.btn.rounded-circle[style]
 gdynia.klif.pl,lastrada.eu##.rey-scrollTop
@@ -4591,6 +4593,7 @@ archon.pl###archon-chat, .mobile-item-phone, #messenger_button
 arenadesign.pl,bilety.termymaltanskie.com.pl,mtp.pl###mtp-chat
 arenadesign.pl,cavaliada.pl###ssb-btn-0 > p > a[href="#kontakt"]
 armax.com.pl###klik
+artdecor24.pl,teleaudio.pl##.pulse
 artdelarte.pl###slideit
 artefakt.pl##[data-module="phone_popup"]
 arteodevelopment.pl###callback24widgetButton
@@ -5243,7 +5246,6 @@ teb.pl##.fab-contact.fab
 techmlek.com.pl##.my-custom-sticky-button
 tefal24.pl###widget-button
 tekstowo.pl##.btn-messenger
-teleaudio.pl##.pulse
 telekarma.pl###flyHelp
 telepolis.pl##.daj-cynk
 telmor.pl##.contact-float-wrapper
@@ -5576,6 +5578,7 @@ bananki.pl###proof-box
 bank-wbs.pl##.trigger-icon-position-before
 barokko.pl,electro-outlet.pl,hpi.pl,modnebuty.pl###tws_i_1
 bartekwpodrozy.pl##.cs_floating-nav-next-prev-div.ct-div-block
+beardrust.pl##.theme-custom-cursor
 behealthymagazine.abczdrowie.pl##a[href*="https://portal.abczdrowie.pl/?utm_source=behealthy"][class]
 bentawet.pl,sklep.rowmot.eu,smartkleks.pl##.kac-sm-allegro
 beskidlive.pl,estrzelce.pl,finansovo.pl,rekinysukcesu.pl##div[id^="dj-suggester"]
@@ -6009,6 +6012,7 @@ legalnakultura.pl###konkursy-plugin-button
 legalniewsieci.pl##.more-news-bar
 leki.pl###floating-nextprev
 lento.pl##a[href^="https://www.lento.pl/dodaj-ogloszenie.html"] > img[src]
+leroymerlin.pl###mobile-app-banner-bottom
 lesniow.pl##.socialTabs-tab--pogoda
 lexlog.pl###post-nav > .tranz
 lfspareparts724.pl##.banner-app
