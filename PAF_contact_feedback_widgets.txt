@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 15 Feb 2026, 16:45 UTC+01:00
-! Version: 2026.2.15.3
+! Last modified: Mon, 16 Feb 2026, 00:09 UTC+00:00
+! Version: 2026.2.16.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 15 lut 2026, 16:45 UTC+01:00
+! Aktualizacja: pon, 16 lut 2026, 00:09 UTC+00:00
 !
 !
 !
@@ -380,6 +380,7 @@ gkstychy.info###error_send
 glosbe.com##app-feedback-button
 go-market.pl###contact-info, #phone-info
 google.com##a[aria-label="Udostępnij w WhatsApp"]
+google.com##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "][aria-label*="WhatsApp"])
 google.com,google.pl##.gws-flights__feedback
 gorakalwaria.net##nav > ul > li > a[href="sygnal.html"], .footer-line > li:first-of-type > a[href="sygnal.html"]
 goral.info.pl##.btn.contact-button
