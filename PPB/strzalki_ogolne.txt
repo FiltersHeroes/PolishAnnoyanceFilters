@@ -155,7 +155,6 @@
 ##body .scroll-back:not(.wrapper):lang(pl)
 ##body .scroll-top-inner:not(.wrapper):lang(pl)
 ##body .scroll-top-wrapper:not(.wrapper):lang(pl)
-~pl##.scroll-top:is(a, button):lang(pl)
 ##body .scroll_to_top:not(.wrapper):lang(pl)
 ##body .scroll_top:not(header, .wrapper):lang(pl)
 ##body .scrollTo_top:not(.wrapper):lang(pl)
@@ -180,7 +179,6 @@
 ##scroll-up:lang(pl)
 ##span[class="scroll scroll-btn"]:lang(pl)
 ~deweloper-interes.pl,pl##body #back_to_top:not(.wrapper)
-pl##.scroll-top:is(a, button)
 ~gov.pl##body #goToTop:not(.wrapper):lang(pl)
 ~ifirma.pl,pl##.dogory:not(body, html)
 ~mediaexpert.pl,~mediamarkt.pl,pl##.scroll-down:is(a, button)
@@ -188,6 +186,7 @@ pl##.scroll-top:is(a, button)
 ~pl###back_to_top:lang(pl)
 ~pl###backTop:is(a, button):lang(pl)
 ~pl##.ct-back-to-top:lang(pl)
+~pl##.scroll-top:is(a, button):lang(pl)
 ~pl##.scroll-up:is(a, button):lang(pl)
 ~pl##body #m7-go-top:not(.wrapper):lang(pl)
 ~pl##body #mt-scrollup:not(.wrapper):lang(pl)
@@ -197,3 +196,4 @@ com,eu,info,pl,tv##button.buttonUp
 com,pl###profilki_uparrow
 pl###backTop:is(a, button)
 pl##.ct-back-to-top
+pl##.scroll-top:is(a, button)
