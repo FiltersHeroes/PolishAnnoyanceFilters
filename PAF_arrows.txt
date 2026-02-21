@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Fri, 20 Feb 2026, 19:55 UTC+01:00
-! Version: 2026.2.20.1
+! Last modified: Sat, 21 Feb 2026, 10:27 UTC+01:00
+! Version: 2026.2.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 20 lut 2026, 19:55 UTC+01:00
+! Aktualizacja: sob, 21 lut 2026, 10:27 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -70,6 +70,7 @@ akardo.pl##.btn-scroll-up
 akonet.pl###up-href
 alberski.artbhp.pl###disclaimer-button
 albo24.pl,awf.edu.pl,nbportal.pl###go-up
+alchemianatury.pl###the4-backtop
 aldi.pl##.mod-back-to-top
 alegloria.pl,secure.e-konsulat.gov.pl##.go-up-button
 aleleki.pl,media-press.tv###back_to_top
@@ -996,10 +997,8 @@ zzachodu.pl##.in.g5core-back-to-top
 ##.mh-back-to-top:lang(pl)
 ##.pk-scroll-to-top:lang(pl)
 ##.przewin-w-gore
-##.scroll-down:is(a, button):lang(pl)
 ##.scroll-to-top:lang(pl)
 ##.scroll-top-button:lang(pl)
-##.scroll-up:is(a, button):lang(pl)
 ##.scrollToTop:lang(pl)
 ##.sh-back-to-top:lang(pl)
 ##.slideToTop:lang(pl)
@@ -1023,9 +1022,7 @@ zzachodu.pl##.in.g5core-back-to-top
 ##body #js-scrollTop:not(.wrapper):lang(pl)
 ##body #jsn-gotoplink:not(.wrapper):lang(pl)
 ##body #link_przewin:not(.wrapper):lang(pl)
-##body #m7-go-top:not(.wrapper):lang(pl)
 ##body #moveTop:not(.wrapper):lang(pl)
-##body #mt-scrollup:not(.wrapper):lang(pl)
 ##body #np-scrollup:not(.wrapper):lang(pl)
 ##body #pageUp:not(.wrapper):lang(pl)
 ##body #return-top:not(.wrapper):lang(pl)
@@ -1109,12 +1106,13 @@ zzachodu.pl##.in.g5core-back-to-top
 ##span[class="scroll scroll-btn"]:lang(pl)
 ~deweloper-interes.pl,pl##body #back_to_top:not(.wrapper)
 ~gov.pl##body #goToTop:not(.wrapper):lang(pl)
-~ifirma.pl,pl##.dogory:not(body, html)
+~ifirma.pl,pl##body .dogory
 ~mediaexpert.pl,~mediamarkt.pl,pl##.scroll-down:is(a, button)
 ~naukawpolsce.pl,pl##body #toTop:not(.wrapper)
 ~pl###back_to_top:lang(pl)
 ~pl###backTop:is(a, button):lang(pl)
 ~pl##.ct-back-to-top:lang(pl)
+~pl##.scroll-down:is(a, button):lang(pl)
 ~pl##.scroll-top:is(a, button):lang(pl)
 ~pl##.scroll-up:is(a, button):lang(pl)
 ~pl##body #m7-go-top:not(.wrapper):lang(pl)
@@ -1126,6 +1124,9 @@ com,pl###profilki_uparrow
 pl###backTop:is(a, button)
 pl##.ct-back-to-top
 pl##.scroll-top:is(a, button)
+pl##.scroll-up:is(a, button)
+pl##body #m7-go-top:not(.wrapper)
+pl##body #mt-scrollup:not(.wrapper)
 !
 !
 ! Filtry specjalne
