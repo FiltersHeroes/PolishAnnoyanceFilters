@@ -1,4 +1,3 @@
-ebooki.nowaera.pl##html:has(> body + iframe:not([src])) { will-change: unset !important; transform: none !important }
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
@@ -48,6 +47,7 @@ dziary.com##.ps-container:style(overflow: auto !important)
 dziary.com##.ps-scrollbar-y-rail
 e-monki.pl##.col_2 > p > img[src="images/emonki11.jpg"]:style(max-width: 100%; padding-top: 10px)
 ebay.pl###desc_ifr:style(width: 100% !important)
+ebooki.nowaera.pl##html:has(> body + iframe:not([src])) { will-change: unset !important; transform: none !important }
 egami-image.com##form input:style(color: white !important)
 embed.reddit.com##a:has(shreddit-player):remove-attr(href)
 embed.reddit.com##shreddit-player:remove-attr(autoplay)
