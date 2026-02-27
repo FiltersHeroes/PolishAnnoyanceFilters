@@ -1,3 +1,4 @@
+ebooki.nowaera.pl##html:has(> body + iframe:not([src])) { will-change: unset !important; transform: none !important }
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
