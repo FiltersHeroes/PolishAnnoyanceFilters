@@ -52,6 +52,7 @@ dziary.com##.ps-container:style(overflow: auto !important)
 dziary.com##.ps-scrollbar-y-rail
 e-monki.pl##.col_2 > p > img[src="images/emonki11.jpg"]:style(max-width: 100%; padding-top: 10px)
 ebay.pl###desc_ifr:style(width: 100% !important)
+ebooki.nowaera.pl##html:has(> body + iframe:not([src])) { will-change: unset !important; transform: none !important }
 egami-image.com##form input:style(color: white !important)
 embed.reddit.com##a:has(shreddit-player):remove-attr(href)
 embed.reddit.com##shreddit-player:remove-attr(autoplay)
@@ -114,7 +115,7 @@ mycenter.pl##.top_cart:style(position: absolute !important; top: -35px !importan
 nabea.pl###blog-item a:not(:has(img)):style(text-decoration: underline !important)
 narcyz.com.pl##div[style^="overflow: hidden;"]:style(overflow: auto !important)
 nbsklep.pl##+js(set-cookie, mobile_application_installed, false)
-ofeminin.pl##.quote:style(transform: unset !important; rotate: unset !important)
+ofeminin.pl##.quote:style(transform: none !important; rotate: none !important)
 oferty.dsautomobiles.pl,oferty.peugeot.pl##.row > .formularz:style(position: static !important)
 onet.pl##+js(set-local-storage-item, sg.notificationsCounter.fake, 0)
 onet.pl##.alternateDataBar.withBackBar:style(bottom: 0 !important)
@@ -148,7 +149,7 @@ politykazdrowotna.com##:matches-media((max-width: 768px)) a[title="Kliknij żeby
 polsatnews.pl##+js(set-local-storage-item, mailClicked, 1)
 polsatnews.pl##.series__item:remove()
 posnania.eu##.customScroll__bar
-proline.pl##blockquote:style(transform: unset !important; rotate: unset !important)
+proline.pl##blockquote:style(transform: none !important; rotate: none !important)
 przepisy.pl##.animation:style(animation: none !important)
 pytanienasniadanie.tvp.pl##div.bg-aplha.container:first-of-type > .row:style(padding-bottom: 20px)
 radio17.pl##footer.page-footer ~ .sidebar-container:style(position: absolute !important)
@@ -185,7 +186,7 @@ www.instalki.pl##:matches-media((min-width: 1488px)) .dracula-toggle-wrap.floati
 www.youtube.com##:matches-media((min-width: 1488px) and (max-width: 2000px)) [page-subtype="home"] ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important)
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-row, ytd-browse[page-subtype="home"] #contents.ytd-rich-grid-row:style(display:contents !important)
 zalando.pl##+js(set-cookie, app_download_banner_exited, true)
-zamowienia.lajtmobile.pl##.StepTwo__content--containers .el-form-item__content .el-input__inner:style(text-transform: unset !important)
+zamowienia.lajtmobile.pl##.StepTwo__content--containers .el-form-item__content .el-input__inner:style(text-transform: none !important)
 zapytaj.onet.pl##+js(ra, src, #yt-music-player, complete)
 zapytaj.onet.pl##.profile-actions > .music
 znaki.edu.pl##+js(aeld, keydown, ssc_keydown)
