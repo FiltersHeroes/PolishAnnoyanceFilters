@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sun, 08 Mar 2026, 15:13 UTC+01:00
-! Version: 2026.3.8.0
+! Last modified: Sun, 15 Mar 2026, 16:49 UTC+01:00
+! Version: 2026.3.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 08 mar 2026, 15:13 UTC+01:00
+! Aktualizacja: nie, 15 mar 2026, 16:49 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -54,7 +54,7 @@ aftermarket.pl###scroll-bottom
 aga-toma.pl##.pow_start
 agdserwis.eu,sklep.party###toTop
 agendo.pl,millymally.pl##.page-up
-agora.pl,b2c.vds.pl,buyava.pl,domczasuhurt.pl,ewozki.eu,forcell.pl,kociewie24.eu,kulig.pl,pl.techinfus.com,pogotowie-komputerowe.org.pl,yummo.pl##.up
+agora.pl,b2c.vds.pl,buyava.pl,domczasuhurt.pl,ewozki.eu,forcell.pl,johndog.pl,kociewie24.eu,kulig.pl,pl.techinfus.com,pogotowie-komputerowe.org.pl,yummo.pl##.up
 agro-eko.com.pl##.scrollIcon
 agroas.pl##.to-the-top-link
 agrofakt.pl##.go-down
@@ -75,7 +75,8 @@ alegloria.pl,secure.e-konsulat.gov.pl##.go-up-button
 aleleki.pl,media-press.tv###back_to_top
 aleo.com##p-scrolltop
 alergiapokarmowa.pl##.ct-totop
-aliexpress.com##.ui-fixed-panel-go-top
+aliexpress.com##.comet-v2-back-top
+aliexpress.com##a[data-spm-anchor-id*="g0o.productlist"]:empty
 alko-garden.pl###jumptotop
 allegro.pl##button[title="Do góry"]
 aluprof.eu##.sidebar__link--top
@@ -661,7 +662,6 @@ piib.org.pl,skupksiazek.net,statekrestauracja.pl###g-totop
 pizzeriapi.pl##.go-top
 pkobp.pl,pkopte.pl,pkotfi.pl###scrollie
 pkw.gov.pl##.to_up
-pl.aliexpress.com##div[class*="elevator--container"]
 pl.ccm.net###jGoTop
 pl.chili.com###returnTop
 pl.factcool.com##button.fcicon-return
