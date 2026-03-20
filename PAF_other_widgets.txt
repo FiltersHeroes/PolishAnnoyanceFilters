@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Mon, 09 Mar 2026, 20:51 UTC+01:00
-! Version: 2026.3.9.0
+! Last modified: Fri, 20 Mar 2026, 20:52 UTC+01:00
+! Version: 2026.3.20.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 09 mar 2026, 20:51 UTC+01:00
+! Aktualizacja: pią, 20 mar 2026, 20:52 UTC+01:00
 !
 !
 !
@@ -868,6 +868,7 @@ poloniawroclaw.pl##.sfl-widget--ribbon__fixed, .ys-sidebar-btn-2
 polskicaravaning.pl###\35 3419
 polskieradio24.pl##a[class*="Article_backToMainBtn_"], div[class*="Article_backtoMain_"]
 polstor.pl##.tax-free-shopping
+pomoc.wfirma.pl##.container-slider:has(.slide:only-child > div:empty ~ div:empty)
 pomocedlaseniora.pl##.justreview-badge
 poradnikhandlowca.com.pl##.region-page-bottom > #slidead-popup
 poradyodo.pl##.baner-stopka
@@ -1144,10 +1145,7 @@ x.com###layers > div[class*=" "]:first-of-type:has(a[href="/i/flow/signup"])
 x.com#?##layers > div[class*="css-"][class*=" r-"] > div[style*="position:"][style*="absolute"] > div:only-child > div:only-child > div:only-child:has(> div:not(:only-child) > div:not(:only-child) > div:not(:only-child):has-text(Bądź na bieżąco))
 xgp.pl###hpb.hpb
 xn--usugi24-ojb.pl###dodaj_ogloszenie_tab
-youtube-nocookie.com,youtube.com###columns div[title*="Więcej filmów"][aria-label*="Ukryj filmy"]
 youtube-nocookie.com,youtube.com##.ytp-ce-element
-youtube-nocookie.com,youtube.com##.ytp-endscreen-content
-youtube-nocookie.com,youtube.com##.ytp-endscreen-previous, .ytp-endscreen-next, .ytp-gradient-bottom
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button, #rvid
 youtube.com##tp-yt-paper-toast:has(a[href*="#check_ad_blockers"], a[href*="check-your-extensions-including-ad-blockers"])
 yves-rocher.pl##.layout-banner__top.layout-banner
