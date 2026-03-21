@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 15 Mar 2026, 16:49 UTC+01:00
-! Version: 2026.3.15.0
+! Last modified: Sat, 21 Mar 2026, 16:46 UTC+01:00
+! Version: 2026.3.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 15 mar 2026, 16:49 UTC+01:00
+! Aktualizacja: sob, 21 mar 2026, 16:46 UTC+01:00
 !
 !
 !
@@ -771,6 +771,7 @@ inlago.pl##.newsletter-message
 insert.com.pl##li:nth-of-type(2) > .info-channel
 instalki.pl###Mod286 > div > div > div
 instytutoka.pl##.Footer__nav > div > div:last-child
+intar.pl,kronosfera.pl##.widget-subscription
 interferie.pl##.newsl, #footNL, #newsletterBtn
 internetmatters.org##footer .last > div:nth-child(5)
 intexpc.pl##.newsletter-form-wrapper
@@ -867,7 +868,6 @@ krasiczyn.com.pl##.side_newsletter
 krasnal.sklep.pl,nerdstore.pl##.elementor-widget-pos_title:has(+ .elementor-widget-pos-newsletter)
 kratki.com##.cs-newsletter__wrapper
 kreatorium.com###nsl
-kronosfera.pl##.widget-subscription
 kross.eu##.is-newsletter.c-group_row
 kruczek.pl##.post_mc_newsletter.mc_embed_signupm, #mc-embedded-subscribe-form
 krzywydomek.info###main > .row2.col1
