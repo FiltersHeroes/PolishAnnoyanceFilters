@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 20 Mar 2026, 20:52 UTC+01:00
-! Version: 2026.3.20.0
+! Last modified: Sat, 21 Mar 2026, 16:46 UTC+01:00
+! Version: 2026.3.21.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 20 mar 2026, 20:52 UTC+01:00
+! Aktualizacja: sob, 21 mar 2026, 16:46 UTC+01:00
 !
 !
 !
@@ -58,12 +58,12 @@
 ||uniqueseo.pl/wp-content/uploads/2023/04/agencja-seo-sem-google-ads-reklama-facebook.png$image
 ||variatkowo.pl/wp-content/*/js/smoothscroll-*.js$script
 ||web.archive.org/web/*js_/https://addons-amo.cdn.mozilla.net/amo-*.js$script,domain=web.archive.org
+||wfirma.pl/display.js$script,domain=pomoc.wfirma.pl
 ||widgets.dobrymechanik.pl/grupawp/autokult/ask_mechanic.js
 ||widgets.dobrymechanik.pl/grupawp/autokult/search_mechanic.js
 ||widgets.okazje.info.pl^$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
-##app-m-obywatel-app-download-banner
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,~www.wp.pl###bottom-sticky-container > div[class]:has(a[href*="wp.pl/"])
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,~www.wp.pl###wp-back-bottombar-button.wp-comments-bottombar > #wp-back-bottombar-button
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,~www.wp.pl###wp-back-button, #wp-sg-back-button, #back-bar
@@ -771,6 +771,7 @@ niezlasztuka.net##.baner-fixed-bottom
 noblue.pl###cr_floatingtrustbadge
 noizz.pl###floatingShareWithNextArticle
 nosem.pl##.triggered
+novapost.com###app-header .app-container:has([href="https://npost.page.link/app"])
 nowegumy.pl###wysuwacz_reklama, #wysuwacz
 nowiny24.pl##.article-inset
 nowiny.com.pl##.slide-right
@@ -1270,6 +1271,7 @@ polsatnews.pl##.series__item { remove: true }
 ##.xloteria-zawsze
 ##.ZakladkaNewsletterOkno
 ##[class="cursor"]:empty:lang(pl)
+##app-m-obywatel-app-download-banner
 ##ptwp-infinite:lang(pl)
 ~pl###tm-widget-alpaca:lang(pl)
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
