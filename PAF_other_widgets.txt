@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 21 Mar 2026, 16:46 UTC+01:00
-! Version: 2026.3.21.0
+! Last modified: Sun, 22 Mar 2026, 16:45 UTC+01:00
+! Version: 2026.3.22.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 21 mar 2026, 16:46 UTC+01:00
+! Aktualizacja: nie, 22 mar 2026, 16:45 UTC+01:00
 !
 !
 !
@@ -1138,7 +1138,7 @@ www.rp.pl###mk-paywall
 www.wp.pl##[class^="HomepageButton"]
 wyborcza.biz##.mod_swimmer
 wykop.pl##.text > p > cite:empty
-wykop.pl##section.observer.content:has([href="/rejestracja"])
+wykop.pl##section.content:has([href="/rejestracja"])
 wylecz.to##.recommendedSideBox
 wyrobymennicze.pl##.gift_hover
 wysokieobcasy.pl##.bunny, .bunny-hp
