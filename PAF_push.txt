@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Mon, 30 Mar 2026, 18:31 UTC+02:00
-! Version: 2026.3.30.0
+! Last modified: Tue, 21 Apr 2026, 22:12 UTC+02:00
+! Version: 2026.4.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,18 +13,18 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 30 mar 2026, 18:31 UTC+02:00
+! Aktualizacja: wto, 21 kwi 2026, 22:12 UTC+02:00
 !
 !
 !
 ! Specyficzne filtry
 */pushServiceWorker.js$script,domain=go.tvn24.pl|player.pl|topagrar.pl|tvn.pl|~www.tvn.pl
 /batchsdk-worker-loader.js$script,domain=eurosport.tvn24.pl
-/firebase-messaging-sw.js$script,domain=rp.pl
+/firebase-messaging-sw.js$script,domain=newsmaxpolska.pl|rp.pl
 /firebase-push.js$domain=cafago.com|tomtop.com
 /firebase/firebase-messaging.js$script,domain=kobieceinspiracje.pl
 /firebase/subscribe.js$domain=czesciauto24.pl
-/firebasejs/*/firebase*.js$script,third-party,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
+/firebasejs/*/firebase*.js$script,third-party,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|newsmaxpolska.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
 /firebasejs/*/firebase-app.js$script,domain=parkiet.com
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.fm|planeta.pl|radiozet.pl
 /push-notification$script,domain=opieka.farm
