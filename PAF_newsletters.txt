@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 21 Apr 2026, 22:12 UTC+02:00
-! Version: 2026.4.21.0
+! Last modified: Tue, 28 Apr 2026, 19:08 UTC+02:00
+! Version: 2026.4.28.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 21 kwi 2026, 22:12 UTC+02:00
+! Aktualizacja: wto, 28 kwi 2026, 19:08 UTC+02:00
 !
 !
 !
@@ -779,6 +779,7 @@ intexpc.pl##.newsletter-form-wrapper
 intimissimi.com##.border-right.footer-box.align-center-middle.grid-x.large-5.cell
 intimissimi.com##.cc-footer-boxTop_contact_title:has(+ .registerNewsletterFooter)
 intimissimi.com##.registerNewsletterFooter
+investkomfort.pl#?#.h-screen:has-text(NEWSLETTER)
 inzynier-medyczny.pl###sidebar #fm_form_1
 inzynierbudownictwa.pl##.subscribewidget
 ip-sa.pl###PageLeft_ContentPlaceHolder_PageLeft_NewsTable
@@ -1250,7 +1251,7 @@ pl.aleteia.org###logo-newsletter-follow, .module-newsletter-form
 pl.ejo-online.eu###footer > div > div.threecol:nth-of-type(2)
 pl.farnell.com##.sign-up-form
 pl.huel.com##.EmailSignup
-pl.iherb.com##.email-subscription-container
+pl.iherb.com##.email-subscription-new-container
 pl.malwarebytes.com##.newsletter-refresh
 pl.nowystyl.com###freshmail-button.freshmail__button
 pl.oriflame.com##.ui-newsletter-container
