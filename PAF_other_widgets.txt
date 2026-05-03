@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 02 May 2026, 18:05 UTC+02:00
-! Version: 2026.5.2.0
+! Last modified: Sun, 03 May 2026, 18:05 UTC+02:00
+! Version: 2026.5.3.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 02 maj 2026, 18:05 UTC+02:00
+! Aktualizacja: nie, 03 maj 2026, 18:05 UTC+02:00
 !
 !
 !
@@ -201,6 +201,7 @@ beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,murator.pl
 bezgluten.pl##.iziToast-message
 bezokularow.pl##.app_stripe
 bezprawnik.pl###previousPost
+bhpfalenica.pl##.przyklejony > li:has(a[href*="google.com/maps/"])
 biedronka.pl##.mobile-app-redirect-banner
 bieganieuskrzydla.pl##.c-card--dock
 bigbaddice.pl,gizchina.com.pl,zakreconywegeobiad.pl##.vw-more-articles
@@ -724,6 +725,7 @@ modbis.pl##.n67021_out
 moj.tauron.pl##div.promo-box[title^="Klimatyzacja od TAURONA."][title*="Przejdź do strony"]
 mojataxi24.pl##h4#phone:nth-of-type(2) > .wiszacy
 mojebambino.pl##.baner, .widget-fast-navigation-container, #DigitalAccessibilityWidget
+mojesoft.pl##.woomotiv-popup
 money.pl##.float.more-news
 monitor.firefox.com##.top-bar:has(> .join-fx-wrap)
 morele.net##.js_get-app-bar.get-app-bar, .get-app-side-section__button
