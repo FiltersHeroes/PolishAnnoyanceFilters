@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Wed, 18 Mar 2026, 17:35 UTC+01:00
-! Version: 2026.3.18.0
+! Last modified: Sat, 16 May 2026, 13:10 UTC+02:00
+! Version: 2026.5.16.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 18 mar 2026, 17:35 UTC+01:00
+! Aktualizacja: sob, 16 maj 2026, 13:10 UTC+02:00
 !
 !
 !
@@ -32,6 +32,8 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,forbes.pl,komputerswiat.pl,medonet.
 beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##.vjs-minimized .video-js
 beszamel.pl,eska.pl,eskacinema.pl,eskarock.pl,hotplota.pl,mjakmama.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,podroze.pl,poradnikzdrowie.pl,radioplus.pl,radiosupernova.pl,radiowawa.pl,se.pl,urzadzamy.pl,voxfm.pl,wiemiwybieram.pl##div.sticky-container_sticky video-js
 bezpiecznystrazak.pl##.video_zminimalizowane
+biznes24.pl##[id*="fixed"][id*="player"]:is(div, button)
+biznes24.pl##div.is-sticky:has(iframe[id*="player"])
 businessinsider.com.pl##.sticky.article_video-container
 codziennypoznan.pl,interia.pl,interia.tv,ipolska24.pl,~m.interia.pl,poboczem.pl,pomponik.pl,styl.pl##.floating-player-started > .xlink-floating-wsx
 crazypig.pl##.wengdo-scroll-to-top
@@ -67,6 +69,7 @@ prymat.pl##body > div[style*="fixed"]:has(a[href*="promocje"] video)
 przeambitni.pl##.mvp-vid-fixed
 punkt.media##div[id^="em"][style*="position: fixed;"]
 radio.katowice.pl##div[id^="sidebar"].fixed-player
+radio.rzeszow.pl##div[id*="ytlive_6"][id*="-floating"][aria-hidden="false"][style*="block"]
 rodzicielskieinspiracje.pl##div[id^="rehub_sticky_on_scroll-"].scrollsticky.stickyscroll_widget
 shopify.com##button[data-component-name="video-modal-pip-button"]:has(video)
 softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
