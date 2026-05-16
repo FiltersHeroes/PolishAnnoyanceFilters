@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sat, 16 May 2026, 13:10 UTC+02:00
-! Version: 2026.5.16.0
+! Last modified: Sat, 16 May 2026, 13:12 UTC+02:00
+! Version: 2026.5.16.1
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 16 maj 2026, 13:10 UTC+02:00
+! Aktualizacja: sob, 16 maj 2026, 13:12 UTC+02:00
 !
 !
 !
@@ -69,7 +69,7 @@ prymat.pl##body > div[style*="fixed"]:has(a[href*="promocje"] video)
 przeambitni.pl##.mvp-vid-fixed
 punkt.media##div[id^="em"][style*="position: fixed;"]
 radio.katowice.pl##div[id^="sidebar"].fixed-player
-radio.rzeszow.pl##div[id*="ytlive_6"][id*="-floating"][aria-hidden="false"][style*="block"]
+radio.rzeszow.pl##div[id*="ytlive_"][id*="-floating"][aria-hidden="false"][style*="block"]
 rodzicielskieinspiracje.pl##div[id^="rehub_sticky_on_scroll-"].scrollsticky.stickyscroll_widget
 shopify.com##button[data-component-name="video-modal-pip-button"]:has(video)
 softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
