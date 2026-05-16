@@ -1,7 +1,7 @@
-biznes24.pl##+js(set-local-storage-item, lk_player_state, closed)
 bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], asap)
 bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], complete)
 bezpiecznystrazak.pl##video[autoplay]:remove-attr(autoplay)
+biznes24.pl##+js(set-local-storage-item, lk_player_state, closed)
 businessinsider.com.pl,fakt.pl,medonet.pl,onet.pl,plejada.pl,~poczta.onet.pl##+js(set, Object.prototype.isFloatingEnabled, false)
 dziennikzachodni.pl,echodnia.eu,naszemiasto.pl,nowiny24.pl,nto.pl##+js(aeld, scroll, xlinkEvent)
 elle.pl,glamour.pl,gotujmy.pl,ilewazy.pl,kobieta.pl,mamotoja.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,party.pl,polki.pl,przyslijprzepis.pl,story.pl,viva.pl,wizaz.pl##.ediplayer-ui-floating > .ediplayer-main > .ediplayer-aspect-container > .ediplayer-aspect-padding
