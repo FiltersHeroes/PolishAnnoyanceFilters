@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Wed, 13 May 2026, 19:31 UTC+02:00
-! Version: 2026.5.13.0
+! Last modified: Sat, 16 May 2026, 13:10 UTC+02:00
+! Version: 2026.5.16.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 13 maj 2026, 19:31 UTC+02:00
+! Aktualizacja: sob, 16 maj 2026, 13:10 UTC+02:00
 !
 !
 !
@@ -667,6 +667,8 @@ racing-planet.pl###contactable_inner
 raczynski-kominki.pl###pozvonim-button
 radio17.pl##.chat
 radio17.pl##.sidebar-buttons li:has(.mdi-message)
+radio.rzeszow.pl##.jeg_block_heading:has(+ div .social-container > .messenger)
+radio.rzeszow.pl##.social-container > .messenger
 radioplus.pl,radiosupernova.pl,rivieraparkmarvipol.pl,senatkomorki.pl,ss24.pl,stopcafe.pl,viva.pl,wp.pl##.messenger
 raiffeisenpolbank.com###pomocne_menu > ul > li:nth-child(n+3)
 rainbowzoom.pl###lz_overlay_chat
