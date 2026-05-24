@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Fri, 22 May 2026, 19:20 UTC+02:00
-! Version: 2026.5.22.0
+! Last modified: Sun, 24 May 2026, 18:31 UTC+02:00
+! Version: 2026.5.24.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 22 maj 2026, 19:20 UTC+02:00
+! Aktualizacja: nie, 24 maj 2026, 18:31 UTC+02:00
 !
 !
 !
@@ -94,7 +94,7 @@ agriaffaires.pl###js-newsletterBlock
 agrieko.pl##.footer_NewsletterBox
 agrihandler.pl##.footermain__col:has(> .footermain__newsshort)
 agrii.pl##.newsletter > :nth-child(-n+3)
-agro-sklep.com##.contNewsLetter
+agro-sklep.com,panele24.com.pl##.contNewsLetter
 agrodoradca24.pl##.newsletter-online
 agromat.pl##.column-double.content > .flex
 agromr.eu,e-hurtowo.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
@@ -236,6 +236,7 @@ beditom.pl##footer .w-btn[onclick*="show"]
 befado.pl##.kt_widget_newsletter
 befado.pl,wnp.pl##.mail
 beincrypto.pl##.footer-subscribe-form
+bel-pol.pl##.newsletter_promocja
 bellemaison.pl##.em-newsletter
 belmeb.pl##.newsletter_content
 berlitz.com###max-newsletter__form
@@ -268,7 +269,7 @@ bissole.pl,marketdino.pl##a[href="#newsletter"]
 bit-info.pl##.newsletters_block
 biurfan.pl###newsletter-wide
 biuronet.com##.bottom-subscription-form
-biuroprasowe.porta.com.pl##.form__container
+biuroprasowe.porta.com.pl###newsletter-story-page, .newsletter-story_page
 biurowezakupy24.pl,szkolnezakupy.pl###mod-newsletter
 bizay.pl##div.col-xs-3 > .footer-sub-title
 biznes-wprost-pl.cdn.ampproject.org,biznes.wprost.pl##.art-newsletter
@@ -387,6 +388,7 @@ consumer.huawei.com##.title + .subscribe
 controlling.info.pl##.newletter
 conversion.pl##footer .form
 corona-fishing.pl###glowna-newsletter
+corsair.com##div[class*="Footer_newsletter-form_"] > :not([class*="Logo"])
 cortland.pl##.letter
 costa.pl###wrapper-newsletter
 cottonina.pl##.in-viewport.t-alt.relative
@@ -1300,6 +1302,7 @@ poradnikogrodniczy.pl##.sidebar-menu > div.block:nth-of-type(4)
 poradybudowlane.com.pl###search2
 porcja.eu###footer-top-news
 porozmawiajmy.tv###text-36
+porta.com.pl##.newsleter-box
 porta.com.pl##.newsletter--section > div > div:not(.advertisement--container)
 portal-sadownik.pl##div.box:nth-of-type(3)
 portalgames.pl##.columns.mimi-form.widget
@@ -1359,7 +1362,7 @@ publolek.pl##.footer-widget-2.widget-column
 puccini.pl##.newsletter-root-lw3
 pulsmedycyny.pl###id-newsletter-box
 puma.com##.puma-footer__newsletter
-pure-nordic.pl##.newsletter__container
+pure-nordic.pl,zenbox.pl##.newsletter__container
 puszcza.tv##.color-white.newsletter-container
 pwc.pl##.pwccol2-longform-c0.parsys_column
 pwsk.pl###custom_html-8
