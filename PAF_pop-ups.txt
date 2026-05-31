@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 31 May 2026, 09:58 UTC+00:00
-! Version: 2026.5.31.0
+! Last modified: Sun, 31 May 2026, 12:06 UTC+02:00
+! Version: 2026.5.31.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 31 maj 2026, 09:58 UTC+00:00
+! Aktualizacja: nie, 31 maj 2026, 12:06 UTC+02:00
 !
 !
 !
@@ -413,7 +413,7 @@ doradcasmaku.pl##.pop-up-add
 dotbros.com##.header-newsletter-popup.et-popup-wrapper
 doubletreewarsaw.pl##.popout__container
 dowbit.pl,generacjasmart.pl,moneygrabbing.co.uk##.mcwidget-overlay
-doz.pl##html:not(.no-scroll) .product-added.popup.popup--cart-select-deliver
+doz.pl##html:not(.no-scroll) .product-added.popup[class*="popup--cart-select-deliver"]
 dragonmask.pl###Widget1
 dreweks.eu,laroxy.com,meblezet.com,motomat.eu###x13popup-container, #x13popup-cover
 drogeriaolmed.pl###home-popup-bg, .p-sm-1.p-2
