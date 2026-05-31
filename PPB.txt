@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 31 May 2026, 09:58 UTC+00:00
-! Version: 2026.5.31.0
+! Last modified: Sun, 31 May 2026, 10:03 UTC+00:00
+! Version: 2026.5.31.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 31 maj 2026, 09:58 UTC+00:00
+! Aktualizacja: nie, 31 maj 2026, 10:03 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -7028,8 +7028,8 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2026.5.24.1
-!@ Last modified: Sun, 24 May 2026, 18:40 UTC+00:00
+!@ Version: 2026.5.31.0
+!@ Last modified: Sun, 31 May 2026, 10:03 UTC+00:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -7041,7 +7041,7 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Copyright © 2025 Certyficate IT
 !@ Copyright © 2025 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2026.5.24.1 aktualizacja: nie, 24 maj 2026, 18:40 UTC+00:00
+!@ v.2026.5.31.0 aktualizacja: nie, 31 maj 2026, 10:03 UTC+00:00
 !@
 !@
 !@ Specyficzne filtry ukrywające
@@ -8974,6 +8974,7 @@ miplo.pl##.error.rounded
 mirjan24.pl###window_overlay
 mirjan24.pl##.cookieslaw
 mirpol-bis.pl##.message-popup-background
+misjonarzetrzciel.pl##.bottom-4.fixed:has(a[href*="prywatnosc"])
 missplanner.pl##.page--notification
 mitsubishielectric.com##.cookie-hint
 mittendrin.pl##.bpcms-cookie-bar
@@ -10252,7 +10253,7 @@ zyro.com##.zyro-cookies
 ||cdn.ans-media.com/*/CookiesConsentPopUp$rewrite=abp-resource:blank-css,stylesheet,domain=answear.com
 ||cdn.cookielaw.org/consent/*/otSDKStub.js$script,domain=lubimyczytac.pl
 ||cdn.jsdelivr.net/gh/orestbida/cookieconsent@v*/dist/cookieconsent.css
-||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=legalcakes.com|satkurier.pl
+||cdnjs.cloudflare.com/ajax/libs/cookieconsent2/*/cookieconsent.min.js$domain=satkurier.pl
 ||ciasteczka.eu/cookiesEU-latest.min.js
 ||cmp.*.com/choice/*.com/*$rewrite=abp-resource:blank-js,script,domain=bleepingcomputer.com|convertcase.net|krokdozdrowia.com|medianarodowe.com|pl.forvo.com|politykazdrowotna.com|rozmiar.com|softpedia.com|taniataxi.com
 ||cmp.*.com/choice/*.eu/*$rewrite=abp-resource:blank-js,script,domain=debica24.eu|pl.androidhow.eu|rymy.eu
