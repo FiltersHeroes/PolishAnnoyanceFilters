@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Tue, 02 Jun 2026, 20:58 UTC+02:00
-! Version: 2026.6.2.0
+! Last modified: Fri, 05 Jun 2026, 00:31 UTC+02:00
+! Version: 2026.6.5.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 02 cze 2026, 20:58 UTC+02:00
+! Aktualizacja: pią, 05 cze 2026, 00:31 UTC+02:00
 !
 !
 !
@@ -108,6 +108,7 @@
 ||wymarzonyogrod.pl/popup-newsletter/*
 ||znak.com.pl/popupNewsletter$xmlhttprequest
 !@ >>>>>>>> popupy + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/popupy.txt
+!euro.com.pl##.cdk-overlay-container
 /compress/popupFacebook.js$domain=motywujemy24.pl
 /compress/popups/popupFacebook_normal.css$domain=motywujemy24.pl
 /pum-site-scripts-$domain=topplant.pl
@@ -471,7 +472,6 @@ eska.pl,eskarock.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,po
 estella-shop.eu##.pxl-newsletter-modal
 estyl.pl###ue_form
 euractiv.pl##pnespwidget[style*="position"]
-euro.com.pl##.cdk-overlay-container
 eurobolt.com.pl##.mybanners
 euroelectronics.pl###omnisend-dynamic-container > #omnisend-forms-container
 exai.pl##.adp-popup, .adp-popup-overlay
