@@ -178,7 +178,7 @@ erli.pl###root ~ div:has(a[href]:is([href*="/kupon"], [href*="/polowanie-na-hit"
 esoleo.pl##.s-Popup
 esoleo.pl##html[style="overflow: hidden;"],body[style="overflow: hidden;"]:style(overflow-y: auto !important)
 euro.com.pl,oleole.pl##.cdk-global-scrollblock[class], .eui-global-scrollblock[class]:style(position: static !important; overflow-y: auto !important)
-oleole.pl,euro.com.pl##.cdk-overlay-container
+euro.com.pl,oleole.pl##.cdk-overlay-container
 euro.com.pl,oleole.pl##.cdk-overlay-container:has([data-test="site-popup-newsletter-email"])
 euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper [class*="newsletter" i])
 euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper[class*="open"] > .remodal span[class*="heading"]:has-text(/NEWSLETTER/i))
