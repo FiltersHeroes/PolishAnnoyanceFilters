@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Mon, 08 Jun 2026, 20:09 UTC+02:00
-! Version: 2026.6.8.0
+! Last modified: Mon, 08 Jun 2026, 20:11 UTC+02:00
+! Version: 2026.6.8.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 08 cze 2026, 20:09 UTC+02:00
+! Aktualizacja: pon, 08 cze 2026, 20:11 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4946,6 +4946,7 @@ homla.com.pl##.thulium-chat-placeholder-icon
 hostovita.pl##.ts-contact-livechat-info
 housemafia.pl###sbholder
 hpe.com###MoxieFlyoutHolder
+hulajnet.pl##footer div.footer-links li:has(> a[href*="m.me/"]) ~ li:has(> a[href*="m.me/"])
 hurt.com.pl,seltrade.pl##.contactFormLink
 ideabank.pl##iframe[src^="https://videomill-bot.audiencevideo.com/"]
 ifon.pl,inter-kop.pl,scandi-city.pl##.phone
