@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 04 Jun 2026, 22:25 UTC+00:00
-! Version: 2026.6.4.0
+! Last modified: Mon, 08 Jun 2026, 20:09 UTC+02:00
+! Version: 2026.6.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 04 cze 2026, 22:25 UTC+00:00
+! Aktualizacja: pon, 08 cze 2026, 20:09 UTC+02:00
 !
 !
 !
@@ -66,6 +66,8 @@
 ~pl##.x13socialfixed_links a[href*="wa.me"]:lang(pl)
 3giga.pl###contact-slider
 3mk.pl,400.pl,beautyinspiration.pl,ccnews.pl,konstantinkanin.com,netyou.pl,siecobywatelska.pl,zhr.pl##.cresta-facebook-messenger-box
+4ride.pl##.chat_background
+7way.pl##.chat-launcher
 8a.pl##zowie-widget
 99rent.pl###rodo-chat-button
 99rent.pl,synevo.pl##.conpeek_iframe_plugin
@@ -119,7 +121,7 @@ antykwariat-amicus.pl###vdz_cb_widget
 apartamentyzdrowie.pl###aside a:not(.Facebook)
 aptekaolmed.pl,drogeriaolmed.pl##.box-info-ab
 aptekapasewalk.pl##a[href^="tel:+49"]:has(img:is([src*="WA"], [src*="whatsapp"]))
-aptekapomocna24.pl,dolina-noteci.pl,drogeriausa.pl,sadowniczy.pl###sensbot-chat
+aptekapomocna24.pl,defender.net.pl,dolina-noteci.pl,drogeriausa.pl,moto-tour.com.pl,sadowniczy.pl###sensbot-chat
 aquamelior.pl###slaask-button
 arbonne.com###V4LLPanel_TCContainer
 architekcibiznesu.pl##.massenger-log0-contact
@@ -192,11 +194,11 @@ brief.pl##.fab-desktop
 brw.pl###chat-wrapper-ai
 brykizameryki.pl,dyskretne-opinie.pl##.elfsight-widget-facebook-chat
 bssztum.pl###widget_social2
+budio.pl,buy-it.pl###crisp-chatbox
 budus-developer.pl##.footer-floating-button
 bulwaryksiazece.pl##.ask-form
 busy.info.pl###contact-user-messenger-button
 butosklep.pl###td_chat_button
-buy-it.pl###crisp-chatbox
 cadenas.de,greenhousedevelopment.pl,sew-eurodrive.pl,super-soco.pl##.contact
 cadsoft.pl##.arrow-seeMe
 cafepads.pl###aa-supportallinone-wrapper
@@ -265,8 +267,10 @@ dewelopart.pl###leftquickcontact
 diag.pl##.show-chat-icon
 dietbox.pl##.phone_btn_flat
 dipol.com.pl##.iguider-btn
+ditopony.pl###pubble-livechat-iframe
 diversesystem.com###app > footer ~ .container
 dlaspania.pl##iframe[id^="mcs_"][src*="chat"]
+dnipro-m.pl##.chats-list
 dobrefinanse.co.uk##.form-content-btn
 dodomku.pl##.btn-chat-toggle
 dodomku.pl##.contact-info-tel > p + p:has(> a > img[src*="WhatsApp"])
@@ -311,6 +315,7 @@ ekookna.pl,polnord.pl,solidnedrzwiokna.pl,wkret-met.com###fastcall
 ekorekta24.pl##.opineo-link
 ekorekta24.pl,multilampy.pl##.opineo
 electro.pl##.is-complaintReport
+electromotors.pl##.sd-ai-chatbot-wrapper
 elektronicznypodpis.pl##.bubble, #chat-bot, .WatsonAssistantChatHost
 eltrox.pl###messageIcon, .tooltip2
 endo.pl##.contact-container
@@ -386,6 +391,7 @@ grafcraft.pl###wpcs_tab_745
 graff.pl###rocketchat-iframe
 grafiqa.pl,puch-kotlowski.pl,treningkrakow.pl,zamg.klodzko.pl##.side-tab-widget > a[href="kontakt.html"]
 grechmoto.pl##.jfab_main_btn
+grillspot.pl,teb.pl###aichatbot_ra_div_id
 groupon.pl,row.hyperx.com##.bcFloat
 grupazero.pl##.contact-btn
 gry-online.pl##.soc-foot a[href*="whatsapp.com"]
@@ -427,6 +433,7 @@ inwestinfo.pl##.suggest-trigger
 irobot.pl###chat_floating_button
 isl.pl##.quick-actions
 ismserwis.pl###awesome-live-chat
+isprzet.pl###js__chatIcon
 isystemy.pl##.chat-client-div-minimized
 ith.eu##.proactiveChat
 itlab.pl##.id-14.side-tab-widget
@@ -507,7 +514,7 @@ masterlease.pl##.contact-form
 masterleasing.pl##.callus
 masterproject.pl##.trigger_popup_fricc
 matkakosciola.pl##.js-bottom-corner-btns.bottom-corner-btns
-meblearkadius.pl,mwmskansen.pl,radiopiekary.pl,routery.pl##.chaty-widget
+meblearkadius.pl,motonita.eu,mwmskansen.pl,radiopiekary.pl,routery.pl##.chaty-widget
 meblemwm.pl,skorzana.com##molin-shop-ai
 meblosfera.pl##.wp-side-menu-item:first-of-type
 mebloteka.eu###Facebook_Messenger
@@ -521,6 +528,7 @@ miasto.zgierz.pl###chatbotIframe
 mieszkanie.mitula.com.pl##.space-footer .wrap-send-comments
 militaria.pl,military.pl##.fc-widget-placeholder
 miners.pl##footer ul.list > li:has(a[href*="t.me"])
+mistama.com##.chat-ai-button
 mobidziennik.pl###floating-contact-button
 mobilelanguage.pl###mail-right
 modelerolnicze.pl###fb-customer-chat
@@ -577,6 +585,7 @@ optitaxi.pl###uptocall-mini
 optykwnecie.pl##.whatsappchat-anchor
 oracle.com##.ochat_slideout, .cw21help
 orange.pl#@##OPLWCI
+ottobest.pl##gty-whatsapp-chat-button
 outside.com.pl##.bonfire-slideout-button
 ox.pl##.contact-with-office
 pancernik.eu,semhub.pl##.arcu-message-button
@@ -685,6 +694,7 @@ rockworld.pl###chat_icon
 roseville.pl###banner_contact
 rower-express.pl##.ds_fixed_contact_button
 rowinskabusinesscoaching.com##.kleo-quick-contact-wrapper
+rrmoto.pl##.sticky_chat
 rsrh-radom.pl##.skype
 rum-lux.pl###gg
 s360.com.pl##footer ~ a#openModal.button
@@ -768,7 +778,6 @@ taniaksiazka.pl###gl-chatbot-embed-btn
 taniefototapety.eu###opinions_badge
 taniejdladomu.pl###allegroKomentarze
 teamviewer.com##.userlike
-teb.pl###aichatbot_ra_div_id
 techmlek.com.pl##.my-custom-sticky-button
 tefal24.pl###widget-button
 tekstowo.pl##.btn-messenger
