@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Thu, 11 Jun 2026, 20:29 UTC+02:00
-! Version: 2026.6.11.0
+! Last modified: Sun, 14 Jun 2026, 20:19 UTC+00:00
+! Version: 2026.6.14.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 11 cze 2026, 20:29 UTC+02:00
+! Aktualizacja: nie, 14 cze 2026, 20:19 UTC+00:00
 !
 !
 !
@@ -381,8 +381,8 @@ giacomo.pl###livechatincBack
 gkstychy.info###error_send
 glosbe.com##app-feedback-button
 go-market.pl###contact-info, #phone-info
-google.com##a[aria-label="Udostępnij w WhatsApp"]
-google.com##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "][aria-label*="WhatsApp"])
+google.*##a[aria-label="Udostępnij w WhatsApp"]
+google.*##div[role="dialog"][aria-label^="Udostępnij link"] div:has(> button[aria-label*="Udostępnij "][aria-label*="WhatsApp"])
 google.com,google.pl##.gws-flights__feedback
 gorakalwaria.net##nav > ul > li > a[href="sygnal.html"], .footer-line > li:first-of-type > a[href="sygnal.html"]
 gothaer.pl##.callClickBar
@@ -440,7 +440,7 @@ ith.eu##.proactiveChat
 itlab.pl##.id-14.side-tab-widget
 itlublin.pl##.social-whatsapp
 jakwyjsczdlugow.pl##.btn-info
-jbzdy.com.pl,jbzdy.pl##.btn-send-messenger, .fb-like
+jbzd.*,jbzdy.*##.btn-send-messenger, .fb-like
 jsystems.pl##.metka
 juwentus.pl##[id="--lc-init-container"]
 kajakom.pl###help
@@ -669,7 +669,7 @@ progrower.eu###chatbc
 projektgamma.pl###face-slider3
 proline.pl##div[id][style*="cursor"][title^="Przycisk "] > div[style*="fixed"]
 promopixel.pl###fitcher-container
-proton.me,protonvpn.com##footer > div > div[data-testid="footer"] > div + ul > li:has(> a[href*="whatsapp"] > picture)
+proton.me,protonvpn.com##footer > div > div[data-testid="footer"] > div > div > div ~ ul > li:has(> a[href*="whatsapp"] > img)
 przestronnie.pl##a[id*="back"][href^="tel:"]
 psprices.com###chatra
 pup.gliwice.pl###sugestiaForm
@@ -849,9 +849,9 @@ worxlandroid.pl##mavenoid-assistant
 wseit.edu.pl###btn-tel
 wspieram.to###staff-chat-button
 www.bekerpolska.pl##a.buttonizer-button[href*="javascript"]:nth-child(3)
-www.google.com##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
-www.google.com#?#div[role="dialog"] > span > div > a:has-text(/^WhatsApp$/)
-www.google.com,www.google.pl##button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
+www.google.*##div[aria-label="Share"] span[role="button"] ~ div a[role="link"]:has(img[src*="social/whatsapp_"])
+www.google.*#?#div[role="dialog"] > span > div > a:has-text(/^WhatsApp$/)
+www.google.*,www.google.*##button:has(img[src*="maps.gstatic.com/tactile/share/whatsapp-"])
 www.ibm.com###contact-module
 www.ideafairplay.pl###userlike-tab
 www.microsoft.com##.feedback-dialog-opener
