@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 20 Jun 2026, 18:58 UTC+02:00
-! Version: 2026.6.20.0
+! Last modified: Sun, 21 Jun 2026, 15:40 UTC+02:00
+! Version: 2026.6.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 20 cze 2026, 18:58 UTC+02:00
+! Aktualizacja: nie, 21 cze 2026, 15:40 UTC+02:00
 !
 !
 !
@@ -183,6 +183,7 @@ asta24.pl##.columns.small-12.medium-6.large-3:nth-of-type(4)
 astor.com.pl##.footer_4 .col-md-5.col-sm-6
 astoreo.pl###newsletterFormgRecaptcha
 astratex.pl###MailNewsForm
+asus.com##div[class*="Footer__subscribeForm_"]
 atakto.pl##.sidebar-newsletter-wrapper
 atlantic.pl###blockEmailSubscription_displayHome
 atlastours.pl##div[style*="newsletter.png"]
@@ -691,6 +692,7 @@ giacomo-design.com##.newsletter.cell.large-3 > h3, .newsletter.cell.large-3 > di
 ginlong.com##.pc-rss2
 gino-rossi.com##.footer .top > ul > li:nth-of-type(2)
 girya.com.pl##div.copy.container-fluid:nth-of-type(2) > .container > div.text-center.col-xs-12.col-md-6:first-of-type
+github.com##section[class*="Newsletter-module__newsletter"]
 gliwice.eu,ukrainashop.com##.newsletter_wrap
 global4net.com##.footer-grid-el2.col-xl-6.col-12
 gloria24.pl##.tg-info-cookie
