@@ -75,6 +75,7 @@ hejto.pl##header > .fixed.bottom-0
 hondanews.eu###body > .vertical.simplebar-track
 hondanews.eu###body[data-simplebar]:style(overflow-x: hidden; overflow-y: auto !important)
 hub.pl,interia.pl,pomponik.pl##[class*="embed"] > span[style*="opacity"]:style(opacity: 1 !important)
+hub.pl,interia.pl,pomponik.pl,terazgotuje.pl,top.pl##:matches-media((max-width: 408)) body[class*="mobile" i] .fb_iframe_widget :is(span, iframe, .article-embed-social-media__actions):style(width: 90lvw !important)
 irfanview.com##.mirror-icon:style(background-position-y: -150px !important;)
 ithardware.pl##iframe[title="Disqus"]:style(filter: none !important)
 jarmarktumski.pl##.gt3_preloader::after
