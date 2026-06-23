@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 21 Jun 2026, 15:40 UTC+02:00
-! Version: 2026.6.21.0
+! Last modified: Wed, 24 Jun 2026, 00:04 UTC+02:00
+! Version: 2026.6.24.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 21 cze 2026, 15:40 UTC+02:00
+! Aktualizacja: śro, 24 cze 2026, 00:04 UTC+02:00
 !
 !
 !
@@ -461,9 +461,9 @@ gerda.pl##.swimmer
 gerde.pl##.floating-button
 germany.travel##.popover-country
 github.com###js-repo-pjax-container > .flash.flash-warn ~ turbo-frame #repo-content-pjax-container > .flash-warn.flash
-github.com###react-issue-comment-composer > div > :is(h2, a)
 github.com##.Subhead:has(> h2:only-child):has(+ a[href*="/commit/"])
 github.com##div[data-testid="issue-metadata-sticky"]
+github.com##h2#comment-composer-heading
 github.com##h3 ~ details > summary:only-child
 github.com##h3:has(+ details > summary:only-child)
 gksjastrzebie.com,zulawytv.pl##.sp-pre-loader
