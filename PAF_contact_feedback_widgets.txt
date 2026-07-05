@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sat, 04 Jul 2026, 18:04 UTC+00:00
-! Version: 2026.7.4.0
+! Last modified: Sun, 05 Jul 2026, 18:31 UTC+02:00
+! Version: 2026.7.5.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 04 lip 2026, 18:04 UTC+00:00
+! Aktualizacja: nie, 05 lip 2026, 18:31 UTC+02:00
 !
 !
 !
@@ -173,6 +173,7 @@ bikeinn.com,dressinn.com,goalinn.com,kidinn.com,motardinn.com,outletinn.com,runn
 bilety.termymaltanskie.com.pl,mtp.pl###mtp-chat
 bilgorajska.pl##.pod_feedback
 bilgorajska.pl,bobbyburger.pl,godealla.pl,majsterkowo.pl,unisono.eu,venezia.pl##.feedback
+bilscy.info,lantre.pl###google-merchantwidget-iframe-wrapper
 bitrix24.pl,upominki24.pl,webiso.pl##div[class*="-widget-button-wrapper"]
 biznes.gov.pl,decathlon.pl,dollarro.com,mediaexpert.pl,uniqa.pl,vox.pl,wodociagi.krakow.pl###InteliwiseSaaSModule_win_wrapper
 biznesalert.pl##.telegram, a[href*="telegram.me/biznesalertpl"]
@@ -454,6 +455,7 @@ ketowpraktyce.pl###chatbox
 kind.com##.AP_mod--button-symbol
 king-poligrafia.pl###face-slider
 klonowypark.pl###belka_phone2, #belka_mail2, #belka_map2, #belka_form2
+kluczesoft.pl###ks-chat-rootk
 knall.com.pl##.socialTabs-tab--contact.socialTabs-tab
 kodologia.pl###cq-suggestion
 komfort.pl###chatbase-bubble-button
@@ -476,7 +478,6 @@ kylos.pl###chatstack-container
 ladysi.com.pl##.tm-badger
 lajtmobile.pl##.tlswebcall-init
 lan.sklep.pl,routery.sklep.pl###chatInCloud.chatInCloud
-lantre.pl###google-merchantwidget-iframe-wrapper
 laserdelux.pl##.navbar-fixed-bottom:has(.footer-opinion.action)
 lellek.pl##.lellus
 lenalighting.pl,lodzkie.pl##.jj_sl_custom1
@@ -612,7 +613,6 @@ picodi.com###oneSignalBell, #onesignal-bell-container
 pikio.pl###chatBot
 pityver.pl###widget.tada.widget
 pkobp.pl###chat-prod-widget
-pl###fb-root
 pl###whatsapp-chat-footer
 pl###wwwa.wwwa--widget.wwwa
 pl##.c-messenger-share
@@ -625,6 +625,7 @@ pl##.x13socialfixed_links a[href*="skype:"]
 pl##.x13socialfixed_links a[href*="wa.me"]
 pl##a[href^="fb-messenger://share/"]
 pl##a[href^="whatsapp://send"]
+pl,~sklep.ternet.com.pl###fb-root
 pl.aleteia.org##a[aria-label="Whatsapp share"]
 pl.autofixer.com##.open-help-chat
 pl.farnell.com##.live-chat
@@ -929,7 +930,6 @@ zrzutka.pl##.uv-bottom-right
 ###x13callback_button:lang(pl)
 ##.askspot-chat-widget:lang(pl)
 ##.fb-messengermessageus:lang(pl)
-##.fb_reset:lang(pl)
 ##.feedback-button:lang(pl)
 ##.gc__contact:lang(pl)
 ##.ggu-bot-snapped-launcher:lang(pl)
@@ -939,6 +939,7 @@ zrzutka.pl##.uv-bottom-right
 ##.popup__center[class*="call-me-"] .widget:not([class*="hide"]):lang(pl)
 ##.quickcontact-box:lang(pl)
 ##.thulium-chat-wrapper:lang(pl)
+~sklep.ternet.com.pl##.fb_reset:lang(pl)
 !
 !
 ! Filtry specjalne
