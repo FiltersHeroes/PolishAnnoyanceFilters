@@ -681,7 +681,8 @@ zoo.bydgoszcz.com$$[id="NewsShow"]
 !@ <<<<<<<< popupy_AG + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_AG.txt
 !#endif
 !#if ext_ublock
-!lento.pl##+js(ra, style, .box-modal-notify\, #lightoverlay)
+abczdrowie.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wirtualnemedia.pl,wp.pl##+js(set-attr, .exit-popup, hidden, )
+abczdrowie.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wirtualnemedia.pl,wp.pl##.exit-popup:remove()
 pixelnerd.pl##html.swg-disable-scroll:remove-class(swg-disable-scroll)
 pl###topLayerBackDrop:empty
 pl##.iai-toplayer__background:empty
