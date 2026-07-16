@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 12 Jul 2026, 21:10 UTC+02:00
-! Version: 2026.7.12.1
+! Last modified: Thu, 16 Jul 2026, 18:46 UTC+02:00
+! Version: 2026.7.16.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 lip 2026, 21:10 UTC+02:00
+! Aktualizacja: czw, 16 lip 2026, 18:46 UTC+02:00
 !
 !
 !
@@ -2008,6 +2008,7 @@ quiosque.pl##div#footer-before-right div:has(> form[id*="newsletter"].subscribe)
 ~pip.gov.pl,pl##.newsletter-content
 ~tvn24.pl##.newsletter-subscribe:lang(pl)
 ~unhuman.pl###footer_newsletter:lang(pl)
+pl###wp-newsletter.newsletter-wrapper
 pl##:not(#newsletter-overlay) #newsletter-box
 pl##div[id*="tws_i_"]:has(#menu_newsletterwidget)
 pl,~znak.com.pl##.newsletter-container
