@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Wed, 15 Jul 2026, 18:48 UTC+02:00
-! Version: 2026.7.15.0
+! Last modified: Sun, 19 Jul 2026, 22:13 UTC+02:00
+! Version: 2026.7.19.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 15 lip 2026, 18:48 UTC+02:00
+! Aktualizacja: nie, 19 lip 2026, 22:13 UTC+02:00
 !
 !
 !
@@ -1030,6 +1030,7 @@ strajk.eu###bdCheckAlso
 strefainwestorow.pl###strefainwestorow-menu:not(:hover) > li ~ .tooltip
 strefaucznia.pl,trojmiejskaperfumeria.pl###rightbar
 stylem.pl###allegro-rating
+stylion.pl#?#.vc-notification:has-text(/wyświetl/i)
 stylowydruk.pl##.kac-sm-mail
 suchylas.pl###jPanel_619
 sukniesabe.pl##.qodef-smooth-transition-loader
