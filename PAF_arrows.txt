@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sat, 18 Jul 2026, 02:13 UTC+02:00
-! Version: 2026.7.18.0
+! Last modified: Sun, 19 Jul 2026, 13:57 UTC+02:00
+! Version: 2026.7.19.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 18 lip 2026, 02:13 UTC+02:00
+! Aktualizacja: nie, 19 lip 2026, 13:57 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -322,6 +322,7 @@ erkado.pl##.skip--top
 erli.pl###root > header ~ button:has(> svg:only-child):has(~ footer)
 eset.com##.footer-scroll-to-top-wrapper
 esparto.pl##.clb-scroll-top
+esprito.pl##.dmtop
 espritshop.pl###scrollbutton
 essilor.pl##.ScrollTop
 estyl.pl##.js-button-go-top.c-button-go-top
@@ -627,6 +628,7 @@ nazwa.pl##.arrowUp__wrapper
 neo24.pl,neonet.pl##div[class*="scrollTopArrowCss"]
 neon24.info###button-top
 neonet.pl##div[class^="scrollTopArrow-wrapper"]
+netatmo.com##button[class]:has(> svg.lucide-arrow-up)
 news.samsung.com###btn_top
 newtonmedia.pl##.take-me-up
 nfon.com##.page-back-to-top
