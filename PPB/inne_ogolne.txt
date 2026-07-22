@@ -1,11 +1,3 @@
-pl###shop-hcaptcha-badge-container { visibility: hidden !important }
-pl##.CodeMirror-search-label ~ input.CodeMirror-search-field[style] { width: 60% !important }
-pl##.smartbanner:not(body, html) { display: none !important }
-pl##.with-smartbanner .external-header { top: 0 !important }
-pl##.with-smartbanner .top-band { margin-top: 0 !important }
-pl##body.smartbanner #smartbanner { display: none !important }
-pl##html[data-smartbanner-original-margin-top^="0"][style] { margin-top: 0 !important }
-##.cTopicPostArea:has(.cGuestTeaser)
 ###acwp-toolbar-btn:lang(pl)
 ###allecomments_clips:lang(pl)
 ###allegro-widget
@@ -53,6 +45,7 @@ pl##html[data-smartbanner-original-margin-top^="0"][style] { margin-top: 0 !impo
 ##.callback-widget:lang(pl)
 ##.ceneo-widget
 ##.circle-cursor:lang(pl)
+##.cTopicPostArea:has(.cGuestTeaser)
 ##.custom-social-proof:lang(pl)
 ##.ekomi-widget-container:lang(pl)
 ##.elfisanta:lang(pl)
@@ -98,7 +91,9 @@ ch,com,cz,eu,farm,fm,group,info,io,it,me,net,org,promo,tv##.grecaptcha-badge:lan
 ch,com,cz,eu,fm,info,io,it,me,net,org,to,tv##.custom-grecaptcha-badge:lang(pl) { visibility: hidden !important }
 com,eu,info,pl###content > div#ipl-loader
 com,eu,info,pl###content > div#primary span.ipl
+pl###shop-hcaptcha-badge-container { visibility: hidden !important }
 pl###tm-widget-alpaca
+pl##.CodeMirror-search-label ~ input.CodeMirror-search-field[style] { width: 60% !important }
 pl##.csocial-link[href*="olx.pl"]
 pl##.csocial-link[href*="otomoto.pl"]
 pl##.custom-grecaptcha-badge { visibility: hidden !important }
@@ -106,10 +101,15 @@ pl##.ratingBadgeWrapper
 pl##.rssocial-icons > li > a[href*="google.com/maps"]
 pl##.rssocial-icons > li > a[href*="google.pl/maps"]
 pl##.rssocial-icons > li > a[href*="maps.google."]
+pl##.smartbanner:not(body, html) { display: none !important }
 pl##.widget_times_social_widget a[href*="podcasts.google"]
+pl##.with-smartbanner .external-header { top: 0 !important }
+pl##.with-smartbanner .top-band { margin-top: 0 !important }
 pl##.x13socialfixed_links a[href*="allegro.pl/"]
 pl##a[data-st-area="goToSG"]
 pl##a[data-st-area="gotosg"]
 pl##a[data-st-area="xbal"]
+pl##body.smartbanner #smartbanner { display: none !important }
 pl##div[id^="___ratingbadge_"]
+pl##html[data-smartbanner-original-margin-top^="0"][style] { margin-top: 0 !important }
 pl##iframe[src^="https://esa.nask.pl/widget/"]
