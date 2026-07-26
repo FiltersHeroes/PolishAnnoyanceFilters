@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 26 Jul 2026, 18:27 UTC+02:00
-! Version: 2026.7.26.0
+! Last modified: Sun, 26 Jul 2026, 22:27 UTC+02:00
+! Version: 2026.7.26.1
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 26 lip 2026, 18:27 UTC+02:00
+! Aktualizacja: nie, 26 lip 2026, 22:27 UTC+02:00
 !
 !
 !
@@ -391,6 +391,7 @@ eneba.com#?##app > footer + div:has(strong:has-text(/^Ktoś właśnie kupił$/))
 energylandia.pl##.floating-buy-button-ticket
 enfamil.pl##li.float-shop
 envelo.pl###user-notification
+eobuwie.com.pl##li.product-list-item:has(.product-card-link > .label-information)
 eplecaki.pl##.GoogleReviewButton, .offset-left
 erli.pl###root > header ~ div:has(~ footer) a[href*="/gazetka"]
 espritshop.pl##.smartappbanner
