@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Fri, 24 Jul 2026, 17:34 UTC+02:00
-! Version: 2026.7.24.0
+! Last modified: Sun, 02 Aug 2026, 19:02 UTC+02:00
+! Version: 2026.8.2.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 24 lip 2026, 17:34 UTC+02:00
+! Aktualizacja: nie, 02 sie 2026, 19:02 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -64,7 +64,7 @@ agro-kowalski.com.pl,dlabiznesu.voice-net.pl##.scroll-to-top
 agroas.pl##.to-the-top-link
 agrofakt.pl##.go-down
 agrogajda.pl,elektronik-service.com.pl,kontel.net,sklepfarmer.pl###search_scroll_mini
-agroma.org.pl,eplakaty.pl,gotujmy.pl,inter-vax.pl,mednova.pl,nasza-gazeta.pl,pizzeriaitaliana.pl,portalhodowcy.pl,semina.agro.pl,sklepzwhisky.pl,smaczneprzepisy.com.pl,umww.pl##a.scrollup
+agroma.org.pl,eplakaty.pl,gotujmy.pl,inter-vax.pl,mednova.pl,nasza-gazeta.pl,pizzeriaitaliana.pl,pol-skone.pl,portalhodowcy.pl,semina.agro.pl,sklepzwhisky.pl,smaczneprzepisy.com.pl,umww.pl##a.scrollup
 agromer.pl##.page-top-button
 agroopony.eu##.scrollmain
 agrosimex.pl###pagetop
@@ -183,6 +183,7 @@ borcas.eu##.scrollToTopPlugin_label
 borcas.eu,napieknewlosy.pl###effectiveAppsScrollToTopBtn
 bosch-extra.pl,extra-program.pl,florens.pl,glovoapp.com##.to-top-button
 briju.pl##.Footer-BackToTop
+broker.auto.pl###go_to_top_arrow
 browhennapolska.pl,czops.pl,neuf.tv,vikking.eu###kt-scroll-up
 brymorex.pl,chemko.com.pl,tayamagroup.pl###top-button-ui
 bs.limanowa.pl##.block-arrow--small
@@ -205,6 +206,7 @@ cds-lider.com.pl,polsero.pl,www.nowiny.gliwice.pl##.btn-up
 cebule-kwiatowe.pl,geo-polska.pl,hurtex.com.pl##.scrollBackToTop
 cedynia.pl,napisy24.pl,wegemaluch.pl###smoothtop
 cellbes.pl,www.akademiareklamy.edu.pl###topscroller
+centrum.auto.pl##.elementor-fixed.elementor-widget-icon:has(> .elementor-icon-wrapper > a[href="#gotop"])
 centrumdom.info##.tm-my-totop-scroller
 chemko.com.pl,informatique-mania.com,specto.com.pl##.go-to-top-button
 chimmo.pl###arrow-up
@@ -456,6 +458,7 @@ intergama.pl,support.kaspersky.com##.up-arrow
 interia.pl##.top-of-site-link
 intermarche.pl##.trigger--page-up
 iobit.com##.backtop
+iqhost.pl##div[x-init="window.addEventListener('scroll', () => visible = window.scrollY > 400)"]
 irass.pl##body > div.right.btn[class*="czr"]
 isp.org.pl,marketdino.pl##.icon-arrow-up
 ita.tools##.ScrollButtonContainer
@@ -996,6 +999,7 @@ zzachodu.pl##.in.g5core-back-to-top
 ###scrolltopbtn:lang(pl)
 ###scrollToTop:lang(pl)
 ###scrollToTopButton:lang(pl)
+###shopify-section-scroll-to-top-btn
 ###strzalka-w-gore
 ###sttotop:lang(pl)
 ###totop-scroller:lang(pl)
