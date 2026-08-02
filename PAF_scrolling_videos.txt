@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Fri, 24 Jul 2026, 17:34 UTC+02:00
-! Version: 2026.7.24.0
+! Last modified: Sun, 02 Aug 2026, 22:25 UTC+02:00
+! Version: 2026.8.2.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 24 lip 2026, 17:34 UTC+02:00
+! Aktualizacja: nie, 02 sie 2026, 22:25 UTC+02:00
 !
 !
 !
@@ -72,6 +72,7 @@ radio.katowice.pl##div[id^="sidebar"].fixed-player
 radio.rzeszow.pl##div[id*="ytlive_"][id*="-floating"][aria-hidden="false"][style*="block"]
 rodzicielskieinspiracje.pl##div[id^="rehub_sticky_on_scroll-"].scrollsticky.stickyscroll_widget
 shopify.com##button[data-component-name="video-modal-pip-button"]:has(video)
+smaker.pl##.floatingvideo__wrapper.is-fixed
 softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
 telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvrep-live-box
 telewizjatvt.pl##div[id^="elementor-popup-modal-"]:has(iframe[src*="/player/"])
