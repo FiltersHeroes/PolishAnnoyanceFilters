@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 02 Aug 2026, 19:02 UTC+02:00
-! Version: 2026.8.2.0
+! Last modified: Sat, 08 Aug 2026, 17:53 UTC+02:00
+! Version: 2026.8.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 sie 2026, 19:02 UTC+02:00
+! Aktualizacja: sob, 08 sie 2026, 17:53 UTC+02:00
 !
 !
 !
@@ -342,6 +342,7 @@ centrumhandlowerobi.pl##.footer-container div.col-xxs:nth-of-type(4)
 centruminformacji.tvp.pl##.extraInfoNews
 centrumpapieru.pl##.cp_footer__newsletter
 centrumprasowe.pap.pl##a[href="/cp/pl/newsletter/"]
+ceo.org.pl##footer .flex-col.flex > div:has(+ #newsletter)
 cersanit.com.pl###footer-page .js-medium-col-1.medium-4.small-6.columns
 cezal24.pl,rehus.pl###text-4
 cezal.lublin.pl###footgroup3
@@ -615,6 +616,7 @@ feniks.wroc.pl##.newsletter-wr
 festool.pl##.newsletter__footer
 fielmann.pl##div[data-cy="newsletter-"]
 finereader.pl##.formularz.row, .text-uppercase.mb-2.font17.bold.text-white
+firefox.com##.fl-newsletterform-cta
 fish24.pl##.newsletter_foot
 fizjoplaner.pl##.ft_nl
 flies-stepbystep.com###widget-7
