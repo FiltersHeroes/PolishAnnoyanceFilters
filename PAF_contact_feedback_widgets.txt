@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Sun, 02 Aug 2026, 16:54 UTC+00:00
-! Version: 2026.8.2.0
+! Last modified: Sat, 08 Aug 2026, 17:53 UTC+02:00
+! Version: 2026.8.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 sie 2026, 16:54 UTC+00:00
+! Aktualizacja: sob, 08 sie 2026, 17:53 UTC+02:00
 !
 !
 !
@@ -54,6 +54,7 @@
 ##.chat-button:has(a[id^="chat-button-"][id*="messenger"], a[id^="chat-button-"][id*="whatsapp" i])
 ##.pos-socials-widget .ei-whatsapp
 ##.scriptlesssocialsharing .button.whatsapp
+##.spice_social_share_link_whatsapp
 ##a[aria-label="Udostępnij w WhatsApp"]
 ##div[data-hook="social-sharing"] button[aria-label="Udostępnij na WhatsApp"]
 ~pl###chaty-channel-facebook_messenger:lang(pl)
@@ -703,6 +704,7 @@ revolutionrace.pl##.website-feedback-banner
 rgbautomatyka.pl###help-box
 rockworld.pl###chat_icon
 ronomed.com.pl##div[class*="eapps-google-reviews-"][id]
+rosa24.pl##.tm-lemur-container
 roseville.pl###banner_contact
 rower-express.pl##.ds_fixed_contact_button
 rowinskabusinesscoaching.com##.kleo-quick-contact-wrapper
