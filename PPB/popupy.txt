@@ -73,7 +73,7 @@ amazfitpolska.pl,device.pl,it-develop.pl,jagiellonski.pl,luqam.com,luxmedlublin.
 answear.com###popupNewsletterWrap
 antiviruslist.com###exitintent_screen_1, .modal-backdrop
 apaczka.pl##.popupPromoBox
-aplug.pl,boldwear.pl,cleangang.pl,kozackadrogeria.pl,nutridome.pl,papierniczeni.pl,stylion.pl,woliniusz.pl##body > div > .kl-private-reset-css-Xuajs1.needsclick
+aplug.pl,boldwear.pl,cleangang.pl,kozackadrogeria.pl,nutridome.pl,papierniczeni.pl,stylion.pl,woliniusz.pl##body:not(.klaviyo-prevent-body-scrolling) > div:not([class], [id]):has(> .needsclick[class*="kl-private"])
 app.electricitymaps.com##.modal, .modal-background-overlay
 app.pharmasistant.pl,aptekarz.pl,aptekaszpitalna.pl,farmaceuta.pl,farmacja.edu.pl,farmacja.net,farmacja.pl,farmacja.tv,grupafarmacja.net,mgr.farm,receptura.pl,rx.edu.pl##.farmacja-popup-background
 apple-user.pl,salon2kolka.pl##.mlab-modal
@@ -350,6 +350,7 @@ floslek.pl###closeModal
 follynail.com###tloPopUp, #oknoPopUp
 fonia.app##.open.wcs-modal
 forgeofempires.com###offer-diamonds
+formeds.pl##body.klaviyo-prevent-body-scrolling > div:not([class], [id]):has(> .needsclick[class*="kl-private"])
 fotelik.info##.zIndexWrapper240
 fotografwdrodze.pl,skladaniekomputera.pl,teletropiciel.pl###exitpopup-modal
 francuskie.pl##.greensboro-optin-visible
