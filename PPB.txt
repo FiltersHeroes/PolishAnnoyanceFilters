@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 09 Aug 2026, 17:55 UTC+02:00
-! Version: 2026.8.9.0
+! Last modified: Sun, 09 Aug 2026, 17:42 UTC+00:00
+! Version: 2026.8.9.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 09 sie 2026, 17:55 UTC+02:00
+! Aktualizacja: nie, 09 sie 2026, 17:42 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -949,7 +949,7 @@ luminosfera.pl,slaskiecentrumkomputerowe.pl##.container > .row > .col-sm-4
 luxfood.pl###Left > .nyroModal:first-of-type
 luxmed-diagnostyka.pl##.newesletter-box
 lycamobile.pl##.lm-footer-container > div > .lm-footer__body > .row > div:first-child > :not(:last-child)
-maciej.je##p:nth-of-type(47)
+maciej.je,portalodo.com,promofarma.com##.newsletter-box
 magnapolonia.org##.tnp-subscription
 magnatfarby.pl##.sn-newsletter--homepage
 magusz.com.pl##a[href="#collapse_newsletter"]
@@ -1298,7 +1298,6 @@ porta.com.pl##.newsletter--section > div > div:not(.advertisement--container)
 portal-sadownik.pl##div.box:nth-of-type(3)
 portalgames.pl##.columns.mimi-form.widget
 portalmorski.pl##.nl
-portalodo.com,promofarma.com##.newsletter-box
 portalpszczelarski.pl##.element.col-3-7
 portalsamorzadowy.pl,wnp.pl##.news-box
 posbistro.com##div[aria-label="Zapisz się na gastronomiczny NEWSLETTER"]
@@ -3981,7 +3980,7 @@ mirat.eu##.Footer-ScrollTop
 mironet.pl##.FloatMobileToTop
 mmp24.pl##.jquery-back-to-top
 mmpartners.eu##.przewijak
-mmpk.info,skuter-sklep.pl##.scrollToTop
+mmpk.info,skuter-sklep.pl,sprawozdanie-finansowe.com.pl##.scrollToTop
 mobilevikings.pl##.bottom-right img[src*="arrow"]
 mobilneforum.pl###scrollblock
 mobilny-ranking.pl##.qodef-back-to-top-icon
@@ -4202,6 +4201,7 @@ soselectronic.pl###btn-top
 spartoo.pl###remonte-bt
 spokey.pl##.get_up
 spolecznosc.allegro.pl##.li-common-scroll-to-wrapper
+sprawozdanie-finansowe.com.pl###scrollToTop
 stage24.pl##.arrow-up
 stalco.pl##.scroll-social-sharing__btn
 stalowa.info##.to-top-arrow
@@ -5923,7 +5923,6 @@ fakty.tvn24.pl##.headerStickyContainer
 feriogaj.com##.riding-box
 filehippo.com###avast-seal, .avast-promo
 filehippo.pl##.program-actions-header__promo
-filman.cc##.alert-info.alert:has(a[href*="na-telefony-i-tablety-"])
 filmoterapia.pl###post_more_wrapper
 filmweb.pl##.loginEncourageTooltip
 filmweb.pl##.page:is(.filmPage, .newsPage) ~ .page
