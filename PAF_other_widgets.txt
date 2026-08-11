@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 09 Aug 2026, 19:52 UTC+02:00
-! Version: 2026.8.9.1
+! Last modified: Tue, 11 Aug 2026, 22:07 UTC+02:00
+! Version: 2026.8.11.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 09 sie 2026, 19:52 UTC+02:00
+! Aktualizacja: wto, 11 sie 2026, 22:07 UTC+02:00
 !
 !
 !
@@ -693,6 +693,7 @@ mediarun.com##.jeg_popup_post
 mediasystem-tdi.pl##.right.ltr.a11y-toolbar
 medme.pl##.back-button
 medonet.pl##.artList li:has(a[href*="utm_campaign=back_to_onet_bullet"])
+medonet.pl##footer + div:not([class], [id], [style]) { remove: true }
 medseven.eu###contactable_inner
 medseven.eu,sklep.rowmot.eu##.kac-sm-gmap
 medx.com.pl###info-medical
@@ -767,8 +768,7 @@ naukajazdy-kowalik.pl##.side-tab-widget > a[href="kierowcy.html"]
 nbi.com.pl###pasek_bottom
 nbportal.pl###show-tools
 nekla.eu###pogodynka_widget_wide
-neo24.pl##.as-wallpaper_right.as-wallpaper
-neonet.pl##.adserverBannersScss-slider-3ln, .adserverWallpaperNewScss-track-iHh, .adserverCategoryTopContainerCss-slider_main-2nL
+neonet.pl##[class]:is([class*="adserverBannersScss-slider-"], [class*="adserverWallpaperNewScss-track-"], [class*="adserverCategoryTopContainerCss-slider_main-"])
 nestbank.pl##.fixed-label
 netbiel.pl##.smartlib-pre-loader
 nettg.pl##.side-panel
@@ -804,8 +804,13 @@ olx.pl##.baxter-container:has(#calculator-loan_form, a[id*="PriceBoxLink"])
 olx.pl##.favourites-bar
 ombre.pl###menu_buttons3 > .bxslider > li:nth-of-type(2)
 omega.om.pl##.right.ecp-button
-onet.pl##div[class^="BackToMainPage_backToMainPage"]
-onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
+onet.pl##.alternateDataBar.withBackBar { bottom: 0 !important }
+onet.pl##.ods-m-fromscroll-bottom
+onet.pl##.ods-m-fromscroll-bottom { remove: true }
+onet.pl##a[data-section="return-to-mp-button"], div[class*="SimulatingMainPage_section_"] { visibility: hidden !important }
+onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"] { display: none !important }
+onet.pl##div[class*="SlideToClose"] { width: 48px !important; height: 48px !important }
+onet.pl##div[class^="BackToMainPage_backToMainPage"], div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
 onlinezdrowie.pl###post-nav
 oohmagazine.pl##.festiwal_card_tab
 opieka.farm##.CampaignType--slide:has(.anchorage-close)
