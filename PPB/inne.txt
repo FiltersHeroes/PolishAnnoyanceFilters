@@ -701,8 +701,7 @@ naukajazdy-kowalik.pl##.side-tab-widget > a[href="kierowcy.html"]
 nbi.com.pl###pasek_bottom
 nbportal.pl###show-tools
 nekla.eu###pogodynka_widget_wide
-neo24.pl##.as-wallpaper_right.as-wallpaper
-neonet.pl##.adserverBannersScss-slider-3ln, .adserverWallpaperNewScss-track-iHh, .adserverCategoryTopContainerCss-slider_main-2nL
+neonet.pl##[class]:is([class*="adserverBannersScss-slider-"], [class*="adserverWallpaperNewScss-track-"], [class*="adserverCategoryTopContainerCss-slider_main-"])
 nestbank.pl##.fixed-label
 netbiel.pl##.smartlib-pre-loader
 nettg.pl##.side-panel
@@ -738,8 +737,14 @@ olx.pl##.baxter-container:has(#calculator-loan_form, a[id*="PriceBoxLink"])
 olx.pl##.favourites-bar
 ombre.pl###menu_buttons3 > .bxslider > li:nth-of-type(2)
 omega.om.pl##.right.ecp-button
-onet.pl##div[class^="BackToMainPage_backToMainPage"]
-onet.pl##div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
+onet.pl##div[class^="BackToMainPage_backToMainPage"], div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
+onet.pl##.ods-m-fromscroll-bottom
+onet.pl##.ods-m-fromscroll-bottom { remove: true }
+onet.pl##.alternateDataBar.withBackBar { bottom: 0 !important }
+medonet.pl##footer + div:not([class], [id], [style]) { remove: true }
+onet.pl##a[data-section="return-to-mp-button"], div[class*="SimulatingMainPage_section_"] { visibility: hidden !important }
+onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"] { display: none !important }
+onet.pl##div[class*="SlideToClose"] { width: 48px !important; height: 48px !important }
 onlinezdrowie.pl###post-nav
 oohmagazine.pl##.festiwal_card_tab
 opieka.farm##.CampaignType--slide:has(.anchorage-close)
