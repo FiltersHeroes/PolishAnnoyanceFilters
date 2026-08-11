@@ -627,6 +627,7 @@ mediarun.com##.jeg_popup_post
 mediasystem-tdi.pl##.right.ltr.a11y-toolbar
 medme.pl##.back-button
 medonet.pl##.artList li:has(a[href*="utm_campaign=back_to_onet_bullet"])
+medonet.pl##footer + div:not([class], [id], [style]) { remove: true }
 medseven.eu###contactable_inner
 medseven.eu,sklep.rowmot.eu##.kac-sm-gmap
 medx.com.pl###info-medical
@@ -737,14 +738,13 @@ olx.pl##.baxter-container:has(#calculator-loan_form, a[id*="PriceBoxLink"])
 olx.pl##.favourites-bar
 ombre.pl###menu_buttons3 > .bxslider > li:nth-of-type(2)
 omega.om.pl##.right.ecp-button
-onet.pl##div[class^="BackToMainPage_backToMainPage"], div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
+onet.pl##.alternateDataBar.withBackBar { bottom: 0 !important }
 onet.pl##.ods-m-fromscroll-bottom
 onet.pl##.ods-m-fromscroll-bottom { remove: true }
-onet.pl##.alternateDataBar.withBackBar { bottom: 0 !important }
-medonet.pl##footer + div:not([class], [id], [style]) { remove: true }
 onet.pl##a[data-section="return-to-mp-button"], div[class*="SimulatingMainPage_section_"] { visibility: hidden !important }
 onet.pl##div[class*="SlideToClose"] > div[class*="SlideToClose"] { display: none !important }
 onet.pl##div[class*="SlideToClose"] { width: 48px !important; height: 48px !important }
+onet.pl##div[class^="BackToMainPage_backToMainPage"], div[class^="BackToMainPage_backToMainPage"] + div[class*="Detail_section_"]
 onlinezdrowie.pl###post-nav
 oohmagazine.pl##.festiwal_card_tab
 opieka.farm##.CampaignType--slide:has(.anchorage-close)
