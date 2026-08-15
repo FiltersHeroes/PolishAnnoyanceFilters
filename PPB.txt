@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 15 Aug 2026, 19:14 UTC+00:00
-! Version: 2026.8.15.5
+! Last modified: Sat, 15 Aug 2026, 19:33 UTC+00:00
+! Version: 2026.8.15.6
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 15 sie 2026, 19:14 UTC+00:00
+! Aktualizacja: sob, 15 sie 2026, 19:33 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -7136,8 +7136,8 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2026.8.15.3
-!@ Last modified: Sat, 15 Aug 2026, 19:14 UTC+00:00
+!@ Version: 2026.8.15.4
+!@ Last modified: Sat, 15 Aug 2026, 19:33 UTC+00:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -7149,7 +7149,7 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Copyright © 2026 Certyficate IT
 !@ Copyright © 2026 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2026.8.15.3 aktualizacja: sob, 15 sie 2026, 19:14 UTC+00:00
+!@ v.2026.8.15.4 aktualizacja: sob, 15 sie 2026, 19:33 UTC+00:00
 !@
 !@
 !@ Specyficzne filtry ukrywające
@@ -7247,7 +7247,7 @@ adocean-global.com##div.cookies-flex
 adra.pl,expozdrowie.pl,fzz.pl###alert_popup
 adresowo.pl,fotosik.pl,kaniowski.eu,sportzona.pl,trojmiasto.pl,twojahistoria.pl###rodo-info
 advantim.com.pl###cook-info
-adventure-sky.pl,agrobialowieza.pl,aluzja.gorzow.pl,artgos.pl,basenklodzko.pl,biblioteka.gmina.pl,biblioteka.kroscienko-nad-dunajcem.pl,biennalepasteli.pl,bsmuszyna.com,cadvision.pl,cieniawa-ski.pl,ck.przemysl.pl,diagmed.info.pl,dworbartnika.pl,gbp.zwierzyn.pl,goralskiedomki.pl,hostgrafia.pl,interauto.krakow.pl,iwulskadent.pl,karczmawedworze.pl,klodzko.pl,kmdentalexperts.pl,kontestator.eu,ksiegarnia-astex.pl,mojawww.com,muzeum.belchatow.pl,osrodek-terapii.com,pensjonat-szarotka.pl,perlamazur.pl,pieninypoland.pl,powiat-wieruszowski.pl,protos.pl,puch-kotlowski.pl,restauracjaflis.pl,slawex.net.pl,swiatdeski.pl,szczawnica-belweder.pl,szkolaswidnik.edu.pl,tadex-pol.pl,tomiicars.com.pl,transport.krzysko.pl,treningkrakow.pl,tukan.info.pl,vagaru.pl,wikar.pl,willamagiera.pl#?#.widget.type-10:not([id]):has-text(/(cookies?|ciasteczk?a?|rodo|gdpr)/i)
+adventure-sky.pl,agrobialowieza.pl,aluzja.gorzow.pl,artgos.pl,basenklodzko.pl,biblioteka.gmina.pl,biblioteka.kroscienko-nad-dunajcem.pl,biennalepasteli.pl,bsmuszyna.com,cadvision.pl,cieniawa-ski.pl,ck.przemysl.pl,diagmed.info.pl,dworbartnika.pl,gbp.zwierzyn.pl,goralskiedomki.pl,hostgrafia.pl,interauto.krakow.pl,iwulskadent.pl,karczmawedworze.pl,klodzko.pl,kmdentalexperts.pl,kontestator.eu,ksiegarnia-astex.pl,mojawww.com,muzeum.belchatow.pl,osrodek-terapii.com,pensjonat-szarotka.pl,perlamazur.pl,pieninypoland.pl,powiat-wieruszowski.pl,protos.pl,puch-kotlowski.pl,slawex.net.pl,swiatdeski.pl,szczawnica-belweder.pl,szkolaswidnik.edu.pl,tadex-pol.pl,tomiicars.com.pl,transport.krzysko.pl,treningkrakow.pl,tukan.info.pl,vagaru.pl,wikar.pl,willamagiera.pl#?#.widget.type-10:not([id]):has-text(/(cookies?|ciasteczk?a?|rodo|gdpr)/i)
 adwokatrozycka.pl,cad2cad.com,greensteam.pl,kacperkowalski.pl,metronic.com.pl,npa.pl,progenis.pl,rysunek.edu.pl,wanika.pl,wordlist.eu,zs1mm.edu.pl,zs1mm.home.pl##body > div[style*="position"][style*="relative"]:not([id], [class])
 aeg-powertools.eu,baldauf-kaese.de,bolec.info,dystans.org,esize.me,euautomation.com,eurolines.de,europeana.eu,filehippo.com,forum.optymalizacja.com,ftt.roto-frank.com,godzina.info,ipa-katowice.org,konin24.info,languagetool.org,malopolskie-media.info,osiedle-chelmonskiego.pl.tl,parafiabrzezinka.eu,pl.kingofsat.net,pons.com,punkt.media,sachsen-tourismus.de,techsklep.eu,tw-db.info,wiha.com##.cc_banner-wrapper > .cc_banner
 aerlingus.com##.bg-tealGreen-opacity:has(#cookie-desc)
@@ -7583,7 +7583,7 @@ bing.com###t_cookieInfo, #t_termsInfo
 bing.com##div#thp_notf_div
 bingospa.pl,notino.pl###gritter-notice-wrapper
 biomantis.pl,ecbedzin.pl,enut.pl,euromilk.pl,haloursynow.pl,interprojekt.pl,katarzynatryniszewska.pl,maluchy.pl,mojaolesnica.pl,programatory.com,sedziszow.pl,swiatopon.info,warsztat.pl###myModal
-biomedical.pl,medpytania.pl,prawdaobiektywna.pl###mcpc
+biomedical.pl,prawdaobiektywna.pl###mcpc
 biomet.pl,rapid-recovery.pl##[id^="fancybox-"]
 biostopa.pl,dla-przemyslu.pl,flowshop.pl,glowackivet.pl,gsm-hurt.pl,instalpv.pl,japanstore.pl,mango.pl,maxmoto.pl,narzedzia.net.pl,narzedziadlafachowca.pl,obuwiejoanna.pl,ori-vet.pl,picturewall.pl,prezentidealny.com,rowery-colex.pl,rozaria.pl,ski24.pl,skiteam.pl,sklep.centrumzdrowegowlosa.pl,sklep.greenservice.pl,sklep.moto-agro.pl,sklep.ntt.pl,sklep.party,sklep.rajan.com.pl,sklepchojnacki.pl,supon.rzeszow.pl,swiat-bonsai.pl,tvokazje.pl##:root > body div:is(#x13eucookies, .x13eucookies)
 biotebal.nuorder.pl,biotebal.pl,dbajonerki.pl,ibufen.pl,ibuvit.pl,kadefarm-zdrowie.pl,kaszeligardlo.pl,przewodnikokulistyczny.pl,trenujzpolpharma.pl###monit
