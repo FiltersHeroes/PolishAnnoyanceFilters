@@ -485,6 +485,10 @@ sklepmartes.pl##.modalbox-is-visible:style(overflow-y: auto !important)
 sklepmartes.pl##html.modalbox-is-visible body:style(overflow-y: auto !important)
 sklepzrowerami.pl##.apc-effect-blur:style(filter: none !important)
 sklepzrowerami.pl##.fancybox-overlay:has(.apc_modal)
+sleepandglow.pl##+js(set-constant, mailing-hide, true)
+sleepandglow.pl##+js(set-constant, mailing_second-hide, true)
+sleepandglow.pl##.noscroll:is(body, html):style(overflow-y: auto !important)
+sleepandglow.pl##.pp__mailing, .pp__mailing_second
 smaker.pl##.popupFacebook
 smaker.pl##:root > body.-popup:style(position: static !important; overflow: auto !important)
 smaker.pl##:root[style]:style(position: static !important; overflow: auto !important)
