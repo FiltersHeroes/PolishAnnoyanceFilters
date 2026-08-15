@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 11 Aug 2026, 22:07 UTC+02:00
-! Version: 2026.8.11.0
+! Last modified: Sat, 15 Aug 2026, 10:46 UTC+02:00
+! Version: 2026.8.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 11 sie 2026, 22:07 UTC+02:00
+! Aktualizacja: sob, 15 sie 2026, 10:46 UTC+02:00
 !
 !
 !
@@ -712,6 +712,7 @@ groomershop.pl##.cs-container--newsletter
 grudziadz.pl##.main_newsletter_content
 grupaimage.eu##.sidebar-left > div.sidebar-box:nth-of-type(2)
 grupapolsatplus.pl##.block > .field__item:has(> p > a[href="/pl/subscribe"])
+grzegorzsekowski.pl##.et_pb_text[class*="_tb_footer"]:has(+ div .ml-embedded)
 gs1pl.org###section-newsletter
 gtbicycles.pl###mailinglist_container
 gymbeam.pl##.pt-1.pb-5.w-full
@@ -1073,6 +1074,7 @@ muzyczneradio.pl##.newsletter.col-md-3
 muzykotekaszkolna.pl##.nl-subscribe
 mw.org.pl###wpsb
 mydevil.net##body > .white-bg
+myerp.pl##footer > div:nth-child(2) > div:nth-child(2) > div:nth-child(2):has(> .ml-embedded)
 myjki.com###newsletter_block
 myloview.pl###submitMe
 mymeest.pl###newsletterSection
