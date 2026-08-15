@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 15 Aug 2026, 19:56 UTC+00:00
-! Version: 2026.8.15.8
+! Last modified: Sat, 15 Aug 2026, 20:08 UTC+00:00
+! Version: 2026.8.15.9
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 15 sie 2026, 19:56 UTC+00:00
+! Aktualizacja: sob, 15 sie 2026, 20:08 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -7136,8 +7136,8 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2026.8.15.5
-!@ Last modified: Sat, 15 Aug 2026, 19:56 UTC+00:00
+!@ Version: 2026.8.15.6
+!@ Last modified: Sat, 15 Aug 2026, 20:08 UTC+00:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -7149,7 +7149,7 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Copyright © 2026 Certyficate IT
 !@ Copyright © 2026 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2026.8.15.5 aktualizacja: sob, 15 sie 2026, 19:56 UTC+00:00
+!@ v.2026.8.15.6 aktualizacja: sob, 15 sie 2026, 20:08 UTC+00:00
 !@
 !@
 !@ Specyficzne filtry ukrywające
@@ -10133,6 +10133,7 @@ trizer.pl##.ft__cookies
 trovit.pl###welcomebar-wrapper
 truck1-pl.com##.gdpr-container[id*="gdpr"]
 truckstore.com##.tso-popup-footer, .tso-popup-overlay
+trustmate.io##div[class*="Cookies_banner_"]
 trustmate.io##div[class^="Cookies__CookiesWrapper-sc-"]
 trzcinica.com.pl##.window, #maseczka
 tst.pl##footer ~ div.fixed:has([href="/prywatnosc"])
