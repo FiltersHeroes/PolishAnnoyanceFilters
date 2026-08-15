@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 15 Aug 2026, 21:41 UTC+02:00
-! Version: 2026.8.15.7
+! Last modified: Sat, 15 Aug 2026, 19:56 UTC+00:00
+! Version: 2026.8.15.8
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 15 sie 2026, 21:41 UTC+02:00
+! Aktualizacja: sob, 15 sie 2026, 19:56 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -7136,8 +7136,8 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2026.8.15.4
-!@ Last modified: Sat, 15 Aug 2026, 19:33 UTC+00:00
+!@ Version: 2026.8.15.5
+!@ Last modified: Sat, 15 Aug 2026, 19:56 UTC+00:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -7149,7 +7149,7 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Copyright © 2026 Certyficate IT
 !@ Copyright © 2026 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2026.8.15.4 aktualizacja: sob, 15 sie 2026, 19:33 UTC+00:00
+!@ v.2026.8.15.5 aktualizacja: sob, 15 sie 2026, 19:56 UTC+00:00
 !@
 !@
 !@ Specyficzne filtry ukrywające
@@ -7303,7 +7303,8 @@ akademiabambino.pl##.ciacha
 akademiaeurocash.com.pl,dlink.com,megawrzuta.pl,seoinvention.pl##.notification
 akademiafalubaz.pl###cgRodoModal, #cgRodoBackdrop
 akademos.pl,jezykipaderewski.pl,paderewski.lublin.pl,zagiel.pl,zagielauto.pl,zagielmed.pl###cc_zagiel
-akol.pl,funer.com.pl,kaucjomat.com,pkw-sa.pl,pomagam.pl,sklepopon.com##div#klaro, button#klaro_toggle_dialog
+akol.pl,funer.com.pl,gov.pl,kaucjomat.com,pkw-sa.pl,pomagam.pl,sklepopon.com##a[rel="open-consent-manager"], a[data-once="klaroLink"]
+akol.pl,funer.com.pl,gov.pl,kaucjomat.com,pkw-sa.pl,pomagam.pl,sklepopon.com##div#klaro, button#klaro_toggle_dialog
 akolinska-kancelaria.pl,cosmedicolight.pl,genetico.pl,kapitalnydom.pl,podkarpackie.travel.pl,tksport.pl,um-swiecie.pl##body > div[class][style*="position"][style*="fixed"]:not([id])
 akpolbaby.pl###gdpr-sticky-banner
 aktualnyodpis.pl##.ao-cookie-container
@@ -8744,7 +8745,6 @@ karpacz.pl###popupBody, #popupContainer
 kartuzy.info##div#page_top_topbar2
 katrinex.pl#?#p.tiny_wyrozn1.tekst_bialy > em:has-text(Prawo telekomunikacyjne)
 katw.pl###__fr_cookie
-kaucjomat.com##a[rel="open-consent-manager"], a[data-once="klaroLink"]
 kawasaki.pl###Panel_Cookies
 kayak.pl##div[id$="gdpr"][class*="gdpr"]
 kazar.com##.bottom-data:has(.cookie-info)
