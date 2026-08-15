@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 02 Aug 2026, 22:25 UTC+02:00
-! Version: 2026.8.2.0
+! Last modified: Sat, 15 Aug 2026, 20:57 UTC+02:00
+! Version: 2026.8.15.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 02 sie 2026, 22:25 UTC+02:00
+! Aktualizacja: sob, 15 sie 2026, 20:57 UTC+02:00
 !
 !
 !
@@ -22,8 +22,6 @@
 ||ppstatic.pl^*/article/sticky-video.js
 ||ppstatic.pl^*/article/top-sticky-video-mobile.js
 ||ppstatic.pl^*/plywajace_wideo.js
-~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,~www.wp.pl##.floating[id^="Player"], .sticky[id^="Player"]:not(.floating), .randomplayer--floating[id*="player"] > div[class*="wrap"]
-~1login.wp.pl,abczdrowie.pl,autocentrum.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,genialne.pl,komorkomania.pl,money.pl,o2.pl,parenting.pl,~poczta.o2.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl,~www.wp.pl##wpp-sticky[floating="true"]
 16bit.pl##.crunchify-top
 35mm.online###player > div.rgpl-container[style*="position"][style*="fixed"]
 agrii.pl###panel
@@ -95,6 +93,14 @@ wrc.net.pl##.sticky-video.sticky.is-stuck
 !
 !
 ! Ogólne filtry
+~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl###wp-sticky[floating="true"]
+~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl###wpp-sticky[floating="true"]
+~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl##.floating[id^="Player"]
+~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl##.randomplayer--floating[id*="player"] > div[class*="wrap"]
+~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl##.sticky[id^="Player"]:not(.floating)
+~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl##.wp-sticky[floating="true"]
+~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl##.wpp-sticky[floating="true"]
+~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl##wpp-sticky[floating="true"]
 ~eu,~pl##.atomsVideoVideoWithSticky__container.js-sticky:lang(pl)
 com,eu,info,pl,to,tv###onNetworkContainer .miniature [style*="fixed"]
 com,eu,info,pl,to,tv##.o-video-box__player .miniature [style*="fixed"]
