@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 15 Aug 2026, 10:29 UTC+00:00
-! Version: 2026.8.15.1
+! Last modified: Sat, 15 Aug 2026, 11:55 UTC+00:00
+! Version: 2026.8.15.2
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 15 sie 2026, 10:29 UTC+00:00
+! Aktualizacja: sob, 15 sie 2026, 11:55 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6606,6 +6606,7 @@ traktor-parts.pl##.bt_compare
 transfering.pl##.ramka_przeczytaj_rowniez_container
 trojmiasto.pl##.AnkietaNews
 trumpeters.pl###banner_div_empty
+ttv.pl,tvn7.pl,tvnstyle.pl,tvnturbo.pl##a .subscription-catalog-button
 tube.ad##.nav
 tugazeta.pl###sort_button, #koment_button
 tulodz.pl##.page__right__box--sonda
@@ -7128,8 +7129,8 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2026.8.15.1
-!@ Last modified: Sat, 15 Aug 2026, 10:29 UTC+00:00
+!@ Version: 2026.8.15.2
+!@ Last modified: Sat, 15 Aug 2026, 11:55 UTC+00:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -7141,7 +7142,7 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Copyright © 2026 Certyficate IT
 !@ Copyright © 2026 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2026.8.15.1 aktualizacja: sob, 15 sie 2026, 10:29 UTC+00:00
+!@ v.2026.8.15.2 aktualizacja: sob, 15 sie 2026, 11:55 UTC+00:00
 !@
 !@
 !@ Specyficzne filtry ukrywające
@@ -9604,6 +9605,7 @@ pracujunas.pl##main > div[class^="sc-"]:not([color]):has(> div[class^="sc-"] > a
 pragma.pl##.pra-cookie-info
 prakreacja.pl##.rm-cookies-belt
 pralinka.pl##body > div[style*="left:"][style*="top:"][style*="background:"][id]:not(class)
+prasa.wbdpoland.pl###csCookiesModal
 pratia.com,roadstars.mercedes-benz.com##.cookie-law
 pratia.com,swiat-zdrowia.pl###NeucaCookieDialog
 prawdziwa-namibia.braclowiecka.pl###cci-infobox.cci-infobox
