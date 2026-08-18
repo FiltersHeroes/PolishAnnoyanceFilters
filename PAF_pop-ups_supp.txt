@@ -66,11 +66,10 @@ arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalb
 ask.fm##.lightbox_overlay:has(> div.lightbox_container form#signupConversionForm)
 ask.fm##body.lightbox-open:style(overflow-y: auto !important)
 asta-net.pl###popup-call, #popup-call-shadow
-asta-net.pl##body[style*="overflow"], html[style*="overflow"]:style(overflow-y: auto !important)
+asta-net.pl,atakto.pl,mytrendyphone.pl##[style*="overflow"]:is(body, html):style(overflow-y: auto !important)
 at-outlet.pl,bilscy.info,bobomio.pl,dlalakierni.pl,e-sas.pl,eoptic.pl,menspace.pl,nalepsze.pl,pantalerzyk.pl,pomady.pl,queshop.pl,selkar.pl,sklep.daisyzoologia.pl,sklep.technica.pl,sklepkamil.pl,zico-bike.pl##.newsletter-modal, .modal-backdrop
-atakto.pl,mypersonaltrainer.pl##.popup-container
+atakto.pl,mypersonaltrainer.pl##.popup-container, .yl-popup-wrapper
 atakto.pl,mytrendyphone.pl##div[id^="om-holder-campaign-"].om-holder-fixed.om-holder
-atakto.pl,mytrendyphone.pl##html[style*="overflow"], body[style*="overflow"]:style(overflow-y: auto !important)
 atthost.pl##.popexit_active.popexit_bg
 atthost.pl##html[style], body[style]:style(overflow-y: auto !important)
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-body-scroll-prevented[class]:style(touch-action: auto !important)
