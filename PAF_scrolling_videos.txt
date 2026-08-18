@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sat, 15 Aug 2026, 21:41 UTC+02:00
-! Version: 2026.8.15.1
+! Last modified: Tue, 18 Aug 2026, 20:40 UTC+02:00
+! Version: 2026.8.18.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 15 sie 2026, 21:41 UTC+02:00
+! Aktualizacja: wto, 18 sie 2026, 20:40 UTC+02:00
 !
 !
 !
@@ -70,7 +70,7 @@ radio.katowice.pl##div[id^="sidebar"].fixed-player
 radio.rzeszow.pl##div[id*="ytlive_"][id*="-floating"][aria-hidden="false"][style*="block"]
 rodzicielskieinspiracje.pl##div[id^="rehub_sticky_on_scroll-"].scrollsticky.stickyscroll_widget
 shopify.com##button[data-component-name="video-modal-pip-button"]:has(video)
-smaker.pl##.floatingvideo__wrapper.is-fixed
+skul.pl,smaker.pl##.floatingvideo__wrapper[class*="fixed"]
 softonic.pl##iframe.is-sticky-left-bottom.zeus_iframe
 telewizjarepublika.pl##.contentsystem-slide-sda, .contentsystem-slide-link, .tvrep-live-box
 telewizjatvt.pl##div[id^="elementor-popup-modal-"]:has(iframe[src*="/player/"])
