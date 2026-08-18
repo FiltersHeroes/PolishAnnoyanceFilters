@@ -231,6 +231,9 @@ gromada.pl##.fancybox-overlay-fixed
 haart.pl###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 haart.pl##.sgpb-overflow-hidden, .sgpb-overflow-hidden-body:style(overflow: auto !important)
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
+hammerphones.com###o_shared_blocks:has(.o_newsletter_popup:only-child)
+hammerphones.com###o_shared_blocks:has(set-cookie, sPopup1785237000496, true)
+hammerphones.com##body[style*="overflow"]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 hardreset.info###modal-facebook, .modal-backdrop
 hejto.pl##+js(set-cookie, homepage-dialog, 1)
 hejto.pl##.ReactModalPortal:has(> div.ReactModal__Overlay > div#RegisterDialog)
@@ -287,6 +290,7 @@ leftlane.pl##.modal-active:style(overflow: auto !important)
 lento.pl##+js(remove-node-text, script, showNotify())
 lento.pl##+js(set-cookie, notifybox, 1)
 limango.pl##.js_welcome_background.background_overlay, .modal, .modal-backdrop
+lo1-kochanowski.pl,sp-7.pl##+js(set-cookie, tpgwcc, 1)
 logitechg.com##.email-subscription-modal
 lubimyczytac.pl###modalAdv, .modal-backdrop
 lubimyczytac.pl###modalZoom
