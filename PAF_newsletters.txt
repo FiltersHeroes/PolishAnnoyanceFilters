@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 18 Aug 2026, 17:54 UTC+02:00
-! Version: 2026.8.18.0
+! Last modified: Tue, 18 Aug 2026, 20:39 UTC+02:00
+! Version: 2026.8.18.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 18 sie 2026, 17:54 UTC+02:00
+! Aktualizacja: wto, 18 sie 2026, 20:39 UTC+02:00
 !
 !
 !
@@ -42,6 +42,7 @@
 ||salonydenon.pl/modules/tvcmssingleblock/views/img/newsletter
 ||telewizja-cyfrowa.com/wp-content/uploads/20*/newsletter.png
 ||tomgast.pl/media/wysiwyg/baner_koszty_wysylik_newsletter2_prawy.jpg
+||toysplanet.pl/gfx/pol/newsleater.png
 ||upolujebooka.pl/_visual/_b/b_newsletter.jpg
 ||wodociagi.katowice.pl/*/baner_newsletter.png
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/newsletter-label.png
@@ -1636,6 +1637,7 @@ topagrar.pl##.sidebar__box--newletter
 torimpex.pl##footer .row:first-child > div:has(.ucf--newsletter)
 totylkoteoria.pl##.newsletter__sidebar
 toys4boys.pl##.footer-container getresponse-form
+toysplanet.pl###footer > div:first-child > div + div > div > :is(span, form)
 tp-link.com##.tp-follow-subscribe
 tpi.com.pl##.cmn-newsletter
 traktor.com.pl##.footer-top4.col-md-3.col-sm-6.col-12
