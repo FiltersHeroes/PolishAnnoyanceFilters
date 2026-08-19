@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Wed, 19 Aug 2026, 17:53 UTC+02:00
-! Version: 2026.8.19.0
+! Last modified: Wed, 19 Aug 2026, 21:46 UTC+02:00
+! Version: 2026.8.19.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 19 sie 2026, 17:53 UTC+02:00
+! Aktualizacja: śro, 19 sie 2026, 21:46 UTC+02:00
 !
 !
 !
@@ -194,7 +194,6 @@ brakestock.pl,pragmago.pl,vitamoc.pl###zcwMiniButton
 brand.ceo,cyberfolks.pl,drzwi-cal.pl,expose.pl,jubilat.net.pl,mediariver.pl,tipmedia.pl,walizkazabawek.pl###ue_widget
 brandvital.eu,ciagutek.pl,podlogiznatury.eu,twojdent.pl###callnowbutton
 brief.pl##.fab-desktop
-brw.pl###chat-wrapper-ai
 brykizameryki.pl,dyskretne-opinie.pl##.elfsight-widget-facebook-chat
 bssztum.pl###widget_social2
 budio.pl,buy-it.pl###crisp-chatbox
@@ -321,7 +320,6 @@ ekookna.pl,polnord.pl,solidnedrzwiokna.pl,wkret-met.com###fastcall
 ekorekta24.pl##.opineo-link
 ekorekta24.pl,multilampy.pl##.opineo
 electro.pl##.is-complaintReport
-electromotors.pl##.sd-ai-chatbot-wrapper
 elektronicznypodpis.pl##.bubble, #chat-bot, .WatsonAssistantChatHost
 eltrox.pl###messageIcon, .tooltip2
 endo.pl##.contact-container
@@ -400,7 +398,6 @@ graff.pl###rocketchat-iframe
 grafiqa.pl,puch-kotlowski.pl,treningkrakow.pl,zamg.klodzko.pl##.side-tab-widget > a[href="kontakt.html"]
 grechmoto.pl##.jfab_main_btn
 greencomputers.pl###phoneContactBtn
-grillspot.pl,teb.pl###aichatbot_ra_div_id
 groupon.pl,row.hyperx.com##.bcFloat
 grupazero.pl##.contact-btn
 gry-online.pl##.soc-foot a[href*="whatsapp.com"]
@@ -537,7 +534,6 @@ miasto.zgierz.pl###chatbotIframe
 mieszkanie.mitula.com.pl##.space-footer .wrap-send-comments
 militaria.pl,military.pl##.fc-widget-placeholder
 miners.pl##footer ul.list > li:has(a[href*="t.me"])
-mistama.com##.chat-ai-button
 mobidziennik.pl###floating-contact-button
 mobilelanguage.pl###mail-right
 modelerolnicze.pl###fb-customer-chat
@@ -580,7 +576,6 @@ nsix.pl,oknarolety.com,optima-demo.com.pl,optima-sklep.pl###cc-button-iframe, #c
 ntfy.pl###ntfy-zendesk, #ntfy-callpage
 nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
-ochnik.com###ai-chat-button
 okazik.pl###btn-message
 oknarolety.com##.attachment-mobile-bottom-right
 olimpstore.pl##.chat-widget
@@ -651,7 +646,6 @@ pocztowy.pl##.goto-chat
 pokato.pl##.zoho-help-btn
 polacyw.de##.wa__widget_container
 polanki.pl##.PamphletWidget
-polarispl.pl##.ai-agent-chat-cover
 polisaplus.pl##.teltoggle.telbutton
 polish.wifilterouter.com##.chat-button-content
 polkurier.pl##.pk-chat-container
@@ -934,8 +928,11 @@ zrzutka.pl##.uv-bottom-right
 ||widgets.trustedshops.com/js/*.js
 ||widgets.trustedshops.com/reviews/tsSticker/tsSticker.js
 ||zopim.com^$third-party,domain=~apteline.pl|~egb.com|~nordvpn.com
+###ai-chat-button:lang(pl)
+###aichatbot_ra_div_id:lang(pl)
 ###chat-application-iframe:lang(pl)
 ###chat-widget-container:lang(pl)
+###chat-wrapper-ai:lang(pl)
 ###czater-contener:lang(pl)
 ###feedback-tab:lang(pl)
 ###feedbackButton:lang(pl)
@@ -949,7 +946,9 @@ zrzutka.pl##.uv-bottom-right
 ###thulium-widget-application:lang(pl)
 ###up_talk0:lang(pl)
 ###x13callback_button:lang(pl)
+##.ai-agent-chat-cover:lang(pl)
 ##.askspot-chat-widget:lang(pl)
+##.chat-ai-button:lang(pl)
 ##.fb-messengermessageus:lang(pl)
 ##.feedback-button:lang(pl)
 ##.gc__contact:lang(pl)
@@ -959,6 +958,7 @@ zrzutka.pl##.uv-bottom-right
 ##.mtp-contact-message:lang(pl)
 ##.popup__center[class*="call-me-"] .widget:not([class*="hide"]):lang(pl)
 ##.quickcontact-box:lang(pl)
+##.sd-ai-chatbot-wrapper:lang(pl)
 ##.thulium-chat-wrapper:lang(pl)
 ##molin-shop-ai:lang(pl)
 ##shopify-chat:lang(pl)
