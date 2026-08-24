@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newspapers Subscription & E-edition
 ! Codename: Newspapers
 ! Description: Filtry ukrywające i blokujące reklamy prenumerat i e-wydań gazet.
-! Last modified: Sun, 12 Jul 2026, 21:10 UTC+02:00
-! Version: 2026.7.12.0
+! Last modified: Mon, 24 Aug 2026, 18:01 UTC+02:00
+! Version: 2026.8.24.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 12 lip 2026, 21:10 UTC+02:00
+! Aktualizacja: pon, 24 sie 2026, 18:01 UTC+02:00
 !
 !
 !
@@ -221,6 +221,7 @@ rawicz24.pl###switch-4
 recenzjegitar.pl###header > p
 reportergazeta.pl##.sidebar > #media_image-2
 reporterzy.info##div.coversBox:nth-of-type(3)
+retailnet.pl###bezplatny-newsletter:has(a[href*="/scf-magazine"])
 rolniczeabc.pl##.block-archive
 rozaniec.eu##.container.bottom-articles
 rozaniec.eu##.widget_latest-publication.latest-publication-2.widget
