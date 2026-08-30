@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 29 Aug 2026, 20:43 UTC+02:00
-! Version: 2026.8.29.0
+! Last modified: Sun, 30 Aug 2026, 20:40 UTC+02:00
+! Version: 2026.8.30.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 29 sie 2026, 20:43 UTC+02:00
+! Aktualizacja: nie, 30 sie 2026, 20:40 UTC+02:00
 !
 !
 !
@@ -961,6 +961,7 @@ saluti.pl###delivery-costs
 samsung.com###oo_tab
 schronisko.info.pl###gkVmCartSmall
 scroll.morele.net#?#article[id^="post"].post .wp-block-image:has(figcaption:has-text(Kliknij w baner))
+secure.payu.com##.banner-content:has(img[src*="promo"])
 segafredo.pl##.rstboxes .eb-popup.rstbox
 sekretypoliglotow.pl###someone-purchased
 sekurak.pl##.callout-box
@@ -1182,6 +1183,7 @@ youtube.com#?#tp-yt-paper-toast:has(#text:has-text(Film nie odtwarza się płynn
 yves-rocher.pl##.layout-banner__top.layout-banner
 z-hotel.com###repuso_floating
 zadowolenie.pl##.b-bragLabel
+zakupy.auchan.pl##div[aria-label*="kupon"][data-test="pop-up-banner"]
 zapytaj.onet.pl##.know-better-answer
 zapytaj.onet.pl##body > div > .bottom.onet-bar
 zatorland.pl##.pogoda
