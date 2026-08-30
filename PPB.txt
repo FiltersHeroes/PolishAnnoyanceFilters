@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sat, 29 Aug 2026, 20:43 UTC+02:00
-! Version: 2026.8.29.1
+! Last modified: Sun, 30 Aug 2026, 20:40 UTC+02:00
+! Version: 2026.8.30.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 29 sie 2026, 20:43 UTC+02:00
+! Aktualizacja: nie, 30 sie 2026, 20:40 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -109,7 +109,7 @@ ahe.lodz.pl###company-newsletter-column
 airfryerprzepisy.pl##.wp-block-kadence-rowlayout.kb-row-layout-wrap:has(> div > div > div > h3 + div.ml-embedded)
 airport.com.pl,deweloper-interes.pl,niebieskimigdal.pl###text-2
 airstop.pl###snippet-newsletterSubscription-newsletterSubscription
-ajk-opakowania.eu,dokumen.pub,linktransport.eu,mierzeja.com,strauss.com###newsletter
+ajk-opakowania.eu,dokumen.pub,linktransport.eu,mierzeja.com,moneteo.com,strauss.com###newsletter
 akademia-hotelarza.pl##div.col-xs-12.col-sm-12.col-md-5.col-lg-5:nth-of-type(3)
 akademia.centrumxp.pl##.foot-pay__newsletter
 akademiawitalnosci.pl###text-2 > .textwidget, #text-2 > .title
@@ -336,7 +336,7 @@ carrefour.pl##.push-newsletter
 carry.pl,tani-laptop.com###block_newsletter
 cba.pl##.links > div > div:nth-of-type(4)
 cebit.pl##a[href="http://net.cebit.pl/newsletter/"]
-cebule-kwiatowe.pl,hurtex.com.pl,inpostpay.pl##.newsletterBar
+cebule-kwiatowe.pl,inpostpay.pl##.newsletterBar
 centos.com.pl##form:first-of-type
 centrum-hiperbaryczne.pl##.bok:has(.acymailing_modulebok)
 centrum-terapii.pl###sml_subscribe_widget
@@ -2137,7 +2137,7 @@ pl,~znak.com.pl##.newsletter-container
 ||zalajkowane.pl/wp-content/plugins/custom-fan-gate-plugin/js/custom-fan-gate.js
 2drink.pl,imperiumromanum.edu.pl,mirafaber.pl,olagosciniak.pl,poradniktransportowy.pl,wiokoniku.pl###wbounce-modal
 3mk.pl,anita-sklep.pl,blosmi.com,csk-med.pl,designbywomen.pl,dingo-shop.com.pl,ekopaka.pl,esklepagro.pl,klasycznebuty.pl,kokonki.pl,lamaglama.pl,newled.pl,roboexpert.pl,sklep-agroland.pl,sklep.swiatlnu.pl,stalowelove.com.pl,strefarolnika.pl,tasmuj.pl,trustmysister.com,zina.pl##.wce_popup-consolidator
-3mk.pl,duka.com###ecdp_form-popup
+3mk.pl,duka.com,edaxo.pl###ecdp_form-popup
 4kom.pl###yt_link
 4lifedirect.pl##.leadinModal
 6paknutrition.com,8a.pl,alfaelektro.pl,archicom.pl,atlantic.pl,badaj.to,budujmase.pl,cebit.pl,dietazliscia.pl,dlaroslin.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,monikasmulewicz.pl,porta.com.pl,rp.pl,sterkowski.pl,sympatia.onet.pl###bhr-items .bhr-image-popup-container
@@ -2209,7 +2209,6 @@ alpinsklep.pl,blueskypolska.pl,candleworld.com.pl,denicler.eu,divanii.pl,e-megas
 altom.pl,pieknowdomu.pl###advox_popup_2
 amazfitpolska.pl,device.pl,it-develop.pl,jagiellonski.pl,luqam.com,luxmedlublin.pl,mensis.pl,nanowosmieci.pl,ombre.pl,pl.horn.eu,portalmorski.pl,salonydenon.pl,sklep.apet.pl,tvokazje.pl,winotoskanii.pl,wyborkierowcow.pl,yumisu.pl,zbigniewsyc.pl##.wf2-popover.grwf2-wrapper, .grwf2_backdrop
 android.com.pl##.social-popup
-anker.com##div[aria-labelledby="registrations-model"], ##div[class^="Registrations_rsm_close_mask"]
 answear.com###popupNewsletterWrap
 antiviruslist.com###exitintent_screen_1, .modal-backdrop
 apaczka.pl##.popupPromoBox
@@ -2606,6 +2605,7 @@ karmiepsiaki.pl###fb-back
 karmiepsiaki.pl###fb-exit
 karmopedia.pl,przedsiebiorcza.com##.spu-bg:has(~ .spu-box .spu-facebook-page)
 karmopedia.pl,przedsiebiorcza.com##.spu-box:has(.spu-facebook-page)
+karo.waw.pl,sklep.psychologia.eu###skNewsletterPopupContainer
 karografia.pl###fb-popup
 karpiowy.pl##.newletter-popup, .b-modal
 kataloog.info###mask, #lorem
@@ -2918,7 +2918,6 @@ retailnet.pl,rp.pl##tqwidget
 rivieraparkmarvipol.pl##.fastcall_popup
 rms.pl##.sj-popup-container
 robojet.pl###modal_home_page, .modal-backdrop
-rosa24.pl##.MuiDialog-root
 rosenthal.pl###cac_popup_tlo, #cac_popup_obr
 rovicky.eu###toplayer_newsletter
 royalcanin.pl###popOverlay
@@ -2952,7 +2951,6 @@ sklep.krauz.com.pl##.krauz-promka
 sklep.mixmatch.pl,towarnafestyny.pl###popup-main
 sklep.phu-szczepan.pl###scLeaveAlert
 sklep.precio.pl,sklep5438865.homesklep.pl###onisoft-spu.modal, .mask
-sklep.psychologia.eu###skNewsletterPopupContainer
 sklep.zielonyogrodek.pl##.product-modal
 sklepbaterie.pl##.wyskakujacypopup
 sklepdrapieznik.pl###backgroundPopup, #toPopup
@@ -3240,7 +3238,7 @@ pl##cwc-floating-box[name="newsletterSignupFloatingBox"]
 ||webpush.interia.pl/activator.js
 ||webpush.interia.pl/scripts/*/push.js
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wp.pl##.wp-push-main-container
-50style.pl,carrefour.pl,orange.pl,sklep.sizeer.com,www.komputronik.pl##.snrs-container-webpush, #snrs-wp-subscriber
+50style.pl,carrefour.pl,jdsports.pl,orange.pl,sklep.sizeer.com,www.komputronik.pl##.snrs-container-webpush, #snrs-wp-subscriber
 allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
@@ -3263,7 +3261,6 @@ folk24.pl###pushFooter
 gazetkonosz.pl##.floating-dialog
 homebook.pl###qgraphFakePromptContainer
 investmap.pl#?#main > div > div:has(> a[href*="opinie"] + button) + div:has-text(obserwuj)
-jdsports.pl###.snrs-container-webpush, #snrs-wp-subscriber
 km.auto.pl,mokar.pl,saros.com.pl,wazcar.pl###push-notification-button
 krosno24.pl##.sw-notification-alert
 kupbilecik.pl###btn-notification
@@ -3627,7 +3624,7 @@ casu.pl##.btn_scroll
 cateromarket.pl##footer a[href="javascript:void(0)"]:has(> svg)
 catzy.pl,paypo.pl,reklama.gazeta.pl##.scroll-top-btn
 cds-lider.com.pl,polsero.pl,www.nowiny.gliwice.pl##.btn-up
-cebule-kwiatowe.pl,geo-polska.pl,hurtex.com.pl,hurtowniazabawek.pl##.scrollBackToTop
+cebule-kwiatowe.pl,geo-polska.pl,hurtowniazabawek.pl##.scrollBackToTop
 cedynia.pl,napisy24.pl,wegemaluch.pl###smoothtop
 cellbes.pl,www.akademiareklamy.edu.pl###topscroller
 centrum.auto.pl##.elementor-fixed.elementor-widget-icon:has(> .elementor-icon-wrapper > a[href="#gotop"])
@@ -4204,6 +4201,7 @@ samsung.com##button[title="Go to Top"]
 santander.pl##.footer__scrollUpBtn--fixed
 satservice.co.uk##.back-to-top-wrapper
 savio.net.pl##.scrollup-button
+sense7.eu##.wp-block-multistore-scroll-top, .multistore-block-scroll-top
 seoheroes.pl##.clb-scroll-top-holder
 service-provider.tp-link.com##.sp-to-top
 sfmeble.pl###chatBtn ~ div > button.w-color-orange
@@ -5038,6 +5036,7 @@ instalhurt.sklep.pl###widget_shop5
 instytutcyber.pl,investya.pl,shootingcracow.com##.qlwapp
 interankiety.pl,simplyyourself.pl###beacon-container
 intercars.pl##.btn-chat
+internetowykantor.pl##.bem-floater
 interviewme.pl##.social-media__item[title="Share on Whatsapp"]
 interwencja.polsatnews.pl##.icon-mail.platform__link
 intimissimi.com##.js-bubble-open.botton-bubble
@@ -5509,7 +5508,7 @@ zrzutka.pl##.uv-bottom-right
 ! Widżety kontaktowe/informacji zwrotnej - Ogólne filtry
 /livezillachat//script.php
 /web/live-chat/chatbotize-$script
-||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
+||api.livechatinc.com/v*/customer/action/get_$script,domain=~njumobile.pl|pl
 ||app.sugester.pl/tpbocian/widget.js
 ||cdn.inbox.shoplo.com/chat.html$third-party
 ||chat.4finance.com^$third-party
@@ -5540,7 +5539,6 @@ zrzutka.pl##.uv-bottom-right
 ###ai-chat-button:lang(pl)
 ###aichatbot_ra_div_id:lang(pl)
 ###chat-application-iframe:lang(pl)
-###chat-widget-container:lang(pl)
 ###chat-wrapper-ai:lang(pl)
 ###czater-contener:lang(pl)
 ###feedback-tab:lang(pl)
@@ -5571,6 +5569,7 @@ zrzutka.pl##.uv-bottom-right
 ##.thulium-chat-wrapper:lang(pl)
 ##molin-shop-ai:lang(pl)
 ##shopify-chat:lang(pl)
+~njumobile.pl###chat-widget-container:lang(pl)
 ~sklep.ternet.com.pl##.fb_reset:lang(pl)
 !
 !
@@ -6518,6 +6517,7 @@ saluti.pl###delivery-costs
 samsung.com###oo_tab
 schronisko.info.pl###gkVmCartSmall
 scroll.morele.net#?#article[id^="post"].post .wp-block-image:has(figcaption:has-text(Kliknij w baner))
+secure.payu.com##.banner-content:has(img[src*="promo"])
 segafredo.pl##.rstboxes .eb-popup.rstbox
 sekretypoliglotow.pl###someone-purchased
 sekurak.pl##.callout-box
@@ -6739,6 +6739,7 @@ youtube.com#?#tp-yt-paper-toast:has(#text:has-text(Film nie odtwarza się płynn
 yves-rocher.pl##.layout-banner__top.layout-banner
 z-hotel.com###repuso_floating
 zadowolenie.pl##.b-bragLabel
+zakupy.auchan.pl##div[aria-label*="kupon"][data-test="pop-up-banner"]
 zapytaj.onet.pl##.know-better-answer
 zapytaj.onet.pl##body > div > .bottom.onet-bar
 zatorland.pl##.pogoda
@@ -7160,7 +7161,8 @@ zycie.pl##.right #multiple-versions, #premium-slide
 !
 !
 ! Filtry tymczasowe przed RTM
-!
+@@||googletagmanager.com^$domain=njumobile.pl
+moj.tauron.pl##div.ebok-pop-up:not(#popupContact)
 !
 !
 ! Filtry specjalne
