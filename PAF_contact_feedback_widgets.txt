@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Fri, 28 Aug 2026, 02:28 UTC+02:00
-! Version: 2026.8.28.0
+! Last modified: Sun, 30 Aug 2026, 20:40 UTC+02:00
+! Version: 2026.8.30.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 28 sie 2026, 02:28 UTC+02:00
+! Aktualizacja: nie, 30 sie 2026, 20:40 UTC+02:00
 !
 !
 !
@@ -432,6 +432,7 @@ instalhurt.sklep.pl###widget_shop5
 instytutcyber.pl,investya.pl,shootingcracow.com##.qlwapp
 interankiety.pl,simplyyourself.pl###beacon-container
 intercars.pl##.btn-chat
+internetowykantor.pl##.bem-floater
 interviewme.pl##.social-media__item[title="Share on Whatsapp"]
 interwencja.polsatnews.pl##.icon-mail.platform__link
 intimissimi.com##.js-bubble-open.botton-bubble
@@ -903,7 +904,7 @@ zrzutka.pl##.uv-bottom-right
 ! Ogólne filtry
 /livezillachat//script.php
 /web/live-chat/chatbotize-$script
-||api.livechatinc.com/v*/customer/action/get_$script,domain=pl
+||api.livechatinc.com/v*/customer/action/get_$script,domain=~njumobile.pl|pl
 ||app.sugester.pl/tpbocian/widget.js
 ||cdn.inbox.shoplo.com/chat.html$third-party
 ||chat.4finance.com^$third-party
@@ -934,7 +935,6 @@ zrzutka.pl##.uv-bottom-right
 ###ai-chat-button:lang(pl)
 ###aichatbot_ra_div_id:lang(pl)
 ###chat-application-iframe:lang(pl)
-###chat-widget-container:lang(pl)
 ###chat-wrapper-ai:lang(pl)
 ###czater-contener:lang(pl)
 ###feedback-tab:lang(pl)
@@ -965,6 +965,7 @@ zrzutka.pl##.uv-bottom-right
 ##.thulium-chat-wrapper:lang(pl)
 ##molin-shop-ai:lang(pl)
 ##shopify-chat:lang(pl)
+~njumobile.pl###chat-widget-container:lang(pl)
 ~sklep.ternet.com.pl##.fb_reset:lang(pl)
 !
 !
