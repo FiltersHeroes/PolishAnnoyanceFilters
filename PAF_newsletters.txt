@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 30 Aug 2026, 20:40 UTC+02:00
-! Version: 2026.8.30.0
+! Last modified: Tue, 01 Sep 2026, 20:40 UTC+02:00
+! Version: 2026.9.1.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 30 sie 2026, 20:40 UTC+02:00
+! Aktualizacja: wto, 01 wrz 2026, 20:40 UTC+02:00
 !
 !
 !
@@ -155,6 +155,7 @@ android.com.pl##.wp-block-acp-newsletter-form
 andrzejgrzyb.eu,todoandroid.es##.widget_newsletterwidget
 andzela.com##.newsletter_block_right
 aniagemma.com###SITE_FOOTER form[id][class]
+anker.com###footer-marketing-conversion > div:first-child
 anmur.eu##.mod-newsletter-2.newsletter
 annapoplawska.pl##.newsletter_in_footer
 anotherdesign.pl###nw
@@ -1216,6 +1217,7 @@ pantabletka.pl##.ds-newsletter
 pap-mediaroom.pl,pap.pl,~zdrowie.pap.pl##div[class] > a[href="/newsletter/form"]
 paperconcept.pl##.footer-content-before
 papiernicza.pl##.clearfix.footer-top
+paradyz.com##main + getresponse-form
 paranormalium.pl##div.mt.menus-right:nth-of-type(8), div.th:nth-of-type(7)
 parkersklep.pl##footer .col-xs-12.col-sm-12.col-md-3
 parkiet.com##header a.placement--marketing[href*="newsletter"]
@@ -1407,6 +1409,7 @@ romantycznyweekend.eu##img[src="gfx/newsletter1.gif"]
 rooader.pl##.custom_module_4.footer_module.col-sm-6.col-xs-12
 rosarosie.com##div[id*="tws_i_"]:has(form[action="settings.php"] input[name="mailing_email"])
 rosenthal.pl##.st_news_letter_1
+rossmann.pl##footer > div:nth-child(2) > div:only-child > div:first-child > div:first-child:has(a[href*="/newsletter"])
 rossmann.pl##section[class*="container"] > div:only-child > div:first-child > div:first-child:has(button[aria-label^="Zapisz się na newsletter"])
 rovus.pl##.footer-lower div.links:nth-of-type(4)
 royal-dental.pl##.s__newsletter
@@ -1658,6 +1661,7 @@ tropy.pl##.footer-collumn-6
 truckcare.pl##.prefooter
 trybawaryjny.pl###gr-form
 tsintegracje.com##.contNewsletter
+tubadzin.pl##.footer-wrapper__main-content--newsletter
 tucholanin.pl###sidebar-bottom > ul.widget-container:first-of-type
 tuolawa.pl##footer#app-footer > div > div:first-child > div > div > div:nth-child(3) > *
 tustolica.pl###menumini > li:nth-of-type(3)
