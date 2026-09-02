@@ -1,3 +1,4 @@
+spidersweb.pl##:matches-media((max-width: 670px)) div:not([id], [class]) > iframe[src][width]:style(max-width: 100% !important)
 *##.buttonHomepage:remove()
 *##.containerHomepage:remove()
 ~1login.wp.pl,open.fm,~poczta.wp.pl,wp.pl,~www.wp.pl##+js(ra, href, a[data-st-area="Header-back"])
