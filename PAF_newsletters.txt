@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 01 Sep 2026, 23:32 UTC+02:00
-! Version: 2026.9.1.1
+! Last modified: Fri, 04 Sep 2026, 20:30 UTC+02:00
+! Version: 2026.9.4.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 01 wrz 2026, 23:32 UTC+02:00
+! Aktualizacja: pią, 04 wrz 2026, 20:30 UTC+02:00
 !
 !
 !
@@ -159,7 +159,7 @@ anker.com###footer-marketing-conversion > div:first-child
 anmur.eu##.mod-newsletter-2.newsletter
 annapoplawska.pl##.newsletter_in_footer
 anotherdesign.pl###nw
-antyksobieski.pl,czaszabawy.pl,sklep.charaktery.eu,sklep.psychologia.eu,smieszneprezenty.com.pl###skNewsletterPopupFooter
+antyksobieski.pl,czaszabawy.pl,karo.waw.pl,sklep.charaktery.eu,sklep.psychologia.eu,smieszneprezenty.com.pl###skNewsletterPopupFooter
 antyksobieski.pl,fotopanorama.pl,sklep.prana24.eu,sklepsaturn.pl,sprzet-fryzjerski.pl###social a[href*="/newsletter"]
 antykwariatlibra.pl##.cms_newsletter_form
 antyweb.pl##.email.btn-tools
@@ -413,6 +413,7 @@ cyfrowyszpital.pl##.widget-area > .theiaStickySidebar > div:nth-of-type(3):nth-c
 czajnikowy.com.pl##footer .banner:has(.tnp-subscription)
 czasdzieci.pl###id_boxNews
 czasfinansow.pl##.site-footer > .row > div:nth-of-type(3)
+czasnarolety.pl##.newsletter_bottom_a.row
 czechtourism.com##.newsletter.pageSeparator, .newsletterSubscription
 czerwionka-leszczyny.pl##.row > div.col-sm-3:nth-of-type(2)
 czesciauto24.pl##.footer-subscr
@@ -673,7 +674,7 @@ gazetkapromocyjna.com.pl##header ~ main ~ section div.absolute:has(form#subscrib
 gazetkonosz.pl##.box:nth-of-type(2)
 gbs.pl###mmzGetCode
 gdanskstrefa.com###blog_subscription-3
-geekbuying.pl,lightingcenter.pl,perfumeriatop10.pl,toys4boys.pl###newsletter_block_home
+geekbuying.pl,lightingcenter.pl,perfumeriatop10.pl,posciel-sklep.pl,toys4boys.pl###newsletter_block_home
 geekwork.pl###newsletter-head
 gemini.pl##.py-12[style*="background"]:has(> .container > div > header + div > #newsletter_form)
 gemini.pl##div[class*="12"] > section[class*="12"][style*="background"]:has(> div > div > header ~ div #newsletter_form)
@@ -734,6 +735,7 @@ histografy.pl###wysija-2
 hoegert.com##.moduletable
 home-you.com##.newsletter__inner
 home.pl###nlForm
+homebook.pl##.hb-layout__newsletter-form.hb-wrap-fluid
 homeoffice360.pl###footerColumn2 > h3:nth-of-type(2)
 homla.com.pl##.multichannel-newsletter
 hoplik.pl,zielonezabawki.pl##.si-newsletter
@@ -849,6 +851,7 @@ knowband.com##.kbGetUpdates
 kobieta.pl##.text-center.sidebar-box:nth-of-type(11)
 kochanamama.pl##.pmpIMail
 kodano.pl###app-form-subscribe-wrapper
+kokosek.pl##.s_newsletter
 kol-pol.pl##.gc__standard__newsletter
 kolczewska.pl##.ulp-tab-right-middle.ulp-tab > .ulp-tab-content
 komfort.pl##.ComponentNewsletterIcon
@@ -957,6 +960,7 @@ luxfood.pl###Left > .nyroModal:first-of-type
 luxmed-diagnostyka.pl##.newesletter-box
 lycamobile.pl##.lm-footer-container > div > .lm-footer__body > .row > div:first-child > :not(:last-child)
 maciej.je,portalodo.com,promofarma.com##.newsletter-box
+magicznesny.pl##.np-newsletter-wrapper
 magnapolonia.org##.tnp-subscription
 magnatfarby.pl##.sn-newsletter--homepage
 magusz.com.pl##a[href="#collapse_newsletter"]
@@ -1444,6 +1448,7 @@ selgros.pl##.home-box3
 sellpy.pl##img[src*="/newsletter"]
 sellpy.pl##img[src*="/newsletter"] + div
 sellpy.pl##img[src*="/newsletter"] ~ form
+senavi.pl##.site-footer-newsletter
 senetic.pl##.nwsBlock--redesign
 seniorplus.edu.pl###boczne_ikonki > a[href$="newsletter"]
 shop.massdnm.com,taniefototapety.eu###menu_newsletter
@@ -1622,6 +1627,7 @@ telewizja-cyfrowa.com##.textwidget > p:nth-of-type(2)
 telix.pl###mailster_signup-3
 telko.in##ul > li > .tip[data-tip="Biuletyny TELKO.in"]
 temi.pl##.module:nth-of-type(8) > div > div > div
+tendom.pl###emailsubscription_anchor_displayFooterBefore
 teraz-srodowisko.pl###footer-newsletter-container
 termet.com.pl###newsletter-block
 termyszaflary.com##footer div.col-md-4:nth-of-type(3)
