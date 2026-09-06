@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sat, 05 Sep 2026, 23:25 UTC+02:00
-! Version: 2026.9.5.1
+! Last modified: Sun, 06 Sep 2026, 19:37 UTC+02:00
+! Version: 2026.9.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 05 wrz 2026, 23:25 UTC+02:00
+! Aktualizacja: nie, 06 wrz 2026, 19:37 UTC+02:00
 !
 !
 !
@@ -130,8 +130,8 @@
 3mk.pl,duka.com,edaxo.pl###ecdp_form-popup
 4kom.pl###yt_link
 4lifedirect.pl##.leadinModal
-6paknutrition.com,8a.pl,alfaelektro.pl,archicom.pl,atlantic.pl,badaj.to,budujmase.pl,cebit.pl,dietazliscia.pl,dlaroslin.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,monikasmulewicz.pl,porta.com.pl,rp.pl,sterkowski.pl,sympatia.onet.pl###bhr-items .bhr-image-popup-container
-6paknutrition.com,8a.pl,alfaelektro.pl,archicom.pl,atlantic.pl,badaj.to,budujmase.pl,cebit.pl,dietazliscia.pl,dlaroslin.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,monikasmulewicz.pl,porta.com.pl,rp.pl,sterkowski.pl,sympatia.onet.pl###bhr-items :is(.bhr-popup-advanced, .bhr-popup-basic):has(iframe[src*="salesmanago."])
+6paknutrition.com,8a.pl,alfaelektro.pl,archicom.pl,atlantic.pl,badaj.to,budujmase.pl,cebit.pl,dietazliscia.pl,dlaroslin.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,monikasmulewicz.pl,rp.pl,sterkowski.pl,sympatia.onet.pl###bhr-items .bhr-image-popup-container
+6paknutrition.com,8a.pl,alfaelektro.pl,archicom.pl,atlantic.pl,badaj.to,budujmase.pl,cebit.pl,dietazliscia.pl,dlaroslin.pl,eveline.pl,ita.tools,matopat24.pl,medonetmarket.pl,monikasmulewicz.pl,rp.pl,sterkowski.pl,sympatia.onet.pl###bhr-items :is(.bhr-popup-advanced, .bhr-popup-basic):has(iframe[src*="salesmanago."])
 9c.com.pl,agagrzelak.pl,dommeblowy.com,ledco.pl,sklepdlalekarza.com,tendina.pl,warsztatogrodnika.pl###iqitpopup, #iqitpopup-overlay
 24hurt.pl##.wt-popup, #overlay
 29aleja.pl##.popupWrap
@@ -148,7 +148,7 @@ accent-bikes.com###lang_popup
 aco.com.pl,ciekawe.org,cyfrowyszpital.pl,drogeriekoliber.pl,expressit.pl,gdanskstrefa.com,gracz.org,jestok.eu,polskacanada.com,reporters.pl,westhill.pl##html:not([style*="overflow"]) .boxzilla-container, .boxzilla-overlay
 activejet.pl###newsleterKontener, .newsletterBox
 activeshop.com.pl##.popupid21
-activlab.pl,porta.com.pl##.bhr-board:has(.type--POPUP)
+activlab.pl##.bhr-board:has(.type--POPUP)
 adamkuncicki.pl###listfusion_popup_lightbox_main
 adamspa.pl,alkalicznystylzycia.com,angelius.pl,elektoralna.pl,horeca.ban-food.pl,hospicjum-podkarpackie.pl,inspiringsolutions.pl,kompleksowausluga.pl,passion.pl,qagile.pl##.ppsPopupShell, #ppsPopupBgOverlay
 addhost.pl##.fsp-wrapper
@@ -477,7 +477,7 @@ esensja.pl###FBox
 eska.pl###_hj_survey_invite_container
 eska.pl,eskarock.pl,mjakmama24.pl,murator.pl,muratorfinanse.pl,muratorplus.pl,poradnikzdrowie.pl,radioplus.pl,radiowawa.pl,se.pl,urzadzamy.pl,vivelo.pl,voxfm.pl##body > div[id][class]:has(iframe[src*="://"][src*="grupazprmedia.net/"])
 estella-shop.eu##.pxl-newsletter-modal
-estyl.pl###ue_form
+estyl.pl,foodango.pl###ue_form
 euractiv.pl##pnespwidget[style*="position"]
 eurobolt.com.pl##.mybanners
 euroelectronics.pl###omnisend-dynamic-container > #omnisend-forms-container
@@ -952,6 +952,7 @@ sklepkokosowy.pl###js-popup
 skottsberg.com##reloadify-popup
 sldc.eu###popup-over, #popup-overlay
 sledczy24.pl##.spu-bg, .spu-total-1
+sleepandglow.pl##.show.pp__mailing.pp
 slodkiesny.pl##span[id][aria-hidden][style$="z-index: 99999;"]
 smaker.pl##.newWebsiteNotification
 smaker.pl##.popupLeaveWindowComponent
