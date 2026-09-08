@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Mon, 07 Sep 2026, 21:17 UTC+02:00
-! Version: 2026.9.7.0
+! Last modified: Tue, 08 Sep 2026, 23:56 UTC+02:00
+! Version: 2026.9.8.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 07 wrz 2026, 21:17 UTC+02:00
+! Aktualizacja: wto, 08 wrz 2026, 23:56 UTC+02:00
 !
 !
 !
@@ -330,6 +330,7 @@ douglas.pl##.app-banner
 download.komputerswiat.pl###breadcrumbs_floating, #dl_breaking_news
 doz.pl##.product-card__about > .wrapper > #rich-content, a[href="#rich-content"]
 doz.pl##.product-list-item[class*=" "]:is([class*="from-tv"], [class*="of-the-week"], [class*="sponsored"])
+doz.pl##.product-tile:has([class*="from-tv"], [class*="of-the-week"], [class*="sponsored"])
 doz.pl#?#.product-tile:has(.text-primary-variant:has-text(/Sponsor/i))
 drerowery.pl###caRatySideup
 dresowka.pl###newsletter-popup-box
