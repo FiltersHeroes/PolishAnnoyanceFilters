@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Fri, 11 Sep 2026, 21:11 UTC+00:00
-! Version: 2026.9.11.2
+! Last modified: Fri, 11 Sep 2026, 22:41 UTC+00:00
+! Version: 2026.9.11.3
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 11 wrz 2026, 21:11 UTC+00:00
+! Aktualizacja: pią, 11 wrz 2026, 22:41 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -1404,6 +1404,8 @@ retailnet.pl###bezplatny-newsletter a[href*="/newsletter"]
 retailnet.pl##.ct-menu-link[href*="/newsletter"]
 retailnet.pl#?##bezplatny-newsletter > .stk-block-heading__text:has-text(Bezpłatny Newsletter)
 revolutionrace.pl###embedded-newsletter, .embedded-newsletter
+revouninstaller.com##.blog-sidebar > div:first-child:has(iframe[src*="/form"])
+revouninstaller.com##.footer-menu-new-contact
 rfbenchmark.pl##.col-lg-3.col-md-3.col-sm-4.col-xs-12
 ridex.pl##.mcSignupModule
 rik.pl##.footer_col_4 > div:nth-of-type(3)
