@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Tue, 08 Sep 2026, 23:56 UTC+02:00
-! Version: 2026.9.8.0
+! Last modified: Sat, 12 Sep 2026, 03:16 UTC+02:00
+! Version: 2026.9.12.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 08 wrz 2026, 23:56 UTC+02:00
+! Aktualizacja: sob, 12 wrz 2026, 03:16 UTC+02:00
 !
 !
 !
@@ -1403,6 +1403,8 @@ retailnet.pl###bezplatny-newsletter a[href*="/newsletter"]
 retailnet.pl##.ct-menu-link[href*="/newsletter"]
 retailnet.pl#?##bezplatny-newsletter > .stk-block-heading__text:has-text(Bezpłatny Newsletter)
 revolutionrace.pl###embedded-newsletter, .embedded-newsletter
+revouninstaller.com##.blog-sidebar > div:first-child:has(iframe[src*="/form"])
+revouninstaller.com##.footer-menu-new-contact
 rfbenchmark.pl##.col-lg-3.col-md-3.col-sm-4.col-xs-12
 ridex.pl##.mcSignupModule
 rik.pl##.footer_col_4 > div:nth-of-type(3)
