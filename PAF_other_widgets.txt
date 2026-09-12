@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Fri, 11 Sep 2026, 23:48 UTC+02:00
-! Version: 2026.9.11.0
+! Last modified: Sat, 12 Sep 2026, 22:43 UTC+02:00
+! Version: 2026.9.12.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 11 wrz 2026, 23:48 UTC+02:00
+! Aktualizacja: sob, 12 wrz 2026, 22:43 UTC+02:00
 !
 !
 !
@@ -1204,6 +1204,7 @@ zoo.torun.pl##div.torun-rp, .bip-rp
 zoo.wroclaw.pl##.sticky > li:nth-of-type(4)
 zooart.com.pl##.fbs_buttons3
 zrzutka.pl##.floating-apps
+zrzutka.pl##div[id^="sfreact-reactRender"]:has([style*="fixed"])
 ztm.gda.pl###mobile
 zut.com.pl###priceList
 zyciepabianic.pl##.paper
