@@ -81,8 +81,8 @@ doz.pl#@#+js(set-cookie, consent-granted-version, 24)
 ||cdn.ans-media.com/*/CookiesConsentPopUp$redirect=noop.css,stylesheet
 ||lajt-online.pl/api/terms/rodo$1p,important,redirect=noop.json:10,xhr
 2bawsport.pl##.cookiesplus-modal, .modal-backdrop
-4fund.com,zrzutka.pl##.modal-backdrop:not(:has(+ div div[data-test="ShareModal"]))
-4fund.com,zrzutka.pl##.modal:has(a[href="/privacy"])
+4fund.com,zrzutka.pl##.modal-backdrop:not(:has(+ div :is(div[data-test="ShareModal"], .form-control)))
+4fund.com,zrzutka.pl##.modal:has(a[href="/privacy"]):not(:has(.form-control))
 4lomza.pl##body.polityka-cookies:style(margin-top: 0 !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.dimmable, .dimmed:style(overflow-y: auto !important)
 7ryb.pl,etransport.pl,grupawsparcia.pl##.modals.dimmer
