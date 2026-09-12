@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Sun, 30 Aug 2026, 20:40 UTC+02:00
-! Version: 2026.8.30.0
+! Last modified: Sat, 12 Sep 2026, 22:43 UTC+02:00
+! Version: 2026.9.12.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 30 sie 2026, 20:40 UTC+02:00
+! Aktualizacja: sob, 12 wrz 2026, 22:43 UTC+02:00
 !
 !
 !
@@ -64,7 +64,6 @@
 allani.pl,domodi.pl##div[id*="FakePromptContainer"]
 andzela.com##.kb-cs-notify-container
 at-outlet.pl###WebPushAddSubscription
-atakto.pl,aurum-optics.pl,dobredrzwi.pl,klasycznebuty.pl,nagaba.pl,panwybierak.pl,premiummobile.pl###yl__prompt-container, .yl__prompt-container, #yl__prompt > .yl__prompt
 autocentrum.pl##.web-push-box
 best.aliexpress.com,pl.aliexpress.com#?#body > div ~ script ~ div > div:first-child:has(> div:has-text(Zezwalaj na powiadomienia))
 boardpc.pl,forum.manjaro.pl##.alert-info.alert.consent_banner
@@ -149,17 +148,15 @@ zdrowie.pap.pl##section ~ span[onclick="window.scrollTo(0, 0);"]
 ###pushAdUpBanner:lang(pl)
 ###pushwoosh-pop:lang(pl)
 ###pushwoosh-subscription-widget-root:lang(pl)
+###yl__prompt-container, .yl__prompt-container, #yl__prompt > .yl__prompt
 ##.gr-visual-prompt:lang(pl)
 ##.webPushBell:lang(pl)
 ##.webpushBell:lang(pl)
 ~pl###edrone_push--bubble:lang(pl), #edrone--push--alert--box:lang(pl)
-~pl###onesignal-bell-container:lang(pl)
-~pl###onesignal-slidedown-container:lang(pl)
+~pl###onesignal-bell-container:lang(pl), #onesignal-popover-dialog:lang(pl), #onesignal-slidedown-container:lang(pl)
 com,pl###ue_push_dialog
 pl###edrone_push--bubble, #edrone--push--alert--box
-pl###onesignal-bell-container
-pl###onesignal-popover-dialog
-pl###onesignal-slidedown-container
+pl###onesignal-bell-container, #onesignal-popover-dialog, #onesignal-slidedown-container
 !
 !
 ! Filtry specjalne
