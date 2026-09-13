@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Sat, 12 Sep 2026, 22:43 UTC+02:00
-! Version: 2026.9.12.0
+! Last modified: Sun, 13 Sep 2026, 20:15 UTC+02:00
+! Version: 2026.9.13.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 12 wrz 2026, 22:43 UTC+02:00
+! Aktualizacja: nie, 13 wrz 2026, 20:15 UTC+02:00
 !
 !
 ! Specyficzne filtry
@@ -61,7 +61,7 @@ agdserwis.eu,sklep.party,skuteryimotocykle.eu,sportstylestory.com###toTop
 agendo.pl,millymally.pl##.page-up
 agora.pl,b2c.vds.pl,buyava.pl,domczasuhurt.pl,ewozki.eu,forcell.pl,johndog.pl,kociewie24.eu,kulig.pl,pl.techinfus.com,pogotowie-komputerowe.org.pl,yummo.pl##.up
 agro-eko.com.pl##.scrollIcon
-agro-kowalski.com.pl,dlabiznesu.voice-net.pl##.scroll-to-top
+agro-kowalski.com.pl,dlabiznesu.voice-net.pl,skodaplichta.pl##.scroll-to-top
 agroas.pl##.to-the-top-link
 agrofakt.pl##.go-down
 agrogajda.pl,elektronik-service.com.pl,kontel.net,sklepfarmer.pl###search_scroll_mini
@@ -1026,6 +1026,7 @@ zzachodu.pl##.in.g5core-back-to-top
 ###ui-to-top:lang(pl)
 ###yt-totop:lang(pl)
 ##.arrow-to-top:lang(pl)
+##.arrow-up:is(a, button):not(.wrapper, .dropdown-menu):lang(pl)
 ##.aux-goto-top-btn:lang(pl)
 ##.back-to-top-btn:lang(pl)
 ##.back-to-top:lang(pl)
@@ -1111,7 +1112,6 @@ zzachodu.pl##.in.g5core-back-to-top
 ##body #wpfront-scroll-top-container:not(.wrapper):lang(pl)
 ##body #wt_scroll_top:not(.wrapper):lang(pl)
 ##body .action-scroll-top:not(.wrapper):lang(pl)
-##body .arrow-up:not(.wrapper, .dropdown-menu):lang(pl)
 ##body .atomsNavigationFooterScroller__link:not(.wrapper):lang(pl)
 ##body .avt-arrow-wrapper:not(.wrapper):lang(pl)
 ##body .back-to-top-widget:not(.wrapper):lang(pl)
