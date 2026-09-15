@@ -257,9 +257,6 @@ tvn24.pl##+js(aeld, nuvi:allEnded)
 twojekwiaty.pl###exitPopup
 ubraniadooddania.pl##+js(ra, class|style, body[class="modal-open"][style^="padding-right: "][style$="px;"]:not([style*="; "]), stay)
 ubraniadooddania.pl##.newsletter-popup
-unityline.pl###newsletter-out-of-body
-unityline.pl##.image-popup__wrap
-unityline.pl##.newsletter-popup__wrap
 upacjenta.pl##.newsletter-modal-bar.modal-banner
 ursus.com.pl##.opacity1.flexslider-container
 walizkownia.pl##.fancybox-overlay-fixed, .fancybox-opened
@@ -267,6 +264,7 @@ wbok.syrion.pl##html.v-overlay-scroll-blocked #app ~ .v-overlay-container .v-dia
 wbok.syrion.pl##html.v-overlay-scroll-blocked:style(position: static !important; overflow-y: scroll !important; --v-scrollbar-offset: 0 !important)
 weathermap.netatmo.com##.blured #map, .blured .side-panel, .blured .navbar, .blured .button-control-ctn, .blured .small-banner, .side-panel.blured, .blured #mainwrapper .legend:style(filter: none !important)
 weathermap.netatmo.com##first-use-slider
+webber.com.pl##.compensate-for-scrollbar[class]:style(overflow-y: auto !important; margin-right: 0 !important)
 westwing.pl##body[style*="top"][style*="position"]:style(position: static !important)
 westwing.pl##div[data-component-name="Overlay"] > .qa-overlay:has(.qa-sign-up-overlay__content)
 westwingnow.pl##+js(nostif, showOverlay)
@@ -289,6 +287,3 @@ zegarkiipasja.pl##.emelu-lightbox-target
 zico-bike.pl###Widget5, #Widget6
 zivada.pl##.information.bs-dialog[class*="custom"], .bs-dialog-overlay
 zlotymotocyklowe.pl##.fancybox-overlay:has([target="_blank"])
-zozsuchabeskidzka.pl###mpc-modal-4-0
-zozsuchabeskidzka.pl##body.mpc-block-scroll:style(overflow-x: hidden !important; overflow-y: auto !important)
-zozsuchabeskidzka.pl##html.mpc-block-scroll:style(overflow-y: auto !important)
