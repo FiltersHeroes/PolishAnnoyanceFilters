@@ -115,7 +115,7 @@ lancerto.com##.modals-wrapper:has(.popup-newsletter)
 lento.pl##+js(remove-node-text, script, showNotify())
 lento.pl##+js(set-cookie, notifybox, 1)
 levi.com##.auth-modal-wrapper
-linux-magazine.pl##.modal-scrollable
+linux-magazine.pl,poradnik-dyrektora.pl##.modal-scrollable
 lo1-kochanowski.pl,sp-7.pl##+js(set-cookie, tpgwcc, 1)
 logitechg.com##.email-subscription-modal
 lubimyczytac.pl###modalZoom
@@ -195,7 +195,6 @@ player.pl##+js(ra, style, body[style*="overflow"], stay)
 playstation.com##+js(acis, $, PopupManager)
 polskiekoldry.pl,sklepzrowerami.pl##.apc-effect-blur:style(filter: none !important)
 polskiekoldry.pl,sklepzrowerami.pl##.fancybox-overlay:has(.apc_modal)
-poradnik-dyrektora.pl##.modal-scrollable
 poradnik-dyrektora.pl,portaloswiatowy.pl##body.modal-open[class] .container:style(filter: none !important)
 potreningu.pl##+js(set-cookie, mobile-popup, 1)
 prawokonsumenckie.pl##.popup[role]
