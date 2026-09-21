@@ -25,12 +25,9 @@ auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newswee
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal, .tp-backdrop
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal-open[class]:style(position: static !important; overflow-y: auto !important)
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-scroll-prevented[class]:style(overflow-y: auto !important; touch-action: auto !important)
-avisplacezabaw.pl##.mypop
 avita.pl,educol.pl,jan-mar.pl,pionierbhp.pl,pracownia-manufaktura.pl,wiener.pl##.tingle-enabled[class]:style(position: static !important; overflow-y: auto !important)
 avita.pl,educol.pl,jan-mar.pl,pionierbhp.pl,pracownia-manufaktura.pl,wiener.pl##.tingle-modal
 bambineo.pl,pupilexpert.pl##.fancybox-container:has(#popup-newsletter, #newsletter_popup)
-befado.pl###r_popup
-belvederehotel.pl##+js(aopr, pf_queen.push)
 bielenda.com##+js(set-local-storage-item, _km_pg_last_seen, true)
 blog-daneosobowe.pl##+js(nostif, i(), 5000)
 brakeparts.pl,bukmacherstwo.info,gomobi.pl,hairbyjul.pl,hrstandard.pl,marfafashion.com,techmlek.com.pl##.pum-open:style(overflow-y: auto !important)
@@ -38,10 +35,6 @@ carrefour.pl##body[style]:style(overflow-y: auto !important; padding-right: 0 !i
 carrefour.pl##div[class*="jss"][role="dialog"]:has(> div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
 ceneo.pl##.noscroll:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important)
 dajar.pl##+js(set-cookie, AdvertPopupDisplayed, true)
-deezer.com##+js(aopr, onbeforeunload)
-delikatesy.pl##.MuiDialog-root
-delikatesy.pl##body:style(overflow-y: auto !important; padding-right: 0 !important)
-dhosting.pl###migration_popup
 digitalo.pl,morele.net,sklep-presto.pl##+js(nostif, openCutOffModal, 3000)
 doktormonika.pl##+js(set-cookie, popup-closed, true)
 domodi.pl##+js(set, PWA_adbd, 2)
@@ -55,7 +48,6 @@ e-warzywnictwo.pl##.popup-tlo
 e-warzywnictwo.pl##.strona:style(filter: none !important)
 ekodrogeria.pl##.modal:has(.newsletter-form)
 ekogram.pl##+js(set, Prestashop-x13popup_1, 1)
-ekoteka.pl###popUpModal:remove()
 eksperymentalnie.com##+js(nostif, CodeKingdomBox)
 elearning-fusion.pl##.hustle-popup:has(h2:has-text(/^Bądź na bieżąco!$/))
 endo.pl##.bhr-iframe-holder--custom, .bhr-image-popup-container
@@ -69,14 +61,12 @@ euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper [class*="newslett
 euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper[class*="open"] > .remodal span[class*="heading"]:has-text(/NEWSLETTER/i))
 euro.com.pl,oleole.pl##.remodal-wrapper:has([class*="newsletter" i])
 euro.com.pl,oleole.pl##body[style*="padding"]:style(padding-right: 0 !important; margin-right: 0 !important)
-evertourist.com##.fancybox-overlay:has(#newsletterModal)
-fdm.pl,galskor.com##+js(acis, $, fancybox)
+evertourist.com##.fancybox-overlay:has(#newsletterModal))
 filehippo.pl,softonic.pl##.rv-di-modal:has(img[src*="avast"], img[src*="opera"]):remove()
 filehippo.pl,softonic.pl##div[id^="modal-"]:is(#modal-di-avast, #modal-di-opera):remove()
 fmmobile.pl##.modal-stack
 forum.gofin.pl###KW_Tlo, #KW_Okno
 frisco.pl##+js(set-cookie, postpone_setting_postcode, true)
-gromada.pl##.fancybox-overlay-fixed
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
 hammerphones.com###o_shared_blocks:has(.o_newsletter_popup:only-child)
 hammerphones.com###o_shared_blocks:has(set-cookie, sPopup1785237000496, true)
@@ -88,10 +78,6 @@ ideaart.com.pl##body > div
 ideaart.com.pl##body:style(overflow: visible !important)
 ideau.pl##.pum[data-popmake*="nowy-produkt"], .overlay
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
-isostore.eu###toplayer_newsletter
-isostore.eu###topLayerBackDrop, .iai-toplayer__background
-jooble.org###popup
-jooble.org##body.no_scroll:style(overflow-y: auto !important; height: 100% !important; width: 100% !important)
 jzo.com.pl##.cp-overflow-hidden:style(overflow-y: auto !important)
 jzo.com.pl,um.jaslo.pl##.cp-modal-popup-container
 kamami.pl##body:style(overflow: auto !important;)
@@ -109,8 +95,6 @@ kurspolskiego.pl##.modal-open[class] div#main:style(filter: none !important)
 kwit.pl##+js(set-cookie, no-postal, true)
 lalorraine.pl,sw-rita.pl##.sg-popup-overlay, .sgpb-popup-dialog-main-div-wrapper
 lancerto.com##.modals-wrapper:has(.popup-newsletter)
-lento.pl##+js(remove-node-text, script, showNotify())
-lento.pl##+js(set-cookie, notifybox, 1)
 levi.com##.auth-modal-wrapper
 linux-magazine.pl,poradnik-dyrektora.pl##.modal-scrollable
 lo1-kochanowski.pl,sp-7.pl##+js(set-cookie, tpgwcc, 1)
