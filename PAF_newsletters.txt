@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 12 Sep 2026, 03:16 UTC+02:00
-! Version: 2026.9.12.0
+! Last modified: Mon, 21 Sep 2026, 08:47 UTC+02:00
+! Version: 2026.9.21.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 12 wrz 2026, 03:16 UTC+02:00
+! Aktualizacja: pon, 21 wrz 2026, 08:47 UTC+02:00
 !
 !
 !
@@ -623,6 +623,7 @@ festool.pl##.newsletter__footer
 fielmann.pl##div[data-cy="newsletter-"]
 finereader.pl##.formularz.row, .text-uppercase.mb-2.font17.bold.text-white
 firefox.com##.fl-newsletterform-cta
+firma.kaufland.pl##.kfld-o-newsletter
 fish24.pl##.newsletter_foot
 fizjoplaner.pl##.ft_nl
 flies-stepbystep.com###widget-7
@@ -1539,6 +1540,8 @@ snowsport.pl##.core-newsletter
 soczewki365.pl##.col-md-5
 soczko.pl##.subscribe_f
 sodexo.pl###content > #sg-form-row
+soflow.pl##footer > div > .row:nth-child(2) > div > h2 + aside:has(form)
+soflow.pl##footer > div > .row:nth-child(2) > div > h2:has(+ aside form)
 sofly.club##.newsletter-widget-1
 softekspert.pl##.left-block:nth-of-type(3)
 sokolow.pl##.clearfix.ds-1col.paragraph--view-mode-default.paragraph--type-block.paragraph
