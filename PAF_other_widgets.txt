@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sat, 12 Sep 2026, 22:43 UTC+02:00
-! Version: 2026.9.12.0
+! Last modified: Mon, 21 Sep 2026, 08:47 UTC+02:00
+! Version: 2026.9.21.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 12 wrz 2026, 22:43 UTC+02:00
+! Aktualizacja: pon, 21 wrz 2026, 08:47 UTC+02:00
 !
 !
 !
@@ -64,6 +64,7 @@
 ||widgets.okazje.info.pl^$third-party
 ||xiegarnia.pl/wp-content/themes/xiegarnia.pl-theme/assets/images/authors-label.png
 ||youtube.com/embed/*origin=*zapytaj.onet.pl$subdocument,domain=zapytaj.onet.pl
+!pushsec.pl##.page.et_pb_pagebuilder_layout #main-content, #main-content, .et-l--header > .et_builder_inner_content > .et_pb_section { background-color: #fff !important }
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wirtualnemedia.pl,wp.pl,~www.wp.pl###bottom-sticky-container > div[class]:has(a[href*="wp.pl/"])
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wirtualnemedia.pl,wp.pl,~www.wp.pl###wp-back-bottombar-button.wp-comments-bottombar > #wp-back-bottombar-button
 ~1login.wp.pl,abczdrowie.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,~poczta.wp.pl,polygamia.pl,pudelek.pl,pysznosci.pl,wirtualnemedia.pl,wp.pl,~www.wp.pl###wp-back-button, #wp-sg-back-button, #back-bar
@@ -556,6 +557,7 @@ iobit.com##.new-top
 irebu.pl###TOP-SOCIAL-MEDIA
 isostore.eu###tws_s_0, #fffrree-root
 ithardware.pl##.btnScrollToComments
+izielnik.pl##.paralaxa-box
 izielnik.pl##div[class*="wrapper"] .banner-link
 jaguar.pl##.side-buttons
 jakisklepinternetowy.pl##.survey
@@ -921,6 +923,7 @@ psy-pies.com,swiatkwiatow.pl###wyskakujaca
 ptakoutlet.pl###kp, .pasek-right
 pultusk24.pl##form[action^="https://poll.pollcode.com/"]
 pup.gliwice.pl,puplegnica.pl###accessKeys
+pushsec.pl##div#_rzf_root
 pyszne.pl##div[data-qa="app-banner"]
 pytamy.pl##.fixFooter
 pytanienasniadanie.tvp.pl##.stream-button
