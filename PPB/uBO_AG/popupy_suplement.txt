@@ -64,7 +64,7 @@ euro.com.pl,oleole.pl##body[style*="padding"]:style(padding-right: 0 !important;
 evertourist.com##.fancybox-overlay:has(#newsletterModal))
 filehippo.pl,softonic.pl##.rv-di-modal:has(img[src*="avast"], img[src*="opera"]):remove()
 filehippo.pl,softonic.pl##div[id^="modal-"]:is(#modal-di-avast, #modal-di-opera):remove()
-fmmobile.pl##.modal-stack
+fmmobile.pl,maldrew.com.pl,mensahome.eu##.modal-dialog
 forum.gofin.pl###KW_Tlo, #KW_Okno
 frisco.pl##+js(set-cookie, postpone_setting_postcode, true)
 habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
@@ -113,7 +113,6 @@ marketerplus.pl##div.reveal-overlay:nth-of-type(4)
 mbmeganarzedzia.pl,parkmania.pl,pl.wizcase.com,pozyczkabezbanku.pl##bio_ep, #bio_ep_bg
 megogo.net##[class*="-megogo-rotatorLanding_"].show-as-popup.widget
 mencare.pl##.modal
-mensahome.eu##.modal-dialog
 moora.pl##.showed-iqitpopup, .showed-iqitpopupo
 moraj.pl##.mfp-popupNewsletter
 mspdion.org.pl,termyszaflary.com##.fancybox-overlay
