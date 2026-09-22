@@ -2,7 +2,7 @@
 ||mailerlite.com^$3p,important,domain=beitadmin.pl
 !@ >>>>>>>> popupy_suplement + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
 a2mobile.pl,endo.pl,epione.pl,linux-magazine.pl,market24.com.pl,mspdion.org.pl,nagaba.pl,nck.pl,nowyobywatel.pl,polferries.pl,polskiekoldry.pl,poradnik-dyrektora.pl,porcelanaart.pl,premiummobile.pl,quiosque.pl,sanbetdevelopment.pl,sleepandglow.pl,trespass.pl,zabawki.esklep.info,zegarkiipasja.pl##html:style(overflow-y: auto !important)
-abrakadabra.sklep.pl,alesoczewki.com,confronter.pl,dedekor.pl,dragonmask.pl,e-sas.pl,ekodrogeria.pl,fmmobile.pl,giacomo.pl,karo.waw.pl,linux-magazine.pl,mensahome.eu,nagaba.pl,narzedziak.pl,nck.pl,ogladajanime.pl,onedaymore.pl,poradnik-dyrektora.pl,prnews.pl,przemysl.pl,quiosque.pl,sklep.polmarkus.com.pl,sklepkamil.pl,testerzy.pl,ubraniadooddania.pl,wificalling-volte.pl,wynagrodzenia.pl,zadowolenie.pl##.modal-backdrop
+abrakadabra.sklep.pl,alesoczewki.com,all4home.pl,confronter.pl,dedekor.pl,dragonmask.pl,e-sas.pl,ekodrogeria.pl,fmmobile.pl,giacomo.pl,karo.waw.pl,linux-magazine.pl,mensahome.eu,nagaba.pl,narzedziak.pl,nck.pl,ogladajanime.pl,onedaymore.pl,poradnik-dyrektora.pl,prnews.pl,przemysl.pl,quiosque.pl,sklep.polmarkus.com.pl,sklepkamil.pl,testerzy.pl,ubraniadooddania.pl,wificalling-volte.pl,wynagrodzenia.pl,zadowolenie.pl##.modal-backdrop
 action.com##+js(set-local-storage-item, newsletterPopupCount, 1)
 agrarada.pl###basic-modal-content iframe[src*="autoplay=1"]:remove()
 agro-top.com.pl,poznan.factory.pl##.region-popup
@@ -78,7 +78,7 @@ euro.com.pl,oleole.pl##body[style*="padding"]:style(padding-right: 0 !important;
 evertourist.com##.fancybox-overlay:has(#newsletterModal))
 filehippo.pl,softonic.pl##.rv-di-modal:has(img[src*="avast"], img[src*="opera"]):remove()
 filehippo.pl,softonic.pl##div[id^="modal-"]:is(#modal-di-avast, #modal-di-opera):remove()
-fmmobile.pl##.modal-stack
+fmmobile.pl,maldrew.com.pl,mensahome.eu##.modal-dialog
 forum.gofin.pl###KW_Tlo, #KW_Okno
 frisco.pl##+js(set-cookie, postpone_setting_postcode, true)
 gifyagusi.pl##body[style="overflow: hidden;"]:style(overflow: auto !important)
@@ -139,7 +139,6 @@ marketerplus.pl##div.reveal-overlay:nth-of-type(4)
 mbmeganarzedzia.pl,parkmania.pl,pl.wizcase.com,pozyczkabezbanku.pl##bio_ep, #bio_ep_bg
 megogo.net##[class*="-megogo-rotatorLanding_"].show-as-popup.widget
 mencare.pl##.modal
-mensahome.eu##.modal-dialog
 moora.pl##.showed-iqitpopup, .showed-iqitpopupo
 moraj.pl##.mfp-popupNewsletter
 mrcleaner.pl###Widget5, .modal-backdrop
@@ -273,6 +272,7 @@ zadowolenie.pl##.modal:has(img[src*="ZDW_NL_box"])
 zakupy.auchan.pl##+js(set-cookie, startup_popup_closed, true)
 zakupy.intermarche.pl##+js(set-cookie, loginPopupDisabled, true)
 zarabiajnanieruchomosciach.pl###yl-popup-wrapper-popupBook, #yl-popup-shadow-popupBook
+zegarkiipasja.pl##.ng-scope.emelu-lightbox-target
 zico-bike.pl###Widget5, #Widget6
 zivada.pl##.information.bs-dialog[class*="custom"], .bs-dialog-overlay
 zlotymotocyklowe.pl##.fancybox-overlay:has([target="_blank"])
