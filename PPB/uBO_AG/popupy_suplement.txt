@@ -2,9 +2,6 @@ a2mobile.pl,endo.pl,epione.pl,linux-magazine.pl,market24.com.pl,mspdion.org.pl,n
 abrakadabra.sklep.pl,alesoczewki.com,all4home.pl,confronter.pl,dedekor.pl,dragonmask.pl,e-sas.pl,ekodrogeria.pl,fmmobile.pl,giacomo.pl,karo.waw.pl,linux-magazine.pl,mensahome.eu,nagaba.pl,narzedziak.pl,nck.pl,onedaymore.pl,poradnik-dyrektora.pl,prnews.pl,przemysl.pl,quiosque.pl,sklep.polmarkus.com.pl,sklepkamil.pl,testerzy.pl,ubraniadooddania.pl,wynagrodzenia.pl,zadowolenie.pl##.modal-backdrop
 action.com##+js(set-local-storage-item, newsletterPopupCount, 1)
 agrarada.pl###basic-modal-content iframe[src*="autoplay=1"]:remove()
-agro-top.com.pl,poznan.factory.pl##.region-popup
-airalo.com###ten-million-users-modal, #ten-million-users-modal___BV_modal_outer_
-airalo.com##+js(set-cookie, Airalo.10million, true)
 akelektronik-kalisz.pl##+js(set-cookie, labpopupnewsletter, true)
 alesoczewki.com,dedekor.pl,dragonmask.pl,ekodrogeria.pl,fastestvpn.com,fmmobile.pl##.modal-open[class]:style(overflow: visible !important; padding-right: 0 !important; margin-right: 0 !important)
 all4home.pl###myWorningNewsletterPopUp
@@ -29,7 +26,6 @@ avita.pl,educol.pl,jan-mar.pl,pionierbhp.pl,pracownia-manufaktura.pl,wiener.pl##
 avita.pl,educol.pl,jan-mar.pl,pionierbhp.pl,pracownia-manufaktura.pl,wiener.pl##.tingle-modal
 bambineo.pl,pupilexpert.pl##.fancybox-container:has(#popup-newsletter, #newsletter_popup)
 bielenda.com##+js(set-local-storage-item, _km_pg_last_seen, true)
-blog-daneosobowe.pl##+js(nostif, i(), 5000)
 brakeparts.pl,bukmacherstwo.info,gomobi.pl,hairbyjul.pl,hrstandard.pl,marfafashion.com,techmlek.com.pl##.pum-open:style(overflow-y: auto !important)
 carrefour.pl##body[style]:style(overflow-y: auto !important; padding-right: 0 !important)
 carrefour.pl##div[class*="jss"][role="dialog"]:has(> div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
@@ -37,18 +33,13 @@ ceneo.pl##.noscroll:style(position: static !important; overflow-y: auto !importa
 dajar.pl##+js(set-cookie, AdvertPopupDisplayed, true)
 digitalo.pl,morele.net,sklep-presto.pl##+js(nostif, openCutOffModal, 3000)
 doktormonika.pl##+js(set-cookie, popup-closed, true)
-domodi.pl##+js(set, PWA_adbd, 2)
 dragonmask.pl##body:not(.modal-open) .newsletter-modal
 drogeria-ekologiczna.pl,epione.pl,fifishop.pl,pch24.pl,royalpark.pl,sklepzrowerami.pl,swiece-zaplonowe.pl##.fancybox-lock:style(overflow-y: auto !important; margin-right: 0 !important)
 drzwi-cal.pl###bio_ep, #bio_ep_bg
 drzwi-cal.pl,mbmeganarzedzia.pl,parkmania.pl,pl.wizcase.com,pozyczkabezbanku.pl##+js(nostif, bioEp.showPopup)
 dziennikprawny.pl##body[style]:style(overflow-y: auto !important; height: unset !important)
 e-spar.com.pl###modal-welcome:remove()
-e-warzywnictwo.pl##.popup-tlo
-e-warzywnictwo.pl##.strona:style(filter: none !important)
 ekodrogeria.pl##.modal:has(.newsletter-form)
-ekogram.pl##+js(set, Prestashop-x13popup_1, 1)
-eksperymentalnie.com##+js(nostif, CodeKingdomBox)
 elearning-fusion.pl##.hustle-popup:has(h2:has-text(/^Bądź na bieżąco!$/))
 endo.pl##.bhr-iframe-holder--custom, .bhr-image-popup-container
 epione.pl##.fancybox-is-open
@@ -71,15 +62,11 @@ habys.pl##.fancybox-overlay:has(.sm-newsletter-popup)
 hammerphones.com###o_shared_blocks:has(.o_newsletter_popup:only-child)
 hammerphones.com###o_shared_blocks:has(set-cookie, sPopup1785237000496, true)
 hammerphones.com##body[style*="overflow"]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
-hejto.pl##+js(set-cookie, homepage-dialog, 1)
-hejto.pl##.ReactModalPortal:has(> div.ReactModal__Overlay > div#RegisterDialog)
 hugle.pl###newsletterpopup.newsletterpopup.bingo-modal:not([dimita_lpopup\:1]), .popupshadow
 ideaart.com.pl##body > div
 ideaart.com.pl##body:style(overflow: visible !important)
 ideau.pl##.pum[data-popmake*="nowy-produkt"], .overlay
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
-jzo.com.pl##.cp-overflow-hidden:style(overflow-y: auto !important)
-jzo.com.pl,um.jaslo.pl##.cp-modal-popup-container
 kamami.pl##body:style(overflow: auto !important;)
 karo.waw.pl###skNewsletterPopupOverlay, #skNewsletterPopupForm
 karo.waw.pl##body.modal-open:style(overflow: auto !important;)
