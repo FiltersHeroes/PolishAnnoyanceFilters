@@ -30,7 +30,6 @@ brakeparts.pl,bukmacherstwo.info,gomobi.pl,hairbyjul.pl,hrstandard.pl,marfafashi
 carrefour.pl##body[style]:style(overflow-y: auto !important; padding-right: 0 !important)
 carrefour.pl##div[class*="jss"][role="dialog"]:has(> div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
 ceneo.pl##.noscroll:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important)
-dajar.pl##+js(set-cookie, AdvertPopupDisplayed, true)
 digitalo.pl,morele.net,sklep-presto.pl##+js(nostif, openCutOffModal, 3000)
 doktormonika.pl##+js(set-cookie, popup-closed, true)
 dragonmask.pl##body:not(.modal-open) .newsletter-modal
@@ -38,7 +37,6 @@ drogeria-ekologiczna.pl,epione.pl,fifishop.pl,pch24.pl,royalpark.pl,sklepzrowera
 drzwi-cal.pl###bio_ep, #bio_ep_bg
 drzwi-cal.pl,mbmeganarzedzia.pl,parkmania.pl,pl.wizcase.com,pozyczkabezbanku.pl##+js(nostif, bioEp.showPopup)
 dziennikprawny.pl##body[style]:style(overflow-y: auto !important; height: unset !important)
-e-spar.com.pl###modal-welcome:remove()
 ekodrogeria.pl##.modal:has(.newsletter-form)
 elearning-fusion.pl##.hustle-popup:has(h2:has-text(/^Bądź na bieżąco!$/))
 endo.pl##.bhr-iframe-holder--custom, .bhr-image-popup-container
@@ -52,7 +50,6 @@ euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper [class*="newslett
 euro.com.pl,oleole.pl##.remodal-overlay:has(~ .remodal-wrapper[class*="open"] > .remodal span[class*="heading"]:has-text(/NEWSLETTER/i))
 euro.com.pl,oleole.pl##.remodal-wrapper:has([class*="newsletter" i])
 euro.com.pl,oleole.pl##body[style*="padding"]:style(padding-right: 0 !important; margin-right: 0 !important)
-evertourist.com##.fancybox-overlay:has(#newsletterModal))
 filehippo.pl,softonic.pl##.rv-di-modal:has(img[src*="avast"], img[src*="opera"]):remove()
 filehippo.pl,softonic.pl##div[id^="modal-"]:is(#modal-di-avast, #modal-di-opera):remove()
 fmmobile.pl,maldrew.com.pl,mensahome.eu##.modal-dialog
@@ -65,7 +62,6 @@ hammerphones.com##body[style*="overflow"]:style(overflow-y: auto !important; pad
 hugle.pl###newsletterpopup.newsletterpopup.bingo-modal:not([dimita_lpopup\:1]), .popupshadow
 ideaart.com.pl##body > div
 ideaart.com.pl##body:style(overflow: visible !important)
-ideau.pl##.pum[data-popmake*="nowy-produkt"], .overlay
 instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
 kamami.pl##body:style(overflow: auto !important;)
 karo.waw.pl###skNewsletterPopupOverlay, #skNewsletterPopupForm
@@ -106,7 +102,6 @@ new.reddit.com,www.reddit.com##body[data-previous-overflow][style^="overflow:"]:
 niezlasztuka.net##+js(nostif, i(), 35000)
 njumobile.pl##+js(aopr, window.onbeforeunload)
 nowyrp.pl##.offers-popup
-oaza-palmy.pl##.fancybox-overlay:has(.modulesden-newsletter)
 oknoline.pl###modalSocial
 oko.press##+js(set-cookie, animated-donation-icon, true)
 oko.press##+js(set-cookie, exit-popup-poczekaj, true)
@@ -127,10 +122,6 @@ opoczno.eu,royalpark.pl##html.fancybox-lock:style(overflow-y: auto !important; m
 osada-sniezka.pl##.wa-popup
 otodom.pl###__next > div[class] + div:not([class], [id]):has(div[data-cy="modal"][role="dialog"] p:has-text(Zapisuj))
 ozogtomczykowski.pl###homeModal
-pakamera.pl##.fancybox-container:has(a[href*="sale"] img)
-pakamera.pl##.fancybox-overlay:has(.fancybox-type-html)
-panwybierak.pl##.iziModal-isOverflow:style(position: static !important; overflow-y: auto !important)
-panwybierak.pl##.modal--remind.iziModal, .iziModal-overlay
 pasmanteria.eu,sprzedajemyrosliny.pl,twojzwierzak.com.pl##.swal2-modal, .swal2-container
 paypo.pl##+js(set-cookie, pp_registration_modal_rejected, true)
 payukraine.com##.gl-blur:style(filter: none !important)
@@ -144,7 +135,6 @@ pl.blogpascher.com##.CampaignType--fullscreen.Campaign.trenton-campaign
 pl.blogpascher.com##html.om-position-popup body:style(overflow-y: hidden !important)
 pl.hinative.com##+js(set-cookie, fullscreen_app_recommend, true)
 pl.hinative.com##+js(set-cookie, fullscreen_register_recommend, true)
-pl.tommy.com##.ReactModalPortal:has(.newsletter--modal)
 player.pl###nscorepop-wrapper, #nscorepop-content
 player.pl##+js(ra, style, body[style*="overflow"], stay)
 playstation.com##+js(acis, $, PopupManager)
@@ -177,7 +167,6 @@ ubraniadooddania.pl##.registration-modal
 unityline.pl##.image-popup__wrap, .image-popup__underlay
 unityline.pl##.newsletter-popup__wrap, .newsletter-popup__underlay
 ursus.com.pl##.opacity1.flexslider-container
-walizkownia.pl##.fancybox-overlay-fixed, .fancybox-opened
 wbok.syrion.pl##html.v-overlay-scroll-blocked #app ~ .v-overlay-container .v-dialog:has(a[href*="legimi.pl/"])
 wbok.syrion.pl##html.v-overlay-scroll-blocked:style(position: static !important; overflow-y: scroll !important; --v-scrollbar-offset: 0 !important)
 weathermap.netatmo.com##.blured #map, .blured .side-panel, .blured .navbar, .blured .button-control-ctn, .blured .small-banner, .side-panel.blured, .blured #mainwrapper .legend:style(filter: none !important)
