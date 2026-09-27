@@ -83,13 +83,10 @@ lo1-kochanowski.pl,sp-7.pl##+js(set-cookie, tpgwcc, 1)
 lumarte.eu##.ui-widget-overlay:remove()
 lumarte.eu##.ui-widget.ui-dialog:remove()
 market24.com.pl,porcelanaart.pl,zabawki.esklep.info###dont_go_overlay
-market24.com.pl,porcelanaart.pl,zabawki.esklep.info##body.lock:style(overflow-y: auto !important)
 marketdino.pl##+js(set-cookie, newsletter_dismissed, true)
 marketdino.pl##+js(set-cookie, popup-1-dismissed, true)
 marketdino.pl##.freeze:style(position: static !important; overflow-y: auto !important)
 marketdino.pl##div.fixed:has(.dialog .newsletter-content)
-marketerplus.pl##body.is-reveal-open:style(overflow-y: auto !important)
-marketerplus.pl##div.reveal-overlay:nth-of-type(4)
 mbmeganarzedzia.pl,parkmania.pl,pl.wizcase.com,pozyczkabezbanku.pl##bio_ep, #bio_ep_bg
 megogo.net##[class*="-megogo-rotatorLanding_"].show-as-popup.widget
 mencare.pl##.modal
@@ -142,19 +139,12 @@ polskiekoldry.pl,sklepzrowerami.pl##.fancybox-overlay:has(.apc_modal)
 poradnik-dyrektora.pl,portaloswiatowy.pl##body.modal-open[class] .container:style(filter: none !important)
 potreningu.pl##+js(set-cookie, mobile-popup, 1)
 prawokonsumenckie.pl##.popup[role]
-prawokonsumenckie.pl##body:style(overflow-y: auto !important; height: initial !important)
-rolety24.net###r24np-root, .r24np-root
-rolety24.net##+js(set-cookie, r24_np_seen, 1)
-rolety24.net##body[style*="overflow"]:style(overflow-y: auto !important)
+prawokonsumenckie.pl##body:style(overflow-y: auto !important; height: initial !important)\
 rowery-elektryczne.pl###popup, #popup-overlay
 samochod.porowneo.pl###modalContainer
 samochod.porowneo.pl##.noScroll:style(position: static !important)
 sanbetdevelopment.pl##.breakdance-popup-open
 shopcademy.pl##.kadence-conversion, .kadence-conversion-overlay
-sleepandglow.pl##+js(set-constant, mailing-hide, true)
-sleepandglow.pl##+js(set-constant, mailing_second-hide, true)
-sleepandglow.pl##.noscroll:is(body, html):style(overflow-y: auto !important)
-sleepandglow.pl##.pp__mailing, .pp__mailing_second
 sofine.pl##+js(nosiif, popcount, 1000)
 spidersweb.pl##.mfp-wrap:has(.popoup-content)
 sportowefakty.wp.pl##.modal:has-text(Już uciekasz?)
