@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Fri, 02 Oct 2026, 23:41 UTC+02:00
-! Version: 2026.10.2.0
+! Last modified: Fri, 02 Oct 2026, 21:48 UTC+00:00
+! Version: 2026.10.2.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 02 paź 2026, 23:41 UTC+02:00
+! Aktualizacja: pią, 02 paź 2026, 21:48 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -7215,8 +7215,8 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2026.9.23.0
-!@ Last modified: Wed, 23 Sep 2026, 22:31 UTC+00:00
+!@ Version: 2026.10.2.0
+!@ Last modified: Fri, 02 Oct 2026, 21:48 UTC+00:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -7228,7 +7228,7 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Copyright © 2026 Certyficate IT
 !@ Copyright © 2026 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2026.9.23.0 aktualizacja: śro, 23 wrz 2026, 22:31 UTC+00:00
+!@ v.2026.10.2.0 aktualizacja: pią, 02 paź 2026, 21:48 UTC+00:00
 !@
 !@
 !@ Specyficzne filtry ukrywające
@@ -7317,7 +7317,7 @@ adguard.com##.sticky-bar--cookie
 adidas.pl##.cookie-consent-modal
 adidas.pl##div[class^="cookie_consent_bar_"]
 adidas.pl,ea.com,garmin.com,leagueoflegends.com,nespresso.com,reebok.pl,weather.com,xerox.com###consent_blackbar
-adjoy.pl,agrihandler.pl,ebizneskrokpokroku.pl,portalotwocki.pl,sklep.swiatlnu.pl,skuteczneraporty.pl,smstormbikes.com,twojesady.pl,wody-mineralne.com.pl###fupi_cookie_notice
+adjoy.pl,agrihandler.pl,ebizneskrokpokroku.pl,portalotwocki.pl,psowo.pl,sklep.swiatlnu.pl,skuteczneraporty.pl,smstormbikes.com,twojesady.pl,wody-mineralne.com.pl###fupi_cookie_notice
 adjule.pl###alerts
 adm-media.pl,intellect.pl,kociadolina.pl,mrn.pl##.policy
 administrator24.info,ekspertbudowlany.pl,elektro.info.pl,izolacje.com.pl,rynekinstalacyjny.pl##.zgody-popup
@@ -7351,7 +7351,7 @@ agpagroup.pl##.o_cookies_discrete
 agrido.pl,alt.pl,altenberg.pl###wpmagus-consent-manager-dialog-wrapper, .wpmagus-consent-manager-show-consents
 agriexpert.pl,agro-sklep.com,dj24.pl,dragoneye.pl,esklep.info,karmazdostawa.pl,niespodziewajka.com,ogrodniczy.org.pl,otosklep24.pl,panele24.com.pl,sklep-galvet.pl,sklepywww.pl,winoszarnia.pl,zabawki.esklep.info,zamienne.info###privacy-message
 agrii.pl,domusfari.pl,gls-group.eu,hurtowniazabawek.pl,kinder.com###cookiePopup, .cookiesBackground
-agrishop.pl,alibiuro.pl,asta-net.pl,domowa.tv,izodom2000.pl,jedynkafryzjerstwo.pl,molkip.pl,print-me.pl,spark.pl,twojezdrowie.pl#?#div[id^="elementor-popup-modal-"]:has-text(/cookies?|rodo|gdpr|ciastecze?ka?/i)
+agrishop.pl,alibiuro.pl,asta-net.pl,domowa.tv,izodom2000.pl,molkip.pl,print-me.pl,spark.pl,twojezdrowie.pl#?#div[id^="elementor-popup-modal-"]:has-text(/cookies?|rodo|gdpr|ciastecze?ka?/i)
 agristar.pl,balticbhp.pl,carinet.pl,edukatorek.pl,greenmouse.pl,sportpoint.pl,tekstyliowo.pl###gmgdpr-overlay
 agro-bis.eu,eldom.eu###cookie-alert
 agro-mig.pl#?#.popup:has(a[href*="40"]:has-text(Polityce prywatności))
@@ -11626,6 +11626,7 @@ wolframalpha.com##footer ~ section
 ###ba_eu_cookie_law:not(form)
 ###cookieBanner:not(.cb-show)
 ###gdpr_consent:not([class*="form"], [class*="module"])
+##.cky-btn-revisit-wrapper
 ##.eu-cookie-bar-notification ~ .toggle-panel-overlay
 ##.manage-consent-button
 ##body.cky-cookie-visible::before
@@ -11691,6 +11692,8 @@ danio.com.pl#@#.cookies-header
 danio.com.pl#@#.cookies-modal:not(body):not(html)
 danio.com.pl#@#.cookies-text
 danio.com.pl,nat.pl,pl.genesis-zone.com#@##cookies-modal
+disqus.com##.comment-policy-refresh:not(:has(a[href*="regulamin" i]))
+disqus.com#@#.comment-policy-refresh
 dji-polska.pl,grupabiwakowa.pl,mamstartup.pl,nowymarketing.pl#@#.cookie-statement
 dpcraft.pl#@#.cookiesBackground
 dpcraft.pl#@#.cookiesPopup
