@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Tue, 29 Sep 2026, 23:57 UTC+02:00
-! Version: 2026.9.29.1
+! Last modified: Fri, 02 Oct 2026, 23:41 UTC+02:00
+! Version: 2026.10.2.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 29 wrz 2026, 23:57 UTC+02:00
+! Aktualizacja: pią, 02 paź 2026, 23:41 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -186,7 +186,10 @@ astoreo.pl###newsletterFormgRecaptcha
 astratex.pl###MailNewsForm
 asus.com##div[class*="Footer__subscribeForm_"]
 atakto.pl##.sidebar-newsletter-wrapper
-atlantic.pl###blockEmailSubscription_displayHome
+atlantic.pl,eurosklep.eu###newsletter-widget
+atlantic.pl,ksiegarniamorska.pl###blockEmailSubscription_displayFooterCategory
+atlantic.pl,ksiegarniamorska.pl###blockEmailSubscription_displayFooterProduct
+atlantic.pl,ksiegarniamorska.pl###blockEmailSubscription_displayHome
 atlastours.pl##div[style*="newsletter.png"]
 atrakcjenaimprezy.pl,kom-ster.pl,mebline.co.uk,mebline.nl,mebline.pl##.moduletable_newsletter
 atrexpress.com.pl##.nlsection
@@ -273,6 +276,7 @@ bissole.pl,marketdino.pl##a[href="#newsletter"]
 bit-info.pl##.newsletters_block
 biurfan.pl###newsletter-wide
 biuronet.com##.bottom-subscription-form
+biuroprasowe.porta.com.pl###newsletter-home-page.newsletter-home_page
 biuroprasowe.porta.com.pl###newsletter-story-page, .newsletter-story_page
 biurowezakupy24.pl,szkolnezakupy.pl###mod-newsletter
 bizay.pl##div.col-xs-3 > .footer-sub-title
@@ -494,6 +498,7 @@ duka.com##.section-newsletter
 duka.com,lot.com##.is-newsletter
 dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
 dystronet.pl##.post > #gr-form
+dzieje.pl###block-newsletterblock
 dziennik.pl,forsal.pl,gazetaprawna.pl##.footerNewsletterContent
 dziennikzbrojny.pl##.columns.four
 dziewczynynapolitechniki.pl##.col-sm-3:nth-of-type(3)
@@ -589,7 +594,6 @@ euractiv.pl##.row > pnespwidget
 euroelectronics.pl##.site-footer > div > .grid > div[class*="footer__item"].grid__item:nth-child(6) > div
 euroogrod.com.pl##.menu_newsletter_text
 europacentralna.eu,sare.pl##.nlblock
-eurosklep.eu###newsletter-widget
 euroterm24.pl##.modnewsletter
 eveline.pl##.subscribe-to-news
 evenea.pl###subscribe-section
@@ -2170,8 +2174,8 @@ pl,~znak.com.pl##.newsletter-container
 80dni.pl,agroinstal.com.pl,aliholik.pl,ap-goal.pl,apgrojec.com.pl,asc-pro.pl,atomsport.pl,atutszkola.pl,badaniaprenatalne.pl,bellpolska.com.pl,bialekolnierzyki.com.pl,businesstraveller.pl,centrum-terapii.pl,codzienniefit.pl,computer-alliance.pl,dochodzeniewierzytelnosci.pl,ecochemia.pl,edbak.com,erif.pl,esportnow.pl,faktykonopne.pl,gameinn.pl,gdziejestdziecko.pl,infokonin.pl,infokonsument.pl,intercyza-blog.pl,inwestycjebudowlane.biz,ironsky.pl,jakzalozycfirmenaukrainie.com,kartanauczycielablog.pl,katechezanatana.pl,kukini.pl,lajtmobile.pl,leclerc.pl,leszekbloch.pl,maxbus.com.pl,mhtm.pl,monikahonory.pl,odroczenie-kary.pl,pandrwal.pl,pantabletka.pl,pierwsze-kroki.com,poloniawroclaw.pl,przedszkolankowo.pl,psychologiazycia.com,radiowarszawa.com.pl,remekdabrowski.pl,sds-automatyka.pl,sherlocktrafika.pl,spjawna.pl,spkomandytowa.pl,stanprawnynieruchomosci.pl,studiosante.pl,towsrodku.pl,villacarpatia.com,wspa.pl,wspolnotakrzyzasmolec.pl,zabieganamama.com,zadowolonypacjent.pl,zarzadwspolcezoo.pl,zatorland.pl,zobraczkaczybez.pl##.spu-box, .spu-bg
 1000dni.pl###news-popup
 aasapolska.pl###leave-page-modal
-aba-sport.pl,alpinsklep.pl,apteka-natura.eu,autochemia.pl,avaro.pl,barokko.pl,bludshop.com,blueskypolska.pl,bogulandia.pl,bugo.pl,butosklep.pl,butylukow.pl,cafeborowka.pl,californiaskateshop.pl,candleworld.com.pl,cosslodkiego.com.pl,cyfra.eu,czasnabuty.pl,damizabawki.pl,denicler.eu,divanii.pl,dowarsztatu.com,e-baseus.com,e-megasport.com,efutro.com.pl,gratoria.pl,groomer.com.pl,hile.pl,hydromech.eu,korob.pl,ksiegarnia-edukacyjna.pl,kupbuty.com,littlejungle.pl,malowanebiela.pl,megazoologiczny.pl,meskiegacie.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rovicky.eu,sestimi.pl,sewel.pl,shop.s-a.pl,sportowybazar.pl,stili.pl,surgepolonia.pl,twojeobuwie.pl,ulubionabielizna.pl,unbrokenstore.com,vitasport.pl,wispol.eu###topLayerBackDrop, .iai-toplayer__background
-aba-sport.pl,autochemia.pl,bogulandia.pl,californiaskateshop.pl,cosslodkiego.com.pl,cyfra.eu,damizabawki.pl,dowarsztatu.com,efutro.com.pl,gratoria.pl,groomer.com.pl,hydromech.eu,kupbuty.com,meskiegacie.pl,mobile-city.pl,obuwie-lizuraj.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rasowear.pl,sewel.pl,sportowybazar.pl,unbrokenstore.com,vitasport.pl,wispol.eu###tws_i_0
+aba-sport.pl,alpinsklep.pl,apteka-natura.eu,autochemia.pl,avaro.pl,barokko.pl,bludshop.com,blueskypolska.pl,bogulandia.pl,bugo.pl,butosklep.pl,butylukow.pl,cafeborowka.pl,californiaskateshop.pl,candleworld.com.pl,cosslodkiego.com.pl,cyfra.eu,czasnabuty.pl,damizabawki.pl,denicler.eu,divanii.pl,dowarsztatu.com,e-baseus.com,e-megasport.com,efutro.com.pl,gratoria.pl,groomer.com.pl,hile.pl,hydromech.eu,korob.pl,ksiegarnia-edukacyjna.pl,kupbuty.com,littlejungle.pl,malowanebiela.pl,megazoologiczny.pl,ozonee.pl,pakolorente.com,partneragdrtv.com.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rovicky.eu,sestimi.pl,sewel.pl,shop.s-a.pl,sportowybazar.pl,stili.pl,surgepolonia.pl,twojeobuwie.pl,ulubionabielizna.pl,unbrokenstore.com,vitasport.pl,wispol.eu###topLayerBackDrop, .iai-toplayer__background
+aba-sport.pl,autochemia.pl,bogulandia.pl,californiaskateshop.pl,cosslodkiego.com.pl,cyfra.eu,damizabawki.pl,dowarsztatu.com,efutro.com.pl,gratoria.pl,groomer.com.pl,hydromech.eu,kupbuty.com,mobile-city.pl,obuwie-lizuraj.pl,pepegi.eu,pomocna24.pl,portalokienny.pl,rasowear.pl,sewel.pl,sportowybazar.pl,unbrokenstore.com,vitasport.pl,wispol.eu###tws_i_0
 abczdrowie.pl,autokult.pl,benchmark.pl,dobreprogramy.pl,fotoblogia.pl,gadzetomania.pl,jastrzabpost.pl,kapitalni.org,komorkomania.pl,money.pl,o2.pl,open.fm,parenting.pl,polygamia.pl,pudelek.pl,pysznosci.pl,walutomat.pl,wirtualnemedia.pl,wp.pl##.exit-popup
 ac.com.pl,actaenergetica.org,atomstore.pl,ccnews.pl,deku.pl,holum.pl,jagiellonski.pl,l37.eu,meczelive.tv,meczenazywo.pl,mutyzm.org.pl,platan.pl,portalmorski.pl,regalka.pl,rejs.eu,rozsadnibracia.pl,secretlashes.pl,sukcesja.eu,teatrsyrena.pl,uczyibawi.pl,wokolmotoryzacji.pl,yenn.eu###fm-pu-container
 accent-bikes.com###lang_popup
@@ -2251,7 +2255,7 @@ arteodevelopment.pl##div.bbx-col-3:nth-of-type(3) > .footer-cell-container
 artis-loft.pl##.wa-popup--active
 artkomiks.pl##.ulp-fadeIn.ulp-animated.ulp-overlay
 artkomiks.pl##.ulp-window-container
-artlazienkowe.pl,giftmania.com.pl,krolmajtekpierwszy.pl,nbielizna.pl,odblask.com.pl,ostry-sklep.pl,pcoutlet.pl,posciel.mazury.pl,vanitysklep.pl,veoveo.pl,wellsamed.pl##.rc-popups.box
+artlazienkowe.pl,giftmania.com.pl,nbielizna.pl,odblask.com.pl,ostry-sklep.pl,pcoutlet.pl,posciel.mazury.pl,vanitysklep.pl,veoveo.pl,wellsamed.pl##.rc-popups.box
 arturjablonski.com,eswinoujscie.pl##.ulp-layer, .ulp-overlay
 asd.pl##.popUpHolder, #Fader
 ashampoo.com##.exitlayer
@@ -3939,7 +3943,9 @@ krainaoszczedzania.pl###finoScroll
 krakow.pl###footer-scroll-up
 krd.pl##.krd-footer-scroller
 kreisel.pl##.buttonTop
+krolmajtekpierwszy.pl##div.scroll-up:has(> a[href="#totop"])
 kufer.poznajemyswiat.pl##.fa-arrow-up.ssttbutton-symbol
+kukihood.pl##button[id*="scroll-to-top-button-"][id*="back_to_top_"][class*="scroll-to-top-button-"][class*="back_to_top_"]
 kulinarnastronamocy.pl##.stick.stnsvn-btt
 kultura.krasnik.eu###skip_to
 kulturadostepna.pl###btn-scroll-to-top
@@ -6287,7 +6293,6 @@ medycznyfocus.pl##.dialog-message
 melbo.pl,sewel.pl###tws_i_2
 meritum.gda.pl###smallCart
 merkurymarket.pl,musclepower.pl###edrone--main--wl--container
-meskiegacie.pl###counter_holder_top.counter_container[style^="position: fixed;"]
 mettosport.eu###wpbs_slider
 mgotuje.pl###ajaxsearchpro2_1
 mgsm.pl##.promo-sticky
