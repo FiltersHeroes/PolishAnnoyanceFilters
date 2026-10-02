@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Mon, 28 Sep 2026, 00:24 UTC+02:00
-! Version: 2026.9.28.0
+! Last modified: Fri, 02 Oct 2026, 23:41 UTC+02:00
+! Version: 2026.10.2.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 28 wrz 2026, 00:24 UTC+02:00
+! Aktualizacja: pią, 02 paź 2026, 23:41 UTC+02:00
 !
 !
 !
@@ -185,7 +185,10 @@ astoreo.pl###newsletterFormgRecaptcha
 astratex.pl###MailNewsForm
 asus.com##div[class*="Footer__subscribeForm_"]
 atakto.pl##.sidebar-newsletter-wrapper
-atlantic.pl###blockEmailSubscription_displayHome
+atlantic.pl,eurosklep.eu###newsletter-widget
+atlantic.pl,ksiegarniamorska.pl###blockEmailSubscription_displayFooterCategory
+atlantic.pl,ksiegarniamorska.pl###blockEmailSubscription_displayFooterProduct
+atlantic.pl,ksiegarniamorska.pl###blockEmailSubscription_displayHome
 atlastours.pl##div[style*="newsletter.png"]
 atrakcjenaimprezy.pl,kom-ster.pl,mebline.co.uk,mebline.nl,mebline.pl##.moduletable_newsletter
 atrexpress.com.pl##.nlsection
@@ -272,6 +275,7 @@ bissole.pl,marketdino.pl##a[href="#newsletter"]
 bit-info.pl##.newsletters_block
 biurfan.pl###newsletter-wide
 biuronet.com##.bottom-subscription-form
+biuroprasowe.porta.com.pl###newsletter-home-page.newsletter-home_page
 biuroprasowe.porta.com.pl###newsletter-story-page, .newsletter-story_page
 biurowezakupy24.pl,szkolnezakupy.pl###mod-newsletter
 bizay.pl##div.col-xs-3 > .footer-sub-title
@@ -493,6 +497,7 @@ duka.com##.section-newsletter
 duka.com,lot.com##.is-newsletter
 dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
 dystronet.pl##.post > #gr-form
+dzieje.pl###block-newsletterblock
 dziennik.pl,forsal.pl,gazetaprawna.pl##.footerNewsletterContent
 dziennikzbrojny.pl##.columns.four
 dziewczynynapolitechniki.pl##.col-sm-3:nth-of-type(3)
@@ -588,7 +593,6 @@ euractiv.pl##.row > pnespwidget
 euroelectronics.pl##.site-footer > div > .grid > div[class*="footer__item"].grid__item:nth-child(6) > div
 euroogrod.com.pl##.menu_newsletter_text
 europacentralna.eu,sare.pl##.nlblock
-eurosklep.eu###newsletter-widget
 euroterm24.pl##.modnewsletter
 eveline.pl##.subscribe-to-news
 evenea.pl###subscribe-section
