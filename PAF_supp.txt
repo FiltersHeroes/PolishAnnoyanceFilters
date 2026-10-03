@@ -1219,7 +1219,7 @@ biuroprasowe.porta.com.pl##+js(set-cookie-reload, cookies-agreement, true, , don
 com,eu,pl###cmplz-manage-consent:not(body, html)
 com,eu,pl##body #cmplz-cookiebanner-container
 com,eu,pl##body .cmplz-cookiebanner.cmplz-show:remove()
-com,eu,pl##body.cmplz-banner-active:watch-attr():remove-class(cmplz-banner-activ)
+com,eu,pl##body.cmplz-banner-active:watch-attr():remove-class(cmplz-banner-active)
 com,eu,pl##body.cmplz-noscroll:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 com,eu,pl##body:has(h-portal-target .consents-modal [aria-label="Ustawienia plików cookies"]):has(> [inert]) > [inert]:remove-attr(inert)
 com,eu,pl##body[class*="shop" i] div.consents
