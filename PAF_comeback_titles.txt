@@ -2,8 +2,8 @@
 ! Polish Annoyance Filters - Comeback Titles
 ! Codename: Comeback Titles
 ! Description: Filtry usuwające tytuły stron zachęcające do powrotu.
-! Last modified: Mon, 16 Feb 2026, 17:01 UTC+01:00
-! Version: 2026.2.16.0
+! Last modified: Mon, 05 Oct 2026, 00:23 UTC+02:00
+! Version: 2026.10.5.0
 ! Expires: 5 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -12,7 +12,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 16 lut 2026, 17:01 UTC+01:00
+! Aktualizacja: pon, 05 paź 2026, 00:23 UTC+02:00
 !
 !
 !wrc.net.pl##+js(aeld, blur, function(e){return"undefined"!=typeof S&&S.event.triggered!==e.type?S.event.dispatch.apply(t,arguments):void 0})
@@ -55,4 +55,5 @@ polishannoyancefilters.netlify.app###pafadguard
 !#endif
 !#if ext_ublock
 polishannoyancefilters.netlify.app##+js(set, pafDetect, true)
+wielkopolska.tv#@##floating-player
 !#endif
