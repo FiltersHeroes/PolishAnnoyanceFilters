@@ -1,4 +1,3 @@
-wielkopolska.tv##+js(set-session-storage-item, tvwlkp_pip_closed, 1) 
 bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], asap)
 bezpiecznystrazak.pl##+js(ra, autoplay, video[autoplay], complete)
 bezpiecznystrazak.pl##video[autoplay]:remove-attr(autoplay)
@@ -35,4 +34,5 @@ sportowefakty.wp.pl###randomplayer[class*="fixed"], #randomplayer[class*="fixed"
 store.steampowered.com##[class^="broadcast_embeddable_broadcast_floating"]:style(position: static !important)
 store.steampowered.com##div[data-featuretarget="broadcast-embed"] div:matches-css(position: fixed)
 topagrar.pl##+js(aeld, scroll, [native code])
+wielkopolska.tv##+js(set-session-storage-item, tvwlkp_pip_closed, 1)
 wzielonej.pl###the-sticky-video.video-is-sticky:style(visibility: hidden !important)
