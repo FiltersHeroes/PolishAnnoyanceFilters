@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Tue, 06 Oct 2026, 00:05 UTC+02:00
-! Version: 2026.10.6.0
+! Last modified: Mon, 05 Oct 2026, 22:28 UTC+00:00
+! Version: 2026.10.5.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 06 paź 2026, 00:05 UTC+02:00
+! Aktualizacja: pon, 05 paź 2026, 22:28 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -6259,6 +6259,7 @@ mailerlite.com##.promo-banner-container
 makeup.pl##.banner-about-app-popup
 mall.pl##.flt-bnr
 mamabezrecepty.pl##footer > .tips
+mamyito.pl##div[class*="MarketingPopover_popover_"]
 manada.pl##.sidebar-banners
 marax.eu###pierwsza_ikona, .vertical-button
 marbo-sport.pl###menu_basket_widget
