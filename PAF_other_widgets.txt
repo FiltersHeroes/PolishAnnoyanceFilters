@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Mon, 05 Oct 2026, 00:23 UTC+02:00
-! Version: 2026.10.5.0
+! Last modified: Tue, 06 Oct 2026, 23:51 UTC+02:00
+! Version: 2026.10.6.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 05 paź 2026, 00:23 UTC+02:00
+! Aktualizacja: wto, 06 paź 2026, 23:51 UTC+02:00
 !
 !
 !
@@ -399,6 +399,7 @@ envelo.pl###user-notification
 eobuwie.com.pl##li.product-list-item:has(.product-card-link > .label-information)
 eplecaki.pl##.GoogleReviewButton, .offset-left
 erli.pl###root > header ~ div:has(~ footer) a[href*="/gazetka"]
+erste.pl##.advertisingBar
 espritshop.pl##.smartappbanner
 estradaistudio.pl##.sticked.newsletter-custom
 eurobank.pl###labelElements
@@ -673,6 +674,7 @@ mailerlite.com##.promo-banner-container
 makeup.pl##.banner-about-app-popup
 mall.pl##.flt-bnr
 mamabezrecepty.pl##footer > .tips
+mamyito.pl##div[class*="MarketingPopover_popover_"]
 manada.pl##.sidebar-banners
 marax.eu###pierwsza_ikona, .vertical-button
 marbo-sport.pl###menu_basket_widget
