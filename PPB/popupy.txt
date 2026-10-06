@@ -108,11 +108,10 @@ astromagia.pl,gazeta.pl,kulturaliberalna.pl,mohito.com,monacollection.pl,ochnik.
 astromagia.pl,gazeta.pl,kulturaliberalna.pl,mohito.com,monacollection.pl,ochnik.com,porcelana.pl,reserved.com,taniaksiazka.pl,winnicalidla.pl,znak.com.pl##.newsletter-popup-bg
 astromagia.pl,gazeta.pl,mohito.com,monacollection.pl,ochnik.com,porcelana.pl,reserved.com,taniaksiazka.pl,winnicalidla.pl,znak.com.pl##.newsletter-popup-overlay
 astromagia.pl,gazeta.pl,mohito.com,monacollection.pl,ochnik.com,porcelana.pl,reserved.com,taniaksiazka.pl,winnicalidla.pl,znak.com.pl##.newsletter-popup__overlay
-atakto.pl,nagaba.pl##:root:not([style*="hidden"]) :is(#yl-popup-wrapper-popupNewsletter, .yl-popup-transparent)
-atakto.pl,nagaba.pl###yl-popup-wrapper-popupNewsletter, .yl-popup-transparent { display: none !important }
 atakto.pl,mypersonaltrainer.pl##.popup-container, .yl-popup-wrapper { display: none !important }
-zarabiajnanieruchomosciach.pl###yl-popup-wrapper-popupBook, #yl-popup-shadow-popupBook { display: none !important }
 atakto.pl,mypersonaltrainer.pl,zarabiajnanieruchomosciach.pl##:root[style*="overflow"] { overflow-y: auto !important; margin-right: 0 !important; padding-right: 0 !important }
+atakto.pl,nagaba.pl###yl-popup-wrapper-popupNewsletter, .yl-popup-transparent { display: none !important }
+atakto.pl,nagaba.pl##:root:not([style*="hidden"]) :is(#yl-popup-wrapper-popupNewsletter, .yl-popup-transparent)
 atat.pl,bananki.pl,chemia-atat.pl,elektryka-atat.pl,oswietlenie-atat.pl,papis.pl,zywnosc-atat.pl###exitpopup, #exitpopup_bg
 aterima-med.pl##.popup-wrapper
 atrakcje.com.pl,blog.atrakcjenaimprezy.pl###boxes
@@ -892,6 +891,7 @@ yerbamarket.com###dialog_cover, #dialog_wrapper_sub
 yoursclothing.pl##.js-overlay, .slideInBox
 yoursclothing.pl##.slide-in-box--newsletter
 zaadoptujfaceta.pl##body > .v3:nth-of-type(5)
+zarabiajnanieruchomosciach.pl###yl-popup-wrapper-popupBook, #yl-popup-shadow-popupBook { display: none !important }
 zawojski.pl##.news-overlay
 zblogowani.pl###more-posts-modal
 zdrowazupa.pl###container-module-newletter
