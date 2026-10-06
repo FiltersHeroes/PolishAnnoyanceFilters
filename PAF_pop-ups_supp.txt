@@ -1,6 +1,7 @@
 ! Codename: Pop-ups - supplement
 ||mailerlite.com^$3p,important,domain=beitadmin.pl
 !@ >>>>>>>> popupy_suplement + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
+!atakto.pl,mytrendyphone.pl##div[id^="om-holder-campaign-"].om-holder-fixed.om-holder
 !instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
 !kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
 a2mobile.pl,brakeparts.pl,bukmacherstwo.info,endo.pl,epione.pl,gomobi.pl,hairbyjul.pl,hrstandard.pl,leaselink.pl,linux-magazine.pl,marfafashion.com,market24.com.pl,mspdion.org.pl,nagaba.pl,nck.pl,niepodlewam.pl,nowyobywatel.pl,polferries.pl,polskiekoldry.pl,poradnik-dyrektora.pl,porcelanaart.pl,premiummobile.pl,quiosque.pl,sanbetdevelopment.pl,sleepandglow.pl,techmlek.com.pl,trespass.pl,zabawki.esklep.info,zegarkiipasja.pl##html:style(overflow-y: auto !important)
@@ -22,8 +23,6 @@ apynews.pl,gameonly.pl,hardreset.info,kocmyrzow-luborzyca.ug.gov.pl,mamalla.pl,m
 apynews.pl,gameonly.pl,ps-plus.pl###fb-modal, .modal-backdrop
 art.sarzynski.com.pl,autonaminuty.org,foodsbrothers.pl,kosapopatelni.pl,lesniow.pl,texacopolska.pl##.mfp-bg.mfp-ready, .mfp-wrap.mfp-ready
 art.sarzynski.com.pl,foodsbrothers.pl,lesniow.pl,texacopolska.pl##html[style*="overflow"]:style(overflow-y: auto !important; margin-right: 0 !important; padding-right: 0 !important)
-atakto.pl,mypersonaltrainer.pl##.popup-container, .yl-popup-wrapper
-atakto.pl,mytrendyphone.pl##div[id^="om-holder-campaign-"].om-holder-fixed.om-holder
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-body-scroll-prevented[class]:style(touch-action: auto !important)
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal, .tp-backdrop
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal-open[class]:style(position: static !important; overflow-y: auto !important)
@@ -223,7 +222,6 @@ zabawki.esklep.info##+js(set-cookie, sStore_news, 1)
 zadowolenie.pl##.modal:has(img[src*="ZDW_NL_box"])
 zakupy.auchan.pl##+js(set-cookie, startup_popup_closed, true)
 zakupy.intermarche.pl##+js(set-cookie, loginPopupDisabled, true)
-zarabiajnanieruchomosciach.pl###yl-popup-wrapper-popupBook, #yl-popup-shadow-popupBook
 zegarkiipasja.pl##.ng-scope.emelu-lightbox-target
 zico-bike.pl###Widget5, #Widget6
 zivada.pl##.information.bs-dialog[class*="custom"], .bs-dialog-overlay
