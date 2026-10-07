@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Mon, 05 Oct 2026, 00:23 UTC+02:00
-! Version: 2026.10.5.0
+! Last modified: Wed, 07 Oct 2026, 22:41 UTC+02:00
+! Version: 2026.10.7.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 05 paź 2026, 00:23 UTC+02:00
+! Aktualizacja: śro, 07 paź 2026, 22:41 UTC+02:00
 !
 !
 !
@@ -73,7 +73,7 @@ businessinsider.com.pl,noizz.pl##.pushBell
 ccc.eu,crocs.pl##.webpush-wrapper
 ceneo.pl###notifications-toast
 chillizet.pl,radiozet.pl,~www.radiozet.pl##.btn-notif
-codziennypoznan.pl,ipolska24.pl##.perfecty-push-dialog-box
+codziennypoznan.pl,ipolska24.pl,miuipolska.pl,newsnadzis.pl##.perfecty-push-dialog-container, .perfecty-push-dialog-box
 ding.pl#?#button[class] ~ div[class*="_"][style*="transition"][style*="opacity"][style*="margin"]:has(span:has-text(/^Powiadomienia$/))
 eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-alert-container
 eurosport.tvn24.pl,lidl.pl,wamiz.pl###batchsdk-ui-banner
@@ -95,7 +95,6 @@ minecraft.org.pl##[aria-label="Powiadomienia"]
 moneygrabbing.co.uk###foxpush_native_html
 mtech.pl##.alertContainer
 mvno-gsm.pl###webpushr-prompt-wrapper
-newsnadzis.pl##.perfecty-push-dialog-container
 noizz.pl##.pushDefaultPopUp
 ogrodosfera.pl##.bell-container
 onet.pl##.notificationPrompt
