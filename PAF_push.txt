@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Web Push Notifications
 ! Codename: Web Push
 ! Description: Filtry ukrywające i blokujące powiadomienia web push.
-! Last modified: Wed, 07 Oct 2026, 22:41 UTC+02:00
-! Version: 2026.10.7.0
+! Last modified: Fri, 09 Oct 2026, 20:31 UTC+02:00
+! Version: 2026.10.9.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 07 paź 2026, 22:41 UTC+02:00
+! Aktualizacja: pią, 09 paź 2026, 20:31 UTC+02:00
 !
 !
 !
@@ -24,7 +24,7 @@
 /firebase-push.js$domain=cafago.com|tomtop.com
 /firebase/firebase-messaging.js$script,domain=kobieceinspiracje.pl
 /firebase/subscribe.js$domain=czesciauto24.pl
-/firebasejs/*/firebase*.js$script,third-party,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|newsmaxpolska.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl|zapytaj.onet.pl
+/firebasejs/*/firebase*.js$script,third-party,domain=cdax.pl|dobreprogramy.pl|fotka.com|ktomalek.pl|newsblog.pl|newsmaxpolska.pl|pl.dreamstime.com|player.pl|punkt.media|tvn.pl|www.onet.pl|~www.tvn.pl
 /firebasejs/*/firebase-app.js$script,domain=parkiet.com
 /javascript/notifi.min.js$domain=antyradio.pl|chillizet.pl|planeta.fm|planeta.pl|radiozet.pl
 /push-notification$script,domain=opieka.farm
@@ -32,7 +32,7 @@
 /rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
 /snr-sw.js$script,domain=mediaexpert.pl|pl.kruk.eu
 /store/web-push-settings$xmlhttprequest,domain=adventuresports.pl
-/sw-push.js$script,domain=m.zapytaj.onet.pl|medonet.pl
+/sw-push.js$script,domain=medonet.pl
 /sw-rmf-push.js$script,domain=rmf.fm|rmf24.pl|rmfclassic.pl|rmfmaxxx.pl|rmfon.pl
 /sw.js$domain=adaware.com|optes.pl|podaj.to|taniesoczewki.pl
 /web-push-odin/web-push-odin-pre.$script,domain=binance.com
@@ -85,7 +85,6 @@ investmap.pl#?#main > div > div:has(> a[href*="opinie"] + button) + div:has-text
 km.auto.pl,mokar.pl,saros.com.pl,wazcar.pl###push-notification-button
 krosno24.pl##.sw-notification-alert
 kupbilecik.pl###btn-notification
-m.zapytaj.onet.pl,zapytaj.onet.pl##.notification-widget
 mbank.pl###push-message
 meczyki.pl##.notifications-icon
 mediarun.com##.jeg_push_notification
@@ -117,7 +116,6 @@ urban-vpn.com##.rgbc-slidedown-dialog
 wnp.pl##amp-web-push-widget
 www.interia.pl##header.page-header:has(#header_push_list .push-list-lock ~ .push-list-ul:empty) nav .push-number:only-child:not(:has(> *))
 zakupersi.com###footer-news > div:only-child > div:nth-child(2)
-zapytaj.onet.pl##.push-notification-box
 zdrowie.pap.pl##section ~ span[onclick="window.scrollTo(0, 0);"]
 !
 !
