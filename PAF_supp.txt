@@ -948,7 +948,7 @@ yigf.nask.pl###gdprNotice
 zagojeni.pl##.rodo-overlay
 zagojeni.pl##body.overflow-y:style(overflow-y: auto !important)
 zakupy.auchan.pl##.cookie-modal
-zakupy.auchan.pl##:root[style], body[style]:style(overflow-y: auto !important)
+zakupy.auchan.pl##[style*="overflow"]:is(:root, body):style(overflow-y: auto !important)
 zamowienia.gbl.waw.pl###login-modal, .modal-backdrop
 zawszepomorze.pl###zp-gtm-scripts-modal
 zawszepomorze.pl##.zp-gtm-scripts--blur:style(filter: none !important)
