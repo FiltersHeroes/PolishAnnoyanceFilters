@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 11 Oct 2026, 21:37 UTC+02:00
-! Version: 2026.10.11.1
+! Last modified: Sun, 11 Oct 2026, 23:43 UTC+02:00
+! Version: 2026.10.11.2
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 paź 2026, 21:37 UTC+02:00
+! Aktualizacja: nie, 11 paź 2026, 23:43 UTC+02:00
 !
 !
 !
@@ -252,6 +252,7 @@ bestcena.pl##div[class^="newsletter-box"]
 bestprezenty.pl###snippet-newsletter-newsletter
 bezgluten.pl###footer > div:first-of-type > div:first-of-type
 bezmiesnymiesny.pl,clover.net.pl,ovczarnia.pl,swiatobuwia.com,wearethecoffee.com##div[class^="shb-newsletter-widget"]
+bezokularow.pl##.newsletter_wrap_get_response
 bezpieczenstwo.chorzow.eu##.newsletter.col-sm-12
 bi1.pl##.home__newsletter
 bi1.pl,e-sporting.pl,javappa.com,lapcenter.pl,obserwatorfinansowy.pl,sephora.pl###newsletterForm
@@ -1503,6 +1504,7 @@ sklep.olekmotocykle.pl##.footer-col4 > h3.footer-colTitle:first-of-type
 sklep.polityka.pl###sidebar1 > div:nth-of-type(2)
 sklep.polska-zbrojna.pl##.newsletter-widget-4
 sklep.powermat.pl##div.foot-group:nth-of-type(4) > .list-group > h5 > a[href="#"]
+sklep.prymat.pl##.homepage-bottom > div:has(> div:only-child > div:only-child > div:only-child)
 sklep.rai-bud.pl##div.CalyBox:nth-of-type(3)
 sklep.regalia.eu##footer > .row > .footer-block:only-child
 sklep.sizeer.com##.b-footer_newsletter
