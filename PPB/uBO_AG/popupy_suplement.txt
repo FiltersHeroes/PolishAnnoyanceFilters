@@ -78,6 +78,8 @@ lo1-kochanowski.pl,sp-7.pl##+js(set-cookie, tpgwcc, 1)
 lumarte.eu##.ui-widget-overlay:remove()
 lumarte.eu##.ui-widget.ui-dialog:remove()
 market24.com.pl,porcelanaart.pl,zabawki.esklep.info###dont_go_overlay
+market24.com.pl,porcelanaart.pl,zabawki.esklep.info##+js(set-cookie, sStore_dont, 1)
+market24.com.pl,porcelanaart.pl,zabawki.esklep.info##+js(set-cookie, sStore_news, 1)
 marketdino.pl##+js(set-cookie, newsletter_dismissed, true)
 marketdino.pl##+js(set-cookie, popup-1-dismissed, true)
 marketdino.pl##.freeze:style(position: static !important; overflow-y: auto !important)
@@ -95,7 +97,6 @@ niezlasztuka.net##+js(nostif, i(), 35000)
 njumobile.pl##+js(aopr, window.onbeforeunload)
 nowyrp.pl##.offers-popup
 oknoline.pl###modalSocial
-rolety24.net##+js(set-cookie, r24_np_seen, 1)
 onedaymore.pl##.modal-content
 onedaymore.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 open.fm##+js(aeld, unload)
@@ -128,6 +129,7 @@ prawokonsumenckie.pl##body:style(overflow-y: auto !important; height: initial !i
 produktyzyskajzdrowie.pl##.popmake-overlay
 produktyzyskajzdrowie.pl##html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay:style(overflow-y: auto !important)
 rolety24.net###r24np-root, .r24np-root
+rolety24.net##+js(set-cookie, r24_np_seen, 1)
 rolety24.net##body:style(overflow-y: auto !important)
 rowery-elektryczne.pl###popup, #popup-overlay
 samochod.porowneo.pl###modalContainer
@@ -166,8 +168,6 @@ www.facebook.com##body > div.uiLayer[style="opacity: 1; min-width: 40px;"]:has(>
 www.microsoft.com###email-newsletter-dialog
 www.pkobp.pl##.locked-scroll:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important)
 www.pkobp.pl##.modal:has(form[id*="exitpopup"])
-market24.com.pl,porcelanaart.pl,zabawki.esklep.info##+js(set-cookie, sStore_dont, 1)
-market24.com.pl,porcelanaart.pl,zabawki.esklep.info##+js(set-cookie, sStore_news, 1)
 zadowolenie.pl##.modal:has(img[src*="ZDW_NL_box"])
 zakupy.auchan.pl##+js(set-cookie, startup_popup_closed, true)
 zakupy.intermarche.pl##+js(set-cookie, loginPopupDisabled, true)
