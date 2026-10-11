@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 11 Oct 2026, 14:26 UTC+02:00
-! Version: 2026.10.11.2
+! Last modified: Sun, 11 Oct 2026, 14:31 UTC+02:00
+! Version: 2026.10.11.3
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 paź 2026, 14:26 UTC+02:00
+! Aktualizacja: nie, 11 paź 2026, 14:31 UTC+02:00
 !
 !
 ! Newslettery (nie popupy)
@@ -4951,7 +4951,7 @@ ekorekta24.pl##.opineo-link
 ekorekta24.pl,multilampy.pl##.opineo
 electro.pl##.is-complaintReport
 elektronicznypodpis.pl##.bubble, #chat-bot, .WatsonAssistantChatHost
-elevenlabs.io##.tw-align-top.tw-inline-flex.tw-relative
+elevenlabs.io##div[data-floating-agent]
 eltrox.pl###messageIcon, .tooltip2
 endo.pl##.contact-container
 energylandia.pl##.floating-facebook-button
