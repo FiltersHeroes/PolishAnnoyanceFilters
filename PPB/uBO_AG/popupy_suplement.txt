@@ -1,7 +1,7 @@
 !atakto.pl,mytrendyphone.pl##div[id^="om-holder-campaign-"].om-holder-fixed.om-holder
 !instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
 !kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
-a2mobile.pl,brakeparts.pl,bukmacherstwo.info,endo.pl,epione.pl,gomobi.pl,hairbyjul.pl,hrstandard.pl,leaselink.pl,linux-magazine.pl,marfafashion.com,market24.com.pl,mspdion.org.pl,nagaba.pl,nck.pl,niepodlewam.pl,nowyobywatel.pl,polferries.pl,polskiekoldry.pl,poradnik-dyrektora.pl,porcelanaart.pl,premiummobile.pl,quiosque.pl,sanbetdevelopment.pl,sleepandglow.pl,techmlek.com.pl,trespass.pl,zabawki.esklep.info,zegarkiipasja.pl##html:style(overflow-y: auto !important)
+a2mobile.pl,brakeparts.pl,bukmacherstwo.info,endo.pl,epione.pl,gomobi.pl,hairbyjul.pl,hrstandard.pl,leaselink.pl,linux-magazine.pl,marfafashion.com,market24.com.pl,mspdion.org.pl,nagaba.pl,nck.pl,niepodlewam.pl,nowyobywatel.pl,polferries.pl,polskiekoldry.pl,poradnik-dyrektora.pl,porcelanaart.pl,premiummobile.pl,quiosque.pl,sanbetdevelopment.pl,techmlek.com.pl,trespass.pl,zabawki.esklep.info,zegarkiipasja.pl##html:style(overflow-y: auto !important)
 abrakadabra.sklep.pl,alesoczewki.com,all4home.pl,confronter.pl,dedekor.pl,dragonmask.pl,e-sas.pl,ekodrogeria.pl,fmmobile.pl,giacomo.pl,kamami.pl,karo.waw.pl,linux-magazine.pl,mensahome.eu,nagaba.pl,narzedziak.pl,nck.pl,onedaymore.pl,poradnik-dyrektora.pl,prnews.pl,przemysl.pl,quiosque.pl,sklep.polmarkus.com.pl,sklepkamil.pl,testerzy.pl,ubraniadooddania.pl,wynagrodzenia.pl,zadowolenie.pl##.modal-backdrop
 action.com##+js(set-local-storage-item, newsletterPopupCount, 1)
 agrarada.pl###basic-modal-content iframe[src*="autoplay=1"]:remove()
@@ -95,18 +95,7 @@ niezlasztuka.net##+js(nostif, i(), 35000)
 njumobile.pl##+js(aopr, window.onbeforeunload)
 nowyrp.pl##.offers-popup
 oknoline.pl###modalSocial
-oko.press##+js(set-cookie, animated-donation-icon, true)
-oko.press##+js(set-cookie, exit-popup-poczekaj, true)
-oko.press##+js(set-cookie, exit_temat_kategoria1, true)
-oko.press##+js(set-cookie, exit_temat_kategoria2, true)
-oko.press##+js(set-cookie, exit_temat_kategoria3, true)
-oko.press##+js(set-cookie, exit_temat_kategoria, true)
-oko.press##+js(set-cookie, support-popup-skarbonka, true)
-oko.press##+js(set-cookie, support_popup, true)
-oko.press##+js(set-cookie, support_popup_15procent, true)
-oko.press##+js(set-cookie, support_popup_15procent_1, true)
-oko.press##+js(set-cookie, support_popup_15procent_2, true)
-oko.press##+js(set-cookie, support_popup_15procent_3, true)
+rolety24.net##+js(set-cookie, r24_np_seen, 1)
 onedaymore.pl##.modal-content
 onedaymore.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 open.fm##+js(aeld, unload)
@@ -145,6 +134,9 @@ samochod.porowneo.pl###modalContainer
 samochod.porowneo.pl##.noScroll:style(position: static !important)
 sanbetdevelopment.pl##.breakdance-popup-open
 shopcademy.pl##.kadence-conversion, .kadence-conversion-overlay
+sleepandglow.pl##+js(set-constant, mailing-hide, true)
+sleepandglow.pl##+js(set-constant, mailing_second-hide, true)
+sleepandglow.pl##.noscroll:is(body, html):style(overflow-y: auto !important)
 sleepandglow.pl##.pp__mailing, .pp__mailing_second
 sofine.pl##+js(nosiif, popcount, 1000)
 spidersweb.pl##.mfp-wrap:has(.popoup-content)
@@ -174,8 +166,8 @@ www.facebook.com##body > div.uiLayer[style="opacity: 1; min-width: 40px;"]:has(>
 www.microsoft.com###email-newsletter-dialog
 www.pkobp.pl##.locked-scroll:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important)
 www.pkobp.pl##.modal:has(form[id*="exitpopup"])
-zabawki.esklep.info##+js(set-cookie, sStore_dont, 1)
-zabawki.esklep.info##+js(set-cookie, sStore_news, 1)
+market24.com.pl,porcelanaart.pl,zabawki.esklep.info##+js(set-cookie, sStore_dont, 1)
+market24.com.pl,porcelanaart.pl,zabawki.esklep.info##+js(set-cookie, sStore_news, 1)
 zadowolenie.pl##.modal:has(img[src*="ZDW_NL_box"])
 zakupy.auchan.pl##+js(set-cookie, startup_popup_closed, true)
 zakupy.intermarche.pl##+js(set-cookie, loginPopupDisabled, true)
