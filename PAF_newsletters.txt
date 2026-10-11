@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 11 Oct 2026, 14:48 UTC+02:00
-! Version: 2026.10.11.0
+! Last modified: Sun, 11 Oct 2026, 21:37 UTC+02:00
+! Version: 2026.10.11.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 11 paź 2026, 14:48 UTC+02:00
+! Aktualizacja: nie, 11 paź 2026, 21:37 UTC+02:00
 !
 !
 !
@@ -95,7 +95,7 @@ agriaffaires.pl###js-newsletterBlock
 agrieko.pl##.footer_NewsletterBox
 agrihandler.pl##.footermain__col:has(> .footermain__newsshort)
 agrii.pl##.newsletter > :nth-child(-n+3)
-agro-sklep.com,panele24.com.pl##.contNewsLetter
+agro-sklep.com,ksiegarnia.sklep2.pl,panele24.com.pl##.contNewsLetter
 agrodoradca24.pl##.newsletter-online
 agromat.pl##.column-double.content > .flex
 agromr.eu,e-hurtowo.eu,follynail.com,goldplants.eu,interlumen.com,ogrodzenia24.eu##.ModulNewsletter
@@ -338,6 +338,7 @@ caritaspoznan.pl##.subReqArea.contentItem
 carpetvista.pl##.g-padTstd.r-5cols.std > div.r-colspan1.r-col:nth-of-type(4)
 carrefour.pl##.push-newsletter
 carry.pl,tani-laptop.com###block_newsletter
+casfera.pl,kariera.pl##.article-newsletter
 cba.pl##.links > div > div:nth-of-type(4)
 cebit.pl##a[href="http://net.cebit.pl/newsletter/"]
 cebule-kwiatowe.pl,inpostpay.pl##.newsletterBar
@@ -400,7 +401,7 @@ cortland.pl##.letter
 costa.pl###wrapper-newsletter
 cottonina.pl##.in-viewport.t-alt.relative
 cozaile.pl##.c-guide-newsletter
-crazyshop.pl,elle.pl,partybox.pl,portalzp.pl##.bottom-newsletter
+crazyshop.pl,elle.pl,helion.pl,onepress.pl,partybox.pl,portalzp.pl##.bottom-newsletter
 crocs.pl,pl.pandora.net##.footer-email-signup
 cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
 crystal-albums.pl,monikahonory.pl,wielkishoe.com##.ml-subscribe-form.ml-form-embedContainer
@@ -629,6 +630,7 @@ finereader.pl##.formularz.row, .text-uppercase.mb-2.font17.bold.text-white
 firefox.com##.fl-newsletterform-cta
 firma.kaufland.pl##.kfld-o-newsletter
 fish24.pl##.newsletter_foot
+fiszki.pl##.shop-subscribe
 fizjoplaner.pl##.ft_nl
 flies-stepbystep.com###widget-7
 florexpol.eu##.section--newsletter
@@ -820,7 +822,6 @@ kabexdocieplenia.eu##.footer-wrapper > .footer > div.f-box:first-of-type > *
 kalkulatorkalorii.net##footer .row-fluid .form-inline, .row-fluid .bs-callout-success
 kam-sport.pl##footer div.col-sm-4.vc_column_container.wpb_column.nm_column:nth-of-type(2) > .vc_column-inner
 kappahl.com###news-footer
-kariera.pl##.article-newsletter
 karmy.com.pl##.c1 > div.box:nth-of-type(9)
 karoseria.eu##.info-newsletter
 karpiowy.pl##.newsletter-group > .container
@@ -1235,6 +1236,7 @@ paroc.pl##.newsletter-subscription-popup
 pasazer.com##.mt-3.newsletter
 pasieka24.pl###Mod238
 patyna.pl##section.fw-row.row:nth-of-type(8)
+pcen.gda.pl##.col-xs-12.col-sm-4
 pch24.pl##.NewsletterBox
 pcomp3000.pl###LewaKolumnaPrzerwa > .CalyBox:nth-of-type(3)
 pcworld.pl###newsletters
@@ -1789,6 +1791,7 @@ wittchen.com###app-footer-newsletter
 wizaz24.pl##.footer > div > div > div:nth-of-type(7) > h3, .footer > div > div > div:nth-of-type(7) > ul:first-of-type
 wkret-met.com##.block-simplenews.block
 wloczkiwarmii.pl###\#newslatter
+wobit.com.pl##.single-col.col-sm-6.col-md-4
 woblink.com###products-group-newsletter
 woda.com.pl##nav > div:nth-of-type(2) > form
 wojciechdzierwa.pl##a.elementor-button[href*="/newsletter"]
