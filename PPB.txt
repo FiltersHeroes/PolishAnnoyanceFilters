@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Fri, 16 Oct 2026, 00:02 UTC+02:00
-! Version: 2026.10.16.0
+! Last modified: Thu, 15 Oct 2026, 22:08 UTC+00:00
+! Version: 2026.10.15.1
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: pią, 16 paź 2026, 00:02 UTC+02:00
+! Aktualizacja: czw, 15 paź 2026, 22:08 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -7230,8 +7230,8 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Required: Do poprawnego działania wymagana jest lista EasyList Cookie List (EasyList - Cookie Notices) wraz z EasyList (Ads) lub AdGuard Base (w produktach AdGuard)!
 !@ Collaborators: MajkiIT, F4z, xxcriticxx, blocker999, hawkeye116477, krystian3w
 !@ Homepage: https://www.certyficate.it/
-!@ Version: 2026.10.11.0
-!@ Last modified: Sun, 11 Oct 2026, 10:27 UTC+00:00
+!@ Version: 2026.10.15.0
+!@ Last modified: Thu, 15 Oct 2026, 22:08 UTC+00:00
 !@ Expires: 2 days
 !@ Support:
 !@   Email => errorsfilters@certyficate.it
@@ -7243,7 +7243,7 @@ polishannoyancefilters.netlify.app###pafdetect
 !@ Copyright © 2026 Certyficate IT
 !@ Copyright © 2026 Filters Heroes
 !@ Najnowsza wersja zawsze na: https://www.certyficate.it/adblock/
-!@ v.2026.10.11.0 aktualizacja: nie, 11 paź 2026, 10:27 UTC+00:00
+!@ v.2026.10.15.0 aktualizacja: czw, 15 paź 2026, 22:08 UTC+00:00
 !@
 !@
 !@ Specyficzne filtry ukrywające
@@ -7913,7 +7913,7 @@ citibank.pl##.CookiesBannerBottom
 citibank.pl##.new-cookie
 citibankonline.pl##.CookiesPopup
 citroen-shop.eu###dm-cookie-popup-container
-citysklep.pl,legalniewsieci.pl,rolma.pl###cookie-modal-wrapper
+citysklep.pl,legalniewsieci.pl,netvet.pl,rolma.pl###cookie-modal-wrapper
 citysklep.pl,rolma.pl##.lws-widget-container
 civitas.edu.pl###cronox-cookie-notice
 ck1.pl##.ci-min.ci-container.ci-data
@@ -9611,6 +9611,7 @@ pl.primo.com##.e-cookie
 pl.thermaltake.com###gdprcode2
 pl.trip.com###use-cookie
 placowka.znanylekarz.pl##.footer-container-wrapper #footer-baner[style*="fixed"]
+plantini.pl##body:has(.cookie-message)::before
 platan.pl###dialog1
 player.pl##.cBox
 player.polskieradio.pl##.termsOfUse
@@ -11811,6 +11812,7 @@ wmglass.com.pl##dialog[cookies-dialog] { remove: true }
 @@||consensu.*/js/cmp.stable.min.js$script,domain=shinden.pl
 @@||mgr.farm/wp-content/plugins/farmacja-popup/inc/popup.js$script,domain=mgr.farm
 @@||pracatobie.pl/jscripts/cookieLaws.js
+@@||privacy-center.org^$script,xmlhttprequest,domain=dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|dziennikzachodni.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|i.pl|kurierlubelski.pl|motofakty.pl|naszahistoria.pl|naszemiasto.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|prasa24.pl|regiodom.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|strefaedukacji.pl|stronakobiet.pl|stronakuchni.pl|stronapodrozy.pl|stronazdrowia.pl|telemagazyn.pl|to.com.pl|tygodnikits.pl|urzadzone.pl|wspolczesna.pl
 @@||sdk.privacy-center.org/*/loader.js$domain=filmweb.pl
 @@||sdk.privacy-center.org/sdk.*.js$domain=filmweb.pl
 adventuresports.pl,dkms.pl#@#.cc-banner:not(body, html)
@@ -11856,13 +11858,15 @@ naekranie.pl#@##modal-rodo-info:not(body, html, .fade, .reveal-modal)
 nat.pl#@##cookieWarning:not(body, html)
 noweinwestycje.pl#@#.cookieBar:not(body, html)
 pap.pl#@##sliding-popup:not(body, html)
+pepper.pl#@##share
 pikio.pl#@##cookie-policy:not(body, html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.overlay-cookie:not(body, html)
 poradykomputerowe.pl,portaloswiatowy.pl#@#.popup-cookie:not(body, html)
 porno720.pl,tvporno.pl#@##cookieinfo:not(body, html)
 przystanki.bialystok.pl#@##cookie-info-box:not(body, html)
-publiczneodtwarzanie.pl,urbancity.pl#@##cookie-modal:not(body, html, .reveal)
+publiczneodtwarzanie.pl,rolmarket.pl,urbancity.pl,wpolu.pl#@##cookie-modal:not(body, html, .reveal)
 puratos.pl,targikielce.pl#@##cookieInfo:not(body, html)
+rolmarket.pl,wpolu.pl#@##RodoCookiesInfo, .modal-backdrop
 selgros.pl#@##cookie_accept:not(body, html)
 sklep-domwhisky.pl#@#.rodo-popup:not(body, html, [style="display: block;"])
 sklep.winkhaus.pl,volcano.pl,webh.pl#@#aside[class*="cookie"]:not([class*="modal" i])
