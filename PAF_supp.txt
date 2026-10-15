@@ -229,9 +229,9 @@ blizejciebie.pl,matopat24.pl,seni24.pl###bh-zgoda-wraper
 bmzch.pl,cupsell.pl##.tingle-modal
 bmzch.pl,cupsell.pl,toyotabank.pl##.tingle-enabled:style(position: static !important; overflow-y: auto !important)
 bogdanca.pl,plichwyscig.pl,sklep.cadprojekt.com.pl##+js(set-cookie, cookies_message_bar_hidden, true)
-bonduelle.pl,decathlon.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,heyah.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,orange.pl,pb.pl,polskapress.pl,polskatimes.pl,pomorska.pl,poranny.pl,prasa24.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,t-mobile.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,urzadzone.pl,wspolczesna.pl###didomi-host, div[class*="didomi-consent-popup__"], #didomiBlockNavigation
-bonduelle.pl,decathlon.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,heyah.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,orange.pl,pb.pl,polskapress.pl,polskatimes.pl,pomorska.pl,poranny.pl,prasa24.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,t-mobile.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,urzadzone.pl,wspolczesna.pl##:root > body.didomi-notification-open:style(position: static !important)
-bonduelle.pl,decathlon.pl,dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,heyah.pl,i.pl,kurierlubelski.pl,motofakty.pl,naszahistoria.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,orange.pl,pb.pl,polskapress.pl,polskatimes.pl,pomorska.pl,poranny.pl,prasa24.pl,regiodom.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronakuchni.pl,stronapodrozy.pl,stronazdrowia.pl,t-mobile.pl,telemagazyn.pl,to.com.pl,tygodnikits.pl,urzadzone.pl,wspolczesna.pl##:root > body.didomi-popup-open, :root > body.didomi-notification-open:style(overflow-y: auto !important)
+bonduelle.pl,decathlon.pl,heyah.pl,orange.pl,pb.pl,polskapress.pl,prasa24.pl,t-mobile.pl###didomi-host, div[class*="didomi-consent-popup__"], #didomiBlockNavigation
+bonduelle.pl,decathlon.pl,heyah.pl,orange.pl,pb.pl,polskapress.pl,prasa24.pl,t-mobile.pl##:root > body.didomi-notification-open:style(position: static !important)
+bonduelle.pl,decathlon.pl,heyah.pl,orange.pl,pb.pl,polskapress.pl,prasa24.pl,t-mobile.pl##:root > body.didomi-popup-open, :root > body.didomi-notification-open:style(overflow-y: auto !important)
 bosch-easycontrol.com###cookielaw, .modal-backdrop
 bosch-home.pl,siemens-home.bsh-group.com##+js(set, T.Module.Layer.CookieLaw, noopFunc)
 bosch-home.pl,siemens-home.bsh-group.com##.cookielaw-modal-layer
@@ -414,6 +414,11 @@ fabrykacukiernika.pl##.rodo-on:style(overflow-y: auto !important)
 fabrykacukiernika.pl##.rodo-popup
 fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > *:style(color: initial)
 fc.pl##body > #container > #content > div:not([id]):not([class]):last-child:has-text(plików cookies) > :last-child:nth-child(4):upward(1):style(color: #0000)
+fcinter.pl##.cookie-consent-banner
+fcinter.pl##.cookie-consent-modal-overlay
+fcinter.pl##.cookie-consent-page-overlay
+fcinter.pl##body.cookie-consent-pending > [inert]:remove-attr(inert)
+fcinter.pl##body.cookie-consent-pending:not(.auth-modal-open, .search-modal-open):style(overflow-y: auto !important)
 fdm.pl##.cms-popup, .cms-popup-backdrop
 fdm.pl##.cms-popup-open:style(overflow-y: auto !important)
 fermo.pl##.amgdprjs-bar-template
@@ -436,7 +441,7 @@ fotowoltaika.planergia.pl##+js(set-local-storage-item, cookies, true)
 foursquare.com##+js(set, fourSq.cookies.CookieBanner, noopFunc)
 franklintempleton.pl##.modal-gateway-modal.modal-gateway.modal, .modal-backdrop
 frisco.pl##.modal-new_overlay:has(.cookies-consents)
-frisco.pl##:root.with-popup:style(overflow-y: scroll !important; padding-right: 0 !important)
+frisco.pl##:root.with-popup:style(overflow-y: auto !important; position: static !important; padding-right: 0 !important)
 fxpro.pl##body.backdrop:style(overflow-y: auto !important)
 fxpro.pl##popup-cookies, body::after
 g2a.com##.modal__curtain:has(div[class*="cookies"][class*="agreements"])
@@ -749,7 +754,7 @@ pro-fryz.pl##.fupi_blur:remove-class(fupi_blur)
 przydomu.pl###popup_25
 przydomu.pl##.container:style(filter: none !important)
 przystanki.bialystok.pl##+js(set-local-storage-item, cookie-accepted, 1)
-publiczneodtwarzanie.pl,skin79-sklep.pl###cookie-modal, .modal-backdrop
+publiczneodtwarzanie.pl,rolmarket.pl,skin79-sklep.pl,wpolu.pl###cookie-modal, .modal-backdrop
 pum.edu.pl##.js-rodo-info
 puma.com###modal-geoip-cookies, .modal-backdrop
 puratos.pl###cookieBannerModal, .modal-backdrop
@@ -780,6 +785,8 @@ reserved.com##div[class][data-selen-group="cookies-bar"] ~ div[style*="position"
 restilo.pl##.modals-wrapper:has(.pr-cookie-modal-wall)
 restilo.pl##body._has-modal:style(position: static !important; overflow-y: auto !important)
 revolutionrace.pl##.body--modal[class]:style(position: static !important)
+rolmarket.pl,wpolu.pl##.cookie-button
+rolmarket.pl,wpolu.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important)
 rydzewski.pl###linijka2:style(color: #0000)
 samasz.pl###popup-19391-, .modal-backdrop
 san.edu.pl##.cookies, .modal-backdrop
@@ -899,7 +906,7 @@ visa.pl##div#CookieReportsPanel
 vivaldi.com##+js(set-cookie, acceptedCookies, true)
 vod3.pl##body #cookie-banner
 volcano.pl##.modals-wrapper:has(.cookies-modal)
-vuse.com##.stop-scroll:style(overflow-y: scroll !important;)
+vuse.com##.stop-scroll:style(overflow-y: auto !important;)
 vuse.com##div[class^="Cookies_cookieWrapper_"]
 vwbank.pl###modal-cookie-disclaimer, #modal-cookie-disclaimer ~ .modal-backdrop
 vwbank.pl,vwfs.pl###cookie-manage-button-control
@@ -1293,6 +1300,7 @@ domhouse.pl##:root.fancybox-margin:style(margin-right: 0 !important)
 doz.pl#%#//scriptlet('set-cookie-reload', 'consent-granted', '1')
 drogeriekoliber.pl$$[class="popmake-overlay"][tag-content="naszej Polityce Prywatności"]
 espedytor.pl#%#//scriptlet('set-cookie-reload', 'zgodaRODO', 'true')
+fcinter.pl#%#//scriptlet('remove-attr', 'inert', 'body.cookie-consent-pending > [inert]')
 filmboxlive.com##.mobox-active:style(overflow-y: auto !important)
 filmboxlive.com##.mobox-wrapper:has(.cookie-policy-popup)
 filmboxlive.com##.mobox-wrapper:style(overflow-y: auto !important)
@@ -1329,6 +1337,7 @@ e-urzad.grodzisk.pl,inpzu.pl,opal-bud.pl,socofe.pzu.pl,www.kayak.pl#@#:root.cdk-
 e-urzad.grodzisk.pl,inpzu.pl,opal-bud.pl,socofe.pzu.pl,www.kayak.pl#@#:root.cdk-global-scrollblock:remove-class(cdk-global-scrollblock)
 erbis.com.pl,goodram.com#@#body.cookie-opened:remove-class(cookie-opened)
 eschenker.dbschenker.com#@#[style*="pointer-events"][style*="none"]:remove-attr(style)
+fcinter.pl#@#body.cookie-consent-pending > [inert]:remove-attr(inert)
 media.netflix.com#@#body[id="cookieAlert"]:remove-attr(id)
 memo-book.pl#@#:root.rodo-locked:remove-class(rodo-locked)
 memo-book.pl#@#body.rodo-locked:remove-class(rodo-locked)
