@@ -1,5 +1,3 @@
-mgsm.pl##.popup-overlay
-mgsm.pl##[style*="overflow"]:is(body, :root):style(overflow-y: auto !important)
 !atakto.pl,mytrendyphone.pl##div[id^="om-holder-campaign-"].om-holder-fixed.om-holder
 !instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
 !kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
@@ -7,7 +5,7 @@ a2mobile.pl,brakeparts.pl,bukmacherstwo.info,endo.pl,epione.pl,gomobi.pl,hairbyj
 abrakadabra.sklep.pl,alesoczewki.com,all4home.pl,confronter.pl,dedekor.pl,dragonmask.pl,e-sas.pl,ekodrogeria.pl,fmmobile.pl,giacomo.pl,kamami.pl,karo.waw.pl,linux-magazine.pl,mensahome.eu,nagaba.pl,narzedziak.pl,nck.pl,onedaymore.pl,poradnik-dyrektora.pl,prnews.pl,przemysl.pl,quiosque.pl,sklep.polmarkus.com.pl,sklepkamil.pl,testerzy.pl,ubraniadooddania.pl,wynagrodzenia.pl,zadowolenie.pl##.modal-backdrop
 action.com##+js(set-local-storage-item, newsletterPopupCount, 1)
 agrarada.pl###basic-modal-content iframe[src*="autoplay=1"]:remove()
-alesoczewki.com,dedekor.pl,dragonmask.pl,ekodrogeria.pl,fastestvpn.com,fmmobile.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
+alesoczewki.com,dedekor.pl,dragonmask.pl,ekodrogeria.pl,fastestvpn.com,fmmobile.pl,onedaymore.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 all4home.pl###myWorningNewsletterPopUp
 allegro.pl##[data-opbox-fragment-pathname="/koszyk/warstwa"] > [data-box-name="precart-layer"]
 allegro.pl##div[data-box-name="Other Offers Container"][style]:style(z-index: 1 !important; pointer-events: auto !important)
@@ -61,7 +59,7 @@ hammerphones.com###o_shared_blocks:has(set-cookie, sPopup1785237000496, true)
 hammerphones.com##body[style*="overflow"]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 hugle.pl###newsletterpopup.newsletterpopup.bingo-modal:not([dimita_lpopup\:1]), .popupshadow
 ideaart.com.pl##body > div
-ideaart.com.pl##body:style(overflow-y: auto !important)
+ideaart.com.pl,rolety24.net##body:style(overflow-y: auto !important)
 kamami.pl##.popnewsletter
 kamami.pl##body:style(overflow-y: auto !important;)
 karo.waw.pl###skNewsletterPopupOverlay, #skNewsletterPopupForm
@@ -92,6 +90,8 @@ mbmeganarzedzia.pl,parkmania.pl,pl.wizcase.com,pozyczkabezbanku.pl##+js(nostif, 
 mbmeganarzedzia.pl,parkmania.pl,pl.wizcase.com,pozyczkabezbanku.pl##bio_ep, #bio_ep_bg
 megogo.net##[class*="-megogo-rotatorLanding_"].show-as-popup.widget
 mencare.pl##.modal
+mgsm.pl##.popup-overlay
+mgsm.pl##[style*="overflow"]:is(body, :root):style(overflow-y: auto !important)
 moora.pl##.showed-iqitpopup, .showed-iqitpopupo
 mspdion.org.pl,termyszaflary.com##.fancybox-overlay
 nck.pl##.ncknewsletter-modal
@@ -102,7 +102,6 @@ njumobile.pl##+js(aopr, window.onbeforeunload)
 nowyrp.pl##.offers-popup
 oknoline.pl###modalSocial
 onedaymore.pl##.modal-content
-onedaymore.pl##.modal-open[class]:style(overflow-y: auto !important; padding-right: 0 !important; margin-right: 0 !important)
 open.fm##+js(aeld, unload)
 opoczno.eu,royalpark.pl##:root.fancybox-lock:style(overflow-y: auto !important; margin-right: 0 !important)
 osada-sniezka.pl##.wa-popup
@@ -134,7 +133,6 @@ produktyzyskajzdrowie.pl##.popmake-overlay
 produktyzyskajzdrowie.pl##:root.pum-open.pum-open-overlay, :root.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay:style(overflow-y: auto !important)
 rolety24.net###r24np-root, .r24np-root
 rolety24.net##+js(set-cookie, r24_np_seen, 1)
-rolety24.net##body:style(overflow-y: auto !important)
 rowery-elektryczne.pl###popup, #popup-overlay
 samochod.porowneo.pl###modalContainer
 samochod.porowneo.pl##.noScroll:style(position: static !important)
