@@ -1,5 +1,3 @@
-biedronka.pl###dialog-popup
-biedronka.pl##body > [inert]:remove-class([inert])
 !atakto.pl,mytrendyphone.pl##div[id^="om-holder-campaign-"].om-holder-fixed.om-holder
 !instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
 !kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
@@ -30,6 +28,8 @@ avita.pl,educol.pl,jan-mar.pl,pionierbhp.pl,pracownia-manufaktura.pl,wiener.pl##
 bambineo.pl,pupilexpert.pl##.fancybox-container:has(#popup-newsletter, #newsletter_popup)
 bezokularow.pl,scentre.pl##body.gr-body-popup-open[class]:style(overflow-y: auto !important)
 bezokularow.pl,scentre.pl##div[data-gr="popup-container"]
+biedronka.pl###dialog-popup
+biedronka.pl##body > [inert]:remove-class([inert])
 bielenda.com##+js(set-local-storage-item, _km_pg_last_seen, true)
 carrefour.pl##body[style]:style(overflow-y: auto !important; padding-right: 0 !important)
 carrefour.pl##div[class*="jss"][role="dialog"]:has(> div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
