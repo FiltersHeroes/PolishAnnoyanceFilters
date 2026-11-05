@@ -34,6 +34,8 @@ avita.pl,educol.pl,jan-mar.pl,pionierbhp.pl,pracownia-manufaktura.pl,wiener.pl##
 bambineo.pl,pupilexpert.pl##.fancybox-container:has(#popup-newsletter, #newsletter_popup)
 bezokularow.pl,scentre.pl##body.gr-body-popup-open[class]:style(overflow-y: auto !important)
 bezokularow.pl,scentre.pl##div[data-gr="popup-container"]
+biedronka.pl###dialog-popup
+biedronka.pl##body > [inert]:remove-class([inert])
 bielenda.com##+js(set-local-storage-item, _km_pg_last_seen, true)
 carrefour.pl##body[style]:style(overflow-y: auto !important; padding-right: 0 !important)
 carrefour.pl##div[class*="jss"][role="dialog"]:has(> div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
@@ -298,6 +300,8 @@ bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl#$#html { overflow: auto !important; margin-right: 0 !important }
 bartek.com.pl$$script[tag-content="popupNewsletter"]
 bezokularow.pl,chinytolubie.pl,cyberprofilaktyka.pl,kalkulatorkalorii.net,lellek.pl,pl.natec-zone.com,scentre.pl##div[data-gr="popup-container"] { remove: true }
+biedronka.pl#%#//scriptlet('remove-attr', 'inert', 'body > [inert]')
+biedronka.pl#@#body > [inert]:remove-class([inert])
 biznes-host.pl###myModalPromo, .modal-backdrop
 biznes-host.pl#$#.modal-open { overflow: auto !important }
 biznes-host.pl$$[id="myModalPromo"]
