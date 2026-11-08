@@ -31,7 +31,7 @@ bambineo.pl,pupilexpert.pl##.fancybox-container:has(#popup-newsletter, #newslett
 bezokularow.pl,scentre.pl##body.gr-body-popup-open[class]:style(overflow-y: auto !important)
 bezokularow.pl,scentre.pl##div[data-gr="popup-container"]
 biedronka.pl###dialog-popup
-biedronka.pl##body > [inert]:remove-class([inert])
+biedronka.pl##body > [inert]:remove-attr(inert)
 bielenda.com##+js(set-local-storage-item, _km_pg_last_seen, true)
 bryk.pl,deccoria.pl,halotu.polsat.pl,hub.pl,interia.pl,maxmodels.pl,~poczta.interia.pl,pomponik.pl,smaker.pl,takietam.pl,terazgotuje.pl,top.pl##+js(set-session-storage-item, int_stop_exit_popup, 1)
 carrefour.pl##body[style]:style(overflow-y: auto !important; padding-right: 0 !important)
