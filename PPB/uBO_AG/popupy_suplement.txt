@@ -112,8 +112,6 @@ otodom.pl###__next > div[class] + div:not([class], [id]):has(div[data-cy="modal"
 ozogtomczykowski.pl###homeModal
 pasmanteria.eu,sprzedajemyrosliny.pl,twojzwierzak.com.pl##.swal2-modal, .swal2-container
 paypo.pl##+js(set-cookie, pp_registration_modal_rejected, true)
-payukraine.com##.gl-blur:style(filter: none !important)
-payukraine.com##.pc_withoutCommissionBanner
 pepper.pl##+js(set-local-storage-item, guestBpnModalSeen, true)
 pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]:has(.oreo-message-emoticon)
 pixlr.com##body > div[id^="modal-"]:has(> div.announce > div.content > div#after-content)
