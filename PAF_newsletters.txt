@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sun, 08 Nov 2026, 12:57 UTC+01:00
-! Version: 2026.11.8.0
+! Last modified: Sun, 08 Nov 2026, 13:20 UTC+01:00
+! Version: 2026.11.8.1
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 08 lis 2026, 12:57 UTC+01:00
+! Aktualizacja: nie, 08 lis 2026, 13:20 UTC+01:00
 !
 !
 !
@@ -697,6 +697,7 @@ ginlong.com##.pc-rss2
 gino-rossi.com##.footer .top > ul > li:nth-of-type(2)
 girya.com.pl##div.copy.container-fluid:nth-of-type(2) > .container > div.text-center.col-xs-12.col-md-6:first-of-type
 github.com##section[class*="Newsletter-module__newsletter"]
+github.com##section[class^="newsletter_"]
 gliwice.eu,ukrainashop.com##.newsletter_wrap
 global4net.com##.footer-grid-el2.col-xl-6.col-12
 gloria24.pl##.tg-info-cookie
@@ -978,6 +979,7 @@ mailerlite.com##footer > div:only-child > div:first-child > div:last-child > :nt
 majsterkowo.pl,moj-kawalek-podlogi.pl,spirulina.pl,tato.net,techformator.pl,zatorland.pl###text-9
 makeup.pl##.Footer__subscribe > :not(.Footer__socials)
 makita.sklep.pl##.ModulNewsletterDol
+maluje.pl##.mx_newsletter > div
 malwarebytes.com,parkiet.com,sklep.krosno.com.pl,sklepmartes.pl##.site-footer__newsletter
 mam-serce.org##div.uk-section.uk-section-default:nth-of-type(10)
 mamaplus.pl###mc_embed_signup
@@ -1005,6 +1007,7 @@ maszynadopisania.pl,offshorewindpoland.pl##.ml-form-embedWrapper
 max-protect.pl,sklep-smile.pl##.footer-block-contain > .block1
 maxcom.pl##.main-footer.container > div:nth-child(5) > div:nth-child(2)
 maxibike.pl##.newsletter-holder
+maxsote.pl##.k_newsletterbox
 maylily.pl##.newsletter-footer-edrone
 mazovia.pl##.clearfix > .nice-shadow.search-block
 mazowsze.waw.pl##.footer__box__newsletter
@@ -1046,6 +1049,7 @@ milmag.pl##.newsletter__wrap
 miloohome.pl##.footer-container-newsletter
 mimari.com.pl##body > div#contentWrapper
 mirat.eu,ursus.com##.box-newsletter
+missisleepy.pl##.footer-top > div > div > div:nth-child(6)
 misterminit.eu##.blue-banner .banner-wrapper h3, .blue-banner .banner-wrapper h3 + div > a
 mixmedia.pl,mycenter.pl##.b-footerNewsletter
 mksklep.pl##div.CalyBox:nth-of-type(7)
@@ -1759,6 +1763,7 @@ vivaldi.com###newsletterpromo
 vivo-shopping.com##.site-newsletter__content
 vogue.pl###homepagenewsletter
 vox.pl##footer form:has(> div > label ~ input[name="newsletterEmail"])
+vox.pl##footer form:has(input[name="newsletterEmail"])
 vuch.pl##footer > .row > .nl-column.large-3.medium-6.xsmall-12.columns
 wabisabi-store.jp##.footer-newsletter_block
 waldtour.pl##.mailpoet-newsletter
