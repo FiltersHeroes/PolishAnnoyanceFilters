@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Newsletters
 ! Codename: Newsletters
 ! Description: Filtry ukrywające i blokujące newslettery (bez pop-upów).
-! Last modified: Sat, 31 Oct 2026, 20:24 UTC+01:00
-! Version: 2026.10.31.0
+! Last modified: Sun, 08 Nov 2026, 12:57 UTC+01:00
+! Version: 2026.11.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: sob, 31 paź 2026, 20:24 UTC+01:00
+! Aktualizacja: nie, 08 lis 2026, 12:57 UTC+01:00
 !
 !
 !
@@ -251,6 +251,7 @@ bestbody.com.pl###footer-top
 bestcena.pl##div[class^="newsletter-box"]
 bestprezenty.pl###snippet-newsletter-newsletter
 bezgluten.pl###footer > div:first-of-type > div:first-of-type
+bezglutenowamama.pl##.bm_newsletter
 bezmiesnymiesny.pl,clover.net.pl,ovczarnia.pl,swiatobuwia.com,wearethecoffee.com##div[class^="shb-newsletter-widget"]
 bezokularow.pl##.newsletter_wrap_get_response
 bezpieczenstwo.chorzow.eu##.newsletter.col-sm-12
@@ -407,7 +408,7 @@ cozaile.pl##.c-guide-newsletter
 crazyshop.pl,elle.pl,helion.pl,onepress.pl,partybox.pl,portalzp.pl##.bottom-newsletter
 crocs.pl,pl.pandora.net##.footer-email-signup
 cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
-crystal-albums.pl,monikahonory.pl,wielkishoe.com##.ml-subscribe-form.ml-form-embedContainer
+crystal-albums.pl,ebikeintelligence.pl,monikahonory.pl,wielkishoe.com##.ml-subscribe-form.ml-form-embedContainer
 ctek-ladowarki.pl###bestnewsletterbg
 ctpartners.pl##.ftresc2
 cudmoda.pl##.ps-emailsubscription-block > :nth-child(-n+2)
@@ -755,6 +756,7 @@ hotel.odr.net.pl##.ml-subscribe-form
 hoteladler.com##.span4.moduletable:nth-of-type(3)
 hotelcenturia.pl,kakadu.pl###newsletter_btn
 hotelkrynica.eu##.module-footer-newsletter
+hotelstok.pl##.site-footer__col--center:has(form)
 hotmed.pl###tm-bottom-c > div:nth-of-type(3) > .uk-panel
 hoyavision.com##.footer__subscribe
 humint.pl##.widget_custom_html.widget-footer.widget-default.widget.widget_text
@@ -928,6 +930,7 @@ lebork24.info###newsletterAdd
 lechia.pl##div.foot-cols.row:nth-of-type(2) > div.col-item:nth-of-type(3)
 lechpol.pl,speckable.pl##.ins-l-footer__col-newsletter
 lectus24.pl##.app-newsletter
+legal.link##.content_newsletter
 legalnews24.pl##.bezplatny_bliuletyn
 lego.com##.jxmAQk.EmailSubscriptionstyles__Wrapper-sc-48ulj8-1
 lellek.pl##footer .col-form
@@ -1337,6 +1340,7 @@ poznan.factory.pl##.pane-2.pane-custom.panel-pane
 praca.antyweb.pl##.bg-blue.hero
 prawo.pl##.wkNewsletterBlock
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
+prawozywnosciowe.info###block-3
 press.pl##.pressletter
 prestashop.com##.footer-nl
 prezydent.pl##.js-widget-subscription.widget-subscription.widget
@@ -1602,6 +1606,7 @@ strefakursow.pl##.b-site-footer__margin-right-30.u-flex-direction-col.u-display-
 strefapmi.pl##.col_last.right-edge.one-fourths.span_3.col
 strefaucznia.pl##.block.st_news_letter_4
 stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of-type(3)
+stylion.pl##.nl-slider
 sugarcubes.pl##.m-footer-7__column--with-newsletter
 superkoszyk.pl##.block-subscribe-footer
 supertech.pl##.ps-newsletter
