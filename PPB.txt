@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Thu, 05 Nov 2026, 18:18 UTC+01:00
-! Version: 2026.11.5.0
+! Last modified: Sun, 08 Nov 2026, 12:57 UTC+01:00
+! Version: 2026.11.8.0
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: czw, 05 lis 2026, 18:18 UTC+01:00
+! Aktualizacja: nie, 08 lis 2026, 12:57 UTC+01:00
 !
 !
 ! Newslettery (nie popupy)
@@ -252,6 +252,7 @@ bestbody.com.pl###footer-top
 bestcena.pl##div[class^="newsletter-box"]
 bestprezenty.pl###snippet-newsletter-newsletter
 bezgluten.pl###footer > div:first-of-type > div:first-of-type
+bezglutenowamama.pl##.bm_newsletter
 bezmiesnymiesny.pl,clover.net.pl,ovczarnia.pl,swiatobuwia.com,wearethecoffee.com##div[class^="shb-newsletter-widget"]
 bezokularow.pl##.newsletter_wrap_get_response
 bezpieczenstwo.chorzow.eu##.newsletter.col-sm-12
@@ -408,7 +409,7 @@ cozaile.pl##.c-guide-newsletter
 crazyshop.pl,elle.pl,helion.pl,onepress.pl,partybox.pl,portalzp.pl##.bottom-newsletter
 crocs.pl,pl.pandora.net##.footer-email-signup
 cryptoprofit.pl##.widget_mo_optin_widgets, a[href="http://cryptoprofit.pl/newsletter/"]
-crystal-albums.pl,monikahonory.pl,wielkishoe.com##.ml-subscribe-form.ml-form-embedContainer
+crystal-albums.pl,ebikeintelligence.pl,monikahonory.pl,wielkishoe.com##.ml-subscribe-form.ml-form-embedContainer
 ctek-ladowarki.pl###bestnewsletterbg
 ctpartners.pl##.ftresc2
 cudmoda.pl##.ps-emailsubscription-block > :nth-child(-n+2)
@@ -756,6 +757,7 @@ hotel.odr.net.pl##.ml-subscribe-form
 hoteladler.com##.span4.moduletable:nth-of-type(3)
 hotelcenturia.pl,kakadu.pl###newsletter_btn
 hotelkrynica.eu##.module-footer-newsletter
+hotelstok.pl##.site-footer__col--center:has(form)
 hotmed.pl###tm-bottom-c > div:nth-of-type(3) > .uk-panel
 hoyavision.com##.footer__subscribe
 humint.pl##.widget_custom_html.widget-footer.widget-default.widget.widget_text
@@ -929,6 +931,7 @@ lebork24.info###newsletterAdd
 lechia.pl##div.foot-cols.row:nth-of-type(2) > div.col-item:nth-of-type(3)
 lechpol.pl,speckable.pl##.ins-l-footer__col-newsletter
 lectus24.pl##.app-newsletter
+legal.link##.content_newsletter
 legalnews24.pl##.bezplatny_bliuletyn
 lego.com##.jxmAQk.EmailSubscriptionstyles__Wrapper-sc-48ulj8-1
 lellek.pl##footer .col-form
@@ -1338,6 +1341,7 @@ poznan.factory.pl##.pane-2.pane-custom.panel-pane
 praca.antyweb.pl##.bg-blue.hero
 prawo.pl##.wkNewsletterBlock
 prawodrogowe.pl##.footer-logo.footer-widget.col-md-2
+prawozywnosciowe.info###block-3
 press.pl##.pressletter
 prestashop.com##.footer-nl
 prezydent.pl##.js-widget-subscription.widget-subscription.widget
@@ -1603,6 +1607,7 @@ strefakursow.pl##.b-site-footer__margin-right-30.u-flex-direction-col.u-display-
 strefapmi.pl##.col_last.right-edge.one-fourths.span_3.col
 strefaucznia.pl##.block.st_news_letter_4
 stressfree.pl##.extra-marg.visible-md.visible-lg.col-md-7.col-lg-7 > .row:nth-of-type(3)
+stylion.pl##.nl-slider
 sugarcubes.pl##.m-footer-7__column--with-newsletter
 superkoszyk.pl##.block-subscribe-footer
 supertech.pl##.ps-newsletter
@@ -2545,6 +2550,7 @@ floslek.pl###closeModal
 follynail.com,taktutanio.pl###tloPopUp, #oknoPopUp
 fonia.app##.open.wcs-modal
 foodango.pl###ue_popups
+foodfakty.pl###dskSlideCard
 foodsbrothers.pl##.react-responsive-modal-root
 forgeofempires.com###offer-diamonds
 formeds.pl##body.klaviyo-prevent-body-scrolling > div:not([class], [id]):has(> .needsclick[class*="kl-private"])
@@ -3293,6 +3299,7 @@ investmap.pl#?#main > div > div:has(> a[href*="opinie"] + button) + div:has-text
 km.auto.pl,mokar.pl,saros.com.pl,wazcar.pl###push-notification-button
 krosno24.pl##.sw-notification-alert
 kupbilecik.pl###btn-notification
+leczna.pl###push
 mbank.pl###push-message
 meczyki.pl##.notifications-icon
 mediarun.com##.jeg_push_notification
@@ -3564,6 +3571,7 @@ astoreo.pl##.scrollButtons
 astrapolska.pl,mmtools.com.pl,swiezopalona.pl###scrollToTopBtn
 asus.com##div[class*="scrollTopWrapper_"]
 asystentbhp.pl##.gototop-button.gototop
+attackshark.pl##.reading-progress-section
 auchan.pl,bonprix.pl,supertech.pl,zakupopedia.pl##.scroll-to-top-btn
 auchanhetmanska.pl##.a-ScrollTop
 auchanswadzim.com.pl,ithardware.pl##.btnScrollToTop
@@ -3739,6 +3747,7 @@ douglas.pl##.rd__back-to-top
 drogeria-ekologiczna.pl##.scroll-up-arrow
 drweb-av.pl###scrollup_button
 drzwi-cal.pl##.js-site-scroll-up.site-scroll-up
+dsites.pl##.fixed:has(.lucide-arrow-up)
 dts24.pl##.nav-btn
 duka.com,electro.pl##.is-scrollToTop
 durszlak.pl##.button-icon-goup
@@ -3924,7 +3933,7 @@ jackjones.com##.js-back-to-top__button
 janssen.tv##.move-btn__parent
 jarock.pl,mentel.com.pl###back-to-top-btn
 jawis.pl,stalko.net.pl,techrol.com,webreklama.pl##.scrollDown
-jdsports.pl##.scroll
+jdsports.pl,port-zdrowia.pl##.scroll
 jmlnet.pl##.pi-scroll-top-arrow
 journals.viamedica.pl##.Back_To_Top_Button
 kaercher.com##.fg-totop
@@ -3992,6 +4001,7 @@ legalniewsieci.pl##.float-news-nav
 lek24.pl,stat.gov.pl##.go-top-btn
 lenovo.com##.back2top
 lfspareparts724.pl##.up.move, .down.move
+lg.com##.al-quick-btn__topbtn
 lgensol.pl##.footer-up
 liberte.sklep.pl##.gotto_f_top_box
 liderlamp.pl,podatki.gov.pl###scrollDown
@@ -4291,6 +4301,7 @@ storck.pl##.icon-toolbar-back-to-top
 store.ubi.com##.scroll-top-button-wrapper
 strauss.com##.mkt-footr-controls
 stylion.pl##.witly-back-to-top
+stylion.pl##button.ScrollToTop
 swatt.pl##.gmfbtop
 swiatksiazki.pl##.ScrollToTop
 swiatpodlog.com.pl,woprol.com.pl###scrolltotop
@@ -5020,6 +5031,7 @@ fonelab.com###share-list ul li.gmail
 fonelab.com###share-list ul li.whatsapp
 fonia.app,scentre.pl##elevenlabs-convai
 foodex24.pl##.ask-consultant
+foodfakty.pl##.shares-list > .one-share[data-action="share-whatsapp"]
 foto.auchan.pl##.sidebar-link[href="http://www.foto.auchan.pl/obsluga-klienta.html"]
 foxstrategy.pl###fbMsg
 fsmm.pl##body > .contactform
@@ -5143,6 +5155,7 @@ lellek.pl##.lellus
 lenalighting.pl,lodzkie.pl##.jj_sl_custom1
 lenovo.com,~www.lenovo.com###confirmit-feedback
 lento.pl##.btn-suggest
+lg.com##.al-quick-btn__quickbtn
 libertex.com###sherlockWidget
 lidl.pl##.feedback-flyout__button-box
 lidl.pl##button[aria-label="socialMediaBtn"][data-url*="m.me"]
@@ -5185,7 +5198,7 @@ medyczny.pl###social a[href^="gg:"]
 mega.lukow.pl,sklep.sigma-max.pl##.assistant-widget-drawer-content, .assistant-widget-container
 mera.eu##.footer__subbox--sm.footer__subbox:last-child
 metalmarket.eu###czat_main_content
-mgsm.pl###dify-chatbot-bubble-button
+mgsm.pl###dify-simple-button, #dify-chatbot-bubble-button, #dify-chatbot-bubble-window
 miasto.zgierz.pl###chatbotIframe
 mieszkanie.mitula.com.pl##.space-footer .wrap-send-comments
 militaria.pl,military.pl##.fc-widget-placeholder
@@ -5235,7 +5248,7 @@ nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
 okazik.pl###btn-message
 oknarolety.com##.attachment-mobile-bottom-right
-olimpstore.pl##.chat-widget
+olimpstore.pl,stylion.pl##.chat-widget
 olx.pl##.embedded-messaging
 omeda.pl##.boxRight:not(.fb)
 onstock.pl###ShopifyChat
@@ -5256,7 +5269,6 @@ panmaterac.pl###call-container-floating
 parkrozrywkizawada.pl,poklocki.pl,quantec.pl##.fa-paper-plane
 partnerpapes.pl##.elementor-button-wrapper
 pasland.pl###panel
-payukraine.com###jvlabelWrap
 pbgorski.pl##.call-back
 pbkm.pl##.side-bar__item--phone
 pccentre.pl###zak_error
@@ -6268,6 +6280,7 @@ lidia.pl,porcja.eu###allecomments
 lifemanagerka.pl##.posts-pagination
 lightingcenter.pl,spawaj.eu##.kac-sm-gmb
 lincoln.edu.pl##.s_kurs, .s_online
+linkedin.com###sdui-google-one-tap-consent-wrapper
 linkedin.com##.cta-modal:has(a[href^="ms-windows-store://"])
 linuxporady.pl,pskrk.com##.crestaPostsBox
 literackifestiwal.zakopane.eu###g-page-preloader
