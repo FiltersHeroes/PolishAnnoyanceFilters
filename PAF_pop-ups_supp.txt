@@ -304,7 +304,7 @@ bartek.com.pl#$#html { overflow: auto !important; margin-right: 0 !important }
 bartek.com.pl$$script[tag-content="popupNewsletter"]
 bezokularow.pl,chinytolubie.pl,cyberprofilaktyka.pl,kalkulatorkalorii.net,lellek.pl,pl.natec-zone.com,scentre.pl##div[data-gr="popup-container"] { remove: true }
 biedronka.pl#%#//scriptlet('remove-attr', 'inert', 'body > [inert]')
-biedronka.pl#@#body > [inert]:remove-class([inert])
+biedronka.pl#@#body > [inert]:remove-class(inert)
 biznes-host.pl###myModalPromo, .modal-backdrop
 biznes-host.pl#$#.modal-open { overflow: auto !important }
 biznes-host.pl$$[id="myModalPromo"]
