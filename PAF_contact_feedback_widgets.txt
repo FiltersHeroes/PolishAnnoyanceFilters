@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Contact/Feedback Widgets
 ! Codename: Contact Widgets
 ! Description: Filtry ukrywające i blokujące widżety kontaktowe/informacji zwrotnej.
-! Last modified: Tue, 20 Oct 2026, 21:25 UTC+02:00
-! Version: 2026.10.20.0
+! Last modified: Sun, 08 Nov 2026, 12:57 UTC+01:00
+! Version: 2026.11.8.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: wto, 20 paź 2026, 21:25 UTC+02:00
+! Aktualizacja: nie, 08 lis 2026, 12:57 UTC+01:00
 !
 !
 !
@@ -373,6 +373,7 @@ fonelab.com###share-list ul li.gmail
 fonelab.com###share-list ul li.whatsapp
 fonia.app,scentre.pl##elevenlabs-convai
 foodex24.pl##.ask-consultant
+foodfakty.pl##.shares-list > .one-share[data-action="share-whatsapp"]
 foto.auchan.pl##.sidebar-link[href="http://www.foto.auchan.pl/obsluga-klienta.html"]
 foxstrategy.pl###fbMsg
 fsmm.pl##body > .contactform
@@ -496,6 +497,7 @@ lellek.pl##.lellus
 lenalighting.pl,lodzkie.pl##.jj_sl_custom1
 lenovo.com,~www.lenovo.com###confirmit-feedback
 lento.pl##.btn-suggest
+lg.com##.al-quick-btn__quickbtn
 libertex.com###sherlockWidget
 lidl.pl##.feedback-flyout__button-box
 lidl.pl##button[aria-label="socialMediaBtn"][data-url*="m.me"]
@@ -538,7 +540,7 @@ medyczny.pl###social a[href^="gg:"]
 mega.lukow.pl,sklep.sigma-max.pl##.assistant-widget-drawer-content, .assistant-widget-container
 mera.eu##.footer__subbox--sm.footer__subbox:last-child
 metalmarket.eu###czat_main_content
-mgsm.pl###dify-chatbot-bubble-button
+mgsm.pl###dify-simple-button, #dify-chatbot-bubble-button, #dify-chatbot-bubble-window
 miasto.zgierz.pl###chatbotIframe
 mieszkanie.mitula.com.pl##.space-footer .wrap-send-comments
 militaria.pl,military.pl##.fc-widget-placeholder
@@ -588,7 +590,7 @@ nuzle.pl###btn-suggest
 nvt.pl##.buttonWycena
 okazik.pl###btn-message
 oknarolety.com##.attachment-mobile-bottom-right
-olimpstore.pl##.chat-widget
+olimpstore.pl,stylion.pl##.chat-widget
 olx.pl##.embedded-messaging
 omeda.pl##.boxRight:not(.fb)
 onstock.pl###ShopifyChat
@@ -609,7 +611,6 @@ panmaterac.pl###call-container-floating
 parkrozrywkizawada.pl,poklocki.pl,quantec.pl##.fa-paper-plane
 partnerpapes.pl##.elementor-button-wrapper
 pasland.pl###panel
-payukraine.com###jvlabelWrap
 pbgorski.pl##.call-back
 pbkm.pl##.side-bar__item--phone
 pccentre.pl###zak_error
