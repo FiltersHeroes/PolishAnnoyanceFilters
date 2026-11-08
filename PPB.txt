@@ -5,8 +5,8 @@
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka, widgety, newslettery, powiadomienia push, strzałki, otagowane linki wewnętrzne, które są nie na temat artykułów (np. link do pracy w Bydgoszczy w artykule o pogodzie) i inne drażniące elementy (Polskie Filtry RODO-Ciasteczkowe oryginalnie stworzone przez MajkiIT są już w nich zawarte).
 ! Required: Do poprawnego przeciwdziałania komunikatom RODO-Ciasteczkowym wymagana jest lista EasyList Cookie Notices!
 ! Expires: 2 days
-! Last modified: Sun, 08 Nov 2026, 17:57 UTC+01:00
-! Version: 2026.11.8.3
+! Last modified: Sun, 08 Nov 2026, 22:16 UTC+00:00
+! Version: 2026.11.8.4
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -15,7 +15,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Creator: blocker999
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 08 lis 2026, 17:57 UTC+01:00
+! Aktualizacja: nie, 08 lis 2026, 22:16 UTC+00:00
 !
 !
 ! Newslettery (nie popupy)
@@ -283,7 +283,6 @@ biuroprasowe.porta.com.pl###newsletter-story-page, .newsletter-story_page
 biurowezakupy24.pl,szkolnezakupy.pl###mod-newsletter
 bizay.pl##div.col-xs-3 > .footer-sub-title
 biznes-wprost-pl.cdn.ampproject.org,biznes.wprost.pl##.art-newsletter
-biznes.gazetaprawna.pl,dziennik.pl,forsal.pl##.newsButton
 blik.com,emaillabs.io##.newsletter-iframe
 blip.pl###salesmanagoIframe
 blip.pl,chcemybycrodzicami.pl##.front-newsletter
@@ -361,7 +360,7 @@ cersanit.com.pl###footer-page .js-medium-col-1.medium-4.small-6.columns
 cezal24.pl,rehus.pl###text-4
 cezal.lublin.pl###footgroup3
 cezar.eu##.container > div.col50.kolumna:nth-of-type(2)
-cgm.pl,forsal.pl,horsklep.pl,sklep.olekmotocykle.pl##.footerNewsletter
+cgm.pl,dziennik.pl,forsal.pl,gazetaprawna.pl,horsklep.pl,ikomunikaty.pl,infor.pl,sklep.olekmotocykle.pl##.footerNewsletter
 channel9.msdn.com##.mouseClick.mediumIcon.email
 chatapolska.pl##.yellow-bg.no-padding.col-xs-12
 chataskrzata.eu,genesis-zone.com,otwarte.eu##:not(#newsletter-overlay) #newsletter-box
@@ -504,7 +503,10 @@ duka.com,lot.com##.is-newsletter
 dulux.pl###block-flourish-newsletter-subscription-flourish-newsletter-subscription
 dystronet.pl##.post > #gr-form
 dzieje.pl###block-newsletterblock
-dziennik.pl,forsal.pl,gazetaprawna.pl##.footerNewsletterContent
+dziennik.pl,forsal.pl,gazetaprawna.pl,ikomunikaty.pl,infor.pl##.footerNewsletterContent
+dziennik.pl,forsal.pl,gazetaprawna.pl,ikomunikaty.pl,infor.pl##.newsButton
+dziennik.pl,forsal.pl,gazetaprawna.pl,ikomunikaty.pl,infor.pl##.newsletterButton
+dziennik.pl,forsal.pl,gazetaprawna.pl,ikomunikaty.pl,infor.pl##a[href*="newsletter"][title="Newsletter"], a[href*="#newsletter"]
 dziennikzbrojny.pl##.columns.four
 dziewczynynapolitechniki.pl##.col-sm-3:nth-of-type(3)
 e-clarena.eu###zapisz_newsletter_box
@@ -1504,6 +1506,7 @@ sklep.carinii.com.pl##.footer > .email-signup
 sklep.elitpolska.pl##.newsletter-block-sticky
 sklep.energylandia.pl##.topBanner
 sklep.grupamagnum.eu##.leftcol > #box_custom81 > center > iframe[src^="https://media-grupamagnum.ipresso.pl"]
+sklep.infor.pl##.newsletter-footer-row
 sklep.jelp.pl###freshmail > .pull-left
 sklep.kawa.pl##.NewsletterPopup
 sklep.kotrak.com##.newsletter1-wrapper > * > *
@@ -5798,7 +5801,6 @@ arms.com.pl,chipkomputery.pl,mdron.pl###basketslider
 artelis.pl##.art-navstripe
 artlazienkowe.pl###widget_shop1 > div:nth-of-type(2)
 asport.pl##.hit-tygodnia
-astronomia.media.pl,globalna.info,pysznieczyprzepysznie.pl,szybkaprzemiana.pl,waterpikpolska.pl,wegecentrum.pl##.single-navigation[class*="post"]
 aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,natemat.pl,topnewsy.pl##.art > div:first-child > div:not([class]) + div[class]:has(> img[src*="tip."]:first-child + p[class]:last-child)
 ataksja.org.pl,przyszloscdladzieci.org##.fm-teaser
 atrakcjenaimprezy.pl###boxes
@@ -6943,6 +6945,7 @@ polsatnews.pl##.series__item { remove: true }
 ##.reklama-box
 ##.sales_pop__box:lang(pl)
 ##.side_widget:lang(pl)
+##.single-navigation[class*="post"]
 ##.slideout-widget:lang(pl)
 ##.SliderPrzycisk
 ##.sm-gmap:lang(pl)
