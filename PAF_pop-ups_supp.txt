@@ -24,6 +24,8 @@ apynews.pl,gameonly.pl,hardreset.info,kocmyrzow-luborzyca.ug.gov.pl,mamalla.pl,m
 apynews.pl,gameonly.pl,ps-plus.pl###fb-modal, .modal-backdrop
 art.sarzynski.com.pl,autonaminuty.org,foodsbrothers.pl,kosapopatelni.pl,lesniow.pl,texacopolska.pl##.mfp-bg.mfp-ready, .mfp-wrap.mfp-ready
 art.sarzynski.com.pl,foodsbrothers.pl,lesniow.pl,texacopolska.pl##:root[style*="overflow"]:style(overflow-y: auto !important; margin-right: 0 !important; padding-right: 0 !important)
+audiomagic.pl###am-outlet-modal, .modal-backdrop
+audiomagic.pl##.modal[id^="Widget"], .modal-backdrop
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-body-scroll-prevented[class]:style(touch-action: auto !important)
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal, .tp-backdrop
 auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal-open[class]:style(position: static !important; overflow-y: auto !important)
@@ -37,6 +39,7 @@ bezokularow.pl,scentre.pl##div[data-gr="popup-container"]
 biedronka.pl###dialog-popup
 biedronka.pl##body > [inert]:remove-class([inert])
 bielenda.com##+js(set-local-storage-item, _km_pg_last_seen, true)
+bryk.pl,deccoria.pl,halotu.polsat.pl,hub.pl,interia.pl,maxmodels.pl,~poczta.interia.pl,pomponik.pl,smaker.pl,takietam.pl,terazgotuje.pl,top.pl##+js(set-session-storage-item, int_stop_exit_popup, 1)
 carrefour.pl##body[style]:style(overflow-y: auto !important; padding-right: 0 !important)
 carrefour.pl##div[class*="jss"][role="dialog"]:has(> div > div > div > img[src="/cms//default/images/welcome/welcome-discount.jpg"])
 ceneo.pl##.noscroll:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important)
@@ -138,14 +141,14 @@ oneplus.com##.auto-subscribe-dialog, .auto-subscribe-tip
 oneplus.com##:root:style(margin-right: 0 !important)
 oneplus.com##body.dialog-lock:style(position: unset !important)
 open.fm##+js(aeld, unload)
+opieka.farm##html[style*="overflow"]:style(overflow-y: auto !important)
+opieka.farm##p3g-okno
 opoczno.eu,royalpark.pl##:root.fancybox-lock:style(overflow-y: auto !important; margin-right: 0 !important)
 osada-sniezka.pl##.wa-popup
 otodom.pl###__next > div[class] + div:not([class], [id]):has(div[data-cy="modal"][role="dialog"] p:has-text(Zapisuj))
 ozogtomczykowski.pl###homeModal
 pasmanteria.eu,sprzedajemyrosliny.pl,twojzwierzak.com.pl##.swal2-modal, .swal2-container
 paypo.pl##+js(set-cookie, pp_registration_modal_rejected, true)
-payukraine.com##.gl-blur:style(filter: none !important)
-payukraine.com##.pc_withoutCommissionBanner
 pepper.pl##+js(set-local-storage-item, guestBpnModalSeen, true)
 pepper.pl##.zIndex--modal[class^="popover"][class*="bottom"]:has(.oreo-message-emoticon)
 pixlr.com##body > div[id^="modal-"]:has(> div.announce > div.content > div#after-content)
