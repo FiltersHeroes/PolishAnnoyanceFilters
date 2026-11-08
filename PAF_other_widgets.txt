@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Other Elements
 ! Codename: Other Elements
 ! Description: Filtry ukrywające i blokujące różne inne irytujące elementy.
-! Last modified: Sun, 08 Nov 2026, 17:55 UTC+01:00
-! Version: 2026.11.8.1
+! Last modified: Sun, 08 Nov 2026, 23:17 UTC+01:00
+! Version: 2026.11.8.2
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 08 lis 2026, 17:55 UTC+01:00
+! Aktualizacja: nie, 08 lis 2026, 23:17 UTC+01:00
 !
 !
 !
@@ -164,7 +164,6 @@ arms.com.pl,chipkomputery.pl,mdron.pl###basketslider
 artelis.pl##.art-navstripe
 artlazienkowe.pl###widget_shop1 > div:nth-of-type(2)
 asport.pl##.hit-tygodnia
-astronomia.media.pl,globalna.info,pysznieczyprzepysznie.pl,szybkaprzemiana.pl,waterpikpolska.pl,wegecentrum.pl##.single-navigation[class*="post"]
 aszdziennik.pl,dadhero.pl,innpoland.pl,mamadu.pl,natemat.pl,topnewsy.pl##.art > div:first-child > div:not([class]) + div[class]:has(> img[src*="tip."]:first-child + p[class]:last-child)
 ataksja.org.pl,przyszloscdladzieci.org##.fm-teaser
 atrakcjenaimprezy.pl###boxes
@@ -1308,6 +1307,7 @@ polsatnews.pl##.series__item { remove: true }
 ##.reklama-box
 ##.sales_pop__box:lang(pl)
 ##.side_widget:lang(pl)
+##.single-navigation[class*="post"]
 ##.slideout-widget:lang(pl)
 ##.SliderPrzycisk
 ##.sm-gmap:lang(pl)
