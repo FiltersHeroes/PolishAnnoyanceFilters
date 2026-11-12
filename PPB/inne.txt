@@ -1135,6 +1135,7 @@ yves-rocher.pl##.layout-banner__top.layout-banner
 z-hotel.com###repuso_floating
 zadowolenie.pl##.b-bragLabel
 zakupy.auchan.pl##div[aria-label*="kupon"][data-test="pop-up-banner"]
+zakupy.auchan.pl##div:matches-css(position: fixed):matches-css(bottom: /^([0-9]|[1-4][0-9])px$/)
 zatorland.pl##.pogoda
 zdrowycatering.pl##.hentry iframe[src*="ratingcaptain.com/"]
 zdrowyportal.org##.floatBottom
