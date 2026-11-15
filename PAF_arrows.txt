@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Arrows
 ! Codename: Arrows
 ! Description: Filtry ukrywające i blokujące strzałki.
-! Last modified: Wed, 11 Nov 2026, 23:04 UTC+01:00
-! Version: 2026.11.11.0
+! Last modified: Sun, 15 Nov 2026, 19:44 UTC+01:00
+! Version: 2026.11.15.0
 ! Expires: 3 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: śro, 11 lis 2026, 23:04 UTC+01:00
+! Aktualizacja: nie, 15 lis 2026, 19:44 UTC+01:00
 !
 !
 ! Specyficzne filtry
@@ -209,6 +209,7 @@ casfera.pl,catzy.pl,paypo.pl,polska-posciel.pl,reklama.gazeta.pl##.scroll-top-bt
 casu.pl##.btn_scroll
 cateromarket.pl##footer a[href="javascript:void(0)"]:has(> svg)
 cds-lider.com.pl,polsero.pl,www.nowiny.gliwice.pl##.btn-up
+cebit.pl##.dfd-back-to-top-button
 cebule-kwiatowe.pl,geo-polska.pl,hurtowniazabawek.pl##.scrollBackToTop
 cedynia.pl,napisy24.pl,wegemaluch.pl###smoothtop
 cellbes.pl,www.akademiareklamy.edu.pl###topscroller
@@ -449,7 +450,7 @@ hotelbania.pl##.js-scroll-to
 hulajnet.pl##footer ~ #btt:has(.glyphicon-chevron-up)
 humanitas.edu.pl##.jump_arrow
 hungryeyes.pl##.w-inline-block.anchor-link
-hurtowniawalizek.pl##.pk-scroll-totop
+hurtowniawalizek.pl,swiat-dziecka.pl##.pk-scroll-totop
 hurtum.pl,juvepoland.com,myphone.pl,reeva-foods.com##.scroller
 i-apteka.pl##.n60972_main_cop_right
 iautomatyka.pl##.pf-up-but
@@ -726,6 +727,8 @@ plejada.pl###goback
 pm-m.pl,rolmarket.pl,zniczeadam.pl###scrollTopButton
 poczta.gazeta.pl##button[title="Wróć na początek strony"]
 pod24.info###ybscrollup
+podroze.mediaexpert.pl##button[aria-label="Idź do góry strony"]
+podroze.mediaexpert.pl##div[data-track-scope="BackToTop"]
 pogoda.interia.pl##.service-lift
 polkurier.pl##.mouse
 polo-motorrad.pl###w2b-StoTop
@@ -854,6 +857,7 @@ store.ubi.com##.scroll-top-button-wrapper
 strauss.com##.mkt-footr-controls
 stylion.pl##.witly-back-to-top
 stylion.pl##button.ScrollToTop
+sunew.pl##.btn_go_top
 swatt.pl##.gmfbtop
 swiatksiazki.pl##.ScrollToTop
 swiatpodlog.com.pl,woprol.com.pl###scrolltotop
