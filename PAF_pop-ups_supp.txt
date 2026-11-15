@@ -2,6 +2,10 @@
 ||mailerlite.com^$3p,important,domain=beitadmin.pl
 !@ >>>>>>>> popupy_suplement + https://raw.githubusercontent.com/FiltersHeroes/PolishSocialCookiesFiltersDev/master/sections/adblock_social_list/uBO_AG/popupy_suplement.txt
 !atakto.pl,mytrendyphone.pl##div[id^="om-holder-campaign-"].om-holder-fixed.om-holder
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-body-scroll-prevented[class]:style(touch-action: auto !important)
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal, .tp-backdrop
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal-open[class]:style(position: static !important; overflow-y: auto !important)
+!auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-scroll-prevented[class]:style(overflow-y: auto !important; touch-action: auto !important)
 !instytutozonoterapii.pl##.popmake-overlay[data-popmake*="zapisz-sie-do-newslettera"]
 !kreatywna-europa.eu##.pum[data-popmake*="newsletter"]
 a2mobile.pl##.relative.modal, .z-40.inset-0.fixed
@@ -26,10 +30,6 @@ art.sarzynski.com.pl,autonaminuty.org,foodsbrothers.pl,kosapopatelni.pl,lesniow.
 art.sarzynski.com.pl,foodsbrothers.pl,lesniow.pl,texacopolska.pl##:root[style*="overflow"]:style(overflow-y: auto !important; margin-right: 0 !important; padding-right: 0 !important)
 audiomagic.pl###am-outlet-modal, .modal-backdrop
 audiomagic.pl##.modal[id^="Widget"], .modal-backdrop
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-body-scroll-prevented[class]:style(touch-action: auto !important)
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal, .tp-backdrop
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal-open[class]:style(position: static !important; overflow-y: auto !important)
-auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-scroll-prevented[class]:style(overflow-y: auto !important; touch-action: auto !important)
 autonaminuty.org##:root[style]:style(overflow-y: auto !important; margin-right: 0 !important)
 avita.pl,educol.pl,jan-mar.pl,pionierbhp.pl,pracownia-manufaktura.pl,wiener.pl##.tingle-enabled[class]:style(position: static !important; overflow-y: auto !important)
 avita.pl,educol.pl,jan-mar.pl,pionierbhp.pl,pracownia-manufaktura.pl,wiener.pl##.tingle-modal
