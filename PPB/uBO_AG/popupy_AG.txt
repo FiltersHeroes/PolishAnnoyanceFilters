@@ -1,18 +1,17 @@
-sunew.pl#$#div[data-gr="popup-container"] { remove: true }
-blog-daneosobowe.pl#$#div[data-gr="popup-container"] { remove: true }
-bezokularow.pl,scentre.pl#$#div[data-gr="popup-container"] { remove: true }
 apynews.pl$$[id="fb-modal"]
 arms.com.pl,chrisbenzshop.pl,e-forma.pl,homeoapteka.pl,meblezagrosze.pl,oponyalbert.pl,zegarkiabc.pl$$[id="newsletter_colorbox"]
 bartek.com.pl##.journal-popup, .mfp-bg, .mfp-ready
 bartek.com.pl#$#html { overflow: auto !important; margin-right: 0 !important }
 bartek.com.pl$$script[tag-content="popupNewsletter"]
 bezokularow.pl,chinytolubie.pl,cyberprofilaktyka.pl,kalkulatorkalorii.net,lellek.pl,pl.natec-zone.com,scentre.pl##div[data-gr="popup-container"] { remove: true }
+bezokularow.pl,scentre.pl#$#div[data-gr="popup-container"] { remove: true }
 biedronka.pl#%#//scriptlet('remove-attr', 'inert', 'body > [inert]')
 biedronka.pl#@#body > [inert]:remove-class(inert)
 biznes-host.pl###myModalPromo, .modal-backdrop
 biznes-host.pl#$#.modal-open { overflow: auto !important }
 biznes-host.pl$$[id="myModalPromo"]
 biznesinfo.pl,domekiogrodek.pl,goniec.pl,pacjenci.pl,rolnikinfo.pl,swiatgwiazd.pl,swiatsportu.pl,swiatzwierzat.pl,techgame.pl,turysci.pl,wawainfo.pl,wtv.pl,zdrogi.pl#%#//scriptlet('set-local-storage-item', '__iberion__publisherPromptSeen', '3')
+blog-daneosobowe.pl#$#div[data-gr="popup-container"] { remove: true }
 comperia.pl$$[id="modal_woman"]
 cyberfolks.pl$$[id="myModalDomenowy"]
 diamante-wear.com$$[class="newsletter__popup"]
@@ -36,4 +35,5 @@ shoplet.pl##html.fancybox-lock:style(overflow: auto !important)
 shoplet.pl##html.fancybox-margin:style(margin-right: 0 !important)
 shoplet.pl#?#.fancybox-overlay:has(#x13callback)
 sportowefakty.wp.pl$$[id="exitpopup"]
+sunew.pl#$#div[data-gr="popup-container"] { remove: true }
 zoo.bydgoszcz.com$$[id="NewsShow"]
