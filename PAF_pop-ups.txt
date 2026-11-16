@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Pop-ups
 ! Codename: Pop-ups
 ! Description: Filtry ukrywające i blokujące wyskakujące okienka.
-! Last modified: Sun, 15 Nov 2026, 20:11 UTC+01:00
-! Version: 2026.11.15.1
+! Last modified: Tue, 17 Nov 2026, 00:46 UTC+01:00
+! Version: 2026.11.17.0
 ! Expires: 2 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 15 lis 2026, 20:11 UTC+01:00
+! Aktualizacja: wto, 17 lis 2026, 00:46 UTC+01:00
 !
 !
 !
@@ -181,6 +181,7 @@ akson.pl###eventPopup
 albo24.pl##body > div:not([class], [id]) > div[class][style*="z-index"][style*="position"][style*="fixed"]
 aledobre.pl,mniammniam.com###universal-popup-wrapper
 aleleki.pl,florini.pl###fancybox-overlay
+alesmyk.pl##.ct-drawer-canvas
 alget.pl,kontaktowe.pl,polskiesolitery.pl###jOverlayContent, #jOverlay
 aliexpress.com##.coupon-poplayer-modal
 aliexpress.com##.drogue-poplayer-modal
@@ -432,7 +433,7 @@ dzinga.com###dzinga .overlay, #dzinga .popup
 dzwignice.pl##.bg
 e-iglaki.pl###szkolenie-message
 e-insportline.pl###vivpopup-collapsed
-e-kidsplanet.com##.banner, .banner-curtain
+e-kidsplanet.com,stylion.pl##.nl-popup-overlay
 e-kobi.pl###newsletter-popupA
 e-kwiaty.pl###exitpopup-newsletter
 e-maciejka.pl###popup-newsletter
@@ -615,6 +616,7 @@ klinikaagd.pl##.koszyk
 knowband.com###fancybox_ns-wrap, #fancybox_ns-overlay, .knowband-popup.kb_lightBox_popup, #exitpopup-modal
 kobietyipodryw.pl##.cd-popup
 kodano.pl###cboxOverlay, .bg_orange_popup, .i-am-new
+kokosek.pl##.newsletterp
 kolejedolnoslaskie.pl##.ays-pb-modals
 kolniak24.eu##.topLayer
 kolobrzeg.pl###dailyfullscreen
@@ -732,6 +734,7 @@ motobros.pl,rooader.pl,sklep.mieloch.pl###nicePopupWrapper
 mpolska24.pl###before-leave-window
 mpolska24.pl##.window
 mtv24.tv###mdfb
+mulan.pl##.swal-shop-action-popup
 multidrogeria.pl##.pupup
 multimed.pl###call-me-overlay
 muratordom.pl###nlt_popup
@@ -984,7 +987,6 @@ strefakursow.pl##.b-newsletter-popup, .p-black-overlay
 strefaurody.pl###pushpushgo-container
 studiohifi.pl,turystyka.torun.pl###cboxWrapper, #cboxOverlay, #colorbox
 stukstuk.pl###tws_s_0
-stylion.pl##.nl-popup-overlay
 subiektywnieofinansach.pl###similar-overlay-wrapper
 sudafed.pl###video-layer
 sumiennyksiegowy.pl###ilosc-zapytan
