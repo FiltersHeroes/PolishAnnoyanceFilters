@@ -158,7 +158,6 @@ swiatksiazki.pl##.NewsletterPopup
 swiatksiazki.pl##:root.scrollDisabled:remove-class(scrollDisabled)
 swiatksiazki.pl##:root.scrollDisabled[class]:style(position: static !important; overflow-y: auto !important)
 twojekwiaty.pl###exitPopup
-yerbador.pl##.ngp-pop
 ubraniadooddania.pl##.registration-modal
 unityline.pl##.image-popup__wrap, .image-popup__underlay
 unityline.pl##.newsletter-popup__wrap, .newsletter-popup__underlay
@@ -180,6 +179,7 @@ www.facebook.com##body > div.uiLayer[style="opacity: 1; min-width: 40px;"]:has(>
 www.microsoft.com###email-newsletter-dialog
 www.pkobp.pl##.locked-scroll:style(position: static !important; overflow-y: auto !important; padding-right: 0 !important)
 www.pkobp.pl##.modal:has(form[id*="exitpopup"])
+yerbador.pl##.ngp-pop
 zadowolenie.pl##.modal:has(img[src*="ZDW_NL_box"])
 zakupy.auchan.pl##+js(set-cookie, startup_popup_closed, true)
 zakupy.intermarche.pl##+js(set-cookie, loginPopupDisabled, true)
