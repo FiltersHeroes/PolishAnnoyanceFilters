@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Mon, 05 Oct 2026, 00:23 UTC+02:00
-! Version: 2026.10.5.0
+! Last modified: Sun, 22 Nov 2026, 18:11 UTC+01:00
+! Version: 2026.11.22.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: pon, 05 paź 2026, 00:23 UTC+02:00
+! Aktualizacja: nie, 22 lis 2026, 18:11 UTC+01:00
 !
 !
 !
@@ -37,7 +37,6 @@ codziennypoznan.pl,ipolska24.pl##.floating-player-started > .xlink-floating-wsx
 crazypig.pl##.wengdo-scroll-to-top
 czasdzieci.pl##.pushNews[class*="section"]
 deccoria.pl##.dc-floatingvideo__wrapper[class*="fixed"]
-deccoria.pl,halotu.polsat.pl,interia.pl,pomponik.pl##div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
 doradcasmaku.pl##.widget-video .fixed
 dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.videoScroll, .closeVideoBtn
 elle.pl,focus.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
@@ -103,12 +102,14 @@ wrc.net.pl##.sticky-video.sticky.is-stuck
 ~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl##.wpp-sticky[floating="true"]
 ~1login.wp.pl,pl,~poczta.o2.pl,~poczta.wp.pl,~www.wp.pl##wpp-sticky[floating="true"]
 ~eu,~pl##.atomsVideoVideoWithSticky__container.js-sticky:lang(pl)
+~pl##:lang(pl) div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
 com,eu,info,pl,to,tv###onNetworkContainer .miniature [style*="fixed"]
 com,eu,info,pl,to,tv##.o-video-box__player .miniature [style*="fixed"]
 com,eu,info,pl,to,tv##div[id*="ONNP"].miniature div[id*="ONNP"][style*="fixed"]
 eu,pl##.atomsVideoVideoWithSticky__container.js-sticky
 pl##.videoPlayer.is--persistent:not(.ended)
 pl##div.miniature.onnetworkplayercontainer > div.alwplayer
+pl,~poczta.interia.pl##div.vjs-fixedmonitor-wrapper > div.vjs-fixedmonitor-wrapper-fixed.vjs-fixedmonitor-fixed:not(.vjs-fixedmonitor-fixed-slide-down)
 !
 !
 ! Filtry specjalne
