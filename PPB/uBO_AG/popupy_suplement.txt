@@ -1,5 +1,3 @@
-wiescirolnicze.pl###axnBodyContainer
-wiescirolnicze.pl##body.is-no-scroll:style(overflow-y: auto !important)
 !atakto.pl,mytrendyphone.pl##div[id^="om-holder-campaign-"].om-holder-fixed.om-holder
 !auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-body-scroll-prevented[class]:style(touch-action: auto !important)
 !auto-swiat.pl,businessinsider.com.pl,fakt.pl,komputerswiat.pl,medonet.pl,newsweek.pl,noizz.pl,onet.pl,plejada.pl##.tp-modal, .tp-backdrop
@@ -172,6 +170,8 @@ webber.com.pl##.compensate-for-scrollbar[class]:style(overflow-y: auto !importan
 westwing.pl##body[style*="top"][style*="position"]:style(position: static !important)
 westwing.pl##div[data-component-name="Overlay"] > .qa-overlay:has(.qa-sign-up-overlay__content)
 westwingnow.pl##+js(nostif, showOverlay)
+wiescirolnicze.pl###axnBodyContainer
+wiescirolnicze.pl##body.is-no-scroll:style(overflow-y: auto !important)
 winnicalidla.pl##+js(ra, style, html[style*="overflow"][style*="auto"], stay)
 wishbone.pl##.theme-modal-wrapper, .theme-modal-overlay
 www.auchan.pl##+js(aeld, /^(?:wheel|keydown)$/, [native code])
