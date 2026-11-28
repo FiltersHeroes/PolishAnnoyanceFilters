@@ -3,8 +3,8 @@
 ! Polish Annoyance Filters - Scrolling Videos
 ! Codename: Scrolling Videos
 ! Description: Filtry zatrzymujące scrollujące filmiki.
-! Last modified: Sun, 22 Nov 2026, 18:11 UTC+01:00
-! Version: 2026.11.22.0
+! Last modified: Sat, 28 Nov 2026, 16:13 UTC+01:00
+! Version: 2026.11.28.0
 ! Expires: 4 days
 ! Najnowsza wersja zawsze na: https://github.com/FiltersHeroes/PolishAnnoyanceFilters
 ! Zgłoszenia:
@@ -13,7 +13,7 @@
 ! License: CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed)
 ! Homepage: https://polishannoyancefilters.netlify.app
 ! Maintainer: Filters Heroes
-! Aktualizacja: nie, 22 lis 2026, 18:11 UTC+01:00
+! Aktualizacja: sob, 28 lis 2026, 16:13 UTC+01:00
 !
 !
 !
@@ -42,7 +42,7 @@ dziennik.pl,forsal.pl,gazetaprawna.pl,infor.pl##.videoScroll, .closeVideoBtn
 elle.pl,focus.pl,gala.pl,glamour.pl,kobieta.pl,mojegotowanie.pl,mojpieknyogrod.pl,national-geographic.pl,przyslijprzepis.pl##.flyMoviPlayer
 encyklopedia.pwn.pl,sjp.pwn.pl##div[id^="vjs-rcp"].video-js
 eurosport.tvn24.pl##div.picture-in-picture.fixed, div[data-testid="player-pip-active"]
-farmer.pl##.closable.is-sticky.stickable
+farmer.pl,wiescirolnicze.pl##.closable.is-sticky.stickable
 filmweb.pl##.isPinned.videoPlayer > .videoPlayer__container
 gamereactor.pl##.playersmall
 gdansk.pl###players_rama > img ~ #players_close[style*="display:"][style*="block"], #players_rama > img ~ #players_close[style*="display:"][style*="block"] ~ #players
@@ -61,7 +61,7 @@ ortograf.pl##.vj-fixed
 pl.blogpascher.com###site-scroll-top
 playgwent.com##.c-big-stream__video--sticked.c-big-stream__video
 pogoda.interia.pl##.inpl-tout-sticky.body__common-header--fixed .vjs-fixedmonitor-wrapper-fixed
-propertynews.pl##.detached.do-stick.featured-movie
+propertynews.pl,wiescirolnicze.pl##.detached.do-stick.featured-movie
 prymat.pl##body > div[style*="fixed"]:has(a[href*="promocje"] video)
 przeambitni.pl##.mvp-vid-fixed
 punkt.media##div[id^="em"][style*="position: fixed;"]
